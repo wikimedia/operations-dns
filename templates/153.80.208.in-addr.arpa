@@ -1,0 +1,30 @@
+$TTL 3600
+$ORIGIN $zonename.
+@                       1D      IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
+                                        $serial         ; serial
+                                        12H             ; refresh
+                                        2H              ; retry
+                                        2W              ; expiry
+                                        1H              ; negative cache TTL
+                                        )
+
+; Name servers
+
+                        1D      IN NS   ns0.wikimedia.org.     ; zwinger
+                        1D      IN NS   ns1.wikimedia.org.     ; amaryllis
+                        1D      IN NS   ns2.wikimedia.org.     ; pascal
+
+; Public services subnet 208.80.153.128/26 (208.80.152.128 - 208.80.152.191)
+
+129     1H IN PTR       vrrp-gw-104.wikimedia.org.
+130	1H IN PTR	transcode1.wikimedia.org.
+131	1H IN PTR	virt1.wikimedia.org.
+132	1H IN PTR	cam1-a-b-sdtpa.wikimedia.org.
+133	1H IN PTR	cam1-b-c-sdtpa.wikimedia.org.
+134	1H IN PTR	cam1-d-sdtpa.wikimedia.org.
+
+189	1H IN PTR	ae0-104.cr1-sdtpa.wikimedia.org.
+190	1H IN PTR	ae0-104.cr2-pmtpa.wikimedia.org.
+
+; Virtualization subnet 208.80.153.192/26 (208.80.153.192 - 208.80.153.255)
+

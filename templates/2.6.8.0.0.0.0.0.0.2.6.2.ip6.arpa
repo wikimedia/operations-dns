@@ -1,0 +1,165 @@
+$TTL 3600
+$ORIGIN $zonename.
+@                       1D      IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
+                                        $serial         ; serial
+                                        12H             ; refresh
+                                        2H              ; retry
+                                        2W              ; expiry
+                                        1H              ; negative cache TTL
+                                        )
+
+; Name servers
+
+                        1D      IN NS   ns0.wikimedia.org.	; bayle
+                        1D      IN NS   ns1.wikimedia.org.	; yf1019
+                        1D      IN NS   ns2.wikimedia.org.	; lily
+
+
+; esams 2620:0:862::/48
+
+; esams Public services subnet 2620:0:862:1::/64
+
+$ORIGIN 1.0.0.0.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	vl100-ve1.csw1-esams.wikimedia.org.
+
+; Machines
+
+2.d.5.d.0.1.e.f.f.f.d.3.9.0.2.0	1H IN PTR	mayflower.esams.wikimedia.org.
+e.2.4.4.0.e.e.f.f.f.4.2.b.1.2.0	1H IN PTR	ortelius.esams.wikimedia.org.
+4.f.9.7.a.8.e.f.f.f.b.8.3.2.2.0	1H IN PTR	ptolemy.esams.wikimedia.org.
+
+; Service IPs
+
+1.0.0.0.5.2.0.0.0.0.0.0.0.0.0.0 1H IN PTR	lists.wikimedia.org.
+
+1.0.0.0.0.8.0.0.0.0.0.0.0.0.0.0	1H IN PTR	rr.esams.wikimedia.org.
+2.0.0.0.0.8.0.0.0.0.0.0.0.0.0.0	1H IN PTR	upload.esams.wikimedia.org.
+
+6.6.6.6.6.6.6.6.6.6.6.6.6.6.6.6	1H IN PTR	ipv6and4.labs.wikimedia.org.
+
+; Toolserver external subnet 2620:0:862:101::/64
+
+$ORIGIN 1.0.1.0.$zonename.
+
+@	1H IN NS	a.ns.toolserver.org.
+@	1H IN NS	b.ns.toolserver.org.
+@	1H IN NS	c.ns.toolserver.org.
+
+;1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN PTR	vl101-ve4.csw1-esams.wikimedia.org.
+
+;0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	www.toolserver.org.
+;1.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ha-dns-auth.toolserver.org.
+;2.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ha-mail.toolserver.org.
+;3.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ha-www.toolserver.org.
+;4.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ha-svn.toolserver.org.
+
+;0.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	hemlock.toolserver.org.
+;1.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	clematis.toolserver.org.
+;2.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	zedler.toolserver.org.
+;3.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	nightshade.toolserver.org.
+;4.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	willow.toolserver.org.
+;5.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	hawthorn.toolserver.org.
+;6.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	wolfsbane.toolserver.org.
+;7.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ortelius.toolserver.org.
+;8.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	yarrow.toolserver.org.
+;9.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	daphne.toolserver.org.
+;a.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	backups.toolserver.org.
+
+;0.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	damiana-ext-bge0.toolserver.org.
+;1.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	damiana-ext-bge0-test.toolserver.org.
+;2.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	damiana-ext-bge1.toolserver.org.
+;3.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	damiana-ext-bge1-test.toolserver.org.
+;4.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	turnera-ext-bge0.toolserver.org.
+;5.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	turnera-ext-bge0-test.toolserver.org.
+;6.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	turnera-ext-bge1.toolserver.org.
+;7.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	turnera-ext-bge1-test.toolserver.org.
+
+;8.4.c.7.0.2.e.f.f.f.f.4.4.1.2.0		1H IN PTR	hemlock.toolserver.org.
+;b.c.4.7.1.7.e.f.f.f.9.0.d.1.2.0		1H IN PTR	willow.toolserver.org.
+
+; Toolserver internal subnet 2620:0:862:301::/64
+
+$ORIGIN 1.0.3.0.$zonename.
+
+@	1H IN NS	a.ns.toolserver.org.
+@	1H IN NS	b.ns.toolserver.org.
+@	1H IN NS	c.ns.toolserver.org.
+
+;1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0		IN PTR	vl301-ve8.csw1-esams.wikimedia.org.
+
+;0.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ha-nfs.esi.toolserver.org.
+;1.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ha-ldap.esi.toolserver.org.
+;2.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ha-sql.esi.toolserver.org.
+;3.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ha-dns-recursor.esi.toolserver.org.
+;4.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ha-proxy.esi.toolserver.org.
+;5.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ha-sql-proxy.esi.toolserver.org.
+;6.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ha-sge.esi.toolserver.org.
+;7.0.0.0.1.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ha-puppet.esi.toolserver.org.
+
+;0.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	thyme.esi.toolserver.org.
+;1.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	ptolemy.esi.toolserver.org.
+;2.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	hemlock.esi.toolserver.org.
+;3.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	rosemary.esi.toolserver.org.
+;4.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	hyacinth.esi.toolserver.org.
+;5.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	cassia.esi.toolserver.org.
+;6.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0		IN PTR	adenia.esi.toolserver.org.
+
+;0.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	turnera-ext-bge0.toolserver.org.
+;1.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	turnera-ext-bge0-test.toolserver.org.
+;2.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	turnera-ext-bge1.toolserver.org.
+;3.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	turnera-ext-bge1-test.toolserver.org.
+;4.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	damiana-ext-bge0.toolserver.org.
+;5.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	damiana-ext-bge0-test.toolserver.org.
+;6.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	damiana-ext-bge1.toolserver.org.
+;7.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	damiana-ext-bge1-test.toolserver.org.
+
+; Text storage subnet 2620:0:862:102::/64
+$ORIGIN 2.0.1.0.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	vl102-ve5.csw1-esams.wikimedia.org.
+2.d.9.c.1.1.e.f.f.f.d.3.9.0.2.0 1H IN PTR	clematis.esams.wikimedia.org.
+
+; csw1-esams <--> br1-knams (2620:0:862:fe00::/64)
+
+$ORIGIN 0.0.e.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vl400-ve7.csw1-esams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vl400-ve7.br1-knams.wikimedia.org.
+
+; csw1-esams <--> Leaseweb IPv6 transit (2620:0:862:fe01::/64)
+
+$ORIGIN 1.0.e.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	te-8-4.csw1-knams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	te2-2.sr1.evo.leaseweb.net.
+
+; csw1-esams <--> br1-knams (2620:0:862:fe02::/64)
+
+$ORIGIN 2.0.e.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       te-8-2.csw1-esams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       te-1-2.br1-knams.wikimedia.org.
+
+; csw2-esams <--> br1-knams (2620:0:862:fe03::/64)
+
+$ORIGIN 3.0.e.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	te-1-1.br1-knams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	te-0-1-1-0.csw2-esams.wikimedia.org.
+
+; csw1-esams <--> csw2-esams (2620:0:862:fe04::/64)
+
+$ORIGIN 4.0.e.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ve2.te-8-1.csw1-esams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       403.te-0-1-0-0.csw2-esams.wikimedia.org.
+
+
+; Loopback IPs
+
+$ORIGIN f.f.f.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       csw1-esams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       br1-knams.wikimedia.org.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	csw2-esams.wikimedia.org.

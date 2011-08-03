@@ -1,0 +1,121 @@
+$TTL 3600
+$ORIGIN $zonename.
+@                       1D      IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
+                                        $serial         ; serial
+                                        12H             ; refresh
+                                        2H              ; retry
+                                        2W              ; expiry
+                                        1H              ; negative cache TTL
+                                        )
+
+; Name servers
+
+                        1D      IN NS   ns0.wikimedia.org.     ; zwinger
+                        1D      IN NS   ns1.wikimedia.org.     ; amaryllis
+                        1D      IN NS   ns2.wikimedia.org.     ; pascal
+
+; 208.80.154.0/26 (public1-a-eqiad) (.0 - .63)
+1       1H IN PTR       vrrp-gw-1001.wikimedia.org.
+2       1H IN PTR       ae1-1001.cr1-eqiad.wikimedia.org.
+3       1H IN PTR       ae1-1001.cr2-eqiad.wikimedia.org.
+
+5	1H IN PTR	magnesium.wikimedia.org.
+6	1H IN PTR	aluminium.wikimedia.org.
+7	1H IN PTR	silicon.wikimedia.org.
+8	1H IN PTR	ssl1004.wikimedia.org.
+9	1H IN PTR	ssl1003.wikimedia.org.
+10	1H IN PTR	carbon.wikimedia.org.
+11	1H IN PTR	cp1001.wikimedia.org.
+12	1H IN PTR	cp1002.wikimedia.org.
+13	1H IN PTR	cp1003.wikimedia.org.
+14	1H IN PTR	cp1004.wikimedia.org.
+15	1H IN PTR	cp1005.wikimedia.org.
+16	1H IN PTR	cp1006.wikimedia.org.
+17	1H IN PTR	cp1007.wikimedia.org.
+18	1H IN PTR	cp1008.wikimedia.org.
+19	1H IN PTR	cp1009.wikimedia.org.
+20	1H IN PTR	cp1010.wikimedia.org.
+21	1H IN PTR	cp1011.wikimedia.org.
+22	1H IN PTR	cp1012.wikimedia.org.
+23	1H IN PTR	cp1013.wikimedia.org.
+24	1H IN PTR	cp1014.wikimedia.org.
+25	1H IN PTR	cp1015.wikimedia.org.
+26	1H IN PTR	cp1016.wikimedia.org.
+27	1H IN PTR	cp1017.wikimedia.org.
+28	1H IN PTR	cp1018.wikimedia.org.
+29	1H IN PTR	cp1019.wikimedia.org.
+30	1H IN PTR	cp1020.wikimedia.org.
+31	1H IN PTR	cp1021.wikimedia.org.
+32	1H IN PTR	cp1022.wikimedia.org.
+33	1H IN PTR	cp1023.wikimedia.org.
+34	1H IN PTR	cp1024.wikimedia.org.
+35	1H IN PTR	cp1025.wikimedia.org.
+36	1H IN PTR	cp1026.wikimedia.org.
+37	1H IN PTR	cp1027.wikimedia.org.
+38	1H IN PTR	cp1028.wikimedia.org.
+39	1H IN PTR	cp1029.wikimedia.org.
+40	1H IN PTR	cp1030.wikimedia.org.
+41	1H IN PTR	cp1031.wikimedia.org.
+42	1H IN PTR	cp1032.wikimedia.org.
+43	1H IN PTR	cp1033.wikimedia.org.
+44	1H IN PTR	cp1034.wikimedia.org.
+45	1H IN PTR	cp1035.wikimedia.org.
+46	1H IN PTR	cp1036.wikimedia.org.
+47	1H IN PTR	cp1037.wikimedia.org.
+48	1H IN PTR	cp1038.wikimedia.org.
+49	1H IN PTR	cp1039.wikimedia.org.
+50	1H IN PTR	cp1040.wikimedia.org.
+51	1H IN PTR	cp1041.wikimedia.org.
+52	1H IN PTR	cp1042.wikimedia.org.
+53	1H IN PTR	cp1043.wikimedia.org.
+54	1H IN PTR	cp1044.wikimedia.org.
+
+; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
+
+129	1H IN PTR       vrrp-gw-1002.wikimedia.org.
+130	1H IN PTR       ae2-1002.cr1-eqiad.wikimedia.org.
+131	1H IN PTR       ae2-1002.cr2-eqiad.wikimedia.org.
+132	1H IN PTR	argon.wikimedia.org.
+133	1H IN PTR	ssl1001.wikimedia.org.
+134	1H IN PTR	ssl1002.wikimedia.org.
+135	1H IN PTR	gallium.wikimedia.org.
+136	1H IN PTR	zinc.wikimedia.org.
+
+
+; Neighbor blocks (208.80.154.192/27)
+
+; 208.80.154.192/30 (cr1 <--> cr2)
+193	1H IN PTR	ae0.cr1-eqiad.wikimedia.org.
+194	1H IN PTR	ae0.cr2-eqiad.wikimedia.org.
+
+196	1H IN PTR	cr1-eqiad.wikimedia.org.
+197	1H IN PTR	cr2-eqiad.wikimedia.org.
+198	1H IN PTR	gr-0-0-0-0.cr1-eqiad.wikimedia.org.
+
+; 208.80.154.200/29 (cr1,cr2 <--> mr1)
+
+201	1H IN PTR	mr1-eqiad.wikimedia.org.
+202	1H IN PTR	cr1-eqiad.wikimedia.org.
+203	1H IN PTR	cr2-eqiad.wikimedia.org.
+
+; 208.80.154.208/30 (cr1-sdtpa <--> cr1-eqiad)
+209	1H IN PTR	xe-5-2-1.cr1-eqiad.wikimedia.org.
+210	1H IN PTR	xe-0-0-1.cr1-sdtpa.wikimedia.org.
+
+; 208.80.154.212/30 (cr1-sdtpa <--> cr2-eqiad)
+213	1H IN PTR	xe-5-2-1.cr2-eqiad.wikimedia.org.
+214	1H IN PTR	xe-1-1-0.cr1-sdtpa.wikimedia.org.
+
+; LVS out-of-subnet service IPs
+
+224     1H IN PTR       wikimedia-lb.eqiad.wikimedia.org.
+225     1H IN PTR       wikipedia-lb.eqiad.wikimedia.org.
+226     1H IN PTR       wiktionary-lb.eqiad.wikimedia.org.
+227     1H IN PTR       wikiquote-lb.eqiad.wikimedia.org.
+228     1H IN PTR       wikibooks-lb.eqiad.wikimedia.org.
+229     1H IN PTR       wikisource-lb.eqiad.wikimedia.org.
+230     1H IN PTR       wikinews-lb.eqiad.wikimedia.org.
+231     1H IN PTR       wikiversity-lb.eqiad.wikimedia.org.
+232     1H IN PTR       mediawiki-lb.eqiad.wikimedia.org.
+233     1H IN PTR       foundation-lb.eqiad.wikimedia.org.
+

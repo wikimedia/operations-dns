@@ -1,0 +1,96 @@
+$TTL 3600
+$ORIGIN $zonename.
+@                       1D      IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
+                                        $serial         ; serial
+                                        12H             ; refresh
+                                        2H              ; retry
+                                        2W              ; expiry
+                                        1H              ; negative cache TTL
+                                        )
+
+; Name servers
+
+                        1D      IN NS   ns0.wikimedia.org.     ; bayle
+                        1D      IN NS   ns1.wikimedia.org.     ; yf1019
+                        1D      IN NS   ns2.wikimedia.org.     ; lily
+
+; pmtpa 2620:0:860::/48
+
+; pmtpa Squids subnet 2620:0:860:1::/64
+
+$ORIGIN 1.0.0.0.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-100.wikimedia.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae0-100.cr1-sdtpa.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae0-100.cr2-pmtpa.wikimedia.org.
+
+
+; Machines
+
+; Service IPs
+
+; pmtpa Public Services subnet 2620:0:860:2::/64
+
+$ORIGIN 2.0.0.0.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	vrrp-gw-101.wikimedia.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR	ae0-101.cr1-sdtpa.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR	ae0-101.cr2-pmtpa.wikimedia.org.
+
+; Machines
+
+e.4.5.5.3.7.e.f.f.f.8.4.0.3.2.0	1H IN PTR	khaldun.wikimedia.org.
+7.2.0.c.d.d.e.f.f.f.9.b.9.1.2.0	1H IN PTR	mchenry.wikimedia.org.
+b.e.6.8.d.d.e.f.f.f.9.b.9.1.2.0	1H IN PTR	sanger.wikimedia.org.
+
+; Service IPs
+
+
+; Tampa sandbox subnet 2620:0:860:3::/64
+$ORIGIN 3.0.0.0.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	vrrp-gw-102.wikimedia.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae0-102.cr1-sdtpa.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae0-102.cr2-pmtpa.wikimedia.org.
+
+6.2.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	amaranth.toolserver.org.
+7.2.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	cache-us.stable.toolserver.org.
+8.2.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	mail.toolserver.org.
+4.3.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	web.amaranth.toolserver.org.
+
+; Machine
+
+; ServiceIPs
+
+; Neighbor blocks
+
+$ORIGIN e.f.$zonename.
+
+; cr1-sdtpa <--> cr2-pmtpa (2620:0:860:fe00::/64)
+
+$ORIGIN 0.0.e.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0-400.cr1-sdtpa.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0-400.cr2-pmtpa.wikimedia.org.
+
+; TEMP cr1-sdtpa <--> csw5-pmtpa (2620:0:860:fe01::/64)
+
+$ORIGIN 1.0.e.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0-405.cr1-sdtpa.wikimedia.org.
+
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ve10.csw5-pmtpa.wikimedia.org.
+
+; Loopback IPs
+
+$ORIGIN f.f.f.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       csw5-pmtpa.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	csw1-sdtpa.wikimedia.org.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	pim-rp.wikimedia.org.
+4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	cr1-sdtpa.wikimedia.org.
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	cr2-pmtpa.wikimedia.org.
+

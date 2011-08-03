@@ -1,0 +1,255 @@
+$TTL 3600
+$ORIGIN $zonename.
+@			1D	IN SOA	ns0.wikimedia.org.	hostmaster.wikimedia.org.	(
+					$serial		; serial
+					12H		; refresh
+					2H		; retry
+					2W		; expiry
+					1H		; negative cache TTL
+					)
+
+; Name servers
+
+			1D	IN NS	ns0.wikimedia.org.	; bayle
+			1D	IN NS	ns1.wikimedia.org.	; yf1018
+			1D	IN NS	ns2.wikimedia.org.	; lily
+
+;			60	IN A	91.198.174.203		; cluster
+			60	IN A	91.198.174.214		; ha-lb
+			1H	IN MX	10 clematis.toolserver.org.
+			1H	IN MX	10 hawthorn.toolserver.org.
+
+a.ns                    1H      IN A    91.198.174.197
+                        1H      IN AAAA 2620:0:862:101::3:4
+b.ns                    1H      IN A    91.198.174.204
+                        1H      IN AAAA 2620:0:862:101::3:0
+c.ns                    1H      IN A    208.80.152.226
+
+
+localhost		1W	IN A	127.0.0.1
+
+mail._domainkey		1H	IN TXT	"v=DKIM1; h=sha256; g=*; k=rsa; t=y; " "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKffJe7LC3IYafELpDjMF/Euj+pngGOcnJan5OjuBA9PYQ4gkwL7cMBBDNkxVfa9tr4j9qUelC6a0fOEF/nkhjYE8U40ye1eEmFUpJKWX3PNVDhyVnLL18NdQSJeRY3NJh0gm5wG4Tq/XcOnXw4ZvvxcJ+N4nbFrAsRqW4F+0WEQIDAQAB"
+www			1H	IN NS	ha-dns-auth
+db			1H	IN NS	ha-dns-auth
+fastdb			1H	IN NS	ha-dns-auth
+rrdb			1H	IN NS	ha-dns-auth
+userdb			1H	IN NS	ha-dns-auth
+
+stable			1H	IN CNAME	toolserver.org.
+
+; MNT-161 database load balancing
+wita		1H IN NS	ha-dns-auth
+
+; service IPs
+cache.stable	1H IN CNAME	stable
+ha-mail		1H IN A		91.198.174.207
+;6		1H IN AAAA	2620:0:862:101::1:2
+ha-lb                   1H IN A         91.198.174.214
+                        1H IN AAAA      2620:0:862:101::1:4
+
+mail		1H IN CNAME	ha-mail
+mailhost	1H IN CNAME	ha-mail
+ha-svn		1H IN A		91.198.174.214
+		1H IN AAAA	2620:0:862:101::1:4
+svn		1H IN CNAME	ha-lb
+ha-www		1H IN A		91.198.174.212
+		1H IN AAAA	2620:0:862:101::1:3
+ha-status	1H IN CNAME	ha-www
+ha-dns-auth	1H IN A		91.198.174.206
+;6		1H IN AAAA	2620:0:862:101::1:1
+wmvids		1H IN A		91.198.174.232	; Wikimania videos
+backups		1H IN A		91.198.174.221
+;6		1H IN AAAA	2620:0:862:101::2:a
+web.amaranth	1H IN A		208.80.152.234	; web services on amaranth
+nagios		1H IN CNAME	ha-www
+ganglia		1H IN CNAME	hemlock
+munin		1H IN CNAME	hemlock
+loghost		1H IN CNAME	hemlock
+
+turnera-ext-bge0	1H IN A		91.198.174.197
+			1H IN AAAA	2620:0:862:101::3:4
+turnera-ext-bge0-test	1H IN A		91.198.174.198
+turnera-ext-bge1	1H IN A		91.198.174.199
+			1H IN AAAA	2620:0:862:101::3:6
+turnera-ext-bge1-test	1H IN A		91.198.174.200
+turnera			1H IN CNAME	turnera-ext-bge0
+damiana-ext-bge0	1H IN A		91.198.174.204
+			1H IN AAAA	2620:0:862:101::3:0
+damiana-ext-bge0-test	1H IN A		91.198.174.205
+damiana-ext-bge1	1H IN A		91.198.174.208
+			1H IN AAAA	2620:0:862:101::3:2
+damiana-ext-bge1-test	1H IN A		91.198.174.213
+damiana			1H IN CNAME	damiana-ext-bge0
+
+; servers
+hemlock		1H IN A		91.198.174.194
+		1H IN AAAA	2620:0:862:101::2:0
+zedler		1H IN A		91.198.174.196
+		1H IN MX	mail.toolserver.org.
+;6		1H IN AAAA	2620:0:862:101::2:2
+vandale		1H IN A		91.198.174.197
+		1H IN AAAA	2620:0:862:101:91:198:174:197
+		1H IN MX	mail.toolserver.org.
+
+willow		1H IN A		91.198.174.202
+		1H IN AAAA	2620:0:862:101::2:4
+;		1H IN AAAA	2620:0:862:101:21d:9ff:fe71:74cb
+daphne          1H IN A         91.198.174.217
+		1H IN AAAA	2620:0:862:101::2:9
+nightshade	1H IN A		91.198.174.201
+		1H IN AAAA	2620:0:862:101::2:3
+amaranth	1H IN A		208.80.152.226
+wolfsbane	1H IN A		91.198.174.210
+		1H IN AAAA	2620:0:862:101::2:6
+
+ortelius	1H IN A		91.198.174.211
+		1H IN AAAA	2620:0:862:101::2:7
+clematis	1H IN A		91.198.174.195
+		1H IN AAAA	2620:0:862:101::2:1
+hawthorn	1H IN A		91.198.174.209
+		1H IN AAAA	2620:0:862:101::2:5
+yarrow		1H IN A		91.198.174.216
+		1H IN AAAA	2620:0:862:101::2:8
+
+; VMs
+vmtest1		1H IN A		91.198.174.219
+vmtest2		1H IN A		91.198.174.220
+
+; services
+login		1H IN CNAME	nightshade
+
+jira		1H IN CNAME	web.amaranth
+wiki		1H IN CNAME	web.amaranth
+confluence	1H IN CNAME	web.amaranth
+bamboo		1H IN CNAME	amaranth
+fisheye		1H IN CNAME	web.amaranth
+journal		1H IN CNAME	web.amaranth
+phpmyadmin	1H IN CNAME	ha-lb
+crowd		1H IN CNAME	web.amaranth
+packages	1H IN CNAME	amaranth
+accounts	1H IN CNAME	hemlock
+fingerprints	1H IN CNAME	ha-lb
+status		1H IN CNAME	ts-status.tcx.org.uk.
+ldap		1H IN CNAME	ha-ldap.esi
+jabber		1H IN CNAME	hemlock
+conference.jabber	1H IN CNAME hemlock
+puppet		1H IN CNAME	hemlock
+submit		1H IN A		91.198.174.215
+;6		1H IN AAAA	2620:0:862:101::1:5
+
+; database
+sql		1H IN CNAME	adenia.esi
+sql-s1		1H IN CNAME	sql-s1.wita
+sql-s1-fast	1H IN CNAME	sql-s1-fast.wita
+sql-s1-user	1H IN CNAME	sql-s1-user.wita
+sql-s1-rr	1H IN CNAME	sql-s1-rr.wita
+sql-s2		1H IN CNAME	sql-s2.wita
+sql-s2-fast	1H IN CNAME	sql-s2-fast.wita
+sql-s2-user	1H IN CNAME	sql-s2-user.wita
+sql-s2-rr	1H IN CNAME	sql-s2-rr.wita
+sql-s3		1H IN CNAME	sql-s3.wita
+sql-s3-fast	1H IN CNAME	sql-s3-fast.wita
+sql-s3-user	1H IN CNAME	sql-s3-user.wita
+sql-s3-rr	1H IN CNAME	sql-s3-rr.wita
+sql-s4		1H IN CNAME	sql-s4.wita
+sql-s4-fast	1H IN CNAME	sql-s4-fast.wita
+sql-s4-user	1H IN CNAME	sql-s4-user.wita
+sql-s4-rr	1H IN CNAME	sql-s4-rr.wita
+sql-s5		1H IN CNAME	sql-s5.wita
+sql-s5-fast	1H IN CNAME	sql-s5-fast.wita
+sql-s5-user	1H IN CNAME	sql-s5-user.wita
+sql-s5-rr	1H IN CNAME	sql-s5-rr.wita
+sql-s6		1H IN CNAME	sql-s6.wita
+sql-s6-fast	1H IN CNAME	sql-s6-fast.wita
+sql-s6-user	1H IN CNAME	sql-s6-user.wita
+sql-s6-rr	1H IN CNAME	sql-s6-rr.wita
+sql-s7		1H IN CNAME	sql-s7.wita
+sql-s7-fast	1H IN CNAME	sql-s7-fast.wita
+sql-s7-user	1H IN CNAME	sql-s7-user.wita
+sql-s7-rr	1H IN CNAME	sql-s7-rr.wita
+sql-toolserver	1H IN CNAME	ha-sql.esi.toolserver.org.
+;sql-mapnik	1H IN CNAME	ptolemy.esi
+sql-mapnik	1H IN A		10.24.1.31
+
+; SPs
+$ORIGIN mgmt.$zonename.
+hemlock		1H IN A	10.23.0.5
+ts-array5b	1H IN A 10.23.0.11
+ts-array5a	1H IN A 10.23.0.12
+vandale		1H IN A	10.21.0.12
+nightshade	1H IN A	10.23.0.14
+willow		1H IN A	10.23.0.15
+yarrow		1H IN A	10.23.0.16
+zedler		1H IN A	10.23.0.13
+ts-array1	1H IN A 10.21.0.14
+ts-array2	1H IN A	10.23.0.17
+ts-array3	1H IN A 10.23.0.18
+wolfsbane	1H IN A 10.23.0.6
+rosemary	1H IN A	10.23.0.7
+amaranth	1H IN A 10.1.8.16
+ts-array4a	1H IN A 208.80.152.230
+ts-array4b	1H IN A 208.80.152.229
+asw-oe16-esams	1H IN A 10.23.0.9
+adenia		1H IN A	10.23.0.50
+asw-oe10-esams	1H IN A 10.23.0.51
+daphne		1H IN A 10.23.0.10
+far1-n1-oe16-a-esams	1H IN A	10.23.0.19
+far1-n1-oe16-b-esams	1H IN A	10.23.0.20
+far1-n1-oe16-esams	1H IN CNAME far1-n1-oe16-a-esams
+fsw1-n1-oe16-esams	1H IN A 10.23.0.21
+
+
+$ORIGIN esi.$zonename
+mailhost		1H IN CNAME	mailhost.toolserver.org.
+
+; internal servers
+turnera-bge0		1H IN A		10.24.1.20
+			1H IN AAAA	2620:0:862:301::3:0
+turnera			1H IN CNAME	turnera-bge0
+turnera-bge1		1H IN A		10.24.1.21
+			1H IN AAAA	2620:0:862:301::3:2
+turnera-bge0-test	1H IN A		10.24.1.22
+turnera-bge1-test	1H IN A		10.24.1.23
+damiana-bge0		1H IN A		10.24.1.24
+			1H IN AAAA	2620:0:862:301::3:4
+damiana			1H IN CNAME	damiana-bge0
+damiana-bge1		1H IN A		10.24.1.25
+			1H IN AAAA	2620:0:862:301::3:6
+damiana-bge0-test	1H IN A		10.24.1.26
+damiana-bge1-test	1H IN A		10.24.1.27
+scs-oe10-esams		1H IN A		10.24.1.28
+scs-oe16-esams		1H IN A		10.24.1.29
+thyme			1H IN A		10.24.1.30
+			1H IN AAAA	2620:0:862:301::2:0
+ptolemy			1H IN A		10.24.1.31
+			1H IN AAAA	2620:0:862:301::2:1
+hemlock			1H IN A		10.24.1.32
+			1H IN AAAA	2620:0:862:301::2:2
+rosemary		1H IN A		10.24.1.33
+			1H IN AAAA	2620:0:862:301::2:3
+hyacinth		1H IN A		10.24.1.34
+			1H IN AAAA	2620:0:862:301::2:4
+cassia			1H IN A		10.24.1.36
+			1H IN AAAA	2620:0:862:301::2:5
+adenia			1H IN A		10.24.1.38
+			1H IN AAAA	2620:0:862:301::2:6
+
+; internal services
+ha-nfs			1H IN A		10.24.1.10
+;6			1H IN AAAA	2620:0:862:301::1:0
+ha-ldap			1H IN A		10.24.1.11
+;6			1H IN AAAA	2620:0:862:301::1:1
+ha-sql			1H IN A		10.24.1.12
+;6			1H IN AAAA	2620:0:862:301::1:2
+ha-dns-recursor		1H IN A		10.24.1.13
+;6			1H IN AAAA	2620:0:862:301::1:3
+ha-proxy		1H IN A		10.24.1.14
+			1H IN AAAA	2620:0:862:301::1:4
+ha-sql-proxy		1H IN A		10.24.1.15
+;6			1H IN AAAA	2620:0:862:301::1:5
+ha-sge			1H IN A		10.24.1.16
+;6			1H IN AAAA	2620:0:862:301::1:6
+ha-puppet		1H IN A		10.24.1.17
+;6			1H IN AAAA	2620:0:862:301::1:7
+ha-bind-recursor	1H IN A		10.24.1.18
+			1H IN AAAA	2620:0:862:301::1:8

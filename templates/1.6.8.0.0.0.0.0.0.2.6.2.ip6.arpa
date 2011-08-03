@@ -1,0 +1,72 @@
+$TTL 3600
+$ORIGIN $zonename.
+@                       1D      IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
+                                        $serial         ; serial
+                                        12H             ; refresh
+                                        2H              ; retry
+                                        2W              ; expiry
+                                        1H              ; negative cache TTL
+                                        )
+
+; Name servers
+
+                        1D      IN NS   ns0     ; zwinger
+                        1D      IN NS   ns1     ; larousse
+                        1D      IN NS   ns2     ; pascal
+
+
+; public1-a-eqiad (2620:0:861:1::/64)
+$ORIGIN 1.0.0.0.$zonename.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       vrrp-gw-1001.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR       ae1-1001.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR	ae1-1001.cr2-eqiad.wikimedia.org.
+
+; public1-b-eqiad (2620:0:861:2::/64)
+$ORIGIN 2.0.0.0.$zonename.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1002.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1002.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1002.cr2-eqiad.wikimedia.org.
+
+; private1-a-eqiad (2620:0:861:101::/64)
+$ORIGIN 1.0.1.0.$zonename.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1017.eqiad.wmnet.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae1-1017.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae1-1017.cr2-eqiad.wikimedia.org.
+
+4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       cam1-a-b-eqiad.eqiad.wmnet.
+
+; private1-b-eqiad (2620:0:861:102::/64)
+$ORIGIN 2.0.1.0.$zonename.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1018.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1018.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1018.cr2-eqiad.wikimedia.org.
+
+; Neighbor blocks
+
+$ORIGIN e.f.$zonename.
+
+; cr1-eqiad <--> cr2-eqiad (2620:0:861:fe00::/64)
+
+$ORIGIN 0.0.e.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0.cr2-eqiad.wikimedia.org.
+
+; cr1-eqiad <--> csw1-sdtpa (2620:0:861:fe01::/64)
+
+$ORIGIN 1.0.e.f.$zonename.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-5-2-1.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-0-0-1.cr1-sdtpa.wikimedia.org.
+
+; cr2-eqiad <--> csw1-sdtpa (2620:0:861:fe02::/64)
+
+$ORIGIN 2.0.e.f.$zonename.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-5-2-1.cr2-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-1-1-0.cr1-sdtpa.wikimedia.org.
+
+; Loopback IPs
+
+$ORIGIN f.f.f.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       cr2-eqiad.wikimedia.org.

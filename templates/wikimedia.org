@@ -1,0 +1,1135 @@
+$TTL 3600
+$ORIGIN $zonename.
+@			1D	IN SOA	ns0.wikimedia.org.	hostmaster.wikimedia.org.	(
+					$serial		; serial
+					12H		; refresh
+					2H		; retry
+					2W		; expiry
+					600		; negative cache TTL
+					)
+
+; Name servers
+
+			1D	IN NS	ns0.wikimedia.org.	; bayle
+			1D	IN NS	ns1.wikimedia.org.	; yf1018
+			1D	IN NS	ns2.wikimedia.org.	; lily
+
+; Mail exchangers
+
+			1H	IN MX	10	mchenry
+			1H	IN MX	50	lists
+
+; Canonical names
+
+			1H	IN A	208.80.152.2
+
+
+; Delegations
+
+; Corporate office name server delegation
+
+corp			1D      IN NS   ns1.corp.wikimedia.org.
+			1D      IN NS   ns2.corp.wikimedia.org.
+
+
+; Use the one in geobackend
+;localhost		1W	IN A	127.0.0.1
+
+scs-ext			1H	IN A	84.40.25.238
+
+dumps			1H	IN CNAME dataset2
+sitemap                 1H      IN CNAME dumps
+ldap			1H	IN A	10.0.0.5	; albert
+
+lists			1H	IN A	91.198.174.5		; service IP on lily
+			1H	IN AAAA	2620:0:862:1::25:1	; service IP on lily
+			1H	IN MX	10 lists
+			1H	IN MX	60 mchenry
+
+mail			1H	IN A	208.80.152.133  ; service IP on mchenry
+			1H	IN MX	10 mchenry
+			1H	IN MX	50 lists
+
+wiki-mail		1H	IN A	208.80.152.133	; service IP on mchenry
+
+ns0			1H	IN A	208.80.152.130	; bayle
+ns1			1H	IN A	208.80.152.142	; linne
+ns2			1H	IN A	91.198.174.4	; lily
+ns3                     1H      IN A    203.212.189.252 ; yf1019
+
+recursor0		1H	IN A	208.80.152.131  ; bayle
+recursor1		1H	IN A	208.80.152.132	; mchenry
+
+; geobackend adds the following records:
+;rr 1H GEO CNAME rr.(pmtpa|esams)
+
+;upload 1H GEO CNAME upload.(pmtpa|esams)
+
+; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
+
+alsted			1H	IN A	208.80.152.232
+aluminium		1H	IN A	208.80.152.6
+aluminum		1H	IN CNAME aluminium
+anthony                 1H      IN A    208.80.152.181
+argon			1H	IN A	208.80.154.132
+bayes			1H	IN A	208.80.152.168
+bayle			1H	IN A	208.80.152.174
+brewster		1H	IN A	208.80.152.171
+browne			1H	IN A	208.80.152.180
+carbon			1H	IN A	208.80.154.10
+cp1001			1H	IN A	208.80.154.11
+cp1002			1H	IN A	208.80.154.12
+cp1003			1H	IN A	208.80.154.13
+cp1004			1H	IN A	208.80.154.14
+cp1005			1H	IN A	208.80.154.15
+cp1006			1H	IN A	208.80.154.16
+cp1007			1H	IN A	208.80.154.17
+cp1008			1H	IN A	208.80.154.18
+cp1009			1H	IN A	208.80.154.19
+cp1010			1H	IN A	208.80.154.20
+cp1011			1H	IN A	208.80.154.21
+cp1012			1H	IN A	208.80.154.22
+cp1013			1H	IN A	208.80.154.23
+cp1014			1H	IN A	208.80.154.24
+cp1015			1H	IN A	208.80.154.25
+cp1016			1H	IN A	208.80.154.26
+cp1017			1H	IN A	208.80.154.27
+cp1018			1H	IN A	208.80.154.28
+cp1019			1H	IN A	208.80.154.29
+cp1020			1H	IN A	208.80.154.30
+cp1021			1H	IN A	208.80.154.31
+cp1022			1H	IN A	208.80.154.32
+cp1023			1H	IN A	208.80.154.33
+cp1024			1H	IN A	208.80.154.34
+cp1025			1H	IN A	208.80.154.35
+cp1026			1H	IN A	208.80.154.36
+cp1027			1H	IN A	208.80.154.37
+cp1028			1H	IN A	208.80.154.38
+cp1029			1H	IN A	208.80.154.39
+cp1030			1H	IN A	208.80.154.40
+cp1031			1H	IN A	208.80.154.41
+cp1032			1H	IN A	208.80.154.42
+cp1033			1H	IN A	208.80.154.43
+cp1034			1H	IN A	208.80.154.44
+cp1035			1H	IN A	208.80.154.45
+cp1036			1H	IN A	208.80.154.46
+cp1037			1H	IN A	208.80.154.47
+cp1038			1H	IN A	208.80.154.48
+cp1039			1H	IN A	208.80.154.49
+cp1040			1H	IN A	208.80.154.50
+cp1041			1H	IN A	208.80.154.51
+cp1042			1H	IN A	208.80.154.52
+cp1043			1H	IN A	208.80.154.53
+cp1044			1H	IN A	208.80.154.54
+dataset1		1H	IN A	208.80.152.166
+dataset2		1H	IN A	208.80.152.185
+dobson			1H	IN A	208.80.152.173
+ekrem			1H	IN A	208.80.152.178
+emery			1H	IN A	208.80.152.184
+ersch			1H	IN A	208.80.152.231
+fenari			1H	IN A	208.80.152.165
+formey			1H	IN A	208.80.152.147
+gallium			1H	IN A	208.80.154.135
+gilman			1H	IN A	208.80.152.176
+grosley			1H	IN A	208.80.152.164
+gurvin			1H	IN A	208.80.152.20
+harmon			1H	IN A	208.80.152.233
+hooper			1H	IN A	208.80.152.148
+hume			1H	IN A	208.80.152.190
+			1H	IN AAAA	2620:0:860:2:21d:9ff:fe33:f235
+kaulen			1H	IN A	208.80.152.149
+khaldun			1H	IN A	208.80.152.188
+linne			1H	IN A	208.80.152.167
+locke			1H	IN A	208.80.152.138
+loudon			1H	IN A	208.80.152.163
+lvs1			1H	IN A	208.80.152.120
+lvs2			1H	IN A	208.80.152.121
+lvs3			1H	IN A	208.80.152.122
+lvs4			1H	IN A	208.80.152.123
+lvs5			1H	IN A	208.80.152.110
+lvs6			1H	IN A	208.80.152.111
+magnesium		1H	IN A	208.80.152.5
+mchenry			1H	IN A	208.80.152.186
+			1H	IN AAAA	2620:0:860:2:219:b9ff:fedd:c027
+mobile1			1H	IN A	208.80.152.115
+mobile2			1H	IN A	208.80.152.116
+mobile3			1H	IN A	208.80.152.117
+mobile4			1H	IN A	208.80.152.119
+mobile5			1H	IN A	208.80.152.99
+ms4			1H	IN A	208.80.152.156
+owa1			1H	IN A	208.80.152.112
+owa2			1H	IN A	208.80.152.113
+owa3			1H	IN A	208.80.152.114
+payments1		1H	IN A	208.80.152.11
+payments2		1H	IN A	208.80.152.12
+payments3		1H	IN A	208.80.152.13
+payments4		1H	IN A	208.80.152.14
+project2		1H	IN A	208.80.152.152
+pdf1			1H	IN A	208.80.152.155
+pdf2			1H	IN A	208.80.152.154
+pdf3			1H	IN A	208.80.152.181
+raskin.usability	1H	IN A	208.80.152.253
+tarin			1H	IN A	208.80.152.174
+sanger			1H	IN A	208.80.152.187
+silicon			1H	IN A	208.80.154.7
+singer			1H	IN A	208.80.152.162
+snapshot3		1H	IN A	208.80.152.141
+spence			1H	IN A	208.80.152.161
+stafford		1H	IN A	208.80.152.150
+srv9			1H	IN A	208.80.152.176
+sq1			1H	IN A	208.80.152.11
+sq2			1H	IN A	208.80.152.12
+sq3			1H	IN A	208.80.152.13
+sq4			1H	IN A	208.80.152.14
+sq5			1H	IN A	208.80.152.15
+sq6			1H	IN A	208.80.152.16
+sq7			1H	IN A	208.80.152.17
+sq8			1H	IN A	208.80.152.18
+sq9			1H	IN A	208.80.152.19
+sq10			1H	IN A	208.80.152.20
+sq11			1H	IN A	208.80.152.21
+sq12			1H	IN A	208.80.152.22
+sq13			1H	IN A	208.80.152.23
+sq14			1H	IN A	208.80.152.24
+sq15			1H	IN A	208.80.152.25
+sq16			1H	IN A	208.80.152.26
+sq17			1H	IN A	208.80.152.27
+sq18			1H	IN A	208.80.152.28
+sq19			1H	IN A	208.80.152.29
+sq20			1H	IN A	208.80.152.30
+sq21			1H	IN A	208.80.152.31
+sq22			1H	IN A	208.80.152.32
+sq23			1H	IN A	208.80.152.33
+sq24			1H	IN A	208.80.152.34
+sq25			1H	IN A	208.80.152.35
+sq26			1H	IN A	208.80.152.36
+sq27			1H	IN A	208.80.152.37
+sq28			1H	IN A	208.80.152.38
+sq29			1H	IN A	208.80.152.39
+sq30			1H	IN A	208.80.152.40
+sq31			1H	IN A	208.80.152.41
+sq32			1H	IN A	208.80.152.42
+sq33			1H	IN A	208.80.152.43
+sq34			1H	IN A	208.80.152.44
+sq35			1H	IN A	208.80.152.45
+sq36			1H	IN A	208.80.152.46
+sq37			1H	IN A	208.80.152.47
+sq38			1H	IN A	208.80.152.48
+sq39			1H	IN A	208.80.152.49
+sq40			1H	IN A	208.80.152.50
+sq41			1H	IN A	208.80.152.51
+sq42			1H	IN A	208.80.152.52
+sq43			1H	IN A	208.80.152.53
+sq44			1H	IN A	208.80.152.54
+sq45			1H	IN A	208.80.152.55
+sq46			1H	IN A	208.80.152.56
+sq47			1H	IN A	208.80.152.57
+sq48			1H	IN A	208.80.152.58
+sq49			1H	IN A	208.80.152.59
+sq50			1H	IN A	208.80.152.60
+sq51			1H	IN A	208.80.152.61
+sq52			1H	IN A	208.80.152.62
+sq53			1H	IN A	208.80.152.63
+sq54			1H	IN A	208.80.152.64
+sq55			1H	IN A	208.80.152.65
+sq56			1H	IN A	208.80.152.66
+sq57			1H	IN A	208.80.152.67
+sq58			1H	IN A	208.80.152.68
+sq59			1H	IN A	208.80.152.69
+sq60			1H	IN A	208.80.152.70
+sq61			1H	IN A	208.80.152.71
+sq62			1H	IN A	208.80.152.72
+sq63			1H	IN A	208.80.152.73
+sq64			1H	IN A	208.80.152.74
+sq65			1H	IN A	208.80.152.75
+sq66			1H	IN A	208.80.152.76
+sq67			1H	IN A	208.80.152.77
+sq68			1H	IN A	208.80.152.78
+sq69			1H	IN A	208.80.152.79
+sq70			1H	IN A	208.80.152.80
+sq71			1H	IN A	208.80.152.81
+sq72			1H	IN A	208.80.152.82
+sq73			1H	IN A	208.80.152.83
+sq74			1H	IN A	208.80.152.84
+sq75			1H	IN A	208.80.152.85
+sq76			1H	IN A	208.80.152.86
+sq77			1H	IN A	208.80.152.87
+sq78			1H	IN A	208.80.152.88
+sq79			1H	IN A	208.80.152.89
+sq80			1H	IN A	208.80.152.90
+sq81			1H	IN A	208.80.152.91
+sq82			1H	IN A	208.80.152.92
+sq83			1H	IN A	208.80.152.93
+sq84			1H	IN A	208.80.152.94
+sq85			1H	IN A	208.80.152.95
+sq86			1H	IN A	208.80.152.96
+ssl1001			1H	IN A	208.80.154.133
+ssl1002			1H	IN A	208.80.154.134
+ssl1003			1H	IN A	208.80.154.9
+ssl1004			1H	IN A	208.80.154.8
+stat1			1H	IN A	208.80.152.146
+storage1		1H	IN A	208.80.152.182
+storage2		1H	IN A	208.80.152.183
+			1H	IN AAAA	2620:0:860:2:230:48ff:fe5a:eb1e
+streber			1H	IN A	208.80.152.160
+transcode1		1H	IN A	208.80.153.130
+tridge			1H	IN A	208.80.152.170 ; Cold Backup Server
+virt1			1H	IN A	208.80.153.131
+williams		1H	IN A	208.80.152.159
+yongle                  1H      IN A    208.80.152.178
+yvon			1H	IN A	208.80.152.21
+zinc			1H	IN A	208.80.154.136
+
+; Round robin record
+
+rr.pmtpa		1H	IN A	208.80.152.2
+text.pmtpa		1H	IN A	208.80.152.2
+bits.pmtpa		1H	IN A	208.80.152.210
+upload.pmtpa            1H      IN A    208.80.152.211
+upload.v4		1H	IN A	208.80.152.211 ; Explicitly v4 only
+wikimedia-lb.pmtpa	1H	IN A	208.80.152.200
+wikipedia-lb.pmtpa	1H	IN A	208.80.152.201
+wiktionary-lb.pmtpa	1H	IN A	208.80.152.202
+wikiquote-lb.pmtpa	1H	IN A	208.80.152.203
+wikibooks-lb.pmtpa	1H	IN A	208.80.152.204
+wikisource-lb.pmtpa	1H	IN A	208.80.152.205
+wikinews-lb.pmtpa	1H	IN A	208.80.152.206
+wikiversity-lb.pmtpa	1H	IN A	208.80.152.207
+mediawiki-lb.pmtpa	1H	IN A	208.80.152.208
+foundation-lb.pmtpa	1H	IN A	208.80.152.209
+m			1H	IN A	208.80.152.5 ; mobile LVS
+
+m.pmtpa			1H	IN A	208.80.152.5 ; mobile LVS
+
+owa			1H	IN A	208.80.152.6
+
+; Networking
+
+br1-knams		1H	IN A	91.198.174.245
+			1H	IN AAAA	2620:0:862:ffff::2
+ams-ix.2ge-2-1.br1-knams	1H	IN A	195.69.145.176
+				1H	IN AAAA	2001:7f8:1::a504:3821:1
+
+cr1-eqiad		1H	IN A	208.80.154.196
+				IN AAAA	2620:0:861:ffff::1
+
+cr1-sdtpa		1H	IN A	208.80.152.196
+				IN AAAA	2620:0:860:ffff::4
+
+cr2-eqiad		1H	IN A	208.80.154.197
+				IN AAAA 2620:0:861:ffff::2
+
+cr2-pmtpa		1H	IN A	208.80.152.197
+				IN AAAA	2620:0:860:ffff::5
+
+csw1-esams		1H	IN A	91.198.174.247
+			1H	IN AAAA	2620:0:862:ffff::1
+
+csw2-esams		1H	IN A	91.198.174.244
+			1H	IN AAAA	2620:0:862:ffff::3
+
+csw5-pmtpa		1H	IN A	208.80.152.192
+			1H	IN AAAA	2620:0:860:ffff::1
+10ge5-1.csw5-pmtpa	1H	IN A	84.40.25.102
+10ge5-3.csw5-pmtpa	1H	IN A	207.88.246.6
+tampa-ix.ge8-12.csw5-pmtpa	1H IN A	198.32.198.18
+ge8-1.csw5-pmtpa	1H	IN A	66.113.197.94
+			1H	IN AAAA	2607:f178:2::2a
+vl100-ve3.csw5-pmtpa	1H	IN A	208.80.152.1
+			1H	IN AAAA	2620:0:860:1::1
+vl101-ve5.csw5-pmtpa	1H	IN A	208.80.152.129
+			1H	IN AAAA	2620:0:860:2::1
+vl400-ve1.csw5-pmtpa	1H	IN A	208.80.152.218
+			1H	IN AAAA	2620:0:860:fe00::1
+
+csw1-sdtpa		1H	IN A	208.80.152.193
+
+mr1-pmtpa		1H	IN A	84.40.25.226
+
+vl2-eth0.lvs1		1H	IN A	10.0.0.11
+vl2-eth0.lvs2		1H	IN A	10.0.0.12
+vl2-eth0.lvs3		1H	IN A	10.0.0.13
+vl2-eth0.lvs4		1H	IN A	10.0.0.14
+vl2-eth0.lvs5		1H	IN A	10.0.0.15
+vl2-eth0.lvs6		1H	IN A	10.0.0.16
+
+csw1-knams		1H	IN CNAME	csw1-esams
+
+; Access switches
+
+asw-c3-pmtpa		1H	IN A	10.1.1.3
+asw-c4-pmtpa		1H	IN A	10.1.1.4
+asw-b1-pmtpa		1H	IN A	10.1.1.5
+asw-b2-pmtpa		1H	IN A	10.1.1.6
+asw-a2-pmtpa		1H	IN A	10.1.1.7
+asw-b4-pmtpa		1H	IN A	10.1.1.8
+asw-a4-sdtpa		1H	IN A	10.1.1.9
+asw-a5-sdtpa		1H	IN A	10.1.1.10
+
+; Cams
+
+cam1-a-sdtpa		1H	IN A	208.80.152.189
+cam1-a-b-sdtpa		1H	IN A	208.80.153.132
+cam1-b-c-sdtpa		1H	IN A	208.80.153.133
+cam1-c-d-sdtpa		1H	IN A	208.80.152.188
+cam1-d-sdtpa		1H	IN A	208.80.153.134
+
+; TEMP (internal v6 ip)
+cam1-a-b-eqiad		1H	IN AAAA	2620:0:861:101::4
+
+; Service aliases (alphabetical order)
+
+apt			1H	IN CNAME	brewster
+
+cache                   1H      IN CNAME        text
+
+donate			1H	IN A		208.80.152.164
+			1H	IN MX		10 grosley 
+			1H	IN MX		20 mchenry
+
+dvd                     1H      IN CNAME        www.masterssystems.com.
+
+geoiplookup		1H	IN CNAME	bits
+
+imap			1H	IN A		208.80.152.187	; sanger
+			1H	IN MX		10 mchenry
+
+irc			1H	IN CNAME	ekrem
+ntp.pmtpa		1H	IN CNAME	linne
+
+observium		1H	IN CNAME	torrus
+
+rt			1H	IN A		208.80.152.160
+			1H	IN MX		10 mchenry
+			1H	IN MX		60 lists
+
+secure                  1H      IN A    	208.80.152.134 ; service IP, currently on singer
+
+smtp			1H	IN A		208.80.152.187	; sanger
+			1H	IN MX		10 mchenry
+
+squidlog		1H	IN CNAME	locke.wikimedia.org.
+svn			60	IN CNAME	formey.wikimedia.org.
+
+torrus			1H	IN A		208.80.152.137
+
+tstracker               1H      IN CNAME	tracker.ts.wikimedia.org. ; toolserver BT tracker
+
+url-downloader		1H	IN A		208.80.152.143	; linne
+
+; Wikis (alphabetic order)
+
+advisory		1H	IN CNAME	text
+auditcom		1H	IN CNAME	text
+ar			1H	IN CNAME	text
+board                   1H      IN CNAME        text
+boardgovcom             1H      IN CNAME        text
+bookshelf		1H      IN CNAME        text
+br			1H      IN CNAME        text
+ch                      1H      IN CNAME        text
+chair			1H	IN CNAME	text
+chapcom			1H	IN CNAME	text
+checkuser		1H	IN CNAME	text
+collab			1H	IN CNAME	text
+co			1H	IN CNAME	text
+comcom			1H	IN CNAME	text
+commons			1H	IN CNAME	wikimedia-lb
+www.commons		1H	IN CNAME	wikimedia-lb
+de.labs                 1H      IN CNAME	text
+dk                      1H      IN CNAME	text
+en.labs                 1H      IN CNAME	text
+et                      1H      IN CNAME	text
+flaggedrevs.labs	1H      IN CNAME	text
+exec			1H	IN CNAME	text
+fi			1H	IN CNAME	text
+grants			1H	IN CNAME	text
+hu			1H	IN CNAME	text
+il			1H	IN CNAME	text
+incubator		1H	IN CNAME	text
+internal                1H      IN CNAME        text
+it			1H	IN CNAME	text
+langcom			1H	IN CNAME	text
+liquidthreads.labs	1H	IN CNAME	text
+meta			1H	IN CNAME	wikimedia-lb
+www.meta		1H	IN CNAME	wikimedia-lb
+mk			1H	IN CNAME	text
+movementroles		1H	IN CNAME	text
+mx			1H	IN CNAME	text
+nl			1H	IN CNAME	text
+www.nl			1H	IN CNAME	text
+noboard.chapters	1H	IN CNAME	text
+no			1H	IN CNAME	text
+nz			1H	IN CNAME	text
+nomcom			1H	IN CNAME	text
+nostalgia		1H	IN CNAME	text
+office			1H	IN CNAME	wikimedia-lb
+outreach		1H	IN CNAME	text
+quality			1H	IN CNAME	text
+pl                      1H      IN CNAME        text
+readerfeedback.labs	1H      IN CNAME	text
+rs			1H	IN CNAME	text
+ru			1H	IN CNAME	text
+se			1H	IN CNAME	text
+searchcom		1H	IN CNAME	text
+spcom			1H	IN CNAME	text
+species			1H	IN CNAME	text
+steward			1H	IN CNAME	text
+strategy		1H	IN CNAME	text
+strategyapps		1H	IN CNAME	text
+otrs-wiki		1H	IN CNAME	text
+pa.us                   1H      IN CNAME        text
+pt			1H	IN CNAME	text
+tr			1H	IN CNAME	text
+ua			1H	IN CNAME	text
+uk			1H	IN CNAME	text
+usability		1H	IN CNAME	text
+ve			1H	IN CNAME	text
+wikimania		1H	IN CNAME	text
+wikimania2005		1H	IN CNAME	wikimedia-lb
+wikimania2006		1H	IN CNAME	text
+wikimania2007		1H	IN CNAME	text
+wikimania2008		1H	IN CNAME	text
+wikimania2009		1H	IN CNAME	text
+wikimania2010		1H	IN CNAME	text
+wikimania2011		1H	IN CNAME	text
+wikimania2012		1H	IN CNAME	text
+wikimaniateam		1H	IN CNAME	text
+www			1H	IN CNAME	text
+
+; To be shared by all wikis
+bits			1h	IN CNAME	bits-geo
+
+; Other websites (NO wikis!)
+
+blog                    1H      IN CNAME	hooper.wikimedia.org.
+bugs			1H	IN CNAME	kaulen.wikimedia.org.
+bugzilla		1H	IN CNAME	kaulen.wikimedia.org.
+bugzilla3		1H	IN CNAME	singer.wikimedia.org.
+bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
+civicrm                 1H      IN CNAME	grosley
+civicrm-dev		1H	IN CNAME	grosley
+codereview-proxy	1H	IN CNAME	kaulen
+communicate		1H	IN CNAME	singer
+communityblog		1H	IN CNAME	hooper.wikimedia.org.
+commons.prototype	1H	IN A		208.80.152.249
+contacts		1H	IN CNAME	singer.wikimedia.org.
+controller.labs		1H	IN CNAME	virt1.wikimedia.org.
+outreachcivi		1H	IN CNAME	singer.wikimedia.org.
+cs			1H	IN CNAME	wikimedia.cz.
+cz			1H	IN CNAME	wikimedia.cz.
+dev.donate              1H      IN CNAME	isidore	
+download		1H	IN CNAME	dumps
+eiximenis		1H	IN CNAME	hooper.wikimedia.org.
+etherpad		1H	IN CNAME	hooper.wikimedia.org.
+flaggedrevssandbox	1H	IN A		69.164.195.193
+flgrevsandbox		1H	IN A		69.164.195.193
+frlabs			1H	IN A		208.80.152.151
+fundraising             1H      IN CNAME	grosley
+ganglia			1H	IN CNAME	spence
+globalblog		1H	IN CNAME	hooper.wikimedia.org.
+ganglia3		1H	IN CNAME	spence
+internproxy		1H	IN A		208.80.152.239
+jobs			1H	IN CNAME	wikimediafoundation.org.
+ls2			1H	IN CNAME	text
+nagios                  1H      IN CNAME        spence
+nmis			1H	IN CNAME	spence
+ishmael                 1H      IN CNAME        spence
+noc			1H	IN CNAME	fenari
+nyc			1H	IN CNAME	text
+ocs.wikimania2009	1H	IN CNAME	singer
+wm10reg			1H      IN CNAME        singer
+wm09schols              1H      IN CNAME        singer
+wm10schols              1H      IN CNAME        singer
+otrs-test		1H	IN CNAME	williams
+planet			1H	IN CNAME	singer
+ar.planet		1H	IN CNAME	singer
+cs.planet		1H	IN CNAME	singer
+da.planet		1H	IN CNAME	singer
+de.planet		1H	IN CNAME	singer
+en.planet		1H	IN CNAME	singer
+es.planet		1H	IN CNAME	singer
+fo.planet		1H	IN CNAME	singer
+fr.planet		1H	IN CNAME	singer
+gmq.planet		1H	IN CNAME	singer
+is.planet		1H	IN CNAME	singer
+it.planet		1H	IN CNAME	singer
+nb.planet		1H	IN CNAME	singer
+nn.planet		1H	IN CNAME	singer
+no.planet		1H	IN CNAME	singer
+pl.planet		1H	IN CNAME	singer
+pt.planet		1H	IN CNAME	singer
+ro.planet		1H	IN CNAME	singer
+ru.planet		1H	IN CNAME	singer
+sr.planet		1H	IN CNAME	singer
+sv.planet		1H	IN CNAME	singer
+zh.planet		1H	IN CNAME	singer
+planet			1H	IN CNAME	singer
+poke			1H	IN CNAME	isidore
+en.prototype		1H	IN CNAME	prototype
+de.prototype		1H	IN CNAME	prototype
+test.prototype		1H	IN CNAME	prototype
+prototype		1H	IN A		208.80.152.248
+puppet			1H	IN CNAME	sockpuppet.pmtpa.wmnet.
+racktables		1H	IN CNAME	singer
+search			1H	IN CNAME	ekrem
+stats			1H	IN CNAME	spence
+survey			1H	IN CNAME	argon.wikimedia.org.
+testblog                1H      IN CNAME	hooper.wikimedia.org.
+techblog		1H	IN CNAME	hooper.wikimedia.org.
+ticket			1H	IN CNAME	williams
+tools                   1H      IN CNAME        hemlock.ts
+ubuntu			1H	IN A		208.80.152.171
+civimaps		1H 	IN CNAME  	isidore
+coffee                  1H      IN CNAME        singer
+oldusability		1H	IN A		74.82.3.109
+voip			1H	IN A		216.38.130.191
+;volunteer		1H	IN A		208.75.85.110
+wikitech		1H	IN A		207.192.72.124 
+wikitech-static		1H	IN A		207.192.72.124
+wm06reg                 1H      IN CNAME	friedrich
+wm07schols              1H      IN CNAME	friedrich
+wm08reg			1H	IN A		67.228.205.196
+payments		60	IN A		208.80.152.7
+status			1H	IN CNAME 	status.watchmouse.com.
+url			1H	IN CNAME	singer
+
+; Misc
+
+rob.tech		1H	IN A	208.80.152.135
+andrew.tech		1H	IN A	208.80.152.139
+
+; IPv6 connectivity/reachability test
+ipv6.labs		1H	IN AAAA	2620:0:862:1:6666:6666:6666:6666
+ipv4.labs		1H	IN A	91.198.174.7
+ipv6and4.labs		1H	IN A	91.198.174.7
+			1H	IN AAAA	2620:0:862:1:6666:6666:6666:6666
+results.labs		1H	IN A	91.198.174.7
+
+; Google apps
+googlef3fe6c2a164e9650  1H      IN CNAME        google.com.
+
+
+
+
+; Corp glue records
+
+$ORIGIN corp.$zonename.
+
+ns1			1H	IN A	216.38.130.189
+ns2			1H	IN A	216.38.130.188
+
+; new tesla virt cluster
+$ORIGIN tesla.$zonename.
+
+testvm1			1H	IN A	208.80.153.194
+
+; Usability servers
+
+$ORIGIN usability.$zonename.
+
+build.tesla		1H	IN A	208.80.152.250
+ci.tesla		1H	IN A	208.80.152.246
+ci2.tesla		1H	IN A	208.80.152.247
+commonsprototype.tesla	1H	IN A	208.80.152.249
+mlqt.tesla		1H	IN A	208.80.152.237
+mobile.tesla		1H	IN A	208.80.152.245
+nomad.tesla		1H	IN A	208.80.152.244
+nova-controller.tesla	1H	IN A	208.80.152.236
+prototype.tesla		1H	IN A	208.80.152.248
+raskin			1H	IN A	208.80.152.253
+tesla			1H	IN A	208.80.152.252
+tesla.mgmt		1H	IN A	208.80.152.251
+test-payments.tesla	1H	IN A	208.80.152.235
+
+; Amsterdam cluster
+
+$ORIGIN esams.$zonename.
+
+; Service aliases
+
+ntp                     1H      IN A    91.198.174.118  ; pascal
+puppet			1H	IN CNAME	brewster.wikimedia.org.
+recursor0		1H	IN A	91.198.174.6
+
+; Servers
+
+amslvs1			1H	IN A	91.198.174.109
+amslvs2			1H	IN A	91.198.174.110
+amslvs3			1H	IN A	91.198.174.111
+amslvs4			1H	IN A	91.198.174.112
+clematis                1H      IN A    91.198.174.130
+                        1H      IN AAAA 2620:0:862:102:209:3dff:fe11:c9d2
+fuchsia                 1H      IN A    91.198.174.120
+iris                    1H      IN A    91.198.174.124
+lily                    1H      IN A    91.198.174.121
+
+mayflower               1H      IN A    91.198.174.123
+
+maerlant		1H	IN A	91.198.174.122
+mint                    1H      IN A    91.198.174.119
+ms6			1H	IN A	91.198.174.125
+pascal                  1H      IN A    91.198.174.118
+ragweed                 1H      IN A    91.198.174.126
+sage                    1H      IN A    145.97.39.130
+slauerhoff		1H 	IN A	91.198.174.108
+slauerhoff-array	1H 	IN A	91.198.174.107
+knsq1                   1H      IN A    91.198.174.11
+knsq2                   1H      IN A    91.198.174.12
+knsq3                   1H      IN A    91.198.174.13
+knsq4                   1H      IN A    91.198.174.14
+knsq5                   1H      IN A    91.198.174.15
+knsq6                   1H      IN A    91.198.174.16
+knsq7                   1H      IN A    91.198.174.17
+knsq8                   1H      IN A    91.198.174.18
+knsq9                   1H      IN A    91.198.174.19
+knsq10                  1H      IN A    91.198.174.20
+knsq11                  1H      IN A    91.198.174.21
+knsq12                  1H      IN A    91.198.174.22
+knsq13                  1H      IN A    91.198.174.23
+knsq14                  1H      IN A    91.198.174.24
+knsq15                  1H      IN A    91.198.174.25
+knsq16                  1H      IN A    91.198.174.26
+knsq17                  1H      IN A    91.198.174.27
+knsq18                  1H      IN A    91.198.174.28
+knsq19                  1H      IN A    91.198.174.29
+knsq20                  1H      IN A    91.198.174.30
+knsq21                  1H      IN A    91.198.174.31
+
+cs			1H	IN CNAME	wikimedia.cz.
+cz			1H	IN CNAME	wikimedia.cz.
+dev.donate              1H      IN CNAME	isidore	
+download		1H	IN CNAME	dumps
+fundraising             1H      IN CNAME	friedrich
+ls2			1H	IN CNAME	text
+nagios                  1H      IN CNAME        spence
+noc			1H	IN CNAME	fenari
+ocs.wikimania2009	1H	IN CNAME	singer
+otrs-test		1H	IN CNAME	williams
+planet			1H	IN CNAME	singer
+ar.planet		1H	IN CNAME	singer
+cs.planet		1H	IN CNAME	singer
+da.planet		1H	IN CNAME	singer
+de.planet		1H	IN CNAME	singer
+en.planet		1H	IN CNAME	singer
+fo.planet		1H	IN CNAME	singer
+fr.planet		1H	IN CNAME	singer
+gmq.planet		1H	IN CNAME	singer
+is.planet		1H	IN CNAME	singer
+nb.planet		1H	IN CNAME	singer
+nn.planet		1H	IN CNAME	singer
+no.planet		1H	IN CNAME	singer
+pl.planet		1H	IN CNAME	singer
+pt.planet		1H	IN CNAME	singer
+ru.planet		1H	IN CNAME	singer
+sr.planet		1H	IN CNAME	singer
+sv.planet		1H	IN CNAME	singer
+zh.planet		1H	IN CNAME	singer
+planet			1H	IN CNAME	singer
+poke			1H	IN CNAME	isidore
+search			1H	IN CNAME	ekrem
+stats			1H	IN CNAME	zwinger
+survey			1H	IN CNAME	singer.wikimedia.org.
+ticket			1H	IN CNAME	williams
+tools                   1H      IN CNAME        hemlock.ts
+office2                 1H      IN CNAME	friedrich
+civimaps		1H 	IN CNAME  	isidore
+usability		1H	IN A		74.82.3.109
+wikitech		1H	IN A		207.192.72.124 
+wm06reg                 1H      IN CNAME	friedrich
+wm07schols              1H      IN CNAME	friedrich
+wm08reg			1H	IN A		67.228.205.196
+
+; Misc
+
+rob.tech		1H	IN A	208.80.152.135
+
+; IPv6 connectivity/reachability test
+ipv6.labs		1H	IN AAAA	2620:0:862:1:6666:6666:6666:6666
+ipv4.labs		1H	IN A	91.198.174.7
+ipv6and4.labs		1H	IN A	91.198.174.7
+			1H	IN AAAA	2620:0:862:1:6666:6666:6666:6666
+results.labs		1H	IN A	91.198.174.7
+
+; Maps (OSM and others)
+tiles			1H	IN A	91.198.174.8
+
+
+
+; Amsterdam cluster
+
+$ORIGIN esams.$zonename.
+
+; Service aliases
+
+ntp                     1H      IN A    91.198.174.118  ; pascal
+
+; Servers
+
+amssq31			1H	IN A	91.198.174.41
+amssq32			1H	IN A	91.198.174.42
+amssq33			1H	IN A	91.198.174.43
+amssq34			1H	IN A	91.198.174.44
+amssq35			1H	IN A	91.198.174.45
+amssq36			1H	IN A	91.198.174.46
+amssq37			1H	IN A	91.198.174.47
+amssq38			1H	IN A	91.198.174.48
+amssq39			1H	IN A	91.198.174.49
+amssq40			1H	IN A	91.198.174.50
+amssq41			1H	IN A	91.198.174.51
+amssq42			1H	IN A	91.198.174.52
+amssq43			1H	IN A	91.198.174.53
+amssq44			1H	IN A	91.198.174.54
+amssq45			1H	IN A	91.198.174.55
+amssq46			1H	IN A	91.198.174.56
+amssq47			1H	IN A	91.198.174.57
+amssq48			1H	IN A	91.198.174.58
+amssq49			1H	IN A	91.198.174.59
+amssq50			1H	IN A	91.198.174.60
+amssq51			1H	IN A	91.198.174.61
+amssq52			1H	IN A	91.198.174.62
+amssq53			1H	IN A	91.198.174.63
+amssq54			1H	IN A	91.198.174.64
+amssq55			1H	IN A	91.198.174.65
+amssq56			1H	IN A	91.198.174.66
+amssq57			1H	IN A	91.198.174.67
+amssq58			1H	IN A	91.198.174.68
+amssq59			1H	IN A	91.198.174.69
+amssq60			1H	IN A	91.198.174.70
+amssq61			1H	IN A	91.198.174.71
+amssq62			1H	IN A	91.198.174.72
+
+clematis                1H      IN A    91.198.174.130
+                        1H      IN AAAA 2620:0:862:102:209:3dff:fe11:c9d2
+fuchsia                 1H      IN A    91.198.174.120
+hawthorn                1H      IN A    91.198.174.122
+hooft			1H	IN A	91.198.174.113
+iris                    1H      IN A    91.198.174.124
+lily                    1H      IN A    91.198.174.121
+
+mayflower               1H      IN A    91.198.174.123
+                        1H      IN AAAA 2620:0:862:1:209:3dff:fe10:d5d2
+
+mint                    1H      IN A    91.198.174.119
+nescio			1H	IN A	91.198.174.106
+
+ptolemy			1H	IN A 	91.198.174.114
+			1H 	IN AAAA	2620:0:862:1:223:8bff:fe8a:79f4
+ortelius		1H	IN A 	91.198.174.115
+			1H	IN AAAA	2620:0:862:1:21b:24ff:fee0:442e
+pascal                  1H      IN A    91.198.174.118
+ragweed                 1H      IN A    91.198.174.126
+sage                    1H      IN A    145.97.39.130
+
+knsq1                   1H      IN A    91.198.174.11
+knsq2                   1H      IN A    91.198.174.12
+knsq3                   1H      IN A    91.198.174.13
+knsq4                   1H      IN A    91.198.174.14
+knsq5                   1H      IN A    91.198.174.15
+knsq6                   1H      IN A    91.198.174.16
+knsq7                   1H      IN A    91.198.174.17
+knsq8                   1H      IN A    91.198.174.18
+knsq9                   1H      IN A    91.198.174.19
+knsq10                  1H      IN A    91.198.174.20
+knsq11                  1H      IN A    91.198.174.21
+knsq12                  1H      IN A    91.198.174.22
+knsq13                  1H      IN A    91.198.174.23
+knsq14                  1H      IN A    91.198.174.24
+knsq15                  1H      IN A    91.198.174.25
+knsq16                  1H      IN A    91.198.174.26
+knsq17                  1H      IN A    91.198.174.27
+knsq18                  1H      IN A    91.198.174.28
+knsq19                  1H      IN A    91.198.174.29
+knsq20                  1H      IN A    91.198.174.30
+knsq21                  1H      IN A    91.198.174.31
+knsq22                  1H      IN A    91.198.174.32
+knsq23                  1H      IN A    91.198.174.33
+knsq24                  1H      IN A    91.198.174.34
+knsq25                  1H      IN A    91.198.174.35
+knsq26                  1H      IN A    91.198.174.36
+knsq27                  1H      IN A    91.198.174.37
+knsq28                  1H      IN A    91.198.174.38
+knsq29                  1H      IN A    91.198.174.39
+knsq30                  1H      IN A    91.198.174.40
+
+; Management
+
+clematis.ipmi           1H      IN A    10.21.0.9
+fuchsia.ipmi            1H      IN A    10.21.0.4
+hawthorn.ipmi           1H      IN A    10.21.0.6
+iris.ipmi               1H      IN A    10.21.0.8
+lily.ipmi               1H      IN A    10.21.0.5
+mayflower.ipmi          1H      IN A    10.21.0.7
+mint.ipmi               1H      IN A    10.21.0.3
+pascal.ipmi             1H      IN A    10.21.0.2
+ragweed.ipmi            1H      IN A    10.21.0.11
+sage.ipmi               1H      IN A    10.21.0.10
+vandale.ipmi            1H      IN A    10.21.0.12
+zedler.ipmi             1H      IN A    10.21.0.13
+zedler-array.ipmi       1H      IN A    10.21.0.14
+hemlock.ipmi            1H      IN A    10.21.0.15
+knsq1.ipmi              1H      IN A    10.21.0.16
+knsq2.ipmi              1H      IN A    10.21.0.17
+knsq3.ipmi              1H      IN A    10.21.0.18
+knsq4.ipmi              1H      IN A    10.21.0.19
+knsq5.ipmi              1H      IN A    10.21.0.20
+knsq6.ipmi              1H      IN A    10.21.0.21
+knsq7.ipmi              1H      IN A    10.21.0.22
+knsq8.ipmi              1H      IN A    10.21.0.23
+knsq9.ipmi              1H      IN A    10.21.0.24
+knsq10.ipmi             1H      IN A    10.21.0.25
+knsq11.ipmi             1H      IN A    10.21.0.26
+knsq12.ipmi             1H      IN A    10.21.0.27
+knsq13.ipmi             1H      IN A    10.21.0.28
+knsq14.ipmi             1H      IN A    10.21.0.29
+knsq15.ipmi             1H      IN A    10.21.0.30
+knsq16.ipmi             1H      IN A    10.21.0.31
+knsq17.ipmi             1H      IN A    10.21.0.32
+knsq18.ipmi             1H      IN A    10.21.0.33
+knsq19.ipmi             1H      IN A    10.21.0.34
+knsq20.ipmi             1H      IN A    10.21.0.35
+knsq21.ipmi             1H      IN A    10.21.0.36
+knsq22.ipmi             1H      IN A    10.21.0.37
+knsq23.ipmi             1H      IN A    10.21.0.38
+knsq24.ipmi             1H      IN A    10.21.0.39
+knsq25.ipmi             1H      IN A    10.21.0.40
+knsq26.ipmi             1H      IN A    10.21.0.41
+knsq27.ipmi             1H      IN A    10.21.0.42
+knsq28.ipmi             1H      IN A    10.21.0.43
+knsq29.ipmi             1H      IN A    10.21.0.44
+knsq30.ipmi             1H      IN A    10.21.0.45
+nightshade.ipmi         1H      IN A    10.21.0.46
+willow.ipmi             1H      IN A    10.21.0.47
+ms6.ipmi		1H	IN A	10.21.0.48
+yarrow.ipmi             1H      IN A    10.21.0.100
+br1-knams.ipmi          1H      IN A    10.21.0.101
+scs-oe11-esams		1H	IN A	10.21.0.102
+ortelius.ipmi		1H	IN A	10.21.0.103
+ptolemy.ipmi		1H	IN A	10.21.0.104
+; Round robin record
+
+rr                      1H      IN A    91.198.174.232    ; LVS
+text			1H	IN A	91.198.174.232	; LVS
+bits                    1H	IN A	91.198.174.233  ; LVS
+upload                  1H      IN A    91.198.174.234	; NOTE, this record is currently overwritten by the Pipe backend and selective-answers.py for selective AAAA record serving with IPv6 experiments
+wikimedia-lb		1H	IN A	91.198.174.224  ; LVS
+wikipedia-lb		1H	IN A	91.198.174.225  ; LVS
+wiktionary-lb		1H	IN A	91.198.174.226  ; LVS
+wikiquote-lb		1H	IN A	91.198.174.227  ; LVS
+wikibooks-lb		1H	IN A	91.198.174.228  ; LVS
+wikisource-lb		1H	IN A	91.198.174.229  ; LVS
+wikinews-lb		1H	IN A	91.198.174.230  ; LVS
+wikiversity-lb		1H	IN A	91.198.174.231  ; LVS
+;mediawiki-lb		1H	IN A	91.198.174.232 
+foundation-lb		1H	IN A	91.198.174.235  ; LVS
+
+; SQL text replicas on clematis
+sql-text1               1H      IN A            91.198.174.131
+sql-text3               1H      IN A            91.198.174.132
+sql-text4               1H      IN A            91.198.174.133
+sql-text5               1H      IN A            91.198.174.134
+sql-text6               1H      IN A            91.198.174.135
+sql-text7               1H      IN A            91.198.174.136
+sql-text8               1H      IN A            91.198.174.137
+sql-text9               1H      IN A            91.198.174.138
+sql-text10              1H      IN A            91.198.174.139
+sql-text11              1H      IN A            91.198.174.140
+sql-text12              1H      IN A            91.198.174.141
+sql-text13              1H      IN A            91.198.174.142
+; 143 = array!
+sql-text14              1H      IN A            91.198.174.144
+sql-text15              1H      IN A            91.198.174.145
+sql-text16              1H      IN A            91.198.174.146
+sql-text17              1H      IN A            91.198.174.147
+sql-text18              1H      IN A            91.198.174.148
+sql-text19              1H      IN A            91.198.174.149
+sql-text20              1H      IN A            91.198.174.150
+sql-text21              1H      IN A            91.198.174.151
+sql-rc1                 1H      IN A            91.198.174.152
+
+
+; Kennisnet cluster - legacy addresses
+ 
+$ORIGIN knams.$zonename.
+
+; Mail exchangers
+
+@	        	1H	IN MX	10 pascal.esams.wikimedia.org.
+
+; Canonical names
+; Use the one in geobackend
+
+localhost		1W	IN A	127.0.0.1
+
+; Service aliases
+
+ntp			1H	IN A	91.198.174.118	; pascal
+www			1H	IN CNAME	pascal
+www2                    1H      IN CNAME        pascal
+
+; Servers
+
+clematis		1H	IN A	91.198.174.130
+			1H	IN AAAA	2620:0:862:102:209:3dff:fe11:c9d2
+fuchsia			1H	IN A	91.198.174.120
+hawthorn		1H	IN A	91.198.174.122
+iris			1H	IN A	91.198.174.124
+lily			1H	IN A	91.198.174.121
+
+mayflower		1H	IN A	91.198.174.123
+			1H	IN AAAA	2620:0:862:1:209:3dff:fe10:d5d2
+
+mint			1H	IN A	91.198.174.119
+osm-experiments		1H	IN A	91.198.174.114 ; temporary, is knsq30	
+pascal			1H	IN A	91.198.174.118
+ragweed			1H	IN A	91.198.174.126
+sage			1H	IN A	145.97.39.130
+
+knsq1			1H	IN A	91.198.174.11
+knsq2			1H	IN A	91.198.174.12
+knsq3			1H	IN A	91.198.174.13
+knsq4			1H	IN A	91.198.174.14
+knsq5			1H	IN A	91.198.174.15
+knsq6			1H	IN A	91.198.174.16
+knsq7			1H	IN A	91.198.174.17
+knsq8			1H	IN A	91.198.174.18
+knsq9			1H	IN A	91.198.174.19
+knsq10			1H	IN A	91.198.174.20
+knsq11			1H	IN A	91.198.174.21
+knsq12			1H	IN A	91.198.174.22
+knsq13			1H	IN A	91.198.174.23
+knsq14			1H	IN A	91.198.174.24
+knsq15			1H	IN A	91.198.174.25
+knsq16			1H	IN A	91.198.174.26
+knsq17			1H	IN A	91.198.174.27
+knsq18			1H	IN A	91.198.174.28
+knsq19			1H	IN A	91.198.174.29
+knsq20			1H	IN A	91.198.174.30
+knsq21			1H	IN A	91.198.174.31
+knsq22			1H	IN A	91.198.174.32
+knsq23			1H	IN A	91.198.174.33
+knsq24			1H	IN A	91.198.174.34
+knsq25			1H	IN A	91.198.174.35
+knsq26			1H	IN A	91.198.174.36
+knsq27			1H	IN A	91.198.174.37
+knsq28			1H	IN A	91.198.174.38
+knsq29			1H	IN A	91.198.174.39
+knsq30			1H	IN A	91.198.174.40
+
+; Management
+
+clematis.ipmi		1H	IN A	10.21.0.9
+fuchsia.ipmi		1H	IN A	10.21.0.4
+hawthorn.ipmi		1H	IN A	10.21.0.6
+iris.ipmi		1H	IN A	10.21.0.8
+lily.ipmi		1H	IN A	10.21.0.5
+mayflower.ipmi		1H	IN A	10.21.0.7
+mint.ipmi		1H	IN A	10.21.0.3
+pascal.ipmi		1H	IN A	10.21.0.2
+ragweed.ipmi		1H	IN A	10.21.0.11
+sage.ipmi		1H	IN A	10.21.0.10
+vandale.ipmi		1H	IN A	10.21.0.12
+zedler.ipmi             1H      IN A    10.21.0.13
+zedler-array.ipmi	1H	IN A	10.21.0.14
+hemlock.ipmi            1H      IN A    10.21.0.15
+knsq1.ipmi		1H	IN A	10.21.0.16
+knsq2.ipmi		1H	IN A	10.21.0.17
+knsq3.ipmi		1H	IN A	10.21.0.18
+knsq4.ipmi		1H	IN A	10.21.0.19
+knsq5.ipmi		1H	IN A	10.21.0.20
+knsq6.ipmi		1H	IN A	10.21.0.21
+knsq7.ipmi		1H	IN A	10.21.0.22
+knsq8.ipmi		1H	IN A	10.21.0.23
+knsq9.ipmi		1H	IN A	10.21.0.24
+knsq10.ipmi		1H	IN A	10.21.0.25
+knsq11.ipmi		1H	IN A	10.21.0.26
+knsq12.ipmi		1H	IN A	10.21.0.27
+knsq13.ipmi		1H	IN A	10.21.0.28
+knsq14.ipmi		1H	IN A	10.21.0.29
+knsq15.ipmi		1H	IN A	10.21.0.30
+knsq16.ipmi		1H	IN A	10.21.0.31
+knsq17.ipmi		1H	IN A	10.21.0.32
+knsq18.ipmi		1H	IN A	10.21.0.33
+knsq19.ipmi		1H	IN A	10.21.0.34
+knsq20.ipmi		1H	IN A	10.21.0.35
+knsq21.ipmi		1H	IN A	10.21.0.36
+knsq22.ipmi		1H	IN A	10.21.0.37
+knsq23.ipmi		1H	IN A	10.21.0.38
+knsq24.ipmi		1H	IN A	10.21.0.39
+knsq25.ipmi		1H	IN A	10.21.0.40
+knsq26.ipmi		1H	IN A	10.21.0.41
+knsq27.ipmi		1H	IN A	10.21.0.42
+knsq28.ipmi		1H	IN A	10.21.0.43
+knsq29.ipmi		1H	IN A	10.21.0.44
+knsq30.ipmi		1H	IN A	10.21.0.45
+nightshade.ipmi		1H	IN A	10.21.0.46
+willow.ipmi		1H	IN A	10.21.0.47
+yarrow.ipmi		1H	IN A	10.21.0.100
+br1-knams.ipmi		1H	IN A	10.21.0.101
+
+; Round robin record
+
+rr                      1H      IN A    91.198.174.2	; LVS
+upload                  1H      IN A    91.198.174.3	; NOTE, this record is currently overwritten by the Pipe backend and selective-answers.py for selective AAAA record serving with IPv6 experiments
+
+; SQL text replicas on clematis
+sql-text1		1H	IN A		91.198.174.131
+sql-text3		1H	IN A		91.198.174.132
+sql-text4		1H	IN A		91.198.174.133
+sql-text5		1H	IN A		91.198.174.134
+sql-text6		1H	IN A		91.198.174.135
+sql-text7		1H	IN A		91.198.174.136
+sql-text8		1H	IN A		91.198.174.137
+sql-text9		1H	IN A		91.198.174.138
+sql-text10		1H	IN A		91.198.174.139
+sql-text11		1H	IN A		91.198.174.140
+sql-text12		1H	IN A		91.198.174.141
+sql-text13		1H	IN A		91.198.174.142
+; 143 = array!
+sql-text14		1H	IN A		91.198.174.144
+sql-text15		1H	IN A		91.198.174.145
+sql-text16		1H	IN A		91.198.174.146
+sql-text17		1H	IN A		91.198.174.147
+sql-text18		1H	IN A		91.198.174.148
+sql-text19		1H	IN A		91.198.174.149
+sql-text20		1H	IN A		91.198.174.150
+sql-text21		1H	IN A		91.198.174.151
+sql-rc1			1H	IN A		91.198.174.152
+
+; Toolserver
+; 2620:0:862:101::/64
+$ORIGIN ts.$zonename.
+
+@			1H IN MX	10 clematis.toolserver.org.
+			1H IN MX	10 hawthorn.toolserver.org.
+
+localhost		1W IN A		127.0.0.1
+
+infra			1H IN CNAME	web.amaranth.toolserver.org.
+stable			1H IN A		91.198.174.199
+			1H IN AAAA	2620:0:862:101:91:198:174:199
+
+jira			1H IN CNAME web.amaranth.toolserver.org.
+confluence		1H IN CNAME web.amaranth.toolserver.org.
+fisheye			1H IN CNAME web.amaranth.toolserver.org.
+wiki			1H IN CNAME web.amaranth.toolserver.org.
+
+sql-s1			1H IN CNAME sql-s1.toolserver.org.
+sql-s2			1H IN CNAME sql-s2.toolserver.org.
+sql-s3			1H IN CNAME sql-s3.toolserver.org.
+
+$ORIGIN db.ts.$zonename.
+$toolserverdbs
+
+;
+; REVERSE DNS
+; 
+
+; Reverse DNS for 145.97.34.128/29 (Kennisnet management network)
+
+$ORIGIN 34.97.145.rev.$zonename.
+
+224 1H  IN PTR  net-ipmi.knams.wikimedia.org.
+225 1H  IN PTR  knfsm001.ipmi.knams.wikimedia.org.
+226 1H  IN PTR  knfsm002.ipmi.knams.wikimedia.org.
+227 1H  IN PTR  gw-hsrp.ipmi.knams.wikimedia.org.
+228 1H  IN PTR  eth1.pascal.knams.wikimedia.org.
