@@ -68,7 +68,7 @@ recursor1		1H	IN A	208.80.152.132	; mchenry
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
 
 alsted			1H	IN A	208.80.152.232
-aluminium		1H	IN A	208.80.152.6
+aluminium		1H	IN A	208.80.154.6
 aluminum		1H	IN CNAME aluminium
 anthony                 1H      IN A    208.80.152.181
 argon			1H	IN A	208.80.154.132
