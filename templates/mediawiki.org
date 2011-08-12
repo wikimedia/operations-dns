@@ -35,6 +35,7 @@ portal-test		1H	IN CNAME	larousse.wikimedia.org.
 www			1H	IN CNAME	text.wikimedia.org.
 wiki                    1H      IN CNAME        text.wikimedia.org.
 bugzilla		1H	IN CNAME	text.wikimedia.org.
+bugs			1H	IN CNAME	text.wikimedia.org.
 
 ; Other websites
 donate			1H	IN CNAME	text.wikimedia.org.
