@@ -1634,6 +1634,18 @@ $ORIGIN 3.65.$zonename.
 37	1H	IN PTR		WMF3411.mgmt.eqiad.wmnet.
 38	1H	IN PTR		stat1001.mgmt.eqiad.wmnet.
 38	1H	IN PTR		WMF3412.mgmt.eqiad.wmnet.
+39	1H	IN PTR		lvs1001.mgmt.eqiad.wmnet.
+39	1H	IN PTR		WMF3414.mgmt.eqiad.wmnet.
+40	1H	IN PTR		lvs1002.mgmt.eqiad.wmnet.
+40	1H	IN PTR		WMF3415.mgmt.eqiad.wmnet.
+41	1H	IN PTR		lvs1003.mgmt.eqiad.wmnet.
+41	1H	IN PTR		WMF3416.mgmt.eqiad.wmnet.
+42	1H	IN PTR		lvs1004.mgmt.eqiad.wmnet.
+42	1H	IN PTR		WMF3417.mgmt.eqiad.wmnet.
+43	1H	IN PTR		lvs1005.mgmt.eqiad.wmnet.
+43	1H	IN PTR		WMF3418.mgmt.eqiad.wmnet.
+44	1H	IN PTR		lvs1006.mgmt.eqiad.wmnet.
+44	1H	IN PTR		WMF3419.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.$zonename.
 

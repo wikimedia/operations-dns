@@ -536,6 +536,12 @@ lvs3			1H	IN A		10.1.4.3
 lvs4			1H	IN A		10.1.4.4
 lvs5			1H	IN A		10.1.8.26
 lvs6			1H	IN A		10.1.8.27
+lvs1001			1H	IN A		10.65.3.39
+lvs1002			1H	IN A		10.65.3.40
+lvs1003			1H	IN A		10.65.3.41
+lvs1004			1H	IN A		10.65.3.42
+lvs1005			1H	IN A		10.65.3.43
+lvs1006			1H	IN A		10.65.3.44
 mchenry			1H	IN A		10.1.230.240
 mobile1			1H	IN A		10.1.8.20
 mobile2			1H	IN A		10.1.8.28
