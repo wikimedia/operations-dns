@@ -69,6 +69,9 @@ $ORIGIN $zonename.
 52	1H IN PTR	cp1042.wikimedia.org.
 53	1H IN PTR	cp1043.wikimedia.org.
 54	1H IN PTR	cp1044.wikimedia.org.
+55	1H IN PTR	lvs1001.wikimedia.org.
+56	1H IN PTR	lvs1002.wikimedia.org.
+57	1H IN PTR	lvs1003.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
@@ -80,6 +83,9 @@ $ORIGIN $zonename.
 134	1H IN PTR	ssl1002.wikimedia.org.
 135	1H IN PTR	gallium.wikimedia.org.
 136	1H IN PTR	zinc.wikimedia.org.
+137	1H IN PTR	lvs1004.wikimedia.org.
+138	1H IN PTR	lvs1005.wikimedia.org.
+139	1H IN PTR	lvs1006.wikimedia.org.
 
 
 ; Neighbor blocks (208.80.154.192/27)
