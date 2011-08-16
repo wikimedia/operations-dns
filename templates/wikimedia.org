@@ -303,6 +303,23 @@ wikinews-lb.pmtpa	1H	IN A	208.80.152.206
 wikiversity-lb.pmtpa	1H	IN A	208.80.152.207
 mediawiki-lb.pmtpa	1H	IN A	208.80.152.208
 foundation-lb.pmtpa	1H	IN A	208.80.152.209
+bits-lb.pmtpa		1H	IN A	208.80.152.210
+upload-lb.pmtpa		1H	IN A	208.80.152.211
+
+wikimedia-lb.eqiad      1H      IN A    208.80.154.224
+wikipedia-lb.eqiad      1H      IN A    208.80.154.225
+wiktionary-lb.eqiad     1H      IN A    208.80.154.226
+wikiquote-lb.eqiad      1H      IN A    208.80.154.227
+wikibooks-lb.eqiad      1H      IN A    208.80.154.228
+wikisource-lb.eqiad     1H      IN A    208.80.154.229
+wikinews-lb.eqiad       1H      IN A    208.80.154.230
+wikiversity-lb.eqiad    1H      IN A    208.80.154.231
+mediawiki-lb.eqiad      1H      IN A    208.80.154.232
+foundation-lb.eqiad     1H      IN A    208.80.154.233
+bits-lb.eqiad           1H      IN A    208.80.154.234
+upload-lb.eqiad         1H      IN A    208.80.154.235
+mobile-lb.eqiad		1H	IN A	208.80.154.236
+
 m			1H	IN A	208.80.152.5 ; mobile LVS
 
 m.pmtpa			1H	IN A	208.80.152.5 ; mobile LVS
