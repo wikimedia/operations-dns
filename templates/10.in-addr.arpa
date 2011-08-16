@@ -1040,6 +1040,14 @@ $ORIGIN 0.64.$zonename.
 23	1H IN PTR	ms1003.eqiad.wmnet.
 24	1H IN PTR	ms1004.eqiad.wmnet.
 
+$ORIGIN 1.64.$zonename.
+
+1       1H IN PTR       vl1017-eth0.lvs1001.wikimedia.org.
+2       1H IN PTR       vl1017-eth0.lvs1002.wikimedia.org.
+3       1H IN PTR       vl1017-eth0.lvs1003.wikimedia.org.
+4       1H IN PTR       vl1017-eth1.lvs1004.wikimedia.org.
+5       1H IN PTR       vl1017-eth1.lvs1005.wikimedia.org.
+6       1H IN PTR       vl1017-eth1.lvs1006.wikimedia.org.
 
 ; 10.64.16.0/22 - private1-b-eqiad
 $ORIGIN 16.64.$zonename.
@@ -1083,6 +1091,16 @@ $ORIGIN 16.64.$zonename.
 37	1H IN PTR	db1048.eqiad.wmnet.
 38	1H IN PTR	e0M.nas1001-a.eqiad.wmnet.
 39	1H IN PTR	e0M.nas1001-b.eqiad.wmnet.
+
+$ORIGIN 17.64.$zonename.
+
+1       1H IN PTR       vl1018-eth1.lvs1001.wikimedia.org.
+2       1H IN PTR       vl1018-eth1.lvs1002.wikimedia.org.
+3       1H IN PTR       vl1018-eth1.lvs1003.wikimedia.org.
+4       1H IN PTR       vl1018-eth0.lvs1004.wikimedia.org.
+5       1H IN PTR       vl1018-eth0.lvs1005.wikimedia.org.
+6       1H IN PTR       vl1018-eth0.lvs1006.wikimedia.org.
+
 
 ; 10.64.32.0/22 - private1-c-eqiad
 $ORIGIN 32.64.$zonename.
