@@ -453,6 +453,10 @@ $ORIGIN 1.1.$zonename.
 18	1H	IN PTR	cr2-pmtpa.mgmt.pmtpa.wmnet.
 19	1H	IN PTR	csw1-sdtpa.mgmt.pmtpa.wmnet.
 20	1H	IN PTR	csw5-pmtpa.mgmt.pmtpa.wmnet.
+21	1H	IN PTR	asw-d-pmtpa.mgmt.pmtpa.wmnet.
+22	1H	IN PTR	asw-d1-pmtpa.mgmt.pmtpa.wmnet.
+23	1H	IN PTR	asw-d2-pmtpa.mgmt.pmtpa.wmnet.
+24	1H	IN PTR	asw-d3-pmtpa.mgmt.pmtpa.wmnet.
 
 ; Supportive management infrastructure
 
@@ -466,8 +470,6 @@ $ORIGIN 2.1.$zonename.
 $GENERATE 141-250   $	PTR srv$.mgmt.pmtpa.wmnet.
 
 $ORIGIN 3.1.$zonename.
-
-3	1H	IN PTR	ps1-a4-pmtpa.mgmt.pmtpa.wmnet.
 
 31	1H	IN PTR	sq31.mgmt.pmtpa.wmnet.
 32	1H	IN PTR	sq32.mgmt.pmtpa.wmnet.
@@ -571,6 +573,9 @@ $ORIGIN 5.1.$zonename.
 14	1H	IN PTR	ps1-d1-sdtpa.mgmt.pmtpa.wmnet.
 15	1H	IN PTR	ps1-d2-sdtpa.mgmt.pmtpa.wmnet.
 16	1H	IN PTR	ps1-d3-sdtpa.mgmt.pmtpa.wmnet.
+17	1H	IN PTR	ps1-d1-pmtpa.mgmt.pmtpa.wmnet.
+18	1H	IN PTR	ps1-d2-pmtpa.mgmt.pmtpa.wmnet.
+19	1H	IN PTR	ps1-d3-pmtpa.mgmt.pmtpa.wmnet.
 
 ; Database Servers
 $ORIGIN 6.1.$zonename.

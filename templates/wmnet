@@ -434,6 +434,10 @@ asw-b-sdtpa		1H	IN A		10.1.1.11
 asw-b3-sdtpa		1H	IN A		10.1.1.12
 asw-b4-sdtpa		1H	IN A		10.1.1.13
 asw-b5-sdtpa		1H	IN A		10.1.1.14
+asw-d-pmtpa		1H	IN A		10.1.1.21
+asw-d1-pmtpa		1H	IN A		10.1.1.22
+asw-d2-pmtpa		1H	IN A		10.1.1.23
+asw-d3-pmtpa		1H	IN A		10.1.1.24
 
 cr1-sdtpa		1H	IN A		10.1.1.17
 cr2-pmtpa		1H	IN A		10.1.1.18
@@ -441,7 +445,9 @@ cr2-pmtpa		1H	IN A		10.1.1.18
 nas1-a			1H	IN A		10.1.8.61
 nas1-b			1H	IN A		10.1.8.62
 
-ps1-a4-pmtpa		1H	IN A		10.1.3.3
+ps1-d1-pmtpa		1H	IN A		10.1.5.17
+ps1-d2-pmtpa		1H	IN A		10.1.5.18
+ps1-d3-pmtpa		1H	IN A		10.1.5.19
 
 ps1-a1-sdtpa		1H	IN A		10.1.5.1
 ps1-a2-sdtpa		1H	IN A		10.1.5.2
