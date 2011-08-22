@@ -548,6 +548,7 @@ flaggedrevssandbox	1H	IN A		69.164.195.193
 flgrevsandbox		1H	IN A		69.164.195.193
 frlabs			1H	IN A		208.80.152.151
 fundraising             1H      IN CNAME	grosley
+fundraising-analytics   1H      IN CNAME	grosley
 ganglia			1H	IN CNAME	spence
 globalblog		1H	IN CNAME	hooper.wikimedia.org.
 ganglia3		1H	IN CNAME	spence
