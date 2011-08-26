@@ -837,7 +837,7 @@ $ORIGIN 1.2.$zonename.
 13	1H	IN PTR	search-pool3.svc.pmtpa.wmnet.
 
 21	1H	IN PTR	rendering.svc.pmtpa.wmnet.
-22	1H	IN PTR	api.svc.pmpta.wmnet.
+22	1H	IN PTR	api.svc.pmtpa.wmnet.
 23	1H	IN PTR	bits.svc.pmtpa.wmnet.
 24	1H	IN PTR	upload.svc.pmtpa.wmnet.
 25	1H	IN PTR	text.svc.pmtpa.wmnet.
@@ -849,6 +849,23 @@ $ORIGIN 3.2.$zonename.
 23	1H	IN PTR	bits.svc.esams.wmnet.
 24	1H	IN PTR	upload.svc.esams.wmnet.
 25	1H	IN PTR	text.svc.esams.wmnet.
+
+; eqiad svc ips
+
+$ORIGIN 4.2.$zonename.
+
+1       1H      IN PTR  appservers.svc.eqiad.wmnet.
+
+11      1H      IN PTR  search-pool1.svc.eqiad.wmnet.
+12      1H      IN PTR  search-pool2.svc.eqiad.wmnet.
+13      1H      IN PTR  search-pool3.svc.eqiad.wmnet.
+
+21      1H      IN PTR  rendering.svc.eqiad.wmnet.
+22      1H      IN PTR  api.svc.eqiad.wmnet.
+23      1H      IN PTR  bits.svc.eqiad.wmnet.
+24      1H      IN PTR  upload.svc.eqiad.wmnet.
+25      1H      IN PTR  text.svc.eqiad.wmnet.
+
 
 ; Various small assignments
 
