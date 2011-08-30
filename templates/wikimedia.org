@@ -414,6 +414,8 @@ dvd                     1H      IN CNAME        www.masterssystems.com.
 
 geoiplookup		1H	IN CNAME	bits
 
+gerrit			1H	IN CNAME	wikimedia-lb
+
 imap			1H	IN A		208.80.152.187	; sanger
 			1H	IN MX		10 mchenry
 
