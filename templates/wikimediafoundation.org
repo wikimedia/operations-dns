@@ -33,7 +33,7 @@ localhost		1W	IN A	127.0.0.1
 ; Wikis (alphabetic order)
 
 species                 1H      IN CNAME        text.wikimedia.org.
-www			1H	IN CNAME	text.wikimedia.org.
+www			1H	IN CNAME	foundation-lb.wikimedia.org.
 
 ; All languages will automatically be included here
 $langlist
