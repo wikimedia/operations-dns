@@ -22,7 +22,7 @@ $ORIGIN $zonename.
 
 ; Canonical names
 
-                        1H      IN A    208.80.152.2
+                        1H      IN A    208.80.152.209
 
 localhost		1W	IN A	127.0.0.1
 
@@ -32,13 +32,13 @@ localhost		1W	IN A	127.0.0.1
 
 ; Wikis (alphabetic order)
 
-species                 1H      IN CNAME        text.wikimedia.org.
+species                 1H      IN CNAME        foundation-lb.wikimedia.org.
 www			1H	IN CNAME	foundation-lb.wikimedia.org.
 
 ; All languages will automatically be included here
 $langlist
 
 ; Other websites
-www.donate			1H	IN CNAME	text.wikimedia.org.
-donate			1H	IN CNAME	text.wikimedia.org.
+www.donate			1H	IN CNAME	foundation-lb.wikimedia.org.
+donate			1H	IN CNAME	foundation-lb.wikimedia.org.
 blog			1H	IN CNAME	hooper.wikimedia.org.
