@@ -18,7 +18,6 @@ $ORIGIN $zonename.
 1       1H IN PTR       vrrp-gw-1001.wikimedia.org.
 2       1H IN PTR       ae1-1001.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae1-1001.cr2-eqiad.wikimedia.org.
-
 5	1H IN PTR	magnesium.wikimedia.org.
 6	1H IN PTR	aluminium.wikimedia.org.
 7	1H IN PTR	silicon.wikimedia.org.
@@ -75,6 +74,7 @@ $ORIGIN $zonename.
 58	1H IN PTR	vl1001-eth1.lvs1004.wikimedia.org.
 59	1H IN PTR	vl1001-eth1.lvs1005.wikimedia.org.
 60	1H IN PTR	vl1001-eth1.lvs1006.wikimedia.org.
+61	1H IN PTR	sodium.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
