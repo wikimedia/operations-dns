@@ -1061,6 +1061,7 @@ $ORIGIN 0.64.$zonename.
 22	1H IN PTR	ms1002.eqiad.wmnet.
 23	1H IN PTR	ms1003.eqiad.wmnet.
 24	1H IN PTR	ms1004.eqiad.wmnet.
+25	1H IN PTR       es1001.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
@@ -1113,6 +1114,9 @@ $ORIGIN 16.64.$zonename.
 37	1H IN PTR	db1048.eqiad.wmnet.
 38	1H IN PTR	e0M.nas1001-a.eqiad.wmnet.
 39	1H IN PTR	e0M.nas1001-b.eqiad.wmnet.
+40	1H IN PTR	es1002.eqiad.wmnet.
+41	1H IN PTR	es1003.eqiad.wmnet.
+42	1H IN PTR	es1004.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 
