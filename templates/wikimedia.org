@@ -321,7 +321,7 @@ bits-lb.eqiad           1H      IN A    208.80.154.234
 upload-lb.eqiad         1H      IN A    208.80.154.235
 mobile-lb.eqiad		1H	IN A	208.80.154.236
 
-m			1H	IN A	208.80.152.5 ; mobile LVS
+m			1H	IN A	208.80.154.236 ; mobile LVS
 
 m.pmtpa			1H	IN A	208.80.152.5 ; mobile LVS
 
@@ -624,7 +624,7 @@ url			1H	IN CNAME	singer
 ; Misc
 
 rob.tech		1H	IN A	208.80.152.135
-andrew.tech		1H	IN A	208.80.152.139
+tampa.tech		1H	IN A	208.80.152.139
 
 ; IPv6 connectivity/reachability test
 ipv6.labs		1H	IN AAAA	2620:0:862:1:6666:6666:6666:6666
