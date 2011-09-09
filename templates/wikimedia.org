@@ -321,7 +321,7 @@ bits-lb.eqiad           1H      IN A    208.80.154.234
 upload-lb.eqiad         1H      IN A    208.80.154.235
 mobile-lb.eqiad		1H	IN A	208.80.154.236
 
-m			1H	IN A	208.80.154.236 ; mobile LVS
+m			1H	IN A	208.80.154.236 ; mobile eqiad LVS
 
 m.pmtpa			1H	IN A	208.80.152.5 ; mobile LVS
 
