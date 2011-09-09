@@ -539,7 +539,7 @@ communicate		1H	IN CNAME	singer
 communityblog		1H	IN CNAME	hooper.wikimedia.org.
 commons.prototype	1H	IN A		208.80.152.249
 contacts		1H	IN CNAME	singer.wikimedia.org.
-controller.labs		1H	IN CNAME	virt1.wikimedia.org.
+labsconsole		1H	IN CNAME	virt1.wikimedia.org.
 outreachcivi		1H	IN CNAME	singer.wikimedia.org.
 cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
