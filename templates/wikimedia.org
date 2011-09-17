@@ -510,16 +510,16 @@ ua			1H	IN CNAME	text
 uk			1H	IN CNAME	text
 usability		1H	IN CNAME	text
 ve			1H	IN CNAME	text
-wikimania		1H	IN CNAME	text
+wikimania		1H	IN CNAME	wikimedia-lb
 wikimania2005		1H	IN CNAME	wikimedia-lb
-wikimania2006		1H	IN CNAME	text
-wikimania2007		1H	IN CNAME	text
-wikimania2008		1H	IN CNAME	text
-wikimania2009		1H	IN CNAME	text
-wikimania2010		1H	IN CNAME	text
-wikimania2011		1H	IN CNAME	text
-wikimania2012		1H	IN CNAME	text
-wikimaniateam		1H	IN CNAME	text
+wikimania2006		1H	IN CNAME	wikimedia-lb
+wikimania2007		1H	IN CNAME	wikimedia-lb
+wikimania2008		1H	IN CNAME	wikimedia-lb
+wikimania2009		1H	IN CNAME	wikimedia-lb
+wikimania2010		1H	IN CNAME	wikimedia-lb
+wikimania2011		1H	IN CNAME	wikimedia-lb
+wikimania2012		1H	IN CNAME	wikimedia-lb
+wikimaniateam		1H	IN CNAME	wikimedia-lb
 www			1H	IN CNAME	text
 
 ; To be shared by all wikis
