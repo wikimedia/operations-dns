@@ -876,6 +876,7 @@ ms1004			1H	IN A		10.64.0.24
 
 puppet			1H	IN CNAME	sockpuppet.pmtpa.wmnet.
 puppetmaster		1H	IN CNAME	sockpuppet.pmtpa.wmnet.
+rubidium		1H	IN A		10.64.0.26
 
 ; Management
 
