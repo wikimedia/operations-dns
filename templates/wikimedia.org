@@ -72,6 +72,7 @@ aluminium		1H	IN A	208.80.154.6
 aluminum		1H	IN CNAME aluminium
 anthony                 1H      IN A    208.80.152.181
 argon			1H	IN A	208.80.154.132
+arsenic			1H	IN A	208.80.154.62
 bayes			1H	IN A	208.80.152.168
 bayle			1H	IN A	208.80.152.174
 brewster		1H	IN A	208.80.152.171
@@ -163,6 +164,7 @@ mobile3			1H	IN A	208.80.152.117
 mobile4			1H	IN A	208.80.152.119
 mobile5			1H	IN A	208.80.152.99
 ms4			1H	IN A	208.80.152.156
+niobium			1H	IN A	208.80.154.143
 owa1			1H	IN A	208.80.152.112
 owa2			1H	IN A	208.80.152.113
 owa3			1H	IN A	208.80.152.114
