@@ -809,6 +809,14 @@ $ORIGIN eqiad.$zonename.
 ; Service aliases
 ntp			1H	IN CNAME	linne.wikimedia.org.
 
+; Cameras
+cam1-a-eqiad		1H	IN A		10.64.0.27
+cam2-a-eqiad		1H	IN A		10.64.0.28
+cam1-a-b-eqiad		1H	IN A		10.64.0.29
+cam2-a-b-eqiad		1H	IN A		10.64.0.30
+cam1-c-d-eqiad		1H	IN A		10.64.16.43
+cam2-c-d-eqiad		1H	IN A		10.64.16.44
+
 ; Netapps
 nas1001-a		1H	IN A		10.64.16.4
 nas1001-b		1H	IN A		10.64.16.5
