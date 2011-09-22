@@ -137,6 +137,9 @@ zwinger2		1H	IN A		10.0.0.34
 
 ; $GENERATES
 
+; mw1-mw74
+$GENERATE  1-74    mw$ A  10.0.11.$
+
 ; srv11-250
 $GENERATE  11-250    srv$ A  10.0.2.$
 

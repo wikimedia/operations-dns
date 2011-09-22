@@ -427,6 +427,83 @@ $ORIGIN 10.0.$zonename.
 2	1H	IN PTR	snapshot2.pmtpa.wmnet.
 4	1H	IN PTR	snapshot4.pmtpa.wmnet.
 
+; mw* apache/mediawiki server cluster (new apaches, replacing the srv* name)
+$ORIGIN 11.0.$zonename.
+1	1H	IN PTR	mw1.pmtpa.wmnet.
+2	1H	IN PTR	mw2.pmtpa.wmnet.
+3	1H	IN PTR	mw3.pmtpa.wmnet.
+4	1H	IN PTR	mw4.pmtpa.wmnet.
+5	1H	IN PTR	mw5.pmtpa.wmnet.
+6	1H	IN PTR	mw6.pmtpa.wmnet.
+7	1H	IN PTR	mw7.pmtpa.wmnet.
+8	1H	IN PTR	mw8.pmtpa.wmnet.
+9	1H	IN PTR	mw9.pmtpa.wmnet.
+10	1H	IN PTR	mw10.pmtpa.wmnet.
+11	1H	IN PTR	mw11.pmtpa.wmnet.
+12	1H	IN PTR	mw12.pmtpa.wmnet.
+13	1H	IN PTR	mw13.pmtpa.wmnet.
+14	1H	IN PTR	mw14.pmtpa.wmnet.
+15	1H	IN PTR	mw15.pmtpa.wmnet.
+16	1H	IN PTR	mw16.pmtpa.wmnet.
+17	1H	IN PTR	mw17.pmtpa.wmnet.
+18	1H	IN PTR	mw18.pmtpa.wmnet.
+19	1H	IN PTR	mw19.pmtpa.wmnet.
+20	1H	IN PTR	mw20.pmtpa.wmnet.
+21	1H	IN PTR	mw21.pmtpa.wmnet.
+22	1H	IN PTR	mw22.pmtpa.wmnet.
+13	1H	IN PTR	mw23.pmtpa.wmnet.
+24	1H	IN PTR	mw24.pmtpa.wmnet.
+25	1H	IN PTR	mw25.pmtpa.wmnet.
+26	1H	IN PTR	mw26.pmtpa.wmnet.
+27	1H	IN PTR	mw27.pmtpa.wmnet.
+28	1H	IN PTR	mw28.pmtpa.wmnet.
+29	1H	IN PTR	mw29.pmtpa.wmnet.
+30	1H	IN PTR	mw30.pmtpa.wmnet.
+31	1H	IN PTR	mw31.pmtpa.wmnet.
+32	1H	IN PTR	mw32.pmtpa.wmnet.
+33	1H	IN PTR	mw33.pmtpa.wmnet.
+34	1H	IN PTR	mw34.pmtpa.wmnet.
+35	1H	IN PTR	mw35.pmtpa.wmnet.
+36	1H	IN PTR	mw36.pmtpa.wmnet.
+37	1H	IN PTR	mw37.pmtpa.wmnet.
+38	1H	IN PTR	mw38.pmtpa.wmnet.
+39	1H	IN PTR	mw39.pmtpa.wmnet.
+40	1H	IN PTR	mw40.pmtpa.wmnet.
+41	1H	IN PTR	mw41.pmtpa.wmnet.
+42	1H	IN PTR	mw42.pmtpa.wmnet.
+43	1H	IN PTR	mw43.pmtpa.wmnet.
+44	1H	IN PTR	mw44.pmtpa.wmnet.
+45	1H	IN PTR	mw45.pmtpa.wmnet.
+46	1H	IN PTR	mw46.pmtpa.wmnet.
+47	1H	IN PTR	mw47.pmtpa.wmnet.
+48	1H	IN PTR	mw48.pmtpa.wmnet.
+49	1H	IN PTR	mw49.pmtpa.wmnet.
+50	1H	IN PTR	mw50.pmtpa.wmnet.
+51	1H	IN PTR	mw51.pmtpa.wmnet.
+52	1H	IN PTR	mw52.pmtpa.wmnet.
+53	1H	IN PTR	mw53.pmtpa.wmnet.
+54	1H	IN PTR	mw54.pmtpa.wmnet.
+55	1H	IN PTR	mw55.pmtpa.wmnet.
+56	1H	IN PTR	mw56.pmtpa.wmnet.
+57	1H	IN PTR	mw57.pmtpa.wmnet.
+58	1H	IN PTR	mw58.pmtpa.wmnet.
+59	1H	IN PTR	mw59.pmtpa.wmnet.
+60	1H	IN PTR	mw60.pmtpa.wmnet.
+61	1H	IN PTR	mw61.pmtpa.wmnet.
+62	1H	IN PTR	mw62.pmtpa.wmnet.
+63	1H	IN PTR	mw63.pmtpa.wmnet.
+64	1H	IN PTR	mw64.pmtpa.wmnet.
+65	1H	IN PTR	mw65.pmtpa.wmnet.
+66	1H	IN PTR	mw66.pmtpa.wmnet.
+67	1H	IN PTR	mw67.pmtpa.wmnet.
+68	1H	IN PTR	mw68.pmtpa.wmnet.
+69	1H	IN PTR	mw69.pmtpa.wmnet.
+70	1H	IN PTR	mw70.pmtpa.wmnet.
+71	1H	IN PTR	mw71.pmtpa.wmnet.
+72	1H	IN PTR	mw72.pmtpa.wmnet.
+73	1H	IN PTR	mw73.pmtpa.wmnet.
+74	1H	IN PTR	mw74.pmtpa.wmnet.
+
 ; Management (pmtpa)
 
 $ORIGIN 1.$zonename.
