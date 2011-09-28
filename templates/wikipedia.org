@@ -62,7 +62,7 @@ donate			1H	IN CNAME	text.wikimedia.org.
 static			1H	IN CNAME	hume.wikimedia.org.
 www.donate		1H	IN CNAME	text.wikimedia.org.
 download		1H	IN CNAME	dumps.wikimedia.org.
-mobile			1H	IN CNAME	mobile-lb.eqiad.wikimedia.org.
+mobile			1H	IN CNAME	text.wikimedia.org.
 stats			1H	IN CNAME	stats.wikimedia.org.
 
 ; Mobile sites using the new ruby architecture written by hcatlin@
