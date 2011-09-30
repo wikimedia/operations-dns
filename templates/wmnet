@@ -1646,6 +1646,13 @@ multatuli	1H	IN A		10.21.0.113
 maerlant	1H	IN A		10.21.0.114
 slauerhoff	1H	IN A		10.21.0.115
 
+ssl3001		1H	IN A		10.21.0.121
+ssl3002		1H	IN A		10.21.0.122
+ssl3003		1H	IN A		10.21.0.123
+ssl3004		1H	IN A		10.21.0.124
+ssl3005		1H	IN A		10.21.0.125
+ssl3006		1H	IN A		10.21.0.126
+
 scs1-esams	1H	IN A		10.21.0.210
 msw-oe12-esams	1H	IN A		10.21.0.249
 

@@ -40,5 +40,6 @@ bugs			1H	IN CNAME	text.wikimedia.org.
 ; Other websites
 donate			1H	IN CNAME	text.wikimedia.org.
 download		1H	IN CNAME	kaulen.wikimedia.org.
+integration		1H	IN CNAME	gallium.wikimedia.org.
 www.donate		1H	IN CNAME	text.wikimedia.org.
 svn			1H	IN CNAME	svn.wikimedia.org.
