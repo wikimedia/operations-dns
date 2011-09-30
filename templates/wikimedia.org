@@ -957,7 +957,7 @@ wikibooks-lb		1H	IN A	91.198.174.228  ; LVS
 wikisource-lb		1H	IN A	91.198.174.229  ; LVS
 wikinews-lb		1H	IN A	91.198.174.230  ; LVS
 wikiversity-lb		1H	IN A	91.198.174.231  ; LVS
-;mediawiki-lb		1H	IN A	91.198.174.232 
+mediawiki-lb		1H	IN A	91.198.174.232 
 foundation-lb		1H	IN A	91.198.174.235  ; LVS
 
 ; SQL text replicas on clematis

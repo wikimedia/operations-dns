@@ -183,7 +183,7 @@ $GENERATE 192-223	$ CNAME $.192-223.174.198.91.in-addr.arpa.
 229     1H IN PTR       wikisource-lb.esams.wikimedia.org.
 230     1H IN PTR       wikinews-lb.esams.wikimedia.org.
 231     1H IN PTR       wikiversity-lb.esams.wikimedia.org.
-;232     1H IN PTR       mediawiki-lb.esams.wikimedia.org.
+232     1H IN PTR       mediawiki-lb.esams.wikimedia.org.
 
 ; Out-of-subnet LVS service IPs
 232	1H IN PTR	text.esams.wikimedia.org.
