@@ -89,6 +89,10 @@ $ORIGIN $zonename.
 71	1H IN PTR	amssq61.esams.wikimedia.org.
 72	1H IN PTR	amssq62.esams.wikimedia.org.
 
+102	1H IN PTR	ssl3001.esams.wikimedia.org.
+103	1H IN PTR	ssl3002.esams.wikimedia.org.
+104	1H IN PTR	ssl3003.esams.wikimedia.org.
+105	1H IN PTR	ssl3004.esams.wikimedia.org.
 106	1H IN PTR	nescio.esams.wikimedia.org.
 107	1H IN PTR	slauerhoff-array.esams.wikimedia.org.
 108	1H IN PTR	slauerhoff.esams.wikimedia.org.

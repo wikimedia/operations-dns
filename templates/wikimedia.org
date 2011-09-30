@@ -889,6 +889,11 @@ knsq28                  1H      IN A    91.198.174.38
 knsq29                  1H      IN A    91.198.174.39
 knsq30                  1H      IN A    91.198.174.40
 
+ssl3001			1H	IN A	91.198.174.102
+ssl3002			1H	IN A	91.198.174.103
+ssl3003			1H	IN A	91.198.174.104
+ssl3004			1H	IN A	91.198.174.105
+
 ; Management
 
 clematis.ipmi           1H      IN A    10.21.0.9
