@@ -11,13 +11,14 @@ $ORIGIN $zonename.
 ; Name servers
 
 			1D	IN NS	ns0.wikimedia.org.	; bayle
-			1D	IN NS	ns1.wikimedia.org.	; yf1018
+			1D	IN NS	ns1.wikimedia.org.	; yf1019
 			1D	IN NS	ns2.wikimedia.org.	; lily
 
 ; Mail exchangers
 
-			1H	IN MX	10 mchenry.wikimedia.org.
-			1H	IN MX	50 lists.wikimedia.org.
+                        1H	IN MX   10      mchenry.wikimedia.org.
+                        1H	IN MX   50      lists.wikimedia.org.
+
 
 ; Canonical names
 
@@ -31,6 +32,12 @@ localhost		1W	IN A	127.0.0.1
 
 ; Wikis (alphabetic order)
 
+species                 1H      IN CNAME        wikimedia-lb.wikimedia.org.
 www			1H	IN CNAME	wikimedia-lb.wikimedia.org.
 
+; All languages will automatically be included here
+$wikimedia_langlist
+
 ; Other websites
+www.donate			1H	IN CNAME	wikimedia-lb.wikimedia.org.
+donate			1H	IN CNAME	wikimedia-lb.wikimedia.org.

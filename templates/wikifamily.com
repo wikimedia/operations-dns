@@ -1,1 +1,1 @@
-wiktionary.org
+wikimedia.com
