@@ -1,1 +1,1 @@
-wiktionary.org
+wikibooks.org
