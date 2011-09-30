@@ -1,1 +1,1 @@
-wiktionary.org
+wikiquote.org
