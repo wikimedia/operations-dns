@@ -78,6 +78,7 @@ $ORIGIN $zonename.
 62	1H IN PTR	arsenic.wikimedia.org.
 63	1H IN PTR	selenium.wikimedia.org.
 64	1H IN PTR	bromine.wikimedia.org.
+65	1H IN PTR	neon.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
