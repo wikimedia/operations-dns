@@ -317,6 +317,8 @@ mediawiki-lb.pmtpa	1H	IN A	208.80.152.208
 foundation-lb.pmtpa	1H	IN A	208.80.152.209
 bits-lb.pmtpa		1H	IN A	208.80.152.210
 upload-lb.pmtpa		1H	IN A	208.80.152.211
+mobile-lb.pmtpa		1H	IN A	208.80.152.212
+payments-lb.pmtpa	1H	IN A	208.80.152.213
 
 wikimedia-lb.eqiad      1H      IN A    208.80.154.224
 wikipedia-lb.eqiad      1H      IN A    208.80.154.225
@@ -331,6 +333,7 @@ foundation-lb.eqiad     1H      IN A    208.80.154.233
 bits-lb.eqiad           1H      IN A    208.80.154.234
 upload-lb.eqiad         1H      IN A    208.80.154.235
 mobile-lb.eqiad		1H	IN A	208.80.154.236
+payments-lb.eqiad	1H	IN A	208.80.154.237
 
 m			1H	IN A	208.80.154.236 ; mobile eqiad LVS
 

@@ -139,4 +139,4 @@ $ORIGIN $zonename.
 234	1H IN PTR	bits-lb.eqiad.wikimedia.org.
 235	1H IN PTR	upload-lb.eqiad.wikimedia.org.
 236	1H IN PTR	mobile-lb.eqiad.wikimedia.org.
-
+237	1H IN PTR	payments-lb.eqiad.wikimedia.org.

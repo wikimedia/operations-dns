@@ -201,6 +201,8 @@ $ORIGIN $zonename.
 209	1H IN PTR	foundation-lb.pmtpa.wikimedia.org.
 210	1H IN PTR	bits-lb.pmtpa.wikimedia.org.
 211	1H IN PTR	upload-lb.pmtpa.wikimedia.org.
+212	1H IN PTR	mobile-lb.pmtpa.wikimedia.org.
+213	1H IN PTR	payments-lb.pmtpa.wikimedia.org.
 
 ; 208.80.152.220/30 TEMP migration to MX80
 221     1H IN PTR       vl405-ve10.csw5-pmtpa.wikimedia.org.
