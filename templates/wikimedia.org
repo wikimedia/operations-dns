@@ -465,6 +465,7 @@ ar			1H	IN CNAME	wikimedia-lb
 board                   1H      IN CNAME        wikimedia-lb
 boardgovcom             1H      IN CNAME        wikimedia-lb
 bookshelf		1H      IN CNAME        wikimedia-lb
+bd			1H      IN CNAME        wikimedia-lb
 br			1H      IN CNAME        wikimedia-lb
 ch                      1H      IN CNAME        wikimedia-lb
 chair			1H	IN CNAME	wikimedia-lb
