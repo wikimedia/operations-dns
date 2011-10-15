@@ -1096,8 +1096,8 @@ $ORIGIN 0.21.$zonename.
 122	1H	IN PTR	ssl3002.mgmt.esams.wmnet.
 123	1H	IN PTR	ssl3003.mgmt.esams.wmnet.
 124	1H	IN PTR	ssl3004.mgmt.esams.wmnet.
-125	1H	IN PTR	ssl3005.mgmt.esams.wmnet.
-126	1H	IN PTR	ssl3006.mgmt.esams.wmnet.
+125	1H	IN PTR	cp3001.mgmt.esams.wmnet.
+126	1H	IN PTR	cp3002.mgmt.esams.wmnet.
 
 $GENERATE 141-180    $   PTR dyn-$.mgmt.esams.wmnet.
 
