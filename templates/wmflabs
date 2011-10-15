@@ -1,0 +1,23 @@
+$TTL 3600
+$ORIGIN $zonename.
+@			1D	IN SOA	ns0.wikimedia.org.	hostmaster.wikimedia.org.	(
+					$serial		; serial
+					12H		; refresh
+					2H		; retry
+					2W		; expiry
+					1H		; negative cache TTL
+					)
+
+; Name servers
+
+			1D	IN NS	virt1.wikimedia.org.
+			1D	IN NS	labsconsole.wikimedia.org.
+
+; Mail exchangers
+
+			1H	IN MX	10	mchenry.wikimedia.org.
+			1H	IN MX	50	lists.wikimedia.org.
+
+; Canonical names
+
+localhost		1W	IN A	127.0.0.1
