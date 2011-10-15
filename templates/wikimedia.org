@@ -843,6 +843,8 @@ amssq62			1H	IN A	91.198.174.72
 
 clematis                1H      IN A    91.198.174.130
                         1H      IN AAAA 2620:0:862:102:209:3dff:fe11:c9d2
+cp3001			1H	IN A	91.198.174.100
+cp3002			1H	IN A	91.198.174.101
 fuchsia                 1H      IN A    91.198.174.120
 hawthorn                1H      IN A    91.198.174.122
 hooft			1H	IN A	91.198.174.113
