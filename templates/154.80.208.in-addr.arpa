@@ -96,6 +96,7 @@ $ORIGIN $zonename.
 143	1H IN PTR	niobium.wikimedia.org.
 144	1H IN PTR	molybdenum.wikimedia.org.
 145	1H IN PTR	technetium.wikimedia.org.
+146	1H IN PTR	copper.wikimedia.org.
 
 ; Neighbor blocks (208.80.154.192/27)
 
