@@ -164,7 +164,7 @@ $ORIGIN $zonename.
 179	1H IN PTR	ekrem-old.wikimedia.org.
 180	1H IN PTR	payments.wikimedia.org.	; LVS
 181	1H IN PTR	pdf3.wikimedia.org.
-182	1H IN PTR	storage1.wikimedia.org.
+
 183	1H IN PTR	storage2.wikimedia.org.
 184	1H IN PTR	emery.wikimedia.org.
 185	1H IN PTR	dataset2.wikimedia.org.

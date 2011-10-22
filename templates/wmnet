@@ -131,6 +131,7 @@ snapshot4		1H	IN A		10.0.10.4
 sockpuppet		1H	IN A		10.0.0.245
 srv1			1H	IN A		10.0.2.2
 srv2			1H	IN A		10.0.2.1
+storage1		1H	IN A		10.0.0.217
 storage3		1H	IN A		10.0.0.219
 thistle			1H	IN A		10.0.0.232
 tingxi			1H	IN A		10.0.0.12
