@@ -45,8 +45,6 @@ $ORIGIN 0.0.$zonename.
 201 	1H	IN PTR  ae0-2.cr1-sdtpa.wikimedia.org.
 202 	1H	IN PTR  ae0-2.cr2-pmtpa.wikimedia.org.
 
-217	1H	IN PTR	storage1.pmtpa.wmnet.
-
 219	1H	IN PTR	storage3.pmtpa.wmnet.
 220 	1H	IN PTR  scs.pmtpa.wmnet.
 229	1H	IN PTR	ms8.pmtpa.wmnet
