@@ -423,7 +423,7 @@ apt			1H	IN CNAME	brewster
 cache                   1H      IN CNAME        wikimedia-lb
 
 donate			1H	IN A		208.80.152.200	; wikimedia-lb, can't do cname + mx
-			1H	IN MX		10 grosley 
+			1H	IN MX		10 aluminium 
 			1H	IN MX		20 mchenry
 
 dvd                     1H      IN CNAME        www.masterssystems.com.
@@ -548,8 +548,8 @@ bugs			1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla		1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla3		1H	IN CNAME	singer.wikimedia.org.
 bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
-civicrm                 1H      IN CNAME	grosley
-civicrm-dev		1H	IN CNAME	grosley
+civicrm                 1H      IN CNAME	aluminium
+civicrm-dev		1H	IN CNAME	aluminium
 codereview-proxy	1H	IN CNAME	kaulen
 communicate		1H	IN CNAME	singer
 communityblog		1H	IN CNAME	hooper.wikimedia.org.
@@ -566,8 +566,8 @@ etherpad		1H	IN CNAME	hooper.wikimedia.org.
 flaggedrevssandbox	1H	IN A		69.164.195.193
 flgrevsandbox		1H	IN A		69.164.195.193
 frlabs			1H	IN A		208.80.152.151
-fundraising             1H      IN CNAME	grosley
-fundraising-analytics   1H      IN CNAME	grosley
+fundraising             1H      IN CNAME	aluminium
+fundraising-analytics   1H      IN CNAME	aluminium
 ganglia			1H	IN CNAME	spence
 globalblog		1H	IN CNAME	hooper.wikimedia.org.
 ganglia3		1H	IN CNAME	spence
