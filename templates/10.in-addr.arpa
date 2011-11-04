@@ -47,7 +47,12 @@ $ORIGIN 0.0.$zonename.
 
 219	1H	IN PTR	storage3.pmtpa.wmnet.
 220 	1H	IN PTR  scs.pmtpa.wmnet.
-229	1H	IN PTR	ms8.pmtpa.wmnet
+
+225	1H	IN PTR	es1.pmtpa.wmnet.
+226	1H	IN PTR	es2.pmtpa.wmnet.
+227	1H	IN PTR	es3.pmtpa.wmnet.
+
+229	1H	IN PTR	ms8.pmtpa.wmnet.
 230 	1H	IN PTR  coronelli.pmtpa.wmnet.
 231 	1H	IN PTR  ixia.pmtpa.wmnet.
 232 	1H	IN PTR  thistle.pmtpa.wmnet.

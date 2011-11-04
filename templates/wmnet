@@ -108,6 +108,10 @@ db45			1H	IN A		10.0.6.55
 db46			1H	IN A		10.0.6.56
 db47			1H	IN A		10.0.6.57
 erzurumi		1h	IN A		10.0.0.25
+es1			1H	IN A		10.0.0.225
+es2			1H	IN A		10.0.0.226
+es3			1H	IN A		10.0.0.227
+es4			1H	IN A		10.0.0.228
 ixia			1H	IN A		10.0.0.231
 lomaria			1H	IN A		10.0.0.233
 maurus			1H	IN A		10.0.0.16
