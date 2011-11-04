@@ -51,6 +51,7 @@ $ORIGIN 0.0.$zonename.
 225	1H	IN PTR	es1.pmtpa.wmnet.
 226	1H	IN PTR	es2.pmtpa.wmnet.
 227	1H	IN PTR	es3.pmtpa.wmnet.
+228	1H	IN PTR	es4.pmtpa.wmnet.
 
 229	1H	IN PTR	ms8.pmtpa.wmnet.
 230 	1H	IN PTR  coronelli.pmtpa.wmnet.
