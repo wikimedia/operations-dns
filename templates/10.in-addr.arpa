@@ -700,7 +700,7 @@ $ORIGIN 6.1.$zonename.
 56	1H	IN PTR db46.mgmt.pmtpa.wmnet.
 57	1H	IN PTR db47.mgmt.pmtpa.wmnet.
 
-; Media Servers & SSL Servers
+; Media Servers & SSL Servers & ES Servers
 $ORIGIN 7.1.$zonename.
 1	1H	IN PTR ms1.mgmt.pmtpa.wmnet.
 2	1H	IN PTR ms2.mgmt.pmtpa.wmnet.
@@ -709,6 +709,10 @@ $ORIGIN 7.1.$zonename.
 5	1H	IN PTR ms5.mgmt.pmtpa.wmnet.
 6	1H	IN PTR ms7.mgmt.pmtpa.wmnet.
 7	1H	IN PTR ms8.mgmt.pmtpa.wmnet.
+11	1H	IN PTR es1.mgmt.pmtpa.wmnet.
+12	1H	IN PTR es2.mgmt.pmtpa.wmnet.
+13	1H	IN PTR es3.mgmt.pmtpa.wmnet.
+14	1H	IN PTR es4.mgmt.pmtpa.wmnet.
 41	1H	IN PTR ssl1.mgmt.pmtpa.wmnet.
 42	1H	IN PTR ssl2.mgmt.pmtpa.wmnet.
 43	1H	IN PTR ssl3.mgmt.pmtpa.wmnet.
