@@ -588,11 +588,11 @@ nfs1			1H	IN A		10.1.8.1
 nfs2			1H	IN A		10.1.8.11
 niobium			1H	IN A		10.65.3.53
 WMF3428			1H	IN A		10.65.3.53
-ocg1			1H	IN A		10.1.8.20
-ocg2			1H	IN A		10.1.8.28
-ocg3			1H	IN A		10.1.8.44
-ocg4			1H	IN A		10.1.8.63
-ocg5			1H	IN A		10.1.8.64
+mobile1			1H	IN A		10.1.8.20
+mobile2			1H	IN A		10.1.8.28
+ocg1			1H	IN A		10.1.8.44
+ocg2			1H	IN A		10.1.8.63
+ocg3			1H	IN A		10.1.8.64
 owa1			1H	IN A		10.1.8.51
 owa2			1H	IN A		10.1.8.52
 owa3			1H	IN A		10.1.8.53
