@@ -745,7 +745,7 @@ $ORIGIN 8.1.$zonename.
 17	1H	IN PTR	ts-array4a.mgmt.pmtpa.wmnet.
 18	1H	IN PTR	ts-array4b..mgmt.pmtpa.wmnet.
 19	1H	IN PTR	pdf1.mgmt.pmtpa.wmnet.
-20	1H	IN PTR	mobile1.mgmt.pmtpa.wmnet.
+20	1H	IN PTR	ocg1.mgmt.pmtpa.wmnet.
 21	1H	IN PTR	snapshot1.mgmt.pmtpa.wmnet.
 22	1H	IN PTR	snapshot2.mgmt.pmtpa.wmnet.
 23	1H	IN PTR	snapshot3.mgmt.pmtpa.wmnet.
@@ -753,7 +753,7 @@ $ORIGIN 8.1.$zonename.
 25	1H	IN PTR	transcode1.mgmt.pmtpa.wmnet.
 26	1H	IN PTR	transcode2.mgmt.pmtpa.wmnet.
 27	1H	IN PTR	transcode3.mgmt.pmtpa.wmnet.
-28	1H	IN PTR	mobile2.mgmt.pmtpa.wmnet.
+28	1H	IN PTR	ocg2.mgmt.pmtpa.wmnet.
 29	1H	IN PTR	pdf2.mgmt.pmtpa.wmnet.
 30	1H	IN PTR	stafford.mgmt.pmtpa.wmnet.
 31	1H	IN PTR	ersch.mgmt.pmtpa.wmnet.
@@ -769,7 +769,7 @@ $ORIGIN 8.1.$zonename.
 41	1H	IN PTR	harmon.mgmt.pmtpa.wmnet.
 42	1H	IN PTR	hooper.mgmt.pmtpa.wmnet.
 43	1H	IN PTR	gurvin.mgmt.pmtpa.wmnet.
-44	1H	IN PTR	mobile3.mgmt.pmtpa.wmnet.
+44	1H	IN PTR	ocg3.mgmt.pmtpa.wmnet.
 46	1H	IN PTR	payments1.mgmt.pmtpa.wmnet.
 47	1H	IN PTR	payments2.mgmt.pmtpa.wmnet.
 48	1H	IN PTR	payments3.mgmt.pmtpa.wmnet.
@@ -786,8 +786,8 @@ $ORIGIN 8.1.$zonename.
 60	1H	IN PTR	snapshot4.mgmt.pmtpa.wmnet.
 61	1H	IN PTR  nas1-a.mgmt.pmtpa.wmnet.
 62	1H	IN PTR  nas1-b.mgmt.pmtpa.wmnet.
-63	1H	IN PTR	mobile4.mgmt.pmtpa.wmnet.
-64	1H	IN PTR	mobile5.mgmt.pmtpa.wmnet.
+63	1H	IN PTR	ocg4.mgmt.pmtpa.wmnet.
+64	1H	IN PTR	ocg5.mgmt.pmtpa.wmnet.
 65	1H	IN PTR	stat1.mgmt.pmtpa.wmnet.
 
 ; Apaches pool (srv251+)
