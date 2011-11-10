@@ -67,8 +67,6 @@ stats			1H	IN CNAME	stats.wikimedia.org.
 
 ; Mobile sites using the new ruby architecture written by hcatlin@
 m			1H	IN CNAME	m.wikimedia.org.
-stats.m			1H	IN CNAME	mobile1.wikimedia.org.
-en.mtest		1H	IN CNAME	mobile1.wikimedia.org.
 
 $ORIGIN wap.$zonename.
 $wikipedia_langlist

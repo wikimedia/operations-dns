@@ -575,11 +575,6 @@ lvs1004			1H	IN A		10.65.3.42
 lvs1005			1H	IN A		10.65.3.43
 lvs1006			1H	IN A		10.65.3.44
 mchenry			1H	IN A		10.1.230.240
-mobile1			1H	IN A		10.1.8.20
-mobile2			1H	IN A		10.1.8.28
-mobile3			1H	IN A		10.1.8.44
-mobile4			1H	IN A		10.1.8.63
-mobile5			1H	IN A		10.1.8.64
 molybdenum		1H	IN A		10.65.3.54
 WMF3429			1H	IN A		10.65.3.54
 ms1			1H	IN A		10.1.7.1
@@ -593,6 +588,11 @@ nfs1			1H	IN A		10.1.8.1
 nfs2			1H	IN A		10.1.8.11
 niobium			1H	IN A		10.65.3.53
 WMF3428			1H	IN A		10.65.3.53
+ocg1			1H	IN A		10.1.8.20
+ocg2			1H	IN A		10.1.8.28
+ocg3			1H	IN A		10.1.8.44
+ocg4			1H	IN A		10.1.8.63
+ocg5			1H	IN A		10.1.8.64
 owa1			1H	IN A		10.1.8.51
 owa2			1H	IN A		10.1.8.52
 owa3			1H	IN A		10.1.8.53
