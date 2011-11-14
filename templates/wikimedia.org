@@ -962,6 +962,7 @@ ptolemy.ipmi		1H	IN A	10.21.0.104
 rr                      1H      IN A    91.198.174.232    ; LVS
 text			1H	IN A	91.198.174.232	; LVS
 bits                    1H	IN A	91.198.174.233  ; LVS
+bits-lb			1H	IN A	91.198.174.233	; LVS
 upload                  1H      IN A    91.198.174.234	; NOTE, this record is currently overwritten by the Pipe backend and selective-answers.py for selective AAAA record serving with IPv6 experiments
 wikimedia-lb		1H	IN A	91.198.174.224  ; LVS
 wikipedia-lb		1H	IN A	91.198.174.225  ; LVS
