@@ -161,6 +161,17 @@ $ORIGIN 6.0.$zonename.
 55	1H	IN PTR	db45.pmtpa.wmnet.
 56	1H	IN PTR	db46.pmtpa.wmnet.
 57	1H	IN PTR	db47.pmtpa.wmnet.
+58	1H	IN PTR	db48.pmtpa.wmnet.
+59	1H	IN PTR	db49.pmtpa.wmnet.
+60	1H	IN PTR	db50.pmtpa.wmnet.
+61	1H	IN PTR	db51.pmtpa.wmnet.
+62	1H	IN PTR	db52.pmtpa.wmnet.
+63	1H	IN PTR	db53.pmtpa.wmnet.
+64	1H	IN PTR	db54.pmtpa.wmnet.
+65	1H	IN PTR	db55.pmtpa.wmnet.
+66	1H	IN PTR	db56.pmtpa.wmnet.
+67	1H	IN PTR	db57.pmtpa.wmnet.
+68	1H	IN PTR	db58.pmtpa.wmnet.
 
 ; Temporary ex-fedora MySQL instances for external storage
 
@@ -705,6 +716,17 @@ $ORIGIN 6.1.$zonename.
 55	1H	IN PTR db45.mgmt.pmtpa.wmnet.
 56	1H	IN PTR db46.mgmt.pmtpa.wmnet.
 57	1H	IN PTR db47.mgmt.pmtpa.wmnet.
+58	1H	IN PTR db48.mgmt.pmtpa.wmnet.
+59	1H	IN PTR db49.mgmt.pmtpa.wmnet.
+60	1H	IN PTR db50.mgmt.pmtpa.wmnet.
+61	1H	IN PTR db51.mgmt.pmtpa.wmnet.
+62	1H	IN PTR db52.mgmt.pmtpa.wmnet.
+63	1H	IN PTR db53.mgmt.pmtpa.wmnet.
+64	1H	IN PTR db54.mgmt.pmtpa.wmnet.
+65	1H	IN PTR db55.mgmt.pmtpa.wmnet.
+66	1H	IN PTR db56.mgmt.pmtpa.wmnet.
+67	1H	IN PTR db57.mgmt.pmtpa.wmnet.
+68	1H	IN PTR db58.mgmt.pmtpa.wmnet.
 
 ; Media Servers & SSL Servers & ES Servers
 $ORIGIN 7.1.$zonename.
