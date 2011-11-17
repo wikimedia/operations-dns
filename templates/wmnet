@@ -79,7 +79,7 @@ db16			1H	IN A		10.0.6.26
 db17			1H	IN A		10.0.6.27
 db18			1H	IN A		10.0.6.28
 db19			1H	IN A		10.0.6.29
-db20			1H	IN A		10.0.6.30
+professor		1H	IN A		10.0.6.30
 db21			1H	IN A		10.0.6.31
 db22			1H	IN A		10.0.6.32
 db23			1H	IN A		10.0.6.33
@@ -520,7 +520,7 @@ db16			1H	IN A		10.1.6.26
 db17			1H	IN A		10.1.6.27
 db18			1H	IN A		10.1.6.28
 db19			1H	IN A		10.1.6.29
-db20			1H	IN A		10.1.6.30
+professor		1H	IN A		10.1.6.30
 db21			1H	IN A		10.1.6.31
 db22			1H	IN A		10.1.6.32
 db23			1H	IN A		10.1.6.33
