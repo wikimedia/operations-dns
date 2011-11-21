@@ -73,6 +73,7 @@ aluminum		1H	IN CNAME aluminium
 anthony                 1H      IN A    208.80.152.181
 argon			1H	IN A	208.80.154.132
 arsenic			1H	IN A	208.80.154.62
+bast1001		1H	IN A	208.80.154.149
 bayes			1H	IN A	208.80.152.168
 bayle			1H	IN A	208.80.152.174
 brewster		1H	IN A	208.80.152.171
