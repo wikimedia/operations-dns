@@ -142,6 +142,7 @@ searchidx1		1H	IN A		10.0.3.51
 searchidx2		1H	IN A		10.0.3.52
 snapshot1		1H	IN A		10.0.10.1
 snapshot2		1H	IN A		10.0.10.2
+snapshot3		1H	IN A		10.0.10.3
 snapshot4		1H	IN A		10.0.10.4
 sockpuppet		1H	IN A		10.0.0.245
 srv1			1H	IN A		10.0.2.2

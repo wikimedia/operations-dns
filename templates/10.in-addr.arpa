@@ -442,6 +442,7 @@ $ORIGIN 9.0.$zonename.
 $ORIGIN 10.0.$zonename.
 1	1H	IN PTR	snapshot1.pmtpa.wmnet.
 2	1H	IN PTR	snapshot2.pmtpa.wmnet.
+3	1H	IN PTR	snapshot3.pmtpa.wmnet.
 4	1H	IN PTR	snapshot4.pmtpa.wmnet.
 
 ; mw* apache/mediawiki server cluster (new apaches, replacing the srv* name)
