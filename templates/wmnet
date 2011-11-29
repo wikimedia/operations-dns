@@ -80,6 +80,7 @@ db17			1H	IN A		10.0.6.27
 db18			1H	IN A		10.0.6.28
 db19			1H	IN A		10.0.6.29
 professor		1H	IN A		10.0.6.30
+graphite		1H	IN CNAME	professor.pmtpa.wmnet.
 db21			1H	IN A		10.0.6.31
 db22			1H	IN A		10.0.6.32
 db23			1H	IN A		10.0.6.33
