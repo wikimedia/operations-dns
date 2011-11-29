@@ -133,7 +133,7 @@ $ORIGIN 6.0.$zonename.
 27	1H	IN PTR	db17.pmtpa.wmnet.
 28	1H	IN PTR	db18.pmtpa.wmnet.
 29	1H	IN PTR	db19.pmtpa.wmnet.
-30	1H	IN PTR	db20.pmtpa.wmnet.
+30	1H	IN PTR	professor.pmtpa.wmnet.
 31	1H	IN PTR	db21.pmtpa.wmnet.
 32	1H	IN PTR	db22.pmtpa.wmnet.
 33	1H	IN PTR	db23.pmtpa.wmnet.
@@ -689,7 +689,7 @@ $ORIGIN 6.1.$zonename.
 27	1H	IN PTR db17.mgmt.pmtpa.wmnet.
 28	1H	IN PTR db18.mgmt.pmtpa.wmnet.
 29	1H	IN PTR db19.mgmt.pmtpa.wmnet.
-30	1H	IN PTR db20.mgmt.pmtpa.wmnet.
+30	1H	IN PTR professor.mgmt.pmtpa.wmnet.
 31	1H	IN PTR db21.mgmt.pmtpa.wmnet.
 32	1H	IN PTR db22.mgmt.pmtpa.wmnet.
 33	1H	IN PTR db23.mgmt.pmtpa.wmnet.
