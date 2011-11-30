@@ -2011,6 +2011,26 @@ $ORIGIN 3.65.$zonename.
 59	1H	IN PTR		WMF3434.mgmt.eqiad.wmnet.
 60	1H	IN PTR		cadmium.mgmt.eqiad.wmnet.
 60	1H	IN PTR		WMF3435.mgmt.eqiad.wmnet.
+61	1H	IN PTR		WMF3437.mgmt.eqiad.wmnet.
+62	1H	IN PTR		WMF3438.mgmt.eqiad.wmnet.
+63	1H	IN PTR		WMF3439.mgmt.eqiad.wmnet.
+64	1H	IN PTR		WMF3440.mgmt.eqiad.wmnet.
+65	1H	IN PTR		WMF3441.mgmt.eqiad.wmnet.
+66	1H	IN PTR		WMF3442.mgmt.eqiad.wmnet.
+67	1H	IN PTR		WMF3443.mgmt.eqiad.wmnet.
+68	1H	IN PTR		WMF3444.mgmt.eqiad.wmnet.
+69	1H	IN PTR		WMF3445.mgmt.eqiad.wmnet.
+70	1H	IN PTR		WMF3446.mgmt.eqiad.wmnet.
+71	1H	IN PTR		WMF3447.mgmt.eqiad.wmnet.
+72	1H	IN PTR		WMF3448.mgmt.eqiad.wmnet.
+73	1H	IN PTR		WMF3449.mgmt.eqiad.wmnet.
+74	1H	IN PTR		WMF3457.mgmt.eqiad.wmnet.
+75	1H	IN PTR		WMF3458.mgmt.eqiad.wmnet.
+76	1H	IN PTR		WMF3459.mgmt.eqiad.wmnet.
+77	1H	IN PTR		WMF3460.mgmt.eqiad.wmnet.
+78	1H	IN PTR		WMF3461.mgmt.eqiad.wmnet.
+79	1H	IN PTR		WMF3462.mgmt.eqiad.wmnet.
+80	1H	IN PTR		WMF3463.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.$zonename.
 
