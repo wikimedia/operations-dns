@@ -574,7 +574,7 @@ ganglia			1H	IN CNAME	spence
 globalblog		1H	IN CNAME	hooper.wikimedia.org.
 ganglia3		1H	IN CNAME	spence
 ganglia3-tip		1H	IN CNAME	spence
-graphite		1H	IN CNAME	spence
+graphite		1H	IN CNAME	noc
 internproxy		1H	IN A		208.80.152.239
 jobs			1H	IN CNAME	wikimediafoundation.org.
 ls2			1H	IN CNAME	wikimedia-lb
