@@ -38,8 +38,7 @@ api.svc			1H	IN A		10.2.1.22
 nis-1			1H	IN CNAME	srv1.pmtpa.wmnet.
 nis-2			1H	IN CNAME	srv2.pmtpa.wmnet.
 nis-3			1H	IN CNAME	srv2.pmtpa.wmnet. ; until there's a 3rd server
-puppet			1H	IN CNAME	sockpuppet
-puppetmaster		1H	IN CNAME	sockpuppet
+puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
 syslog			1H	IN CNAME	nfs-home
 search-pool1		1H	IN A		10.2.1.11
 search-pool2		1H	IN A		10.2.1.12
@@ -1103,8 +1102,7 @@ mw1158			1H	IN A		10.64.16.138
 mw1159			1H	IN A		10.64.16.139
 mw1160			1H	IN A		10.64.16.140
 
-puppet			1H	IN CNAME	sockpuppet.pmtpa.wmnet.
-puppetmaster		1H	IN CNAME	sockpuppet.pmtpa.wmnet.
+puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
 rubidium		1H	IN A		10.64.0.26
 
 ; Management
