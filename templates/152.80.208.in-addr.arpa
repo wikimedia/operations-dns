@@ -126,6 +126,7 @@ $ORIGIN $zonename.
 137	1H IN PTR	torrus.wikimedia.org.
 138	1H IN PTR	locke.wikimedia.org.
 139	1H IN PTR	andrew.tech.wikimedia.org.
+
 142	1H IN PTR	ns1.wikimedia.org.
 143	1H IN PTR	url-downloader.wikimedia.org.
 144	1H IN PTR	ae0-101.cr1-sdtpa.wikimedia.org.
@@ -134,7 +135,7 @@ $ORIGIN $zonename.
 147	1H IN PTR	formey.wikimedia.org.
 148	1H IN PTR	hooper.wikimedia.org.
 149	1H IN PTR	kaulen.wikimedia.org.
-150	1H IN PTR	stafford.wikimedia.org.
+
 152	1H IN PTR	project2.wikimedia.org.	; Move to sandbox?
 153	1H IN PTR	owa1.wikimedia.org.
 154	1H IN PTR	pdf2.wikimedia.org.
