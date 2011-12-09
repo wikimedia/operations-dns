@@ -521,7 +521,9 @@ bugzilla3		1H	IN CNAME	singer.wikimedia.org.
 bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
 civicrm                 1H      IN CNAME	aluminium
 civicrm-dev		1H	IN CNAME	aluminium
+civimaps		1H 	IN CNAME  	isidore
 codereview-proxy	1H	IN CNAME	kaulen
+coffee                  1H      IN CNAME        singer
 communicate		1H	IN CNAME	singer
 communityblog		1H	IN CNAME	hooper.wikimedia.org.
 commons.prototype	1H	IN A		208.80.152.249
@@ -545,18 +547,17 @@ ganglia3		1H	IN CNAME	spence
 ganglia3-tip		1H	IN CNAME	spence
 graphite		1H	IN CNAME	noc
 internproxy		1H	IN A		208.80.152.239
+ishmael                 1H      IN CNAME        spence
 jobs			1H	IN CNAME	wikimediafoundation.org.
 ls2			1H	IN CNAME	wikimedia-lb
 nagios                  1H      IN CNAME        spence
 nmis			1H	IN CNAME	spence
-ishmael                 1H      IN CNAME        spence
 noc			1H	IN CNAME	fenari
 nyc			1H	IN CNAME	wikimedia-lb
 ocs.wikimania2009	1H	IN CNAME	singer
-wm10reg			1H      IN CNAME        singer
-wm09schols              1H      IN CNAME        singer
-wm10schols              1H      IN CNAME        singer
+oldusability		1H	IN A		74.82.3.109
 otrs-test		1H	IN CNAME	williams
+payments		60	IN A		208.80.152.213
 planet			1H	IN CNAME	singer
 ar.planet		1H	IN CNAME	singer
 cs.planet		1H	IN CNAME	singer
@@ -579,25 +580,25 @@ ru.planet		1H	IN CNAME	singer
 sr.planet		1H	IN CNAME	singer
 sv.planet		1H	IN CNAME	singer
 zh.planet		1H	IN CNAME	singer
-planet			1H	IN CNAME	singer
 poke			1H	IN CNAME	isidore
+prototype		1H	IN A		208.80.152.248
 en.prototype		1H	IN CNAME	prototype
 de.prototype		1H	IN CNAME	prototype
 test.prototype		1H	IN CNAME	prototype
-prototype		1H	IN A		208.80.152.248
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
 racktables		1H	IN CNAME	singer
+racktables2		1H	IN CNAME	hooper
 search			1H	IN CNAME	ekrem
+shop                    1H      IN CNAME        shopwikipedia.myshopify.com.
 stats			1H	IN CNAME	spence
+status			1H	IN CNAME 	status.watchmouse.com.
 survey			1H	IN CNAME	argon.wikimedia.org.
 testblog                1H      IN CNAME	hooper.wikimedia.org.
 techblog		1H	IN CNAME	hooper.wikimedia.org.
 ticket			1H	IN CNAME	williams
 tools                   1H      IN CNAME        hemlock.ts
 ubuntu			1H	IN A		208.80.152.171
-civimaps		1H 	IN CNAME  	isidore
-coffee                  1H      IN CNAME        singer
-oldusability		1H	IN A		74.82.3.109
+url			1H	IN CNAME	singer
 voip			1H	IN A		216.38.130.191
 ;volunteer		1H	IN A		208.75.85.110
 wikitech		1H	IN A		207.192.72.124 
@@ -605,10 +606,9 @@ wikitech-static		1H	IN A		207.192.72.124
 wm06reg                 1H      IN CNAME	friedrich
 wm07schols              1H      IN CNAME	friedrich
 wm08reg			1H	IN A		67.228.205.196
-payments		60	IN A		208.80.152.213
-shop                    1H      IN CNAME        shopwikipedia.myshopify.com.
-status			1H	IN CNAME 	status.watchmouse.com.
-url			1H	IN CNAME	singer
+wm09schols              1H      IN CNAME        singer
+wm10reg			1H      IN CNAME        singer
+wm10schols              1H      IN CNAME        singer
 
 ; Misc
 
