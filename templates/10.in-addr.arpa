@@ -954,6 +954,7 @@ $ORIGIN 1.2.$zonename.
 23	1H	IN PTR	bits.svc.pmtpa.wmnet.
 24	1H	IN PTR	upload.svc.pmtpa.wmnet.
 25	1H	IN PTR	text.svc.pmtpa.wmnet.
+26	1H	IN PTR	mobile.svc.pmpta.wmnet.
 
 ; eqiad svc ips
 
@@ -970,6 +971,7 @@ $ORIGIN 2.2.$zonename.
 23      1H      IN PTR  bits.svc.eqiad.wmnet.
 24      1H      IN PTR  upload.svc.eqiad.wmnet.
 25      1H      IN PTR  text.svc.eqiad.wmnet.
+26	1H	IN PTR	mobile.svc.eqiad.wmnet.
 
 
 ; esams svc ips
@@ -979,7 +981,7 @@ $ORIGIN 3.2.$zonename.
 23	1H	IN PTR	bits.svc.esams.wmnet.
 24	1H	IN PTR	upload.svc.esams.wmnet.
 25	1H	IN PTR	text.svc.esams.wmnet.
-
+26	1H	IN PTR	mobile.svc.esams.wmnet.
 
 ; Various small assignments
 
