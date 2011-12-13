@@ -592,7 +592,7 @@ en.prototype		1H	IN CNAME	prototype
 de.prototype		1H	IN CNAME	prototype
 test.prototype		1H	IN CNAME	prototype
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
-racktables		1H	IN CNAME	singer
+racktables		1H	IN CNAME	hooper	
 racktables2		1H	IN CNAME	hooper
 search			1H	IN CNAME	ekrem
 shop                    1H      IN CNAME        shopwikipedia.myshopify.com.
