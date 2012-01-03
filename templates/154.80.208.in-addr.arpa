@@ -100,6 +100,7 @@ $ORIGIN $zonename.
 147	1H IN PTR	msfe1001.wikimedia.org.
 148	1H IN PTR	msfe1002.wikimedia.org.
 149	1H IN PTR	bast1001.wikimedia.org.
+150	1H IN PTR	nickel.wikimedia.org.
 
 ; Neighbor blocks (208.80.154.192/27)
 

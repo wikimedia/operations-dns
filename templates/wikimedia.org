@@ -179,6 +179,7 @@ msfe-test		1H	IN A	208.80.154.146 ;copper
 msfe-pmtpa-test		1H	IN A	208.80.152.112 ;owa1
 			1H	IN A	208.80.152.113 ;owa2
 			1H	IN A	208.80.152.114 ;owa3
+nickel			1H	IN A	208.80.154.150
 niobium			1H	IN A	208.80.154.143
 owa1			1H	IN A	208.80.152.112
 owa2			1H	IN A	208.80.152.113
