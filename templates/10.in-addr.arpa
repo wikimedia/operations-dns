@@ -1265,6 +1265,31 @@ $ORIGIN 0.64.$zonename.
 92	1H IN PTR	mw1062.eqiad.wmnet.
 93	1H IN PTR	mw1063.eqiad.wmnet.
 94	1H IN PTR	mw1064.eqiad.wmnet.
+95	1H IN PTR	search1001.eqiad.wmnet.
+96	1H IN PTR	search1002.eqiad.wmnet.
+97	1H IN PTR	search1003.eqiad.wmnet.
+98	1H IN PTR	search1004.eqiad.wmnet.
+99	1H IN PTR	search1005.eqiad.wmnet.
+100	1H IN PTR	search1006.eqiad.wmnet.
+101	1H IN PTR	search1007.eqiad.wmnet.
+102	1H IN PTR	search1008.eqiad.wmnet.
+103	1H IN PTR	search1009.eqiad.wmnet.
+104	1H IN PTR	search1010.eqiad.wmnet.
+105	1H IN PTR	search1011.eqiad.wmnet.
+106	1H IN PTR	search1012.eqiad.wmnet.
+107	1H IN PTR	search1013.eqiad.wmnet.
+108	1H IN PTR	search1014.eqiad.wmnet.
+109	1H IN PTR	search1015.eqiad.wmnet.
+110	1H IN PTR	search1016.eqiad.wmnet.
+111	1H IN PTR	search1017.eqiad.wmnet.
+112	1H IN PTR	search1018.eqiad.wmnet.
+113	1H IN PTR	search1019.eqiad.wmnet.
+114	1H IN PTR	search1020.eqiad.wmnet.
+115	1H IN PTR	search1021.eqiad.wmnet.
+116	1H IN PTR	search1022.eqiad.wmnet.
+117	1H IN PTR	search1023.eqiad.wmnet.
+118	1H IN PTR	search1024.eqiad.wmnet.
+119	1H IN PTR	searchidx1001.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
@@ -1418,31 +1443,6 @@ $ORIGIN 16.64.$zonename.
 138	1H IN PTR	mw1158.eqiad.wmnet.
 139	1H IN PTR	mw1159.eqiad.wmnet.
 140	1H IN PTR	mw1160.eqiad.wmnet.
-141	1H IN PTR	search1001.eqiad.wmnet.
-142	1H IN PTR	search1002.eqiad.wmnet.
-143	1H IN PTR	search1003.eqiad.wmnet.
-144	1H IN PTR	search1004.eqiad.wmnet.
-145	1H IN PTR	search1005.eqiad.wmnet.
-146	1H IN PTR	search1006.eqiad.wmnet.
-147	1H IN PTR	search1007.eqiad.wmnet.
-148	1H IN PTR	search1008.eqiad.wmnet.
-149	1H IN PTR	search1009.eqiad.wmnet.
-150	1H IN PTR	search1010.eqiad.wmnet.
-151	1H IN PTR	search1011.eqiad.wmnet.
-152	1H IN PTR	search1012.eqiad.wmnet.
-153	1H IN PTR	search1013.eqiad.wmnet.
-154	1H IN PTR	search1014.eqiad.wmnet.
-155	1H IN PTR	search1015.eqiad.wmnet.
-156	1H IN PTR	search1016.eqiad.wmnet.
-157	1H IN PTR	search1017.eqiad.wmnet.
-158	1H IN PTR	search1018.eqiad.wmnet.
-159	1H IN PTR	search1019.eqiad.wmnet.
-160	1H IN PTR	search1020.eqiad.wmnet.
-161	1H IN PTR	search1021.eqiad.wmnet.
-162	1H IN PTR	search1022.eqiad.wmnet.
-163	1H IN PTR	search1023.eqiad.wmnet.
-164	1H IN PTR	search1024.eqiad.wmnet.
-165	1H IN PTR	searchidx1001.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 
