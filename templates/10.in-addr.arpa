@@ -1468,6 +1468,18 @@ $ORIGIN 48.64.$zonename.
 2       1H IN PTR       ae1-1020.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae1-1020.cr2-eqiad.wikimedia.org.
 
+; 10.64.128.0/24 - labs1-a-eqiad
+
+1	1H IN PTR	vrrp-gw-1100.eqiad.wmnet.
+2	1H IN PTR	ae1-1100.cr1-eqiad.wikimedia.org.
+3	1H IN PTR	ae1-1100.cr2-eqiad.wikimedia.org.
+
+; 10.64.129.0/24 - labs1-b-eqiad
+
+1       1H IN PTR       vrrp-gw-1101.eqiad.wmnet.
+2       1H IN PTR       ae1-1101.cr1-eqiad.wikimedia.org.
+3       1H IN PTR       ae1-1101.cr2-eqiad.wikimedia.org.
+
 ; 10.65.0.0/16 is eqiad management network
 
 $ORIGIN 65.$zonename.
@@ -2023,7 +2035,7 @@ $ORIGIN 3.65.$zonename.
 46	1H	IN PTR		WMF3421.mgmt.eqiad.wmnet.
 47	1H	IN PTR		bromine.mgmt.eqiad.wmnet.
 47	1H	IN PTR		WMF3422.mgmt.eqiad.wmnet.
-48	1H	IN PTR		krypton.mgmt.eqiad.wmnet.
+48	1H	IN PTR		virt1000.mgmt.eqiad.wmnet.
 48	1H	IN PTR		WMF3423.mgmt.eqiad.wmnet.
 49	1H	IN PTR		rubidium.mgmt.eqiad.wmnet.
 49	1H	IN PTR		WMF3424.mgmt.eqiad.wmnet.
