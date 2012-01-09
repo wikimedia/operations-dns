@@ -550,10 +550,10 @@ flgrevsandbox		1H	IN A		69.164.195.193
 frlabs			1H	IN A		208.80.152.151
 fundraising             1H      IN CNAME	aluminium
 fundraising-analytics   1H      IN CNAME	aluminium
-ganglia			1H	IN CNAME	spence
+ganglia			1H	IN CNAME	nickel
 globalblog		1H	IN CNAME	hooper.wikimedia.org.
-ganglia3		1H	IN CNAME	spence
-ganglia3-tip		1H	IN CNAME	spence
+ganglia3		1H	IN CNAME	nickel
+ganglia3-tip		1H	IN CNAME	nickel
 graphite		1H	IN CNAME	noc
 internproxy		1H	IN A		208.80.152.239
 ishmael                 1H      IN CNAME        spence
