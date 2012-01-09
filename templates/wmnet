@@ -1144,6 +1144,10 @@ search1022		1H	IN A		10.64.0.116
 search1023		1H	IN A		10.64.0.117
 search1024		1H	IN A		10.64.0.118
 searchidx1001		1H	IN A		10.64.0.119
+snapshot1001		1H	IN A		10.64.0.120
+snapshot1002		1H	IN A		10.64.0.121
+snapshot1003		1H	IN A		10.64.16.141
+snapshot1004		1H	IN A		10.64.16.142
 
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
 rubidium		1H	IN A		10.64.0.26
