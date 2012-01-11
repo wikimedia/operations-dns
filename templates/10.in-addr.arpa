@@ -994,6 +994,10 @@ $ORIGIN 3.2.$zonename.
 25	1H	IN PTR	text.svc.esams.wmnet.
 26	1H	IN PTR	mobile.svc.esams.wmnet.
 
+; labs svc ips
+
+$ORIGIN 128.2.$zonename.
+
 ; Various small assignments
 
 $ORIGIN 0.3.$zonename.
