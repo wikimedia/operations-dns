@@ -560,7 +560,6 @@ ishmael                 1H      IN CNAME        spence
 jobs			1H	IN CNAME	wikimediafoundation.org.
 ls2			1H	IN CNAME	wikimedia-lb
 nagios                  1H      IN CNAME        spence
-nmis			1H	IN CNAME	spence
 noc			1H	IN CNAME	fenari
 nyc			1H	IN CNAME	wikimedia-lb
 ocs.wikimania2009	1H	IN CNAME	singer
