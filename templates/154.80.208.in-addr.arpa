@@ -18,6 +18,7 @@ $ORIGIN $zonename.
 1       1H IN PTR       vrrp-gw-1001.wikimedia.org.
 2       1H IN PTR       ae1-1001.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae1-1001.cr2-eqiad.wikimedia.org.
+4	1H IN PTR	lists.wikimedia.org.
 5	1H IN PTR	magnesium.wikimedia.org.
 6	1H IN PTR	aluminium.wikimedia.org.
 7	1H IN PTR	silicon.wikimedia.org.
