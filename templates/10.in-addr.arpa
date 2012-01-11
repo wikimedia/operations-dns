@@ -1961,7 +1961,7 @@ $ORIGIN 3.65.$zonename.
 5	1H	IN PTR		WMF3146.mgmt.eqiad.wmnet.
 6	1H	IN PTR		sodium.mgmt.eqiad.wmnet.
 6	1H	IN PTR		WMF3145.mgmt.eqiad.wmnet.
-7	1H	IN PTR		neon.mgmt.eqiad.wmnet.
+7	1H	IN PTR		ganglia1001.mgmt.eqiad.wmnet.
 7	1H	IN PTR		WMF3144.mgmt.eqiad.wmnet.
 8	1H	IN PTR		fluorine.mgmt.eqiad.wmnet.
 8	1H	IN PTR		WMF3143.mgmt.eqiad.wmnet.
@@ -1995,7 +1995,7 @@ $ORIGIN 3.65.$zonename.
 22	1H	IN PTR		WMF3297.mgmt.eqiad.wmnet.
 23	1H	IN PTR		nickel.mgmt.eqiad.wmnet.
 23	1H	IN PTR		WMF3296.mgmt.eqiad.wmnet.
-24	1H	IN PTR		cobalt.mgmt.eqiad.wmnet.
+24	1H	IN PTR		ganglia1002.mgmt.eqiad.wmnet.
 24	1H	IN PTR		WMF3295.mgmt.eqiad.wmnet.
 25	1H	IN PTR		iron.mgmt.eqiad.wmnet.
 25	1H	IN PTR		WMF3294.mgmt.eqiad.wmnet.
