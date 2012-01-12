@@ -613,7 +613,6 @@ nfs1			1H	IN A		10.1.8.1
 nfs2			1H	IN A		10.1.8.11
 niobium			1H	IN A		10.65.3.53
 WMF3428			1H	IN A		10.65.3.53
-mobile1			1H	IN A		10.1.8.20
 mobile2			1H	IN A		10.1.8.28
 ocg1			1H	IN A		10.1.8.44
 ocg2			1H	IN A		10.1.8.63
@@ -688,6 +687,7 @@ transcode3		1H	IN A		10.1.8.27
 tridge			1H	IN A		10.1.252.170
 ts-array4a		1H	IN A		10.1.8.17
 ts-array4b		1H	IN A		10.1.8.18
+virt0			1H	IN A		10.1.8.20
 virt1			1H	IN A		10.1.8.56
 virt2			1H	IN A		10.1.8.57
 virt3			1H	IN A		10.1.8.58
