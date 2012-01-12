@@ -1296,6 +1296,7 @@ $ORIGIN 0.64.$zonename.
 119	1H IN PTR	searchidx1001.eqiad.wmnet.
 120	1H IN PTR	snapshot1001.eqiad.wmnet.
 121	1H IN PTR	snapshot1002.eqiad.wmnet.
+122	1H IN PTR	ganglia1001.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
@@ -1451,6 +1452,7 @@ $ORIGIN 16.64.$zonename.
 140	1H IN PTR	mw1160.eqiad.wmnet.
 141	1H IN PTR	snapshot1003.eqiad.wmnet.
 142	1H IN PTR	snapshot1004.eqiad.wmnet.
+143	1H IN PTR	ganglia1002.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 
