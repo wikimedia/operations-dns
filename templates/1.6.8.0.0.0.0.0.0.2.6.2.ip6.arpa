@@ -18,6 +18,11 @@ $ORIGIN $zonename.
 ; public1-a-eqiad (2620:0:861:1::/64)
 $ORIGIN 1.0.0.0.$zonename.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       vrrp-gw-1001.wikimedia.org.
+
+; Service IPs
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	lists.wikimedia.org.
+
+
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR       ae1-1001.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR	ae1-1001.cr2-eqiad.wikimedia.org.
 
