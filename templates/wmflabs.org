@@ -10,7 +10,7 @@ $ORIGIN $zonename.
 
 ; Name servers
 
-			1D	IN NS	virt1.wikimedia.org.
+			1D	IN NS	virt0.wikimedia.org.
 			1D	IN NS	labsconsole.wikimedia.org.
 
 ; Mail exchangers
