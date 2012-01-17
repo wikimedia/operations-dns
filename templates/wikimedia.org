@@ -523,7 +523,7 @@ bits			1h	IN CNAME	bits-geo
 
 ; Other websites (NO wikis!)
 
-blog                    5M      IN CNAME	hooper.wikimedia.org.
+blog                    5M      IN CNAME	marmontel.wikimedia.org.
 bugs			1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla		1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla3		1H	IN CNAME	singer.wikimedia.org.
