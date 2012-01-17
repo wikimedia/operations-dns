@@ -534,7 +534,7 @@ civimaps		1H 	IN CNAME  	isidore
 codereview-proxy	1H	IN CNAME	kaulen
 coffee                  1H      IN CNAME        singer
 communicate		1H	IN CNAME	singer
-communityblog		5M	IN CNAME	hooper.wikimedia.org.
+communityblog		5M	IN CNAME	marmontel.wikimedia.org.
 commons.prototype	1H	IN A		208.80.152.249
 contacts		1H	IN CNAME	singer.wikimedia.org.
 labsconsole		1H	IN CNAME	virt0.wikimedia.org.
@@ -551,7 +551,7 @@ frlabs			1H	IN A		208.80.152.151
 fundraising             1H      IN CNAME	aluminium
 fundraising-analytics   1H      IN CNAME	aluminium
 ganglia			1H	IN CNAME	nickel
-globalblog		5M	IN CNAME	hooper.wikimedia.org.
+globalblog		5M	IN CNAME	marmontel.wikimedia.org.
 ganglia3		1H	IN CNAME	nickel
 ganglia3-tip		1H	IN CNAME	nickel
 graphite		1H	IN CNAME	noc
@@ -601,8 +601,8 @@ shop                    1H      IN CNAME        shopwikipedia.myshopify.com.
 stats			1H	IN CNAME	spence
 status			1H	IN CNAME 	status.watchmouse.com.
 survey			1H	IN CNAME	argon.wikimedia.org.
-testblog                5M      IN CNAME	hooper.wikimedia.org.
-techblog		5M	IN CNAME	hooper.wikimedia.org.
+testblog                5M      IN CNAME	marmontel.wikimedia.org.
+techblog		5M	IN CNAME	marmontel.wikimedia.org.
 ticket			1H	IN CNAME	williams
 tools                   1H      IN CNAME        hemlock.ts
 ubuntu			1H	IN A		208.80.152.171
