@@ -172,7 +172,10 @@ $ORIGIN 6.0.$zonename.
 67	1H	IN PTR	db57.pmtpa.wmnet.
 68	1H	IN PTR	db58.pmtpa.wmnet.
 
-200	1H	IN PTR 	ms-fe1.pmtpa.wmnet.
+200	1H	IN PTR 	ms-be1.pmtpa.wmnet.
+
+210	1H	IN PTR	ms-fe1.pmtpa.wmnet.
+211	1H	IN PTR	ms-fe2.pmtpa.wmnet.
 
 ; Temporary ex-fedora MySQL instances for external storage
 
