@@ -2106,6 +2106,8 @@ $ORIGIN 3.65.$zonename.
 83	1H	IN PTR		WMF3468.mgmt.eqiad.wmnet.
 84	1H	IN PTR		snapshot1004.mgmt.eqiad.wmnet.
 84	1H	IN PTR		WMF3469.mgmt.eqiad.wmnet.
+85	1H	IN PTR		dataset1001.mgmt.eqiad.wmnet.
+85	1H	IN PTR		WMF3471.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.$zonename.
 
