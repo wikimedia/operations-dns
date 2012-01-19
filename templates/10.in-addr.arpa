@@ -1041,6 +1041,7 @@ $ORIGIN 0.4.$zonename.
 $ORIGIN 16.4.$zonename.
 
 1	1H	IN PTR	vrrp-gw-105.wikimedia.org.
+2	1H	IN PTR	virt1.pmtpa.wmnet.
 3	1H	IN PTR	virt2.pmtpa.wmnet.
 4	1H	IN PTR	virt3.pmtpa.wmnet.
 5	1H	IN PTR	virt4.pmtpa.wmnet.

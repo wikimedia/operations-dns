@@ -273,7 +273,6 @@ technetium		1H	IN A	208.80.154.145
 transcode1		1H	IN A	208.80.153.130
 tridge			1H	IN A	208.80.152.170 ; Cold Backup Server
 virt0			1H	IN A	208.80.153.135
-virt1			60	IN CNAME virt0
 williams		1H	IN A	208.80.152.159
 yongle                  1H      IN A    208.80.152.178
 yvon			1H	IN A	208.80.152.21
