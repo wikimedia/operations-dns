@@ -28,11 +28,11 @@ $ORIGIN $zonename.
 
 ; Corporate office name server delegation
 
-corp			1D      IN NS   ns1.corp.wikimedia.org.
-			1D      IN NS   ns2.corp.wikimedia.org.
+corp			1D	IN NS	ns1.corp.wikimedia.org.
+			1D	IN NS	ns2.corp.wikimedia.org.
 
 ; dkim domain policy record
-_domainkey 		1H	IN TXT	"o=~; r=hostmaster@wikimedia.org;"
+_domainkey		1H	IN TXT	"o=~; r=hostmaster@wikimedia.org;"
 
 ; dkim selector key(s)
 fundraising._domainkey	1H	IN TXT	"v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC61rCxt6xGKmVoId8fqGM1UTnBugf5chUdQfoCDpsgXqQVF1tOacwj3bF9fQdnqVhWeoGwiWOhfB13k/cfPKELgsJKKXEyk7cyBTV4BQ2JqmbPS4m0dD+imISrviPKjNG4uHA4FrjzYiVuv8EzZQw7tUtJuMC26BXZYqi/5YIpFQIDAQAB;"
@@ -44,7 +44,7 @@ fundraising._domainkey	1H	IN TXT	"v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb3DQ
 scs-ext			1H	IN A	84.40.25.238
 
 dumps			1H	IN CNAME dataset2
-sitemap                 1H      IN CNAME dumps
+sitemap			1H	IN CNAME dumps
 ldap			1H	IN A	10.0.0.5	; albert
 
 lists			1H	IN A	208.80.154.4		; service IP on sodium
@@ -52,7 +52,7 @@ lists			1H	IN A	208.80.154.4		; service IP on sodium
 			1H	IN MX	10 lists
 			1H	IN MX	60 mchenry
 
-mail			1H	IN A	208.80.152.133  ; service IP on mchenry
+mail			1H	IN A	208.80.152.133	; service IP on mchenry
 			1H	IN MX	10 mchenry
 			1H	IN MX	50 lists
 
@@ -61,9 +61,9 @@ wiki-mail		1H	IN A	208.80.152.133	; service IP on mchenry
 ns0			1H	IN A	208.80.152.130	; bayle
 ns1			1H	IN A	208.80.152.142	; linne
 ns2			1H	IN A	91.198.174.4	; lily
-ns3                     1H      IN A    203.212.189.252 ; yf1019
+ns3			1H	IN A	203.212.189.252 ; yf1019
 
-recursor0		1H	IN A	208.80.152.131  ; bayle
+recursor0		1H	IN A	208.80.152.131	; bayle
 recursor1		1H	IN A	208.80.152.132	; mchenry
 
 ; geobackend adds the following records:
@@ -76,7 +76,7 @@ recursor1		1H	IN A	208.80.152.132	; mchenry
 alsted			1H	IN A	208.80.152.232
 aluminium		1H	IN A	208.80.154.6
 aluminum		1H	IN CNAME aluminium
-anthony                 1H      IN A    208.80.152.181
+anthony			1H	IN A	208.80.152.181
 argon			1H	IN A	208.80.154.132
 arsenic			1H	IN A	208.80.154.62
 bast1001		1H	IN A	208.80.154.149
@@ -274,7 +274,7 @@ transcode1		1H	IN A	208.80.153.130
 tridge			1H	IN A	208.80.152.170 ; Cold Backup Server
 virt0			1H	IN A	208.80.153.135
 williams		1H	IN A	208.80.152.159
-yongle                  1H      IN A    208.80.152.178
+yongle			1H	IN A	208.80.152.178
 yvon			1H	IN A	208.80.152.21
 zinc			1H	IN A	208.80.154.136
 
@@ -283,7 +283,7 @@ zinc			1H	IN A	208.80.154.136
 rr.pmtpa		1H	IN A	208.80.152.2
 text.pmtpa		1H	IN A	208.80.152.2
 bits.pmtpa		1H	IN A	208.80.152.210
-upload.pmtpa            1H      IN A    208.80.152.211
+upload.pmtpa		1H	IN A	208.80.152.211
 upload.v4		1H	IN A	208.80.152.211 ; Explicitly v4 only
 wikimedia-lb.pmtpa	1H	IN A	208.80.152.200
 wikipedia-lb.pmtpa	1H	IN A	208.80.152.201
@@ -300,18 +300,18 @@ upload-lb.pmtpa		1H	IN A	208.80.152.211
 mobile-lb.pmtpa		1H	IN A	208.80.152.212
 payments-lb.pmtpa	1H	IN A	208.80.152.213
 
-wikimedia-lb.eqiad      1H      IN A    208.80.154.224
-wikipedia-lb.eqiad      1H      IN A    208.80.154.225
-wiktionary-lb.eqiad     1H      IN A    208.80.154.226
-wikiquote-lb.eqiad      1H      IN A    208.80.154.227
-wikibooks-lb.eqiad      1H      IN A    208.80.154.228
-wikisource-lb.eqiad     1H      IN A    208.80.154.229
-wikinews-lb.eqiad       1H      IN A    208.80.154.230
-wikiversity-lb.eqiad    1H      IN A    208.80.154.231
-mediawiki-lb.eqiad      1H      IN A    208.80.154.232
-foundation-lb.eqiad     1H      IN A    208.80.154.233
-bits-lb.eqiad           1H      IN A    208.80.154.234
-upload-lb.eqiad         1H      IN A    208.80.154.235
+wikimedia-lb.eqiad	1H	IN A	208.80.154.224
+wikipedia-lb.eqiad	1H	IN A	208.80.154.225
+wiktionary-lb.eqiad	1H	IN A	208.80.154.226
+wikiquote-lb.eqiad	1H	IN A	208.80.154.227
+wikibooks-lb.eqiad	1H	IN A	208.80.154.228
+wikisource-lb.eqiad	1H	IN A	208.80.154.229
+wikinews-lb.eqiad	1H	IN A	208.80.154.230
+wikiversity-lb.eqiad	1H	IN A	208.80.154.231
+mediawiki-lb.eqiad	1H	IN A	208.80.154.232
+foundation-lb.eqiad	1H	IN A	208.80.154.233
+bits-lb.eqiad		1H	IN A	208.80.154.234
+upload-lb.eqiad		1H	IN A	208.80.154.235
 mobile-lb.eqiad		1H	IN A	208.80.154.236
 payments-lb.eqiad	1H	IN A	208.80.154.237
 
@@ -399,13 +399,13 @@ cam1-a-b-eqiad		1H	IN AAAA	2620:0:861:101::4
 
 apt			1H	IN CNAME	brewster
 
-cache                   1H      IN CNAME        wikimedia-lb
+cache			1H	IN CNAME	wikimedia-lb
 
 donate			1H	IN A		208.80.152.200	; wikimedia-lb, can't do cname + mx
 			1H	IN MX		10 aluminium 
 			1H	IN MX		20 mchenry
 
-dvd                     1H      IN CNAME        www.masterssystems.com.
+dvd			1H	IN CNAME	www.masterssystems.com.
 
 geoiplookup		1H	IN CNAME	bits
 
@@ -423,7 +423,7 @@ rt			1H	IN A		208.80.152.160
 			1H	IN MX		10 mchenry
 			1H	IN MX		60 lists
 
-secure                  1H      IN A    	208.80.152.134 ; service IP, currently on singer
+secure			1H	IN A		208.80.152.134 ; service IP, currently on singer
 
 smtp			1H	IN A		208.80.152.187	; sanger
 			1H	IN MX		10 mchenry
@@ -433,7 +433,7 @@ svn			60	IN CNAME	formey.wikimedia.org.
 
 torrus			1H	IN A		208.80.152.137
 
-tstracker               1H      IN CNAME	tracker.ts.wikimedia.org. ; toolserver BT tracker
+tstracker		1H	IN CNAME	tracker.ts.wikimedia.org. ; toolserver BT tracker
 
 url-downloader		1H	IN A		208.80.152.143	; linne
 
@@ -442,12 +442,12 @@ url-downloader		1H	IN A		208.80.152.143	; linne
 advisory		1H	IN CNAME	wikimedia-lb
 auditcom		1H	IN CNAME	wikimedia-lb
 ar			1H	IN CNAME	wikimedia-lb
-board                   1H      IN CNAME        wikimedia-lb
-boardgovcom             1H      IN CNAME        wikimedia-lb
-bookshelf		1H      IN CNAME        wikimedia-lb
-bd			1H      IN CNAME        wikimedia-lb
-br			1H      IN CNAME        wikimedia-lb
-ch                      1H      IN CNAME        wikimedia-lb
+board			1H	IN CNAME	wikimedia-lb
+boardgovcom		1H	IN CNAME	wikimedia-lb
+bookshelf		1H	IN CNAME	wikimedia-lb
+bd			1H	IN CNAME	wikimedia-lb
+br			1H	IN CNAME	wikimedia-lb
+ch			1H	IN CNAME	wikimedia-lb
 chair			1H	IN CNAME	wikimedia-lb
 chapcom			1H	IN CNAME	wikimedia-lb
 checkuser		1H	IN CNAME	wikimedia-lb
@@ -456,18 +456,18 @@ co			1H	IN CNAME	wikimedia-lb
 comcom			1H	IN CNAME	wikimedia-lb
 commons			1H	IN CNAME	wikimedia-lb
 www.commons		1H	IN CNAME	wikimedia-lb
-de.labs                 1H      IN CNAME	wikimedia-lb
-dk                      1H      IN CNAME	wikimedia-lb
-en.labs                 1H      IN CNAME	wikimedia-lb
-et                      1H      IN CNAME	wikimedia-lb
-flaggedrevs.labs	1H      IN CNAME	wikimedia-lb
+de.labs			1H	IN CNAME	wikimedia-lb
+dk			1H	IN CNAME	wikimedia-lb
+en.labs			1H	IN CNAME	wikimedia-lb
+et			1H	IN CNAME	wikimedia-lb
+flaggedrevs.labs	1H	IN CNAME	wikimedia-lb
 exec			1H	IN CNAME	wikimedia-lb
 fi			1H	IN CNAME	wikimedia-lb
 grants			1H	IN CNAME	wikimedia-lb
 hu			1H	IN CNAME	wikimedia-lb
 il			1H	IN CNAME	wikimedia-lb
 incubator		1H	IN CNAME	wikimedia-lb
-internal                1H      IN CNAME        wikimedia-lb
+internal		1H	IN CNAME	wikimedia-lb
 it			1H	IN CNAME	wikimedia-lb
 langcom			1H	IN CNAME	wikimedia-lb
 liquidthreads.labs	1H	IN CNAME	wikimedia-lb
@@ -486,8 +486,8 @@ nostalgia		1H	IN CNAME	wikimedia-lb
 office			1H	IN CNAME	wikimedia-lb
 outreach		1H	IN CNAME	wikimedia-lb
 quality			1H	IN CNAME	wikimedia-lb
-pl                      1H      IN CNAME        wikimedia-lb
-readerfeedback.labs	1H      IN CNAME	wikimedia-lb
+pl			1H	IN CNAME	wikimedia-lb
+readerfeedback.labs	1H	IN CNAME	wikimedia-lb
 rs			1H	IN CNAME	wikimedia-lb
 ru			1H	IN CNAME	wikimedia-lb
 se			1H	IN CNAME	wikimedia-lb
@@ -498,7 +498,7 @@ steward			1H	IN CNAME	wikimedia-lb
 strategy		1H	IN CNAME	wikimedia-lb
 strategyapps		1H	IN CNAME	wikimedia-lb
 otrs-wiki		1H	IN CNAME	wikimedia-lb
-pa.us                   1H      IN CNAME        wikimedia-lb
+pa.us			1H	IN CNAME	wikimedia-lb
 pt			1H	IN CNAME	wikimedia-lb
 tr			1H	IN CNAME	wikimedia-lb
 ua			1H	IN CNAME	wikimedia-lb
@@ -522,43 +522,43 @@ bits			1h	IN CNAME	bits-geo
 
 ; Other websites (NO wikis!)
 
-blog                    5M      IN CNAME	marmontel.wikimedia.org.
+blog			1H	IN CNAME	marmontel.wikimedia.org.
 bugs			1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla		1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla3		1H	IN CNAME	singer.wikimedia.org.
 bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
-civicrm                 1H      IN CNAME	aluminium
+civicrm			1H	IN CNAME	aluminium
 civicrm-dev		1H	IN CNAME	aluminium
-civimaps		1H 	IN CNAME  	isidore
+civimaps		1H	IN CNAME	isidore
 codereview-proxy	1H	IN CNAME	kaulen
-coffee                  1H      IN CNAME        singer
+coffee			1H	IN CNAME	singer
 communicate		1H	IN CNAME	singer
-communityblog		5M	IN CNAME	marmontel.wikimedia.org.
+communityblog		1H	IN CNAME	marmontel.wikimedia.org.
 commons.prototype	1H	IN A		208.80.152.249
 contacts		1H	IN CNAME	singer.wikimedia.org.
 labsconsole		1H	IN CNAME	virt0.wikimedia.org.
 outreachcivi		1H	IN CNAME	singer.wikimedia.org.
 cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
-dev.donate              1H      IN CNAME	isidore	
+dev.donate		1H	IN CNAME	isidore	
 download		1H	IN CNAME	dumps
-eiximenis		5M	IN CNAME	hooper.wikimedia.org.
-etherpad		5M	IN CNAME	hooper.wikimedia.org.
+eiximenis		1H	IN CNAME	hooper.wikimedia.org.
+etherpad		1H	IN CNAME	hooper.wikimedia.org.
 flaggedrevssandbox	1H	IN A		69.164.195.193
 flgrevsandbox		1H	IN A		69.164.195.193
 frlabs			1H	IN A		208.80.152.151
-fundraising             1H      IN CNAME	aluminium
-fundraising-analytics   1H      IN CNAME	aluminium
+fundraising		1H	IN CNAME	aluminium
+fundraising-analytics	1H	IN CNAME	aluminium
 ganglia			1H	IN CNAME	nickel
-globalblog		5M	IN CNAME	marmontel.wikimedia.org.
+globalblog		1H	IN CNAME	marmontel.wikimedia.org.
 ganglia3		1H	IN CNAME	nickel
 ganglia3-tip		1H	IN CNAME	nickel
 graphite		1H	IN CNAME	noc
 internproxy		1H	IN A		208.80.152.239
-ishmael                 1H      IN CNAME        spence
+ishmael			1H	IN CNAME	spence
 jobs			1H	IN CNAME	wikimediafoundation.org.
 ls2			1H	IN CNAME	wikimedia-lb
-nagios                  1H      IN CNAME        spence
+nagios			1H	IN CNAME	spence
 noc			1H	IN CNAME	fenari
 nyc			1H	IN CNAME	wikimedia-lb
 ocs.wikimania2009	1H	IN CNAME	singer
@@ -593,29 +593,29 @@ en.prototype		1H	IN CNAME	prototype
 de.prototype		1H	IN CNAME	prototype
 test.prototype		1H	IN CNAME	prototype
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
-racktables		5M	IN CNAME	hooper	
-racktables2		5M	IN CNAME	hooper
+racktables		1H	IN CNAME	hooper
+racktables2		1H	IN CNAME	hooper
 search			1H	IN CNAME	ekrem
-shop                    1H      IN CNAME        shopwikipedia.myshopify.com.
+shop			1H	IN CNAME	shopwikipedia.myshopify.com.
 stats			1H	IN CNAME	spence
-status			1H	IN CNAME 	status.watchmouse.com.
+status			1H	IN CNAME	status.watchmouse.com.
 survey			1H	IN CNAME	argon.wikimedia.org.
-testblog                5M      IN CNAME	marmontel.wikimedia.org.
-techblog		5M	IN CNAME	marmontel.wikimedia.org.
+testblog		1H	IN CNAME	marmontel.wikimedia.org.
+techblog		1H	IN CNAME	marmontel.wikimedia.org.
 ticket			1H	IN CNAME	williams
-tools                   1H      IN CNAME        hemlock.ts
+tools			1H	IN CNAME	hemlock.ts
 ubuntu			1H	IN A		208.80.152.171
 url			1H	IN CNAME	singer
 voip			1H	IN A		216.38.130.191
 ;volunteer		1H	IN A		208.75.85.110
 wikitech		1H	IN A		207.192.72.124 
 wikitech-static		1H	IN A		207.192.72.124
-wm06reg                 1H      IN CNAME	friedrich
-wm07schols              1H      IN CNAME	friedrich
+wm06reg			1H	IN CNAME	friedrich
+wm07schols		1H	IN CNAME	friedrich
 wm08reg			1H	IN A		67.228.205.196
-wm09schols              1H      IN CNAME        singer
-wm10reg			1H      IN CNAME        singer
-wm10schols              1H      IN CNAME        singer
+wm09schols		1H	IN CNAME	singer
+wm10reg			1H	IN CNAME	singer
+wm10schols		1H	IN CNAME	singer
 
 ; Misc
 
@@ -630,7 +630,7 @@ ipv6and4.labs		1H	IN A	91.198.174.7
 results.labs		1H	IN A	91.198.174.7
 
 ; Google apps
-googlef3fe6c2a164e9650  1H      IN CNAME        google.com.
+googlef3fe6c2a164e9650	1H	IN CNAME	google.com.
 
 
 
@@ -671,7 +671,7 @@ $ORIGIN esams.$zonename.
 
 ; Service aliases
 
-ntp                     1H      IN A    91.198.174.118  ; pascal
+ntp			1H	IN A	91.198.174.118	; pascal
 puppet			1H	IN CNAME	brewster.wikimedia.org.
 recursor0		1H	IN A	91.198.174.6
 
@@ -681,51 +681,51 @@ amslvs1			1H	IN A	91.198.174.109
 amslvs2			1H	IN A	91.198.174.110
 amslvs3			1H	IN A	91.198.174.111
 amslvs4			1H	IN A	91.198.174.112
-clematis                1H      IN A    91.198.174.130
-                        1H      IN AAAA 2620:0:862:102:209:3dff:fe11:c9d2
-fuchsia                 1H      IN A    91.198.174.120
-iris                    1H      IN A    91.198.174.124
-lily                    1H      IN A    91.198.174.121
+clematis		1H	IN A	91.198.174.130
+			1H	IN AAAA 2620:0:862:102:209:3dff:fe11:c9d2
+fuchsia			1H	IN A	91.198.174.120
+iris			1H	IN A	91.198.174.124
+lily			1H	IN A	91.198.174.121
 
-mayflower               1H      IN A    91.198.174.123
+mayflower		1H	IN A	91.198.174.123
 
 maerlant		1H	IN A	91.198.174.122
-mint                    1H      IN A    91.198.174.119
+mint			1H	IN A	91.198.174.119
 ms6			1H	IN A	91.198.174.125
-pascal                  1H      IN A    91.198.174.118
-ragweed                 1H      IN A    91.198.174.126
-sage                    1H      IN A    145.97.39.130
-slauerhoff		1H 	IN A	91.198.174.108
-slauerhoff-array	1H 	IN A	91.198.174.107
-knsq1                   1H      IN A    91.198.174.11
-knsq2                   1H      IN A    91.198.174.12
-knsq3                   1H      IN A    91.198.174.13
-knsq4                   1H      IN A    91.198.174.14
-knsq5                   1H      IN A    91.198.174.15
-knsq6                   1H      IN A    91.198.174.16
-knsq7                   1H      IN A    91.198.174.17
-knsq8                   1H      IN A    91.198.174.18
-knsq9                   1H      IN A    91.198.174.19
-knsq10                  1H      IN A    91.198.174.20
-knsq11                  1H      IN A    91.198.174.21
-knsq12                  1H      IN A    91.198.174.22
-knsq13                  1H      IN A    91.198.174.23
-knsq14                  1H      IN A    91.198.174.24
-knsq15                  1H      IN A    91.198.174.25
-knsq16                  1H      IN A    91.198.174.26
-knsq17                  1H      IN A    91.198.174.27
-knsq18                  1H      IN A    91.198.174.28
-knsq19                  1H      IN A    91.198.174.29
-knsq20                  1H      IN A    91.198.174.30
-knsq21                  1H      IN A    91.198.174.31
+pascal			1H	IN A	91.198.174.118
+ragweed			1H	IN A	91.198.174.126
+sage			1H	IN A	145.97.39.130
+slauerhoff		1H	IN A	91.198.174.108
+slauerhoff-array	1H	IN A	91.198.174.107
+knsq1			1H	IN A	91.198.174.11
+knsq2			1H	IN A	91.198.174.12
+knsq3			1H	IN A	91.198.174.13
+knsq4			1H	IN A	91.198.174.14
+knsq5			1H	IN A	91.198.174.15
+knsq6			1H	IN A	91.198.174.16
+knsq7			1H	IN A	91.198.174.17
+knsq8			1H	IN A	91.198.174.18
+knsq9			1H	IN A	91.198.174.19
+knsq10			1H	IN A	91.198.174.20
+knsq11			1H	IN A	91.198.174.21
+knsq12			1H	IN A	91.198.174.22
+knsq13			1H	IN A	91.198.174.23
+knsq14			1H	IN A	91.198.174.24
+knsq15			1H	IN A	91.198.174.25
+knsq16			1H	IN A	91.198.174.26
+knsq17			1H	IN A	91.198.174.27
+knsq18			1H	IN A	91.198.174.28
+knsq19			1H	IN A	91.198.174.29
+knsq20			1H	IN A	91.198.174.30
+knsq21			1H	IN A	91.198.174.31
 
 cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
-dev.donate              1H      IN CNAME	isidore	
+dev.donate		1H	IN CNAME	isidore	
 download		1H	IN CNAME	dumps
-fundraising             1H      IN CNAME	friedrich
+fundraising		1H	IN CNAME	friedrich
 ls2			1H	IN CNAME	wikimedia-lb
-nagios                  1H      IN CNAME        spence
+nagios			1H	IN CNAME	spence
 noc			1H	IN CNAME	fenari
 ocs.wikimania2009	1H	IN CNAME	singer
 otrs-test		1H	IN CNAME	williams
@@ -754,13 +754,13 @@ search			1H	IN CNAME	ekrem
 stats			1H	IN CNAME	zwinger
 survey			1H	IN CNAME	singer.wikimedia.org.
 ticket			1H	IN CNAME	williams
-tools                   1H      IN CNAME        hemlock.ts
-office2                 1H      IN CNAME	friedrich
-civimaps		1H 	IN CNAME  	isidore
+tools			1H	IN CNAME	hemlock.ts
+office2			1H	IN CNAME	friedrich
+civimaps		1H	IN CNAME	isidore
 usability		1H	IN A		74.82.3.109
 wikitech		1H	IN A		207.192.72.124 
-wm06reg                 1H      IN CNAME	friedrich
-wm07schols              1H      IN CNAME	friedrich
+wm06reg			1H	IN CNAME	friedrich
+wm07schols		1H	IN CNAME	friedrich
 wm08reg			1H	IN A		67.228.205.196
 
 ; Misc
@@ -785,7 +785,7 @@ $ORIGIN esams.$zonename.
 
 ; Service aliases
 
-ntp                     1H      IN A    91.198.174.118  ; pascal
+ntp			1H	IN A	91.198.174.118	; pascal
 
 ; Servers
 
@@ -822,60 +822,60 @@ amssq60			1H	IN A	91.198.174.70
 amssq61			1H	IN A	91.198.174.71
 amssq62			1H	IN A	91.198.174.72
 
-clematis                1H      IN A    91.198.174.130
-                        1H      IN AAAA 2620:0:862:102:209:3dff:fe11:c9d2
+clematis		1H	IN A	91.198.174.130
+			1H	IN AAAA 2620:0:862:102:209:3dff:fe11:c9d2
 cp3001			1H	IN A	91.198.174.100
 cp3002			1H	IN A	91.198.174.101
-fuchsia                 1H      IN A    91.198.174.120
-hawthorn                1H      IN A    91.198.174.122
+fuchsia			1H	IN A	91.198.174.120
+hawthorn		1H	IN A	91.198.174.122
 hooft			1H	IN A	91.198.174.113
-iris                    1H      IN A    91.198.174.124
-lily                    1H      IN A    91.198.174.121
+iris			1H	IN A	91.198.174.124
+lily			1H	IN A	91.198.174.121
 
-mayflower               1H      IN A    91.198.174.123
-                        1H      IN AAAA 2620:0:862:1:209:3dff:fe10:d5d2
+mayflower		1H	IN A	91.198.174.123
+			1H	IN AAAA 2620:0:862:1:209:3dff:fe10:d5d2
 
-mint                    1H      IN A    91.198.174.119
+mint			1H	IN A	91.198.174.119
 nescio			1H	IN A	91.198.174.106
 
-ptolemy			1H	IN A 	91.198.174.114
-			1H 	IN AAAA	2620:0:862:1:223:8bff:fe8a:79f4
-ortelius		1H	IN A 	91.198.174.115
+ptolemy			1H	IN A	91.198.174.114
+			1H	IN AAAA	2620:0:862:1:223:8bff:fe8a:79f4
+ortelius		1H	IN A	91.198.174.115
 			1H	IN AAAA	2620:0:862:1:21b:24ff:fee0:442e
-pascal                  1H      IN A    91.198.174.118
-ragweed                 1H      IN A    91.198.174.126
-sage                    1H      IN A    145.97.39.130
+pascal			1H	IN A	91.198.174.118
+ragweed			1H	IN A	91.198.174.126
+sage			1H	IN A	145.97.39.130
 
-knsq1                   1H      IN A    91.198.174.11
-knsq2                   1H      IN A    91.198.174.12
-knsq3                   1H      IN A    91.198.174.13
-knsq4                   1H      IN A    91.198.174.14
-knsq5                   1H      IN A    91.198.174.15
-knsq6                   1H      IN A    91.198.174.16
-knsq7                   1H      IN A    91.198.174.17
-knsq8                   1H      IN A    91.198.174.18
-knsq9                   1H      IN A    91.198.174.19
-knsq10                  1H      IN A    91.198.174.20
-knsq11                  1H      IN A    91.198.174.21
-knsq12                  1H      IN A    91.198.174.22
-knsq13                  1H      IN A    91.198.174.23
-knsq14                  1H      IN A    91.198.174.24
-knsq15                  1H      IN A    91.198.174.25
-knsq16                  1H      IN A    91.198.174.26
-knsq17                  1H      IN A    91.198.174.27
-knsq18                  1H      IN A    91.198.174.28
-knsq19                  1H      IN A    91.198.174.29
-knsq20                  1H      IN A    91.198.174.30
-knsq21                  1H      IN A    91.198.174.31
-knsq22                  1H      IN A    91.198.174.32
-knsq23                  1H      IN A    91.198.174.33
-knsq24                  1H      IN A    91.198.174.34
-knsq25                  1H      IN A    91.198.174.35
-knsq26                  1H      IN A    91.198.174.36
-knsq27                  1H      IN A    91.198.174.37
-knsq28                  1H      IN A    91.198.174.38
-knsq29                  1H      IN A    91.198.174.39
-knsq30                  1H      IN A    91.198.174.40
+knsq1			1H	IN A	91.198.174.11
+knsq2			1H	IN A	91.198.174.12
+knsq3			1H	IN A	91.198.174.13
+knsq4			1H	IN A	91.198.174.14
+knsq5			1H	IN A	91.198.174.15
+knsq6			1H	IN A	91.198.174.16
+knsq7			1H	IN A	91.198.174.17
+knsq8			1H	IN A	91.198.174.18
+knsq9			1H	IN A	91.198.174.19
+knsq10			1H	IN A	91.198.174.20
+knsq11			1H	IN A	91.198.174.21
+knsq12			1H	IN A	91.198.174.22
+knsq13			1H	IN A	91.198.174.23
+knsq14			1H	IN A	91.198.174.24
+knsq15			1H	IN A	91.198.174.25
+knsq16			1H	IN A	91.198.174.26
+knsq17			1H	IN A	91.198.174.27
+knsq18			1H	IN A	91.198.174.28
+knsq19			1H	IN A	91.198.174.29
+knsq20			1H	IN A	91.198.174.30
+knsq21			1H	IN A	91.198.174.31
+knsq22			1H	IN A	91.198.174.32
+knsq23			1H	IN A	91.198.174.33
+knsq24			1H	IN A	91.198.174.34
+knsq25			1H	IN A	91.198.174.35
+knsq26			1H	IN A	91.198.174.36
+knsq27			1H	IN A	91.198.174.37
+knsq28			1H	IN A	91.198.174.38
+knsq29			1H	IN A	91.198.174.39
+knsq30			1H	IN A	91.198.174.40
 
 ssl3001			1H	IN A	91.198.174.102
 ssl3002			1H	IN A	91.198.174.103
@@ -884,99 +884,99 @@ ssl3004			1H	IN A	91.198.174.105
 
 ; Management
 
-clematis.ipmi           1H      IN A    10.21.0.9
-fuchsia.ipmi            1H      IN A    10.21.0.4
-hawthorn.ipmi           1H      IN A    10.21.0.6
-iris.ipmi               1H      IN A    10.21.0.8
-lily.ipmi               1H      IN A    10.21.0.5
-mayflower.ipmi          1H      IN A    10.21.0.7
-mint.ipmi               1H      IN A    10.21.0.3
-pascal.ipmi             1H      IN A    10.21.0.2
-ragweed.ipmi            1H      IN A    10.21.0.11
-sage.ipmi               1H      IN A    10.21.0.10
-vandale.ipmi            1H      IN A    10.21.0.12
-zedler.ipmi             1H      IN A    10.21.0.13
-zedler-array.ipmi       1H      IN A    10.21.0.14
-hemlock.ipmi            1H      IN A    10.21.0.15
-knsq1.ipmi              1H      IN A    10.21.0.16
-knsq2.ipmi              1H      IN A    10.21.0.17
-knsq3.ipmi              1H      IN A    10.21.0.18
-knsq4.ipmi              1H      IN A    10.21.0.19
-knsq5.ipmi              1H      IN A    10.21.0.20
-knsq6.ipmi              1H      IN A    10.21.0.21
-knsq7.ipmi              1H      IN A    10.21.0.22
-knsq8.ipmi              1H      IN A    10.21.0.23
-knsq9.ipmi              1H      IN A    10.21.0.24
-knsq10.ipmi             1H      IN A    10.21.0.25
-knsq11.ipmi             1H      IN A    10.21.0.26
-knsq12.ipmi             1H      IN A    10.21.0.27
-knsq13.ipmi             1H      IN A    10.21.0.28
-knsq14.ipmi             1H      IN A    10.21.0.29
-knsq15.ipmi             1H      IN A    10.21.0.30
-knsq16.ipmi             1H      IN A    10.21.0.31
-knsq17.ipmi             1H      IN A    10.21.0.32
-knsq18.ipmi             1H      IN A    10.21.0.33
-knsq19.ipmi             1H      IN A    10.21.0.34
-knsq20.ipmi             1H      IN A    10.21.0.35
-knsq21.ipmi             1H      IN A    10.21.0.36
-knsq22.ipmi             1H      IN A    10.21.0.37
-knsq23.ipmi             1H      IN A    10.21.0.38
-knsq24.ipmi             1H      IN A    10.21.0.39
-knsq25.ipmi             1H      IN A    10.21.0.40
-knsq26.ipmi             1H      IN A    10.21.0.41
-knsq27.ipmi             1H      IN A    10.21.0.42
-knsq28.ipmi             1H      IN A    10.21.0.43
-knsq29.ipmi             1H      IN A    10.21.0.44
-knsq30.ipmi             1H      IN A    10.21.0.45
-nightshade.ipmi         1H      IN A    10.21.0.46
-willow.ipmi             1H      IN A    10.21.0.47
+clematis.ipmi		1H	IN A	10.21.0.9
+fuchsia.ipmi		1H	IN A	10.21.0.4
+hawthorn.ipmi		1H	IN A	10.21.0.6
+iris.ipmi		1H	IN A	10.21.0.8
+lily.ipmi		1H	IN A	10.21.0.5
+mayflower.ipmi		1H	IN A	10.21.0.7
+mint.ipmi		1H	IN A	10.21.0.3
+pascal.ipmi		1H	IN A	10.21.0.2
+ragweed.ipmi		1H	IN A	10.21.0.11
+sage.ipmi		1H	IN A	10.21.0.10
+vandale.ipmi		1H	IN A	10.21.0.12
+zedler.ipmi		1H	IN A	10.21.0.13
+zedler-array.ipmi	1H	IN A	10.21.0.14
+hemlock.ipmi		1H	IN A	10.21.0.15
+knsq1.ipmi		1H	IN A	10.21.0.16
+knsq2.ipmi		1H	IN A	10.21.0.17
+knsq3.ipmi		1H	IN A	10.21.0.18
+knsq4.ipmi		1H	IN A	10.21.0.19
+knsq5.ipmi		1H	IN A	10.21.0.20
+knsq6.ipmi		1H	IN A	10.21.0.21
+knsq7.ipmi		1H	IN A	10.21.0.22
+knsq8.ipmi		1H	IN A	10.21.0.23
+knsq9.ipmi		1H	IN A	10.21.0.24
+knsq10.ipmi		1H	IN A	10.21.0.25
+knsq11.ipmi		1H	IN A	10.21.0.26
+knsq12.ipmi		1H	IN A	10.21.0.27
+knsq13.ipmi		1H	IN A	10.21.0.28
+knsq14.ipmi		1H	IN A	10.21.0.29
+knsq15.ipmi		1H	IN A	10.21.0.30
+knsq16.ipmi		1H	IN A	10.21.0.31
+knsq17.ipmi		1H	IN A	10.21.0.32
+knsq18.ipmi		1H	IN A	10.21.0.33
+knsq19.ipmi		1H	IN A	10.21.0.34
+knsq20.ipmi		1H	IN A	10.21.0.35
+knsq21.ipmi		1H	IN A	10.21.0.36
+knsq22.ipmi		1H	IN A	10.21.0.37
+knsq23.ipmi		1H	IN A	10.21.0.38
+knsq24.ipmi		1H	IN A	10.21.0.39
+knsq25.ipmi		1H	IN A	10.21.0.40
+knsq26.ipmi		1H	IN A	10.21.0.41
+knsq27.ipmi		1H	IN A	10.21.0.42
+knsq28.ipmi		1H	IN A	10.21.0.43
+knsq29.ipmi		1H	IN A	10.21.0.44
+knsq30.ipmi		1H	IN A	10.21.0.45
+nightshade.ipmi		1H	IN A	10.21.0.46
+willow.ipmi		1H	IN A	10.21.0.47
 ms6.ipmi		1H	IN A	10.21.0.48
-yarrow.ipmi             1H      IN A    10.21.0.100
-br1-knams.ipmi          1H      IN A    10.21.0.101
+yarrow.ipmi		1H	IN A	10.21.0.100
+br1-knams.ipmi		1H	IN A	10.21.0.101
 scs-oe11-esams		1H	IN A	10.21.0.102
 ortelius.ipmi		1H	IN A	10.21.0.103
 ptolemy.ipmi		1H	IN A	10.21.0.104
 ; Round robin record
 
-rr                      1H      IN A    91.198.174.232    ; LVS
+rr			1H	IN A	91.198.174.232	  ; LVS
 text			1H	IN A	91.198.174.232	; LVS
-bits                    1H	IN A	91.198.174.233  ; LVS
+bits			1H	IN A	91.198.174.233	; LVS
 bits-lb			1H	IN A	91.198.174.233	; LVS
-upload                  1H      IN A    91.198.174.234	; NOTE, this record is currently overwritten by the Pipe backend and selective-answers.py for selective AAAA record serving with IPv6 experiments
-wikimedia-lb		1H	IN A	91.198.174.224  ; LVS
-wikipedia-lb		1H	IN A	91.198.174.225  ; LVS
-wiktionary-lb		1H	IN A	91.198.174.226  ; LVS
-wikiquote-lb		1H	IN A	91.198.174.227  ; LVS
-wikibooks-lb		1H	IN A	91.198.174.228  ; LVS
-wikisource-lb		1H	IN A	91.198.174.229  ; LVS
-wikinews-lb		1H	IN A	91.198.174.230  ; LVS
-wikiversity-lb		1H	IN A	91.198.174.231  ; LVS
+upload			1H	IN A	91.198.174.234	; NOTE, this record is currently overwritten by the Pipe backend and selective-answers.py for selective AAAA record serving with IPv6 experiments
+wikimedia-lb		1H	IN A	91.198.174.224	; LVS
+wikipedia-lb		1H	IN A	91.198.174.225	; LVS
+wiktionary-lb		1H	IN A	91.198.174.226	; LVS
+wikiquote-lb		1H	IN A	91.198.174.227	; LVS
+wikibooks-lb		1H	IN A	91.198.174.228	; LVS
+wikisource-lb		1H	IN A	91.198.174.229	; LVS
+wikinews-lb		1H	IN A	91.198.174.230	; LVS
+wikiversity-lb		1H	IN A	91.198.174.231	; LVS
 mediawiki-lb		1H	IN A	91.198.174.232 
-foundation-lb		1H	IN A	91.198.174.235  ; LVS
+foundation-lb		1H	IN A	91.198.174.235	; LVS
 
 ; SQL text replicas on clematis
-sql-text1               1H      IN A            91.198.174.131
-sql-text3               1H      IN A            91.198.174.132
-sql-text4               1H      IN A            91.198.174.133
-sql-text5               1H      IN A            91.198.174.134
-sql-text6               1H      IN A            91.198.174.135
-sql-text7               1H      IN A            91.198.174.136
-sql-text8               1H      IN A            91.198.174.137
-sql-text9               1H      IN A            91.198.174.138
-sql-text10              1H      IN A            91.198.174.139
-sql-text11              1H      IN A            91.198.174.140
-sql-text12              1H      IN A            91.198.174.141
-sql-text13              1H      IN A            91.198.174.142
+sql-text1		1H	IN A		91.198.174.131
+sql-text3		1H	IN A		91.198.174.132
+sql-text4		1H	IN A		91.198.174.133
+sql-text5		1H	IN A		91.198.174.134
+sql-text6		1H	IN A		91.198.174.135
+sql-text7		1H	IN A		91.198.174.136
+sql-text8		1H	IN A		91.198.174.137
+sql-text9		1H	IN A		91.198.174.138
+sql-text10		1H	IN A		91.198.174.139
+sql-text11		1H	IN A		91.198.174.140
+sql-text12		1H	IN A		91.198.174.141
+sql-text13		1H	IN A		91.198.174.142
 ; 143 = array!
-sql-text14              1H      IN A            91.198.174.144
-sql-text15              1H      IN A            91.198.174.145
-sql-text16              1H      IN A            91.198.174.146
-sql-text17              1H      IN A            91.198.174.147
-sql-text18              1H      IN A            91.198.174.148
-sql-text19              1H      IN A            91.198.174.149
-sql-text20              1H      IN A            91.198.174.150
-sql-text21              1H      IN A            91.198.174.151
-sql-rc1                 1H      IN A            91.198.174.152
+sql-text14		1H	IN A		91.198.174.144
+sql-text15		1H	IN A		91.198.174.145
+sql-text16		1H	IN A		91.198.174.146
+sql-text17		1H	IN A		91.198.174.147
+sql-text18		1H	IN A		91.198.174.148
+sql-text19		1H	IN A		91.198.174.149
+sql-text20		1H	IN A		91.198.174.150
+sql-text21		1H	IN A		91.198.174.151
+sql-rc1			1H	IN A		91.198.174.152
 
 
 ; Kennisnet cluster - legacy addresses
@@ -985,7 +985,7 @@ $ORIGIN knams.$zonename.
 
 ; Mail exchangers
 
-@	        	1H	IN MX	10 pascal.esams.wikimedia.org.
+@			1H	IN MX	10 pascal.esams.wikimedia.org.
 
 ; Canonical names
 ; Use the one in geobackend
@@ -996,7 +996,7 @@ localhost		1W	IN A	127.0.0.1
 
 ntp			1H	IN A	91.198.174.118	; pascal
 www			1H	IN CNAME	pascal
-www2                    1H      IN CNAME        pascal
+www2			1H	IN CNAME	pascal
 
 ; Servers
 
@@ -1060,9 +1060,9 @@ pascal.ipmi		1H	IN A	10.21.0.2
 ragweed.ipmi		1H	IN A	10.21.0.11
 sage.ipmi		1H	IN A	10.21.0.10
 vandale.ipmi		1H	IN A	10.21.0.12
-zedler.ipmi             1H      IN A    10.21.0.13
+zedler.ipmi		1H	IN A	10.21.0.13
 zedler-array.ipmi	1H	IN A	10.21.0.14
-hemlock.ipmi            1H      IN A    10.21.0.15
+hemlock.ipmi		1H	IN A	10.21.0.15
 knsq1.ipmi		1H	IN A	10.21.0.16
 knsq2.ipmi		1H	IN A	10.21.0.17
 knsq3.ipmi		1H	IN A	10.21.0.18
@@ -1100,8 +1100,8 @@ br1-knams.ipmi		1H	IN A	10.21.0.101
 
 ; Round robin record
 
-rr                      1H      IN A    91.198.174.2	; LVS
-upload                  1H      IN A    91.198.174.3	; NOTE, this record is currently overwritten by the Pipe backend and selective-answers.py for selective AAAA record serving with IPv6 experiments
+rr			1H	IN A	91.198.174.2	; LVS
+upload			1H	IN A	91.198.174.3	; NOTE, this record is currently overwritten by the Pipe backend and selective-answers.py for selective AAAA record serving with IPv6 experiments
 
 ; SQL text replicas on clematis
 sql-text1		1H	IN A		91.198.174.131
@@ -1160,8 +1160,8 @@ $toolserverdbs
 
 $ORIGIN 34.97.145.rev.$zonename.
 
-224 1H  IN PTR  net-ipmi.knams.wikimedia.org.
-225 1H  IN PTR  knfsm001.ipmi.knams.wikimedia.org.
-226 1H  IN PTR  knfsm002.ipmi.knams.wikimedia.org.
-227 1H  IN PTR  gw-hsrp.ipmi.knams.wikimedia.org.
-228 1H  IN PTR  eth1.pascal.knams.wikimedia.org.
+224 1H	IN PTR	net-ipmi.knams.wikimedia.org.
+225 1H	IN PTR	knfsm001.ipmi.knams.wikimedia.org.
+226 1H	IN PTR	knfsm002.ipmi.knams.wikimedia.org.
+227 1H	IN PTR	gw-hsrp.ipmi.knams.wikimedia.org.
+228 1H	IN PTR	eth1.pascal.knams.wikimedia.org.
