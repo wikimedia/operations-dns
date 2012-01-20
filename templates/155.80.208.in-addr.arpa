@@ -18,3 +18,4 @@ $ORIGIN $zonename.
 1	1H IN PTR	vrrp-gw-1005.eqiad.wmnet.
 2	1H IN PTR	ae1-1005.cr1-eqiad.wikimedia.org.
 3	1H IN PTR	ae1-1005.cr2-eqiad.wikimedia.org.
+4	1H IN PTR	dataset1001.wikimedia.org
