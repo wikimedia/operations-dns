@@ -1038,10 +1038,7 @@ $ORIGIN 0.3.$zonename.
 ; 10.4.0.0/24 - guest VMs subnet
 $ORIGIN 0.4.$zonename.
 
-1	1H	IN PTR	vrrp-gw-103.wikimedia.org.
-
-252	1H	IN PTR	ae0-103.cr1-sdtpa.wikimedia.org.
-253	1H	IN PTR	ae0-103.cr2-pmtpa.wikimedia.org.
+1	1H	IN PTR	labs-gateway.wikimedia.org
 
 ; 10.4.16.0/24 - VM host compute nodes subnet
 $ORIGIN 16.4.$zonename.
