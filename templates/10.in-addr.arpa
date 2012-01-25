@@ -976,6 +976,7 @@ $ORIGIN 1.2.$zonename.
 24	1H	IN PTR	upload.svc.pmtpa.wmnet.
 25	1H	IN PTR	text.svc.pmtpa.wmnet.
 26	1H	IN PTR	mobile.svc.pmpta.wmnet.
+27	1H	IN PTR	ms-fe.svc.pmpta.wmnet.
 
 ; eqiad svc ips
 
