@@ -237,6 +237,7 @@ tridge			1H	IN A	208.80.152.170 ; Cold Backup Server
 virt0			1H	IN A	208.80.153.135
 williams		1H	IN A	208.80.152.159
 yongle			1H	IN A	208.80.152.178
+yttrium			1H	IN A	208.80.154.13
 yvon			1H	IN A	208.80.152.21
 zinc			1H	IN A	208.80.154.136
 
