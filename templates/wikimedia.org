@@ -405,7 +405,7 @@ url-downloader		1H	IN A		208.80.152.143	; linne
 advisory		1H	IN CNAME	wikimedia-lb
 auditcom		1H	IN CNAME	wikimedia-lb
 ar			1H	IN CNAME	wikimedia-lb
-;be			1H	IN CNAME	wikimedia-lb
+be			1H	IN CNAME	wikimedia-lb
 board			1H	IN CNAME	wikimedia-lb
 boardgovcom		1H	IN CNAME	wikimedia-lb
 bookshelf		1H	IN CNAME	wikimedia-lb
