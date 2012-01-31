@@ -46,6 +46,7 @@ $ORIGIN 0.0.$zonename.
 
 219	1H	IN PTR	storage3.pmtpa.wmnet.
 220 	1H	IN PTR  scs.pmtpa.wmnet.
+221	1H	IN PTR	capella.pmtpa.wmnet.
 
 225	1H	IN PTR	es1.pmtpa.wmnet.
 226	1H	IN PTR	es2.pmtpa.wmnet.
@@ -776,7 +777,7 @@ $ORIGIN 8.1.$zonename.
 17	1H	IN PTR	ts-array4a.mgmt.pmtpa.wmnet.
 18	1H	IN PTR	ts-array4b..mgmt.pmtpa.wmnet.
 19	1H	IN PTR	pdf1.mgmt.pmtpa.wmnet.
-20	1H	IN PTR	mobile1.mgmt.pmtpa.wmnet.
+20	1H	IN PTR	capella.mgmt.pmtpa.wmnet.
 21	1H	IN PTR	snapshot1.mgmt.pmtpa.wmnet.
 22	1H	IN PTR	snapshot2.mgmt.pmtpa.wmnet.
 23	1H	IN PTR	snapshot3.mgmt.pmtpa.wmnet.

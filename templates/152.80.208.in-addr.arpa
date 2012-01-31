@@ -99,7 +99,7 @@ $ORIGIN $zonename.
 112	1H IN PTR	owa1.wikimedia.org.
 113	1H IN PTR	owa2.wikimedia.org.
 114	1H IN PTR	owa3.wikimedia.org.
-115	1H IN PTR	mobile1.wikimedia.org.
+
 116	1H IN PTR	mobile2.wikimedia.org.
 117	1H IN PTR	ocg1.wikimedia.org.
 118	1H IN PTR	bits.pmtpa.wikimedia.org.	

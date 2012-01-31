@@ -63,6 +63,7 @@ avicenna		1H	IN A		10.0.0.14
 bellin			1H	IN A		10.0.6.100
 blondel			1H	IN A		10.0.6.101
 biruni			1H	IN A		10.0.0.25
+capella			1H	IN A		10.0.0.221
 coronelli		1H	IN A		10.0.0.230
 db1			1H	IN A		10.0.0.234
 db2			1H	IN A		10.0.0.235
@@ -623,7 +624,7 @@ nfs1			1H	IN A		10.1.8.1
 nfs2			1H	IN A		10.1.8.11
 niobium			1H	IN A		10.65.3.53
 WMF3428			1H	IN A		10.65.3.53
-mobile1			1H	IN A		10.1.8.20
+capella			1H	IN A		10.1.8.20
 ocg1			1H	IN A		10.1.8.44
 ocg2			1H	IN A		10.1.8.63
 ocg3			1H	IN A		10.1.8.64
