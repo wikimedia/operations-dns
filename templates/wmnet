@@ -143,6 +143,7 @@ ms-fe1			1H	IN A		10.0.6.210
 ms-fe2			1H	IN A		10.0.6.211
 ms-fe-rr		1H	IN A		10.0.6.210 ; round robin entry for ms-fe* hosts
 			1H	IN A		10.0.6.211 ; round robin entry for ms-fe* hosts
+			1H	IN A		208.80.152.112 ; round robin entry for ms-fe* and owa1 hosts
 nfs1			1H	IN A		10.0.0.244
 nfs2			1H	IN A		10.0.0.247
 nas1-a			1H	IN A		10.0.0.253
