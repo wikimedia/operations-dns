@@ -514,7 +514,7 @@ arsenic			1H	IN A		10.65.3.45
 WMF3420			1H	IN A		10.65.3.45
 bayes			1H	IN A		10.1.8.24
 brewster		1H	IN A		10.1.8.3
-bromine			1H	IN A		10.65.3.47
+payments1002		1H	IN A		10.65.3.47
 WMF3422			1H	IN A		10.65.3.47
 cadmium			1H	IN A		10.65.3.60
 WMF3435			1H	IN A		10.65.3.60
@@ -611,7 +611,7 @@ lvs1004			1H	IN A		10.65.3.42
 lvs1005			1H	IN A		10.65.3.43
 lvs1006			1H	IN A		10.65.3.44
 mchenry			1H	IN A		10.1.230.240
-molybdenum		1H	IN A		10.65.3.54
+payments1003		1H	IN A		10.65.3.54
 WMF3429			1H	IN A		10.65.3.54
 ms1			1H	IN A		10.1.7.1
 ms2			1H	IN A		10.1.7.2
@@ -670,7 +670,7 @@ search17		1H	IN A		10.1.4.27
 search18		1H	IN A		10.1.4.28
 search19		1H	IN A		10.1.4.29
 search20		1H	IN A		10.1.4.30
-selenium		1H	IN A		10.65.3.46
+payments1004		1H	IN A		10.65.3.46
 WMF3421			1H	IN A		10.65.3.46
 sockpuppet		1H	IN A		10.1.8.2
 silver			1H	IN A		10.65.3.59
@@ -691,7 +691,7 @@ streber			1H	IN A		10.1.8.14
 strontium		1H	IN A		10.65.3.50
 WMF3425			1H	IN A		10.65.3.50
 tarin			1H	IN A		10.1.8.35
-technetium		1H	IN A		10.65.3.55
+payments1001		1H	IN A		10.65.3.55
 WMF3430			1H	IN A		10.65.3.55
 transcode1		1H	IN A		10.1.8.25
 transcode2		1H	IN A		10.1.8.26

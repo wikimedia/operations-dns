@@ -2092,9 +2092,9 @@ $ORIGIN 3.65.$zonename.
 44	1H	IN PTR		WMF3419.mgmt.eqiad.wmnet.
 45	1H	IN PTR		arsenic.mgmt.eqiad.wmnet.
 45	1H	IN PTR		WMF3420.mgmt.eqiad.wmnet.
-46	1H	IN PTR		selenium.mgmt.eqiad.wmnet.
+46	1H	IN PTR		payments1004.mgmt.eqiad.wmnet.
 46	1H	IN PTR		WMF3421.mgmt.eqiad.wmnet.
-47	1H	IN PTR		bromine.mgmt.eqiad.wmnet.
+47	1H	IN PTR		payments1002.mgmt.eqiad.wmnet.
 47	1H	IN PTR		WMF3422.mgmt.eqiad.wmnet.
 48	1H	IN PTR		virt1000.mgmt.eqiad.wmnet.
 48	1H	IN PTR		WMF3423.mgmt.eqiad.wmnet.
@@ -2108,9 +2108,9 @@ $ORIGIN 3.65.$zonename.
 52	1H	IN PTR		WMF3427.mgmt.eqiad.wmnet.
 53	1H	IN PTR		niobium.mgmt.eqiad.wmnet.
 53	1H	IN PTR		WMF3428.mgmt.eqiad.wmnet.
-54	1H	IN PTR		molybdenum.mgmt.eqiad.wmnet.
+54	1H	IN PTR		payments1003.mgmt.eqiad.wmnet.
 54	1H	IN PTR		WMF3429.mgmt.eqiad.wmnet.
-55	1H	IN PTR		technetium.mgmt.eqiad.wmnet.
+55	1H	IN PTR		payments1001.mgmt.eqiad.wmnet.
 55	1H	IN PTR		WMF3430.mgmt.eqiad.wmnet.
 56	1H	IN PTR		msfe1001.mgmt.eqiad.wmnet.
 56	1H	IN PTR		WMF3431.mgmt.eqiad.wmnet.
