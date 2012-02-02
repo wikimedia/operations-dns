@@ -17,13 +17,7 @@ $ORIGIN $zonename.
 ; Squids subnet 208.80.152.0/25 (208.80.152.0 - 208.80.152.127)
 
 1	1H IN PTR	vrrp-gw-100.wikimedia.org.
-2	1H IN PTR	rr.pmtpa.wikimedia.org.
-3	1H IN PTR	upload.pmtpa.wikimedia.org.
-5	1H IN PTR	m.pmtpa.wikimedia.org.
-6	1H IN PTR	owa.wikimedia.org.
-7	1H IN PTR	payments.wikimedia.org.
 
-10	1H IN PTR	lvs-svc-test.wikimedia.org.
 11	1H IN PTR	payments1.wikimedia.org.
 12	1H IN PTR	payments2.wikimedia.org.
 13	1H IN PTR	payments3.wikimedia.org.
@@ -102,7 +96,7 @@ $ORIGIN $zonename.
 
 116	1H IN PTR	mobile2.wikimedia.org.
 117	1H IN PTR	ocg1.wikimedia.org.
-118	1H IN PTR	bits.pmtpa.wikimedia.org.	
+
 119	1H IN PTR 	ocg2.wikimedia.org.
 120	1H IN PTR	lvs1.wikimedia.org.
 121	1H IN PTR	lvs2.wikimedia.org.

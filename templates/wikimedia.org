@@ -243,8 +243,7 @@ zinc			1H	IN A	208.80.154.136
 
 ; Round robin record
 
-rr.pmtpa		1H	IN A	208.80.152.2
-text.pmtpa		1H	IN A	208.80.152.2
+text.pmtpa		1H	IN A	208.80.152.209
 bits.pmtpa		1H	IN A	208.80.152.210
 upload.pmtpa		1H	IN A	208.80.152.211
 upload.v4		1H	IN A	208.80.152.211 ; Explicitly v4 only
