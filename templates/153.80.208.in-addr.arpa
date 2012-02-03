@@ -22,6 +22,7 @@ $ORIGIN $zonename.
 133	1H IN PTR	cam1-b-c-sdtpa.wikimedia.org.
 134	1H IN PTR	cam1-d-sdtpa.wikimedia.org.
 135	1H IN PTR	virt0.wikimedia.org.
+136	1H IN PTR	manutius.wikimedia.org.
 
 189	1H IN PTR	ae0-104.cr1-sdtpa.wikimedia.org.
 190	1H IN PTR	ae0-104.cr2-pmtpa.wikimedia.org.
