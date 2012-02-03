@@ -718,7 +718,7 @@ $ORIGIN 6.1.$zonename.
 48	1H	IN PTR db38.mgmt.pmtpa.wmnet.
 49	1H	IN PTR db39.mgmt.pmtpa.wmnet.
 50	1H	IN PTR db40.mgmt.pmtpa.wmnet.
-51	1H	IN PTR db41.mgmt.pmtpa.wmnet.
+51	1H	IN PTR manutius.mgmt.pmtpa.wmnet.
 52	1H	IN PTR db42.mgmt.pmtpa.wmnet.
 53	1H	IN PTR db43.mgmt.pmtpa.wmnet.
 54	1H	IN PTR db44.mgmt.pmtpa.wmnet.
