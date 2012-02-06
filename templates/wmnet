@@ -872,7 +872,7 @@ $ORIGIN eqiad.$zonename.
 
 ; Service aliases
 ntp			1H	IN CNAME	linne.wikimedia.org.
-s1-secondary		5M	IN CNAME	db1001.eqiad.wmnet.
+s1-secondary		5M	IN CNAME	db1017.eqiad.wmnet.
 s2-secondary		5M	IN CNAME	db1034.eqiad.wmnet.
 s3-secondary		5M	IN CNAME	db1019.eqiad.wmnet.
 s4-secondary		5M	IN CNAME	db1038.eqiad.wmnet.
