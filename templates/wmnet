@@ -122,6 +122,8 @@ db55			1H	IN A		10.0.6.65
 db56			1H	IN A		10.0.6.66
 db57			1H	IN A		10.0.6.67
 db58			1H	IN A		10.0.6.68
+db59			1H	IN A		10.0.6.69
+db60			1H	IN A		10.0.6.70
 erzurumi		1h	IN A		10.0.0.25
 es1			1H	IN A		10.0.0.225
 es2			1H	IN A		10.0.0.226
@@ -595,6 +597,10 @@ stafford		1H	IN A		10.1.8.30
 kaulen			1H	IN A		10.1.8.34
 virt1000		1H	IN A		10.65.3.48
 WMF3423			1H	IN A		10.65.3.48
+labstore1		1H	IN A		10.1.8.74
+labstore2		1H	IN A		10.1.8.75
+labstore3		1H	IN A		10.1.8.76
+labstore4		1H	IN A		10.1.8.77
 linne			1H	IN A		10.1.8.10
 locke			1H	IN A		10.1.6.16
 loudon			1H	IN A		10.1.8.9
