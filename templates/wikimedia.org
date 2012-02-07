@@ -380,7 +380,7 @@ imap			1H	IN A		208.80.152.187	; sanger
 irc			1H	IN CNAME	ekrem
 ntp.pmtpa		1H	IN CNAME	linne
 
-observium		1H	IN CNAME	torrus
+observium		1H	IN A		208.80.152.137
 
 rt			1H	IN A		208.80.152.160
 			1H	IN MX		10 mchenry
@@ -394,7 +394,7 @@ smtp			1H	IN A		208.80.152.187	; sanger
 squidlog		1H	IN CNAME	locke.wikimedia.org.
 svn			60	IN CNAME	formey.wikimedia.org.
 
-torrus			1H	IN A		208.80.152.137
+torrus			1H	IN CNAME	manutius
 
 tstracker		1H	IN CNAME	tracker.ts.wikimedia.org. ; toolserver BT tracker
 
