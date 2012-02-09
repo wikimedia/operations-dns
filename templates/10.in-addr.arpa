@@ -1005,7 +1005,7 @@ $ORIGIN 2.2.$zonename.
 24      1H      IN PTR  upload.svc.eqiad.wmnet.
 25      1H      IN PTR  text.svc.eqiad.wmnet.
 26	1H	IN PTR	mobile.svc.eqiad.wmnet.
-
+27	1H	IN PTR	ms-fe.svc.eqiad.wmnet.
 
 ; esams svc ips
 
