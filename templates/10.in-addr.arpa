@@ -1513,6 +1513,8 @@ $ORIGIN 16.64.$zonename.
 141	1H IN PTR	snapshot1003.eqiad.wmnet.
 142	1H IN PTR	snapshot1004.eqiad.wmnet.
 143	1H IN PTR	ganglia1002.eqiad.wmnet.
+144	1H IN PTR	db1049.eqiad.wmnet.
+145	1H IN PTR	db1050.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 
@@ -2290,6 +2292,8 @@ $ORIGIN 6.65.$zonename.
 47	1H	IN PTR		WMF3272.mgmt.eqiad.wmnet.
 48	1H	IN PTR		db1048.mgmt.eqiad.wmnet.
 48	1H	IN PTR		WMF3271.mgmt.eqiad.wmnet.
+49	1H	IN PTR		db1049.mgmt.eqiad.wmnet.
+50	1H	IN PTR		db1050.mgmt.eqiad.wmnet.
 
 $ORIGIN 7.65.$zonename.
 
