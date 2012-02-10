@@ -1356,6 +1356,7 @@ $ORIGIN 0.64.$zonename.
 160	1H IN PTR	cp1038.eqiad.wmnet.
 161	1H IN PTR	cp1039.eqiad.wmnet.
 162	1H IN PTR	cp1040.eqiad.wmnet.
+163	1H IN PTR	oxygen.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
