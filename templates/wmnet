@@ -47,7 +47,7 @@ ntp			1H	IN CNAME	linne.wikimedia.org.
 s1-master		5M	IN CNAME	db36.pmtpa.wmnet.
 s2-master		5M	IN CNAME	db13.pmtpa.wmnet.
 s3-master		5M	IN CNAME	db39.pmtpa.wmnet.
-s4-master		5M	IN CNAME	db31.pmtpa.wmnet.
+s4-master		5M	IN CNAME	db22.pmtpa.wmnet.
 s5-master		5M	IN CNAME	db45.pmtpa.wmnet.
 s6-master		5M	IN CNAME	db47.pmtpa.wmnet.
 s7-master		5M	IN CNAME	db37.pmtpa.wmnet.
