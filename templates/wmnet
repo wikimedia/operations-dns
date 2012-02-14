@@ -50,7 +50,7 @@ s3-master		5M	IN CNAME	db34.pmtpa.wmnet.
 s4-master		5M	IN CNAME	db31.pmtpa.wmnet.
 s5-master		5M	IN CNAME	db45.pmtpa.wmnet.
 s6-master		5M	IN CNAME	db47.pmtpa.wmnet.
-s7-master		5M	IN CNAME	db16.pmtpa.wmnet.
+s7-master		5M	IN CNAME	db37.pmtpa.wmnet.
 otrs-master		5M	IN CNAME	db48.pmtpa.wmnet.	
 
 ; Servers (alphabetic order)
@@ -629,6 +629,10 @@ ms5			1H	IN A		10.1.7.5
 ms7			1H	IN A		10.1.7.6
 ms8			1H	IN A		10.1.7.7
 ms-be1			1H	IN A		10.1.7.21
+ms-be2			1H	IN A		10.1.7.22
+ms-be3			1H	IN A		10.1.7.23
+ms-be4			1H	IN A		10.1.7.24
+ms-be5			1H	IN A		10.1.7.25
 nfs1			1H	IN A		10.1.8.1
 nfs2			1H	IN A		10.1.8.11
 niobium			1H	IN A		10.65.3.53
