@@ -1526,6 +1526,7 @@ $ORIGIN 16.64.$zonename.
 143	1H IN PTR	cobalt.eqiad.wmnet.
 144	1H IN PTR	db1049.eqiad.wmnet.
 145	1H IN PTR	db1050.eqiad.wmnet.
+146	1H IN PTR	cadmium.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 

@@ -905,6 +905,7 @@ nas1001-a		1H	IN A		10.64.16.4
 nas1001-b		1H	IN A		10.64.16.5
 
 ;Servers - listed alphabetically
+cadmium			 1H	IN A		 10.64.16.146
 cp1001 			 1H	IN A		 10.64.0.123
 cp1002 			 1H	IN A		 10.64.0.124
 cp1003 			 1H	IN A		 10.64.0.125
