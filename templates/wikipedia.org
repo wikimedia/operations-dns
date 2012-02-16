@@ -69,7 +69,7 @@ stats			1H	IN CNAME	stats.wikimedia.org.
 m			1H	IN CNAME	m.wikimedia.org.
 
 $ORIGIN wap.$zonename.
-$mobile_langlist
+$wikipedia_langlist
 beta			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 
 $ORIGIN mobile.$zonename.
