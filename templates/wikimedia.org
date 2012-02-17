@@ -518,6 +518,7 @@ ganglia			1H	IN CNAME	nickel
 globalblog		1H	IN CNAME	marmontel.wikimedia.org.
 ganglia3		1H	IN CNAME	nickel
 ganglia3-tip		1H	IN CNAME	nickel
+gdash			1H	IN CNAME	noc
 graphite		1H	IN CNAME	noc
 internproxy		1H	IN A		208.80.152.239
 ishmael			1H	IN CNAME	spence
