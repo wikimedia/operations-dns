@@ -182,6 +182,10 @@ $ORIGIN 6.0.$zonename.
 100	1H	IN PTR 	bellin.pmtpa.wmnet.
 101	1H	IN PTR 	blondel.pmtpa.wmnet.
 200	1H	IN PTR 	ms-be1.pmtpa.wmnet.
+201	1H	IN PTR 	ms-be2.pmtpa.wmnet.
+202	1H	IN PTR 	ms-be3.pmtpa.wmnet.
+203	1H	IN PTR 	ms-be4.pmtpa.wmnet.
+204	1H	IN PTR 	ms-be5.pmtpa.wmnet.
 
 210	1H	IN PTR	ms-fe1.pmtpa.wmnet.
 211	1H	IN PTR	ms-fe2.pmtpa.wmnet.

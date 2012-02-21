@@ -144,6 +144,10 @@ ms5			1H	IN A		10.0.0.252
 ms7			1H	IN A		10.0.0.246
 ms8			1H	IN A		10.0.0.229
 ms-be1			1H	IN A		10.0.6.200
+ms-be2			1H	IN A		10.0.6.201
+ms-be3			1H	IN A		10.0.6.202
+ms-be4			1H	IN A		10.0.6.203
+ms-be5			1H	IN A		10.0.6.204
 ms-fe			1H	IN A		10.2.1.27
 ms-fe1			1H	IN A		10.0.6.210
 ms-fe2			1H	IN A		10.0.6.211
@@ -2048,6 +2052,7 @@ bits 		1H 	IN A 		10.2.1.23
 upload 		1H 	IN A 		10.2.1.24
 text 		1H 	IN A 		10.2.1.25
 mobile		1H 	IN A 		10.2.1.26
+ms-fe		1H 	IN A 		10.2.1.27
 
 ; EQIAD SERVICES
 
@@ -2063,6 +2068,7 @@ bits 		1H 	IN A 		10.2.2.23
 upload 		1H 	IN A 		10.2.2.24
 text 		1H 	IN A 		10.2.2.25
 mobile 		1H 	IN A 		10.2.2.26
+ms-fe		1H 	IN A 		10.2.2.27
 
 ; ESAMS SERVICES
 
