@@ -1327,7 +1327,6 @@ $ORIGIN 0.64.$zonename.
 119	1H IN PTR	searchidx1001.eqiad.wmnet.
 120	1H IN PTR	snapshot1001.eqiad.wmnet.
 121	1H IN PTR	snapshot1002.eqiad.wmnet.
-122	1H IN PTR	neon.eqiad.wmnet.
 123	1H IN PTR	cp1001.eqiad.wmnet.
 124	1H IN PTR	cp1002.eqiad.wmnet.
 125	1H IN PTR	cp1003.eqiad.wmnet.

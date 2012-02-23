@@ -27,7 +27,8 @@ $ORIGIN $zonename.
 10	1H IN PTR	carbon.wikimedia.org.
 11	1H IN PTR	dataset1001.wikimedia.org.
 12	1H IN PTR	fluorine.wikimedia.org.
-12	1H IN PTR	yttrium.wikimedia.org.
+13	1H IN PTR	yttrium.wikimedia.org.
+14	1H IN PTR	neon.wikimedia.org.
 51	1H IN PTR	cp1041.wikimedia.org.
 52	1H IN PTR	cp1042.wikimedia.org.
 53	1H IN PTR	cp1043.wikimedia.org.
