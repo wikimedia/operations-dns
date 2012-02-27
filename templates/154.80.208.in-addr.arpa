@@ -67,6 +67,7 @@ $ORIGIN $zonename.
 149	1H IN PTR	bast1001.wikimedia.org.
 150	1H IN PTR	nickel.wikimedia.org.
 151	1H IN PTR	iron.wikimedia.org.
+152	1H IN PTR	manganese.wikimedia.org.
 
 ; Neighbor blocks (208.80.154.192/27)
 
