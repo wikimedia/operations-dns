@@ -854,6 +854,7 @@ $ORIGIN 8.1.$zonename.
 75	1H	IN PTR	labstore2.mgmt.pmtpa.wmnet.
 76	1H	IN PTR	labstore3.mgmt.pmtpa.wmnet.
 77	1H	IN PTR	labstore4.mgmt.pmtpa.wmnet.
+78	1H	IN PTR	virt5.mgmt.pmtpa.wmnet.
 
 
 ; Apaches pool (srv251+)

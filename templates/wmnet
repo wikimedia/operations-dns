@@ -723,6 +723,7 @@ virt1			1H	IN A		10.1.8.56
 virt2			1H	IN A		10.1.8.57
 virt3			1H	IN A		10.1.8.58
 virt4			1H	IN A		10.1.8.59
+virt5			1H	IN A		10.1.8.78
 williams		1H	IN A		10.1.8.15
 WMF3639			1H	IN A		10.1.8.66
 ms-fe1			1H	IN A		10.1.8.66
