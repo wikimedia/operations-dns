@@ -1075,6 +1075,7 @@ $ORIGIN 16.4.$zonename.
 3	1H	IN PTR	virt2.pmtpa.wmnet.
 4	1H	IN PTR	virt3.pmtpa.wmnet.
 5	1H	IN PTR	virt4.pmtpa.wmnet.
+6	1H	IN PTR	virt5.pmtpa.wmnet.
 
 252     1H      IN PTR  ae0-105.cr1-sdtpa.wikimedia.org.
 253     1H      IN PTR  ae0-105.cr2-pmtpa.wikimedia.org.

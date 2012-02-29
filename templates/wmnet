@@ -176,6 +176,7 @@ virt1			1H	IN A		10.4.16.2
 virt2			1H	IN A		10.4.16.3
 virt3			1H	IN A		10.4.16.4
 virt4			1H	IN A		10.4.16.5
+virt5			1H	IN A		10.4.16.6
 webster			1H	IN A		10.0.0.23
 zwinger			1H	IN A		10.0.0.4
 zwinger2		1H	IN A		10.0.0.34
