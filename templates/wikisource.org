@@ -39,5 +39,8 @@ www			1H	IN CNAME	wikisource-lb.wikimedia.org.
 $wikisource_langlist
 
 ; Other websites
-www.donate			1H	IN CNAME	wikisource-lb.wikimedia.org.
+www.donate		1H	IN CNAME	wikisource-lb.wikimedia.org.
 donate			1H	IN CNAME	wikisource-lb.wikimedia.org.
+shop			1H	IN CNAME	shop.wikimedia.org.
+store			1H	IN CNAME	shop.wikimedia.org.
+

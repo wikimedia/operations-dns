@@ -39,5 +39,7 @@ www			1H	IN CNAME	wiktionary-lb.wikimedia.org.
 $wiktionary_langlist
 
 ; Other websites
-www.donate			1H	IN CNAME	wiktionary-lb.wikimedia.org.
+www.donate		1H	IN CNAME	wiktionary-lb.wikimedia.org.
 donate			1H	IN CNAME	wiktionary-lb.wikimedia.org.
+shop			1H	IN CNAME	shop.wikimedia.org.
+store			1H	IN CNAME	shop.wikimedia.org.

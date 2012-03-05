@@ -40,4 +40,7 @@ $wikiversity_langlist
 
 ; Other websites
 donate			1H	IN CNAME	wikiversity-lb.wikimedia.org.
-www.donate			1H	IN CNAME	wikiversity-lb.wikimedia.org.
+www.donate		1H	IN CNAME	wikiversity-lb.wikimedia.org.
+shop			1H	IN CNAME	shop.wikimedia.org.
+store			1H	IN CNAME	shop.wikimedia.org.
+
