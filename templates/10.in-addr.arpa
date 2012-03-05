@@ -565,7 +565,7 @@ $ORIGIN 1.1.$zonename.
 17	1H	IN PTR	cr1-sdtpa.mgmt.pmtpa.wmnet.
 18	1H	IN PTR	cr2-pmtpa.mgmt.pmtpa.wmnet.
 19	1H	IN PTR	csw1-sdtpa.mgmt.pmtpa.wmnet.
-20	1H	IN PTR	csw5-pmtpa.mgmt.pmtpa.wmnet.
+
 21	1H	IN PTR	asw-d-pmtpa.mgmt.pmtpa.wmnet.
 22	1H	IN PTR	asw-d1-pmtpa.mgmt.pmtpa.wmnet.
 23	1H	IN PTR	asw-d2-pmtpa.mgmt.pmtpa.wmnet.
@@ -1042,12 +1042,12 @@ $ORIGIN 0.3.$zonename.
 1	1H	IN PTR	nfs1-xlink0.pmtpa.wmnet.
 2	1H	IN PTR	nfs2-xlink0.pmtpa.wmnet.
 
-; Cross link between csw5-pmtpa and mr1-pmtpa: 10.3.0.4/30
+; Cross link between cr2-pmtpa and mr1-pmtpa: 10.3.0.4/30
 
 5	1H	IN PTR	ae0-402.cr2-pmtpa.wikimedia.org.
 6	1H	IN PTR	fe-0-0-1.mr1-pmtpa.wikimedia.org.
 
-; Cross link between csw1-sdtpa and mr1-pmtpa: 10.3.0.8/30
+; Cross link between cr1-sdtpa and mr1-pmtpa: 10.3.0.8/30
 
 9	1H	IN PTR	ae0-402.cr1-sdtpa.wikimedia.org.
 10	1H	IN PTR	fe-0-0-2-402.mr1-pmtpa.wikimedia.org.

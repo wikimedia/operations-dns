@@ -102,7 +102,7 @@ $ORIGIN $zonename.
 121	1H IN PTR	lvs2.wikimedia.org.
 122	1H IN PTR	lvs3.wikimedia.org.
 123	1H IN PTR	lvs4.wikimedia.org.
-124	1H IN PTR	vl100-ve3-0.csw1-sdtpa.wikimedia.org.	; Remove soon
+
 125	1H IN PTR	ae0-100.cr1-sdtpa.wikimedia.org.
 126	1H IN PTR	ae0-100.cr2-pmtpa.wikimedia.org.
 
@@ -170,7 +170,6 @@ $ORIGIN $zonename.
 
 ; Neighbor blocks, loopback IPs 208.80.152.192/27 (208.80.152.192 - 208.80.152.223)
 
-192	1H IN PTR	csw5-pmtpa.wikimedia.org.
 193	1H IN PTR	csw1-sdtpa.wikimedia.org.
 194	1H IN PTR	pim-rp.wikimedia.org.
 
@@ -197,10 +196,6 @@ $ORIGIN $zonename.
 211	1H IN PTR	upload-lb.pmtpa.wikimedia.org.
 212	1H IN PTR	mobile-lb.pmtpa.wikimedia.org.
 213	1H IN PTR	payments-lb.pmtpa.wikimedia.org.
-
-; 208.80.152.220/30 TEMP migration to MX80
-221     1H IN PTR       vl405-ve10.csw5-pmtpa.wikimedia.org.
-222     1H IN PTR       ae0-405.cr1-sdtpa.wikimedia.org.
 
 ; 208.80.152.224/27 sandbox vlan
 225	1H IN PTR	vrrp-gw-103.wikimedia.org.

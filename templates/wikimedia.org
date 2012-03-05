@@ -312,20 +312,6 @@ csw1-esams		1H	IN A	91.198.174.247
 csw2-esams		1H	IN A	91.198.174.244
 			1H	IN AAAA	2620:0:862:ffff::3
 
-csw5-pmtpa		1H	IN A	208.80.152.192
-			1H	IN AAAA	2620:0:860:ffff::1
-10ge5-1.csw5-pmtpa	1H	IN A	84.40.25.102
-10ge5-3.csw5-pmtpa	1H	IN A	207.88.246.6
-tampa-ix.ge8-12.csw5-pmtpa	1H IN A	198.32.198.18
-ge8-1.csw5-pmtpa	1H	IN A	66.113.197.94
-			1H	IN AAAA	2607:f178:2::2a
-vl100-ve3.csw5-pmtpa	1H	IN A	208.80.152.1
-			1H	IN AAAA	2620:0:860:1::1
-vl101-ve5.csw5-pmtpa	1H	IN A	208.80.152.129
-			1H	IN AAAA	2620:0:860:2::1
-vl400-ve1.csw5-pmtpa	1H	IN A	208.80.152.218
-			1H	IN AAAA	2620:0:860:fe00::1
-
 csw1-sdtpa		1H	IN A	208.80.152.193
 
 mr1-pmtpa		1H	IN A	84.40.25.226
