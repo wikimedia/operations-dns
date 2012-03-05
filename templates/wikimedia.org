@@ -551,7 +551,7 @@ racktables		1H	IN CNAME	hooper
 racktables2		1H	IN CNAME	hooper
 search			1H	IN CNAME	ekrem
 shop			1H	IN CNAME	shopwikipedia.myshopify.com.
-store			1H	IN CNAME	shop
+store			1H	IN CNAME	wikimedia-lb
 stats			1H	IN CNAME	spence
 status			1H	IN CNAME	status.watchmouse.com.
 survey			1H	IN CNAME	argon.wikimedia.org.

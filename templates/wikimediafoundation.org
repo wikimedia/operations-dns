@@ -45,7 +45,8 @@ www			1H	IN CNAME	foundation-lb.wikimedia.org.
 $langlist
 
 ; Other websites
-www.donate			1H	IN CNAME	foundation-lb.wikimedia.org.
+www.donate		1H	IN CNAME	foundation-lb.wikimedia.org.
 donate			1H	IN CNAME	foundation-lb.wikimedia.org.
 blog			1H	IN CNAME	hooper.wikimedia.org.
-shop			1H	IN CNAME	shopwikipedia.myshopify.com.
+shop			1H	IN CNAME	wikimedia-lb.wikimedia.org.
+store			1H	IN CNAME	wikimedia-lb.wikimedia.org.

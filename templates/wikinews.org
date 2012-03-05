@@ -41,5 +41,5 @@ $wikinews_langlist
 ; Other websites
 www.donate		1H	IN CNAME	wikinews-lb.wikimedia.org.
 donate			1H	IN CNAME	wikinews-lb.wikimedia.org.
-shop			1H	IN CNAME	shop.wikimedia.org.
-store			1H	IN CNAME	shop.wikimedia.org.
+shop			1H	IN CNAME	wikimedia-lb.wikimedia.org.
+store			1H	IN CNAME	wikimedia-lb.wikimedia.org.

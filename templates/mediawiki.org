@@ -43,5 +43,5 @@ download		1H	IN CNAME	kaulen.wikimedia.org.
 integration		1H	IN CNAME	gallium.wikimedia.org.
 www.donate		1H	IN CNAME	mediawiki-lb.wikimedia.org.
 svn			1H	IN CNAME	svn.wikimedia.org.
-shop			1H	IN CNAME	shop.wikimedia.org.
-store			1H	IN CNAME	shop.wikimedia.org.
+shop			1H	IN CNAME	wikimedia-lb.wikimedia.org.
+store			1H	IN CNAME	wikimedia-lb.wikimedia.org.
