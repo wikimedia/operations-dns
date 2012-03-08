@@ -37,6 +37,11 @@ $ORIGIN 0.0.$zonename.
 31  	1H	IN PTR  bayle.pmtpa.wmnet.
 33  	1H	IN PTR  amane.pmtpa.wmnet.
 
+41	1H	IN PTR	labstore1.pmtpa.wmnet.
+42	1H	IN PTR	labstore2.pmtpa.wmnet.
+43	1H	IN PTR	labstore3.pmtpa.wmnet.
+44	1H	IN PTR	labstore4.pmtpa.wmnet.
+
 101 	1H	IN PTR  adler.pmtpa.wmnet.
 102 	1H	IN PTR  samuel.pmtpa.wmnet.
 
@@ -1077,13 +1082,6 @@ $ORIGIN 16.4.$zonename.
 
 252     1H      IN PTR  ae0-105.cr1-sdtpa.wikimedia.org.
 253     1H      IN PTR  ae0-105.cr2-pmtpa.wikimedia.org.
-
-; 10.5.0.0/24 - VM host compute nodes subnet
-$ORIGIN 0.5.$zonename.
-1	1H	IN PTR	labstore1.pmtpa.wmnet.
-2	1H	IN PTR	labstore2.pmtpa.wmnet.
-3	1H	IN PTR	labstore3.pmtpa.wmnet.
-4	1H	IN PTR	labstore4.pmtpa.wmnet.
 
 ;
 ; KNAMS

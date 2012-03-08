@@ -130,10 +130,10 @@ es2			1H	IN A		10.0.0.226
 es3			1H	IN A		10.0.0.227
 es4			1H	IN A		10.0.0.228
 ixia			1H	IN A		10.0.0.231
-labstore1		1H	IN A		10.5.0.1
-labstore2		1H	IN A		10.5.0.2
-labstore3		1H	IN A		10.5.0.3
-labstore4		1H	IN A		10.5.0.4
+labstore1		1H	IN A		10.0.0.41
+labstore2		1H	IN A		10.0.0.42
+labstore3		1H	IN A		10.0.0.43
+labstore4		1H	IN A		10.0.0.44
 lomaria			1H	IN A		10.0.0.233
 maurus			1H	IN A		10.0.0.16
 ms1			1H	IN A		10.0.0.250
