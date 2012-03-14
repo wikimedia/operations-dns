@@ -690,6 +690,9 @@ $ORIGIN 5.1.$zonename.
 17	1H	IN PTR	ps1-d1-pmtpa.mgmt.pmtpa.wmnet.
 18	1H	IN PTR	ps1-d2-pmtpa.mgmt.pmtpa.wmnet.
 19	1H	IN PTR	ps1-d3-pmtpa.mgmt.pmtpa.wmnet.
+20	1H	IN PTR	ps1-c1-pmtpa.mgmt.pmtpa.wmnet.
+21	1H	IN PTR	ps1-c2-pmtpa.mgmt.pmtpa.wmnet.
+22	1H	IN PTR	ps1-c3-pmtpa.mgmt.pmtpa.wmnet.
 
 ; Database Servers
 $ORIGIN 6.1.$zonename.
