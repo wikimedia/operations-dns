@@ -115,11 +115,11 @@ $ORIGIN $zonename.
 132	1H IN PTR	recursor1.wikimedia.org.
 133	1H IN PTR	wiki-mail.wikimedia.org.
 134	1H IN PTR	secure.wikimedia.org.
-135	1H IN PTR	rob.tech.wikimedia.org.
 136	1H IN PTR	civicrm.wikimedia.org.
 137	1H IN PTR	torrus.wikimedia.org.
 138	1H IN PTR	locke.wikimedia.org.
-139	1H IN PTR	wireless.wikimedia.org.
+139	1H IN PTR	tampa.tech.wikimedia.org.
+140	1H IN PTR	zhen.wikimedia.org.
 
 142	1H IN PTR	ns1.wikimedia.org.
 143	1H IN PTR	url-downloader.wikimedia.org.
