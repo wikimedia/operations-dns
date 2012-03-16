@@ -133,6 +133,7 @@ mchenry			1H	IN A	208.80.152.186
 manutius		1H	IN A	208.80.153.136
 marmontel		1H	IN A	208.80.152.150
 molybdenum		1H	IN A	208.80.154.144
+ms1001			1H	IN A	208.80.154.16
 msfe1001		1H	IN A	208.80.154.147
 msfe1002		1H	IN A	208.80.154.148
 msfe-test		1H	IN A	208.80.154.146 ;copper
