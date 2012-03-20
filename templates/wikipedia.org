@@ -67,6 +67,7 @@ mobile			1H	IN CNAME	mobile-lb.eqiad.wikimedia.org.
 stats			1H	IN CNAME	stats.wikimedia.org.
 store			1H	IN CNAME	wikimedia-lb.wikimedia.org.
 shop			1H	IN CNAME	wikimedia-lb.wikimedia.org.
+zero			1H	IN CNAME	mobile-lb.eqiad.wikimedia.org.
 
 ; Mobile sites using the new ruby architecture written by hcatlin@
 m			1H	IN CNAME	m.wikimedia.org.
