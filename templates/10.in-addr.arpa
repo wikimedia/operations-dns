@@ -1017,6 +1017,8 @@ $ORIGIN 2.2.$zonename.
 11      1H      IN PTR  search-pool1.svc.eqiad.wmnet.
 12      1H      IN PTR  search-pool2.svc.eqiad.wmnet.
 13      1H      IN PTR  search-pool3.svc.eqiad.wmnet.
+14      1H      IN PTR  search-pool4.svc.eqiad.wmnet.
+15      1H      IN PTR  search-prefix.svc.eqiad.wmnet.
 
 21      1H      IN PTR  rendering.svc.eqiad.wmnet.
 22      1H      IN PTR  api.svc.eqiad.wmnet.

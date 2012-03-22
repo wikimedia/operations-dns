@@ -2069,6 +2069,8 @@ appservers 	1H 	IN A 		10.2.2.1
 search-pool1 	1H 	IN A 		10.2.2.11
 search-pool2 	1H 	IN A 		10.2.2.12
 search-pool3 	1H 	IN A 		10.2.2.13
+search-pool4 	1H 	IN A 		10.2.2.14
+search-prefix 	1H 	IN A 		10.2.2.15
 rendering 	1H 	IN A 		10.2.2.21
 api 		1H 	IN A 		10.2.2.22
 bits 		1H 	IN A 		10.2.2.23
