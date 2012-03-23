@@ -211,7 +211,7 @@ $GENERATE 192-223	$ CNAME $.192-223.174.198.91.in-addr.arpa.
 
 244	1H IN PTR	csw2-esams.wikimedia.org.
 245	1H IN PTR	br1-knams.wikimedia.org.
-246	1H IN PTR	6to4.csw1-esams.wikimedia.org.
+246	1H IN PTR	cr2-knams.wikimedia.org.
 247	1H IN PTR	csw1-esams.wikimedia.org.
 
 ; Neighbor block between br1-knams and csw1-esams 
