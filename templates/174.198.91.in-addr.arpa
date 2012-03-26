@@ -18,29 +18,12 @@ $ORIGIN $zonename.
 ; Public services subnet 91.198.174.0/25 (91.198.174.0 - 91.198.174.127)
 
 1	1H IN PTR	vl100-ve1.csw1-esams.wikimedia.org.
-2	1H IN PTR	rr.esams.wikimedia.org.
-3	1H IN PTR	upload.esams.wikimedia.org.
+
 4	1H IN PTR	ns2.wikimedia.org.
 
 6	1H IN PTR	recursor0.esams.wikimedia.org.
 7	1H IN PTR	ipv6and4.labs.wikimedia.org.
-8	1H IN PTR	bits.esams.wikimedia.org.
 
-11	1H IN PTR	knsq1.esams.wikimedia.org.
-12	1H IN PTR	knsq2.esams.wikimedia.org.
-13	1H IN PTR	knsq3.esams.wikimedia.org.
-14	1H IN PTR	knsq4.esams.wikimedia.org.
-15	1H IN PTR	knsq5.esams.wikimedia.org.
-16	1H IN PTR	knsq6.esams.wikimedia.org.
-17	1H IN PTR	knsq7.esams.wikimedia.org.
-18	1H IN PTR	knsq8.esams.wikimedia.org.
-19	1H IN PTR	knsq9.esams.wikimedia.org.
-20	1H IN PTR	knsq10.esams.wikimedia.org.
-21	1H IN PTR	knsq11.esams.wikimedia.org.
-22	1H IN PTR	knsq12.esams.wikimedia.org.
-23	1H IN PTR	knsq13.esams.wikimedia.org.
-24	1H IN PTR	knsq14.esams.wikimedia.org.
-25	1H IN PTR	knsq15.esams.wikimedia.org.
 26	1H IN PTR	knsq16.esams.wikimedia.org.
 27	1H IN PTR	knsq17.esams.wikimedia.org.
 28	1H IN PTR	knsq18.esams.wikimedia.org.
@@ -107,15 +90,10 @@ $ORIGIN $zonename.
 115	1H IN PTR	ortelius.esams.wikimedia.org.
 116	1H IN PTR	vrrp-backup-100.csw1-esams.wikimedia.org.
 117     1H IN PTR       csw2-esams.wikimedia.org.
-118	1H IN PTR       pascal.esams.wikimedia.org.
-119     1H IN PTR       mint.esams.wikimedia.org.
-120     1H IN PTR       fuchsia.esams.wikimedia.org.
-121     1H IN PTR       lily.esams.wikimedia.org.
+
 122	1H IN PTR	maerlant.esams.wikimedia.org.
-123     1H IN PTR       mayflower.esams.wikimedia.org.
-124     1H IN PTR       iris.esams.wikimedia.org.
+
 125	1H IN PTR	ms6.esams.wikimedia.org.
-126     1H IN PTR       ragweed.esams.wikimedia.org.
 
 ; Backup storage subnet: 91.198.174.128/26 (91.198.174.128 - 91.198.174.191)
 
@@ -210,7 +188,7 @@ $GENERATE 192-223	$ CNAME $.192-223.174.198.91.in-addr.arpa.
 ; Loopback ips
 
 244	1H IN PTR	csw2-esams.wikimedia.org.
-245	1H IN PTR	br1-knams.wikimedia.org.
+245	1H IN PTR	cr1-esams.wikimedia.org.
 246	1H IN PTR	cr2-knams.wikimedia.org.
 247	1H IN PTR	csw1-esams.wikimedia.org.
 
