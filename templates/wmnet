@@ -1217,6 +1217,7 @@ strontium		1H	IN A		10.64.0.164
 
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
 rubidium		1H	IN A		10.64.0.26
+virt1001		1H	IN A		10.64.20.4
 
 ; Management
 
@@ -1965,7 +1966,6 @@ ssl1001		1H	IN A	10.65.3.18
 WMF3301		1H	IN A	10.65.3.18
 argon		1H	IN A	10.65.3.17
 WMF3302		1H	IN A	10.65.3.17
-virt1001	1H	IN A	10.64.20.4
 
 ;
 ; ESAMS
