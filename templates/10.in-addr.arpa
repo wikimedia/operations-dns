@@ -852,6 +852,7 @@ $ORIGIN 8.1.$zonename.
 70	1H	IN PTR	blondel.mgmt.pmtpa.wmnet.
 70	1H	IN PTR	WMF3643.mgmt.pmtpa.wmnet.
 71	1H	IN PTR	WMF3644.mgmt.pmtpa.wmnet.
+71	1H	IN PTR	zhen.mgmt.pmtpa.wmnet.
 72	1H	IN PTR	WMF3645.mgmt.pmtpa.wmnet.
 73	1H	IN PTR	WMF3646.mgmt.pmtpa.wmnet.
 74	1H	IN PTR	labstore1.mgmt.pmtpa.wmnet.
