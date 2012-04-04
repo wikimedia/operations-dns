@@ -130,6 +130,10 @@ es2			1H	IN A		10.0.0.226
 es3			1H	IN A		10.0.0.227
 es4			1H	IN A		10.0.0.228
 ixia			1H	IN A		10.0.0.231
+projectstorage		1H	IN A		10.0.0.41
+			1H	IN A		10.0.0.42
+			1H	IN A		10.0.0.43
+			1H	IN A		10.0.0.44
 labstore1		1H	IN A		10.0.0.41
 labstore2		1H	IN A		10.0.0.42
 labstore3		1H	IN A		10.0.0.43
@@ -172,6 +176,10 @@ stafford		1H	IN A		10.0.0.24
 storage3		1H	IN A		10.0.0.219
 thistle			1H	IN A		10.0.0.232
 tingxi			1H	IN A		10.0.0.12
+instancestorage		1H	IN A		10.4.16.2
+			1H	IN A		10.4.16.3
+			1H	IN A		10.4.16.4
+			1H	IN A		10.4.16.5
 virt1			1H	IN A		10.4.16.2
 virt2			1H	IN A		10.4.16.3
 virt3			1H	IN A		10.4.16.4
