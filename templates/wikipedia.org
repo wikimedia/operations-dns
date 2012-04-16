@@ -36,8 +36,10 @@ arbcom.en               1H      IN CNAME        wikipedia-lb.wikimedia.org.
 arbcom.fi               1H      IN CNAME        wikipedia-lb.wikimedia.org.
 arbcom.nl               1H      IN CNAME        wikipedia-lb.wikimedia.org.
 commons                 1H      IN CNAME        wikipedia-lb.wikimedia.org.
+en2                     1H      IN CNAME        wikipedia-lb.wikimedia.org.
 meta			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 nostalgia		1H	IN CNAME	wikipedia-lb.wikimedia.org.
+quote                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
 quality			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 sep11			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 sources			1H	IN CNAME	wikipedia-lb.wikimedia.org.
@@ -46,11 +48,10 @@ ten                     1H      IN CNAME        wikipedia-lb.wikimedia.org.
 test                    1H      IN CNAME        wikipedia-lb.wikimedia.org.
 test2                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
 test.m                  1H      IN CNAME        wikipedia-lb.wikimedia.org.
-quote                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
+textbook		1H	IN CNAME	wikipedia-lb.wikimedia.org.
 wg.en			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 www			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 zh-tw                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
-en2                     1H      IN CNAME        wikipedia-lb.wikimedia.org.
 
 ; All languages will automatically be included here
 $wikipedia_langlist
