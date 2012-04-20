@@ -904,6 +904,7 @@ text			1H	IN A	91.198.174.232	; LVS
 bits			1H	IN A	91.198.174.233	; LVS
 bits-lb			1H	IN A	91.198.174.233	; LVS
 upload			1H	IN A	91.198.174.234	; NOTE, this record is currently overwritten by the Pipe backend and selective-answers.py for selective AAAA record serving with IPv6 experiments
+upload-lb		1H	IN A	91.198.174.234	; LVS
 wikimedia-lb		1H	IN A	91.198.174.224	; LVS
 wikipedia-lb		1H	IN A	91.198.174.225	; LVS
 wiktionary-lb		1H	IN A	91.198.174.226	; LVS
