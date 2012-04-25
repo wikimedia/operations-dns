@@ -1616,6 +1616,7 @@ $ORIGIN 0.65.$zonename.
 19	1H IN PTR	lab-ex4200-1.mgmt.eqiad.wmnet.
 20	1H IN PTR	asw2-a5-eqiad.mgmt.eqiad.wmnet.
 21	1H IN PTR	psw1-eqiad.mgmt.eqiad.wmnet.
+22	1H IN PTR	scs-c1-eqiad.mgmt.eqiad.wmnet.
 
 32	1H IN PTR	ps1-a1-eqiad.mgmt.eqiad.wmnet.
 33	1H IN PTR	ps1-a2-eqiad.mgmt.eqiad.wmnet.
@@ -1633,6 +1634,14 @@ $ORIGIN 0.65.$zonename.
 45	1H IN PTR	ps1-b6-eqiad.mgmt.eqiad.wmnet.
 46	1H IN PTR	ps1-b7-eqiad.mgmt.eqiad.wmnet.
 47	1H IN PTR	ps1-b8-eqiad.mgmt.eqiad.wmnet.
+48	1H IN PTR	ps1-c1-eqiad.mgmt.eqiad.wmnet.
+49	1H IN PTR	ps1-c2-eqiad.mgmt.eqiad.wmnet.
+50	1H IN PTR	ps1-c3-eqiad.mgmt.eqiad.wmnet.
+51	1H IN PTR	ps1-c4-eqiad.mgmt.eqiad.wmnet.
+52	1H IN PTR	ps1-c5-eqiad.mgmt.eqiad.wmnet.
+53	1H IN PTR	ps1-c6-eqiad.mgmt.eqiad.wmnet.
+54	1H IN PTR	ps1-c7-eqiad.mgmt.eqiad.wmnet.
+55	1H IN PTR	ps1-c8-eqiad.mgmt.eqiad.wmnet.
 
 101	1H IN PTR	nas1001-a.mgmt.eqiad.wmnet.
 102	1H IN PTR	nas1001-b.mgmt.eqiad.wmnet.
