@@ -585,23 +585,15 @@ $GENERATE 141-250   $	PTR srv$.mgmt.pmtpa.wmnet.
 
 $ORIGIN 3.1.$zonename.
 
-31	1H	IN PTR	sq31.mgmt.pmtpa.wmnet.
-32	1H	IN PTR	sq32.mgmt.pmtpa.wmnet.
 33	1H	IN PTR	sq33.mgmt.pmtpa.wmnet.
-34	1H	IN PTR	sq34.mgmt.pmtpa.wmnet.
 35	1H	IN PTR	sq35.mgmt.pmtpa.wmnet.
 36	1H	IN PTR	sq36.mgmt.pmtpa.wmnet.
 37	1H	IN PTR	sq37.mgmt.pmtpa.wmnet.
-38	1H	IN PTR	sq38.mgmt.pmtpa.wmnet.
-39	1H	IN PTR	sq39.mgmt.pmtpa.wmnet.
-40	1H	IN PTR	sq40.mgmt.pmtpa.wmnet.
 41	1H	IN PTR	sq41.mgmt.pmtpa.wmnet.
 42	1H	IN PTR	sq42.mgmt.pmtpa.wmnet.
 43	1H	IN PTR	sq43.mgmt.pmtpa.wmnet.
 44	1H	IN PTR	sq44.mgmt.pmtpa.wmnet.
 45	1H	IN PTR	sq45.mgmt.pmtpa.wmnet.
-46	1H	IN PTR	sq46.mgmt.pmtpa.wmnet.
-47	1H	IN PTR	sq47.mgmt.pmtpa.wmnet.
 48	1H	IN PTR	sq48.mgmt.pmtpa.wmnet.
 49	1H	IN PTR	sq49.mgmt.pmtpa.wmnet.
 50	1H	IN PTR	sq50.mgmt.pmtpa.wmnet.
