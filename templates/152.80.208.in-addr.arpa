@@ -202,6 +202,10 @@ $ORIGIN $zonename.
 211	1H IN PTR	upload-lb.pmtpa.wikimedia.org.
 212	1H IN PTR	mobile-lb.pmtpa.wikimedia.org.
 213	1H IN PTR	payments-lb.pmtpa.wikimedia.org.
+214	1H IN PTR	dns-auth-lb.pmtpa.wikimedia.org.
+215	1H IN PTR	dns-rec-lb.pmtpa.wikimedia.org.
+216	1H IN PTR	osm-lb.pmtpa.wikimedia.org.
+217	1H IN PTR	misc-web-lb.pmtpa.wikimedia.org.
 
 ; 208.80.152.224/27 sandbox vlan
 225	1H IN PTR	vrrp-gw-103.wikimedia.org.

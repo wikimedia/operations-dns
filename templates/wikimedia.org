@@ -270,6 +270,10 @@ bits-lb.pmtpa		1H	IN A	208.80.152.210
 upload-lb.pmtpa		1H	IN A	208.80.152.211
 mobile-lb.pmtpa		1H	IN A	208.80.152.212
 payments-lb.pmtpa	1H	IN A	208.80.152.213
+dns-auth-lb.pmtpa	1H	IN A	208.80.152.214
+dns-rec-lb.pmtpa	1H	IN A	208.80.152.215
+osm-lb.pmtpa		1H	IN A	208.80.152.216
+misc-web-lb.pmtpa	1H	IN A	208.80.152.217
 
 wikimedia-lb.eqiad	1H	IN A	208.80.154.224
 wikipedia-lb.eqiad	1H	IN A	208.80.154.225
@@ -285,6 +289,10 @@ bits-lb.eqiad		1H	IN A	208.80.154.234
 upload-lb.eqiad		1H	IN A	208.80.154.235
 mobile-lb.eqiad		1H	IN A	208.80.154.236
 payments-lb.eqiad	1H	IN A	208.80.154.237
+dns-auth-lb.eqiad	1H	IN A	208.80.154.238
+dns-rec-lb.eqiad	1H	IN A	208.80.154.239
+osm-lb.eqiad		1H	IN A	208.80.154.240
+misc-web-lb.eqiad	1H	IN A	208.80.154.241
 
 m			1H	IN A	208.80.154.236 ; mobile eqiad LVS
 
