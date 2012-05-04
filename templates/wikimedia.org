@@ -483,6 +483,7 @@ wikimania2009		1H	IN CNAME	wikimedia-lb
 wikimania2010		1H	IN CNAME	wikimedia-lb
 wikimania2011		1H	IN CNAME	wikimedia-lb
 wikimania2012		1H	IN CNAME	wikimedia-lb
+wikimania2013		1H	IN CNAME	wikimedia-lb
 wikimaniateam		1H	IN CNAME	wikimedia-lb
 www			1H	IN CNAME	wikimedia-lb
 
