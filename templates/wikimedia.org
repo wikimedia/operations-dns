@@ -352,14 +352,14 @@ asw-a5-sdtpa		1H	IN A	10.1.1.10
 
 ; Cams
 
-cam1-a-sdtpa		1H	IN A	208.80.152.189
-cam1-a-b-sdtpa		1H	IN A	208.80.153.132
-cam1-b-c-sdtpa		1H	IN A	208.80.153.133
-cam1-c-d-sdtpa		1H	IN A	208.80.152.188
-cam1-d-sdtpa		1H	IN A	208.80.153.134
+;cam1-a-sdtpa		1H	IN A	208.80.152.189
+;cam1-a-b-sdtpa		1H	IN A	208.80.153.132
+;cam1-b-c-sdtpa		1H	IN A	208.80.153.133
+;cam1-c-d-sdtpa		1H	IN A	208.80.152.188
+;cam1-d-sdtpa		1H	IN A	208.80.153.134
 
 ; TEMP (internal v6 ip)
-cam1-a-b-eqiad		1H	IN AAAA	2620:0:861:101::4
+;cam1-a-b-eqiad		1H	IN AAAA	2620:0:861:101::4
 
 ; Service aliases (alphabetical order)
 
