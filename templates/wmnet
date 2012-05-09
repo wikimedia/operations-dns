@@ -126,6 +126,8 @@ db57			1H	IN A		10.0.6.67
 db58			1H	IN A		10.0.6.68
 db59			1H	IN A		10.0.6.69
 db60			1H	IN A		10.0.6.70
+db61			1H	IN A		10.0.6.71
+db62			1H	IN A		10.0.6.72
 erzurumi		1h	IN A		10.0.0.25
 es1			1H	IN A		10.0.0.225
 es2			1H	IN A		10.0.0.226
@@ -598,6 +600,8 @@ db57			1H	IN A		10.1.6.67
 db58			1H	IN A		10.1.6.68
 db59			1H	IN A		10.1.6.69
 db60			1H	IN A		10.1.6.70
+db61			1H	IN A		10.1.6.71
+db62			1H	IN A		10.1.6.72
 dobson			1H	IN A		10.1.8.4
 yvon			1H	IN A		10.1.8.5
 ekrem			1H	IN A		10.1.8.39

@@ -179,6 +179,8 @@ $ORIGIN 6.0.$zonename.
 68	1H	IN PTR	db58.pmtpa.wmnet.
 69	1H	IN PTR	db59.pmtpa.wmnet.
 70	1H	IN PTR	db60.pmtpa.wmnet.
+71	1H	IN PTR	db61.pmtpa.wmnet.
+72	1H	IN PTR	db62.pmtpa.wmnet.
 
 100	1H	IN PTR 	bellin.pmtpa.wmnet.
 101	1H	IN PTR 	blondel.pmtpa.wmnet.
@@ -760,6 +762,8 @@ $ORIGIN 6.1.$zonename.
 68	1H	IN PTR db58.mgmt.pmtpa.wmnet.
 69	1H	IN PTR db59.mgmt.pmtpa.wmnet.
 70	1H	IN PTR db60.mgmt.pmtpa.wmnet.
+71	1H	IN PTR db61.mgmt.pmtpa.wmnet.
+72	1H	IN PTR db62.mgmt.pmtpa.wmnet.
 
 ; Media Servers & SSL Servers & ES Servers
 $ORIGIN 7.1.$zonename.
