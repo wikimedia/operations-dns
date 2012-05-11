@@ -302,11 +302,11 @@ owa			1H	IN A	208.80.152.6
 
 ; Networking
 
-br1-knams		1H	IN A	91.198.174.245
-			1H	IN AAAA	2620:0:862:ffff::2
-
 cr1-eqiad		1H	IN A	208.80.154.196
 				IN AAAA	2620:0:861:ffff::1
+
+cr1-esams		1H	IN A	91.198.174.245
+				IN AAAA	2620:0:862:ffff::5
 
 cr1-sdtpa		1H	IN A	208.80.152.196
 				IN AAAA	2620:0:860:ffff::4
