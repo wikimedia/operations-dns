@@ -1583,6 +1583,16 @@ $ORIGIN 21.64.10.$zonename.
 1	1H IN PTR	vrrp-gw-1021.eqiad.wmnet.
 2	1H IN PTR	ae2-1021.cr1-eqiad.wikimedia.org.
 3	1H IN PTR	ae2-1021.cr2.eqiad.wikimedia.org.
+101	1H IN PTR	analytics1001.eqiad.wmnet.
+102	1H IN PTR	analytics1002.eqiad.wmnet.
+103	1H IN PTR	analytics1003.eqiad.wmnet.
+104	1H IN PTR	analytics1004.eqiad.wmnet.
+105	1H IN PTR	analytics1005.eqiad.wmnet.
+106	1H IN PTR	analytics1006.eqiad.wmnet.
+107	1H IN PTR	analytics1007.eqiad.wmnet.
+108	1H IN PTR	analytics1008.eqiad.wmnet.
+109	1H IN PTR	analytics1009.eqiad.wmnet.
+110	1H IN PTR	analytics1010.eqiad.wmnet.
 
 ; 10.64.32.0/22 - private1-c-eqiad
 $ORIGIN 32.64.$zonename.
