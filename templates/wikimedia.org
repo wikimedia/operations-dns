@@ -527,7 +527,7 @@ ganglia3-tip		1H	IN CNAME	nickel
 gdash			1H	IN CNAME	noc
 graphite		1H	IN CNAME	noc
 internproxy		1H	IN A		208.80.152.239
-ishmael			1H	IN CNAME	spence
+ishmael			1H	IN CNAME	noc
 jobs			1H	IN CNAME	wikimediafoundation.org.
 ls2			1H	IN CNAME	wikimedia-lb
 nagios			1H	IN CNAME	spence
