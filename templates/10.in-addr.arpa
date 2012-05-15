@@ -1193,6 +1193,7 @@ $ORIGIN 0.21.$zonename.
 113	1H	IN PTR	multatuli.mgmt.esams.wmnet.
 114	1H	IN PTR	maerlant.mgmt.esams.wmnet.
 115	1H	IN PTR	slauerhoff.mgmt.esams.wmnet.
+116	1H	IN PTR	cr1-esams.mgmt.esams.wmnet.
 
 ; 110-120 reserved for the new servers
 

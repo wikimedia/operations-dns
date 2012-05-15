@@ -2075,6 +2075,7 @@ amssq61		1H	IN A		10.21.0.86
 amssq62		1H	IN A		10.21.0.87
 
 br1-knams	1H	IN A		145.97.39.134
+cr1-esams	1H	IN A		10.21.0.116
 csw1-esams	1H	IN A		10.21.0.102
 csw2-esams	1H	IN A		10.21.0.105
 amslvs1		1H	IN A		10.21.0.106
