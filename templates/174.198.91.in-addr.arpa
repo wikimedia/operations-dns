@@ -18,7 +18,8 @@ $ORIGIN $zonename.
 ; Public services subnet 91.198.174.0/25 (91.198.174.0 - 91.198.174.127)
 
 1	1H IN PTR	vl100-ve1.csw1-esams.wikimedia.org.
-
+2	1H IN PTR	ae0-100.cr1-esams.wikimedia.org.
+3	1H IN PTR	cr2-knams.wikimedia.org.
 4	1H IN PTR	ns2.wikimedia.org.
 
 6	1H IN PTR	recursor0.esams.wikimedia.org.
@@ -98,7 +99,7 @@ $ORIGIN $zonename.
 ; Backup storage subnet: 91.198.174.128/26 (91.198.174.128 - 91.198.174.191)
 
 129	1H IN PTR	vl101-ve5.csw1-esams.wikimedia.org.
-130	1H IN PTR	clematis.esams.wikimedia.org.
+130	1H IN PTR	ae0-101.cr1-esams.wikimedia.org.
 131     1H IN PTR       sql-text1.esams.wikimedia.org.
 132     1H IN PTR       sql-text3.esams.wikimedia.org.
 133     1H IN PTR       sql-text4.esams.wikimedia.org.
