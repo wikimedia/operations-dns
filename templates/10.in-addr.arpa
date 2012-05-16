@@ -1393,6 +1393,8 @@ $ORIGIN 0.64.$zonename.
 162	1H IN PTR	cp1040.eqiad.wmnet.
 163	1H IN PTR	oxygen.eqiad.wmnet.
 164	1H IN PTR	strontium.eqiad.wmnet.
+165	1H IN PTR	osm-web1001.eqiad.wmnet.
+166	1H IN PTR	osm-web1002.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
@@ -1560,6 +1562,8 @@ $ORIGIN 16.64.$zonename.
 145	1H IN PTR	db1050.eqiad.wmnet.
 146	1H IN PTR	cadmium.eqiad.wmnet.
 147	1H IN PTR	palladium.eqiad.wmnet.
+148	1H IN PTR	osm-web1003.eqiad.wmnet.
+149	1H IN PTR	osm-web1004.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 
@@ -2264,6 +2268,10 @@ $ORIGIN 3.65.$zonename.
 84	1H	IN PTR		WMF3469.mgmt.eqiad.wmnet.
 85	1H	IN PTR		dataset1001.mgmt.eqiad.wmnet.
 85	1H	IN PTR		WMF3471.mgmt.eqiad.wmnet.
+86	1H	IN PTR		osm-web1001.mgmt.eqiad.wmnet.
+87	1H	IN PTR		osm-web1002.mgmt.eqiad.wmnet.
+88	1H	IN PTR		osm-web1003.mgmt.eqiad.wmnet.
+89	1H	IN PTR		osm-web1004.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.$zonename.
 
