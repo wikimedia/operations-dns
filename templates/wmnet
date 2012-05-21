@@ -1267,6 +1267,13 @@ strontium		1H	IN A		10.64.0.164
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
 rubidium		1H	IN A		10.64.0.26
 virt1001		1H	IN A		10.64.20.4
+virt1002		1H	IN A		10.64.20.5
+virt1003		1H	IN A		10.64.20.6
+virt1004		1H	IN A		10.64.20.7
+virt1005		1H	IN A		10.64.20.8
+virt1006		1H	IN A		10.64.20.9
+virt1007		1H	IN A		10.64.20.10
+virt1008		1H	IN A		10.64.20.11
 
 ; Management
 
