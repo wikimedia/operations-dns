@@ -2299,6 +2299,8 @@ $ORIGIN 3.65.$zonename.
 107	1H	IN PTR		labstore1002.mgmt.eqiad.wmnet.
 108	1H	IN PTR		labstore1003.mgmt.eqiad.wmnet.
 109	1H	IN PTR		labstore1004.mgmt.eqiad.wmnet.
+110	1H	IN PTR		osm-db1001.mgmt.eqiad.wmnet.
+111	1H	IN PTR		osm-db1001.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.$zonename.
 
