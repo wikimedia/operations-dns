@@ -1395,6 +1395,8 @@ $ORIGIN 0.64.$zonename.
 164	1H IN PTR	strontium.eqiad.wmnet.
 165	1H IN PTR	osm-web1001.eqiad.wmnet.
 166	1H IN PTR	osm-web1002.eqiad.wmnet.
+167	1H IN PTR	ms-fe1001.eqiad.wmnet.
+168	1H IN PTR	ms-fe1002.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
@@ -1564,6 +1566,8 @@ $ORIGIN 16.64.$zonename.
 147	1H IN PTR	palladium.eqiad.wmnet.
 148	1H IN PTR	osm-web1003.eqiad.wmnet.
 149	1H IN PTR	osm-web1004.eqiad.wmnet.
+150	1H IN PTR	ms-fe1003.eqiad.wmnet.
+151	1H IN PTR	ms-fe1004.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 
