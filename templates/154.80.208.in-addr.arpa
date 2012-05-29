@@ -71,6 +71,7 @@ $ORIGIN $zonename.
 151	1H IN PTR	iron.wikimedia.org.
 152	1H IN PTR	manganese.wikimedia.org.
 153	1H IN PTR	silver.wikimedia.org.
+154	1H IN PTR	analytics1001.wikimedia.org.
 
 ; Neighbor blocks (208.80.154.192/27)
 

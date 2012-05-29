@@ -75,6 +75,7 @@ recursor1		1H	IN A	208.80.152.132	; mchenry
 alsted			1H	IN A	208.80.152.232
 aluminium		1H	IN A	208.80.154.6
 aluminum		1H	IN CNAME aluminium
+analytics1001		1H	IN A	208.80.154.154
 anthony			1H	IN A	208.80.152.181
 argon			1H	IN A	208.80.154.132
 arsenic			1H	IN A	208.80.154.62

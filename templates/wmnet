@@ -954,7 +954,7 @@ nas1001-b		1H	IN A		10.64.16.5
 
 ;Servers - listed alphabetically
 
-analytics1001		 1H	IN A		 10.64.21.101
+;analytics1001		 1H	IN A		 10.64.21.101
 analytics1002		 1H	IN A		 10.64.21.102
 analytics1003		 1H	IN A		 10.64.21.103
 analytics1004		 1H	IN A		 10.64.21.104
