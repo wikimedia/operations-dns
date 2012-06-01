@@ -1082,6 +1082,9 @@ $ORIGIN 0.3.$zonename.
 17	1H	IN PTR	ae0-404.cr1-sdtpa.wikimedia.org.
 18	1H	IN PTR	ve2.csw1-sdtpa.wikimedia.org.
 
+; pmtpa/sdtpa wireless access network 10.3.1.0/24
+1	1H	IN PTR	fe-0-0-3.mr1-pmtpa.wikimedia.org.
+
 ; Virtualization subnets
 
 ; 10.4.0.0/24 - guest VMs subnet
