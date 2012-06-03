@@ -108,7 +108,7 @@ $ORIGIN 3.0.$zonename.
 52	1H	IN PTR	searchidx2.pmtpa.wmnet.
 
 ; Seach servers
-$GENERATE 1-30	    $	PTR search$.pmtpa.wmnet.
+$GENERATE 1-50	    $	PTR search$.pmtpa.wmnet.
 
 ; Service IPs
 
