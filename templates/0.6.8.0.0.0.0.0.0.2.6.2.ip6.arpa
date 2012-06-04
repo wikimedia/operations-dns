@@ -40,6 +40,27 @@ $ORIGIN 1.0.0.0.$zonename.
 
 ; Service IPs
 
+$ORIGIN a.1.d.e.$zonename.
+
+0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       wikimedia-lb.pmtpa.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       wikipedia-lb.pmtpa.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       wiktionary-lb.pmtpa.wikimedia.org.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       wikiquote-lb.pmtpa.wikimedia.org.
+4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       wikibooks-lb.pmtpa.wikimedia.org.
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       wikisource-lb.pmtpa.wikimedia.org.
+6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       wikinews-lb.pmtpa.wikimedia.org.
+7.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       wikiversity-lb.pmtpa.wikimedia.org.
+8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       mediawiki-lb.pmtpa.wikimedia.org.
+9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       foundation-lb.pmtpa.wikimedia.org.
+a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       bits-lb.pmtpa.wikimedia.org.
+b.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       upload-lb.pmtpa.wikimedia.org.
+c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       mobile-lb.pmtpa.wikimedia.org.
+d.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       payments-lb.pmtpa.wikimedia.org.
+e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       dns-auth-lb.pmtpa.wikimedia.org.
+f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       dns-rec-lb.pmtpa.wikimedia.org.
+0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       osm-lb.pmtpa.wikimedia.org.
+1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       misc-web-lb.pmtpa.wikimedia.org.
+
 ; pmtpa Public Services subnet 2620:0:860:2::/64
 
 $ORIGIN 2.0.0.0.$zonename.
