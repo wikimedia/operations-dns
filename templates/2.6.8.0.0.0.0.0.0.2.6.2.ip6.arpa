@@ -118,6 +118,29 @@ $ORIGIN 2.0.1.0.$zonename.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	vl102-ve5.csw1-esams.wikimedia.org.
 2.d.9.c.1.1.e.f.f.f.d.3.9.0.2.0 1H IN PTR	clematis.esams.wikimedia.org.
 
+; LVS Service IPs
+
+$ORIGIN a.1.d.e.$zonename.
+
+0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikimedia-lb.esams.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikipedia-lb.esams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wiktionary-lb.esams.wikimedia.org.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikiquote-lb.esams.wikimedia.org.
+4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikibooks-lb.esams.wikimedia.org.
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikisource-lb.esams.wikimedia.org.
+6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikinews-lb.esams.wikimedia.org.
+7.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikiversity-lb.esams.wikimedia.org.
+8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       mediawiki-lb.esams.wikimedia.org.
+9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       foundation-lb.esams.wikimedia.org.
+a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       bits-lb.esams.wikimedia.org.
+b.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       upload-lb.esams.wikimedia.org.
+c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       mobile-lb.esams.wikimedia.org.
+d.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       payments-lb.esams.wikimedia.org.
+e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       dns-auth-lb.esams.wikimedia.org.
+f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       dns-rec-lb.esams.wikimedia.org.
+0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       osm-lb.esams.wikimedia.org.
+1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       misc-web-lb.esams.wikimedia.org.
+
 ; csw1-esams <--> br1-knams (2620:0:862:fe00::/64)
 
 $ORIGIN 0.0.e.f.$zonename.

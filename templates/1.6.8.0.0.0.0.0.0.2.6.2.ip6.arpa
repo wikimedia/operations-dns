@@ -19,7 +19,7 @@ $ORIGIN $zonename.
 $ORIGIN 1.0.0.0.$zonename.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       vrrp-gw-1001.wikimedia.org.
 
-; Service IPs
+; (in-subnet) service IPs
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	lists.wikimedia.org.
 
 
@@ -45,6 +45,29 @@ $ORIGIN 2.0.1.0.$zonename.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1018.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1018.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1018.cr2-eqiad.wikimedia.org.
+
+; LVS Service IPs
+
+$ORIGIN a.1.d.e.$zonename.
+
+0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikimedia-lb.eqiad.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikipedia-lb.eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wiktionary-lb.eqiad.wikimedia.org.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikiquote-lb.eqiad.wikimedia.org.
+4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikibooks-lb.eqiad.wikimedia.org.
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikisource-lb.eqiad.wikimedia.org.
+6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikinews-lb.eqiad.wikimedia.org.
+7.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikiversity-lb.eqiad.wikimedia.org.
+8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       mediawiki-lb.eqiad.wikimedia.org.
+9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       foundation-lb.eqiad.wikimedia.org.
+a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       bits-lb.eqiad.wikimedia.org.
+b.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       upload-lb.eqiad.wikimedia.org.
+c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       mobile-lb.eqiad.wikimedia.org.
+d.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       payments-lb.eqiad.wikimedia.org.
+e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       dns-auth-lb.eqiad.wikimedia.org.
+f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       dns-rec-lb.eqiad.wikimedia.org.
+0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       osm-lb.eqiad.wikimedia.org.
+1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       misc-web-lb.eqiad.wikimedia.org.
 
 ; Neighbor blocks
 
