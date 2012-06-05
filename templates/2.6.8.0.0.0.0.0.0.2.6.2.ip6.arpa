@@ -31,6 +31,10 @@ e.2.4.4.0.e.e.f.f.f.4.2.b.1.2.0	1H IN PTR	ortelius.esams.wikimedia.org.
 
 0.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3001.esams.wikimedia.org.
 1.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3002.esams.wikimedia.org.
+2.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	ssl3001.esams.wikimedia.org.
+3.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	ssl3002.esams.wikimedia.org.
+4.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	ssl3003.esams.wikimedia.org.
+5.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	ssl3004.esams.wikimedia.org.
 
 ; Service IPs
 
