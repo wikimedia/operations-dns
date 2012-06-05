@@ -84,6 +84,7 @@ bayes			1H	IN A	208.80.152.168
 bayle			1H	IN A	208.80.152.174
 brewster		1H	IN A	208.80.152.171
 browne			1H	IN A	208.80.152.180
+capella			1H	IN A	208.80.152.115
 carbon			1H	IN A	208.80.154.10
 copper			1H	IN A	208.80.154.146
 cp1			1H	IN A	208.80.152.22
