@@ -43,7 +43,24 @@ $ORIGIN 1.0.1.0.$zonename.
 
 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       cam1-a-b-eqiad.eqiad.wmnet.
 
-4.6.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	strontium.eqiad.wmnet.
+3.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1021.eqiad.wmnet.
+4.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1022.eqiad.wmnet.
+5.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1023.eqiad.wmnet.
+6.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1024.eqiad.wmnet.
+7.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1025.eqiad.wmnet.
+8.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1026.eqiad.wmnet.
+9.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1027.eqiad.wmnet.
+0.5.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1028.eqiad.wmnet.
+1.5.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1029.eqiad.wmnet.
+2.5.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1030.eqiad.wmnet.
+3.5.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1031.eqiad.wmnet.
+4.5.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1032.eqiad.wmnet.
+5.5.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1033.eqiad.wmnet.
+6.5.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1034.eqiad.wmnet.
+7.5.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1035.eqiad.wmnet.
+8.5.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1036.eqiad.wmnet.
+
+6.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	strontium.eqiad.wmnet.
 
 ; private1-b-eqiad (2620:0:861:102::/64)
 $ORIGIN 2.0.1.0.$zonename.
