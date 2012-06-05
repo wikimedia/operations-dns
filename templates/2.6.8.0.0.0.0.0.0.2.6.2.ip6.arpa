@@ -29,6 +29,9 @@ $ORIGIN 1.0.0.0.$zonename.
 e.2.4.4.0.e.e.f.f.f.4.2.b.1.2.0	1H IN PTR	ortelius.esams.wikimedia.org.
 4.f.9.7.a.8.e.f.f.f.b.8.3.2.2.0	1H IN PTR	ptolemy.esams.wikimedia.org.
 
+0.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3001.esams.wikimedia.org.
+1.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3002.esams.wikimedia.org.
+
 ; Service IPs
 
 1.0.0.0.0.8.0.0.0.0.0.0.0.0.0.0	1H IN PTR	rr.esams.wikimedia.org.
