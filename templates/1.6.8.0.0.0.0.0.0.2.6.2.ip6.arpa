@@ -22,6 +22,7 @@ $ORIGIN 1.0.0.0.$zonename.
 ; (in-subnet) service IPs
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	lists.wikimedia.org.
 
+2.6.0.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	arsenic.wikimedia.org.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR       ae1-1001.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR	ae1-1001.cr2-eqiad.wikimedia.org.
@@ -32,6 +33,8 @@ $ORIGIN 2.0.0.0.$zonename.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1002.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1002.cr2-eqiad.wikimedia.org.
 
+3.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	niobium.wikimedia.org.
+
 ; private1-a-eqiad (2620:0:861:101::/64)
 $ORIGIN 1.0.1.0.$zonename.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1017.eqiad.wmnet.
@@ -40,11 +43,15 @@ $ORIGIN 1.0.1.0.$zonename.
 
 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       cam1-a-b-eqiad.eqiad.wmnet.
 
+4.6.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	strontium.eqiad.wmnet.
+
 ; private1-b-eqiad (2620:0:861:102::/64)
 $ORIGIN 2.0.1.0.$zonename.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1018.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1018.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1018.cr2-eqiad.wikimedia.org.
+
+7.4.1.0.6.1.0.0.4.6.0.0.0.1.0.0	1H IN PTR	palladium.eqiad.wmnet.
 
 ; LVS Service IPs
 

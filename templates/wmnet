@@ -743,6 +743,7 @@ stat1			1H	IN A		10.1.8.65
 storage3		1H	IN A		10.1.8.54
 streber			1H	IN A		10.1.8.14
 strontium		1H	IN A		10.65.3.50
+			1H	IN AAAA		2620:0:861:101:10:64:0:164
 WMF3425			1H	IN A		10.65.3.50
 tarin			1H	IN A		10.1.8.35
 payments1001		1H	IN A		10.65.3.55
@@ -1245,8 +1246,9 @@ osm-web1001		1H	IN A		10.64.0.165
 osm-web1002		1H	IN A		10.64.0.166
 osm-web1003		1H	IN A		10.64.16.148
 osm-web1004		1H	IN A		10.64.16.149
-oxygen			1H	IN A		 10.64.0.163
+oxygen			1H	IN A		10.64.0.163
 palladium		1H	IN A		10.64.16.147
+			1H	IN AAAA		2620:0:861:102:10:64:16:147
 search1001		1H	IN A		10.64.0.95
 search1002		1H	IN A		10.64.0.96
 search1003		1H	IN A		10.64.0.97
