@@ -536,14 +536,8 @@ ps1-d3-sdtpa		1H	IN A		10.1.5.16
 
 alsted			1H	IN A		10.1.8.33
 amaranth		1H	IN A		10.1.8.16
-arsenic			1H	IN A		10.65.3.45
-WMF3420			1H	IN A		10.65.3.45
 bayes			1H	IN A		10.1.8.24
 brewster		1H	IN A		10.1.8.3
-payments1002		1H	IN A		10.65.3.47
-WMF3422			1H	IN A		10.65.3.47
-cadmium			1H	IN A		10.65.3.60
-WMF3435			1H	IN A		10.65.3.60
 dataset1		1H	IN A		10.1.8.36
 dataset2		1H	IN A		10.1.8.55
 db5			1H	IN A		10.1.6.15
@@ -623,8 +617,6 @@ hooper			1H	IN A		10.1.8.42
 hume			1H	IN A		10.1.252.190
 stafford		1H	IN A		10.1.8.30
 kaulen			1H	IN A		10.1.8.34
-virt1000		1H	IN A		10.65.3.48
-WMF3423			1H	IN A		10.65.3.48
 labstore1		1H	IN A		10.1.8.74
 labstore2		1H	IN A		10.1.8.75
 labstore3		1H	IN A		10.1.8.76
@@ -638,15 +630,7 @@ lvs3			1H	IN A		10.1.4.3
 lvs4			1H	IN A		10.1.4.4
 lvs5			1H	IN A		10.1.8.26
 lvs6			1H	IN A		10.1.8.27
-lvs1001			1H	IN A		10.65.3.39
-lvs1002			1H	IN A		10.65.3.40
-lvs1003			1H	IN A		10.65.3.41
-lvs1004			1H	IN A		10.65.3.42
-lvs1005			1H	IN A		10.65.3.43
-lvs1006			1H	IN A		10.65.3.44
 mchenry			1H	IN A		10.1.230.240
-payments1003		1H	IN A		10.65.3.54
-WMF3429			1H	IN A		10.65.3.54
 ms1			1H	IN A		10.1.7.1
 ms2			1H	IN A		10.1.7.2
 ms3			1H	IN A		10.1.7.3
@@ -661,8 +645,6 @@ ms-be4			1H	IN A		10.1.7.24
 ms-be5			1H	IN A		10.1.7.25
 nfs1			1H	IN A		10.1.8.1
 nfs2			1H	IN A		10.1.8.11
-niobium			1H	IN A		10.65.3.53
-WMF3428			1H	IN A		10.65.3.53
 capella			1H	IN A		10.1.8.20
 ocg1			1H	IN A		10.1.8.44
 ocg2			1H	IN A		10.1.8.63
@@ -670,8 +652,6 @@ ocg3			1H	IN A		10.1.8.64
 owa1			1H	IN A		10.1.8.51
 owa2			1H	IN A		10.1.8.52
 owa3			1H	IN A		10.1.8.53
-palladium		1H	IN A		10.65.3.58
-WMF3433			1H	IN A		10.65.3.58
 payments1		1H	IN A		10.1.8.46
 payments2		1H	IN A		10.1.8.47
 payments3		1H	IN A		10.1.8.48
@@ -679,12 +659,6 @@ payments4		1H	IN A		10.1.8.49
 pdf1			1H	IN A		10.1.8.19
 pdf2			1H	IN A		10.1.8.29
 pdf3			1H	IN A		10.1.8.37
-msfe1002		1H	IN A		10.65.3.57
-WMF3432			1H	IN A		10.65.3.57
-rubidium		1H	IN A		10.65.3.49
-WMF3424			1H	IN A		10.65.3.49
-msfe1001		1H	IN A		10.65.3.56
-WMF3431			1H	IN A		10.65.3.56
 sanger			1H	IN A		10.1.230.241
 searchidx1		1H	IN A		10.1.4.10
 search1			1H	IN A		10.1.4.11
@@ -724,11 +698,7 @@ search33		1H	IN A		10.1.4.44
 search34		1H	IN A		10.1.4.45
 search35		1H	IN A		10.1.4.46
 search36		1H	IN A		10.1.4.47
-payments1004		1H	IN A		10.65.3.46
-WMF3421			1H	IN A		10.65.3.46
 sockpuppet		1H	IN A		10.1.8.2
-silver			1H	IN A		10.65.3.59
-WMF3434			1H	IN A		10.65.3.59
 singer			1H	IN A		10.1.8.12
 snapshot1		1H	IN A		10.1.8.21
 snapshot2		1H	IN A		10.1.8.22
@@ -742,11 +712,7 @@ ssl4			1H	IN A		10.1.7.44
 stat1			1H	IN A		10.1.8.65
 storage3		1H	IN A		10.1.8.54
 streber			1H	IN A		10.1.8.14
-strontium		1H	IN A		10.65.3.50
-WMF3425			1H	IN A		10.65.3.50
 tarin			1H	IN A		10.1.8.35
-payments1001		1H	IN A		10.65.3.55
-WMF3430			1H	IN A		10.65.3.55
 transcode1		1H	IN A		10.1.8.25
 transcode2		1H	IN A		10.1.8.26
 transcode3		1H	IN A		10.1.8.27
@@ -1446,6 +1412,8 @@ yttrium		1H	IN A	10.65.3.51
 WMF3426		1H	IN A	10.65.3.51
 zirconium	1H	IN A	10.65.3.52
 WMF3427		1H	IN A	10.65.3.52
+WMF3423		1H	IN A	10.65.3.48
+virt1000	1H	IN A	10.65.3.48
 WMF3437		1H	IN A	10.65.3.61
 virt1001	1H	IN A	10.65.3.61
 WMF3438		1H	IN A	10.65.3.62
@@ -2121,6 +2089,41 @@ ssl1001		1H	IN A	10.65.3.18
 WMF3301		1H	IN A	10.65.3.18
 argon		1H	IN A	10.65.3.17
 WMF3302		1H	IN A	10.65.3.17
+rubidium	1H	IN A	10.65.3.49
+WMF3424		1H	IN A	10.65.3.49
+silver		1H	IN A	10.65.3.59
+WMF3434		1H	IN A	10.65.3.59
+strontium	1H	IN A	10.65.3.50
+WMF3425		1H	IN A	10.65.3.50
+arsenic		1H	IN A	10.65.3.45
+WMF3420		1H	IN A	10.65.3.45
+cadmium		1H	IN A	10.65.3.60
+WMF3435		1H	IN A	10.65.3.60
+niobium		1H	IN A	10.65.3.53
+WMF3428		1H	IN A	10.65.3.53
+palladium	1H	IN A	10.65.3.58
+WMF3433		1H	IN A	10.65.3.58
+
+lvs1001		1H	IN A	10.65.3.39
+lvs1002		1H	IN A	10.65.3.40
+lvs1003		1H	IN A	10.65.3.41
+lvs1004		1H	IN A	10.65.3.42
+lvs1005		1H	IN A	10.65.3.43
+lvs1006		1H	IN A	10.65.3.44
+
+msfe1001	1H	IN A	10.65.3.56
+WMF3431		1H	IN A	10.65.3.56
+msfe1002	1H	IN A	10.65.3.57
+WMF3432		1H	IN A	10.65.3.57
+
+payments1001	1H	IN A	10.65.3.55
+WMF3430		1H	IN A	10.65.3.55
+payments1002	1H	IN A	10.65.3.47
+WMF3422		1H	IN A	10.65.3.47
+payments1003	1H	IN A	10.65.3.54
+WMF3429		1H	IN A	10.65.3.54
+payments1004	1H	IN A	10.65.3.46
+WMF3421		1H	IN A	10.65.3.46
 
 ;
 ; ESAMS
