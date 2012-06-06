@@ -269,6 +269,8 @@ yttrium			1H	IN A	208.80.154.13
 yvon			1H	IN A	208.80.152.21
 zhen			1H	IN A	208.80.152.140
 zinc			1H	IN A	208.80.154.136
+nitrogen		1H	IN A	208.80.154.17
+			1H	IN AAAA	2620:0:861:1:208:80:154:17
 
 ; Round robin record
 
