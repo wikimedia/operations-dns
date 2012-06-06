@@ -294,6 +294,7 @@ dns-auth-lb.pmtpa	1H	IN A	208.80.152.214
 dns-rec-lb.pmtpa	1H	IN A	208.80.152.215
 osm-lb.pmtpa		1H	IN A	208.80.152.216
 misc-web-lb.pmtpa	1H	IN A	208.80.152.217
+geoiplookup-lb.pmtpa	1H	IN A	208.80.152.210
 
 wikimedia-lb.eqiad	1H	IN A	208.80.154.224
 wikipedia-lb.eqiad	1H	IN A	208.80.154.225
@@ -313,6 +314,7 @@ dns-auth-lb.eqiad	1H	IN A	208.80.154.238
 dns-rec-lb.eqiad	1H	IN A	208.80.154.239
 osm-lb.eqiad		1H	IN A	208.80.154.240
 misc-web-lb.eqiad	1H	IN A	208.80.154.241
+geoiplookup-lb.eqiad	1H	IN A	208.80.154.234
 
 m			1H	IN A	208.80.154.236 ; mobile eqiad LVS
 
@@ -973,6 +975,7 @@ wikinews-lb		1H	IN A	91.198.174.230	; LVS
 wikiversity-lb		1H	IN A	91.198.174.231	; LVS
 mediawiki-lb		1H	IN A	91.198.174.232 
 foundation-lb		1H	IN A	91.198.174.235	; LVS
+geoiplookup-lb		1H	IN A	91.198.174.233
 
 ; SQL text replicas on clematis
 sql-text1		1H	IN A		91.198.174.131
