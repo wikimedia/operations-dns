@@ -278,16 +278,27 @@ text.pmtpa		1H	IN A	208.80.152.209
 bits.pmtpa		1H	IN A	208.80.152.210
 upload.pmtpa		1H	IN A	208.80.152.211
 upload.v4		1H	IN A	208.80.152.211 ; Explicitly v4 only
-wikimedia-lb.pmtpa	1H	IN A	208.80.152.200
-wikipedia-lb.pmtpa	1H	IN A	208.80.152.201
-wiktionary-lb.pmtpa	1H	IN A	208.80.152.202
-wikiquote-lb.pmtpa	1H	IN A	208.80.152.203
-wikibooks-lb.pmtpa	1H	IN A	208.80.152.204
-wikisource-lb.pmtpa	1H	IN A	208.80.152.205
-wikinews-lb.pmtpa	1H	IN A	208.80.152.206
-wikiversity-lb.pmtpa	1H	IN A	208.80.152.207
-mediawiki-lb.pmtpa	1H	IN A	208.80.152.208
-foundation-lb.pmtpa	1H	IN A	208.80.152.209
+
+wikimedia-lb.pmtpa      1H      IN A    208.80.152.200
+                        5M      IN AAAA 2620:0:860:ed1a::0
+wikipedia-lb.pmtpa      1H      IN A    208.80.152.201
+                        5M      IN AAAA 2620:0:860:ed1a::1
+wiktionary-lb.pmtpa     1H      IN A    208.80.152.202
+                        5M      IN AAAA 2620:0:860:ed1a::2
+wikiquote-lb.pmtpa      1H      IN A    208.80.152.203
+                        5M      IN AAAA 2620:0:860:ed1a::3
+wikibooks-lb.pmtpa      1H      IN A    208.80.152.204
+                        5M      IN AAAA 2620:0:860:ed1a::4
+wikisource-lb.pmtpa     1H      IN A    208.80.152.205
+                        5M      IN AAAA 2620:0:860:ed1a::5
+wikinews-lb.pmtpa       1H      IN A    208.80.152.206
+                        5M      IN AAAA 2620:0:860:ed1a::6
+wikiversity-lb.pmtpa    1H      IN A    208.80.152.207
+                        5M      IN AAAA 2620:0:860:ed1a::7
+mediawiki-lb.pmtpa      1H      IN A    208.80.152.208
+                        5M      IN AAAA 2620:0:860:ed1a::8
+foundation-lb.pmtpa     1H      IN A    208.80.152.209
+                        5M      IN AAAA 2620:0:860:ed1a::9
 bits-lb.pmtpa		1H	IN A	208.80.152.210
                         5M      IN AAAA 2620:0:860:ed1a::a
 upload-lb.pmtpa		1H	IN A	208.80.152.211
@@ -300,16 +311,26 @@ osm-lb.pmtpa		1H	IN A	208.80.152.216
 misc-web-lb.pmtpa	1H	IN A	208.80.152.217
 geoiplookup-lb.pmtpa	1H	IN A	208.80.152.210
 
-wikimedia-lb.eqiad	1H	IN A	208.80.154.224
-wikipedia-lb.eqiad	1H	IN A	208.80.154.225
-wiktionary-lb.eqiad	1H	IN A	208.80.154.226
-wikiquote-lb.eqiad	1H	IN A	208.80.154.227
-wikibooks-lb.eqiad	1H	IN A	208.80.154.228
-wikisource-lb.eqiad	1H	IN A	208.80.154.229
-wikinews-lb.eqiad	1H	IN A	208.80.154.230
-wikiversity-lb.eqiad	1H	IN A	208.80.154.231
-mediawiki-lb.eqiad	1H	IN A	208.80.154.232
-foundation-lb.eqiad	1H	IN A	208.80.154.233
+wikimedia-lb.eqiad      1H      IN A    208.80.154.224
+                        5M      IN AAAA 2620:0:861:ed1a::0
+wikipedia-lb.eqiad      1H      IN A    208.80.154.225
+                        5M      IN AAAA 2620:0:861:ed1a::1
+wiktionary-lb.eqiad     1H      IN A    208.80.154.226
+                        5M      IN AAAA 2620:0:861:ed1a::2
+wikiquote-lb.eqiad      1H      IN A    208.80.154.227
+                        5M      IN AAAA 2620:0:861:ed1a::3
+wikibooks-lb.eqiad      1H      IN A    208.80.154.228
+                        5M      IN AAAA 2620:0:861:ed1a::4
+wikisource-lb.eqiad     1H      IN A    208.80.154.229
+                        5M      IN AAAA 2620:0:861:ed1a::5
+wikinews-lb.eqiad       1H      IN A    208.80.154.230
+                        5M      IN AAAA 2620:0:861:ed1a::6
+wikiversity-lb.eqiad    1H      IN A    208.80.154.231
+                        5M      IN AAAA 2620:0:861:ed1a::7
+mediawiki-lb.eqiad      1H      IN A    208.80.154.232
+                        5M      IN AAAA 2620:0:861:ed1a::8
+foundation-lb.eqiad     1H      IN A    208.80.154.233
+                        5M      IN AAAA 2620:0:861:ed1a::9
 bits-lb.eqiad		1H	IN A	208.80.154.234
                         5M      IN AAAA 2620:0:861:ed1a::a
 upload-lb.eqiad		1H	IN A	208.80.154.235
@@ -964,16 +985,27 @@ rr			1H	IN A	91.198.174.232	  ; LVS
 text			1H	IN A	91.198.174.232	; LVS
 bits			1H	IN A	91.198.174.233	; LVS
 upload			1H	IN A	91.198.174.234	; NOTE, this record is currently overwritten by the Pipe backend and selective-answers.py for selective AAAA record serving with IPv6 experiments
-wikimedia-lb		1H	IN A	91.198.174.224	; LVS
-wikipedia-lb		1H	IN A	91.198.174.225	; LVS
-wiktionary-lb		1H	IN A	91.198.174.226	; LVS
-wikiquote-lb		1H	IN A	91.198.174.227	; LVS
-wikibooks-lb		1H	IN A	91.198.174.228	; LVS
-wikisource-lb		1H	IN A	91.198.174.229	; LVS
-wikinews-lb		1H	IN A	91.198.174.230	; LVS
-wikiversity-lb		1H	IN A	91.198.174.231	; LVS
-mediawiki-lb		1H	IN A	91.198.174.232 
-foundation-lb		1H	IN A	91.198.174.235	; LVS
+
+wikimedia-lb            1H      IN A    91.198.174.224
+                        5M      IN AAAA 2620:0:862:ed1a::0
+wikipedia-lb            1H      IN A    91.198.174.225
+                        5M      IN AAAA 2620:0:862:ed1a::1
+wiktionary-lb           1H      IN A    91.198.174.226
+                        5M      IN AAAA 2620:0:862:ed1a::2
+wikiquote-lb            1H      IN A    91.198.174.227
+                        5M      IN AAAA 2620:0:862:ed1a::3
+wikibooks-lb            1H      IN A    91.198.174.228
+                        5M      IN AAAA 2620:0:862:ed1a::4
+wikisource-lb           1H      IN A    91.198.174.229
+                        5M      IN AAAA 2620:0:862:ed1a::5
+wikinews-lb             1H      IN A    91.198.174.230
+                        5M      IN AAAA 2620:0:862:ed1a::6
+wikiversity-lb          1H      IN A    91.198.174.231
+                        5M      IN AAAA 2620:0:862:ed1a::7
+mediawiki-lb            1H      IN A    91.198.174.232
+                        5M      IN AAAA 2620:0:862:ed1a::8
+foundation-lb           1H      IN A    91.198.174.235
+                        5M      IN AAAA 2620:0:862:ed1a::9
 bits-lb                 1H      IN A    91.198.174.233
                         5M      IN AAAA 2620:0:862:ed1a::a
 upload-lb               1H      IN A    91.198.174.234
