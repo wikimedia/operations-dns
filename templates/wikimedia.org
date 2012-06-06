@@ -289,6 +289,7 @@ wikiversity-lb.pmtpa	1H	IN A	208.80.152.207
 mediawiki-lb.pmtpa	1H	IN A	208.80.152.208
 foundation-lb.pmtpa	1H	IN A	208.80.152.209
 bits-lb.pmtpa		1H	IN A	208.80.152.210
+                        5M      IN AAAA 2620:0:860:ed1a::a
 upload-lb.pmtpa		1H	IN A	208.80.152.211
                         5M      IN AAAA 2620:0:860:ed1a::b
 mobile-lb.pmtpa		1H	IN A	208.80.152.212
@@ -310,6 +311,7 @@ wikiversity-lb.eqiad	1H	IN A	208.80.154.231
 mediawiki-lb.eqiad	1H	IN A	208.80.154.232
 foundation-lb.eqiad	1H	IN A	208.80.154.233
 bits-lb.eqiad		1H	IN A	208.80.154.234
+                        5M      IN AAAA 2620:0:861:ed1a::a
 upload-lb.eqiad		1H	IN A	208.80.154.235
                         5M      IN AAAA 2620:0:861:ed1a::b
 mobile-lb.eqiad		1H	IN A	208.80.154.236
@@ -961,10 +963,7 @@ ptolemy.ipmi		1H	IN A	10.21.0.104
 rr			1H	IN A	91.198.174.232	  ; LVS
 text			1H	IN A	91.198.174.232	; LVS
 bits			1H	IN A	91.198.174.233	; LVS
-bits-lb			1H	IN A	91.198.174.233	; LVS
 upload			1H	IN A	91.198.174.234	; NOTE, this record is currently overwritten by the Pipe backend and selective-answers.py for selective AAAA record serving with IPv6 experiments
-upload-lb		1H	IN A	91.198.174.234
-                        5M      IN AAAA 2620:0:862:ed1a::b
 wikimedia-lb		1H	IN A	91.198.174.224	; LVS
 wikipedia-lb		1H	IN A	91.198.174.225	; LVS
 wiktionary-lb		1H	IN A	91.198.174.226	; LVS
@@ -975,6 +974,10 @@ wikinews-lb		1H	IN A	91.198.174.230	; LVS
 wikiversity-lb		1H	IN A	91.198.174.231	; LVS
 mediawiki-lb		1H	IN A	91.198.174.232 
 foundation-lb		1H	IN A	91.198.174.235	; LVS
+bits-lb                 1H      IN A    91.198.174.233
+                        5M      IN AAAA 2620:0:862:ed1a::a
+upload-lb               1H      IN A    91.198.174.234
+                        5M      IN AAAA 2620:0:862:ed1a::b
 geoiplookup-lb		1H	IN A	91.198.174.233
 
 ; SQL text replicas on clematis
