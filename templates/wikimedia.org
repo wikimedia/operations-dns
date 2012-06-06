@@ -395,8 +395,6 @@ donate			1H	IN A		208.80.152.200	; wikimedia-lb, can't do cname + mx
 
 dvd			1H	IN CNAME	www.masterssystems.com.
 
-geoiplookup		1H	IN CNAME	bits
-
 gerrit			60	IN CNAME	manganese.wikimedia.org.
 
 imap			1H	IN A		208.80.152.187	; sanger
