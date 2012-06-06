@@ -507,9 +507,6 @@ wikimania2013		1H	IN CNAME	wikimedia-lb
 wikimaniateam		1H	IN CNAME	wikimedia-lb
 www			1H	IN CNAME	wikimedia-lb
 
-; To be shared by all wikis
-bits			1h	IN CNAME	bits-geo
-
 ; Other websites (NO wikis!)
 
 blog			1H	IN CNAME	marmontel.wikimedia.org.
