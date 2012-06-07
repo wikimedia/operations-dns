@@ -23,7 +23,7 @@ $ORIGIN $zonename.
 ; Canonical names
 
                         1H      IN A    208.80.152.207
-			5M	IN AAAA	2620:0:860:ed1a::7
+			1H	IN AAAA	2620:0:860:ed1a::7
 
 localhost		1W	IN A	127.0.0.1
 
