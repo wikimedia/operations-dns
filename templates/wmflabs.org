@@ -20,7 +20,7 @@ $ORIGIN $zonename.
 
 ; Canonical names
 
-                        1H      IN A    208.80.153.131
+                        1H      IN A    208.80.152.32
 
 localhost		1W	IN A	127.0.0.1
 
