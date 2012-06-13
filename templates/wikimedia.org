@@ -261,7 +261,7 @@ streber			1H	IN A	208.80.152.160
 technetium		1H	IN A	208.80.154.145
 transcode1		1H	IN A	208.80.153.130
 tridge			1H	IN A	208.80.152.170 ; Cold Backup Server
-virt0			1H	IN A	208.80.153.135
+virt0			60	IN A	208.80.153.135
 williams		1H	IN A	208.80.152.159
 yongle			1H	IN A	208.80.152.178
 yttrium			1H	IN A	208.80.154.13
@@ -420,7 +420,7 @@ donate			1H	IN A		208.80.152.200	; wikimedia-lb, can't do cname + mx
 
 dvd			1H	IN CNAME	www.masterssystems.com.
 
-gerrit			60	IN CNAME	manganese.wikimedia.org.
+gerrit			1H	IN CNAME	manganese.wikimedia.org.
 
 imap			1H	IN A		208.80.152.187	; sanger
 			1H	IN MX		10 mchenry
@@ -440,7 +440,7 @@ smtp			1H	IN A		208.80.152.187	; sanger
 			1H	IN MX		10 mchenry
 
 squidlog		1H	IN CNAME	locke.wikimedia.org.
-svn			60	IN CNAME	formey.wikimedia.org.
+svn			1H	IN CNAME	formey.wikimedia.org.
 
 torrus			1H	IN CNAME	manutius
 
