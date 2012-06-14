@@ -578,7 +578,7 @@ $ORIGIN 1.1.$zonename.
 $ORIGIN 2.1.$zonename.
 
 1	1H	IN PTR scs-a1-sdtpa.mgmt.pmtpa.wmnet.
-2	1H	IN PTR scs-c1-pmtpa.mgmt.pmtpa.wmnet.
+2	1H	IN PTR scs-d1-pmtpa.mgmt.pmtpa.wmnet.
 3	1H	IN PTR mr1-pmtpa.mgmt.pmtpa.wmnet.
 
 ;srv11-250

@@ -479,7 +479,7 @@ envmon			1H	IN A		10.1.3.2
 $ORIGIN mgmt.pmtpa.$zonename.
 
 scs-a1-sdtpa		1H	IN A		10.1.2.1	
-scs-c1-pmtpa		1H	IN A		10.1.2.2
+scs-d1-pmtpa		1H	IN A		10.1.2.2
 mr1-pmtpa		1H	IN A		10.1.2.3
 msw1-pmtpa		1H	IN A		10.1.1.15
 msw1-sdtpa		1H	IN A		10.1.1.16
