@@ -23,7 +23,7 @@ $ORIGIN $zonename.
 12	1H IN PTR	payments2.wikimedia.org.
 13	1H IN PTR	payments3.wikimedia.org.
 14	1H IN PTR	payments4.wikimedia.org.
-
+15	1H IN PTR	manutius.wikimedia.org.
 16	1H IN PTR	ssl1.wikimedia.org.
 17	1H IN PTR	ssl2.wikimedia.org.
 18	1H IN PTR	ssl3.wikimedia.org.

@@ -18,7 +18,6 @@ $ORIGIN $zonename.
 
 129     1H IN PTR       vrrp-gw-104.wikimedia.org.
 130	1H IN PTR	transcode1.wikimedia.org.
-136	1H IN PTR	manutius.wikimedia.org.
 
 189	1H IN PTR	ae0-104.cr1-sdtpa.wikimedia.org.
 190	1H IN PTR	ae0-104.cr2-pmtpa.wikimedia.org.
