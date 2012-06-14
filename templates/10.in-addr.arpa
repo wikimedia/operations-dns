@@ -1089,7 +1089,7 @@ $ORIGIN 0.3.$zonename.
 
 ; 10.4.0.0/24 - guest VMs subnet
 $ORIGIN $zonename.
-0.4	1H	IN NS	labsconsole.wikimedia.org.
+0.4	1H	IN NS	virt0.wikimedia.org.
 
 ; 10.4.16.0/24 - VM host compute nodes subnet
 $ORIGIN 16.4.$zonename.
