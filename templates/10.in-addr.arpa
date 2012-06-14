@@ -782,6 +782,12 @@ $ORIGIN 7.1.$zonename.
 23	1H	IN PTR ms-be3.mgmt.pmtpa.wmnet.
 24	1H	IN PTR ms-be4.mgmt.pmtpa.wmnet.
 25	1H	IN PTR ms-be5.mgmt.pmtpa.wmnet.
+26	1H	IN PTR ms-be6.mgmt.pmtpa.wmnet.
+27	1H	IN PTR ms-be7.mgmt.pmtpa.wmnet.
+28	1H	IN PTR ms-be8.mgmt.pmtpa.wmnet.
+29	1H	IN PTR ms-be9.mgmt.pmtpa.wmnet.
+30	1H	IN PTR ms-be10.mgmt.pmtpa.wmnet.
+31	1H	IN PTR ms-be11.mgmt.pmtpa.wmnet.
 41	1H	IN PTR ssl1.mgmt.pmtpa.wmnet.
 42	1H	IN PTR ssl2.mgmt.pmtpa.wmnet.
 43	1H	IN PTR ssl3.mgmt.pmtpa.wmnet.
@@ -873,6 +879,16 @@ $ORIGIN 8.1.$zonename.
 78	1H	IN PTR	virt5.mgmt.pmtpa.wmnet.
 79	1H	IN PTR	ms-fe3.mgmt.pmtpa.wmnet.
 80	1H	IN PTR	ms-fe4.mgmt.pmtpa.wmnet.
+81	1H	IN PTR	osm-cp1.mgmt.pmtpa.wmnet.
+82	1H	IN PTR	osm-cp2.mgmt.pmtpa.wmnet.
+83	1H	IN PTR	osm-db1.mgmt.pmtpa.wmnet.
+84	1H	IN PTR	osm-db2.mgmt.pmtpa.wmnet.
+85	1H	IN PTR	osm-db3.mgmt.pmtpa.wmnet.
+86	1H	IN PTR	osm-db4.mgmt.pmtpa.wmnet.
+87	1H	IN PTR	osm-web1.mgmt.pmtpa.wmnet.
+88	1H	IN PTR	osm-web2.mgmt.pmtpa.wmnet.
+89	1H	IN PTR	osm-web3.mgmt.pmtpa.wmnet.
+90	1H	IN PTR	osm-web4.mgmt.pmtpa.wmnet.
 
 
 ; Apaches pool (srv251+)
