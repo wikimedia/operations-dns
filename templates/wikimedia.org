@@ -548,7 +548,7 @@ communicate		1H	IN CNAME	singer
 communityblog		1H	IN CNAME	marmontel.wikimedia.org.
 commons.prototype	1H	IN A		208.80.152.249
 contacts		1H	IN CNAME	singer.wikimedia.org.
-labsconsole		1H	IN CNAME	virt0.wikimedia.org.
+labsconsole		1H	IN A		208.80.152.32
 outreachcivi		1H	IN CNAME	singer.wikimedia.org.
 community-analytics	1H	IN CNAME	aluminium
 cs			1H	IN CNAME	wikimedia.cz.
