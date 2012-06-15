@@ -472,6 +472,7 @@ commons			1H	IN CNAME	wikimedia-lb
 www.commons		1H	IN CNAME	wikimedia-lb
 de.labs			1H	IN CNAME	wikimedia-lb
 dk			1H	IN CNAME	wikimedia-lb
+educacao		1H	IN CNAME	wikimedia-lb
 education		1H	IN CNAME	wikimedia-lb
 en.labs			1H	IN CNAME	wikimedia-lb
 et			1H	IN CNAME	wikimedia-lb
