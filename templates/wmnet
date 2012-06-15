@@ -649,6 +649,7 @@ ms-be8			1H	IN A		10.1.7.28
 ms-be9			1H	IN A		10.1.7.29
 ms-be10			1H	IN A		10.1.7.30
 ms-be11			1H	IN A		10.1.7.31
+ms-be12			1H	IN A		10.1.7.32
 nfs1			1H	IN A		10.1.8.1
 nfs2			1H	IN A		10.1.8.11
 capella			1H	IN A		10.1.8.20
