@@ -889,7 +889,25 @@ $ORIGIN 8.1.$zonename.
 88	1H	IN PTR	osm-web2.mgmt.pmtpa.wmnet.
 89	1H	IN PTR	osm-web3.mgmt.pmtpa.wmnet.
 90	1H	IN PTR	osm-web4.mgmt.pmtpa.wmnet.
-
+91	1H	IN PTR	virt6.mgmt.pmtpa.wmnet.
+92	1H	IN PTR	virt7.mgmt.pmtpa.wmnet.
+93	1H	IN PTR	virt8.mgmt.pmtpa.wmnet.
+94	1H	IN PTR	virt9.mgmt.pmtpa.wmnet.
+95	1H	IN PTR	virt10.mgmt.pmtpa.wmnet.
+96	1H	IN PTR	virt11.mgmt.pmtpa.wmnet.
+97	1H	IN PTR	virt12.mgmt.pmtpa.wmnet.
+98	1H	IN PTR	virt13.mgmt.pmtpa.wmnet.
+99	1H	IN PTR	virt14.mgmt.pmtpa.wmnet.
+100	1H	IN PTR	virt15.mgmt.pmtpa.wmnet.
+101	1H	IN PTR	pc1.mgmt.pmtpa.wmnet.
+102	1H	IN PTR	pc2.mgmt.pmtpa.wmnet.
+103	1H	IN PTR	pc3.mgmt.pmtpa.wmnet.
+104	1H	IN PTR	wmf5706.mgmt.pmtpa.wmnet.
+105	1H	IN PTR	wmf5707.mgmt.pmtpa.wmnet.
+106	1H	IN PTR	wmf5708.mgmt.pmtpa.wmnet.
+107	1H	IN PTR	wmf5709.mgmt.pmtpa.wmnet.
+108	1H	IN PTR	wmf5710.mgmt.pmtpa.wmnet.
+109	1H	IN PTR	wmf5711.mgmt.pmtpa.wmnet.
 
 ; Apaches pool (srv251+)
 $ORIGIN 9.1.$zonename.

@@ -672,6 +672,9 @@ payments1		1H	IN A		10.1.8.46
 payments2		1H	IN A		10.1.8.47
 payments3		1H	IN A		10.1.8.48
 payments4		1H	IN A		10.1.8.49
+pc1			1H	IN A		10.1.8.101
+pc2			1H	IN A		10.1.8.102
+pc3			1H	IN A		10.1.8.103
 pdf1			1H	IN A		10.1.8.19
 pdf2			1H	IN A		10.1.8.29
 pdf3			1H	IN A		10.1.8.37
@@ -741,6 +744,16 @@ virt2			1H	IN A		10.1.8.57
 virt3			1H	IN A		10.1.8.58
 virt4			1H	IN A		10.1.8.59
 virt5			1H	IN A		10.1.8.78
+virt6			1H	IN A		10.1.8.91
+virt7			1H	IN A		10.1.8.92
+virt8			1H	IN A		10.1.8.93
+virt9			1H	IN A		10.1.8.94
+virt10			1H	IN A		10.1.8.95
+virt11			1H	IN A		10.1.8.96
+virt12			1H	IN A		10.1.8.97
+virt13			1H	IN A		10.1.8.98
+virt14			1H	IN A		10.1.8.99
+virt15			1H	IN A		10.1.8.100
 williams		1H	IN A		10.1.8.15
 WMF3639			1H	IN A		10.1.8.66
 ms-fe1			1H	IN A		10.1.8.66
@@ -758,6 +771,12 @@ WMF3644			1H	IN A		10.1.8.71
 zhen			1H	IN A		10.1.8.71
 WMF3645			1H	IN A		10.1.8.72
 WMF3646			1H	IN A		10.1.8.73
+wmf5706			1H	IN A		10.1.8.104
+wmf5707			1H	IN A		10.1.8.105
+wmf5708			1H	IN A		10.1.8.106
+wmf5709			1H	IN A		10.1.8.107
+wmf5710			1H	IN A		10.1.8.108
+wmf5711			1H	IN A		10.1.8.109
 
 ; GENERATES FOR MANGEMENT
 
