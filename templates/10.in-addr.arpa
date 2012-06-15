@@ -764,7 +764,7 @@ $ORIGIN 6.1.$zonename.
 71	1H	IN PTR db61.mgmt.pmtpa.wmnet.
 72	1H	IN PTR db62.mgmt.pmtpa.wmnet.
 
-; Media Servers & SSL Servers & ES Servers
+; Media Servers & SSL Servers & ES Servers & Memcached Servers
 $ORIGIN 7.1.$zonename.
 1	1H	IN PTR ms1.mgmt.pmtpa.wmnet.
 2	1H	IN PTR ms2.mgmt.pmtpa.wmnet.
@@ -793,6 +793,22 @@ $ORIGIN 7.1.$zonename.
 42	1H	IN PTR ssl2.mgmt.pmtpa.wmnet.
 43	1H	IN PTR ssl3.mgmt.pmtpa.wmnet.
 44	1H	IN PTR ssl4.mgmt.pmtpa.wmnet.
+61	1H	IN PTR mc1.mgmt.pmtpa.wmnet.
+62	1H	IN PTR mc2.mgmt.pmtpa.wmnet.
+63	1H	IN PTR mc3.mgmt.pmtpa.wmnet.
+64	1H	IN PTR mc4.mgmt.pmtpa.wmnet.
+65	1H	IN PTR mc5.mgmt.pmtpa.wmnet.
+66	1H	IN PTR mc6.mgmt.pmtpa.wmnet.
+67	1H	IN PTR mc7.mgmt.pmtpa.wmnet.
+68	1H	IN PTR mc8.mgmt.pmtpa.wmnet.
+69	1H	IN PTR mc9.mgmt.pmtpa.wmnet.
+70	1H	IN PTR mc10.mgmt.pmtpa.wmnet.
+71	1H	IN PTR mc11.mgmt.pmtpa.wmnet.
+72	1H	IN PTR mc12.mgmt.pmtpa.wmnet.
+73	1H	IN PTR mc13.mgmt.pmtpa.wmnet.
+74	1H	IN PTR mc14.mgmt.pmtpa.wmnet.
+75	1H	IN PTR mc15.mgmt.pmtpa.wmnet.
+76	1H	IN PTR mc16.mgmt.pmtpa.wmnet.
 
 ; Misc. Services Server Project
 $ORIGIN 8.1.$zonename.
