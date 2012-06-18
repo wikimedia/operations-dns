@@ -33,6 +33,7 @@ $ORIGIN $zonename.
 16	1H IN PTR	ms1001.wikimedia.org.
 17	1H IN PTR	nitrogen.wikimedia.org.
 18	1H IN PTR	virt1000.wikimedia.org.
+19	1H IN PTR	labs-ns1.wikimedia.org.
 51	1H IN PTR	cp1041.wikimedia.org.
 52	1H IN PTR	cp1042.wikimedia.org.
 53	1H IN PTR	cp1043.wikimedia.org.
