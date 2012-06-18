@@ -44,6 +44,7 @@ $ORIGIN $zonename.
 60	1H IN PTR	vl1001-eth1.lvs1006.wikimedia.org.
 61	1H IN PTR	sodium.wikimedia.org.
 62	1H IN PTR	arsenic.wikimedia.org.
+63	1H IN PTR	virt1000.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
@@ -74,7 +75,6 @@ $ORIGIN $zonename.
 153	1H IN PTR	silver.wikimedia.org.
 154	1H IN PTR	analytics1001.wikimedia.org.
 155	1H IN PTR	stat1001.wikimedia.org.
-156	1H IN PTR	virt1000.wikimedia.org.
 
 ; Neighbor blocks (208.80.154.192/27)
 
