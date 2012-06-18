@@ -2231,7 +2231,7 @@ $ORIGIN 3.65.$zonename.
 27	1H	IN PTR		WMF3292.mgmt.eqiad.wmnet.
 28	1H	IN PTR		vanadium.mgmt.eqiad.wmnet.
 28	1H	IN PTR		WMF3291.mgmt.eqiad.wmnet.
-29	1H	IN PTR		titanium.mgmt.eqiad.wmnet.
+29	1H	IN PTR		virt1000.mgmt.eqiad.wmnet.
 29	1H	IN PTR		WMF3290.mgmt.eqiad.wmnet.
 30	1H	IN PTR		bast1001.mgmt.eqiad.wmnet.
 30	1H	IN PTR		WMF3289.mgmt.eqiad.wmnet.
