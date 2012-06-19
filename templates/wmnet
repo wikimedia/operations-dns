@@ -679,6 +679,8 @@ ms4			1H	IN A		10.1.7.4
 ms5			1H	IN A		10.1.7.5
 ms7			1H	IN A		10.1.7.6
 ms8			1H	IN A		10.1.7.7
+ms9			1H	IN A		10.1.7.8
+ms10			1H	IN A		10.1.7.9
 ms-be1			1H	IN A		10.1.7.21
 ms-be2			1H	IN A		10.1.7.22
 ms-be3			1H	IN A		10.1.7.23

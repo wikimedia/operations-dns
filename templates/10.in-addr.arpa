@@ -791,6 +791,8 @@ $ORIGIN 7.1.$zonename.
 5	1H	IN PTR ms5.mgmt.pmtpa.wmnet.
 6	1H	IN PTR ms7.mgmt.pmtpa.wmnet.
 7	1H	IN PTR ms8.mgmt.pmtpa.wmnet.
+8	1H	IN PTR ms9.mgmt.pmtpa.wmnet.
+9	1H	IN PTR ms10.mgmt.pmtpa.wmnet.
 11	1H	IN PTR es1.mgmt.pmtpa.wmnet.
 12	1H	IN PTR es2.mgmt.pmtpa.wmnet.
 13	1H	IN PTR es3.mgmt.pmtpa.wmnet.
