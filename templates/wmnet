@@ -190,6 +190,9 @@ virt2			1H	IN A		10.4.16.3
 virt3			1H	IN A		10.4.16.4
 virt4			1H	IN A		10.4.16.5
 virt5			1H	IN A		10.4.16.6
+virt6			1H	IN A		10.4.16.7
+virt7			1H	IN A		10.4.16.8
+virt8			1H	IN A		10.4.16.9
 webster			1H	IN A		10.0.0.23
 zwinger			1H	IN A		10.0.0.4
 zwinger2		1H	IN A		10.0.0.34
