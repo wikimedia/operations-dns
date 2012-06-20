@@ -378,7 +378,7 @@ csw2-esams		1H	IN A	91.198.174.244
 
 csw1-sdtpa		1H	IN A	208.80.152.193
 
-mr1-pmtpa		1H	IN A	84.40.25.242
+mr1-pmtpa		1H	IN A	216.87.189.242
 
 vl2-eth0.lvs1		1H	IN A	10.0.0.11
 vl2-eth0.lvs2		1H	IN A	10.0.0.12
