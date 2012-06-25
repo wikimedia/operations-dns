@@ -34,6 +34,33 @@ $ORIGIN $zonename.
 17	1H IN PTR	nitrogen.wikimedia.org.
 18	1H IN PTR	virt1000.wikimedia.org.
 19	1H IN PTR	labs-ns1.wikimedia.org.
+20	1H IN PTR	cp1061.wikimedia.org.
+21	1H IN PTR	cp1062.wikimedia.org.
+22	1H IN PTR	cp1063.wikimedia.org.
+23	1H IN PTR	cp1064.wikimedia.org.
+24	1H IN PTR	cp1065.wikimedia.org.
+25	1H IN PTR	cp1066.wikimedia.org.
+26	1H IN PTR	cp1067.wikimedia.org.
+27	1H IN PTR	cp1068.wikimedia.org.
+28	1H IN PTR	cp1069.wikimedia.org.
+29	1H IN PTR	cp1070.wikimedia.org.
+30	1H IN PTR	cp1071.wikimedia.org.
+31	1H IN PTR	cp1072.wikimedia.org.
+32	1H IN PTR	cp1073.wikimedia.org.
+33	1H IN PTR	cp1074.wikimedia.org.
+34	1H IN PTR	cp1075.wikimedia.org.
+35	1H IN PTR	cp1076.wikimedia.org.
+36	1H IN PTR	cp1077.wikimedia.org.
+37	1H IN PTR	cp1078.wikimedia.org.
+38	1H IN PTR	cp1079.wikimedia.org.
+39	1H IN PTR	cp1080.wikimedia.org.
+40	1H IN PTR	cp1081.wikimedia.org.
+
+44	1H IN PTR	zirconium.wikimedia.org.
+46	1H IN PTR	boron.wikimedia.org.
+47	1H IN PTR	beryllium.wikimedia.org.
+49	1H IN PTR	helium.wikimedia.org.
+50	1H IN PTR	hydrogen.wikimedia.org.
 51	1H IN PTR	cp1041.wikimedia.org.
 52	1H IN PTR	cp1042.wikimedia.org.
 53	1H IN PTR	cp1043.wikimedia.org.
@@ -76,6 +103,23 @@ $ORIGIN $zonename.
 153	1H IN PTR	silver.wikimedia.org.
 154	1H IN PTR	analytics1001.wikimedia.org.
 155	1H IN PTR	stat1001.wikimedia.org.
+157	1H IN PTR	chromium.wikimedia.org.
+158	1H IN PTR	calcium.wikimedia.org.
+159	1H IN PTR	potassium.wikimedia.org.
+160	1H IN PTR	mobile1004.wikimedia.org.
+161	1H IN PTR	mobile1005.wikimedia.org.
+162	1H IN PTR	mobile1006.wikimedia.org.
+163	1H IN PTR	mobile1007.wikimedia.org.
+164	1H IN PTR	mobile1008.wikimedia.org.
+165	1H IN PTR	mobile1009.wikimedia.org.
+166	1H IN PTR	mobile1010.wikimedia.org.
+167	1H IN PTR	mobile1011.wikimedia.org.
+168	1H IN PTR	osm-cp1003.wikimedia.org.
+169	1H IN PTR	osm-cp1004.wikimedia.org.
+170	1H IN PTR	osm-cp1005.wikimedia.org.
+171	1H IN PTR	osm-cp1006.wikimedia.org.
+172	1H IN PTR	osm-cp1007.wikimedia.org.
+173	1H IN PTR	osm-cp1008.wikimedia.org.
 
 ; Neighbor blocks (208.80.154.192/27)
 
