@@ -51,3 +51,4 @@ donate			1H	IN CNAME	foundation-lb.wikimedia.org.
 blog			1H	IN CNAME	hooper.wikimedia.org.
 shop			1H	IN CNAME	wikimedia-lb.wikimedia.org.
 store			1H	IN CNAME	wikimedia-lb.wikimedia.org.
+m			1H	IN CNAME	m.wikimedia.org.
