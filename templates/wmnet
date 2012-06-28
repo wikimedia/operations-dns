@@ -1385,6 +1385,7 @@ lab-ex4200-1		1H	IN A		10.65.0.19
 asw2-a5-eqiad		1H	IN A		10.65.0.20
 psw1-eqiad		1H	IN A		10.65.0.21
 scs-c1-eqiad		1H	IN A		10.65.0.22
+asw-c-eqiad		1H	IN A		10.65.0.23
 
 ps1-a1-eqiad		1H	IN A		10.65.0.32
 ps1-a2-eqiad		1H	IN A		10.65.0.33
