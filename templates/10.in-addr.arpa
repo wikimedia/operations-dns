@@ -50,7 +50,10 @@ $ORIGIN 0.0.$zonename.
 202 	1H	IN PTR  ae0-2.cr2-pmtpa.wikimedia.org.
 
 219	1H	IN PTR	storage3.pmtpa.wmnet.
-220 	1H	IN PTR  scs.pmtpa.wmnet.
+
+221	1H	IN PTR	pc1.pmtpa.wmnet.
+222	1H	IN PTR	pc2.pmtpa.wmnet.
+223	1H	IN PTR	pc3.pmtpa.wmnet.
 
 225	1H	IN PTR	es1.pmtpa.wmnet.
 226	1H	IN PTR	es2.pmtpa.wmnet.
