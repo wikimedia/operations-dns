@@ -83,7 +83,6 @@ bast1001		1H	IN A	208.80.154.149
 bayes			1H	IN A	208.80.152.168
 bayle			1H	IN A	208.80.152.174
 beryllium		1H	IN A	208.80.154.47
-boron			1H	IN A	208.80.154.46
 brewster		1H	IN A	208.80.152.171
 browne			1H	IN A	208.80.152.180
 calcium			1H	IN A	208.80.154.158
