@@ -73,6 +73,12 @@ $ORIGIN $zonename.
 61	1H IN PTR	sodium.wikimedia.org.
 62	1H IN PTR	arsenic.wikimedia.org.
 
+; 208.80.154.64/26 (public1-c-eqiad) (.64 - .127)
+
+64	1H IN PTR	vrrp-gw-1003.wikimedia.org.
+65	1H IN PTR	ae3-1003.cr1-eqiad.wikimedia.org.
+66	1H IN PTR	ae3-1003.cr2-eqiad.wikimedia.org.
+
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
 129	1H IN PTR       vrrp-gw-1002.wikimedia.org.
