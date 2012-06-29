@@ -45,6 +45,7 @@ $ORIGIN 2.0.0.0.$zonename.
 
 3.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	niobium.wikimedia.org.
 5.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	stat1001.wikimedia.org.
+7.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	chromium.wikimedia.org.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1002.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1002.cr2-eqiad.wikimedia.org.
