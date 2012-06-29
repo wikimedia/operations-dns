@@ -2247,9 +2247,9 @@ $ORIGIN 3.65.$zonename.
 10	1H	IN PTR		WMF3141.mgmt.eqiad.wmnet.
 11	1H	IN PTR		boron.mgmt.eqiad.wmnet.
 11	1H	IN PTR		WMF3140.mgmt.eqiad.wmnet.
-12	1H	IN PTR		beryllium.mgmt.eqiad.wmnet.
+12	1H	IN PTR		pay-lvs1001.mgmt.eqiad.wmnet.
 12	1H	IN PTR		WMF3139.mgmt.eqiad.wmnet.
-13	1H	IN PTR		lithium.mgmt.eqiad.wmnet.
+13	1H	IN PTR		pay-lvs1002.mgmt.eqiad.wmnet.
 13	1H	IN PTR		WMF3138.mgmt.eqiad.wmnet.
 14	1H	IN PTR		helium.mgmt.eqiad.wmnet.
 14	1H	IN PTR		WMF3137.mgmt.eqiad.wmnet.
