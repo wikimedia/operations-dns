@@ -627,7 +627,7 @@ gdash			1H	IN CNAME	noc
 graphite		1H	IN CNAME	noc
 internproxy		1H	IN A		208.80.152.239
 ishmael			1H	IN CNAME	noc
-jobs			1H	IN CNAME	wikimediafoundation.org.
+jobs			1H	IN CNAME	wikimedia-lb
 labs-ns0		1H	IN A		208.80.152.33
 labs-ns1		1H	IN A		208.80.154.19
 labsconsole		1H	IN A		208.80.152.32
