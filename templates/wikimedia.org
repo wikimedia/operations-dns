@@ -74,6 +74,7 @@ recursor1		1H	IN A	208.80.152.132	; mchenry
 alsted			1H	IN A	208.80.152.232
 aluminium		1H	IN A	208.80.154.6
 aluminum		1H	IN CNAME aluminium
+americium		1H	IN A	208.80.154.175
 analytics1001		1H	IN A	208.80.154.154
 anthony			1H	IN A	208.80.152.181
 argon			1H	IN A	208.80.154.132
@@ -82,6 +83,7 @@ arsenic			1H	IN A	208.80.154.62
 bast1001		1H	IN A	208.80.154.149
 bayes			1H	IN A	208.80.152.168
 bayle			1H	IN A	208.80.152.174
+berkelium		1H	IN A	208.80.154.177
 beryllium		1H	IN A	208.80.154.47
 brewster		1H	IN A	208.80.152.171
 browne			1H	IN A	208.80.152.180
@@ -131,6 +133,7 @@ cp1078			1H	IN A	208.80.154.37
 cp1079			1H	IN A	208.80.154.38
 cp1080			1H	IN A	208.80.154.39
 cp1081			1H	IN A	208.80.154.40
+curium			1H	IN A	208.80.154.176
 dataset1		1H	IN A	208.80.152.166
 dataset2		1H	IN A	208.80.152.185
 dataset1001		1H	IN A	208.80.154.11
@@ -193,6 +196,7 @@ msfe-pmtpa-test		1H	IN A	208.80.152.112 ;owa1
 			1H	IN A	208.80.152.113 ;owa2
 			1H	IN A	208.80.152.114 ;owa3
 neon			1H	IN A	208.80.154.14
+neptunium		1H	IN A	208.80.154.48
 nickel			1H	IN A	208.80.154.150
 niobium			1H	IN A	208.80.154.143
 			1H	IN AAAA	2620:0:861:2:208:80:154:143
@@ -213,8 +217,10 @@ payments1		1H	IN A	208.80.152.11
 payments2		1H	IN A	208.80.152.12
 payments3		1H	IN A	208.80.152.13
 payments4		1H	IN A	208.80.152.14
+plutonium		1H	IN A	208.80.154.174
 potassium		1H	IN A	208.80.154.159
 project2		1H	IN A	208.80.152.152
+protractinium		1H	IN A	208.80.154.45
 pdf1			1H	IN A	208.80.152.155
 pdf2			1H	IN A	208.80.152.154
 pdf3			1H	IN A	208.80.152.181
@@ -303,8 +309,10 @@ storage2		1H	IN A	208.80.152.183
 			1H	IN AAAA	2620:0:860:2:230:48ff:fe5a:eb1e
 streber			1H	IN A	208.80.152.160
 technetium		1H	IN A	208.80.154.145
+thorium			1H	IN A	208.80.154.43
 transcode1		1H	IN A	208.80.153.130
 tridge			1H	IN A	208.80.152.170 ; Cold Backup Server
+uranium			1H	IN A	208.80.154.46
 virt0			1H	IN A	208.80.152.32
 virt1000		1H	IN A	208.80.154.18
 williams		1H	IN A	208.80.152.159
