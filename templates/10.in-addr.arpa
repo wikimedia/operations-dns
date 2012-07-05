@@ -211,8 +211,8 @@ $ORIGIN 6.0.$zonename.
 204	1H	IN PTR 	ms-be5.pmtpa.wmnet.
 205	1H	IN PTR 	ms-be6.pmtpa.wmnet.
 206	1H	IN PTR 	ms-be7.pmtpa.wmnet.
-207	1H	IN PTR 	ms-be7.pmtpa.wmnet.
-208	1H	IN PTR 	ms-be8.pmtpa.wmnet.
+207	1H	IN PTR 	ms-be8.pmtpa.wmnet.
+208	1H	IN PTR 	ms-be9.pmtpa.wmnet.
 209	1H	IN PTR 	ms-be10.pmtpa.wmnet.
 
 210	1H	IN PTR	ms-fe1.pmtpa.wmnet.
