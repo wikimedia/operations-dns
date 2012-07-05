@@ -209,10 +209,17 @@ $ORIGIN 6.0.$zonename.
 202	1H	IN PTR 	ms-be3.pmtpa.wmnet.
 203	1H	IN PTR 	ms-be4.pmtpa.wmnet.
 204	1H	IN PTR 	ms-be5.pmtpa.wmnet.
+205	1H	IN PTR 	ms-be6.pmtpa.wmnet.
+206	1H	IN PTR 	ms-be7.pmtpa.wmnet.
+207	1H	IN PTR 	ms-be7.pmtpa.wmnet.
+208	1H	IN PTR 	ms-be8.pmtpa.wmnet.
+209	1H	IN PTR 	ms-be10.pmtpa.wmnet.
 
 210	1H	IN PTR	ms-fe1.pmtpa.wmnet.
 211	1H	IN PTR	ms-fe2.pmtpa.wmnet.
-212	1H	IN PTR	ms-fe.pmtpa.wmnet.
+
+212	1H	IN PTR 	ms-be11.pmtpa.wmnet.
+213	1H	IN PTR 	ms-be12.pmtpa.wmnet.
 
 ; Temporary ex-fedora MySQL instances for external storage
 

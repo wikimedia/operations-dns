@@ -157,6 +157,13 @@ ms-be2			1H	IN A		10.0.6.201
 ms-be3			1H	IN A		10.0.6.202
 ms-be4			1H	IN A		10.0.6.203
 ms-be5			1H	IN A		10.0.6.204
+ms-be6			1H	IN A		10.0.6.205
+ms-be7			1H	IN A		10.0.6.206
+ms-be8			1H	IN A		10.0.6.207
+ms-be9			1H	IN A		10.0.6.208
+ms-be10			1H	IN A		10.0.6.209
+ms-be11			1H	IN A		10.0.6.212
+ms-be12			1H	IN A		10.0.6.213
 ms-fe			1H	IN A		10.2.1.27
 ms-fe1			1H	IN A		10.0.6.210
 ms-fe2			1H	IN A		10.0.6.211
