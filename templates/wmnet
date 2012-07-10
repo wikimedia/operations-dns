@@ -167,6 +167,8 @@ ms-be12			1H	IN A		10.0.6.213
 ms-fe			1H	IN A		10.2.1.27
 ms-fe1			1H	IN A		10.0.6.210
 ms-fe2			1H	IN A		10.0.6.211
+ms-fe3			1H	IN A		10.0.6.214
+ms-fe4			1H	IN A		10.0.6.215
 ms-fe-rr		1H	IN A		10.0.6.210 ; round robin entry for ms-fe* hosts
 			1H	IN A		10.0.6.211 ; round robin entry for ms-fe* hosts
 mc1			1H	IN A		10.0.12.1
