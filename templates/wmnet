@@ -1006,6 +1006,14 @@ s6-secondary		5M	IN CNAME	db1006.eqiad.wmnet.
 s7-secondary		5M	IN CNAME	db1041.eqiad.wmnet.
 es1-secondary		5M	IN CNAME	es1001.eqiad.wmnet.
 
+s1-analytics-slave	5M	IN CNAME	db1047.eqiad.wmnet.
+s2-analytics-slave	5M	IN CNAME	db1002.eqiad.wmnet.
+s3-analytics-slave	5M	IN CNAME	db1003.eqiad.wmnet.
+s4-analytics-slave	5M	IN CNAME	db1004.eqiad.wmnet.
+s5-analytics-slave	5M	IN CNAME	db1021.eqiad.wmnet.
+s6-analytics-slave	5M	IN CNAME	db1040.eqiad.wmnet.
+s7-analytics-slave	5M	IN CNAME	db1024.eqiad.wmnet.
+
 ; Cameras
 cam1-a-eqiad		1H	IN A		10.64.0.27
 cam2-a-eqiad		1H	IN A		10.64.0.28
