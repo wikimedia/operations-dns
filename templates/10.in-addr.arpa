@@ -1741,6 +1741,14 @@ $ORIGIN 21.64.$zonename.
 122	1H IN PTR	analytics1022.eqiad.wmnet.
 123	1H IN PTR	vanadium.eqiad.wmnet.
 
+; 10.64.22.0/24 - analytics1-c-eqiad
+$ORIGIN 22.64.$zonename.
+
+1	1H IN PTR	vrrp-gw-1022.eqiad.wmnet.
+2	1H IN PTR	ae3-1022.cr1-eqiad.wikimedia.org.
+3	1H IN PTR	ae3-1022.cr2.eqiad.wikimedia.org.
+
+
 ; 10.64.32.0/22 - private1-c-eqiad
 $ORIGIN 32.64.$zonename.
 
