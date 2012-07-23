@@ -404,6 +404,7 @@ m			1H	IN A	208.80.154.236 ; mobile eqiad LVS
 commons.m		1H	IN CNAME	m.wikimedia.org.
 incubator.m		1H	IN CNAME	m.wikimedia.org.
 meta.m			1H	IN CNAME	m.wikimedia.org.
+office.m		1H	IN CNAME	m.wikimedia.org.
 outreach.m		1H	IN CNAME	m.wikimedia.org.
 species.m		1H	IN CNAME	m.wikimedia.org.
 strategy.m		1H	IN CNAME	m.wikimedia.org.
