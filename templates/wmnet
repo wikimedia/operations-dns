@@ -538,6 +538,7 @@ asw-b-sdtpa		1H	IN A		10.1.1.11
 asw-b3-sdtpa		1H	IN A		10.1.1.12
 asw-b4-sdtpa		1H	IN A		10.1.1.13
 asw-b5-sdtpa		1H	IN A		10.1.1.14
+asw2-d3-sdtpa		1H	IN A		10.1.1.20
 asw-d-pmtpa		1H	IN A		10.1.1.21
 asw-d1-pmtpa		1H	IN A		10.1.1.22
 asw-d2-pmtpa		1H	IN A		10.1.1.23

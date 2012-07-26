@@ -602,9 +602,9 @@ $ORIGIN 1.$zonename.
 $ORIGIN 1.1.$zonename.
 
 3	1H	IN PTR	asw-c3-pmtpa.mgmt.pmtpa.wmnet.
-4	1H	IN PTR	asw-c4-pmtpa.mgmt.pmtpa.wmnet
+4	1H	IN PTR	asw-c4-pmtpa.mgmt.pmtpa.wmnet.
 5	1H	IN PTR	asw-d2-sdtpa.mgmt.pmtpa.wmnet.
-6	1H	IN PTR	asw-d1-sdtpa.mgmt.pmtpa.wmnet
+6	1H	IN PTR	asw-d1-sdtpa.mgmt.pmtpa.wmnet.
 7	1H	IN PTR	asw-a2-pmtpa.mgmt.pmtpa.wmnet.
 8	1H	IN PTR	asw-d3-sdtpa.mgmt.pmtpa.wmnet.
 9	1H	IN PTR	asw-a4-sdtpa.mgmt.pmtpa.wmnet.
@@ -618,6 +618,7 @@ $ORIGIN 1.1.$zonename.
 17	1H	IN PTR	cr1-sdtpa.mgmt.pmtpa.wmnet.
 18	1H	IN PTR	cr2-pmtpa.mgmt.pmtpa.wmnet.
 19	1H	IN PTR	csw1-sdtpa.mgmt.pmtpa.wmnet.
+20	1H	IN PTR	asw2-d3-sdtpa.mgmt.pmtpa.wmnet.
 
 21	1H	IN PTR	asw-d-pmtpa.mgmt.pmtpa.wmnet.
 22	1H	IN PTR	asw-d1-pmtpa.mgmt.pmtpa.wmnet.
