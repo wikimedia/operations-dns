@@ -31,7 +31,8 @@ $ORIGIN 0.0.$zonename.
 
 24	1H	IN PTR	stafford.pmtpa.wmnet.
 25	1H	IN PTR	erzurumi.pmtpa.wmnet.
-
+26	1H	IN PTR	tmh1.pmtpa.wmnet.
+27	1H	IN PTR	tmh2.pmtpa.wmnet.
 28	1H	IN PTR	lvs5.pmtpa.wmnet.
 29	1H	IN PTR	lvs6.pmtpa.wmnet.
 31  	1H	IN PTR  bayle.pmtpa.wmnet.
