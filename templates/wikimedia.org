@@ -510,6 +510,8 @@ tstracker		1H	IN CNAME	tracker.ts.wikimedia.org. ; toolserver BT tracker
 
 url-downloader		1H	IN A		208.80.152.143	; linne
 
+wlm			1H	IN CNAME	yttrium
+
 ; Wikis (alphabetic order)
 
 advisory		1H	IN CNAME	wikimedia-lb
