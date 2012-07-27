@@ -57,7 +57,7 @@ $ORIGIN $zonename.
 40	1H IN PTR	cp1081.wikimedia.org.
 
 43	1H IN PTR	thorium.wikimedia.org.
-44	1H IN PTR	zirconium.wikimedia.org.
+
 45	1H IN PTR	protactinium.wikimedia.org.
 46	1H IN PTR	uranium.wikimedia.org.
 47	1H IN PTR	beryllium.wikimedia.org.
@@ -113,7 +113,7 @@ $ORIGIN $zonename.
 155	1H IN PTR	stat1001.wikimedia.org.
 157	1H IN PTR	chromium.wikimedia.org.
 158	1H IN PTR	calcium.wikimedia.org.
-159	1H IN PTR	potassium.wikimedia.org.
+
 160	1H IN PTR	mobile1004.wikimedia.org.
 161	1H IN PTR	mobile1005.wikimedia.org.
 162	1H IN PTR	mobile1006.wikimedia.org.

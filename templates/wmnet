@@ -1374,6 +1374,7 @@ osm-web1004		1H	IN A		10.64.16.149
 oxygen			1H	IN A		10.64.0.163
 palladium		1H	IN A		10.64.16.147
 			1H	IN AAAA		2620:0:861:102:10:64:16:147
+potassium		1H	IN A		10.64.16.152
 search1001		1H	IN A		10.64.0.95
 search1002		1H	IN A		10.64.0.96
 search1003		1H	IN A		10.64.0.97
@@ -1416,6 +1417,7 @@ virt1005		1H	IN A		10.64.20.8
 virt1006		1H	IN A		10.64.20.9
 virt1007		1H	IN A		10.64.20.10
 virt1008		1H	IN A		10.64.20.11
+zirconium		1H	IN A		10.64.0.21
 
 ; Management
 
