@@ -167,6 +167,7 @@ ms4			1H	IN A		10.0.0.251
 ms5			1H	IN A		10.0.0.252
 ms7			1H	IN A		10.0.0.246
 ms8			1H	IN A		10.0.0.229
+ms10			1H	IN A		10.0.0.34
 ms-be1			1H	IN A		10.0.6.200
 ms-be2			1H	IN A		10.0.6.201
 ms-be3			1H	IN A		10.0.6.202
