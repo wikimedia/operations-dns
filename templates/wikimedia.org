@@ -406,6 +406,7 @@ outreach.m		1H	IN CNAME	m.wikimedia.org.
 species.m		1H	IN CNAME	m.wikimedia.org.
 strategy.m		1H	IN CNAME	m.wikimedia.org.
 wikimania2012.m		1H	IN CNAME	m.wikimedia.org.
+wikimania2013.m		1H	IN CNAME	m.wikimedia.org.
 
 owa			1H	IN A	208.80.152.6
 
