@@ -1444,6 +1444,9 @@ psw1-eqiad		1H	IN A		10.65.0.21
 scs-c1-eqiad		1H	IN A		10.65.0.22
 asw-c-eqiad		1H	IN A		10.65.0.23
 
+pfw1-eqiad		1H	IN A		10.65.0.25
+pfw2-eqiad		1H	IN A		10.65.0.26
+
 ps1-a1-eqiad		1H	IN A		10.65.0.32
 ps1-a2-eqiad		1H	IN A		10.65.0.33
 ps1-a3-eqiad		1H	IN A		10.65.0.34
