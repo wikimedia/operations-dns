@@ -1524,6 +1524,8 @@ $ORIGIN 0.64.$zonename.
 174	1H IN PTR	ms-be1002.eqiad.wmnet.
 175	1H IN PTR	ms-be1003.eqiad.wmnet.
 176	1H IN PTR	ms-be1004.eqiad.wmnet.
+177	1H IN PTR	ms-be1006.eqiad.wmnet.
+178	1H IN PTR	ms-be1012.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
@@ -1768,11 +1770,10 @@ $ORIGIN 32.64.$zonename.
 10      1H IN PTR       ms-be1005.eqiad.wmnet.
 11      1H IN PTR       ms-be1006.eqiad.wmnet.
 12      1H IN PTR       ms-be1007.eqiad.wmnet.
-13      1H IN PTR       ms-be1008.eqiad.wmnet.
+
 14      1H IN PTR       ms-be1009.eqiad.wmnet.
 15      1H IN PTR       ms-be1010.eqiad.wmnet.
 16      1H IN PTR       ms-be1011.eqiad.wmnet.
-17      1H IN PTR       ms-be1012.eqiad.wmnet.
 
 ; 10.64.36.0/24 - labs-hosts1-c-eqiad
 $ORIGIN 36.64.$zonename.
