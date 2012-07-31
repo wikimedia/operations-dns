@@ -77,6 +77,9 @@ $ORIGIN 1.0.1.0.$zonename.
 8.5.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1036.eqiad.wmnet.
 
 9.6.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1041.eqiad.wmnet.
+0.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1042.eqiad.wmnet.
+1.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1043.eqiad.wmnet.
+2.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1044.eqiad.wmnet.
 
 6.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	strontium.eqiad.wmnet.
 
