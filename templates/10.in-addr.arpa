@@ -1524,7 +1524,7 @@ $ORIGIN 0.64.$zonename.
 174	1H IN PTR	ms-be1002.eqiad.wmnet.
 175	1H IN PTR	ms-be1003.eqiad.wmnet.
 176	1H IN PTR	ms-be1004.eqiad.wmnet.
-177	1H IN PTR	ms-be1006.eqiad.wmnet.
+177	1H IN PTR	ms-be1008.eqiad.wmnet.
 178	1H IN PTR	ms-be1012.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
