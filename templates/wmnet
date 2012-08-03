@@ -2364,7 +2364,7 @@ br1-knams       1H      IN A            145.97.39.134
 
 ; PMTPA SERVICES
 
-$ORIGIN .svc.pmtpa.wmnet.
+$ORIGIN svc.pmtpa.wmnet.
 
 appservers 	1H 	IN A 		10.2.1.1
 search-pool1 	1H 	IN A 		10.2.1.11
@@ -2380,7 +2380,7 @@ ms-fe		1H 	IN A 		10.2.1.27
 
 ; EQIAD SERVICES
 
-$ORIGIN .svc.eqiad.wmnet.
+$ORIGIN svc.eqiad.wmnet.
 
 appservers 	1H 	IN A 		10.2.2.1
 search-pool1 	1H 	IN A 		10.2.2.11
@@ -2398,7 +2398,7 @@ ms-fe		1H 	IN A 		10.2.2.27
 
 ; ESAMS SERVICES
 
-$ORIGIN .svc.esams.wmnet.
+$ORIGIN svc.esams.wmnet.
 
 bits 		1H 	IN A 		10.2.3.23
 upload 		1H 	IN A 		10.2.3.24
