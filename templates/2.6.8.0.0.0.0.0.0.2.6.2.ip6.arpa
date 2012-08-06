@@ -183,6 +183,12 @@ $ORIGIN 4.0.e.f.$zonename.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ve2.te-8-1.csw1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       403.te-0-1-0-0.csw2-esams.wikimedia.org.
 
+; csw1-esams <--> cr1-esams (2620:0:862:fe05::/64)
+
+$ORIGIN 5.0.e.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	xe-0-0-3-0.cr1-esams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	te-6-1.csw1-esams.wikimedia.org.
 
 ; Loopback IPs
 
