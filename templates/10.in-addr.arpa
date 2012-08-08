@@ -1759,7 +1759,11 @@ $ORIGIN 22.64.$zonename.
 1	1H IN PTR	vrrp-gw-1022.eqiad.wmnet.
 2	1H IN PTR	ae3-1022.cr1-eqiad.wikimedia.org.
 3	1H IN PTR	ae3-1022.cr2.eqiad.wikimedia.org.
-
+123	1H IN PTR	analytics1023.eqiad.wmnet.
+124     1H IN PTR       analytics1024.eqiad.wmnet.
+125     1H IN PTR       analytics1025.eqiad.wmnet.
+126     1H IN PTR       analytics1026.eqiad.wmnet.
+127     1H IN PTR       analytics1027.eqiad.wmnet.
 
 ; 10.64.32.0/22 - private1-c-eqiad
 $ORIGIN 32.64.$zonename.
@@ -1781,6 +1785,17 @@ $ORIGIN 36.64.$zonename.
 1       1H IN PTR       vrrp-gw-1119.eqiad.wmnet.
 2       1H IN PTR       ae3-1119.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae3-1119.cr2-eqiad.wikimedia.org.
+
+; 10.64.40.0/23 - frack subnets
+$ORIGIN 40.64.$zonename.
+
+; 10.64.40.0/27 - frack-payments1-c-eqiad
+
+; 10.64.40.32/27 - frack-bastion1-c-eqiad
+
+; 10.64.40.64/27 - frack-administration1-c-eqiad
+
+; 10.64.40.96/27 - frack-fundraising1-c-eqiad
 
 ; 10.64.48.0/22 - private1-d-eqiad
 $ORIGIN 48.64.$zonename.
