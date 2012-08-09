@@ -1741,8 +1741,22 @@ $ORIGIN 21.64.$zonename.
 110	1H IN PTR	analytics1010.eqiad.wmnet.
 123	1H IN PTR	vanadium.eqiad.wmnet.
 
-; 10.64.22.0/24 - analytics1-c-eqiad
-$ORIGIN 22.64.$zonename.
+; 10.64.32.0/22 - private1-c-eqiad
+$ORIGIN 32.64.$zonename.
+
+1	1H IN PTR	vrrp-gw-1019.eqiad.wmnet.
+2       1H IN PTR       ae1-1019.cr1-eqiad.wikimedia.org.
+3       1H IN PTR       ae1-1019.cr2-eqiad.wikimedia.org.
+10      1H IN PTR       ms-be1005.eqiad.wmnet.
+11      1H IN PTR       ms-be1006.eqiad.wmnet.
+12      1H IN PTR       ms-be1007.eqiad.wmnet.
+
+14      1H IN PTR       ms-be1009.eqiad.wmnet.
+15      1H IN PTR       ms-be1010.eqiad.wmnet.
+16      1H IN PTR       ms-be1011.eqiad.wmnet.
+
+; 10.64.36.0/24 - analytics1-c-eqiad
+$ORIGIN 36.64.$zonename.
 
 1	1H IN PTR	vrrp-gw-1022.eqiad.wmnet.
 2	1H IN PTR	ae3-1022.cr1-eqiad.wikimedia.org.
@@ -1765,22 +1779,8 @@ $ORIGIN 22.64.$zonename.
 126     1H IN PTR       analytics1026.eqiad.wmnet.
 127     1H IN PTR       analytics1027.eqiad.wmnet.
 
-; 10.64.32.0/22 - private1-c-eqiad
-$ORIGIN 32.64.$zonename.
-
-1	1H IN PTR	vrrp-gw-1019.eqiad.wmnet.
-2       1H IN PTR       ae1-1019.cr1-eqiad.wikimedia.org.
-3       1H IN PTR       ae1-1019.cr2-eqiad.wikimedia.org.
-10      1H IN PTR       ms-be1005.eqiad.wmnet.
-11      1H IN PTR       ms-be1006.eqiad.wmnet.
-12      1H IN PTR       ms-be1007.eqiad.wmnet.
-
-14      1H IN PTR       ms-be1009.eqiad.wmnet.
-15      1H IN PTR       ms-be1010.eqiad.wmnet.
-16      1H IN PTR       ms-be1011.eqiad.wmnet.
-
-; 10.64.36.0/24 - labs-hosts1-c-eqiad
-$ORIGIN 36.64.$zonename.
+; 10.64.37.0/24 - labs-hosts1-c-eqiad
+$ORIGIN 37.64.$zonename.
 
 1       1H IN PTR       vrrp-gw-1119.eqiad.wmnet.
 2       1H IN PTR       ae3-1119.cr1-eqiad.wikimedia.org.
