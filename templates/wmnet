@@ -2287,6 +2287,19 @@ WMF3429		1H	IN A	10.65.3.54
 payments1004	1H	IN A	10.65.3.46
 WMF3421		1H	IN A	10.65.3.46
 
+; EQIAD Fundraising/Payments 
+
+$ORIGIN frack.eqiad.$zonename.
+boron           1H      IN A    10.64.40.66
+indium          1H      IN A    10.64.40.67
+pay-lvs1001     1H      IN A    10.64.40.20
+pay-lvs1002     1H      IN A    10.64.40.21
+payments1001    1H      IN A    10.64.40.5
+payments1002    1H      IN A    10.64.40.6
+payments1003    1H      IN A    10.64.40.7
+payments1004    1H      IN A    10.64.40.7
+;silicon        1H      IN A    10.64.40.98
+
 ;
 ; ESAMS
 ;
