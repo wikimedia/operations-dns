@@ -448,6 +448,9 @@ vl2-eth0.lvs6		1H	IN A	10.0.0.16
 
 csw1-knams		1H	IN CNAME	csw1-esams
 
+pfw1-eqiad		1H	IN A	208.80.154.218
+pfw2-eqiad		1H	IN A	208.80.154.219
+
 ; Access switches
 
 asw-c3-pmtpa		1H	IN A	10.1.1.3
