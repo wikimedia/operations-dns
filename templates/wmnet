@@ -68,10 +68,6 @@ bellin			1H	IN A		10.0.6.100
 blondel			1H	IN A		10.0.6.101
 biruni			1H	IN A		10.0.0.25
 coronelli		1H	IN A		10.0.0.230
-db1			1H	IN A		10.0.0.234
-db2			1H	IN A		10.0.0.235
-db3			1H	IN A		10.0.0.236
-db4			1H	IN A		10.0.0.237
 db5			1H	IN A		10.0.0.238
 db7			1H	IN A		10.0.0.240
 db8			1H	IN A		10.0.0.241
@@ -149,6 +145,10 @@ es1			1H	IN A		10.0.0.225
 es2			1H	IN A		10.0.0.226
 es3			1H	IN A		10.0.0.227
 es4			1H	IN A		10.0.0.228
+es5			1H	IN A		10.0.0.234
+es6			1H	IN A		10.0.0.235
+es7			1H	IN A		10.0.0.236
+es8			1H	IN A		10.0.0.237
 ixia			1H	IN A		10.0.0.231
 projectstorage		1H	IN A		10.0.0.41
 			1H	IN A		10.0.0.42
