@@ -224,7 +224,6 @@ pdf3			1H	IN A	208.80.152.181
 raskin.usability	1H	IN A	208.80.152.253
 tarin			1H	IN A	208.80.152.174
 sanger			1H	IN A	208.80.152.187
-selenium		1H	IN A	208.80.154.63
 silicon			1H	IN A	208.80.154.7
 silver			1H	IN A	208.80.154.153
 singer			1H	IN A	208.80.152.162
