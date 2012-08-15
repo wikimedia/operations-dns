@@ -149,6 +149,8 @@ es5			1H	IN A		10.0.0.234
 es6			1H	IN A		10.0.0.235
 es7			1H	IN A		10.0.0.236
 es8			1H	IN A		10.0.0.237
+es9                     1H      IN A            10.0.0.220
+es10                    1H      IN A            10.0.0.224
 ixia			1H	IN A		10.0.0.231
 projectstorage		1H	IN A		10.0.0.41
 			1H	IN A		10.0.0.42
@@ -675,6 +677,8 @@ es5			1H	IN A		10.1.7.15
 es6			1H	IN A		10.1.7.16
 es7			1H	IN A		10.1.7.17
 es8			1H	IN A		10.1.7.18
+es9                     1H      IN A            10.1.7.19
+es10                    1H      IN A            10.1.7.20
 fenari			1H	IN A		10.1.8.7
 formey			1H	IN A		10.1.8.32
 gilman			1H	IN A		10.1.8.38
