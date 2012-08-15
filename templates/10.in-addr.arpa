@@ -67,10 +67,10 @@ $ORIGIN 0.0.$zonename.
 231 	1H	IN PTR  ixia.pmtpa.wmnet.
 232 	1H	IN PTR  thistle.pmtpa.wmnet.
 233 	1H	IN PTR  lomaria.pmtpa.wmnet.
-234 	1H	IN PTR  db1.pmtpa.wmnet.
-235 	1H	IN PTR  db2.pmtpa.wmnet.
-236 	1H	IN PTR  db3.pmtpa.wmnet.
-237 	1H	IN PTR  db4.pmtpa.wmnet.
+234 	1H	IN PTR  es5.pmtpa.wmnet.
+235 	1H	IN PTR  es6.pmtpa.wmnet.
+236 	1H	IN PTR  es7.pmtpa.wmnet.
+237 	1H	IN PTR  es8.pmtpa.wmnet.
 238	1H	IN PTR	db5.pmtpa.wmnet.
 239	1H	IN PTR	db6.pmtpa.wmnet.
 240	1H	IN PTR	db7.pmtpa.wmnet.
