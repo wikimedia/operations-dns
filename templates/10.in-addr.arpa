@@ -1369,7 +1369,7 @@ $ORIGIN 0.64.$zonename.
 18	1H IN PTR	db1014.eqiad.wmnet.
 19	1H IN PTR	db1015.eqiad.wmnet.
 20	1H IN PTR	db1016.eqiad.wmnet.
-21	1H IN PTR	zirconium.eqiad.wmnet.
+
 22	1H IN PTR	ms1002.eqiad.wmnet.
 23	1H IN PTR	ms1003.eqiad.wmnet.
 24	1H IN PTR	ms1004.eqiad.wmnet.

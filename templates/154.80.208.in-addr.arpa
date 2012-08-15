@@ -55,6 +55,7 @@ $ORIGIN $zonename.
 38	1H IN PTR	cp1079.wikimedia.org.
 39	1H IN PTR	cp1080.wikimedia.org.
 40	1H IN PTR	cp1081.wikimedia.org.
+41	1H IN PRT	zirconium.wikimedia.org.
 
 43	1H IN PTR	thorium.wikimedia.org.
 
