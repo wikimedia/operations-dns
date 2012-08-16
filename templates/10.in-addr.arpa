@@ -1698,6 +1698,8 @@ $ORIGIN 16.64.$zonename.
 150	1H IN PTR	ms-fe1003.eqiad.wmnet.
 151	1H IN PTR	ms-fe1004.eqiad.wmnet.
 152	1H IN PTR	potassium.eqiad.wmnet.
+153	1H IN PTR	es1005.eqiad.wmnet.
+154	1H IN PTR	es1006.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 
@@ -1754,6 +1756,10 @@ $ORIGIN 32.64.$zonename.
 14      1H IN PTR       ms-be1009.eqiad.wmnet.
 15      1H IN PTR       ms-be1010.eqiad.wmnet.
 16      1H IN PTR       ms-be1011.eqiad.wmnet.
+17      1H IN PTR       es1007.eqiad.wmnet.
+18      1H IN PTR       es1008.eqiad.wmnet.
+19      1H IN PTR       es1009.eqiad.wmnet.
+20      1H IN PTR       es1010.eqiad.wmnet.
 
 ; 10.64.36.0/24 - analytics1-c-eqiad
 $ORIGIN 36.64.$zonename.
@@ -2508,6 +2514,18 @@ $ORIGIN 4.65.$zonename.
 3	1H	IN PTR		WMF3270.mgmt.eqiad.wmnet.
 4	1H	IN PTR		es1004.mgmt.eqiad.wmnet.
 4	1H	IN PTR		WMF3303.mgmt.eqiad.wmnet.
+5	1H	IN PTR		es1005.mgmt.eqiad.wmnet.
+5	1H	IN PTR		WMF4059.mgmt.eqiad.wmnet.
+6	1H	IN PTR		es1006.mgmt.eqiad.wmnet.
+6	1H	IN PTR		WMF4060.mgmt.eqiad.wmnet.
+7	1H	IN PTR		es1007.mgmt.eqiad.wmnet.
+7	1H	IN PTR		WMF4061.mgmt.eqiad.wmnet.
+8	1H	IN PTR		es1008.mgmt.eqiad.wmnet.
+8	1H	IN PTR		WMF4062.mgmt.eqiad.wmnet.
+9	1H	IN PTR		es1009.mgmt.eqiad.wmnet.
+9	1H	IN PTR		WMF4063.mgmt.eqiad.wmnet.
+10	1H	IN PTR		es1010.mgmt.eqiad.wmnet.
+10	1H	IN PTR		WMF4064.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.$zonename.
 
