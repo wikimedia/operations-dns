@@ -1083,6 +1083,7 @@ analytics1025            1H     IN A             10.64.36.125
 analytics1026            1H     IN A             10.64.36.126
 analytics1027            1H     IN A             10.64.36.127
 cadmium			 1H	IN A		 10.64.16.146
+cobalt			 1H	IN A		 10.64.16.143
 cp1001 			 1H	IN A		 10.64.0.123
 cp1002 			 1H	IN A		 10.64.0.124
 cp1003 			 1H	IN A		 10.64.0.125
@@ -1204,9 +1205,7 @@ es1007			1H	IN A		10.64.32.17
 es1008			1H	IN A		10.64.32.18
 es1009			1H	IN A		10.64.32.19
 es1010			1H	IN A		10.64.32.20
-
-cobalt			1H	IN A		10.64.16.143
-
+fluorine		1H	IN A		10.64.0.21
 ms1002			1H	IN A		10.64.0.22
 ms1003			1H	IN A		10.64.0.23
 ms1004			1H	IN A		10.64.0.24
