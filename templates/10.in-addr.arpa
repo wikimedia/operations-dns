@@ -2728,6 +2728,14 @@ $ORIGIN 8.65.$zonename.
 7	1H	IN PTR		WMF3177.mgmt.eqiad.wmnet.
 8	1H	IN PTR		mc1008.mgmt.eqiad.wmnet.
 8	1H	IN PTR		WMF3176.mgmt.eqiad.wmnet.
+9	1H	IN PTR		mc1009.mgmt.eqiad.wmnet.
+10	1H	IN PTR		mc1010.mgmt.eqiad.wmnet.
+11	1H	IN PTR		mc1011.mgmt.eqiad.wmnet.
+12	1H	IN PTR		mc1012.mgmt.eqiad.wmnet.
+13	1H	IN PTR		mc1013.mgmt.eqiad.wmnet.
+14	1H	IN PTR		mc1014.mgmt.eqiad.wmnet.
+15	1H	IN PTR		mc1015.mgmt.eqiad.wmnet.
+16	1H	IN PTR		mc1016.mgmt.eqiad.wmnet.
 
 ; Small assignments
 
