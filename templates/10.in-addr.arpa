@@ -625,6 +625,8 @@ $ORIGIN 1.1.$zonename.
 22	1H	IN PTR	asw-d1-pmtpa.mgmt.pmtpa.wmnet.
 23	1H	IN PTR	asw-d2-pmtpa.mgmt.pmtpa.wmnet.
 24	1H	IN PTR	asw-d3-pmtpa.mgmt.pmtpa.wmnet.
+25	1H	IN PTR	msw2-pmtpa.mgmt.pmtpa.wmnet.
+26	1H	IN PTR	msw2-sdtpa.mgmt.pmtpa.wmnet.
 
 ; Supportive management infrastructure
 

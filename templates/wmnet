@@ -530,6 +530,8 @@ scs-d1-pmtpa		1H	IN A		10.1.2.2
 mr1-pmtpa		1H	IN A		10.1.2.3
 msw1-pmtpa		1H	IN A		10.1.1.15
 msw1-sdtpa		1H	IN A		10.1.1.16
+msw2-pmtpa		1H	IN A		10.1.1.25
+msw2-sdtpa		1H	IN A		10.1.1.26
 
 asw-c3-pmtpa            1H      IN A		10.1.1.3
 asw-c4-pmtpa            1H      IN A		10.1.1.4
