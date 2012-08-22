@@ -17,5 +17,8 @@ $ORIGIN $zonename.
 ; 208.80.155.0/27 Frack Payments subnet
 
 1	1H IN PTR	vlan-1131.pfw-eqiad.wikimedia.org.
+2	1H IN PTR	pay-lvs1001.wikimedia.org.
+3	1H IN PTR	pay-lvs1002.wikimedia.org.
+4	1H IN PTR	boron.wikimedia.org.
 
 ; 208.80.155.128/25 Eqiad Labs virtualization subnet

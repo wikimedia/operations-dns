@@ -85,6 +85,7 @@ bayes			1H	IN A	208.80.152.168
 bayle			1H	IN A	208.80.152.174
 berkelium		1H	IN A	208.80.154.177
 beryllium		1H	IN A	208.80.154.47
+boron			1H	IN A	208.80.155.4
 brewster		1H	IN A	208.80.152.171
 browne			1H	IN A	208.80.152.180
 calcium			1H	IN A	208.80.154.158
@@ -210,6 +211,8 @@ owa1			1H	IN A	208.80.152.112
 owa2			1H	IN A	208.80.152.113
 owa3			1H	IN A	208.80.152.114
 oxygen			1H	IN A	208.80.154.15
+pay-lvs1001		1H	IN A	208.80.155.2
+pay-lvs1002		1H	IN A	208.80.155.3
 payments1		1H	IN A	208.80.152.11
 payments2		1H	IN A	208.80.152.12
 payments3		1H	IN A	208.80.152.13
