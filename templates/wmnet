@@ -46,7 +46,7 @@ search-pool1		1H	IN A		10.2.1.11
 search-pool2		1H	IN A		10.2.1.12
 search-pool3		1H	IN A		10.2.1.13
 ntp			1H	IN CNAME	linne.wikimedia.org.
-s1-master		5M	IN CNAME	db38.pmtpa.wmnet.
+s1-master		5M	IN CNAME	db63.pmtpa.wmnet.
 s2-master		5M	IN CNAME	db54.pmtpa.wmnet.
 s3-master		5M	IN CNAME	db39.pmtpa.wmnet.
 s4-master		5M	IN CNAME	db31.pmtpa.wmnet.
