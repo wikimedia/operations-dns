@@ -156,7 +156,7 @@ $ORIGIN $zonename.
 165	1H IN PTR	fenari.wikimedia.org.
 166	1H IN PTR	dataset1.wikimedia.org.
 167	1H IN PTR	linne.wikimedia.org.
-168	1H IN PTR	bayes.wikimedia.org.
+
 170	1H IN PTR	tridge.wikimedia.org.		; Cold Backup Server
 171	1H IN PTR	brewster.wikimedia.org.
 172	1H IN PTR	routionary.wikimedia.org.	; Decommission soon
