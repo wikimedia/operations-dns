@@ -683,7 +683,7 @@ search			1H	IN CNAME	ekrem
 shop			1H	IN CNAME	shopwikipedia.myshopify.com.
 smokeping		1H	IN CNAME	calcium.wikimedia.org.
 store			1H	IN CNAME	wikimedia-lb
-stats			1H	IN CNAME	spence
+stats			1H	IN CNAME	stat1001
 status			1H	IN CNAME	status.watchmouse.com.
 survey			1H	IN CNAME	argon.wikimedia.org.
 testblog		1H	IN CNAME	marmontel.wikimedia.org.
