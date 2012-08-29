@@ -1699,7 +1699,7 @@ $ORIGIN 16.64.$zonename.
 149	1H IN PTR	osm-web1004.eqiad.wmnet.
 150	1H IN PTR	ms-fe1003.eqiad.wmnet.
 151	1H IN PTR	ms-fe1004.eqiad.wmnet.
-152	1H IN PTR	potassium.eqiad.wmnet.
+
 153	1H IN PTR	es1005.eqiad.wmnet.
 154	1H IN PTR	es1006.eqiad.wmnet.
 
