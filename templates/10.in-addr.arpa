@@ -1528,6 +1528,7 @@ $ORIGIN 0.64.$zonename.
 176	1H IN PTR	ms-be1004.eqiad.wmnet.
 177	1H IN PTR	ms-be1008.eqiad.wmnet.
 178	1H IN PTR	ms-be1012.eqiad.wmnet.
+179	1H IN PTR	helium.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
@@ -1699,7 +1700,7 @@ $ORIGIN 16.64.$zonename.
 149	1H IN PTR	osm-web1004.eqiad.wmnet.
 150	1H IN PTR	ms-fe1003.eqiad.wmnet.
 151	1H IN PTR	ms-fe1004.eqiad.wmnet.
-
+152	1H IN PTR	potassium.eqiad.wmnet.
 153	1H IN PTR	es1005.eqiad.wmnet.
 154	1H IN PTR	es1006.eqiad.wmnet.
 

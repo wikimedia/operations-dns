@@ -1208,6 +1208,7 @@ es1008			1H	IN A		10.64.32.18
 es1009			1H	IN A		10.64.32.19
 es1010			1H	IN A		10.64.32.20
 fluorine		1H	IN A		10.64.0.21
+helium			1H	IN A		10.64.0.179
 ms1002			1H	IN A		10.64.0.22
 ms1003			1H	IN A		10.64.0.23
 ms1004			1H	IN A		10.64.0.24
@@ -1395,6 +1396,7 @@ osm-web1004		1H	IN A		10.64.16.149
 oxygen			1H	IN A		10.64.0.163
 palladium		1H	IN A		10.64.16.147
 			1H	IN AAAA		2620:0:861:102:10:64:16:147
+potassium		1H	IN A		10.64.16.152
 search1001		1H	IN A		10.64.0.95
 search1002		1H	IN A		10.64.0.96
 search1003		1H	IN A		10.64.0.97
