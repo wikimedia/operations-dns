@@ -29,6 +29,7 @@ $ORIGIN 0.0.$zonename.
 15	1H	IN PTR	vl2-eth0.lvs5.wikimedia.org.
 16	1H	IN PTR	vl2-eth0.lvs6.wikimedia.org.
 
+22	1H	IN PTR	ersch.pmtpa.wmnet.
 23	1H	IN PTR	wtp1.pmtpa.wmnet.
 24	1H	IN PTR	stafford.pmtpa.wmnet.
 25	1H	IN PTR	erzurumi.pmtpa.wmnet.
@@ -37,15 +38,12 @@ $ORIGIN 0.0.$zonename.
 28	1H	IN PTR	lvs5.pmtpa.wmnet.
 29	1H	IN PTR	lvs6.pmtpa.wmnet.
 31  	1H	IN PTR  bayle.pmtpa.wmnet.
-33  	1H	IN PTR  amane.pmtpa.wmnet.
 
 41	1H	IN PTR	labstore1.pmtpa.wmnet.
 42	1H	IN PTR	labstore2.pmtpa.wmnet.
 43	1H	IN PTR	labstore3.pmtpa.wmnet.
 44	1H	IN PTR	labstore4.pmtpa.wmnet.
 
-101 	1H	IN PTR  adler.pmtpa.wmnet.
-102 	1H	IN PTR  samuel.pmtpa.wmnet.
 
 200 	1H	IN PTR  vrrp-gw-2.pmtpa.wmnet.
 201 	1H	IN PTR  ae0-2.cr1-sdtpa.wikimedia.org.
@@ -62,10 +60,7 @@ $ORIGIN 0.0.$zonename.
 227	1H	IN PTR	es3.pmtpa.wmnet.
 228	1H	IN PTR	es4.pmtpa.wmnet.
 229	1H	IN PTR	ms8.pmtpa.wmnet.
-230 	1H	IN PTR  coronelli.pmtpa.wmnet.
-231 	1H	IN PTR  ixia.pmtpa.wmnet.
-232 	1H	IN PTR  thistle.pmtpa.wmnet.
-233 	1H	IN PTR  lomaria.pmtpa.wmnet.
+
 234 	1H	IN PTR  es5.pmtpa.wmnet.
 235 	1H	IN PTR  es6.pmtpa.wmnet.
 236 	1H	IN PTR  es7.pmtpa.wmnet.
