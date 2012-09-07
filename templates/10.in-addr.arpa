@@ -186,7 +186,7 @@ $ORIGIN 6.0.$zonename.
 77	1H	IN PTR	db67.pmtpa.wmnet.
 78	1H	IN PTR	db68.pmtpa.wmnet.
 79	1H	IN PTR	db69.pmtpa.wmnet.
-80	1H	IN PTR	db70.pmtpa.wmnet.
+
 81	1H	IN PTR	db71.pmtpa.wmnet.
 82	1H	IN PTR	db72.pmtpa.wmnet.
 83	1H	IN PTR	db73.pmtpa.wmnet.
@@ -219,6 +219,8 @@ $ORIGIN 6.0.$zonename.
 
 214	1H	IN PTR	ms-fe3.pmtpa.wmnet.
 215	1H	IN PTR	ms-fe4.pmtpa.wmnet.
+
+216	1H	IN PTR	ms-be13.pmtpa.wmnet.
 
 ; Temporary ex-fedora MySQL instances for external storage
 
@@ -813,6 +815,8 @@ $ORIGIN 6.1.$zonename.
 70	1H	IN PTR db60.mgmt.pmtpa.wmnet.
 71	1H	IN PTR db61.mgmt.pmtpa.wmnet.
 72	1H	IN PTR db62.mgmt.pmtpa.wmnet.
+
+80	1H	IN PTR ms-be13.mgmt.wmnet.
 
 ; Media Servers & SSL Servers & ES Servers & Memcached Servers
 $ORIGIN 7.1.$zonename.
