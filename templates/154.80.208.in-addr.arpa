@@ -166,6 +166,10 @@ $ORIGIN $zonename.
 218	1H IN PTR	pfw1-eqiad.wikimedia.org.
 219	1H IN PTR	pfw2-eqiad.wikimedia.org.
 
+;208.80.154.220/31 (cr2-eqiad <--> pfw2-eqiad)
+220	1H IN PTR	xe-5-0-3.cr2-eqiad.wikimedia.org.
+221	1H IN PTR	xe-15-0-0.pfw2-eqiad.wikimedia.org.
+
 ; LVS out-of-subnet service IPs
 
 224     1H IN PTR       wikimedia-lb.eqiad.wikimedia.org.
