@@ -56,6 +56,8 @@ s7-master		5M	IN CNAME	db37.pmtpa.wmnet.
 m1-master		5M	IN CNAME	blondel.pmtpa.wmnet.	
 m2-master		5M	IN CNAME	db48.pmtpa.wmnet.
 es1-master		5M	IN CNAME	es3.pmtpa.wmnet.
+es2-master		5M	IN CNAME	es5.pmtpa.wmnet.
+es3-master		5M	IN CNAME	es8.pmtpa.wmnet.
 
 ; Servers (alphabetic order)
 
@@ -1026,6 +1028,8 @@ s6-secondary		5M	IN CNAME	db1006.eqiad.wmnet.
 s7-secondary		5M	IN CNAME	db1041.eqiad.wmnet.
 m2-secondary		5M	IN CNAME	db1048.eqiad.wmnet.
 es1-secondary		5M	IN CNAME	es1001.eqiad.wmnet.
+es2-secondary		5M	IN CNAME	es1005.eqiad.wmnet.
+es3-secondary		5M	IN CNAME	es1008.eqiad.wmnet.
 
 s1-analytics-slave	5M	IN CNAME	db1047.eqiad.wmnet.
 s2-analytics-slave	5M	IN CNAME	db1002.eqiad.wmnet.
