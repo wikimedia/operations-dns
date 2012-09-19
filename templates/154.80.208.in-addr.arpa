@@ -103,8 +103,7 @@ $ORIGIN $zonename.
 144	1H IN PTR	molybdenum.wikimedia.org.
 145	1H IN PTR	technetium.wikimedia.org.
 146	1H IN PTR	copper.wikimedia.org.
-147	1H IN PTR	msfe1001.wikimedia.org.
-148	1H IN PTR	msfe1002.wikimedia.org.
+
 149	1H IN PTR	bast1001.wikimedia.org.
 150	1H IN PTR	nickel.wikimedia.org.
 151	1H IN PTR	iron.wikimedia.org.
@@ -112,6 +111,7 @@ $ORIGIN $zonename.
 153	1H IN PTR	silver.wikimedia.org.
 154	1H IN PTR	analytics1001.wikimedia.org.
 155	1H IN PTR	stat1001.wikimedia.org.
+
 157	1H IN PTR	chromium.wikimedia.org.
 158	1H IN PTR	calcium.wikimedia.org.
 
