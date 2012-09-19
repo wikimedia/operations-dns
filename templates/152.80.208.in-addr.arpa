@@ -96,6 +96,7 @@ $ORIGIN $zonename.
 96	1H IN PTR	sq86.wikimedia.org.
 
 99	1H IN PTR	ocg3.wikimedia.org.
+
 110	1H IN PTR	lvs5.wikimedia.org.
 111	1H IN PTR	lvs6.wikimedia.org.
 112	1H IN PTR	owa1.wikimedia.org.
@@ -103,7 +104,6 @@ $ORIGIN $zonename.
 114	1H IN PTR	owa3.wikimedia.org.
 115	1H IN PTR	capella.wikimedia.org.
 
-116	1H IN PTR	mobile2.wikimedia.org.
 117	1H IN PTR	ocg1.wikimedia.org.
 
 119	1H IN PTR 	ocg2.wikimedia.org.
@@ -124,7 +124,7 @@ $ORIGIN $zonename.
 132	1H IN PTR	recursor1.wikimedia.org.
 133	1H IN PTR	wiki-mail.wikimedia.org.
 134	1H IN PTR	secure.wikimedia.org.
-136	1H IN PTR	civicrm.wikimedia.org.
+
 137	1H IN PTR	torrus.wikimedia.org.
 138	1H IN PTR	locke.wikimedia.org.
 139	1H IN PTR	tampa.tech.wikimedia.org.
@@ -140,36 +140,29 @@ $ORIGIN $zonename.
 149	1H IN PTR	kaulen.wikimedia.org.
 150	1H IN PTR	marmontel.wikimedia.org.
 
-152	1H IN PTR	project2.wikimedia.org.	; Move to sandbox?
-153	1H IN PTR	owa1.wikimedia.org.
 154	1H IN PTR	pdf2.wikimedia.org.
 155	1H IN PTR	pdf1.wikimedia.org.
 
-157	1H IN PTR	owa2.wikimedia.org.
-158	1H IN PTR	ms5.wikimedia.org.
 159	1H IN PTR	williams.wikimedia.org.
 160	1H IN PTR	streber.wikimedia.org.
 161	1H IN PTR	spence.wikimedia.org.
 162	1H IN PTR	singer.wikimedia.org.
-163	1H IN PTR	loudon.wikimedia.org.
+
 164	1H IN PTR	grosley.wikimedia.org.
 165	1H IN PTR	fenari.wikimedia.org.
-166	1H IN PTR	dataset1.wikimedia.org.
+
 167	1H IN PTR	linne.wikimedia.org.
 
 170	1H IN PTR	tridge.wikimedia.org.		; Cold Backup Server
 171	1H IN PTR	brewster.wikimedia.org.
-172	1H IN PTR	routionary.wikimedia.org.	; Decommission soon
+
 173	1H IN PTR	dobson.wikimedia.org.
 174	1H IN PTR	tarin.wikimedia.org.
-176	1H IN PTR	gilman.wikimedia.org.
-177	1H IN PTR	owa3.wikimedia.org.
+
 178	1H IN PTR	ekrem.wikimedia.org.
-179	1H IN PTR	ekrem-old.wikimedia.org.
-180	1H IN PTR	payments.wikimedia.org.	; LVS
+
 181	1H IN PTR	pdf3.wikimedia.org.
-182	1H IN PTR	storage1.wikimedia.org.
-183	1H IN PTR	storage2.wikimedia.org.
+
 184	1H IN PTR	emery.wikimedia.org.
 185	1H IN PTR	dataset2.wikimedia.org.
 186	1H IN PTR	mchenry.wikimedia.org.
@@ -226,13 +219,12 @@ $ORIGIN $zonename.
 236	1H IN PTR	nova-controller.tesla.usability.wikimedia.org.
 237	1H IN PTR	mlqt.tesla.usability.wikimedia.org.
 239	1H IN PTR	internproxy.wikimedia.org.
+
 244	1H IN PTR	nomad.tesla.usability.wikimedia.org.
-245	1H IN PTR	mobile.tesla.usability.wikimedia.org.
-246	1H IN PTR	ci.tesla.usability.wikimedia.org.
-247	1H IN PTR	ci2.tesla.usability.wikimedia.org.
+
 248	1H IN PTR	prototype.tesla.usability.wikimedia.org.
 249	1H IN PTR	commonsprototype.tesla.usability.wikimedia.org.
-250	1H IN PTR	build.tesla.usability.wikimedia.org.
+
 251	1H IN PTR	tesla.mgmt.usability.wikimedia.org.
 252	1H IN PTR	tesla.usability.wikimedia.org.
 253	1H IN PTR	raskin.usability.wikimedia.org.
