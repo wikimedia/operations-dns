@@ -14,13 +14,4 @@ $ORIGIN $zonename.
                         1D      IN NS   ns1.wikimedia.org.     ; amaryllis
                         1D      IN NS   ns2.wikimedia.org.     ; pascal
 
-; Virtualization subnet 208.80.153.0/25 (208.80.153.0 - 108.80.153.127)
-; Public services subnet 208.80.153.128/26 (208.80.153.128 - 208.80.153.191)
-
-129     1H IN PTR       vrrp-gw-104.wikimedia.org.
-
-189	1H IN PTR	ae0-104.cr1-sdtpa.wikimedia.org.
-190	1H IN PTR	ae0-104.cr2-pmtpa.wikimedia.org.
-
-; Virtualization subnet 208.80.153.192/26 (208.80.153.192 - 208.80.153.255)
-
+; Virtualization subnet 208.80.153.128/25 (208.80.153.128 - 108.80.153.255)
