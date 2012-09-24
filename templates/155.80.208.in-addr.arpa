@@ -23,4 +23,11 @@ $ORIGIN $zonename.
 5	1H IN PTR	frack-payments-nat.wikimedia.org.
 6	1H IN PTR	frack-ubuntu-repo.wikimedia.org.
 
+; 208.80.155.32/27 Infrastructure block
+
+; 208.80.155.32/30 cr2-knams <-> cr2-eqiad GRE Tele2 tunnel
+
+33	1H IN PTR	gr-5-0-2.cr2-eqiad.wikimedia.org.
+34	1H IN PTR	gr-0-0-0.cr2-knams.wikimedia.org.
+
 ; 208.80.155.128/25 Eqiad Labs virtualization subnet
