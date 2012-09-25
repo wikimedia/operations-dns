@@ -1540,6 +1540,22 @@ $ORIGIN 0.64.$zonename.
 177	1H IN PTR	ms-be1008.eqiad.wmnet.
 178	1H IN PTR	ms-be1012.eqiad.wmnet.
 179	1H IN PTR	helium.eqiad.wmnet.
+180	1H IN PTR	mc1001.eqiad.wmnet.
+181	1H IN PTR	mc1002.eqiad.wmnet.
+182	1H IN PTR	mc1003.eqiad.wmnet.
+183	1H IN PTR	mc1004.eqiad.wmnet.
+184	1H IN PTR	mc1005.eqiad.wmnet.
+185	1H IN PTR	mc1006.eqiad.wmnet.
+186	1H IN PTR	mc1007.eqiad.wmnet.
+187	1H IN PTR	mc1008.eqiad.wmnet.
+188	1H IN PTR	mc1009.eqiad.wmnet.
+189	1H IN PTR	mc1010.eqiad.wmnet.
+190	1H IN PTR	mc1011.eqiad.wmnet.
+191	1H IN PTR	mc1012.eqiad.wmnet.
+192	1H IN PTR	mc1013.eqiad.wmnet.
+193	1H IN PTR	mc1014.eqiad.wmnet.
+194	1H IN PTR	mc1015.eqiad.wmnet.
+195	1H IN PTR	mc1016.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
