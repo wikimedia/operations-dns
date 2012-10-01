@@ -1213,11 +1213,11 @@ $ORIGIN 0.3.$zonename.
 
 ; Virtualization subnets
 
-; 10.4.0.0/24 - guest VMs subnet
+; 10.4.0.0/21 - guest VMs subnet
 $ORIGIN $zonename.
 0.4	1H	IN NS	virt0.wikimedia.org.
 
-; 10.4.16.0/21 - VM host compute nodes subnet
+; 10.4.16.0/24 - VM host compute nodes subnet
 $ORIGIN 16.4.$zonename.
 
 1	1H	IN PTR	vrrp-gw-105.wikimedia.org.
