@@ -546,6 +546,7 @@ et			1H	IN CNAME	wikimedia-lb
 flaggedrevs.labs	1H	IN CNAME	wikimedia-lb
 exec			1H	IN CNAME	wikimedia-lb
 fi			1H	IN CNAME	wikimedia-lb
+fdc			1H	IN CNAME	wikimedia-lb
 grants			1H	IN CNAME	wikimedia-lb
 hu			1H	IN CNAME	wikimedia-lb
 il			1H	IN CNAME	wikimedia-lb
