@@ -1243,36 +1243,21 @@ $ORIGIN 0.21.$zonename.
 
 ;1 gw
 
-3	1H	IN PTR	mint.ipmi.knams.wikimedia.org.
-4	1H	IN PTR	fuchsia.ipmi.knams.wikimedia.org.
-5	1H	IN PTR	lily.ipmi.knams.wikimedia.org.
-6	1H	IN PTR	hawthorn.ipmi.knams.wikimedia.org.
-7	1H	IN PTR	mayflower.ipmi.knams.wikimedia.org.
-8	1H	IN PTR	iris.ipmi.knams.wikimedia.org.
-9	1H	IN PTR	clematis.ipmi.knams.wikimedia.org.
-
-11	1H	IN PTR	ragweed.ipmi.knams.wikimedia.org.
-
-13	1H	IN PTR	zedler.ipmi.knams.wikimedia.org.
-14	1H	IN PTR	zedler-array.ipmi.knams.wikimedia.org.
-15	1H	IN PTR	hemlock.ipmi.knams.wikimedia.org.
-16	1H	IN PTR	knsq1.ipmi.knams.wikimedia.org.
-17	1H	IN PTR	knsq2.ipmi.knams.wikimedia.org.
-18	1H	IN PTR	knsq3.ipmi.knams.wikimedia.org.
-19      1H      IN PTR  knsq4.ipmi.knams.wikimedia.org.
-20      1H      IN PTR  knsq5.ipmi.knams.wikimedia.org.
-21      1H      IN PTR  knsq6.ipmi.knams.wikimedia.org.
-22      1H      IN PTR  knsq7.ipmi.knams.wikimedia.org.
-23      1H      IN PTR  knsq8.ipmi.knams.wikimedia.org.
-24      1H      IN PTR  knsq9.ipmi.knams.wikimedia.org.
-25      1H      IN PTR  knsq10.ipmi.knams.wikimedia.org.
-26      1H      IN PTR  knsq11.ipmi.knams.wikimedia.org.
-27      1H      IN PTR  knsq12.ipmi.knams.wikimedia.org.
-28      1H      IN PTR  knsq13.ipmi.knams.wikimedia.org.
-29      1H      IN PTR  knsq14.ipmi.knams.wikimedia.org.
-30      1H      IN PTR  knsq15.ipmi.knams.wikimedia.org.
-
-45	1H	IN PTR	knsq30.mgmt.esams.wmnet
+31	1H	IN PTR	knsq16.mgmt.esams.wmnet.
+32	1H	IN PTR	knsq17.mgmt.esams.wmnet.
+33	1H	IN PTR	knsq18.mgmt.esams.wmnet.
+34	1H	IN PTR	knsq19.mgmt.esams.wmnet.
+35	1H	IN PTR	knsq20.mgmt.esams.wmnet.
+36	1H	IN PTR	knsq21.mgmt.esams.wmnet.
+37	1H	IN PTR	knsq22.mgmt.esams.wmnet.
+38	1H	IN PTR	knsq23.mgmt.esams.wmnet.
+39	1H	IN PTR	knsq24.mgmt.esams.wmnet.
+40	1H	IN PTR	knsq25.mgmt.esams.wmnet.
+41	1H	IN PTR	knsq26.mgmt.esams.wmnet.
+42	1H	IN PTR	knsq27.mgmt.esams.wmnet.
+43	1H	IN PTR	knsq28.mgmt.esams.wmnet.
+44	1H	IN PTR	knsq29.mgmt.esams.wmnet.
+45	1H	IN PTR	knsq30.mgmt.esams.wmnet.
 
 ; 46-50 are used by TS
 
@@ -1335,8 +1320,6 @@ $ORIGIN 0.21.$zonename.
 124	1H	IN PTR	ssl3004.mgmt.esams.wmnet.
 125	1H	IN PTR	cp3001.mgmt.esams.wmnet.
 126	1H	IN PTR	cp3002.mgmt.esams.wmnet.
-
-$GENERATE 141-180    $   PTR dyn-$.mgmt.esams.wmnet.
 
 210	1H	IN PTR	scs1-esams.mgmt.esams.wmnet.
 
