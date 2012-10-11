@@ -1243,6 +1243,11 @@ $ORIGIN 0.21.$zonename.
 
 ;1 gw
 
+2	1H	IN PTR	ms-be3001.mgmt.esams.wmnet.
+3	1H	IN PTR	ms-be3002.mgmt.esams.wmnet.
+4	1H	IN PTR	ms-be3003.mgmt.esams.wmnet.
+5	1H	IN PTR	ms-be3004.mgmt.esams.wmnet.
+
 31	1H	IN PTR	knsq16.mgmt.esams.wmnet.
 32	1H	IN PTR	knsq17.mgmt.esams.wmnet.
 33	1H	IN PTR	knsq18.mgmt.esams.wmnet.
@@ -1320,6 +1325,26 @@ $ORIGIN 0.21.$zonename.
 124	1H	IN PTR	ssl3004.mgmt.esams.wmnet.
 125	1H	IN PTR	cp3001.mgmt.esams.wmnet.
 126	1H	IN PTR	cp3002.mgmt.esams.wmnet.
+127	1H	IN PTR	cp3003.mgmt.esams.wmnet.
+128	1H	IN PTR	cp3004.mgmt.esams.wmnet.
+129	1H	IN PTR	cp3005.mgmt.esams.wmnet.
+130	1H	IN PTR	cp3006.mgmt.esams.wmnet.
+131	1H	IN PTR	cp3007.mgmt.esams.wmnet.
+132	1H	IN PTR	cp3008.mgmt.esams.wmnet.
+133	1H	IN PTR	cp3009.mgmt.esams.wmnet.
+134	1H	IN PTR	cp3010.mgmt.esams.wmnet.
+135	1H	IN PTR	cp3011.mgmt.esams.wmnet.
+136	1H	IN PTR	cp3012.mgmt.esams.wmnet.
+137	1H	IN PTR	cp3013.mgmt.esams.wmnet.
+138	1H	IN PTR	cp3014.mgmt.esams.wmnet.
+139	1H	IN PTR	cp3015.mgmt.esams.wmnet.
+140	1H	IN PTR	cp3016.mgmt.esams.wmnet.
+141	1H	IN PTR	cp3017.mgmt.esams.wmnet.
+142	1H	IN PTR	cp3018.mgmt.esams.wmnet.
+143	1H	IN PTR	cp3019.mgmt.esams.wmnet.
+144	1H	IN PTR	cp3020.mgmt.esams.wmnet.
+145	1H	IN PTR	cp3021.mgmt.esams.wmnet.
+146	1H	IN PTR	cp3022.mgmt.esams.wmnet.
 
 210	1H	IN PTR	scs1-esams.mgmt.esams.wmnet.
 
