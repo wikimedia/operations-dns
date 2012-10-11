@@ -497,6 +497,10 @@ ntp.pmtpa		1H	IN CNAME	linne
 
 observium		1H	IN A		208.80.152.137
 
+; in theory we can run with both live, but pmtpa-only is preferred
+;payments		60	IN A		208.80.152.213 ; pmtpa
+payments		60	IN A		208.80.155.5   ; eqiad
+
 rt			1H	IN A		208.80.152.160
 			1H	IN MX		10 mchenry
 			1H	IN MX		60 lists
@@ -649,8 +653,6 @@ noc			1H	IN CNAME	fenari
 nyc			1H	IN CNAME	wikimedia-lb
 ocs.wikimania2009	1H	IN CNAME	singer
 otrs-test		1H	IN CNAME	williams
-;payments		60	IN A		208.80.152.213 ; pmtpa
-payments		60	IN A		208.80.155.5   ; eqiad
 planet			1H	IN CNAME	singer
 ar.planet		1H	IN CNAME	singer
 cs.planet		1H	IN CNAME	singer
