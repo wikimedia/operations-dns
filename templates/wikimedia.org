@@ -487,6 +487,7 @@ apt			1H	IN CNAME	brewster
 
 cache			1H	IN CNAME	wikimedia-lb
 
+;donate			1H	IN CNAME	donate-lb
 donate			1H	IN A		208.80.152.200	; wikimedia-lb, can't do cname + mx
 			1H	IN MX		10 aluminium 
 			1H	IN MX		20 mchenry
