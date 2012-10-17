@@ -1,1 +1,1 @@
-link wikimedia.com
+wikimedia.com
