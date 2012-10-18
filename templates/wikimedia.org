@@ -732,7 +732,7 @@ googlef3fe6c2a164e9650	1H	IN CNAME	google.com.
 spop._domainkey.email.donate	1H	IN TXT	"k=rsa; p=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAMrVLQTE3o1aoa5LZ3QrQSoT1r7MF3l3vU02NDzGSN+rakbyE2XEFK3ZbkRQu4TQQHIN61Tiha3DhiSpTDlC168CAwEAAQ==" 
 spop._domainkey 		1H	IN TXT	"k=rsa; p=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANAhUDN/7841u0MdHgFs8VwKsfMvrmXIbMn9F/6x1J23PnOln9Ma6z7RBRkv7vKK84x2+jWU23FceBIRXIbBRe0CAwEAAQ==" 
 
-bounce.email.donate		1H	IN A	74.112.69.40
+bounce.email.donate		1H	IN A	74.121.50.42
 bounce.email.donate		1H	IN MX	5 bounce.email.donate
 bounce.email.donate		1H	IN TXT	"v=spf1 ip4:74.121.51.111 ip4:208.80.152.164 ip4:208.80.154.6 -all"
 
@@ -745,12 +745,12 @@ mail3880.email.donate		1H	IN A	74.121.51.111
 mail3880.email.donate		1H	IN MX	5 mail3880.email.donate
 mail3880.email.donate		1H	IN TXT	"v=spf1 ip4:74.121.51.111 ip4:208.80.152.164 ip4:208.80.154.6 -all"
 
-reply.email.donate		1H	IN A	74.112.69.40
+reply.email.donate		1H	IN A	74.121.50.42
 reply.email.donate		1H	IN MX	5 reply.email.donate
 reply.email.donate		1H	IN TXT	"v=spf1 ip4:74.121.51.111 ip4:208.80.152.164 ip4:208.80.154.6 -all"
 
-links.email.donate		1H	IN CNAME recp.rm02.net.
-open.email.donate		1H	IN CNAME open.rm02.net.
+links.email.donate		1H	IN CNAME recp.mkt41.net.
+open.email.donate		1H	IN CNAME open.mkt41.net.
 www.email.donate		1H	IN CNAME wikimedia.org.
 
 ; Corp glue records
