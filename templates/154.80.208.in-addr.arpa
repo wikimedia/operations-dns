@@ -191,4 +191,4 @@ $ORIGIN $zonename.
 240	1H IN PTR	osm-lb.eqiad.wikimedia.org.
 241	1H IN PTR	misc-web-lb.eqiad.wikimedia.org.
 242	1H IN PTR	wikidata-lb.eqiad.wikimedia.org.
-243	1H IN PTR	travel-guide-lb.eqiad.wikimedia.org.
+243	1H IN PTR	wikivoyage-lb.eqiad.wikimedia.org.

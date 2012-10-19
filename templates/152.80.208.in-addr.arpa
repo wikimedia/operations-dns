@@ -204,7 +204,7 @@ $ORIGIN $zonename.
 216	1H IN PTR	osm-lb.pmtpa.wikimedia.org.
 217	1H IN PTR	misc-web-lb.pmtpa.wikimedia.org.
 218	1H IN PTR	wikidata-lb.pmtpa.wikimedia.org.
-219	1H IN PTR	travel-guide-lb.pmtpa.wikimedia.org.
+219	1H IN PTR	wikivoyage-lb.pmtpa.wikimedia.org.
 
 ; 208.80.152.224/27 sandbox vlan
 225	1H IN PTR	vrrp-gw-103.wikimedia.org.
