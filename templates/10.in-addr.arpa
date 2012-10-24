@@ -815,8 +815,22 @@ $ORIGIN 6.1.$zonename.
 70	1H	IN PTR db60.mgmt.pmtpa.wmnet.
 71	1H	IN PTR db61.mgmt.pmtpa.wmnet.
 72	1H	IN PTR db62.mgmt.pmtpa.wmnet.
-
-80	1H	IN PTR ms-be13.mgmt.wmnet.
+73      1H      IN PTR db63.mgmt.pmtpa.wmnet.
+74      1H      IN PTR db64.mgmt.pmtpa.wmnet.
+75      1H      IN PTR db65.mgmt.pmtpa.wmnet.
+76      1H      IN PTR db66.mgmt.pmtpa.wmnet.
+77      1H      IN PTR db67.mgmt.pmtpa.wmnet.
+78      1H      IN PTR db68.mgmt.pmtpa.wmnet.
+79      1H      IN PTR db69.mgmt.pmtpa.wmnet.
+80      1H      IN PTR db70.mgmt.pmtpa.wmnet.
+81      1H      IN PTR db71.mgmt.pmtpa.wmnet.
+82      1H      IN PTR db72.mgmt.pmtpa.wmnet.
+83      1H      IN PTR db73.mgmt.pmtpa.wmnet.
+84      1H      IN PTR db74.mgmt.pmtpa.wmnet.
+85      1H      IN PTR db75.mgmt.pmtpa.wmnet.
+86      1H      IN PTR db76.mgmt.pmtpa.wmnet.
+87      1H      IN PTR db77.mgmt.pmtpa.wmnet.
+88      1H      IN PTR db78.mgmt.pmtpa.wmnet.
 
 ; Media Servers & SSL Servers & ES Servers & Memcached Servers
 $ORIGIN 7.1.$zonename.
