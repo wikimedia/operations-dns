@@ -1261,6 +1261,8 @@ $ORIGIN 0.21.$zonename.
 3	1H	IN PTR	ms-be3002.mgmt.esams.wmnet.
 4	1H	IN PTR	ms-be3003.mgmt.esams.wmnet.
 5	1H	IN PTR	ms-be3004.mgmt.esams.wmnet.
+6	1H	IN PTR	ms-fe3001.mgmt.esams.wmnet.
+7	1H	IN PTR	ms-fe3002.mgmt.esams.wmnet.
 
 31	1H	IN PTR	knsq16.mgmt.esams.wmnet.
 32	1H	IN PTR	knsq17.mgmt.esams.wmnet.
