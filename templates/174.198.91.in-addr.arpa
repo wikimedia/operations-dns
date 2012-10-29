@@ -25,6 +25,13 @@ $ORIGIN $zonename.
 6	1H IN PTR	recursor0.esams.wikimedia.org.
 7	1H IN PTR	ipv6and4.labs.wikimedia.org.
 
+11	1H IN PTR	ms-fe3001.esams.wikimedia.org.
+12	1H IN PTR	ms-fe3002.esams.wikimedia.org.
+13	1H IN PTR	ms-be3001.esams.wikimedia.org.
+14	1H IN PTR	ms-be3002.esams.wikimedia.org.
+15	1H IN PTR	ms-be3003.esams.wikimedia.org.
+16	1H IN PTR	ms-be3004.esams.wikimedia.org.
+
 26	1H IN PTR	knsq16.esams.wikimedia.org.
 27	1H IN PTR	knsq17.esams.wikimedia.org.
 28	1H IN PTR	knsq18.esams.wikimedia.org.
