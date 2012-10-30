@@ -35,5 +35,5 @@ localhost		1W	IN A	127.0.0.1
 www			1H	IN CNAME	wikidata-lb.wikimedia.org.
 
 ; All languages will automatically be included here
-$wikimedia_langlist
+$wikidata_langlist
 
