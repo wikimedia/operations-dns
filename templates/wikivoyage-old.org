@@ -16,8 +16,7 @@ $ORIGIN $zonename.
 
 ; Mail exchangers
 
-;                        1H	IN MX   10      mchenry.wikimedia.org.
-;                        1H	IN MX   50      lists.wikimedia.org.
+                        1H	IN MX   10      mail.wikivoyage.org.
 
 
 ; Canonical names
@@ -30,6 +29,11 @@ localhost		1W	IN A	127.0.0.1
 
 america			1H	IN A		5.9.71.41
 asia			1H	IN A		188.40.41.16
+
+; services
+
+www                     1H      IN CNAME        asia
+mail			1H	IN A		188.40.41.16
 
 ; projects / special
 
@@ -44,7 +48,6 @@ svn			1H	IN CNAME	asia
 tech			1H	IN CNAME	asia
 testing			1H	IN CNAME	asia
 wts			1H	IN CNAME	america
-www			1H	IN CNAME	asia
 
 ; wikis / languages
 
@@ -63,4 +66,3 @@ ro			1H	IN CNAME	america
 ru			1H	IN CNAME	america
 sv			1H	IN CNAME	america
 zh			1H	IN CNAME	america
-
