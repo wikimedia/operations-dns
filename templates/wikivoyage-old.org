@@ -16,12 +16,12 @@ $ORIGIN $zonename.
 
 ; Mail exchangers
 
-                        1H	IN MX   10      mail.wikivoyage.org.
+			1H	IN MX 10	mail.wikivoyage.org.
 
 
 ; Canonical names
 
-                        1H      IN A    188.40.41.16
+			1H	IN A	188.40.41.16
 
 localhost		1W	IN A	127.0.0.1
 
@@ -32,8 +32,8 @@ asia			1H	IN A		188.40.41.16
 
 ; services
 
-www                     1H      IN CNAME        asia
-mail			1H	IN A		188.40.41.16
+www			1H      IN CNAME	asia
+mail			1H      IN A		188.40.41.16
 
 ; projects / special
 
@@ -66,3 +66,4 @@ ro			1H	IN CNAME	america
 ru			1H	IN CNAME	america
 sv			1H	IN CNAME	america
 zh			1H	IN CNAME	america
+
