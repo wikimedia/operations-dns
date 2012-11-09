@@ -996,7 +996,8 @@ $ORIGIN 8.1.$zonename.
 101	1H	IN PTR	pc1.mgmt.pmtpa.wmnet.
 102	1H	IN PTR	pc2.mgmt.pmtpa.wmnet.
 103	1H	IN PTR	pc3.mgmt.pmtpa.wmnet.
-104	1H	IN PTR	wmf5706.mgmt.pmtpa.wmnet.
+104     1H      IN PTR  wmf5706.mgmt.pmtpa.wmnet.
+104	1H	IN PTR	labsdb3.mgmt.pmtpa.wmnet.
 105	1H	IN PTR	wmf5707.mgmt.pmtpa.wmnet.
 106	1H	IN PTR	wmf5708.mgmt.pmtpa.wmnet.
 107	1H	IN PTR	wmf5709.mgmt.pmtpa.wmnet.

@@ -860,7 +860,8 @@ WMF3645			1H	IN A		10.1.8.72
 tmh1			1H	IN A		10.1.8.72
 WMF3646			1H	IN A		10.1.8.73
 tmh2			1H	IN A		10.1.8.73
-wmf5706			1H	IN A		10.1.8.104
+wmf5706                 1H      IN A            10.1.8.104
+labsdb3			1H	IN A		10.1.8.104
 wmf5707			1H	IN A		10.1.8.105
 wmf5708			1H	IN A		10.1.8.106
 wmf5709			1H	IN A		10.1.8.107
