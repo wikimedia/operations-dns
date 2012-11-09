@@ -228,6 +228,9 @@ instancestorage		1H	IN A		10.4.16.2
 			1H	IN A		10.4.16.3
 			1H	IN A		10.4.16.4
 			1H	IN A		10.4.16.5
+labsdb1                 1H      IN A            10.4.16.10
+labsdb2                 1H      IN A            10.4.16.11
+labsdb3                 1H      IN A            10.4.16.12
 virt1			1H	IN A		10.4.16.2
 virt2			1H	IN A		10.4.16.3
 virt3			1H	IN A		10.4.16.4
