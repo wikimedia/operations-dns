@@ -15,9 +15,8 @@ $ORIGIN $zonename.
 			1D	IN NS	ns2.wikimedia.org.	; lily
 
 ; Mail exchangers
-
-			1H	IN MX 10	mail.wikivoyage.org.
-
+			1H	IN MX	10	mchenry.wikimedia.org.
+			1H	IN MX	50	lists.wikimedia.org.
 
 ; Canonical names
 
