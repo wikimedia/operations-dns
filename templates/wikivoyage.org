@@ -1,4 +1,4 @@
-$TTL 3600
+$TTL 360
 $ORIGIN $zonename.
 @			1D	IN SOA	ns0.wikimedia.org.	hostmaster.wikimedia.org.	(
 					$serial		; serial
