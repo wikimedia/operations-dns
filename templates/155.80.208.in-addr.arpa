@@ -23,6 +23,7 @@ $ORIGIN $zonename.
 5	1H IN PTR	payments.wikimedia.org.
 6	1H IN PTR	frack-ubuntu-repo.wikimedia.org.
 7	1H IN PTR	frack-payments-nat.wikimedia.org.
+8	1H IN PTR	silicon.wikimedia.org.
 
 ; 208.80.155.32/27 Infrastructure block
 
