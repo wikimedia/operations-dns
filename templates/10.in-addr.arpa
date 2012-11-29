@@ -1584,6 +1584,7 @@ $ORIGIN 0.64.$zonename.
 193	1H IN PTR	mc1014.eqiad.wmnet.
 194	1H IN PTR	mc1015.eqiad.wmnet.
 195	1H IN PTR	mc1016.eqiad.wmnet.
+196	1H IN PTR	tin.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
@@ -2564,6 +2565,7 @@ $ORIGIN 3.65.$zonename.
 116	1H	IN PTR		analytics1027.mgmt.eqiad.wmnet.
 117	1H	IN PTR		indium.mgmt.eqiad.wmnet.
 118	1H	IN PTR		wmf4073.mgmt.eqiad.wmnet.
+118	1H	IN PTR		tin.mgmt.eqiad.wmnet.
 119	1H	IN PTR		wmf4074.mgmt.eqiad.wmnet.
 120	1H	IN PTR		wmf4075.mgmt.eqiad.wmnet.
 121	1H	IN PTR		wmf4076.mgmt.eqiad.wmnet.

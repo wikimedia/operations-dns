@@ -1461,6 +1461,7 @@ strontium		1H	IN A		10.64.0.164
 			1H	IN AAAA		2620:0:861:101:10:64:0:164
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
 rubidium		1H	IN A		10.64.0.26
+tin			1H	IN A		10.64.0.196
 vanadium		1H	IN A		10.64.21.123
 virt1001		1H	IN A		10.64.20.4
 virt1002		1H	IN A		10.64.20.5
@@ -2349,6 +2350,7 @@ WMF3429		1H	IN A	10.65.3.54
 payments1004	1H	IN A	10.65.3.46
 WMF3421		1H	IN A	10.65.3.46
 wmf4073		1H	IN A	10.65.3.118
+tin		1H	IN A	10.65.3.118
 wmf4074		1H	IN A	10.65.3.119
 wmf4075		1H	IN A	10.65.3.120
 wmf4076		1H	IN A	10.65.3.121
