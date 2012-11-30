@@ -1160,6 +1160,7 @@ $ORIGIN 1.2.$zonename.
 25	1H	IN PTR	text.svc.pmtpa.wmnet.
 26	1H	IN PTR	mobile.svc.pmtpa.wmnet.
 27	1H	IN PTR	ms-fe.svc.pmtpa.wmnet.
+28	1H	IN PTR	parsoid.svc.pmtpa.wmnet.
 
 ; eqiad svc ips
 
@@ -1180,6 +1181,7 @@ $ORIGIN 2.2.$zonename.
 25      1H      IN PTR  text.svc.eqiad.wmnet.
 26	1H	IN PTR	mobile.svc.eqiad.wmnet.
 27	1H	IN PTR	ms-fe.svc.eqiad.wmnet.
+28	1H	IN PTR	parsoid.svc.eqiad.wmnet.
 
 ; esams svc ips
 
