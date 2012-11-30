@@ -21,7 +21,7 @@ $ORIGIN $zonename.
 4	1H IN PTR	lists.wikimedia.org.
 5	1H IN PTR	magnesium.wikimedia.org.
 6	1H IN PTR	aluminium.wikimedia.org.
-
+7	1H IN PTR	antimony.wikimedia.org.
 8	1H IN PTR	ssl1004.wikimedia.org.
 9	1H IN PTR	ssl1003.wikimedia.org.
 10	1H IN PTR	carbon.wikimedia.org.

@@ -81,6 +81,7 @@ aluminum		1H	IN CNAME aluminium
 americium		1H	IN A	208.80.154.175
 analytics1001		1H	IN A	208.80.154.154
 anthony			1H	IN A	208.80.152.181
+antimony		1H	IN A	208.80.154.7
 argon			1H	IN A	208.80.154.132
 arsenic			1H	IN A	208.80.154.62
 			1H	IN AAAA	2620:0:861:1:208:80:154:62
