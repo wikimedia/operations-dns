@@ -1759,6 +1759,7 @@ $ORIGIN 16.64.$zonename.
 152	1H IN PTR	potassium.eqiad.wmnet.
 153	1H IN PTR	es1005.eqiad.wmnet.
 154	1H IN PTR	es1006.eqiad.wmnet.
+155	1H IN PTR	wtp1001.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 
@@ -2575,6 +2576,7 @@ $ORIGIN 3.65.$zonename.
 125	1H	IN PTR		wmf4080.mgmt.eqiad.wmnet.
 126	1H	IN PTR		wmf4081.mgmt.eqiad.wmnet.
 127	1H	IN PTR		wmf4082.mgmt.eqiad.wmnet.
+127	1H	IN PTR		wtp1001.mgmt.eqiad.wmnet.
 128	1H	IN PTR		wmf4083.mgmt.eqiad.wmnet.
 129	1H	IN PTR		wmf4084.mgmt.eqiad.wmnet.
 
