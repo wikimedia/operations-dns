@@ -502,6 +502,7 @@ cache			1H	IN CNAME	wikimedia-lb
 ;donate			1H	IN A		208.80.152.200	; wikimedia-lb, can't mix cname+mx
 ;			1H	IN MX		10 aluminium 
 ;			1H	IN MX		20 mchenry
+doc			1H	IN CNAME	gallium
 
 dvd			1H	IN CNAME	www.masterssystems.com.
 
@@ -510,6 +511,7 @@ gerrit			1H	IN CNAME	manganese.wikimedia.org.
 imap			1H	IN A		208.80.152.187	; sanger
 			1H	IN MX		10 mchenry
 
+integration		1H	IN CNAME	gallium
 irc			1H	IN CNAME	ekrem
 ntp.pmtpa		1H	IN CNAME	linne
 
