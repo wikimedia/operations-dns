@@ -504,8 +504,6 @@ cache			1H	IN CNAME	wikimedia-lb
 ;			1H	IN MX		20 mchenry
 doc			1H	IN CNAME	gallium
 
-dvd			1H	IN CNAME	www.masterssystems.com.
-
 gerrit			1H	IN CNAME	manganese.wikimedia.org.
 
 imap			1H	IN A		208.80.152.187	; sanger
