@@ -148,6 +148,7 @@ es7			1H	IN A		10.0.0.236
 es8			1H	IN A		10.0.0.237
 es9                     1H      IN A            10.0.0.220
 es10                    1H      IN A            10.0.0.224
+kuo			1H	IN A		10.0.0.35
 projectstorage		1H	IN A		10.0.0.41
 			1H	IN A		10.0.0.42
 			1H	IN A		10.0.0.43
@@ -156,6 +157,7 @@ labstore1		1H	IN A		10.0.0.41
 labstore2		1H	IN A		10.0.0.42
 labstore3		1H	IN A		10.0.0.43
 labstore4		1H	IN A		10.0.0.44
+lardner			1H	IN A		10.0.0.34
 maurus			1H	IN A		10.0.0.16
 ms1			1H	IN A		10.0.0.250
 ms2			1H	IN A		10.0.0.249
@@ -202,6 +204,7 @@ mc13			1H	IN A		10.0.12.13
 mc14			1H	IN A		10.0.12.14
 mc15			1H	IN A		10.0.12.15
 mc16			1H	IN A		10.0.12.16
+mexia			1H	IN A		10.0.0.32
 nfs1			1H	IN A		10.0.0.244
 nfs2			1H	IN A		10.0.0.247
 nas1-a			1H	IN A		10.0.0.253
@@ -224,6 +227,7 @@ storage3		1H	IN A		10.0.0.219
 tingxi			1H	IN A		10.0.0.12
 tmh1			1H	IN A		10.0.0.26
 tmh2			1H	IN A		10.0.0.27
+tola			1H	IN A		10.0.0.33
 instancestorage		1H	IN A		10.4.16.2
 			1H	IN A		10.4.16.3
 			1H	IN A		10.4.16.4
@@ -872,9 +876,13 @@ wmf5710			1H	IN A		10.1.8.108
 wmf5711			1H	IN A		10.1.8.109
 wmf5815			1H	IN A		10.1.8.110
 wmf5816			1H	IN A		10.1.8.111
+mexia			1H	IN A		10.1.8.111
 wmf5817			1H	IN A		10.1.8.112
+tola			1H	IN A		10.1.8.112
 wmf5818			1H	IN A		10.1.8.113
+lardner			1H	IN A		10.1.8.113
 wmf5819			1H	IN A		10.1.8.114
+kuo			1H	IN A		10.1.8.114
 wmf5820			1H	IN A		10.1.8.115
 wmf5821			1H	IN A		10.1.8.116
 wmf5822			1H	IN A		10.1.8.117

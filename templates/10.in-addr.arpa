@@ -38,6 +38,10 @@ $ORIGIN 0.0.$zonename.
 28	1H	IN PTR	lvs5.pmtpa.wmnet.
 29	1H	IN PTR	lvs6.pmtpa.wmnet.
 31  	1H	IN PTR  bayle.pmtpa.wmnet.
+32  	1H	IN PTR  mexia.pmtpa.wmnet.
+33  	1H	IN PTR  tola.pmtpa.wmnet.
+34  	1H	IN PTR  lardner.pmtpa.wmnet.
+35  	1H	IN PTR  kuo.pmtpa.wmnet.
 
 41	1H	IN PTR	labstore1.pmtpa.wmnet.
 42	1H	IN PTR	labstore2.pmtpa.wmnet.
@@ -1005,9 +1009,13 @@ $ORIGIN 8.1.$zonename.
 109	1H	IN PTR	wmf5711.mgmt.pmtpa.wmnet.
 110	1H	IN PTR	wmf5815.mgmt.pmtpa.wmnet.
 111	1H	IN PTR	wmf5816.mgmt.pmtpa.wmnet.
+111	1H	IN PTR	mexia.mgmt.pmtpa.wmnet.
 112	1H	IN PTR	wmf5817.mgmt.pmtpa.wmnet.
+112	1H	IN PTR	tola.mgmt.pmtpa.wmnet.
 113	1H	IN PTR	wmf5818.mgmt.pmtpa.wmnet.
+113	1H	IN PTR	lardner.mgmt.pmtpa.wmnet.
 114	1H	IN PTR	wmf5819.mgmt.pmtpa.wmnet.
+114	1H	IN PTR	kuo.mgmt.pmtpa.wmnet.
 115	1H	IN PTR	wmf5820.mgmt.pmtpa.wmnet.
 116	1H	IN PTR	wmf5821.mgmt.pmtpa.wmnet.
 117	1H	IN PTR	wmf5822.mgmt.pmtpa.wmnet.
