@@ -1017,8 +1017,10 @@ $ORIGIN 8.1.$zonename.
 114	1H	IN PTR	wmf5819.mgmt.pmtpa.wmnet.
 114	1H	IN PTR	kuo.mgmt.pmtpa.wmnet.
 115	1H	IN PTR	wmf5820.mgmt.pmtpa.wmnet.
+115	1H	IN PTR	celsus.mgmt.pmtpa.wmnet.
 116	1H	IN PTR	wmf5821.mgmt.pmtpa.wmnet.
 117	1H	IN PTR	wmf5822.mgmt.pmtpa.wmnet.
+117	1H	IN PTR	constable.mgmt.pmtpa.wmnet.
 118	1H	IN PTR	wmf5823.mgmt.pmtpa.wmnet.
 119	1H	IN PTR	wmf5824.mgmt.pmtpa.wmnet.
 120	1H	IN PTR	wmf5825.mgmt.pmtpa.wmnet.
