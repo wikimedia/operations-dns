@@ -1595,6 +1595,7 @@ $ORIGIN 0.64.$zonename.
 194	1H IN PTR	mc1015.eqiad.wmnet.
 195	1H IN PTR	mc1016.eqiad.wmnet.
 196	1H IN PTR	tin.eqiad.wmnet.
+197	1H IN PTR	yttrium.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
