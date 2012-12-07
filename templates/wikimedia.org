@@ -506,7 +506,7 @@ cache			1H	IN CNAME	wikimedia-lb
 doc			1H	IN CNAME	gallium
 
 gerrit			1H	IN CNAME	manganese.wikimedia.org.
-
+icinga			1H	IN CNAME	neon
 imap			1H	IN A		208.80.152.187	; sanger
 			1H	IN MX		10 mchenry
 
