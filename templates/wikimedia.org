@@ -775,25 +775,13 @@ ns2			1H	IN A	216.38.130.188
 ; new tesla virt cluster
 $ORIGIN tesla.$zonename.
 
-testvm1			1H	IN A	208.80.153.194
-
 ; Usability servers
 
 $ORIGIN usability.$zonename.
 
-build.tesla		1H	IN A	208.80.152.250
-ci.tesla		1H	IN A	208.80.152.246
-ci2.tesla		1H	IN A	208.80.152.247
-commonsprototype.tesla	1H	IN A	208.80.152.249
-mlqt.tesla		1H	IN A	208.80.152.237
-mobile.tesla		1H	IN A	208.80.152.245
-nomad.tesla		1H	IN A	208.80.152.244
-nova-controller.tesla	1H	IN A	208.80.152.236
-prototype.tesla		1H	IN A	208.80.152.248
 raskin			1H	IN A	208.80.152.253
 tesla			1H	IN A	208.80.152.252
 tesla.mgmt		1H	IN A	208.80.152.251
-test-payments.tesla	1H	IN A	208.80.152.235
 
 ; Amsterdam cluster
 

@@ -219,15 +219,7 @@ $ORIGIN $zonename.
 232	1H IN PTR	alsted.wikimedia.org.
 233	1H IN PTR	harmon.wikimedia.org.
 234	1H IN PTR	web.amaranth.toolserver.org.
-235	1H IN PTR	test-payments.tesla.usability.wikimedia.org.
-236	1H IN PTR	nova-controller.tesla.usability.wikimedia.org.
-237	1H IN PTR	mlqt.tesla.usability.wikimedia.org.
 239	1H IN PTR	internproxy.wikimedia.org.
-
-244	1H IN PTR	nomad.tesla.usability.wikimedia.org.
-
-248	1H IN PTR	prototype.tesla.usability.wikimedia.org.
-249	1H IN PTR	commonsprototype.tesla.usability.wikimedia.org.
 
 251	1H IN PTR	tesla.mgmt.usability.wikimedia.org.
 252	1H IN PTR	tesla.usability.wikimedia.org.
