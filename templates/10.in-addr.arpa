@@ -731,6 +731,9 @@ $ORIGIN 4.1.$zonename.
 45	1H	IN PTR search34.mgmt.pmtpa.wmnet.
 46	1H	IN PTR search35.mgmt.pmtpa.wmnet.
 47	1H	IN PTR search36.mgmt.pmtpa.wmnet.
+60      1H      IN PTR solr1.mgmt.pmtpa.wmnet.
+61      1H      IN PTR solr2.mgmt.pmtpa.wmnet.
+62      1H      IN PTR solr3.mgmt.pmtpa.wmnet.
 
 ; Power Distribution Units
 
@@ -1601,6 +1604,8 @@ $ORIGIN 0.64.$zonename.
 195	1H IN PTR	mc1016.eqiad.wmnet.
 196	1H IN PTR	tin.eqiad.wmnet.
 197	1H IN PTR	yttrium.eqiad.wmnet.
+198     1H IN PTR       solr1001.eqiad.wmnet.
+199     1H IN PTR       solr1002.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
@@ -1779,6 +1784,7 @@ $ORIGIN 16.64.$zonename.
 156     1H IN PTR       pc1001.eqiad.wmnet.
 157     1H IN PTR       pc1002.eqiad.wmnet.
 158     1H IN PTR       pc1003.eqiad.wmnet.
+159     1H IN PTR       solr3.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 
@@ -2801,6 +2807,9 @@ $ORIGIN 7.65.$zonename.
 23	1H	IN PTR		WMF3153.mgmt.eqiad.wmnet.
 24	1H	IN PTR		search1024.mgmt.eqiad.wmnet.
 24	1H	IN PTR		WMF3152.mgmt.eqiad.wmnet.
+60      1H      IN PTR          solr1.mgmt.eqiad.wmnet.
+61      1H      IN PTR          solr2.mgmt.eqiad.wmnet.
+62      1H      IN PTR          solr3.mgmt.eqiad.wmnet.
 100	1H	IN PTR		searchidx1001.mgmt.eqiad.wmnet.
 100	1H	IN PTR		WMF3151.mgmt.eqiad.wmnet.
 
