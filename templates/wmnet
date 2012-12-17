@@ -220,6 +220,9 @@ snapshot2		1H	IN A		10.0.10.2
 snapshot3		1H	IN A		10.0.10.3
 snapshot4		1H	IN A		10.0.10.4
 sockpuppet		1H	IN A		10.0.0.245
+solr1                   1H      IN A            10.0.0.36
+solr2                   1H      IN A            10.0.0.37
+solr3                   1H      IN A            10.0.0.38
 srv1			1H	IN A		10.0.2.2
 srv2			1H	IN A		10.0.2.1
 stafford		1H	IN A		10.0.0.24

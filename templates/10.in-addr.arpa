@@ -42,6 +42,9 @@ $ORIGIN 0.0.$zonename.
 33  	1H	IN PTR  tola.pmtpa.wmnet.
 34  	1H	IN PTR  lardner.pmtpa.wmnet.
 35  	1H	IN PTR  kuo.pmtpa.wmnet.
+36      1H      IN PTR  solr1.pmtpa.wmnet.
+37      1H      IN PTR  solr2.pmtpa.wmnet.
+38      1H      IN PTR  solr3.pmtpa.wmnet.
 
 41	1H	IN PTR	labstore1.pmtpa.wmnet.
 42	1H	IN PTR	labstore2.pmtpa.wmnet.
