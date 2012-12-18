@@ -2308,6 +2308,8 @@ ssl1004		1H	IN A	10.65.3.2
 WMF3149		1H	IN A	10.65.3.2
 ssl1003		1H	IN A	10.65.3.1
 WMF3150		1H	IN A	10.65.3.1
+tellurium       1H      IN A    10.65.3.130
+te              1H      IN CNAME        tellurium
 potassium	1H	IN A	10.65.3.32
 WMF3287		1H	IN A	10.65.3.32
 calcium		1H	IN A	10.65.3.31
@@ -2398,6 +2400,8 @@ wmf4084		1H	IN A	10.65.3.129
 $ORIGIN frack.eqiad.$zonename.
 boron           1H      IN A    10.64.40.66
 indium          1H      IN A    10.64.40.67
+tellurium       1H      IN A    10.64.40.34
+te              1H      IN CNAME          tellurium
 pay-lvs1001     1H      IN A    10.64.40.20
 pay-lvs1002     1H      IN A    10.64.40.21
 payments1001    1H      IN A    10.64.40.5

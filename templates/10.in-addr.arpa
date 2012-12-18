@@ -1894,6 +1894,7 @@ $ORIGIN 40.64.$zonename.
 21	1H IN PTR	pay-lvs1002.frack.eqiad.wmnet.
 
 ; 10.64.40.32/27 - frack-bastion1-c-eqiad
+34      1H IN PTR       tellurium.frack.eqiad.wmnet.
 
 ; 10.64.40.64/27 - frack-administration1-c-eqiad
 66	1H IN PTR	boron.frack.eqiad.wmnet.
@@ -2608,6 +2609,7 @@ $ORIGIN 3.65.$zonename.
 127	1H	IN PTR		wtp1001.mgmt.eqiad.wmnet.
 128	1H	IN PTR		wmf4083.mgmt.eqiad.wmnet.
 129	1H	IN PTR		wmf4084.mgmt.eqiad.wmnet.
+130     1H      IN PTR          tellurium.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.$zonename.
 
