@@ -2812,9 +2812,9 @@ $ORIGIN 7.65.$zonename.
 23	1H	IN PTR		WMF3153.mgmt.eqiad.wmnet.
 24	1H	IN PTR		search1024.mgmt.eqiad.wmnet.
 24	1H	IN PTR		WMF3152.mgmt.eqiad.wmnet.
-60      1H      IN PTR          solr1.mgmt.eqiad.wmnet.
-61      1H      IN PTR          solr2.mgmt.eqiad.wmnet.
-62      1H      IN PTR          solr3.mgmt.eqiad.wmnet.
+60      1H      IN PTR          solr1001.mgmt.eqiad.wmnet.
+61      1H      IN PTR          solr1002.mgmt.eqiad.wmnet.
+62      1H      IN PTR          solr1003.mgmt.eqiad.wmnet.
 100	1H	IN PTR		searchidx1001.mgmt.eqiad.wmnet.
 100	1H	IN PTR		WMF3151.mgmt.eqiad.wmnet.
 
