@@ -768,6 +768,7 @@ osm-web4		1H	IN A		10.1.8.90
 owa1			1H	IN A		10.1.8.51
 owa2			1H	IN A		10.1.8.52
 owa3			1H	IN A		10.1.8.53
+pappas	         	1H	IN A		10.1.8.122
 payments1		1H	IN A		10.1.8.46
 payments2		1H	IN A		10.1.8.47
 payments3		1H	IN A		10.1.8.48

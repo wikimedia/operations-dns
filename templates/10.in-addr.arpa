@@ -1032,6 +1032,7 @@ $ORIGIN 8.1.$zonename.
 119	1H	IN PTR	wmf5824.mgmt.pmtpa.wmnet.
 120	1H	IN PTR	wmf5825.mgmt.pmtpa.wmnet.
 121	1H	IN PTR	wmf5826.mgmt.pmtpa.wmnet.
+122	1H	IN PTR	pappas.mgmt.pmtpa.wmnet.
 
 ; Apaches pool (srv251+)
 $ORIGIN 9.1.$zonename.
