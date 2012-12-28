@@ -895,6 +895,8 @@ $ORIGIN 7.1.$zonename.
 74	1H	IN PTR mc14.mgmt.pmtpa.wmnet.
 75	1H	IN PTR mc15.mgmt.pmtpa.wmnet.
 76	1H	IN PTR mc16.mgmt.pmtpa.wmnet.
+77      1H      IN PTR mc17.mgmt.pmtpa.wmnet.
+78      1H      IN PTR mc18.mgmt.pmtpa.wmnet.
 
 ; Misc. Services Server Project
 $ORIGIN 8.1.$zonename.

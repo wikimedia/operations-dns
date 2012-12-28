@@ -726,6 +726,8 @@ mc13			1H	IN A		10.1.7.73
 mc14			1H	IN A		10.1.7.74
 mc15			1H	IN A		10.1.7.75
 mc16			1H	IN A		10.1.7.76
+mc17                    1H      IN A            10.1.7.77
+mc18                    1H      IN A            10.1.7.78
 mchenry			1H	IN A		10.1.230.240
 ms1			1H	IN A		10.1.7.1
 ms2			1H	IN A		10.1.7.2
