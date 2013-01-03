@@ -227,6 +227,7 @@ srv1			1H	IN A		10.0.2.2
 srv2			1H	IN A		10.0.2.1
 stafford		1H	IN A		10.0.0.24
 storage3		1H	IN A		10.0.0.219
+tarin			1H	IN A		10.0.0.21
 tingxi			1H	IN A		10.0.0.12
 tmh1			1H	IN A		10.0.0.26
 tmh2			1H	IN A		10.0.0.27

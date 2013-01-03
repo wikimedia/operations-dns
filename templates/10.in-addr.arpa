@@ -29,6 +29,7 @@ $ORIGIN 0.0.$zonename.
 15	1H	IN PTR	vl2-eth0.lvs5.wikimedia.org.
 16	1H	IN PTR	vl2-eth0.lvs6.wikimedia.org.
 
+21	1H	IN PTR	tarin.pmtpa.wmnet.
 22	1H	IN PTR	ersch.pmtpa.wmnet.
 23	1H	IN PTR	wtp1.pmtpa.wmnet.
 24	1H	IN PTR	stafford.pmtpa.wmnet.

@@ -229,7 +229,6 @@ pdf1			1H	IN A	208.80.152.155
 pdf2			1H	IN A	208.80.152.154
 pdf3			1H	IN A	208.80.152.181
 raskin.usability	1H	IN A	208.80.152.253
-tarin			1H	IN A	208.80.152.174
 sanger			1H	IN A	208.80.152.187
 silicon			1H	IN A	208.80.155.8
 silver			1H	IN A	208.80.154.153
