@@ -1243,6 +1243,7 @@ es1009			1H	IN A		10.64.32.19
 es1010			1H	IN A		10.64.32.20
 fluorine		1H	IN A		10.64.0.21
 helium			1H	IN A		10.64.0.179
+iodine	                1H      IN A            10.64.16.160
 labsdb1001              1H      IN A            10.64.20.12
 labsdb1002              1H      IN A            10.64.20.13
 mc1001			1H	IN A		10.64.0.180
@@ -2397,6 +2398,7 @@ wmf4081		1H	IN A	10.65.3.126
 wmf4082		1H	IN A	10.65.3.127
 wtp1001		1H	IN A	10.65.3.127
 wmf4083		1H	IN A	10.65.3.128
+iodine		1H	IN A	10.65.3.129
 wmf4084		1H	IN A	10.65.3.129
 
 ; EQIAD Fundraising/Payments 
