@@ -1246,6 +1246,7 @@ helium			1H	IN A		10.64.0.179
 iodine	                1H      IN A            10.64.16.160
 labsdb1001              1H      IN A            10.64.20.12
 labsdb1002              1H      IN A            10.64.20.13
+labsdb1003		1H	IN A		10.64.20.11
 mc1001			1H	IN A		10.64.0.180
 mc1002			1H	IN A		10.64.0.181
 mc1003			1H	IN A		10.64.0.182
@@ -1499,7 +1500,6 @@ virt1004		1H	IN A		10.64.20.7
 virt1005		1H	IN A		10.64.20.8
 virt1006		1H	IN A		10.64.20.9
 virt1007		1H	IN A		10.64.20.10
-virt1008		1H	IN A		10.64.20.11
 yttrium			1H	IN A		10.64.0.197
 
 ; Management
@@ -1663,7 +1663,7 @@ virt1006	1H	IN A	10.65.3.66
 WMF3443		1H	IN A	10.65.3.67
 virt1007	1H	IN A	10.65.3.67
 WMF3444		1H	IN A	10.65.3.68
-virt1008	1H	IN A	10.65.3.68
+labsdb1003	1H	IN A	10.65.3.68
 WMF3445		1H	IN A	10.65.3.69
 labsdb1001	1H	IN A	10.65.3.69
 WMF3446		1H	IN A	10.65.3.70
