@@ -311,6 +311,7 @@ storage2		1H	IN A	208.80.152.183
 			1H	IN AAAA	2620:0:860:2:230:48ff:fe5a:eb1e
 streber			1H	IN A	208.80.152.160
 technetium		1H	IN A	208.80.154.145
+tellurium		1H	IN A	208.80.155.9
 thorium			1H	IN A	208.80.154.43
 tridge			1H	IN A	208.80.152.170 ; Cold Backup Server
 uranium			1H	IN A	208.80.154.46
