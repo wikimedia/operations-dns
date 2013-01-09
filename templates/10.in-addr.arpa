@@ -1795,6 +1795,8 @@ $ORIGIN 16.64.$zonename.
 158     1H IN PTR       pc1003.eqiad.wmnet.
 159     1H IN PTR       solr1003.eqiad.wmnet.
 160     1H IN PTR       iodine.eqiad.wmnet.
+161     1H IN PTR       osm-cp1003.eqiad.wmnet.
+162     1H IN PTR       osm-cp1004.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 
