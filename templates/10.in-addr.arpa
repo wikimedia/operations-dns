@@ -1615,6 +1615,9 @@ $ORIGIN 0.64.$zonename.
 199     1H IN PTR       solr1002.eqiad.wmnet.
 200     1H IN PTR       xenon.eqiad.wmnet.
 201     1H IN PTR       caesium.eqiad.wmnet.
+202     1H IN PTR       mc1017.eqiad.wmnet.
+203     1H IN PTR       mc1018.eqiad.wmnet.
+
 
 $ORIGIN 1.64.$zonename.
 
@@ -2856,6 +2859,8 @@ $ORIGIN 8.65.$zonename.
 14	1H	IN PTR		mc1014.mgmt.eqiad.wmnet.
 15	1H	IN PTR		mc1015.mgmt.eqiad.wmnet.
 16	1H	IN PTR		mc1016.mgmt.eqiad.wmnet.
+17      1H      IN PTR          mc1017.mgmt.eqiad.wmnet.
+18      1H      IN PTR          mc1018.mgmt.eqiad.wmnet.
 
 ; Small assignments
 
