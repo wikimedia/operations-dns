@@ -10,6 +10,6 @@ $ORIGIN $zonename.
 
 ; Name servers
 
-                        1D      IN NS   ns0     ; zwinger
-                        1D      IN NS   ns1     ; larousse
-                        1D      IN NS   ns2     ; pascal
+                        1D      IN NS   ns0.wikimedia.org.
+                        1D      IN NS   ns1.wikimedia.org.
+                        1D      IN NS   ns2.wikimedia.org.
