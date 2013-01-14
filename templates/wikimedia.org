@@ -644,7 +644,6 @@ communityblog		1H	IN CNAME	marmontel.wikimedia.org.
 commons.prototype	1H	IN A		208.80.152.249
 contacts		1H	IN CNAME	singer.wikimedia.org.
 outreachcivi		1H	IN CNAME	singer.wikimedia.org.
-community-analytics	1H	IN CNAME	aluminium
 cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
 dev.donate		1H	IN CNAME	isidore	
