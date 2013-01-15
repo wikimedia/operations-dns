@@ -2621,6 +2621,7 @@ $ORIGIN 3.65.$zonename.
 125	1H	IN PTR		wmf4080.mgmt.eqiad.wmnet.
 125	1H	IN PTR		cerium.mgmt.eqiad.wmnet.
 126	1H	IN PTR		wmf4081.mgmt.eqiad.wmnet.
+126	1H	IN PTR		praseodymium.mgmt.eqiad.wmnet.
 127	1H	IN PTR		wmf4082.mgmt.eqiad.wmnet.
 127	1H	IN PTR		wtp1001.mgmt.eqiad.wmnet.
 128	1H	IN PTR		wmf4083.mgmt.eqiad.wmnet.
