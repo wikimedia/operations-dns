@@ -2515,9 +2515,9 @@ $ORIGIN 3.65.$zonename.
 54	1H	IN PTR		WMF3429.mgmt.eqiad.wmnet.
 55	1H	IN PTR		payments1001.mgmt.eqiad.wmnet.
 55	1H	IN PTR		WMF3430.mgmt.eqiad.wmnet.
-56	1H	IN PTR		msfe1001.mgmt.eqiad.wmnet.
+56	1H	IN PTR		ruthenium.mgmt.eqiad.wmnet.
 56	1H	IN PTR		WMF3431.mgmt.eqiad.wmnet.
-57	1H	IN PTR		msfe1002.mgmt.eqiad.wmnet.
+57	1H	IN PTR		rhodium.mgmt.eqiad.wmnet.
 57	1H	IN PTR		WMF3432.mgmt.eqiad.wmnet.
 58	1H	IN PTR		palladium.mgmt.eqiad.wmnet.
 58	1H	IN PTR		WMF3433.mgmt.eqiad.wmnet.

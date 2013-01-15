@@ -192,8 +192,6 @@ mobile1011		1H	IN A	208.80.154.167
 molybdenum		1H	IN A	208.80.154.144
 ms10			1H	IN A	208.80.152.48
 ms1001			1H	IN A	208.80.154.16
-msfe1001		1H	IN A	208.80.154.147
-msfe1002		1H	IN A	208.80.154.148
 msfe-test		1H	IN A	208.80.154.146 ;copper
 			1H	IN A	208.80.154.136 ;zinc
 msfe-pmtpa-test		1H	IN A	208.80.152.112 ;owa1
