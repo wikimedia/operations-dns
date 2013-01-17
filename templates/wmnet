@@ -1119,8 +1119,7 @@ analytics1024            1H     IN A             10.64.36.124
 analytics1025            1H     IN A             10.64.36.125
 analytics1026            1H     IN A             10.64.36.126
 analytics1027            1H     IN A             10.64.36.127
-cadmium			 1H	IN A		 10.64.16.146
-caesium			 1H      IN A            10.64.0.201
+caesium			 1H IN A            10.64.0.201
 cobalt			 1H	IN A		 10.64.16.143
 cp1001 			 1H	IN A		 10.64.0.123
 cp1002 			 1H	IN A		 10.64.0.124
@@ -1497,6 +1496,8 @@ strontium		1H	IN A		10.64.0.164
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
 rubidium		1H	IN A		10.64.0.26
 tin			1H	IN A		10.64.0.196
+tmh1001			1H	IN A		10.64.0.197
+tmh1002			1H	IN A		 10.64.16.146
 wtp1001			1H	IN A		10.64.16.155
 vanadium		1H	IN A		10.64.21.123
 virt1001		1H	IN A		10.64.20.4
@@ -1507,7 +1508,6 @@ virt1005		1H	IN A		10.64.20.8
 virt1006		1H	IN A		10.64.20.9
 virt1007		1H	IN A		10.64.20.10
 xenon	                1H      IN A            10.64.0.200
-yttrium			1H	IN A		10.64.0.197
 
 ; Management
 
@@ -1649,7 +1649,7 @@ cp1043		1H	IN A	10.65.2.43
 WMF3092		1H	IN A	10.65.2.43
 cp1044		1H	IN A	10.65.2.44
 WMF3091		1H	IN A	10.65.2.44
-yttrium		1H	IN A	10.65.3.51
+tmh1001		1H	IN A	10.65.3.51
 WMF3426		1H	IN A	10.65.3.51
 zirconium	1H	IN A	10.65.3.52
 WMF3427		1H	IN A	10.65.3.52
@@ -2365,7 +2365,7 @@ strontium	1H	IN A	10.65.3.50
 WMF3425		1H	IN A	10.65.3.50
 arsenic		1H	IN A	10.65.3.45
 WMF3420		1H	IN A	10.65.3.45
-cadmium		1H	IN A	10.65.3.60
+tmh1002		1H	IN A	10.65.3.60
 WMF3435		1H	IN A	10.65.3.60
 niobium		1H	IN A	10.65.3.53
 WMF3428		1H	IN A	10.65.3.53
