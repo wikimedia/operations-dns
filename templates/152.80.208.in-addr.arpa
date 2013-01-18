@@ -141,7 +141,7 @@ $ORIGIN $zonename.
 150	1H IN PTR	marmontel.wikimedia.org.
 151	1H IN PTR	constable.wikimedia.org.
 152	1H IN PTR	celsus.wikimedia.org.
-153	1H IN PTR	colby.wikimedia.org.
+
 154	1H IN PTR	pdf2.wikimedia.org.
 155	1H IN PTR	pdf1.wikimedia.org.
 
@@ -214,7 +214,7 @@ $ORIGIN $zonename.
 228	1H IN PTR	ae0-103.cr2-pmtpa.wikimedia.org.
 229	1H IN PTR	ts-array4b.mgmt.toolserver.org.
 230	1H IN PTR	ts-array4a.mgmt.toolserver.org.
-; 231	1H IN PTR	colby.wikimedia.org.	
+231	1H IN PTR	colby.wikimedia.org.	
 232	1H IN PTR	alsted.wikimedia.org.
 233	1H IN PTR	harmon.wikimedia.org.
 234	1H IN PTR	web.amaranth.toolserver.org.
