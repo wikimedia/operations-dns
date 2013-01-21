@@ -247,6 +247,9 @@ virt5			1H	IN A		10.4.16.6
 virt6			1H	IN A		10.4.16.7
 virt7			1H	IN A		10.4.16.8
 virt8			1H	IN A		10.4.16.9
+virt9			1H	IN A		10.4.16.13
+virt10			1H	IN A		10.4.16.14
+virt11			1H	IN A		10.4.16.15
 wtp1			1H	IN A		10.0.0.23
 zwinger			1H	IN A		10.0.0.4
 zwinger2		1H	IN A		10.0.0.34
