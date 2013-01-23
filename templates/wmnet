@@ -2335,8 +2335,8 @@ ssl1004		1H	IN A	10.65.3.2
 WMF3149		1H	IN A	10.65.3.2
 ssl1003		1H	IN A	10.65.3.1
 WMF3150		1H	IN A	10.65.3.1
-tellurium       1H      IN A    10.65.3.130
-te              1H      IN CNAME        tellurium
+tellurium   1H  IN A    10.65.3.130
+te          1H  IN CNAME        tellurium
 potassium	1H	IN A	10.65.3.32
 WMF3287		1H	IN A	10.65.3.32
 calcium		1H	IN A	10.65.3.31
@@ -2426,6 +2426,17 @@ wtp1001		1H	IN A	10.65.3.127
 wmf4083		1H	IN A	10.65.3.128
 iodine		1H	IN A	10.65.3.129
 wmf4084		1H	IN A	10.65.3.129
+wmf3557     1H  IN A    10.65.3.131
+wmf3558     1H  IN A    10.65.3.132
+wmf3559     1H  IN A    10.65.3.133
+wmf3560     1H  IN A    10.65.3.134
+wmf3561     1H  IN A    10.65.3.135
+wmf3562     1H  IN A    10.65.3.136
+wmf3563     1H  IN A    10.65.3.137
+wmf3564     1H  IN A    10.65.3.138
+wmf3565     1H  IN A    10.65.3.139
+wmf3566     1H  IN A    10.65.3.140
+
 
 ; EQIAD Fundraising/Payments 
 
