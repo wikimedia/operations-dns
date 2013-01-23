@@ -1317,17 +1317,3 @@ sql-s3			1H IN CNAME sql-s3.toolserver.org.
 
 $ORIGIN db.ts.$zonename.
 $toolserverdbs
-
-;
-; REVERSE DNS
-; 
-
-; Reverse DNS for 145.97.34.128/29 (Kennisnet management network)
-
-$ORIGIN 34.97.145.rev.$zonename.
-
-224 1H	IN PTR	net-ipmi.knams.wikimedia.org.
-225 1H	IN PTR	knfsm001.ipmi.knams.wikimedia.org.
-226 1H	IN PTR	knfsm002.ipmi.knams.wikimedia.org.
-227 1H	IN PTR	gw-hsrp.ipmi.knams.wikimedia.org.
-228 1H	IN PTR	eth1.pascal.knams.wikimedia.org.
