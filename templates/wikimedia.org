@@ -537,8 +537,6 @@ svn			1H	IN CNAME	formey.wikimedia.org.
 
 torrus			1H	IN CNAME	manutius
 
-tstracker		1H	IN CNAME	tracker.ts.wikimedia.org. ; toolserver BT tracker
-
 url-downloader		1H	IN A		208.80.152.143	; linne
 
 wlm			1H	IN CNAME	wikimedia-lb
@@ -638,7 +636,6 @@ bugzilla3		1H	IN CNAME	singer.wikimedia.org.
 bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
 civicrm			1H	IN CNAME	aluminium
 civicrm-dev		1H	IN CNAME	aluminium
-civimaps		1H	IN CNAME	isidore
 codereview-proxy	1H	IN CNAME	kaulen
 coffee			1H	IN CNAME	singer
 communicate		1H	IN CNAME	singer
@@ -648,7 +645,6 @@ contacts		1H	IN CNAME	singer.wikimedia.org.
 outreachcivi		1H	IN CNAME	singer.wikimedia.org.
 cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
-dev.donate		1H	IN CNAME	isidore	
 download		1H	IN CNAME	dumps
 eiximenis		1H	IN CNAME	hooper.wikimedia.org.
 etherpad		1H	IN CNAME	hooper.wikimedia.org.
@@ -699,7 +695,6 @@ ru.planet		1H	IN CNAME	singer
 sr.planet		1H	IN CNAME	singer
 sv.planet		1H	IN CNAME	singer
 zh.planet		1H	IN CNAME	singer
-poke			1H	IN CNAME	isidore
 prototype		1H	IN A		208.80.152.248
 en.prototype		1H	IN CNAME	prototype
 de.prototype		1H	IN CNAME	prototype
@@ -717,15 +712,12 @@ survey			1H	IN CNAME	argon.wikimedia.org.
 testblog		1H	IN CNAME	marmontel.wikimedia.org.
 techblog		1H	IN CNAME	marmontel.wikimedia.org.
 ticket			1H	IN CNAME	williams
-tools			1H	IN CNAME	hemlock.ts
 ubuntu			1H	IN A		208.80.152.171
 url			1H	IN CNAME	singer
 voip			1H	IN A		216.38.130.191
 ;volunteer		1H	IN A		208.75.85.110
 wikitech		1H	IN A		207.192.72.124 
 wikitech-static		1H	IN A		207.192.72.124
-wm06reg			1H	IN CNAME	friedrich
-wm07schols		1H	IN CNAME	friedrich
 wm08reg			1H	IN A		67.228.205.196
 wm09schols		1H	IN CNAME	singer
 wm10reg			1H	IN CNAME	singer
@@ -844,25 +836,17 @@ knsq21			1H	IN A	91.198.174.31
 
 cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
-dev.donate		1H	IN CNAME	isidore	
 download		1H	IN CNAME	dumps
-fundraising		1H	IN CNAME	friedrich
 ls2			1H	IN CNAME	wikimedia-lb
 nagios			1H	IN CNAME	spence
 noc			1H	IN CNAME	fenari
 ocs.wikimania2009	1H	IN CNAME	singer
 otrs-test		1H	IN CNAME	williams
-poke			1H	IN CNAME	isidore
 stats			1H	IN CNAME	zwinger
 survey			1H	IN CNAME	singer.wikimedia.org.
 ticket			1H	IN CNAME	williams
-tools			1H	IN CNAME	hemlock.ts
-office2			1H	IN CNAME	friedrich
-civimaps		1H	IN CNAME	isidore
 usability		1H	IN A		74.82.3.109
 wikitech		1H	IN A		207.192.72.124 
-wm06reg			1H	IN CNAME	friedrich
-wm07schols		1H	IN CNAME	friedrich
 wm08reg			1H	IN A		67.228.205.196
 
 ; Misc
