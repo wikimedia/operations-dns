@@ -918,7 +918,7 @@ $ORIGIN 8.1.$zonename.
 15	1H	IN PTR	williams.mgmt.pmtpa.wmnet.
 16	1H	IN PTR	amaranth.mgmt.pmtpa.wmnet.
 17	1H	IN PTR	ts-array4a.mgmt.pmtpa.wmnet.
-18	1H	IN PTR	ts-array4b..mgmt.pmtpa.wmnet.
+18	1H	IN PTR	ts-array4b.mgmt.pmtpa.wmnet.
 19	1H	IN PTR	pdf1.mgmt.pmtpa.wmnet.
 20	1H	IN PTR	capella.mgmt.pmtpa.wmnet.
 21	1H	IN PTR	snapshot1.mgmt.pmtpa.wmnet.
@@ -2783,7 +2783,7 @@ $ORIGIN 6.65.$zonename.
 49	1H	IN PTR		db1049.mgmt.eqiad.wmnet.
 50	1H	IN PTR		db1050.mgmt.eqiad.wmnet.
 51	1H	IN PTR		db1051.mgmt.eqiad.wmnet.
-52	1H	IN PTR		db1052.mgmt.eqiad.wmnet..
+52	1H	IN PTR		db1052.mgmt.eqiad.wmnet.
 53	1H	IN PTR		db1053.mgmt.eqiad.wmnet.
 54	1H	IN PTR		db1054.mgmt.eqiad.wmnet.
 55	1H	IN PTR		db1055.mgmt.eqiad.wmnet.
