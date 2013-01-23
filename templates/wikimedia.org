@@ -834,25 +834,6 @@ knsq19			1H	IN A	91.198.174.29
 knsq20			1H	IN A	91.198.174.30
 knsq21			1H	IN A	91.198.174.31
 
-cs			1H	IN CNAME	wikimedia.cz.
-cz			1H	IN CNAME	wikimedia.cz.
-download		1H	IN CNAME	dumps
-ls2			1H	IN CNAME	wikimedia-lb
-nagios			1H	IN CNAME	spence
-noc			1H	IN CNAME	fenari
-ocs.wikimania2009	1H	IN CNAME	singer
-otrs-test		1H	IN CNAME	williams
-stats			1H	IN CNAME	zwinger
-survey			1H	IN CNAME	singer.wikimedia.org.
-ticket			1H	IN CNAME	williams
-usability		1H	IN A		74.82.3.109
-wikitech		1H	IN A		207.192.72.124 
-wm08reg			1H	IN A		67.228.205.196
-
-; Misc
-
-rob.tech		1H	IN A	208.80.152.135
-
 ; IPv6 connectivity/reachability test
 ipv6.labs		1H	IN AAAA	2620:0:862:1:6666:6666:6666:6666
 ipv4.labs		1H	IN A	91.198.174.7
