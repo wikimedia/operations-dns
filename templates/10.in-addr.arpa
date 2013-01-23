@@ -1241,7 +1241,7 @@ $ORIGIN 0.3.$zonename.
 
 ; Loopbacks 10.3.0.12/30
 
-12	1H	IN PTR	mr1-pmtpa.mgmt.pmtpa.wmnet
+12	1H	IN PTR	mr1-pmtpa.mgmt.pmtpa.wmnet.
 
 ; TEMP cross link between cr1-sdtpa and csw1-sdtpa: 10.3.0.16/30
 
