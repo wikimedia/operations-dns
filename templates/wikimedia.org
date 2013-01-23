@@ -796,43 +796,11 @@ amslvs1			1H	IN A	91.198.174.109
 amslvs2			1H	IN A	91.198.174.110
 amslvs3			1H	IN A	91.198.174.111
 amslvs4			1H	IN A	91.198.174.112
-clematis		1H	IN A	91.198.174.130
-			1H	IN AAAA 2620:0:862:102:209:3dff:fe11:c9d2
-fuchsia			1H	IN A	91.198.174.120
-iris			1H	IN A	91.198.174.124
-lily			1H	IN A	91.198.174.121
-
-mayflower		1H	IN A	91.198.174.123
 
 maerlant		1H	IN A	91.198.174.122
-mint			1H	IN A	91.198.174.119
 ms6			1H	IN A	91.198.174.125
-pascal			1H	IN A	91.198.174.118
-ragweed			1H	IN A	91.198.174.126
-sage			1H	IN A	145.97.39.130
 slauerhoff		1H	IN A	91.198.174.108
 slauerhoff-array	1H	IN A	91.198.174.107
-knsq1			1H	IN A	91.198.174.11
-knsq2			1H	IN A	91.198.174.12
-knsq3			1H	IN A	91.198.174.13
-knsq4			1H	IN A	91.198.174.14
-knsq5			1H	IN A	91.198.174.15
-knsq6			1H	IN A	91.198.174.16
-knsq7			1H	IN A	91.198.174.17
-knsq8			1H	IN A	91.198.174.18
-knsq9			1H	IN A	91.198.174.19
-knsq10			1H	IN A	91.198.174.20
-knsq11			1H	IN A	91.198.174.21
-knsq12			1H	IN A	91.198.174.22
-knsq13			1H	IN A	91.198.174.23
-knsq14			1H	IN A	91.198.174.24
-knsq15			1H	IN A	91.198.174.25
-knsq16			1H	IN A	91.198.174.26
-knsq17			1H	IN A	91.198.174.27
-knsq18			1H	IN A	91.198.174.28
-knsq19			1H	IN A	91.198.174.29
-knsq20			1H	IN A	91.198.174.30
-knsq21			1H	IN A	91.198.174.31
 
 ; IPv6 connectivity/reachability test
 ipv6.labs		1H	IN AAAA	2620:0:862:1:6666:6666:6666:6666
@@ -843,16 +811,6 @@ results.labs		1H	IN A	91.198.174.7
 
 ; Maps (OSM and others)
 tiles			1H	IN A	91.198.174.8
-
-
-
-; Amsterdam cluster
-
-$ORIGIN esams.$zonename.
-
-; Service aliases
-
-ntp			1H	IN A	91.198.174.118	; pascal
 
 ; Servers
 
