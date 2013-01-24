@@ -26,6 +26,7 @@ $ORIGIN $zonename.
 9	1H IN PTR	ssl1003.wikimedia.org.
 10	1H IN PTR	carbon.wikimedia.org.
 11	1H IN PTR	dataset1001.wikimedia.org.
+12	1H IN PTR	barium.wikimedia.org.
 
 14	1H IN PTR	neon.wikimedia.org.
 15	1H IN PTR	oxygen.wikimedia.org.
@@ -114,7 +115,7 @@ $ORIGIN $zonename.
 156	1H IN PTR	titanium.wikimedia.org.
 157	1H IN PTR	chromium.wikimedia.org.
 158	1H IN PTR	calcium.wikimedia.org.
-159	1H IN PTR	colby.wikimedia.org.
+
 160	1H IN PTR	mobile1004.wikimedia.org.
 161	1H IN PTR	mobile1005.wikimedia.org.
 162	1H IN PTR	mobile1006.wikimedia.org.
