@@ -2799,7 +2799,7 @@ $ORIGIN 6.65.$zonename.
 57	1H	IN PTR		db1057.mgmt.eqiad.wmnet.
 58	1H	IN PTR		db1058.mgmt.eqiad.wmnet.
 59	1H	IN PTR		db1059.mgmt.eqiad.wmnet.
-60	1H	IN PTR		db1050.mgmt.eqiad.wmnet.
+60	1H	IN PTR		db1060.mgmt.eqiad.wmnet.
 
 $ORIGIN 7.65.$zonename.
 
