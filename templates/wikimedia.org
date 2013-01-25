@@ -519,6 +519,7 @@ imap			1H	IN A		208.80.152.187	; sanger
 integration		1H	IN CNAME	gallium
 irc			1H	IN CNAME	ekrem
 ntp.pmtpa		1H	IN CNAME	linne
+ntp				1H	IN CNAME	dobson
 
 observium		1H	IN A		208.80.152.137
 
