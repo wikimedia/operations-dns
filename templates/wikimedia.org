@@ -329,6 +329,7 @@ zinc			1H	IN A	208.80.154.136
 nitrogen		1H	IN A	208.80.154.17
 			1H	IN AAAA	2620:0:861:1:208:80:154:17
 zirconium		1H	IN A	208.80.154.41
+			1H	IN AAAA	2620:0:861:1:1a03:73ff:fef1:4f4c
 ; Round robin record
 
 text.pmtpa		1H	IN A	208.80.152.209
