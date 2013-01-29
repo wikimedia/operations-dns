@@ -256,8 +256,8 @@ zwinger2		1H	IN A		10.0.0.34
 
 ; $GENERATES
 
-; mw1-mw74
-$GENERATE  1-74    mw$ A  10.0.11.$
+; mw1-mw135
+$GENERATE  1-135    mw$ A  10.0.11.$
 
 ; srv11-250
 $GENERATE  11-250    srv$ A  10.0.2.$
@@ -1041,7 +1041,67 @@ mw71		1H	IN A		10.1.9.122
 mw72		1H	IN A		10.1.9.123
 mw73		1H	IN A		10.1.9.124
 mw74		1H	IN A		10.1.9.125
-
+mw75		1H	IN A		10.1.9.126
+mw76		1H	IN A		10.1.9.127
+mw77		1H	IN A		10.1.9.128
+mw78		1H	IN A		10.1.9.129
+mw79		1H	IN A		10.1.9.130
+mw80		1H	IN A		10.1.9.131
+mw81		1H	IN A		10.1.9.132
+mw82		1H	IN A		10.1.9.133
+mw83		1H	IN A		10.1.9.134
+mw84		1H	IN A		10.1.9.135
+mw85		1H	IN A		10.1.9.136
+mw86		1H	IN A		10.1.9.137
+mw87		1H	IN A		10.1.9.138
+mw88		1H	IN A		10.1.9.139
+mw89		1H	IN A		10.1.9.140
+mw90		1H	IN A		10.1.9.141
+mw91		1H	IN A		10.1.9.142
+mw92		1H	IN A		10.1.9.143
+mw93		1H	IN A		10.1.9.144
+mw94		1H	IN A		10.1.9.145
+mw95		1H	IN A		10.1.9.146
+mw96		1H	IN A		10.1.9.147
+mw97		1H	IN A		10.1.9.148
+mw98		1H	IN A		10.1.9.149
+mw99		1H	IN A		10.1.9.150
+mw100		1H	IN A		10.1.9.151
+mw101		1H	IN A		10.1.9.152
+mw102		1H	IN A		10.1.9.153
+mw103		1H	IN A		10.1.9.154
+mw104		1H	IN A		10.1.9.155
+mw105		1H	IN A		10.1.9.156
+mw106		1H	IN A		10.1.9.157
+mw107		1H	IN A		10.1.9.158
+mw108		1H	IN A		10.1.9.159
+mw109		1H	IN A		10.1.9.160
+mw110		1H	IN A		10.1.9.161
+mw111		1H	IN A		10.1.9.162
+mw112		1H	IN A		10.1.9.163
+mw113		1H	IN A		10.1.9.164
+mw114		1H	IN A		10.1.9.165
+mw115		1H	IN A		10.1.9.166
+mw116		1H	IN A		10.1.9.167
+mw117		1H	IN A		10.1.9.168
+mw118		1H	IN A		10.1.9.169
+mw119		1H	IN A		10.1.9.170
+mw120		1H	IN A		10.1.9.171
+mw121		1H	IN A		10.1.9.172
+mw122		1H	IN A		10.1.9.173
+mw123		1H	IN A		10.1.9.174
+mw124		1H	IN A		10.1.9.175
+mw125		1H	IN A		10.1.9.176
+mw126		1H	IN A		10.1.9.177
+mw127		1H	IN A		10.1.9.178
+mw128		1H	IN A		10.1.9.179
+mw129		1H	IN A		10.1.9.180
+mw130		1H	IN A		10.1.9.181
+mw131		1H	IN A		10.1.9.182
+mw132		1H	IN A		10.1.9.183
+mw133		1H	IN A		10.1.9.184
+mw134		1H	IN A		10.1.9.185
+mw135		1H	IN A		10.1.9.186
 
 ; Various assignments
 
@@ -2437,7 +2497,12 @@ wmf3563     1H  IN A    10.65.3.137
 wmf3564     1H  IN A    10.65.3.138
 wmf3565     1H  IN A    10.65.3.139
 wmf3566     1H  IN A    10.65.3.140
-
+wmf3568     1H  IN A    10.65.3.141
+wmf3569     1H  IN A    10.65.3.142
+wmf3570     1H  IN A    10.65.3.143
+wmf3571     1H  IN A    10.65.3.144
+wmf3572     1H  IN A    10.65.3.145
+wmf3573     1H  IN A    10.65.3.146
 
 ; EQIAD Fundraising/Payments 
 
