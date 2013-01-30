@@ -1121,6 +1121,7 @@ $ORIGIN eqiad.$zonename.
 
 ; Service aliases
 ntp			1H	IN CNAME	linne.wikimedia.org.
+syslog			1H	IN CNAME	fenari.wikimedia.org.
 s1-master		5M	IN CNAME	db1017.eqiad.wmnet.
 s2-master		5M	IN CNAME	db1034.eqiad.wmnet.
 s3-master		5M	IN CNAME	db1019.eqiad.wmnet.
