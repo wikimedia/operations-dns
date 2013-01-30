@@ -1049,10 +1049,10 @@ $ORIGIN 8.1.$zonename.
 80	1H	IN PTR	ms-fe4.mgmt.pmtpa.wmnet.
 81	1H	IN PTR	osm-cp1.mgmt.pmtpa.wmnet.
 82	1H	IN PTR	osm-cp2.mgmt.pmtpa.wmnet.
-83	1H	IN PTR	osm-db1.mgmt.pmtpa.wmnet.
-84	1H	IN PTR	osm-db2.mgmt.pmtpa.wmnet.
-85	1H	IN PTR	osm-db3.mgmt.pmtpa.wmnet.
-86	1H	IN PTR	osm-db4.mgmt.pmtpa.wmnet.
+83	1H	IN PTR	osm-cp3.mgmt.pmtpa.wmnet.
+84	1H	IN PTR	osm-cp4.mgmt.pmtpa.wmnet.
+85	1H	IN PTR	osm-db1.mgmt.pmtpa.wmnet.
+86	1H	IN PTR	osm-db2.mgmt.pmtpa.wmnet.
 87	1H	IN PTR	osm-web1.mgmt.pmtpa.wmnet.
 88	1H	IN PTR	osm-web2.mgmt.pmtpa.wmnet.
 89	1H	IN PTR	osm-web3.mgmt.pmtpa.wmnet.

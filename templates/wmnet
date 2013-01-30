@@ -763,10 +763,10 @@ ocg2			1H	IN A		10.1.8.63
 ocg3			1H	IN A		10.1.8.64
 osm-cp1			1H	IN A		10.1.8.81
 osm-cp2			1H	IN A		10.1.8.82
-osm-db1			1H	IN A		10.1.8.83
-osm-db2			1H	IN A		10.1.8.84
-osm-db3			1H	IN A		10.1.8.85
-osm-db4			1H	IN A		10.1.8.86
+osm-cp3			1H	IN A		10.1.8.83
+osm-cp4			1H	IN A		10.1.8.84
+osm-db1			1H	IN A		10.1.8.85
+osm-db2			1H	IN A		10.1.8.86
 osm-web1		1H	IN A		10.1.8.87
 osm-web2		1H	IN A		10.1.8.88
 osm-web3		1H	IN A		10.1.8.89
