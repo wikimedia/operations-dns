@@ -82,6 +82,7 @@ $ORIGIN $zonename.
 64	1H IN PTR	vrrp-gw-1003.wikimedia.org.
 65	1H IN PTR	ae3-1003.cr1-eqiad.wikimedia.org.
 66	1H IN PTR	ae3-1003.cr2-eqiad.wikimedia.org.
+67	1H IN PTR	analytics1026.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
@@ -110,7 +111,7 @@ $ORIGIN $zonename.
 151	1H IN PTR	iron.wikimedia.org.
 152	1H IN PTR	manganese.wikimedia.org.
 153	1H IN PTR	silver.wikimedia.org.
-154	1H IN PTR	analytics1001.wikimedia.org.
+
 155	1H IN PTR	stat1001.wikimedia.org.
 156	1H IN PTR	titanium.wikimedia.org.
 157	1H IN PTR	chromium.wikimedia.org.

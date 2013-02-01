@@ -2056,7 +2056,7 @@ $ORIGIN 36.64.$zonename.
 120     1H IN PTR       analytics1020.eqiad.wmnet.
 121     1H IN PTR       analytics1021.eqiad.wmnet.
 122     1H IN PTR       analytics1022.eqiad.wmnet.
-123  	1H IN PTR	analytics1023.eqiad.wmnet.
+123  	1H IN PTR		analytics1023.eqiad.wmnet.
 124     1H IN PTR       analytics1024.eqiad.wmnet.
 125     1H IN PTR       analytics1025.eqiad.wmnet.
 126     1H IN PTR       analytics1026.eqiad.wmnet.
