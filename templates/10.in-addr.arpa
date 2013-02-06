@@ -1098,6 +1098,17 @@ $ORIGIN 8.1.$zonename.
 120	1H	IN PTR	wmf5825.mgmt.pmtpa.wmnet.
 121	1H	IN PTR	wmf5826.mgmt.pmtpa.wmnet.
 122	1H	IN PTR	pappas.mgmt.pmtpa.wmnet.
+123	1H	IN PTR	WMF5842.mgmt.pmtpa.wmnet.
+124	1H	IN PTR	WMF5843.mgmt.pmtpa.wmnet.
+125	1H	IN PTR	WMF5844.mgmt.pmtpa.wmnet.
+126	1H	IN PTR	WMF5845.mgmt.pmtpa.wmnet.
+127	1H	IN PTR	WMF5846.mgmt.pmtpa.wmnet.
+128	1H	IN PTR	WMF5847.mgmt.pmtpa.wmnet.
+129	1H	IN PTR	WMF5848.mgmt.pmtpa.wmnet.
+130	1H	IN PTR	WMF5849.mgmt.pmtpa.wmnet.
+131	1H	IN PTR	WMF5850.mgmt.pmtpa.wmnet.
+132	1H	IN PTR	WMF5851.mgmt.pmtpa.wmnet.
+133	1H	IN PTR	WMF5852.mgmt.pmtpa.wmnet.
 
 ; Apaches pool (srv251+)
 $ORIGIN 9.1.$zonename.
