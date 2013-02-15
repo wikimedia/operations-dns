@@ -613,7 +613,7 @@ $ORIGIN 11.0.$zonename.
 107	1H	IN PTR	mw107.pmtpa.wmnet.
 108	1H	IN PTR	mw108.pmtpa.wmnet.
 109	1H	IN PTR	mw109.pmtpa.wmnet.
-100	1H	IN PTR	mw100.pmtpa.wmnet.
+110	1H	IN PTR	mw100.pmtpa.wmnet.
 111	1H	IN PTR	mw111.pmtpa.wmnet.
 112	1H	IN PTR	mw112.pmtpa.wmnet.
 113	1H	IN PTR	mw113.pmtpa.wmnet.
