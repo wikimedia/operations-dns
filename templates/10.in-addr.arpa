@@ -2070,9 +2070,9 @@ $ORIGIN 32.64.$zonename.
 70      1H IN PTR       mw1200.eqiad.wmnet.
 71      1H IN PTR       neodymium.eqiad.wmnet.
 72      1H IN PTR       promethium.eqiad.wmnet.
-73		1H IN PTR		wtp1002.eqiad.wmnet
-74		1H IN PTR		wtp1003.eqiad.wmnet
-75		1H IN PTR		wtp1004.eqiad.wmnet
+73		1H IN PTR		wtp1002.eqiad.wmnet.
+74		1H IN PTR		wtp1003.eqiad.wmnet.
+75		1H IN PTR		wtp1004.eqiad.wmnet.
 
 $ORIGIN 33.64.$zonename.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
