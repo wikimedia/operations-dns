@@ -1654,6 +1654,9 @@ virt1004		1H	IN A		10.64.20.7
 virt1005		1H	IN A		10.64.20.8
 virt1006		1H	IN A		10.64.20.9
 virt1007		1H	IN A		10.64.20.10
+wtp1002			1H  IN A        10.64.32.73
+wtp1003			1H  IN A        10.64.32.74
+wtp1004			1H  IN A        10.64.32.75
 xenon	                1H      IN A            10.64.0.200
 
 ; Management
@@ -2633,11 +2636,14 @@ iodine		1H	IN A	10.65.3.129
 wmf4084		1H	IN A	10.65.3.129
 wmf3557     1H  IN A    10.65.3.131
 wmf3558     1H  IN A    10.65.3.132
+wtp1002		1H  IN A    10.65.3.132
 wmf3559     1H  IN A    10.65.3.133
 wmf3560     1H  IN A    10.65.3.134
 wmf3561     1H  IN A    10.65.3.135
 wmf3562     1H  IN A    10.65.3.136
+wtp1003     1H  IN A    10.65.3.136
 wmf3563     1H  IN A    10.65.3.137
+wtp1004     1H  IN A    10.65.3.137
 wmf3564     1H  IN A    10.65.3.138
 wmf3565     1H  IN A    10.65.3.139
 wmf3566     1H  IN A    10.65.3.140
