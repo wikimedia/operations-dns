@@ -217,7 +217,7 @@ $ORIGIN $zonename.
 230	1H IN PTR	ts-array4a.mgmt.toolserver.org.
 231	1H IN PTR	db61.wikimedia.org.	
 232	1H IN PTR	alsted.wikimedia.org.	
-233	1H IN PTR	harmon.wikimedia.org.
+
 234	1H IN PTR	web.amaranth.toolserver.org.
 239	1H IN PTR	internproxy.wikimedia.org.
 

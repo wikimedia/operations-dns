@@ -103,7 +103,6 @@ chromium		1H	IN A	208.80.154.157
 			1H	IN AAAA	2620:0:861:2:208:80:154:157
 colby			1H	IN A	208.80.152.135
 constable		1H	IN A	208.80.152.151
-copper			1H	IN A	208.80.154.146
 cp1			1H	IN A	208.80.152.22
 cp2			1H	IN A	208.80.152.23
 cp3			1H	IN A	208.80.152.24
@@ -153,7 +152,6 @@ gallium			1H	IN A	208.80.154.135
 gilman			1H	IN A	208.80.152.176
 grosley			1H	IN A	208.80.152.164
 gurvin			1H	IN A	208.80.152.20
-harmon			1H	IN A	208.80.152.233
 hooper			1H	IN A	208.80.152.148
 hume			1H	IN A	208.80.152.190
 			1H	IN AAAA	2620:0:860:2:21d:9ff:fe33:f235
@@ -194,8 +192,6 @@ mobile1011		1H	IN A	208.80.154.167
 molybdenum		1H	IN A	208.80.154.144
 ms10			1H	IN A	208.80.152.48
 ms1001			1H	IN A	208.80.154.16
-msfe-test		1H	IN A	208.80.154.146 ;copper
-			1H	IN A	208.80.154.136 ;zinc
 msfe-pmtpa-test		1H	IN A	208.80.152.112 ;owa1
 			1H	IN A	208.80.152.113 ;owa2
 			1H	IN A	208.80.152.114 ;owa3

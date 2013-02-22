@@ -29,6 +29,7 @@ $ORIGIN 0.0.$zonename.
 15	1H	IN PTR	vl2-eth0.lvs5.wikimedia.org.
 16	1H	IN PTR	vl2-eth0.lvs6.wikimedia.org.
 
+20	1H	IN PTR	harmon.pmtpa.wmnet.
 21	1H	IN PTR	tarin.pmtpa.wmnet.
 22	1H	IN PTR	ersch.pmtpa.wmnet.
 23	1H	IN PTR	wtp1.pmtpa.wmnet.
@@ -1956,6 +1957,7 @@ $ORIGIN 16.64.$zonename.
 173 1H IN PTR   mw1218.eqiad.wmnet.
 174 1H IN PTR   mw1219.eqiad.wmnet.
 175 1H IN PTR   mw1220.eqiad.wmnet.
+176 1H IN PTR   copper.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 
