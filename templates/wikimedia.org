@@ -665,7 +665,7 @@ labs-ns1		1H	IN A		208.80.154.19
 labsconsole		1H	IN A		208.80.152.32
 ls2			1H	IN CNAME	wikimedia-lb
 metrics-api		1H	IN CNAME	stat1001
-nagios			1H	IN CNAME	icinga	
+nagios			1H	IN CNAME	spence
 noc			1H	IN CNAME	fenari
 nyc			1H	IN CNAME	wikimedia-lb
 ocs.wikimania2009	1H	IN CNAME	singer
