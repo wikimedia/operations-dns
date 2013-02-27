@@ -509,6 +509,7 @@ doc			1H	IN CNAME	gallium
 
 gerrit			1H	IN CNAME	manganese.wikimedia.org.
 icinga			1H	IN CNAME	neon
+icinga-admin	1H	IN A		208.80.154.14
 imap			1H	IN A		208.80.152.187	; sanger
 			1H	IN MX		10 mchenry
 
