@@ -2075,6 +2075,8 @@ $ORIGIN 32.64.$zonename.
 73		1H IN PTR		wtp1002.eqiad.wmnet.
 74		1H IN PTR		wtp1003.eqiad.wmnet.
 75		1H IN PTR		wtp1004.eqiad.wmnet.
+76		1H IN PTR		rdb1001.eqiad.wmnet.
+77		1H IN PTR		rdb1002.eqiad.wmnet.
 
 $ORIGIN 33.64.$zonename.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
@@ -2923,10 +2925,12 @@ $ORIGIN 3.65.$zonename.
 141 1H  IN PTR      wmf3568.mgmt.eqiad.wmnet.
 141 1H  IN PTR      neodymium.mgmt.eqiad.wmnet.
 142 1H  IN PTR      wmf3569.mgmt.eqiad.wmnet.
+142 1H  IN PTR      rdb1001.mgmt.eqiad.wmnet.
 143 1H  IN PTR      wmf3570.mgmt.eqiad.wmnet.
 144 1H  IN PTR      wmf3571.mgmt.eqiad.wmnet.
 144 1H  IN PTR      promethium.mgmt.eqiad.wmnet.
 145 1H  IN PTR      wmf3572.mgmt.eqiad.wmnet.
+145 1H  IN PTR      rdb1002.mgmt.eqiad.wmnet.
 146 1H  IN PTR      wmf3573.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.$zonename.

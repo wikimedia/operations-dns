@@ -1608,6 +1608,8 @@ pc1002                  1H      IN A            10.64.16.157
 pc1003                  1H      IN A            10.64.16.158
 potassium		1H	IN A		10.64.16.152
 promethium		1H  IN A        10.64.32.72
+rdp1001			1H  IN A        10.64.32.76
+rdp1002			1H  IN A        10.64.32.77
 search1001		1H	IN A		10.64.0.95
 search1002		1H	IN A		10.64.0.96
 search1003		1H	IN A		10.64.0.97
@@ -2652,10 +2654,12 @@ wmf3566     1H  IN A    10.65.3.140
 wmf3568		1H  IN A    10.65.3.141
 neodymium	1H  IN A    10.65.3.141
 wmf3569     1H  IN A    10.65.3.142
+rdb1001     1H  IN A    10.65.3.142
 wmf3570     1H  IN A    10.65.3.143
 wmf3571     1H  IN A    10.65.3.144
 promethium	1H  IN A    10.65.3.144
 wmf3572     1H  IN A    10.65.3.145
+rdb1002     1H  IN A    10.65.3.145
 wmf3573     1H  IN A    10.65.3.146
 
 ; EQIAD Fundraising/Payments 
