@@ -663,7 +663,7 @@ jobs			1H	IN CNAME	wikimedia-lb
 labs			1H	IN CNAME	wikimedia-lb
 labs-ns0		1H	IN A		208.80.152.33
 labs-ns1		1H	IN A		208.80.154.19
-labsconsole		1H	IN A		208.80.152.32
+labsconsole		1H	IN CNAME	wikitech
 ls2			1H	IN CNAME	wikimedia-lb
 metrics-api		1H	IN CNAME	stat1001
 nagios			1H	IN CNAME	icinga	
@@ -716,7 +716,7 @@ ubuntu			1H	IN A		208.80.152.171
 url			1H	IN CNAME	singer
 voip			1H	IN A		216.38.130.191
 ;volunteer		1H	IN A		208.75.85.110
-wikitech		1H	IN A		207.192.72.124 
+wikitech		1H	IN A		208.80.152.32
 wikitech-static	1H	IN A		166.78.57.240
 wm08reg			1H	IN A		67.228.205.196
 wm09schols		1H	IN CNAME	singer
