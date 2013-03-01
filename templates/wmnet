@@ -1649,7 +1649,6 @@ rubidium		1H	IN A		10.64.0.26
 tin			1H	IN A		10.64.0.196
 tmh1001			1H	IN A		10.64.0.197
 tmh1002			1H	IN A		 10.64.16.146
-wtp1001			1H	IN A		10.64.16.155
 vanadium		1H	IN A		10.64.21.123
 virt1001		1H	IN A		10.64.20.4
 virt1002		1H	IN A		10.64.20.5
@@ -1658,6 +1657,7 @@ virt1004		1H	IN A		10.64.20.7
 virt1005		1H	IN A		10.64.20.8
 virt1006		1H	IN A		10.64.20.9
 virt1007		1H	IN A		10.64.20.10
+wtp1001         1H  IN A        10.64.32.78
 wtp1002			1H  IN A        10.64.32.73
 wtp1003			1H  IN A        10.64.32.74
 wtp1004			1H  IN A        10.64.32.75
