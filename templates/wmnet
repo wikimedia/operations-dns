@@ -1593,10 +1593,10 @@ mw1218          1H  IN A        10.64.16.173
 mw1219          1H  IN A        10.64.16.174
 mw1220          1H  IN A        10.64.16.175
 neodymium		1H  IN A        10.64.32.71
-osm-cp1001      1H  IN A        10.64.8.211
-osm-cp1002      1H  IN A        10.64.8.212
-osm-cp1003      1H  IN A        10.64.16.161
-osm-cp1004      1H  IN A        10.64.16.162
+#osm-cp1001      1H  IN A        10.64.8.211
+#osm-cp1002      1H  IN A        10.64.8.212
+#osm-cp1003      1H  IN A        10.64.16.161
+#osm-cp1004      1H  IN A        10.64.16.162
 osm-db1001      1H  IN A        10.64.8.213
 osm-db1002      1H  IN A        10.64.16.155
 osm-web1001		1H	IN A		10.64.0.165
