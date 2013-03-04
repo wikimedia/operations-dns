@@ -203,6 +203,8 @@ niobium			1H	IN A	208.80.154.143
 ocg1			1H	IN A	208.80.152.117
 ocg2			1H	IN A	208.80.152.119
 ocg3			1H	IN A	208.80.152.99
+osm-cp1001      1H  IN A    208.80.154.42
+osm-cp1002      1H  IN A    208.80.154.44
 osm-cp1003		1H	IN A	208.80.154.168
 osm-cp1004		1H	IN A	208.80.154.169
 osm-cp1005		1H	IN A	208.80.154.170
@@ -905,11 +907,6 @@ ms-be3003		1H	IN A	91.198.174.15
 ms-be3004		1H	IN A	91.198.174.16
 
 nescio			1H	IN A	91.198.174.106
-osm-cp1001      1H  IN A    208.80.154.42
-osm-cp1002      1H  IN A    208.80.154.44
-osm-cp1003      1H  IN A    208.80.154.146
-osm-cp1004      1H  IN A    208.80.154.159
-
 ptolemy			1H	IN A	91.198.174.114
 			1H	IN AAAA	2620:0:862:1:223:8bff:fe8a:79f4
 ortelius		1H	IN A	91.198.174.115
