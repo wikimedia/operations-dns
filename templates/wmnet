@@ -180,7 +180,6 @@ ms-be9			1H	IN A		10.0.6.208
 ms-be10			1H	IN A		10.0.6.209
 ms-be11			1H	IN A		10.0.6.212
 ms-be12			1H	IN A		10.0.6.213
-ms-be13			1H	IN A		10.0.6.216
 
 ms-fe			1H	IN A		10.2.1.27
 ms-fe1			1H	IN A		10.0.6.210
@@ -756,7 +755,6 @@ ms-be9			1H	IN A		10.1.7.29
 ms-be10			1H	IN A		10.1.7.30
 ms-be11			1H	IN A		10.1.7.31
 ms-be12			1H	IN A		10.1.7.32
-ms-be13			1H	IN A		10.1.6.80
 nfs1			1H	IN A		10.1.8.1
 nfs2			1H	IN A		10.1.8.11
 capella			1H	IN A		10.1.8.20
@@ -1595,8 +1593,12 @@ mw1218          1H  IN A        10.64.16.173
 mw1219          1H  IN A        10.64.16.174
 mw1220          1H  IN A        10.64.16.175
 neodymium		1H  IN A        10.64.32.71
+osm-cp1001      1H  IN A        10.64.8.211
+osm-cp1002      1H  IN A        10.64.8.212
 osm-cp1003      1H  IN A        10.64.16.161
 osm-cp1004      1H  IN A        10.64.16.162
+osm-db1001      1H  IN A        10.64.8.213
+osm-db1002      1H  IN A        10.64.16.155
 osm-web1001		1H	IN A		10.64.0.165
 osm-web1002		1H	IN A		10.64.0.166
 osm-web1003		1H	IN A		10.64.16.148

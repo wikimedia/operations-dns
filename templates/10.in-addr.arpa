@@ -229,8 +229,6 @@ $ORIGIN 6.0.$zonename.
 214	1H	IN PTR	ms-fe3.pmtpa.wmnet.
 215	1H	IN PTR	ms-fe4.pmtpa.wmnet.
 
-216	1H	IN PTR	ms-be13.pmtpa.wmnet.
-
 ; Temporary ex-fedora MySQL instances for external storage
 
 $ORIGIN 7.0.$zonename.
@@ -1761,7 +1759,9 @@ $ORIGIN 0.64.$zonename.
 208 1H IN PTR   mw1205.eqiad.wmnet.
 209 1H IN PTR   mw1206.eqiad.wmnet.
 210 1H IN PTR   mw1207.eqiad.wmnet.
-
+211 1H IN PTR   osm-cp1001.eqiad.wmnet.
+212 1H IN PTR   osm-cp1002.eqiad.wmnet.
+213 1H IN PTR   osm-db1001.eqiad.wmnet.
 
 $ORIGIN 1.64.$zonename.
 
@@ -1936,7 +1936,7 @@ $ORIGIN 16.64.$zonename.
 152	1H IN PTR	potassium.eqiad.wmnet.
 153	1H IN PTR	es1005.eqiad.wmnet.
 154	1H IN PTR	es1006.eqiad.wmnet.
-
+155 1H IN PTR   osm-db1002.eqiad.wmnet.
 156 1H IN PTR   pc1001.eqiad.wmnet.
 157 1H IN PTR   pc1002.eqiad.wmnet.
 158 1H IN PTR   pc1003.eqiad.wmnet.
