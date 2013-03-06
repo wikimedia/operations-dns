@@ -1612,8 +1612,8 @@ pc1002                  1H      IN A            10.64.16.157
 pc1003                  1H      IN A            10.64.16.158
 potassium		1H	IN A		10.64.16.152
 promethium		1H  IN A        10.64.32.72
-rdp1001			1H  IN A        10.64.32.76
-rdp1002			1H  IN A        10.64.32.77
+rdb1001			1H  IN A        10.64.32.76
+rdb1002			1H  IN A        10.64.32.77
 search1001		1H	IN A		10.64.0.95
 search1002		1H	IN A		10.64.0.96
 search1003		1H	IN A		10.64.0.97
