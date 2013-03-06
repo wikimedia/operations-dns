@@ -54,6 +54,7 @@ $ORIGIN 0.0.$zonename.
 44	1H	IN PTR	labstore4.pmtpa.wmnet.
 
 50	1H	IN PTR	constable.pmtpa.wmnet.
+51	1H	IN PTR	celsus.pmtpa.wmnet.
 
 200 	1H	IN PTR  vrrp-gw-2.pmtpa.wmnet.
 201 	1H	IN PTR  ae0-2.cr1-sdtpa.wikimedia.org.

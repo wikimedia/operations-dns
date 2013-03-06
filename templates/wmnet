@@ -64,6 +64,7 @@ es3-secondary		5M	IN CNAME	es8.pmtpa.wmnet.
 bellin			1H	IN A		10.0.6.100
 blondel			1H	IN A		10.0.6.101
 constable		1H	IN A		10.0.0.50
+celsus			1H	IN A		10.0.0.51
 db5			1H	IN A		10.0.0.238
 db7			1H	IN A		10.0.0.240
 db8			1H	IN A		10.0.0.241
