@@ -144,6 +144,7 @@ db61			1H	IN A	208.80.152.231
 dobson			1H	IN A	208.80.152.173
 ekrem			1H	IN A	208.80.152.178
 emery			1H	IN A	208.80.152.184
+europium		1H	IN A	208.80.154.72
 fenari			1H	IN A	208.80.152.165
 formey			1H	IN A	208.80.152.147
 gallium			1H	IN A	208.80.154.135
