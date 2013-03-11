@@ -1143,6 +1143,7 @@ s5-master		5M	IN CNAME	db1039.eqiad.wmnet.
 s6-master		5M	IN CNAME	db1006.eqiad.wmnet.
 s7-master		5M	IN CNAME	db1041.eqiad.wmnet.
 m2-master		5M	IN CNAME	db1048.eqiad.wmnet.
+x1-master		5M	IN CNAME	db1029.eqiad.wmnet.
 es1-master		5M	IN CNAME	es1001.eqiad.wmnet.
 es2-master		5M	IN CNAME	es1005.eqiad.wmnet.
 es3-master		5M	IN CNAME	es1008.eqiad.wmnet.
