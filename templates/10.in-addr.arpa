@@ -2937,6 +2937,7 @@ $ORIGIN 3.65.$zonename.
 145 1H  IN PTR      wmf3572.mgmt.eqiad.wmnet.
 145 1H  IN PTR      rdb1002.mgmt.eqiad.wmnet.
 146 1H  IN PTR      wmf3573.mgmt.eqiad.wmnet.
+146 1H  IN PTR      samarium.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.$zonename.
 
