@@ -548,6 +548,7 @@ zuul		1H	IN CNAME	gallium.wikimedia.org.
 ; Wikis (alphabetic order)
 
 advisory		1H	IN CNAME	wikimedia-lb
+affcom			1H	IN CNAME	wikimedia-lb
 auditcom		1H	IN CNAME	wikimedia-lb
 ar			1H	IN CNAME	wikimedia-lb
 be			1H	IN CNAME	wikimedia-lb
