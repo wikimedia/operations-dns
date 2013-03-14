@@ -1983,9 +1983,8 @@ $ORIGIN 20.64.$zonename.
 8	1H IN PTR	virt1005.eqiad.wmnet.
 9	1H IN PTR	virt1006.eqiad.wmnet.
 10	1H IN PTR	virt1007.eqiad.wmnet.
-11	1H IN PTR	labsdb1003.eqiad.wmnet.
-12      1H IN PTR       labsdb1001.eqiad.wmnet.
-13      1H IN PTR       labsdb1002.eqiad.wmnet.
+
+12  1H IN PTR   labsdb1001.eqiad.wmnet.
 
 ; 10.64.21.0/24 - analytics1-b-eqiad
 $ORIGIN 21.64.$zonename.
@@ -2119,6 +2118,8 @@ $ORIGIN 37.64.$zonename.
 1       1H IN PTR       vrrp-gw-1119.eqiad.wmnet.
 2       1H IN PTR       ae3-1119.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae3-1119.cr2-eqiad.wikimedia.org.
+4       1H IN PTR       labsdb1002.eqiad.wmnet.
+5       1H IN PTR       labsdb1003.eqiad.wmnet.
 
 ; 10.64.40.0/23 - frack subnets
 $ORIGIN 40.64.$zonename.

@@ -1333,10 +1333,10 @@ es1009			1H	IN A		10.64.32.19
 es1010			1H	IN A		10.64.32.20
 fluorine		1H	IN A		10.64.0.21
 helium			1H	IN A		10.64.0.179
-iodine	                1H      IN A            10.64.16.160
-labsdb1001              1H      IN A            10.64.20.12
-labsdb1002              1H      IN A            10.64.20.13
-labsdb1003		1H	IN A		10.64.20.11
+iodine	        1H  IN A        10.64.16.160
+labsdb1001      1H  IN A        10.64.20.12
+labsdb1002      1H  IN A        10.64.37.4
+labsdb1003		1H	IN A		10.64.37.5
 mc1001			1H	IN A		10.64.0.180
 mc1002			1H	IN A		10.64.0.181
 mc1003			1H	IN A		10.64.0.182
