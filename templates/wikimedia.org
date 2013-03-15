@@ -736,13 +736,6 @@ wm10schols		1H	IN CNAME	singer
 
 tampa.tech		1H	IN A	208.80.152.139
 
-; IPv6 connectivity/reachability test
-ipv6.labs		1H	IN AAAA	2620:0:862:1:6666:6666:6666:6666
-ipv4.labs		1H	IN A	91.198.174.7
-ipv6and4.labs		1H	IN A	91.198.174.7
-			1H	IN AAAA	2620:0:862:1:6666:6666:6666:6666
-results.labs		1H	IN A	91.198.174.7
-
 ; Google apps
 googlef3fe6c2a164e9650	1H	IN CNAME	google.com.
 
@@ -810,13 +803,6 @@ maerlant		1H	IN A	91.198.174.122
 ms6			1H	IN A	91.198.174.125
 slauerhoff		1H	IN A	91.198.174.108
 slauerhoff-array	1H	IN A	91.198.174.107
-
-; IPv6 connectivity/reachability test
-ipv6.labs		1H	IN AAAA	2620:0:862:1:6666:6666:6666:6666
-ipv4.labs		1H	IN A	91.198.174.7
-ipv6and4.labs		1H	IN A	91.198.174.7
-			1H	IN AAAA	2620:0:862:1:6666:6666:6666:6666
-results.labs		1H	IN A	91.198.174.7
 
 ; Maps (OSM and others)
 tiles			1H	IN A	91.198.174.8

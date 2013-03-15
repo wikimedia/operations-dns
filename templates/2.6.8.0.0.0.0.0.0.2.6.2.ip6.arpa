@@ -53,8 +53,6 @@ e.2.4.4.0.e.e.f.f.f.4.2.b.1.2.0	1H IN PTR	ortelius.esams.wikimedia.org.
 1.0.0.0.0.8.0.0.0.0.0.0.0.0.0.0	1H IN PTR	rr.esams.wikimedia.org.
 2.0.0.0.0.8.0.0.0.0.0.0.0.0.0.0	1H IN PTR	upload.esams.wikimedia.org.
 
-6.6.6.6.6.6.6.6.6.6.6.6.6.6.6.6	1H IN PTR	ipv6and4.labs.wikimedia.org.
-
 ; Toolserver external subnet 2620:0:862:101::/64
 
 $ORIGIN 1.0.1.0.$zonename.
