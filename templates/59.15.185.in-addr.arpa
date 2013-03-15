@@ -19,4 +19,6 @@ $ORIGIN {{ zonename }}.
 192-223 1H IN NS        a.ns.toolserver.org.
         1H IN NS        b.ns.toolserver.org.
         1H IN NS        c.ns.toolserver.org.
-$GENERATE 192-223       $ CNAME $.192-223.59.15.185.in-addr.arpa.
+{% for i in range(192, 224) %}
+{{ i }}	1H IN CNAME	{{ i }}.192-223.59.15.185.in-addr.arpa.
+{%- endfor %}

@@ -97,8 +97,9 @@ $ORIGIN 0.0.{{ zonename }}.
 ; asw*  DEPRECATED, put in management network
 $ORIGIN 1.0.{{ zonename }}.
 
-$GENERATE 1-9   $	PTR asw$-pmtpa.wmnet.
-
+{% for i in range(1, 10) %}
+{{ i }}	1H	IN PTR	asw{{ i }}-pmtpa.pmtpa.wmnet.
+{%- endfor %}
 
 ; srv*
 
@@ -108,7 +109,9 @@ $ORIGIN 2.0.{{ zonename }}.
 1	1H      IN PTR  srv2.pmtpa.wmnet.
 
 ;srv11-250
-$GENERATE 11-250   $	PTR srv$.pmtpa.wmnet.
+{% for i in range(11, 251) %}
+{{ i }}	1H	IN PTR	srv{{ i }}.pmtpa.wmnet.
+{%- endfor %}
 
 $ORIGIN 3.0.{{ zonename }}.
 
@@ -116,7 +119,9 @@ $ORIGIN 3.0.{{ zonename }}.
 52	1H	IN PTR	searchidx2.pmtpa.wmnet.
 
 ; Seach servers
-$GENERATE 1-50	    $	PTR search$.pmtpa.wmnet.
+{% for i in range(1, 51) %}
+{{ i }}	1H	IN PTR	search{{ i }}.pmtpa.wmnet.
+{%- endfor %}
 
 ; Service IPs
 
@@ -231,7 +236,9 @@ $ORIGIN 6.0.{{ zonename }}.
 ; Temporary ex-fedora MySQL instances for external storage
 
 $ORIGIN 7.0.{{ zonename }}.
-$GENERATE 1-254	$	PTR	temp-es$.pmtpa.wmnet.
+{% for i in range(1, 255) %}
+{{ i }}	1H	IN PTR	temp-es{{ i }}.pmtpa.wmnet.
+{%- endfor %}
 
 $ORIGIN 8.0.{{ zonename }}.
 
@@ -701,7 +708,9 @@ $ORIGIN 2.1.{{ zonename }}.
 3	1H	IN PTR mr1-pmtpa.mgmt.pmtpa.wmnet.
 
 ;srv11-250
-$GENERATE 141-250   $	PTR srv$.mgmt.pmtpa.wmnet.
+{% for i in range(141, 251) %}
+{{ i }}	1H	IN PTR	srv{{ i }}.mgmt.pmtpa.wmnet.
+{%- endfor %}
 
 $ORIGIN 3.1.{{ zonename }}.
 
