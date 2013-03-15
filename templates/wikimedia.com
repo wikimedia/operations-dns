@@ -1,7 +1,8 @@
+{% from "helpers/langlist.tmpl" import langlist with context -%}
 $TTL 3600
-$ORIGIN $zonename.
+$ORIGIN {{ zonename }}.
 @			1D	IN SOA	ns0.wikimedia.org.	hostmaster.wikimedia.org.	(
-					$serial		; serial
+					{{ serial }}		; serial
 					12H		; refresh
 					2H		; retry
 					2W		; expiry
@@ -36,7 +37,7 @@ species                 1H      IN CNAME        wikimedia-lb.wikimedia.org.
 www			1H	IN CNAME	wikimedia-lb.wikimedia.org.
 
 ; All languages will automatically be included here
-$wikimedia_langlist
+{{ langlist('wikimedia-lb.wikimedia.org.') }}
 
 ; Other websites
 www.donate			1H	IN CNAME	wikimedia-lb.wikimedia.org.

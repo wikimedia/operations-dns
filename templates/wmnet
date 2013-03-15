@@ -1,7 +1,7 @@
 $TTL 3600
-$ORIGIN $zonename.
+$ORIGIN {{ zonename }}.
 @			1D	IN SOA	ns0.wikimedia.org. hostmaster.wikimedia.org. (
-                                        $serial         ; serial
+                                        {{ serial }}    ; serial
                                         12H             ; refresh
                                         2H              ; retry
                                         2W              ; expiry
@@ -20,7 +20,7 @@ fundraisingdb-write	5M	IN CNAME	db1025.frack.eqiad.wmnet.
 fundraisingdb-read	5M	IN CNAME	db78.pmtpa.wmnet.
 ;fundraisingdb-read	5M	IN CNAME	db1008.frack.eqiad.wmnet.
 
-$ORIGIN pmtpa.$zonename.
+$ORIGIN pmtpa.{{ zonename }}.
 
 $GENERATE  1-9	asw$-pmtpa A  10.0.1.$
 
@@ -536,7 +536,7 @@ vl-2-0                  1H	IN A		10.0.0.200
 
 ; pmtpa management network
 
-$ORIGIN mgmt.pmtpa.$zonename.
+$ORIGIN mgmt.pmtpa.{{ zonename }}.
 
 scs-a1-sdtpa		1H	IN A		10.1.2.1	
 scs-d1-pmtpa		1H	IN A		10.1.2.2
@@ -1109,7 +1109,7 @@ mw135		1H	IN A		10.1.9.186
 
 ; Various assignments
 
-$ORIGIN pmtpa.$zonename.
+$ORIGIN pmtpa.{{ zonename }}.
 
 ; Cross link between nfs1/nfs2: 10.3.0.0/30
 
@@ -1121,7 +1121,7 @@ nfs2-xlink0	1H	IN A		10.3.0.2
 ; EQIAD
 ;
 
-$ORIGIN eqiad.$zonename.
+$ORIGIN eqiad.{{ zonename }}.
 
 ; Service aliases
 ntp			1H	IN CNAME	linne.wikimedia.org.
@@ -1754,7 +1754,7 @@ zinc			1H	IN A		10.64.16.148
 
 ; Management
 
-$ORIGIN mgmt.eqiad.$zonename.
+$ORIGIN mgmt.eqiad.{{ zonename }}.
 
 mr1-eqiad		1H	IN A		10.65.0.1
 
@@ -2828,7 +2828,7 @@ wmf5824     1H  IN A    10.65.3.176
 
 ; EQIAD Fundraising/Payments 
 
-$ORIGIN frack.eqiad.$zonename.
+$ORIGIN frack.eqiad.{{ zonename }}.
 barium          1H      IN A    10.64.40.109
 boron           1H      IN A    10.64.40.66
 db1008          1H      IN A    10.64.40.99
@@ -2851,9 +2851,9 @@ thulium			1H		IN A	10.64.40.162
 ; ESAMS
 ;
 
-$ORIGIN esams.$zonename.
+$ORIGIN esams.{{ zonename }}.
 
-$ORIGIN mgmt.esams.$zonename.
+$ORIGIN mgmt.esams.{{ zonename }}.
 
 amssq31		1H	IN A		10.21.0.56
 amssq32		1H	IN A		10.21.0.57

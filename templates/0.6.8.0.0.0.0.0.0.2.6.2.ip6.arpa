@@ -1,7 +1,7 @@
 $TTL 3600
-$ORIGIN $zonename.
+$ORIGIN {{ zonename }}.
 @                       1D      IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
-                                        $serial         ; serial
+                                        {{ serial }}    ; serial
                                         12H             ; refresh
                                         2H              ; retry
                                         2W              ; expiry
@@ -18,7 +18,7 @@ $ORIGIN $zonename.
 
 ; pmtpa Squids subnet 2620:0:860:1::/64
 
-$ORIGIN 1.0.0.0.$zonename.
+$ORIGIN 1.0.0.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-100.wikimedia.org.
 
@@ -42,7 +42,7 @@ $ORIGIN 1.0.0.0.$zonename.
 
 ; Service IPs
 
-$ORIGIN a.1.d.e.$zonename.
+$ORIGIN a.1.d.e.{{ zonename }}.
 
 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       wikimedia-lb.pmtpa.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       wikipedia-lb.pmtpa.wikimedia.org.
@@ -67,7 +67,7 @@ f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       dns-rec-lb.pmtpa.wikimedia.org.
 
 ; pmtpa Public Services subnet 2620:0:860:2::/64
 
-$ORIGIN 2.0.0.0.$zonename.
+$ORIGIN 2.0.0.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	vrrp-gw-101.wikimedia.org.
 
@@ -85,7 +85,7 @@ b.e.6.8.d.d.e.f.f.f.9.b.9.1.2.0	1H IN PTR	sanger.wikimedia.org.
 
 
 ; Tampa sandbox subnet 2620:0:860:3::/64
-$ORIGIN 3.0.0.0.$zonename.
+$ORIGIN 3.0.0.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	vrrp-gw-102.wikimedia.org.
 
@@ -103,18 +103,18 @@ $ORIGIN 3.0.0.0.$zonename.
 
 ; Neighbor blocks
 
-$ORIGIN e.f.$zonename.
+$ORIGIN e.f.{{ zonename }}.
 
 ; cr1-sdtpa <--> cr2-pmtpa (2620:0:860:fe00::/64)
 
-$ORIGIN 0.0.e.f.$zonename.
+$ORIGIN 0.0.e.f.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0-400.cr1-sdtpa.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0-400.cr2-pmtpa.wikimedia.org.
 
 ; Loopback IPs
 
-$ORIGIN f.f.f.f.$zonename.
+$ORIGIN f.f.f.f.{{ zonename }}.
 
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	csw1-sdtpa.wikimedia.org.
 3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	pim-rp.wikimedia.org.

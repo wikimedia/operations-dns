@@ -1,7 +1,7 @@
 $TTL 3600
-$ORIGIN $zonename.
+$ORIGIN {{ zonename }}.
 @			1D	IN SOA	ns0.wikimedia.org.	hostmaster.wikimedia.org.	(
-					$serial		; serial
+					{{ serial }}		; serial
 					12H		; refresh
 					2H		; retry
 					2W		; expiry
@@ -744,23 +744,23 @@ www.email.donate		1H	IN CNAME wikimedia.org.
 
 ; Corp glue records
 
-$ORIGIN corp.$zonename.
+$ORIGIN corp.{{ zonename }}.
 
 ns1			1H	IN A	216.38.130.189
 ns2			1H	IN A	216.38.130.188
 
 ; new tesla virt cluster
-$ORIGIN tesla.$zonename.
+$ORIGIN tesla.{{ zonename }}.
 
 ; Usability servers
 
-$ORIGIN usability.$zonename.
+$ORIGIN usability.{{ zonename }}.
 
 tesla.mgmt		1H	IN A	208.80.152.251
 
 ; Amsterdam cluster
 
-$ORIGIN esams.$zonename.
+$ORIGIN esams.{{ zonename }}.
 
 ; Service aliases
 
@@ -1049,7 +1049,7 @@ sql-rc1			1H	IN A		91.198.174.152
 
 ; Kennisnet cluster - legacy addresses
  
-$ORIGIN knams.$zonename.
+$ORIGIN knams.{{ zonename }}.
 
 ; Mail exchangers
 

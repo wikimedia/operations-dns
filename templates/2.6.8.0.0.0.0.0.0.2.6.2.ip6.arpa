@@ -1,7 +1,7 @@
 $TTL 3600
-$ORIGIN $zonename.
+$ORIGIN {{ zonename }}.
 @                       1D      IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
-                                        $serial         ; serial
+                                        {{ serial }}    ; serial
                                         12H             ; refresh
                                         2H              ; retry
                                         2W              ; expiry
@@ -19,7 +19,7 @@ $ORIGIN $zonename.
 
 ; esams Public services subnet 2620:0:862:1::/64
 
-$ORIGIN 1.0.0.0.$zonename.
+$ORIGIN 1.0.0.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	vl100-ve1.csw1-esams.wikimedia.org.
 
@@ -60,7 +60,7 @@ e.2.4.4.0.e.e.f.f.f.4.2.b.1.2.0	1H IN PTR	ortelius.esams.wikimedia.org.
 
 ; Toolserver external subnet 2620:0:862:101::/64
 
-$ORIGIN 1.0.1.0.$zonename.
+$ORIGIN 1.0.1.0.{{ zonename }}.
 
 @	1H IN NS	a.ns.toolserver.org.
 @	1H IN NS	b.ns.toolserver.org.
@@ -100,7 +100,7 @@ $ORIGIN 1.0.1.0.$zonename.
 
 ; Toolserver internal subnet 2620:0:862:301::/64
 
-$ORIGIN 1.0.3.0.$zonename.
+$ORIGIN 1.0.3.0.{{ zonename }}.
 
 @	1H IN NS	a.ns.toolserver.org.
 @	1H IN NS	b.ns.toolserver.org.
@@ -135,14 +135,14 @@ $ORIGIN 1.0.3.0.$zonename.
 ;7.0.0.0.3.0.0.0.0.0.0.0.0.0.0.0		IN PTR	damiana-ext-bge1-test.toolserver.org.
 
 ; Text storage subnet 2620:0:862:102::/64
-$ORIGIN 2.0.1.0.$zonename.
+$ORIGIN 2.0.1.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	vl102-ve5.csw1-esams.wikimedia.org.
 2.d.9.c.1.1.e.f.f.f.d.3.9.0.2.0 1H IN PTR	clematis.esams.wikimedia.org.
 
 ; LVS Service IPs
 
-$ORIGIN a.1.d.e.$zonename.
+$ORIGIN a.1.d.e.{{ zonename }}.
 
 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikimedia-lb.esams.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikipedia-lb.esams.wikimedia.org.
@@ -167,49 +167,49 @@ f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       dns-rec-lb.esams.wikimedia.org.
 
 ; csw1-esams <--> br1-knams (2620:0:862:fe00::/64)
 
-$ORIGIN 0.0.e.f.$zonename.
+$ORIGIN 0.0.e.f.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vl400-ve7.csw1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vl400-ve7.br1-knams.wikimedia.org.
 
 ; cr1-esams <--> cr2-knams (2620:0:862:fe01::/64)
 
-$ORIGIN 1.0.e.f.$zonename.
+$ORIGIN 1.0.e.f.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae1-401.cr1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae1-401.cr2-knams.wikimedia.org.
 
 ; csw1-esams <--> br1-knams (2620:0:862:fe02::/64)
 
-$ORIGIN 2.0.e.f.$zonename.
+$ORIGIN 2.0.e.f.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       te-8-2.csw1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       te-1-2.br1-knams.wikimedia.org.
 
 ; csw2-esams <--> br1-knams (2620:0:862:fe03::/64)
 
-$ORIGIN 3.0.e.f.$zonename.
+$ORIGIN 3.0.e.f.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	te-1-1.br1-knams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	te-0-1-1-0.csw2-esams.wikimedia.org.
 
 ; csw1-esams <--> csw2-esams (2620:0:862:fe04::/64)
 
-$ORIGIN 4.0.e.f.$zonename.
+$ORIGIN 4.0.e.f.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ve2.te-8-1.csw1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       403.te-0-1-0-0.csw2-esams.wikimedia.org.
 
 ; csw1-esams <--> cr1-esams (2620:0:862:fe05::/64)
 
-$ORIGIN 5.0.e.f.$zonename.
+$ORIGIN 5.0.e.f.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	xe-0-0-3-0.cr1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	te-6-1.csw1-esams.wikimedia.org.
 
 ; Loopback IPs
 
-$ORIGIN f.f.f.f.$zonename.
+$ORIGIN f.f.f.f.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       csw1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       br1-knams.wikimedia.org.

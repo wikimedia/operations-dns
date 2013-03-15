@@ -1,7 +1,7 @@
 $TTL 3600
-$ORIGIN $zonename.
+$ORIGIN {{ zonename }}.
 @                       1D      IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
-                                        $serial         ; serial
+                                        {{ serial }}    ; serial
                                         12H             ; refresh
                                         2H              ; retry
                                         2W              ; expiry
@@ -20,7 +20,7 @@ $ORIGIN $zonename.
 
 ; Servers
 
-$ORIGIN 0.0.$zonename.
+$ORIGIN 0.0.{{ zonename }}.
 
 11	1H	IN PTR	vl2-eth0.lvs1.wikimedia.org.
 12	1H	IN PTR	vl2-eth0.lvs2.wikimedia.org.
@@ -95,14 +95,14 @@ $ORIGIN 0.0.$zonename.
 
 
 ; asw*  DEPRECATED, put in management network
-$ORIGIN 1.0.$zonename.
+$ORIGIN 1.0.{{ zonename }}.
 
 $GENERATE 1-9   $	PTR asw$-pmtpa.wmnet.
 
 
 ; srv*
 
-$ORIGIN 2.0.$zonename.
+$ORIGIN 2.0.{{ zonename }}.
 
 2	1H      IN PTR  srv1.pmtpa.wmnet.
 1	1H      IN PTR  srv2.pmtpa.wmnet.
@@ -110,7 +110,7 @@ $ORIGIN 2.0.$zonename.
 ;srv11-250
 $GENERATE 11-250   $	PTR srv$.pmtpa.wmnet.
 
-$ORIGIN 3.0.$zonename.
+$ORIGIN 3.0.{{ zonename }}.
 
 51	1H	IN PTR	searchidx1.pmtpa.wmnet.
 52	1H	IN PTR	searchidx2.pmtpa.wmnet.
@@ -120,7 +120,7 @@ $GENERATE 1-50	    $	PTR search$.pmtpa.wmnet.
 
 ; Service IPs
 
-$ORIGIN 5.0.$zonename.
+$ORIGIN 5.0.{{ zonename }}.
 	
 1	1H	IN PTR	dbdump.pmtpa.wmnet.
 2	1H	IN PTR	imagedump.pmtpa.wmnet.
@@ -135,7 +135,7 @@ $ORIGIN 5.0.$zonename.
 
 ; Databases
 
-$ORIGIN 6.0.$zonename.
+$ORIGIN 6.0.{{ zonename }}.
 
 21	1H	IN PTR	db11.pmtpa.wmnet.
 22	1H	IN PTR	db12.pmtpa.wmnet.
@@ -230,10 +230,10 @@ $ORIGIN 6.0.$zonename.
 
 ; Temporary ex-fedora MySQL instances for external storage
 
-$ORIGIN 7.0.$zonename.
+$ORIGIN 7.0.{{ zonename }}.
 $GENERATE 1-254	$	PTR	temp-es$.pmtpa.wmnet.
 
-$ORIGIN 8.0.$zonename.
+$ORIGIN 8.0.{{ zonename }}.
 
 1	1H	IN PTR	srv251.pmtpa.wmnet.
 2	1H	IN PTR	srv252.pmtpa.wmnet.
@@ -487,21 +487,21 @@ $ORIGIN 8.0.$zonename.
 250	1H	IN PTR	srv500.pmtpa.wmnet.
 
 ;Payments cluster
-$ORIGIN 9.0.$zonename.
+$ORIGIN 9.0.{{ zonename }}.
 1	1H	IN PTR	payments1.pmtpa.wmnet.
 2	1H	IN PTR	payments2.pmtpa.wmnet.
 3	1H	IN PTR	payments3.pmtpa.wmnet.
 4	1H	IN PTR	payments4.pmtpa.wmnet.
 
 ; Snapshot cluster
-$ORIGIN 10.0.$zonename.
+$ORIGIN 10.0.{{ zonename }}.
 1	1H	IN PTR	snapshot1.pmtpa.wmnet.
 2	1H	IN PTR	snapshot2.pmtpa.wmnet.
 3	1H	IN PTR	snapshot3.pmtpa.wmnet.
 4	1H	IN PTR	snapshot4.pmtpa.wmnet.
 
 ; mw* apache/mediawiki server cluster (new apaches, replacing the srv* name)
-$ORIGIN 11.0.$zonename.
+$ORIGIN 11.0.{{ zonename }}.
 1	1H	IN PTR	mw1.pmtpa.wmnet.
 2	1H	IN PTR	mw2.pmtpa.wmnet.
 3	1H	IN PTR	mw3.pmtpa.wmnet.
@@ -639,7 +639,7 @@ $ORIGIN 11.0.$zonename.
 135	1H	IN PTR	mw135.pmtpa.wmnet.
 
 ; memcache pmtpa/sdtpa cluster
-$ORIGIN 12.0.$zonename.
+$ORIGIN 12.0.{{ zonename }}.
 
 1	1H	IN PTR	mc1.pmtpa.wmnet.
 2	1H	IN PTR	mc2.pmtpa.wmnet.
@@ -660,11 +660,11 @@ $ORIGIN 12.0.$zonename.
 
 ; Management (pmtpa)
 
-$ORIGIN 1.$zonename.
+$ORIGIN 1.{{ zonename }}.
 
 ; Network equipment
 
-$ORIGIN 1.1.$zonename.
+$ORIGIN 1.1.{{ zonename }}.
 
 3	1H	IN PTR	asw-c3-pmtpa.mgmt.pmtpa.wmnet.
 4	1H	IN PTR	asw-c4-pmtpa.mgmt.pmtpa.wmnet.
@@ -694,7 +694,7 @@ $ORIGIN 1.1.$zonename.
 
 ; Supportive management infrastructure
 
-$ORIGIN 2.1.$zonename.
+$ORIGIN 2.1.{{ zonename }}.
 
 1	1H	IN PTR scs-a1-sdtpa.mgmt.pmtpa.wmnet.
 2	1H	IN PTR scs-d1-pmtpa.mgmt.pmtpa.wmnet.
@@ -703,7 +703,7 @@ $ORIGIN 2.1.$zonename.
 ;srv11-250
 $GENERATE 141-250   $	PTR srv$.mgmt.pmtpa.wmnet.
 
-$ORIGIN 3.1.$zonename.
+$ORIGIN 3.1.{{ zonename }}.
 
 33	1H	IN PTR	sq33.mgmt.pmtpa.wmnet.
 35	1H	IN PTR	sq35.mgmt.pmtpa.wmnet.
@@ -755,7 +755,7 @@ $ORIGIN 3.1.$zonename.
 86	1H	IN PTR	sq86.mgmt.pmtpa.wmnet.
 
 ; Search Servers
-$ORIGIN 4.1.$zonename.
+$ORIGIN 4.1.{{ zonename }}.
 10	1H	IN PTR searchidx1.mgmt.pmtpa.wmnet.
 11	1H	IN PTR search1.mgmt.pmtpa.wmnet.
 12	1H	IN PTR search2.mgmt.pmtpa.wmnet.
@@ -800,7 +800,7 @@ $ORIGIN 4.1.$zonename.
 
 ; Power Distribution Units
 
-$ORIGIN 5.1.$zonename.
+$ORIGIN 5.1.{{ zonename }}.
 
 1	1H	IN PTR	ps1-a1-sdtpa.mgmt.pmtpa.wmnet.
 2	1H	IN PTR	ps1-a2-sdtpa.mgmt.pmtpa.wmnet.
@@ -826,7 +826,7 @@ $ORIGIN 5.1.$zonename.
 22	1H	IN PTR	ps1-c3-pmtpa.mgmt.pmtpa.wmnet.
 
 ; Database Servers
-$ORIGIN 6.1.$zonename.
+$ORIGIN 6.1.{{ zonename }}.
 15	1H	IN PTR db5.mgmt.pmtpa.wmnet.
 16	1H	IN PTR db6.mgmt.pmtpa.wmnet.
 17	1H	IN PTR db7.mgmt.pmtpa.wmnet.
@@ -903,7 +903,7 @@ $ORIGIN 6.1.$zonename.
 88      1H      IN PTR db78.mgmt.pmtpa.wmnet.
 
 ; Media Servers & SSL Servers & ES Servers & Memcached Servers
-$ORIGIN 7.1.$zonename.
+$ORIGIN 7.1.{{ zonename }}.
 1	1H	IN PTR ms1.mgmt.pmtpa.wmnet.
 2	1H	IN PTR ms2.mgmt.pmtpa.wmnet.
 3	1H	IN PTR ms3.mgmt.pmtpa.wmnet.
@@ -959,7 +959,7 @@ $ORIGIN 7.1.$zonename.
 78      1H      IN PTR mc18.mgmt.pmtpa.wmnet.
 
 ; Misc. Services Server Project
-$ORIGIN 8.1.$zonename.
+$ORIGIN 8.1.{{ zonename }}.
 1	1H	IN PTR	nfs1.mgmt.pmtpa.wmnet.
 2	1H	IN PTR	sockpuppet.mgmt.pmtpa.wmnet.
 3	1H	IN PTR	brewster.mgmt.pmtpa.wmnet.
@@ -1101,7 +1101,7 @@ $ORIGIN 8.1.$zonename.
 133	1H	IN PTR	WMF5852.mgmt.pmtpa.wmnet.
 
 ; Apaches pool (srv251+)
-$ORIGIN 9.1.$zonename.
+$ORIGIN 9.1.{{ zonename }}.
 1	1H	IN PTR	srv251.mgmt.pmtpa.wmnet.
 2	1H	IN PTR	srv252.mgmt.pmtpa.wmnet.
 3	1H	IN PTR	srv253.mgmt.pmtpa.wmnet.
@@ -1289,7 +1289,7 @@ $ORIGIN 9.1.$zonename.
 185	1H	IN PTR	mw134.mgmt.pmtpa.wmnet.
 186	1H	IN PTR	mw135.mgmt.pmtpa.wmnet.
 
-$ORIGIN 1.2.$zonename.
+$ORIGIN 1.2.{{ zonename }}.
 
 1	1H	IN PTR	appservers.svc.pmtpa.wmnet.
 
@@ -1307,7 +1307,7 @@ $ORIGIN 1.2.$zonename.
 
 ; eqiad svc ips
 
-$ORIGIN 2.2.$zonename.
+$ORIGIN 2.2.{{ zonename }}.
 
 1       1H      IN PTR  appservers.svc.eqiad.wmnet.
 
@@ -1329,7 +1329,7 @@ $ORIGIN 2.2.$zonename.
 
 ; esams svc ips
 
-$ORIGIN 3.2.$zonename.
+$ORIGIN 3.2.{{ zonename }}.
 
 23	1H	IN PTR	bits.svc.esams.wmnet.
 24	1H	IN PTR	upload.svc.esams.wmnet.
@@ -1338,11 +1338,11 @@ $ORIGIN 3.2.$zonename.
 
 ; labs svc ips
 
-$ORIGIN 128.2.$zonename.
+$ORIGIN 128.2.{{ zonename }}.
 
 ; Various small assignments
 
-$ORIGIN 0.3.$zonename.
+$ORIGIN 0.3.{{ zonename }}.
 
 ; Cross link between nfs1/nfs2: 10.3.0.0/30
 
@@ -1375,11 +1375,11 @@ $ORIGIN 0.3.$zonename.
 ; Virtualization subnets
 
 ; 10.4.0.0/21 - guest VMs subnet
-$ORIGIN $zonename.
+$ORIGIN {{ zonename }}.
 0.4	1H	IN NS	virt0.wikimedia.org.
 
 ; 10.4.16.0/24 - VM host compute nodes subnet
-$ORIGIN 16.4.$zonename.
+$ORIGIN 16.4.{{ zonename }}.
 
 1	1H	IN PTR	vrrp-gw-105.wikimedia.org.
 2	1H	IN PTR	virt1.pmtpa.wmnet.
@@ -1406,7 +1406,7 @@ $ORIGIN 16.4.$zonename.
 
 ; Management
 
-$ORIGIN 0.21.$zonename.
+$ORIGIN 0.21.{{ zonename }}.
 
 ;1 gw
 
@@ -1524,7 +1524,7 @@ $ORIGIN 0.21.$zonename.
 250	1H	IN PTR	eth1.mint.esams.wikimedia.org.
 253	1H	IN PTR	schleifenbauer.mgmt.esams.wmnet.
 
-$ORIGIN $zonename.
+$ORIGIN {{ zonename }}.
 ; Toolserver management
 0.23	1H	IN NS	a.ns.toolserver.org.
 	1H	IN NS	b.ns.toolserver.org.
@@ -1540,7 +1540,7 @@ $ORIGIN $zonename.
 ;
 
 ; 10.64.0.0/22 - private1-a-eqiad
-$ORIGIN 0.64.$zonename.
+$ORIGIN 0.64.{{ zonename }}.
 
 1	1H IN PTR	vrrp-gw-1017.eqiad.wmnet.
 2	1H IN PTR	ae1-1017.cr1-eqiad.wikimedia.org.
@@ -1748,7 +1748,7 @@ $ORIGIN 0.64.$zonename.
 218 1H IN PTR   wtp1023.eqiad.wmnet.
 219 1H IN PTR   wtp1024.eqiad.wmnet.
 
-$ORIGIN 1.64.$zonename.
+$ORIGIN 1.64.{{ zonename }}.
 
 1       1H IN PTR       vl1017-eth0.lvs1001.wikimedia.org.
 2       1H IN PTR       vl1017-eth0.lvs1002.wikimedia.org.
@@ -1758,14 +1758,14 @@ $ORIGIN 1.64.$zonename.
 6       1H IN PTR       vl1017-eth1.lvs1006.wikimedia.org.
 
 ; 10.64.4.0/24 - labs-hosts1-a-eqiad
-$ORIGIN 4.64.$zonename.
+$ORIGIN 4.64.{{ zonename }}.
 
 1	1H IN PTR	vrrp-gw-1117.eqiad.wmnet.
 2	1H IN PTR	ae1-1117.cr1-eqiad.wikimedia.org.
 3	1H IN PTR	ae1-1117.cr2-eqiad.wikimedia.org.
 
 ; 10.64.16.0/22 - private1-b-eqiad
-$ORIGIN 16.64.$zonename.
+$ORIGIN 16.64.{{ zonename }}.
 
 1	1H IN PTR	vrrp-gw-1018.eqiad.wmnet.
 2       1H IN PTR       ae1-1018.cr1-eqiad.wikimedia.org.
@@ -1951,7 +1951,7 @@ $ORIGIN 16.64.$zonename.
 183 1H IN PTR   rdb1004.eqiad.wmnet.
 184 1H IN PTR   argon.eqiad.wmnet.
 
-$ORIGIN 17.64.$zonename.
+$ORIGIN 17.64.{{ zonename }}.
 
 1       1H IN PTR       vl1018-eth1.lvs1001.wikimedia.org.
 2       1H IN PTR       vl1018-eth1.lvs1002.wikimedia.org.
@@ -1961,7 +1961,7 @@ $ORIGIN 17.64.$zonename.
 6       1H IN PTR       vl1018-eth0.lvs1006.wikimedia.org.
 
 ; 10.64.20.0/24 - labs-hosts1-b-eqiad
-$ORIGIN 20.64.$zonename.
+$ORIGIN 20.64.{{ zonename }}.
 
 1       1H IN PTR       vrrp-gw-1118.eqiad.wmnet.
 2       1H IN PTR       ae2-1118.cr1-eqiad.wikimedia.org.
@@ -1986,7 +1986,7 @@ $ORIGIN 20.64.$zonename.
 108	1H IN PTR	db8-rowb-RESERVED.
 
 ; 10.64.21.0/24 - analytics1-b-eqiad
-$ORIGIN 21.64.$zonename.
+$ORIGIN 21.64.{{ zonename }}.
 
 1	1H IN PTR	vrrp-gw-1021.eqiad.wmnet.
 2	1H IN PTR	ae2-1021.cr1-eqiad.wikimedia.org.
@@ -2004,7 +2004,7 @@ $ORIGIN 21.64.$zonename.
 123	1H IN PTR	vanadium.eqiad.wmnet.
 
 ; 10.64.32.0/22 - private1-c-eqiad
-$ORIGIN 32.64.$zonename.
+$ORIGIN 32.64.{{ zonename }}.
 
 1	1H IN PTR	vrrp-gw-1019.eqiad.wmnet.
 2       1H IN PTR       ae1-1019.cr1-eqiad.wikimedia.org.
@@ -2140,7 +2140,7 @@ $ORIGIN 32.64.$zonename.
 137     1H IN PTR       testsearch1002.eqiad.wmnet.
 138     1H IN PTR       testsearch1001.eqiad.wmnet.
 
-$ORIGIN 33.64.$zonename.
+$ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
 2       1H IN PTR       vl1019-eth2.lvs1002.wikimedia.org.
 3       1H IN PTR       vl1019-eth2.lvs1003.wikimedia.org.
@@ -2149,7 +2149,7 @@ $ORIGIN 33.64.$zonename.
 6       1H IN PTR       vl1019-eth2.lvs1006.wikimedia.org.
 
 ; 10.64.36.0/24 - analytics1-c-eqiad
-$ORIGIN 36.64.$zonename.
+$ORIGIN 36.64.{{ zonename }}.
 
 1   1H IN PTR	vrrp-gw-1022.eqiad.wmnet.
 2  	1H IN PTR	ae3-1022.cr1-eqiad.wikimedia.org.
@@ -2173,7 +2173,7 @@ $ORIGIN 36.64.$zonename.
 127     1H IN PTR       analytics1027.eqiad.wmnet.
 
 ; 10.64.37.0/24 - labs-hosts1-c-eqiad
-$ORIGIN 37.64.$zonename.
+$ORIGIN 37.64.{{ zonename }}.
 
 1       1H IN PTR       vrrp-gw-1119.eqiad.wmnet.
 2       1H IN PTR       ae3-1119.cr1-eqiad.wikimedia.org.
@@ -2195,7 +2195,7 @@ $ORIGIN 37.64.$zonename.
 108		1H IN PTR		db8-rowc-RESERVED.
 
 ; 10.64.40.0/23 - frack subnets
-$ORIGIN 40.64.$zonename.
+$ORIGIN 40.64.{{ zonename }}.
 
 ; 10.64.40.0/27 - frack-payments1-c-eqiad
 5	1H IN PTR	payments1001.frack.eqiad.wmnet.
@@ -2227,14 +2227,14 @@ $ORIGIN 40.64.$zonename.
 162	1H IN PTR	thulium.frack.eqiad.wmnet.
 
 ; 10.64.48.0/22 - private1-d-eqiad
-$ORIGIN 48.64.$zonename.
+$ORIGIN 48.64.{{ zonename }}.
 
 1	1H IN PTR	vrrp-gw-1020.eqiad.wmnet.
 2       1H IN PTR       ae1-1020.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae1-1020.cr2-eqiad.wikimedia.org.
 
 ; 10.64.52.0/24 - labs-hosts1-d-eqiad
-$ORIGIN 52.64.$zonename.
+$ORIGIN 52.64.{{ zonename }}.
 
 1       1H IN PTR       vrrp-gw-1120.eqiad.wmnet.
 2       1H IN PTR       ae4-1120.cr1-eqiad.wikimedia.org.
@@ -2242,11 +2242,11 @@ $ORIGIN 52.64.$zonename.
 
 ; 10.65.0.0/16 is eqiad management network
 
-$ORIGIN 65.$zonename.
+$ORIGIN 65.{{ zonename }}.
 
 ; Management network infrastructure
 
-$ORIGIN 0.65.$zonename.
+$ORIGIN 0.65.{{ zonename }}.
 
 
 1	1H IN PTR	mr1-eqiad.mgmt.eqiad.wmnet.
@@ -2299,7 +2299,7 @@ $ORIGIN 0.65.$zonename.
 102	1H IN PTR	nas1001-b.mgmt.eqiad.wmnet.
 
 
-$ORIGIN 1.65.$zonename.
+$ORIGIN 1.65.{{ zonename }}.
 
 1	1H	IN PTR		mw1001.mgmt.eqiad.wmnet.
 1	1H	IN PTR		WMF3215.mgmt.eqiad.wmnet.
@@ -2682,7 +2682,7 @@ $ORIGIN 1.65.$zonename.
 219 1H  IN PTR      mw1219.mgmt.eqiad.wmnet.
 220 1H  IN PTR      mw1220.mgmt.eqiad.wmnet.
 
-$ORIGIN 2.65.$zonename.
+$ORIGIN 2.65.{{ zonename }}.
 
 1	1H	IN PTR		cp1001.mgmt.eqiad.wmnet.
 1	1H	IN PTR		WMF3134.mgmt.eqiad.wmnet.
@@ -2799,7 +2799,7 @@ $ORIGIN 2.65.$zonename.
 69  1H  IN PTR      cp1069.mgmt.eqiad.wmnet.
 70  1H  IN PTR      cp1070.mgmt.eqiad.wmnet.
 
-$ORIGIN 3.65.$zonename.
+$ORIGIN 3.65.{{ zonename }}.
 
 1	1H	IN PTR		ssl1003.mgmt.eqiad.wmnet.
 1	1H	IN PTR		WMF3150.mgmt.eqiad.wmnet.
@@ -3100,7 +3100,7 @@ $ORIGIN 3.65.$zonename.
 179 1H  IN PTR      wmf5843.mgmt.eqiad.wmnet.
 179 1H  IN PTR      ssl1007.mgmt.eqiad.wmnet.
 
-$ORIGIN 4.65.$zonename.
+$ORIGIN 4.65.{{ zonename }}.
 
 1	1H	IN PTR		es1001.mgmt.eqiad.wmnet.
 1	1H	IN PTR		WMF3074.mgmt.eqiad.wmnet.
@@ -3123,7 +3123,7 @@ $ORIGIN 4.65.$zonename.
 10	1H	IN PTR		es1010.mgmt.eqiad.wmnet.
 10	1H	IN PTR		WMF4064.mgmt.eqiad.wmnet.
 
-$ORIGIN 5.65.$zonename.
+$ORIGIN 5.65.{{ zonename }}.
 
 1	1H	IN PTR		ms1001.mgmt.eqiad.wmnet.
 1	1H	IN PTR		WMF3070.mgmt.eqiad.wmnet.
@@ -3150,7 +3150,7 @@ $ORIGIN 5.65.$zonename.
 19	1H	IN PTR		ms-fe1003.mgmt.eqiad.wmnet.
 20	1H	IN PTR		ms-fe1004.mgmt.eqiad.wmnet.
 
-$ORIGIN 6.65.$zonename.
+$ORIGIN 6.65.{{ zonename }}.
 
 1	1H	IN PTR		db1001.mgmt.eqiad.wmnet.
 1	1H	IN PTR		WMF3090.mgmt.eqiad.wmnet.
@@ -3261,7 +3261,7 @@ $ORIGIN 6.65.$zonename.
 59	1H	IN PTR		db1059.mgmt.eqiad.wmnet.
 60	1H	IN PTR		db1060.mgmt.eqiad.wmnet.
 
-$ORIGIN 7.65.$zonename.
+$ORIGIN 7.65.{{ zonename }}.
 
 1	1H	IN PTR		search1001.mgmt.eqiad.wmnet.
 1	1H	IN PTR		WMF3175.mgmt.eqiad.wmnet.
@@ -3317,7 +3317,7 @@ $ORIGIN 7.65.$zonename.
 100	1H	IN PTR		searchidx1001.mgmt.eqiad.wmnet.
 100	1H	IN PTR		WMF3151.mgmt.eqiad.wmnet.
 
-$ORIGIN 8.65.$zonename.
+$ORIGIN 8.65.{{ zonename }}.
 
 1	1H	IN PTR		mc1001.mgmt.eqiad.wmnet.
 1	1H	IN PTR		WMF3183.mgmt.eqiad.wmnet.
@@ -3349,31 +3349,31 @@ $ORIGIN 8.65.$zonename.
 ; Small assignments
 
 ; eqiad wifi subnet
-$ORIGIN 0.66.$zonename.
+$ORIGIN 0.66.{{ zonename }}.
 1	1H	IN PTR		fe-0-0-2.mr1-eqiad.mgmt.eqiad.wmnet.
 
 ; eqiad labs
 
 ; 10.68.0.0/24 - labs-instances1-a-eqiad
-$ORIGIN 0.68.$zonename.
+$ORIGIN 0.68.{{ zonename }}.
 
 ; 10.68.16.0/24 - labs-instances1-b-eqiad
-$ORIGIN 16.68.$zonename.
+$ORIGIN 16.68.{{ zonename }}.
 
 ; 10.68.32.0/24 - labs-instances1-c-eqiad
-$ORIGIN 32.68.$zonename.
+$ORIGIN 32.68.{{ zonename }}.
 
 ; 10.68.48.0/24 - labs-instances1-d-eqiad
-$ORIGIN 48.68.$zonename.
+$ORIGIN 48.68.{{ zonename }}.
 
 ; 10.128.0.0/16 - ulsfo
 
 ; 10.128.128.0/17 - ulsfo mgmt
-$ORIGIN 128.128.$zonename.
+$ORIGIN 128.128.{{ zonename }}.
 1	1H	IN PTR		fe-0-0-1.mr1-ulsfo.mgmt.ulsfo.wmnet.
 11	1H	IN PTR		scs-ulsfo.mgmt.ulsfo.wmnet.
 
-$ORIGIN 129.128.$zonename.
+$ORIGIN 129.128.{{ zonename }}.
 1	1H	IN PTR		lvs4001.mgmt.ulsfo.wmnet.
 2	1H	IN PTR		lvs4002.mgmt.ulsfo.wmnet.
 3	1H	IN PTR		lvs4003.mgmt.ulsfo.wmnet.
@@ -3405,12 +3405,12 @@ $ORIGIN 129.128.$zonename.
 
 ; LEGACY
 
-$ORIGIN 1.230.$zonename.
+$ORIGIN 1.230.{{ zonename }}.
 
 240	1H IN PTR	mchenry.mgmt.pmtpa.wmnet.
 241	1H IN PTR	sanger.mgmt.pmtpa.wmnet.
 
 
-$ORIGIN 1.252.$zonename.
+$ORIGIN 1.252.{{ zonename }}.
 
 170	1H IN PTR	tridge.mgmt.pmtpa.wmnet.
