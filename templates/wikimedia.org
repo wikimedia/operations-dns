@@ -53,9 +53,6 @@ _dmarc.lists			1H	IN TXT "v=DMARC1; p=none; rua=mailto:postmaster@wikimedia.org"
 wikimedia.org.          600     IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
 wikimedia.org.          600     IN SPF  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
 
-; Use the one in geobackend
-;localhost		1W	IN A	127.0.0.1
-
 scs-ext			1H	IN A	84.40.25.238
 
 dumps			1H	IN CNAME dataset2
@@ -81,10 +78,24 @@ ns2			1H	IN A	91.198.174.4	; lily
 recursor0		1H	IN A	208.80.152.131	; bayle
 recursor1		1H	IN A	208.80.152.132	; mchenry
 
-; geobackend adds the following records:
-;rr 1H GEO CNAME rr.(pmtpa|esams)
-
-;upload 1H GEO CNAME upload.(pmtpa|esams)
+; Geodynamic records
+bits           600     DYNC geoip!bits
+upload         600     DYNC geoip!upload
+m              600     DYNC geoip!mobile-lb
+geoiplookup    600     DYNC geoip!geoiplookup
+donate         600     DYNC geoip!donate
+foundation-lb  600     DYNC geoip!foundation-lb
+mediawiki-lb   600     DYNC geoip!mediawiki-lb
+wikibooks-lb   600     DYNC geoip!wikibooks-lb
+wikimedia-lb   600     DYNC geoip!wikimedia-lb
+wikinews-lb    600     DYNC geoip!wikinews-lb
+wikipedia-lb   600     DYNC geoip!wikipedia-lb
+wikiquote-lb   600     DYNC geoip!wikiquote-lb
+wikisource-lb  600     DYNC geoip!wikisource-lb
+wikiversity-lb 600     DYNC geoip!wikiversity-lb
+wiktionary-lb  600     DYNC geoip!wiktionary-lb
+wikidata-lb    600     DYNC geoip!wikidata-lb
+wikivoyage-lb  600     DYNC geoip!wikivoyage-lb
 
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
 
