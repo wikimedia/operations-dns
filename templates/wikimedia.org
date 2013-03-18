@@ -1209,28 +1209,3 @@ sql-text19		1H	IN A		91.198.174.149
 sql-text20		1H	IN A		91.198.174.150
 sql-text21		1H	IN A		91.198.174.151
 sql-rc1			1H	IN A		91.198.174.152
-
-; Toolserver
-; 2620:0:862:101::/64
-$ORIGIN ts.$zonename.
-
-@			1H IN MX	10 clematis.toolserver.org.
-			1H IN MX	10 hawthorn.toolserver.org.
-
-localhost		1W IN A		127.0.0.1
-
-infra			1H IN CNAME	web.amaranth.toolserver.org.
-stable			1H IN A		91.198.174.199
-			1H IN AAAA	2620:0:862:101:91:198:174:199
-
-jira			1H IN CNAME web.amaranth.toolserver.org.
-confluence		1H IN CNAME web.amaranth.toolserver.org.
-fisheye			1H IN CNAME web.amaranth.toolserver.org.
-wiki			1H IN CNAME web.amaranth.toolserver.org.
-
-sql-s1			1H IN CNAME sql-s1.toolserver.org.
-sql-s2			1H IN CNAME sql-s2.toolserver.org.
-sql-s3			1H IN CNAME sql-s3.toolserver.org.
-
-$ORIGIN db.ts.$zonename.
-$toolserverdbs
