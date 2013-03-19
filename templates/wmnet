@@ -160,6 +160,10 @@ labstore1		1H	IN A		10.0.0.41
 labstore2		1H	IN A		10.0.0.42
 labstore3		1H	IN A		10.0.0.43
 labstore4		1H	IN A		10.0.0.44
+labstore1001	1H	IN A		10.64.32.4
+labstore1002	1H	IN A		10.64.32.5
+labstore1003	1H	IN A		10.64.32.6
+labstore1004	1H	IN A		10.64.32.7
 lardner			1H	IN A		10.0.0.34
 maurus			1H	IN A		10.0.0.16
 ms1			1H	IN A		10.0.0.250
