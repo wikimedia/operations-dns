@@ -159,6 +159,7 @@ hydrogen		1H	IN A	208.80.154.50
 iron			1H	IN A	208.80.154.151
 kaulen			1H	IN A	208.80.152.149
 khaldun			1H	IN A	208.80.152.188
+lanthanum		1H	IN A	208.80.154.13
 linne			1H	IN A	208.80.152.167
 locke			1H	IN A	208.80.152.138
 loudon			1H	IN A	208.80.152.163
