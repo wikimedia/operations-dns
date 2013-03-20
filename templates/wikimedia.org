@@ -542,9 +542,6 @@ url-downloader		1H	IN A		208.80.152.143	; linne
 
 wlm			1H	IN CNAME	wikimedia-lb
 
-; RT-4733 (zuul stats portal)
-zuul		1H	IN CNAME	gallium.wikimedia.org.
-
 ; Wikis (alphabetic order)
 
 advisory		1H	IN CNAME	wikimedia-lb
