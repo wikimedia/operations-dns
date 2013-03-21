@@ -2017,7 +2017,7 @@ $ORIGIN 32.64.$zonename.
 10      1H IN PTR       ms-be1005.eqiad.wmnet.
 11      1H IN PTR       ms-be1006.eqiad.wmnet.
 12      1H IN PTR       ms-be1007.eqiad.wmnet.
-
+13      1H IN PTR       terbium.eqiad.wmnet.
 14      1H IN PTR       ms-be1009.eqiad.wmnet.
 15      1H IN PTR       ms-be1010.eqiad.wmnet.
 16      1H IN PTR       ms-be1011.eqiad.wmnet.
@@ -2931,6 +2931,7 @@ $ORIGIN 3.65.$zonename.
 137 1H  IN PTR      wmf3563.mgmt.eqiad.wmnet.
 137 1H  IN PTR      wtp1004.mgmt.eqiad.wmnet.
 138 1H  IN PTR      wmf3564.mgmt.eqiad.wmnet.
+138 1H  IN PTR      terbium.mgmt.eqiad.wmnet.
 139 1H  IN PTR      wmf3565.mgmt.eqiad.wmnet.
 140 1H  IN PTR      wmf3566.mgmt.eqiad.wmnet.
 141 1H  IN PTR      wmf3568.mgmt.eqiad.wmnet.
