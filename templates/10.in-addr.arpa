@@ -55,6 +55,8 @@ $ORIGIN 0.0.$zonename.
 
 50	1H	IN PTR	constable.pmtpa.wmnet.
 51	1H	IN PTR	celsus.pmtpa.wmnet.
+52  1H  IN PTR  rdb1.pmtpa.wmnet.
+53  1H  IN PTR  rdb2.pmtpa.wmnet.
 
 200 	1H	IN PTR  vrrp-gw-2.pmtpa.wmnet.
 201 	1H	IN PTR  ae0-2.cr1-sdtpa.wikimedia.org.
@@ -1110,6 +1112,8 @@ $ORIGIN 8.1.$zonename.
 131	1H	IN PTR	WMF5850.mgmt.pmtpa.wmnet.
 132	1H	IN PTR	WMF5851.mgmt.pmtpa.wmnet.
 133	1H	IN PTR	WMF5852.mgmt.pmtpa.wmnet.
+134 1H  IN PTR  rdb1.mgmt.pmtpa.wmnet.
+135 1H  IN PTR  rdb2.mgmt.pmtpa.wmnet.
 
 ; Apaches pool (srv251+)
 $ORIGIN 9.1.$zonename.
