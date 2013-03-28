@@ -633,7 +633,7 @@ wikimaniateam		1H	IN CNAME	wikimedia-lb
 www			1H	IN CNAME	wikimedia-lb
 
 ; Other websites (NO wikis!)
-
+analytics		1H	IN CNAME	stat1001
 blog			1H	IN CNAME	marmontel.wikimedia.org.
 bugs			1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla		1H	IN CNAME	kaulen.wikimedia.org.
@@ -708,6 +708,7 @@ test.prototype		1H	IN CNAME	prototype
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
 racktables		1H	IN CNAME	hooper
 racktables2		1H	IN CNAME	hooper
+reportcard		1H	IN CNAME	stat1001
 search			1H	IN CNAME	wikimedia-lb
 shop			1H	IN CNAME	shopwikipedia.myshopify.com.
 smokeping		1H	IN CNAME	calcium.wikimedia.org.
