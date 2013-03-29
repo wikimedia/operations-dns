@@ -608,7 +608,8 @@ spcom			1H	IN CNAME	wikimedia-lb
 species			1H	IN CNAME	wikimedia-lb
 steward			1H	IN CNAME	wikimedia-lb
 strategy		1H	IN CNAME	wikimedia-lb
-strategyapps		1H	IN CNAME	wikimedia-lb
+strategyapps	1H	IN CNAME	wikimedia-lb
+transitionteam	1H	IN CNAME	wikimedia-lb
 ombudsmen		1H	IN CNAME	wikimedia-lb
 otrs-wiki		1H	IN CNAME	wikimedia-lb
 pa.us			1H	IN CNAME	wikimedia-lb
