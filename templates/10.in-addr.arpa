@@ -1715,8 +1715,7 @@ $ORIGIN 0.64.$zonename.
 158	1H IN PTR	cp1036.eqiad.wmnet.
 159	1H IN PTR	cp1037.eqiad.wmnet.
 160	1H IN PTR	cp1038.eqiad.wmnet.
-161	1H IN PTR	cp1039.eqiad.wmnet.
-162	1H IN PTR	cp1040.eqiad.wmnet.
+
 163	1H IN PTR	oxygen.eqiad.wmnet.
 164	1H IN PTR	strontium.eqiad.wmnet.
 165	1H IN PTR	osm-web1001.eqiad.wmnet.
@@ -2087,6 +2086,8 @@ $ORIGIN 32.64.$zonename.
 76		1H IN PTR		rdb1001.eqiad.wmnet.
 77		1H IN PTR		rdb1002.eqiad.wmnet.
 78      1H IN PTR       wtp1001.eqiad.wmnet.
+79		1H IN PTR		cp1039.eqiad.wmnet.
+80		1H IN PTR		cp1040.eqiad.wmnet.
 
 $ORIGIN 33.64.$zonename.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
