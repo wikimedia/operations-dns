@@ -154,8 +154,6 @@ harmon		1H	IN A		10.0.0.20
 kuo			1H	IN A		10.0.0.35
 projectstorage		1H	IN A		10.0.0.41
 			1H	IN A		10.0.0.42
-			1H	IN A		10.0.0.43
-			1H	IN A		10.0.0.44
 labstore1		1H	IN A		10.0.0.41
 labstore2		1H	IN A		10.0.0.42
 labstore3		1H	IN A		10.0.0.43
