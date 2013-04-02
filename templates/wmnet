@@ -712,6 +712,10 @@ labstore1		1H	IN A		10.1.8.74
 labstore2		1H	IN A		10.1.8.75
 labstore3		1H	IN A		10.1.8.76
 labstore4		1H	IN A		10.1.8.77
+labstore1001	1H	IN A		10.64.32.4
+labstore1002	1H	IN A		10.64.32.5
+labstore1003	1H	IN A		10.64.32.6
+labstore1004	1H	IN A		10.64.32.7
 linne			1H	IN A		10.1.8.10
 locke			1H	IN A		10.1.6.16
 loudon			1H	IN A		10.1.8.9
