@@ -1339,10 +1339,10 @@ iodine	        1H  IN A        10.64.16.160
 labsdb1001      1H  IN A        10.64.20.12
 labsdb1002      1H  IN A        10.64.37.4
 labsdb1003		1H	IN A		10.64.37.5
-labstore1001	1H	IN A		10.64.32.4
-labstore1002	1H	IN A		10.64.32.5
-labstore1003	1H	IN A		10.64.32.6
-labstore1004	1H	IN A		10.64.32.7
+labstore1001	1H	IN A		10.64.37.6
+labstore1002	1H	IN A		10.64.37.7
+labstore1003	1H	IN A		10.64.37.8
+labstore1004	1H	IN A		10.64.37.9
 mc1001			1H	IN A		10.64.0.180
 mc1002			1H	IN A		10.64.0.181
 mc1003			1H	IN A		10.64.0.182
