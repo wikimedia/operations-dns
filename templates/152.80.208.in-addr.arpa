@@ -160,9 +160,14 @@ $ORIGIN $zonename.
 149	1H IN PTR	kaulen.wikimedia.org.
 150	1H IN PTR	marmontel.wikimedia.org.
 
+151	1H IN PTR	pdf4.wikimedia.org.
+152	1H IN PTR	pdf5.wikimedia.org.
+153	1H IN PTR	pdf6.wikimedia.org.
 154	1H IN PTR	pdf2.wikimedia.org.
 155	1H IN PTR	pdf1.wikimedia.org.
-
+156	1H IN PTR	pdf7.wikimedia.org.
+157	1H IN PTR	pdf8.wikimedia.org.
+158	1H IN PTR	pdf9.wikimedia.org.
 159	1H IN PTR	williams.wikimedia.org.
 160	1H IN PTR	streber.wikimedia.org.
 161	1H IN PTR	spence.wikimedia.org.
@@ -172,12 +177,17 @@ $ORIGIN $zonename.
 165	1H IN PTR	fenari.wikimedia.org.
 166	1H IN PTR	pappas.wikimedia.org.
 167	1H IN PTR	linne.wikimedia.org.
+168	1H IN PTR	pdf10.wikimedia.org.
+169	1H IN PTR	pdf11.wikimedia.org.
 
 170	1H IN PTR	tridge.wikimedia.org.		; Cold Backup Server
 171	1H IN PTR	brewster.wikimedia.org.
 
 173	1H IN PTR	dobson.wikimedia.org.
-
+174	1H IN PTR	pdf12.wikimedia.org.
+175	1H IN PTR	pdf13.wikimedia.org.
+176	1H IN PTR	pdf14.wikimedia.org.
+177	1H IN PTR	pdf15.wikimedia.org.
 178	1H IN PTR	ekrem.wikimedia.org.
 
 181	1H IN PTR	pdf3.wikimedia.org.
