@@ -1754,7 +1754,7 @@ $ORIGIN 0.64.$zonename.
 198 1H IN PTR   solr1001.eqiad.wmnet.
 199 1H IN PTR   solr1002.eqiad.wmnet.
 200 1H IN PTR   xenon.eqiad.wmnet.
-201 1H IN PTR   caesium.eqiad.wmnet.
+
 202 1H IN PTR   mc1017.eqiad.wmnet.
 203 1H IN PTR   mc1018.eqiad.wmnet.
 204 1H IN PTR   mw1201.eqiad.wmnet.
