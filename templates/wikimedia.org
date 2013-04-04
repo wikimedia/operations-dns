@@ -90,11 +90,13 @@ bast1001		1H	IN A	208.80.154.149
 bayle			1H	IN A	208.80.152.174
 berkelium		1H	IN A	208.80.154.177
 beryllium		1H	IN A	208.80.154.47
+bohrium			1H	 IN A	 208.80.154.94
 boron			1H	IN A	208.80.155.4
 brewster		1H	IN A	208.80.152.171
 browne			1H	IN A	208.80.152.180
-calcium			1H	IN A	208.80.154.158
 caesium         1H  IN A    208.80.154.74
+calcium			1H	IN A	208.80.154.158
+californium			1H	 IN A	 208.80.154.85
 capella			1H	IN A	208.80.152.115
 			1H	IN AAAA	2620:0:860:1:208:80:152:115
 carbon			1H	IN A	208.80.154.10
@@ -138,20 +140,25 @@ cp1079			1H	IN A	208.80.154.38
 cp1080			1H	IN A	208.80.154.39
 cp1081			1H	IN A	208.80.154.40
 curium			1H	IN A	208.80.154.176
+darmstadtium	1H	IN A	208.80.154.97
 dataset1		1H	IN A	208.80.152.166
 dataset2		1H	IN A	208.80.152.185
 dataset1001		1H	IN A	208.80.154.11
 db61			1H	IN A	208.80.152.231
 dobson			1H	IN A	208.80.152.173
+dubnium			1H	IN A	208.80.154.92
+einsteinium		1H	IN A	208.80.154.86
 ekrem			1H	IN A	208.80.152.178
 emery			1H	IN A	208.80.152.184
 fenari			1H	IN A	208.80.152.165
+fermium			1H	IN A	208.80.154.87
 formey			1H	IN A	208.80.152.147
 gadolinium		1H	IN A	208.80.154.73
 gallium			1H	IN A	208.80.154.135
 gilman			1H	IN A	208.80.152.176
 grosley			1H	IN A	208.80.152.164
 gurvin			1H	IN A	208.80.152.20
+hassium			1H	IN A	208.80.154.95
 hooper			1H	IN A	208.80.152.148
 hume			1H	IN A	208.80.152.190
 			1H	IN AAAA	2620:0:860:2:21d:9ff:fe33:f235
@@ -161,6 +168,7 @@ iron			1H	IN A	208.80.154.151
 kaulen			1H	IN A	208.80.152.149
 khaldun			1H	IN A	208.80.152.188
 lanthanum		1H	IN A	208.80.154.13
+lawrencium		1H	IN A	208.80.154.90
 linne			1H	IN A	208.80.152.167
 locke			1H	IN A	208.80.152.138
 loudon			1H	IN A	208.80.152.163
@@ -182,6 +190,8 @@ manutius		1H	IN A	208.80.152.15
 marmontel		1H	IN A	208.80.152.150
 mchenry			1H	IN A	208.80.152.186
 			1H	IN AAAA	2620:0:860:2:219:b9ff:fedd:c027
+meitnerium		1H	IN A	208.80.154.96
+mendelevium		1H	IN A	208.80.154.88
 mobile1004		1H	IN A	208.80.154.160
 mobile1005		1H	IN A	208.80.154.161
 mobile1006		1H	IN A	208.80.154.162
@@ -201,6 +211,7 @@ neptunium		1H	IN A	208.80.154.48
 nickel			1H	IN A	208.80.154.150
 niobium			1H	IN A	208.80.154.143
 			1H	IN AAAA	2620:0:861:2:208:80:154:143
+nobelium		1H	IN A	208.80.154.89
 ocg1			1H	IN A	208.80.152.117
 ocg2			1H	IN A	208.80.152.119
 ocg3			1H	IN A	208.80.152.99
@@ -243,8 +254,11 @@ pdf13			1H	 IN A	 208.80.152.175
 pdf14			1H	 IN A	 208.80.152.176
 pdf15			1H	 IN A	 208.80.152.177
 raskin.usability	1H	IN A	208.80.152.253
+roentgenium		1H	IN A	208.80.154.98
+rutherfordium	1H	IN A	208.80.154.91
 samarium		1H	IN A	208.80.155.10
 sanger			1H	IN A	208.80.152.187
+seaborgium		1H	IN A	208.80.154.93
 silicon			1H	IN A	208.80.155.8
 silver			1H	IN A	208.80.154.153
 singer			1H	IN A	208.80.152.162

@@ -90,12 +90,26 @@ $ORIGIN $zonename.
 72	1H IN PTR	vl1003-eth2.lvs1006.wikimedia.org.
 73	1H IN PTR	gadolinium.wikimedia.org.
 74  1H IN PTR   caesium.wikimedia.org.
+85	1H IN PTR	californium.wikimedia.org.
+86	1H IN PTR	einsteinium.wikimedia.org.
+87	1H IN PTR	fermium.wikimedia.org.
+88	1H IN PTR	mendelevium.wikimedia.org.
+89	1H IN PTR	nobelium.wikimedia.org.
+90	1H IN PTR	lawrencium.wikimedia.org.
+91	1H IN PTR	rutherfordium.wikimedia.org.
+92	1H IN PTR	dubnium.wikimedia.org.
+93	1H IN PTR	seaborgium.wikimedia.org.
+94	1H IN PTR	bohrium.wikimedia.org.
+95	1H IN PTR	hassium.wikimedia.org.
+96	1H IN PTR	meitnerium.wikimedia.org.
+97	1H IN PTR	darmstadtium.wikimedia.org.
+98	1H IN PTR	roentgenium.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
-129	1H IN PTR       vrrp-gw-1002.wikimedia.org.
-130	1H IN PTR       ae2-1002.cr1-eqiad.wikimedia.org.
-131	1H IN PTR       ae2-1002.cr2-eqiad.wikimedia.org.
+129	1H IN PTR	vrrp-gw-1002.wikimedia.org.
+130	1H IN PTR	ae2-1002.cr1-eqiad.wikimedia.org.
+131	1H IN PTR	ae2-1002.cr2-eqiad.wikimedia.org.
 132	1H IN PTR	argon.wikimedia.org.
 133	1H IN PTR	ssl1001.wikimedia.org.
 134	1H IN PTR	ssl1002.wikimedia.org.
