@@ -94,6 +94,10 @@ $ORIGIN 2.0.1.0.$zonename.
 
 7.4.1.0.6.1.0.0.4.6.0.0.0.1.0.0	1H IN PTR	palladium.eqiad.wmnet.
 
+; private1-c-eqiad (2620:0:861:103::/64)
+$ORIGIN 3.0.1.0.$zonename.
+1.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0	1H IN PTR	dysprosium.eqiad.wmnet.
+
 ; analytics1-c-eqiad (2620:0:861:106::/64)
 $ORIGIN 6.0.1.0.$zonename.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1022.wikimedia.org.
