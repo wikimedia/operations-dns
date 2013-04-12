@@ -716,7 +716,7 @@ analytics		1H	IN CNAME	stat1001
 blog			1H	IN CNAME	marmontel.wikimedia.org.
 bugs			1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla		1H	IN CNAME	kaulen.wikimedia.org.
-bugzilla3		1H	IN CNAME	singer.wikimedia.org.
+bugzilla3		1H	IN CNAME	kaulen.wikimedia.org.
 bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
 civicrm			1H	IN CNAME	aluminium
 civicrm-dev		1H	IN CNAME	aluminium
