@@ -1137,11 +1137,11 @@ $ORIGIN eqiad.$zonename.
 ; Service aliases
 ntp			1H	IN CNAME	linne.wikimedia.org.
 syslog			1H	IN CNAME	nfs-home.pmtpa.wmnet.
-s1-master		5M	IN CNAME	db1017.eqiad.wmnet.
+s1-master		5M	IN CNAME	db1056.eqiad.wmnet.
 s2-master		5M	IN CNAME	db1034.eqiad.wmnet.
 s3-master		5M	IN CNAME	db1019.eqiad.wmnet.
 s4-master		5M	IN CNAME	db1038.eqiad.wmnet.
-s5-master		5M	IN CNAME	db1039.eqiad.wmnet.
+s5-master		5M	IN CNAME	db1058.eqiad.wmnet.
 s6-master		5M	IN CNAME	db1006.eqiad.wmnet.
 s7-master		5M	IN CNAME	db1041.eqiad.wmnet.
 m2-master		5M	IN CNAME	db1048.eqiad.wmnet.
