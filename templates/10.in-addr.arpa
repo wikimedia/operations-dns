@@ -2086,6 +2086,8 @@ $ORIGIN 32.64.$zonename.
 79		1H IN PTR		cp1039.eqiad.wmnet.
 80		1H IN PTR		cp1040.eqiad.wmnet.
 81      1H IN PTR       dysprosium.eqiad.wmnet.
+82      1H IN PTR       cam1-c-eqiad.eqiad.wmnet.
+83      1H IN PTR       cam2-c-eqiad.eqiad.wmnet.
 
 $ORIGIN 33.64.$zonename.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
