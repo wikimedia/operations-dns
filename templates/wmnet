@@ -1154,7 +1154,7 @@ s1-analytics-slave	5M	IN CNAME	db1047.eqiad.wmnet.
 s2-analytics-slave	5M	IN CNAME	db52.pmtpa.wmnet.
 s3-analytics-slave	5M	IN CNAME	db39.pmtpa.wmnet.
 s4-analytics-slave	5M	IN CNAME	db51.pmtpa.wmnet.
-s5-analytics-slave	5M	IN CNAME	db35.pmtpa.wmnet.
+s5-analytics-slave	5M	IN CNAME	db55.pmtpa.wmnet.
 s6-analytics-slave	5M	IN CNAME	db43.pmtpa.wmnet.
 s7-analytics-slave	5M	IN CNAME	db58.pmtpa.wmnet.
 
