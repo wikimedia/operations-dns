@@ -721,7 +721,7 @@ bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
 civicrm			1H	IN CNAME	aluminium
 civicrm-dev		1H	IN CNAME	aluminium
 codereview-proxy	1H	IN CNAME	kaulen
-coffee			1H	IN CNAME	singer
+coffee			1H	IN CNAME	wikimedia-lb
 communityblog		1H	IN CNAME	marmontel.wikimedia.org.
 commons.prototype	1H	IN A		208.80.152.249
 contacts		1H	IN CNAME	singer.wikimedia.org.
