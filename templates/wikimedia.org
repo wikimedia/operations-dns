@@ -793,6 +793,7 @@ testblog		1H	IN CNAME	marmontel.wikimedia.org.
 techblog		1H	IN CNAME	marmontel.wikimedia.org.
 ticket			1H	IN CNAME	williams
 ubuntu			1H	IN A		208.80.152.171
+voip			1H	IN A		216.38.130.191
 wikitech		1H	IN A		208.80.152.32
 wikitech-old	1H	IN A		207.192.72.124
 wikitech-static	1H	IN A		166.78.57.240
