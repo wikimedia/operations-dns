@@ -723,11 +723,9 @@ civicrm			1H	IN CNAME	aluminium
 civicrm-dev		1H	IN CNAME	aluminium
 codereview-proxy	1H	IN CNAME	kaulen
 coffee			1H	IN CNAME	singer
-communicate		1H	IN CNAME	singer
 communityblog		1H	IN CNAME	marmontel.wikimedia.org.
 commons.prototype	1H	IN A		208.80.152.249
 contacts		1H	IN CNAME	singer.wikimedia.org.
-outreachcivi		1H	IN CNAME	singer.wikimedia.org.
 cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
 download		1H	IN CNAME	dumps
@@ -755,7 +753,6 @@ metrics		1H	IN CNAME	stat1001
 nagios			1H	IN CNAME	icinga	
 noc			1H	IN CNAME	fenari
 nyc			1H	IN CNAME	wikimedia-lb
-ocs.wikimania2009	1H	IN CNAME	singer
 otrs-test		1H	IN CNAME	williams
 planet			1H	IN CNAME	zirconium
 ar.planet		1H	IN CNAME	zirconium
@@ -800,16 +797,11 @@ testblog		1H	IN CNAME	marmontel.wikimedia.org.
 techblog		1H	IN CNAME	marmontel.wikimedia.org.
 ticket			1H	IN CNAME	williams
 ubuntu			1H	IN A		208.80.152.171
-url			1H	IN CNAME	singer
 voip			1H	IN A		216.38.130.191
 ;volunteer		1H	IN A		208.75.85.110
 wikitech		1H	IN A		208.80.152.32
 wikitech-old	1H	IN A		207.192.72.124
 wikitech-static	1H	IN A		166.78.57.240
-wm08reg			1H	IN A		67.228.205.196
-wm09schols		1H	IN CNAME	singer
-wm10reg			1H	IN CNAME	singer
-wm10schols		1H	IN CNAME	singer
 
 ; Misc
 
