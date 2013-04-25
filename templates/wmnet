@@ -158,6 +158,7 @@ labstore1		1H	IN A		10.0.0.41
 labstore2		1H	IN A		10.0.0.42
 labstore3		1H	IN A		10.0.0.43
 labstore4		1H	IN A		10.0.0.44
+labnfs			1H  IN A		10.0.0.45
 lardner			1H	IN A		10.0.0.34
 maurus			1H	IN A		10.0.0.16
 ms1			1H	IN A		10.0.0.250
