@@ -739,7 +739,6 @@ ganglia3		1H	IN CNAME	nickel
 ganglia3-tip		1H	IN CNAME	nickel
 gdash			1H	IN CNAME	noc
 graphite		1H	IN CNAME	noc
-internproxy		1H	IN A		208.80.152.239
 ishmael			1H	IN CNAME	noc
 jobs			1H	IN CNAME	wikimedia-lb
 labs			1H	IN CNAME	wikimedia-lb
@@ -842,7 +841,6 @@ $ORIGIN tesla.$zonename.
 $ORIGIN usability.$zonename.
 
 raskin			1H	IN A	208.80.152.253
-tesla			1H	IN A	208.80.152.252
 tesla.mgmt		1H	IN A	208.80.152.251
 
 ; Amsterdam cluster
