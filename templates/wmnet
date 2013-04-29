@@ -50,7 +50,7 @@ s1-secondary		5M	IN CNAME	db63.pmtpa.wmnet.
 s2-secondary		5M	IN CNAME	db54.pmtpa.wmnet.
 s3-secondary		5M	IN CNAME	db34.pmtpa.wmnet.
 s4-secondary		5M	IN CNAME	db31.pmtpa.wmnet.
-s5-secondary		5M	IN CNAME	db45.pmtpa.wmnet.
+s5-secondary		5M	IN CNAME	db73.pmtpa.wmnet.
 s6-secondary		5M	IN CNAME	db47.pmtpa.wmnet.
 s7-secondary		5M	IN CNAME	db37.pmtpa.wmnet.
 m1-master		5M	IN CNAME	blondel.pmtpa.wmnet.	
