@@ -80,7 +80,6 @@ aluminium		1H	IN A	208.80.154.6
 aluminum		1H	IN CNAME aluminium
 americium		1H	IN A	208.80.154.175
 analytics1001	1H	IN A	208.80.154.154
-anthony			1H	IN A	208.80.152.181
 antimony		1H	IN A	208.80.154.7
 arsenic			1H	IN A	208.80.154.62
 			1H	IN AAAA	2620:0:861:1:208:80:154:62
@@ -229,7 +228,6 @@ payments3		1H	IN A	208.80.152.13
 payments4		1H	IN A	208.80.152.14
 plutonium		1H	IN A	208.80.154.174
 praseodymium	1H	IN A	208.80.154.148
-project2		1H	IN A	208.80.152.152
 protractinium		1H	IN A	208.80.154.45
 pdf1			1H	IN A	208.80.152.155
 pdf2			1H	IN A	208.80.152.154
@@ -388,7 +386,6 @@ uranium			1H	IN A	208.80.154.46
 virt0			1H	IN A	208.80.152.32
 virt1000		1H	IN A	208.80.154.18
 williams		1H	IN A	208.80.152.159
-yongle			1H	IN A	208.80.152.178
 yvon			1H	IN A	208.80.152.21
 zhen			1H	IN A	208.80.152.140
 zinc			1H	IN A	208.80.154.136
