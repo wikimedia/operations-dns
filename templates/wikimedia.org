@@ -504,6 +504,7 @@ species.m		1H	IN CNAME	m.wikimedia.org.
 strategy.m		1H	IN CNAME	m.wikimedia.org.
 wikimania2012.m		1H	IN CNAME	m.wikimedia.org.
 wikimania2013.m		1H	IN CNAME	m.wikimedia.org.
+wikimania2014.m		1H	IN CNAME	m.wikimedia.org.
 
 owa			1H	IN A	208.80.152.6
 
@@ -708,6 +709,7 @@ wikimania2010		1H	IN CNAME	wikimedia-lb
 wikimania2011		1H	IN CNAME	wikimedia-lb
 wikimania2012		1H	IN CNAME	wikimedia-lb
 wikimania2013		1H	IN CNAME	wikimedia-lb
+wikimania2014		1H	IN CNAME	wikimedia-lb
 wikimaniateam		1H	IN CNAME	wikimedia-lb
 www			1H	IN CNAME	wikimedia-lb
 
