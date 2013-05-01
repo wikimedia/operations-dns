@@ -165,6 +165,13 @@ $ORIGIN 0.0.e.f.$zonename.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vl400-ve7.csw1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vl400-ve7.br1-knams.wikimedia.org.
 
+; cr1-esams <--> cr2-knams (2620:0:862:fe01::/64)
+
+$ORIGIN 1.0.e.f.$zonename.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae1-401.cr1-esams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae1-401.cr2-knams.wikimedia.org.
+
 ; csw1-esams <--> br1-knams (2620:0:862:fe02::/64)
 
 $ORIGIN 2.0.e.f.$zonename.
