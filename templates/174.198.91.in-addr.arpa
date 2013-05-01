@@ -191,3 +191,8 @@ $ORIGIN $zonename.
 
 252	1H IN PTR	xe-0-0-1.cr1-esams.wikimedia.org.
 253	1H IN PTR	xe-0-0-0.cr2-knams.wikimedia.org.
+
+; Neighbor block between cr1-esams and cr2-knams (91.198.174.254/31)
+
+254	1H IN PTR	ae1-401.cr1-esams.wikimedia.org.
+255	1H IN PTR	ae1-401.cr2-knams.wikimedia.org.

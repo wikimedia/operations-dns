@@ -165,13 +165,6 @@ $ORIGIN 0.0.e.f.$zonename.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vl400-ve7.csw1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vl400-ve7.br1-knams.wikimedia.org.
 
-; csw1-esams <--> Leaseweb IPv6 transit (2620:0:862:fe01::/64)
-
-$ORIGIN 1.0.e.f.$zonename.
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	te-8-4.csw1-knams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	te2-2.sr1.evo.leaseweb.net.
-
 ; csw1-esams <--> br1-knams (2620:0:862:fe02::/64)
 
 $ORIGIN 2.0.e.f.$zonename.
