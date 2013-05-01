@@ -148,43 +148,7 @@ $ORIGIN $zonename.
 
 190	1H IN PTR	vrrp-backup-101.esams.wikimedia.org.
 
-; Toolserver subnet: 91.198.174.192/27 (91.198.174.192 - 91.198.174.223)
-
-192-223	1H IN NS	a.ns.toolserver.org.
-	1H IN NS	b.ns.toolserver.org.
-	1H IN NS	c.ns.toolserver.org.
-$GENERATE 192-223	$ CNAME $.192-223.174.198.91.in-addr.arpa.
-
-;193	1H IN PTR	vl102-ve6.csw1-esams.wikimedia.org.
-;194	1H IN PTR	hemlock.toolserver.org.
-;195	1H IN PTR	clematis.toolserver.org.
-;196	1H IN PTR	zedler.toolserver.org.
-;197	1H IN PTR	turnera-ext-bge0.toolserver.org.
-;198	1H IN PTR	turnera-ext-bge0-test.toolserver.org.
-;199	1H IN PTR	turnera-ext-bge1.toolserver.org.
-;200	1H IN PTR	turnera-ext-bge1-test.toolserver.org.
-;201	1H IN PTR	nightshade.toolserver.org.
-;202	1H IN PTR	willow.toolserver.org.
-;203	1H IN PTR	toolserver.org.
-;204	1H IN PTR	damiana-ext-bge0.toolserver.org.
-;205	1H IN PTR	damiana-ext-bge0-test.toolserver.org.
-;206	1H IN PTR	ha-dns-auth.toolserver.org.
-;207	1H IN PTR	ha-mail.toolserver.org.
-;208	1H IN PTR	damiana-ext-bge1.toolserver.org.
-;209	1H IN PTR	hawthorn.toolserver.org.
-;210	1H IN PTR	wolfsbane.toolserver.org.
-;211	1H IN PTR	ortelius.toolserver.org.
-;212	1H IN PTR	ha-www.toolserver.org.
-;213	1H IN PTR	damiana-ext-bge1-test.toolserver.org.
-;214	1H IN PTR	ha-svn.toolserver.org.
-;215	1H IN PTR	submit.toolserver.org.
-;216	1H IN PTR	yarrow.toolserver.org.
-;217	1H IN PTR	daphne.toolserver.org.
-; 218
-;219	1H IN PTR	vmtest1.toolserver.org.
-;220	1H IN PTR	vmtest2.toolserver.org.
-;221	1H IN PTR	backups.toolserver.org.
-;222	1H IN PTR	vrrp-backup-102.esams.wikimedia.org.
+; LVS service IPs (91.198.174.224/27)
 
 224     1H IN PTR       wikimedia-lb.esams.wikimedia.org.
 225     1H IN PTR       wikipedia-lb.esams.wikimedia.org.
