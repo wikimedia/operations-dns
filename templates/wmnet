@@ -1288,7 +1288,6 @@ db1021			1H	IN A		10.64.16.10
 db1022			1H	IN A		10.64.16.11
 db1023			1H	IN A		10.64.16.12
 db1024			1H	IN A		10.64.16.13
-db1025			1H	IN A		10.64.16.14
 db1026			1H	IN A		10.64.16.15
 db1027			1H	IN A		10.64.16.16
 db1028			1H	IN A		10.64.16.17
@@ -2689,6 +2688,7 @@ samarium    1H  IN A    10.65.3.146
 
 $ORIGIN frack.eqiad.$zonename.
 boron           1H      IN A    10.64.40.66
+db1025          1H      IN A    10.64.40.100
 indium          1H      IN A    10.64.40.67
 tellurium       1H      IN A    10.64.40.34
 te              1H      IN CNAME          tellurium
