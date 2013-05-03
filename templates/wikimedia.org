@@ -646,6 +646,7 @@ fi			1H	IN CNAME	wikimedia-lb
 fdc			1H	IN CNAME	wikimedia-lb
 grants			1H	IN CNAME	wikimedia-lb
 hu			1H	IN CNAME	wikimedia-lb
+iegcom			1H	IN CNAME	wikimedia-lb
 il			1H	IN CNAME	wikimedia-lb
 incubator		1H	IN CNAME	wikimedia-lb
 internal		1H	IN CNAME	wikimedia-lb
