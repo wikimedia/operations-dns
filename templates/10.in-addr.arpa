@@ -1533,6 +1533,9 @@ $ORIGIN 0.21.$zonename.
 146	1H	IN PTR	cp3022.mgmt.esams.wmnet.
 
 210	1H	IN PTR	scs1-esams.mgmt.esams.wmnet.
+211	1H	IN PTR	ge-0-0-47.csw2-esams.wikimedia.org.
+212	1H	IN PTR	ae1-200.cr1-esams.wikimedia.org.
+213	1H	IN PTR	ae1-200.cr2-knams.wikimedia.org.
 
 249	1H	IN PTR	msw-oe12-esams.mgmt.esams.wmnet.
 250	1H	IN PTR	eth1.mint.esams.wikimedia.org.
