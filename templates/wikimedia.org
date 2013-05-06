@@ -708,7 +708,7 @@ www			1H	IN CNAME	wikimedia-lb
 
 ; Other websites (NO wikis!)
 analytics		1H	IN CNAME	stat1001
-blog			1H	IN CNAME	marmontel.wikimedia.org.
+blog			1H	IN CNAME	holmium.wikimedia.org.
 bugs			1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla		1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla3		1H	IN CNAME	kaulen.wikimedia.org.
@@ -717,7 +717,7 @@ civicrm			1H	IN CNAME	aluminium
 civicrm-dev		1H	IN CNAME	aluminium
 codereview-proxy	1H	IN CNAME	kaulen
 coffee			1H	IN CNAME	wikimedia-lb
-communityblog		1H	IN CNAME	marmontel.wikimedia.org.
+communityblog		1H	IN CNAME	holmium.wikimedia.org.
 commons.prototype	1H	IN A		208.80.152.249
 contacts		1H	IN CNAME	singer.wikimedia.org.
 cs			1H	IN CNAME	wikimedia.cz.
@@ -729,7 +729,7 @@ frlabs			1H	IN A		208.80.152.151
 fundraising		1H	IN CNAME	aluminium
 fundraising-analytics	1H	IN CNAME	aluminium
 ganglia			1H	IN CNAME	nickel
-globalblog		1H	IN CNAME	marmontel.wikimedia.org.
+globalblog		1H	IN CNAME	holmium.wikimedia.org.
 ganglia3		1H	IN CNAME	nickel
 ganglia3-tip		1H	IN CNAME	nickel
 gdash			1H	IN CNAME	noc
@@ -781,8 +781,8 @@ smokeping		1H	IN CNAME	calcium.wikimedia.org.
 store			1H	IN CNAME	wikimedia-lb
 stats			1H	IN CNAME	stat1001
 status			1H	IN CNAME	status.watchmouse.com.
-testblog		1H	IN CNAME	marmontel.wikimedia.org.
-techblog		1H	IN CNAME	marmontel.wikimedia.org.
+testblog		1H	IN CNAME	holmium.wikimedia.org.
+techblog		1H	IN CNAME	holmium.wikimedia.org.
 ticket			1H	IN CNAME	williams
 ubuntu			1H	IN A		208.80.152.171
 voip			1H	IN A		216.38.130.191
