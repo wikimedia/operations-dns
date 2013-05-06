@@ -157,6 +157,7 @@ gilman			1H	IN A	208.80.152.176
 grosley			1H	IN A	208.80.152.164
 gurvin			1H	IN A	208.80.152.20
 hassium			1H	IN A	208.80.154.95
+holmium			1H	IN A	208.80.154.49
 hooper			1H	IN A	208.80.152.148
 hume			1H	IN A	208.80.152.190
 			1H	IN AAAA	2620:0:860:2:21d:9ff:fe33:f235
