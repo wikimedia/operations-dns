@@ -165,15 +165,10 @@ $ORIGIN $zonename.
 234	1H IN PTR	upload.esams.wikimedia.org.
 235	1H IN PTR	foundation-lb.esams.wikimedia.org.
 
-; Neighbor block between csw1-esams and csw2-esams (91.198.174.236/30)
+; Neighbor block between cr2-knams and csw2-esams (91.198.174.240/30)
 
-237	1H IN PTR	ve2.te-8-1.csw1-esams.wikimedia.org.
-238	1H IN PTR	403.te-0-1-0-0.csw2-esams.wikimedia.org.
-
-; Neighbor block between br1-knams and csw2-esams (91.198.174.240/30)
-
-241	1H IN PTR	te-1-1.br1-knams.wikimedia.org.
-242	1H IN PTR	402.te-0-1-1-0.csw2-esams.wikimedia.org.
+241	1H IN PTR	ae1-402.cr2-knams.wikimedia.org.
+242	1H IN PTR	ae2-402.csw2-esams.wikimedia.org.
 
 ; Loopback ips
 
@@ -182,9 +177,9 @@ $ORIGIN $zonename.
 246	1H IN PTR	cr2-knams.wikimedia.org.
 247	1H IN PTR	csw1-esams.wikimedia.org.
 
-; Neighbor block between br1-knams and csw1-esams 
+; Neighbor block between cr2-knams and csw1-esams (91.198.174.248/30)
 
-249	1H IN PTR	ve7.te-1-1.br1-knams.wikimedia.org.
+249	1H IN PTR	xe-0-0-0.cr2-knams.wikimedia.org.
 250	1H IN PTR	ve7.te-8-1.csw1-esams.wikimedia.org.
 
 ; Neighbor block between cr2-knams and cr1-esams (91.198.174.252/31)
