@@ -140,7 +140,7 @@ $ORIGIN $zonename.
 131	1H IN PTR	recursor0.wikimedia.org.
 132	1H IN PTR	recursor1.wikimedia.org.
 133	1H IN PTR	wiki-mail.wikimedia.org.
-134	1H IN PTR	secure.wikimedia.org.
+
 135	1H IN PTR	colby.wikimedia.org.
 
 137	1H IN PTR	torrus.wikimedia.org.
