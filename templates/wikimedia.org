@@ -602,7 +602,7 @@ rt			1H	IN A		208.80.152.160
 			1H	IN MX		10 mchenry
 			1H	IN MX		60 lists
 
-secure			1H	IN A		wikimedia-lb ; moved from singer to cluster
+secure			1H	IN CNAME		wikimedia-lb ; moved from singer to cluster
 
 smtp			1H	IN A		208.80.152.187	; sanger
 			1H	IN MX		10 mchenry
