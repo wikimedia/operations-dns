@@ -587,7 +587,8 @@ imap			1H	IN A		208.80.152.187	; sanger
 			1H	IN MX		10 mchenry
 
 integration		1H	IN CNAME	gallium
-irc			1H	IN CNAME	ekrem
+irc			1H	IN	CNAME	ekrem
+login		1H	IN	CNAME	wikimedia-lb
 ntp.pmtpa		1H	IN CNAME	linne
 
 observium		1H	IN A		208.80.152.137
