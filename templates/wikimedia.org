@@ -774,7 +774,7 @@ sr.planet		1H	IN CNAME	zirconium
 sv.planet		1H	IN CNAME	zirconium
 zh.planet		1H	IN CNAME	zirconium
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
-racktables		1H	IN CNAME	hooper
+racktables		1H	IN CNAME	magnesium
 racktables2		1H	IN CNAME	magnesium
 reportcard		1H	IN CNAME	stat1001
 search			1H	IN CNAME	wikimedia-lb
