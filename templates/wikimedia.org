@@ -715,8 +715,8 @@ bugs			1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla		1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla3		1H	IN CNAME	kaulen.wikimedia.org.
 bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
-civicrm			1H	IN CNAME	grosley
-civicrm-dev		1H	IN CNAME	grosley
+civicrm			1H	IN CNAME	aluminium
+civicrm-dev		1H	IN CNAME	aluminium
 codereview-proxy	1H	IN CNAME	kaulen
 coffee			1H	IN CNAME	wikimedia-lb
 communityblog		1H	IN CNAME	holmium.wikimedia.org.
@@ -728,8 +728,7 @@ download		1H	IN CNAME	dumps
 eiximenis		1H	IN CNAME	hooper.wikimedia.org.
 etherpad		1H	IN CNAME	hooper.wikimedia.org.
 frlabs			1H	IN A		208.80.152.151
-fundraising		1H	IN CNAME	grosley
-fundraising-analytics	1H	IN CNAME	grosley
+fundraising		1H	IN CNAME	aluminium
 ganglia			1H	IN CNAME	nickel
 globalblog		1H	IN CNAME	holmium.wikimedia.org.
 ganglia3		1H	IN CNAME	nickel
