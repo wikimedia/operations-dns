@@ -165,10 +165,15 @@ $ORIGIN $zonename.
 234	1H IN PTR	upload.esams.wikimedia.org.
 235	1H IN PTR	foundation-lb.esams.wikimedia.org.
 
-; Neighbor block between cr2-knams and csw2-esams (91.198.174.240/30)
+; Neighbor block between cr2-knams and csw2-esams (91.198.174.240/31)
 
-241	1H IN PTR	ae1-402.cr2-knams.wikimedia.org.
-242	1H IN PTR	ae2-402.csw2-esams.wikimedia.org.
+240	1H IN PTR	ae1-402.cr2-knams.wikimedia.org.
+241	1H IN PTR	vl402.csw2-esams.wikimedia.org.
+
+; Temp Neighbor block between cr1-esams and cr2-knams (91.198.174.242/31)
+
+242	1H IN PTR	ae1-401.cr1-esams.wikimedia.org.
+243	1H IN PTR	ae2-401.cr2-knams.wikimedia.org.
 
 ; Loopback ips
 
