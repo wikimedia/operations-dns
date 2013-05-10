@@ -1145,6 +1145,7 @@ s4-master		5M	IN CNAME	db1038.eqiad.wmnet.
 s5-master		5M	IN CNAME	db1058.eqiad.wmnet.
 s6-master		5M	IN CNAME	db1006.eqiad.wmnet.
 s7-master		5M	IN CNAME	db1041.eqiad.wmnet.
+m1-master		5M	IN CNAME	db1001.eqiad.wmnet.
 m2-master		5M	IN CNAME	db1048.eqiad.wmnet.
 x1-master		5M	IN CNAME	db1029.eqiad.wmnet.
 es1-master		5M	IN CNAME	es1001.eqiad.wmnet.
@@ -1158,6 +1159,7 @@ s4-analytics-slave	5M	IN CNAME	db51.pmtpa.wmnet.
 s5-analytics-slave	5M	IN CNAME	db55.pmtpa.wmnet.
 s6-analytics-slave	5M	IN CNAME	db43.pmtpa.wmnet.
 s7-analytics-slave	5M	IN CNAME	db58.pmtpa.wmnet.
+x1-analytics-slave	5M	IN CNAME	db36.pmtpa.wmnet.
 
 ; Cameras
 cam1-a-eqiad		1H	IN A		10.64.0.27
