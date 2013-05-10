@@ -91,7 +91,6 @@ beryllium		1H	IN A	208.80.154.47
 bohrium			1H	 IN A	 208.80.154.94
 boron			1H	IN A	208.80.155.4
 brewster		1H	IN A	208.80.152.171
-browne			1H	IN A	208.80.152.180
 caesium         1H  IN A    208.80.154.74
 calcium			1H	IN A	208.80.154.158
 californium			1H	 IN A	 208.80.154.85
