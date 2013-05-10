@@ -48,7 +48,6 @@ scs-ext			1H	IN A	84.40.25.238
 
 dumps			1H	IN CNAME dataset2
 sitemap			1H	IN CNAME dumps
-ldap			1H	IN A	10.0.0.5	; albert
 
 lists			1H	IN A	208.80.154.4		; service IP on sodium
 			1H	IN MX	10 lists
