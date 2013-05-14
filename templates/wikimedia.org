@@ -492,8 +492,6 @@ wikimania2012.m		1H	IN CNAME	m.wikimedia.org.
 wikimania2013.m		1H	IN CNAME	m.wikimedia.org.
 wikimania2014.m		1H	IN CNAME	m.wikimedia.org.
 
-owa			1H	IN A	208.80.152.6
-
 ; Networking
 
 cr1-eqiad		1H	IN A	208.80.154.196
