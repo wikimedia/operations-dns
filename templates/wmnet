@@ -1694,12 +1694,12 @@ wtp1015         1H  IN A        10.64.32.88
 wtp1016         1H  IN A        10.64.32.89
 wtp1017         1H  IN A        10.64.32.90
 wtp1018         1H  IN A        10.64.32.91
-wtp1019         1H  IN A        10.64.8.214
-wtp1020         1H  IN A        10.64.8.215
-wtp1021         1H  IN A        10.64.8.216
-wtp1022         1H  IN A        10.64.8.217
-wtp1023         1H  IN A        10.64.8.218
-wtp1024         1H  IN A        10.64.8.219
+wtp1019         1H  IN A        10.64.0.214
+wtp1020         1H  IN A        10.64.0.215
+wtp1021         1H  IN A        10.64.0.216
+wtp1022         1H  IN A        10.64.0.217
+wtp1023         1H  IN A        10.64.0.218
+wtp1024         1H  IN A        10.64.0.219
 xenon	                1H      IN A            10.64.0.200
 
 ; Management
