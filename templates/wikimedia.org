@@ -226,7 +226,6 @@ protractinium		1H	IN A	208.80.154.45
 pdf1			1H	IN A	208.80.152.155
 pdf2			1H	IN A	208.80.152.154
 pdf3			1H	IN A	208.80.152.181
-raskin.usability	1H	IN A	208.80.152.253
 roentgenium		1H	IN A	208.80.154.98
 rutherfordium	1H	IN A	208.80.154.91
 samarium		1H	IN A	208.80.155.10
@@ -814,7 +813,6 @@ $ORIGIN tesla.$zonename.
 
 $ORIGIN usability.$zonename.
 
-raskin			1H	IN A	208.80.152.253
 tesla.mgmt		1H	IN A	208.80.152.251
 
 ; Amsterdam cluster
