@@ -774,9 +774,9 @@ osm-web1		1H	IN A		10.1.8.87
 osm-web2		1H	IN A		10.1.8.88
 osm-web3		1H	IN A		10.1.8.89
 osm-web4		1H	IN A		10.1.8.90
-owa1			1H	IN A		10.1.8.51
-owa2			1H	IN A		10.1.8.52
-owa3			1H	IN A		10.1.8.53
+WMF3848			1H	IN A		10.1.8.51
+WMF3847			1H	IN A		10.1.8.52
+WMF3846			1H	IN A		10.1.8.53
 pappas	         	1H	IN A		10.1.8.122
 payments1		1H	IN A		10.1.8.46
 payments2		1H	IN A		10.1.8.47

@@ -1012,9 +1012,9 @@ $ORIGIN 8.1.$zonename.
 47	1H	IN PTR	payments2.mgmt.pmtpa.wmnet.
 48	1H	IN PTR	payments3.mgmt.pmtpa.wmnet.
 49	1H	IN PTR	payments4.mgmt.pmtpa.wmnet.
-51	1H	IN PTR	owa1.mgmt.pmtpa.wmnet.
-52	1H	IN PTR	owa2.mgmt.pmtpa.wmnet.
-53	1H	IN PTR	owa3.mgmt.pmtpa.wmnet.
+51	1H	IN PTR	WMF3848.mgmt.pmtpa.wmnet.
+52	1H	IN PTR	WMF3847.mgmt.pmtpa.wmnet.
+53	1H	IN PTR	WMF3846.mgmt.pmtpa.wmnet.
 54	1H	IN PTR	storage3.mgmt.pmtpa.wmnet.
 55	1H	IN PTR	dataset2.mgmt.pmtpa.wmnet.
 56	1H	IN PTR	virt1.mgmt.pmtpa.wmnet.
