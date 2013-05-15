@@ -105,8 +105,6 @@ $ORIGIN $zonename.
 97	1H IN PTR	sq87.wikimedia.org.
 98	1H IN PTR	sq88.wikimedia.org.
 
-99	1H IN PTR	ocg3.wikimedia.org.
-
 101	1H IN PTR	sq97.wikimedia.org.
 102	1H IN PTR	sq98.wikimedia.org.
 103	1H IN PTR	sq99.wikimedia.org
@@ -121,9 +119,6 @@ $ORIGIN $zonename.
 
 115	1H IN PTR	capella.wikimedia.org.
 
-117	1H IN PTR	ocg1.wikimedia.org.
-
-119	1H IN PTR 	ocg2.wikimedia.org.
 120	1H IN PTR	lvs1.wikimedia.org.
 121	1H IN PTR	lvs2.wikimedia.org.
 122	1H IN PTR	lvs3.wikimedia.org.

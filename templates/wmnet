@@ -761,9 +761,9 @@ ms-be12			1H	IN A		10.1.7.32
 nfs1			1H	IN A		10.1.8.1
 nfs2			1H	IN A		10.1.8.11
 capella			1H	IN A		10.1.8.20
-ocg1			1H	IN A		10.1.8.44
-ocg2			1H	IN A		10.1.8.63
-ocg3			1H	IN A		10.1.8.64
+WMF3914			1H	IN A		10.1.8.44
+WMF3838			1H	IN A		10.1.8.63
+WMF3837			1H	IN A		10.1.8.64
 osm-cp1			1H	IN A		10.1.8.81
 osm-cp2			1H	IN A		10.1.8.82
 osm-cp3			1H	IN A		10.1.8.83
