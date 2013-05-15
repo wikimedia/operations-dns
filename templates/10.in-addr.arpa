@@ -999,7 +999,7 @@ $ORIGIN 8.1.$zonename.
 33	1H	IN PTR	alsted.mgmt.pmtpa.wmnet.
 34	1H	IN PTR	kaulen.mgmt.pmtpa.wmnet.
 35	1H	IN PTR	tarin.mgmt.pmtpa.wmnet.
-36	1H	IN PTR	dataset1.mgmt.pmtpa.wmnet.
+
 37	1H	IN PTR	pdf3.mgmt.pmtpa.wmnet.
 38	1H	IN PTR	gilman.mgmt.pmtpa.wmnet.
 39	1H	IN PTR	ekrem.mgmt.pmtpa.wmnet.
