@@ -15,6 +15,10 @@ $ORIGIN $zonename.
 
 localhost		7D	IN A		127.0.0.1
 
+; CROSS-COLO FUNDRAISING SERVICE ALIASES
+fundraisingdb-read	5M	IN CNAME	db1025.frack.eqiad.wmnet.
+fundraisingdb-write	5M	IN CNAME	db1008.eqiad.wmnet.
+
 $ORIGIN pmtpa.$zonename.
 
 $GENERATE  1-9	asw$-pmtpa A  10.0.1.$
@@ -58,9 +62,6 @@ m2-secondary		5M	IN CNAME	db48.pmtpa.wmnet.
 es1-secondary		5M	IN CNAME	es3.pmtpa.wmnet.
 es2-secondary		5M	IN CNAME	es5.pmtpa.wmnet.
 es3-secondary		5M	IN CNAME	es8.pmtpa.wmnet.
-
-fundraisingdb-read	5M	IN CNAME	db1025.frack.eqiad.wmnet.
-fundraisingdb-write	5M	IN CNAME	db1008.eqiad.wmnet.
 
 ; Servers (alphabetic order)
 
@@ -2897,3 +2898,4 @@ bits 		1H 	IN A 		10.2.3.23
 upload 		1H 	IN A 		10.2.3.24
 text 		1H 	IN A 		10.2.3.25
 mobile 		1H 	IN A 		10.2.3.26
+
