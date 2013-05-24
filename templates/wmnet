@@ -59,6 +59,9 @@ es1-secondary		5M	IN CNAME	es3.pmtpa.wmnet.
 es2-secondary		5M	IN CNAME	es5.pmtpa.wmnet.
 es3-secondary		5M	IN CNAME	es8.pmtpa.wmnet.
 
+fundraisingdb-read	5M	IN CNAME	db1025.frack.eqiad.wmnet.
+fundraisingdb-write	5M	IN CNAME	db1008.eqiad.wmnet.
+
 ; Servers (alphabetic order)
 
 bellin			1H	IN A		10.0.6.100
