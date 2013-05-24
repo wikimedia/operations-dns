@@ -158,7 +158,6 @@ hydrogen		1H	IN A	208.80.154.50
 			1H	IN AAAA	2620:0:861:1:208:80:154:50
 iron			1H	IN A	208.80.154.151
 kaulen			1H	IN A	208.80.152.149
-lanthanum		1H	IN A	208.80.154.13
 lawrencium		1H	IN A	208.80.154.90
 linne			1H	IN A	208.80.152.167
 locke			1H	IN A	208.80.152.138
