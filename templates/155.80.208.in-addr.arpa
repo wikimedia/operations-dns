@@ -26,6 +26,8 @@ $ORIGIN $zonename.
 8	1H IN PTR	silicon.wikimedia.org.
 9	1H IN PTR	tellurium.wikimedia.org.
 10	1H IN PTR	samarium.wikimedia.org.
+11	1H IN PTR	barium.wikimedia.org.
+12	1H IN PTR	thulium.wikimedia.org.
 
 ; 208.80.155.32/27 Infrastructure block
 
