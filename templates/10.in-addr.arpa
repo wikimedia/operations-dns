@@ -2180,8 +2180,11 @@ $ORIGIN 40.64.$zonename.
 100	1H IN PTR	db1025.frack.eqiad.wmnet.
 109	1H IN PTR	barium.frack.eqiad.wmnet.
 
-; 10.64.40.129/27 - frack-dmz1-c-eqiad
+; 10.64.40.128/27 - frack-dmz1-c-eqiad
 130	1H IN PTR	samarium.frack.eqiad.wmnet.
+
+; 10.64.40.160/27 - frack-listenerdmz1-c-eqiad
+162	1H IN PTR	thulium.frack.eqiad.wmnet.
 
 ; 10.64.48.0/22 - private1-d-eqiad
 $ORIGIN 48.64.$zonename.
