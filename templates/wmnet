@@ -2747,6 +2747,7 @@ payments1003    1H      IN A    10.64.40.7
 payments1004    1H      IN A    10.64.40.8
 silicon         1H      IN A    10.64.40.98
 samarium        1H      IN A    10.64.40.130
+thulium			1H		IN A	10.64.40.162
 
 ;
 ; ESAMS
