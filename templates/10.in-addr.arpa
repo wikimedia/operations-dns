@@ -1576,7 +1576,7 @@ $ORIGIN 0.64.$zonename.
 15	1H IN PTR	db1011.eqiad.wmnet.
 16	1H IN PTR	stat1002.eqiad.wmnet.
 17	1H IN PTR	db1013.eqiad.wmnet.
-
+18	1H IN PTR	db1014.eqiad.wmnet.
 19	1H IN PTR	db1015.eqiad.wmnet.
 20	1H IN PTR	db1016.eqiad.wmnet.
 21	1H IN PTR	fluorine.eqiad.wmnet.
@@ -3088,7 +3088,6 @@ $ORIGIN 6.65.$zonename.
 12	1H	IN PTR		WMF3079.mgmt.eqiad.wmnet.
 13	1H	IN PTR		db1013.mgmt.eqiad.wmnet.
 13	1H	IN PTR		WMF3078.mgmt.eqiad.wmnet.
-14	1H	IN PTR		netmon1001.mgmt.eqiad.wmnet.
 14	1H	IN PTR		db1014.mgmt.eqiad.wmnet.
 14	1H	IN PTR		WMF3077.mgmt.eqiad.wmnet.
 15	1H	IN PTR		db1015.mgmt.eqiad.wmnet.
