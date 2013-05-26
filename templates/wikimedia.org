@@ -195,6 +195,7 @@ ms10			1H	IN A	208.80.152.48
 ms1001			1H	IN A	208.80.154.16
 neon			1H	IN A	208.80.154.14
 neptunium		1H	IN A	208.80.154.48
+netmon			1H	IN A	208.80.154.13
 nickel			1H	IN A	208.80.154.150
 niobium			1H	IN A	208.80.154.143
 			1H	IN AAAA	2620:0:861:2:208:80:154:143
@@ -750,7 +751,7 @@ racktables		1H	IN CNAME	magnesium
 reportcard		1H	IN CNAME	stat1001
 search			1H	IN CNAME	wikimedia-lb
 shop			1H	IN CNAME	shopwikipedia.myshopify.com.
-smokeping		1H	IN CNAME	calcium.wikimedia.org.
+smokeping		1H	IN CNAME	netmon1001
 store			1H	IN CNAME	wikimedia-lb
 stats			1H	IN CNAME	stat1001
 status			1H	IN CNAME	status.watchmouse.com.
