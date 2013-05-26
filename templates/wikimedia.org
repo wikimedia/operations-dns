@@ -569,6 +569,8 @@ observium		1H	IN A		208.80.152.137
 ;payments		5M	IN A		208.80.152.213 ; pmtpa
 payments		5M	IN A		208.80.155.5   ; eqiad
 
+payments-listener	1H	IN CNAME		thulium
+
 rt			1H	IN A		208.80.152.160
 			1H	IN MX		10 mchenry
 			1H	IN MX		60 lists
