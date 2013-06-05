@@ -668,6 +668,7 @@ uk			1H	IN CNAME	wikimedia-lb
 usability		1H	IN CNAME	wikimedia-lb
 videos			1H	IN CNAME	wikimedia-lb
 ve			1H	IN CNAME	wikimedia-lb
+vote			1H	IN CNAME	wikimedia-lb
 wikimania		1H	IN CNAME	wikimedia-lb
 wikimania2005		1H	IN CNAME	wikimedia-lb
 wikimania2006		1H	IN CNAME	wikimedia-lb
