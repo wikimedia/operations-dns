@@ -55,8 +55,6 @@ $ORIGIN 0.0.$zonename.
 
 50	1H	IN PTR	constable.pmtpa.wmnet.
 51	1H	IN PTR	celsus.pmtpa.wmnet.
-52  1H  IN PTR  rdb1.pmtpa.wmnet.
-53  1H  IN PTR  rdb2.pmtpa.wmnet.
 
 200 	1H	IN PTR  vrrp-gw-2.pmtpa.wmnet.
 201 	1H	IN PTR  ae0-2.cr1-sdtpa.wikimedia.org.
@@ -1112,8 +1110,6 @@ $ORIGIN 8.1.$zonename.
 131	1H	IN PTR	WMF5850.mgmt.pmtpa.wmnet.
 132	1H	IN PTR	WMF5851.mgmt.pmtpa.wmnet.
 133	1H	IN PTR	WMF5852.mgmt.pmtpa.wmnet.
-134 1H  IN PTR  rdb1.mgmt.pmtpa.wmnet.
-135 1H  IN PTR  rdb2.mgmt.pmtpa.wmnet.
 
 ; Apaches pool (srv251+)
 $ORIGIN 9.1.$zonename.
@@ -1756,7 +1752,7 @@ $ORIGIN 0.64.$zonename.
 198 1H IN PTR   solr1001.eqiad.wmnet.
 199 1H IN PTR   solr1002.eqiad.wmnet.
 200 1H IN PTR   xenon.eqiad.wmnet.
-
+201 1H IN PTR   rdb1003.eqiad.wmnet.
 202 1H IN PTR   mc1017.eqiad.wmnet.
 203 1H IN PTR   mc1018.eqiad.wmnet.
 204 1H IN PTR   mw1201.eqiad.wmnet.
@@ -1976,6 +1972,7 @@ $ORIGIN 16.64.$zonename.
 180 1H IN PTR   wtp1012.eqiad.wmnet.
 181 1H IN PTR   wtp1013.eqiad.wmnet.
 182 1H IN PTR   wtp1014.eqiad.wmnet.
+183 1H IN PTR   rdb1004.eqiad.wmnet.
 
 $ORIGIN 17.64.$zonename.
 
@@ -3007,6 +3004,8 @@ $ORIGIN 3.65.$zonename.
 165 1H  IN PTR      wtp1022.mgmt.eqiad.wmnet.
 166 1H  IN PTR      wtp1023.mgmt.eqiad.wmnet.
 167 1H  IN PTR      wtp1024.mgmt.eqiad.wmnet.
+168 1H  IN PTR      rdb1003.mgmt.eqiad.wmnet.
+169 1H  IN PTR      rdb1004.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.$zonename.
 
