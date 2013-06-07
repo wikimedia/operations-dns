@@ -976,7 +976,7 @@ $ORIGIN 8.1.$zonename.
 9	1H	IN PTR	loudon.mgmt.pmtpa.wmnet.
 10	1H	IN PTR	linne.mgmt.pmtpa.wmnet.
 11	1H	IN PTR	nfs2.mgmt.pmtpa.wmnet.
-12	1H	IN PTR	singer.mgmt.pmtpa.wmnet.
+
 13	1H	IN PTR	spence.mgmt.pmtpa.wmnet.
 14	1H	IN PTR	streber.mgmt.pmtpa.wmnet.
 15	1H	IN PTR	williams.mgmt.pmtpa.wmnet.

@@ -229,7 +229,6 @@ sanger			1H	IN A	208.80.152.187
 seaborgium		1H	IN A	208.80.154.93
 silicon			1H	IN A	208.80.155.8
 silver			1H	IN A	208.80.154.153
-singer			1H	IN A	208.80.152.162
 sodium			1H	IN A	208.80.154.61
 spence			1H	IN A	208.80.152.161
 ssl1			1H	IN A	208.80.152.16

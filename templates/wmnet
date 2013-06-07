@@ -836,7 +836,6 @@ sockpuppet		1H	IN A		10.1.8.2
 solr1                   1H      IN A            10.1.4.60
 solr2                   1H      IN A            10.1.4.61
 solr3                   1H      IN A            10.1.4.62
-singer	   		1H	IN A		10.1.8.12
 snapshot1		1H	IN A		10.1.8.21
 snapshot2		1H	IN A		10.1.8.22
 snapshot3		1H	IN A		10.1.8.23
