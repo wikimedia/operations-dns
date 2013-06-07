@@ -2872,8 +2872,6 @@ upload 		1H 	IN A 		10.2.1.24
 text 		1H 	IN A 		10.2.1.25
 mobile		1H 	IN A 		10.2.1.26
 ms-fe		1H 	IN A 		10.2.1.27
-parsoid		1H	IN A		10.2.1.28
-parsoidcache	1H	IN A		10.2.1.29
 
 ; EQIAD SERVICES
 
