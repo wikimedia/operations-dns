@@ -1386,7 +1386,7 @@ ms-fe			1H	IN A		10.2.2.27	;LVS address for ms-fe100*
 ms-fe1001		1H	IN A		10.64.0.167
 ms-fe1002		1H	IN A		10.64.0.168
 ms-fe1003		1H	IN A		10.64.16.150
-ms-fe1004		1H	IN A		10.64.16.151
+ms-fe1004		1H	IN A		10.64.32.92
 mw1001			1H	IN A		10.64.0.31
 mw1002			1H	IN A		10.64.0.32
 mw1003			1H	IN A		10.64.0.33
@@ -1614,10 +1614,10 @@ neodymium		1H  IN A        10.64.32.71
 #osm-cp1004      1H  IN A        10.64.16.162
 osm-db1001      1H  IN A        10.64.8.213
 osm-db1002      1H  IN A        10.64.16.155
-osm-web1001		1H	IN A		10.64.0.165
-osm-web1002		1H	IN A		10.64.0.166
-osm-web1003		1H	IN A		10.64.16.148
-osm-web1004		1H	IN A		10.64.16.149
+osm-web1001		1H	IN A		10.64.32.93
+osm-web1002		1H	IN A		10.64.32.94
+osm-web1003		1H	IN A		10.64.32.95
+osm-web1004		1H	IN A		10.64.32.96
 oxygen			1H	IN A		10.64.0.163
 palladium		1H	IN A		10.64.16.147
 			1H	IN AAAA		2620:0:861:102:10:64:16:147
