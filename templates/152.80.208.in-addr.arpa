@@ -153,6 +153,9 @@ $ORIGIN $zonename.
 149	1H IN PTR	kaulen.wikimedia.org.
 150	1H IN PTR	marmontel.wikimedia.org.
 
+154	1H IN PTR	pdf2.wikimedia.org.
+155	1H IN PTR	pdf1.wikimedia.org.
+
 159	1H IN PTR	williams.wikimedia.org.
 160	1H IN PTR	streber.wikimedia.org.
 161	1H IN PTR	spence.wikimedia.org.
@@ -229,4 +232,3 @@ $ORIGIN $zonename.
 234	1H IN PTR	web.amaranth.toolserver.org.
 
 251	1H IN PTR	tesla.mgmt.usability.wikimedia.org.
-
