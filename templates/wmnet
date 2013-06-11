@@ -2850,9 +2850,17 @@ msw-oe12-esams	1H	IN A		10.21.0.249
 
 $ORIGIN mgmt.knams.wmnet.
 
-br1-knams       1H      IN A            145.97.39.134
+br1-knams       1H      IN A         145.97.39.134
 
 
+;
+; ULSFO
+;
+
+$ORIGIN mgmt.ulsfo.wmnet.
+
+mr1-ulsfo		1H		IN A	10.128.128.1
+	
 ;
 ; SERVICES
 ;
