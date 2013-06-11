@@ -3281,6 +3281,7 @@ $ORIGIN 48.68.$zonename.
 ; 10.128.128.0/17 - ulsfo mgmt
 $ORIGIN 128.128.$zonename.
 1	1H	IN PTR		fe-0-0-1.mr1-ulsfo.mgmt.eqiad.wmnet.
+11	1H	IN PTR		scs-ulsfo.mgmt.ulsfo.wmnet.
 
 ; LEGACY
 
