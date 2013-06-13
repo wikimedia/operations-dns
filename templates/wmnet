@@ -2759,8 +2759,7 @@ barium          1H      IN A    10.64.40.109
 boron           1H      IN A    10.64.40.66
 db1025          1H      IN A    10.64.40.100
 indium          1H      IN A    10.64.40.67
-tellurium       1H      IN A    10.64.40.34
-te              1H      IN CNAME          tellurium
+lutetium        1H      IN A    10.64.40.111
 pay-lvs1001     1H      IN A    10.64.40.20
 pay-lvs1002     1H      IN A    10.64.40.21
 payments1001    1H      IN A    10.64.40.5
@@ -2769,6 +2768,8 @@ payments1003    1H      IN A    10.64.40.7
 payments1004    1H      IN A    10.64.40.8
 silicon         1H      IN A    10.64.40.98
 samarium        1H      IN A    10.64.40.130
+tellurium       1H      IN A    10.64.40.34
+te              1H      IN CNAME          tellurium
 thulium			1H		IN A	10.64.40.162
 
 ;
