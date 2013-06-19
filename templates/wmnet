@@ -1665,7 +1665,7 @@ search1021      1H  IN A        10.64.32.128
 search1022      1H  IN A        10.64.32.129
 search1023      1H  IN A        10.64.32.130
 search1024      1H  IN A        10.64.32.131
-searchidx1001		1H	IN A		10.64.0.119
+searchidx1001       1H  IN A        10.64.32.132
 snapshot1001		1H	IN A		10.64.0.120
 snapshot1002		1H	IN A		10.64.0.121
 snapshot1003		1H	IN A		10.64.16.141

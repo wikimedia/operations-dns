@@ -1648,7 +1648,6 @@ $ORIGIN 0.64.$zonename.
 93	1H IN PTR	mw1063.eqiad.wmnet.
 94	1H IN PTR	mw1064.eqiad.wmnet.
 
-119	1H IN PTR	searchidx1001.eqiad.wmnet.
 120	1H IN PTR	snapshot1001.eqiad.wmnet.
 121	1H IN PTR	snapshot1002.eqiad.wmnet.
 123	1H IN PTR	cp1001.eqiad.wmnet.
@@ -2121,6 +2120,7 @@ $ORIGIN 32.64.$zonename.
 129     1H IN PTR       search1022.eqiad.wmnet.
 130     1H IN PTR       search1023.eqiad.wmnet.
 131     1H IN PTR       search1024.eqiad.wmnet.
+132     1H IN PTR       searchidx1001.eqiad.wmnet.
 
 $ORIGIN 33.64.$zonename.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
