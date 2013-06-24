@@ -1065,6 +1065,8 @@ bits-lb                 1H      IN A    91.198.174.233
                         1H      IN AAAA 2620:0:862:ed1a::a
 upload-lb               1H      IN A    91.198.174.234
                         1H      IN AAAA 2620:0:862:ed1a::b
+mobile-lb				1H		IN A	91.198.174.236
+						1H		IN AAAA	2620:0:862:ed1a::c
 geoiplookup-lb		1H	IN A	91.198.174.233
 
 ; SQL text replicas on clematis

@@ -159,11 +159,10 @@ $ORIGIN $zonename.
 230     1H IN PTR       wikinews-lb.esams.wikimedia.org.
 231     1H IN PTR       wikiversity-lb.esams.wikimedia.org.
 232     1H IN PTR       mediawiki-lb.esams.wikimedia.org.
-
-; Out-of-subnet LVS service IPs
-233	1H IN PTR	bits.esams.wikimedia.org.
-234	1H IN PTR	upload.esams.wikimedia.org.
-235	1H IN PTR	foundation-lb.esams.wikimedia.org.
+233		1H IN PTR       bits-lb.esams.wikimedia.org.
+234		1H IN PTR		upload-lb.esams.wikimedia.org.
+235		1H IN PTR		foundation-lb.esams.wikimedia.org.
+236		1H IN PTR		mobile-lb.esams.wikimedia.org.
 
 ; Neighbor block between cr2-knams and csw2-esams (91.198.174.240/31)
 
