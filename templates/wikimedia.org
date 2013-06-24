@@ -572,7 +572,7 @@ payments		5M	IN A		208.80.155.5   ; eqiad
 
 payments-listener	1H	IN CNAME		thulium
 
-rt			1H	IN A		208.80.152.160
+rt			1H	IN A		208.80.154.5
 			1H	IN MX		10 mchenry
 			1H	IN MX		60 lists
 
