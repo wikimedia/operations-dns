@@ -62,6 +62,9 @@ $ORIGIN 1.0.1.0.$zonename.
 
 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       cam1-a-b-eqiad.eqiad.wmnet.
 
+6.9.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR	cp1059.eqiad.wmnet.
+7.9.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR	cp1060.eqiad.wmnet.
+
 3.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1021.eqiad.wmnet.
 4.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1022.eqiad.wmnet.
 5.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0	1H IN PTR	cp1023.eqiad.wmnet.
@@ -102,6 +105,9 @@ $ORIGIN 3.0.1.0.$zonename.
 9.7.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1039.eqiad.wmnet.
 0.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1040.eqiad.wmnet.
 1.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0	1H IN PTR	dysprosium.eqiad.wmnet.
+
+8.9.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR	cp1046.eqiad.wmnet.
+9.9.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR	cp1047.eqiad.wmnet.
 
 ; analytics1-c-eqiad (2620:0:861:106::/64)
 $ORIGIN 6.0.1.0.$zonename.
