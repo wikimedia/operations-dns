@@ -1,0 +1,227 @@
+plugins => { geoip => {
+	maps => {
+		generic-map => {
+			geoip_db => /usr/share/GeoIP/GeoIPv6.dat
+			geoip_db_v4_overlay => /usr/share/GeoIP/GeoIP.dat
+			datacenters => [eqiad pmtpa esams]
+			map => {
+				# use ISO 3166-2 official names
+				AS => {
+					AE => esams, # United Arab Emirates
+					CN => eqiad, # China
+					CY => esams, # Cyprus
+					IL => esams, # Israel
+					JP => eqiad, # Japan
+					KH => eqiad, # Cambodia
+					KP => eqiad, # Korea, Democratic People's Republic of
+					KR => eqiad, # Korea, Republic of
+					LA => eqiad, # Lao People's Democratic Republic
+					MN => eqiad, # Mongolia
+					MY => eqiad, # Malaysia
+					PH => eqiad, # Philippines
+					QA => esams, # Qatar
+					SG => eqiad, # Singapore
+					TH => eqiad, # Thailand
+					TW => eqiad, # Taiwan, Province of China
+					VN => eqiad, # Viet Nam
+				},
+				EU => {
+					AD => esams, # Andorra
+					AL => esams, # Albania
+					AT => esams, # Austria
+					BA => esams, # Bosnia and Herzegowina
+					BE => esams, # Belgium
+					BG => esams, # Bulgaria
+					BY => esams, # Belarus
+					CH => esams, # Switzerland
+					CZ => esams, # Czech Republic
+					DE => esams, # Germany
+					DK => esams, # Denmark
+					EE => esams, # Estonia
+					ES => esams, # Spain
+					EU => esams, # Europe
+					FI => esams, # Finland
+					FO => esams, # Faroe Islands
+					FR => esams, # France
+					GB => esams, # United Kingdom
+					GI => esams, # Gibraltar
+					GR => esams, # Greece
+					HR => esams, # Croatia (local name Hrvatska)
+					HU => esams, # Hungary
+					IE => esams, # Ireland
+					IS => esams, # Iceland
+					IT => esams, # Italy
+					LI => esams, # Liechtenstein
+					LT => esams, # Lithuania
+					LU => esams, # Luxembourg
+					LV => esams, # Latvia
+					MC => esams, # Monaco
+					MD => esams, # Moldova, Republic of
+					ME => esams, # Montenegro
+					MK => esams, # Macedonia, the Former Yugoslav Republic of
+					MT => esams, # Malta
+					NL => esams, # Netherlands
+					NO => esams, # Norway
+					PL => esams, # Poland
+					PT => esams, # Portugal
+					RO => esams, # Romania
+					RS => esams, # Serbia
+					RU => esams, # Russian Federation
+					SE => esams, # Sweden
+					SI => esams, # Slovenia
+					SJ => esams, # Svalbard and Jan Mayen Islands
+					SK => esams, # Slovakia
+					SM => esams, # San Marino
+					TR => esams, # Turkey
+					UA => esams, # Ukraine
+					VA => esams, # Holy See (Vatican City State)
+				},
+				default => eqiad,
+			}
+		},
+		only-primary-map => {
+			geoip_db => /usr/share/GeoIP/GeoIPv6.dat
+			geoip_db_v4_overlay => /usr/share/GeoIP/GeoIP.dat
+			datacenters => [eqiad pmtpa]
+			map => {
+				default => eqiad,
+			}
+		},
+	},
+	resources => {
+		bits => {
+			map => generic-map
+			dcmap => {
+				pmtpa => bits-lb.pmtpa.wikimedia.org.
+				eqiad => bits-lb.eqiad.wikimedia.org.
+				esams => bits-lb.esams.wikimedia.org.
+			}
+		}
+		upload => {
+			map => generic-map
+			dcmap => {
+				pmtpa => upload-lb.pmtpa.wikimedia.org.
+				eqiad => upload-lb.eqiad.wikimedia.org.
+				esams => upload-lb.esams.wikimedia.org.
+			}
+		}
+		geoiplookup => {
+			map => generic-map
+			dcmap => {
+				pmtpa => geoiplookup-lb.pmtpa.wikimedia.org.
+				eqiad => geoiplookup-lb.eqiad.wikimedia.org.
+				esams => geoiplookup-lb.esams.wikimedia.org.
+			}
+		}
+		donate => {
+			map => generic-map
+			dcmap => {
+				pmtpa => donate-lb.pmtpa.wikimedia.org.
+				eqiad => donate-lb.eqiad.wikimedia.org.
+				esams => donate-lb.esams.wikimedia.org.
+			}
+		}
+		# text
+		foundation-lb => {
+			map => generic-map
+			dcmap => {
+				pmtpa => foundation-lb.pmtpa.wikimedia.org.
+				eqiad => foundation-lb.eqiad.wikimedia.org.
+				esams => foundation-lb.esams.wikimedia.org.
+			}
+		}
+		mediawiki-lb => {
+			map => generic-map
+			dcmap => {
+				pmtpa => mediawiki-lb.pmtpa.wikimedia.org.
+				eqiad => mediawiki-lb.eqiad.wikimedia.org.
+				esams => mediawiki-lb.esams.wikimedia.org.
+			}
+		}
+		wikibooks-lb => {
+			map => generic-map
+			dcmap => {
+				pmtpa => wikibooks-lb.pmtpa.wikimedia.org.
+				eqiad => wikibooks-lb.eqiad.wikimedia.org.
+				esams => wikibooks-lb.esams.wikimedia.org.
+			}
+		}
+		wikimedia-lb => {
+			map => generic-map
+			dcmap => {
+				pmtpa => wikimedia-lb.pmtpa.wikimedia.org.
+				eqiad => wikimedia-lb.eqiad.wikimedia.org.
+				esams => wikimedia-lb.esams.wikimedia.org.
+			}
+		}
+		wikinews-lb => {
+			map => generic-map
+			dcmap => {
+				pmtpa => wikinews-lb.pmtpa.wikimedia.org.
+				eqiad => wikinews-lb.eqiad.wikimedia.org.
+				esams => wikinews-lb.esams.wikimedia.org.
+			}
+		}
+		wikipedia-lb => {
+			map => generic-map
+			dcmap => {
+				pmtpa => wikipedia-lb.pmtpa.wikimedia.org.
+				eqiad => wikipedia-lb.eqiad.wikimedia.org.
+				esams => wikipedia-lb.esams.wikimedia.org.
+			}
+		}
+		wikiquote-lb => {
+			map => generic-map
+			dcmap => {
+				pmtpa => wikiquote-lb.pmtpa.wikimedia.org.
+				eqiad => wikiquote-lb.eqiad.wikimedia.org.
+				esams => wikiquote-lb.esams.wikimedia.org.
+			}
+		}
+		wikisource-lb => {
+			map => generic-map
+			dcmap => {
+				pmtpa => wikisource-lb.pmtpa.wikimedia.org.
+				eqiad => wikisource-lb.eqiad.wikimedia.org.
+				esams => wikisource-lb.esams.wikimedia.org.
+			}
+		}
+		wikiversity-lb => {
+			map => generic-map
+			dcmap => {
+				pmtpa => wikiversity-lb.pmtpa.wikimedia.org.
+				eqiad => wikiversity-lb.eqiad.wikimedia.org.
+				esams => wikiversity-lb.esams.wikimedia.org.
+			}
+		}
+		wiktionary-lb => {
+			map => generic-map
+			dcmap => {
+				pmtpa => wiktionary-lb.pmtpa.wikimedia.org.
+				eqiad => wiktionary-lb.eqiad.wikimedia.org.
+				esams => wiktionary-lb.esams.wikimedia.org.
+			}
+		}
+		mobile-lb => {
+			map => only-primary-map
+			dcmap => {
+				pmtpa => mobile-lb.pmtpa.wikimedia.org.
+				eqiad => mobile-lb.eqiad.wikimedia.org.
+			}
+		}
+		wikidata-lb => {
+			map => only-primary-map
+			dcmap => {
+				pmtpa => wikidata-lb.pmtpa.wikimedia.org.
+				eqiad => wikidata-lb.eqiad.wikimedia.org.
+			}
+		}
+		wikivoyage-lb => {
+			map => only-primary-map
+			dcmap => {
+				pmtpa => wikivoyage-lb.pmtpa.wikimedia.org.
+				eqiad => wikivoyage-lb.eqiad.wikimedia.org.
+			}
+		}
+	}
+}}
