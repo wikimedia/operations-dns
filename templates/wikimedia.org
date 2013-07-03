@@ -711,7 +711,7 @@ ganglia3		1H	IN CNAME	nickel
 ganglia3-tip		1H	IN CNAME	nickel
 gdash			1H	IN CNAME	noc
 graphite		1H	IN CNAME	noc
-ishmael			1H	IN CNAME	noc
+ishmael			1H	IN CNAME	neon
 jobs			1H	IN CNAME	wikimedia-lb
 labs			1H	IN CNAME	wikimedia-lb
 labs-ns0		1H	IN A		208.80.152.33
