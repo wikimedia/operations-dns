@@ -1578,7 +1578,7 @@ $ORIGIN 0.64.$zonename.
 23	1H IN PTR	ms1003.eqiad.wmnet.
 24	1H IN PTR	ms1004.eqiad.wmnet.
 25	1H IN PTR	es1001.eqiad.wmnet.
-26	1H IN PTR	rubidium.eqiad.wmnet.
+
 27	1H IN PTR	cam1-a-eqiad.eqiad.wmnet.
 28	1H IN PTR	cam2-a-eqiad.eqiad.wmnet.
 29	1H IN PTR	cam1-a-b-eqiad.eqiad.wmnet.

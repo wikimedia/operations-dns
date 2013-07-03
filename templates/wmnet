@@ -1716,7 +1716,6 @@ stat1002		1H	IN A		10.64.0.16
 strontium		1H	IN A		10.64.0.164
 			1H	IN AAAA		2620:0:861:101:10:64:0:164
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
-rubidium		1H	IN A		10.64.0.26
 tin			1H	IN A		10.64.0.196
 terbium		1H	IN A		10.64.32.13
 tmh1001			1H	IN A		10.64.0.197

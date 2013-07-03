@@ -223,6 +223,7 @@ pdf1			1H	IN A	208.80.152.155
 pdf2			1H	IN A	208.80.152.154
 pdf3			1H	IN A	208.80.152.181
 roentgenium		1H	IN A	208.80.154.98
+rubidium		1H	IN A	208.80.154.40
 rutherfordium	1H	IN A	208.80.154.91
 samarium		1H	IN A	208.80.155.10
 sanger			1H	IN A	208.80.152.187
