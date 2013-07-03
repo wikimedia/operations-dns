@@ -47,7 +47,7 @@ $ORIGIN $zonename.
 36	1H IN PTR	sq92.wikimedia.org.
 37	1H IN PTR	sq93.wikimedia.org.
 38	1H IN PTR	sq94.wikimedia.org.
-39	1H IN PTR	sq95.wikimedia.org
+39	1H IN PTR	sq95.wikimedia.org.
 40	1H IN PTR	sq96.wikimedia.org.
 
 43	1H IN PTR	sq33.wikimedia.org.
@@ -107,7 +107,7 @@ $ORIGIN $zonename.
 
 101	1H IN PTR	sq97.wikimedia.org.
 102	1H IN PTR	sq98.wikimedia.org.
-103	1H IN PTR	sq99.wikimedia.org
+103	1H IN PTR	sq99.wikimedia.org.
 104	1H IN PTR	sq100.wikimedia.org.
 105	1H IN PTR	sq101.wikimedia.org.
 106	1H IN PTR	sq102.wikimedia.org.
