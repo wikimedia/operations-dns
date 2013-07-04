@@ -162,6 +162,8 @@ e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       dns-auth-lb.esams.wikimedia.org.
 f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       dns-rec-lb.esams.wikimedia.org.
 0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       osm-lb.esams.wikimedia.org.
 1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       misc-web-lb.esams.wikimedia.org.
+2.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikidata-lb.eqiad.wikimedia.org.
+3.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikivoyage-lb.eqiad.wikimedia.org.
 
 ; csw1-esams <--> br1-knams (2620:0:862:fe00::/64)
 

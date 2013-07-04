@@ -163,6 +163,8 @@ $ORIGIN $zonename.
 234		1H IN PTR		upload-lb.esams.wikimedia.org.
 235		1H IN PTR		foundation-lb.esams.wikimedia.org.
 236		1H IN PTR		mobile-lb.esams.wikimedia.org.
+237		1H IN PTR		wikidata-lb.esams.wikimedia.org.
+238		1H IN PTR		wikivoyage-lb.esams.wikimedia.org.
 
 ; Neighbor block between cr2-knams and csw2-esams (91.198.174.240/31)
 
