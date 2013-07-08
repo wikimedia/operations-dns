@@ -920,7 +920,7 @@ fuchsia			1H	IN A	91.198.174.120
 hawthorn		1H	IN A	91.198.174.122
 hooft			1H	IN A	91.198.174.113
 iris			1H	IN A	91.198.174.124
-lily			1H	IN A	91.198.174.121
+eeden			1H	IN A	91.198.174.121
 
 mayflower		1H	IN A	91.198.174.123
 			1H	IN AAAA 2620:0:862:1:209:3dff:fe10:d5d2
@@ -989,7 +989,6 @@ clematis.ipmi		1H	IN A	10.21.0.9
 fuchsia.ipmi		1H	IN A	10.21.0.4
 hawthorn.ipmi		1H	IN A	10.21.0.6
 iris.ipmi		1H	IN A	10.21.0.8
-lily.ipmi		1H	IN A	10.21.0.5
 mayflower.ipmi		1H	IN A	10.21.0.7
 mint.ipmi		1H	IN A	10.21.0.3
 pascal.ipmi		1H	IN A	10.21.0.2
@@ -1130,7 +1129,6 @@ clematis		1H	IN A	91.198.174.130
 fuchsia			1H	IN A	91.198.174.120
 hawthorn		1H	IN A	91.198.174.122
 iris			1H	IN A	91.198.174.124
-lily			1H	IN A	91.198.174.121
 
 mayflower		1H	IN A	91.198.174.123
 			1H	IN AAAA	2620:0:862:1:209:3dff:fe10:d5d2
@@ -1178,7 +1176,6 @@ clematis.ipmi		1H	IN A	10.21.0.9
 fuchsia.ipmi		1H	IN A	10.21.0.4
 hawthorn.ipmi		1H	IN A	10.21.0.6
 iris.ipmi		1H	IN A	10.21.0.8
-lily.ipmi		1H	IN A	10.21.0.5
 mayflower.ipmi		1H	IN A	10.21.0.7
 mint.ipmi		1H	IN A	10.21.0.3
 pascal.ipmi		1H	IN A	10.21.0.2

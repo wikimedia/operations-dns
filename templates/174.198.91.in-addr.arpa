@@ -118,6 +118,7 @@ $ORIGIN $zonename.
 116	1H IN PTR	vrrp-backup-100.csw1-esams.wikimedia.org.
 117     1H IN PTR       csw2-esams.wikimedia.org.
 
+121	1H IN PTR	eeden.esams.wikimedia.org.
 122	1H IN PTR	maerlant.esams.wikimedia.org.
 
 125	1H IN PTR	ms6.esams.wikimedia.org.
