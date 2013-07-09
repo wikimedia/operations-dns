@@ -3362,6 +3362,8 @@ $ORIGIN 129.128.$zonename.
 3	1H	IN PTR		lvs5003.mgmt.ulsfo.wmnet.
 4	1H	IN PTR		lvs5004.mgmt.ulsfo.wmnet.
 
+10	1H	IN PTR		bastion5001.mgmt.ulsfo.wmnet.
+
 101	1H	IN PTR		cp5001.mgmt.ulsfo.wmnet.
 102	1H	IN PTR		cp5002.mgmt.ulsfo.wmnet.
 103	1H	IN PTR		cp5003.mgmt.ulsfo.wmnet.
