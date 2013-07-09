@@ -3353,8 +3353,36 @@ $ORIGIN 48.68.$zonename.
 
 ; 10.128.128.0/17 - ulsfo mgmt
 $ORIGIN 128.128.$zonename.
-1	1H	IN PTR		fe-0-0-1.mr1-ulsfo.mgmt.eqiad.wmnet.
+1	1H	IN PTR		fe-0-0-1.mr1-ulsfo.mgmt.ulsfo.wmnet.
 11	1H	IN PTR		scs-ulsfo.mgmt.ulsfo.wmnet.
+
+$ORIGIN 129.128.$zonename.
+1	1H	IN PTR		lvs5001.mgmt.ulsfo.wmnet.
+2	1H	IN PTR		lvs5002.mgmt.ulsfo.wmnet.
+3	1H	IN PTR		lvs5003.mgmt.ulsfo.wmnet.
+4	1H	IN PTR		lvs5004.mgmt.ulsfo.wmnet.
+
+101	1H	IN PTR		cp5001.mgmt.ulsfo.wmnet.
+102	1H	IN PTR		cp5002.mgmt.ulsfo.wmnet.
+103	1H	IN PTR		cp5003.mgmt.ulsfo.wmnet.
+104	1H	IN PTR		cp5004.mgmt.ulsfo.wmnet.
+105	1H	IN PTR		cp5005.mgmt.ulsfo.wmnet.
+106	1H	IN PTR		cp5006.mgmt.ulsfo.wmnet.
+107	1H	IN PTR		cp5007.mgmt.ulsfo.wmnet.
+108	1H	IN PTR		cp5008.mgmt.ulsfo.wmnet.
+109	1H	IN PTR		cp5009.mgmt.ulsfo.wmnet.
+110	1H	IN PTR		cp5010.mgmt.ulsfo.wmnet.
+111	1H	IN PTR		cp5011.mgmt.ulsfo.wmnet.
+112	1H	IN PTR		cp5012.mgmt.ulsfo.wmnet.
+113	1H	IN PTR		cp5013.mgmt.ulsfo.wmnet.
+114	1H	IN PTR		cp5014.mgmt.ulsfo.wmnet.
+115	1H	IN PTR		cp5015.mgmt.ulsfo.wmnet.
+116	1H	IN PTR		cp5016.mgmt.ulsfo.wmnet.
+117	1H	IN PTR		cp5017.mgmt.ulsfo.wmnet.
+118	1H	IN PTR		cp5018.mgmt.ulsfo.wmnet.
+119	1H	IN PTR		cp5019.mgmt.ulsfo.wmnet.
+120	1H	IN PTR		cp5020.mgmt.ulsfo.wmnet.
+
 
 ; LEGACY
 
