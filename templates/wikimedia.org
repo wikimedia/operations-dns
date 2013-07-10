@@ -232,7 +232,6 @@ seaborgium		1H	IN A	208.80.154.93
 silicon			1H	IN A	208.80.155.8
 silver			1H	IN A	208.80.154.153
 sodium			1H	IN A	208.80.154.61
-spence			1H	IN A	208.80.152.161
 ssl1			1H	IN A	208.80.152.16
 			1H	IN AAAA	2620:0:860:1:208:80:152:16
 ssl2			1H	IN A	208.80.152.17

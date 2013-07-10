@@ -158,7 +158,6 @@ $ORIGIN $zonename.
 
 159	1H IN PTR	williams.wikimedia.org.
 160	1H IN PTR	streber.wikimedia.org.
-161	1H IN PTR	spence.wikimedia.org.
 
 163	1H IN PTR	loudon.wikimedia.org.
 164	1H IN PTR	grosley.wikimedia.org.
