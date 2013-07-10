@@ -835,7 +835,6 @@ snapshot1		1H	IN A		10.1.8.21
 snapshot2		1H	IN A		10.1.8.22
 snapshot3		1H	IN A		10.1.8.23
 snapshot4		1H	IN A		10.1.8.60
-spence			1H	IN A		10.1.8.13
 ssl1			1H	IN A		10.1.7.41
 ssl2			1H	IN A		10.1.7.42
 ssl3			1H	IN A		10.1.7.43
