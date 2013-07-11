@@ -141,7 +141,7 @@ $ORIGIN $zonename.
 133	1H IN PTR	ssl1001.wikimedia.org.
 134	1H IN PTR	ssl1002.wikimedia.org.
 135	1H IN PTR	gallium.wikimedia.org.
-136	1H IN PTR	zinc.wikimedia.org.
+
 137	1H IN PTR	lvs1004.wikimedia.org.
 138	1H IN PTR	lvs1005.wikimedia.org.
 139	1H IN PTR	lvs1006.wikimedia.org.

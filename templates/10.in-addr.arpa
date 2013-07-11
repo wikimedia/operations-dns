@@ -660,8 +660,6 @@ $ORIGIN 12.0.$zonename.
 14	1H	IN PTR	mc14.pmtpa.wmnet.
 15	1H	IN PTR	mc15.pmtpa.wmnet.
 16	1H	IN PTR	mc16.pmtpa.wmnet.
-21	1H	IN PTR  tmc1.pmtpa.wmnet.
-22	1H	IN PTR  tmc2.pmtpa.wmnet.
 
 ; Management (pmtpa)
 
@@ -1008,7 +1006,6 @@ $ORIGIN 8.1.$zonename.
 42	1H	IN PTR	hooper.mgmt.pmtpa.wmnet.
 43	1H	IN PTR	gurvin.mgmt.pmtpa.wmnet.
 44	1H	IN PTR	WMF3914.mgmt.pmtpa.wmnet.
-44	1H	IN PTR	tmc1.mgmt.pmtpa.wmnet.
 46	1H	IN PTR	payments1.mgmt.pmtpa.wmnet.
 47	1H	IN PTR	payments2.mgmt.pmtpa.wmnet.
 48	1H	IN PTR	payments3.mgmt.pmtpa.wmnet.
@@ -1105,7 +1102,6 @@ $ORIGIN 8.1.$zonename.
 123	1H	IN PTR	WMF5842.mgmt.pmtpa.wmnet.
 124	1H	IN PTR	WMF5843.mgmt.pmtpa.wmnet.
 125	1H	IN PTR	WMF5844.mgmt.pmtpa.wmnet.
-125	1H	IN PTR	tmc2.mgmt.pmtpa.wmnet.
 126	1H	IN PTR	WMF5845.mgmt.pmtpa.wmnet.
 127	1H	IN PTR	WMF5846.mgmt.pmtpa.wmnet.
 128	1H	IN PTR	WMF5847.mgmt.pmtpa.wmnet.
@@ -1929,6 +1925,7 @@ $ORIGIN 16.64.$zonename.
 145	1H IN PTR	db1050.eqiad.wmnet.
 146	1H IN PTR	tmh1002.eqiad.wmnet.
 147	1H IN PTR	palladium.eqiad.wmnet.
+148	1H IN PTR	zinc.eqiad.wmnet.
 
 150	1H IN PTR	ms-fe1003.eqiad.wmnet.
 
