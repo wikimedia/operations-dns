@@ -15,3 +15,8 @@ $ORIGIN $zonename.
                         1D      IN NS   ns2.wikimedia.org.     ; pascal
 
 ; Virtualization subnet 208.80.153.128/25 (208.80.153.128 - 208.80.153.255)
+
+; MXes need proper reverse
+
+183						1D		IN PTR	tools-mail.wmflabs.org.
+
