@@ -442,6 +442,7 @@ bits-lb.eqiad		1H	IN A	208.80.154.234
 upload-lb.eqiad		1H	IN A	208.80.154.235
                         1H      IN AAAA 2620:0:861:ed1a::b
 mobile-lb.eqiad		1H	IN A	208.80.154.236
+					1H	IN AAAA	2620:0:861:ed1a::c
 payments-lb.eqiad	1H	IN A	208.80.154.237
 dns-auth-lb.eqiad	1H	IN A	208.80.154.238
 dns-rec-lb.eqiad	1H	IN A	208.80.154.239
@@ -457,8 +458,7 @@ geoiplookup-lb.eqiad	1H	IN A	208.80.154.234
 
 ; Mobile
 
-m			1H	IN A	208.80.154.236 ; mobile eqiad LVS
-			1H	IN AAAA	2620:0:861:ed1a::c
+m			1H	IN CNAME	mobile-lb.eqiad.wikimedia.org.
 
 commons.m		1H	IN CNAME	m.wikimedia.org.
 incubator.m		1H	IN CNAME	m.wikimedia.org.
