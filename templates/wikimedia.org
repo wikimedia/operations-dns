@@ -458,7 +458,7 @@ geoiplookup-lb.eqiad	1H	IN A	208.80.154.234
 
 ; Mobile
 
-m			1H	IN CNAME	mobile-lb.eqiad.wikimedia.org.
+;m			1H	IN CNAME	mobile-lb.eqiad.wikimedia.org.
 
 commons.m		1H	IN CNAME	m.wikimedia.org.
 incubator.m		1H	IN CNAME	m.wikimedia.org.
