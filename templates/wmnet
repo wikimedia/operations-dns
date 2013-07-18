@@ -1205,6 +1205,7 @@ analytics1024            1H     IN A             10.64.36.124
 analytics1025            1H     IN A             10.64.36.125
 analytics1026            1H     IN A             10.64.36.126
 analytics1027            1H     IN A             10.64.36.127
+argon            1H IN A         10.64.16.184
 cobalt			 1H	IN A		 10.64.16.143
 copper			 1H  IN A        10.64.16.176
 cp1001 			 1H	IN A		 10.64.0.123
