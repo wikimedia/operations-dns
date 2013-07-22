@@ -2769,7 +2769,6 @@ gadolinium  1H  IN A    10.65.3.133
 wmf3560     1H  IN A    10.65.3.134
 ssl1005     1H  IN A    10.65.3.134
 wmf3561     1H  IN A    10.65.3.135
-ssl1006     1H  IN A    10.65.3.135
 wmf3557     1H  IN A    10.65.3.131
 wtp1001     1H  IN A    10.65.3.131
 wtp1002     1H  IN A    10.65.3.132
@@ -2798,6 +2797,7 @@ wtp1024     1H  IN A    10.65.3.167
 wmf3564     1H  IN A    10.65.3.138
 terbium     1H  IN A    10.65.3.138
 wmf3565     1H  IN A    10.65.3.139
+ssl1006     1H  IN A    10.65.3.139
 wmf3566     1H  IN A    10.65.3.140
 wmf3568		1H  IN A    10.65.3.141
 neodymium	1H  IN A    10.65.3.141
