@@ -34,35 +34,8 @@ $ORIGIN $zonename.
 17	1H IN PTR	nitrogen.wikimedia.org.
 18	1H IN PTR	virt1000.wikimedia.org.
 19	1H IN PTR	labs-ns1.wikimedia.org.
-20	1H IN PTR	cp1061.wikimedia.org.
-21	1H IN PTR	cp1062.wikimedia.org.
-22	1H IN PTR	cp1063.wikimedia.org.
-23	1H IN PTR	cp1064.wikimedia.org.
-24	1H IN PTR	cp1065.wikimedia.org.
-25	1H IN PTR	cp1066.wikimedia.org.
-26	1H IN PTR	cp1067.wikimedia.org.
-27	1H IN PTR	cp1068.wikimedia.org.
-28	1H IN PTR	cp1069.wikimedia.org.
-29	1H IN PTR	cp1070.wikimedia.org.
-30	1H IN PTR	cp1071.wikimedia.org.
-31	1H IN PTR	cp1072.wikimedia.org.
-32	1H IN PTR	cp1073.wikimedia.org.
-33	1H IN PTR	cp1074.wikimedia.org.
-34	1H IN PTR	cp1075.wikimedia.org.
-35	1H IN PTR	cp1076.wikimedia.org.
-36	1H IN PTR	cp1077.wikimedia.org.
-37	1H IN PTR	cp1078.wikimedia.org.
-38	1H IN PTR	cp1079.wikimedia.org.
-39	1H IN PTR	cp1080.wikimedia.org.
 40	1H IN PTR	rubidium.wikimedia.org.
 41	1H IN PTR	zirconium.wikimedia.org.
-42  1H IN PTR   osm-cp1001.wikimedia.org.
-43	1H IN PTR	thorium.wikimedia.org.
-44  1H IN PTR   osm-cp1002.wikimedia.org.
-45	1H IN PTR	protactinium.wikimedia.org.
-46	1H IN PTR	uranium.wikimedia.org.
-47	1H IN PTR	beryllium.wikimedia.org.
-48	1H IN PTR	neptunium.wikimedia.org.
 49	1H IN PTR	holmium.wikimedia.org.
 50	1H IN PTR	hydrogen.wikimedia.org.
 
@@ -90,47 +63,8 @@ $ORIGIN $zonename.
 72	1H IN PTR	vl1003-eth2.lvs1006.wikimedia.org.
 73	1H IN PTR	gadolinium.wikimedia.org.
 74  1H IN PTR   caesium.wikimedia.org.
-85	1H IN PTR	californium.wikimedia.org.
-86	1H IN PTR	einsteinium.wikimedia.org.
-87	1H IN PTR	fermium.wikimedia.org.
-88	1H IN PTR	mendelevium.wikimedia.org.
-89	1H IN PTR	nobelium.wikimedia.org.
-90	1H IN PTR	lawrencium.wikimedia.org.
-91	1H IN PTR	rutherfordium.wikimedia.org.
-92	1H IN PTR	dubnium.wikimedia.org.
-93	1H IN PTR	seaborgium.wikimedia.org.
-94	1H IN PTR	bohrium.wikimedia.org.
-95	1H IN PTR	hassium.wikimedia.org.
-96	1H IN PTR	meitnerium.wikimedia.org.
-97	1H IN PTR	darmstadtium.wikimedia.org.
-98	1H IN PTR	roentgenium.wikimedia.org.
-
-100	1H IN PTR	srv1001.wikimedia.org.
-101	1H IN PTR	srv1002.wikimedia.org.
-102	1H IN PTR	srv1003.wikimedia.org.
-103	1H IN PTR	srv1004.wikimedia.org.
-104	1H IN PTR	srv1005.wikimedia.org.
-105	1H IN PTR	srv1006.wikimedia.org.
-106	1H IN PTR	srv1007.wikimedia.org.
-107	1H IN PTR	srv1008.wikimedia.org.
-108	1H IN PTR	srv1009.wikimedia.org.
-109	1H IN PTR	srv1010.wikimedia.org.
-110	1H IN PTR	srv1011.wikimedia.org.
-111	1H IN PTR	srv1012.wikimedia.org.
-112	1H IN PTR	srv1013.wikimedia.org.
-113	1H IN PTR	srv1014.wikimedia.org.
-114	1H IN PTR	srv1015.wikimedia.org.
-115	1H IN PTR	srv1016.wikimedia.org.
-116	1H IN PTR	srv1017.wikimedia.org.
-117	1H IN PTR	srv1018.wikimedia.org.
-118	1H IN PTR	srv1019.wikimedia.org.
-119	1H IN PTR	srv1020.wikimedia.org.
-120	1H IN PTR	srv1021.wikimedia.org.
-121	1H IN PTR	srv1022.wikimedia.org.
-122	1H IN PTR	srv1023.wikimedia.org.
-123	1H IN PTR	srv1024.wikimedia.org.
-124	1H IN PTR	srv1025.wikimedia.org.
-125	1H IN PTR	srv1026.wikimedia.org.
+75	1H IN PTR	ssl1005.wikimedia.org.
+76	1H IN PTR	ssl1006.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
@@ -165,21 +99,6 @@ $ORIGIN $zonename.
 157	1H IN PTR	chromium.wikimedia.org.
 158	1H IN PTR	calcium.wikimedia.org.
 
-160	1H IN PTR	mobile1004.wikimedia.org.
-161	1H IN PTR	mobile1005.wikimedia.org.
-162	1H IN PTR	mobile1006.wikimedia.org.
-163	1H IN PTR	mobile1007.wikimedia.org.
-164	1H IN PTR	mobile1008.wikimedia.org.
-165	1H IN PTR	mobile1009.wikimedia.org.
-166	1H IN PTR	mobile1010.wikimedia.org.
-
-168	1H IN PTR	osm-cp1003.wikimedia.org.
-169	1H IN PTR	osm-cp1004.wikimedia.org.
-
-174	1H IN PTR	plutonium.wikimedia.org.
-175	1H IN PTR	americium.wikimedia.org.
-176	1H IN PTR	curium.wikimedia.org.
-177	1H IN PTR	berkelium.wikimedia.org.	
 
 ; Neighbor blocks (208.80.154.192/27)
 
