@@ -16,8 +16,9 @@ $ORIGIN $zonename.
 localhost		7D	IN A		127.0.0.1
 
 ; CROSS-COLO FUNDRAISING SERVICE ALIASES
-fundraisingdb-read	5M	IN CNAME	db1025.frack.eqiad.wmnet.
-fundraisingdb-write	5M	IN CNAME	db1008.eqiad.wmnet.
+fundraisingdb-write	5M	IN CNAME	db1025.frack.eqiad.wmnet.
+fundraisingdb-read	5M	IN CNAME	db78.pmtpa.wmnet.
+;fundraisingdb-read	5M	IN CNAME	db1008.eqiad.wmnet.
 
 $ORIGIN pmtpa.$zonename.
 
