@@ -152,7 +152,7 @@ $ORIGIN $zonename.
 235	1H IN PTR	upload-lb.eqiad.wikimedia.org.
 236	1H IN PTR	mobile-lb.eqiad.wikimedia.org.
 237	1H IN PTR	payments-lb.eqiad.wikimedia.org.
-238	1H IN PTR	dns-auth-lb.eqiad.wikimedia.org.
+238	1H IN PTR	ns0.wikimedia.org.
 239	1H IN PTR	dns-rec-lb.eqiad.wikimedia.org.
 240	1H IN PTR	osm-lb.eqiad.wikimedia.org.
 241	1H IN PTR	misc-web-lb.eqiad.wikimedia.org.

@@ -158,7 +158,7 @@ a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       bits-lb.esams.wikimedia.org.
 b.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       upload-lb.esams.wikimedia.org.
 c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       mobile-lb.esams.wikimedia.org.
 d.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       payments-lb.esams.wikimedia.org.
-e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       dns-auth-lb.esams.wikimedia.org.
+e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ns2.wikimedia.org.
 f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       dns-rec-lb.esams.wikimedia.org.
 0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       osm-lb.esams.wikimedia.org.
 1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       misc-web-lb.esams.wikimedia.org.
