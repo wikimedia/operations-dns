@@ -36,4 +36,9 @@ $ORIGIN $zonename.
 33	1H IN PTR	gr-5-0-2.cr2-eqiad.wikimedia.org.
 34	1H IN PTR	gr-0-0-0.cr2-knams.wikimedia.org.
 
+;208.80.155.36/31 cr1-ulsfo <-> cr2-eqiad 
+
+36	1H IN PTR	xe-5-2-2.cr2-eqiad.wikimedia.org.
+37	1H IN PTR	xe-0-0-3.cr1-ulsfo.wikimedia.org.
+
 ; 208.80.155.128/25 Eqiad Labs virtualization subnet
