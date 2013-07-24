@@ -59,7 +59,7 @@ mail			1H	IN A	208.80.152.133	; service IP on mchenry
 
 wiki-mail		1H	IN A	208.80.152.133	; service IP on mchenry
 
-ns0			1H	IN A	208.80.152.130	; bayle
+ns0-old			1H	IN A	208.80.152.130
 ns1			1H	IN A	208.80.152.142	; linne
 ns2			1H	IN A	91.198.174.4	; lily
 
@@ -362,7 +362,7 @@ upload-lb.eqiad		1H	IN A	208.80.154.235
 mobile-lb.eqiad		1H	IN A	208.80.154.236
 					1H	IN AAAA	2620:0:861:ed1a::c
 payments-lb.eqiad	1H	IN A	208.80.154.237
-ns0-new				1H	IN A	208.80.154.238
+ns0					1H	IN A	208.80.154.238
 dns-rec-lb.eqiad	1H	IN A	208.80.154.239
 osm-lb.eqiad		1H	IN A	208.80.154.240
 misc-web-lb.eqiad	1H	IN A	208.80.154.241
