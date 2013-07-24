@@ -401,6 +401,9 @@ cr1-esams		1H	IN A	91.198.174.245
 cr1-sdtpa		1H	IN A	208.80.152.196
 				IN AAAA	2620:0:860:ffff::4
 
+cr1-ulsfo		1H	IN A	198.35.26.192
+				IN AAAA	2620:0:863:ffff::1
+
 cr2-eqiad		1H	IN A	208.80.154.197
 				IN AAAA 2620:0:861:ffff::2
 
