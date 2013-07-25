@@ -60,7 +60,7 @@ mail			1H	IN A	208.80.152.133	; service IP on mchenry
 wiki-mail		1H	IN A	208.80.152.133	; service IP on mchenry
 
 ns0-old			1H	IN A	208.80.152.130
-ns1			1H	IN A	208.80.152.142	; linne
+ns1-old			1H	IN A	208.80.152.142	; linne
 ns2			1H	IN A	91.198.174.4	; lily
 
 recursor0		1H	IN A	208.80.152.131	; bayle
@@ -321,7 +321,7 @@ upload-lb.pmtpa		1H	IN A	208.80.152.211
                         1H      IN AAAA 2620:0:860:ed1a::b
 mobile-lb.pmtpa		1H	IN A	208.80.152.212
 payments-lb.pmtpa	1H	IN A	208.80.152.213
-ns1-new				1H	IN A	208.80.152.214
+ns1					1H	IN A	208.80.152.214
 dns-rec-lb.pmtpa	1H	IN A	208.80.152.215
 osm-lb.pmtpa		1H	IN A	208.80.152.216
 misc-web-lb.pmtpa	1H	IN A	208.80.152.217
