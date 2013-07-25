@@ -18,7 +18,7 @@ localhost		7D	IN A		127.0.0.1
 ; CROSS-COLO FUNDRAISING SERVICE ALIASES
 fundraisingdb-write	5M	IN CNAME	db1025.frack.eqiad.wmnet.
 fundraisingdb-read	5M	IN CNAME	db78.pmtpa.wmnet.
-;fundraisingdb-read	5M	IN CNAME	db1008.eqiad.wmnet.
+;fundraisingdb-read	5M	IN CNAME	db1008.frack.eqiad.wmnet.
 
 $ORIGIN pmtpa.$zonename.
 
@@ -1331,7 +1331,6 @@ db1004			1H	IN A		10.64.0.8
 db1005			1H	IN A		10.64.0.9
 db1006			1H	IN A		10.64.0.10
 db1007			1H	IN A		10.64.0.11
-db1008			1H	IN A		10.64.0.12
 db1009			1H	IN A		10.64.0.13
 db1010			1H	IN A		10.64.0.14
 db1011			1H	IN A		10.64.0.15
@@ -2821,6 +2820,7 @@ rdb1004     1H  IN A    10.65.3.169
 $ORIGIN frack.eqiad.$zonename.
 barium          1H      IN A    10.64.40.109
 boron           1H      IN A    10.64.40.66
+db1008          1H      IN A    10.64.40.99
 db1025          1H      IN A    10.64.40.100
 indium          1H      IN A    10.64.40.67
 lutetium        1H      IN A    10.64.40.111

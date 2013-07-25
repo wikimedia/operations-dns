@@ -1564,7 +1564,6 @@ $ORIGIN 0.64.$zonename.
 9	1H IN PTR	db1005.eqiad.wmnet.
 10	1H IN PTR	db1006.eqiad.wmnet.
 11	1H IN PTR	db1007.eqiad.wmnet.
-12	1H IN PTR	db1008.eqiad.wmnet.
 13	1H IN PTR	db1009.eqiad.wmnet.
 14	1H IN PTR	db1010.eqiad.wmnet.
 15	1H IN PTR	db1011.eqiad.wmnet.
@@ -2223,6 +2222,7 @@ $ORIGIN 40.64.$zonename.
 
 ; 10.64.40.96/27 - frack-fundraising1-c-eqiad
 98	1H IN PTR	silicon.frack.eqiad.wmnet.
+99 	1H IN PTR	db1008.frack.eqiad.wmnet.
 100	1H IN PTR	db1025.frack.eqiad.wmnet.
 109	1H IN PTR	barium.frack.eqiad.wmnet.
 110	1H IN PTR	aluminium.frack.eqiad.wmnet.
