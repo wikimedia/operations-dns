@@ -53,10 +53,10 @@ $ORIGIN $zonename.
 
 ; 208.80.154.64/26 (public1-c-eqiad) (.64 - .127)
 
-64	1H IN PTR	vrrp-gw-1003.wikimedia.org.
-65	1H IN PTR	ae3-1003.cr1-eqiad.wikimedia.org.
-66	1H IN PTR	ae3-1003.cr2-eqiad.wikimedia.org.
-67	1H IN PTR	vl1003-eth2.lvs1001.wikimedia.org.
+65	1H IN PTR	vrrp-gw-1003.wikimedia.org.
+66	1H IN PTR	ae3-1003.cr1-eqiad.wikimedia.org.
+67	1H IN PTR	ae3-1003.cr2-eqiad.wikimedia.org.
+78	1H IN PTR	vl1003-eth2.lvs1001.wikimedia.org.
 68	1H IN PTR	vl1003-eth2.lvs1002.wikimedia.org.
 69	1H IN PTR	vl1003-eth2.lvs1003.wikimedia.org.
 70	1H IN PTR	vl1003-eth2.lvs1004.wikimedia.org.
