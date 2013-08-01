@@ -209,8 +209,6 @@ $ORIGIN 6.0.$zonename.
 89	1H	IN PTR	db79.pmtpa.wmnet.
 90	1H	IN PTR	db80.pmtpa.wmnet.
 
-100	1H	IN PTR 	bellin.pmtpa.wmnet.
-101	1H	IN PTR 	blondel.pmtpa.wmnet.
 200	1H	IN PTR 	ms-be1.pmtpa.wmnet.
 201	1H	IN PTR 	ms-be2.pmtpa.wmnet.
 202	1H	IN PTR 	ms-be3.pmtpa.wmnet.
@@ -1031,10 +1029,7 @@ $ORIGIN 8.1.$zonename.
 67	1H	IN PTR	WMF3640.mgmt.pmtpa.wmnet.
 68	1H	IN PTR	WMF3641.mgmt.pmtpa.wmnet.
 68	1H	IN PTR	marmontel.mgmt.pmtpa.wmnet.
-69	1H	IN PTR	bellin.mgmt.pmtpa.wmnet.
-69	1H	IN PTR	WMF3642.mgmt.pmtpa.wmnet.
-70	1H	IN PTR	blondel.mgmt.pmtpa.wmnet.
-70	1H	IN PTR	WMF3643.mgmt.pmtpa.wmnet.
+
 71	1H	IN PTR	WMF3644.mgmt.pmtpa.wmnet.
 71	1H	IN PTR	zhen.mgmt.pmtpa.wmnet.
 72	1H	IN PTR	WMF3645.mgmt.pmtpa.wmnet.
@@ -1094,14 +1089,9 @@ $ORIGIN 8.1.$zonename.
 117	1H	IN PTR	constable.mgmt.pmtpa.wmnet.
 118	1H	IN PTR	wmf5823.mgmt.pmtpa.wmnet.
 118	1H	IN PTR	durant.mgmt.pmtpa.wmnet.
-119	1H	IN PTR	wmf5824.mgmt.pmtpa.wmnet.
-119	1H	IN PTR	colby.mgmt.pmtpa.wmnet.
-120	1H	IN PTR	wmf5825.mgmt.pmtpa.wmnet.
-121	1H	IN PTR	wmf5826.mgmt.pmtpa.wmnet.
+
 122	1H	IN PTR	pappas.mgmt.pmtpa.wmnet.
-123	1H	IN PTR	WMF5842.mgmt.pmtpa.wmnet.
-124	1H	IN PTR	WMF5843.mgmt.pmtpa.wmnet.
-125	1H	IN PTR	WMF5844.mgmt.pmtpa.wmnet.
+
 126	1H	IN PTR	WMF5845.mgmt.pmtpa.wmnet.
 127	1H	IN PTR	WMF5846.mgmt.pmtpa.wmnet.
 128	1H	IN PTR	WMF5847.mgmt.pmtpa.wmnet.

@@ -65,8 +65,6 @@ es3-secondary		5M	IN CNAME	es8.pmtpa.wmnet.
 
 ; Servers (alphabetic order)
 
-bellin			1H	IN A		10.0.6.100
-blondel			1H	IN A		10.0.6.101
 constable		1H	IN A		10.0.0.50
 celsus			1H	IN A		10.0.0.51
 db5			1H	IN A		10.0.0.238
@@ -876,10 +874,6 @@ ms-fe3			1H	IN A		10.1.8.79
 ms-fe4			1H	IN A		10.1.8.80
 WMF3641			1H	IN A		10.1.8.68
 marmontel		1H	IN A		10.1.8.68
-WMF3642			1H	IN A		10.1.8.69
-bellin			1H	IN A		10.1.8.69
-WMF3643			1H	IN A		10.1.8.70
-blondel			1H	IN A		10.1.8.70
 WMF3644			1H	IN A		10.1.8.71
 zhen			1H	IN A		10.1.8.71
 WMF3645			1H	IN A		10.1.8.72
@@ -909,13 +903,6 @@ wmf5822			1H	IN A		10.1.8.117
 constable		1H	IN A		10.1.8.117
 wmf5823			1H	IN A		10.1.8.118
 durant			1H	IN A		10.1.8.118
-wmf5824			1H	IN A		10.1.8.119
-colby			1H	IN A		10.1.8.119
-wmf5825			1H	IN A		10.1.8.120
-wmf5826			1H	IN A		10.1.8.121
-WMF5842			1H	IN A		10.1.8.123
-WMF5843			1H	IN A		10.1.8.124
-WMF5844			1H	IN A		10.1.8.125
 tmc2			1H	IN A		10.1.8.125
 WMF5845			1H	IN A		10.1.8.126
 WMF5846			1H	IN A		10.1.8.127
