@@ -3077,6 +3077,19 @@ $ORIGIN 3.65.$zonename.
 167 1H  IN PTR      wtp1024.mgmt.eqiad.wmnet.
 168 1H  IN PTR      rdb1003.mgmt.eqiad.wmnet.
 169 1H  IN PTR      rdb1004.mgmt.eqiad.wmnet.
+170 1H  IN PTR      wmf3642.mgmt.eqiad.wmnet.
+171 1H  IN PTR      wmf3643.mgmt.eqiad.wmnet.
+172 1H  IN PTR      wmf3838.mgmt.eqiad.wmnet.
+173 1H  IN PTR      wmf3837.mgmt.eqiad.wmnet.
+174 1H  IN PTR      wmf5826.mgmt.eqiad.wmnet.
+175 1H  IN PTR      wmf5825.mgmt.eqiad.wmnet.
+176 1H  IN PTR      wmf5824.mgmt.eqiad.wmnet.
+177 1H  IN PTR      wmf5844.mgmt.eqiad.wmnet.
+177 1H  IN PTR      ssl1009.mgmt.eqiad.wmnet.
+178 1H  IN PTR      wmf5842.mgmt.eqiad.wmnet.
+178 1H  IN PTR      ssl1008.mgmt.eqiad.wmnet.
+179 1H  IN PTR      wmf5843.mgmt.eqiad.wmnet.
+179 1H  IN PTR      ssl1007.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.$zonename.
 

@@ -2786,6 +2786,12 @@ wmf3564     1H  IN A    10.65.3.138
 terbium     1H  IN A    10.65.3.138
 wmf3565     1H  IN A    10.65.3.139
 ssl1006     1H  IN A    10.65.3.139
+ssl1007     1H  IN A    10.65.3.179
+wmf5843     1H  IN A    10.65.3.179
+ssl1008     1H  IN A    10.65.3.178
+wmf5842     1H  IN A    10.65.3.178
+ssl1009     1H  IN A    10.65.3.177
+wmf5844     1H  IN A    10.65.3.177
 wmf3566     1H  IN A    10.65.3.140
 wmf3568		1H  IN A    10.65.3.141
 neodymium	1H  IN A    10.65.3.141
@@ -2800,6 +2806,14 @@ wmf3573     1H  IN A    10.65.3.146
 samarium    1H  IN A    10.65.3.146
 rdb1003     1H  IN A    10.65.3.168
 rdb1004     1H  IN A    10.65.3.169
+wmf3642     1H  IN A    10.65.3.170
+wmf3643     1H  IN A    10.65.3.171
+wmf3838     1H  IN A    10.65.3.172
+wmf3837     1H  IN A    10.65.3.173
+wmf5826     1H  IN A    10.65.3.174
+wmf5825     1H  IN A    10.65.3.175
+wmf5824     1H  IN A    10.65.3.176
+
 
 ; EQIAD Fundraising/Payments 
 
