@@ -40,7 +40,6 @@ $ORIGIN 0.0.$zonename.
 28	1H	IN PTR	lvs5.pmtpa.wmnet.
 29	1H	IN PTR	lvs6.pmtpa.wmnet.
 31  	1H	IN PTR  bayle.pmtpa.wmnet.
-32  	1H	IN PTR  mexia.pmtpa.wmnet.
 33  	1H	IN PTR  tola.pmtpa.wmnet.
 34  	1H	IN PTR  lardner.pmtpa.wmnet.
 35  	1H	IN PTR  kuo.pmtpa.wmnet.
