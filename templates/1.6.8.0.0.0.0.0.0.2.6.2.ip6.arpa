@@ -30,6 +30,7 @@ $ORIGIN 1.0.0.0.$zonename.
 
 8.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	ssl1004.wikimedia.org.
 9.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	ssl1003.wikimedia.org.
+1.5.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ssl1007.wikimedia.org.
 
 0.5.0.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	hydrogen.wikimedia.org.
 
@@ -46,6 +47,7 @@ $ORIGIN 2.0.0.0.$zonename.
 
 3.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	ssl1001.wikimedia.org.
 4.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	ssl1002.wikimedia.org.
+6.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ssl1008.wikimedia.org.
 
 3.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	niobium.wikimedia.org.
 5.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	stat1001.wikimedia.org.
@@ -61,6 +63,7 @@ $ORIGIN 3.0.0.0.$zonename.
 
 5.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	ssl1005.wikimedia.org.
 6.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	ssl1006.wikimedia.org.
+9.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ssl1009.wikimedia.org.
 
 ; private1-a-eqiad (2620:0:861:101::/64)
 $ORIGIN 1.0.1.0.$zonename.
