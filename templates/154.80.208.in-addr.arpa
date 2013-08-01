@@ -38,6 +38,7 @@ $ORIGIN $zonename.
 41	1H IN PTR	zirconium.wikimedia.org.
 49	1H IN PTR	holmium.wikimedia.org.
 50	1H IN PTR	hydrogen.wikimedia.org.
+51  1H IN PTR   ssl1007.wikimedia.org.
 
 53	1H IN PTR	cp1043.wikimedia.org.
 54	1H IN PTR	cp1044.wikimedia.org.
@@ -65,6 +66,7 @@ $ORIGIN $zonename.
 74  1H IN PTR   caesium.wikimedia.org.
 75	1H IN PTR	ssl1005.wikimedia.org.
 76	1H IN PTR	ssl1006.wikimedia.org.
+77  1H IN PTR   ssl1009.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
@@ -75,7 +77,7 @@ $ORIGIN $zonename.
 133	1H IN PTR	ssl1001.wikimedia.org.
 134	1H IN PTR	ssl1002.wikimedia.org.
 135	1H IN PTR	gallium.wikimedia.org.
-
+136 1H IN PTR   ssl1008.wikimedia.org.
 137	1H IN PTR	lvs1004.wikimedia.org.
 138	1H IN PTR	lvs1005.wikimedia.org.
 139	1H IN PTR	lvs1006.wikimedia.org.
