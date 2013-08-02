@@ -149,7 +149,7 @@ manutius		1H	IN A	208.80.152.15
 marmontel		1H	IN A	208.80.152.150
 mchenry			1H	IN A	208.80.152.186
 			1H	IN AAAA	2620:0:860:2:219:b9ff:fedd:c027
-mexia			1H	IN A	208.80.152.124
+mexia			1H	IN A	208.80.152.136
 molybdenum		1H	IN A	208.80.154.144
 ms10			1H	IN A	208.80.152.48
 ms1001			1H	IN A	208.80.154.16
