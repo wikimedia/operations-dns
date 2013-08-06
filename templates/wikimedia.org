@@ -651,7 +651,7 @@ metrics-api		1H	IN CNAME	stat1001
 metrics		1H	IN CNAME	stat1001
 noc			1H	IN CNAME	fenari
 nyc			1H	IN CNAME	wikimedia-lb
-otrs-test		1H	IN CNAME	williams
+otrs-test		1H	IN CNAME	iodine
 planet			1H	IN CNAME	zirconium
 ar.planet		1H	IN CNAME	zirconium
 ca.planet		1H	IN CNAME	zirconium
@@ -687,7 +687,7 @@ stats			1H	IN CNAME	stat1001
 status			1H	IN CNAME	status.watchmouse.com.
 testblog		1H	IN CNAME	holmium.wikimedia.org.
 techblog		1H	IN CNAME	holmium.wikimedia.org.
-ticket			1H	IN CNAME	williams
+ticket			1H	IN CNAME	iodine
 ubuntu			1H	IN A		208.80.152.171
 voip			1H	IN A		216.38.130.191
 wikitech		1H	IN A		208.80.152.32
