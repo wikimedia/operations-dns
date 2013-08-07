@@ -53,8 +53,8 @@ lists			1H	IN A	208.80.154.4		; service IP on sodium
 				1H	IN MX	10 lists
 				1H	IN MX	60 mchenry
 ; lists.wikimedia.org  SPF txt and rr records
-lists.wikimedia.org.          600     IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
-lists.wikimedia.org.          600     IN SPF  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
+lists.wikimedia.org.          600     IN TXT  "v=spf1 a mx ~all"
+lists.wikimedia.org.          600     IN SPF  "v=spf1 a mx ~all"
 
 mail			1H	IN A	208.80.152.133	; service IP on mchenry
 			1H	IN MX	10 mchenry
