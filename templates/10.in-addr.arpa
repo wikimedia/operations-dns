@@ -3086,6 +3086,7 @@ $ORIGIN 3.65.$zonename.
 171 1H  IN PTR      wmf3643.mgmt.eqiad.wmnet.
 172 1H  IN PTR      wmf3838.mgmt.eqiad.wmnet.
 173 1H  IN PTR      wmf3837.mgmt.eqiad.wmnet.
+173 1H  IN PTR      hafnium.mgmt.eqiad.wmnet.
 174 1H  IN PTR      testsearch1003.mgmt.eqiad.wmnet.
 174 1H  IN PTR      wmf5826.mgmt.eqiad.wmnet.
 175 1H  IN PTR      testsearch1002.mgmt.eqiad.wmnet.
