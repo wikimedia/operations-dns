@@ -39,6 +39,7 @@ $ORIGIN 1.0.0.0.$zonename.
 0.8.0.0.2.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	sq70.wikimedia.org.
 
 5.1.1.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	capella.wikimedia.org.
+1.6.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	sodium.wikimedia.org.
 
 ; Service IPs
 
@@ -78,6 +79,7 @@ $ORIGIN 2.0.0.0.$zonename.
 
 e.4.5.5.3.7.e.f.f.f.8.4.0.3.2.0	1H IN PTR	khaldun.wikimedia.org.
 7.2.0.c.d.d.e.f.f.f.9.b.9.1.2.0	1H IN PTR	mchenry.wikimedia.org.
+6.8.1.0.2.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	mchenry.wikimedia.org.
 b.e.6.8.d.d.e.f.f.f.9.b.9.1.2.0	1H IN PTR	sanger.wikimedia.org.
 
 ; Service IPs
