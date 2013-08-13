@@ -65,6 +65,7 @@ $ORIGIN $zonename.
 75	1H IN PTR	ssl1005.wikimedia.org.
 76	1H IN PTR	ssl1006.wikimedia.org.
 77  1H IN PTR   ssl1009.wikimedia.org.
+78  1H IN PTR   ytterbium.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 

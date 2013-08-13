@@ -3047,6 +3047,7 @@ $ORIGIN 3.65.$zonename.
 139 1H  IN PTR      wmf3565.mgmt.eqiad.wmnet.
 139 1H  IN PTR      ssl1006.mgmt.eqiad.wmnet.
 140 1H  IN PTR      wmf3566.mgmt.eqiad.wmnet.
+140 1H  IN PTR      ytterbium.mgmt.eqiad.wmnet.
 141 1H  IN PTR      wmf3568.mgmt.eqiad.wmnet.
 141 1H  IN PTR      neodymium.mgmt.eqiad.wmnet.
 142 1H  IN PTR      wmf3569.mgmt.eqiad.wmnet.

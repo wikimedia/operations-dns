@@ -286,6 +286,7 @@ tridge			1H	IN A	208.80.152.170 ; Cold Backup Server
 virt0			1H	IN A	208.80.152.32
 virt1000		1H	IN A	208.80.154.18
 williams		1H	IN A	208.80.152.159
+ytterbium       1H  IN A   208.80.154.78
 yvon			1H	IN A	208.80.152.21
 zhen			1H	IN A	208.80.152.140
 nitrogen		1H	IN A	208.80.154.17
