@@ -334,6 +334,7 @@ ns1					1H	IN A	208.80.152.214
 dns-rec-lb.pmtpa	1H	IN A	208.80.152.215
 osm-lb.pmtpa		1H	IN A	208.80.152.216
 misc-web-lb.pmtpa	1H	IN A	208.80.152.217
+					1H	IN AAAA	2620:0:860:ed1a::11
 wikidata-lb.pmtpa	1H	IN A	208.80.152.218
 			1H	IN AAAA	2620:0:860:ed1a::12
 wikivoyage-lb.pmtpa	1H	IN A	208.80.152.219
@@ -375,6 +376,7 @@ ns0					1H	IN A	208.80.154.238
 dns-rec-lb.eqiad	1H	IN A	208.80.154.239
 osm-lb.eqiad		1H	IN A	208.80.154.240
 misc-web-lb.eqiad	1H	IN A	208.80.154.241
+					1H	IN AAAA	2620:0:861:ed1a::11
 wikidata-lb.eqiad	1H	IN A	208.80.154.242
 			1H	IN AAAA	2620:0:861:ed1a::12
 wikivoyage-lb.eqiad	1H	IN A	208.80.154.243
