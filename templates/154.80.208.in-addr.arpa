@@ -54,7 +54,6 @@ $ORIGIN $zonename.
 65	1H IN PTR	vrrp-gw-1003.wikimedia.org.
 66	1H IN PTR	ae3-1003.cr1-eqiad.wikimedia.org.
 67	1H IN PTR	ae3-1003.cr2-eqiad.wikimedia.org.
-78	1H IN PTR	vl1003-eth2.lvs1001.wikimedia.org.
 68	1H IN PTR	vl1003-eth2.lvs1002.wikimedia.org.
 69	1H IN PTR	vl1003-eth2.lvs1003.wikimedia.org.
 70	1H IN PTR	vl1003-eth2.lvs1004.wikimedia.org.
@@ -65,8 +64,9 @@ $ORIGIN $zonename.
 75	1H IN PTR	ssl1005.wikimedia.org.
 76	1H IN PTR	ssl1006.wikimedia.org.
 77  1H IN PTR   ssl1009.wikimedia.org.
-78  1H IN PTR   ytterbium.wikimedia.org.
+78	1H IN PTR	vl1003-eth2.lvs1001.wikimedia.org.
 79  1H IN PTR   hafnium.wikimedia.org.
+80  1H IN PTR   ytterbium.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
