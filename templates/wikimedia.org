@@ -34,11 +34,15 @@ corp			1D	IN NS	ns1.corp.wikimedia.org.
 ; dkim domain policy record
 _domainkey		1H	IN TXT	"o=~; r=hostmaster@wikimedia.org;"
 
-; dkim selector key for internal fundraising use
+; dkim selector keys
 fundraising._domainkey	1H	IN TXT	"v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC61rCxt6xGKmVoId8fqGM1UTnBugf5chUdQfoCDpsgXqQVF1tOacwj3bF9fQdnqVhWeoGwiWOhfB13k/cfPKELgsJKKXEyk7cyBTV4BQ2JqmbPS4m0dD+imISrviPKjNG4uHA4FrjzYiVuv8EzZQw7tUtJuMC26BXZYqi/5YIpFQIDAQAB;"
 wikimedia._domainkey	1H	IN TXT	"v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC49AATZHm1B+6V90esy7TkZnitTupAOlPisTyJSbIF5G1iXVzYljo8ZHdeYdXpgfOp79avTxz23YQXJRNWv7QqO8RuTrS8DSQhYMjwIkJkZ+VA4O2NI2bueaUVM67JylpxzIi3LajjII+CEspMBKHwqTygTQAr8uRXIGYfTcb+4wIDAQAB;"
 wiki-mail._domainkey	1H	IN TXT	"v=DKIM1; h=sha256; k=rsa; p= IGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDOZG4udzEAJiq1D0TG+5BYil0vuh8/iuBmsrmAZQcWYaMcBIlthxg0a/5xktMpE4A6w135mgl/q61dbDnT6d3Y3veWMOy0xI0q/wS9DCmRqU2VIb7L/Asjp9evwzEJywODigjOohkk4+/aIbppU1/GLGCoc6b9h7m0iandPkKTXwIDAQAB;"
 wikimedia._domainkey.lists	1H	IN TXT	"v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7iVvYIGUbjtvFcLTUuN9Lsc1w17f8QHc01BxIr6jHJUMAMyxHSchdU6Il/hX1Or3JyOfdBi35SGqotI3G86xxQE7PZD7u+EediP5uhRTn+opv+nX5hEuxlnty8mPXem0DHhfSL0+3Ciu5WD0mNATb4NwC9jQjy2FzaLHn9D44PwIDAQAB;"
+
+; DMARC records http://dmarc.org/ -- policy none, for now
+_dmarc 					1H	IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:postmaster@wikimedia.org"
+_dmarc.lists			1H	IN TXT "v=DMARC1; p=none; rua=mailto:postmaster@wikimedia.org"
 
 ; SPF txt and rr records
 wikimedia.org.          600     IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
