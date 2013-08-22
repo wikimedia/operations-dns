@@ -73,7 +73,8 @@ wiki-mail		1H	IN A	208.80.152.133	; service IP on mchenry
 
 ns0			1H	IN A	208.80.154.238
 ns1			1H	IN A	208.80.152.214
-ns2			1H	IN A	91.198.174.4
+ns2			1H	IN A	91.198.174.239
+ns2-old			1H	IN A	91.198.174.4
 
 recursor0		1H	IN A	208.80.152.131	; bayle
 recursor1		1H	IN A	208.80.152.132	; mchenry
