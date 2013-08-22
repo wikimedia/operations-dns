@@ -130,7 +130,6 @@ $ORIGIN {{ zonename }}.
 ; Public services subnet 208.80.152.128/26 (208.80.152.128 - 208.80.152.191)
 
 129	1H IN PTR	vrrp-gw-101.wikimedia.org.
-130	1H IN PTR	ns0.wikimedia.org.
 131	1H IN PTR	recursor0.wikimedia.org.
 132	1H IN PTR	recursor1.wikimedia.org.
 133	1H IN PTR	wiki-mail.wikimedia.org.
@@ -142,7 +141,6 @@ $ORIGIN {{ zonename }}.
 139	1H IN PTR	tampa.tech.wikimedia.org.
 140	1H IN PTR	zhen.wikimedia.org.
 141	1H IN PTR	wireless.tech.wikimedia.org.
-142	1H IN PTR	ns1.wikimedia.org.
 143	1H IN PTR	url-downloader.wikimedia.org.
 144	1H IN PTR	ae0-101.cr1-sdtpa.wikimedia.org.
 145	1H IN PTR	ae0-101.cr2-pmtpa.wikimedia.org.
