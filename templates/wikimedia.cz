@@ -1,7 +1,7 @@
 $TTL 3600
 $ORIGIN {{ zonename }}.
 @			1D	IN SOA	ns0.wikimedia.org.	hostmaster.wikimedia.org.	(
-					{{ serial }}		; serial
+					{{ serial }}	; serial
 					12H		; refresh
 					2H		; retry
 					2W		; expiry
@@ -10,9 +10,9 @@ $ORIGIN {{ zonename }}.
 
 ; Name servers
 
-			1D	IN NS	ns0.wikimedia.org.	; bayle
-			1D	IN NS	ns1.wikimedia.org.	; yf1019
-			1D	IN NS	ns2.wikimedia.org.	; lily
+			1D	IN NS	ns0.wikimedia.org.
+			1D	IN NS	ns1.wikimedia.org.
+			1D	IN NS	ns2.wikimedia.org.
 
 ; Mail exchangers
 

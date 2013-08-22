@@ -10,9 +10,9 @@ $ORIGIN {{ zonename }}.
 
 ; Name servers
 
-                        1D      IN NS   ns0.wikimedia.org.     ; bayle
-                        1D      IN NS   ns1.wikimedia.org.     ; yf1019
-                        1D      IN NS   ns2.wikimedia.org.     ; lily
+                        1D      IN NS   ns0.wikimedia.org.
+                        1D      IN NS   ns1.wikimedia.org.
+                        1D      IN NS   ns2.wikimedia.org.
 
 ; Public subnet 208.80.152.0/25 (208.80.152.0 - 208.80.152.127)
 ; was Squids/LVS subnet
