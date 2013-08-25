@@ -29,6 +29,7 @@ plugins => { geoip => {
 					AD => esams, # Andorra
 					AL => esams, # Albania
 					AT => esams, # Austria
+					AX => esams, # Åland Islands
 					BA => esams, # Bosnia and Herzegowina
 					BE => esams, # Belgium
 					BG => esams, # Bulgaria
@@ -44,13 +45,16 @@ plugins => { geoip => {
 					FO => esams, # Faroe Islands
 					FR => esams, # France
 					GB => esams, # United Kingdom
+					GG => esams, # Guernsey
 					GI => esams, # Gibraltar
 					GR => esams, # Greece
 					HR => esams, # Croatia (local name Hrvatska)
 					HU => esams, # Hungary
 					IE => esams, # Ireland
+					IM => esams, # Isle of Man
 					IS => esams, # Iceland
 					IT => esams, # Italy
+					JE => esams, # Jersey
 					LI => esams, # Liechtenstein
 					LT => esams, # Lithuania
 					LU => esams, # Luxembourg
