@@ -1077,7 +1077,9 @@ $ORIGIN 8.1.{{ zonename }}.
 104     1H      IN PTR  wmf5706.mgmt.pmtpa.wmnet.
 104	1H	IN PTR	labsdb3.mgmt.pmtpa.wmnet.
 105	1H	IN PTR	wmf5707.mgmt.pmtpa.wmnet.
+105	1H	IN PTR	virt13.mgmt.pmtpa.wmnet.
 106	1H	IN PTR	wmf5708.mgmt.pmtpa.wmnet.
+106	1H	IN PTR	virt14.mgmt.pmtpa.wmnet.
 107	1H	IN PTR	wmf5709.mgmt.pmtpa.wmnet.
 108	1H	IN PTR	wmf5710.mgmt.pmtpa.wmnet.
 109	1H	IN PTR	wmf5711.mgmt.pmtpa.wmnet.
@@ -1405,6 +1407,10 @@ $ORIGIN 16.4.{{ zonename }}.
 13	1H	IN PTR	virt9.pmtpa.wmnet.
 14	1H	IN PTR	virt10.pmtpa.wmnet.
 15	1H	IN PTR	virt11.pmtpa.wmnet.
+16	1H	IN PTR	virt12.pmtpa.wmnet.
+17	1H	IN PTR	virt13.pmtpa.wmnet.
+18	1H	IN PTR	virt14.pmtpa.wmnet.
+19	1H	IN PTR	virt15.pmtpa.wmnet.
 
 252     1H      IN PTR  ae0-105.cr1-sdtpa.wikimedia.org.
 253     1H      IN PTR  ae0-105.cr2-pmtpa.wikimedia.org.

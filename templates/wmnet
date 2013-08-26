@@ -256,6 +256,10 @@ virt8			1H	IN A		10.4.16.9
 virt9			1H	IN A		10.4.16.13
 virt10			1H	IN A		10.4.16.14
 virt11			1H	IN A		10.4.16.15
+virt12			1H	IN A		10.4.16.16
+virt13			1H	IN A		10.4.16.17
+virt14			1H	IN A		10.4.16.18
+virt15			1H	IN A		10.4.16.19
 wtp1			1H	IN A		10.0.0.23
 zwinger			1H	IN A		10.0.0.4
 zwinger2		1H	IN A		10.0.0.34
@@ -893,7 +897,9 @@ tmh2			1H	IN A		10.1.8.73
 wmf5706                 1H      IN A            10.1.8.104
 labsdb3			1H	IN A		10.1.8.104
 wmf5707			1H	IN A		10.1.8.105
+virt13			1H	IN A		10.1.8.105
 wmf5708			1H	IN A		10.1.8.106
+virt14			1H	IN A		10.1.8.106
 wmf5709			1H	IN A		10.1.8.107
 wmf5710			1H	IN A		10.1.8.108
 wmf5711			1H	IN A		10.1.8.109
