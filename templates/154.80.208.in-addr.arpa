@@ -27,7 +27,7 @@ $ORIGIN {{ zonename }}.
 10	1H IN PTR	carbon.wikimedia.org.
 11	1H IN PTR	dataset1001.wikimedia.org.
 12	1H IN PTR	barium.wikimedia.org.
-13	1H IN PTR	netmon1001.wikimedia.org.
+
 14	1H IN PTR	neon.wikimedia.org.
 15	1H IN PTR	oxygen.wikimedia.org.
 16	1H IN PTR	ms1001.wikimedia.org.
@@ -100,6 +100,7 @@ $ORIGIN {{ zonename }}.
 156	1H IN PTR	titanium.wikimedia.org.
 157	1H IN PTR	chromium.wikimedia.org.
 158	1H IN PTR	calcium.wikimedia.org.
+159	1H IN PTR	netmon1001.wikimedia.org.
 
 
 ; Neighbor blocks (208.80.154.192/27)
