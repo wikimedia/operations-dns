@@ -28,7 +28,7 @@ $ORIGIN {{ zonename }}.
 localhost		1W	IN A	127.0.0.1
 
 ; Google Webmaster Tools verification record for search management
-wikipedia.org.          600     IN TXT  "google-site-verification=yVWXbnKBVBeI5wD3qQIQU8oEiexGBahqESBgrDDQTro"
+wikipedia.org.          600     IN TXT  "google-site-verification=AMHkgs-4ViEvIJf5znZle-BSE2EPNFqM1nDJGRyn2qk"
 
 ; Service aliases
 
