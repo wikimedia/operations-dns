@@ -67,6 +67,7 @@ $ORIGIN {{ zonename }}.
 78	1H IN PTR	vl1003-eth2.lvs1001.wikimedia.org.
 79  1H IN PTR   hafnium.wikimedia.org.
 80  1H IN PTR   ytterbium.wikimedia.org.
+;81  1H IN PTR   gerrit.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
