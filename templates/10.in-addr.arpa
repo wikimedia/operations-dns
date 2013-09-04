@@ -1988,8 +1988,9 @@ $ORIGIN 20.64.{{ zonename }}.
 8	1H IN PTR	virt1005.eqiad.wmnet.
 9	1H IN PTR	virt1006.eqiad.wmnet.
 10	1H IN PTR	virt1007.eqiad.wmnet.
-
-12  1H IN PTR   labsdb1001.eqiad.wmnet.
+11      1H IN PTR       virt1008.eqiad.wmnet.
+12      1H IN PTR       labsdb1001.eqiad.wmnet.
+13      1H IN PTR       virt1009.eqiad.wmnet. 
 
 101	1H IN PTR	db1-rowb-RESERVED.
 102	1H IN PTR	db2-rowb-RESERVED.
@@ -2012,7 +2013,7 @@ $ORIGIN 21.64.{{ zonename }}.
 104	1H IN PTR	analytics1004.eqiad.wmnet.
 105	1H IN PTR	analytics1005.eqiad.wmnet.
 106	1H IN PTR	analytics1006.eqiad.wmnet.
-107	1H IN PTR	analytics1007.eqiad.wmnet.
+#107	1H IN PTR	analytics1007.eqiad.wmnet.
 108	1H IN PTR	analytics1008.eqiad.wmnet.
 109	1H IN PTR	analytics1009.eqiad.wmnet.
 110	1H IN PTR	analytics1010.eqiad.wmnet.
@@ -3114,6 +3115,8 @@ $ORIGIN 3.65.{{ zonename }}.
 178 1H  IN PTR      ssl1008.mgmt.eqiad.wmnet.
 179 1H  IN PTR      wmf5843.mgmt.eqiad.wmnet.
 179 1H  IN PTR      ssl1007.mgmt.eqiad.wmnet.
+180 1H  IN PTR      virt1008.mgmt.eqiad.wmnet.
+181 1H  IN PTR      virt1009.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.{{ zonename }}.
 
