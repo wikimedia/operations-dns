@@ -272,7 +272,7 @@ $ORIGIN 8.0.{{ zonename }}.
 28	1H	IN PTR	srv278.pmtpa.wmnet.
 29	1H	IN PTR	srv279.pmtpa.wmnet.
 30	1H	IN PTR	srv280.pmtpa.wmnet.
-31	1H	IN PTR	srv281.pmtpa.wmnet.
+
 32	1H	IN PTR	srv282.pmtpa.wmnet.
 33	1H	IN PTR	srv283.pmtpa.wmnet.
 34	1H	IN PTR	srv284.pmtpa.wmnet.
@@ -716,7 +716,7 @@ $ORIGIN 3.1.{{ zonename }}.
 
 33	1H	IN PTR	sq33.mgmt.pmtpa.wmnet.
 35	1H	IN PTR	sq35.mgmt.pmtpa.wmnet.
-36	1H	IN PTR	sq36.mgmt.pmtpa.wmnet.
+
 37	1H	IN PTR	sq37.mgmt.pmtpa.wmnet.
 41	1H	IN PTR	sq41.mgmt.pmtpa.wmnet.
 42	1H	IN PTR	sq42.mgmt.pmtpa.wmnet.
@@ -1143,7 +1143,7 @@ $ORIGIN 9.1.{{ zonename }}.
 28	1H	IN PTR	srv278.mgmt.pmtpa.wmnet.
 29	1H	IN PTR	srv279.mgmt.pmtpa.wmnet.
 30	1H	IN PTR	srv280.mgmt.pmtpa.wmnet.
-31	1H	IN PTR	srv281.mgmt.pmtpa.wmnet.
+
 32	1H	IN PTR	srv282.mgmt.pmtpa.wmnet.
 33	1H	IN PTR	srv283.mgmt.pmtpa.wmnet.
 34	1H	IN PTR	srv284.mgmt.pmtpa.wmnet.

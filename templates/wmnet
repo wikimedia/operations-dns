@@ -307,7 +307,7 @@ srv277		1H	IN A		10.0.8.27
 srv278		1H	IN A		10.0.8.28
 srv279		1H	IN A		10.0.8.29
 srv280		1H	IN A		10.0.8.30
-srv281		1H	IN A		10.0.8.31
+
 srv282		1H	IN A		10.0.8.32
 srv283		1H	IN A		10.0.8.33
 srv284		1H	IN A		10.0.8.34
@@ -971,7 +971,7 @@ srv277		1H	IN A		10.1.9.27
 srv278		1H	IN A		10.1.9.28
 srv279		1H	IN A		10.1.9.29
 srv280		1H	IN A		10.1.9.30
-srv281		1H	IN A		10.1.9.31
+
 srv282		1H	IN A		10.1.9.32
 srv283		1H	IN A		10.1.9.33
 srv284		1H	IN A		10.1.9.34
