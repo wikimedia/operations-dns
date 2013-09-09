@@ -2013,7 +2013,7 @@ $ORIGIN 21.64.{{ zonename }}.
 104	1H IN PTR	analytics1004.eqiad.wmnet.
 105	1H IN PTR	analytics1005.eqiad.wmnet.
 106	1H IN PTR	analytics1006.eqiad.wmnet.
-#107	1H IN PTR	analytics1007.eqiad.wmnet.
+;107	1H IN PTR	analytics1007.eqiad.wmnet.
 108	1H IN PTR	analytics1008.eqiad.wmnet.
 109	1H IN PTR	analytics1009.eqiad.wmnet.
 110	1H IN PTR	analytics1010.eqiad.wmnet.
