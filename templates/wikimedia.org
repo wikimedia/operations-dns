@@ -661,6 +661,7 @@ bugs			1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla		1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla3		1H	IN CNAME	kaulen.wikimedia.org.
 bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
+careers			1H	IN CNAME	wikimedia-lb
 civicrm			1H	IN CNAME	aluminium
 civicrm-dev		1H	IN CNAME	aluminium
 codereview-proxy	1H	IN CNAME	kaulen
