@@ -17,7 +17,7 @@ $ORIGIN {{ zonename }}.
 ; 198.35.26.0/23 (198.35.26.0 - 198.35.27.255)
 ; West Coast Discrete network
 
-; 198.35.26.0/26 (198.35.26.0 - 192.35.26.63)
+; 198.35.26.0/28 (198.35.26.0 - 192.35.26.63)
 ; ulsfo public IP space
 
 5	1H IN PTR	bastion4001.wikimedia.org.
