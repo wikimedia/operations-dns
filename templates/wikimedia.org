@@ -470,6 +470,19 @@ vl2-eth0.lvs4		1H	IN A	10.0.0.14
 vl2-eth0.lvs5		1H	IN A	10.0.0.15
 vl2-eth0.lvs6		1H	IN A	10.0.0.16
 
+vl1001-eth1.lvs1004     1H      IN A    208.80.154.58
+vl1001-eth1.lvs1005     1H      IN A    208.80.154.59
+vl1001-eth1.lvs1006     1H      IN A    208.80.154.60
+vl1002-eth1.lvs1001     1H      IN A    208.80.154.140
+vl1002-eth1.lvs1002     1H      IN A    208.80.154.141
+vl1002-eth1.lvs1003     1H      IN A    208.80.154.142
+vl1003-eth2.lvs1001     1H      IN A    208.80.154.78
+vl1003-eth2.lvs1002     1H      IN A    208.80.154.68
+vl1003-eth2.lvs1003     1H      IN A    208.80.154.69
+vl1003-eth2.lvs1004     1H      IN A    208.80.154.70
+vl1003-eth2.lvs1005     1H      IN A    208.80.154.71
+vl1003-eth2.lvs1006     1H      IN A    208.80.154.72
+
 vl1017-eth0.lvs1001	1H	IN A	10.64.1.1
 vl1017-eth0.lvs1002	1H	IN A	10.64.1.2
 vl1017-eth0.lvs1003	1H	IN A	10.64.1.3
