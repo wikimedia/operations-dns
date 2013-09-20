@@ -41,4 +41,11 @@ $ORIGIN {{ zonename }}.
 36	1H IN PTR	xe-5-2-2.cr2-eqiad.wikimedia.org.
 37	1H IN PTR	xe-0-0-3.cr1-ulsfo.wikimedia.org.
 
+;208.80.155.64/26 Sandbox subnet
+;208.80.155.64/28 Sandbox1-b-eqiad subnet
+65	1H IN PTR	vrrp-gw-1052.wikimedia.org.
+66	1H IN PTR	ae2-1052.cr1-eqiad.wikimedia.org.
+67	1H IN PTR	ae2-1052.cr2-eqiad.wikimedia.org.
+68	1H IN PTR	dickson.freenode.net.
+
 ; 208.80.155.128/25 Eqiad Labs virtualization subnet
