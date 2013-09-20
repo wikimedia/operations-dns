@@ -94,7 +94,6 @@ $ORIGIN {{ zonename }}.
 149	1H IN PTR	bast1001.wikimedia.org.
 150	1H IN PTR	nickel.wikimedia.org.
 151	1H IN PTR	iron.wikimedia.org.
-152	1H IN PTR	manganese.wikimedia.org.
 153	1H IN PTR	silver.wikimedia.org.
 154	1H IN PTR	analytics1001.wikimedia.org.
 155	1H IN PTR	stat1001.wikimedia.org.
