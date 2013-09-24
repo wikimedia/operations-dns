@@ -3400,7 +3400,7 @@ $ORIGIN 129.128.{{ zonename }}.
 3	1H	IN PTR		lvs4003.mgmt.ulsfo.wmnet.
 4	1H	IN PTR		lvs4004.mgmt.ulsfo.wmnet.
 
-10	1H	IN PTR		bastion4001.mgmt.ulsfo.wmnet.
+10	1H	IN PTR		bast4001.mgmt.ulsfo.wmnet.
 
 101	1H	IN PTR		cp4001.mgmt.ulsfo.wmnet.
 102	1H	IN PTR		cp4002.mgmt.ulsfo.wmnet.
