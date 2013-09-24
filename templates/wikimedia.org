@@ -103,6 +103,8 @@ wikivoyage-lb  600     DYNC geoip!wikivoyage-lb
 aluminium		1H	IN A	208.80.154.6
 aluminum		1H	IN CNAME aluminium
 analytics1001	1H	IN A	208.80.154.154
+analytics1003	1H	IN A	208.80.154.160
+analytics1004	1H	IN A	208.80.154.161
 antimony		1H	IN A	208.80.154.7
 arsenic			1H	IN A	208.80.154.62
 			1H	IN AAAA	2620:0:861:1:208:80:154:62
