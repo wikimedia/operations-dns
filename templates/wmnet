@@ -1971,6 +1971,8 @@ labsdb1002	1H	IN A	10.65.3.70
 WMF3447		1H	IN A	10.65.3.71
 analytics1002	1H	IN A	10.65.3.72
 WMF3449		1H	IN A	10.65.3.73
+analytics1003   1H      IN A    10.65.3.73
+analytics1004   1H      IN A    10.65.3.74
 analytics1005	1H	IN A	10.65.3.75
 WMF3459		1H	IN A	10.65.3.76
 analytics1006	1H	IN A	10.65.3.76
