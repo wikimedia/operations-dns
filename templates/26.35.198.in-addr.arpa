@@ -22,7 +22,7 @@ $ORIGIN {{ zonename }}.
 
 5	1H IN PTR	bast4001.wikimedia.org.
 
-; 198.35.26.192/26
+; 198.35.26.192/27
 ; Infrastructure Space
 
 192	1H IN PTR	cr1-ulsfo.wikimedia.org.
@@ -32,3 +32,6 @@ $ORIGIN {{ zonename }}.
 201	1H IN PTR	cr1-ulsfo.wikimedia.org.
 202	1H IN PTR	cr2-ulsfo.wikimedia.org.
 203	1H IN PTR	mr1-ulsfo.wikimedia.org.
+
+; 198.35.26.224/27
+; LVS service IPs
