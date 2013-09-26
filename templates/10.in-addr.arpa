@@ -3420,6 +3420,34 @@ $ORIGIN 129.128.{{ zonename }}.
 119	1H	IN PTR		cp4019.mgmt.ulsfo.wmnet.
 120	1H	IN PTR		cp4020.mgmt.ulsfo.wmnet.
 
+; 10.128.0.0/24 - private1-ulsfo
+$ORIGIN 0.128.{{ zonename }}.
+11	1H	IN PTR		lvs4001.ulsfo.wmnet.
+12	1H	IN PTR		lvs4002.ulsfo.wmnet.
+13	1H	IN PTR		lvs4003.ulsfo.wmnet.
+14	1H	IN PTR		lvs4004.ulsfo.wmnet.
+
+101	1H	IN PTR		cp4001.ulsfo.wmnet.
+102	1H	IN PTR		cp4002.ulsfo.wmnet.
+103	1H	IN PTR		cp4003.ulsfo.wmnet.
+104	1H	IN PTR		cp4004.ulsfo.wmnet.
+105	1H	IN PTR		cp4005.ulsfo.wmnet.
+106	1H	IN PTR		cp4006.ulsfo.wmnet.
+107	1H	IN PTR		cp4007.ulsfo.wmnet.
+108	1H	IN PTR		cp4008.ulsfo.wmnet.
+109	1H	IN PTR		cp4009.ulsfo.wmnet.
+110	1H	IN PTR		cp4010.ulsfo.wmnet.
+111	1H	IN PTR		cp4011.ulsfo.wmnet.
+112	1H	IN PTR		cp4012.ulsfo.wmnet.
+113	1H	IN PTR		cp4013.ulsfo.wmnet.
+114	1H	IN PTR		cp4014.ulsfo.wmnet.
+115	1H	IN PTR		cp4015.ulsfo.wmnet.
+116	1H	IN PTR		cp4016.ulsfo.wmnet.
+117	1H	IN PTR		cp4017.ulsfo.wmnet.
+118	1H	IN PTR		cp4018.ulsfo.wmnet.
+119	1H	IN PTR		cp4019.ulsfo.wmnet.
+120	1H	IN PTR		cp4020.ulsfo.wmnet.
+
 
 ; LEGACY
 
