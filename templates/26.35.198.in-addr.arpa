@@ -27,11 +27,29 @@ $ORIGIN {{ zonename }}.
 
 192	1H IN PTR	cr1-ulsfo.wikimedia.org.
 193	1H IN PTR	cr2-ulsfo.wikimedia.org.
+194	1H IN PTR	br1-ulsfo.wikimedia.org.
+195	1H IN PTR	br2-ulsfo.wikimedia.org.
+
+; 198.35.26.196/31
+196	1H IN PTR	ae0-2.cr1-ulsfo.wikimedia.org.
+197	1H IN PTR	ae0-2.cr2-ulsfo.wikimedia.org.
+
+; 198.35.26.198/31
+198	1H IN PTR	ae0-3.br1-ulsfo.wikimedia.org.
+199	1H IN PTR	ae0-3.br2-ulsfo.wikimedia.org.
 
 ; 198.35.26.200/29
 201	1H IN PTR	cr1-ulsfo.wikimedia.org.
 202	1H IN PTR	cr2-ulsfo.wikimedia.org.
 203	1H IN PTR	mr1-ulsfo.wikimedia.org.
+
+; 198.35.26.208/31
+208	1H IN PTR	lt-0-0-0-0.cr1-ulsfo.wikimedia.org.
+209	1H IN PTR	lt-0-0-0-1.br1-ulsfo.wikimedia.org.
+
+; 198.35.26.210/31
+210	1H IN PTR	lt-0-0-0-0.cr2-ulsfo.wikimedia.org.
+211	1H IN PTR	lt-0-0-0-1.br2-ulsfo.wikimedia.org.
 
 ; 198.35.26.224/27
 ; LVS service IPs
