@@ -3045,6 +3045,7 @@ cp4020			1H		IN A	10.128.0.120
 ;
 ; SERVICES
 ;
+puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
 
 ; PMTPA SERVICES
 
