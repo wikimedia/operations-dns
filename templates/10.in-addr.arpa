@@ -1347,6 +1347,15 @@ $ORIGIN 3.2.{{ zonename }}.
 25	1H	IN PTR	text.svc.esams.wmnet.
 26	1H	IN PTR	mobile.svc.esams.wmnet.
 
+; ulsfo svc ips
+
+$ORIGIN 4.2.{{ zonename }}.
+
+23	1H	IN PTR	bits.svc.ulsfo.wmnet.
+24	1H	IN PTR	upload.svc.ulsfo.wmnet.
+25	1H	IN PTR	text.svc.ulsfo.wmnet.
+26	1H	IN PTR	mobile.svc.ulsfo.wmnet.
+
 ; labs svc ips
 
 $ORIGIN 128.2.{{ zonename }}.

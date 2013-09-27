@@ -3092,3 +3092,11 @@ upload 		1H 	IN A 		10.2.3.24
 text 		1H 	IN A 		10.2.3.25
 mobile 		1H 	IN A 		10.2.3.26
 
+; ULSFO SERVICES
+
+$ORIGIN svc.ulsfo.wmnet.
+
+bits            1H  IN A        10.2.4.23
+upload          1H  IN A        10.2.4.24
+text            1H  IN A        10.2.4.25
+mobile          1H  IN A        10.2.4.26

@@ -54,3 +54,22 @@ $ORIGIN {{ zonename }}.
 210	1H IN PTR	lt-0-0-0-0.cr2-ulsfo.wikimedia.org.
 211	1H IN PTR	lt-0-0-0-1.br2-ulsfo.wikimedia.org.
 
+; 198.35.26.96/27
+; LVS service IPs
+
+96      1H IN PTR   wikimedia-lb.ulsfo.wikimedia.org.
+97      1H IN PTR   wikipedia-lb.ulsfo.wikimedia.org.
+98      1H IN PTR   wiktionary-lb.ulsfo.wikimedia.org.
+99      1H IN PTR   wikiquote-lb.ulsfo.wikimedia.org.
+100     1H IN PTR   wikibooks-lb.ulsfo.wikimedia.org.
+101     1H IN PTR   wikisource-lb.ulsfo.wikimedia.org.
+102     1H IN PTR   wikinews-lb.ulsfo.wikimedia.org.
+103     1H IN PTR   wikiversity-lb.ulsfo.wikimedia.org.
+104     1H IN PTR   mediawiki-lb.ulsfo.wikimedia.org.
+105     1H IN PTR   foundation-lb.ulsfo.wikimedia.org.
+106     1H IN PTR   bits-lb.ulsfo.wikimedia.org.
+107     1H IN PTR   upload-lb.ulsfo.wikimedia.org.
+108     1H IN PTR   mobile-lb.ulsfo.wikimedia.org.
+114     1H IN PTR   wikidata-lb.ulsfo.wikimedia.org.
+115     1H IN PTR   wikivoyage-lb.ulsfo.wikimedia.org.
+116     1H IN PTR   geoiplookup-lb.ulsfo.wikimedia.org.

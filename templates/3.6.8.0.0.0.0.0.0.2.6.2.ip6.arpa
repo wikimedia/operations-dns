@@ -19,3 +19,24 @@ $ORIGIN f.f.f.f.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       cr1-ulsfo.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       cr2-ulsfo.wikimedia.org.
+
+
+; LVS Service IPs
+
+$ORIGIN a.1.d.e.{{ zonename }}.
+
+0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   wikimedia-lb.ulsfo.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   wikipedia-lb.ulsfo.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   wiktionary-lb.ulsfo.wikimedia.org.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   wikiquote-lb.ulsfo.wikimedia.org.
+4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   wikibooks-lb.ulsfo.wikimedia.org.
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   wikisource-lb.ulsfo.wikimedia.org.
+6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   wikinews-lb.ulsfo.wikimedia.org.
+7.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   wikiversity-lb.ulsfo.wikimedia.org.
+8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   mediawiki-lb.ulsfo.wikimedia.org.
+9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   foundation-lb.ulsfo.wikimedia.org.
+a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   bits-lb.ulsfo.wikimedia.org.
+b.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   upload-lb.ulsfo.wikimedia.org.
+c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   mobile-lb.ulsfo.wikimedia.org.
+d.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   wikidata-lb.ulsfo.wikimedia.org.
+e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0     1H IN PTR   wikivoyage-lb.ulsfo.wikimedia.org.
