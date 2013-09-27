@@ -17,10 +17,13 @@ $ORIGIN {{ zonename }}.
 ; 198.35.26.0/23 (198.35.26.0 - 198.35.27.255)
 ; West Coast Discrete network
 
-; 198.35.26.0/28 (198.35.26.0 - 192.35.26.63)
+; 198.35.26.0/28 (198.35.26.0 - 198.35.26.63)
 ; ulsfo public IP space
 
 5	1H IN PTR	bast4001.wikimedia.org.
+
+; 198.35.26.96/27 (198.35.26.96 - 198.35.26.127)
+; LVS service IPs
 
 ; 198.35.26.192/27
 ; Infrastructure Space
@@ -51,5 +54,3 @@ $ORIGIN {{ zonename }}.
 210	1H IN PTR	lt-0-0-0-0.cr2-ulsfo.wikimedia.org.
 211	1H IN PTR	lt-0-0-0-1.br2-ulsfo.wikimedia.org.
 
-; 198.35.26.224/27
-; LVS service IPs
