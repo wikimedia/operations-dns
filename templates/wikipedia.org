@@ -53,6 +53,7 @@ ten                     1H      IN CNAME        wikipedia-lb.wikimedia.org.
 test                    1H      IN CNAME        wikipedia-lb.wikimedia.org.
 test2                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
 test.m                  1H      IN CNAME        mobile-lb.eqiad.wikimedia.org.
+test2.m                 1H      IN CNAME        mobile-lb.eqiad.wikimedia.org.
 textbook		1H	IN CNAME	wikipedia-lb.wikimedia.org.
 wg.en			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 www			1H	IN CNAME	wikipedia-lb.wikimedia.org.
