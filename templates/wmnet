@@ -880,10 +880,12 @@ virt11			1H	IN A		10.1.8.96
 virt12			1H	IN A		10.1.8.97
 virt15			1H	IN A		10.1.8.100
 williams		1H	IN A		10.1.8.15
-WMF3639			1H	IN A		10.1.8.66
-ms-fe1			1H	IN A		10.1.8.66
-WMF3640			1H	IN A		10.1.8.67
-ms-fe2			1H	IN A		10.1.8.67
+nas1-a-e0m		1H	IN A		10.1.8.66
+nas1-b-e0m		1H	IN A		10.1.8.67
+WMF3639			1H	IN A		10.1.8.69
+ms-fe1			1H	IN A		10.1.8.69
+WMF3640			1H	IN A		10.1.8.70
+ms-fe2			1H	IN A		10.1.8.70
 ms-fe3			1H	IN A		10.1.8.79
 ms-fe4			1H	IN A		10.1.8.80
 WMF3641			1H	IN A		10.1.8.68

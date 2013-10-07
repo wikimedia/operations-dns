@@ -1031,12 +1031,14 @@ $ORIGIN 8.1.{{ zonename }}.
 63	1H	IN PTR	WMF3838.mgmt.pmtpa.wmnet.
 64	1H	IN PTR	WMF3837.mgmt.pmtpa.wmnet.
 65	1H	IN PTR	stat1.mgmt.pmtpa.wmnet.
-66	1H	IN PTR	ms-fe1.mgmt.pmtpa.wmnet.
-66	1H	IN PTR	WMF3639.mgmt.pmtpa.wmnet.
-67	1H	IN PTR	ms-fe2.mgmt.pmtpa.wmnet.
-67	1H	IN PTR	WMF3640.mgmt.pmtpa.wmnet.
+66	1H	IN PTR	nas1-a-e0m.mgmt.pmtpa.wmnet.
+67	1H	IN PTR	nas1-b-e0m.mgmt.pmtpa.wmnet.
 68	1H	IN PTR	WMF3641.mgmt.pmtpa.wmnet.
 68	1H	IN PTR	marmontel.mgmt.pmtpa.wmnet.
+69	1H	IN PTR	ms-fe1.mgmt.pmtpa.wmnet.
+69	1H	IN PTR	WMF3639.mgmt.pmtpa.wmnet.
+70	1H	IN PTR	ms-fe2.mgmt.pmtpa.wmnet.
+70	1H	IN PTR	WMF3640.mgmt.pmtpa.wmnet.
 
 71	1H	IN PTR	WMF3644.mgmt.pmtpa.wmnet.
 71	1H	IN PTR	zhen.mgmt.pmtpa.wmnet.
