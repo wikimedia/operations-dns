@@ -10,9 +10,9 @@ $ORIGIN {{ zonename }}.
 
 ; Name servers
 
-                        1D      IN NS   ns0.wikimedia.org.     ; zwinger
-                        1D      IN NS   ns1.wikimedia.org.     ; amaryllis
-                        1D      IN NS   ns2.wikimedia.org.     ; pascal
+                        1D      IN NS   ns0.wikimedia.org.
+                        1D      IN NS   ns1.wikimedia.org.
+                        1D      IN NS   ns2.wikimedia.org.
 
 ; 208.80.154.0/26 (public1-a-eqiad) (.0 - .63)
 1       1H IN PTR       vrrp-gw-1001.wikimedia.org.
