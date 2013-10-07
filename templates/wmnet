@@ -261,8 +261,6 @@ virt13			1H	IN A		10.4.16.17
 virt14			1H	IN A		10.4.16.18
 virt15			1H	IN A		10.4.16.19
 wtp1			1H	IN A		10.0.0.23
-zwinger			1H	IN A		10.0.0.4
-zwinger2		1H	IN A		10.0.0.34
 
 ; GENERATES
 
