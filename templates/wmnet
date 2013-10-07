@@ -831,7 +831,6 @@ virt10			1H	IN A		10.1.8.95
 virt11			1H	IN A		10.1.8.96
 virt12			1H	IN A		10.1.8.97
 virt15			1H	IN A		10.1.8.100
-williams		1H	IN A		10.1.8.15
 nas1-a-e0m		1H	IN A		10.1.8.66
 nas1-b-e0m		1H	IN A		10.1.8.67
 WMF3639			1H	IN A		10.1.8.69
