@@ -679,6 +679,7 @@ nostalgia		1H	IN CNAME	wikimedia-lb
 office			1H	IN CNAME	wikimedia-lb
 outreach		1H	IN CNAME	wikimedia-lb
 quality			1H	IN CNAME	wikimedia-lb
+pk			1H	IN CNAME	wikimedia-lb
 pl			1H	IN CNAME	wikimedia-lb
 readerfeedback.labs	1H	IN CNAME	wikimedia-lb
 rs			1H	IN CNAME	wikimedia-lb
