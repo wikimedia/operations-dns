@@ -771,6 +771,7 @@ es.planet		1H	IN CNAME	zirconium
 fo.planet		1H	IN CNAME	zirconium
 fr.planet		1H	IN CNAME	zirconium
 gmq.planet		1H	IN CNAME	zirconium
+id.planet		1H	IN CNAME	zirconium
 is.planet		1H	IN CNAME	zirconium
 it.planet		1H	IN CNAME	zirconium
 ja.planet		1H	IN CNAME	zirconium
