@@ -46,6 +46,6 @@ $ORIGIN {{ zonename }}.
 65	1H IN PTR	vrrp-gw-1052.wikimedia.org.
 66	1H IN PTR	ae2-1052.cr1-eqiad.wikimedia.org.
 67	1H IN PTR	ae2-1052.cr2-eqiad.wikimedia.org.
-68	1H IN PTR	dickson.wikimedia.org.
+68	1H IN PTR	dickson.freenode.net.
 
 ; 208.80.155.128/25 Eqiad Labs virtualization subnet
