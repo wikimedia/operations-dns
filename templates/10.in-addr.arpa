@@ -115,11 +115,10 @@ $ORIGIN 2.0.{{ zonename }}.
 
 $ORIGIN 3.0.{{ zonename }}.
 
-51	1H	IN PTR	searchidx1.pmtpa.wmnet.
 52	1H	IN PTR	searchidx2.pmtpa.wmnet.
 
 ; Seach servers
-{% for i in range(1, 51) %}
+{% for i in range(13, 51) %}
 {{ i }}	1H	IN PTR	search{{ i }}.pmtpa.wmnet.
 {%- endfor %}
 
@@ -765,19 +764,6 @@ $ORIGIN 3.1.{{ zonename }}.
 
 ; Search Servers
 $ORIGIN 4.1.{{ zonename }}.
-10	1H	IN PTR searchidx1.mgmt.pmtpa.wmnet.
-11	1H	IN PTR search1.mgmt.pmtpa.wmnet.
-12	1H	IN PTR search2.mgmt.pmtpa.wmnet.
-13	1H	IN PTR search3.mgmt.pmtpa.wmnet.
-14	1H	IN PTR search4.mgmt.pmtpa.wmnet.
-15	1H	IN PTR search5.mgmt.pmtpa.wmnet.
-16	1H	IN PTR search6.mgmt.pmtpa.wmnet.
-17	1H	IN PTR search7.mgmt.pmtpa.wmnet.
-18	1H	IN PTR search8.mgmt.pmtpa.wmnet.
-19	1H	IN PTR search9.mgmt.pmtpa.wmnet.
-20	1H	IN PTR search10.mgmt.pmtpa.wmnet.
-21	1H	IN PTR search11.mgmt.pmtpa.wmnet.
-22	1H	IN PTR search12.mgmt.pmtpa.wmnet.
 23	1H	IN PTR search13.mgmt.pmtpa.wmnet.
 24	1H	IN PTR search14.mgmt.pmtpa.wmnet.
 25	1H	IN PTR search15.mgmt.pmtpa.wmnet.

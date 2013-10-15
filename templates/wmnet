@@ -219,7 +219,7 @@ pc1			1H	IN A		10.0.0.221
 pc2			1H	IN A		10.0.0.222
 pc3			1H	IN A		10.0.0.223
 rose			1H	IN A		10.0.0.26
-searchidx1		1H	IN A		10.0.3.51
+
 searchidx2		1H	IN A		10.0.3.52
 snapshot1		1H	IN A		10.0.10.1
 snapshot2		1H	IN A		10.0.10.2
@@ -535,7 +535,7 @@ payments3	1H	IN A		10.0.9.3
 payments4	1H	IN A		10.0.9.4
 
 ;search servers
-{% for i in range(1, 51) %}
+{% for i in range(13, 51) %}
 search{{ i }}	1H	IN A		10.0.3.{{ i }}
 {%- endfor %}
 
@@ -807,19 +807,7 @@ pdf1			1H	IN A		10.1.8.19
 pdf2			1H	IN A		10.1.8.29
 pdf3			1H	IN A		10.1.8.37
 sanger			1H	IN A		10.1.230.241
-searchidx1		1H	IN A		10.1.4.10
-search1			1H	IN A		10.1.4.11
-search2			1H	IN A		10.1.4.12
-search3			1H	IN A		10.1.4.13
-search4			1H	IN A		10.1.4.14
-search5			1H	IN A		10.1.4.15
-search6			1H	IN A		10.1.4.16
-search7			1H	IN A		10.1.4.17
-search8			1H	IN A		10.1.4.18
-search9			1H	IN A		10.1.4.19
-search10		1H	IN A		10.1.4.20
-search11		1H	IN A		10.1.4.21
-search12		1H	IN A		10.1.4.22
+
 search13		1H	IN A		10.1.4.23
 search14		1H	IN A		10.1.4.24
 search15		1H	IN A		10.1.4.25
