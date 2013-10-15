@@ -791,6 +791,7 @@ ro.planet		1H	IN CNAME	zirconium
 ru.planet		1H	IN CNAME	zirconium
 sr.planet		1H	IN CNAME	zirconium
 sv.planet		1H	IN CNAME	zirconium
+uk.planet		1H	IN CNAME	zirconium
 zh.planet		1H	IN CNAME	zirconium
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
 racktables		1H	IN CNAME	magnesium
