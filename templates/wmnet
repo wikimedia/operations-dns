@@ -193,22 +193,6 @@ ms-fe3			1H	IN A		10.0.6.214
 ms-fe4			1H	IN A		10.0.6.215
 ms-fe-rr		1H	IN A		10.0.6.210 ; round robin entry for ms-fe* hosts
 			1H	IN A		10.0.6.211 ; round robin entry for ms-fe* hosts
-mc1			1H	IN A		10.0.12.1
-mc2			1H	IN A		10.0.12.2
-mc3			1H	IN A		10.0.12.3
-mc4			1H	IN A		10.0.12.4
-mc5			1H	IN A		10.0.12.5
-mc6			1H	IN A		10.0.12.6
-mc7			1H	IN A		10.0.12.7
-mc8			1H	IN A		10.0.12.8
-mc9			1H	IN A		10.0.12.9
-mc10			1H	IN A		10.0.12.10
-mc11			1H	IN A		10.0.12.11
-mc12			1H	IN A		10.0.12.12
-mc13			1H	IN A		10.0.12.13
-mc14			1H	IN A		10.0.12.14
-mc15			1H	IN A		10.0.12.15
-mc16			1H	IN A		10.0.12.16
 tmc1			1H	IN A		10.0.12.21
 tmc2			1H	IN A		10.0.12.22
 nfs1			1H	IN A		10.0.0.244
@@ -733,24 +717,6 @@ lvs3			1H	IN A		10.1.4.3
 lvs4			1H	IN A		10.1.4.4
 lvs5			1H	IN A		10.1.8.26
 lvs6			1H	IN A		10.1.8.27
-mc1			1H	IN A		10.1.7.61
-mc2			1H	IN A		10.1.7.62
-mc3			1H	IN A		10.1.7.63
-mc4			1H	IN A		10.1.7.64
-mc5			1H	IN A		10.1.7.65
-mc6			1H	IN A		10.1.7.66
-mc7			1H	IN A		10.1.7.67
-mc8			1H	IN A		10.1.7.68
-mc9			1H	IN A		10.1.7.69
-mc10			1H	IN A		10.1.7.70
-mc11			1H	IN A		10.1.7.71
-mc12			1H	IN A		10.1.7.72
-mc13			1H	IN A		10.1.7.73
-mc14			1H	IN A		10.1.7.74
-mc15			1H	IN A		10.1.7.75
-mc16			1H	IN A		10.1.7.76
-mc17                    1H      IN A            10.1.7.77
-mc18                    1H      IN A            10.1.7.78
 mchenry			1H	IN A		10.1.230.240
 ms1			1H	IN A		10.1.7.1
 ms2			1H	IN A		10.1.7.2

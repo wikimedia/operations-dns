@@ -647,22 +647,6 @@ $ORIGIN 11.0.{{ zonename }}.
 ; memcache pmtpa/sdtpa cluster
 $ORIGIN 12.0.{{ zonename }}.
 
-1	1H	IN PTR	mc1.pmtpa.wmnet.
-2	1H	IN PTR	mc2.pmtpa.wmnet.
-3	1H	IN PTR	mc3.pmtpa.wmnet.
-4	1H	IN PTR	mc4.pmtpa.wmnet.
-5	1H	IN PTR	mc5.pmtpa.wmnet.
-6	1H	IN PTR	mc6.pmtpa.wmnet.
-7	1H	IN PTR	mc7.pmtpa.wmnet.
-8	1H	IN PTR	mc8.pmtpa.wmnet.
-9	1H	IN PTR	mc9.pmtpa.wmnet.
-10	1H	IN PTR	mc10.pmtpa.wmnet.
-11	1H	IN PTR	mc11.pmtpa.wmnet.
-12	1H	IN PTR	mc12.pmtpa.wmnet.
-13	1H	IN PTR	mc13.pmtpa.wmnet.
-14	1H	IN PTR	mc14.pmtpa.wmnet.
-15	1H	IN PTR	mc15.pmtpa.wmnet.
-16	1H	IN PTR	mc16.pmtpa.wmnet.
 
 ; Management (pmtpa)
 
@@ -713,15 +697,9 @@ $ORIGIN 2.1.{{ zonename }}.
 
 $ORIGIN 3.1.{{ zonename }}.
 
-33	1H	IN PTR	sq33.mgmt.pmtpa.wmnet.
-35	1H	IN PTR	sq35.mgmt.pmtpa.wmnet.
-
 37	1H	IN PTR	sq37.mgmt.pmtpa.wmnet.
-41	1H	IN PTR	sq41.mgmt.pmtpa.wmnet.
-42	1H	IN PTR	sq42.mgmt.pmtpa.wmnet.
 43	1H	IN PTR	sq43.mgmt.pmtpa.wmnet.
 44	1H	IN PTR	sq44.mgmt.pmtpa.wmnet.
-45	1H	IN PTR	sq45.mgmt.pmtpa.wmnet.
 48	1H	IN PTR	sq48.mgmt.pmtpa.wmnet.
 49	1H	IN PTR	sq49.mgmt.pmtpa.wmnet.
 50	1H	IN PTR	sq50.mgmt.pmtpa.wmnet.
@@ -934,24 +912,6 @@ $ORIGIN 7.1.{{ zonename }}.
 42	1H	IN PTR ssl2.mgmt.pmtpa.wmnet.
 43	1H	IN PTR ssl3.mgmt.pmtpa.wmnet.
 44	1H	IN PTR ssl4.mgmt.pmtpa.wmnet.
-61	1H	IN PTR mc1.mgmt.pmtpa.wmnet.
-62	1H	IN PTR mc2.mgmt.pmtpa.wmnet.
-63	1H	IN PTR mc3.mgmt.pmtpa.wmnet.
-64	1H	IN PTR mc4.mgmt.pmtpa.wmnet.
-65	1H	IN PTR mc5.mgmt.pmtpa.wmnet.
-66	1H	IN PTR mc6.mgmt.pmtpa.wmnet.
-67	1H	IN PTR mc7.mgmt.pmtpa.wmnet.
-68	1H	IN PTR mc8.mgmt.pmtpa.wmnet.
-69	1H	IN PTR mc9.mgmt.pmtpa.wmnet.
-70	1H	IN PTR mc10.mgmt.pmtpa.wmnet.
-71	1H	IN PTR mc11.mgmt.pmtpa.wmnet.
-72	1H	IN PTR mc12.mgmt.pmtpa.wmnet.
-73	1H	IN PTR mc13.mgmt.pmtpa.wmnet.
-74	1H	IN PTR mc14.mgmt.pmtpa.wmnet.
-75	1H	IN PTR mc15.mgmt.pmtpa.wmnet.
-76	1H	IN PTR mc16.mgmt.pmtpa.wmnet.
-77      1H      IN PTR mc17.mgmt.pmtpa.wmnet.
-78      1H      IN PTR mc18.mgmt.pmtpa.wmnet.
 
 ; Misc. Services Server Project
 $ORIGIN 8.1.{{ zonename }}.

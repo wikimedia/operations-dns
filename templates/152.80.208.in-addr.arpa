@@ -50,18 +50,12 @@ $ORIGIN {{ zonename }}.
 39	1H IN PTR	sq95.wikimedia.org.
 40	1H IN PTR	sq96.wikimedia.org.
 
-43	1H IN PTR	sq33.wikimedia.org.
-45	1H IN PTR	sq35.wikimedia.org.
-
 47	1H IN PTR	sq37.wikimedia.org.
 48	1H IN PTR	ms10.wikimedia.org.
 
 50	1H IN PTR	sq89.wikimedia.org.
-51	1H IN PTR	sq41.wikimedia.org.
-52	1H IN PTR	sq42.wikimedia.org.
 53	1H IN PTR	sq43.wikimedia.org.
 54	1H IN PTR	sq44.wikimedia.org.
-55	1H IN PTR	sq45.wikimedia.org.
 
 58	1H IN PTR	sq48.wikimedia.org.
 59	1H IN PTR	sq49.wikimedia.org.
