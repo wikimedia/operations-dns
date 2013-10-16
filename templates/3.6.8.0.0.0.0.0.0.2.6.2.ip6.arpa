@@ -14,6 +14,30 @@ $ORIGIN {{ zonename }}.
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
+$ORIGIN 1.0.1.0.{{ zonename }}.
+
+1.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4001.ulsfo.wmnet.
+2.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4002.ulsfo.wmnet.
+3.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4003.ulsfo.wmnet.
+4.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4004.ulsfo.wmnet.
+5.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4005.ulsfo.wmnet.
+6.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4006.ulsfo.wmnet.
+7.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4007.ulsfo.wmnet.
+8.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4008.ulsfo.wmnet.
+9.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4009.ulsfo.wmnet.
+0.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4010.ulsfo.wmnet.
+1.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4011.ulsfo.wmnet.
+2.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4012.ulsfo.wmnet.
+3.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4013.ulsfo.wmnet.
+4.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4014.ulsfo.wmnet.
+5.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4015.ulsfo.wmnet.
+6.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4016.ulsfo.wmnet.
+7.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4017.ulsfo.wmnet.
+8.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4018.ulsfo.wmnet.
+9.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4019.ulsfo.wmnet.
+0.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4020.ulsfo.wmnet.
+
+
 ; Infrastructure IPs
 
 ; cr1-ulsfo <--> cr2-ulsfo (2620:0:863:fe00::/64)
