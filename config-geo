@@ -106,14 +106,113 @@ plugins => { geoip => {
 				default => eqiad,
 			}
 		},
+		ulsfo-migration-map => {
+			geoip_db => /usr/share/GeoIP/GeoIPv6.dat
+			geoip_db_v4_overlay => /usr/share/GeoIP/GeoIP.dat
+			datacenters => [eqiad pmtpa esams ulsfo]
+			map => {
+				# use ISO 3166-2 official names
+				AF => esams,
+				AS => {
+					AE => esams, # United Arab Emirates
+					AM => esams, # Armenia
+					AZ => esams, # Azerbaijan
+					BH => esams, # Bahrain
+					CN => eqiad, # China
+					CY => esams, # Cyprus
+					GE => esams, # Georgia
+					IL => esams, # Israel
+					IQ => esams, # Iraq
+					IR => esams, # Iran (Islamic Republic of)
+					JO => esams, # Jordan
+					JP => eqiad, # Japan
+					KH => eqiad, # Cambodia
+					KP => eqiad, # Korea, Democratic People's Republic of
+					KR => eqiad, # Korea, Republic of
+					KW => esams, # Kuwait
+					LA => eqiad, # Lao People's Democratic Republic
+					LB => esams, # Lebanon
+					MN => eqiad, # Mongolia
+					MY => eqiad, # Malaysia
+					OM => esams, # Oman
+					PH => eqiad, # Philippines
+					PS => esams, # Palestine, State of
+					QA => esams, # Qatar
+					SA => esams, # Saudi Arabia
+					SG => eqiad, # Singapore
+					SY => esams, # Syrian Arab Republic
+					TH => eqiad, # Thailand
+					TW => eqiad, # Taiwan, Province of China
+					VN => eqiad, # Viet Nam
+					YE => esams, # Yemen
+				},
+				EU => {
+					AD => esams, # Andorra
+					AL => esams, # Albania
+					AT => esams, # Austria
+					AX => esams, # Åland Islands
+					BA => esams, # Bosnia and Herzegowina
+					BE => esams, # Belgium
+					BG => esams, # Bulgaria
+					BY => esams, # Belarus
+					CH => esams, # Switzerland
+					CZ => esams, # Czech Republic
+					DE => esams, # Germany
+					DK => esams, # Denmark
+					EE => esams, # Estonia
+					ES => esams, # Spain
+					EU => esams, # Europe
+					FI => esams, # Finland
+					FO => esams, # Faroe Islands
+					FR => esams, # France
+					GB => esams, # United Kingdom
+					GG => esams, # Guernsey
+					GI => esams, # Gibraltar
+					GR => esams, # Greece
+					HR => esams, # Croatia (local name Hrvatska)
+					HU => esams, # Hungary
+					IE => esams, # Ireland
+					IM => esams, # Isle of Man
+					IS => esams, # Iceland
+					IT => esams, # Italy
+					JE => esams, # Jersey
+					LI => esams, # Liechtenstein
+					LT => esams, # Lithuania
+					LU => esams, # Luxembourg
+					LV => esams, # Latvia
+					MC => esams, # Monaco
+					MD => esams, # Moldova, Republic of
+					ME => esams, # Montenegro
+					MK => esams, # Macedonia, the Former Yugoslav Republic of
+					MT => esams, # Malta
+					NL => esams, # Netherlands
+					NO => esams, # Norway
+					PL => esams, # Poland
+					PT => esams, # Portugal
+					RO => esams, # Romania
+					RS => esams, # Serbia
+					RU => esams, # Russian Federation
+					SE => esams, # Sweden
+					SI => esams, # Slovenia
+					SJ => esams, # Svalbard and Jan Mayen Islands
+					SK => esams, # Slovakia
+					SM => esams, # San Marino
+					TR => esams, # Turkey
+					UA => esams, # Ukraine
+					VA => esams, # Holy See (Vatican City State)
+				},
+				default => eqiad,
+			}
+		}
 	},
 	resources => {
 		bits => {
-			map => generic-map
+			map => ulsfo-migration-map
 			dcmap => {
 				pmtpa => bits-lb.pmtpa.wikimedia.org.
 				eqiad => bits-lb.eqiad.wikimedia.org.
 				esams => bits-lb.esams.wikimedia.org.
+				ulsfo => bits-lb.ulsfo.wikimedia.org.
 			}
 		}
 		upload => {
@@ -125,11 +224,12 @@ plugins => { geoip => {
 			}
 		}
 		geoiplookup => {
-			map => generic-map
+			map => ulsfo-migration-map
 			dcmap => {
 				pmtpa => geoiplookup-lb.pmtpa.wikimedia.org.
 				eqiad => geoiplookup-lb.eqiad.wikimedia.org.
 				esams => geoiplookup-lb.esams.wikimedia.org.
+				ulsfo => geoiplookup-lb.ulsfo.wikimedia.org.
 			}
 		}
 		donate => {
