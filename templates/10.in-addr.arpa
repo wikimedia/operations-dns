@@ -1885,9 +1885,9 @@ $ORIGIN 16.64.{{ zonename }}.
 144	1H IN PTR	db1049.eqiad.wmnet.
 145	1H IN PTR	db1050.eqiad.wmnet.
 146	1H IN PTR	tmh1002.eqiad.wmnet.
-
+147     1H IN PTR       cerium.eqiad.wmnet.
 148	1H IN PTR	zinc.eqiad.wmnet.
-
+149     1H IN PTR       praseodymium.eqiad.wmnet.
 150	1H IN PTR	ms-fe1003.eqiad.wmnet.
 
 152	1H IN PTR	potassium.eqiad.wmnet.

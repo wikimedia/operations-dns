@@ -1165,9 +1165,10 @@ analytics1024            1H     IN A             10.64.36.124
 analytics1025            1H     IN A             10.64.36.125
 analytics1026            1H     IN A             10.64.36.126
 analytics1027            1H     IN A             10.64.36.127
-argon            1H IN A         10.64.16.184
+argon                    1H     IN A             10.64.16.184
+cerium                   1H     IN A             10.64.16.147
 cobalt			 1H	IN A		 10.64.16.143
-copper			 1H  IN A        10.64.16.176
+copper			 1H     IN A             10.64.16.176
 cp1001 			 1H	IN A		 10.64.0.123
 cp1002 			 1H	IN A		 10.64.0.124
 cp1003 			 1H	IN A		 10.64.0.125
@@ -1639,6 +1640,7 @@ pc1001                  1H      IN A            10.64.16.156
 pc1002                  1H      IN A            10.64.16.157
 pc1003                  1H      IN A            10.64.16.158
 potassium		1H	IN A		10.64.16.152
+praseodymium            1H      IN A            10.64.16.149
 promethium		1H  IN A        10.64.32.72
 rdb1001			1H  IN A        10.64.32.76
 rdb1002			1H  IN A        10.64.32.77
