@@ -105,11 +105,10 @@ $ORIGIN 1.0.{{ zonename }}.
 
 $ORIGIN 2.0.{{ zonename }}.
 
-2	1H      IN PTR  srv1.pmtpa.wmnet.
-1	1H      IN PTR  srv2.pmtpa.wmnet.
+193	1H     IN PTR	srv193.pmtpa.wmnet.
 
-;srv11-250
-{% for i in range(11, 251) %}
+;srv235-250
+{% for i in range(235, 251) %}
 {{ i }}	1H	IN PTR	srv{{ i }}.pmtpa.wmnet.
 {%- endfor %}
 
@@ -690,8 +689,10 @@ $ORIGIN 2.1.{{ zonename }}.
 2	1H	IN PTR scs-d1-pmtpa.mgmt.pmtpa.wmnet.
 3	1H	IN PTR mr1-pmtpa.mgmt.pmtpa.wmnet.
 
-;srv11-250
-{% for i in range(141, 251) %}
+193	1H	IN PTR srv193.mgmt.pmtpa.wmnet.
+
+;srv235-250
+{% for i in range(235, 251) %}
 {{ i }}	1H	IN PTR	srv{{ i }}.mgmt.pmtpa.wmnet.
 {%- endfor %}
 
@@ -1061,6 +1062,7 @@ $ORIGIN 8.1.{{ zonename }}.
 
 ; Apaches pool (srv251+)
 $ORIGIN 9.1.{{ zonename }}.
+
 1	1H	IN PTR	srv251.mgmt.pmtpa.wmnet.
 2	1H	IN PTR	srv252.mgmt.pmtpa.wmnet.
 3	1H	IN PTR	srv253.mgmt.pmtpa.wmnet.

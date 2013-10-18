@@ -43,9 +43,6 @@ nfs-home		1H	IN A		10.0.5.8
 imagedump		1H	IN A		10.0.5.2
 rendering.svc		1H	IN A		10.2.1.21
 api.svc			1H	IN A		10.2.1.22
-nis-1			1H	IN CNAME	srv1.pmtpa.wmnet.
-nis-2			1H	IN CNAME	srv2.pmtpa.wmnet.
-nis-3			1H	IN CNAME	srv2.pmtpa.wmnet. ; until there's a 3rd server
 puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
 syslog			1H	IN CNAME	nfs-home
 search-pool1		1H	IN A		10.2.1.11
@@ -213,8 +210,6 @@ sockpuppet		1H	IN A		10.0.0.245
 solr1                   1H      IN A            10.0.0.36
 solr2                   1H      IN A            10.0.0.37
 solr3                   1H      IN A            10.0.0.38
-srv1			1H	IN A		10.0.2.2
-srv2			1H	IN A		10.0.2.1
 stafford		1H	IN A		10.0.0.24
 storage3		1H	IN A		10.0.0.219
 tarin			1H	IN A		10.0.0.21
@@ -253,8 +248,9 @@ wtp1			1H	IN A		10.0.0.23
 mw{{ i }}	1H	IN A		10.0.11.{{ i }}
 {%- endfor %}
 
-; srv11-250
-{% for i in range(11, 251) %}
+srv193		1H	IN A		10.0.2.193
+; srv235-250
+{% for i in range(235, 251) %}
 srv{{ i }}	1H	IN A		10.0.2.{{ i }}
 {%- endfor %}
 
@@ -889,7 +885,8 @@ sq{{ i }}	1H	IN A		10.1.3.{{ i }}
 {%- endfor %}
 
 ; Apache Srv Mangement Range
-{% for i in range(151, 251) %}
+srv193	     	       1H	IN A		10.1.2.193
+{% for i in range(235, 251) %}
 srv{{ i }}	1H	IN A		10.1.2.{{ i }}
 {%- endfor %}
 
