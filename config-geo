@@ -217,11 +217,12 @@ plugins => { geoip => {
 			}
 		}
 		upload => {
-			map => generic-map
+			map => ulsfo-migration-map
 			dcmap => {
 				pmtpa => upload-lb.pmtpa.wikimedia.org.
 				eqiad => upload-lb.eqiad.wikimedia.org.
 				esams => upload-lb.esams.wikimedia.org.
+				ulsfo => upload-lb.ulsfo.wikimedia.org.
 			}
 		}
 		geoiplookup => {
