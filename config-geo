@@ -201,7 +201,6 @@ plugins => { geoip => {
 					UA => esams, # Ukraine
 					VA => esams, # Holy See (Vatican City State)
 				},
-				OC => ulsfo,
 				default => eqiad,
 			}
 		}
