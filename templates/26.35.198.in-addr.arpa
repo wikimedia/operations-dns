@@ -40,7 +40,6 @@ $ORIGIN {{ zonename }}.
 108     1H IN PTR   mobile-lb.ulsfo.wikimedia.org.
 114     1H IN PTR   wikidata-lb.ulsfo.wikimedia.org.
 115     1H IN PTR   wikivoyage-lb.ulsfo.wikimedia.org.
-116     1H IN PTR   geoiplookup-lb.ulsfo.wikimedia.org.
 
 ; 198.35.26.192/27
 ; Infrastructure Space

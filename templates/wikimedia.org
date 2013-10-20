@@ -440,7 +440,7 @@ wikidata-lb.ulsfo       1H  IN A        198.35.26.114
                         1H  IN AAAA     2620:0:863:ed1a::d
 wikivoyage-lb.ulsfo     1H  IN A        198.35.26.115
                         1H  IN AAAA     2620:0:863:ed1a::e
-geoiplookup-lb.ulsfo    1H  IN A        198.35.26.116
+geoiplookup-lb.ulsfo    1H  IN A        198.35.26.106
 
 
 
