@@ -516,12 +516,6 @@ payments4	1H	IN A		10.0.9.4
 search{{ i }}	1H	IN A		10.0.3.{{ i }}
 {%- endfor %}
 
-; temp-es*
-{% for i in range(1, 255) %}
-temp-es{{ i }}	1H	IN A		10.0.7.{{ i }}
-{%- endfor %}
-
-
 ; Network equipment etc.
 
 vl-2-0                  1H	IN A		10.0.0.200

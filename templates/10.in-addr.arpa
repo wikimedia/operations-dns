@@ -230,13 +230,6 @@ $ORIGIN 6.0.{{ zonename }}.
 214	1H	IN PTR	ms-fe3.pmtpa.wmnet.
 215	1H	IN PTR	ms-fe4.pmtpa.wmnet.
 
-; Temporary ex-fedora MySQL instances for external storage
-
-$ORIGIN 7.0.{{ zonename }}.
-{% for i in range(1, 255) %}
-{{ i }}	1H	IN PTR	temp-es{{ i }}.pmtpa.wmnet.
-{%- endfor %}
-
 $ORIGIN 8.0.{{ zonename }}.
 
 1	1H	IN PTR	srv251.pmtpa.wmnet.
