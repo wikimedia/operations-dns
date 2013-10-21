@@ -47,7 +47,6 @@ $ORIGIN {{ zonename }}.
 59	1H IN PTR	vl1001-eth1.lvs1005.wikimedia.org.
 60	1H IN PTR	vl1001-eth1.lvs1006.wikimedia.org.
 61	1H IN PTR	sodium.wikimedia.org.
-62	1H IN PTR	arsenic.wikimedia.org.
 
 ; 208.80.154.64/26 (public1-c-eqiad) (.64 - .127)
 
@@ -85,7 +84,7 @@ $ORIGIN {{ zonename }}.
 140	1H IN PTR	vl1002-eth1.lvs1001.wikimedia.org.
 141	1H IN PTR	vl1002-eth1.lvs1002.wikimedia.org.
 142	1H IN PTR	vl1002-eth1.lvs1003.wikimedia.org.
-143	1H IN PTR	niobium.wikimedia.org.
+
 144	1H IN PTR	molybdenum.wikimedia.org.
 145	1H IN PTR	technetium.wikimedia.org.
 146	1H IN PTR	iodine.wikimedia.org.
