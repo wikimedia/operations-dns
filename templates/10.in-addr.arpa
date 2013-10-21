@@ -86,7 +86,6 @@ $ORIGIN 0.0.{{ zonename }}.
 246	1H	IN PTR	ms7.pmtpa.wmnet.
 247	1H	IN PTR  nfs2.pmtpa.wmnet.
 248	1H	IN PTR	ms3.pmtpa.wmnet.
-249	1H	IN PTR	ms2.pmtpa.wmnet.
 250	1H	IN PTR	ms1.pmtpa.wmnet.
 251	1H	IN PTR	ms4.pmtpa.wmnet.
 252	1H	IN PTR	ms5.pmtpa.wmnet.
