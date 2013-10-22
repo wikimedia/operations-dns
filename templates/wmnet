@@ -243,7 +243,7 @@ wtp1			1H	IN A		10.0.0.23
 ; GENERATES
 
 ; mw1-mw135
-{% for i in range(1, 136) %}
+{% for i in range(1, 125) %}
 mw{{ i }}	1H	IN A		10.0.11.{{ i }}
 {%- endfor %}
 
