@@ -674,7 +674,6 @@ www.nl			1H	IN CNAME	wikimedia-lb
 noboard.chapters	1H	IN CNAME	wikimedia-lb
 no			1H	IN CNAME	wikimedia-lb
 nz			1H	IN CNAME	wikimedia-lb
-nomcom			1H	IN CNAME	wikimedia-lb
 nostalgia		1H	IN CNAME	wikimedia-lb
 office			1H	IN CNAME	wikimedia-lb
 outreach		1H	IN CNAME	wikimedia-lb
