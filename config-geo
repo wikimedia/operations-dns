@@ -324,12 +324,11 @@ plugins => { geoip => {
 			}
 		}
 		mobile-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => mobile-lb.pmtpa.wikimedia.org.
 				eqiad => mobile-lb.eqiad.wikimedia.org.
 				esams => mobile-lb.esams.wikimedia.org.
-				ulsfo => mobile-lb.ulsfo.wikimedia.org.
 			}
 		}
 		wikidata-lb => {
