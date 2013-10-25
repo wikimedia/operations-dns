@@ -1221,16 +1221,6 @@ $ORIGIN 9.1.{{ zonename }}.
 174	1H	IN PTR	mw123.mgmt.pmtpa.wmnet.
 175	1H	IN PTR	mw124.mgmt.pmtpa.wmnet.
 176	1H	IN PTR	mw125.mgmt.pmtpa.wmnet.
-177	1H	IN PTR	mw126.mgmt.pmtpa.wmnet.
-178	1H	IN PTR	mw127.mgmt.pmtpa.wmnet.
-179	1H	IN PTR	mw128.mgmt.pmtpa.wmnet.
-180	1H	IN PTR	mw129.mgmt.pmtpa.wmnet.
-181	1H	IN PTR	mw130.mgmt.pmtpa.wmnet.
-182	1H	IN PTR	mw131.mgmt.pmtpa.wmnet.
-183	1H	IN PTR	mw132.mgmt.pmtpa.wmnet.
-184	1H	IN PTR	mw133.mgmt.pmtpa.wmnet.
-185	1H	IN PTR	mw134.mgmt.pmtpa.wmnet.
-186	1H	IN PTR	mw135.mgmt.pmtpa.wmnet.
 
 $ORIGIN 1.2.{{ zonename }}.
 
