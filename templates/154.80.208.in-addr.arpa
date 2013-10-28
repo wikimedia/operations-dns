@@ -1,12 +1,12 @@
 $TTL 3600
 $ORIGIN {{ zonename }}.
 @   1D  IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
-                                            {{ serial }}    ; serial
-                                            12H             ; refresh
-                                            2H              ; retry
-                                            2W              ; expiry
-                                            1H              ; negative cache TTL
-                                            )
+                {{ serial }}    ; serial
+                12H             ; refresh
+                2H              ; retry
+                2W              ; expiry
+                1H              ; negative cache TTL
+                )
 
 ; Name servers
 
@@ -138,7 +138,7 @@ $ORIGIN {{ zonename }}.
 220 1H  IN PTR  xe-5-0-3.cr2-eqiad.wikimedia.org.
 221 1H  IN PTR  xe-15-0-0.pfw2-eqiad.wikimedia.org.
 
-; LVS out-of-subnet service IPs
+; LVS out-of-subnet service IPs (208.80.154.224/27)
 
 224 1H  IN PTR  wikimedia-lb.eqiad.wikimedia.org.
 225 1H  IN PTR  wikipedia-lb.eqiad.wikimedia.org.
