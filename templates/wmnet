@@ -66,9 +66,6 @@ es3-secondary		5M	IN CNAME	es8.pmtpa.wmnet.
 
 constable		1H	IN A		10.0.0.50
 celsus			1H	IN A		10.0.0.51
-db5			1H	IN A		10.0.0.238
-db7			1H	IN A		10.0.0.240
-db8			1H	IN A		10.0.0.241
 db9			1H	IN A		10.0.0.242
 db10			1H	IN A		10.0.0.243
 db11			1H	IN A		10.0.6.21
@@ -86,8 +83,6 @@ db22			1H	IN A		10.0.6.32
 db23			1H	IN A		10.0.6.33
 db24			1H	IN A		10.0.6.34
 db25			1H	IN A		10.0.6.35
-db26			1H	IN A		10.0.6.36
-db27			1H	IN A		10.0.6.37
 db28			1H	IN A		10.0.6.38
 db29			1H	IN A		10.0.6.39
 db30			1H	IN A		10.0.6.40
@@ -594,9 +589,6 @@ amaranth		1H	IN A		10.1.8.16
 bayes			1H	IN A		10.1.8.24
 brewster		1H	IN A		10.1.8.3
 dataset2		1H	IN A		10.1.8.55
-db5			1H	IN A		10.1.6.15
-db7			1H	IN A		10.1.6.17
-db8			1H	IN A		10.1.6.18
 db9			1H	IN A		10.1.6.19
 db10			1H	IN A		10.1.6.20
 db11			1H	IN A		10.1.6.21
@@ -614,8 +606,6 @@ db22			1H	IN A		10.1.6.32
 db23			1H	IN A		10.1.6.33
 db24			1H	IN A		10.1.6.34
 db25			1H	IN A		10.1.6.35
-db26			1H	IN A		10.1.6.36
-db27			1H	IN A		10.1.6.37
 db28			1H	IN A		10.1.6.38
 db29			1H	IN A		10.1.6.39
 db30			1H	IN A		10.1.6.40

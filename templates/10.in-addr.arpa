@@ -75,10 +75,7 @@ $ORIGIN 0.0.{{ zonename }}.
 235 	1H	IN PTR  es6.pmtpa.wmnet.
 236 	1H	IN PTR  es7.pmtpa.wmnet.
 237 	1H	IN PTR  es8.pmtpa.wmnet.
-238	1H	IN PTR	db5.pmtpa.wmnet.
 239	1H	IN PTR	db6.pmtpa.wmnet.
-240	1H	IN PTR	db7.pmtpa.wmnet.
-241	1H	IN PTR	db8.pmtpa.wmnet.
 242	1H	IN PTR	db9.pmtpa.wmnet.
 243	1H	IN PTR	db10.pmtpa.wmnet.
 244	1H	IN PTR  nfs1.pmtpa.wmnet.
@@ -155,8 +152,6 @@ $ORIGIN 6.0.{{ zonename }}.
 33	1H	IN PTR	db23.pmtpa.wmnet.
 34	1H	IN PTR	db24.pmtpa.wmnet.
 35	1H	IN PTR	db25.pmtpa.wmnet.
-36	1H	IN PTR	db26.pmtpa.wmnet.
-37	1H	IN PTR	db27.pmtpa.wmnet.
 38	1H	IN PTR	db28.pmtpa.wmnet.
 39	1H	IN PTR	db29.pmtpa.wmnet.
 40	1H	IN PTR	db30.pmtpa.wmnet.
@@ -768,10 +763,7 @@ $ORIGIN 5.1.{{ zonename }}.
 
 ; Database Servers
 $ORIGIN 6.1.{{ zonename }}.
-15	1H	IN PTR db5.mgmt.pmtpa.wmnet.
 16	1H	IN PTR db6.mgmt.pmtpa.wmnet.
-17	1H	IN PTR db7.mgmt.pmtpa.wmnet.
-18	1H	IN PTR db8.mgmt.pmtpa.wmnet.
 19	1H	IN PTR db9.mgmt.pmtpa.wmnet.
 20	1H	IN PTR db10.mgmt.pmtpa.wmnet.
 21	1H	IN PTR db11.mgmt.pmtpa.wmnet.
@@ -789,8 +781,6 @@ $ORIGIN 6.1.{{ zonename }}.
 33	1H	IN PTR db23.mgmt.pmtpa.wmnet.
 34	1H	IN PTR db24.mgmt.pmtpa.wmnet.
 35	1H	IN PTR db25.mgmt.pmtpa.wmnet.
-36	1H	IN PTR db26.mgmt.pmtpa.wmnet.
-37	1H	IN PTR db27.mgmt.pmtpa.wmnet.
 38	1H	IN PTR db28.mgmt.pmtpa.wmnet.
 39	1H	IN PTR db29.mgmt.pmtpa.wmnet.
 40	1H	IN PTR db30.mgmt.pmtpa.wmnet.
