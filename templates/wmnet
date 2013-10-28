@@ -1597,6 +1597,7 @@ rdb1001			1H  IN A        10.64.32.76
 rdb1002			1H  IN A        10.64.32.77
 rdb1003         1H  IN A        10.64.0.201
 rdb1004         1H  IN A        10.64.16.183
+ruthenium		1H	IN A		10.64.16.151
 search1001      1H  IN A        10.64.32.108
 search1002      1H  IN A        10.64.32.109
 search1003      1H  IN A        10.64.32.110
