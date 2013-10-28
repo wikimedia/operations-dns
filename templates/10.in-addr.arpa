@@ -115,7 +115,8 @@ $ORIGIN 3.0.{{ zonename }}.
 
 52	1H	IN PTR	searchidx2.pmtpa.wmnet.
 
-; Seach servers
+; Search servers
+; search13-50
 {% for i in range(13, 51) %}
 {{ i }}	1H	IN PTR	search{{ i }}.pmtpa.wmnet.
 {%- endfor %}
