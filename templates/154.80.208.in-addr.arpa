@@ -1,162 +1,162 @@
 $TTL 3600
 $ORIGIN {{ zonename }}.
-@                       1D      IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
-                                        {{ serial }}    ; serial
-                                        12H             ; refresh
-                                        2H              ; retry
-                                        2W              ; expiry
-                                        1H              ; negative cache TTL
-                                        )
+@   1D  IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
+                                            {{ serial }}    ; serial
+                                            12H             ; refresh
+                                            2H              ; retry
+                                            2W              ; expiry
+                                            1H              ; negative cache TTL
+                                            )
 
 ; Name servers
 
-                        1D      IN NS   ns0.wikimedia.org.
-                        1D      IN NS   ns1.wikimedia.org.
-                        1D      IN NS   ns2.wikimedia.org.
+    1D  IN NS   ns0.wikimedia.org.
+    1D  IN NS   ns1.wikimedia.org.
+    1D  IN NS   ns2.wikimedia.org.
 
 ; 208.80.154.0/26 (public1-a-eqiad) (.0 - .63)
-1       1H IN PTR       vrrp-gw-1001.wikimedia.org.
-2       1H IN PTR       ae1-1001.cr1-eqiad.wikimedia.org.
-3       1H IN PTR       ae1-1001.cr2-eqiad.wikimedia.org.
-4	1H IN PTR	lists.wikimedia.org.
-5	1H IN PTR	magnesium.wikimedia.org.
-6	1H IN PTR	aluminium.wikimedia.org.
-7	1H IN PTR	antimony.wikimedia.org.
-8	1H IN PTR	ssl1004.wikimedia.org.
-9	1H IN PTR	ssl1003.wikimedia.org.
-10	1H IN PTR	carbon.wikimedia.org.
-11	1H IN PTR	dataset1001.wikimedia.org.
-12	1H IN PTR	barium.wikimedia.org.
+1   1H  IN PTR  vrrp-gw-1001.wikimedia.org.
+2   1H  IN PTR  ae1-1001.cr1-eqiad.wikimedia.org.
+3   1H  IN PTR  ae1-1001.cr2-eqiad.wikimedia.org.
+4   1H  IN PTR  lists.wikimedia.org.
+5   1H  IN PTR  magnesium.wikimedia.org.
+6   1H  IN PTR  aluminium.wikimedia.org.
+7   1H  IN PTR  antimony.wikimedia.org.
+8   1H  IN PTR  ssl1004.wikimedia.org.
+9   1H  IN PTR  ssl1003.wikimedia.org.
+10  1H  IN PTR  carbon.wikimedia.org.
+11  1H  IN PTR  dataset1001.wikimedia.org.
+12  1H  IN PTR  barium.wikimedia.org.
 
-14	1H IN PTR	neon.wikimedia.org.
-15	1H IN PTR	oxygen.wikimedia.org.
-16	1H IN PTR	ms1001.wikimedia.org.
-17	1H IN PTR	nitrogen.wikimedia.org.
-18	1H IN PTR	virt1000.wikimedia.org.
-19	1H IN PTR	labs-ns1.wikimedia.org.
-40	1H IN PTR	rubidium.wikimedia.org.
-41	1H IN PTR	zirconium.wikimedia.org.
-49	1H IN PTR	holmium.wikimedia.org.
-50	1H IN PTR	hydrogen.wikimedia.org.
-51  1H IN PTR   ssl1007.wikimedia.org.
+14  1H  IN PTR  neon.wikimedia.org.
+15  1H  IN PTR  oxygen.wikimedia.org.
+16  1H  IN PTR  ms1001.wikimedia.org.
+17  1H  IN PTR  nitrogen.wikimedia.org.
+18  1H  IN PTR  virt1000.wikimedia.org.
+19  1H  IN PTR  labs-ns1.wikimedia.org.
+40  1H  IN PTR  rubidium.wikimedia.org.
+41  1H  IN PTR  zirconium.wikimedia.org.
+49  1H  IN PTR  holmium.wikimedia.org.
+50  1H  IN PTR  hydrogen.wikimedia.org.
+51  1H  IN PTR  ssl1007.wikimedia.org.
 
-55	1H IN PTR	lvs1001.wikimedia.org.
-56	1H IN PTR	lvs1002.wikimedia.org.
-57	1H IN PTR	lvs1003.wikimedia.org.
-58	1H IN PTR	vl1001-eth1.lvs1004.wikimedia.org.
-59	1H IN PTR	vl1001-eth1.lvs1005.wikimedia.org.
-60	1H IN PTR	vl1001-eth1.lvs1006.wikimedia.org.
-61	1H IN PTR	sodium.wikimedia.org.
+55  1H  IN PTR  lvs1001.wikimedia.org.
+56  1H  IN PTR  lvs1002.wikimedia.org.
+57  1H  IN PTR  lvs1003.wikimedia.org.
+58  1H  IN PTR  vl1001-eth1.lvs1004.wikimedia.org.
+59  1H  IN PTR  vl1001-eth1.lvs1005.wikimedia.org.
+60  1H  IN PTR  vl1001-eth1.lvs1006.wikimedia.org.
+61  1H  IN PTR  sodium.wikimedia.org.
 
 ; 208.80.154.64/26 (public1-c-eqiad) (.64 - .127)
 
-65	1H IN PTR	vrrp-gw-1003.wikimedia.org.
-66	1H IN PTR	ae3-1003.cr1-eqiad.wikimedia.org.
-67	1H IN PTR	ae3-1003.cr2-eqiad.wikimedia.org.
-68	1H IN PTR	vl1003-eth2.lvs1002.wikimedia.org.
-69	1H IN PTR	vl1003-eth2.lvs1003.wikimedia.org.
-70	1H IN PTR	vl1003-eth2.lvs1004.wikimedia.org.
-71	1H IN PTR	vl1003-eth2.lvs1005.wikimedia.org.
-72	1H IN PTR	vl1003-eth2.lvs1006.wikimedia.org.
-73	1H IN PTR	gadolinium.wikimedia.org.
-74  1H IN PTR   caesium.wikimedia.org.
-75	1H IN PTR	ssl1005.wikimedia.org.
-76	1H IN PTR	ssl1006.wikimedia.org.
-77  1H IN PTR   ssl1009.wikimedia.org.
-78	1H IN PTR	vl1003-eth2.lvs1001.wikimedia.org.
-79  1H IN PTR   hafnium.wikimedia.org.
-80  1H IN PTR   ytterbium.wikimedia.org.
-81  60 IN PTR   gerrit.wikimedia.org.
+65  1H  IN PTR  vrrp-gw-1003.wikimedia.org.
+66  1H  IN PTR  ae3-1003.cr1-eqiad.wikimedia.org.
+67  1H  IN PTR  ae3-1003.cr2-eqiad.wikimedia.org.
+68  1H  IN PTR  vl1003-eth2.lvs1002.wikimedia.org.
+69  1H  IN PTR  vl1003-eth2.lvs1003.wikimedia.org.
+70  1H  IN PTR  vl1003-eth2.lvs1004.wikimedia.org.
+71  1H  IN PTR  vl1003-eth2.lvs1005.wikimedia.org.
+72  1H  IN PTR  vl1003-eth2.lvs1006.wikimedia.org.
+73  1H  IN PTR  gadolinium.wikimedia.org.
+74  1H  IN PTR  caesium.wikimedia.org.
+75  1H  IN PTR  ssl1005.wikimedia.org.
+76  1H  IN PTR  ssl1006.wikimedia.org.
+77  1H  IN PTR  ssl1009.wikimedia.org.
+78  1H  IN PTR  vl1003-eth2.lvs1001.wikimedia.org.
+79  1H  IN PTR  hafnium.wikimedia.org.
+80  1H  IN PTR  ytterbium.wikimedia.org.
+81  60  IN PTR  gerrit.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
-129	1H IN PTR	vrrp-gw-1002.wikimedia.org.
-130	1H IN PTR	ae2-1002.cr1-eqiad.wikimedia.org.
-131	1H IN PTR	ae2-1002.cr2-eqiad.wikimedia.org.
+129 1H  IN PTR  vrrp-gw-1002.wikimedia.org.
+130 1H  IN PTR  ae2-1002.cr1-eqiad.wikimedia.org.
+131 1H  IN PTR  ae2-1002.cr2-eqiad.wikimedia.org.
 
-133	1H IN PTR	ssl1001.wikimedia.org.
-134	1H IN PTR	ssl1002.wikimedia.org.
-135	1H IN PTR	gallium.wikimedia.org.
-136 1H IN PTR   ssl1008.wikimedia.org.
-137	1H IN PTR	lvs1004.wikimedia.org.
-138	1H IN PTR	lvs1005.wikimedia.org.
-139	1H IN PTR	lvs1006.wikimedia.org.
-140	1H IN PTR	vl1002-eth1.lvs1001.wikimedia.org.
-141	1H IN PTR	vl1002-eth1.lvs1002.wikimedia.org.
-142	1H IN PTR	vl1002-eth1.lvs1003.wikimedia.org.
+133 1H  IN PTR  ssl1001.wikimedia.org.
+134 1H  IN PTR  ssl1002.wikimedia.org.
+135 1H  IN PTR  gallium.wikimedia.org.
+136 1H  IN PTR  ssl1008.wikimedia.org.
+137 1H  IN PTR  lvs1004.wikimedia.org.
+138 1H  IN PTR  lvs1005.wikimedia.org.
+139 1H  IN PTR  lvs1006.wikimedia.org.
+140 1H  IN PTR  vl1002-eth1.lvs1001.wikimedia.org.
+141 1H  IN PTR  vl1002-eth1.lvs1002.wikimedia.org.
+142 1H  IN PTR  vl1002-eth1.lvs1003.wikimedia.org.
 
-144	1H IN PTR	molybdenum.wikimedia.org.
-145	1H IN PTR	technetium.wikimedia.org.
-146	1H IN PTR	iodine.wikimedia.org.
-149	1H IN PTR	bast1001.wikimedia.org.
-150	1H IN PTR	nickel.wikimedia.org.
-151	1H IN PTR	iron.wikimedia.org.
-153	1H IN PTR	silver.wikimedia.org.
-154	1H IN PTR	analytics1001.wikimedia.org.
-155	1H IN PTR	stat1001.wikimedia.org.
-156	1H IN PTR	titanium.wikimedia.org.
-157	1H IN PTR	chromium.wikimedia.org.
-158	1H IN PTR	calcium.wikimedia.org.
-159	1H IN PTR	netmon1001.wikimedia.org.
-160	1H IN PTR	analytics1003.wikimedia.org.
-161	1H IN PTR	analytics1004.wikimedia.org.
+144 1H  IN PTR  molybdenum.wikimedia.org.
+145 1H  IN PTR  technetium.wikimedia.org.
+146 1H  IN PTR  iodine.wikimedia.org.
+149 1H  IN PTR  bast1001.wikimedia.org.
+150 1H  IN PTR  nickel.wikimedia.org.
+151 1H  IN PTR  iron.wikimedia.org.
+153 1H  IN PTR  silver.wikimedia.org.
+154 1H  IN PTR  analytics1001.wikimedia.org.
+155 1H  IN PTR  stat1001.wikimedia.org.
+156 1H  IN PTR  titanium.wikimedia.org.
+157 1H  IN PTR  chromium.wikimedia.org.
+158 1H  IN PTR  calcium.wikimedia.org.
+159 1H  IN PTR  netmon1001.wikimedia.org.
+160 1H  IN PTR  analytics1003.wikimedia.org.
+161 1H  IN PTR  analytics1004.wikimedia.org.
 
 
 ; Neighbor blocks (208.80.154.192/27)
 
 ; 208.80.154.192/30 (cr1 <--> cr2)
-193	1H IN PTR	ae0.cr1-eqiad.wikimedia.org.
-194	1H IN PTR	ae0.cr2-eqiad.wikimedia.org.
+193 1H  IN PTR  ae0.cr1-eqiad.wikimedia.org.
+194 1H  IN PTR  ae0.cr2-eqiad.wikimedia.org.
 
-196	1H IN PTR	cr1-eqiad.wikimedia.org.
-197	1H IN PTR	cr2-eqiad.wikimedia.org.
-198	1H IN PTR	gr-5-2-0-1.cr1-eqiad.wikimedia.org.
+196 1H  IN PTR  cr1-eqiad.wikimedia.org.
+197 1H  IN PTR  cr2-eqiad.wikimedia.org.
+198 1H  IN PTR  gr-5-2-0-1.cr1-eqiad.wikimedia.org.
 
 ; 208.80.154.200/29 (cr1,cr2 <--> mr1)
 
-201	1H IN PTR	mr1-eqiad.wikimedia.org.
-202	1H IN PTR	cr1-eqiad.wikimedia.org.
-203	1H IN PTR	cr2-eqiad.wikimedia.org.
+201 1H  IN PTR  mr1-eqiad.wikimedia.org.
+202 1H  IN PTR  cr1-eqiad.wikimedia.org.
+203 1H  IN PTR  cr2-eqiad.wikimedia.org.
 
 ; 208.80.154.208/30 (cr1-sdtpa <--> cr1-eqiad)
-209	1H IN PTR	xe-5-2-1.cr1-eqiad.wikimedia.org.
-210	1H IN PTR	xe-0-0-1.cr1-sdtpa.wikimedia.org.
+209 1H  IN PTR  xe-5-2-1.cr1-eqiad.wikimedia.org.
+210 1H  IN PTR  xe-0-0-1.cr1-sdtpa.wikimedia.org.
 
 ; 208.80.154.212/30 (cr1-sdtpa <--> cr2-eqiad)
-213	1H IN PTR	xe-5-2-1.cr2-eqiad.wikimedia.org.
-214	1H IN PTR	xe-1-1-0.cr1-sdtpa.wikimedia.org.
+213 1H  IN PTR  xe-5-2-1.cr2-eqiad.wikimedia.org.
+214 1H  IN PTR  xe-1-1-0.cr1-sdtpa.wikimedia.org.
 
 ; 208.80.154.216/31 (cr1-eqiad <--> pfw1-eqiad)
-216	1H IN PTR	xe-5-0-3.cr1-eqiad.wikimedia.org.
-217	1H IN PTR	xe-6-0-0.pfw1-eqiad.wikimedia.org.
+216 1H  IN PTR  xe-5-0-3.cr1-eqiad.wikimedia.org.
+217 1H  IN PTR  xe-6-0-0.pfw1-eqiad.wikimedia.org.
 
 ; 208.80.154.218 - 219 (loopbacks)
-218	1H IN PTR	pfw1-eqiad.wikimedia.org.
-219	1H IN PTR	pfw2-eqiad.wikimedia.org.
+218 1H  IN PTR  pfw1-eqiad.wikimedia.org.
+219 1H  IN PTR  pfw2-eqiad.wikimedia.org.
 
 ;208.80.154.220/31 (cr2-eqiad <--> pfw2-eqiad)
-220	1H IN PTR	xe-5-0-3.cr2-eqiad.wikimedia.org.
-221	1H IN PTR	xe-15-0-0.pfw2-eqiad.wikimedia.org.
+220 1H  IN PTR  xe-5-0-3.cr2-eqiad.wikimedia.org.
+221 1H  IN PTR  xe-15-0-0.pfw2-eqiad.wikimedia.org.
 
 ; LVS out-of-subnet service IPs
 
-224     1H IN PTR       wikimedia-lb.eqiad.wikimedia.org.
-225     1H IN PTR       wikipedia-lb.eqiad.wikimedia.org.
-226     1H IN PTR       wiktionary-lb.eqiad.wikimedia.org.
-227     1H IN PTR       wikiquote-lb.eqiad.wikimedia.org.
-228     1H IN PTR       wikibooks-lb.eqiad.wikimedia.org.
-229     1H IN PTR       wikisource-lb.eqiad.wikimedia.org.
-230     1H IN PTR       wikinews-lb.eqiad.wikimedia.org.
-231     1H IN PTR       wikiversity-lb.eqiad.wikimedia.org.
-232     1H IN PTR       mediawiki-lb.eqiad.wikimedia.org.
-233     1H IN PTR       foundation-lb.eqiad.wikimedia.org.
-234	1H IN PTR	bits-lb.eqiad.wikimedia.org.
-235	1H IN PTR	upload-lb.eqiad.wikimedia.org.
-236	1H IN PTR	mobile-lb.eqiad.wikimedia.org.
-237	1H IN PTR	payments-lb.eqiad.wikimedia.org.
-238	1H IN PTR	ns0.wikimedia.org.
-239	1H IN PTR	dns-rec-lb.eqiad.wikimedia.org.
-240	1H IN PTR	osm-lb.eqiad.wikimedia.org.
-241	1H IN PTR	misc-web-lb.eqiad.wikimedia.org.
-242	1H IN PTR	wikidata-lb.eqiad.wikimedia.org.
-243	1H IN PTR	wikivoyage-lb.eqiad.wikimedia.org.
+224 1H  IN PTR  wikimedia-lb.eqiad.wikimedia.org.
+225 1H  IN PTR  wikipedia-lb.eqiad.wikimedia.org.
+226 1H  IN PTR  wiktionary-lb.eqiad.wikimedia.org.
+227 1H  IN PTR  wikiquote-lb.eqiad.wikimedia.org.
+228 1H  IN PTR  wikibooks-lb.eqiad.wikimedia.org.
+229 1H  IN PTR  wikisource-lb.eqiad.wikimedia.org.
+230 1H  IN PTR  wikinews-lb.eqiad.wikimedia.org.
+231 1H  IN PTR  wikiversity-lb.eqiad.wikimedia.org.
+232 1H  IN PTR  mediawiki-lb.eqiad.wikimedia.org.
+233 1H  IN PTR  foundation-lb.eqiad.wikimedia.org.
+234 1H  IN PTR  bits-lb.eqiad.wikimedia.org.
+235 1H  IN PTR  upload-lb.eqiad.wikimedia.org.
+236 1H  IN PTR  mobile-lb.eqiad.wikimedia.org.
+237 1H  IN PTR  payments-lb.eqiad.wikimedia.org.
+238 1H  IN PTR  ns0.wikimedia.org.
+239 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org.
+240 1H  IN PTR  osm-lb.eqiad.wikimedia.org.
+241 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.
+242 1H  IN PTR  wikidata-lb.eqiad.wikimedia.org.
+243 1H  IN PTR  wikivoyage-lb.eqiad.wikimedia.org.
