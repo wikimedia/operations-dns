@@ -517,8 +517,8 @@ payments3	1H	IN A		10.0.9.3
 payments4	1H	IN A		10.0.9.4
 
 ;search servers
-; search13-50
-{% for i in range(13, 51) %}
+; search13-21
+{% for i in range(13, 21) %}
 search{{ i }}	1H	IN A		10.0.3.{{ i }}
 {%- endfor %}
 
@@ -776,22 +776,6 @@ search18		1H	IN A		10.1.4.28
 search19		1H	IN A		10.1.4.29
 search20		1H	IN A		10.1.4.30
 searchidx2		1H	IN A		10.1.4.31
-search21		1H	IN A		10.1.4.32
-search22		1H	IN A		10.1.4.33
-search23		1H	IN A		10.1.4.34
-search24		1H	IN A		10.1.4.35
-search25		1H	IN A		10.1.4.36
-search26		1H	IN A		10.1.4.37
-search27		1H	IN A		10.1.4.38
-search28		1H	IN A		10.1.4.39
-search29		1H	IN A		10.1.4.40
-search30		1H	IN A		10.1.4.41
-search31		1H	IN A		10.1.4.42
-search32		1H	IN A		10.1.4.43
-search33		1H	IN A		10.1.4.44
-search34		1H	IN A		10.1.4.45
-search35		1H	IN A		10.1.4.46
-search36		1H	IN A		10.1.4.47
 sockpuppet		1H	IN A		10.1.8.2
 solr1                   1H      IN A            10.1.4.60
 solr2                   1H      IN A            10.1.4.61
