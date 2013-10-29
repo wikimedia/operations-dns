@@ -64,6 +64,7 @@ es3-secondary		5M	IN CNAME	es8.pmtpa.wmnet.
 
 ; Servers (alphabetic order)
 
+arsenic		1H	IN A		10.64.0.17
 constable		1H	IN A		10.0.0.50
 celsus			1H	IN A		10.0.0.51
 db9			1H	IN A		10.0.0.242
