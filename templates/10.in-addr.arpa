@@ -137,24 +137,9 @@ $ORIGIN 5.0.{{ zonename }}.
 
 $ORIGIN 6.0.{{ zonename }}.
 
-21	1H	IN PTR	db11.pmtpa.wmnet.
-22	1H	IN PTR	db12.pmtpa.wmnet.
-23	1H	IN PTR	db13.pmtpa.wmnet.
-24	1H	IN PTR	db14.pmtpa.wmnet.
-25	1H	IN PTR	db15.pmtpa.wmnet.
-26	1H	IN PTR	db16.pmtpa.wmnet.
-27	1H	IN PTR	db17.pmtpa.wmnet.
-28	1H	IN PTR	db18.pmtpa.wmnet.
-29	1H	IN PTR	db19.pmtpa.wmnet.
 30	1H	IN PTR	professor.pmtpa.wmnet.
-31	1H	IN PTR	db21.pmtpa.wmnet.
-32	1H	IN PTR	db22.pmtpa.wmnet.
-33	1H	IN PTR	db23.pmtpa.wmnet.
-34	1H	IN PTR	db24.pmtpa.wmnet.
-35	1H	IN PTR	db25.pmtpa.wmnet.
-38	1H	IN PTR	db28.pmtpa.wmnet.
 39	1H	IN PTR	db29.pmtpa.wmnet.
-40	1H	IN PTR	db30.pmtpa.wmnet.
+
 41	1H	IN PTR	db31.pmtpa.wmnet.
 42	1H	IN PTR	db32.pmtpa.wmnet.
 43	1H	IN PTR	db33.pmtpa.wmnet.
@@ -766,24 +751,8 @@ $ORIGIN 6.1.{{ zonename }}.
 16	1H	IN PTR db6.mgmt.pmtpa.wmnet.
 19	1H	IN PTR db9.mgmt.pmtpa.wmnet.
 20	1H	IN PTR db10.mgmt.pmtpa.wmnet.
-21	1H	IN PTR db11.mgmt.pmtpa.wmnet.
-22	1H	IN PTR db12.mgmt.pmtpa.wmnet.
-23	1H	IN PTR db13.mgmt.pmtpa.wmnet.
-24	1H	IN PTR db14.mgmt.pmtpa.wmnet.
-25	1H	IN PTR db15.mgmt.pmtpa.wmnet.
-26	1H	IN PTR db16.mgmt.pmtpa.wmnet.
-27	1H	IN PTR db17.mgmt.pmtpa.wmnet.
-28	1H	IN PTR db18.mgmt.pmtpa.wmnet.
-29	1H	IN PTR db19.mgmt.pmtpa.wmnet.
 30	1H	IN PTR professor.mgmt.pmtpa.wmnet.
-31	1H	IN PTR db21.mgmt.pmtpa.wmnet.
-32	1H	IN PTR db22.mgmt.pmtpa.wmnet.
-33	1H	IN PTR db23.mgmt.pmtpa.wmnet.
-34	1H	IN PTR db24.mgmt.pmtpa.wmnet.
-35	1H	IN PTR db25.mgmt.pmtpa.wmnet.
-38	1H	IN PTR db28.mgmt.pmtpa.wmnet.
 39	1H	IN PTR db29.mgmt.pmtpa.wmnet.
-40	1H	IN PTR db30.mgmt.pmtpa.wmnet.
 41	1H	IN PTR db31.mgmt.pmtpa.wmnet.
 42	1H	IN PTR db32.mgmt.pmtpa.wmnet.
 43	1H	IN PTR db33.mgmt.pmtpa.wmnet.
