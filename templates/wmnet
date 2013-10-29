@@ -221,9 +221,14 @@ wtp1			1H	IN A		10.0.0.23
 
 ; GENERATES
 
-; mw1-mw109
+; mw1-mw50
 {% for i in range(1, 110) %}
 mw{{ i }}	1H	IN A		10.0.11.{{ i }}
+{%- endfor %}
+
+; mw51-mw109
+{% for i in range(51, 110) %}
+mw{{ i }}       1H      IN A            10.0.11.{{ i }}
 {%- endfor %}
 
 ; mw111-mw125
@@ -932,7 +937,6 @@ mw46		1H	IN A		10.1.9.97
 mw47		1H	IN A		10.1.9.98
 mw48		1H	IN A		10.1.9.99
 mw49		1H	IN A		10.1.9.100
-mw50		1H	IN A		10.1.9.101
 mw51		1H	IN A		10.1.9.102
 mw52		1H	IN A		10.1.9.103
 mw53		1H	IN A		10.1.9.104
