@@ -42,18 +42,10 @@ $ORIGIN {{ zonename }}.
 31	1H IN PTR	cp10.wikimedia.org.
 32	1H IN PTR	virt0.wikimedia.org.
 33	1H IN PTR	labs-ns0.wikimedia.org.
-34	1H IN PTR	sq90.wikimedia.org.
-35	1H IN PTR	sq91.wikimedia.org.
-36	1H IN PTR	sq92.wikimedia.org.
-37	1H IN PTR	sq93.wikimedia.org.
-38	1H IN PTR	sq94.wikimedia.org.
-39	1H IN PTR	sq95.wikimedia.org.
-40	1H IN PTR	sq96.wikimedia.org.
 
 47	1H IN PTR	sq37.wikimedia.org.
 48	1H IN PTR	ms10.wikimedia.org.
 
-50	1H IN PTR	sq89.wikimedia.org.
 53	1H IN PTR	sq43.wikimedia.org.
 54	1H IN PTR	sq44.wikimedia.org.
 
@@ -96,17 +88,7 @@ $ORIGIN {{ zonename }}.
 94	1H IN PTR	sq84.wikimedia.org.
 95	1H IN PTR	sq85.wikimedia.org.
 96	1H IN PTR	sq86.wikimedia.org.
-97	1H IN PTR	sq87.wikimedia.org.
-98	1H IN PTR	sq88.wikimedia.org.
 
-101	1H IN PTR	sq97.wikimedia.org.
-102	1H IN PTR	sq98.wikimedia.org.
-103	1H IN PTR	sq99.wikimedia.org.
-104	1H IN PTR	sq100.wikimedia.org.
-105	1H IN PTR	sq101.wikimedia.org.
-106	1H IN PTR	sq102.wikimedia.org.
-107 1H IN PTR	sq103.wikimedia.org.
-108	1H IN PTR	sq104.wikimedia.org.
 
 110	1H IN PTR	lvs5.wikimedia.org.
 111	1H IN PTR	lvs6.wikimedia.org.
@@ -163,8 +145,6 @@ $ORIGIN {{ zonename }}.
 
 181	1H IN PTR	pdf3.wikimedia.org.
 
-182	1H IN PTR	sq105.wikimedia.org.
-183	1H IN PTR	sq106.wikimedia.org.
 184	1H IN PTR	emery.wikimedia.org.
 185	1H IN PTR	dataset2.wikimedia.org.
 186	1H IN PTR	mchenry.wikimedia.org.
