@@ -1385,14 +1385,11 @@ tmh1001			1H	IN A		10.64.0.197
 tmh1002			1H	IN A		 10.64.16.146
 vanadium		1H	IN A		10.64.21.123
 virt1001		1H	IN A		10.64.20.4
-virt1002		1H	IN A		10.64.20.5
-virt1003		1H	IN A		10.64.20.6
 virt1004		1H	IN A		10.64.20.7
 virt1005		1H	IN A		10.64.20.8
 virt1006		1H	IN A		10.64.20.9
 virt1007		1H	IN A		10.64.20.10
 virt1008                1H      IN A            10.64.20.11
-virt1009                1H      IN A            10.64.20.13
 wtp1001         1H  IN A        10.64.32.78
 wtp1002			1H  IN A        10.64.32.73
 wtp1003			1H  IN A        10.64.32.74
@@ -1606,7 +1603,6 @@ virt1006	1H	IN A	10.65.3.66
 WMF3443		1H	IN A	10.65.3.67
 virt1007	1H	IN A	10.65.3.67
 virt1008        1H      IN A    10.65.3.180
-virt1009        1H      IN A    10.65.3.181
 WMF3444		1H	IN A	10.65.3.68
 labsdb1003	1H	IN A	10.65.3.68
 WMF3445		1H	IN A	10.65.3.69
