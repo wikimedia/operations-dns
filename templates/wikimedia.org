@@ -383,37 +383,13 @@ text-lb.ulsfo           1H  IN A        198.35.26.96
 donate-lb.ulsfo         1H  IN A        198.35.26.96    ; explicitly v4 only
 login-lb.ulsfo          1H  IN A        198.35.26.105
                         1H  IN AAAA     2620:0:863:ed1a::1:9
-wikimedia-lb.ulsfo      1H  IN A        198.35.26.96
-                        1H  IN AAAA     2620:0:863:ed1a::0
-wikipedia-lb.ulsfo      1H  IN A        198.35.26.97
-                        1H  IN AAAA     2620:0:863:ed1a::1
-wiktionary-lb.ulsfo     1H  IN A        198.35.26.98
-                        1H  IN AAAA     2620:0:863:ed1a::2
-wikiquote-lb.ulsfo      1H  IN A        198.35.26.99
-                        1H  IN AAAA     2620:0:863:ed1a::3
-wikibooks-lb.ulsfo      1H  IN A        198.35.26.100
-                        1H  IN AAAA     2620:0:863:ed1a::4
-wikisource-lb.ulsfo     1H  IN A        198.35.26.101
-                        1H  IN AAAA     2620:0:863:ed1a::5
-wikinews-lb.ulsfo       1H  IN A        198.35.26.102
-                        1H  IN AAAA     2620:0:863:ed1a::6
-wikiversity-lb.ulsfo    1H  IN A        198.35.26.103
-                        1H  IN AAAA     2620:0:863:ed1a::7
-mediawiki-lb.ulsfo      1H  IN A        198.35.26.104
-                        1H  IN AAAA     2620:0:863:ed1a::8
-foundation-lb.ulsfo     1H  IN A        198.35.26.105
-                        1H  IN AAAA     2620:0:863:ed1a::9
 bits-lb.ulsfo           1H  IN A        198.35.26.106
                         1H  IN AAAA     2620:0:863:ed1a::a
+geoiplookup-lb.ulsfo    1H  IN A        198.35.26.106   ; explicitly v4 only
 upload-lb.ulsfo         1H  IN A        198.35.26.112
                         1H  IN AAAA     2620:0:863:ed1a::2:b
 mobile-lb.ulsfo         1H  IN A        198.35.26.108
                         1H  IN AAAA     2620:0:863:ed1a::c
-wikidata-lb.ulsfo       1H  IN A        198.35.26.114
-                        1H  IN AAAA     2620:0:863:ed1a::d
-wikivoyage-lb.ulsfo     1H  IN A        198.35.26.115
-                        1H  IN AAAA     2620:0:863:ed1a::e
-geoiplookup-lb.ulsfo    1H  IN A        198.35.26.106
 
 
 
