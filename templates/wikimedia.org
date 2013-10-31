@@ -400,8 +400,8 @@ foundation-lb.ulsfo     1H  IN A        198.35.26.105
                         1H  IN AAAA     2620:0:863:ed1a::9
 bits-lb.ulsfo           1H  IN A        198.35.26.106
                         1H  IN AAAA     2620:0:863:ed1a::a
-upload-lb.ulsfo         1H  IN A        198.35.26.107
-                        1H  IN AAAA     2620:0:863:ed1a::b
+upload-lb.ulsfo         1H  IN A        198.35.26.112
+                        1H  IN AAAA     2620:0:863:ed1a::2:b
 mobile-lb.ulsfo         1H  IN A        198.35.26.108
                         1H  IN AAAA     2620:0:863:ed1a::c
 wikidata-lb.ulsfo       1H  IN A        198.35.26.114
