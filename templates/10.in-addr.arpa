@@ -52,7 +52,6 @@ $ORIGIN 0.0.{{ zonename }}.
 43	1H	IN PTR	labstore3.pmtpa.wmnet.
 44	1H	IN PTR	labstore4.pmtpa.wmnet.
 
-50	1H	IN PTR	constable.pmtpa.wmnet.
 51	1H	IN PTR	celsus.pmtpa.wmnet.
 
 200 	1H	IN PTR  vrrp-gw-2.pmtpa.wmnet.
@@ -767,8 +766,6 @@ $ORIGIN 8.1.{{ zonename }}.
 115	1H	IN PTR	wmf5820.mgmt.pmtpa.wmnet.
 115	1H	IN PTR	celsus.mgmt.pmtpa.wmnet.
 116	1H	IN PTR	wmf5821.mgmt.pmtpa.wmnet.
-117	1H	IN PTR	wmf5822.mgmt.pmtpa.wmnet.
-117	1H	IN PTR	constable.mgmt.pmtpa.wmnet.
 118	1H	IN PTR	wmf5823.mgmt.pmtpa.wmnet.
 
 122	1H	IN PTR	pappas.mgmt.pmtpa.wmnet.
