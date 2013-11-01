@@ -255,7 +255,6 @@ srv262		1H	IN A		10.0.8.12
 srv263		1H	IN A		10.0.8.13
 srv264		1H	IN A		10.0.8.14
 srv265		1H	IN A		10.0.8.15
-srv266		1H	IN A		10.0.8.16
 srv267		1H	IN A		10.0.8.17
 srv268		1H	IN A		10.0.8.18
 srv269		1H	IN A		10.0.8.19
@@ -267,7 +266,6 @@ srv274		1H	IN A		10.0.8.24
 srv275		1H	IN A		10.0.8.25
 srv276		1H	IN A		10.0.8.26
 srv277		1H	IN A		10.0.8.27
-srv278		1H	IN A		10.0.8.28
 srv279		1H	IN A		10.0.8.29
 srv280		1H	IN A		10.0.8.30
 
@@ -646,7 +644,6 @@ srv262		1H	IN A		10.1.9.12
 srv263		1H	IN A		10.1.9.13
 srv264		1H	IN A		10.1.9.14
 srv265		1H	IN A		10.1.9.15
-srv266		1H	IN A		10.1.9.16
 srv267		1H	IN A		10.1.9.17
 srv268		1H	IN A		10.1.9.18
 srv269		1H	IN A		10.1.9.19
@@ -658,7 +655,6 @@ srv274		1H	IN A		10.1.9.24
 srv275		1H	IN A		10.1.9.25
 srv276		1H	IN A		10.1.9.26
 srv277		1H	IN A		10.1.9.27
-srv278		1H	IN A		10.1.9.28
 srv279		1H	IN A		10.1.9.29
 srv280		1H	IN A		10.1.9.30
 
