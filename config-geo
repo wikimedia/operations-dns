@@ -235,11 +235,12 @@ plugins => { geoip => {
 			}
 		}
 		donate => {
-			map => generic-map
+			map => ulsfo-migration-map
 			dcmap => {
 				pmtpa => donate-lb.pmtpa.wikimedia.org.
 				eqiad => donate-lb.eqiad.wikimedia.org.
 				esams => donate-lb.esams.wikimedia.org.
+				ulsfo => donate-lb.ulsfo.wikimedia.org.
 			}
 		}
 		# text
