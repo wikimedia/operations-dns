@@ -167,8 +167,6 @@ ms-fe3			1H	IN A		10.0.6.214
 ms-fe4			1H	IN A		10.0.6.215
 ms-fe-rr		1H	IN A		10.0.6.210 ; round robin entry for ms-fe* hosts
 			1H	IN A		10.0.6.211 ; round robin entry for ms-fe* hosts
-tmc1			1H	IN A		10.0.12.21
-tmc2			1H	IN A		10.0.12.22
 nfs1			1H	IN A		10.0.0.244
 nfs2			1H	IN A		10.0.0.247
 nas1-a			1H	IN A		10.0.0.253
@@ -496,7 +494,6 @@ nfs1			1H	IN A		10.1.8.1
 nfs2			1H	IN A		10.1.8.11
 capella			1H	IN A		10.1.8.20
 WMF3914			1H	IN A		10.1.8.44
-tmc1			1H	IN A		10.1.8.44
 WMF3838			1H	IN A		10.1.8.63
 WMF3837			1H	IN A		10.1.8.64
 osm-cp1			1H	IN A		10.1.8.81
@@ -605,7 +602,6 @@ wmf5820			1H	IN A		10.1.8.115
 celsus			1H	IN A		10.1.8.115
 wmf5821			1H	IN A		10.1.8.116
 wmf5823			1H	IN A		10.1.8.118
-tmc2			1H	IN A		10.1.8.125
 WMF5845			1H	IN A		10.1.8.126
 WMF5846			1H	IN A		10.1.8.127
 WMF5847			1H	IN A		10.1.8.128
