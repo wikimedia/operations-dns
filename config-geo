@@ -244,93 +244,83 @@ plugins => { geoip => {
 		}
 		# text
 		foundation-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => foundation-lb.pmtpa.wikimedia.org.
 				eqiad => foundation-lb.eqiad.wikimedia.org.
 				esams => foundation-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 		mediawiki-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => mediawiki-lb.pmtpa.wikimedia.org.
 				eqiad => mediawiki-lb.eqiad.wikimedia.org.
 				esams => mediawiki-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 		wikibooks-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikibooks-lb.pmtpa.wikimedia.org.
 				eqiad => wikibooks-lb.eqiad.wikimedia.org.
 				esams => wikibooks-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 		wikimedia-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikimedia-lb.pmtpa.wikimedia.org.
 				eqiad => wikimedia-lb.eqiad.wikimedia.org.
 				esams => wikimedia-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 		wikinews-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikinews-lb.pmtpa.wikimedia.org.
 				eqiad => wikinews-lb.eqiad.wikimedia.org.
 				esams => wikinews-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 		wikipedia-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikipedia-lb.pmtpa.wikimedia.org.
 				eqiad => wikipedia-lb.eqiad.wikimedia.org.
 				esams => wikipedia-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 		wikiquote-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikiquote-lb.pmtpa.wikimedia.org.
 				eqiad => wikiquote-lb.eqiad.wikimedia.org.
 				esams => wikiquote-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 		wikisource-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikisource-lb.pmtpa.wikimedia.org.
 				eqiad => wikisource-lb.eqiad.wikimedia.org.
 				esams => wikisource-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 		wikiversity-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikiversity-lb.pmtpa.wikimedia.org.
 				eqiad => wikiversity-lb.eqiad.wikimedia.org.
 				esams => wikiversity-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 		wiktionary-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wiktionary-lb.pmtpa.wikimedia.org.
 				eqiad => wiktionary-lb.eqiad.wikimedia.org.
 				esams => wiktionary-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 		mobile-lb => {
@@ -343,21 +333,19 @@ plugins => { geoip => {
 			}
 		}
 		wikidata-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikidata-lb.pmtpa.wikimedia.org.
 				eqiad => wikidata-lb.eqiad.wikimedia.org.
 				esams => wikidata-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 		wikivoyage-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikivoyage-lb.pmtpa.wikimedia.org.
 				eqiad => wikivoyage-lb.eqiad.wikimedia.org.
 				esams => wikivoyage-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 	}
