@@ -100,7 +100,6 @@ $ORIGIN {{ zonename }}.
 132	1H IN PTR	recursor1.wikimedia.org.
 133	1H IN PTR	wiki-mail.wikimedia.org.
 
-135	1H IN PTR	colby.wikimedia.org.
 136	1H IN PTR	mexia.wikimedia.org.
 137	1H IN PTR	torrus.wikimedia.org.
 138	1H IN PTR	locke.wikimedia.org.
