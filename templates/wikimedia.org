@@ -270,7 +270,6 @@ streber			1H	IN A	208.80.152.160
 technetium		1H	IN A	208.80.154.145
 tellurium		1H	IN A	208.80.155.9
 thulium			1H	IN A	208.80.155.12
-titanium		1H	IN A	208.80.154.156
 tridge			1H	IN A	208.80.152.170 ; Cold Backup Server
 virt0			1H	IN A	208.80.152.32
 virt1000		1H	IN A	208.80.154.18
