@@ -653,7 +653,7 @@ $ORIGIN 8.1.{{ zonename }}.
 
 
 14	1H	IN PTR	streber.mgmt.pmtpa.wmnet.
-
+16      1H      IN PTR  amaranth.mgmt.pmtpa.wmnet.
 17	1H	IN PTR	ts-array4a.mgmt.pmtpa.wmnet.
 18	1H	IN PTR	ts-array4b.mgmt.pmtpa.wmnet.
 19	1H	IN PTR	pdf1.mgmt.pmtpa.wmnet.

@@ -369,6 +369,7 @@ ps1-d3-sdtpa		1H	IN A		10.1.5.16
 
 ; SERVERS LISTED ALPHABETICALLY
 
+amaranth		1H      IN A            10.1.8.16
 brewster		1H	IN A		10.1.8.3
 dataset2		1H	IN A		10.1.8.55
 db9			1H	IN A		10.1.6.19
