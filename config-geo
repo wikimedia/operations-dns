@@ -3,112 +3,6 @@ plugins => { geoip => {
 		generic-map => {
 			geoip_db => /usr/share/GeoIP/GeoIPv6.dat
 			geoip_db_v4_overlay => /usr/share/GeoIP/GeoIP.dat
-			datacenters => [eqiad pmtpa esams]
-			map => {
-				# use ISO 3166-2 official names
-				AF => esams,
-				AS => {
-					AE => esams, # United Arab Emirates
-					AM => esams, # Armenia
-					AZ => esams, # Azerbaijan
-					BH => esams, # Bahrain
-					CN => eqiad, # China
-					CY => esams, # Cyprus
-					GE => esams, # Georgia
-					IL => esams, # Israel
-					IQ => esams, # Iraq
-					IR => esams, # Iran (Islamic Republic of)
-					JO => esams, # Jordan
-					JP => eqiad, # Japan
-					KH => eqiad, # Cambodia
-					KP => eqiad, # Korea, Democratic People's Republic of
-					KR => eqiad, # Korea, Republic of
-					KW => esams, # Kuwait
-					LA => eqiad, # Lao People's Democratic Republic
-					LB => esams, # Lebanon
-					MN => eqiad, # Mongolia
-					MY => eqiad, # Malaysia
-					OM => esams, # Oman
-					PH => eqiad, # Philippines
-					PS => esams, # Palestine, State of
-					QA => esams, # Qatar
-					SA => esams, # Saudi Arabia
-					SG => eqiad, # Singapore
-					SY => esams, # Syrian Arab Republic
-					TH => eqiad, # Thailand
-					TW => eqiad, # Taiwan, Province of China
-					VN => eqiad, # Viet Nam
-					YE => esams, # Yemen
-				},
-				EU => {
-					AD => esams, # Andorra
-					AL => esams, # Albania
-					AT => esams, # Austria
-					AX => esams, # Åland Islands
-					BA => esams, # Bosnia and Herzegowina
-					BE => esams, # Belgium
-					BG => esams, # Bulgaria
-					BY => esams, # Belarus
-					CH => esams, # Switzerland
-					CZ => esams, # Czech Republic
-					DE => esams, # Germany
-					DK => esams, # Denmark
-					EE => esams, # Estonia
-					ES => esams, # Spain
-					EU => esams, # Europe
-					FI => esams, # Finland
-					FO => esams, # Faroe Islands
-					FR => esams, # France
-					GB => esams, # United Kingdom
-					GG => esams, # Guernsey
-					GI => esams, # Gibraltar
-					GR => esams, # Greece
-					HR => esams, # Croatia (local name Hrvatska)
-					HU => esams, # Hungary
-					IE => esams, # Ireland
-					IM => esams, # Isle of Man
-					IS => esams, # Iceland
-					IT => esams, # Italy
-					JE => esams, # Jersey
-					LI => esams, # Liechtenstein
-					LT => esams, # Lithuania
-					LU => esams, # Luxembourg
-					LV => esams, # Latvia
-					MC => esams, # Monaco
-					MD => esams, # Moldova, Republic of
-					ME => esams, # Montenegro
-					MK => esams, # Macedonia, the Former Yugoslav Republic of
-					MT => esams, # Malta
-					NL => esams, # Netherlands
-					NO => esams, # Norway
-					PL => esams, # Poland
-					PT => esams, # Portugal
-					RO => esams, # Romania
-					RS => esams, # Serbia
-					RU => esams, # Russian Federation
-					SE => esams, # Sweden
-					SI => esams, # Slovenia
-					SJ => esams, # Svalbard and Jan Mayen Islands
-					SK => esams, # Slovakia
-					SM => esams, # San Marino
-					TR => esams, # Turkey
-					UA => esams, # Ukraine
-					VA => esams, # Holy See (Vatican City State)
-				},
-				default => eqiad,
-			}
-		},
-		only-primary-map => {
-			geoip_db => /usr/share/GeoIP/GeoIPv6.dat
-			geoip_db_v4_overlay => /usr/share/GeoIP/GeoIP.dat
-			datacenters => [eqiad pmtpa]
-			map => {
-				default => eqiad,
-			}
-		},
-		ulsfo-migration-map => {
-			geoip_db => /usr/share/GeoIP/GeoIPv6.dat
-			geoip_db_v4_overlay => /usr/share/GeoIP/GeoIP.dat
 			datacenters => [eqiad pmtpa esams ulsfo]
 			map => {
 				# use ISO 3166-2 official names
@@ -204,11 +98,19 @@ plugins => { geoip => {
 				OC => ulsfo,
 				default => eqiad,
 			}
-		}
+		},
+		only-primary-map => {
+			geoip_db => /usr/share/GeoIP/GeoIPv6.dat
+			geoip_db_v4_overlay => /usr/share/GeoIP/GeoIP.dat
+			datacenters => [eqiad pmtpa]
+			map => {
+				default => eqiad,
+			}
+		},
 	},
 	resources => {
 		bits => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => bits-lb.pmtpa.wikimedia.org.
 				eqiad => bits-lb.eqiad.wikimedia.org.
@@ -217,7 +119,7 @@ plugins => { geoip => {
 			}
 		}
 		upload => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => upload-lb.pmtpa.wikimedia.org.
 				eqiad => upload-lb.eqiad.wikimedia.org.
@@ -226,7 +128,7 @@ plugins => { geoip => {
 			}
 		}
 		geoiplookup => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => geoiplookup-lb.pmtpa.wikimedia.org.
 				eqiad => geoiplookup-lb.eqiad.wikimedia.org.
@@ -235,7 +137,7 @@ plugins => { geoip => {
 			}
 		}
 		donate => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => donate-lb.pmtpa.wikimedia.org.
 				eqiad => donate-lb.eqiad.wikimedia.org.
@@ -245,7 +147,7 @@ plugins => { geoip => {
 		}
 		# text
 		foundation-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => foundation-lb.pmtpa.wikimedia.org.
 				eqiad => foundation-lb.eqiad.wikimedia.org.
@@ -254,7 +156,7 @@ plugins => { geoip => {
 			}
 		}
 		mediawiki-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => mediawiki-lb.pmtpa.wikimedia.org.
 				eqiad => mediawiki-lb.eqiad.wikimedia.org.
@@ -263,7 +165,7 @@ plugins => { geoip => {
 			}
 		}
 		wikibooks-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikibooks-lb.pmtpa.wikimedia.org.
 				eqiad => wikibooks-lb.eqiad.wikimedia.org.
@@ -272,7 +174,7 @@ plugins => { geoip => {
 			}
 		}
 		wikimedia-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikimedia-lb.pmtpa.wikimedia.org.
 				eqiad => wikimedia-lb.eqiad.wikimedia.org.
@@ -281,7 +183,7 @@ plugins => { geoip => {
 			}
 		}
 		wikinews-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikinews-lb.pmtpa.wikimedia.org.
 				eqiad => wikinews-lb.eqiad.wikimedia.org.
@@ -290,7 +192,7 @@ plugins => { geoip => {
 			}
 		}
 		wikipedia-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikipedia-lb.pmtpa.wikimedia.org.
 				eqiad => wikipedia-lb.eqiad.wikimedia.org.
@@ -299,7 +201,7 @@ plugins => { geoip => {
 			}
 		}
 		wikiquote-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikiquote-lb.pmtpa.wikimedia.org.
 				eqiad => wikiquote-lb.eqiad.wikimedia.org.
@@ -308,7 +210,7 @@ plugins => { geoip => {
 			}
 		}
 		wikisource-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikisource-lb.pmtpa.wikimedia.org.
 				eqiad => wikisource-lb.eqiad.wikimedia.org.
@@ -317,7 +219,7 @@ plugins => { geoip => {
 			}
 		}
 		wikiversity-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikiversity-lb.pmtpa.wikimedia.org.
 				eqiad => wikiversity-lb.eqiad.wikimedia.org.
@@ -326,7 +228,7 @@ plugins => { geoip => {
 			}
 		}
 		wiktionary-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wiktionary-lb.pmtpa.wikimedia.org.
 				eqiad => wiktionary-lb.eqiad.wikimedia.org.
@@ -335,7 +237,7 @@ plugins => { geoip => {
 			}
 		}
 		mobile-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => mobile-lb.pmtpa.wikimedia.org.
 				eqiad => mobile-lb.eqiad.wikimedia.org.
@@ -344,7 +246,7 @@ plugins => { geoip => {
 			}
 		}
 		wikidata-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikidata-lb.pmtpa.wikimedia.org.
 				eqiad => wikidata-lb.eqiad.wikimedia.org.
@@ -353,7 +255,7 @@ plugins => { geoip => {
 			}
 		}
 		wikivoyage-lb => {
-			map => ulsfo-migration-map
+			map => generic-map
 			dcmap => {
 				pmtpa => wikivoyage-lb.pmtpa.wikimedia.org.
 				eqiad => wikivoyage-lb.eqiad.wikimedia.org.
