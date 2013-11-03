@@ -19,10 +19,10 @@ plugins => { geoip => {
 					IQ => esams, # Iraq
 					IR => esams, # Iran (Islamic Republic of)
 					JO => esams, # Jordan
-					JP => eqiad, # Japan
+					JP => ulsfo, # Japan
 					KH => eqiad, # Cambodia
-					KP => eqiad, # Korea, Democratic People's Republic of
-					KR => eqiad, # Korea, Republic of
+					KP => ulsfo, # Korea, Democratic People's Republic of
+					KR => ulsfo, # Korea, Republic of
 					KW => esams, # Kuwait
 					LA => eqiad, # Lao People's Democratic Republic
 					LB => esams, # Lebanon
