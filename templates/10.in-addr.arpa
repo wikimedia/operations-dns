@@ -32,7 +32,6 @@ $ORIGIN 0.0.{{ zonename }}.
 20	1H	IN PTR	harmon.pmtpa.wmnet.
 21	1H	IN PTR	tarin.pmtpa.wmnet.
 22	1H	IN PTR	ersch.pmtpa.wmnet.
-23	1H	IN PTR	wtp1.pmtpa.wmnet.
 24	1H	IN PTR	stafford.pmtpa.wmnet.
 25	1H	IN PTR	erzurumi.pmtpa.wmnet.
 26	1H	IN PTR	tmh1.pmtpa.wmnet.
@@ -40,9 +39,6 @@ $ORIGIN 0.0.{{ zonename }}.
 28	1H	IN PTR	lvs5.pmtpa.wmnet.
 29	1H	IN PTR	lvs6.pmtpa.wmnet.
 31  	1H	IN PTR  bayle.pmtpa.wmnet.
-33  	1H	IN PTR  tola.pmtpa.wmnet.
-34  	1H	IN PTR  lardner.pmtpa.wmnet.
-35  	1H	IN PTR  kuo.pmtpa.wmnet.
 36      1H      IN PTR  solr1.pmtpa.wmnet.
 37      1H      IN PTR  solr2.pmtpa.wmnet.
 38      1H      IN PTR  solr3.pmtpa.wmnet.
@@ -52,7 +48,6 @@ $ORIGIN 0.0.{{ zonename }}.
 43	1H	IN PTR	labstore3.pmtpa.wmnet.
 44	1H	IN PTR	labstore4.pmtpa.wmnet.
 
-51	1H	IN PTR	celsus.pmtpa.wmnet.
 
 200 	1H	IN PTR  vrrp-gw-2.pmtpa.wmnet.
 201 	1H	IN PTR  ae0-2.cr1-sdtpa.wikimedia.org.
@@ -662,7 +657,6 @@ $ORIGIN 8.1.{{ zonename }}.
 22	1H	IN PTR	snapshot2.mgmt.pmtpa.wmnet.
 23	1H	IN PTR	snapshot3.mgmt.pmtpa.wmnet.
 25	1H	IN PTR	wmf3930.mgmt.pmtpa.wmnet.
-25	1H	IN PTR	wtp1.mgmt.pmtpa.wmnet.
 28	1H	IN PTR	virt0.mgmt.pmtpa.wmnet.
 29	1H	IN PTR	pdf2.mgmt.pmtpa.wmnet.
 30	1H	IN PTR	stafford.mgmt.pmtpa.wmnet.
@@ -755,14 +749,6 @@ $ORIGIN 8.1.{{ zonename }}.
 110	1H	IN PTR	wmf5815.mgmt.pmtpa.wmnet.
 111	1H	IN PTR	wmf5816.mgmt.pmtpa.wmnet.
 111	1H	IN PTR	mexia.mgmt.pmtpa.wmnet.
-112	1H	IN PTR	wmf5817.mgmt.pmtpa.wmnet.
-112	1H	IN PTR	tola.mgmt.pmtpa.wmnet.
-113	1H	IN PTR	wmf5818.mgmt.pmtpa.wmnet.
-113	1H	IN PTR	lardner.mgmt.pmtpa.wmnet.
-114	1H	IN PTR	wmf5819.mgmt.pmtpa.wmnet.
-114	1H	IN PTR	kuo.mgmt.pmtpa.wmnet.
-115	1H	IN PTR	wmf5820.mgmt.pmtpa.wmnet.
-115	1H	IN PTR	celsus.mgmt.pmtpa.wmnet.
 116	1H	IN PTR	wmf5821.mgmt.pmtpa.wmnet.
 118	1H	IN PTR	wmf5823.mgmt.pmtpa.wmnet.
 

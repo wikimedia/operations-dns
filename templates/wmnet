@@ -64,7 +64,6 @@ es3-secondary		5M	IN CNAME	es8.pmtpa.wmnet.
 
 ; Servers (alphabetic order)
 
-celsus			1H	IN A		10.0.0.51
 db9			1H	IN A		10.0.0.242
 db10			1H	IN A		10.0.0.243
 professor		1H	IN A		10.0.6.30
@@ -130,7 +129,6 @@ es8			1H	IN A		10.0.0.237
 es9                     1H      IN A            10.0.0.220
 es10                    1H      IN A            10.0.0.224
 harmon		1H	IN A		10.0.0.20
-kuo			1H	IN A		10.0.0.35
 projectstorage		1H	IN A		10.0.0.41
 			1H	IN A		10.0.0.42
 labstore1		1H	IN A		10.0.0.41
@@ -138,7 +136,6 @@ labstore2		1H	IN A		10.0.0.42
 labstore3		1H	IN A		10.0.0.43
 labstore4		1H	IN A		10.0.0.44
 labnfs			1H  IN A		10.0.0.45
-lardner			1H	IN A		10.0.0.34
 maurus			1H	IN A		10.0.0.16
 ms1			1H	IN A		10.0.0.250
 ms3			1H	IN A		10.0.0.248
@@ -191,7 +188,6 @@ tarin			1H	IN A		10.0.0.21
 tingxi			1H	IN A		10.0.0.12
 tmh1			1H	IN A		10.0.0.26
 tmh2			1H	IN A		10.0.0.27
-tola			1H	IN A		10.0.0.33
 instancestorage		1H	IN A		10.4.16.2
 			1H	IN A		10.4.16.3
 			1H	IN A		10.4.16.4
@@ -214,7 +210,6 @@ virt12			1H	IN A		10.4.16.16
 virt13			1H	IN A		10.4.16.17
 virt14			1H	IN A		10.4.16.18
 virt15			1H	IN A		10.4.16.19
-wtp1			1H	IN A		10.0.0.23
 
 ; GENERATES
 
@@ -547,7 +542,6 @@ storage3		1H	IN A		10.1.8.54
 streber			1H	IN A		10.1.8.14
 tarin			1H	IN A		10.1.8.35
 wmf3930			1H	IN A		10.1.8.25
-wtp1			1H	IN A		10.1.8.25
 tridge			1H	IN A		10.1.252.170
 ts-array4a		1H	IN A		10.1.8.17
 ts-array4b		1H	IN A		10.1.8.18
@@ -591,14 +585,6 @@ wmf5711			1H	IN A		10.1.8.109
 wmf5815			1H	IN A		10.1.8.110
 wmf5816			1H	IN A		10.1.8.111
 mexia			1H	IN A		10.1.8.111
-wmf5817			1H	IN A		10.1.8.112
-tola			1H	IN A		10.1.8.112
-wmf5818			1H	IN A		10.1.8.113
-lardner			1H	IN A		10.1.8.113
-wmf5819			1H	IN A		10.1.8.114
-kuo			1H	IN A		10.1.8.114
-wmf5820			1H	IN A		10.1.8.115
-celsus			1H	IN A		10.1.8.115
 wmf5821			1H	IN A		10.1.8.116
 wmf5823			1H	IN A		10.1.8.118
 WMF5845			1H	IN A		10.1.8.126
