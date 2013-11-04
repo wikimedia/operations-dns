@@ -133,12 +133,14 @@ $ORIGIN {{ zonename }}.
 218 1H  IN PTR  pfw1-eqiad.wikimedia.org.
 219 1H  IN PTR  pfw2-eqiad.wikimedia.org.
 
-;208.80.154.220/31 (cr2-eqiad <--> pfw2-eqiad)
+; 208.80.154.220/31 (cr2-eqiad <--> pfw2-eqiad)
 220 1H  IN PTR  xe-5-0-3.cr2-eqiad.wikimedia.org.
 221 1H  IN PTR  xe-15-0-0.pfw2-eqiad.wikimedia.org.
 
 ; LVS out-of-subnet service IPs (208.80.154.224/27)
+; FIXME : These will be slowly rearranged to fit
 
+; Desktop Text & Assets  208.80.154.224 - 231 (208.80.154.224/29)  
 224 1H  IN PTR  wikimedia-lb.eqiad.wikimedia.org.
 225 1H  IN PTR  wikipedia-lb.eqiad.wikimedia.org.
 226 1H  IN PTR  wiktionary-lb.eqiad.wikimedia.org.
@@ -147,6 +149,8 @@ $ORIGIN {{ zonename }}.
 229 1H  IN PTR  wikisource-lb.eqiad.wikimedia.org.
 230 1H  IN PTR  wikinews-lb.eqiad.wikimedia.org.
 231 1H  IN PTR  wikiversity-lb.eqiad.wikimedia.org.
+
+; Mobile Zero & general Support 208.80.154.232 - 39 (208.80.154.232/29)
 232 1H  IN PTR  mediawiki-lb.eqiad.wikimedia.org.
 233 1H  IN PTR  foundation-lb.eqiad.wikimedia.org.
 234 1H  IN PTR  bits-lb.eqiad.wikimedia.org.
@@ -155,8 +159,12 @@ $ORIGIN {{ zonename }}.
 237 1H  IN PTR  payments-lb.eqiad.wikimedia.org.
 238 1H  IN PTR  ns0.wikimedia.org.
 239 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org.
+
+; Multimedia 208.80.154.240 - 247 (208.80.154.240/29)
 240 1H  IN PTR  osm-lb.eqiad.wikimedia.org.
 241 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.
 242 1H  IN PTR  wikidata-lb.eqiad.wikimedia.org.
 243 1H  IN PTR  wikivoyage-lb.eqiad.wikimedia.org.
-244 1H	IN PTR	parsoid-lb.eqiad.wikimedia.org.
+
+; Misc 208.80.154.248 - 208.80.154.255 (208.80.154.248/29)
+248 1H	IN PTR	parsoid-lb.eqiad.wikimedia.org.
