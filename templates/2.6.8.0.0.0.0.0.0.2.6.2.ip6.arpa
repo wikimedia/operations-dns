@@ -207,6 +207,13 @@ $ORIGIN 5.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	xe-0-0-3-0.cr1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	te-6-1.csw1-esams.wikimedia.org.
 
+; cr1-eqiad <--> cr2-knams (2620:0:862:fe06::/64)
+
+$ORIGIN 6.0.e.f.{{ zonename }}.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	xe-4-2-2.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	xe-1-1-0.cr2-knams.wikimedia.org.
+
 ; Loopback IPs
 
 $ORIGIN f.f.f.f.{{ zonename }}.
