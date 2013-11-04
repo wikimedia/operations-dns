@@ -183,7 +183,6 @@ solr1                   1H      IN A            10.0.0.36
 solr2                   1H      IN A            10.0.0.37
 solr3                   1H      IN A            10.0.0.38
 stafford		1H	IN A		10.0.0.24
-storage3		1H	IN A		10.0.0.219
 tarin			1H	IN A		10.0.0.21
 tingxi			1H	IN A		10.0.0.12
 tmh1			1H	IN A		10.0.0.26
@@ -532,7 +531,6 @@ ssl2			1H	IN A		10.1.7.42
 ssl3			1H	IN A		10.1.7.43
 ssl4			1H	IN A		10.1.7.44
 stat1			1H	IN A		10.1.8.65
-storage3		1H	IN A		10.1.8.54
 streber			1H	IN A		10.1.8.14
 tarin			1H	IN A		10.1.8.35
 wmf3930			1H	IN A		10.1.8.25
