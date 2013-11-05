@@ -168,7 +168,6 @@ molybdenum		1H	IN A	208.80.154.144
 ms10			1H	IN A	208.80.152.48
 ms1001			1H	IN A	208.80.154.16
 neon			1H	IN A	208.80.154.14
-neptunium		1H	IN A	208.80.154.48
 netmon1001		1H	IN A	208.80.154.159
 nickel			1H	IN A	208.80.154.150
 
