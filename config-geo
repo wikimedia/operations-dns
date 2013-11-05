@@ -149,6 +149,21 @@ plugins => { geoip => {
 						WV => eqiad, # West Virginia
 						WY => eqiad, # Wyoming
 					},
+					CA => { # Canada
+						AB => eqiad, # Alberta
+						BC => ulsfo, # British Columbia
+						MB => eqiad, # Manitoba
+						NB => eqiad, # New Brunswick
+						NL => eqiad, # Newfoundland
+						NS => eqiad, # Nova Scotia
+						NT => eqiad, # Northwest Territories
+						NU => eqiad, # Nunavut
+						ON => eqiad, # Ontario
+						PE => eqiad, # Prince Edward Island
+						QC => eqiad, # Quebec
+						SK => eqiad, # Saskatchewan
+						YT => ulsfo, # Yukon Territory
+					},
 				},
 				OC => ulsfo,
 				default => eqiad,
