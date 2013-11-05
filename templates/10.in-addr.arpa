@@ -685,7 +685,6 @@ $ORIGIN 8.1.{{ zonename }}.
 66	1H	IN PTR	nas1-a-e0m.mgmt.pmtpa.wmnet.
 67	1H	IN PTR	nas1-b-e0m.mgmt.pmtpa.wmnet.
 68	1H	IN PTR	WMF3641.mgmt.pmtpa.wmnet.
-68	1H	IN PTR	marmontel.mgmt.pmtpa.wmnet.
 69	1H	IN PTR	ms-fe1.mgmt.pmtpa.wmnet.
 69	1H	IN PTR	WMF3639.mgmt.pmtpa.wmnet.
 70	1H	IN PTR	ms-fe2.mgmt.pmtpa.wmnet.
