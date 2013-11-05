@@ -1,8 +1,8 @@
 plugins => { geoip => {
 	maps => {
 		generic-map => {
-			geoip_db => /usr/share/GeoIP/GeoIPv6.dat
-			geoip_db_v4_overlay => /usr/share/GeoIP/GeoIP.dat
+			geoip_db => /usr/share/GeoIP/GeoLiteCityv6.dat
+			geoip_db_v4_overlay => /usr/share/GeoIP/GeoIPCity.dat
 			datacenters => [eqiad pmtpa esams ulsfo]
 			map => {
 				# use ISO 3166-2 official names
@@ -94,6 +94,61 @@ plugins => { geoip => {
 					TR => esams, # Turkey
 					UA => esams, # Ukraine
 					VA => esams, # Holy See (Vatican City State)
+				},
+				NA => {
+					US => { # United States of America
+						AK => eqiad, # Alaska
+						AL => eqiad, # Alabama
+						AR => eqiad, # Arkansas
+						AZ => eqiad, # Arizona
+						CA => eqiad, # California
+						CO => eqiad, # Colorado
+						CT => eqiad, # Connecticut
+						DC => eqiad, # District of Columbia
+						DE => eqiad, # Delaware
+						FL => eqiad, # Florida
+						GA => eqiad, # Georgia
+						HI => eqiad, # Hawaii
+						IA => eqiad, # Iowa
+						ID => eqiad, # Idaho
+						IL => eqiad, # Illinois
+						IN => eqiad, # Indiana
+						KS => eqiad, # Kansas
+						KY => eqiad, # Kentucky
+						LA => eqiad, # Louisiana
+						MA => eqiad, # Massachusetts
+						MD => eqiad, # Maryland
+						ME => eqiad, # Maine
+						MI => eqiad, # Michigan
+						MN => eqiad, # Minnesota
+						MO => eqiad, # Missouri
+						MS => eqiad, # Mississippi
+						MT => eqiad, # Montana
+						NC => eqiad, # North Carolina
+						ND => eqiad, # North Dakota
+						NE => eqiad, # Nebraska
+						NH => eqiad, # New Hampshire
+						NJ => eqiad, # New Jersey
+						NM => eqiad, # New Mexico
+						NV => eqiad, # Nevada
+						NY => eqiad, # New York
+						OH => eqiad, # Ohio
+						OK => eqiad, # Oklahoma
+						OR => eqiad, # Oregon
+						PA => eqiad, # Pennsylvania
+						RI => eqiad, # Rhode Island
+						SC => eqiad, # South Carolina
+						SD => eqiad, # South Dakota
+						TN => eqiad, # Tennessee
+						TX => eqiad, # Texas
+						UT => eqiad, # Utah
+						VA => eqiad, # Virginia
+						VT => eqiad, # Vermont
+						WA => eqiad, # Washington
+						WI => eqiad, # Wisconsin
+						WV => eqiad, # West Virginia
+						WY => eqiad, # Wyoming
+					},
 				},
 				OC => ulsfo,
 				default => eqiad,
