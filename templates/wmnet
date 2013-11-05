@@ -137,9 +137,6 @@ labstore3		1H	IN A		10.0.0.43
 labstore4		1H	IN A		10.0.0.44
 labnfs			1H  IN A		10.0.0.45
 maurus			1H	IN A		10.0.0.16
-ms1			1H	IN A		10.0.0.250
-ms3			1H	IN A		10.0.0.248
-ms4			1H	IN A		10.0.0.251
 ms5			1H	IN A		10.0.0.252
 ms7			1H	IN A		10.0.0.246
 ms8			1H	IN A		10.0.0.229
@@ -461,9 +458,6 @@ lvs4			1H	IN A		10.1.4.4
 lvs5			1H	IN A		10.1.8.26
 lvs6			1H	IN A		10.1.8.27
 mchenry			1H	IN A		10.1.230.240
-ms1			1H	IN A		10.1.7.1
-ms3			1H	IN A		10.1.7.3
-ms4			1H	IN A		10.1.7.4
 ms5			1H	IN A		10.1.7.5
 ms7			1H	IN A		10.1.7.6
 ms8			1H	IN A		10.1.7.7
