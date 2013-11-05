@@ -30,21 +30,6 @@ $ORIGIN {{ zonename }}.
 15	1H IN PTR	ms-be3003.esams.wikimedia.org.
 16	1H IN PTR	ms-be3004.esams.wikimedia.org.
 
-26	1H IN PTR	knsq16.esams.wikimedia.org.
-27	1H IN PTR	knsq17.esams.wikimedia.org.
-28	1H IN PTR	knsq18.esams.wikimedia.org.
-29	1H IN PTR	knsq19.esams.wikimedia.org.
-30	1H IN PTR	knsq20.esams.wikimedia.org.
-31	1H IN PTR	knsq21.esams.wikimedia.org.
-32	1H IN PTR	knsq22.esams.wikimedia.org.
-33	1H IN PTR	knsq23.esams.wikimedia.org.
-34	1H IN PTR	knsq24.esams.wikimedia.org.
-35	1H IN PTR	knsq25.esams.wikimedia.org.
-36	1H IN PTR	knsq26.esams.wikimedia.org.
-37	1H IN PTR	knsq27.esams.wikimedia.org.
-38	1H IN PTR	knsq28.esams.wikimedia.org.
-39	1H IN PTR	knsq29.esams.wikimedia.org.
-40	1H IN PTR	knsq30.esams.wikimedia.org.
 41	1H IN PTR	amssq31.esams.wikimedia.org.
 42	1H IN PTR	amssq32.esams.wikimedia.org.
 43	1H IN PTR	amssq33.esams.wikimedia.org.

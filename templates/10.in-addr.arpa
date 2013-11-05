@@ -1073,22 +1073,6 @@ $ORIGIN 0.21.{{ zonename }}.
 6	1H	IN PTR	ms-fe3001.mgmt.esams.wmnet.
 7	1H	IN PTR	ms-fe3002.mgmt.esams.wmnet.
 
-31	1H	IN PTR	knsq16.mgmt.esams.wmnet.
-32	1H	IN PTR	knsq17.mgmt.esams.wmnet.
-33	1H	IN PTR	knsq18.mgmt.esams.wmnet.
-34	1H	IN PTR	knsq19.mgmt.esams.wmnet.
-35	1H	IN PTR	knsq20.mgmt.esams.wmnet.
-36	1H	IN PTR	knsq21.mgmt.esams.wmnet.
-37	1H	IN PTR	knsq22.mgmt.esams.wmnet.
-38	1H	IN PTR	knsq23.mgmt.esams.wmnet.
-39	1H	IN PTR	knsq24.mgmt.esams.wmnet.
-40	1H	IN PTR	knsq25.mgmt.esams.wmnet.
-41	1H	IN PTR	knsq26.mgmt.esams.wmnet.
-42	1H	IN PTR	knsq27.mgmt.esams.wmnet.
-43	1H	IN PTR	knsq28.mgmt.esams.wmnet.
-44	1H	IN PTR	knsq29.mgmt.esams.wmnet.
-45	1H	IN PTR	knsq30.mgmt.esams.wmnet.
-
 ; 46-50 are used by TS
 
 56	1H	IN PTR	amssq31.mgmt.esams.wmnet.
