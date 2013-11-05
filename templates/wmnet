@@ -287,12 +287,6 @@ payments2	1H	IN A		10.0.9.2
 payments3	1H	IN A		10.0.9.3
 payments4	1H	IN A		10.0.9.4
 
-;search servers
-; search13-21
-{% for i in range(13, 21) %}
-search{{ i }}	1H	IN A		10.0.3.{{ i }}
-{%- endfor %}
-
 ; Network equipment etc.
 
 vl-2-0                  1H	IN A		10.0.0.200
@@ -500,15 +494,6 @@ pdf1			1H	IN A		10.1.8.19
 pdf2			1H	IN A		10.1.8.29
 pdf3			1H	IN A		10.1.8.37
 sanger			1H	IN A		10.1.230.241
-
-search13		1H	IN A		10.1.4.23
-search14		1H	IN A		10.1.4.24
-search15		1H	IN A		10.1.4.25
-search16		1H	IN A		10.1.4.26
-search17		1H	IN A		10.1.4.27
-search18		1H	IN A		10.1.4.28
-search19		1H	IN A		10.1.4.29
-search20		1H	IN A		10.1.4.30
 searchidx2		1H	IN A		10.1.4.31
 sockpuppet		1H	IN A		10.1.8.2
 solr1                   1H      IN A            10.1.4.60
