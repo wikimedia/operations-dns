@@ -181,8 +181,6 @@ $ORIGIN 6.0.{{ zonename }}.
 86	1H	IN PTR	db76.pmtpa.wmnet.
 87	1H	IN PTR	db77.pmtpa.wmnet.
 88	1H	IN PTR	db78.pmtpa.wmnet.
-89	1H	IN PTR	db79.pmtpa.wmnet.
-90	1H	IN PTR	db80.pmtpa.wmnet.
 
 200	1H	IN PTR 	ms-be1.pmtpa.wmnet.
 201	1H	IN PTR 	ms-be2.pmtpa.wmnet.
