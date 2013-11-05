@@ -102,12 +102,6 @@ $ORIGIN 3.0.{{ zonename }}.
 
 52	1H	IN PTR	searchidx2.pmtpa.wmnet.
 
-; Search servers
-; search13-21
-{% for i in range(13, 21) %}
-{{ i }}	1H	IN PTR	search{{ i }}.pmtpa.wmnet.
-{%- endfor %}
-
 ; Service IPs
 
 $ORIGIN 5.0.{{ zonename }}.
@@ -494,14 +488,6 @@ $ORIGIN 3.1.{{ zonename }}.
 
 ; Search Servers
 $ORIGIN 4.1.{{ zonename }}.
-23	1H	IN PTR search13.mgmt.pmtpa.wmnet.
-24	1H	IN PTR search14.mgmt.pmtpa.wmnet.
-25	1H	IN PTR search15.mgmt.pmtpa.wmnet.
-26	1H	IN PTR search16.mgmt.pmtpa.wmnet.
-27	1H	IN PTR search17.mgmt.pmtpa.wmnet.
-28	1H	IN PTR search18.mgmt.pmtpa.wmnet.
-29	1H	IN PTR search19.mgmt.pmtpa.wmnet.
-30	1H	IN PTR search20.mgmt.pmtpa.wmnet.
 31	1H	IN PTR searchidx2.mgmt.pmtpa.wmnet.
 
 60      1H      IN PTR solr1.mgmt.pmtpa.wmnet.
