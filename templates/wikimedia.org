@@ -675,7 +675,6 @@ bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
 careers			1H	IN CNAME	wikimedia-lb
 civicrm			1H	IN CNAME	aluminium
 civicrm-dev		1H	IN CNAME	aluminium
-codereview-proxy	1H	IN CNAME	kaulen
 coffee			1H	IN CNAME	wikimedia-lb
 communityblog		1H	IN CNAME	holmium.wikimedia.org.
 commons.prototype	1H	IN A		208.80.152.249
