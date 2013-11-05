@@ -992,8 +992,8 @@ foundation-lb           1H      IN A    91.198.174.235
                         1H      IN AAAA 2620:0:862:ed1a::9
 bits-lb                 1H      IN A    91.198.174.233
                         1H      IN AAAA 2620:0:862:ed1a::a
-upload-lb               1H      IN A    91.198.174.234
-                        1H      IN AAAA 2620:0:862:ed1a::b
+upload-lb               1H      IN A    91.198.174.208
+                        1H      IN AAAA 2620:0:862:ed1a::2:b
 mobile-lb				1H		IN A	91.198.174.236
 						1H		IN AAAA	2620:0:862:ed1a::c
 wikidata-lb				1H		IN A	91.198.174.237
