@@ -1523,7 +1523,6 @@ $ORIGIN 16.64.{{ zonename }}.
 140	1H IN PTR	mw1160.eqiad.wmnet.
 141	1H IN PTR	snapshot1003.eqiad.wmnet.
 142	1H IN PTR	snapshot1004.eqiad.wmnet.
-143	1H IN PTR	cobalt.eqiad.wmnet.
 144	1H IN PTR	db1049.eqiad.wmnet.
 145	1H IN PTR	db1050.eqiad.wmnet.
 146	1H IN PTR	tmh1002.eqiad.wmnet.
@@ -1564,7 +1563,6 @@ $ORIGIN 16.64.{{ zonename }}.
 181 1H IN PTR   wtp1013.eqiad.wmnet.
 182 1H IN PTR   wtp1014.eqiad.wmnet.
 183 1H IN PTR   rdb1004.eqiad.wmnet.
-184 1H IN PTR   argon.eqiad.wmnet.
 
 $ORIGIN 17.64.{{ zonename }}.
 
@@ -1681,8 +1679,6 @@ $ORIGIN 32.64.{{ zonename }}.
 68      1H IN PTR       mw1198.eqiad.wmnet.
 69      1H IN PTR       mw1199.eqiad.wmnet.
 70      1H IN PTR       mw1200.eqiad.wmnet.
-71      1H IN PTR       neodymium.eqiad.wmnet.
-72      1H IN PTR       promethium.eqiad.wmnet.
 73		1H IN PTR		wtp1002.eqiad.wmnet.
 74		1H IN PTR		wtp1003.eqiad.wmnet.
 75		1H IN PTR		wtp1004.eqiad.wmnet.
