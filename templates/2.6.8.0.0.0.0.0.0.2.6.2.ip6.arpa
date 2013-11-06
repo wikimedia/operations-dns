@@ -29,6 +29,23 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 e.2.4.4.0.e.e.f.f.f.4.2.b.1.2.0	1H IN PTR	ortelius.esams.wikimedia.org.
 4.f.9.7.a.8.e.f.f.f.b.8.3.2.2.0	1H IN PTR	ptolemy.esams.wikimedia.org.
 
+7.5.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq47.esams.wikimedia.org.
+8.5.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq48.esams.wikimedia.org.
+9.5.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq49.esams.wikimedia.org.
+0.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq50.esams.wikimedia.org.
+1.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq51.esams.wikimedia.org.
+2.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq52.esams.wikimedia.org.
+3.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq53.esams.wikimedia.org.
+4.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq54.esams.wikimedia.org.
+5.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq55.esams.wikimedia.org.
+6.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq56.esams.wikimedia.org.
+7.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq57.esams.wikimedia.org.
+8.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq58.esams.wikimedia.org.
+9.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq59.esams.wikimedia.org.
+0.7.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq60.esams.wikimedia.org.
+1.7.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq61.esams.wikimedia.org.
+2.7.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq62.esams.wikimedia.org.
+
 3.7.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3003.esams.wikimedia.org.
 4.7.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3004.esams.wikimedia.org.
 5.7.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3005.esams.wikimedia.org.
