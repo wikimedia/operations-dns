@@ -804,7 +804,9 @@ analytics1018		 1H	IN A		 10.64.36.118
 analytics1019		 1H	IN A		 10.64.36.119
 analytics1020		 1H	IN A		 10.64.36.120
 analytics1021		 1H	IN A		 10.64.36.121
+			 1H	IN AAAA		 2620:0:861:106:10:64:36:121
 analytics1022		 1H	IN A		 10.64.36.122
+			 1H	IN AAAA		 2620:0:861:106:10:64:36:122
 analytics1023            1H     IN A             10.64.36.123
 analytics1024            1H     IN A             10.64.36.124
 analytics1025            1H     IN A             10.64.36.125
