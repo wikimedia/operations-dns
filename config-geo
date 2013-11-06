@@ -320,7 +320,7 @@ plugins => { geoip => {
 			dcmap => {
 				pmtpa => wikidata-lb.pmtpa.wikimedia.org.
 				eqiad => wikidata-lb.eqiad.wikimedia.org.
-				esams => wikidata-lb.esams.wikimedia.org.
+				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
@@ -329,7 +329,7 @@ plugins => { geoip => {
 			dcmap => {
 				pmtpa => wikivoyage-lb.pmtpa.wikimedia.org.
 				eqiad => wikivoyage-lb.eqiad.wikimedia.org.
-				esams => wikivoyage-lb.esams.wikimedia.org.
+				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
