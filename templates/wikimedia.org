@@ -705,7 +705,6 @@ metrics-api		1H	IN CNAME	stat1001
 metrics		1H	IN CNAME	stat1001
 noc			1H	IN CNAME	fenari
 nyc			1H	IN CNAME	wikimedia-lb
-otrs-test		1H	IN CNAME	iodine
 planet			1H	IN CNAME	zirconium
 ar.planet		1H	IN CNAME	zirconium
 ca.planet		1H	IN CNAME	zirconium
