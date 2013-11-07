@@ -248,7 +248,7 @@ plugins => { geoip => {
 			dcmap => {
 				pmtpa => wikimedia-lb.pmtpa.wikimedia.org.
 				eqiad => wikimedia-lb.eqiad.wikimedia.org.
-				esams => wikimedia-lb.esams.wikimedia.org.
+				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
