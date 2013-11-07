@@ -710,10 +710,6 @@ $ORIGIN corp.{{ zonename }}.
 ns1			1H	IN A	216.38.130.189
 ns2			1H	IN A	216.38.130.188
 
-; Usability servers
-
-$ORIGIN usability.{{ zonename }}.
-
 ; Amsterdam cluster
 
 $ORIGIN esams.{{ zonename }}.
