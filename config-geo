@@ -266,7 +266,7 @@ plugins => { geoip => {
 			dcmap => {
 				pmtpa => wikipedia-lb.pmtpa.wikimedia.org.
 				eqiad => wikipedia-lb.eqiad.wikimedia.org.
-				esams => wikipedia-lb.esams.wikimedia.org.
+				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
