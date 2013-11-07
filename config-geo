@@ -19,24 +19,24 @@ plugins => { geoip => {
 					IQ => esams, # Iraq
 					IR => esams, # Iran (Islamic Republic of)
 					JO => esams, # Jordan
-					JP => ulsfo, # Japan
-					KH => ulsfo, # Cambodia
-					KP => ulsfo, # Korea, Democratic People's Republic of
-					KR => ulsfo, # Korea, Republic of
+					JP => eqiad, # Japan
+					KH => eqiad, # Cambodia
+					KP => eqiad, # Korea, Democratic People's Republic of
+					KR => eqiad, # Korea, Republic of
 					KW => esams, # Kuwait
 					LA => eqiad, # Lao People's Democratic Republic
 					LB => esams, # Lebanon
 					MN => eqiad, # Mongolia
-					MY => ulsfo, # Malaysia
+					MY => eqiad, # Malaysia
 					OM => esams, # Oman
-					PH => ulsfo, # Philippines
+					PH => eqiad, # Philippines
 					PS => esams, # Palestine, State of
 					QA => esams, # Qatar
 					SA => esams, # Saudi Arabia
-					SG => ulsfo, # Singapore
+					SG => eqiad, # Singapore
 					SY => esams, # Syrian Arab Republic
 					TH => eqiad, # Thailand
-					TW => ulsfo, # Taiwan, Province of China
+					TW => eqiad, # Taiwan, Province of China
 					VN => eqiad, # Viet Nam
 					YE => esams, # Yemen
 				},
@@ -165,7 +165,7 @@ plugins => { geoip => {
 						YT => eqiad, # Yukon Territory
 					},
 				},
-				OC => ulsfo,
+				OC => eqiad,
 				default => eqiad,
 			}
 		},
