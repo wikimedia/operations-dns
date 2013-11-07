@@ -97,18 +97,18 @@ plugins => { geoip => {
 				},
 				NA => {
 					US => { # United States of America
-						AK => ulsfo, # Alaska
+						AK => eqiad, # Alaska
 						AL => eqiad, # Alabama
 						AR => eqiad, # Arkansas
 						AZ => eqiad, # Arizona
-						CA => ulsfo, # California
+						CA => eqiad, # California
 						CO => eqiad, # Colorado
 						CT => eqiad, # Connecticut
 						DC => eqiad, # District of Columbia
 						DE => eqiad, # Delaware
 						FL => eqiad, # Florida
 						GA => eqiad, # Georgia
-						HI => ulsfo, # Hawaii
+						HI => eqiad, # Hawaii
 						IA => eqiad, # Iowa
 						ID => eqiad, # Idaho
 						IL => eqiad, # Illinois
@@ -134,7 +134,7 @@ plugins => { geoip => {
 						NY => eqiad, # New York
 						OH => eqiad, # Ohio
 						OK => eqiad, # Oklahoma
-						OR => ulsfo, # Oregon
+						OR => eqiad, # Oregon
 						PA => eqiad, # Pennsylvania
 						RI => eqiad, # Rhode Island
 						SC => eqiad, # South Carolina
@@ -144,14 +144,14 @@ plugins => { geoip => {
 						UT => eqiad, # Utah
 						VA => eqiad, # Virginia
 						VT => eqiad, # Vermont
-						WA => ulsfo, # Washington
+						WA => eqiad, # Washington
 						WI => eqiad, # Wisconsin
 						WV => eqiad, # West Virginia
 						WY => eqiad, # Wyoming
 					},
 					CA => { # Canada
 						AB => eqiad, # Alberta
-						BC => ulsfo, # British Columbia
+						BC => eqiad, # British Columbia
 						MB => eqiad, # Manitoba
 						NB => eqiad, # New Brunswick
 						NL => eqiad, # Newfoundland
@@ -162,7 +162,7 @@ plugins => { geoip => {
 						PE => eqiad, # Prince Edward Island
 						QC => eqiad, # Quebec
 						SK => eqiad, # Saskatchewan
-						YT => ulsfo, # Yukon Territory
+						YT => eqiad, # Yukon Territory
 					},
 				},
 				OC => ulsfo,
