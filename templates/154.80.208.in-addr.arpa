@@ -161,6 +161,7 @@ $ORIGIN {{ zonename }}.
 239 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org.
 
 ; Multimedia 208.80.154.240 - 247 (208.80.154.240/29)
+240 1H  IN PTR  upload-lb.eqiad.wikimedia.org.
 241 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.
 242 1H  IN PTR  wikidata-lb.eqiad.wikimedia.org.
 243 1H  IN PTR  wikivoyage-lb.eqiad.wikimedia.org.

@@ -129,7 +129,12 @@ $ORIGIN 6.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1022.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae3-1022.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae3-1022.cr2-eqiad.wikimedia.org.
-; LVS Service IPs
+
+
+
+; LVS Service IPs, 2620:0:861:ed1a::/64
+
+; LVS Text, 2620:0:861:ed1a::0:0/96
 
 $ORIGIN a.1.d.e.{{ zonename }}.
 
@@ -153,7 +158,21 @@ f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       dns-rec-lb.eqiad.wikimedia.org.
 1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       misc-web-lb.eqiad.wikimedia.org.
 2.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikidata-lb.eqiad.wikimedia.org.
 3.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikivoyage-lb.eqiad.wikimedia.org.
-5.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	parsoid-lb.eqiad.wikimedia.org.
+5.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       parsoid-lb.eqiad.wikimedia.org.
+
+; LVS Mobile Zero & general support, 2620:0:861:ed1a::1:0/96
+
+$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+
+; LVS Multimedia, 2620:0:861:ed1a::2:0/96
+
+$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+
+b.0.0.0                             1H IN PTR   upload-lb.eqiad.wikimedia.org.
+
+; LVS Misc, 2620:0:861:ed1a::3:0/96
+
+$ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 ; Neighbor blocks
 
