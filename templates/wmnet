@@ -43,7 +43,7 @@ nfs-home		1H	IN A		10.0.5.8
 imagedump		1H	IN A		10.0.5.2
 rendering.svc		1H	IN A		10.2.1.21
 api.svc			1H	IN A		10.2.1.22
-puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
+puppet			5M	IN CNAME	stafford.pmtpa.wmnet.
 syslog			1H	IN CNAME	nfs-home
 search-pool1		1H	IN A		10.2.1.11
 search-pool2		1H	IN A		10.2.1.12
@@ -1289,7 +1289,7 @@ solr1002		1H  IN A		10.64.0.199
 solr1003		1H  IN A		10.64.16.159
 stat1002		1H	IN A		10.64.0.16
 strontium		1H	IN A		10.64.0.164
-puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
+puppet			5M	IN CNAME	stafford.pmtpa.wmnet.
 tin			1H	IN A		10.64.0.196
 terbium		1H	IN A		10.64.32.13
 testsearch1003 1H IN A      10.64.32.136
@@ -2621,7 +2621,7 @@ cp4020			1H		IN A	10.128.0.120
 ;
 ; SERVICES
 ;
-puppet			1H	IN CNAME	stafford.pmtpa.wmnet.
+puppet			5M	IN CNAME	stafford.pmtpa.wmnet.
 
 ; PMTPA SERVICES
 
