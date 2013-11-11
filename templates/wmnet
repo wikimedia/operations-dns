@@ -2621,7 +2621,7 @@ cp4020			1H		IN A	10.128.0.120
 ;
 ; SERVICES
 ;
-puppet			5M	IN CNAME	stafford.pmtpa.wmnet.
+puppet			5M	IN CNAME	palladium.eqiad.wmnet.
 
 ; PMTPA SERVICES
 
