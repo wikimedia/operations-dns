@@ -153,7 +153,6 @@ nas1-b			1H	IN A		10.0.0.254
 pc1			1H	IN A		10.0.0.221
 pc2			1H	IN A		10.0.0.222
 pc3			1H	IN A		10.0.0.223
-rose			1H	IN A		10.0.0.26
 
 searchidx2		1H	IN A		10.0.3.52
 snapshot1		1H	IN A		10.0.10.1
@@ -194,12 +193,12 @@ virt15			1H	IN A		10.4.16.19
 
 ; GENERATES
 
-; mw1-mw50
+; mw1-mw49
 {% for i in range(1, 50) %}
 mw{{ i }}	1H	IN A		10.0.11.{{ i }}
 {%- endfor %}
 
-; mw51-mw110
+; mw51-mw109
 {% for i in range(51, 110) %}
 mw{{ i }}       1H      IN A            10.0.11.{{ i }}
 {%- endfor %}
