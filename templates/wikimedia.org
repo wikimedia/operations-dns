@@ -804,7 +804,7 @@ $ORIGIN esams.{{ zonename }}.
 ; Service aliases
 
 ntp			1H	IN A	91.198.174.118	; pascal
-puppet			5M	IN CNAME	brewster.wikimedia.org.
+puppet			5M	IN CNAME	palladium.eqiad.wmnet.
 recursor0		1H	IN A	91.198.174.6
 
 ; Servers
