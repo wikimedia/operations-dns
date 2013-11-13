@@ -190,7 +190,17 @@ plugins => { geoip => {
 				},
 				OC => eqiad,
 				default => eqiad,
-			}
+			},
+			nets = {
+				208.80.152.0/22 => eqiad, # pmtpa, eqiad
+				91.198.174.0/24 => esams, # esams
+				185.15.56.0/22  => esams, # esams
+				198.35.26.0/23  => eqiad, # ulsfo
+				2620:0:860::/48 => eqiad, # pmtpa
+				2620:0:861::/48 => eqiad, # eqiad
+				2620:0:862::/48 => esams, # esams
+				2620:0:863::/48 => eqiad, # ulsfo
+			},
 		},
 		only-primary-map => {
 			geoip_db => /usr/share/GeoIP/GeoIPv6.dat
