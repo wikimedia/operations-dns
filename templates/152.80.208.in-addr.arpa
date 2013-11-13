@@ -183,7 +183,6 @@ $ORIGIN {{ zonename }}.
 228	1H IN PTR	ae0-103.cr2-pmtpa.wikimedia.org.
 229	1H IN PTR	ts-array4b.mgmt.toolserver.org.
 230	1H IN PTR	ts-array4a.mgmt.toolserver.org.
-231	1H IN PTR	db61.wikimedia.org.	
 
 234	1H IN PTR	web.amaranth.toolserver.org.
 
