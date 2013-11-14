@@ -374,7 +374,7 @@ wikivoyage-lb.eqiad	1H	IN A	208.80.154.243
 geoiplookup-lb.eqiad	1H	IN A	208.80.154.234
 
 parsoid-lb.eqiad    1H  IN A    208.80.154.248
-                    1H  IN AAAA 2620:0:861:ed1a::2:14
+                    1H  IN AAAA 2620:0:861:ed1a::3:14
 
 ;;; ulsfo
 text-lb.ulsfo           1H  IN A        198.35.26.96
