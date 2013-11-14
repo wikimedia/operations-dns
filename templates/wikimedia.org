@@ -534,7 +534,7 @@ doc			1H	IN CNAME	gallium
 ; don't want this for anything but wikimedia.org domain
 frdata.wikimedia.org.	1H	IN CNAME	samarium.wikimedia.org.
 
-gerrit			60	IN A		208.80.154.81
+gerrit			1H	IN A		208.80.154.81
 git				1H	IN CNAME	misc-web-lb.eqiad
 icinga			1H	IN CNAME	neon
 icinga-admin	1H	IN A		208.80.154.14
