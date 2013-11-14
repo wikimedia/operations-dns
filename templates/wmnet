@@ -790,11 +790,11 @@ analytics1005		 1H	IN A		 10.64.21.105
 analytics1006		 1H	IN A		 10.64.21.106
 ;analytics1007		 1H	IN A		 10.64.21.107
 analytics1008		 1H	IN A		 10.64.21.108
-analytics1009		 1H	IN A		 10.64.21.109
+analytics1009		 1H	IN A		 10.64.5.1
 analytics1010		 1H	IN A		 10.64.21.110
-analytics1011		 1H	IN A		 10.64.36.111
-analytics1012		 1H	IN A		 10.64.36.112
-analytics1013		 1H	IN A		 10.64.36.113
+analytics1011		 1H	IN A		 10.64.5.2
+analytics1012		 1H	IN A		 10.64.5.3
+analytics1013		 1H	IN A		 10.64.5.4
 analytics1014		 1H	IN A		 10.64.36.114
 analytics1015		 1H	IN A		 10.64.36.115
 analytics1016		 1H	IN A		 10.64.36.116
@@ -802,11 +802,10 @@ analytics1017		 1H	IN A		 10.64.36.117
 analytics1018		 1H	IN A		 10.64.36.118
 analytics1019		 1H	IN A		 10.64.36.119
 analytics1020		 1H	IN A		 10.64.36.120
-analytics1021		 1H	IN A		 10.64.36.121
-			 1H	IN AAAA		 2620:0:861:106:10:64:36:121
+analytics1021		 1H	IN A		 10.64.5.5
 analytics1022		 1H	IN A		 10.64.36.122
 			 1H	IN AAAA		 2620:0:861:106:10:64:36:122
-analytics1023            1H     IN A             10.64.36.123
+analytics1023            1H     IN A             10.64.5.6
 analytics1024            1H     IN A             10.64.36.124
 analytics1025            1H     IN A             10.64.36.125
 analytics1026            1H     IN A             10.64.36.126

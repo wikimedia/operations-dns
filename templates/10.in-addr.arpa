@@ -1336,6 +1336,15 @@ $ORIGIN 4.64.{{ zonename }}.
 2	1H IN PTR	ae1-1117.cr1-eqiad.wikimedia.org.
 3	1H IN PTR	ae1-1117.cr2-eqiad.wikimedia.org.
 
+; 10.64.5.0/24 - analytics1-a-eqiad
+$ORIGIN 5.64.{{ zonename }}.
+1       1H IN PTR       analytics1009.eqiad.wmnet.
+2       1H IN PTR       analytics1011.eqiad.wmnet.
+3       1H IN PTR       analytics1012.eqiad.wmnet.
+4       1H IN PTR       analytics1013.eqiad.wmnet.
+5       1H IN PTR       analytics1021.eqiad.wmnet.
+6       1H IN PTR       analytics1023.eqiad.wmnet.
+
 ; 10.64.16.0/22 - private1-b-eqiad
 $ORIGIN 16.64.{{ zonename }}.
 
@@ -1564,7 +1573,7 @@ $ORIGIN 21.64.{{ zonename }}.
 106	1H IN PTR	analytics1006.eqiad.wmnet.
 ;107	1H IN PTR	analytics1007.eqiad.wmnet.
 108	1H IN PTR	analytics1008.eqiad.wmnet.
-109	1H IN PTR	analytics1009.eqiad.wmnet.
+
 110	1H IN PTR	analytics1010.eqiad.wmnet.
 123	1H IN PTR	vanadium.eqiad.wmnet.
 
@@ -1717,9 +1726,7 @@ $ORIGIN 36.64.{{ zonename }}.
 1   1H IN PTR	vrrp-gw-1022.eqiad.wmnet.
 2  	1H IN PTR	ae3-1022.cr1-eqiad.wikimedia.org.
 3	1H IN PTR	ae3-1022.cr2.eqiad.wikimedia.org.
-111     1H IN PTR       analytics1011.eqiad.wmnet.
-112     1H IN PTR       analytics1012.eqiad.wmnet.
-113     1H IN PTR       analytics1013.eqiad.wmnet.
+
 114     1H IN PTR       analytics1014.eqiad.wmnet.
 115     1H IN PTR       analytics1015.eqiad.wmnet.
 116     1H IN PTR       analytics1016.eqiad.wmnet.
@@ -1727,9 +1734,7 @@ $ORIGIN 36.64.{{ zonename }}.
 118     1H IN PTR       analytics1018.eqiad.wmnet.
 119     1H IN PTR       analytics1019.eqiad.wmnet.
 120     1H IN PTR       analytics1020.eqiad.wmnet.
-121     1H IN PTR       analytics1021.eqiad.wmnet.
 122     1H IN PTR       analytics1022.eqiad.wmnet.
-123  	1H IN PTR		analytics1023.eqiad.wmnet.
 124     1H IN PTR       analytics1024.eqiad.wmnet.
 125     1H IN PTR       analytics1025.eqiad.wmnet.
 126     1H IN PTR       analytics1026.eqiad.wmnet.
