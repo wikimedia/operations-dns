@@ -1338,12 +1338,12 @@ $ORIGIN 4.64.{{ zonename }}.
 
 ; 10.64.5.0/24 - analytics1-a-eqiad
 $ORIGIN 5.64.{{ zonename }}.
-1       1H IN PTR       analytics1009.eqiad.wmnet.
-2       1H IN PTR       analytics1011.eqiad.wmnet.
-3       1H IN PTR       analytics1012.eqiad.wmnet.
-4       1H IN PTR       analytics1013.eqiad.wmnet.
-5       1H IN PTR       analytics1021.eqiad.wmnet.
-6       1H IN PTR       analytics1023.eqiad.wmnet.
+10       1H IN PTR       analytics1009.eqiad.wmnet.
+11       1H IN PTR       analytics1011.eqiad.wmnet.
+12       1H IN PTR       analytics1012.eqiad.wmnet.
+13       1H IN PTR       analytics1013.eqiad.wmnet.
+14       1H IN PTR       analytics1021.eqiad.wmnet.
+15       1H IN PTR       analytics1023.eqiad.wmnet.
 
 ; 10.64.16.0/22 - private1-b-eqiad
 $ORIGIN 16.64.{{ zonename }}.
