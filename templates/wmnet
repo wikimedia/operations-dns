@@ -43,7 +43,7 @@ nfs-home		1H	IN A		10.0.5.8
 imagedump		1H	IN A		10.0.5.2
 rendering.svc		1H	IN A		10.2.1.21
 api.svc			1H	IN A		10.2.1.22
-puppet			5M	IN CNAME	stafford.pmtpa.wmnet.
+puppet			5M	IN CNAME	palladium.eqiad.wmnet.
 syslog			1H	IN CNAME	nfs-home
 search-pool1		1H	IN A		10.2.1.11
 search-pool2		1H	IN A		10.2.1.12
