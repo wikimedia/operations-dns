@@ -131,7 +131,6 @@ formey			1H	IN A	208.80.152.147
 gadolinium		1H	IN A	208.80.154.73
 gallium			1H	IN A	208.80.154.135
 grosley			1H	IN A	208.80.152.164
-gurvin			1H	IN A	208.80.152.20
 hafnium         1H  IN A    208.80.154.79
 holmium			1H	IN A	208.80.154.49
 hooper			1H	IN A	208.80.152.148
