@@ -534,7 +534,7 @@ doc			1H	IN CNAME	gallium
 frdata.wikimedia.org.	1H	IN CNAME	samarium.wikimedia.org.
 
 gerrit			1H	IN A		208.80.154.81
-			600	IN AAAA		2620:0:861:3:208:80:154:81
+			1H	IN AAAA		2620:0:861:3:208:80:154:81
 git			1H	IN CNAME	misc-web-lb.eqiad
 
 icinga			1H	IN CNAME	neon
