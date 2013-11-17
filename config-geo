@@ -205,7 +205,7 @@ plugins => { geoip => {
 		only-primary-map => {
 			geoip_db => /usr/share/GeoIP/GeoIPv6.dat
 			geoip_db_v4_overlay => /usr/share/GeoIP/GeoIP.dat
-			datacenters => [eqiad pmtpa]
+			datacenters => [eqiad pmtpa esams ulsfo]
 			map => {
 				default => eqiad,
 			}
@@ -340,7 +340,7 @@ plugins => { geoip => {
 			}
 		}
 		mobile-lb => {
-			map => generic-map
+			map => only-primary-map
 			dcmap => {
 				pmtpa => mobile-lb.pmtpa.wikimedia.org.
 				eqiad => mobile-lb.eqiad.wikimedia.org.
