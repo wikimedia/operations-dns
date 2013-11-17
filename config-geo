@@ -213,7 +213,7 @@ plugins => { geoip => {
 	},
 	resources => {
 		bits => {
-			map => generic-map
+			map => only-primary-map
 			dcmap => {
 				pmtpa => bits-lb.pmtpa.wikimedia.org.
 				eqiad => bits-lb.eqiad.wikimedia.org.
