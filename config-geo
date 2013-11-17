@@ -213,7 +213,7 @@ plugins => { geoip => {
 	},
 	resources => {
 		bits => {
-			map => only-primary-map
+			map => generic-map
 			dcmap => {
 				pmtpa => bits-lb.pmtpa.wikimedia.org.
 				eqiad => bits-lb.eqiad.wikimedia.org.
@@ -340,7 +340,7 @@ plugins => { geoip => {
 			}
 		}
 		mobile-lb => {
-			map => only-primary-map
+			map => generic-map
 			dcmap => {
 				pmtpa => mobile-lb.pmtpa.wikimedia.org.
 				eqiad => mobile-lb.eqiad.wikimedia.org.
