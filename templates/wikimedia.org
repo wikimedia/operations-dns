@@ -264,7 +264,6 @@ stat1			1H	IN A	208.80.152.146
 stat1001		1H	IN A	208.80.154.155
 stat1001		1H	IN AAAA	2620:0:861:2:208:80:154:155
 streber			1H	IN A	208.80.152.160
-technetium		1H	IN A	208.80.154.145
 tellurium		1H	IN A	208.80.155.9
 thulium			1H	IN A	208.80.155.12
 tridge			1H	IN A	208.80.152.170 ; Cold Backup Server

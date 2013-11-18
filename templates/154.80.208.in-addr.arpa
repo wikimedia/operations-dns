@@ -86,7 +86,6 @@ $ORIGIN {{ zonename }}.
 142 1H  IN PTR  vl1002-eth1.lvs1003.wikimedia.org.
 
 144 1H  IN PTR  molybdenum.wikimedia.org.
-145 1H  IN PTR  technetium.wikimedia.org.
 146 1H  IN PTR  iodine.wikimedia.org.
 149 1H  IN PTR  bast1001.wikimedia.org.
 150 1H  IN PTR  nickel.wikimedia.org.

@@ -163,7 +163,6 @@ solr2                   1H      IN A            10.0.0.37
 solr3                   1H      IN A            10.0.0.38
 stafford		1H	IN A		10.0.0.24
 tarin			1H	IN A		10.0.0.21
-tingxi			1H	IN A		10.0.0.12
 tmh1			1H	IN A		10.0.0.26
 tmh2			1H	IN A		10.0.0.27
 instancestorage		1H	IN A		10.4.16.2
