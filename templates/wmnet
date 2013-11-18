@@ -120,7 +120,6 @@ labstore2		1H	IN A		10.0.0.42
 labstore3		1H	IN A		10.0.0.43
 labstore4		1H	IN A		10.0.0.44
 labnfs			1H  IN A		10.0.0.45
-maurus			1H	IN A		10.0.0.16
 ms5			1H	IN A		10.0.0.252
 ms7			1H	IN A		10.0.0.246
 ms8			1H	IN A		10.0.0.229
