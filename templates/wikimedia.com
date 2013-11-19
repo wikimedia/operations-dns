@@ -23,7 +23,8 @@ $ORIGIN {{ zonename }}.
 
 ; Canonical names
 
-                        1H      IN A    208.80.152.200
+                        1H      IN A    208.80.154.224
+                        1H      IN AAAA 2620:0:861:ed1a::0
 
 localhost		1W	IN A	127.0.0.1
 
