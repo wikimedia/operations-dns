@@ -1530,6 +1530,7 @@ $ORIGIN 16.64.{{ zonename }}.
 181 1H IN PTR   wtp1013.eqiad.wmnet.
 182 1H IN PTR   wtp1014.eqiad.wmnet.
 183 1H IN PTR   rdb1004.eqiad.wmnet.
+184 1H IN PTR   rhodium.eqiad.wmnet.
 
 $ORIGIN 17.64.{{ zonename }}.
 
