@@ -2421,11 +2421,8 @@ $ORIGIN 3.65.{{ zonename }}.
 31	1H	IN PTR		WMF3288.mgmt.eqiad.wmnet.
 32	1H	IN PTR		potassium.mgmt.eqiad.wmnet.
 32	1H	IN PTR		WMF3287.mgmt.eqiad.wmnet.
-33	1H	IN PTR		mobile1001.mgmt.eqiad.wmnet.
 33	1H	IN PTR		WMF3407.mgmt.eqiad.wmnet.
-34	1H	IN PTR		mobile1002.mgmt.eqiad.wmnet.
 34	1H	IN PTR		WMF3408.mgmt.eqiad.wmnet.
-35	1H	IN PTR		mobile1003.mgmt.eqiad.wmnet.
 35	1H	IN PTR		WMF3409.mgmt.eqiad.wmnet.
 36	1H	IN PTR		mobile1004.mgmt.eqiad.wmnet.
 36	1H	IN PTR		WMF3410.mgmt.eqiad.wmnet.
