@@ -340,7 +340,7 @@ plugins => { geoip => {
 			}
 		}
 		mobile-lb => {
-			map => generic-map
+			map => only-primary-map
 			dcmap => {
 				pmtpa => mobile-lb.pmtpa.wikimedia.org.
 				eqiad => mobile-lb.eqiad.wikimedia.org.
