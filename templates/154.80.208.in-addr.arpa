@@ -59,7 +59,6 @@ $ORIGIN {{ zonename }}.
 71  1H  IN PTR  vl1003-eth2.lvs1005.wikimedia.org.
 72  1H  IN PTR  vl1003-eth2.lvs1006.wikimedia.org.
 73  1H  IN PTR  gadolinium.wikimedia.org.
-74  1H  IN PTR  caesium.wikimedia.org.
 75  1H  IN PTR  ssl1005.wikimedia.org.
 76  1H  IN PTR  ssl1006.wikimedia.org.
 77  1H  IN PTR  ssl1009.wikimedia.org.
