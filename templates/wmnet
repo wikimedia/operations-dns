@@ -174,7 +174,6 @@ labsdb2                 1H      IN A            10.4.16.11
 labsdb3                 1H      IN A            10.4.16.12
 labsudb1		1H	IN A		10.4.16.4
 labsudb2		1H	IN A		10.4.16.5
-virt1			1H	IN A		10.4.16.2
 virt2			1H	IN A		10.4.16.3
 virt5			1H	IN A		10.4.16.6
 virt6			1H	IN A		10.4.16.7
@@ -481,7 +480,6 @@ tridge			1H	IN A		10.1.252.170
 ts-array4a		1H	IN A		10.1.8.17
 ts-array4b		1H	IN A		10.1.8.18
 virt0			1H	IN A		10.1.8.28
-virt1			1H	IN A		10.1.8.56
 virt2			1H	IN A		10.1.8.57
 virt5			1H	IN A		10.1.8.78
 virt6			1H	IN A		10.1.8.91
