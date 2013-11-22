@@ -428,8 +428,6 @@ $ORIGIN 3.1.{{ zonename }}.
 
 37	1H	IN PTR	sq37.mgmt.pmtpa.wmnet.
 43	1H	IN PTR	sq43.mgmt.pmtpa.wmnet.
-44	1H	IN PTR	sq44.mgmt.pmtpa.wmnet.
-48	1H	IN PTR	sq48.mgmt.pmtpa.wmnet.
 49	1H	IN PTR	sq49.mgmt.pmtpa.wmnet.
 50	1H	IN PTR	sq50.mgmt.pmtpa.wmnet.
 51	1H	IN PTR	sq51.mgmt.pmtpa.wmnet.
