@@ -62,7 +62,6 @@ $ORIGIN 0.0.{{ zonename }}.
 226	1H	IN PTR	es2.pmtpa.wmnet.
 227	1H	IN PTR	es3.pmtpa.wmnet.
 228	1H	IN PTR	es4.pmtpa.wmnet.
-229	1H	IN PTR	ms8.pmtpa.wmnet.
 
 234 	1H	IN PTR  es5.pmtpa.wmnet.
 235 	1H	IN PTR  es6.pmtpa.wmnet.
@@ -73,7 +72,6 @@ $ORIGIN 0.0.{{ zonename }}.
 243	1H	IN PTR	db10.pmtpa.wmnet.
 244	1H	IN PTR  nfs1.pmtpa.wmnet.
 245	1H	IN PTR  sockpuppet.pmtpa.wmnet.
-246	1H	IN PTR	ms7.pmtpa.wmnet.
 247	1H	IN PTR  nfs2.pmtpa.wmnet.
 252	1H	IN PTR	ms5.pmtpa.wmnet.
 253	1H	IN PTR	nas1-a.pmtpa.wmnet.
@@ -547,8 +545,6 @@ $ORIGIN 6.1.{{ zonename }}.
 ; Media Servers & SSL Servers & ES Servers & Memcached Servers
 $ORIGIN 7.1.{{ zonename }}.
 5	1H	IN PTR ms5.mgmt.pmtpa.wmnet.
-6	1H	IN PTR ms7.mgmt.pmtpa.wmnet.
-7	1H	IN PTR ms8.mgmt.pmtpa.wmnet.
 8	1H	IN PTR ms9.mgmt.pmtpa.wmnet.
 9	1H	IN PTR ms10.mgmt.pmtpa.wmnet.
 11	1H	IN PTR es1.mgmt.pmtpa.wmnet.
