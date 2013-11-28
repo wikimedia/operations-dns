@@ -40,7 +40,6 @@ fundraising._domainkey	1H	IN TXT	"v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb3DQ
 
 ; Wikis (alphabetic order)
 
-species                 1H      IN CNAME        foundation-lb.wikimedia.org.
 www			1H	IN CNAME	foundation-lb.wikimedia.org.
 
 ; All languages will automatically be included here
