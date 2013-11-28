@@ -46,12 +46,12 @@ google._domainkey		1H	IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCB
 wikimedia._domainkey.lists	1H	IN TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7iVvYIGUbjtvFcLTUuN9Lsc1w17f8QHc01BxIr6jHJUMAMyxHSchdU6Il/hX1Or3JyOfdBi35SGqotI3G86xxQE7PZD7u+EediP5uhRTn+opv+nX5hEuxlnty8mPXem0DHhfSL0+3Ciu5WD0mNATb4NwC9jQjy2FzaLHn9D44PwIDAQAB"
 
 ; DMARC records http://dmarc.org/ -- policy none (monitor), for now
-_dmarc 					1H	IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:postmaster@wikimedia.org"
-_dmarc.lists			1H	IN TXT "v=DMARC1; p=none; rua=mailto:postmaster@wikimedia.org"
+_dmarc 			1H	IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:postmaster@wikimedia.org"
+_dmarc.lists		1H	IN TXT "v=DMARC1; p=none; rua=mailto:postmaster@wikimedia.org"
 
 ; SPF txt and rr records
-wikimedia.org.          600     IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
-wikimedia.org.          600     IN SPF  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
+wikimedia.org.		600	IN TXT	"v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
+wikimedia.org.		600	IN SPF	"v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
 
 scs-ext			1H	IN A	84.40.25.238
 
@@ -79,31 +79,31 @@ recursor0		1H	IN A	208.80.152.131	; bayle
 recursor1		1H	IN A	208.80.152.132	; mchenry
 
 ; Geodynamic records
-bits           600     DYNC geoip!bits
-upload         600     DYNC geoip!upload
-m              600     DYNC geoip!mobile-lb
-geoiplookup    600     DYNC geoip!geoiplookup
-donate         600     DYNC geoip!donate
-foundation-lb  600     DYNC geoip!foundation-lb
-mediawiki-lb   600     DYNC geoip!mediawiki-lb
-wikibooks-lb   600     DYNC geoip!wikibooks-lb
-wikimedia-lb   600     DYNC geoip!wikimedia-lb
-wikinews-lb    600     DYNC geoip!wikinews-lb
-wikipedia-lb   600     DYNC geoip!wikipedia-lb
-wikiquote-lb   600     DYNC geoip!wikiquote-lb
-wikisource-lb  600     DYNC geoip!wikisource-lb
-wikiversity-lb 600     DYNC geoip!wikiversity-lb
-wiktionary-lb  600     DYNC geoip!wiktionary-lb
-wikidata-lb    600     DYNC geoip!wikidata-lb
-wikivoyage-lb  600     DYNC geoip!wikivoyage-lb
+bits		600	DYNC geoip!bits
+upload		600	DYNC geoip!upload
+m		600	DYNC geoip!mobile-lb
+geoiplookup	600	DYNC geoip!geoiplookup
+donate		600	DYNC geoip!donate
+foundation-lb	600	DYNC geoip!foundation-lb
+mediawiki-lb	600	DYNC geoip!mediawiki-lb
+wikibooks-lb	600	DYNC geoip!wikibooks-lb
+wikimedia-lb	600	DYNC geoip!wikimedia-lb
+wikinews-lb	600	DYNC geoip!wikinews-lb
+wikipedia-lb	600	DYNC geoip!wikipedia-lb
+wikiquote-lb	600	DYNC geoip!wikiquote-lb
+wikisource-lb	600	DYNC geoip!wikisource-lb
+wikiversity-lb	600	DYNC geoip!wikiversity-lb
+wiktionary-lb	600	DYNC geoip!wiktionary-lb
+wikidata-lb	600	DYNC geoip!wikidata-lb
+wikivoyage-lb	600	DYNC geoip!wikivoyage-lb
 
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
 
 aluminium		1H	IN A	208.80.154.6
 aluminum		1H	IN CNAME aluminium
-analytics1001	1H	IN A	208.80.154.154
-analytics1003	1H	IN A	208.80.154.160
-analytics1004	1H	IN A	208.80.154.161
+analytics1001		1H	IN A	208.80.154.154
+analytics1003		1H	IN A	208.80.154.160
+analytics1004		1H	IN A	208.80.154.161
 antimony		1H	IN A	208.80.154.7
 
 barium			1H	IN A	208.80.155.11
@@ -130,7 +130,7 @@ formey			1H	IN A	208.80.152.147
 gadolinium		1H	IN A	208.80.154.73
 gallium			1H	IN A	208.80.154.135
 grosley			1H	IN A	208.80.152.164
-hafnium         1H  IN A    208.80.154.79
+hafnium			1H	IN A	208.80.154.79
 holmium			1H	IN A	208.80.154.49
 hooper			1H	IN A	208.80.152.148
 hume			1H	IN A	208.80.152.190
@@ -250,12 +250,12 @@ ssl1005			1H	IN A	208.80.154.75
 			1H	IN AAAA	2620:0:861:3:208:80:154:75
 ssl1006			1H	IN A	208.80.154.76
 			1H	IN AAAA	2620:0:861:3:208:80:154:76
-ssl1007         1H  IN A   208.80.154.51
-			1H  IN AAAA 2620:0:861:1:208:80:154:51
-ssl1008         1H  IN A   208.80.154.136
-			1H  IN AAAA 2620:0:861:2:208:80:154:136
-ssl1009         1H  IN A   208.80.154.77
-			1H  IN AAAA 2620:0:861:3:208:80:154:77
+ssl1007			1H	IN A	208.80.154.51
+			1H	IN AAAA 2620:0:861:1:208:80:154:51
+ssl1008			1H	IN A	208.80.154.136
+			1H	IN AAAA 2620:0:861:2:208:80:154:136
+ssl1009			1H	IN A	208.80.154.77
+			1H	IN AAAA 2620:0:861:3:208:80:154:77
 stat1			1H	IN A	208.80.152.146
 stat1001		1H	IN A	208.80.154.155
 stat1001		1H	IN AAAA	2620:0:861:2:208:80:154:155
@@ -265,7 +265,7 @@ thulium			1H	IN A	208.80.155.12
 tridge			1H	IN A	208.80.152.170 ; Cold Backup Server
 virt0			1H	IN A	208.80.152.32
 virt1000		1H	IN A	208.80.154.18
-ytterbium       1H  IN A	208.80.154.80
+ytterbium		1H	IN A	208.80.154.80
 yvon			1H	IN A	208.80.152.21
 zhen			1H	IN A	208.80.152.140
 nitrogen		1H	IN A	208.80.154.17
@@ -286,80 +286,79 @@ upload.v4		1H	IN A	208.80.152.211 ; Explicitly v4 only
 donate-lb.pmtpa		1H	IN A	208.80.152.200 ; Explicitly v4 only
 				IN MX 10 mchenry.wikimedia.org.	
 				IN MX 20 sodium.wikimedia.org.	
-wikimedia-lb.pmtpa      1H      IN A    208.80.152.200
-                        1H      IN AAAA 2620:0:860:ed1a::0
-wikipedia-lb.pmtpa      1H      IN A    208.80.152.201
-                        1H      IN AAAA 2620:0:860:ed1a::1
-wiktionary-lb.pmtpa     1H      IN A    208.80.152.202
-                        1H      IN AAAA 2620:0:860:ed1a::2
-wikiquote-lb.pmtpa      1H      IN A    208.80.152.203
-                        1H      IN AAAA 2620:0:860:ed1a::3
-wikibooks-lb.pmtpa      1H      IN A    208.80.152.204
-                        1H      IN AAAA 2620:0:860:ed1a::4
-wikisource-lb.pmtpa     1H      IN A    208.80.152.205
-                        1H      IN AAAA 2620:0:860:ed1a::5
-wikinews-lb.pmtpa       1H      IN A    208.80.152.206
-                        1H      IN AAAA 2620:0:860:ed1a::6
-wikiversity-lb.pmtpa    1H      IN A    208.80.152.207
-                        1H      IN AAAA 2620:0:860:ed1a::7
-mediawiki-lb.pmtpa      1H      IN A    208.80.152.208
-                        1H      IN AAAA 2620:0:860:ed1a::8
-foundation-lb.pmtpa     1H      IN A    208.80.152.209
-                        1H      IN AAAA 2620:0:860:ed1a::9
+wikimedia-lb.pmtpa	1H	IN A	208.80.152.200
+			1H	IN AAAA 2620:0:860:ed1a::0
+wikipedia-lb.pmtpa	1H	IN A	208.80.152.201
+			1H	IN AAAA 2620:0:860:ed1a::1
+wiktionary-lb.pmtpa	1H	IN A	208.80.152.202
+			1H	IN AAAA 2620:0:860:ed1a::2
+wikiquote-lb.pmtpa	1H	IN A	208.80.152.203
+			1H	IN AAAA 2620:0:860:ed1a::3
+wikibooks-lb.pmtpa	1H	IN A	208.80.152.204
+			1H	IN AAAA 2620:0:860:ed1a::4
+wikisource-lb.pmtpa	1H	IN A	208.80.152.205
+			1H	IN AAAA 2620:0:860:ed1a::5
+wikinews-lb.pmtpa	1H	IN A	208.80.152.206
+			1H	IN AAAA 2620:0:860:ed1a::6
+wikiversity-lb.pmtpa	1H	IN A	208.80.152.207
+			1H	IN AAAA 2620:0:860:ed1a::7
+mediawiki-lb.pmtpa	1H	IN A	208.80.152.208
+			1H	IN AAAA 2620:0:860:ed1a::8
+foundation-lb.pmtpa	1H	IN A	208.80.152.209
+			1H	IN AAAA 2620:0:860:ed1a::9
 bits-lb.pmtpa		1H	IN A	208.80.152.210
-                        1H      IN AAAA 2620:0:860:ed1a::a
+			1H	IN AAAA 2620:0:860:ed1a::a
 upload-lb.pmtpa		1H	IN A	208.80.152.211
-                        1H      IN AAAA 2620:0:860:ed1a::b
+			1H	IN AAAA 2620:0:860:ed1a::b
 mobile-lb.pmtpa		1H	IN A	208.80.152.212
 payments-lb.pmtpa	1H	IN A	208.80.152.213
 ;ns1					208.80.152.214
 dns-rec-lb.pmtpa	1H	IN A	208.80.152.215
 osm-lb.pmtpa		1H	IN A	208.80.152.216
 misc-web-lb.pmtpa	1H	IN A	208.80.152.217
-					1H	IN AAAA	2620:0:860:ed1a::11
+			1H	IN AAAA	2620:0:860:ed1a::11
 wikidata-lb.pmtpa	1H	IN A	208.80.152.218
 			1H	IN AAAA	2620:0:860:ed1a::12
 wikivoyage-lb.pmtpa	1H	IN A	208.80.152.219
 			1H	IN AAAA	2620:0:860:ed1a::13
-
 geoiplookup-lb.pmtpa	1H	IN A	208.80.152.210
 
 ;;; eqiad
 donate-lb.eqiad		1H	IN A	208.80.154.224 ; Explicitly v4 only
 				IN MX 10 mchenry.wikimedia.org.	
 				IN MX 20 sodium.wikimedia.org.	
-wikimedia-lb.eqiad      1H      IN A    208.80.154.224
-                        1H      IN AAAA 2620:0:861:ed1a::0
-wikipedia-lb.eqiad      1H      IN A    208.80.154.225
-                        1H      IN AAAA 2620:0:861:ed1a::1
-wiktionary-lb.eqiad     1H      IN A    208.80.154.226
-                        1H      IN AAAA 2620:0:861:ed1a::2
-wikiquote-lb.eqiad      1H      IN A    208.80.154.227
-                        1H      IN AAAA 2620:0:861:ed1a::3
-wikibooks-lb.eqiad      1H      IN A    208.80.154.228
-                        1H      IN AAAA 2620:0:861:ed1a::4
-wikisource-lb.eqiad     1H      IN A    208.80.154.229
-                        1H      IN AAAA 2620:0:861:ed1a::5
-wikinews-lb.eqiad       1H      IN A    208.80.154.230
-                        1H      IN AAAA 2620:0:861:ed1a::6
-wikiversity-lb.eqiad    1H      IN A    208.80.154.231
-                        1H      IN AAAA 2620:0:861:ed1a::7
-mediawiki-lb.eqiad      1H      IN A    208.80.154.232
-                        1H      IN AAAA 2620:0:861:ed1a::8
-foundation-lb.eqiad     1H      IN A    208.80.154.233
-                        1H      IN AAAA 2620:0:861:ed1a::9
+wikimedia-lb.eqiad	1H	IN A	208.80.154.224
+			1H	IN AAAA 2620:0:861:ed1a::0
+wikipedia-lb.eqiad	1H	IN A	208.80.154.225
+			1H	IN AAAA 2620:0:861:ed1a::1
+wiktionary-lb.eqiad	1H	IN A	208.80.154.226
+			1H	IN AAAA 2620:0:861:ed1a::2
+wikiquote-lb.eqiad	1H	IN A	208.80.154.227
+			1H	IN AAAA 2620:0:861:ed1a::3
+wikibooks-lb.eqiad	1H	IN A	208.80.154.228
+			1H	IN AAAA 2620:0:861:ed1a::4
+wikisource-lb.eqiad	1H	IN A	208.80.154.229
+			1H	IN AAAA 2620:0:861:ed1a::5
+wikinews-lb.eqiad	1H	IN A	208.80.154.230
+			1H	IN AAAA 2620:0:861:ed1a::6
+wikiversity-lb.eqiad	1H	IN A	208.80.154.231
+			1H	IN AAAA 2620:0:861:ed1a::7
+mediawiki-lb.eqiad	1H	IN A	208.80.154.232
+			1H	IN AAAA 2620:0:861:ed1a::8
+foundation-lb.eqiad	1H	IN A	208.80.154.233
+			1H	IN AAAA 2620:0:861:ed1a::9
 bits-lb.eqiad		1H	IN A	208.80.154.234
-                        1H      IN AAAA 2620:0:861:ed1a::a
+			1H	IN AAAA 2620:0:861:ed1a::a
 upload-lb.eqiad		1H	IN A	208.80.154.240
-                        1H      IN AAAA 2620:0:861:ed1a::2:b
+			1H	IN AAAA 2620:0:861:ed1a::2:b
 mobile-lb.eqiad		1H	IN A	208.80.154.236
-					1H	IN AAAA	2620:0:861:ed1a::c
+			1H	IN AAAA	2620:0:861:ed1a::c
 payments-lb.eqiad	1H	IN A	208.80.154.237
 ;;; ns0					208.80.154.238
 dns-rec-lb.eqiad	1H	IN A	208.80.154.239
 osm-lb.eqiad		1H	IN A	208.80.154.244
 misc-web-lb.eqiad	1H	IN A	208.80.154.241
-					1H	IN AAAA	2620:0:861:ed1a::11
+			1H	IN AAAA	2620:0:861:ed1a::11
 wikidata-lb.eqiad	1H	IN A	208.80.154.242
 			1H	IN AAAA	2620:0:861:ed1a::12
 wikivoyage-lb.eqiad	1H	IN A	208.80.154.243
@@ -367,24 +366,24 @@ wikivoyage-lb.eqiad	1H	IN A	208.80.154.243
 
 geoiplookup-lb.eqiad	1H	IN A	208.80.154.234
 
-parsoid-lb.eqiad    1H  IN A    208.80.154.248
-                    1H  IN AAAA 2620:0:861:ed1a::3:14
+parsoid-lb.eqiad	1H	IN A	208.80.154.248
+			1H	IN AAAA	2620:0:861:ed1a::3:14
 
 ;;; ulsfo
-text-lb.ulsfo           1H  IN A        198.35.26.96
-                        1H  IN AAAA     2620:0:863:ed1a::1
-donate-lb.ulsfo         1H  IN A        198.35.26.96    ; explicitly v4 only
-                        1H  IN MX 10    mchenry.wikimedia.org.
-                        1H  IN MX 20    sodium.wikimedia.org.
-login-lb.ulsfo          1H  IN A        198.35.26.105
-                        1H  IN AAAA     2620:0:863:ed1a::1:9
-bits-lb.ulsfo           1H  IN A        198.35.26.106
-                        1H  IN AAAA     2620:0:863:ed1a::a
-geoiplookup-lb.ulsfo    1H  IN A        198.35.26.106   ; explicitly v4 only
-upload-lb.ulsfo         1H  IN A        198.35.26.112
-                        1H  IN AAAA     2620:0:863:ed1a::2:b
-mobile-lb.ulsfo         1H  IN A        198.35.26.108
-                        1H  IN AAAA     2620:0:863:ed1a::c
+text-lb.ulsfo		1H	IN A		198.35.26.96
+			1H	IN AAAA		2620:0:863:ed1a::1
+donate-lb.ulsfo		1H	IN A		198.35.26.96 ; explicitly v4 only
+			1H	IN MX 10	mchenry.wikimedia.org.
+			1H	IN MX 20	sodium.wikimedia.org.
+login-lb.ulsfo		1H	IN A		198.35.26.105
+			1H	IN AAAA		2620:0:863:ed1a::1:9
+bits-lb.ulsfo		1H	IN A		198.35.26.106
+			1H	IN AAAA		2620:0:863:ed1a::a
+geoiplookup-lb.ulsfo	1H	IN A		198.35.26.106 ; explicitly v4 only
+upload-lb.ulsfo		1H	IN A		198.35.26.112
+			1H	IN AAAA		2620:0:863:ed1a::2:b
+mobile-lb.ulsfo		1H	IN A		198.35.26.108
+			1H	IN AAAA		2620:0:863:ed1a::c
 
 
 
@@ -407,10 +406,10 @@ wikimania2014.m		1H	IN CNAME	m.wikimedia.org.
 ; Networking
 
 br1-ulsfo		1H	IN A	198.35.26.194
-				   AAAA	2620:0:863:ffff::3
+				IN AAAA	2620:0:863:ffff::3
 
 br2-ulsfo		1H	IN A	198.35.26.195
-				   AAAA	2620:0:863:ffff::4
+				IN AAAA	2620:0:863:ffff::4
 
 cr1-eqiad		1H	IN A	208.80.154.196
 				IN AAAA	2620:0:861:ffff::1
@@ -453,18 +452,18 @@ vl2-eth0.lvs4		1H	IN A	10.0.0.14
 vl2-eth0.lvs5		1H	IN A	10.0.0.15
 vl2-eth0.lvs6		1H	IN A	10.0.0.16
 
-vl1001-eth1.lvs1004     1H      IN A    208.80.154.58
-vl1001-eth1.lvs1005     1H      IN A    208.80.154.59
-vl1001-eth1.lvs1006     1H      IN A    208.80.154.60
-vl1002-eth1.lvs1001     1H      IN A    208.80.154.140
-vl1002-eth1.lvs1002     1H      IN A    208.80.154.141
-vl1002-eth1.lvs1003     1H      IN A    208.80.154.142
-vl1003-eth2.lvs1001     1H      IN A    208.80.154.78
-vl1003-eth2.lvs1002     1H      IN A    208.80.154.68
-vl1003-eth2.lvs1003     1H      IN A    208.80.154.69
-vl1003-eth2.lvs1004     1H      IN A    208.80.154.70
-vl1003-eth2.lvs1005     1H      IN A    208.80.154.71
-vl1003-eth2.lvs1006     1H      IN A    208.80.154.72
+vl1001-eth1.lvs1004	1H	IN A	208.80.154.58
+vl1001-eth1.lvs1005	1H	IN A	208.80.154.59
+vl1001-eth1.lvs1006	1H	IN A	208.80.154.60
+vl1002-eth1.lvs1001	1H	IN A	208.80.154.140
+vl1002-eth1.lvs1002	1H	IN A	208.80.154.141
+vl1002-eth1.lvs1003	1H	IN A	208.80.154.142
+vl1003-eth2.lvs1001	1H	IN A	208.80.154.78
+vl1003-eth2.lvs1002	1H	IN A	208.80.154.68
+vl1003-eth2.lvs1003	1H	IN A	208.80.154.69
+vl1003-eth2.lvs1004	1H	IN A	208.80.154.70
+vl1003-eth2.lvs1005	1H	IN A	208.80.154.71
+vl1003-eth2.lvs1006	1H	IN A	208.80.154.72
 
 vl1017-eth0.lvs1001	1H	IN A	10.64.1.1
 vl1017-eth0.lvs1002	1H	IN A	10.64.1.2
@@ -504,15 +503,6 @@ asw-a5-sdtpa		1H	IN A	10.1.1.10
 
 ; Cams
 
-;cam1-a-sdtpa		1H	IN A	208.80.152.189
-;cam1-a-b-sdtpa		1H	IN A	208.80.153.132
-;cam1-b-c-sdtpa		1H	IN A	208.80.153.133
-;cam1-c-d-sdtpa		1H	IN A	208.80.152.188
-;cam1-d-sdtpa		1H	IN A	208.80.153.134
-
-; TEMP (internal v6 ip)
-;cam1-a-b-eqiad		1H	IN AAAA	2620:0:861:101::4
-
 ; Service aliases (alphabetical order)
 
 apt			1H	IN CNAME	brewster
@@ -530,20 +520,20 @@ git			1H	IN CNAME	misc-web-lb.eqiad
 gdash			1H	IN CNAME	misc-web-lb.eqiad
 
 icinga			1H	IN CNAME	neon
-icinga-admin	1H	IN A		208.80.154.14
+icinga-admin		1H	IN A		208.80.154.14
 imap			1H	IN A		208.80.152.187	; sanger
 			1H	IN MX		10 mchenry
 
 integration		1H	IN CNAME	gallium
-irc			1H	IN	CNAME	ekrem
-login		1H	IN	CNAME	wikimedia-lb
+irc			1H	IN CNAME	ekrem
+login			1H	IN CNAME	wikimedia-lb
 ntp.pmtpa		1H	IN CNAME	linne
 
 observium		1H	IN A		208.80.152.137
 
 ; in theory we can run with both live, but pmtpa-only is preferred
 ;payments		5M	IN A		208.80.152.213 ; pmtpa
-payments		5M	IN A		208.80.155.5   ; eqiad
+payments		5M	IN A		208.80.155.5 ; eqiad
 
 payments-listener	1H	IN CNAME		thulium
 
@@ -625,8 +615,8 @@ spcom			1H	IN CNAME	wikimedia-lb
 species			1H	IN CNAME	wikimedia-lb
 steward			1H	IN CNAME	wikimedia-lb
 strategy		1H	IN CNAME	wikimedia-lb
-strategyapps	1H	IN CNAME	wikimedia-lb
-transitionteam	1H	IN CNAME	wikimedia-lb
+strategyapps		1H	IN CNAME	wikimedia-lb
+transitionteam		1H	IN CNAME	wikimedia-lb
 ombudsmen		1H	IN CNAME	wikimedia-lb
 otrs-wiki		1H	IN CNAME	wikimedia-lb
 pa.us			1H	IN CNAME	wikimedia-lb
@@ -816,37 +806,37 @@ amssq44			1H	IN A	91.198.174.54
 amssq45			1H	IN A	91.198.174.55
 amssq46			1H	IN A	91.198.174.56
 amssq47			1H	IN A	91.198.174.57
-				1H  IN AAAA 2620:0:862:1:91:198:174:57
+			1H	IN AAAA 2620:0:862:1:91:198:174:57
 amssq48			1H	IN A	91.198.174.58
-				1H  IN AAAA 2620:0:862:1:91:198:174:58
+			1H	IN AAAA 2620:0:862:1:91:198:174:58
 amssq49			1H	IN A	91.198.174.59
-				1H  IN AAAA 2620:0:862:1:91:198:174:59
+			1H	IN AAAA 2620:0:862:1:91:198:174:59
 amssq50			1H	IN A	91.198.174.60
-				1H  IN AAAA 2620:0:862:1:91:198:174:60
+			1H	IN AAAA 2620:0:862:1:91:198:174:60
 amssq51			1H	IN A	91.198.174.61
-				1H  IN AAAA 2620:0:862:1:91:198:174:61
+			1H	IN AAAA 2620:0:862:1:91:198:174:61
 amssq52			1H	IN A	91.198.174.62
-				1H  IN AAAA 2620:0:862:1:91:198:174:62
+			1H	IN AAAA 2620:0:862:1:91:198:174:62
 amssq53			1H	IN A	91.198.174.63
-				1H  IN AAAA 2620:0:862:1:91:198:174:63
+			1H	IN AAAA 2620:0:862:1:91:198:174:63
 amssq54			1H	IN A	91.198.174.64
-				1H  IN AAAA 2620:0:862:1:91:198:174:64
+			1H	IN AAAA 2620:0:862:1:91:198:174:64
 amssq55			1H	IN A	91.198.174.65
-				1H  IN AAAA 2620:0:862:1:91:198:174:65
+			1H	IN AAAA 2620:0:862:1:91:198:174:65
 amssq56			1H	IN A	91.198.174.66
-				1H  IN AAAA 2620:0:862:1:91:198:174:66
+			1H	IN AAAA 2620:0:862:1:91:198:174:66
 amssq57			1H	IN A	91.198.174.67
-				1H  IN AAAA 2620:0:862:1:91:198:174:67
+			1H	IN AAAA 2620:0:862:1:91:198:174:67
 amssq58			1H	IN A	91.198.174.68
-				1H  IN AAAA 2620:0:862:1:91:198:174:68
+			1H	IN AAAA 2620:0:862:1:91:198:174:68
 amssq59			1H	IN A	91.198.174.69
-				1H  IN AAAA 2620:0:862:1:91:198:174:69
+			1H	IN AAAA 2620:0:862:1:91:198:174:69
 amssq60			1H	IN A	91.198.174.70
-				1H  IN AAAA 2620:0:862:1:91:198:174:70
+			1H	IN AAAA 2620:0:862:1:91:198:174:70
 amssq61			1H	IN A	91.198.174.71
-				1H  IN AAAA 2620:0:862:1:91:198:174:71
+			1H	IN AAAA 2620:0:862:1:91:198:174:71
 amssq62			1H	IN A	91.198.174.72
-				1H  IN AAAA 2620:0:862:1:91:198:174:72
+			1H	IN AAAA 2620:0:862:1:91:198:174:72
 
 clematis		1H	IN A	91.198.174.130
 			1H	IN AAAA 2620:0:862:102:209:3dff:fe11:c9d2
@@ -955,38 +945,38 @@ ptolemy.ipmi		1H	IN A	10.21.0.104
 donate-lb		1H	IN A	91.198.174.224 ; Explicitly v4 only
 				IN MX 10 aluminium.wikimedia.org.	
 				IN MX 20 grosley.wikimedia.org.	
-text-lb                 1H      IN A    91.198.174.192
-                        1H      IN AAAA 2620:0:862:ed1a::1
-login-lb                1H      IN A    91.198.174.201
-                        1H      IN AAAA 2620:0:862:ed1a::1:9
-wikimedia-lb            1H      IN A    91.198.174.224
-                        1H      IN AAAA 2620:0:862:ed1a::0
-wikipedia-lb            1H      IN A    91.198.174.225
-                        1H      IN AAAA 2620:0:862:ed1a::1
-wiktionary-lb           1H      IN A    91.198.174.226
-                        1H      IN AAAA 2620:0:862:ed1a::2
-wikiquote-lb            1H      IN A    91.198.174.227
-                        1H      IN AAAA 2620:0:862:ed1a::3
-wikibooks-lb            1H      IN A    91.198.174.228
-                        1H      IN AAAA 2620:0:862:ed1a::4
-wikisource-lb           1H      IN A    91.198.174.229
-                        1H      IN AAAA 2620:0:862:ed1a::5
-wikinews-lb             1H      IN A    91.198.174.230
-                        1H      IN AAAA 2620:0:862:ed1a::6
-wikiversity-lb          1H      IN A    91.198.174.231
-                        1H      IN AAAA 2620:0:862:ed1a::7
-mediawiki-lb            1H      IN A    91.198.174.232
-                        1H      IN AAAA 2620:0:862:ed1a::8
-foundation-lb           1H      IN A    91.198.174.235
-                        1H      IN AAAA 2620:0:862:ed1a::9
-bits-lb                 1H      IN A    91.198.174.233
-                        1H      IN AAAA 2620:0:862:ed1a::a
-upload-lb               1H      IN A    91.198.174.208
-                        1H      IN AAAA 2620:0:862:ed1a::2:b
-mobile-lb				1H		IN A	91.198.174.236
-						1H		IN AAAA	2620:0:862:ed1a::c
-wikidata-lb				1H		IN A	91.198.174.237
-						1H		IN AAAA	2620:0:862:ed1a::12
-wikivoyage-lb			1H		IN A	91.198.174.238
-						1H		IN AAAA	2620:0:862:ed1a::13
+text-lb			1H	IN A	91.198.174.192
+			1H	IN AAAA 2620:0:862:ed1a::1
+login-lb		1H	IN A	91.198.174.201
+			1H	IN AAAA 2620:0:862:ed1a::1:9
+wikimedia-lb		1H	IN A	91.198.174.224
+			1H	IN AAAA 2620:0:862:ed1a::0
+wikipedia-lb		1H	IN A	91.198.174.225
+			1H	IN AAAA 2620:0:862:ed1a::1
+wiktionary-lb		1H	IN A	91.198.174.226
+			1H	IN AAAA 2620:0:862:ed1a::2
+wikiquote-lb		1H	IN A	91.198.174.227
+			1H	IN AAAA 2620:0:862:ed1a::3
+wikibooks-lb		1H	IN A	91.198.174.228
+			1H	IN AAAA 2620:0:862:ed1a::4
+wikisource-lb		1H	IN A	91.198.174.229
+			1H	IN AAAA 2620:0:862:ed1a::5
+wikinews-lb		1H	IN A	91.198.174.230
+			1H	IN AAAA 2620:0:862:ed1a::6
+wikiversity-lb		1H	IN A	91.198.174.231
+			1H	IN AAAA 2620:0:862:ed1a::7
+mediawiki-lb		1H	IN A	91.198.174.232
+			1H	IN AAAA 2620:0:862:ed1a::8
+foundation-lb		1H	IN A	91.198.174.235
+			1H	IN AAAA 2620:0:862:ed1a::9
+bits-lb			1H	IN A	91.198.174.233
+			1H	IN AAAA 2620:0:862:ed1a::a
+upload-lb		1H	IN A	91.198.174.208
+			1H	IN AAAA 2620:0:862:ed1a::2:b
+mobile-lb		1H	IN A	91.198.174.236
+			1H	IN AAAA	2620:0:862:ed1a::c
+wikidata-lb		1H	IN A	91.198.174.237
+			1H	IN AAAA	2620:0:862:ed1a::12
+wikivoyage-lb		1H	IN A	91.198.174.238
+			1H	IN AAAA	2620:0:862:ed1a::13
 geoiplookup-lb		1H	IN A	91.198.174.233
