@@ -556,8 +556,6 @@ torrus			1H	IN CNAME	manutius
 
 url-downloader		1H	IN A		208.80.152.143	; linne
 
-wlm			1H	IN CNAME	wikimedia-lb
-
 ; Wikis (alphabetic order)
 
 advisory		1H	IN CNAME	wikimedia-lb
