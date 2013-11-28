@@ -722,7 +722,7 @@ sr.planet		1H	IN CNAME	zirconium
 sv.planet		1H	IN CNAME	zirconium
 uk.planet		1H	IN CNAME	zirconium
 zh.planet		1H	IN CNAME	zirconium
-puppet			5M	IN CNAME	palladium.eqiad.wmnet.
+puppet			1H	IN CNAME	palladium.eqiad.wmnet.
 racktables		1H	IN CNAME	magnesium
 reportcard		1H	IN CNAME	stat1001
 search			1H	IN CNAME	wikimedia-lb
@@ -793,7 +793,7 @@ $ORIGIN esams.{{ zonename }}.
 ; Service aliases
 
 ntp			1H	IN A	91.198.174.118	; pascal
-puppet			5M	IN CNAME	palladium.eqiad.wmnet.
+puppet			1H	IN CNAME	palladium.eqiad.wmnet.
 recursor0		1H	IN A	91.198.174.6
 
 ; Servers
