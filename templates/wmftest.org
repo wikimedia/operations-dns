@@ -34,8 +34,5 @@ $ORIGIN {{ zonename }}.
 
 ; Wikis (alphabetic order)
 
-; All languages will automatically be included here
-{{ langlist('text.wikimedia.org.') }}
-
 ; Other websites
 googleffffffffbd5bc537	1h	IN CNAME	google.com.

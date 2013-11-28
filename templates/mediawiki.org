@@ -26,8 +26,6 @@ $ORIGIN {{ zonename }}.
 
 ; Servers (alphabetic order)
 
-v6test			1H	IN AAAA		2620:0:860:ed1a::8
-
 ; Service aliases
 
 ; Wikis (alphabetic order)

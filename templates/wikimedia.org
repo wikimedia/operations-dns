@@ -663,27 +663,22 @@ analytics		1H	IN CNAME	stat1001
 blog			1H	IN CNAME	holmium.wikimedia.org.
 bugs			1H	IN CNAME	kaulen.wikimedia.org.
 bugzilla		1H	IN CNAME	kaulen.wikimedia.org.
-bugzilla3		1H	IN CNAME	kaulen.wikimedia.org.
 bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
 careers			1H	IN CNAME	wikimedia-lb
 civicrm			1H	IN CNAME	aluminium
 civicrm-dev		1H	IN CNAME	aluminium
 coffee			1H	IN CNAME	wikimedia-lb
 communityblog		1H	IN CNAME	holmium.wikimedia.org.
-commons.prototype	1H	IN A		208.80.152.249
 contacts		1H	IN CNAME	zirconium
 cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
 download		1H	IN CNAME	dumps
 eiximenis		1H	IN CNAME	hooper.wikimedia.org.
-etherpad-old	1H	IN CNAME	hooper.wikimedia.org.
+etherpad-old		1H	IN CNAME	hooper.wikimedia.org.
 etherpad		1H	IN CNAME	zirconium.wikimedia.org.
-epl			1H	IN CNAME	zirconium.wikimedia.org.
 fundraising		1H	IN CNAME	aluminium
 ganglia			1H	IN CNAME	nickel
 globalblog		1H	IN CNAME	holmium.wikimedia.org.
-ganglia3		1H	IN CNAME	nickel
-ganglia3-tip		1H	IN CNAME	nickel
 graphite		1H	IN CNAME	noc
 ishmael			1H	IN CNAME	neon
 jobs			1H	IN CNAME	wikimedia-lb
@@ -691,9 +686,8 @@ labs			1H	IN CNAME	wikimedia-lb
 labs-ns0		1H	IN A		208.80.152.33
 labs-ns1		1H	IN A		208.80.154.19
 labsconsole		1H	IN CNAME	wikitech
-ls2			1H	IN CNAME	wikimedia-lb
 metrics-api		1H	IN CNAME	stat1001
-metrics		1H	IN CNAME	stat1001
+metrics			1H	IN CNAME	stat1001
 noc			1H	IN CNAME	fenari
 nyc			1H	IN CNAME	wikimedia-lb
 planet			1H	IN CNAME	zirconium
@@ -736,7 +730,7 @@ techblog		1H	IN CNAME	holmium.wikimedia.org.
 ticket			1H	IN CNAME	iodine
 ubuntu			1H	IN A		208.80.152.171
 wikitech		1H	IN A		208.80.152.32
-wikitech-static	1H	IN A		166.78.57.240
+wikitech-static		1H	IN A		166.78.57.240
 
 ; Misc
 
@@ -776,9 +770,6 @@ $ORIGIN corp.{{ zonename }}.
 
 ns1			1H	IN A	216.38.130.189
 ns2			1H	IN A	216.38.130.188
-
-; new tesla virt cluster
-$ORIGIN tesla.{{ zonename }}.
 
 ; Usability servers
 
@@ -963,12 +954,8 @@ br1-knams.ipmi		1H	IN A	10.21.0.101
 scs-oe11-esams		1H	IN A	10.21.0.102
 ortelius.ipmi		1H	IN A	10.21.0.103
 ptolemy.ipmi		1H	IN A	10.21.0.104
-; Round robin record
 
-rr			1H	IN A	91.198.174.232	  ; LVS
-text			1H	IN A	91.198.174.232	; LVS
-bits			1H	IN A	91.198.174.233	; LVS
-upload			1H	IN A	91.198.174.234	; NOTE, this record is currently overwritten by the Pipe backend and selective-answers.py for selective AAAA record serving with IPv6 experiments
+; Round robin record
 
 donate-lb		1H	IN A	91.198.174.224 ; Explicitly v4 only
 				IN MX 10 aluminium.wikimedia.org.	
