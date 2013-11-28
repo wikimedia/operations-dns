@@ -586,13 +586,10 @@ co			1H	IN CNAME	wikimedia-lb
 comcom			1H	IN CNAME	wikimedia-lb
 commons			1H	IN CNAME	wikimedia-lb
 www.commons		1H	IN CNAME	wikimedia-lb
-de.labs			1H	IN CNAME	wikimedia-lb
 dk			1H	IN CNAME	wikimedia-lb
 educacao		1H	IN CNAME	wikimedia-lb
 education		1H	IN CNAME	wikimedia-lb
-en.labs			1H	IN CNAME	wikimedia-lb
 et			1H	IN CNAME	wikimedia-lb
-flaggedrevs.labs	1H	IN CNAME	wikimedia-lb
 exec			1H	IN CNAME	wikimedia-lb
 fi			1H	IN CNAME	wikimedia-lb
 fdc			1H	IN CNAME	wikimedia-lb
@@ -604,7 +601,6 @@ incubator		1H	IN CNAME	wikimedia-lb
 internal		1H	IN CNAME	wikimedia-lb
 it			1H	IN CNAME	wikimedia-lb
 langcom			1H	IN CNAME	wikimedia-lb
-liquidthreads.labs	1H	IN CNAME	wikimedia-lb
 meta			1H	IN CNAME	wikimedia-lb
 www.meta		1H	IN CNAME	wikimedia-lb
 mk			1H	IN CNAME	wikimedia-lb
@@ -621,7 +617,6 @@ outreach		1H	IN CNAME	wikimedia-lb
 quality			1H	IN CNAME	wikimedia-lb
 pk			1H	IN CNAME	wikimedia-lb
 pl			1H	IN CNAME	wikimedia-lb
-readerfeedback.labs	1H	IN CNAME	wikimedia-lb
 rs			1H	IN CNAME	wikimedia-lb
 ru			1H	IN CNAME	wikimedia-lb
 se			1H	IN CNAME	wikimedia-lb
