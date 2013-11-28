@@ -13,8 +13,6 @@ $ORIGIN {{ zonename }}.
 			1D	IN NS		ns2.wikimedia.org.
 
 
-localhost		7D	IN A		127.0.0.1
-
 ; CROSS-COLO FUNDRAISING SERVICE ALIASES
 fundraisingdb-write	5M	IN CNAME	db1025.frack.eqiad.wmnet.
 fundraisingdb-read	5M	IN CNAME	db78.pmtpa.wmnet.

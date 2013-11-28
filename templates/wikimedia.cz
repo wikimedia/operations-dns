@@ -24,7 +24,6 @@ $ORIGIN {{ zonename }}.
 
                         1H      IN A    81.95.96.148
 www			1H	IN A	81.95.96.148
-localhost		1W	IN A	127.0.0.1
 
 ; Servers (alphabetic order)
 

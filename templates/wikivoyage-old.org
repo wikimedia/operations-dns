@@ -22,8 +22,6 @@ $ORIGIN {{ zonename }}.
 
 			1H	IN A	188.40.41.16
 
-localhost		1W	IN A	127.0.0.1
-
 ; servers
 
 america			1H	IN A		5.9.71.41

@@ -26,8 +26,6 @@ $ORIGIN {{ zonename }}.
                         1H      IN A    208.80.154.226
 			1H	IN AAAA	2620:0:861:ed1a::2
 
-localhost		1W	IN A	127.0.0.1
-
 ; Servers (alphabetic order)
 
 ; Service aliases

@@ -25,8 +25,6 @@ $ORIGIN {{ zonename }}.
                         1H      IN A    208.80.154.225
 			1H	IN AAAA	2620:0:861:ed1a::1
 
-localhost		1W	IN A	127.0.0.1
-
 ; Google Webmaster Tools verification record for search management
 wikipedia.org.          600     IN TXT  "google-site-verification=AMHkgs-4ViEvIJf5znZle-BSE2EPNFqM1nDJGRyn2qk"
 
