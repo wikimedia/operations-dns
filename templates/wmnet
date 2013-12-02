@@ -1293,9 +1293,9 @@ strontium		1H	IN A		10.64.0.164
 puppet			1H	IN CNAME	palladium.eqiad.wmnet.
 tin			1H	IN A		10.64.0.196
 terbium		1H	IN A		10.64.32.13
-testsearch1003 1H IN A      10.64.32.136
-testsearch1002 1H IN A      10.64.32.137
-testsearch1001 1H IN A      10.64.32.138
+logstash1003 1H IN A      10.64.32.136
+logstash1002 1H IN A      10.64.32.137
+logstash1001 1H IN A      10.64.32.138
 tmh1001			1H	IN A		10.64.0.197
 tmh1002			1H	IN A		 10.64.16.146
 vanadium		1H	IN A		10.64.21.123
@@ -2382,11 +2382,11 @@ wmf3643     1H  IN A    10.65.3.171
 wmf3838     1H  IN A    10.65.3.172
 wmf3837     1H  IN A    10.65.3.173
 hafnium     1H  IN A    10.65.3.173
-testsearch1003 1H IN A  10.65.3.174
+logstash1003 1H IN A  10.65.3.174
 wmf5826     1H  IN A    10.65.3.174
-testsearch1002 1H IN A  10.65.3.175
+logstash1002 1H IN A  10.65.3.175
 wmf5825     1H  IN A    10.65.3.175
-testsearch1001 1H IN A  10.65.3.176
+logstash1001 1H IN A  10.65.3.176
 wmf5824     1H  IN A    10.65.3.176
 
 

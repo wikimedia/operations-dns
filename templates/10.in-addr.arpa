@@ -1704,9 +1704,9 @@ $ORIGIN 32.64.{{ zonename }}.
 133     1H IN PTR       cp1056.eqiad.wmnet.
 134     1H IN PTR       cp1057.eqiad.wmnet.
 135     1H IN PTR       erbium.eqiad.wmnet.
-136     1H IN PTR       testsearch1003.eqiad.wmnet.
-137     1H IN PTR       testsearch1002.eqiad.wmnet.
-138     1H IN PTR       testsearch1001.eqiad.wmnet.
+136     1H IN PTR       logstash1003.eqiad.wmnet.
+137     1H IN PTR       logstash1002.eqiad.wmnet.
+138     1H IN PTR       logstash1001.eqiad.wmnet.
 139     1H IN PTR       elastic1007.eqiad.wmnet.
 140     1H IN PTR       elastic1008.eqiad.wmnet.
 141     1H IN PTR       elastic1009.eqiad.wmnet.
@@ -2636,11 +2636,11 @@ $ORIGIN 3.65.{{ zonename }}.
 172 1H  IN PTR      wmf3838.mgmt.eqiad.wmnet.
 173 1H  IN PTR      wmf3837.mgmt.eqiad.wmnet.
 173 1H  IN PTR      hafnium.mgmt.eqiad.wmnet.
-174 1H  IN PTR      testsearch1003.mgmt.eqiad.wmnet.
+174 1H  IN PTR      logstash1003.mgmt.eqiad.wmnet.
 174 1H  IN PTR      wmf5826.mgmt.eqiad.wmnet.
-175 1H  IN PTR      testsearch1002.mgmt.eqiad.wmnet.
+175 1H  IN PTR      logstash1002.mgmt.eqiad.wmnet.
 175 1H  IN PTR      wmf5825.mgmt.eqiad.wmnet.
-176 1H  IN PTR      testsearch1001.mgmt.eqiad.wmnet.
+176 1H  IN PTR      logstash1001.mgmt.eqiad.wmnet.
 176 1H  IN PTR      wmf5824.mgmt.eqiad.wmnet.
 177 1H  IN PTR      wmf5844.mgmt.eqiad.wmnet.
 177 1H  IN PTR      ssl1009.mgmt.eqiad.wmnet.
