@@ -669,6 +669,7 @@ zh.planet		1H	IN CNAME	zirconium
 puppet			1H	IN CNAME	palladium.eqiad.wmnet.
 racktables		1H	IN CNAME	magnesium
 reportcard		1H	IN CNAME	stat1001
+scholarships		1H	IN CNAME	misc-web-lb.eqiad
 search			1H	IN CNAME	wikimedia-lb
 shop			1H	IN CNAME	shopwikipedia.myshopify.com.
 smokeping		1H	IN CNAME	netmon1001
