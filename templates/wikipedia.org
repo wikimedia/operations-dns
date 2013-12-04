@@ -34,10 +34,10 @@ mail                    1H      IN CNAME        mail.wikimedia.org.
 
 ; Wikis (alphabetic order)
 
-arbcom.de               1H      IN CNAME        wikipedia-lb.wikimedia.org.
-arbcom.en               1H      IN CNAME        wikipedia-lb.wikimedia.org.
-arbcom.fi               1H      IN CNAME        wikipedia-lb.wikimedia.org.
-arbcom.nl               1H      IN CNAME        wikipedia-lb.wikimedia.org.
+arbcom-de               1H      IN CNAME        wikipedia-lb.wikimedia.org.
+arbcom-en               1H      IN CNAME        wikipedia-lb.wikimedia.org.
+arbcom-fi               1H      IN CNAME        wikipedia-lb.wikimedia.org.
+arbcom-nl               1H      IN CNAME        wikipedia-lb.wikimedia.org.
 commons                 1H      IN CNAME        wikipedia-lb.wikimedia.org.
 en2                     1H      IN CNAME        wikipedia-lb.wikimedia.org.
 meta			1H	IN CNAME	wikipedia-lb.wikimedia.org.
@@ -53,9 +53,17 @@ test2                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
 test.m                  1H      IN CNAME        mobile-lb.eqiad.wikimedia.org.
 test2.m                 1H      IN CNAME        mobile-lb.eqiad.wikimedia.org.
 textbook		1H	IN CNAME	wikipedia-lb.wikimedia.org.
-wg.en			1H	IN CNAME	wikipedia-lb.wikimedia.org.
+wg-en			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 www			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 zh-tw                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
+
+; Old double-subdomain aliases (bug 31335)
+arbcom.de               1H      IN CNAME        wikipedia-lb.wikimedia.org.
+arbcom.en               1H      IN CNAME        wikipedia-lb.wikimedia.org.
+arbcom.fi               1H      IN CNAME        wikipedia-lb.wikimedia.org.
+arbcom.nl               1H      IN CNAME        wikipedia-lb.wikimedia.org.
+wg.en			1H	IN CNAME	wikipedia-lb.wikimedia.org.
+
 
 ; All languages will automatically be included here
 {{ langlist('wikipedia-lb.wikimedia.org.') }}
