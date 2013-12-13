@@ -536,6 +536,7 @@ observium		1H	IN A		208.80.152.137
 payments		5M	IN A		208.80.155.5 ; eqiad
 
 payments-listener	1H	IN CNAME		thulium
+payments-listener-dev	1H	IN CNAME		lutetium
 
 rt			1H	IN A		208.80.154.5
 			1H	IN MX		10 mchenry
@@ -652,7 +653,7 @@ bugzilla		1H	IN CNAME	kaulen.wikimedia.org.
 bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
 careers			1H	IN CNAME	wikimedia-lb
 civicrm			1H	IN CNAME	aluminium
-civicrm-dev		1H	IN CNAME	aluminium
+civicrm-dev		1H	IN CNAME	lutetium
 coffee			1H	IN CNAME	wikimedia-lb
 communityblog		1H	IN CNAME	holmium.wikimedia.org.
 contacts		1H	IN CNAME	zirconium
