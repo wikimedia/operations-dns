@@ -146,7 +146,7 @@ $ORIGIN 6.0.1.0.{{ zonename }}.
 $ORIGIN a.1.d.e.{{ zonename }}.
 
 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikimedia-lb.eqiad.wikimedia.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikipedia-lb.eqiad.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       text-lb.eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wiktionary-lb.eqiad.wikimedia.org.
 3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikiquote-lb.eqiad.wikimedia.org.
 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikibooks-lb.eqiad.wikimedia.org.
