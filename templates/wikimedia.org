@@ -166,7 +166,8 @@ ms1001			1H	IN A	208.80.154.16
 neon			1H	IN A	208.80.154.14
 netmon1001		1H	IN A	208.80.154.159
 nickel			1H	IN A	208.80.154.150
-
+nitrogen		1H	IN A	208.80.154.17
+			1H	IN AAAA	2620:0:861:1:208:80:154:17
 oxygen			1H	IN A	208.80.154.15
 pappas			1H	IN A	208.80.152.166
 pay-lvs1001		1H	IN A	208.80.155.2
@@ -268,8 +269,6 @@ virt1000		1H	IN A	208.80.154.18
 ytterbium		1H	IN A	208.80.154.80
 yvon			1H	IN A	208.80.152.21
 zhen			1H	IN A	208.80.152.140
-nitrogen		1H	IN A	208.80.154.17
-			1H	IN AAAA	2620:0:861:1:208:80:154:17
 zirconium		1H	IN A	208.80.154.41
 			1H	IN AAAA	2620:0:861:1:208:80:154:41
 
@@ -562,18 +561,18 @@ advisory		1H	IN CNAME	wikimedia-lb
 affcom			1H	IN CNAME	wikimedia-lb
 auditcom		1H	IN CNAME	wikimedia-lb
 ar			1H	IN CNAME	wikimedia-lb
+bd			1H	IN CNAME	wikimedia-lb
 be			1H	IN CNAME	wikimedia-lb
 board			1H	IN CNAME	wikimedia-lb
 boardgovcom		1H	IN CNAME	wikimedia-lb
 bookshelf		1H	IN CNAME	wikimedia-lb
-bd			1H	IN CNAME	wikimedia-lb
 br			1H	IN CNAME	wikimedia-lb
 ch			1H	IN CNAME	wikimedia-lb
 chair			1H	IN CNAME	wikimedia-lb
 chapcom			1H	IN CNAME	wikimedia-lb
 checkuser		1H	IN CNAME	wikimedia-lb
-collab			1H	IN CNAME	wikimedia-lb
 co			1H	IN CNAME	wikimedia-lb
+collab			1H	IN CNAME	wikimedia-lb
 comcom			1H	IN CNAME	wikimedia-lb
 commons			1H	IN CNAME	wikimedia-lb
 www.commons		1H	IN CNAME	wikimedia-lb
@@ -582,8 +581,8 @@ educacao		1H	IN CNAME	wikimedia-lb
 education		1H	IN CNAME	wikimedia-lb
 et			1H	IN CNAME	wikimedia-lb
 exec			1H	IN CNAME	wikimedia-lb
-fi			1H	IN CNAME	wikimedia-lb
 fdc			1H	IN CNAME	wikimedia-lb
+fi			1H	IN CNAME	wikimedia-lb
 grants			1H	IN CNAME	wikimedia-lb
 hu			1H	IN CNAME	wikimedia-lb
 iegcom			1H	IN CNAME	wikimedia-lb
@@ -600,15 +599,20 @@ mx			1H	IN CNAME	wikimedia-lb
 nl			1H	IN CNAME	wikimedia-lb
 www.nl			1H	IN CNAME	wikimedia-lb
 noboard.chapters	1H	IN CNAME	wikimedia-lb
-noboard-chapters	1H	IN CNAME	wikimedia-lb
 no			1H	IN CNAME	wikimedia-lb
-nz			1H	IN CNAME	wikimedia-lb
+noboard-chapters	1H	IN CNAME	wikimedia-lb
 nostalgia		1H	IN CNAME	wikimedia-lb
+nz			1H	IN CNAME	wikimedia-lb
 office			1H	IN CNAME	wikimedia-lb
+ombudsmen		1H	IN CNAME	wikimedia-lb
+otrs-wiki		1H	IN CNAME	wikimedia-lb
 outreach		1H	IN CNAME	wikimedia-lb
-quality			1H	IN CNAME	wikimedia-lb
+pa.us			1H	IN CNAME	wikimedia-lb
+pa-us			1H	IN CNAME	wikimedia-lb
+pt			1H	IN CNAME	wikimedia-lb
 pk			1H	IN CNAME	wikimedia-lb
 pl			1H	IN CNAME	wikimedia-lb
+quality			1H	IN CNAME	wikimedia-lb
 rs			1H	IN CNAME	wikimedia-lb
 ru			1H	IN CNAME	wikimedia-lb
 se			1H	IN CNAME	wikimedia-lb
@@ -618,18 +622,13 @@ species			1H	IN CNAME	wikimedia-lb
 steward			1H	IN CNAME	wikimedia-lb
 strategy		1H	IN CNAME	wikimedia-lb
 strategyapps		1H	IN CNAME	wikimedia-lb
-transitionteam		1H	IN CNAME	wikimedia-lb
-ombudsmen		1H	IN CNAME	wikimedia-lb
-otrs-wiki		1H	IN CNAME	wikimedia-lb
-pa.us			1H	IN CNAME	wikimedia-lb
-pa-us			1H	IN CNAME	wikimedia-lb
-pt			1H	IN CNAME	wikimedia-lb
 tr			1H	IN CNAME	wikimedia-lb
+transitionteam		1H	IN CNAME	wikimedia-lb
 ua			1H	IN CNAME	wikimedia-lb
 uk			1H	IN CNAME	wikimedia-lb
 usability		1H	IN CNAME	wikimedia-lb
-videos			1H	IN CNAME	wikimedia-lb
 ve			1H	IN CNAME	wikimedia-lb
+videos			1H	IN CNAME	wikimedia-lb
 vote			1H	IN CNAME	wikimedia-lb
 wikimania		1H	IN CNAME	wikimedia-lb
 wikimania2005		1H	IN CNAME	wikimedia-lb
