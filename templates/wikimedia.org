@@ -946,7 +946,7 @@ ptolemy.ipmi		1H	IN A	10.21.0.104
 
 ; Round robin record
 
-donate-lb		1H	IN A	91.198.174.224 ; Explicitly v4 only
+donate-lb		1H	IN A	91.198.174.192 ; Explicitly v4 only
 				IN MX 10 aluminium.wikimedia.org.	
 				IN MX 20 grosley.wikimedia.org.	
 text-lb			1H	IN A	91.198.174.192
