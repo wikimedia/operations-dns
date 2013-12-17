@@ -324,6 +324,8 @@ wikivoyage-lb.pmtpa	1H	IN A	208.80.152.219
 geoiplookup-lb.pmtpa	1H	IN A	208.80.152.210
 
 ;;; eqiad
+text-lb.eqiad       1H  IN A    208.80.154.224
+                    1H  IN AAAA 2620:0:861:ed1a::1
 donate-lb.eqiad		1H	IN A	208.80.154.224 ; Explicitly v4 only
 				IN MX 10 mchenry.wikimedia.org.	
 				IN MX 20 sodium.wikimedia.org.	
