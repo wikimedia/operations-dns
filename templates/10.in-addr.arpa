@@ -1512,6 +1512,7 @@ $ORIGIN 20.64.{{ zonename }}.
 10	1H IN PTR	virt1007.eqiad.wmnet.
 11      1H IN PTR       virt1008.eqiad.wmnet.
 12      1H IN PTR       labsdb1001.eqiad.wmnet.
+13	1H IN PTR	labnet1001.eqiad.wmnet.
 
 101	1H IN PTR	db1-rowb-RESERVED.
 102	1H IN PTR	db2-rowb-RESERVED.
@@ -2598,6 +2599,7 @@ $ORIGIN 3.65.{{ zonename }}.
 170 1H  IN PTR      wmf3642.mgmt.eqiad.wmnet.
 171 1H  IN PTR      labnet1001.mgmt.eqiad.wmnet.
 171 1H  IN PTR      wmf3643.mgmt.eqiad.wmnet.
+171 1H  IN PTR      labnet1001.mgmt.eqiad.wmnet.
 172 1H  IN PTR      wmf3838.mgmt.eqiad.wmnet.
 173 1H  IN PTR      wmf3837.mgmt.eqiad.wmnet.
 173 1H  IN PTR      hafnium.mgmt.eqiad.wmnet.
