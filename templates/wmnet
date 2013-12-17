@@ -521,12 +521,8 @@ WMF5852			1H	IN A		10.1.8.133
 ; GENERATES FOR MANGEMENT
 
 ; Squid Mangement Range
-sq37                    1H      IN A            10.1.3.37
-
-sq43                    1H      IN A            10.1.3.43
-
-; sq49-86
-{% for i in range(49, 87) %}
+; sq67-70
+{% for i in range(67, 71) %}
 sq{{ i }}	1H	IN A		10.1.3.{{ i }}
 {%- endfor %}
 

@@ -424,46 +424,10 @@ $ORIGIN 2.1.{{ zonename }}.
 
 $ORIGIN 3.1.{{ zonename }}.
 
-37	1H	IN PTR	sq37.mgmt.pmtpa.wmnet.
-43	1H	IN PTR	sq43.mgmt.pmtpa.wmnet.
-49	1H	IN PTR	sq49.mgmt.pmtpa.wmnet.
-50	1H	IN PTR	sq50.mgmt.pmtpa.wmnet.
-51	1H	IN PTR	sq51.mgmt.pmtpa.wmnet.
-52	1H	IN PTR	sq52.mgmt.pmtpa.wmnet.
-53	1H	IN PTR	sq53.mgmt.pmtpa.wmnet.
-54	1H	IN PTR	sq54.mgmt.pmtpa.wmnet.
-55	1H	IN PTR	sq55.mgmt.pmtpa.wmnet.
-56	1H	IN PTR	sq56.mgmt.pmtpa.wmnet.
-57	1H	IN PTR	sq57.mgmt.pmtpa.wmnet.
-58	1H	IN PTR	sq58.mgmt.pmtpa.wmnet.
-59	1H	IN PTR	sq59.mgmt.pmtpa.wmnet.
-60	1H	IN PTR	sq60.mgmt.pmtpa.wmnet.
-61	1H	IN PTR	sq61.mgmt.pmtpa.wmnet.
-62	1H	IN PTR	sq62.mgmt.pmtpa.wmnet.
-63	1H	IN PTR	sq63.mgmt.pmtpa.wmnet.
-64	1H	IN PTR	sq64.mgmt.pmtpa.wmnet.
-65	1H	IN PTR	sq65.mgmt.pmtpa.wmnet.
-66	1H	IN PTR	sq66.mgmt.pmtpa.wmnet.
 67	1H	IN PTR	sq67.mgmt.pmtpa.wmnet.
 68	1H	IN PTR	sq68.mgmt.pmtpa.wmnet.
 69	1H	IN PTR	sq69.mgmt.pmtpa.wmnet.
 70	1H	IN PTR	sq70.mgmt.pmtpa.wmnet.
-71	1H	IN PTR	sq71.mgmt.pmtpa.wmnet.
-72	1H	IN PTR	sq72.mgmt.pmtpa.wmnet.
-73	1H	IN PTR	sq73.mgmt.pmtpa.wmnet.
-74	1H	IN PTR	sq74.mgmt.pmtpa.wmnet.
-75	1H	IN PTR	sq75.mgmt.pmtpa.wmnet.
-76	1H	IN PTR	sq76.mgmt.pmtpa.wmnet.
-77	1H	IN PTR	sq77.mgmt.pmtpa.wmnet.
-78	1H	IN PTR	sq78.mgmt.pmtpa.wmnet.
-79	1H	IN PTR	sq79.mgmt.pmtpa.wmnet.
-80	1H	IN PTR	sq80.mgmt.pmtpa.wmnet.
-81	1H	IN PTR	sq81.mgmt.pmtpa.wmnet.
-82	1H	IN PTR	sq82.mgmt.pmtpa.wmnet.
-83	1H	IN PTR	sq83.mgmt.pmtpa.wmnet.
-84	1H	IN PTR	sq84.mgmt.pmtpa.wmnet.
-85	1H	IN PTR	sq85.mgmt.pmtpa.wmnet.
-86	1H	IN PTR	sq86.mgmt.pmtpa.wmnet.
 
 ; Search Servers
 $ORIGIN 4.1.{{ zonename }}.
