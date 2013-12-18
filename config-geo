@@ -244,80 +244,7 @@ plugins => { geoip => {
 				ulsfo => donate-lb.ulsfo.wikimedia.org.
 			}
 		}
-		# text
-		foundation-lb => {
-			map => generic-map
-			dcmap => {
-				eqiad => text-lb.eqiad.wikimedia.org.
-				esams => text-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
-			}
-		}
-		mediawiki-lb => {
-			map => generic-map
-			dcmap => {
-				eqiad => text-lb.eqiad.wikimedia.org.
-				esams => text-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
-			}
-		}
-		wikibooks-lb => {
-			map => generic-map
-			dcmap => {
-				eqiad => text-lb.eqiad.wikimedia.org.
-				esams => text-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
-			}
-		}
-		wikimedia-lb => {
-			map => generic-map
-			dcmap => {
-				eqiad => text-lb.eqiad.wikimedia.org.
-				esams => text-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
-			}
-		}
-		wikinews-lb => {
-			map => generic-map
-			dcmap => {
-				eqiad => text-lb.eqiad.wikimedia.org.
-				esams => text-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
-			}
-		}
-		wikipedia-lb => {
-			map => generic-map
-			dcmap => {
-				eqiad => text-lb.eqiad.wikimedia.org.
-				esams => text-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
-			}
-		}
-		wikiquote-lb => {
-			map => generic-map
-			dcmap => {
-				eqiad => text-lb.eqiad.wikimedia.org.
-				esams => text-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
-			}
-		}
-		wikisource-lb => {
-			map => generic-map
-			dcmap => {
-				eqiad => text-lb.eqiad.wikimedia.org.
-				esams => text-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
-			}
-		}
-		wikiversity-lb => {
-			map => generic-map
-			dcmap => {
-				eqiad => text-lb.eqiad.wikimedia.org.
-				esams => text-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
-			}
-		}
-		wiktionary-lb => {
+		text-lb => {
 			map => generic-map
 			dcmap => {
 				eqiad => text-lb.eqiad.wikimedia.org.
@@ -331,22 +258,6 @@ plugins => { geoip => {
 				eqiad => mobile-lb.eqiad.wikimedia.org.
 				esams => mobile-lb.esams.wikimedia.org.
 				ulsfo => mobile-lb.ulsfo.wikimedia.org.
-			}
-		}
-		wikidata-lb => {
-			map => generic-map
-			dcmap => {
-				eqiad => text-lb.eqiad.wikimedia.org.
-				esams => text-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
-			}
-		}
-		wikivoyage-lb => {
-			map => generic-map
-			dcmap => {
-				eqiad => text-lb.eqiad.wikimedia.org.
-				esams => text-lb.esams.wikimedia.org.
-				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 	}

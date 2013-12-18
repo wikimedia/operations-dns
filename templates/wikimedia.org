@@ -84,18 +84,18 @@ upload		600	DYNC geoip!upload
 m		600	DYNC geoip!mobile-lb
 geoiplookup	600	DYNC geoip!geoiplookup
 donate		600	DYNC geoip!donate
-foundation-lb	600	DYNC geoip!foundation-lb
-mediawiki-lb	600	DYNC geoip!mediawiki-lb
-wikibooks-lb	600	DYNC geoip!wikibooks-lb
-wikimedia-lb	600	DYNC geoip!wikimedia-lb
-wikinews-lb	600	DYNC geoip!wikinews-lb
-wikipedia-lb	600	DYNC geoip!wikipedia-lb
-wikiquote-lb	600	DYNC geoip!wikiquote-lb
-wikisource-lb	600	DYNC geoip!wikisource-lb
-wikiversity-lb	600	DYNC geoip!wikiversity-lb
-wiktionary-lb	600	DYNC geoip!wiktionary-lb
-wikidata-lb	600	DYNC geoip!wikidata-lb
-wikivoyage-lb	600	DYNC geoip!wikivoyage-lb
+foundation-lb	600	DYNC geoip!text-lb
+mediawiki-lb	600	DYNC geoip!text-lb
+wikibooks-lb	600	DYNC geoip!text-lb
+wikimedia-lb	600	DYNC geoip!text-lb
+wikinews-lb	600	DYNC geoip!text-lb
+wikipedia-lb	600	DYNC geoip!text-lb
+wikiquote-lb	600	DYNC geoip!text-lb
+wikisource-lb	600	DYNC geoip!text-lb
+wikiversity-lb	600	DYNC geoip!text-lb
+wiktionary-lb	600	DYNC geoip!text-lb
+wikidata-lb	600	DYNC geoip!text-lb
+wikivoyage-lb	600	DYNC geoip!text-lb
 
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
 
