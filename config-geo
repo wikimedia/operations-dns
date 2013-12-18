@@ -248,7 +248,7 @@ plugins => { geoip => {
 		foundation-lb => {
 			map => generic-map
 			dcmap => {
-				eqiad => foundation-lb.eqiad.wikimedia.org.
+				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
@@ -256,7 +256,7 @@ plugins => { geoip => {
 		mediawiki-lb => {
 			map => generic-map
 			dcmap => {
-				eqiad => mediawiki-lb.eqiad.wikimedia.org.
+				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
@@ -264,7 +264,7 @@ plugins => { geoip => {
 		wikibooks-lb => {
 			map => generic-map
 			dcmap => {
-				eqiad => wikibooks-lb.eqiad.wikimedia.org.
+				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
@@ -272,7 +272,7 @@ plugins => { geoip => {
 		wikimedia-lb => {
 			map => generic-map
 			dcmap => {
-				eqiad => wikimedia-lb.eqiad.wikimedia.org.
+				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
@@ -280,7 +280,7 @@ plugins => { geoip => {
 		wikinews-lb => {
 			map => generic-map
 			dcmap => {
-				eqiad => wikinews-lb.eqiad.wikimedia.org.
+				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
@@ -288,7 +288,7 @@ plugins => { geoip => {
 		wikipedia-lb => {
 			map => generic-map
 			dcmap => {
-				eqiad => wikipedia-lb.eqiad.wikimedia.org.
+				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
@@ -296,7 +296,7 @@ plugins => { geoip => {
 		wikiquote-lb => {
 			map => generic-map
 			dcmap => {
-				eqiad => wikiquote-lb.eqiad.wikimedia.org.
+				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
@@ -304,7 +304,7 @@ plugins => { geoip => {
 		wikisource-lb => {
 			map => generic-map
 			dcmap => {
-				eqiad => wikisource-lb.eqiad.wikimedia.org.
+				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
@@ -312,7 +312,7 @@ plugins => { geoip => {
 		wikiversity-lb => {
 			map => generic-map
 			dcmap => {
-				eqiad => wikiversity-lb.eqiad.wikimedia.org.
+				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
@@ -320,7 +320,7 @@ plugins => { geoip => {
 		wiktionary-lb => {
 			map => generic-map
 			dcmap => {
-				eqiad => wiktionary-lb.eqiad.wikimedia.org.
+				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
@@ -336,7 +336,7 @@ plugins => { geoip => {
 		wikidata-lb => {
 			map => generic-map
 			dcmap => {
-				eqiad => wikidata-lb.eqiad.wikimedia.org.
+				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
@@ -344,7 +344,7 @@ plugins => { geoip => {
 		wikivoyage-lb => {
 			map => generic-map
 			dcmap => {
-				eqiad => wikivoyage-lb.eqiad.wikimedia.org.
+				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
 				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
