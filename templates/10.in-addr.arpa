@@ -2552,7 +2552,7 @@ $ORIGIN 3.65.{{ zonename }}.
 178 1H  IN PTR      ssl1008.mgmt.eqiad.wmnet.
 179 1H  IN PTR      wmf5843.mgmt.eqiad.wmnet.
 179 1H  IN PTR      ssl1007.mgmt.eqiad.wmnet.
-180 1H  IN PTR      virt1008.mgmt.eqiad.wmnet.
+180 1H  IN PTR      virt1009.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.{{ zonename }}.
 
