@@ -1486,6 +1486,8 @@ $ORIGIN 20.64.{{ zonename }}.
 2       1H IN PTR       ae2-1118.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae2-1118.cr2-eqiad.wikimedia.org.
 4	1H IN PTR	virt1001.eqiad.wmnet.
+5	1H IN PTR	virt1002.eqiad.wmnet.
+6	1H IN PTR	virt1003.eqiad.wmnet.
 7	1H IN PTR	virt1004.eqiad.wmnet.
 8	1H IN PTR	virt1005.eqiad.wmnet.
 9	1H IN PTR	virt1006.eqiad.wmnet.
