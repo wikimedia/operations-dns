@@ -764,14 +764,9 @@ nas1001-b		1H	IN A		10.64.16.5
 
 ;Servers - listed alphabetically
 
-analytics1001		 1H	IN A		 10.64.21.101
-analytics1002		 1H	IN A		 10.64.21.102
 analytics1003		 1H	IN A		 10.64.21.103
 analytics1004		 1H	IN A		 10.64.21.104
-analytics1005		 1H	IN A		 10.64.21.105
-analytics1006		 1H	IN A		 10.64.21.106
 ;analytics1007		 1H	IN A		 10.64.21.107
-analytics1008		 1H	IN A		 10.64.21.108
 analytics1009		 1H	IN A		 10.64.5.10
 analytics1010		 1H	IN A		 10.64.21.110
 analytics1011		 1H	IN A		 10.64.5.11
@@ -1464,17 +1459,20 @@ labsdb1001	1H	IN A	10.65.3.69
 WMF3446		1H	IN A	10.65.3.70
 labsdb1002	1H	IN A	10.65.3.70
 WMF3447		1H	IN A	10.65.3.71
-analytics1002	1H	IN A	10.65.3.72
+virt1001        1H      IN A    10.65.3.71
+WMF3448         1H      IN A    10.65.3.72
+virt1002	1H	IN A	10.65.3.72
 WMF3449		1H	IN A	10.65.3.73
 analytics1003   1H      IN A    10.65.3.73
 analytics1004   1H      IN A    10.65.3.74
-analytics1005	1H	IN A	10.65.3.75
+WMF3458         1H      IN A    10.65.3.75
+virt1003	1H	IN A	10.65.3.75
 WMF3459		1H	IN A	10.65.3.76
-analytics1006	1H	IN A	10.65.3.76
+virt1008	1H	IN A	10.65.3.76
 WMF3460		1H	IN A	10.65.3.77
 analytics1007	1H	IN A	10.65.3.77
 WMF3461		1H	IN A	10.65.3.78
-analytics1008	1H	IN A	10.65.3.78
+virt1009	1H	IN A	10.65.3.78
 WMF3462		1H	IN A	10.65.3.79
 analytics1009	1H	IN A	10.65.3.79
 WMF3463		1H	IN A	10.65.3.80
