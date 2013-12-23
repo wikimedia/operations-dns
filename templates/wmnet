@@ -938,7 +938,7 @@ es1009			1H	IN A		10.64.32.19
 es1010			1H	IN A		10.64.32.20
 fluorine		1H	IN A		10.64.0.21
 helium			1H	IN A		10.64.0.179
-labnet1001      1H  IN A        10.64.37.10
+labnet1001      1H  IN A        10.64.20.13
 labsdb1001      1H  IN A        10.64.20.12
 labsdb1002      1H  IN A        10.64.37.4
 labsdb1003		1H	IN A		10.64.37.5
