@@ -553,6 +553,7 @@ il			1H	IN CNAME	wikimedia-lb
 incubator		1H	IN CNAME	wikimedia-lb
 internal		1H	IN CNAME	wikimedia-lb
 it			1H	IN CNAME	wikimedia-lb
+kr			1H	IN CNAME	wikimedia-lb
 langcom			1H	IN CNAME	wikimedia-lb
 meta			1H	IN CNAME	wikimedia-lb
 www.meta		1H	IN CNAME	wikimedia-lb
