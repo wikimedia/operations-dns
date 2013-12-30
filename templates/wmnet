@@ -15,8 +15,8 @@ $ORIGIN {{ zonename }}.
 
 ; CROSS-COLO FUNDRAISING SERVICE ALIASES
 fundraisingdb-write	5M	IN CNAME	db1025.frack.eqiad.wmnet.
-fundraisingdb-read	5M	IN CNAME	db78.pmtpa.wmnet.
-;fundraisingdb-read	5M	IN CNAME	db1008.frack.eqiad.wmnet.
+;fundraisingdb-read	5M	IN CNAME	db78.pmtpa.wmnet.
+fundraisingdb-read	5M	IN CNAME	db1008.frack.eqiad.wmnet.
 
 $ORIGIN pmtpa.{{ zonename }}.
 
@@ -82,7 +82,7 @@ db74			1H	IN A		10.0.6.84
 db75			1H	IN A		10.0.6.85
 db76			1H	IN A		10.0.6.86
 db77			1H	IN A		10.0.6.87
-db78                    1H      IN A            10.0.6.88
+db78            1H  IN A        10.0.6.88
 ersch			1H	IN A		10.0.0.22
 erzurumi		1h	IN A		10.0.0.25
 es1			1H	IN A		10.0.0.225
