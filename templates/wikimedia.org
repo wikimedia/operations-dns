@@ -312,7 +312,7 @@ mediawiki-lb.eqiad	1H	IN A	208.80.154.232
 foundation-lb.eqiad	1H	IN A	208.80.154.233
 			1H	IN AAAA 2620:0:861:ed1a::9
 bits-lb.eqiad		1H	IN A	208.80.154.234
-			1H	IN AAAA 2620:0:861:ed1a::a
+			1H	IN AAAA 2620:0:861:ed1a::1:a
 upload-lb.eqiad		1H	IN A	208.80.154.240
 			1H	IN AAAA 2620:0:861:ed1a::2:b
 mobile-lb.eqiad		1H	IN A	208.80.154.236

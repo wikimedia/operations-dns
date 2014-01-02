@@ -170,6 +170,8 @@ f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       dns-rec-lb.eqiad.wikimedia.org.
 
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
+a.0.0.0                             1H IN PTR       bits-lb.eqiad.wikimedia.org.
+
 ; LVS Multimedia, 2620:0:861:ed1a::2:0/96
 
 $ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
