@@ -35,8 +35,6 @@ arptest			1H	IN A		10.0.5.4
 dbdump			1H	IN A		10.0.5.1
 dns-r0			1H	IN A		10.0.5.6
 dns-r1			1H	IN A		10.0.5.7
-graphite		1H	IN CNAME	professor.pmtpa.wmnet.
-gdash			1H	IN CNAME	professor.pmtpa.wmnet.
 nfs-home		1H	IN A		10.0.5.8
 imagedump		1H	IN A		10.0.5.2
 rendering.svc		1H	IN A		10.2.1.21
