@@ -29,6 +29,8 @@ asw{{ i }}-pmtpa	1H	IN A		10.0.1.{{ i }}
 mirror			1H	IN CNAME	apt.wikimedia.org.
 smtp			1H	IN CNAME	wiki-mail.wikimedia.org.
 webproxy		1H	IN CNAME	brewster.wikimedia.org.
+carbon-relay		1H	IN CNAME	tungsten.eqiad.wmnet.
+statsd			1H	IN CNAME	tungsten.eqiad.wmnet.
 
 apaches			1H	IN A		10.2.1.1
 apaches2		1H	IN A		10.0.5.5
@@ -699,6 +701,8 @@ ntp			1H	IN CNAME	linne.wikimedia.org.
 syslog			1H	IN CNAME	nfs-home.pmtpa.wmnet.
 webproxy		1H	IN CNAME	carbon.wikimedia.org.
 zuul			1H	IN CNAME	gallium.wikimedia.org.
+carbon-relay		1H	IN CNAME	tungsten.eqiad.wmnet.
+statsd			1H	IN CNAME	tungsten.eqiad.wmnet.
 s1-master		5M	IN CNAME	db1056.eqiad.wmnet.
 s2-master		5M	IN CNAME	db1036.eqiad.wmnet.
 s3-master		5M	IN CNAME	db1038.eqiad.wmnet.
