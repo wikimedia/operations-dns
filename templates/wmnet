@@ -700,6 +700,7 @@ $ORIGIN eqiad.{{ zonename }}.
 ntp			1H	IN CNAME	linne.wikimedia.org.
 syslog			1H	IN CNAME	nfs-home.pmtpa.wmnet.
 webproxy		1H	IN CNAME	carbon.wikimedia.org.
+zuul			1H	IN CNAME	gallium.wikimedia.org.
 s1-master		5M	IN CNAME	db1056.eqiad.wmnet.
 s2-master		5M	IN CNAME	db1036.eqiad.wmnet.
 s3-master		5M	IN CNAME	db1038.eqiad.wmnet.
