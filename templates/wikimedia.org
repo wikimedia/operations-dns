@@ -99,6 +99,7 @@ wikivoyage-lb	600	DYNC geoip!text-lb
 
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
 
+al-fundraising		1H	IN A	208.80.154.12
 aluminium		1H	IN A	208.80.154.6
 aluminum		1H	IN CNAME aluminium
 analytics1003		1H	IN A	208.80.154.160
