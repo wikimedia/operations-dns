@@ -70,7 +70,6 @@ $ORIGIN {{ zonename }}.
 145	1H IN PTR	ae0-101.cr2-pmtpa.wikimedia.org.
 146	1H IN PTR	stat1.wikimedia.org.
 147	1H IN PTR	formey.wikimedia.org.
-148	1H IN PTR	hooper.wikimedia.org.
 149	1H IN PTR	kaulen.wikimedia.org.
 
 154	1H IN PTR	pdf2.wikimedia.org.

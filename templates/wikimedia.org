@@ -132,7 +132,6 @@ gallium			1H	IN A	208.80.154.135
 grosley			1H	IN A	208.80.152.164
 hafnium			1H	IN A	208.80.154.79
 holmium			1H	IN A	208.80.154.49
-hooper			1H	IN A	208.80.152.148
 hume			1H	IN A	208.80.152.190
 			1H	IN AAAA	2620:0:860:2:21d:9ff:fe33:f235
 hydrogen		1H	IN A	208.80.154.50
@@ -626,7 +625,6 @@ contacts		1H	IN CNAME	zirconium
 cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
 download		1H	IN CNAME	dumps
-eiximenis		1H	IN CNAME	hooper.wikimedia.org.
 etherpad		1H	IN CNAME	zirconium.wikimedia.org.
 fundraising		1H	IN CNAME	aluminium
 ganglia			1H	IN CNAME	nickel
