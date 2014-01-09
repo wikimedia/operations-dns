@@ -107,6 +107,7 @@ analytics1004		1H	IN A	208.80.154.161
 antimony		1H	IN A	208.80.154.7
 
 barium			1H	IN A	208.80.155.11
+barium-fundraising	1H      IN A    208.80.155.14
 bast1001		1H	IN A	208.80.154.149
 bast4001		1H	IN A	198.35.26.5
 beryllium		1H	IN A	208.80.154.47

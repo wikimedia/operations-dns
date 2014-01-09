@@ -29,6 +29,7 @@ $ORIGIN {{ zonename }}.
 11	1H IN PTR	barium.wikimedia.org.
 12	1H IN PTR	thulium.wikimedia.org.
 13	1H IN PTR	lutetium.wikimedia.org.
+14      1H IN PTR       barium-fundraising.wikimedia.org.
 
 ; 208.80.155.32/27 Infrastructure block
 
