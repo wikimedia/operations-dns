@@ -498,12 +498,15 @@ ntp.pmtpa		1H	IN CNAME	linne
 
 observium		1H	IN A		208.80.152.137
 
-; in theory we can run with both live, but pmtpa-only is preferred
+; in theory we can run with both live, but eqiad-only is preferred
 ;payments		5M	IN A		208.80.152.213 ; pmtpa
 payments		5M	IN A		208.80.155.5 ; eqiad
 
 payments-listener	1H	IN CNAME		thulium
 payments-listener-dev	1H	IN CNAME		lutetium
+payments-listener.frdev	1H	IN CNAME		lutetium
+
+reports.frdev	1H	IN CNAME		lutetium
 
 rt			1H	IN A		208.80.154.5
 			1H	IN MX		10 mchenry
@@ -620,7 +623,9 @@ bug-attachment		1H	IN CNAME	kaulen.wikimedia.org.
 careers			1H	IN CNAME	wikimedia-lb
 civicrm			1H	IN CNAME	aluminium
 civicrm-dev		1H	IN CNAME	lutetium
+civicrm.frdev	1H	IN CNAME	lutetium
 civicrm-dev-gr	1H	IN CNAME	lutetium
+civicrm-gr.frdev 1H	IN CNAME	lutetium
 coffee			1H	IN CNAME	wikimedia-lb
 communityblog		1H	IN CNAME	holmium.wikimedia.org.
 contacts		1H	IN CNAME	zirconium
