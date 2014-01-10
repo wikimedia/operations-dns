@@ -166,6 +166,7 @@ ms10			1H	IN A	208.80.152.48
 ms1001			1H	IN A	208.80.154.16
 neon			1H	IN A	208.80.154.14
 netmon1001		1H	IN A	208.80.154.159
+			1H	IN AAAA 2620:0:861:2:208:80:154:159
 nickel			1H	IN A	208.80.154.150
 nitrogen		1H	IN A	208.80.154.17
 			1H	IN AAAA	2620:0:861:1:208:80:154:17
@@ -496,7 +497,8 @@ irc			1H	IN CNAME	ekrem
 login			1H	IN CNAME	wikimedia-lb
 ntp.pmtpa		1H	IN CNAME	linne
 
-observium		1H	IN A		208.80.152.137
+observium		1H	IN CNAME	librenms
+librenms		1H	IN CNAME	netmon1001
 
 ; in theory we can run with both live, but eqiad-only is preferred
 ;payments		5M	IN A		208.80.152.213 ; pmtpa
