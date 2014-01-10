@@ -945,4 +945,4 @@ wikidata-lb		1H	IN A	91.198.174.237
 			1H	IN AAAA	2620:0:862:ed1a::12
 wikivoyage-lb		1H	IN A	91.198.174.238
 			1H	IN AAAA	2620:0:862:ed1a::13
-geoiplookup-lb		1H	IN A	91.198.174.233
+geoiplookup-lb		1H	IN A	91.198.174.202
