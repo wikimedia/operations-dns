@@ -120,7 +120,6 @@ $ORIGIN 5.0.{{ zonename }}.
 $ORIGIN 6.0.{{ zonename }}.
 
 30	1H	IN PTR	professor.pmtpa.wmnet.
-39	1H	IN PTR	db29.pmtpa.wmnet.
 
 45	1H	IN PTR	db35.pmtpa.wmnet.
 48	1H	IN PTR	db38.pmtpa.wmnet.
@@ -460,7 +459,6 @@ $ORIGIN 6.1.{{ zonename }}.
 19	1H	IN PTR db9.mgmt.pmtpa.wmnet.
 20	1H	IN PTR db10.mgmt.pmtpa.wmnet.
 30	1H	IN PTR professor.mgmt.pmtpa.wmnet.
-39	1H	IN PTR db29.mgmt.pmtpa.wmnet.
 45	1H	IN PTR db35.mgmt.pmtpa.wmnet.
 48	1H	IN PTR db38.mgmt.pmtpa.wmnet.
 50	1H	IN PTR db40.mgmt.pmtpa.wmnet.
