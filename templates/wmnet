@@ -59,7 +59,6 @@ es3-secondary		5M	IN CNAME	es8.pmtpa.wmnet.
 db9			1H	IN A		10.0.0.242
 db10			1H	IN A		10.0.0.243
 professor		1H	IN A		10.0.6.30
-db29			1H	IN A		10.0.6.39
 db35			1H	IN A		10.0.6.45
 db38			1H	IN A		10.0.6.48
 db40			1H	IN A		10.0.6.50
@@ -318,7 +317,6 @@ dataset2		1H	IN A		10.1.8.55
 db9			1H	IN A		10.1.6.19
 db10			1H	IN A		10.1.6.20
 professor		1H	IN A		10.1.6.30
-db29			1H	IN A		10.1.6.39
 db35			1H	IN A		10.1.6.45
 db38			1H	IN A		10.1.6.48
 db40			1H	IN A		10.1.6.50
