@@ -36,10 +36,10 @@ bugzilla		1H	IN CNAME	mediawiki-lb.wikimedia.org.
 bugs			1H	IN CNAME	mediawiki-lb.wikimedia.org.
 
 ; Other websites
-doc			1H	IN CNAME	gallium.wikimedia.org.
+doc			300	IN CNAME	gallium.wikimedia.org.
 donate			1H	IN CNAME	mediawiki-lb.wikimedia.org.
 download		1H	IN CNAME	mediawiki-lb.wikimedia.org.
-integration		1H	IN CNAME	gallium.wikimedia.org.
+integration		300	IN CNAME	gallium.wikimedia.org.
 www.donate		1H	IN CNAME	mediawiki-lb.wikimedia.org.
 svn			1H	IN CNAME	svn.wikimedia.org.
 shop			1H	IN CNAME	wikimedia-lb.wikimedia.org.
