@@ -556,7 +556,7 @@ $ORIGIN 8.1.{{ zonename }}.
 39	1H	IN PTR	ekrem.mgmt.pmtpa.wmnet.
 40	1H	IN PTR  emery.mgmt.pmtpa.wmnet.
 41	1H	IN PTR	harmon.mgmt.pmtpa.wmnet.
-42	1H	IN PTR	hooper.mgmt.pmtpa.wmnet.
+42	1H	IN PTR	WMF3916.mgmt.pmtpa.wmnet.
 44	1H	IN PTR	WMF3914.mgmt.pmtpa.wmnet.
 46	1H	IN PTR	payments1.mgmt.pmtpa.wmnet.
 47	1H	IN PTR	payments2.mgmt.pmtpa.wmnet.
