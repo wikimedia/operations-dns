@@ -51,10 +51,12 @@ $ORIGIN 2.0.0.0.{{ zonename }}.
 5.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	stat1001.wikimedia.org.
 7.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	chromium.wikimedia.org.
 
+6.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	iodine.wikimedia.org.
+9.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	bast1001.wikimedia.org.
+1.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	iron.wikimedia.org.
+
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1002.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1002.cr2-eqiad.wikimedia.org.
-
-6.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	iodine.wikimedia.org.
 
 ; public1-c-eqiad (2620:0:861:3::/64)
 $ORIGIN 3.0.0.0.{{ zonename }}.
