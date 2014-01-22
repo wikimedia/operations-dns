@@ -613,9 +613,9 @@ www			1H	IN CNAME	wikimedia-lb
 ; Other websites (NO wikis!)
 analytics		1H	IN CNAME	stat1001
 blog			1H	IN CNAME	holmium.wikimedia.org.
-bugs			300	IN CNAME	kaulen.wikimedia.org.
-bugzilla		300	IN CNAME	kaulen.wikimedia.org.
-bug-attachment		300	IN CNAME	kaulen.wikimedia.org.
+bugs			300	IN CNAME	zirconium
+bugzilla		300	IN CNAME	zirconium
+bug-attachment		300	IN CNAME	zirconium
 careers			1H	IN CNAME	wikimedia-lb
 civicrm			1H	IN CNAME	aluminium
 civicrm-dev		1H	IN CNAME	lutetium
