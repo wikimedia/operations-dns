@@ -475,7 +475,7 @@ apt			1H	IN CNAME	brewster
 
 cache			1H	IN CNAME	wikimedia-lb
 
-doc			300	IN CNAME	gallium
+doc				300	IN CNAME	misc-web=lb.eqiad
 
 ; don't want this for anything but wikimedia.org domain
 frdata.wikimedia.org.	1H	IN CNAME	samarium.wikimedia.org.
