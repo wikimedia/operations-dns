@@ -18,8 +18,11 @@ $ORIGIN {{ zonename }}.
 ; West Coast Discrete network
 
 ; 198.35.26.0/28 (198.35.26.0 - 198.35.26.63)
-; ulsfo public IP space
+; Subnet public1-ulsfo
 
+1	1H IN PTR	vrrp-gw-1201.wikimedia.org.
+2	1H IN PTR	ae1-1201.cr1-ulsfo.wikimedia.org.
+3	1H IN PTR	ae1-1201.cr2-ulsfo.wikimedia.org.
 5	1H IN PTR	bast4001.wikimedia.org.
 
 ; 198.35.26.96/27 (198.35.26.96 - 198.35.26.127)
