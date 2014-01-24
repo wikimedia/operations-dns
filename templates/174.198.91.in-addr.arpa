@@ -17,7 +17,7 @@ $ORIGIN {{ zonename }}.
 
 ; Public services subnet 91.198.174.0/25 (91.198.174.0 - 91.198.174.127)
 
-1	1H IN PTR	vl100-ve1.csw1-esams.wikimedia.org.
+1	1H IN PTR	vrrp-gw-100.esams.wikimedia.org.
 2	1H IN PTR	ae1-100.cr1-esams.wikimedia.org.
 3	1H IN PTR	ae1-100.cr2-knams.wikimedia.org.
 
@@ -99,39 +99,13 @@ $ORIGIN {{ zonename }}.
 113	1H IN PTR	hooft.esams.wikimedia.org.
 114	1H IN PTR	ptolemy.esams.wikimedia.org.
 115	1H IN PTR	ortelius.esams.wikimedia.org.
-116	1H IN PTR	vrrp-backup-100.csw1-esams.wikimedia.org.
-117     1H IN PTR       csw2-esams.wikimedia.org.
 
 121	1H IN PTR	eeden.esams.wikimedia.org.
 122	1H IN PTR	maerlant.esams.wikimedia.org.
 
 125	1H IN PTR	ms6.esams.wikimedia.org.
 
-; Backup storage subnet: 91.198.174.128/26 (91.198.174.128 - 91.198.174.191)
-
-129	1H IN PTR	vl101-ve5.csw1-esams.wikimedia.org.
-130	1H IN PTR	ae0-101.cr1-esams.wikimedia.org.
-131     1H IN PTR       sql-text1.esams.wikimedia.org.
-132     1H IN PTR       sql-text3.esams.wikimedia.org.
-133     1H IN PTR       sql-text4.esams.wikimedia.org.
-134     1H IN PTR       sql-text5.esams.wikimedia.org.
-135     1H IN PTR       sql-text6.esams.wikimedia.org.
-136     1H IN PTR       sql-text7.esams.wikimedia.org.
-137     1H IN PTR       sql-text8.esams.wikimedia.org.
-138     1H IN PTR       sql-text9.esams.wikimedia.org.
-139     1H IN PTR       sql-text10.esams.wikimedia.org.
-140     1H IN PTR       sql-text11.esams.wikimedia.org.
-141     1H IN PTR       sql-text12.esams.wikimedia.org.
-142     1H IN PTR       sql-text13.esams.wikimedia.org.
-; 143 = array!
-144     1H IN PTR       sql-text14.esams.wikimedia.org.
-145     1H IN PTR       sql-text15.esams.wikimedia.org.
-146     1H IN PTR       sql-text16.esams.wikimedia.org.
-147     1H IN PTR       sql-text17.esams.wikimedia.org.
-148     1H IN PTR       sql-text18.esams.wikimedia.org.
-149     1H IN PTR       sql-text19.esams.wikimedia.org.
-
-190	1H IN PTR	vrrp-backup-101.esams.wikimedia.org.
+; empty: 91.198.174.128/26 (91.198.174.128 - 91.198.174.191)
 
 ; 91.198.174.192/27 LVS service IPs
 
