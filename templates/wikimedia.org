@@ -519,7 +519,7 @@ smtp			1H	IN A		208.80.152.187	; sanger
 			1H	IN MX		10 mchenry
 
 squidlog		1H	IN CNAME	locke.wikimedia.org.
-svn			1H	IN CNAME	antimony.wikimedia.org.
+svn			5M	IN CNAME	antimony.wikimedia.org.
 
 torrus			1H	IN CNAME	manutius
 
