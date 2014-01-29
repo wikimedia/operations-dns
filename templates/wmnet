@@ -901,8 +901,8 @@ labsdb1002      1H  IN A        10.64.37.4
 labsdb1003		1H	IN A		10.64.37.5
 labstore1001	1H	IN A		10.64.37.6
 labstore1002	1H	IN A		10.64.37.7
-labstore1003	1H	IN A		10.64.37.8
-labstore1004	1H	IN A		10.64.37.9
+labsdb1004	1H	IN A		10.64.37.8
+labsdb1005	1H	IN A		10.64.37.9
 lanthanum		1H	IN A		10.64.0.161
 mc1001			1H	IN A		10.64.0.180
 mc1002			1H	IN A		10.64.0.181
@@ -1597,8 +1597,8 @@ es1010		1H	IN A	10.65.4.10
 WMF4063		1H	IN A	10.65.4.10
 labstore1001	1H	IN A	10.65.3.106
 labstore1002	1H	IN A	10.65.3.107
-labstore1003	1H	IN A	10.65.3.108
-labstore1004	1H	IN A	10.65.3.109
+labsdb1004	1H	IN A	10.65.3.108
+labsdb1005	1H	IN A	10.65.3.109
 lutetium    1H  IN A    10.65.6.13
 WMF3078     1H  IN A    10.65.6.13
 mc1001		1H	IN A	10.65.8.1

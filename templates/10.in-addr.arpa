@@ -1661,8 +1661,8 @@ $ORIGIN 37.64.{{ zonename }}.
 5       1H IN PTR       labsdb1003.eqiad.wmnet.
 6       1H IN PTR       labstore1001.eqiad.wmnet.
 7       1H IN PTR       labstore1002.eqiad.wmnet.
-8       1H IN PTR       labstore1003.eqiad.wmnet.
-9       1H IN PTR       labstore1004.eqiad.wmnet.
+8       1H IN PTR       labsdb1004.eqiad.wmnet.
+9       1H IN PTR       labsdb1005.eqiad.wmnet.
 10      1H IN PTR       labstore.svc.eqiad.wmnet.
 
 101		1H IN PTR		db1-rowc-RESERVED.
@@ -2433,8 +2433,8 @@ $ORIGIN 3.65.{{ zonename }}.
 105	1H	IN PTR		analytics1022.mgmt.eqiad.wmnet.
 106	1H	IN PTR		labstore1001.mgmt.eqiad.wmnet.
 107	1H	IN PTR		labstore1002.mgmt.eqiad.wmnet.
-108	1H	IN PTR		labstore1003.mgmt.eqiad.wmnet.
-109	1H	IN PTR		labstore1004.mgmt.eqiad.wmnet.
+108	1H	IN PTR		labsdb1004.mgmt.eqiad.wmnet.
+109	1H	IN PTR		labsdb1005.mgmt.eqiad.wmnet.
 110	1H	IN PTR		osm-db1001.mgmt.eqiad.wmnet.
 111	1H	IN PTR		osm-db1002.mgmt.eqiad.wmnet.
 112	1H	IN PTR		analytics1023.mgmt.eqiad.wmnet.
