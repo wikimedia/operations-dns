@@ -375,12 +375,6 @@ wikimania2014.m		1H	IN CNAME	m.wikimedia.org.
 
 ; Networking
 
-br1-ulsfo		1H	IN A	198.35.26.194
-				IN AAAA	2620:0:863:ffff::3
-
-br2-ulsfo		1H	IN A	198.35.26.195
-				IN AAAA	2620:0:863:ffff::4
-
 cr1-eqiad		1H	IN A	208.80.154.196
 				IN AAAA	2620:0:861:ffff::1
 
