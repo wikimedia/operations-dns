@@ -621,8 +621,6 @@ $ORIGIN 8.1.{{ zonename }}.
 111	1H	IN PTR	mexia.mgmt.pmtpa.wmnet.
 118	1H	IN PTR	wmf5823.mgmt.pmtpa.wmnet.
 
-122	1H	IN PTR	pappas.mgmt.pmtpa.wmnet.
-
 126	1H	IN PTR	WMF5845.mgmt.pmtpa.wmnet.
 127	1H	IN PTR	WMF5846.mgmt.pmtpa.wmnet.
 128	1H	IN PTR	WMF5847.mgmt.pmtpa.wmnet.
