@@ -33,7 +33,6 @@ $ORIGIN 0.0.{{ zonename }}.
 21	1H	IN PTR	tarin.pmtpa.wmnet.
 22	1H	IN PTR	ersch.pmtpa.wmnet.
 24	1H	IN PTR	stafford.pmtpa.wmnet.
-25	1H	IN PTR	erzurumi.pmtpa.wmnet.
 26	1H	IN PTR	tmh1.pmtpa.wmnet.
 27	1H	IN PTR	tmh2.pmtpa.wmnet.
 28	1H	IN PTR	lvs5.pmtpa.wmnet.
@@ -523,10 +522,8 @@ $ORIGIN 8.1.{{ zonename }}.
 3	1H	IN PTR	brewster.mgmt.pmtpa.wmnet.
 4	1H	IN PTR	dobson.mgmt.pmtpa.wmnet.
 5	1H	IN PTR	yvon.mgmt.pmtpa.wmnet.
-6	1H	IN PTR	erzurumi.mgmt.pmtpa.wmnet.
 7	1H	IN PTR	fenari.mgmt.pmtpa.wmnet.
 8	1H	IN PTR	grosley.mgmt.pmtpa.wmnet.
-9	1H	IN PTR	loudon.mgmt.pmtpa.wmnet.
 10	1H	IN PTR	linne.mgmt.pmtpa.wmnet.
 11	1H	IN PTR	nfs2.mgmt.pmtpa.wmnet.
 

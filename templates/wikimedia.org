@@ -143,7 +143,6 @@ iron			1H	IN A	208.80.154.151
 kaulen			1H	IN A	208.80.152.149
 linne			1H	IN A	208.80.152.167
 locke			1H	IN A	208.80.152.138
-loudon			1H	IN A	208.80.152.163
 lutetium		1H	IN A	208.80.155.13
 lvs1			1H	IN A	208.80.152.120
 lvs2			1H	IN A	208.80.152.121
