@@ -175,10 +175,6 @@ nitrogen		1H	IN A	208.80.154.17
 oxygen			1H	IN A	208.80.154.15
 pay-lvs1001		1H	IN A	208.80.155.2
 pay-lvs1002		1H	IN A	208.80.155.3
-payments1		1H	IN A	208.80.152.11
-payments2		1H	IN A	208.80.152.12
-payments3		1H	IN A	208.80.152.13
-payments4		1H	IN A	208.80.152.14
 pdf1			1H	IN A	208.80.152.155
 pdf2			1H	IN A	208.80.152.154
 pdf3			1H	IN A	208.80.152.181

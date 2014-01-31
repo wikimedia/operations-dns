@@ -216,10 +216,6 @@ $ORIGIN 8.0.{{ zonename }}.
 
 ;Payments cluster
 $ORIGIN 9.0.{{ zonename }}.
-1	1H	IN PTR	payments1.pmtpa.wmnet.
-2	1H	IN PTR	payments2.pmtpa.wmnet.
-3	1H	IN PTR	payments3.pmtpa.wmnet.
-4	1H	IN PTR	payments4.pmtpa.wmnet.
 
 ; Snapshot cluster
 $ORIGIN 10.0.{{ zonename }}.
@@ -550,10 +546,6 @@ $ORIGIN 8.1.{{ zonename }}.
 41	1H	IN PTR	harmon.mgmt.pmtpa.wmnet.
 42	1H	IN PTR	WMF3916.mgmt.pmtpa.wmnet.
 44	1H	IN PTR	WMF3914.mgmt.pmtpa.wmnet.
-46	1H	IN PTR	payments1.mgmt.pmtpa.wmnet.
-47	1H	IN PTR	payments2.mgmt.pmtpa.wmnet.
-48	1H	IN PTR	payments3.mgmt.pmtpa.wmnet.
-49	1H	IN PTR	payments4.mgmt.pmtpa.wmnet.
 51	1H	IN PTR	WMF3848.mgmt.pmtpa.wmnet.
 52	1H	IN PTR	WMF3847.mgmt.pmtpa.wmnet.
 53	1H	IN PTR	WMF3846.mgmt.pmtpa.wmnet.
