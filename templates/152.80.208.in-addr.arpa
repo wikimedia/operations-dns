@@ -19,10 +19,6 @@ $ORIGIN {{ zonename }}.
 
 1	1H IN PTR	vrrp-gw-100.wikimedia.org.
 
-11	1H IN PTR	payments1.wikimedia.org.
-12	1H IN PTR	payments2.wikimedia.org.
-13	1H IN PTR	payments3.wikimedia.org.
-14	1H IN PTR	payments4.wikimedia.org.
 15	1H IN PTR	manutius.wikimedia.org.
 16	1H IN PTR	ssl1.wikimedia.org.
 17	1H IN PTR	ssl2.wikimedia.org.
