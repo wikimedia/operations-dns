@@ -690,7 +690,7 @@ statsd			1H	IN CNAME	tungsten.eqiad.wmnet.
 s1-master		5M	IN CNAME	db1056.eqiad.wmnet.
 s2-master		5M	IN CNAME	db1036.eqiad.wmnet.
 s3-master		5M	IN CNAME	db1038.eqiad.wmnet.
-s4-master		5M	IN CNAME	db1059.eqiad.wmnet.
+s4-master		5M	IN CNAME	db1040.eqiad.wmnet.
 s5-master		5M	IN CNAME	db1058.eqiad.wmnet.
 s6-master		5M	IN CNAME	db1023.eqiad.wmnet.
 s7-master		5M	IN CNAME	db1033.eqiad.wmnet.
