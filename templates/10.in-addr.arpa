@@ -2818,6 +2818,7 @@ $ORIGIN 0.68.{{ zonename }}.
 
 ; 10.68.16.0/24 - labs-instances1-b-eqiad
 $ORIGIN 16.68.{{ zonename }}.
+1	1H IN PTR	eth4-1102.labnet1001.eqiad.wmnet.
 
 ; 10.68.32.0/24 - labs-instances1-c-eqiad
 $ORIGIN 32.68.{{ zonename }}.
