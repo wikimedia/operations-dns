@@ -140,7 +140,17 @@ $ORIGIN 6.0.1.0.{{ zonename }}.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae3-1022.cr2-eqiad.wikimedia.org.
 2.2.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR       analytics1022.eqiad.wmnet.
 
+; labs-hosts1-b-eqiad (2620:0:861:118::/64)
+$ORIGIN 8.1.1.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1118.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae3-1118.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae3-1118.cr2-eqiad.wikimedia.org.
 
+; labsexternal1-b-eqiad (2620:0:861:122::/64)
+$ORIGIN 2.2.1.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1122.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae3-1122.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae3-1122.cr2-eqiad.wikimedia.org.
 
 ; LVS Service IPs, 2620:0:861:ed1a::/64
 
