@@ -2311,6 +2311,10 @@ logstash1001 1H IN A  10.65.3.176
 wmf5824     1H  IN A    10.65.3.176
 
 
+; Labs VMs &c.
+eth4-1102.labnet1001	1H  IN A	10.68.16.1
+
+
 ; EQIAD Fundraising/Payments 
 
 $ORIGIN frack.eqiad.{{ zonename }}.
