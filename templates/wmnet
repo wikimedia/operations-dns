@@ -751,6 +751,7 @@ analytics1025            1H     IN A             10.64.36.125
 analytics1026            1H     IN A             10.64.36.126
 analytics1027            1H     IN A             10.64.36.127
 arsenic              1H	IN A         10.64.0.17
+caesium                   1H     IN A             10.64.32.145
 cerium                   1H     IN A             10.64.16.147
 copper			 1H     IN A             10.64.16.176
 cp1037 			 1H	IN A		 10.64.0.159
