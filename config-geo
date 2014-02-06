@@ -60,7 +60,7 @@ plugins => { geoip => {
 					TM => eqiad, # Turkmenistan
 					TW => ulsfo, # Taiwan, Province of China
 					UZ => eqiad, # Uzbekistan
-					VN => eqiad, # Viet Nam
+					VN => ulsfo, # Viet Nam
 					YE => esams, # Yemen
 				},
 				EU => {
