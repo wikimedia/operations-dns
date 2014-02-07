@@ -73,7 +73,6 @@ $ORIGIN {{ zonename }}.
 
 160	1H IN PTR	streber.wikimedia.org.
 
-164	1H IN PTR	grosley.wikimedia.org.
 165	1H IN PTR	fenari.wikimedia.org.
 167	1H IN PTR	linne.wikimedia.org.
 

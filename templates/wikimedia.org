@@ -133,7 +133,6 @@ fenari			1H	IN A	208.80.152.165
 formey			1H	IN A	208.80.152.147
 gadolinium		1H	IN A	208.80.154.73
 gallium			1H	IN A	208.80.154.135
-grosley			1H	IN A	208.80.152.164
 hafnium			1H	IN A	208.80.154.79
 holmium			1H	IN A	208.80.154.49
 hume			1H	IN A	208.80.152.190
@@ -912,8 +911,8 @@ ptolemy.ipmi		1H	IN A	10.21.0.104
 ; Round robin record
 
 donate-lb		1H	IN A	91.198.174.192 ; Explicitly v4 only
-				IN MX 10 aluminium.wikimedia.org.	
-				IN MX 20 grosley.wikimedia.org.	
+				IN MX 10 aluminium.wikimedia.org.
+
 text-lb			1H	IN A	91.198.174.192
 			1H	IN AAAA 2620:0:862:ed1a::1
 login-lb		1H	IN A	91.198.174.201
