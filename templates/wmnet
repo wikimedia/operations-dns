@@ -687,7 +687,7 @@ zuul			1H	IN CNAME	gallium.wikimedia.org.
 carbon-relay		1H	IN CNAME	tungsten.eqiad.wmnet.
 statsd			1H	IN CNAME	tungsten.eqiad.wmnet.
 s1-master		5M	IN CNAME	db1052.eqiad.wmnet.
-s2-master		5M	IN CNAME	db1036.eqiad.wmnet.
+s2-master		5M	IN CNAME	db1024.eqiad.wmnet.
 s3-master		5M	IN CNAME	db1038.eqiad.wmnet.
 s4-master		5M	IN CNAME	db1040.eqiad.wmnet.
 s5-master		5M	IN CNAME	db1058.eqiad.wmnet.
