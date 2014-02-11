@@ -29,7 +29,6 @@ $ORIGIN 0.0.{{ zonename }}.
 15	1H	IN PTR	vl2-eth0.lvs5.wikimedia.org.
 16	1H	IN PTR	vl2-eth0.lvs6.wikimedia.org.
 
-20	1H	IN PTR	harmon.pmtpa.wmnet.
 21	1H	IN PTR	tarin.pmtpa.wmnet.
 22	1H	IN PTR	ersch.pmtpa.wmnet.
 24	1H	IN PTR	stafford.pmtpa.wmnet.
@@ -542,7 +541,6 @@ $ORIGIN 8.1.{{ zonename }}.
 
 39	1H	IN PTR	ekrem.mgmt.pmtpa.wmnet.
 40	1H	IN PTR  emery.mgmt.pmtpa.wmnet.
-41	1H	IN PTR	harmon.mgmt.pmtpa.wmnet.
 42	1H	IN PTR	WMF3916.mgmt.pmtpa.wmnet.
 44	1H	IN PTR	WMF3914.mgmt.pmtpa.wmnet.
 51	1H	IN PTR	WMF3848.mgmt.pmtpa.wmnet.
