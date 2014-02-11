@@ -70,8 +70,6 @@ $ORIGIN {{ zonename }}.
 154	1H IN PTR	pdf2.wikimedia.org.
 155	1H IN PTR	pdf1.wikimedia.org.
 
-160	1H IN PTR	streber.wikimedia.org.
-
 165	1H IN PTR	fenari.wikimedia.org.
 167	1H IN PTR	linne.wikimedia.org.
 
