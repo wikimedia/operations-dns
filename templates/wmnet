@@ -15,7 +15,6 @@ $ORIGIN {{ zonename }}.
 
 ; CROSS-COLO FUNDRAISING SERVICE ALIASES
 fundraisingdb-write	5M	IN CNAME	db1025.frack.eqiad.wmnet.
-;fundraisingdb-read	5M	IN CNAME	db78.pmtpa.wmnet.
 fundraisingdb-read	5M	IN CNAME	db1008.frack.eqiad.wmnet.
 
 $ORIGIN pmtpa.{{ zonename }}.
@@ -73,7 +72,7 @@ db66			1H	IN A		10.0.6.76
 db67			1H	IN A		10.0.6.77
 db68			1H	IN A		10.0.6.78
 db69			1H	IN A		10.0.6.79
-db70            1H  IN A        10.0.6.80
+db70                    1H      IN A            10.0.6.80
 db71			1H	IN A		10.0.6.81
 db72			1H	IN A		10.0.6.82
 db73			1H	IN A		10.0.6.83
@@ -81,7 +80,6 @@ db74			1H	IN A		10.0.6.84
 db75			1H	IN A		10.0.6.85
 db76			1H	IN A		10.0.6.86
 db77			1H	IN A		10.0.6.87
-db78            1H  IN A        10.0.6.88
 ersch			1H	IN A		10.0.0.22
 es1			1H	IN A		10.0.0.225
 es2			1H	IN A		10.0.0.226
@@ -99,7 +97,7 @@ labstore1		1H	IN A		10.0.0.41
 labstore2		1H	IN A		10.0.0.42
 labstore3		1H	IN A		10.0.0.43
 labstore4		1H	IN A		10.0.0.44
-labnfs			1H  IN A		10.0.0.45
+labnfs			1H      IN A		10.0.0.45
 ms5			1H	IN A		10.0.0.252
 
 ms-be1			1H	IN A		10.0.6.200
@@ -324,7 +322,7 @@ db66			1H	IN A		10.1.6.76
 db67			1H	IN A		10.1.6.77
 db68			1H	IN A		10.1.6.78
 db69			1H	IN A		10.1.6.79
-db70            1H  IN A        10.1.6.80
+db70                    1H      IN A            10.1.6.80
 db71			1H	IN A		10.1.6.81
 db72			1H	IN A		10.1.6.82
 db73			1H	IN A		10.1.6.83
@@ -332,7 +330,6 @@ db74			1H	IN A		10.1.6.84
 db75			1H	IN A		10.1.6.85
 db76			1H	IN A		10.1.6.86
 db77			1H	IN A		10.1.6.87
-db78			1H	IN A		10.1.6.88
 dobson			1H	IN A		10.1.8.4
 yvon			1H	IN A		10.1.8.5
 ekrem			1H	IN A		10.1.8.39
