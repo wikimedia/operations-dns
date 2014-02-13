@@ -2810,12 +2810,12 @@ $ORIGIN 8.65.{{ zonename }}.
 $ORIGIN 0.66.{{ zonename }}.
 1	1H	IN PTR		fe-0-0-2.mr1-eqiad.mgmt.eqiad.wmnet.
 
-; eqiad labs
+; eqiad labs realm
 
 ; 10.68.0.0/24 - labs-instances1-a-eqiad
 $ORIGIN 0.68.{{ zonename }}.
 
-; 10.68.16.0/24 - labs-instances1-b-eqiad
+; 10.68.16.0/21 - labs-instances1-b-eqiad
 $ORIGIN 16.68.{{ zonename }}.
 1	1H IN PTR	eth4-1102.labnet1001.eqiad.wmnet.
 
