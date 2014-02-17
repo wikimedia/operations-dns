@@ -97,7 +97,7 @@ labstore1		1H	IN A		10.0.0.41
 labstore2		1H	IN A		10.0.0.42
 labstore3		1H	IN A		10.0.0.43
 labstore4		1H	IN A		10.0.0.44
-labnfs			1H      IN A		10.0.0.45
+labnfs			1H	IN A		10.0.0.45
 ms5			1H	IN A		10.0.0.252
 
 ms-be1			1H	IN A		10.0.6.200
@@ -2573,6 +2573,7 @@ ms-fe		1H 	IN A 		10.2.2.27
 parsoid		1H	IN A		10.2.2.28
 parsoidcache	1H	IN A		10.2.2.29
 search		1H	IN A		10.2.2.30
+labstore	1H	IN A		10.64.37.10
 
 ; ESAMS SERVICES
 

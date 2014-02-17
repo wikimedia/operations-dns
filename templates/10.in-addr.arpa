@@ -1664,6 +1664,7 @@ $ORIGIN 37.64.{{ zonename }}.
 7       1H IN PTR       labstore1002.eqiad.wmnet.
 8       1H IN PTR       labstore1003.eqiad.wmnet.
 9       1H IN PTR       labstore1004.eqiad.wmnet.
+10      1H IN PTR       labstore.svc.eqiad.wmnet.
 
 101		1H IN PTR		db1-rowc-RESERVED.
 102		1H IN PTR		db2-rowc-RESERVED.
