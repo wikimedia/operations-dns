@@ -633,6 +633,7 @@ fundraising		1H	IN CNAME	al-fundraising
 ganglia			1H	IN CNAME	nickel
 globalblog		1H	IN CNAME	holmium.wikimedia.org.
 ishmael			1H	IN CNAME	neon
+tendril			1H	IN CNAME	neon
 jobs			1H	IN CNAME	wikimedia-lb
 labs			1H	IN CNAME	wikimedia-lb
 labs-ns0		1H	IN A		208.80.152.33
