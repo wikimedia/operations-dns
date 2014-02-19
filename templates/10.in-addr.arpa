@@ -1747,6 +1747,7 @@ $ORIGIN 0.65.{{ zonename }}.
 21	1H IN PTR	psw1-eqiad.mgmt.eqiad.wmnet.
 22	1H IN PTR	scs-c1-eqiad.mgmt.eqiad.wmnet.
 23	1H IN PTR	asw-c-eqiad.mgmt.eqiad.wmnet.
+24	1H IN PTR	asw-d-eqiad.mgmt.eqiad.wmnet.
 
 ; TEMP pfw mgmt - lcarr 2012/07
 25	1H IN PTR	pfw1-eqiad.mgmt.eqiad.wmnet.
