@@ -1652,7 +1652,7 @@ $ORIGIN 36.64.{{ zonename }}.
 126     1H IN PTR       analytics1026.eqiad.wmnet.
 127     1H IN PTR       analytics1027.eqiad.wmnet.
 
-; 10.64.37.0/24 - labs-hosts1-c-eqiad
+; 10.64.37.0/24 - labs-support1-c-eqiad
 $ORIGIN 37.64.{{ zonename }}.
 
 1       1H IN PTR       vrrp-gw-1119.eqiad.wmnet.
