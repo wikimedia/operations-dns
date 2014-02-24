@@ -532,7 +532,6 @@ $ORIGIN 8.1.{{ zonename }}.
 30	1H	IN PTR	stafford.mgmt.pmtpa.wmnet.
 31	1H	IN PTR	ersch.mgmt.pmtpa.wmnet.
 32	1H	IN PTR	formey.mgmt.pmtpa.wmnet.
-34	1H	IN PTR	kaulen.mgmt.pmtpa.wmnet.
 35	1H	IN PTR	tarin.mgmt.pmtpa.wmnet.
 
 37	1H	IN PTR	pdf3.mgmt.pmtpa.wmnet.
