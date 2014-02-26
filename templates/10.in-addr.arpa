@@ -1470,6 +1470,8 @@ $ORIGIN 21.64.{{ zonename }}.
 3	1H IN PTR	ae2-1021.cr2-eqiad.wikimedia.org.
 ;107	1H IN PTR	analytics1007.eqiad.wmnet.
 
+103	1H IN PTR	analytics1003.eqiad.wmnet.
+104	1H IN PTR	analytics1004.eqiad.wmnet.
 110	1H IN PTR	analytics1010.eqiad.wmnet.
 123	1H IN PTR	vanadium.eqiad.wmnet.
 
