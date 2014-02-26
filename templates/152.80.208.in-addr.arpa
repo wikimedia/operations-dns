@@ -69,7 +69,6 @@ $ORIGIN {{ zonename }}.
 149	1H IN PTR	kaulen.wikimedia.org.
 
 154	1H IN PTR	pdf2.wikimedia.org.
-155	1H IN PTR	pdf1.wikimedia.org.
 
 160	1H IN PTR	streber.wikimedia.org.
 
