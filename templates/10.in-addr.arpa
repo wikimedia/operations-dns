@@ -1715,6 +1715,11 @@ $ORIGIN 48.64.{{ zonename }}.
 2       1H IN PTR       ae1-1020.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae1-1020.cr2-eqiad.wikimedia.org.
 
+10	1H IN PTR	elastic1013.eqiad.wmnet.
+11	1H IN PTR	elastic1014.eqiad.wmnet.
+12	1H IN PTR	elastic1015.eqiad.wmnet.
+13	1H IN PTR	elastic1016.eqiad.wmnet.
+
 ; 10.64.52.0/24 - labs-hosts1-d-eqiad
 $ORIGIN 52.64.{{ zonename }}.
 
@@ -2780,8 +2785,10 @@ $ORIGIN 7.65.{{ zonename }}.
 110     1H      IN PTR          elastic1010.mgmt.eqiad.wmnet.
 111     1H      IN PTR          elastic1011.mgmt.eqiad.wmnet.
 112     1H      IN PTR          elastic1012.mgmt.eqiad.wmnet.
-
-
+113	1H      IN PTR		elastic1013.mgmt.eqiad.wmnet.
+114	1H	IN PTR		elastic1014.mgmt.eqiad.wmnet.
+115	1H	IN PTR		elastic1015.mgmt.eqiad.wmnet.
+116	1H	IN PTR		elastic1016.mgmt.eqiad.wmnet.
 
 $ORIGIN 8.65.{{ zonename }}.
 

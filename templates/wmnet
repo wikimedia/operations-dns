@@ -880,6 +880,10 @@ elastic1009             1H      IN A            10.64.32.141
 elastic1010             1H      IN A            10.64.32.142
 elastic1011             1H      IN A            10.64.32.143
 elastic1012             1H      IN A            10.64.32.144
+elastic1013		1H	IN A		10.64.48.10
+elastic1014		1H	IN A		10.64.48.11
+elastic1015		1H	IN A		10.64.48.12
+elastic1016		1H	IN A		10.64.48.13
 erbium                  1H      IN A            10.64.32.135
 es1001			1H	IN A		10.64.0.25
 es1002			1H	IN A		10.64.16.40
@@ -1583,6 +1587,10 @@ elastic1009     1H      IN A    10.65.7.109
 elastic1010     1H      IN A    10.65.7.110
 elastic1011     1H      IN A    10.65.7.111
 elastic1012     1H      IN A    10.65.7.112
+elastic1013	1H 	IN A	10.65.7.113
+elastic1014	1H	IN A	10.65.7.114
+elastic1015	1H 	IN A	10.65.7.115
+elastic1016	1H	IN A	10.65.7.116
 es1001		1H	IN A	10.65.4.1
 WMF3074		1H	IN A	10.65.4.1
 es1002		1H	IN A	10.65.4.2
