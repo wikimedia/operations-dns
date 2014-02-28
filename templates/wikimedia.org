@@ -491,7 +491,6 @@ librenms		1H	IN CNAME	netmon1001
 payments		5M	IN A		208.80.155.5 ; eqiad
 
 payments-listener	1H	IN CNAME		thulium
-payments-listener-dev	1H	IN CNAME		lutetium
 payments-listener.frdev	1H	IN CNAME		lutetium
 
 releases		1H	IN CNAME	misc-web-lb.eqiad
@@ -611,9 +610,7 @@ bugzilla		1H	IN CNAME	zirconium
 bug-attachment		1H	IN CNAME	zirconium
 careers			1H	IN CNAME	wikimedia-lb
 civicrm			1H	IN CNAME	aluminium
-civicrm-dev		1H	IN CNAME	lutetium
 civicrm.frdev	1H	IN CNAME	lutetium
-civicrm-dev-gr	1H	IN CNAME	lutetium
 civicrm-gr.frdev 1H	IN CNAME	lutetium
 coffee			1H	IN CNAME	wikimedia-lb
 communityblog		1H	IN CNAME	holmium.wikimedia.org.
