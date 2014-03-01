@@ -549,6 +549,7 @@ internal		1H	IN CNAME	wikimedia-lb
 it			1H	IN CNAME	wikimedia-lb
 kr			1H	IN CNAME	wikimedia-lb
 langcom			1H	IN CNAME	wikimedia-lb
+legalteam		1H	IN CNAME	wikimedia-lb
 meta			1H	IN CNAME	wikimedia-lb
 www.meta		1H	IN CNAME	wikimedia-lb
 mk			1H	IN CNAME	wikimedia-lb
