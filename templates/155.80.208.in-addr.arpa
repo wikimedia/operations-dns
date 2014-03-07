@@ -56,4 +56,8 @@ $ORIGIN {{ zonename }}.
 
 ; 208.80.155.96/27 public1-d-eqiad subnet
 
+97  1H IN PTR   vrrp-gw-1004.wikimedia.org.
+98  1H IN PTR   ae4-1004.cr1-eqiad.wikimedia.org.
+99  1H IN PTR   ae4-1004.cr2-eqiad.wikimedia.org.
+
 ; 208.80.155.128/25 Eqiad Labs virtualization subnet

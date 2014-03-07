@@ -66,6 +66,17 @@ $ORIGIN 3.0.0.0.{{ zonename }}.
 6.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	ssl1006.wikimedia.org.
 7.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	ssl1009.wikimedia.org.
 
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR   ae3-1003.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR   ae3-1003.cr2-eqiad.wikimedia.org.
+
+; public1-d-eqiad (2620:0:861:4::/64)
+$ORIGIN 4.0.0.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1004.wikimedia.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR   ae4-1004.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR   ae4-1004.cr2-eqiad.wikimedia.org.
+
+
 ; sandbox1-b-eqiad (2620:0:861:52::/64
 $ORIGIN 52.0.0.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1052.eqiad.wmnet.
@@ -129,6 +140,7 @@ $ORIGIN 3.0.1.0.{{ zonename }}.
 3.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR	cp1056.eqiad.wmnet.
 4.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR	cp1057.eqiad.wmnet.
 
+
 ; analytics1-a-eqiad (2620:0:861:104::/64)
 $ORIGIN 4.0.1.0.{{ zonename }}. 
 4.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR	analytics1021.eqiad.wmnet.
@@ -140,17 +152,25 @@ $ORIGIN 6.0.1.0.{{ zonename }}.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae3-1022.cr2-eqiad.wikimedia.org.
 2.2.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR       analytics1022.eqiad.wmnet.
 
+; private1-d-eqiad (2620:0:861:107::/64)
+$ORIGIN 7.0.1.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1020.eqiad.wmnet.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae4-1020.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae4-1020.cr2-eqiad.wikimedia.org.
+
+
 ; labs-hosts1-b-eqiad (2620:0:861:118::/64)
 $ORIGIN 8.1.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1118.wikimedia.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae3-1118.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae3-1118.cr2-eqiad.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1118.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1118.cr2-eqiad.wikimedia.org.
 
 ; labsexternal1-b-eqiad (2620:0:861:122::/64)
 $ORIGIN 2.2.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1122.wikimedia.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae3-1122.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae3-1122.cr2-eqiad.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1122.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae2-1122.cr2-eqiad.wikimedia.org.
 
 ; LVS Service IPs, 2620:0:861:ed1a::/64
 
