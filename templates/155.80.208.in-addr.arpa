@@ -59,5 +59,12 @@ $ORIGIN {{ zonename }}.
 97  1H IN PTR   vrrp-gw-1004.wikimedia.org.
 98  1H IN PTR   ae4-1004.cr1-eqiad.wikimedia.org.
 99  1H IN PTR   ae4-1004.cr2-eqiad.wikimedia.org.
+100 1H IN PTR   vl1004-eth3.lvs1001.wikimedia.org.
+101 1H IN PTR   vl1004-eth3.lvs1002.wikimedia.org.
+102 1H IN PTR   vl1004-eth3.lvs1003.wikimedia.org.
+103 1H IN PTR   vl1004-eth3.lvs1004.wikimedia.org.
+104 1H IN PTR   vl1004-eth3.lvs1005.wikimedia.org.
+105 1H IN PTR   vl1004-eth3.lvs1006.wikimedia.org.
+
 
 ; 208.80.155.128/25 Eqiad Labs virtualization subnet
