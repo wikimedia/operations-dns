@@ -1054,7 +1054,7 @@ $ORIGIN 0.64.{{ zonename }}.
 14	1H IN PTR	db1010.eqiad.wmnet.
 15	1H IN PTR	db1011.eqiad.wmnet.
 16	1H IN PTR	stat1002.eqiad.wmnet.
-17	1H IN PTR	arsenic.eqiad.wmnet.
+
 18	1H IN PTR	tungsten.eqiad.wmnet.
 19	1H IN PTR	db1015.eqiad.wmnet.
 20	1H IN PTR	db1016.eqiad.wmnet.
