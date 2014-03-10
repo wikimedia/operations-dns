@@ -1242,8 +1242,8 @@ $ORIGIN 5.64.{{ zonename }}.
 $ORIGIN 16.64.{{ zonename }}.
 
 1	1H IN PTR	vrrp-gw-1018.eqiad.wmnet.
-2       1H IN PTR       ae1-1018.cr1-eqiad.wikimedia.org.
-3       1H IN PTR       ae1-1018.cr2-eqiad.wikimedia.org.
+2       1H IN PTR       ae2-1018.cr1-eqiad.wikimedia.org.
+3       1H IN PTR       ae2-1018.cr2-eqiad.wikimedia.org.
 4	1H IN PTR	nas1001-a.eqiad.wmnet.
 5	1H IN PTR	nas1001-b.eqiad.wmnet.
 6	1H IN PTR	db1017.eqiad.wmnet.
@@ -1485,8 +1485,8 @@ $ORIGIN 22.64.{{ zonename }}.
 $ORIGIN 32.64.{{ zonename }}.
 
 1	1H IN PTR	vrrp-gw-1019.eqiad.wmnet.
-2       1H IN PTR       ae1-1019.cr1-eqiad.wikimedia.org.
-3       1H IN PTR       ae1-1019.cr2-eqiad.wikimedia.org.
+2       1H IN PTR       ae3-1019.cr1-eqiad.wikimedia.org.
+3       1H IN PTR       ae3-1019.cr2-eqiad.wikimedia.org.
 
 10      1H IN PTR       ms-be1005.eqiad.wmnet.
 11      1H IN PTR       ms-be1006.eqiad.wmnet.
@@ -1710,9 +1710,9 @@ $ORIGIN 40.64.{{ zonename }}.
 ; 10.64.48.0/22 - private1-d-eqiad
 $ORIGIN 48.64.{{ zonename }}.
 
-1	1H IN PTR	vrrp-gw-1020.eqiad.wmnet.
-2       1H IN PTR       ae1-1020.cr1-eqiad.wikimedia.org.
-3       1H IN PTR       ae1-1020.cr2-eqiad.wikimedia.org.
+1   1H IN PTR   vrrp-gw-1020.eqiad.wmnet.
+2   1H IN PTR   ae4-1020.cr1-eqiad.wikimedia.org.
+3   1H IN PTR   ae4-1020.cr2-eqiad.wikimedia.org.
 
 10	1H IN PTR	elastic1013.eqiad.wmnet.
 11	1H IN PTR	elastic1014.eqiad.wmnet.
