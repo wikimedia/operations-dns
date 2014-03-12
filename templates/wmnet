@@ -867,8 +867,8 @@ db1060          	1H  	IN A        	10.64.32.30
 db1061			1H	IN A		10.64.48.14
 db1062			1H	IN A		10.64.48.15
 db1063			1H	IN A		10.64.48.16
-db1064			1H	IN A		10.64.48.17
-db1065			1H	IN A		10.64.48.18
+dbstore1001		1H	IN A		10.64.48.17
+dbstore1002		1H	IN A		10.64.48.18
 dysprosium      1H  IN A        10.64.32.81
 				1H	IN AAAA		2620:0:861:103:10:64:32:81
 elastic1001             1H      IN A            10.64.0.108
@@ -1584,9 +1584,9 @@ db1062          1H      IN A    10.65.6.62
 wmf4531         1H      IN A    10.65.6.63
 db1063          1H      IN A    10.65.6.63
 wmf4532         1H      IN A    10.65.6.64
-db1064          1H      IN A    10.65.6.64
+dbstore1001     1H      IN A    10.65.6.64
 wmf4533         1H      IN A    10.65.6.65
-db1065          1H      IN A    10.65.6.65
+dbstore1002     1H      IN A    10.65.6.65
 dysprosium      1H      IN A    10.65.3.147
 elastic1001     1H      IN A    10.65.7.101
 elastic1002     1H      IN A    10.65.7.102
