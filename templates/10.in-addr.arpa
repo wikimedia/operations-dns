@@ -30,7 +30,6 @@ $ORIGIN 0.0.{{ zonename }}.
 16	1H	IN PTR	vl2-eth0.lvs6.wikimedia.org.
 
 21	1H	IN PTR	tarin.pmtpa.wmnet.
-22	1H	IN PTR	ersch.pmtpa.wmnet.
 24	1H	IN PTR	stafford.pmtpa.wmnet.
 26	1H	IN PTR	tmh1.pmtpa.wmnet.
 27	1H	IN PTR	tmh2.pmtpa.wmnet.
