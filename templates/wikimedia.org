@@ -350,6 +350,7 @@ mobile-lb.ulsfo		1H	IN A		198.35.26.108
 
 commons.m		1H	IN CNAME	m.wikimedia.org.
 incubator.m		1H	IN CNAME	m.wikimedia.org.
+legalteam.m		1H	IN CNAME	m.wikimedia.org.
 login.m			1H	IN CNAME	m.wikimedia.org.
 meta.m			1H	IN CNAME	m.wikimedia.org.
 office.m		1H	IN CNAME	m.wikimedia.org.
