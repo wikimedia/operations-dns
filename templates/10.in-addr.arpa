@@ -2618,12 +2618,15 @@ $ORIGIN 5.65.{{ zonename }}.
 12	1H	IN PTR		ms-be1008.mgmt.eqiad.wmnet.
 13	1H	IN PTR		ms-be1009.mgmt.eqiad.wmnet.
 14	1H	IN PTR		ms-be1010.mgmt.eqiad.wmnet.
-15	1H	IN PTR		ms-be1011.mgmt.eqiad.wmnet.
+15	1H	IN PTR		s-be1011.mgmt.eqiad.wmnet.
 16	1H	IN PTR		ms-be1012.mgmt.eqiad.wmnet.
 17	1H	IN PTR		ms-fe1001.mgmt.eqiad.wmnet.
 18	1H	IN PTR		ms-fe1002.mgmt.eqiad.wmnet.
 19	1H	IN PTR		ms-fe1003.mgmt.eqiad.wmnet.
 20	1H	IN PTR		ms-fe1004.mgmt.eqiad.wmnet.
+21 	1H 	IN PTR		ms-be1013.mgmt.eqiad.wmnet.
+22	1H  	IN PTR		ms-be1014.mgmt.eqiad.wmnet.
+23	1H 	IN PTR		ms-be1015.mgmt.eqiad.wmnet.
 
 $ORIGIN 6.65.{{ zonename }}.
 

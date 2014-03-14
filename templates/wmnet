@@ -1682,6 +1682,9 @@ ms-be1009	1H	IN A	10.65.5.13
 ms-be1010	1H	IN A	10.65.5.14
 ms-be1011	1H	IN A	10.65.5.15
 ms-be1012	1H	IN A	10.65.5.16
+ms-be1013       1H      IN A    10.65.5.21
+ms-be1014       1H      IN A    10.65.5.22
+ms-be1015       1H      IN A    10.65.5.23
 ms-fe1001	1H	IN A	10.65.5.17
 ms-fe1002	1H	IN A	10.65.5.18
 ms-fe1003	1H	IN A	10.65.5.19
