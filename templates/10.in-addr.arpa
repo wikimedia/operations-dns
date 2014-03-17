@@ -36,9 +36,6 @@ $ORIGIN 0.0.{{ zonename }}.
 28	1H	IN PTR	lvs5.pmtpa.wmnet.
 29	1H	IN PTR	lvs6.pmtpa.wmnet.
 31  	1H	IN PTR  bayle.pmtpa.wmnet.
-36      1H      IN PTR  solr1.pmtpa.wmnet.
-37      1H      IN PTR  solr2.pmtpa.wmnet.
-38      1H      IN PTR  solr3.pmtpa.wmnet.
 
 41	1H	IN PTR	labstore1.pmtpa.wmnet.
 42	1H	IN PTR	labstore2.pmtpa.wmnet.
