@@ -130,8 +130,6 @@ snapshot3		1H	IN A		10.0.10.3
 snapshot4		1H	IN A		10.0.10.4
 stafford		1H	IN A		10.0.0.24
 tarin			1H	IN A		10.0.0.21
-tmh1			1H	IN A		10.0.0.26
-tmh2			1H	IN A		10.0.0.27
 instancestorage		1H	IN A		10.4.16.2
 			1H	IN A		10.4.16.3
 			1H	IN A		10.4.16.4
