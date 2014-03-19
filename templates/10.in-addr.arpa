@@ -1717,6 +1717,9 @@ $ORIGIN 48.64.{{ zonename }}.
 17      1H IN PTR       dbstore1001.eqiad.wmnet.
 18      1H IN PTR       dbstore1002.eqiad.wmnet.
 
+30	1H IN PTR	ms-be1013.eqiad.wmnet.
+31	1H IN PTR	ms-be1014.eqiad.wmnet.
+32	1H IN PTR	ms-be1015.eqiad.wmnet.
 33      1H IN PTR       mw1201.eqiad.wmnet.
 34      1H IN PTR       mw1202.eqiad.wmnet.
 35      1H IN PTR       mw1203.eqiad.wmnet.
