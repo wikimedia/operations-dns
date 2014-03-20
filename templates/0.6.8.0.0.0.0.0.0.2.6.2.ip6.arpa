@@ -28,11 +28,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 ; Machines
 
-6.1.0.0.2.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	ssl1.wikimedia.org.
-7.1.0.0.2.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	ssl2.wikimedia.org.
-8.1.0.0.2.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	ssl3.wikimedia.org.
-9.1.0.0.2.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	ssl4.wikimedia.org.
-
 5.1.1.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	capella.wikimedia.org.
 
 ; Service IPs
