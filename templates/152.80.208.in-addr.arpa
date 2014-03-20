@@ -29,11 +29,6 @@ $ORIGIN {{ zonename }}.
 
 48	1H IN PTR	ms10.wikimedia.org.
 
-77	1H IN PTR	sq67.wikimedia.org.
-78	1H IN PTR	sq68.wikimedia.org.
-79	1H IN PTR	sq69.wikimedia.org.
-80	1H IN PTR	sq70.wikimedia.org.
-
 110	1H IN PTR	lvs5.wikimedia.org.
 111	1H IN PTR	lvs6.wikimedia.org.
 
