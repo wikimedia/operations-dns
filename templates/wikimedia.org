@@ -119,7 +119,6 @@ capella			1H	IN A	208.80.152.115
 carbon			1H	IN A	208.80.154.10
 chromium		1H	IN A	208.80.154.157
 			1H	IN AAAA	2620:0:861:2:208:80:154:157
-cobalt			1H	IN A	208.80.154.154
 dataset2		1H	IN A	208.80.152.185
 dataset1001		1H	IN A	208.80.154.11
 dickson			1H	IN A	208.80.155.68
@@ -220,6 +219,7 @@ stat1001		1H	IN A	208.80.154.155
 stat1001		1H	IN AAAA	2620:0:861:2:208:80:154:155
 tellurium		1H	IN A	208.80.155.9
 thulium			1H	IN A	208.80.155.12
+titanium		1H	IN A	208.80.154.154
 tridge			1H	IN A	208.80.152.170 ; Cold Backup Server
 virt0			1H	IN A	208.80.152.32
 virt1000		1H	IN A	208.80.154.18
