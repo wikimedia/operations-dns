@@ -587,6 +587,7 @@ wikimania2013		1H	IN CNAME	wikimedia-lb
 wikimania2014		1H	IN CNAME	wikimedia-lb
 wikimaniateam		1H	IN CNAME	wikimedia-lb
 www			1H	IN CNAME	wikimedia-lb
+zero			1H	IN CNAME	wikimedia-lb
 
 ; Other websites (NO wikis!)
 analytics		1H	IN CNAME	stat1001
