@@ -159,6 +159,13 @@ $ORIGIN 7.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae4-1020.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae4-1020.cr2-eqiad.wikimedia.org.
 
+; analytics1-d-eqiad (2620:0:861:108::/64)
+$ORIGIN 8.0.1.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-1023.eqiad.wmnet.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae4-1023.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae4-1023.cr2-eqiad.wikimedia.org.
+
 
 ; labs-hosts1-b-eqiad (2620:0:861:118::/64)
 $ORIGIN 8.1.1.0.{{ zonename }}.

@@ -1742,6 +1742,13 @@ $ORIGIN 52.64.{{ zonename }}.
 2       1H IN PTR       ae4-1120.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae4-1120.cr2-eqiad.wikimedia.org.
 
+; 10.64.53.0/24 - analytics1-d-eqiad
+$ORIGIN 53.64.{{ zonename }}.
+
+1       1H IN PTR       vrrp-gw-1023.eqiad.wmnet.
+2       1H IN PTR       ae4-1023.cr1-eqiad.wikimedia.org.
+3       1H IN PTR       ae4-1023.cr2-eqiad.wikimedia.org.
+
 ; 10.65.0.0/16 is eqiad management network
 
 $ORIGIN 65.{{ zonename }}.
