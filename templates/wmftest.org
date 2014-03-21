@@ -31,6 +31,10 @@ $ORIGIN {{ zonename }}.
 ; Servers (alphabetic order)
 
 ; Service aliases
+; Wildcard to support name-based virtual hosts in local development environments
+*.local                 1H      IN A    127.0.0.1
 
 ; Wikis (alphabetic order)
 
+; Other websites
+googleffffffffbd5bc537	1h	IN CNAME	google.com.
