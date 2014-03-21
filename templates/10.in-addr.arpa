@@ -536,8 +536,6 @@ $ORIGIN 8.1.{{ zonename }}.
 53	1H	IN PTR	WMF3846.mgmt.pmtpa.wmnet.
 55	1H	IN PTR	dataset2.mgmt.pmtpa.wmnet.
 57	1H	IN PTR	virt2.mgmt.pmtpa.wmnet.
-58	1H	IN PTR	labsudb1.mgmt.pmtpa.wmnet.
-59	1H	IN PTR	labsudb2.mgmt.pmtpa.wmnet.
 60	1H	IN PTR	snapshot4.mgmt.pmtpa.wmnet.
 61	1H	IN PTR  nas1-a.mgmt.pmtpa.wmnet.
 62	1H	IN PTR  nas1-b.mgmt.pmtpa.wmnet.
@@ -886,8 +884,6 @@ $ORIGIN 16.4.{{ zonename }}.
 
 1	1H	IN PTR	vrrp-gw-105.wikimedia.org.
 3	1H	IN PTR	virt2.pmtpa.wmnet.
-4	1H	IN PTR	labsudb1.pmtpa.wmnet.
-5	1H	IN PTR	labsudb2.pmtpa.wmnet.
 6	1H	IN PTR	virt5.pmtpa.wmnet.
 7	1H	IN PTR	virt6.pmtpa.wmnet.
 8	1H	IN PTR	virt7.pmtpa.wmnet.
