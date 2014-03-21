@@ -31,8 +31,6 @@ webproxy		1H	IN CNAME	brewster.wikimedia.org.
 carbon-relay		1H	IN CNAME	tungsten.eqiad.wmnet.
 statsd			1H	IN CNAME	tungsten.eqiad.wmnet.
 
-apaches			1H	IN A		10.2.1.1
-apaches2		1H	IN A		10.0.5.5
 arptest			1H	IN A		10.0.5.4
 dbdump			1H	IN A		10.0.5.1
 dns-r0			1H	IN A		10.0.5.6
@@ -2495,14 +2493,7 @@ puppet			5M	IN CNAME	palladium.eqiad.wmnet.
 
 $ORIGIN svc.pmtpa.wmnet.
 
-appservers 	1H 	IN A 		10.2.1.1
-rendering 	1H 	IN A 		10.2.1.21
-api 		1H 	IN A 		10.2.1.22
-bits 		1H 	IN A 		10.2.1.23
-upload 		1H 	IN A 		10.2.1.24
-text 		1H 	IN A 		10.2.1.25
-mobile		1H 	IN A 		10.2.1.26
-ms-fe		1H 	IN A 		10.2.1.27
+; none
 
 ; EQIAD SERVICES
 
