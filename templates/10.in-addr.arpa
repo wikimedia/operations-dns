@@ -97,8 +97,6 @@ $ORIGIN 2.0.{{ zonename }}.
 
 $ORIGIN 3.0.{{ zonename }}.
 
-52	1H	IN PTR	searchidx2.pmtpa.wmnet.
-
 ; Service IPs
 
 $ORIGIN 5.0.{{ zonename }}.
@@ -799,10 +797,6 @@ $ORIGIN 9.1.{{ zonename }}.
 $ORIGIN 1.2.{{ zonename }}.
 
 1	1H	IN PTR	appservers.svc.pmtpa.wmnet.
-
-11	1H	IN PTR	search-pool1.svc.pmtpa.wmnet.
-12	1H	IN PTR	search-pool2.svc.pmtpa.wmnet.
-13	1H	IN PTR	search-pool3.svc.pmtpa.wmnet.
 
 21	1H	IN PTR	rendering.svc.pmtpa.wmnet.
 22	1H	IN PTR	api.svc.pmtpa.wmnet.
