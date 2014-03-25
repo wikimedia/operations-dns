@@ -443,6 +443,8 @@ asw-a5-sdtpa		1H	IN A	10.1.1.10
 
 apt			1H	IN CNAME	brewster
 
+archiva			1H	IN CNAME	titanium
+
 cache			1H	IN CNAME	wikimedia-lb
 
 doc			1H	IN CNAME	misc-web-lb.eqiad
