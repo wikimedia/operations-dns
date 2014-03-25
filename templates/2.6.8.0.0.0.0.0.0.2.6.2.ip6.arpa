@@ -74,7 +74,15 @@ e.2.4.4.0.e.e.f.f.f.4.2.b.1.2.0	1H IN PTR	ortelius.esams.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR       ae1-100.cr1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR       ae1-100.cr2-knams.wikimedia.org.
 
-; Service IPs
+; private1-esams subnet 2620:0:862:102::/64
+
+$ORIGIN 2.0.1.0.{{ zonename }}.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-103.esams.wikimedia.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae1-103.cr1-esams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae1-103.cr2-knams.wikimedia.org.
+
 
 ; Toolserver external subnet 2620:0:862:101::/64
 

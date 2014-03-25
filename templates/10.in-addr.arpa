@@ -895,8 +895,15 @@ $ORIGIN 16.4.{{ zonename }}.
 253     1H      IN PTR  ae0-105.cr2-pmtpa.wikimedia.org.
 
 ;
-; KNAMS
+; ESAMS
 ;
+
+; private1-esams (10.20.0.0/24)
+
+$ORIGIN 0.20.{{ zonename }}.
+1   1H  IN PTR  vrrp-gw-103.esams.wikimedia.org.
+2   1H  IN PTR  ae1-103.cr1-esams.wikimedia.org.
+3   1H  IN PTR  ae1-103.cr2-knams.wikimedia.org.
 
 ; Management
 
