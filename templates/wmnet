@@ -643,7 +643,7 @@ analytics1022		 1H	IN A		 10.64.36.122
 			 1H	IN AAAA		 2620:0:861:106:10:64:36:122
 analytics1023            1H     IN A             10.64.5.15
 analytics1024            1H     IN A             10.64.36.124
-analytics1025            1H     IN A             10.64.36.125
+analytics1025            1H     IN A             10.64.53.13
 analytics1026            1H     IN A             10.64.36.126
 analytics1027            1H     IN A             10.64.36.127
 caesium                   1H     IN A             10.64.32.145
