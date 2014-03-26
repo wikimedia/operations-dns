@@ -1132,6 +1132,7 @@ solr1001		1H  IN A		10.64.0.198
 solr1002		1H  IN A		10.64.0.199
 solr1003		1H  IN A		10.64.16.159
 stat1002		1H	IN A		10.64.0.16
+stat1003		1H	IN A		10.64.32.146
 strontium		1H	IN A		10.64.0.164
 puppet			1H	IN CNAME	palladium.eqiad.wmnet.
 tantalum		1H	IN A		10.64.0.26
@@ -1403,6 +1404,8 @@ db1011		1H	IN A	10.65.6.11
 WMF3080		1H	IN A	10.65.6.11
 stat1002	1H	IN A	10.65.6.12
 WMF3079		1H	IN A	10.65.6.12
+stat1003	1H  	IN A	10.65.5.182
+wmf4542		1H	IN A	10.65.5.182
 tungsten	1H	IN A	10.65.6.14
 WMF3077		1H	IN A	10.65.6.14
 db1015		1H	IN A	10.65.6.15
@@ -2246,7 +2249,11 @@ logstash1002 1H IN A  10.65.3.175
 wmf5825     1H  IN A    10.65.3.175
 logstash1001 1H IN A  10.65.3.176
 wmf5824     1H  IN A    10.65.3.176
-
+wmf4540		1H 	IN A		10.65.5.180
+wmf4541		1H	IN A		10.65.5.181
+wmf4543		1H	IN A		10.65.5.183
+wmf4544		1H	IN A		10.65.5.184
+wfm4545		1H	IN A		10.65.5.185 
 
 ; Labs VMs &c.
 eth4-1102.labnet1001	1H  IN A	10.68.16.1
