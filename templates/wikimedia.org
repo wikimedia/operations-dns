@@ -55,7 +55,7 @@ wikimedia.org.		600	IN SPF	"v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2
 
 scs-ext			1H	IN A	84.40.25.238
 
-dumps			1H	IN CNAME dataset2
+dumps			1H	IN CNAME dataset1001
 sitemap			1H	IN CNAME dumps
 
 lists			1H	IN A	208.80.154.4		; service IP on sodium
