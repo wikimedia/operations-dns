@@ -2287,6 +2287,11 @@ thulium			1H		IN A	10.64.40.162
 
 $ORIGIN esams.{{ zonename }}.
 
+lvs3001		1H		IN A	10.20.0.11
+lvs3002		1H		IN A	10.20.0.12
+lvs3003		1H		IN A	10.20.0.13
+lvs3004		1H		IN A	10.20.0.14
+
 $ORIGIN mgmt.esams.{{ zonename }}.
 
 amssq31		1H	IN A		10.21.0.56

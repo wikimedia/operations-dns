@@ -897,6 +897,11 @@ $ORIGIN 0.20.{{ zonename }}.
 2   1H  IN PTR  ae1-103.cr1-esams.wikimedia.org.
 3   1H  IN PTR  ae1-103.cr2-knams.wikimedia.org.
 
+11	1H	IN PTR		lvs3001.esams.wmnet.
+12	1H	IN PTR		lvs3002.esams.wmnet.
+13	1H	IN PTR		lvs3003.esams.wmnet.
+14	1H	IN PTR		lvs3004.esams.wmnet.
+
 ; Management
 
 $ORIGIN 0.21.{{ zonename }}.
