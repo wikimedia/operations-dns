@@ -16,8 +16,3 @@ $ORIGIN {{ zonename }}.
 
 ; Virtualization subnet #2 208.80.153.64/26 (208.80.153.64 - 208.80.153.127)
 ; Virtualization subnet 208.80.153.128/25 (208.80.153.128 - 208.80.153.255)
-
-; MXes need proper reverse
-
-183						1D		IN PTR	tools-mail.wmflabs.org.
-
