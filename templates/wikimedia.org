@@ -665,7 +665,7 @@ testblog		1H	IN CNAME	holmium.wikimedia.org.
 techblog		1H	IN CNAME	holmium.wikimedia.org.
 ticket			1H	IN CNAME	iodine
 ubuntu			1H	IN A		208.80.152.171
-wikitech		1H	IN A		208.80.152.32
+wikitech		1H	IN A		208.80.154.18
 wikitech-static		1H	IN A		166.78.57.240
 
 ; Misc
