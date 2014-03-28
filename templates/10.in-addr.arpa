@@ -105,7 +105,6 @@ $ORIGIN 6.0.{{ zonename }}.
 
 45	1H	IN PTR	db35.pmtpa.wmnet.
 48	1H	IN PTR	db38.pmtpa.wmnet.
-50	1H	IN PTR	db40.pmtpa.wmnet.
 
 58	1H	IN PTR	db48.pmtpa.wmnet.
 70	1H	IN PTR	db60.pmtpa.wmnet.
