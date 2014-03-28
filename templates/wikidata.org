@@ -1,4 +1,3 @@
-{% from "helpers/langlist.tmpl" import langlist with context -%}
 $TTL 3600
 $ORIGIN {{ zonename }}.
 @			1D	IN SOA	ns0.wikimedia.org.	hostmaster.wikimedia.org.	(
@@ -34,8 +33,4 @@ $ORIGIN {{ zonename }}.
 ; Wikis (alphabetic order)
 
 test		1H	IN CNAME	wikidata-lb.wikimedia.org.
-www			1H	IN CNAME	wikidata-lb.wikimedia.org.
-
-; All languages will automatically be included here
-{{ langlist('wikidata-lb.wikimedia.org.') }}
-
+www		1H	IN CNAME	wikidata-lb.wikimedia.org.
