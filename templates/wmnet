@@ -56,7 +56,6 @@ es3-secondary		5M	IN CNAME	es8.pmtpa.wmnet.
 
 db35			1H	IN A		10.0.6.45
 db38			1H	IN A		10.0.6.48
-db40			1H	IN A		10.0.6.50
 db48                    1H      IN A            10.0.6.58
 db60			1H	IN A		10.0.6.70
 db63			1H	IN A		10.0.6.73
