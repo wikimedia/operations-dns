@@ -2496,9 +2496,6 @@ puppet			5M	IN CNAME	palladium.eqiad.wmnet.
 $ORIGIN svc.pmtpa.wmnet.
 
 appservers 	1H 	IN A 		10.2.1.1
-search-pool1 	1H 	IN A 		10.2.1.11
-search-pool2 	1H 	IN A 		10.2.1.12
-search-pool3 	1H 	IN A 		10.2.1.13
 rendering 	1H 	IN A 		10.2.1.21
 api 		1H 	IN A 		10.2.1.22
 bits 		1H 	IN A 		10.2.1.23
