@@ -28,8 +28,6 @@ $ORIGIN {{ zonename }}.
 110	1H IN PTR	lvs5.wikimedia.org.
 111	1H IN PTR	lvs6.wikimedia.org.
 
-115	1H IN PTR	capella.wikimedia.org.
-
 120	1H IN PTR	lvs1.wikimedia.org.
 121	1H IN PTR	lvs2.wikimedia.org.
 122	1H IN PTR	lvs3.wikimedia.org.
