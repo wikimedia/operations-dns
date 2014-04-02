@@ -26,10 +26,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae0-100.cr2-pmtpa.wikimedia.org.
 
 
-; Machines
-
-5.1.1.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	capella.wikimedia.org.
-
 ; Service IPs
 
 $ORIGIN a.1.d.e.{{ zonename }}.
