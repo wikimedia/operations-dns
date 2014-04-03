@@ -2301,6 +2301,11 @@ lvs3002		1H		IN A	10.20.0.12
 lvs3003		1H		IN A	10.20.0.13
 lvs3004		1H		IN A	10.20.0.14
 
+;
+; ESAMS - SERVICES
+;
+puppet		1H	IN CNAME	palladium.eqiad.wmnet.
+
 $ORIGIN mgmt.esams.{{ zonename }}.
 
 amssq31		1H	IN A		10.21.0.56
