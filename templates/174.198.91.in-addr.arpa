@@ -103,8 +103,6 @@ $ORIGIN {{ zonename }}.
 121	1H IN PTR	eeden.esams.wikimedia.org.
 122	1H IN PTR	maerlant.esams.wikimedia.org.
 
-125	1H IN PTR	ms6.esams.wikimedia.org.
-
 ; empty: 91.198.174.128/26 (91.198.174.128 - 91.198.174.191)
 
 ; 91.198.174.192/27 LVS service IPs
