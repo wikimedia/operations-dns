@@ -159,6 +159,7 @@ mchenry			1H	IN A	208.80.152.186
 mexia			1H	IN A	208.80.152.136
 ms1001			1H	IN A	208.80.154.16
 neon			1H	IN A	208.80.154.14
+                        1H      IN AAAA 2620:0:860:2:208:80:154:14
 netmon1001		1H	IN A	208.80.154.159
 			1H	IN AAAA 2620:0:861:2:208:80:154:159
 nickel			1H	IN A	208.80.154.150
@@ -462,6 +463,7 @@ performance		1H	IN CNAME	misc-web-lb.eqiad
 
 icinga			1H	IN CNAME	neon
 icinga-admin		1H	IN A		208.80.154.14
+			1H      IN AAAA         2620:0:860:2:208:80:154:14
 imap			1H	IN A		208.80.152.187	; sanger
 			1H	IN MX		10 mchenry
 
