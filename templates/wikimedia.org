@@ -103,7 +103,7 @@ al-fundraising		1H	IN A	208.80.154.12
 aluminium		1H	IN A	208.80.154.6
 aluminum		1H	IN CNAME aluminium
 antimony		1H	IN A	208.80.154.7
-
+deleteme		5M	IN A	208.80.154.13
 barium			1H	IN A	208.80.155.11
 barium-fundraising	1H      IN A    208.80.155.14
 bast1001		1H	IN A	208.80.154.149
