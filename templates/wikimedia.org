@@ -112,6 +112,7 @@ bast4001		1H	IN A	198.35.26.5
 			1H	IN AAAA	2620:0:863:1:198:35:26:5
 beryllium		1H	IN A	208.80.154.47
 boron			1H	IN A	208.80.155.4
+brewster		1H	IN A	208.80.152.171
 calcium			1H	IN A	208.80.154.158
 carbon			1H	IN A	208.80.154.10
 chromium		1H	IN A	208.80.154.157
