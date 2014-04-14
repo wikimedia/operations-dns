@@ -881,7 +881,6 @@ zedler-array.ipmi	1H	IN A	10.21.0.14
 hemlock.ipmi		1H	IN A	10.21.0.15
 nightshade.ipmi		1H	IN A	10.21.0.46
 willow.ipmi		1H	IN A	10.21.0.47
-ms6.ipmi		1H	IN A	10.21.0.48
 yarrow.ipmi		1H	IN A	10.21.0.100
 br1-knams.ipmi		1H	IN A	10.21.0.101
 scs-oe11-esams		1H	IN A	10.21.0.102
