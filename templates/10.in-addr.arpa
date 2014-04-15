@@ -89,9 +89,7 @@ $ORIGIN 3.0.{{ zonename }}.
 $ORIGIN 5.0.{{ zonename }}.
 	
 2	1H	IN PTR	imagedump.pmtpa.wmnet.
-3	1H	IN PTR	apaches.pmtpa.wmnet.
 4	1H	IN PTR	arptest.pmtpa.wmnet.
-5	1H	IN PTR	apaches2.pmtpa.wmnet.
 6	1H	IN PTR	dns-r0.pmtpa.wmnet.
 7	1H	IN PTR	dns-r1.pmtpa.wmnet.
 8	1H	IN PTR	nfs-home.pmtpa.wmnet.
@@ -753,17 +751,10 @@ $ORIGIN 9.1.{{ zonename }}.
 175	1H	IN PTR	mw124.mgmt.pmtpa.wmnet.
 176	1H	IN PTR	mw125.mgmt.pmtpa.wmnet.
 
+; pmtpa svc ips
 $ORIGIN 1.2.{{ zonename }}.
 
-1	1H	IN PTR	appservers.svc.pmtpa.wmnet.
-
-21	1H	IN PTR	rendering.svc.pmtpa.wmnet.
-22	1H	IN PTR	api.svc.pmtpa.wmnet.
-23	1H	IN PTR	bits.svc.pmtpa.wmnet.
-24	1H	IN PTR	upload.svc.pmtpa.wmnet.
-25	1H	IN PTR	text.svc.pmtpa.wmnet.
-26	1H	IN PTR	mobile.svc.pmtpa.wmnet.
-27	1H	IN PTR	ms-fe.svc.pmtpa.wmnet.
+; none
 
 ; eqiad svc ips
 
