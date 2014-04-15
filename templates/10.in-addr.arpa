@@ -88,7 +88,6 @@ $ORIGIN 3.0.{{ zonename }}.
 
 $ORIGIN 5.0.{{ zonename }}.
 	
-1	1H	IN PTR	dbdump.pmtpa.wmnet.
 2	1H	IN PTR	imagedump.pmtpa.wmnet.
 3	1H	IN PTR	apaches.pmtpa.wmnet.
 4	1H	IN PTR	arptest.pmtpa.wmnet.
