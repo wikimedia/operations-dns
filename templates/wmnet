@@ -2303,6 +2303,10 @@ ms-be3004	1H		IN A	10.20.0.20
 puppet		1H	IN CNAME	palladium.eqiad.wmnet.
 webproxy	1H	IN CNAME	carbon.wikimedia.org.
 
+; temporary RR until we get new LVS up
+ms-fe		600	IN A		10.20.0.15
+ms-fe		600	IN A		10.20.0.16
+
 $ORIGIN mgmt.esams.{{ zonename }}.
 
 amssq31		1H	IN A		10.21.0.56
