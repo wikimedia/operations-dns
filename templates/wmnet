@@ -31,7 +31,6 @@ webproxy		1H	IN CNAME	carbon.wikimedia.org.
 carbon-relay		1H	IN CNAME	tungsten.eqiad.wmnet.
 statsd			1H	IN CNAME	tungsten.eqiad.wmnet.
 
-arptest			1H	IN A		10.0.5.4
 dns-r0			1H	IN A		10.0.5.6
 dns-r1			1H	IN A		10.0.5.7
 nfs-home		1H	IN A		10.0.5.8
