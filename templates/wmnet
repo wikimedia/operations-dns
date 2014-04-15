@@ -1070,6 +1070,7 @@ osm-web1001		1H	IN A		10.64.32.93
 osm-web1002		1H	IN A		10.64.32.94
 osm-web1003		1H	IN A		10.64.32.95
 osm-web1004		1H	IN A		10.64.32.96
+osmium			1H	IN A		10.64.32.146
 oxygen			1H	IN A		10.64.0.163
 palladium		1H	IN A		10.64.16.160
 pc1001                  1H      IN A            10.64.16.156
@@ -2239,6 +2240,7 @@ wmf4543		1H	IN A		10.65.5.183
 wmf4544		1H	IN A		10.65.5.184
 wmf4545		1H	IN A		10.65.5.185
 wmf4546		1H	IN A		10.65.5.186
+osmium		1H	IN A		10.65.5.186
 wmf4547		1H	IN A		10.65.5.187
 wmf4548		1H	IN A		10.65.5.188
 wmf4549		1H	IN A		10.65.5.189
