@@ -23,13 +23,6 @@ $ORIGIN {{ zonename }}.
 
 6	1H IN PTR	recursor0.esams.wikimedia.org.
 
-11	1H IN PTR	ms-fe3001.esams.wikimedia.org.
-12	1H IN PTR	ms-fe3002.esams.wikimedia.org.
-13	1H IN PTR	ms-be3001.esams.wikimedia.org.
-14	1H IN PTR	ms-be3002.esams.wikimedia.org.
-15	1H IN PTR	ms-be3003.esams.wikimedia.org.
-16	1H IN PTR	ms-be3004.esams.wikimedia.org.
-
 41	1H IN PTR	amssq31.esams.wikimedia.org.
 42	1H IN PTR	amssq32.esams.wikimedia.org.
 43	1H IN PTR	amssq33.esams.wikimedia.org.
