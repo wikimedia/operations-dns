@@ -2296,9 +2296,10 @@ ms-be3003	1H		IN A	10.20.0.19
 ms-be3004	1H		IN A	10.20.0.20
 
 ;
-; ESAMS - SERVICES
+; SERVICES
 ;
 puppet		1H	IN CNAME	palladium.eqiad.wmnet.
+webproxy	1H	IN CNAME	carbon.wikimedia.org.
 
 $ORIGIN mgmt.esams.{{ zonename }}.
 
@@ -2501,6 +2502,8 @@ cp4020			1H		IN A	10.128.0.120
 ; SERVICES
 ;
 puppet			5M	IN CNAME	palladium.eqiad.wmnet.
+webproxy		1H	IN CNAME	carbon.wikimedia.org.
+
 
 ; PMTPA SERVICES
 
