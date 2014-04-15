@@ -59,13 +59,8 @@ db38			1H	IN A		10.0.6.48
 db48                    1H      IN A            10.0.6.58
 db60			1H	IN A		10.0.6.70
 db63			1H	IN A		10.0.6.73
-db64			1H	IN A		10.0.6.74
-db65			1H	IN A		10.0.6.75
-db66			1H	IN A		10.0.6.76
-db67			1H	IN A		10.0.6.77
 db68			1H	IN A		10.0.6.78
 db69			1H	IN A		10.0.6.79
-db70                    1H      IN A            10.0.6.80
 db71			1H	IN A		10.0.6.81
 db72			1H	IN A		10.0.6.82
 db73			1H	IN A		10.0.6.83
@@ -218,13 +213,8 @@ db60			1H	IN A		10.1.6.70
 WMF3709			1H	IN A		10.1.6.71
 db62			1H	IN A		10.1.6.72
 db63			1H	IN A		10.1.6.73
-db64			1H	IN A		10.1.6.74
-db65			1H	IN A		10.1.6.75
-db66			1H	IN A		10.1.6.76
-db67			1H	IN A		10.1.6.77
 db68			1H	IN A		10.1.6.78
 db69			1H	IN A		10.1.6.79
-db70                    1H      IN A            10.1.6.80
 db71			1H	IN A		10.1.6.81
 db72			1H	IN A		10.1.6.82
 db73			1H	IN A		10.1.6.83

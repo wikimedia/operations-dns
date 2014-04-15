@@ -109,13 +109,8 @@ $ORIGIN 6.0.{{ zonename }}.
 58	1H	IN PTR	db48.pmtpa.wmnet.
 70	1H	IN PTR	db60.pmtpa.wmnet.
 73	1H	IN PTR	db63.pmtpa.wmnet.
-74	1H	IN PTR	db64.pmtpa.wmnet.
-75	1H	IN PTR	db65.pmtpa.wmnet.
-76	1H	IN PTR	db66.pmtpa.wmnet.
-77	1H	IN PTR	db67.pmtpa.wmnet.
 78	1H	IN PTR	db68.pmtpa.wmnet.
 79	1H	IN PTR	db69.pmtpa.wmnet.
-80      1H      IN PTR  db70.pmtpa.wmnet.
 81	1H	IN PTR	db71.pmtpa.wmnet.
 82	1H	IN PTR	db72.pmtpa.wmnet.
 83	1H	IN PTR	db73.pmtpa.wmnet.
@@ -435,13 +430,8 @@ $ORIGIN 6.1.{{ zonename }}.
 71	1H	IN PTR WMF3709.mgmt.pmtpa.wmnet.
 72	1H	IN PTR db62.mgmt.pmtpa.wmnet.
 73      1H      IN PTR db63.mgmt.pmtpa.wmnet.
-74      1H      IN PTR db64.mgmt.pmtpa.wmnet.
-75      1H      IN PTR db65.mgmt.pmtpa.wmnet.
-76      1H      IN PTR db66.mgmt.pmtpa.wmnet.
-77      1H      IN PTR db67.mgmt.pmtpa.wmnet.
 78      1H      IN PTR db68.mgmt.pmtpa.wmnet.
 79      1H      IN PTR db69.mgmt.pmtpa.wmnet.
-80      1H      IN PTR db70.mgmt.pmtpa.wmnet.
 81      1H      IN PTR db71.mgmt.pmtpa.wmnet.
 82      1H      IN PTR db72.mgmt.pmtpa.wmnet.
 83      1H      IN PTR db73.mgmt.pmtpa.wmnet.
