@@ -115,7 +115,6 @@ instancestorage		1H	IN A		10.4.16.2
 labsdb1                 1H      IN A            10.4.16.10
 labsdb2                 1H      IN A            10.4.16.11
 labsdb3                 1H      IN A            10.4.16.12
-virt2			1H	IN A		10.4.16.3
 
 ; GENERATES
 
@@ -299,7 +298,6 @@ tridge			1H	IN A		10.1.252.170
 ts-array4a		1H	IN A		10.1.8.17
 ts-array4b		1H	IN A		10.1.8.18
 virt0			1H	IN A		10.1.8.28
-virt2			1H	IN A		10.1.8.57
 nas1-a-e0m		1H	IN A		10.1.8.66
 nas1-b-e0m		1H	IN A		10.1.8.67
 WMF3639			1H	IN A		10.1.8.69
