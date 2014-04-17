@@ -125,7 +125,6 @@ ekrem			1H	IN A	208.80.152.178
 emery			1H	IN A	208.80.152.184
 fenari			1H	IN A	208.80.152.165
 			1H	IN AAAA	2620:0:860:2:208:80:152:165
-formey			1H	IN A	208.80.152.147
 gadolinium		1H	IN A	208.80.154.73
 gallium			1H	IN A	208.80.154.135
 hafnium			1H	IN A	208.80.154.79
