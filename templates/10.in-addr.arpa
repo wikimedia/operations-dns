@@ -93,7 +93,6 @@ $ORIGIN 5.0.{{ zonename }}.
 7	1H	IN PTR	dns-r1.pmtpa.wmnet.
 8	1H	IN PTR	nfs-home.pmtpa.wmnet.
 
-17	1H	IN PTR	rendering.pmtpa.wmnet.
 
 ; Databases
 
