@@ -23,13 +23,6 @@ $ORIGIN {{ zonename }}.
 32	1H IN PTR	virt0.wikimedia.org.
 33	1H IN PTR	labs-ns0.wikimedia.org.
 
-110	1H IN PTR	lvs5.wikimedia.org.
-111	1H IN PTR	lvs6.wikimedia.org.
-
-120	1H IN PTR	lvs1.wikimedia.org.
-121	1H IN PTR	lvs2.wikimedia.org.
-122	1H IN PTR	lvs3.wikimedia.org.
-123	1H IN PTR	lvs4.wikimedia.org.
 125	1H IN PTR	ae0-100.cr1-sdtpa.wikimedia.org.
 126	1H IN PTR	ae0-100.cr2-pmtpa.wikimedia.org.
 
