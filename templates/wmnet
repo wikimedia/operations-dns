@@ -226,12 +226,6 @@ labstore3		1H	IN A		10.1.8.76
 labstore4		1H	IN A		10.1.8.77
 linne			1H	IN A		10.1.8.10
 locke			1H	IN A		10.1.6.16
-lvs1			1H	IN A		10.1.4.1
-lvs2			1H	IN A		10.1.4.2
-lvs3			1H	IN A		10.1.4.3
-lvs4			1H	IN A		10.1.4.4
-lvs5			1H	IN A		10.1.8.26
-lvs6			1H	IN A		10.1.8.27
 mchenry			1H	IN A		10.1.230.240
 ms5			1H	IN A		10.1.7.5
 ms9			1H	IN A		10.1.7.8
