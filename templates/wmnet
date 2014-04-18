@@ -42,7 +42,6 @@ syslog			1H	IN CNAME	nfs-home
 ntp			1H	IN CNAME	linne.wikimedia.org.
 s1-secondary		5M	IN CNAME	db63.pmtpa.wmnet.
 s5-secondary		5M	IN CNAME	db73.pmtpa.wmnet.
-m1-master		5M	IN CNAME	db35.pmtpa.wmnet.	
 m2-secondary		5M	IN CNAME	db48.pmtpa.wmnet.
 es1-secondary		5M	IN CNAME	es3.pmtpa.wmnet.
 es2-secondary		5M	IN CNAME	es5.pmtpa.wmnet.
@@ -50,8 +49,6 @@ es3-secondary		5M	IN CNAME	es8.pmtpa.wmnet.
 
 ; Servers (alphabetic order)
 
-db35			1H	IN A		10.0.6.45
-db38			1H	IN A		10.0.6.48
 db48                    1H      IN A            10.0.6.58
 db60			1H	IN A		10.0.6.70
 db63			1H	IN A		10.0.6.73
@@ -188,8 +185,6 @@ amaranth		1H      IN A            10.1.8.16
 dataset2		1H	IN A		10.1.8.55
 db9			1H	IN A		10.1.6.19
 db10			1H	IN A		10.1.6.20
-db35			1H	IN A		10.1.6.45
-db38			1H	IN A		10.1.6.48
 db40			1H	IN A		10.1.6.50
 manutius		1H	IN A		10.1.6.51
 db48			1H	IN A		10.1.6.58

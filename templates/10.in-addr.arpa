@@ -99,8 +99,6 @@ $ORIGIN 5.0.{{ zonename }}.
 
 $ORIGIN 6.0.{{ zonename }}.
 
-45	1H	IN PTR	db35.pmtpa.wmnet.
-48	1H	IN PTR	db38.pmtpa.wmnet.
 
 58	1H	IN PTR	db48.pmtpa.wmnet.
 70	1H	IN PTR	db60.pmtpa.wmnet.
@@ -417,8 +415,6 @@ $ORIGIN 6.1.{{ zonename }}.
 16	1H	IN PTR db6.mgmt.pmtpa.wmnet.
 19	1H	IN PTR db9.mgmt.pmtpa.wmnet.
 20	1H	IN PTR db10.mgmt.pmtpa.wmnet.
-45	1H	IN PTR db35.mgmt.pmtpa.wmnet.
-48	1H	IN PTR db38.mgmt.pmtpa.wmnet.
 50	1H	IN PTR db40.mgmt.pmtpa.wmnet.
 51	1H	IN PTR manutius.mgmt.pmtpa.wmnet.
 58	1H	IN PTR db48.mgmt.pmtpa.wmnet.
