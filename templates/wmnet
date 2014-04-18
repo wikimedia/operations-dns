@@ -76,24 +76,7 @@ labstore3		1H	IN A		10.0.0.43
 labstore4		1H	IN A		10.0.0.44
 labnfs			1H	IN A		10.0.0.45
 
-ms-be1			1H	IN A		10.0.6.200
-ms-be2			1H	IN A		10.0.6.201
-ms-be3			1H	IN A		10.0.6.202
-ms-be4			1H	IN A		10.0.6.203
-ms-be5			1H	IN A		10.0.6.204
-ms-be6			1H	IN A		10.0.6.205
-ms-be7			1H	IN A		10.0.6.206
-ms-be8			1H	IN A		10.0.6.207
-ms-be9			1H	IN A		10.0.6.208
-ms-be10			1H	IN A		10.0.6.209
-ms-be11			1H	IN A		10.0.6.212
-ms-be12			1H	IN A		10.0.6.213
-
 ms-fe			1H	IN A		10.2.1.27
-ms-fe1			1H	IN A		10.0.6.210
-ms-fe2			1H	IN A		10.0.6.211
-ms-fe3			1H	IN A		10.0.6.214
-ms-fe4			1H	IN A		10.0.6.215
 nfs1			1H	IN A		10.0.0.244
 nfs2			1H	IN A		10.0.0.247
 nas1-a			1H	IN A		10.0.0.253
@@ -230,18 +213,6 @@ mchenry			1H	IN A		10.1.230.240
 ms5			1H	IN A		10.1.7.5
 ms9			1H	IN A		10.1.7.8
 ms10			1H	IN A		10.1.7.9
-ms-be1			1H	IN A		10.1.7.21
-ms-be2			1H	IN A		10.1.7.22
-ms-be3			1H	IN A		10.1.7.23
-ms-be4			1H	IN A		10.1.7.24
-ms-be5			1H	IN A		10.1.7.25
-ms-be6			1H	IN A		10.1.7.26
-ms-be7			1H	IN A		10.1.7.27
-ms-be8			1H	IN A		10.1.7.28
-ms-be9			1H	IN A		10.1.7.29
-ms-be10			1H	IN A		10.1.7.30
-ms-be11			1H	IN A		10.1.7.31
-ms-be12			1H	IN A		10.1.7.32
 nfs1			1H	IN A		10.1.8.1
 nfs2			1H	IN A		10.1.8.11
 capella			1H	IN A		10.1.8.20
@@ -286,11 +257,7 @@ virt0			1H	IN A		10.1.8.28
 nas1-a-e0m		1H	IN A		10.1.8.66
 nas1-b-e0m		1H	IN A		10.1.8.67
 WMF3639			1H	IN A		10.1.8.69
-ms-fe1			1H	IN A		10.1.8.69
 WMF3640			1H	IN A		10.1.8.70
-ms-fe2			1H	IN A		10.1.8.70
-ms-fe3			1H	IN A		10.1.8.79
-ms-fe4			1H	IN A		10.1.8.80
 WMF3641			1H	IN A		10.1.8.68
 WMF3644			1H	IN A		10.1.8.71
 zhen			1H	IN A		10.1.8.71
