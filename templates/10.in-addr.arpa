@@ -220,9 +220,6 @@ $ORIGIN 6.1.{{ zonename }}.
 
 ; Media Servers & SSL Servers & ES Servers & Memcached Servers
 $ORIGIN 7.1.{{ zonename }}.
-5	1H	IN PTR ms5.mgmt.pmtpa.wmnet.
-8	1H	IN PTR ms9.mgmt.pmtpa.wmnet.
-9	1H	IN PTR ms10.mgmt.pmtpa.wmnet.
 14	1H	IN PTR es4.mgmt.pmtpa.wmnet.
 17	1H	IN PTR es7.mgmt.pmtpa.wmnet.
 20  1H  IN PTR es10.mgmt.pmtpa.wmnet.

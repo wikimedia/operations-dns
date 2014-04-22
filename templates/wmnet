@@ -194,9 +194,6 @@ labstore3		1H	IN A		10.1.8.76
 labstore4		1H	IN A		10.1.8.77
 linne			1H	IN A		10.1.8.10
 mchenry			1H	IN A		10.1.230.240
-ms5			1H	IN A		10.1.7.5
-ms9			1H	IN A		10.1.7.8
-ms10			1H	IN A		10.1.7.9
 nfs1			1H	IN A		10.1.8.1
 nfs2			1H	IN A		10.1.8.11
 capella			1H	IN A		10.1.8.20
