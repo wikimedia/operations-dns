@@ -74,7 +74,6 @@ bugzilla		300	IN CNAME	wikimedia-lb.wikimedia.org.
 careers			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 donate			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 jobs			1H	IN CNAME	wikipedia-lb.wikimedia.org.
-static			1H	IN CNAME	hume.wikimedia.org.
 www.donate		1H	IN CNAME	wikipedia-lb.wikimedia.org.
 download		1H	IN CNAME	dumps.wikimedia.org.
 mobile			1H	IN CNAME	mobile-lb.eqiad.wikimedia.org.
