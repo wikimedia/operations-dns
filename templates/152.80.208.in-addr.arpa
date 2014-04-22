@@ -41,7 +41,6 @@ $ORIGIN {{ zonename }}.
 143	1H IN PTR	url-downloader.wikimedia.org.
 144	1H IN PTR	ae0-101.cr1-sdtpa.wikimedia.org.
 145	1H IN PTR	ae0-101.cr2-pmtpa.wikimedia.org.
-146	1H IN PTR	stat1.wikimedia.org.
 
 154	1H IN PTR	pdf2.wikimedia.org.
 
@@ -55,7 +54,6 @@ $ORIGIN {{ zonename }}.
 
 181	1H IN PTR	pdf3.wikimedia.org.
 
-184	1H IN PTR	emery.wikimedia.org.
 185	1H IN PTR	dataset2.wikimedia.org.
 186	1H IN PTR	mchenry.wikimedia.org.
 187	1H IN PTR	sanger.wikimedia.org.
