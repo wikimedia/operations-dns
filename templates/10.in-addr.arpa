@@ -201,9 +201,6 @@ $ORIGIN 5.1.{{ zonename }}.
 
 ; Database Servers
 $ORIGIN 6.1.{{ zonename }}.
-16	1H	IN PTR db6.mgmt.pmtpa.wmnet.
-19	1H	IN PTR db9.mgmt.pmtpa.wmnet.
-20	1H	IN PTR db10.mgmt.pmtpa.wmnet.
 50	1H	IN PTR db40.mgmt.pmtpa.wmnet.
 51	1H	IN PTR manutius.mgmt.pmtpa.wmnet.
 58	1H	IN PTR db48.mgmt.pmtpa.wmnet.
@@ -226,22 +223,14 @@ $ORIGIN 7.1.{{ zonename }}.
 5	1H	IN PTR ms5.mgmt.pmtpa.wmnet.
 8	1H	IN PTR ms9.mgmt.pmtpa.wmnet.
 9	1H	IN PTR ms10.mgmt.pmtpa.wmnet.
-11	1H	IN PTR es1.mgmt.pmtpa.wmnet.
-12	1H	IN PTR es2.mgmt.pmtpa.wmnet.
-13	1H	IN PTR es3.mgmt.pmtpa.wmnet.
 14	1H	IN PTR es4.mgmt.pmtpa.wmnet.
-15	1H	IN PTR es5.mgmt.pmtpa.wmnet.
-16	1H	IN PTR es6.mgmt.pmtpa.wmnet.
 17	1H	IN PTR es7.mgmt.pmtpa.wmnet.
-18	1H	IN PTR es8.mgmt.pmtpa.wmnet.
-19      1H      IN PTR es9.mgmt.pmtpa.wmnet.
-20      1H      IN PTR es10.mgmt.pmtpa.wmnet.
+20  1H  IN PTR es10.mgmt.pmtpa.wmnet.
 
 ; Misc. Services Server Project
 $ORIGIN 8.1.{{ zonename }}.
 1	1H	IN PTR	nfs1.mgmt.pmtpa.wmnet.
 4	1H	IN PTR	dobson.mgmt.pmtpa.wmnet.
-5	1H	IN PTR	yvon.mgmt.pmtpa.wmnet.
 7	1H	IN PTR	fenari.mgmt.pmtpa.wmnet.
 10	1H	IN PTR	linne.mgmt.pmtpa.wmnet.
 11	1H	IN PTR	nfs2.mgmt.pmtpa.wmnet.
@@ -250,19 +239,16 @@ $ORIGIN 8.1.{{ zonename }}.
 16      1H      IN PTR  amaranth.mgmt.pmtpa.wmnet.
 17	1H	IN PTR	ts-array4a.mgmt.pmtpa.wmnet.
 18	1H	IN PTR	ts-array4b.mgmt.pmtpa.wmnet.
-19	1H	IN PTR	pdf1.mgmt.pmtpa.wmnet.
 20	1H	IN PTR	capella.mgmt.pmtpa.wmnet.
 25	1H	IN PTR	wmf3930.mgmt.pmtpa.wmnet.
 28	1H	IN PTR	virt0.mgmt.pmtpa.wmnet.
 29	1H	IN PTR	pdf2.mgmt.pmtpa.wmnet.
 30	1H	IN PTR	stafford.mgmt.pmtpa.wmnet.
-31	1H	IN PTR	ersch.mgmt.pmtpa.wmnet.
 35	1H	IN PTR	tarin.mgmt.pmtpa.wmnet.
 
 37	1H	IN PTR	pdf3.mgmt.pmtpa.wmnet.
 
 39	1H	IN PTR	ekrem.mgmt.pmtpa.wmnet.
-40	1H	IN PTR  emery.mgmt.pmtpa.wmnet.
 42	1H	IN PTR	WMF3916.mgmt.pmtpa.wmnet.
 44	1H	IN PTR	WMF3914.mgmt.pmtpa.wmnet.
 51	1H	IN PTR	WMF3848.mgmt.pmtpa.wmnet.
@@ -273,7 +259,6 @@ $ORIGIN 8.1.{{ zonename }}.
 62	1H	IN PTR  nas1-b.mgmt.pmtpa.wmnet.
 63	1H	IN PTR	WMF3838.mgmt.pmtpa.wmnet.
 64	1H	IN PTR	WMF3837.mgmt.pmtpa.wmnet.
-65	1H	IN PTR	stat1.mgmt.pmtpa.wmnet.
 66	1H	IN PTR	nas1-a-e0m.mgmt.pmtpa.wmnet.
 67	1H	IN PTR	nas1-b-e0m.mgmt.pmtpa.wmnet.
 68	1H	IN PTR	WMF3641.mgmt.pmtpa.wmnet.
@@ -281,11 +266,8 @@ $ORIGIN 8.1.{{ zonename }}.
 70	1H	IN PTR	WMF3640.mgmt.pmtpa.wmnet.
 
 71	1H	IN PTR	WMF3644.mgmt.pmtpa.wmnet.
-71	1H	IN PTR	zhen.mgmt.pmtpa.wmnet.
 72	1H	IN PTR	WMF3645.mgmt.pmtpa.wmnet.
-72	1H	IN PTR	tmh1.mgmt.pmtpa.wmnet.
 73	1H	IN PTR	WMF3646.mgmt.pmtpa.wmnet.
-73	1H	IN PTR	tmh2.mgmt.pmtpa.wmnet.
 74	1H	IN PTR	labstore1.mgmt.pmtpa.wmnet.
 75	1H	IN PTR	labstore2.mgmt.pmtpa.wmnet.
 76	1H	IN PTR	labstore3.mgmt.pmtpa.wmnet.

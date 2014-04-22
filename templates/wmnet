@@ -163,9 +163,6 @@ ps1-d3-sdtpa		1H	IN A		10.1.5.16
 
 amaranth		1H      IN A            10.1.8.16
 dataset2		1H	IN A		10.1.8.55
-db9			1H	IN A		10.1.6.19
-db10			1H	IN A		10.1.6.20
-db40			1H	IN A		10.1.6.50
 manutius		1H	IN A		10.1.6.51
 db48			1H	IN A		10.1.6.58
 db60			1H	IN A		10.1.6.70
@@ -182,23 +179,12 @@ db75			1H	IN A		10.1.6.85
 db76			1H	IN A		10.1.6.86
 db77			1H	IN A		10.1.6.87
 dobson			1H	IN A		10.1.8.4
-yvon			1H	IN A		10.1.8.5
 ekrem			1H	IN A		10.1.8.39
-emery			1H	IN A		10.1.8.40
-ersch			1H	IN A		10.1.8.31
-es1			1H	IN A		10.1.7.11
-es2			1H	IN A		10.1.7.12
-es3			1H	IN A		10.1.7.13
 es4			1H	IN A		10.1.7.14
-es5			1H	IN A		10.1.7.15
-es6			1H	IN A		10.1.7.16
 es7			1H	IN A		10.1.7.17
-es8			1H	IN A		10.1.7.18
-es9                     1H      IN A            10.1.7.19
 es10                    1H      IN A            10.1.7.20
 fenari			1H	IN A		10.1.8.7
 WMF3916			1H	IN A		10.1.8.42
-hume			1H	IN A		10.1.252.190
 stafford		1H	IN A		10.1.8.30
 labsdb1                 1H      IN A            10.1.8.98
 labsdb2                 1H      IN A            10.1.8.99
@@ -224,11 +210,9 @@ WMF3734			1H	IN A		10.1.8.90
 WMF3848			1H	IN A		10.1.8.51
 WMF3847			1H	IN A		10.1.8.52
 WMF3846			1H	IN A		10.1.8.53
-pdf1			1H	IN A		10.1.8.19
 pdf2			1H	IN A		10.1.8.29
 pdf3			1H	IN A		10.1.8.37
 sanger			1H	IN A		10.1.230.241
-stat1			1H	IN A		10.1.8.65
 tarin			1H	IN A		10.1.8.35
 wmf3930			1H	IN A		10.1.8.25
 tridge			1H	IN A		10.1.252.170
@@ -241,11 +225,8 @@ WMF3639			1H	IN A		10.1.8.69
 WMF3640			1H	IN A		10.1.8.70
 WMF3641			1H	IN A		10.1.8.68
 WMF3644			1H	IN A		10.1.8.71
-zhen			1H	IN A		10.1.8.71
 WMF3645			1H	IN A		10.1.8.72
-tmh1			1H	IN A		10.1.8.72
 WMF3646			1H	IN A		10.1.8.73
-tmh2			1H	IN A		10.1.8.73
 wmf5706                 1H      IN A            10.1.8.104
 labsdb3			1H	IN A		10.1.8.104
 wmf5707			1H	IN A		10.1.8.105
