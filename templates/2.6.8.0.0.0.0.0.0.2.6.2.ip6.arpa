@@ -56,8 +56,6 @@ e.2.4.4.0.e.e.f.f.f.4.2.b.1.2.0	1H IN PTR	ortelius.esams.wikimedia.org.
 0.8.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3010.esams.wikimedia.org.
 1.8.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3011.esams.wikimedia.org.
 2.8.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3012.esams.wikimedia.org.
-3.8.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3013.esams.wikimedia.org.
-4.8.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3014.esams.wikimedia.org.
 
 9.8.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3019.esams.wikimedia.org.
 0.9.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	cp3020.esams.wikimedia.org.
@@ -87,6 +85,9 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 2.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR	lvs3002.esams.wmnet.
 3.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR	lvs3003.esams.wmnet.
 4.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR	lvs3004.esams.wmnet.
+
+3.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR      cp3013.esams.wmnet.
+4.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR      cp3014.esams.wmnet.
 
 ; Toolserver external subnet 2620:0:862:101::/64
 
