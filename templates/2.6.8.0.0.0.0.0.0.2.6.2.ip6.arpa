@@ -83,6 +83,10 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae1-103.cr1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae1-103.cr2-knams.wikimedia.org.
 
+1.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR	lvs3001.esams.wmnet.
+2.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR	lvs3002.esams.wmnet.
+3.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR	lvs3003.esams.wmnet.
+4.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR	lvs3004.esams.wmnet.
 
 ; Toolserver external subnet 2620:0:862:101::/64
 
