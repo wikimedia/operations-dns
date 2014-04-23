@@ -39,7 +39,6 @@ $ORIGIN 0.0.{{ zonename }}.
 220     1H      IN PTR  es9.pmtpa.wmnet.
 
 224     1H      IN PTR  es10.pmtpa.wmnet.
-225	1H	IN PTR	es1.pmtpa.wmnet.
 228	1H	IN PTR	es4.pmtpa.wmnet.
 
 236 	1H	IN PTR  es7.pmtpa.wmnet.
@@ -195,7 +194,6 @@ $ORIGIN 6.1.{{ zonename }}.
 51	1H	IN PTR manutius.mgmt.pmtpa.wmnet.
 70	1H	IN PTR db60.mgmt.pmtpa.wmnet.
 71	1H	IN PTR WMF3709.mgmt.pmtpa.wmnet.
-72	1H	IN PTR db62.mgmt.pmtpa.wmnet.
 78      1H      IN PTR db68.mgmt.pmtpa.wmnet.
 79      1H      IN PTR db69.mgmt.pmtpa.wmnet.
 81      1H      IN PTR db71.mgmt.pmtpa.wmnet.

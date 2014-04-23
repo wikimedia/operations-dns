@@ -49,7 +49,6 @@ db71			1H	IN A		10.0.6.81
 db72			1H	IN A		10.0.6.82
 db73			1H	IN A		10.0.6.83
 db74			1H	IN A		10.0.6.84
-es1			1H	IN A		10.0.0.225
 es4			1H	IN A		10.0.0.228
 es7			1H	IN A		10.0.0.236
 es10                    1H      IN A            10.0.0.224
@@ -151,7 +150,6 @@ dataset2		1H	IN A		10.1.8.55
 manutius		1H	IN A		10.1.6.51
 db60			1H	IN A		10.1.6.70
 WMF3709			1H	IN A		10.1.6.71
-db62			1H	IN A		10.1.6.72
 db68			1H	IN A		10.1.6.78
 db69			1H	IN A		10.1.6.79
 db71			1H	IN A		10.1.6.81

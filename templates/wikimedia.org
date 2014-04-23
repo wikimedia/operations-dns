@@ -693,8 +693,6 @@ ns2			1H	IN A	216.38.130.188
 
 $ORIGIN usability.{{ zonename }}.
 
-tesla.mgmt		1H	IN A	208.80.152.251
-
 ; Amsterdam cluster
 
 $ORIGIN esams.{{ zonename }}.

@@ -105,4 +105,3 @@ $ORIGIN {{ zonename }}.
 
 234	1H IN PTR	web.amaranth.toolserver.org.
 
-251	1H IN PTR	tesla.mgmt.usability.wikimedia.org.
