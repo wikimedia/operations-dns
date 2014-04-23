@@ -89,18 +89,13 @@ $ORIGIN 5.0.{{ zonename }}.
 $ORIGIN 6.0.{{ zonename }}.
 
 
-58	1H	IN PTR	db48.pmtpa.wmnet.
 70	1H	IN PTR	db60.pmtpa.wmnet.
-73	1H	IN PTR	db63.pmtpa.wmnet.
 78	1H	IN PTR	db68.pmtpa.wmnet.
 79	1H	IN PTR	db69.pmtpa.wmnet.
 81	1H	IN PTR	db71.pmtpa.wmnet.
 82	1H	IN PTR	db72.pmtpa.wmnet.
 83	1H	IN PTR	db73.pmtpa.wmnet.
 84	1H	IN PTR	db74.pmtpa.wmnet.
-85	1H	IN PTR	db75.pmtpa.wmnet.
-86	1H	IN PTR	db76.pmtpa.wmnet.
-87	1H	IN PTR	db77.pmtpa.wmnet.
 
 $ORIGIN 8.0.{{ zonename }}.
 
@@ -203,20 +198,15 @@ $ORIGIN 5.1.{{ zonename }}.
 $ORIGIN 6.1.{{ zonename }}.
 50	1H	IN PTR db40.mgmt.pmtpa.wmnet.
 51	1H	IN PTR manutius.mgmt.pmtpa.wmnet.
-58	1H	IN PTR db48.mgmt.pmtpa.wmnet.
 70	1H	IN PTR db60.mgmt.pmtpa.wmnet.
 71	1H	IN PTR WMF3709.mgmt.pmtpa.wmnet.
 72	1H	IN PTR db62.mgmt.pmtpa.wmnet.
-73      1H      IN PTR db63.mgmt.pmtpa.wmnet.
 78      1H      IN PTR db68.mgmt.pmtpa.wmnet.
 79      1H      IN PTR db69.mgmt.pmtpa.wmnet.
 81      1H      IN PTR db71.mgmt.pmtpa.wmnet.
 82      1H      IN PTR db72.mgmt.pmtpa.wmnet.
 83      1H      IN PTR db73.mgmt.pmtpa.wmnet.
 84      1H      IN PTR db74.mgmt.pmtpa.wmnet.
-85      1H      IN PTR db75.mgmt.pmtpa.wmnet.
-86      1H      IN PTR db76.mgmt.pmtpa.wmnet.
-87      1H      IN PTR db77.mgmt.pmtpa.wmnet.
 
 ; Media Servers & SSL Servers & ES Servers & Memcached Servers
 $ORIGIN 7.1.{{ zonename }}.

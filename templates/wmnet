@@ -37,27 +37,21 @@ nfs-home		1H	IN A		10.0.5.8
 puppet			1H	IN CNAME	palladium.eqiad.wmnet.
 syslog			1H	IN CNAME	nfs-home
 ntp			1H	IN CNAME	linne.wikimedia.org.
-s1-secondary		5M	IN CNAME	db63.pmtpa.wmnet.
+s1-secondary		5M	IN CNAME	db60.pmtpa.wmnet.
 s5-secondary		5M	IN CNAME	db73.pmtpa.wmnet.
-m2-secondary		5M	IN CNAME	db48.pmtpa.wmnet.
 es1-secondary		5M	IN CNAME	es3.pmtpa.wmnet.
 es2-secondary		5M	IN CNAME	es5.pmtpa.wmnet.
 es3-secondary		5M	IN CNAME	es8.pmtpa.wmnet.
 
 ; Servers (alphabetic order)
 
-db48                    1H      IN A            10.0.6.58
 db60			1H	IN A		10.0.6.70
-db63			1H	IN A		10.0.6.73
 db68			1H	IN A		10.0.6.78
 db69			1H	IN A		10.0.6.79
 db71			1H	IN A		10.0.6.81
 db72			1H	IN A		10.0.6.82
 db73			1H	IN A		10.0.6.83
 db74			1H	IN A		10.0.6.84
-db75			1H	IN A		10.0.6.85
-db76			1H	IN A		10.0.6.86
-db77			1H	IN A		10.0.6.87
 es1			1H	IN A		10.0.0.225
 es2			1H	IN A		10.0.0.226
 es3			1H	IN A		10.0.0.227
@@ -164,20 +158,15 @@ ps1-d3-sdtpa		1H	IN A		10.1.5.16
 amaranth		1H      IN A            10.1.8.16
 dataset2		1H	IN A		10.1.8.55
 manutius		1H	IN A		10.1.6.51
-db48			1H	IN A		10.1.6.58
 db60			1H	IN A		10.1.6.70
 WMF3709			1H	IN A		10.1.6.71
 db62			1H	IN A		10.1.6.72
-db63			1H	IN A		10.1.6.73
 db68			1H	IN A		10.1.6.78
 db69			1H	IN A		10.1.6.79
 db71			1H	IN A		10.1.6.81
 db72			1H	IN A		10.1.6.82
 db73			1H	IN A		10.1.6.83
 db74			1H	IN A		10.1.6.84
-db75			1H	IN A		10.1.6.85
-db76			1H	IN A		10.1.6.86
-db77			1H	IN A		10.1.6.87
 dobson			1H	IN A		10.1.8.4
 ekrem			1H	IN A		10.1.8.39
 es4			1H	IN A		10.1.7.14
