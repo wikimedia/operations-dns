@@ -60,13 +60,6 @@ $ORIGIN 1.0.{{ zonename }}.
 
 $ORIGIN 2.0.{{ zonename }}.
 
-193	1H     IN PTR	srv193.pmtpa.wmnet.
-
-;srv235-250
-{% for i in range(235, 251) %}
-{{ i }}	1H	IN PTR	srv{{ i }}.pmtpa.wmnet.
-{%- endfor %}
-
 $ORIGIN 3.0.{{ zonename }}.
 
 ; Service IPs
