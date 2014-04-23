@@ -35,15 +35,11 @@ $ORIGIN 0.0.{{ zonename }}.
 201 	1H	IN PTR  ae0-2.cr1-sdtpa.wikimedia.org.
 202 	1H	IN PTR  ae0-2.cr2-pmtpa.wikimedia.org.
 
-220     1H      IN PTR  es9.pmtpa.wmnet.
-
 224     1H      IN PTR  es10.pmtpa.wmnet.
 228	1H	IN PTR	es4.pmtpa.wmnet.
 
 236 	1H	IN PTR  es7.pmtpa.wmnet.
-239	1H	IN PTR	db6.pmtpa.wmnet.
 244	1H	IN PTR  nfs1.pmtpa.wmnet.
-247	1H	IN PTR  nfs2.pmtpa.wmnet.
 253	1H	IN PTR	nas1-a.pmtpa.wmnet.
 254	1H	IN PTR	nas1-b.pmtpa.wmnet.
 
@@ -136,19 +132,7 @@ $ORIGIN 2.1.{{ zonename }}.
 2	1H	IN PTR scs-d1-pmtpa.mgmt.pmtpa.wmnet.
 3	1H	IN PTR mr1-pmtpa.mgmt.pmtpa.wmnet.
 
-193	1H	IN PTR srv193.mgmt.pmtpa.wmnet.
-
-;srv235-250
-{% for i in range(235, 251) %}
-{{ i }}	1H	IN PTR	srv{{ i }}.mgmt.pmtpa.wmnet.
-{%- endfor %}
-
 $ORIGIN 3.1.{{ zonename }}.
-
-67	1H	IN PTR	sq67.mgmt.pmtpa.wmnet.
-68	1H	IN PTR	sq68.mgmt.pmtpa.wmnet.
-69	1H	IN PTR	sq69.mgmt.pmtpa.wmnet.
-70	1H	IN PTR	sq70.mgmt.pmtpa.wmnet.
 
 ; Search Servers
 $ORIGIN 4.1.{{ zonename }}.
@@ -182,7 +166,6 @@ $ORIGIN 5.1.{{ zonename }}.
 
 ; Database Servers
 $ORIGIN 6.1.{{ zonename }}.
-50	1H	IN PTR db40.mgmt.pmtpa.wmnet.
 51	1H	IN PTR manutius.mgmt.pmtpa.wmnet.
 70	1H	IN PTR db60.mgmt.pmtpa.wmnet.
 71	1H	IN PTR WMF3709.mgmt.pmtpa.wmnet.
@@ -205,7 +188,6 @@ $ORIGIN 8.1.{{ zonename }}.
 4	1H	IN PTR	dobson.mgmt.pmtpa.wmnet.
 7	1H	IN PTR	fenari.mgmt.pmtpa.wmnet.
 10	1H	IN PTR	linne.mgmt.pmtpa.wmnet.
-11	1H	IN PTR	nfs2.mgmt.pmtpa.wmnet.
 
 
 16      1H      IN PTR  amaranth.mgmt.pmtpa.wmnet.
