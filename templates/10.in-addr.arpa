@@ -193,7 +193,6 @@ $ORIGIN 8.1.{{ zonename }}.
 16      1H      IN PTR  amaranth.mgmt.pmtpa.wmnet.
 17	1H	IN PTR	ts-array4a.mgmt.pmtpa.wmnet.
 18	1H	IN PTR	ts-array4b.mgmt.pmtpa.wmnet.
-20	1H	IN PTR	capella.mgmt.pmtpa.wmnet.
 25	1H	IN PTR	wmf3930.mgmt.pmtpa.wmnet.
 28	1H	IN PTR	virt0.mgmt.pmtpa.wmnet.
 29	1H	IN PTR	pdf2.mgmt.pmtpa.wmnet.
