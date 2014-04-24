@@ -52,13 +52,6 @@ db74			1H	IN A		10.0.6.84
 es4			1H	IN A		10.0.0.228
 es7			1H	IN A		10.0.0.236
 es10                    1H      IN A            10.0.0.224
-projectstorage		1H	IN A		10.0.0.41
-			1H	IN A		10.0.0.42
-labstore1		1H	IN A		10.0.0.41
-labstore2		1H	IN A		10.0.0.42
-labstore3		1H	IN A		10.0.0.43
-labstore4		1H	IN A		10.0.0.44
-labnfs			1H	IN A		10.0.0.45
 
 ms-fe			1H	IN A		10.2.1.27
 nfs1			1H	IN A		10.0.0.244
@@ -66,13 +59,6 @@ nas1-a			1H	IN A		10.0.0.253
 nas1-b			1H	IN A		10.0.0.254
 
 tarin			1H	IN A		10.0.0.21
-instancestorage		1H	IN A		10.4.16.2
-			1H	IN A		10.4.16.3
-			1H	IN A		10.4.16.4
-			1H	IN A		10.4.16.5
-labsdb1                 1H      IN A            10.4.16.10
-labsdb2                 1H      IN A            10.4.16.11
-labsdb3                 1H      IN A            10.4.16.12
 
 ; GENERATES
 
@@ -161,12 +147,6 @@ es7			1H	IN A		10.1.7.17
 es10                    1H      IN A            10.1.7.20
 fenari			1H	IN A		10.1.8.7
 WMF3916			1H	IN A		10.1.8.42
-labsdb1                 1H      IN A            10.1.8.98
-labsdb2                 1H      IN A            10.1.8.99
-labstore1		1H	IN A		10.1.8.74
-labstore2		1H	IN A		10.1.8.75
-labstore3		1H	IN A		10.1.8.76
-labstore4		1H	IN A		10.1.8.77
 linne			1H	IN A		10.1.8.10
 mchenry			1H	IN A		10.1.230.240
 nfs1			1H	IN A		10.1.8.1
@@ -198,7 +178,6 @@ WMF3644			1H	IN A		10.1.8.71
 WMF3645			1H	IN A		10.1.8.72
 WMF3646			1H	IN A		10.1.8.73
 wmf5706                 1H      IN A            10.1.8.104
-labsdb3			1H	IN A		10.1.8.104
 wmf5707			1H	IN A		10.1.8.105
 wmf5708			1H	IN A		10.1.8.106
 wmf5709			1H	IN A		10.1.8.107
