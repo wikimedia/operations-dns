@@ -142,21 +142,6 @@ $ORIGIN 4.1.{{ zonename }}.
 $ORIGIN 5.1.{{ zonename }}.
 
 1	1H	IN PTR	ps1-a1-sdtpa.mgmt.pmtpa.wmnet.
-2	1H	IN PTR	ps1-a2-sdtpa.mgmt.pmtpa.wmnet.
-3	1H	IN PTR	ps1-a3-sdtpa.mgmt.pmtpa.wmnet.
-4	1H	IN PTR	ps1-a4-sdtpa.mgmt.pmtpa.wmnet.
-5	1H	IN PTR	ps1-a5-sdtpa.mgmt.pmtpa.wmnet.
-6	1H	IN PTR	ps1-b1-sdtpa.mgmt.pmtpa.wmnet.
-7	1H	IN PTR	ps1-b2-sdtpa.mgmt.pmtpa.wmnet.
-8	1H	IN PTR	ps1-b3-sdtpa.mgmt.pmtpa.wmnet.
-9	1H	IN PTR	ps1-b4-sdtpa.mgmt.pmtpa.wmnet.
-10	1H	IN PTR	ps1-b5-sdtpa.mgmt.pmtpa.wmnet.
-11	1H	IN PTR	ps1-c1-sdtpa.mgmt.pmtpa.wmnet.
-12	1H	IN PTR	ps1-c2-sdtpa.mgmt.pmtpa.wmnet.
-13	1H	IN PTR	ps1-c3-sdtpa.mgmt.pmtpa.wmnet.
-14	1H	IN PTR	ps1-d1-sdtpa.mgmt.pmtpa.wmnet.
-15	1H	IN PTR	ps1-d2-sdtpa.mgmt.pmtpa.wmnet.
-16	1H	IN PTR	ps1-d3-sdtpa.mgmt.pmtpa.wmnet.
 17	1H	IN PTR	ps1-d1-pmtpa.mgmt.pmtpa.wmnet.
 18	1H	IN PTR	ps1-d2-pmtpa.mgmt.pmtpa.wmnet.
 19	1H	IN PTR	ps1-d3-pmtpa.mgmt.pmtpa.wmnet.

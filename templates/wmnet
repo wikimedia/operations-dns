@@ -110,21 +110,6 @@ ps1-d2-pmtpa		1H	IN A		10.1.5.18
 ps1-d3-pmtpa		1H	IN A		10.1.5.19
 
 ps1-a1-sdtpa		1H	IN A		10.1.5.1
-ps1-a2-sdtpa		1H	IN A		10.1.5.2
-ps1-a3-sdtpa		1H	IN A		10.1.5.3
-ps1-a4-sdtpa		1H	IN A		10.1.5.4
-ps1-a5-sdtpa		1H	IN A		10.1.5.5
-ps1-b1-sdtpa		1H	IN A		10.1.5.6
-ps1-b2-sdtpa		1H	IN A		10.1.5.7
-ps1-b3-sdtpa		1H	IN A		10.1.5.8
-ps1-b4-sdtpa		1H	IN A		10.1.5.9
-ps1-b5-sdtpa		1H	IN A		10.1.5.10
-ps1-c1-sdtpa		1H	IN A		10.1.5.11
-ps1-c2-sdtpa		1H	IN A		10.1.5.12
-ps1-c3-sdtpa		1H	IN A		10.1.5.13
-ps1-d1-sdtpa		1H	IN A		10.1.5.14
-ps1-d2-sdtpa		1H	IN A		10.1.5.15
-ps1-d3-sdtpa		1H	IN A		10.1.5.16
 
 
 ; SERVERS LISTED ALPHABETICALLY
