@@ -36,7 +36,6 @@ $ORIGIN {{ zonename }}.
 
 136	1H IN PTR	mexia.wikimedia.org.
 137	1H IN PTR	torrus.wikimedia.org.
-139	1H IN PTR	tampa.tech.wikimedia.org.
 141	1H IN PTR	wireless.tech.wikimedia.org.
 143	1H IN PTR	url-downloader.wikimedia.org.
 144	1H IN PTR	ae0-101.cr1-sdtpa.wikimedia.org.

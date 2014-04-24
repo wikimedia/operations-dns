@@ -652,8 +652,6 @@ wikitech-static		1H	IN A		166.78.57.240
 
 ; Misc
 
-tampa.tech		1H	IN A	208.80.152.139
-
 ; Google apps
 googlef3fe6c2a164e9650	1H	IN CNAME	google.com.
 
