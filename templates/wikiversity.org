@@ -33,6 +33,7 @@ $ORIGIN {{ zonename }}.
 ; Wikis (alphabetic order)
 
 beta			1H	IN CNAME	wikiversity-lb.wikimedia.org.
+beta.m			1H	IN CNAME	mobile-lb.eqiad.wikimedia.org.
 www			1H	IN CNAME	wikiversity-lb.wikimedia.org.
 
 ; All languages will automatically be included here
