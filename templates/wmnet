@@ -30,6 +30,7 @@ smtp			1H	IN CNAME	wiki-mail.wikimedia.org.
 webproxy		1H	IN CNAME	carbon.wikimedia.org.
 carbon-relay		1H	IN CNAME	tungsten.eqiad.wmnet.
 statsd			1H	IN CNAME	tungsten.eqiad.wmnet.
+eventlogging		1H	IN CNAME	vanadium.eqiad.wmnet.
 
 dns-r0			1H	IN A		10.0.5.6
 dns-r1			1H	IN A		10.0.5.7
@@ -205,6 +206,7 @@ webproxy		1H	IN CNAME	carbon.wikimedia.org.
 zuul			1H	IN CNAME	gallium.wikimedia.org.
 carbon-relay		1H	IN CNAME	tungsten.eqiad.wmnet.
 statsd			1H	IN CNAME	tungsten.eqiad.wmnet.
+eventlogging		1H	IN CNAME	vanadium.eqiad.wmnet.
 s1-master		5M	IN CNAME	db1052.eqiad.wmnet.
 s2-master		5M	IN CNAME	db1024.eqiad.wmnet.
 s3-master		5M	IN CNAME	db1038.eqiad.wmnet.
