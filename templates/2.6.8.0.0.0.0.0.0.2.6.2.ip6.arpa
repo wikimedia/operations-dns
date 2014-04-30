@@ -25,10 +25,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 ; Machines
 
-2.d.5.d.0.1.e.f.f.f.d.3.9.0.2.0	1H IN PTR	mayflower.esams.wikimedia.org.
-e.2.4.4.0.e.e.f.f.f.4.2.b.1.2.0	1H IN PTR	ortelius.esams.wikimedia.org.
-4.f.9.7.a.8.e.f.f.f.b.8.3.2.2.0	1H IN PTR	ptolemy.esams.wikimedia.org.
-
 7.5.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq47.esams.wikimedia.org.
 8.5.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq48.esams.wikimedia.org.
 9.5.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq49.esams.wikimedia.org.
