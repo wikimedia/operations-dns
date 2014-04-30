@@ -145,11 +145,11 @@ lvs1006			1H	IN A	208.80.154.139
 magnesium		1H	IN A	208.80.154.5
 manutius		1H	IN A	208.80.152.15
 mchenry			1H	IN A	208.80.152.186
-			1H	IN AAAA	2620:0:860:2:208:80:152:186
+			1H	IN AAAA 2620:0:860:2:219:b9ff:fedd:c027
 mexia			1H	IN A	208.80.152.136
 ms1001			1H	IN A	208.80.154.16
 neon			1H	IN A	208.80.154.14
-                        1H      IN AAAA 2620:0:860:2:208:80:154:14
+                        1H      IN AAAA 2620:0:861:1:7a2b:cbff:fe08:a42f
 netmon1001		1H	IN A	208.80.154.159
 			1H	IN AAAA 2620:0:861:2:208:80:154:159
 nickel			1H	IN A	208.80.154.150
