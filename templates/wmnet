@@ -230,7 +230,7 @@ s6-analytics-slave	5M	IN CNAME	db74.pmtpa.wmnet.
 s7-analytics-slave	5M	IN CNAME	db1007.eqiad.wmnet.
 x1-analytics-slave	5M	IN CNAME	db1031.eqiad.wmnet.
 analytics-slave		5M	IN CNAME	db1047.eqiad.wmnet.
-analytics-store		5M	IN CNAME	dbstore1001.eqiad.wmnet.
+analytics-store		5M	IN CNAME	dbstore1002.eqiad.wmnet.
 
 ; Cameras
 cam1-a-eqiad		1H	IN A		10.64.0.27
