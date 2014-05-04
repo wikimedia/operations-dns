@@ -78,17 +78,6 @@ $ORIGIN 6.0.{{ zonename }}.
 83	1H	IN PTR	db73.pmtpa.wmnet.
 84	1H	IN PTR	db74.pmtpa.wmnet.
 
-$ORIGIN 8.0.{{ zonename }}.
-
-;Payments cluster
-$ORIGIN 9.0.{{ zonename }}.
-
-; mw* apache/mediawiki server cluster (new apaches, replacing the srv* name)
-$ORIGIN 11.0.{{ zonename }}.
-
-; memcache pmtpa/sdtpa cluster
-$ORIGIN 12.0.{{ zonename }}.
-
 ; Management (pmtpa)
 
 $ORIGIN 1.{{ zonename }}.
@@ -99,33 +88,20 @@ $ORIGIN 1.1.{{ zonename }}.
 
 3	1H	IN PTR	asw-c3-pmtpa.mgmt.pmtpa.wmnet.
 4	1H	IN PTR	asw-c4-pmtpa.mgmt.pmtpa.wmnet.
-5	1H	IN PTR	asw-d2-sdtpa.mgmt.pmtpa.wmnet.
-6	1H	IN PTR	asw-d1-sdtpa.mgmt.pmtpa.wmnet.
 7	1H	IN PTR	asw-a2-pmtpa.mgmt.pmtpa.wmnet.
-8	1H	IN PTR	asw-d3-sdtpa.mgmt.pmtpa.wmnet.
-9	1H	IN PTR	asw-a4-sdtpa.mgmt.pmtpa.wmnet.
-10	1H	IN PTR	asw-a5-sdtpa.mgmt.pmtpa.wmnet.
-11	1H	IN PTR	asw-b-sdtpa.mgmt.pmtpa.wmnet.
-12	1H	IN PTR	asw-b3-sdtpa.net.mgmt.pmtpa.wmnet.
-13	1H	IN PTR	asw-b4-sdtpa.net.mgmt.pmtpa.wmnet.
-14	1H	IN PTR	asw-b5-sdtpa.net.mgmt.pmtpa.wmnet.
 15	1H	IN PTR	msw1-pmtpa.mgmt.pmtpa.wmnet.
-16	1H	IN PTR	msw1-sdtpa.mgmt.pmtpa.wmnet.
 18	1H	IN PTR	cr2-pmtpa.mgmt.pmtpa.wmnet.
-20	1H	IN PTR	asw2-d3-sdtpa.mgmt.pmtpa.wmnet.
 
 21	1H	IN PTR	asw-d-pmtpa.mgmt.pmtpa.wmnet.
 22	1H	IN PTR	asw-d1-pmtpa.mgmt.pmtpa.wmnet.
 23	1H	IN PTR	asw-d2-pmtpa.mgmt.pmtpa.wmnet.
 24	1H	IN PTR	asw-d3-pmtpa.mgmt.pmtpa.wmnet.
 25	1H	IN PTR	msw2-pmtpa.mgmt.pmtpa.wmnet.
-26	1H	IN PTR	msw2-sdtpa.mgmt.pmtpa.wmnet.
 
 ; Supportive management infrastructure
 
 $ORIGIN 2.1.{{ zonename }}.
 
-1	1H	IN PTR scs-a1-sdtpa.mgmt.pmtpa.wmnet.
 2	1H	IN PTR scs-d1-pmtpa.mgmt.pmtpa.wmnet.
 3	1H	IN PTR mr1-pmtpa.mgmt.pmtpa.wmnet.
 
@@ -138,7 +114,6 @@ $ORIGIN 4.1.{{ zonename }}.
 
 $ORIGIN 5.1.{{ zonename }}.
 
-1	1H	IN PTR	ps1-a1-sdtpa.mgmt.pmtpa.wmnet.
 17	1H	IN PTR	ps1-d1-pmtpa.mgmt.pmtpa.wmnet.
 18	1H	IN PTR	ps1-d2-pmtpa.mgmt.pmtpa.wmnet.
 19	1H	IN PTR	ps1-d3-pmtpa.mgmt.pmtpa.wmnet.

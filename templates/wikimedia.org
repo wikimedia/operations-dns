@@ -413,8 +413,6 @@ asw-b1-pmtpa		1H	IN A	10.1.1.5
 asw-b2-pmtpa		1H	IN A	10.1.1.6
 asw-a2-pmtpa		1H	IN A	10.1.1.7
 asw-b4-pmtpa		1H	IN A	10.1.1.8
-asw-a4-sdtpa		1H	IN A	10.1.1.9
-asw-a5-sdtpa		1H	IN A	10.1.1.10
 
 ; Cams
 

@@ -54,8 +54,6 @@ $ORIGIN {{ zonename }}.
 185	1H IN PTR	dataset2.wikimedia.org.
 186	1H IN PTR	mchenry.wikimedia.org.
 187	1H IN PTR	sanger.wikimedia.org.
-188	1H IN PTR	cam1-c-d-sdtpa.wikimedia.org.
-189	1H IN PTR	cam1-a-sdtpa.wikimedia.org.
 
 ; Neighbor blocks, loopback IPs 208.80.152.192/27 (208.80.152.192 - 208.80.152.223)
 
