@@ -240,17 +240,17 @@ $ORIGIN 0.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0.cr2-eqiad.wikimedia.org.
 
-; cr1-eqiad <--> cr1-sdtpa (2620:0:861:fe01::/64)
+; cr1-eqiad <--> cr2-pmtpa (2620:0:861:fe01::/64)
 
 $ORIGIN 1.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-5-2-1.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-0-0-1.cr1-sdtpa.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-0-0-0.cr2-pmtpa.wikimedia.org.
 
-; cr2-eqiad <--> cr1-sdtpa (2620:0:861:fe02::/64)
+; cr2-eqiad <--> cr2-pmtpa (2620:0:861:fe02::/64)
 
 $ORIGIN 2.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-5-2-1.cr2-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-1-1-0.cr1-sdtpa.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-1-1-0.cr2-pmtpa.wikimedia.org.
 
 ; cr2-eqiad <--> cr2-knams GRE (2620:0:861:fe03::/64)
 

@@ -32,7 +32,6 @@ $ORIGIN 0.0.{{ zonename }}.
 
 
 200 	1H	IN PTR  vrrp-gw-2.pmtpa.wmnet.
-201 	1H	IN PTR  ae0-2.cr1-sdtpa.wikimedia.org.
 202 	1H	IN PTR  ae0-2.cr2-pmtpa.wikimedia.org.
 
 224     1H      IN PTR  es10.pmtpa.wmnet.
@@ -112,9 +111,7 @@ $ORIGIN 1.1.{{ zonename }}.
 14	1H	IN PTR	asw-b5-sdtpa.net.mgmt.pmtpa.wmnet.
 15	1H	IN PTR	msw1-pmtpa.mgmt.pmtpa.wmnet.
 16	1H	IN PTR	msw1-sdtpa.mgmt.pmtpa.wmnet.
-17	1H	IN PTR	cr1-sdtpa.mgmt.pmtpa.wmnet.
 18	1H	IN PTR	cr2-pmtpa.mgmt.pmtpa.wmnet.
-19	1H	IN PTR	csw1-sdtpa.mgmt.pmtpa.wmnet.
 20	1H	IN PTR	asw2-d3-sdtpa.mgmt.pmtpa.wmnet.
 
 21	1H	IN PTR	asw-d-pmtpa.mgmt.pmtpa.wmnet.
@@ -293,31 +290,16 @@ $ORIGIN 128.2.{{ zonename }}.
 
 $ORIGIN 0.3.{{ zonename }}.
 
-; Cross link between nfs1/nfs2: 10.3.0.0/30
+; Cross link between cr2-pmtpa and mr1-pmtpa: 10.3.0.8/30
 
-1	1H	IN PTR	nfs1-xlink0.pmtpa.wmnet.
-2	1H	IN PTR	nfs2-xlink0.pmtpa.wmnet.
-
-; Cross link between cr2-pmtpa and mr1-pmtpa: 10.3.0.4/30
-
-5	1H	IN PTR	ae0-402.cr2-pmtpa.wikimedia.org.
-6	1H	IN PTR	fe-0-0-1.mr1-pmtpa.wikimedia.org.
-
-; Cross link between cr1-sdtpa and mr1-pmtpa: 10.3.0.8/30
-
-9	1H	IN PTR	ae0-402.cr1-sdtpa.wikimedia.org.
+9	1H	IN PTR	ae0-402.cr2-pmtpa.wikimedia.org.
 10	1H	IN PTR	fe-0-0-2-402.mr1-pmtpa.wikimedia.org.
 
 ; Loopbacks 10.3.0.12/30
 
 12	1H	IN PTR	mr1-pmtpa.mgmt.pmtpa.wmnet.
 
-; TEMP cross link between cr1-sdtpa and csw1-sdtpa: 10.3.0.16/30
-
-17	1H	IN PTR	ae0-404.cr1-sdtpa.wikimedia.org.
-18	1H	IN PTR	ve2.csw1-sdtpa.wikimedia.org.
-
-; pmtpa/sdtpa wireless access network 10.3.1.0/24
+; pmtpa wireless access network 10.3.1.0/24
 1	1H	IN PTR	fe-0-0-3.mr1-pmtpa.wikimedia.org.
 2	1H	IN PTR	wr1.pmtpa.wikimedia.org.
 
@@ -335,7 +317,6 @@ $ORIGIN 16.4.{{ zonename }}.
 11	1H	IN PTR  labsdb2.pmtpa.wmnet.
 12	1H	IN PTR  labsdb3.pmtpa.wmnet.
 
-252     1H      IN PTR  ae0-105.cr1-sdtpa.wikimedia.org.
 253     1H      IN PTR  ae0-105.cr2-pmtpa.wikimedia.org.
 
 ;

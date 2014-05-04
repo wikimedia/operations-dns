@@ -22,7 +22,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-100.wikimedia.org.
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae0-100.cr1-sdtpa.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae0-100.cr2-pmtpa.wikimedia.org.
 
 
@@ -57,7 +56,6 @@ $ORIGIN 2.0.0.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	vrrp-gw-101.wikimedia.org.
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR	ae0-101.cr1-sdtpa.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR	ae0-101.cr2-pmtpa.wikimedia.org.
 
 ; Machines
@@ -74,7 +72,6 @@ $ORIGIN 3.0.0.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	vrrp-gw-102.wikimedia.org.
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae0-102.cr1-sdtpa.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae0-102.cr2-pmtpa.wikimedia.org.
 
 6.2.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	amaranth.toolserver.org.
@@ -90,19 +87,10 @@ $ORIGIN 3.0.0.0.{{ zonename }}.
 
 $ORIGIN e.f.{{ zonename }}.
 
-; cr1-sdtpa <--> cr2-pmtpa (2620:0:860:fe00::/64)
-
-$ORIGIN 0.0.e.f.{{ zonename }}.
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0-400.cr1-sdtpa.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0-400.cr2-pmtpa.wikimedia.org.
-
 ; Loopback IPs
 
 $ORIGIN f.f.f.f.{{ zonename }}.
 
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	csw1-sdtpa.wikimedia.org.
 3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	pim-rp.wikimedia.org.
-4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	cr1-sdtpa.wikimedia.org.
 5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	cr2-pmtpa.wikimedia.org.
 

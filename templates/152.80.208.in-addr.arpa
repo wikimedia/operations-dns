@@ -23,7 +23,6 @@ $ORIGIN {{ zonename }}.
 32	1H IN PTR	virt0.wikimedia.org.
 33	1H IN PTR	labs-ns0.wikimedia.org.
 
-125	1H IN PTR	ae0-100.cr1-sdtpa.wikimedia.org.
 126	1H IN PTR	ae0-100.cr2-pmtpa.wikimedia.org.
 
 
@@ -38,7 +37,6 @@ $ORIGIN {{ zonename }}.
 137	1H IN PTR	torrus.wikimedia.org.
 141	1H IN PTR	wireless.tech.wikimedia.org.
 143	1H IN PTR	url-downloader.wikimedia.org.
-144	1H IN PTR	ae0-101.cr1-sdtpa.wikimedia.org.
 145	1H IN PTR	ae0-101.cr2-pmtpa.wikimedia.org.
 
 154	1H IN PTR	pdf2.wikimedia.org.
@@ -61,15 +59,9 @@ $ORIGIN {{ zonename }}.
 
 ; Neighbor blocks, loopback IPs 208.80.152.192/27 (208.80.152.192 - 208.80.152.223)
 
-193	1H IN PTR	csw1-sdtpa.wikimedia.org.
 194	1H IN PTR	pim-rp.wikimedia.org.
 
-196	1H IN PTR	cr1-sdtpa.wikimedia.org.
 197	1H IN PTR	cr2-pmtpa.wikimedia.org.
-
-; 208.80.152.198/31 (cr1-sdtpa <--> cr2-pmtpa )
-198	1H IN PTR	ae0-404.cr1-sdtpa.wikimedia.org.
-199	1H IN PTR	ae0-404.cr2-pmtpa.wikimedia.org.
 
 ; LVS out-of-subnet IPs
 
@@ -97,7 +89,6 @@ $ORIGIN {{ zonename }}.
 ; 208.80.152.224/27 sandbox vlan
 225	1H IN PTR	vrrp-gw-103.wikimedia.org.
 226	1H IN PTR	amaranth.toolserver.org.
-227	1H IN PTR	ae0-103.cr1-sdtpa.wikimedia.org.
 228	1H IN PTR	ae0-103.cr2-pmtpa.wikimedia.org.
 229	1H IN PTR	ts-array4b.mgmt.toolserver.org.
 230	1H IN PTR	ts-array4a.mgmt.toolserver.org.

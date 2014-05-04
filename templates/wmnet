@@ -97,7 +97,6 @@ asw-d1-pmtpa		1H	IN A		10.1.1.22
 asw-d2-pmtpa		1H	IN A		10.1.1.23
 asw-d3-pmtpa		1H	IN A		10.1.1.24
 
-cr1-sdtpa		1H	IN A		10.1.1.17
 cr2-pmtpa		1H	IN A		10.1.1.18
 
 nas1-a			1H	IN A		10.1.8.61
