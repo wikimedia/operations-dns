@@ -44,10 +44,12 @@ meta			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 nostalgia		1H	IN CNAME	wikipedia-lb.wikimedia.org.
 quote                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
 quality			1H	IN CNAME	wikipedia-lb.wikimedia.org.
+quality.m               1H      IN CNAME        mobile-lb.eqiad.wikimedia.org.
 sep11			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 sources			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 species			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 ten                     1H      IN CNAME        wikipedia-lb.wikimedia.org.
+ten.m                   1H      IN CNAME        mobile-lb.eqiad.wikimedia.org.
 test                    1H      IN CNAME        wikipedia-lb.wikimedia.org.
 test2                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
 test.m                  1H      IN CNAME        mobile-lb.eqiad.wikimedia.org.
