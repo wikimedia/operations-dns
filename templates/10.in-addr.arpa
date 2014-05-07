@@ -2010,6 +2010,7 @@ $ORIGIN 3.65.{{ zonename }}.
 186	1H	IN PTR		wmf4546.mgmt.eqiad.wmnet.
 186	1H	IN PTR		osmium.mgmt.eqiad.wmnet.
 187	1H	IN PTR		wmf4547.mgmt.eqiad.wmnet.
+187	1H	IN PTR		iridium.mgmt.eqiad.wmnet.
 188	1H	IN PTR		wmf4548.mgmt.eqiad.wmnet.
 189	1H	IN PTR		wmf4549.mgmt.eqiad.wmnet.
 190	1H 	IN PTR		wmf4550.mgmt.eqiad.wmnet.
