@@ -63,26 +63,7 @@ $ORIGIN {{ zonename }}.
 
 ; LVS out-of-subnet IPs
 
-200	1H IN PTR	wikimedia-lb.pmtpa.wikimedia.org.
-201	1H IN PTR	wikipedia-lb.pmtpa.wikimedia.org.
-202	1H IN PTR	wiktionary-lb.pmtpa.wikimedia.org.
-203	1H IN PTR	wikiquote-lb.pmtpa.wikimedia.org.
-204	1H IN PTR	wikibooks-lb.pmtpa.wikimedia.org.
-205	1H IN PTR	wikisource-lb.pmtpa.wikimedia.org.
-206	1H IN PTR	wikinews-lb.pmtpa.wikimedia.org.
-207	1H IN PTR	wikiversity-lb.pmtpa.wikimedia.org.
-208	1H IN PTR	mediawiki-lb.pmtpa.wikimedia.org.
-209	1H IN PTR	foundation-lb.pmtpa.wikimedia.org.
-210	1H IN PTR	bits-lb.pmtpa.wikimedia.org.
-211	1H IN PTR	upload-lb.pmtpa.wikimedia.org.
-212	1H IN PTR	mobile-lb.pmtpa.wikimedia.org.
-213	1H IN PTR	payments-lb.pmtpa.wikimedia.org.
 214	1H IN PTR	ns1.wikimedia.org.
-215	1H IN PTR	dns-rec-lb.pmtpa.wikimedia.org.
-216	1H IN PTR	osm-lb.pmtpa.wikimedia.org.
-217	1H IN PTR	misc-web-lb.pmtpa.wikimedia.org.
-218	1H IN PTR	wikidata-lb.pmtpa.wikimedia.org.
-219	1H IN PTR	wikivoyage-lb.pmtpa.wikimedia.org.
 
 ; 208.80.152.224/27 sandbox vlan
 225	1H IN PTR	vrrp-gw-103.wikimedia.org.
