@@ -2398,6 +2398,20 @@ $ORIGIN 0.128.{{ zonename }}.
 119	1H	IN PTR		cp4019.ulsfo.wmnet.
 120	1H	IN PTR		cp4020.ulsfo.wmnet.
 
+;
+; CODFW (10.192.0.0/12)
+;
+
+; 10.192.0.0/22 - private1-a-codfw
+$ORIGIN 0.64.{{ zonename }}.
+
+; 10.193.0.0/16 - mgmt-codfw
+
+10  1H  IN PTR  re0.cr1-codfw.mgmt.codfw.wmnet.
+11  1H  IN PTR  re1.cr1-codfw.mgmt.codfw.wmnet.
+12  1H  IN PTR  re0.cr2-codfw.mgmt.codfw.wmnet.
+13  1H  IN PTR  re1.cr2-codfw.mgmt.codfw.wmnet.
+
 
 ; LEGACY
 
