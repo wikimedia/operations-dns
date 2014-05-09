@@ -14,7 +14,7 @@ $ORIGIN {{ zonename }}.
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
-; pmtpa 2620:0:860::/48
+; pmtpa/codfw 2620:0:860::/48
 
 ; pmtpa Squids subnet 2620:0:860:1::/64
 
@@ -68,10 +68,32 @@ $ORIGIN 3.0.0.0.{{ zonename }}.
 
 $ORIGIN e.f.{{ zonename }}.
 
+; cr1-codfw <--> cr2-codfw (2620:0:861:fe00::/64)
+
+$ORIGIN 0.0.e.f.{{ zonename }}.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0.cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0.cr2-codfw.wikimedia.org.
+
+; cr1-eqiad <--> cr1-codfw (2620:0:861:fe01::/64)
+
+$ORIGIN 1.0.e.f.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-4-2-0.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-5-2-1.cr1-codfw.wikimedia.org.
+
+; cr2-eqiad <--> cr2-codfw (2620:0:861:fe02::/64)
+
+$ORIGIN 2.0.e.f.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-4-2-0.cr2-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-5-2-1.cr2-codfw.wikimedia.org.
+
 ; Loopback IPs
 
 $ORIGIN f.f.f.f.{{ zonename }}.
 
-3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	pim-rp.wikimedia.org.
-5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	cr2-pmtpa.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-codfw.wikimedia.org.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   pim-rp.wikimedia.org.
+
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-pmtpa.wikimedia.org.
 

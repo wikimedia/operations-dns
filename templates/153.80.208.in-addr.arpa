@@ -14,5 +14,31 @@ $ORIGIN {{ zonename }}.
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
-; Virtualization subnet #2 208.80.153.64/26 (208.80.153.64 - 208.80.153.127)
-; Virtualization subnet 208.80.153.128/25 (208.80.153.128 - 208.80.153.255)
+; 208.80.153.0/27 (public1-a-codfw)
+
+; 208.80.153.32/27 (public1-b-codfw)
+
+; 208.80.153.64/27 (public1-c-codfw)
+
+; 208.80.153.96/27 (public1-d-codfw)
+
+
+; Neighbor blocks & loopbacks (208.80.153.192/27)
+
+192 1H  IN PTR  cr1-codfw.wikimedia.org.
+193 1H  IN PTR  cr2-codfw.wikimedia.org.
+194 1H  IN PTR  pim-rp.wikimedia.org.
+
+; 208.80.153.218/31 (cr1-codfw <--> cr2-codfw)
+218 1H  IN PTR  ae0.cr1-codfw.wikimedia.org.
+219 1H  IN PTR  ae0.cr2-codfw.wikimedia.org.
+
+; 208.80.153.220/31 (cr1-eqiad <--> cr1-codfw)
+220 1H  IN PTR  xe-4-2-0.cr1-eqiad.wikimedia.org.
+221 1H  IN PTR  xe-5-2-1.cr1-codfw.wikimedia.org.
+
+; 208.80.153.222/31 (cr2-eqiad <--> cr2-codfw)
+222 1H  IN PTR  xe-4-2-0.cr2-eqiad.wikimedia.org.
+223 1H  IN PTR  xe-5-2-1.cr2-codfw.wikimedia.org.
+
+; LVS out-of-subnet service IPs (208.80.153.224/27)
