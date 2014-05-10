@@ -321,8 +321,6 @@ mobile-lb.ulsfo		1H	IN A		198.35.26.108
 
 ; Mobile
 
-;m			1H	IN CNAME	mobile-lb.eqiad.wikimedia.org.
-
 commons.m		1H	IN CNAME	m.wikimedia.org.
 incubator.m		1H	IN CNAME	m.wikimedia.org.
 legalteam.m		1H	IN CNAME	m.wikimedia.org.

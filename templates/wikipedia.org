@@ -44,16 +44,16 @@ meta			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 nostalgia		1H	IN CNAME	wikipedia-lb.wikimedia.org.
 quote                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
 quality			1H	IN CNAME	wikipedia-lb.wikimedia.org.
-quality.m               1H      IN CNAME        mobile-lb.eqiad.wikimedia.org.
+quality.m               1H      IN CNAME        m.wikimedia.org.
 sep11			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 sources			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 species			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 ten                     1H      IN CNAME        wikipedia-lb.wikimedia.org.
-ten.m                   1H      IN CNAME        mobile-lb.eqiad.wikimedia.org.
+ten.m                   1H      IN CNAME        m.wikimedia.org.
 test                    1H      IN CNAME        wikipedia-lb.wikimedia.org.
 test2                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
-test.m                  1H      IN CNAME        mobile-lb.eqiad.wikimedia.org.
-test2.m                 1H      IN CNAME        mobile-lb.eqiad.wikimedia.org.
+test.m                  1H      IN CNAME        m.wikimedia.org.
+test2.m                 1H      IN CNAME        m.wikimedia.org.
 textbook		1H	IN CNAME	wikipedia-lb.wikimedia.org.
 wg-en			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 www			1H	IN CNAME	wikipedia-lb.wikimedia.org.
@@ -78,18 +78,17 @@ donate			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 jobs			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 www.donate		1H	IN CNAME	wikipedia-lb.wikimedia.org.
 download		1H	IN CNAME	dumps.wikimedia.org.
-mobile			1H	IN CNAME	mobile-lb.eqiad.wikimedia.org.
 stats			1H	IN CNAME	stats.wikimedia.org.
 store			1H	IN CNAME	wikimedia-lb.wikimedia.org.
 shop			1H	IN CNAME	wikimedia-lb.wikimedia.org.
-zero			1H	IN CNAME	mobile-lb.eqiad.wikimedia.org.
 
-; Mobile sites using the new ruby architecture written by hcatlin@
+mobile			1H	IN CNAME	m.wikimedia.org.
+zero			1H	IN CNAME	m.wikimedia.org.
 m			1H	IN CNAME	m.wikimedia.org.
 
 $ORIGIN wap.{{ zonename }}.
-{{ langlist('mobile-lb.eqiad.wikimedia.org.') }}
+{{ langlist('m.wikimedia.org.') }}
 beta			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 
 $ORIGIN mobile.{{ zonename }}.
-{{ langlist('mobile-lb.eqiad.wikimedia.org.') }}
+{{ langlist('m.wikimedia.org.') }}
