@@ -85,6 +85,7 @@ shop			1H	IN CNAME	wikimedia-lb.wikimedia.org.
 mobile			1H	IN CNAME	m.wikimedia.org.
 zero			1H	IN CNAME	m.wikimedia.org.
 m			1H	IN CNAME	m.wikimedia.org.
+www.m			1H	IN CNAME	m.wikimedia.org.
 
 $ORIGIN wap.{{ zonename }}.
 {{ langlist('m.wikimedia.org.') }}
