@@ -419,6 +419,7 @@ gerrit          1H  IN A        208.80.154.81
 git         1H  IN CNAME    misc-web-lb.eqiad
 gdash           1H  IN CNAME    misc-web-lb.eqiad
 graphite        1H  IN CNAME    misc-web-lb.eqiad
+grafana         1H  IN CNAME    misc-web-lb.eqiad
 parsoid-tests       1H  IN CNAME    misc-web-lb.eqiad
 performance     1H  IN CNAME    misc-web-lb.eqiad
 
