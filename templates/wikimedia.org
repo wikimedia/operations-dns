@@ -582,7 +582,7 @@ bugs			1H	IN CNAME	zirconium
 bugzilla		1H	IN CNAME	zirconium
 bug-attachment		1H	IN CNAME	zirconium
 careers			1H	IN CNAME	wikimedia-lb
-civicrm			1H	IN CNAME	aluminium
+civicrm			1H	IN CNAME	barium
 civicrm.frdev	1H	IN CNAME	lutetium
 civicrm-gr.frdev 1H	IN CNAME	lutetium
 coffee			1H	IN CNAME	wikimedia-lb
@@ -592,7 +592,7 @@ cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
 download		1H	IN CNAME	dumps
 etherpad		1H	IN CNAME	zirconium.wikimedia.org.
-fundraising		1H	IN CNAME	al-fundraising
+fundraising		1H	IN CNAME	barium-fundraising
 ganglia			1H	IN CNAME	nickel
 globalblog		1H	IN CNAME	holmium.wikimedia.org.
 ishmael			1H	IN CNAME	neon
