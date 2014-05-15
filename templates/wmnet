@@ -212,7 +212,7 @@ es3-master		5M	IN CNAME	es1008.eqiad.wmnet.
 
 s1-analytics-slave	5M	IN CNAME	db1047.eqiad.wmnet.
 s2-analytics-slave	5M	IN CNAME	db69.pmtpa.wmnet.
-s3-analytics-slave	5M	IN CNAME	db71.pmtpa.wmnet.
+s3-analytics-slave	5M	IN CNAME	dbstore1002.eqiad.wmnet.
 s4-analytics-slave	5M	IN CNAME	db72.pmtpa.wmnet.
 s5-analytics-slave	5M	IN CNAME	db1017.eqiad.wmnet.
 s6-analytics-slave	5M	IN CNAME	db74.pmtpa.wmnet.
