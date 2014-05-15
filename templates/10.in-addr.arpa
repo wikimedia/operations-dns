@@ -2021,6 +2021,18 @@ $ORIGIN 3.65.{{ zonename }}.
 195	1H 	IN PTR		wmf4555.mgmt.eqiad.wmnet.
 196	1H	IN PTR		wmf4556.mgmt.eqiad.wmnet.
 197	1H 	IN PTR		wmf4557.mgmt.eqiad.wmnet.
+198     1H      IN PTR          wmf4568.mgmt.eqiad.wmnet.
+199     1H      IN PTR          wmf4569.mgmt.eqiad.wmnet.
+200     1H      IN PTR          wmf4570.mgmt.eqiad.wmnet.
+201     1H      IN PTR          wmf4571.mgmt.eqiad.wmnet.
+202     1H      IN PTR          wmf4572.mgmt.eqiad.wmnet.
+203     1H      IN PTR          wmf4573.mgmt.eqiad.wmnet.
+204     1H      IN PTR          wmf4574.mgmt.eqiad.wmnet.
+205     1H      IN PTR          wmf4575.mgmt.eqiad.wmnet.
+206     1H      IN PTR          wmf4576.mgmt.eqiad.wmnet.
+207     1H      IN PTR          wmf4577.mgmt.eqiad.wmnet.
+208     1H      IN PTR          wmf4578.mgmt.eqiad.wmnet.
+209     1H      IN PTR          wmf4579.mgmt.eqiad.wmnet.
 
 $ORIGIN 4.65.{{ zonename }}.
 
