@@ -592,7 +592,7 @@ cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
 download		1H	IN CNAME	dumps
 etherpad		1H	IN CNAME	zirconium.wikimedia.org.
-fundraising		1H	IN CNAME	barium-fundraising
+fundraising		1H	IN CNAME	al-fundraising
 ganglia			1H	IN CNAME	nickel
 globalblog		1H	IN CNAME	holmium.wikimedia.org.
 ishmael			1H	IN CNAME	neon
