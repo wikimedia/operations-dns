@@ -430,6 +430,7 @@ es1009			1H	IN A		10.64.32.19
 es1010			1H	IN A		10.64.32.20
 fluorine		1H	IN A		10.64.0.21
 helium			1H	IN A		10.64.0.179
+hp1001                  1H      IN A            10.64.32.147
 labnet1001      1H  IN A        10.64.20.13
 labnet1001-ext	1H  IN A	10.64.22.11
 labsdb1001      1H  IN A        10.64.20.12
@@ -1697,6 +1698,7 @@ hydrogen	1H	IN A	10.65.3.15
 WMF3136		1H	IN A	10.65.3.15
 helium		1H	IN A	10.65.3.14
 WMF3137		1H	IN A	10.65.3.14
+hp1001		1H      IN A    10.65.5.210
 pay-lvs1002	1H	IN A	10.65.3.13
 WMF3138		1H	IN A	10.65.3.13
 pay-lvs1001	1H	IN A	10.65.3.12
