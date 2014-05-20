@@ -128,6 +128,7 @@ fenari			1H	IN A	208.80.152.165
 			1H	IN AAAA	2620:0:860:2:208:80:152:165
 gadolinium		1H	IN A	208.80.154.73
 gallium			1H	IN A	208.80.154.135
+gold			1H	IN A	208.80.154.85
 hafnium			1H	IN A	208.80.154.79
 holmium			1H	IN A	208.80.154.49
 hydrogen		1H	IN A	208.80.154.50
@@ -148,6 +149,7 @@ magnesium		1H	IN A	208.80.154.5
 manutius		1H	IN A	208.80.152.15
 mchenry			1H	IN A	208.80.152.186
 			1H	IN AAAA 2620:0:860:2:219:b9ff:fedd:c027
+mercury			1H	IN A	208.80.154.86
 mexia			1H	IN A	208.80.152.136
 ms1001			1H	IN A	208.80.154.16
 neon			1H	IN A	208.80.154.14
@@ -160,6 +162,7 @@ nitrogen		1H	IN A	208.80.154.17
 oxygen			1H	IN A	208.80.154.15
 pay-lvs1001		1H	IN A	208.80.155.2
 pay-lvs1002		1H	IN A	208.80.155.3
+platinum		1H	IN A	208.80.154.84
 pdf2			1H	IN A	208.80.152.154
 pdf3			1H	IN A	208.80.152.181
 rhenium			1H	IN A	208.80.154.52
@@ -194,6 +197,7 @@ stat1001		1H	IN AAAA	2620:0:861:2:208:80:154:155
 stat1003		1H 	IN A	208.80.154.82
 stat1003		1H	IN AAAA 2620:0:861:3:208:80:154:82
 tellurium		1H	IN A	208.80.155.9
+thallium		1H	IN A	208.80.154.87
 thulium			1H	IN A	208.80.155.12
 titanium		1H	IN A	208.80.154.154
 tridge			1H	IN A	208.80.152.170 ; Cold Backup Server

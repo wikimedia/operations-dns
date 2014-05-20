@@ -2013,9 +2013,13 @@ $ORIGIN 3.65.{{ zonename }}.
 187	1H	IN PTR		wmf4547.mgmt.eqiad.wmnet.
 187	1H	IN PTR		iridium.mgmt.eqiad.wmnet.
 188	1H	IN PTR		wmf4548.mgmt.eqiad.wmnet.
+188	1H	IN PTR		platinum.mgmt.eqiad.wmnet.
 189	1H	IN PTR		wmf4549.mgmt.eqiad.wmnet.
+189	1H	IN PTR		gold.mgmt.eqiad.wmnet.
 190	1H 	IN PTR		wmf4550.mgmt.eqiad.wmnet.
+190	1H 	IN PTR		mercury.mgmt.eqiad.wmnet.
 191	1H 	IN PTR		wmf4551.mgmt.eqiad.wmnet.
+191	1H 	IN PTR		thallium.mgmt.eqiad.wmnet.
 192	1H 	IN PTR		wmf4552.mgmt.eqiad.wmnet.
 193	1H 	IN PTR		wmf4553.mgmt.eqiad.wmnet.
 194	1H 	IN PTR		wmf4554.mgmt.eqiad.wmnet.
