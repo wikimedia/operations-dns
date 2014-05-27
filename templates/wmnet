@@ -720,6 +720,8 @@ pc1002                  1H      IN A            10.64.16.157
 pc1003                  1H      IN A            10.64.16.158
 potassium		1H	IN A		10.64.16.152
 praseodymium            1H      IN A            10.64.16.149
+rcs1002			1H  IN A		10.64.0.17
+rcs1002			1H  IN A		10.64.32.148
 rdb1001			1H  IN A        10.64.32.76
 rdb1002			1H  IN A        10.64.32.77
 rdb1003         1H  IN A        10.64.0.201
@@ -1207,6 +1209,7 @@ tantalum	1H	IN A	10.65.3.33
 WMF3407		1H	IN A	10.65.3.33
 rhenium		1H	IN A	10.65.3.34
 WMF3408		1H	IN A	10.65.3.34
+rcs1002		1H	IN A	10.65.3.35
 WMF3409		1H	IN A	10.65.3.35
 mobile1004	1H	IN A	10.65.3.36
 WMF3410		1H	IN A	10.65.3.36
@@ -1878,6 +1881,7 @@ rdb1004     1H  IN A    10.65.3.169
 wmf3642     1H  IN A    10.65.3.170
 labnet1001  1H  IN A    10.65.3.171
 wmf3643     1H  IN A    10.65.3.171
+rcs1001     1H  IN A    10.65.3.172
 wmf3838     1H  IN A    10.65.3.172
 wmf3837     1H  IN A    10.65.3.173
 hafnium     1H  IN A    10.65.3.173
