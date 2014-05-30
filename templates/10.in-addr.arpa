@@ -458,7 +458,7 @@ $ORIGIN 0.64.{{ zonename }}.
 14	1H IN PTR	db1010.eqiad.wmnet.
 15	1H IN PTR	db1011.eqiad.wmnet.
 16	1H IN PTR	stat1002.eqiad.wmnet.
-17	1H IN PTR	rcs1001.eqiad.wmnet.
+17	1H IN PTR	rcs1002.eqiad.wmnet.
 18	1H IN PTR	tungsten.eqiad.wmnet.
 19	1H IN PTR	db1015.eqiad.wmnet.
 20	1H IN PTR	db1016.eqiad.wmnet.
@@ -1024,7 +1024,7 @@ $ORIGIN 32.64.{{ zonename }}.
 145     1H IN PTR       caesium.eqiad.wmnet.
 146     1H IN PTR       osmium.eqiad.wmnet.
 147     1H IN PTR       hp1001.eqiad.wmnet.
-148     1H IN PTR       rcs1002.eqiad.wmnet.
+148     1H IN PTR       rcs1001.eqiad.wmnet.
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.

@@ -720,8 +720,8 @@ pc1002                  1H      IN A            10.64.16.157
 pc1003                  1H      IN A            10.64.16.158
 potassium		1H	IN A		10.64.16.152
 praseodymium            1H      IN A            10.64.16.149
-rcs1001			1H  IN A		10.64.0.17
-rcs1002			1H  IN A		10.64.32.148
+rcs1001			1H  IN A		10.64.32.148
+rcs1002			1H  IN A		10.64.0.17
 rdb1001			1H  IN A        10.64.32.76
 rdb1002			1H  IN A        10.64.32.77
 rdb1003         1H  IN A        10.64.0.201
