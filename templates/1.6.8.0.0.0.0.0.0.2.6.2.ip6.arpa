@@ -231,6 +231,7 @@ b.0.0.0                         1H IN PTR	upload-lb.eqiad.wikimedia.org.
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 4.1.0.0                         1H IN PTR	parsoid-lb.eqiad.wikimedia.org.
+5.1.0.0                         1H IN PTR	stream-lb.eqiad.wikimedia.org.
 
 ; Neighbor blocks
 

@@ -173,4 +173,5 @@ $ORIGIN {{ zonename }}.
 244 1H  IN PTR  osm-lb.eqiad.wikimedia.org.
 
 ; Misc 208.80.154.248 - 208.80.154.255 (208.80.154.248/29)
-248 1H	IN PTR	parsoid-lb.eqiad.wikimedia.org.
+248 1H  IN PTR  parsoid-lb.eqiad.wikimedia.org.
+249 1H  IN PTR  stream-lb.eqiad.wikimedia.org.
