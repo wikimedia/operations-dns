@@ -437,6 +437,8 @@ archiva			1H	IN CNAME	titanium
 
 cache			1H	IN CNAME	wikimedia-lb
 
+dash.frdev		1H	IN CNAME	lutetium
+
 doc			1H	IN CNAME	misc-web-lb.eqiad
 
 ; don't want this for anything but wikimedia.org domain
