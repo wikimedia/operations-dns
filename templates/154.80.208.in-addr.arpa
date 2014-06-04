@@ -74,6 +74,7 @@ $ORIGIN {{ zonename }}.
 86  1H	IN PTR  mercury.wikimedia.org.
 87  1H	IN PTR  thallium.wikimedia.org.
 88  1H	IN PTR  ganeti.wikimedia.org.
+89  1H	IN PTR  lead.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
