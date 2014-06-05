@@ -417,6 +417,9 @@ elastic1013		1H	IN A		10.64.48.10
 elastic1014		1H	IN A		10.64.48.11
 elastic1015		1H	IN A		10.64.48.12
 elastic1016		1H	IN A		10.64.48.13
+elastic1017             1H      IN A            10.64.48.39
+elastic1018             1H      IN A            10.64.48.40
+elastic1019             1H      IN A            10.64.48.41
 erbium                  1H      IN A            10.64.32.135
 es1001			1H	IN A		10.64.0.25
 es1002			1H	IN A		10.64.16.40
@@ -757,9 +760,6 @@ snapshot1001		1H	IN A		10.64.0.120
 snapshot1002		1H	IN A		10.64.0.121
 snapshot1003		1H	IN A		10.64.16.141
 snapshot1004		1H	IN A		10.64.16.142
-solr1001		1H  IN A		10.64.0.198
-solr1002		1H  IN A		10.64.0.199
-solr1003		1H  IN A		10.64.16.159
 stat1002		1H	IN A		10.64.0.16
 strontium		1H	IN A		10.64.0.164
 puppet			1H	IN CNAME	palladium.eqiad.wmnet.
@@ -1153,6 +1153,9 @@ elastic1013	1H 	IN A	10.65.7.113
 elastic1014	1H	IN A	10.65.7.114
 elastic1015	1H 	IN A	10.65.7.115
 elastic1016	1H	IN A	10.65.7.116
+elastic1017     1H      IN A    10.65.7.60
+elastic1018     1H      IN A    10.65.7.61
+elastic1019     1H      IN A    10.65.7.62
 es1001		1H	IN A	10.65.4.1
 WMF3074		1H	IN A	10.65.4.1
 es1002		1H	IN A	10.65.4.2
@@ -1692,9 +1695,6 @@ snapshot1003	1H	IN A	10.65.3.83
 WMF3468		1H	IN A	10.65.3.83
 snapshot1004	1H	IN A	10.65.3.84
 WMF3469		1H	IN A	10.65.3.84
-solr1001        1H      IN A    10.65.7.60
-solr1002        1H      IN A    10.65.7.61
-solr1003        1H      IN A    10.65.7.62
 carbon		1H	IN A	10.65.3.16
 WMF3135		1H	IN A	10.65.3.16
 hydrogen	1H	IN A	10.65.3.15
