@@ -84,6 +84,10 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 
 3.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR      cp3013.esams.wmnet.
 4.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR      cp3014.esams.wmnet.
+5.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR      cp3015.esams.wmnet.
+6.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR      cp3016.esams.wmnet.
+7.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR      cp3017.esams.wmnet.
+8.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR      cp3018.esams.wmnet.
 
 ; Toolserver external subnet 2620:0:862:101::/64
 

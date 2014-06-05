@@ -70,10 +70,6 @@ $ORIGIN {{ zonename }}.
 80	1H IN PTR	cp3010.esams.wikimedia.org.
 81	1H IN PTR	cp3011.esams.wikimedia.org.
 82	1H IN PTR	cp3012.esams.wikimedia.org.
-85	1H IN PTR	cp3015.esams.wikimedia.org.
-86	1H IN PTR	cp3016.esams.wikimedia.org.
-87	1H IN PTR	cp3017.esams.wikimedia.org.
-88	1H IN PTR	cp3018.esams.wikimedia.org.
 89	1H IN PTR	cp3019.esams.wikimedia.org.
 90	1H IN PTR	cp3020.esams.wikimedia.org.
 91	1H IN PTR	cp3021.esams.wikimedia.org.
