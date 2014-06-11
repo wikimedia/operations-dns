@@ -888,8 +888,8 @@ bits-lb			1H	IN A	91.198.174.202
 			1H	IN AAAA 2620:0:862:ed1a::1:a
 upload-lb		1H	IN A	91.198.174.208
 			1H	IN AAAA 2620:0:862:ed1a::2:b
-mobile-lb		1H	IN A	91.198.174.236
-			1H	IN AAAA	2620:0:862:ed1a::c
+mobile-lb		1H	IN A	91.198.174.204
+			1H	IN AAAA	2620:0:862:ed1a::1:c
 wikidata-lb		1H	IN A	91.198.174.237
 			1H	IN AAAA	2620:0:862:ed1a::12
 wikivoyage-lb		1H	IN A	91.198.174.238
