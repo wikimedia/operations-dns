@@ -75,6 +75,7 @@ $ORIGIN {{ zonename }}.
 87  1H	IN PTR  thallium.wikimedia.org.
 88  1H	IN PTR  ganeti.wikimedia.org.
 89  1H	IN PTR  lead.wikimedia.org.
+90  1H	IN PTR  polonium.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
@@ -105,7 +106,6 @@ $ORIGIN {{ zonename }}.
 158 1H  IN PTR  calcium.wikimedia.org.
 159 1H  IN PTR  netmon1001.wikimedia.org.
 160 1H  IN PTR  argon.wikimedia.org.
-161 1H  IN PTR  polonium.wikimedia.org.
 
 
 ; Neighbor blocks (208.80.154.192/27)

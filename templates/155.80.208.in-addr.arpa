@@ -66,6 +66,7 @@ $ORIGIN {{ zonename }}.
 104 1H IN PTR   vl1004-eth3.lvs1005.wikimedia.org.
 105 1H IN PTR   vl1004-eth3.lvs1006.wikimedia.org.
 
+110 1H IN PTR   astatine.wikimedia.org.
 
 ; 208.80.155.128/25 Eqiad Labs virtualization subnet
 

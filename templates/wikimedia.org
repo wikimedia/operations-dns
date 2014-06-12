@@ -104,7 +104,7 @@ aluminium		1H	IN A	208.80.154.6
 aluminum		1H	IN CNAME aluminium
 antimony		1H	IN A	208.80.154.7
 argon    		1H	IN A	208.80.154.160
-
+astatine		1H	IN A	208.80.155.110
 barium			1H	IN A	208.80.155.11
 barium-fundraising	1H      IN A    208.80.155.14
 bast1001		1H	IN A	208.80.154.149
@@ -168,7 +168,7 @@ pay-lvs1002		1H	IN A	208.80.155.3
 pdf2			1H	IN A	208.80.152.154
 pdf3			1H	IN A	208.80.152.181
 platinum		1H	IN A	208.80.154.84
-polonium		1H	IN A	208.80.154.161
+polonium		1H	IN A	208.80.154.90
 rhenium			1H	IN A	208.80.154.52
 rubidium		1H	IN A	208.80.154.40
 samarium		1H	IN A	208.80.155.10

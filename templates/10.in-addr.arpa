@@ -2044,6 +2044,7 @@ $ORIGIN 3.65.{{ zonename }}.
 202     1H      IN PTR          wmf4572.mgmt.eqiad.wmnet.
 203     1H      IN PTR          wmf4573.mgmt.eqiad.wmnet.
 204     1H      IN PTR          wmf4574.mgmt.eqiad.wmnet.
+204     1H      IN PTR          astatine.mgmt.eqiad.wmnet.
 205     1H      IN PTR          wmf4575.mgmt.eqiad.wmnet.
 206     1H      IN PTR          wmf4576.mgmt.eqiad.wmnet.
 207     1H      IN PTR          wmf4577.mgmt.eqiad.wmnet.
