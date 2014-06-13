@@ -123,7 +123,6 @@ $ORIGIN 5.1.{{ zonename }}.
 
 ; Database Servers
 $ORIGIN 6.1.{{ zonename }}.
-51	1H	IN PTR manutius.mgmt.pmtpa.wmnet.
 70	1H	IN PTR db60.mgmt.pmtpa.wmnet.
 71	1H	IN PTR WMF3709.mgmt.pmtpa.wmnet.
 78      1H      IN PTR db68.mgmt.pmtpa.wmnet.
