@@ -323,6 +323,23 @@ $ORIGIN 0.20.{{ zonename }}.
 117	1H	IN PTR		cp3017.esams.wmnet.
 118	1H	IN PTR		cp3018.esams.wmnet.
 
+131	1H	IN PTR		amssq31.esams.wmnet.
+132	1H	IN PTR		amssq32.esams.wmnet.
+133	1H	IN PTR		amssq33.esams.wmnet.
+134	1H	IN PTR		amssq34.esams.wmnet.
+135	1H	IN PTR		amssq35.esams.wmnet.
+136	1H	IN PTR		amssq36.esams.wmnet.
+137	1H	IN PTR		amssq37.esams.wmnet.
+138	1H	IN PTR		amssq38.esams.wmnet.
+139	1H	IN PTR		amssq39.esams.wmnet.
+140	1H	IN PTR		amssq40.esams.wmnet.
+141	1H	IN PTR		amssq41.esams.wmnet.
+142	1H	IN PTR		amssq42.esams.wmnet.
+143	1H	IN PTR		amssq43.esams.wmnet.
+144	1H	IN PTR		amssq44.esams.wmnet.
+145	1H	IN PTR		amssq45.esams.wmnet.
+146	1H	IN PTR		amssq46.esams.wmnet.
+
 ; Management
 
 $ORIGIN 0.21.{{ zonename }}.
