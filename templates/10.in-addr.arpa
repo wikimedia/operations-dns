@@ -157,7 +157,6 @@ $ORIGIN 8.1.{{ zonename }}.
 
 37	1H	IN PTR	pdf3.mgmt.pmtpa.wmnet.
 
-39	1H	IN PTR	ekrem.mgmt.pmtpa.wmnet.
 42	1H	IN PTR	WMF3916.mgmt.pmtpa.wmnet.
 44	1H	IN PTR	WMF3914.mgmt.pmtpa.wmnet.
 51	1H	IN PTR	WMF3848.mgmt.pmtpa.wmnet.
