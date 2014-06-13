@@ -77,6 +77,9 @@ $ORIGIN 3.0.0.0.{{ zonename }}.
 
 7.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	thallium.wikimedia.org.
 
+0.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	polonium.wikimedia.org.
+1.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	wiki-mail-eqiad.wikimedia.org.
+
 ; public1-d-eqiad (2620:0:861:4::/64)
 $ORIGIN 4.0.0.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1004.wikimedia.org.
