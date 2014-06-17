@@ -343,6 +343,7 @@ strategy.m		1H	IN CNAME	m.wikimedia.org.
 wikimania2012.m		1H	IN CNAME	m.wikimedia.org.
 wikimania2013.m		1H	IN CNAME	m.wikimedia.org.
 wikimania2014.m		1H	IN CNAME	m.wikimedia.org.
+wikimania2015.m		1H	IN CNAME	m.wikimedia.org.
 
 ; Networking
 
@@ -590,6 +591,7 @@ wikimania2011		1H	IN CNAME	wikimedia-lb
 wikimania2012		1H	IN CNAME	wikimedia-lb
 wikimania2013		1H	IN CNAME	wikimedia-lb
 wikimania2014		1H	IN CNAME	wikimedia-lb
+wikimania2015		1H	IN CNAME	wikimedia-lb
 wikimaniateam		1H	IN CNAME	wikimedia-lb
 www			1H	IN CNAME	wikimedia-lb
 zero			1H	IN CNAME	wikimedia-lb
