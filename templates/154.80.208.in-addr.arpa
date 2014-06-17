@@ -151,17 +151,9 @@ $ORIGIN {{ zonename }}.
 
 ; Desktop Text & Assets  208.80.154.224 - 231 (208.80.154.224/29)  
 224 1H  IN PTR  text-lb.eqiad.wikimedia.org.
-225 1H  IN PTR  wikipedia-lb.eqiad.wikimedia.org.
-226 1H  IN PTR  wiktionary-lb.eqiad.wikimedia.org.
-227 1H  IN PTR  wikiquote-lb.eqiad.wikimedia.org.
-228 1H  IN PTR  wikibooks-lb.eqiad.wikimedia.org.
-229 1H  IN PTR  wikisource-lb.eqiad.wikimedia.org.
-230 1H  IN PTR  wikinews-lb.eqiad.wikimedia.org.
-231 1H  IN PTR  wikiversity-lb.eqiad.wikimedia.org.
 
 ; Mobile Zero & general Support 208.80.154.232 - 39 (208.80.154.232/29)
-232 1H  IN PTR  mediawiki-lb.eqiad.wikimedia.org.
-233 1H  IN PTR  foundation-lb.eqiad.wikimedia.org.
+
 234 1H  IN PTR  bits-lb.eqiad.wikimedia.org.
 235 1H  IN PTR  upload-lb.eqiad.wikimedia.org.
 236 1H  IN PTR  mobile-lb.eqiad.wikimedia.org.
@@ -172,8 +164,7 @@ $ORIGIN {{ zonename }}.
 ; Multimedia 208.80.154.240 - 247 (208.80.154.240/29)
 240 1H  IN PTR  upload-lb.eqiad.wikimedia.org.
 241 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.
-242 1H  IN PTR  wikidata-lb.eqiad.wikimedia.org.
-243 1H  IN PTR  wikivoyage-lb.eqiad.wikimedia.org.
+
 244 1H  IN PTR  osm-lb.eqiad.wikimedia.org.
 
 ; Misc 208.80.154.248 - 208.80.154.255 (208.80.154.248/29)

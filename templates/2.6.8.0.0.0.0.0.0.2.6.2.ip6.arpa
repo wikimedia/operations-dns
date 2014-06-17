@@ -153,16 +153,6 @@ $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 $ORIGIN a.1.d.e.{{ zonename }}.
 
-0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikimedia-lb.esams.wikimedia.org.
-
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wiktionary-lb.esams.wikimedia.org.
-3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikiquote-lb.esams.wikimedia.org.
-4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikibooks-lb.esams.wikimedia.org.
-5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikisource-lb.esams.wikimedia.org.
-6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikinews-lb.esams.wikimedia.org.
-7.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikiversity-lb.esams.wikimedia.org.
-8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       mediawiki-lb.esams.wikimedia.org.
-9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       foundation-lb.esams.wikimedia.org.
 a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       bits-lb.esams.wikimedia.org.
 
 c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       mobile-lb.esams.wikimedia.org.
@@ -171,8 +161,6 @@ e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ns2.wikimedia.org.
 f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       dns-rec-lb.esams.wikimedia.org.
 0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       osm-lb.esams.wikimedia.org.
 1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       misc-web-lb.esams.wikimedia.org.
-2.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikidata-lb.esams.wikimedia.org.
-3.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       wikivoyage-lb.esams.wikimedia.org.
 
 ; unused (2620:0:862:fe00::/64)
 
