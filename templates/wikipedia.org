@@ -34,62 +34,62 @@ mail                    1H      IN CNAME        mail.wikimedia.org.
 
 ; Wikis (alphabetic order)
 
-arbcom-de               1H      IN CNAME        wikipedia-lb.wikimedia.org.
-arbcom-en               1H      IN CNAME        wikipedia-lb.wikimedia.org.
-arbcom-fi               1H      IN CNAME        wikipedia-lb.wikimedia.org.
-arbcom-nl               1H      IN CNAME        wikipedia-lb.wikimedia.org.
-commons                 1H      IN CNAME        wikipedia-lb.wikimedia.org.
-en2                     1H      IN CNAME        wikipedia-lb.wikimedia.org.
-meta                    1H      IN CNAME        wikipedia-lb.wikimedia.org.
-nostalgia               1H      IN CNAME        wikipedia-lb.wikimedia.org.
-quote                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
-quality                 1H      IN CNAME        wikipedia-lb.wikimedia.org.
+arbcom-de               1H      IN CNAME        text-lb.wikimedia.org.
+arbcom-en               1H      IN CNAME        text-lb.wikimedia.org.
+arbcom-fi               1H      IN CNAME        text-lb.wikimedia.org.
+arbcom-nl               1H      IN CNAME        text-lb.wikimedia.org.
+commons                 1H      IN CNAME        text-lb.wikimedia.org.
+en2                     1H      IN CNAME        text-lb.wikimedia.org.
+meta			1H	IN CNAME	text-lb.wikimedia.org.
+nostalgia		1H	IN CNAME	text-lb.wikimedia.org.
+quote                   1H      IN CNAME        text-lb.wikimedia.org.
+quality			1H	IN CNAME	text-lb.wikimedia.org.
 quality.m               1H      IN CNAME        m.wikimedia.org.
-sep11                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
-sources                 1H      IN CNAME        wikipedia-lb.wikimedia.org.
-species                 1H      IN CNAME        wikipedia-lb.wikimedia.org.
-ten                     1H      IN CNAME        wikipedia-lb.wikimedia.org.
+sep11			1H	IN CNAME	text-lb.wikimedia.org.
+sources			1H	IN CNAME	text-lb.wikimedia.org.
+species			1H	IN CNAME	text-lb.wikimedia.org.
+ten                     1H      IN CNAME        text-lb.wikimedia.org.
 ten.m                   1H      IN CNAME        m.wikimedia.org.
-test                    1H      IN CNAME        wikipedia-lb.wikimedia.org.
-test2                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
+test                    1H      IN CNAME        text-lb.wikimedia.org.
+test2                   1H      IN CNAME        text-lb.wikimedia.org.
 test.m                  1H      IN CNAME        m.wikimedia.org.
 test2.m                 1H      IN CNAME        m.wikimedia.org.
-textbook                1H      IN CNAME        wikipedia-lb.wikimedia.org.
-wg-en                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
-www                     1H      IN CNAME        wikipedia-lb.wikimedia.org.
-zh-tw                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
+textbook		1H	IN CNAME	text-lb.wikimedia.org.
+wg-en			1H	IN CNAME	text-lb.wikimedia.org.
+www			1H	IN CNAME	text-lb.wikimedia.org.
+zh-tw                   1H      IN CNAME        text-lb.wikimedia.org.
 
 ; Old double-subdomain aliases (bug 31335)
-arbcom.de               1H      IN CNAME        wikipedia-lb.wikimedia.org.
-arbcom.en               1H      IN CNAME        wikipedia-lb.wikimedia.org.
-arbcom.fi               1H      IN CNAME        wikipedia-lb.wikimedia.org.
-arbcom.nl               1H      IN CNAME        wikipedia-lb.wikimedia.org.
-wg.en                   1H      IN CNAME        wikipedia-lb.wikimedia.org.
+arbcom.de               1H      IN CNAME        text-lb.wikimedia.org.
+arbcom.en               1H      IN CNAME        text-lb.wikimedia.org.
+arbcom.fi               1H      IN CNAME        text-lb.wikimedia.org.
+arbcom.nl               1H      IN CNAME        text-lb.wikimedia.org.
+wg.en			1H	IN CNAME	text-lb.wikimedia.org.
 
 
 ; All languages will automatically be included here
-{{ langlist('wikipedia-lb.wikimedia.org.') }}
+{{ langlist('text-lb.wikimedia.org.') }}
 
 ; Other websites
 
-bugzilla        1H  IN CNAME    wikimedia-lb.wikimedia.org.
-careers         1H  IN CNAME    wikipedia-lb.wikimedia.org.
-donate          1H  IN CNAME    wikipedia-lb.wikimedia.org.
-jobs            1H  IN CNAME    wikipedia-lb.wikimedia.org.
-www.donate      1H  IN CNAME    wikipedia-lb.wikimedia.org.
-download        1H  IN CNAME    dumps.wikimedia.org.
-stats           1H  IN CNAME    stats.wikimedia.org.
-store           1H  IN CNAME    wikimedia-lb.wikimedia.org.
-shop            1H  IN CNAME    wikimedia-lb.wikimedia.org.
+bugzilla		1H	IN CNAME	text-lb.wikimedia.org.
+careers			1H	IN CNAME	text-lb.wikimedia.org.
+donate			1H	IN CNAME	text-lb.wikimedia.org.
+jobs			1H	IN CNAME	text-lb.wikimedia.org.
+www.donate		1H	IN CNAME	text-lb.wikimedia.org.
+download		1H	IN CNAME	dumps.wikimedia.org.
+stats			1H	IN CNAME	stats.wikimedia.org.
+store			1H	IN CNAME	text-lb.wikimedia.org.
+shop			1H	IN CNAME	text-lb.wikimedia.org.
 
-mobile          1H  IN CNAME    m.wikimedia.org.
-zero            1H  IN CNAME    m.wikimedia.org.
-m               1H  IN CNAME    m.wikimedia.org.
-www.m           1H  IN CNAME    m.wikimedia.org.
+mobile			1H	IN CNAME	m.wikimedia.org.
+zero			1H	IN CNAME	m.wikimedia.org.
+m			1H	IN CNAME	m.wikimedia.org.
+www.m			1H	IN CNAME	m.wikimedia.org.
 
 $ORIGIN wap.{{ zonename }}.
 {{ langlist('m.wikimedia.org.') }}
-beta            1H  IN CNAME    wikipedia-lb.wikimedia.org.
+beta			1H	IN CNAME	text-lb.wikimedia.org.
 
 $ORIGIN mobile.{{ zonename }}.
 {{ langlist('m.wikimedia.org.') }}

@@ -32,12 +32,12 @@ $ORIGIN {{ zonename }}.
 
 ; Wikis (alphabetic order)
 
-species                 1H      IN CNAME        wikimedia-lb.wikimedia.org.
-www			1H	IN CNAME	wikimedia-lb.wikimedia.org.
+species                 1H      IN CNAME        text-lb.wikimedia.org.
+www			1H	IN CNAME	text-lb.wikimedia.org.
 
 ; All languages will automatically be included here
-{{ langlist('wikimedia-lb.wikimedia.org.') }}
+{{ langlist('text-lb.wikimedia.org.') }}
 
 ; Other websites
-www.donate			1H	IN CNAME	wikimedia-lb.wikimedia.org.
-donate			1H	IN CNAME	wikimedia-lb.wikimedia.org.
+www.donate			1H	IN CNAME	text-lb.wikimedia.org.
+donate			1H	IN CNAME	text-lb.wikimedia.org.

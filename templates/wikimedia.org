@@ -76,6 +76,7 @@ recursor0		1H	IN A	208.80.154.239	; eqiad LVS (dns-rec-lb)
 recursor1		1H	IN A	91.198.174.6    ; nescio
 
 ; Geodynamic records
+text-lb		600	DYNC geoip!text-lb
 bits		600	DYNC geoip!bits
 upload		600	DYNC geoip!upload
 m		600	DYNC geoip!mobile-lb
@@ -392,7 +393,7 @@ apt			1H	IN CNAME	carbon
 
 archiva			1H	IN CNAME	titanium
 
-cache			1H	IN CNAME	wikimedia-lb
+cache			1H	IN CNAME	text-lb
 
 dash.frdev		1H	IN CNAME	lutetium
 
@@ -419,7 +420,7 @@ irc			1H	IN CNAME	argon
 phabricator		1H	IN A		208.80.154.83
 			1H	IN MX		10 polonium.wikimedia.org.
 			1H	IN MX		50 lead.wikimedia.org.
-login			1H	IN CNAME	wikimedia-lb
+login			1H	IN CNAME	text-lb
 ntp.pmtpa		1H	IN CNAME	linne
 
 observium		1H	IN CNAME	librenms
@@ -440,7 +441,7 @@ rt			1H	IN A		208.80.154.5
 			1H	IN MX		10 polonium.wikimedia.org.
 			1H	IN MX		50 lead.wikimedia.org.
 
-secure			1H	IN CNAME		wikimedia-lb ; moved from singer to cluster
+secure			1H	IN CNAME		text-lb ; moved from singer to cluster
 
 smtp			1H	IN A		208.80.152.187	; sanger
 
@@ -457,96 +458,96 @@ url-downloader		1H	IN A		208.80.152.143	; linne
 
 ; Wikis (alphabetic order)
 
-advisory		1H	IN CNAME	wikimedia-lb
-affcom			1H	IN CNAME	wikimedia-lb
-auditcom		1H	IN CNAME	wikimedia-lb
-ar			1H	IN CNAME	wikimedia-lb
-bd			1H	IN CNAME	wikimedia-lb
-be			1H	IN CNAME	wikimedia-lb
-board			1H	IN CNAME	wikimedia-lb
-boardgovcom		1H	IN CNAME	wikimedia-lb
-bookshelf		1H	IN CNAME	wikimedia-lb
-br			1H	IN CNAME	wikimedia-lb
-ch			1H	IN CNAME	wikimedia-lb
-chair			1H	IN CNAME	wikimedia-lb
-chapcom			1H	IN CNAME	wikimedia-lb
-checkuser		1H	IN CNAME	wikimedia-lb
-co			1H	IN CNAME	wikimedia-lb
-collab			1H	IN CNAME	wikimedia-lb
-comcom			1H	IN CNAME	wikimedia-lb
-commons			1H	IN CNAME	wikimedia-lb
-www.commons		1H	IN CNAME	wikimedia-lb
-dk			1H	IN CNAME	wikimedia-lb
-educacao		1H	IN CNAME	wikimedia-lb
-education		1H	IN CNAME	wikimedia-lb
-et			1H	IN CNAME	wikimedia-lb
-exec			1H	IN CNAME	wikimedia-lb
-fdc			1H	IN CNAME	wikimedia-lb
-fi			1H	IN CNAME	wikimedia-lb
-grants			1H	IN CNAME	wikimedia-lb
-hu			1H	IN CNAME	wikimedia-lb
-iegcom			1H	IN CNAME	wikimedia-lb
-il			1H	IN CNAME	wikimedia-lb
-incubator		1H	IN CNAME	wikimedia-lb
-internal		1H	IN CNAME	wikimedia-lb
-it			1H	IN CNAME	wikimedia-lb
-kr			1H	IN CNAME	wikimedia-lb
-langcom			1H	IN CNAME	wikimedia-lb
-legalteam		1H	IN CNAME	wikimedia-lb
-meta			1H	IN CNAME	wikimedia-lb
-www.meta		1H	IN CNAME	wikimedia-lb
-mk			1H	IN CNAME	wikimedia-lb
-movementroles		1H	IN CNAME	wikimedia-lb
-mx			1H	IN CNAME	wikimedia-lb
-nl			1H	IN CNAME	wikimedia-lb
-www.nl			1H	IN CNAME	wikimedia-lb
-noboard.chapters	1H	IN CNAME	wikimedia-lb
-no			1H	IN CNAME	wikimedia-lb
-noboard-chapters	1H	IN CNAME	wikimedia-lb
-nostalgia		1H	IN CNAME	wikimedia-lb
-nz			1H	IN CNAME	wikimedia-lb
-office			1H	IN CNAME	wikimedia-lb
-ombudsmen		1H	IN CNAME	wikimedia-lb
-otrs-wiki		1H	IN CNAME	wikimedia-lb
-outreach		1H	IN CNAME	wikimedia-lb
-pa.us			1H	IN CNAME	wikimedia-lb
-pa-us			1H	IN CNAME	wikimedia-lb
-pt			1H	IN CNAME	wikimedia-lb
-pk			1H	IN CNAME	wikimedia-lb
-pl			1H	IN CNAME	wikimedia-lb
-quality			1H	IN CNAME	wikimedia-lb
-rs			1H	IN CNAME	wikimedia-lb
-ru			1H	IN CNAME	wikimedia-lb
-se			1H	IN CNAME	wikimedia-lb
-searchcom		1H	IN CNAME	wikimedia-lb
-spcom			1H	IN CNAME	wikimedia-lb
-species			1H	IN CNAME	wikimedia-lb
-steward			1H	IN CNAME	wikimedia-lb
-strategy		1H	IN CNAME	wikimedia-lb
-strategyapps		1H	IN CNAME	wikimedia-lb
-tr			1H	IN CNAME	wikimedia-lb
-transitionteam		1H	IN CNAME	wikimedia-lb
-ua			1H	IN CNAME	wikimedia-lb
-uk			1H	IN CNAME	wikimedia-lb
-usability		1H	IN CNAME	wikimedia-lb
-ve			1H	IN CNAME	wikimedia-lb
-videos			1H	IN CNAME	wikimedia-lb
-vote			1H	IN CNAME	wikimedia-lb
-wikimania		1H	IN CNAME	wikimedia-lb
-wikimania2005		1H	IN CNAME	wikimedia-lb
-wikimania2006		1H	IN CNAME	wikimedia-lb
-wikimania2007		1H	IN CNAME	wikimedia-lb
-wikimania2008		1H	IN CNAME	wikimedia-lb
-wikimania2009		1H	IN CNAME	wikimedia-lb
-wikimania2010		1H	IN CNAME	wikimedia-lb
-wikimania2011		1H	IN CNAME	wikimedia-lb
-wikimania2012		1H	IN CNAME	wikimedia-lb
-wikimania2013		1H	IN CNAME	wikimedia-lb
-wikimania2014		1H	IN CNAME	wikimedia-lb
-wikimania2015		1H	IN CNAME	wikimedia-lb
-wikimaniateam		1H	IN CNAME	wikimedia-lb
-www			1H	IN CNAME	wikimedia-lb
-zero			1H	IN CNAME	wikimedia-lb
+advisory		1H	IN CNAME	text-lb
+affcom			1H	IN CNAME	text-lb
+auditcom		1H	IN CNAME	text-lb
+ar			1H	IN CNAME	text-lb
+bd			1H	IN CNAME	text-lb
+be			1H	IN CNAME	text-lb
+board			1H	IN CNAME	text-lb
+boardgovcom		1H	IN CNAME	text-lb
+bookshelf		1H	IN CNAME	text-lb
+br			1H	IN CNAME	text-lb
+ch			1H	IN CNAME	text-lb
+chair			1H	IN CNAME	text-lb
+chapcom			1H	IN CNAME	text-lb
+checkuser		1H	IN CNAME	text-lb
+co			1H	IN CNAME	text-lb
+collab			1H	IN CNAME	text-lb
+comcom			1H	IN CNAME	text-lb
+commons			1H	IN CNAME	text-lb
+www.commons		1H	IN CNAME	text-lb
+dk			1H	IN CNAME	text-lb
+educacao		1H	IN CNAME	text-lb
+education		1H	IN CNAME	text-lb
+et			1H	IN CNAME	text-lb
+exec			1H	IN CNAME	text-lb
+fdc			1H	IN CNAME	text-lb
+fi			1H	IN CNAME	text-lb
+grants			1H	IN CNAME	text-lb
+hu			1H	IN CNAME	text-lb
+iegcom			1H	IN CNAME	text-lb
+il			1H	IN CNAME	text-lb
+incubator		1H	IN CNAME	text-lb
+internal		1H	IN CNAME	text-lb
+it			1H	IN CNAME	text-lb
+kr			1H	IN CNAME	text-lb
+langcom			1H	IN CNAME	text-lb
+legalteam		1H	IN CNAME	text-lb
+meta			1H	IN CNAME	text-lb
+www.meta		1H	IN CNAME	text-lb
+mk			1H	IN CNAME	text-lb
+movementroles		1H	IN CNAME	text-lb
+mx			1H	IN CNAME	text-lb
+nl			1H	IN CNAME	text-lb
+www.nl			1H	IN CNAME	text-lb
+noboard.chapters	1H	IN CNAME	text-lb
+no			1H	IN CNAME	text-lb
+noboard-chapters	1H	IN CNAME	text-lb
+nostalgia		1H	IN CNAME	text-lb
+nz			1H	IN CNAME	text-lb
+office			1H	IN CNAME	text-lb
+ombudsmen		1H	IN CNAME	text-lb
+otrs-wiki		1H	IN CNAME	text-lb
+outreach		1H	IN CNAME	text-lb
+pa.us			1H	IN CNAME	text-lb
+pa-us			1H	IN CNAME	text-lb
+pt			1H	IN CNAME	text-lb
+pk			1H	IN CNAME	text-lb
+pl			1H	IN CNAME	text-lb
+quality			1H	IN CNAME	text-lb
+rs			1H	IN CNAME	text-lb
+ru			1H	IN CNAME	text-lb
+se			1H	IN CNAME	text-lb
+searchcom		1H	IN CNAME	text-lb
+spcom			1H	IN CNAME	text-lb
+species			1H	IN CNAME	text-lb
+steward			1H	IN CNAME	text-lb
+strategy		1H	IN CNAME	text-lb
+strategyapps		1H	IN CNAME	text-lb
+tr			1H	IN CNAME	text-lb
+transitionteam		1H	IN CNAME	text-lb
+ua			1H	IN CNAME	text-lb
+uk			1H	IN CNAME	text-lb
+usability		1H	IN CNAME	text-lb
+ve			1H	IN CNAME	text-lb
+videos			1H	IN CNAME	text-lb
+vote			1H	IN CNAME	text-lb
+wikimania		1H	IN CNAME	text-lb
+wikimania2005		1H	IN CNAME	text-lb
+wikimania2006		1H	IN CNAME	text-lb
+wikimania2007		1H	IN CNAME	text-lb
+wikimania2008		1H	IN CNAME	text-lb
+wikimania2009		1H	IN CNAME	text-lb
+wikimania2010		1H	IN CNAME	text-lb
+wikimania2011		1H	IN CNAME	text-lb
+wikimania2012		1H	IN CNAME	text-lb
+wikimania2013		1H	IN CNAME	text-lb
+wikimania2014		1H	IN CNAME	text-lb
+wikimania2015		1H	IN CNAME	text-lb
+wikimaniateam		1H	IN CNAME	text-lb
+www			1H	IN CNAME	text-lb
+zero			1H	IN CNAME	text-lb
 
 ; Other websites (NO wikis!)
 analytics		1H	IN CNAME	stat1001
@@ -554,11 +555,11 @@ blog			1H	IN CNAME	holmium.wikimedia.org.
 bugs			1H	IN CNAME	zirconium
 bugzilla		1H	IN CNAME	zirconium
 bug-attachment		1H	IN CNAME	zirconium
-careers			1H	IN CNAME	wikimedia-lb
+careers			1H	IN CNAME	text-lb
 civicrm			1H	IN CNAME	barium
 civicrm.frdev	1H	IN CNAME	lutetium
 civicrm-gr.frdev 1H	IN CNAME	lutetium
-coffee			1H	IN CNAME	wikimedia-lb
+coffee			1H	IN CNAME	text-lb
 communityblog		1H	IN CNAME	holmium.wikimedia.org.
 contacts		1H	IN CNAME	zirconium
 cs			1H	IN CNAME	wikimedia.cz.
@@ -570,8 +571,8 @@ ganglia			1H	IN CNAME	nickel
 globalblog		1H	IN CNAME	holmium.wikimedia.org.
 ishmael			1H	IN CNAME	neon
 tendril			1H	IN CNAME	neon
-jobs			1H	IN CNAME	wikimedia-lb
-labs			1H	IN CNAME	wikimedia-lb
+jobs			1H	IN CNAME	text-lb
+labs			1H	IN CNAME	text-lb
 labs-ns0		1H	IN A		208.80.152.33
 labs-ns1		1H	IN A		208.80.154.19
 labsconsole		1H	IN CNAME	wikitech
@@ -580,7 +581,7 @@ logstash		1H	IN CNAME	misc-web-lb.eqiad
 metrics-api		1H	IN CNAME	stat1001
 metrics			1H	IN CNAME	stat1001
 noc			1H	IN CNAME	fenari
-nyc			1H	IN CNAME	wikimedia-lb
+nyc			1H	IN CNAME	text-lb
 planet			1H	IN CNAME	zirconium
 ar.planet		1H	IN CNAME	zirconium
 ca.planet		1H	IN CNAME	zirconium
@@ -611,10 +612,10 @@ puppet			1H	IN CNAME	palladium.eqiad.wmnet.
 racktables		1H	IN CNAME	magnesium
 reportcard		1H	IN CNAME	stat1001
 scholarships		1H	IN CNAME	misc-web-lb.eqiad
-search			1H	IN CNAME	wikimedia-lb
+search			1H	IN CNAME	text-lb
 shop			1H	IN CNAME	shopwikipedia.myshopify.com.
 smokeping		1H	IN CNAME	netmon1001
-store			1H	IN CNAME	wikimedia-lb
+store			1H	IN CNAME	text-lb
 stats			1H	IN CNAME	stat1001
 status			1H	IN CNAME	status.watchmouse.com.
 testblog		1H	IN CNAME	holmium.wikimedia.org.

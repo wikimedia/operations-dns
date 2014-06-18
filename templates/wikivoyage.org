@@ -35,8 +35,8 @@ wikivoyage.org.	600	IN TXT	"google-site-verification=7NOO3V-4odNg2GIjFh4v99bAnUI
 
 ; Wikis (alphabetic order)
 
-www			1H	IN CNAME	wikivoyage-lb.wikimedia.org.
+www			1H	IN CNAME	text-lb.wikimedia.org.
 
 ; All languages will automatically be included here
-{{ langlist('wikivoyage-lb.wikimedia.org.') }}
+{{ langlist('text-lb.wikimedia.org.') }}
 
