@@ -40,9 +40,6 @@ fundraising._domainkey	1H	IN TXT	"v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb3DQ
 
 www			1H	IN CNAME	foundation-lb.wikimedia.org.
 
-; All languages will automatically be included here
-{{ langlist('text.wikimedia.org.') }}
-
 ; Other websites
 www.donate		1H	IN CNAME	foundation-lb.wikimedia.org.
 donate			1H	IN CNAME	foundation-lb.wikimedia.org.
