@@ -51,7 +51,6 @@ _dmarc.lists		1H	IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-reports@wikimedia.or
 
 ; SPF txt and rr records
 wikimedia.org.		600	IN TXT	"v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
-wikimedia.org.		600	IN SPF	"v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
 
 scs-ext			1H	IN A	84.40.25.238
 
@@ -63,7 +62,6 @@ lists			1H	IN A	208.80.154.4		; service IP on sodium
 				1H	IN MX	10 lists
 				1H	IN MX	60 mchenry
 				1H	IN TXT	"v=spf1 mx ?all"
-				1H	IN SPF	"v=spf1 mx ?all"
 
 mail			1H	IN A	208.80.152.133	; service IP on mchenry
 			1H	IN MX	10 mchenry
