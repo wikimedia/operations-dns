@@ -16,8 +16,8 @@ $ORIGIN {{ zonename }}.
 
 ; Mail exchangers
 
-			1H	IN MX	10	mchenry
-			1H	IN MX	50	lists
+			1H	IN MX	10	polonium.wikimedia.org.
+			1H	IN MX	50	mchenry.wikimedia.org.
 
 ; Canonical names
 
@@ -57,15 +57,14 @@ scs-ext			1H	IN A	84.40.25.238
 dumps			1H	IN CNAME dataset1001
 sitemap			1H	IN CNAME dumps
 
-lists			1H	IN A	208.80.154.4		; service IP on sodium
+lists			1H	IN A	208.80.154.4
 				1H	IN AAAA 2620:0:861:1::2
 				1H	IN MX	10 lists
-				1H	IN MX	60 mchenry
 				1H	IN TXT	"v=spf1 mx ?all"
 
-mail			1H	IN A	208.80.152.133	; service IP on mchenry
-			1H	IN MX	10 mchenry
-			1H	IN MX	50 lists
+mail			1H	IN A	208.80.152.133
+			1H	IN MX	10 polonium.wikimedia.org.
+			1H	IN MX	50 mchenry.wikimedia.org.
 
 wiki-mail		1H	IN A	208.80.152.133	; service IP on mchenry
 
@@ -222,8 +221,8 @@ upload.pmtpa		1H	IN A	208.80.152.211
 upload.v4		1H	IN A	208.80.152.211 ; Explicitly v4 only
 
 donate-lb.pmtpa		1H	IN A	208.80.152.200 ; Explicitly v4 only
-				IN MX 10 mchenry.wikimedia.org.
-				IN MX 20 sodium.wikimedia.org.
+				IN MX 10 polonium.wikimedia.org.
+				IN MX 50 mchenry.wikimedia.org.
 wikimedia-lb.pmtpa	1H	IN A	208.80.152.200
 			1H	IN AAAA 2620:0:860:ed1a::0
 wikipedia-lb.pmtpa	1H	IN A	208.80.152.201
@@ -265,8 +264,8 @@ geoiplookup-lb.pmtpa	1H	IN A	208.80.152.210
 text-lb.eqiad       1H  IN A    208.80.154.224
                     1H  IN AAAA 2620:0:861:ed1a::1
 donate-lb.eqiad		1H	IN A	208.80.154.224 ; Explicitly v4 only
-				IN MX 10 mchenry.wikimedia.org.
-				IN MX 20 sodium.wikimedia.org.
+				IN MX 10 polonium.wikimedia.org.
+				IN MX 50 mchenry.wikimedia.org.
 wikimedia-lb.eqiad	1H	IN A	208.80.154.224
 			1H	IN AAAA 2620:0:861:ed1a::0
 wikipedia-lb.eqiad	1H	IN A	208.80.154.225
@@ -315,8 +314,8 @@ stream-lb.eqiad	1H	IN A	208.80.154.249
 text-lb.ulsfo		1H	IN A		198.35.26.96
 			1H	IN AAAA		2620:0:863:ed1a::1
 donate-lb.ulsfo		1H	IN A		198.35.26.96 ; explicitly v4 only
-			1H	IN MX 10	mchenry.wikimedia.org.
-			1H	IN MX 20	sodium.wikimedia.org.
+			1H	IN MX 10	polonium.wikimedia.org.
+			1H	IN MX 50	mchenry.wikimedia.org.
 login-lb.ulsfo		1H	IN A		198.35.26.105
 			1H	IN AAAA		2620:0:863:ed1a::1:9
 bits-lb.ulsfo		1H	IN A		198.35.26.106
@@ -462,13 +461,12 @@ icinga			1H	IN CNAME	neon
 icinga-admin		1H	IN A		208.80.154.14
 			1H      IN AAAA         2620:0:860:2:208:80:154:14
 imap			1H	IN A		208.80.152.187	; sanger
-			1H	IN MX		10 mchenry
 
 integration		1H	IN CNAME	misc-web-lb.eqiad
 irc			1H	IN CNAME	argon
 phabricator		1H	IN A		208.80.154.83
-			1H	IN MX		10 mchenry
-			1H	IN MX		60 lists
+			1H	IN MX		10 polonium.wikimedia.org.
+			1H	IN MX		50 mchenry.wikimedia.org.
 login			1H	IN CNAME	wikimedia-lb
 ntp.pmtpa		1H	IN CNAME	linne
 
@@ -487,13 +485,12 @@ releases		1H	IN CNAME	misc-web-lb.eqiad
 reports.frdev	1H	IN CNAME		lutetium
 
 rt			1H	IN A		208.80.154.5
-			1H	IN MX		10 mchenry
-			1H	IN MX		60 lists
+			1H	IN MX		10 polonium.wikimedia.org.
+			1H	IN MX		50 mchenry.wikimedia.org.
 
 secure			1H	IN CNAME		wikimedia-lb ; moved from singer to cluster
 
 smtp			1H	IN A		208.80.152.187	; sanger
-			1H	IN MX		10 mchenry
 
 stream		1H	IN CNAME		stream-lb.eqiad
 
@@ -846,8 +843,8 @@ scs-oe11-esams		1H	IN A	10.21.0.102
 ; Round robin record
 
 donate-lb		1H	IN A	91.198.174.192 ; Explicitly v4 only
-				IN MX 10 mchenry.wikimedia.org.
-				IN MX 20 sodium.wikimedia.org.
+				IN MX 10 polonium.wikimedia.org.
+				IN MX 50 mchenry.wikimedia.org.
 text-lb			1H	IN A	91.198.174.192
 			1H	IN AAAA 2620:0:862:ed1a::1
 login-lb		1H	IN A	91.198.174.201
