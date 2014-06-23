@@ -26,7 +26,6 @@ asw{{ i }}-pmtpa	1H	IN A		10.0.1.{{ i }}
 ; Service aliases
 
 mirror			1H	IN CNAME	apt.wikimedia.org.
-smtp			1H	IN CNAME	wiki-mail.wikimedia.org.
 webproxy		1H	IN CNAME	carbon.wikimedia.org.
 carbon-relay		1H	IN CNAME	tungsten.eqiad.wmnet.
 statsd			1H	IN CNAME	tungsten.eqiad.wmnet.
