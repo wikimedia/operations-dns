@@ -17,8 +17,8 @@ $ORIGIN {{ zonename }}.
 
 ; Mail exchangers
 
-                        1H	IN MX   10      mchenry.wikimedia.org.
-                        1H	IN MX   50      lists.wikimedia.org.
+                        1H	IN MX   10      polonium.wikimedia.org.
+                        1H	IN MX   50      mchenry.wikimedia.org.
 
 
 ; Canonical names
