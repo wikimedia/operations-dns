@@ -137,7 +137,7 @@ $ORIGIN {{ zonename }}.
 244	1H IN PTR	csw2-esams.wikimedia.org.
 245	1H IN PTR	cr1-esams.wikimedia.org.
 246	1H IN PTR	cr2-knams.wikimedia.org.
-247	1H IN PTR	csw1-esams.wikimedia.org.
+247	1H IN PTR	mr1-esams.wikimedia.org.
 
 ; Neighbor block between cr1-eqiad and cr2-knams (91.198.174.250/31)
 
