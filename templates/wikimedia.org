@@ -122,6 +122,7 @@ dickson			1H	IN A	208.80.155.68
 dobson			1H	IN A	208.80.152.173
 fenari			1H	IN A	208.80.152.165
 			1H	IN AAAA	2620:0:860:2:208:80:152:165
+francium		1H	IN A	208.80.154.93
 gadolinium		1H	IN A	208.80.154.73
 gallium			1H	IN A	208.80.154.135
 gold			1H	IN A	208.80.154.85
