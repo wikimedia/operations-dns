@@ -77,7 +77,6 @@ $ORIGIN {{ zonename }}.
 89  1H	IN PTR  lead.wikimedia.org.
 90  1H	IN PTR  polonium.wikimedia.org.
 91  1H	IN PTR  wiki-mail-eqiad.wikimedia.org.
-92  1H	IN PTR  radon.wikimedia.org.
 93  1H	IN PTR  francium.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
