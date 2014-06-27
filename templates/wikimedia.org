@@ -623,6 +623,7 @@ labs			1H	IN CNAME	wikimedia-lb
 labs-ns0		1H	IN A		208.80.152.33
 labs-ns1		1H	IN A		208.80.154.19
 labsconsole		1H	IN CNAME	wikitech
+legalpad		1H	IN CNAME	radon
 logstash		1H	IN CNAME	misc-web-lb.eqiad
 metrics-api		1H	IN CNAME	stat1001
 metrics			1H	IN CNAME	stat1001
