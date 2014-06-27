@@ -166,7 +166,6 @@ pdf3			1H	IN A	208.80.152.181
 platinum		1H	IN A	208.80.154.84
 polonium		1H	IN A	208.80.154.90
 			1H	IN AAAA	2620:0:861:3:208:80:154:90
-radon			1H	IN A	208.80.154.92
 rhenium			1H	IN A	208.80.154.52
 rubidium		1H	IN A	208.80.154.40
 samarium		1H	IN A	208.80.155.10
