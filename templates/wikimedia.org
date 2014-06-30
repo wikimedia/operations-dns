@@ -577,8 +577,8 @@ civicrm-gr.frdev 1H  IN CNAME    lutetium
 civicrm2-gr.frdev 1H IN CNAME    lutetium
 coffee           600 IN DYNA     geoip!text-addrs
 contacts         1H  IN CNAME    misc-web-lb.eqiad
-cs               1H  IN CNAME    wikimedia.cz.
-cz               1H  IN CNAME    wikimedia.cz.
+cs               600 IN DYNA     geoip!text-addrs
+cz               600 IN DYNA     geoip!text-addrs
 datasets         1H  IN CNAME    stat1001
 download         1H  IN CNAME    dumps
 etherpad         1H  IN CNAME    zirconium.wikimedia.org.
