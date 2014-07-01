@@ -580,7 +580,6 @@ $ORIGIN 0.64.{{ zonename }}.
 160     1H IN PTR       cp1038.eqiad.wmnet.
 161	1H IN PTR	lanthanum.eqiad.wmnet.
 
-163	1H IN PTR	oxygen.eqiad.wmnet.
 164	1H IN PTR	strontium.eqiad.wmnet.
 
 167	1H IN PTR	ms-fe1001.eqiad.wmnet.
