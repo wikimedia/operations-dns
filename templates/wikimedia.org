@@ -17,7 +17,7 @@ $ORIGIN {{ zonename }}.
 ; Mail exchangers
 
 			1H	IN MX	10	polonium.wikimedia.org.
-			1H	IN MX	50	mchenry.wikimedia.org.
+			1H	IN MX	50	lead.wikimedia.org.
 
 ; Canonical names
 
@@ -64,9 +64,9 @@ lists			1H	IN A	208.80.154.4
 
 mail			1H	IN A	208.80.152.133
 			1H	IN MX	10 polonium.wikimedia.org.
-			1H	IN MX	50 mchenry.wikimedia.org.
+			1H	IN MX	50 lead.wikimedia.org.
 
-wiki-mail		1H	IN A	208.80.152.133	; service IP on mchenry
+wiki-mail		1H	IN A	208.80.152.133	; obsolete service IP on mchenry
 
 ns0			1H	IN A	208.80.154.238
 ns1			1H	IN A	208.80.152.214
@@ -222,7 +222,7 @@ upload.v4		1H	IN A	208.80.152.211 ; Explicitly v4 only
 
 donate-lb.pmtpa		1H	IN A	208.80.152.200 ; Explicitly v4 only
 				IN MX 10 polonium.wikimedia.org.
-				IN MX 50 mchenry.wikimedia.org.
+				IN MX 50 lead.wikimedia.org.
 wikimedia-lb.pmtpa	1H	IN A	208.80.152.200
 			1H	IN AAAA 2620:0:860:ed1a::0
 wikipedia-lb.pmtpa	1H	IN A	208.80.152.201
@@ -265,7 +265,7 @@ text-lb.eqiad       1H  IN A    208.80.154.224
                     1H  IN AAAA 2620:0:861:ed1a::1
 donate-lb.eqiad		1H	IN A	208.80.154.224 ; Explicitly v4 only
 				IN MX 10 polonium.wikimedia.org.
-				IN MX 50 mchenry.wikimedia.org.
+				IN MX 50 lead.wikimedia.org.
 wikimedia-lb.eqiad	1H	IN A	208.80.154.224
 			1H	IN AAAA 2620:0:861:ed1a::0
 wikipedia-lb.eqiad	1H	IN A	208.80.154.225
@@ -315,7 +315,7 @@ text-lb.ulsfo		1H	IN A		198.35.26.96
 			1H	IN AAAA		2620:0:863:ed1a::1
 donate-lb.ulsfo		1H	IN A		198.35.26.96 ; explicitly v4 only
 			1H	IN MX 10	polonium.wikimedia.org.
-			1H	IN MX 50	mchenry.wikimedia.org.
+			1H	IN MX 50	lead.wikimedia.org.
 login-lb.ulsfo		1H	IN A		198.35.26.105
 			1H	IN AAAA		2620:0:863:ed1a::1:9
 bits-lb.ulsfo		1H	IN A		198.35.26.106
@@ -466,7 +466,7 @@ integration		1H	IN CNAME	misc-web-lb.eqiad
 irc			1H	IN CNAME	argon
 phabricator		1H	IN A		208.80.154.83
 			1H	IN MX		10 polonium.wikimedia.org.
-			1H	IN MX		50 mchenry.wikimedia.org.
+			1H	IN MX		50 lead.wikimedia.org.
 login			1H	IN CNAME	wikimedia-lb
 ntp.pmtpa		1H	IN CNAME	linne
 
@@ -486,7 +486,7 @@ reports.frdev	1H	IN CNAME		lutetium
 
 rt			1H	IN A		208.80.154.5
 			1H	IN MX		10 polonium.wikimedia.org.
-			1H	IN MX		50 mchenry.wikimedia.org.
+			1H	IN MX		50 lead.wikimedia.org.
 
 secure			1H	IN CNAME		wikimedia-lb ; moved from singer to cluster
 
@@ -844,7 +844,7 @@ scs-oe11-esams		1H	IN A	10.21.0.102
 
 donate-lb		1H	IN A	91.198.174.192 ; Explicitly v4 only
 				IN MX 10 polonium.wikimedia.org.
-				IN MX 50 mchenry.wikimedia.org.
+				IN MX 50 lead.wikimedia.org.
 text-lb			1H	IN A	91.198.174.192
 			1H	IN AAAA 2620:0:862:ed1a::1
 login-lb		1H	IN A	91.198.174.201
