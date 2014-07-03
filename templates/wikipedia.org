@@ -72,7 +72,7 @@ wg.en			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 
 ; Other websites
 
-bugzilla		300	IN CNAME	wikimedia-lb.wikimedia.org.
+bugzilla		1H	IN CNAME	wikimedia-lb.wikimedia.org.
 careers			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 donate			1H	IN CNAME	wikipedia-lb.wikimedia.org.
 jobs			1H	IN CNAME	wikipedia-lb.wikimedia.org.
