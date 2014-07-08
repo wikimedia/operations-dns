@@ -28,8 +28,6 @@ $ORIGIN {{ zonename }}.
 ; Public services subnet 208.80.152.128/26 (208.80.152.128 - 208.80.152.191)
 
 129	1H IN PTR	vrrp-gw-101.wikimedia.org.
-131	1H IN PTR	recursor0.wikimedia.org.
-132	1H IN PTR	recursor1.wikimedia.org.
 133	1H IN PTR	wiki-mail.wikimedia.org.
 
 136	1H IN PTR	mexia.wikimedia.org.
@@ -70,4 +68,3 @@ $ORIGIN {{ zonename }}.
 230	1H IN PTR	ts-array4a.mgmt.toolserver.org.
 
 234	1H IN PTR	web.amaranth.toolserver.org.
-
