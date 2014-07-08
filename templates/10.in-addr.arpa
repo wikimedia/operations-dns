@@ -337,6 +337,7 @@ $ORIGIN 0.20.{{ zonename }}.
 144	1H	IN PTR		amssq44.esams.wmnet.
 145	1H	IN PTR		amssq45.esams.wmnet.
 146	1H	IN PTR		amssq46.esams.wmnet.
+147	1H	IN PTR		amssq47.esams.wmnet.
 
 ; Management
 
