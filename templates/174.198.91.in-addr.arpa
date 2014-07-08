@@ -28,7 +28,6 @@ $ORIGIN {{ zonename }}.
 13	1H IN PTR	vl100-eth0.lvs3003.esams.wmnet.
 14	1H IN PTR	vl100-eth0.lvs3004.esams.wmnet.
 
-57	1H IN PTR	amssq47.esams.wikimedia.org.
 58	1H IN PTR	amssq48.esams.wikimedia.org.
 59	1H IN PTR	amssq49.esams.wikimedia.org.
 60	1H IN PTR	amssq50.esams.wikimedia.org.

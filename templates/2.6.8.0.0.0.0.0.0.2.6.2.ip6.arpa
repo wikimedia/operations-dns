@@ -25,7 +25,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 ; Machines
 
-7.5.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq47.esams.wikimedia.org.
 8.5.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq48.esams.wikimedia.org.
 9.5.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq49.esams.wikimedia.org.
 0.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0	1H IN PTR	amssq50.esams.wikimedia.org.
@@ -105,6 +104,7 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 4.4.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR      amssq44.esams.wmnet.
 5.4.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR      amssq45.esams.wmnet.
 6.4.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR      amssq46.esams.wmnet.
+7.4.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR      amssq47.esams.wmnet.
 
 ; Toolserver external subnet 2620:0:862:101::/64
 
