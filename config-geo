@@ -13,7 +13,7 @@ plugins => { geoip => {
 					AM => esams, # Armenia
 					AP => ulsfo, # Asia-Pacific region (misc)
 					AZ => esams, # Azerbaijan
-					BD => eqiad, # ex-ulsfo # Bangladesh
+					BD => ulsfo, # Bangladesh
 					BH => esams, # Bahrain
 					BN => eqiad, # ex-ulsfo # Brunei Darussalam
 					BT => eqiad, # ex-ulsfo # Bhutan
@@ -23,7 +23,7 @@ plugins => { geoip => {
 					CY => esams, # Cyprus
 					GE => esams, # Georgia
 					HK => eqiad, # ex-ulsfo # Hong Kong
-					ID => eqiad, # ex-ulsfo # Indonesia
+					ID => ulsfo, # Indonesia
 					IL => esams, # Israel
 					IN => eqiad, # India
 					IO => eqiad, # British Indian Ocean Territory
@@ -41,7 +41,7 @@ plugins => { geoip => {
 					LB => esams, # Lebanon
 					LK => eqiad, # Sri Lanka
 					MM => ulsfo, # Myanmar
-					MN => eqiad, # ex-ulsfo # Mongolia
+					MN => ulsfo, # Mongolia
 					MO => eqiad, # ex-ulsfo # Macao
 					MV => eqiad, # ex-ulsfo # Maldives
 					MY => ulsfo, # Malaysia
