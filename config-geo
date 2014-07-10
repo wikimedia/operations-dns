@@ -16,13 +16,13 @@ plugins => { geoip => {
 					BD => ulsfo, # Bangladesh
 					BH => esams, # Bahrain
 					BN => eqiad, # ex-ulsfo # Brunei Darussalam
-					BT => eqiad, # ex-ulsfo # Bhutan
+					BT => ulsfo, # Bhutan
 					CC => eqiad, # ex-ulsfo # Cocos (Keeling) Islands
 					CN => eqiad, # China
 					CX => eqiad, # ex-ulsfo # Christmas Island
 					CY => esams, # Cyprus
 					GE => esams, # Georgia
-					HK => eqiad, # ex-ulsfo # Hong Kong
+					HK => ulsfo, # Hong Kong
 					ID => ulsfo, # Indonesia
 					IL => esams, # Israel
 					IN => eqiad, # India
@@ -42,7 +42,7 @@ plugins => { geoip => {
 					LK => eqiad, # Sri Lanka
 					MM => ulsfo, # Myanmar
 					MN => ulsfo, # Mongolia
-					MO => eqiad, # ex-ulsfo # Macao
+					MO => ulsfo, # Macao
 					MV => eqiad, # ex-ulsfo # Maldives
 					MY => ulsfo, # Malaysia
 					NP => eqiad, # ex-ulsfo # Nepal
