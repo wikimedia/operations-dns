@@ -40,7 +40,7 @@ plugins => { geoip => {
 					LA => eqiad, # ex-ulsfo # Lao People's Democratic Republic
 					LB => esams, # Lebanon
 					LK => eqiad, # Sri Lanka
-					MM => eqiad, # ex-ulsfo # Myanmar
+					MM => ulsfo, # Myanmar
 					MN => eqiad, # ex-ulsfo # Mongolia
 					MO => eqiad, # ex-ulsfo # Macao
 					MV => eqiad, # ex-ulsfo # Maldives
@@ -54,13 +54,13 @@ plugins => { geoip => {
 					SA => esams, # Saudi Arabia
 					SG => ulsfo, # Singapore
 					SY => esams, # Syrian Arab Republic
-					TH => eqiad, # ex-ulsfo # Thailand
+					TH => ulsfo, # Thailand
 					TJ => eqiad, # Tajikistan
 					TL => eqiad, # ex-ulsfo # Timor-Leste
 					TM => eqiad, # Turkmenistan
 					TW => ulsfo, # Taiwan, Province of China
 					UZ => eqiad, # Uzbekistan
-					VN => eqiad, # ex-ulsfo # Viet Nam
+					VN => ulsfo, # Viet Nam
 					YE => esams, # Yemen
 				},
 				EU => {
