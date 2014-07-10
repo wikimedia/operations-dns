@@ -11,7 +11,7 @@ plugins => { geoip => {
 					AE => esams, # United Arab Emirates
 					AF => eqiad, # Afghanistan
 					AM => esams, # Armenia
-					AP => eqiad, # ex-ulsfo # Asia-Pacific region (misc)
+					AP => ulsfo, # Asia-Pacific region (misc)
 					AZ => esams, # Azerbaijan
 					BD => eqiad, # ex-ulsfo # Bangladesh
 					BH => esams, # Bahrain
@@ -200,8 +200,8 @@ plugins => { geoip => {
 				2620:0:861::/48   => eqiad, # eqiad
 				2620:0:862::/48   => esams, # esams
 				2620:0:863::/48   => eqiad, # ulsfo
-				198.73.209.0/24   => eqiad, # ex-ulsfo # WMF OIT
-				2620:62:c000::/48 => eqiad, # ex-ulsfo # WMF OIT
+				198.73.209.0/24   => ulsfo, # WMF OIT
+				2620:62:c000::/48 => ulsfo, # WMF OIT
 			},
 		},
 		only-primary-map => {
