@@ -11,56 +11,56 @@ plugins => { geoip => {
 					AE => esams, # United Arab Emirates
 					AF => eqiad, # Afghanistan
 					AM => esams, # Armenia
-					AP => ulsfo, # Asia-Pacific region (misc)
+					AP => eqiad, # ex-ulsfo # Asia-Pacific region (misc)
 					AZ => esams, # Azerbaijan
-					BD => ulsfo, # Bangladesh
+					BD => eqiad, # ex-ulsfo # Bangladesh
 					BH => esams, # Bahrain
-					BN => ulsfo, # Brunei Darussalam
-					BT => ulsfo, # Bhutan
-					CC => ulsfo, # Cocos (Keeling) Islands
+					BN => eqiad, # ex-ulsfo # Brunei Darussalam
+					BT => eqiad, # ex-ulsfo # Bhutan
+					CC => eqiad, # ex-ulsfo # Cocos (Keeling) Islands
 					CN => eqiad, # China
-					CX => ulsfo, # Christmas Island
+					CX => eqiad, # ex-ulsfo # Christmas Island
 					CY => esams, # Cyprus
 					GE => esams, # Georgia
-					HK => ulsfo, # Hong Kong
-					ID => ulsfo, # Indonesia
+					HK => eqiad, # ex-ulsfo # Hong Kong
+					ID => eqiad, # ex-ulsfo # Indonesia
 					IL => esams, # Israel
 					IN => eqiad, # India
 					IO => eqiad, # British Indian Ocean Territory
 					IQ => esams, # Iraq
 					IR => esams, # Iran (Islamic Republic of)
 					JO => esams, # Jordan
-					JP => ulsfo, # Japan
+					JP => eqiad, # ex-ulsfo # Japan
 					KG => eqiad, # Kyrgyzstan
-					KH => ulsfo, # Cambodia
-					KP => ulsfo, # Korea, Democratic People's Republic of
-					KR => ulsfo, # Korea, Republic of
+					KH => eqiad, # ex-ulsfo # Cambodia
+					KP => eqiad, # ex-ulsfo # Korea, Democratic People's Republic of
+					KR => eqiad, # ex-ulsfo # Korea, Republic of
 					KW => esams, # Kuwait
 					KZ => eqiad, # Kazakhstan
-					LA => ulsfo, # Lao People's Democratic Republic
+					LA => eqiad, # ex-ulsfo # Lao People's Democratic Republic
 					LB => esams, # Lebanon
 					LK => eqiad, # Sri Lanka
-					MM => ulsfo, # Myanmar
-					MN => ulsfo, # Mongolia
-					MO => ulsfo, # Macao
-					MV => ulsfo, # Maldives
-					MY => ulsfo, # Malaysia
-					NP => ulsfo, # Nepal
+					MM => eqiad, # ex-ulsfo # Myanmar
+					MN => eqiad, # ex-ulsfo # Mongolia
+					MO => eqiad, # ex-ulsfo # Macao
+					MV => eqiad, # ex-ulsfo # Maldives
+					MY => eqiad, # ex-ulsfo # Malaysia
+					NP => eqiad, # ex-ulsfo # Nepal
 					OM => esams, # Oman
-					PH => ulsfo, # Philippines
+					PH => eqiad, # ex-ulsfo # Philippines
 					PK => eqiad, # Pakistan
 					PS => esams, # Palestine, State of
 					QA => esams, # Qatar
 					SA => esams, # Saudi Arabia
-					SG => ulsfo, # Singapore
+					SG => eqiad, # ex-ulsfo # Singapore
 					SY => esams, # Syrian Arab Republic
-					TH => ulsfo, # Thailand
+					TH => eqiad, # ex-ulsfo # Thailand
 					TJ => eqiad, # Tajikistan
-					TL => ulsfo, # Timor-Leste
+					TL => eqiad, # ex-ulsfo # Timor-Leste
 					TM => eqiad, # Turkmenistan
-					TW => ulsfo, # Taiwan, Province of China
+					TW => eqiad, # ex-ulsfo # Taiwan, Province of China
 					UZ => eqiad, # Uzbekistan
-					VN => ulsfo, # Viet Nam
+					VN => eqiad, # ex-ulsfo # Viet Nam
 					YE => esams, # Yemen
 				},
 				EU => {
@@ -120,20 +120,20 @@ plugins => { geoip => {
 				},
 				NA => {
 					US => { # United States of America
-						AK => ulsfo, # Alaska
+						AK => eqiad, # ex-ulsfo # Alaska
 						AL => eqiad, # Alabama
 						AR => eqiad, # Arkansas
-						AZ => ulsfo, # Arizona
-						CA => ulsfo, # California
-						CO => ulsfo, # Colorado
+						AZ => eqiad, # ex-ulsfo # Arizona
+						CA => eqiad, # ex-ulsfo # California
+						CO => eqiad, # ex-ulsfo # Colorado
 						CT => eqiad, # Connecticut
 						DC => eqiad, # District of Columbia
 						DE => eqiad, # Delaware
 						FL => eqiad, # Florida
 						GA => eqiad, # Georgia
-						HI => ulsfo, # Hawaii
+						HI => eqiad, # ex-ulsfo # Hawaii
 						IA => eqiad, # Iowa
-						ID => ulsfo, # Idaho
+						ID => eqiad, # ex-ulsfo # Idaho
 						IL => eqiad, # Illinois
 						IN => eqiad, # Indiana
 						KS => eqiad, # Kansas
@@ -146,46 +146,46 @@ plugins => { geoip => {
 						MN => eqiad, # Minnesota
 						MO => eqiad, # Missouri
 						MS => eqiad, # Mississippi
-						MT => ulsfo, # Montana
+						MT => eqiad, # ex-ulsfo # Montana
 						NC => eqiad, # North Carolina
 						ND => eqiad, # North Dakota
 						NE => eqiad, # Nebraska
 						NH => eqiad, # New Hampshire
 						NJ => eqiad, # New Jersey
-						NM => ulsfo, # New Mexico
-						NV => ulsfo, # Nevada
+						NM => eqiad, # ex-ulsfo # New Mexico
+						NV => eqiad, # ex-ulsfo # Nevada
 						NY => eqiad, # New York
 						OH => eqiad, # Ohio
 						OK => eqiad, # Oklahoma
-						OR => ulsfo, # Oregon
+						OR => eqiad, # ex-ulsfo # Oregon
 						PA => eqiad, # Pennsylvania
 						RI => eqiad, # Rhode Island
 						SC => eqiad, # South Carolina
 						SD => eqiad, # South Dakota
 						TN => eqiad, # Tennessee
 						TX => eqiad, # Texas
-						UT => ulsfo, # Utah
+						UT => eqiad, # ex-ulsfo # Utah
 						VA => eqiad, # Virginia
 						VT => eqiad, # Vermont
-						WA => ulsfo, # Washington
+						WA => eqiad, # ex-ulsfo # Washington
 						WI => eqiad, # Wisconsin
 						WV => eqiad, # West Virginia
-						WY => ulsfo, # Wyoming
+						WY => eqiad, # ex-ulsfo # Wyoming
 					},
 					CA => { # Canada
-						AB => ulsfo, # Alberta
-						BC => ulsfo, # British Columbia
+						AB => eqiad, # ex-ulsfo # Alberta
+						BC => eqiad, # ex-ulsfo # British Columbia
 						MB => eqiad, # Manitoba
 						NB => eqiad, # New Brunswick
 						NL => eqiad, # Newfoundland
 						NS => eqiad, # Nova Scotia
-						NT => ulsfo, # Northwest Territories
+						NT => eqiad, # ex-ulsfo # Northwest Territories
 						NU => eqiad, # Nunavut
 						ON => eqiad, # Ontario
 						PE => eqiad, # Prince Edward Island
 						QC => eqiad, # Quebec
 						SK => eqiad, # Saskatchewan
-						YT => ulsfo, # Yukon Territory
+						YT => eqiad, # ex-ulsfo # Yukon Territory
 					},
 				},
 				OC => ulsfo,
@@ -200,8 +200,8 @@ plugins => { geoip => {
 				2620:0:861::/48   => eqiad, # eqiad
 				2620:0:862::/48   => esams, # esams
 				2620:0:863::/48   => eqiad, # ulsfo
-				198.73.209.0/24   => ulsfo, # WMF OIT
-				2620:62:c000::/48 => ulsfo, # WMF OIT
+				198.73.209.0/24   => eqiad, # ex-ulsfo # WMF OIT
+				2620:62:c000::/48 => eqiad, # ex-ulsfo # WMF OIT
 			},
 		},
 		only-primary-map => {
@@ -219,7 +219,7 @@ plugins => { geoip => {
 			dcmap => {
 				eqiad => bits-lb.eqiad.wikimedia.org.
 				esams => bits-lb.esams.wikimedia.org.
-				ulsfo => bits-lb.eqiad.wikimedia.org.
+				ulsfo => bits-lb.ulsfo.wikimedia.org.
 			}
 		}
 		upload => {
@@ -227,7 +227,7 @@ plugins => { geoip => {
 			dcmap => {
 				eqiad => upload-lb.eqiad.wikimedia.org.
 				esams => upload-lb.esams.wikimedia.org.
-				ulsfo => upload-lb.eqiad.wikimedia.org.
+				ulsfo => upload-lb.ulsfo.wikimedia.org.
 			}
 		}
 		geoiplookup => {
@@ -235,7 +235,7 @@ plugins => { geoip => {
 			dcmap => {
 				eqiad => geoiplookup-lb.eqiad.wikimedia.org.
 				esams => geoiplookup-lb.esams.wikimedia.org.
-				ulsfo => geoiplookup-lb.eqiad.wikimedia.org.
+				ulsfo => geoiplookup-lb.ulsfo.wikimedia.org.
 			}
 		}
 		donate => {
@@ -243,7 +243,7 @@ plugins => { geoip => {
 			dcmap => {
 				eqiad => donate-lb.eqiad.wikimedia.org.
 				esams => donate-lb.esams.wikimedia.org.
-				ulsfo => donate-lb.eqiad.wikimedia.org.
+				ulsfo => donate-lb.ulsfo.wikimedia.org.
 			}
 		}
 		text-lb => {
@@ -251,7 +251,7 @@ plugins => { geoip => {
 			dcmap => {
 				eqiad => text-lb.eqiad.wikimedia.org.
 				esams => text-lb.esams.wikimedia.org.
-				ulsfo => text-lb.eqiad.wikimedia.org.
+				ulsfo => text-lb.ulsfo.wikimedia.org.
 			}
 		}
 		mobile-lb => {
@@ -259,7 +259,7 @@ plugins => { geoip => {
 			dcmap => {
 				eqiad => mobile-lb.eqiad.wikimedia.org.
 				esams => mobile-lb.esams.wikimedia.org.
-				ulsfo => mobile-lb.eqiad.wikimedia.org.
+				ulsfo => mobile-lb.ulsfo.wikimedia.org.
 			}
 		}
 	}
