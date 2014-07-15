@@ -707,7 +707,7 @@ www.email.donate		1H	IN CNAME wikimedia.org.
 
 $ORIGIN corp.{{ zonename }}.
 
-ns1			1H	IN A	216.38.130.189
+ns1			600	IN A	216.38.130.189
 ns2			1H	IN A	198.73.209.16
 
 ; Amsterdam cluster
