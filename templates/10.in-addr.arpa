@@ -236,6 +236,7 @@ $ORIGIN 2.2.{{ zonename }}.
 28	1H	IN PTR	parsoid.svc.eqiad.wmnet.
 29	1H	IN PTR	parsoidcache.svc.eqiad.wmnet.
 30	1H	IN PTR	search.svc.eqiad.wmnet.
+31	1H	IN PTR	ocg.svc.eqiad.wmnet.
 
 ; esams svc ips
 

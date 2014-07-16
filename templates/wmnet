@@ -2314,6 +2314,7 @@ ms-fe		1H 	IN A 		10.2.2.27
 parsoid		1H	IN A		10.2.2.28
 parsoidcache	1H	IN A		10.2.2.29
 search		1H	IN A		10.2.2.30
+ocg		1H	IN A		10.2.2.31
 labstore	1H	IN A		10.64.37.10
 
 ; ESAMS SERVICES
