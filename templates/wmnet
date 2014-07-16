@@ -453,7 +453,9 @@ labsdb1003		1H	IN A		10.64.37.5
 labstore1001	1H	IN A		10.64.37.6
 labstore1002	1H	IN A		10.64.37.7
 labsdb1004	1H	IN A		10.64.37.8
-labsdb1005	1H	IN A		10.64.37.9
+labsdb1005              1H	IN A	        10.64.37.9
+labsdb1006              1H      IN A            10.64.37.11
+labsdb1007              1H      IN A            10.64.37.12
 lanthanum		1H	IN A		10.64.0.161
 mc1001			1H	IN A		10.64.0.180
 mc1002			1H	IN A		10.64.0.181
@@ -720,8 +722,6 @@ osm-cp1001      1H  IN A        10.64.0.211
 osm-cp1002      1H  IN A        10.64.0.212
 osm-cp1003      1H  IN A        10.64.16.161
 osm-cp1004      1H  IN A        10.64.16.162
-osm-db1001      1H  IN A        10.64.0.213
-osm-db1002      1H  IN A        10.64.16.155
 osm-web1001		1H	IN A		10.64.32.93
 osm-web1002		1H	IN A		10.64.32.94
 osm-web1003		1H	IN A		10.64.32.95
@@ -1207,8 +1207,10 @@ labstore1001	1H	IN A	10.65.3.106
 labstore1002	1H	IN A	10.65.3.107
 labsdb1004	1H	IN A	10.65.3.108
 labsdb1005	1H	IN A	10.65.3.109
-lutetium    1H  IN A    10.65.6.13
-WMF3078     1H  IN A    10.65.6.13
+labsdb1006      1H      IN A    10.65.3.110
+labsdb1007      1H      IN A    10.65.3.111
+lutetium        1H      IN A    10.65.6.13
+WMF3078         1H      IN A    10.65.6.13
 mc1001		1H	IN A	10.65.8.1
 WMF3183		1H	IN A	10.65.8.1
 mc1002		1H	IN A	10.65.8.2
@@ -1656,8 +1658,6 @@ osm-cp1001	1H	IN A	10.65.3.90
 osm-cp1002	1H	IN A	10.65.3.91
 osm-cp1003	1H	IN A	10.65.3.92
 osm-cp1004	1H	IN A	10.65.3.93
-osm-db1001	1H	IN A	10.65.3.110
-osm-db1002	1H	IN A	10.65.3.111
 osm-web1001	1H	IN A	10.65.3.86
 osm-web1002	1H	IN A	10.65.3.87
 osm-web1003	1H	IN A	10.65.3.88
