@@ -612,6 +612,7 @@ communityblog		1H	IN CNAME	holmium.wikimedia.org.
 contacts		1H	IN CNAME	zirconium
 cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
+datasets		1H	IN CNAME	stat1001
 download		1H	IN CNAME	dumps
 etherpad		1H	IN CNAME	zirconium.wikimedia.org.
 fundraising		1H	IN CNAME	al-fundraising
