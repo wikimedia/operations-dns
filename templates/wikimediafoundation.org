@@ -38,11 +38,11 @@ fundraising._domainkey  1H  IN TXT  "v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb
 
 ; Wikis (alphabetic order)
 
-www			1H	IN CNAME	text-lb.wikimedia.org.
+www         1H  IN CNAME    foundation-lb.wikimedia.org.
 
 ; Other websites
-www.donate		1H	IN CNAME	text-lb.wikimedia.org.
-donate			1H	IN CNAME	text-lb.wikimedia.org.
-shop			1H	IN CNAME	text-lb.wikimedia.org.
-store			1H	IN CNAME	text-lb.wikimedia.org.
-m			1H	IN CNAME	m.wikimedia.org.
+www.donate  1H  IN CNAME    foundation-lb.wikimedia.org.
+donate      1H  IN CNAME    foundation-lb.wikimedia.org.
+shop        1H  IN CNAME    wikimedia-lb.wikimedia.org.
+store       1H  IN CNAME    wikimedia-lb.wikimedia.org.
+m           1H  IN CNAME    m.wikimedia.org.

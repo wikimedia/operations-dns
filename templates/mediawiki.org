@@ -30,20 +30,20 @@ $ORIGIN {{ zonename }}.
 
 ; Wikis (alphabetic order)
 
-www			1H	IN CNAME	text-lb.wikimedia.org.
-wiki			1H	IN CNAME	text-lb.wikimedia.org.
-bugzilla		1H	IN CNAME	text-lb.wikimedia.org.
-bugs			1H	IN CNAME	text-lb.wikimedia.org.
+www			1H	IN CNAME	mediawiki-lb.wikimedia.org.
+wiki                    1H      IN CNAME        mediawiki-lb.wikimedia.org.
+bugzilla		1H	IN CNAME	mediawiki-lb.wikimedia.org.
+bugs			1H	IN CNAME	mediawiki-lb.wikimedia.org.
 
 ; Other websites
-doc			1H	IN CNAME	text-lb.wikimedia.org.
-donate			1H	IN CNAME	text-lb.wikimedia.org.
-download		1H	IN CNAME	text-lb.wikimedia.org.
-integration		1H	IN CNAME	text-lb.wikimedia.org.
-www.donate		1H	IN CNAME	text-lb.wikimedia.org.
+doc			1H	IN CNAME	mediawiki-lb.wikimedia.org.
+donate			1H	IN CNAME	mediawiki-lb.wikimedia.org.
+download		1H	IN CNAME	mediawiki-lb.wikimedia.org.
+integration		1H	IN CNAME	mediawiki-lb.wikimedia.org.
+www.donate		1H	IN CNAME	mediawiki-lb.wikimedia.org.
 svn			1H	IN CNAME	svn.wikimedia.org.
-shop			1H	IN CNAME	text-lb.wikimedia.org.
-store			1H	IN CNAME	text-lb.wikimedia.org.
+shop			1H	IN CNAME	wikimedia-lb.wikimedia.org.
+store			1H	IN CNAME	wikimedia-lb.wikimedia.org.
 
 ; Mobile
 m			1H	IN CNAME	m.wikimedia.org.

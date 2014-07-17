@@ -32,15 +32,15 @@ $ORIGIN {{ zonename }}.
 
 ; Wikis (alphabetic order)
 
-beta			1H	IN CNAME	text-lb.wikimedia.org.
+beta			1H	IN CNAME	wikiversity-lb.wikimedia.org.
 beta.m			1H	IN CNAME	m.wikimedia.org.
-www			1H	IN CNAME	text-lb.wikimedia.org.
+www			1H	IN CNAME	wikiversity-lb.wikimedia.org.
 
 ; All languages will automatically be included here
-{{ langlist('text-lb.wikimedia.org.') }}
+{{ langlist('wikiversity-lb.wikimedia.org.') }}
 
 ; Other websites
-donate			1H	IN CNAME	text-lb.wikimedia.org.
-www.donate		1H	IN CNAME	text-lb.wikimedia.org.
-shop			1H	IN CNAME	text-lb.wikimedia.org.
-store			1H	IN CNAME	text-lb.wikimedia.org.
+donate			1H	IN CNAME	wikiversity-lb.wikimedia.org.
+www.donate		1H	IN CNAME	wikiversity-lb.wikimedia.org.
+shop			1H	IN CNAME	wikimedia-lb.wikimedia.org.
+store			1H	IN CNAME	wikimedia-lb.wikimedia.org.
