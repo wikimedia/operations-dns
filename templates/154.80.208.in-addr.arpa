@@ -68,7 +68,6 @@ $ORIGIN {{ zonename }}.
 80  1H  IN PTR  ytterbium.wikimedia.org.
 81  1H  IN PTR  gerrit.wikimedia.org.
 82  1H	IN PTR  stat1003.wikimedia.org.
-83  1H	IN PTR  iridium.wikimedia.org.
 84  1H	IN PTR  platinum.wikimedia.org.
 85  1H	IN PTR  gold.wikimedia.org.
 86  1H	IN PTR  mercury.wikimedia.org.

@@ -1043,6 +1043,7 @@ $ORIGIN 32.64.{{ zonename }}.
 147     1H IN PTR       hp1001.eqiad.wmnet.
 148     1H IN PTR       rcs1001.eqiad.wmnet.
 149     1H IN PTR       radon.eqiad.wmnet.
+150     1H IN PTR       iridium.eqiad.wmnet.
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
