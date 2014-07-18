@@ -464,7 +464,7 @@ imap			1H	IN A		208.80.152.187	; sanger
 
 integration		1H	IN CNAME	misc-web-lb.eqiad
 irc			1H	IN CNAME	argon
-phabricator		1H	IN A		208.80.154.83
+phabricator		1H	IN A		208.80.154.241 ; misc-web-lb.eqiad
 			1H	IN MX		10 polonium.wikimedia.org.
 			1H	IN MX		50 lead.wikimedia.org.
 login			1H	IN CNAME	wikimedia-lb
