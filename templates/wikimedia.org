@@ -598,7 +598,7 @@ zero			1H	IN CNAME	wikimedia-lb
 
 ; Other websites (NO wikis!)
 analytics		1H	IN CNAME	stat1001
-blog			1H	IN CNAME	holmium.wikimedia.org.
+blog			5M	IN CNAME	holmium.wikimedia.org.
 bugs			1H	IN CNAME	zirconium
 bugzilla		1H	IN CNAME	zirconium
 bug-attachment		1H	IN CNAME	zirconium
@@ -607,7 +607,6 @@ civicrm			1H	IN CNAME	barium
 civicrm.frdev	1H	IN CNAME	lutetium
 civicrm-gr.frdev 1H	IN CNAME	lutetium
 coffee			1H	IN CNAME	wikimedia-lb
-communityblog		1H	IN CNAME	holmium.wikimedia.org.
 contacts		1H	IN CNAME	zirconium
 cs			1H	IN CNAME	wikimedia.cz.
 cz			1H	IN CNAME	wikimedia.cz.
@@ -616,7 +615,6 @@ download		1H	IN CNAME	dumps
 etherpad		1H	IN CNAME	zirconium.wikimedia.org.
 fundraising		1H	IN CNAME	al-fundraising
 ganglia			1H	IN CNAME	nickel
-globalblog		1H	IN CNAME	holmium.wikimedia.org.
 ishmael			1H	IN CNAME	neon
 tendril			1H	IN CNAME	neon
 jobs			1H	IN CNAME	wikimedia-lb
@@ -666,8 +664,7 @@ smokeping		1H	IN CNAME	netmon1001
 store			1H	IN CNAME	wikimedia-lb
 stats			1H	IN CNAME	stat1001
 status			1H	IN CNAME	status.watchmouse.com.
-testblog		1H	IN CNAME	holmium.wikimedia.org.
-techblog		1H	IN CNAME	holmium.wikimedia.org.
+techblog		5M	IN CNAME	holmium.wikimedia.org.
 ticket			1H	IN CNAME	iodine
 ubuntu			1H	IN A		208.80.154.10
 ubuntu			1H	IN AAAA		2620:0:861:1:208:80:154:10
