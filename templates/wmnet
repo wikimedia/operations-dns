@@ -446,6 +446,7 @@ fluorine		1H	IN A		10.64.0.21
 helium			1H	IN A		10.64.0.179
 hp1001                  1H      IN A            10.64.32.147
 iridium           1H  IN A        10.64.32.150
+labmon1001      1H  IN A        10.64.37.13
 labnet1001      1H  IN A        10.64.20.13
 labnet1001-ext	1H  IN A	10.64.22.11
 labsdb1001      1H  IN A        10.64.20.12
@@ -1897,7 +1898,7 @@ wmf5844     1H  IN A    10.65.3.177
 wmf3566     1H  IN A    10.65.3.140
 ytterbium   1H  IN A    10.65.3.140
 wmf3568		1H  IN A    10.65.3.141
-neodymium	1H  IN A    10.65.3.141
+labmon1001	1H  IN A    10.65.3.141
 wmf3569     1H  IN A    10.65.3.142
 rdb1001     1H  IN A    10.65.3.142
 wmf3570     1H  IN A    10.65.3.143
