@@ -580,7 +580,8 @@ $ORIGIN 0.64.{{ zonename }}.
 121	1H IN PTR	snapshot1002.eqiad.wmnet.
 159     1H IN PTR       cp1037.eqiad.wmnet.
 160     1H IN PTR       cp1038.eqiad.wmnet.
-161	1H IN PTR	lanthanum.eqiad.wmnet.
+161		1H IN PTR		lanthanum.eqiad.wmnet.
+162		1H IN PTR		actinium.eqiad.wmnet.
 
 164	1H IN PTR	strontium.eqiad.wmnet.
 
@@ -1669,6 +1670,7 @@ $ORIGIN 2.65.{{ zonename }}.
 
 1	1H	IN PTR		WMF3134.mgmt.eqiad.wmnet.
 2	1H	IN PTR		WMF3133.mgmt.eqiad.wmnet.
+2	1H	IN PTR		actinium.mgmt.eqiad.wmnet.
 3	1H	IN PTR		WMF3132.mgmt.eqiad.wmnet.
 4	1H	IN PTR		WMF3131.mgmt.eqiad.wmnet.
 5	1H	IN PTR		WMF3130.mgmt.eqiad.wmnet.
