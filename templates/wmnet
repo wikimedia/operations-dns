@@ -1898,7 +1898,7 @@ wmf5844     1H  IN A    10.65.3.177
 wmf3566     1H  IN A    10.65.3.140
 ytterbium   1H  IN A    10.65.3.140
 wmf3568		1H  IN A    10.65.3.141
-labmon1001	1H  IN A    10.65.3.141
+neodymium	1H  IN A    10.65.3.141
 wmf3569     1H  IN A    10.65.3.142
 rdb1001     1H  IN A    10.65.3.142
 wmf3570     1H  IN A    10.65.3.143
@@ -1928,6 +1928,7 @@ wmf4541		1H	IN A		10.65.5.181
 wmf4543		1H	IN A		10.65.5.183
 wmf4544		1H	IN A		10.65.5.184
 wmf4545		1H	IN A		10.65.5.185
+labmon1001	1H	IN A		10.65.5.185
 wmf4546		1H	IN A		10.65.5.186
 osmium		1H	IN A		10.65.5.186
 wmf4547		1H	IN A		10.65.5.187
