@@ -613,7 +613,7 @@ cz			1H	IN CNAME	wikimedia.cz.
 datasets		1H	IN CNAME	stat1001
 download		1H	IN CNAME	dumps
 etherpad		1H	IN CNAME	zirconium.wikimedia.org.
-fundraising		1H	IN CNAME	al-fundraising
+fundraising		1H	IN CNAME	barium-fundraising
 ganglia			1H	IN CNAME	nickel
 ishmael			1H	IN CNAME	neon
 tendril			1H	IN CNAME	neon
