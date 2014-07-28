@@ -16,43 +16,43 @@ $ORIGIN {{ zonename }}.
 
 ; 208.80.155.0/27 Frack Payments subnet
 
-1	1H IN PTR	vlan-1131.pfw-eqiad.wikimedia.org.
-2	1H IN PTR	pay-lvs1001.wikimedia.org.
-3	1H IN PTR	pay-lvs1002.wikimedia.org.
-4	1H IN PTR	boron.wikimedia.org.
-5	1H IN PTR	payments.wikimedia.org.
-6	1H IN PTR	frack-ubuntu-repo.wikimedia.org.
-7	1H IN PTR	frack-payments-nat.wikimedia.org.
-8	1H IN PTR	silicon.wikimedia.org.
-9	1H IN PTR	tellurium.wikimedia.org.
-10	1H IN PTR	samarium.wikimedia.org.
-11	1H IN PTR	barium.wikimedia.org.
-12	1H IN PTR	thulium.wikimedia.org.
-13	1H IN PTR	lutetium.wikimedia.org.
-14      1H IN PTR       barium-fundraising.wikimedia.org.
+1   1H IN PTR   vlan-1131.pfw-eqiad.wikimedia.org.
+2   1H IN PTR   pay-lvs1001.wikimedia.org.
+3   1H IN PTR   pay-lvs1002.wikimedia.org.
+4   1H IN PTR   boron.wikimedia.org.
+5   1H IN PTR   payments.wikimedia.org.
+6   1H IN PTR   frack-ubuntu-repo.wikimedia.org.
+7   1H IN PTR   frack-payments-nat.wikimedia.org.
+8   1H IN PTR   silicon.wikimedia.org.
+9   1H IN PTR   tellurium.wikimedia.org.
+10  1H IN PTR   samarium.wikimedia.org.
+11  1H IN PTR   barium.wikimedia.org.
+12  1H IN PTR   thulium.wikimedia.org.
+13  1H IN PTR   lutetium.wikimedia.org.
+14  1H IN PTR   barium-fundraising.wikimedia.org.
 
 ; 208.80.155.32/27 Infrastructure block
 
 ; 208.80.155.32/30 cr2-knams <-> cr2-eqiad GRE Tele2 tunnel
 
-33	1H IN PTR	gr-5-0-2.cr2-eqiad.wikimedia.org.
-34	1H IN PTR	gr-0-0-0.cr2-knams.wikimedia.org.
+33  1H IN PTR   gr-5-0-2.cr2-eqiad.wikimedia.org.
+34  1H IN PTR   gr-0-0-0.cr2-knams.wikimedia.org.
 
 ;208.80.155.36/31 cr1-ulsfo <-> cr2-eqiad 
 
-36	1H IN PTR	xe-5-2-2.cr2-eqiad.wikimedia.org.
-37	1H IN PTR	xe-0-0-3.cr1-ulsfo.wikimedia.org.
+36  1H IN PTR   xe-5-2-2.cr2-eqiad.wikimedia.org.
+37  1H IN PTR   xe-0-0-3.cr1-ulsfo.wikimedia.org.
 
 ;208.80.155.38/31 cr2-ulsfo <-> cr1-eqiad
 
-38	1H IN PTR	xe-4-2-1.cr1-eqiad.wikimedia.org.
-39	1H IN PTR	xe-1-2-0.cr2-ulsfo.wikimedia.org.
+38  1H IN PTR   xe-4-2-1.cr1-eqiad.wikimedia.org.
+39  1H IN PTR   xe-1-2-0.cr2-ulsfo.wikimedia.org.
 
 ;208.80.155.64/28 Sandbox1-b-eqiad subnet
-65	1H IN PTR	vrrp-gw-1052.wikimedia.org.
-66	1H IN PTR	ae2-1052.cr1-eqiad.wikimedia.org.
-67	1H IN PTR	ae2-1052.cr2-eqiad.wikimedia.org.
-68	1H IN PTR	dickson.freenode.net.
+65  1H IN PTR   vrrp-gw-1052.wikimedia.org.
+66  1H IN PTR   ae2-1052.cr1-eqiad.wikimedia.org.
+67  1H IN PTR   ae2-1052.cr2-eqiad.wikimedia.org.
+68  1H IN PTR   dickson.freenode.net.
 
 ; 208.80.155.96/27 public1-d-eqiad subnet
 
