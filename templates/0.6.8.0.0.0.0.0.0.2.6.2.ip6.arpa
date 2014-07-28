@@ -20,30 +20,30 @@ $ORIGIN {{ zonename }}.
 
 $ORIGIN 1.0.0.0.{{ zonename }}.
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       vrrp-gw-100.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-100.wikimedia.org.
 
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae0-100.cr2-pmtpa.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae0-100.cr2-pmtpa.wikimedia.org.
 
 
 ; Service IPs
 
 $ORIGIN a.1.d.e.{{ zonename }}.
 
-e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR       ns1.wikimedia.org.
+e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ns1.wikimedia.org.
 
 ; pmtpa Public Services subnet 2620:0:860:2::/64
 
 $ORIGIN 2.0.0.0.{{ zonename }}.
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0	1H IN PTR	vrrp-gw-101.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-101.wikimedia.org.
 
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f	1H IN PTR	ae0-101.cr2-pmtpa.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae0-101.cr2-pmtpa.wikimedia.org.
 
 ; Machines
 
-7.2.0.c.d.d.e.f.f.f.9.b.9.1.2.0	1H IN PTR	mchenry.wikimedia.org.
-b.e.6.8.d.d.e.f.f.f.9.b.9.1.2.0	1H IN PTR	sanger.wikimedia.org.
-5.6.1.0.2.5.1.0.0.8.0.0.8.0.2.0	1H IN PTR	fenari.wikimedia.org.
+7.2.0.c.d.d.e.f.f.f.9.b.9.1.2.0 1H IN PTR   mchenry.wikimedia.org.
+b.e.6.8.d.d.e.f.f.f.9.b.9.1.2.0 1H IN PTR   sanger.wikimedia.org.
+5.6.1.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   fenari.wikimedia.org.
 
 ; Service IPs
 
@@ -51,14 +51,14 @@ b.e.6.8.d.d.e.f.f.f.9.b.9.1.2.0	1H IN PTR	sanger.wikimedia.org.
 ; Tampa sandbox subnet 2620:0:860:3::/64
 $ORIGIN 3.0.0.0.{{ zonename }}.
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	vrrp-gw-102.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-102.wikimedia.org.
 
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR       ae0-102.cr2-pmtpa.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae0-102.cr2-pmtpa.wikimedia.org.
 
-6.2.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	amaranth.toolserver.org.
-7.2.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	cache-us.stable.toolserver.org.
-8.2.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	mail.toolserver.org.
-4.3.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR	web.amaranth.toolserver.org.
+6.2.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   amaranth.toolserver.org.
+7.2.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cache-us.stable.toolserver.org.
+8.2.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   mail.toolserver.org.
+4.3.2.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   web.amaranth.toolserver.org.
 
 ; Machine
 
@@ -72,20 +72,20 @@ $ORIGIN e.f.{{ zonename }}.
 
 $ORIGIN 0.0.e.f.{{ zonename }}.
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0.cr1-codfw.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0.cr2-codfw.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr2-codfw.wikimedia.org.
 
 ; cr1-eqiad <--> cr1-codfw (2620:0:861:fe01::/64)
 
 $ORIGIN 1.0.e.f.{{ zonename }}.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-4-2-0.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-5-2-1.cr1-codfw.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-0.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-2-1.cr1-codfw.wikimedia.org.
 
 ; cr2-eqiad <--> cr2-codfw (2620:0:861:fe02::/64)
 
 $ORIGIN 2.0.e.f.{{ zonename }}.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-4-2-0.cr2-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-5-2-1.cr2-codfw.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-0.cr2-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-2-1.cr2-codfw.wikimedia.org.
 
 ; Loopback IPs
 
