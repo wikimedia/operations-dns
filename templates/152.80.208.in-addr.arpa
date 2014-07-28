@@ -17,54 +17,54 @@ $ORIGIN {{ zonename }}.
 ; Public subnet 208.80.152.0/25 (208.80.152.0 - 208.80.152.127)
 ; was Squids/LVS subnet
 
-1	1H IN PTR	vrrp-gw-100.wikimedia.org.
+1   1H IN PTR   vrrp-gw-100.wikimedia.org.
 
-32	1H IN PTR	virt0.wikimedia.org.
-33	1H IN PTR	labs-ns0.wikimedia.org.
+32  1H IN PTR   virt0.wikimedia.org.
+33  1H IN PTR   labs-ns0.wikimedia.org.
 
-126	1H IN PTR	ae0-100.cr2-pmtpa.wikimedia.org.
+126 1H IN PTR   ae0-100.cr2-pmtpa.wikimedia.org.
 
 
 ; Public services subnet 208.80.152.128/26 (208.80.152.128 - 208.80.152.191)
 
-129	1H IN PTR	vrrp-gw-101.wikimedia.org.
-133	1H IN PTR	wiki-mail.wikimedia.org.
+129 1H IN PTR   vrrp-gw-101.wikimedia.org.
+133 1H IN PTR   wiki-mail.wikimedia.org.
 
-136	1H IN PTR	mexia.wikimedia.org.
-141	1H IN PTR	wireless.tech.wikimedia.org.
-143	1H IN PTR	url-downloader.wikimedia.org.
-145	1H IN PTR	ae0-101.cr2-pmtpa.wikimedia.org.
+136 1H IN PTR   mexia.wikimedia.org.
+141 1H IN PTR   wireless.tech.wikimedia.org.
+143 1H IN PTR   url-downloader.wikimedia.org.
+145 1H IN PTR   ae0-101.cr2-pmtpa.wikimedia.org.
 
-154	1H IN PTR	pdf2.wikimedia.org.
+154 1H IN PTR   pdf2.wikimedia.org.
 
-165	1H IN PTR	fenari.wikimedia.org.
-167	1H IN PTR	linne.wikimedia.org.
+165 1H IN PTR   fenari.wikimedia.org.
+167 1H IN PTR   linne.wikimedia.org.
 
-170	1H IN PTR	tridge.wikimedia.org.		; Cold Backup Server
+170 1H IN PTR   tridge.wikimedia.org.       ; Cold Backup Server
 
-173	1H IN PTR	dobson.wikimedia.org.
+173 1H IN PTR   dobson.wikimedia.org.
 
-181	1H IN PTR	pdf3.wikimedia.org.
+181 1H IN PTR   pdf3.wikimedia.org.
 
-185	1H IN PTR	dataset2.wikimedia.org.
-186	1H IN PTR	mchenry.wikimedia.org.
-187	1H IN PTR	sanger.wikimedia.org.
+185 1H IN PTR   dataset2.wikimedia.org.
+186 1H IN PTR   mchenry.wikimedia.org.
+187 1H IN PTR   sanger.wikimedia.org.
 
 ; Neighbor blocks, loopback IPs 208.80.152.192/27 (208.80.152.192 - 208.80.152.223)
 
-194	1H IN PTR	pim-rp.wikimedia.org.
+194 1H IN PTR   pim-rp.wikimedia.org.
 
-197	1H IN PTR	cr2-pmtpa.wikimedia.org.
+197 1H IN PTR   cr2-pmtpa.wikimedia.org.
 
 ; LVS out-of-subnet IPs
 
-214	1H IN PTR	ns1.wikimedia.org.
+214 1H IN PTR   ns1.wikimedia.org.
 
 ; 208.80.152.224/27 sandbox vlan
-225	1H IN PTR	vrrp-gw-103.wikimedia.org.
-226	1H IN PTR	amaranth.toolserver.org.
-228	1H IN PTR	ae0-103.cr2-pmtpa.wikimedia.org.
-229	1H IN PTR	ts-array4b.mgmt.toolserver.org.
-230	1H IN PTR	ts-array4a.mgmt.toolserver.org.
+225 1H IN PTR   vrrp-gw-103.wikimedia.org.
+226 1H IN PTR   amaranth.toolserver.org.
+228 1H IN PTR   ae0-103.cr2-pmtpa.wikimedia.org.
+229 1H IN PTR   ts-array4b.mgmt.toolserver.org.
+230 1H IN PTR   ts-array4a.mgmt.toolserver.org.
 
-234	1H IN PTR	web.amaranth.toolserver.org.
+234 1H IN PTR   web.amaranth.toolserver.org.
