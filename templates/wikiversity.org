@@ -1,30 +1,30 @@
 {% from "helpers/langlist.tmpl" import langlist with context -%}
 $TTL 3600
 $ORIGIN {{ zonename }}.
-@			1D	IN SOA	ns0.wikimedia.org.	hostmaster.wikimedia.org.	(
-					{{ serial }}	; serial
-					12H		; refresh
-					2H		; retry
-					2W		; expiry
-					1H		; negative cache TTL
-					)
+@           1D  IN SOA  ns0.wikimedia.org.  hostmaster.wikimedia.org.   (
+                    {{ serial }}    ; serial
+                    12H     ; refresh
+                    2H      ; retry
+                    2W      ; expiry
+                    1H      ; negative cache TTL
+                    )
 
 ; Name servers
 
-			1D	IN NS	ns0.wikimedia.org.
-			1D	IN NS	ns1.wikimedia.org.
-			1D	IN NS	ns2.wikimedia.org.
+            1D  IN NS   ns0.wikimedia.org.
+            1D  IN NS   ns1.wikimedia.org.
+            1D  IN NS   ns2.wikimedia.org.
 
 ; Mail exchangers
 
-                        1H	IN MX   10      polonium.wikimedia.org.
-                        1H	IN MX   50      lead.wikimedia.org.
+            1H  IN MX   10  polonium.wikimedia.org.
+            1H  IN MX   50  lead.wikimedia.org.
 
 
 ; Canonical names
 
-                        1H      IN A    208.80.154.224
-			1H	IN AAAA	2620:0:861:ed1a::1
+            1H  IN A    208.80.154.224
+            1H  IN AAAA 2620:0:861:ed1a::1
 
 ; Servers (alphabetic order)
 
@@ -32,15 +32,15 @@ $ORIGIN {{ zonename }}.
 
 ; Wikis (alphabetic order)
 
-beta			1H	IN CNAME	wikiversity-lb.wikimedia.org.
-beta.m			1H	IN CNAME	m.wikimedia.org.
-www			1H	IN CNAME	wikiversity-lb.wikimedia.org.
+beta        1H  IN CNAME    wikiversity-lb.wikimedia.org.
+beta.m      1H  IN CNAME    m.wikimedia.org.
+www         1H  IN CNAME    wikiversity-lb.wikimedia.org.
 
 ; All languages will automatically be included here
 {{ langlist('wikiversity-lb.wikimedia.org.') }}
 
 ; Other websites
-donate			1H	IN CNAME	wikiversity-lb.wikimedia.org.
-www.donate		1H	IN CNAME	wikiversity-lb.wikimedia.org.
-shop			1H	IN CNAME	wikimedia-lb.wikimedia.org.
-store			1H	IN CNAME	wikimedia-lb.wikimedia.org.
+donate      1H  IN CNAME    wikiversity-lb.wikimedia.org.
+www.donate  1H  IN CNAME    wikiversity-lb.wikimedia.org.
+shop        1H  IN CNAME    wikimedia-lb.wikimedia.org.
+store       1H  IN CNAME    wikimedia-lb.wikimedia.org.
