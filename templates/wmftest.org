@@ -1,27 +1,27 @@
 {% from "helpers/langlist.tmpl" import langlist with context -%}
 $TTL 3600
 $ORIGIN {{ zonename }}.
-@			1D	IN SOA	ns0.wikimedia.org.	hostmaster.wikimedia.org.	(
-					{{ serial }}		; serial
-					12H		; refresh
-					2H		; retry
-					2W		; expiry
-					1H		; negative cache TTL
-					)
+@           1D  IN SOA  ns0.wikimedia.org.  hostmaster.wikimedia.org.   (
+                    {{ serial }}        ; serial
+                    12H     ; refresh
+                    2H      ; retry
+                    2W      ; expiry
+                    1H      ; negative cache TTL
+                    )
 
 ; Name servers
 
-			1D	IN NS	ns0.wikimedia.org.	
-			1D	IN NS	ns1.wikimedia.org.	
-			1D	IN NS	ns2.wikimedia.org.	
+            1D  IN NS   ns0.wikimedia.org.
+            1D  IN NS   ns1.wikimedia.org.
+            1D  IN NS   ns2.wikimedia.org.
 
 ; Mail exchangers
 
-                        1H	IN MX   10      ASPMX.L.GOOGLE.COM.
-                        1H	IN MX   20      ALT1.ASPMX.L.GOOGLE.COM.
-                        1H	IN MX   30      ALT2.ASPMX.L.GOOGLE.COM.
-                        1H	IN MX   40      ASPMX2.GOOGLEMAIL.COM.
-                        1H	IN MX   50      ASPMX3.GOOGLEMAIL.COM.
+            1H  IN MX   10      ASPMX.L.GOOGLE.COM.
+            1H  IN MX   20      ALT1.ASPMX.L.GOOGLE.COM.
+            1H  IN MX   30      ALT2.ASPMX.L.GOOGLE.COM.
+            1H  IN MX   40      ASPMX2.GOOGLEMAIL.COM.
+            1H  IN MX   50      ASPMX3.GOOGLEMAIL.COM.
 
 
 ; Canonical names
@@ -37,4 +37,4 @@ $ORIGIN {{ zonename }}.
 ; Wikis (alphabetic order)
 
 ; Other websites
-googleffffffffbd5bc537	1h	IN CNAME	google.com.
+googleffffffffbd5bc537  1h  IN CNAME    google.com.
