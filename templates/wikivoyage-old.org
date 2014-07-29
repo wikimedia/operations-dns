@@ -24,26 +24,26 @@ $ORIGIN {{ zonename }}.
 
 ; servers
 
-america         1H  IN A        5.9.71.41
-asia            1H  IN A        188.40.41.16
+america     1H  IN A    5.9.71.41
+asia        1H  IN A    188.40.41.16
 
 ; services
 
 www         1H      IN CNAME    asia
-mail            1H      IN A        188.40.41.16
+mail        1H      IN A        188.40.41.16
 
 ; projects / special
 
-arch            1H  IN CNAME    asia
-assoc           1H  IN CNAME    asia
-blog            1H  IN CNAME    asia
-dumps           1H  IN CNAME    asia
-general         1H  IN CNAME    asia
-hist            1H  IN CNAME    asia
-shared          1H  IN CNAME    asia
+arch        1H  IN CNAME    asia
+assoc       1H  IN CNAME    asia
+blog        1H  IN CNAME    asia
+dumps       1H  IN CNAME    asia
+general     1H  IN CNAME    asia
+hist        1H  IN CNAME    asia
+shared      1H  IN CNAME    asia
 svn         1H  IN CNAME    asia
-tech            1H  IN CNAME    asia
-testing         1H  IN CNAME    asia
+tech        1H  IN CNAME    asia
+testing     1H  IN CNAME    asia
 wts         1H  IN CNAME    america
 
 ; wikis / languages
