@@ -1,6 +1,6 @@
 $TTL 3600
 $ORIGIN {{ zonename }}.
-@                       1D      IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
+@       1D IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
                                         {{ serial }}    ; serial
                                         12H             ; refresh
                                         2H              ; retry
@@ -10,31 +10,31 @@ $ORIGIN {{ zonename }}.
 
 ; Name servers
 
-                        1D      IN NS   ns0.wikimedia.org.
-                        1D      IN NS   ns1.wikimedia.org.
-                        1D      IN NS   ns2.wikimedia.org.
+        1D IN NS   ns0.wikimedia.org.
+        1D IN NS   ns1.wikimedia.org.
+        1D IN NS   ns2.wikimedia.org.
 
 ; Toolserver subnet: 185.15.59.192/27 (185.15.59.192 - 185.15.59.223)
 
-192-223 1H IN NS        a.ns.toolserver.org.
-        1H IN NS        b.ns.toolserver.org.
-        1H IN NS        c.ns.toolserver.org.
+192-223 1H IN NS    a.ns.toolserver.org.
+        1H IN NS    b.ns.toolserver.org.
+        1H IN NS    c.ns.toolserver.org.
 {% for i in range(192, 224) %}
-{{ i }}	1H IN CNAME	{{ i }}.192-223.59.15.185.in-addr.arpa.
+{{ i }} 1H IN CNAME {{ i }}.192-223.59.15.185.in-addr.arpa.
 {%- endfor %}
 
 ; Neighbor blocks: 185.15.59.244/29
 
 ; cr1-esams <--> mr1-esams: 185.15.59.244/31
 
-244 1H  IN PTR  ae1-404.cr1-esams.wikimedia.org.
-245 1H  IN PTR  ge-0-0-1-404.mr1-esams.wikimedia.org.
+244     1H  IN PTR  ae1-404.cr1-esams.wikimedia.org.
+245     1H  IN PTR  ge-0-0-1-404.mr1-esams.wikimedia.org.
 
 ; cr2-knams <--> mr1-esams: 185.15.59.246/31
 
-246 1H  IN PTR  ae1-405.cr2-knams.wikimedia.org.
-247 1H  IN PTR  ge-0-0-1-405.mr1-esams.wikimedia.org.
+246     1H  IN PTR  ae1-405.cr2-knams.wikimedia.org.
+247     1H  IN PTR  ge-0-0-1-405.mr1-esams.wikimedia.org.
 
 ; OOB Tilaa transit subnet: 185.15.59.248/29 (185.15.59.248 - 185.15.59.255)
 
-249 1H  IN PTR  ge-2-0-0.mr1-esams.wikimedia.org.
+249     1H  IN PTR  ge-2-0-0.mr1-esams.wikimedia.org.
