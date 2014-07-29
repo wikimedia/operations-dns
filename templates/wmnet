@@ -409,6 +409,8 @@ db1070                  1H      IN A            10.64.48.25
 db1071                  1H      IN A            10.64.48.26
 db1072                  1H      IN A            10.64.48.27
 db1073                  1H      IN A            10.64.48.28
+dbproxy1001     1H  IN A        10.64.0.165
+dbproxy1002     1H  IN A        10.64.0.166
 dbstore1001     1H  IN A        10.64.48.17
 dbstore1002     1H  IN A        10.64.48.18
 dysprosium      1H  IN A        10.64.32.81
@@ -892,7 +894,9 @@ WMF3134     1H  IN A    10.65.2.1
 WMF3133     1H  IN A    10.65.2.2
 actinium    1H  IN A    10.65.2.2
 WMF3132     1H  IN A    10.65.2.3
+dbproxy1002     1H  IN A    10.65.2.3
 WMF3131     1H  IN A    10.65.2.4
+dbproxy1001     1H  IN A    10.65.2.4
 WMF3130     1H  IN A    10.65.2.5
 WMF3129     1H  IN A    10.65.2.6
 WMF3128     1H  IN A    10.65.2.7
