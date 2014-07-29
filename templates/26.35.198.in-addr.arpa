@@ -20,10 +20,10 @@ $ORIGIN {{ zonename }}.
 ; 198.35.26.0/28 (198.35.26.0 - 198.35.26.63)
 ; Subnet public1-ulsfo
 
-1	1H IN PTR	vrrp-gw-1201.wikimedia.org.
-2	1H IN PTR	ae1-1201.cr1-ulsfo.wikimedia.org.
-3	1H IN PTR	ae1-1201.cr2-ulsfo.wikimedia.org.
-5	1H IN PTR	bast4001.wikimedia.org.
+1   1H IN PTR   vrrp-gw-1201.wikimedia.org.
+2   1H IN PTR   ae1-1201.cr1-ulsfo.wikimedia.org.
+3   1H IN PTR   ae1-1201.cr2-ulsfo.wikimedia.org.
+5   1H IN PTR   bast4001.wikimedia.org.
 
 ; 198.35.26.96/27 (198.35.26.96 - 198.35.26.127)
 ; LVS service IPs
@@ -32,39 +32,39 @@ $ORIGIN {{ zonename }}.
 
 ; - - 198.35.26.96/29 LVS Desktop
 
-96      1H IN PTR   text-lb.ulsfo.wikimedia.org.
+96  1H IN PTR   text-lb.ulsfo.wikimedia.org.
 
 ; - - 198.35.26.104/29 LVS Mobile Zero & general support
 
-105     1H IN PTR   login-lb.ulsfo.wikimedia.org.
-106     1H IN PTR   bits-lb.ulsfo.wikimedia.org.
+105 1H IN PTR   login-lb.ulsfo.wikimedia.org.
+106 1H IN PTR   bits-lb.ulsfo.wikimedia.org.
 
-108     1H IN PTR   mobile-lb.ulsfo.wikimedia.org.
+108 1H IN PTR   mobile-lb.ulsfo.wikimedia.org.
 
 ; - 198.35.26.112/28 LVS Multimedia & Misc
 
 ; - - 198.35.26.112/29 LVS Multimedia
 
-112     1H IN PTR   upload-lb.ulsfo.wikimedia.org.
+112 1H IN PTR   upload-lb.ulsfo.wikimedia.org.
 
 ; - - 198.35.26.120/29 LVS Misc
 
 ; 198.35.26.192/27
 ; Infrastructure Space
 
-192	1H IN PTR	cr1-ulsfo.wikimedia.org.
-193	1H IN PTR	cr2-ulsfo.wikimedia.org.
+192 1H IN PTR   cr1-ulsfo.wikimedia.org.
+193 1H IN PTR   cr2-ulsfo.wikimedia.org.
 
 ; 198.35.26.196/31
-196	1H IN PTR	ae0-2.cr1-ulsfo.wikimedia.org.
-197	1H IN PTR	ae0-2.cr2-ulsfo.wikimedia.org.
+196 1H IN PTR   ae0-2.cr1-ulsfo.wikimedia.org.
+197 1H IN PTR   ae0-2.cr2-ulsfo.wikimedia.org.
 
 ; 198.35.26.198/31
 
 ; 198.35.26.200/29
-201	1H IN PTR	cr1-ulsfo.wikimedia.org.
-202	1H IN PTR	cr2-ulsfo.wikimedia.org.
-203	1H IN PTR	mr1-ulsfo.wikimedia.org.
+201 1H IN PTR   cr1-ulsfo.wikimedia.org.
+202 1H IN PTR   cr2-ulsfo.wikimedia.org.
+203 1H IN PTR   mr1-ulsfo.wikimedia.org.
 
 ; 198.35.26.208/31
 
