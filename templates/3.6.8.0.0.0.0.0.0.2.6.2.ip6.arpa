@@ -59,14 +59,14 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 
 $ORIGIN 0.0.e.f.{{ zonename }}.
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0.cr1-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       ae0.cr2-ulsfo.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr1-ulsfo.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr2-ulsfo.wikimedia.org.
 
 ; cr1-ulsfo <--> cr2-eqiad (2620:0:863:fe01::/64)
 
 $ORIGIN 1.0.e.f.{{ zonename }}.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-5-2-2.cr2-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       xe-0-0-3-538.cr1-ulsfo.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-2-2.cr2-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-0-3-538.cr1-ulsfo.wikimedia.org.
 
 ; empty (2620:0:863:fe02::/64)
 
@@ -79,14 +79,14 @@ $ORIGIN 3.0.e.f.{{ zonename }}.
 ; cr2-ulsfo <--> cr1-eqiad (2620:0:863:fe04::/64)
 
 $ORIGIN 4.0.e.f.{{ zonename }}.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	xe-4-2-1.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR	xe-1-2-0.cr2-ulsfo.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-1.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-1-2-0.cr2-ulsfo.wikimedia.org.
 
 ; Loopback IPs
 $ORIGIN f.f.f.f.{{ zonename }}.
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       cr1-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR       cr2-ulsfo.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-ulsfo.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-ulsfo.wikimedia.org.
 
 
 ; LVS Service IPs, 2620:0:863:ed1a::/64
@@ -95,21 +95,21 @@ $ORIGIN f.f.f.f.{{ zonename }}.
 
 $ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
-1.0.0.0                             1H IN PTR   text-lb.ulsfo.wikimedia.org.
+1.0.0.0                         1H IN PTR   text-lb.ulsfo.wikimedia.org.
 
 ; LVS Mobile Zero & general support, 2620:0:863:ed1a::0::/96
 
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
-9.0.0.0                             1H IN PTR   login-lb.ulsfo.wikimedia.org.
-a.0.0.0                             1H IN PTR   bits-lb.ulsfo.wikimedia.org.
-c.0.0.0                             1H IN PTR   mobile-lb.ulsfo.wikimedia.org.
+9.0.0.0                         1H IN PTR   login-lb.ulsfo.wikimedia.org.
+a.0.0.0                         1H IN PTR   bits-lb.ulsfo.wikimedia.org.
+c.0.0.0                         1H IN PTR   mobile-lb.ulsfo.wikimedia.org.
 
 ; LVS Multimedia
 
 $ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
-b.0.0.0                             1H IN PTR   upload-lb.ulsfo.wikimedia.org.
+b.0.0.0                         1H IN PTR   upload-lb.ulsfo.wikimedia.org.
 
 ; LVS Misc
 
