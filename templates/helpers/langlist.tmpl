@@ -1,10 +1,10 @@
 {% from "helpers/langs.tmpl" import langs %}
 
 {% macro langcname(lang, domain) -%}
-{{ lang }}			1H	IN CNAME	{{ domain }}
-www.{{ lang }}			1H	IN CNAME	{{ domain }}
-{{ lang }}.m			1H	IN CNAME	m.wikimedia.org.
-{{ lang }}.zero			1H	IN CNAME	m.wikimedia.org.
+{{ lang }}              1H  IN CNAME    {{ domain }}
+www.{{ lang }}          1H  IN CNAME    {{ domain }}
+{{ lang }}.m            1H  IN CNAME    m.wikimedia.org.
+{{ lang }}.zero         1H  IN CNAME    m.wikimedia.org.
 {%- endmacro %}
 
 {% macro langlist(domain) -%}
