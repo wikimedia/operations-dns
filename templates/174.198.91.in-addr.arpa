@@ -17,64 +17,64 @@ $ORIGIN {{ zonename }}.
 
 ; Public services subnet 91.198.174.0/25 (91.198.174.0 - 91.198.174.127)
 
-1	1H IN PTR	vrrp-gw-100.esams.wikimedia.org.
-2	1H IN PTR	ae1-100.cr1-esams.wikimedia.org.
-3	1H IN PTR	ae1-100.cr2-knams.wikimedia.org.
+1   1H IN PTR   vrrp-gw-100.esams.wikimedia.org.
+2   1H IN PTR   ae1-100.cr1-esams.wikimedia.org.
+3   1H IN PTR   ae1-100.cr2-knams.wikimedia.org.
 
-6	1H IN PTR	recursor0.esams.wikimedia.org.
+6   1H IN PTR   recursor0.esams.wikimedia.org.
 
-11	1H IN PTR	vl100-eth0.lvs3001.esams.wmnet.
-12	1H IN PTR	vl100-eth0.lvs3002.esams.wmnet.
-13	1H IN PTR	vl100-eth0.lvs3003.esams.wmnet.
-14	1H IN PTR	vl100-eth0.lvs3004.esams.wmnet.
+11  1H IN PTR   vl100-eth0.lvs3001.esams.wmnet.
+12  1H IN PTR   vl100-eth0.lvs3002.esams.wmnet.
+13  1H IN PTR   vl100-eth0.lvs3003.esams.wmnet.
+14  1H IN PTR   vl100-eth0.lvs3004.esams.wmnet.
 
-58	1H IN PTR	amssq48.esams.wikimedia.org.
-59	1H IN PTR	amssq49.esams.wikimedia.org.
-60	1H IN PTR	amssq50.esams.wikimedia.org.
-61	1H IN PTR	amssq51.esams.wikimedia.org.
-62	1H IN PTR	amssq52.esams.wikimedia.org.
-63	1H IN PTR	amssq53.esams.wikimedia.org.
-64	1H IN PTR	amssq54.esams.wikimedia.org.
-65	1H IN PTR	amssq55.esams.wikimedia.org.
-66	1H IN PTR	amssq56.esams.wikimedia.org.
-67	1H IN PTR	amssq57.esams.wikimedia.org.
-68	1H IN PTR	amssq58.esams.wikimedia.org.
-69	1H IN PTR	amssq59.esams.wikimedia.org.
-70	1H IN PTR	amssq60.esams.wikimedia.org.
-71	1H IN PTR	amssq61.esams.wikimedia.org.
-72	1H IN PTR	amssq62.esams.wikimedia.org.
-73	1H IN PTR	cp3003.esams.wikimedia.org.
-74	1H IN PTR	cp3004.esams.wikimedia.org.
-75	1H IN PTR	cp3005.esams.wikimedia.org.
-76	1H IN PTR	cp3006.esams.wikimedia.org.
-77	1H IN PTR	cp3007.esams.wikimedia.org.
-78	1H IN PTR	cp3008.esams.wikimedia.org.
-79	1H IN PTR	cp3009.esams.wikimedia.org.
-80	1H IN PTR	cp3010.esams.wikimedia.org.
-81	1H IN PTR	cp3011.esams.wikimedia.org.
-82	1H IN PTR	cp3012.esams.wikimedia.org.
-89	1H IN PTR	cp3019.esams.wikimedia.org.
-90	1H IN PTR	cp3020.esams.wikimedia.org.
-91	1H IN PTR	cp3021.esams.wikimedia.org.
-92	1H IN PTR	cp3022.esams.wikimedia.org.
+58  1H IN PTR   amssq48.esams.wikimedia.org.
+59  1H IN PTR   amssq49.esams.wikimedia.org.
+60  1H IN PTR   amssq50.esams.wikimedia.org.
+61  1H IN PTR   amssq51.esams.wikimedia.org.
+62  1H IN PTR   amssq52.esams.wikimedia.org.
+63  1H IN PTR   amssq53.esams.wikimedia.org.
+64  1H IN PTR   amssq54.esams.wikimedia.org.
+65  1H IN PTR   amssq55.esams.wikimedia.org.
+66  1H IN PTR   amssq56.esams.wikimedia.org.
+67  1H IN PTR   amssq57.esams.wikimedia.org.
+68  1H IN PTR   amssq58.esams.wikimedia.org.
+69  1H IN PTR   amssq59.esams.wikimedia.org.
+70  1H IN PTR   amssq60.esams.wikimedia.org.
+71  1H IN PTR   amssq61.esams.wikimedia.org.
+72  1H IN PTR   amssq62.esams.wikimedia.org.
+73  1H IN PTR   cp3003.esams.wikimedia.org.
+74  1H IN PTR   cp3004.esams.wikimedia.org.
+75  1H IN PTR   cp3005.esams.wikimedia.org.
+76  1H IN PTR   cp3006.esams.wikimedia.org.
+77  1H IN PTR   cp3007.esams.wikimedia.org.
+78  1H IN PTR   cp3008.esams.wikimedia.org.
+79  1H IN PTR   cp3009.esams.wikimedia.org.
+80  1H IN PTR   cp3010.esams.wikimedia.org.
+81  1H IN PTR   cp3011.esams.wikimedia.org.
+82  1H IN PTR   cp3012.esams.wikimedia.org.
+89  1H IN PTR   cp3019.esams.wikimedia.org.
+90  1H IN PTR   cp3020.esams.wikimedia.org.
+91  1H IN PTR   cp3021.esams.wikimedia.org.
+92  1H IN PTR   cp3022.esams.wikimedia.org.
 
-100	1H IN PTR	cp3001.esams.wikimedia.org.
-101	1H IN PTR	cp3002.esams.wikimedia.org.
-102	1H IN PTR	ssl3001.esams.wikimedia.org.
-103	1H IN PTR	ssl3002.esams.wikimedia.org.
-104	1H IN PTR	ssl3003.esams.wikimedia.org.
-105	1H IN PTR	ssl3004.esams.wikimedia.org.
-106	1H IN PTR	nescio.esams.wikimedia.org.
-107	1H IN PTR	slauerhoff-array.esams.wikimedia.org.
-108	1H IN PTR	slauerhoff.esams.wikimedia.org.
-109	1H IN PTR	amslvs1.esams.wikimedia.org.
-110	1H IN PTR	amslvs2.esams.wikimedia.org.
-111	1H IN PTR	amslvs3.esams.wikimedia.org.
-112	1H IN PTR	amslvs4.esams.wikimedia.org.
-113	1H IN PTR	hooft.esams.wikimedia.org.
+100 1H IN PTR   cp3001.esams.wikimedia.org.
+101 1H IN PTR   cp3002.esams.wikimedia.org.
+102 1H IN PTR   ssl3001.esams.wikimedia.org.
+103 1H IN PTR   ssl3002.esams.wikimedia.org.
+104 1H IN PTR   ssl3003.esams.wikimedia.org.
+105 1H IN PTR   ssl3004.esams.wikimedia.org.
+106 1H IN PTR   nescio.esams.wikimedia.org.
+107 1H IN PTR   slauerhoff-array.esams.wikimedia.org.
+108 1H IN PTR   slauerhoff.esams.wikimedia.org.
+109 1H IN PTR   amslvs1.esams.wikimedia.org.
+110 1H IN PTR   amslvs2.esams.wikimedia.org.
+111 1H IN PTR   amslvs3.esams.wikimedia.org.
+112 1H IN PTR   amslvs4.esams.wikimedia.org.
+113 1H IN PTR   hooft.esams.wikimedia.org.
 
-121	1H IN PTR	eeden.esams.wikimedia.org.
-122	1H IN PTR	maerlant.esams.wikimedia.org.
+121 1H IN PTR   eeden.esams.wikimedia.org.
+122 1H IN PTR   maerlant.esams.wikimedia.org.
 
 ; empty: 91.198.174.128/26 (91.198.174.128 - 91.198.174.191)
 
@@ -113,42 +113,42 @@ $ORIGIN {{ zonename }}.
 230     1H IN PTR       wikinews-lb.esams.wikimedia.org.
 231     1H IN PTR       wikiversity-lb.esams.wikimedia.org.
 232     1H IN PTR       mediawiki-lb.esams.wikimedia.org.
-233		1H IN PTR       bits-lb.esams.wikimedia.org.
+233     1H IN PTR       bits-lb.esams.wikimedia.org.
 
-235		1H IN PTR		foundation-lb.esams.wikimedia.org.
-236		1H IN PTR		mobile-lb.esams.wikimedia.org.
-237		1H IN PTR		wikidata-lb.esams.wikimedia.org.
-238		1H IN PTR		wikivoyage-lb.esams.wikimedia.org.
-239	1H IN PTR	ns2.wikimedia.org.
+235     1H IN PTR       foundation-lb.esams.wikimedia.org.
+236     1H IN PTR       mobile-lb.esams.wikimedia.org.
+237     1H IN PTR       wikidata-lb.esams.wikimedia.org.
+238     1H IN PTR       wikivoyage-lb.esams.wikimedia.org.
+239 1H IN PTR   ns2.wikimedia.org.
 
 ; Neighbor block between cr2-knams and csw2-esams (91.198.174.240/31)
 
-240	1H IN PTR	ae1-402.cr2-knams.wikimedia.org.
-241	1H IN PTR	vl402.csw2-esams.wikimedia.org.
+240 1H IN PTR   ae1-402.cr2-knams.wikimedia.org.
+241 1H IN PTR   vl402.csw2-esams.wikimedia.org.
 
 ; Temp Neighbor block between cr1-esams and cr2-knams (91.198.174.242/31)
 
-242	1H IN PTR	ae1-401.cr1-esams.wikimedia.org.
-243	1H IN PTR	ae2-401.cr2-knams.wikimedia.org.
+242 1H IN PTR   ae1-401.cr1-esams.wikimedia.org.
+243 1H IN PTR   ae2-401.cr2-knams.wikimedia.org.
 
 ; Loopback ips
 
-244	1H IN PTR	csw2-esams.wikimedia.org.
-245	1H IN PTR	cr1-esams.wikimedia.org.
-246	1H IN PTR	cr2-knams.wikimedia.org.
-247	1H IN PTR	mr1-esams.wikimedia.org.
+244 1H IN PTR   csw2-esams.wikimedia.org.
+245 1H IN PTR   cr1-esams.wikimedia.org.
+246 1H IN PTR   cr2-knams.wikimedia.org.
+247 1H IN PTR   mr1-esams.wikimedia.org.
 
 ; Neighbor block between cr1-eqiad and cr2-knams (91.198.174.250/31)
 
-250	1H IN PTR	xe-4-2-2.cr1-eqiad.wikimedia.org.
-251	1H IN PTR	xe-1-1-0.cr2-knams.wikimedia.org.
+250 1H IN PTR   xe-4-2-2.cr1-eqiad.wikimedia.org.
+251 1H IN PTR   xe-1-1-0.cr2-knams.wikimedia.org.
 
 ; Neighbor block between cr2-knams and cr1-esams (91.198.174.252/31)
 
-252	1H IN PTR	xe-0-0-1.cr1-esams.wikimedia.org.
-253	1H IN PTR	xe-0-0-0.cr2-knams.wikimedia.org.
+252 1H IN PTR   xe-0-0-1.cr1-esams.wikimedia.org.
+253 1H IN PTR   xe-0-0-0.cr2-knams.wikimedia.org.
 
 ; Neighbor block between cr1-esams and cr2-knams (91.198.174.254/31)
 
-254	1H IN PTR	ae1-401.cr1-esams.wikimedia.org.
-255	1H IN PTR	ae1-401.cr2-knams.wikimedia.org.
+254 1H IN PTR   ae1-401.cr1-esams.wikimedia.org.
+255 1H IN PTR   ae1-401.cr2-knams.wikimedia.org.
