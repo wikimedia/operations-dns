@@ -484,7 +484,6 @@ $ORIGIN 0.64.{{ zonename }}.
 19  1H IN PTR   db1015.eqiad.wmnet.
 20  1H IN PTR   db1016.eqiad.wmnet.
 21  1H IN PTR   fluorine.eqiad.wmnet.
-22  1H IN PTR   ms1002.eqiad.wmnet.
 23  1H IN PTR   ms1003.eqiad.wmnet.
 24  1H IN PTR   ms1004.eqiad.wmnet.
 25  1H IN PTR   es1001.eqiad.wmnet.
@@ -647,9 +646,10 @@ $ORIGIN 1.64.{{ zonename }}.
 ; 10.64.4.0/24 - labs-hosts1-a-eqiad
 $ORIGIN 4.64.{{ zonename }}.
 
-1   1H IN PTR   vrrp-gw-1117.eqiad.wmnet.
-2   1H IN PTR   ae1-1117.cr1-eqiad.wikimedia.org.
-3   1H IN PTR   ae1-1117.cr2-eqiad.wikimedia.org.
+1        1H IN PTR      vrrp-gw-1117.eqiad.wmnet.
+2        1H IN PTR      ae1-1117.cr1-eqiad.wikimedia.org.
+3        1H IN PTR      ae1-1117.cr2-eqiad.wikimedia.org.
+10       1H IN PTR      labstore1003.eqiad.wmnet.org.
 
 ; 10.64.5.0/24 - analytics1-a-eqiad
 $ORIGIN 5.64.{{ zonename }}.
@@ -2141,7 +2141,7 @@ $ORIGIN 5.65.{{ zonename }}.
 
 1   1H  IN PTR      ms1001.mgmt.eqiad.wmnet.
 1   1H  IN PTR      WMF3070.mgmt.eqiad.wmnet.
-2   1H  IN PTR      ms1002.mgmt.eqiad.wmnet.
+2   1H  IN PTR      labstore1003.mgmt.eqiad.wmnet.
 2   1H  IN PTR      WMF3249.mgmt.eqiad.wmnet.
 3   1H  IN PTR      ms1003.mgmt.eqiad.wmnet.
 3   1H  IN PTR      WMF3069.mgmt.eqiad.wmnet.
