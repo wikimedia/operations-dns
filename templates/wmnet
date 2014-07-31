@@ -2025,6 +2025,8 @@ re0.cr1-codfw   1H  IN A    10.193.0.10
 re1.cr1-codfw   1H  IN A    10.193.0.11
 re0.cr2-codfw   1H  IN A    10.193.0.12
 re1.cr2-codfw   1H  IN A    10.193.0.13
+scs-a1-codfw    1H  IN A    10.193.0.14
+scs-c1-codfw    1H  IN A    10.193.0.15
 
 ;
 ; ESAMS
