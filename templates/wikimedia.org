@@ -552,7 +552,7 @@ zero            1H  IN CNAME    wikimedia-lb
 
 ; Other websites (NO wikis!)
 analytics       1H  IN CNAME    stat1001
-blog            5M  IN CNAME    holmium.wikimedia.org.
+blog            5M  IN CNAME    wikimediablog.wordpress.com.
 bugs            1H  IN CNAME    zirconium
 bugzilla        1H  IN CNAME    zirconium
 bug-attachment      1H  IN CNAME    zirconium
@@ -618,7 +618,7 @@ smokeping       1H  IN CNAME    netmon1001
 store           1H  IN CNAME    wikimedia-lb
 stats           1H  IN CNAME    stat1001
 status          1H  IN CNAME    status.watchmouse.com.
-techblog        5M  IN CNAME    holmium.wikimedia.org.
+techblog        5M  IN CNAME    wikimediablog.wordpress.com.
 ticket          1H  IN CNAME    iodine
 ubuntu          1H  IN A        208.80.154.10
 ubuntu          1H  IN AAAA     2620:0:861:1:208:80:154:10
