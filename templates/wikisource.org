@@ -26,6 +26,9 @@ $ORIGIN {{ zonename }}.
             1H  IN A    208.80.154.224
             1H  IN AAAA 2620:0:861:ed1a::1
 
+; Google Webmaster Tools verification record for search management
+            600 IN TXT  "google-site-verification=5JHI3pfbO766dhRWL8b4E4CcKiUjsTLtz98zIwhEEMU"
+
 ; Servers (alphabetic order)
 
 ; Service aliases
