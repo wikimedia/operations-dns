@@ -227,7 +227,7 @@ plugins => { geoip => {
             dcmap => {
                 eqiad => upload-lb.eqiad.wikimedia.org.
                 esams => upload-lb.esams.wikimedia.org.
-                ulsfo => upload-lb.eqiad.wikimedia.org.
+                ulsfo => upload-lb.esams.wikimedia.org.
             }
         }
         geoiplookup => {
