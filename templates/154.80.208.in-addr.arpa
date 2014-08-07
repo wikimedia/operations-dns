@@ -27,7 +27,7 @@ $ORIGIN {{ zonename }}.
 10  1H  IN PTR  carbon.wikimedia.org.
 11  1H  IN PTR  dataset1001.wikimedia.org.
 12  1H  IN PTR  al-fundraising.wikimedia.org.
-
+13  1H  IN PTR  protactinium.wikimedia.org.
 14  1H  IN PTR  neon.wikimedia.org.
 15  1H  IN PTR  oxygen.wikimedia.org.
 16  1H  IN PTR  ms1001.wikimedia.org.
