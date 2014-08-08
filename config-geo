@@ -173,19 +173,19 @@ plugins => { geoip => {
                         WY => esams, # ex-ulsfo # Wyoming
                     },
                     CA => { # Canada
-                        AB => esams, # ex-ulsfo # Alberta
-                        BC => esams, # ex-ulsfo # British Columbia
+                        AB => ulsfo, # Alberta
+                        BC => ulsfo, # British Columbia
                         MB => eqiad, # Manitoba
                         NB => eqiad, # New Brunswick
                         NL => eqiad, # Newfoundland
                         NS => eqiad, # Nova Scotia
-                        NT => esams, # ex-ulsfo # Northwest Territories
+                        NT => ulsfo, # Northwest Territories
                         NU => eqiad, # Nunavut
                         ON => eqiad, # Ontario
                         PE => eqiad, # Prince Edward Island
                         QC => eqiad, # Quebec
                         SK => eqiad, # Saskatchewan
-                        YT => esams, # ex-ulsfo # Yukon Territory
+                        YT => ulsfo, # Yukon Territory
                     },
                 },
                 OC => esams, # ex-ulsfo
