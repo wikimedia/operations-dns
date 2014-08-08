@@ -188,7 +188,7 @@ plugins => { geoip => {
                         YT => ulsfo, # Yukon Territory
                     },
                 },
-                OC => esams, # ex-ulsfo
+                OC => ulsfo,
                 default => eqiad,
             },
             nets = {
