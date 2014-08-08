@@ -23,7 +23,7 @@ plugins => { geoip => {
                     CY => esams, # Cyprus
                     GE => esams, # Georgia
                     HK => ulsfo, # Hong Kong
-                    ID => esams, # ex-ulsfo # Indonesia
+                    ID => ulsfo, # Indonesia
                     IL => esams, # Israel
                     IN => eqiad, # India
                     IO => eqiad, # British Indian Ocean Territory
@@ -54,7 +54,7 @@ plugins => { geoip => {
                     SA => esams, # Saudi Arabia
                     SG => ulsfo, # Singapore
                     SY => esams, # Syrian Arab Republic
-                    TH => esams, # ex-ulsfo # Thailand
+                    TH => ulsfo, # Thailand
                     TJ => eqiad, # Tajikistan
                     TL => esams, # ex-ulsfo # Timor-Leste
                     TM => eqiad, # Turkmenistan
