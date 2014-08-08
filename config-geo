@@ -124,7 +124,7 @@ plugins => { geoip => {
                         AL => eqiad, # Alabama
                         AR => eqiad, # Arkansas
                         AZ => esams, # ex-ulsfo # Arizona
-                        CA => esams, # ex-ulsfo # California
+                        CA => ulsfo, # California
                         CO => esams, # ex-ulsfo # Colorado
                         CT => eqiad, # Connecticut
                         DC => eqiad, # District of Columbia
