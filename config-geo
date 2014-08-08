@@ -22,7 +22,7 @@ plugins => { geoip => {
                     CX => esams, # ex-ulsfo # Christmas Island
                     CY => esams, # Cyprus
                     GE => esams, # Georgia
-                    HK => esams, # ex-ulsfo # Hong Kong
+                    HK => ulsfo, # Hong Kong
                     ID => esams, # ex-ulsfo # Indonesia
                     IL => esams, # Israel
                     IN => eqiad, # India
@@ -47,12 +47,12 @@ plugins => { geoip => {
                     MY => esams, # ex-ulsfo # Malaysia
                     NP => esams, # ex-ulsfo # Nepal
                     OM => esams, # Oman
-                    PH => esams, # ex-ulsfo # Philippines
+                    PH => ulsfo, # Philippines
                     PK => eqiad, # Pakistan
                     PS => esams, # Palestine, State of
                     QA => esams, # Qatar
                     SA => esams, # Saudi Arabia
-                    SG => esams, # ex-ulsfo # Singapore
+                    SG => ulsfo, # Singapore
                     SY => esams, # Syrian Arab Republic
                     TH => esams, # ex-ulsfo # Thailand
                     TJ => eqiad, # Tajikistan
