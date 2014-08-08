@@ -33,8 +33,8 @@ plugins => { geoip => {
                     JP => ulsfo, # Japan
                     KG => eqiad, # Kyrgyzstan
                     KH => esams, # ex-ulsfo # Cambodia
-                    KP => esams, # ex-ulsfo # Korea, Democratic People's Republic of
-                    KR => esams, # ex-ulsfo # Korea, Republic of
+                    KP => ulsfo, # Korea, Democratic People's Republic of
+                    KR => ulsfo, # Korea, Republic of
                     KW => esams, # Kuwait
                     KZ => eqiad, # Kazakhstan
                     LA => esams, # ex-ulsfo # Lao People's Democratic Republic
@@ -58,7 +58,7 @@ plugins => { geoip => {
                     TJ => eqiad, # Tajikistan
                     TL => esams, # ex-ulsfo # Timor-Leste
                     TM => eqiad, # Turkmenistan
-                    TW => esams, # ex-ulsfo # Taiwan, Province of China
+                    TW => ulsfo, # Taiwan, Province of China
                     UZ => eqiad, # Uzbekistan
                     VN => esams, # ex-ulsfo # Viet Nam
                     YE => esams, # Yemen
