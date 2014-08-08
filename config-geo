@@ -30,7 +30,7 @@ plugins => { geoip => {
                     IQ => esams, # Iraq
                     IR => esams, # Iran (Islamic Republic of)
                     JO => esams, # Jordan
-                    JP => esams, # ex-ulsfo # Japan
+                    JP => ulsfo, # Japan
                     KG => eqiad, # Kyrgyzstan
                     KH => esams, # ex-ulsfo # Cambodia
                     KP => esams, # ex-ulsfo # Korea, Democratic People's Republic of
