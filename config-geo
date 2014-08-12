@@ -219,7 +219,7 @@ plugins => { geoip => {
             dcmap => {
                 eqiad => bits-lb.eqiad.wikimedia.org.
                 esams => bits-lb.esams.wikimedia.org.
-                ulsfo => bits-lb.eqiad.wikimedia.org.
+                ulsfo => bits-lb.ulsfo.wikimedia.org.
             }
         }
         upload => {
@@ -227,7 +227,7 @@ plugins => { geoip => {
             dcmap => {
                 eqiad => upload-lb.eqiad.wikimedia.org.
                 esams => upload-lb.esams.wikimedia.org.
-                ulsfo => upload-lb.eqiad.wikimedia.org.
+                ulsfo => upload-lb.ulsfo.wikimedia.org.
             }
         }
         geoiplookup => {
@@ -235,7 +235,7 @@ plugins => { geoip => {
             dcmap => {
                 eqiad => geoiplookup-lb.eqiad.wikimedia.org.
                 esams => geoiplookup-lb.esams.wikimedia.org.
-                ulsfo => geoiplookup-lb.eqiad.wikimedia.org.
+                ulsfo => geoiplookup-lb.ulsfo.wikimedia.org.
             }
         }
         donate => {
@@ -243,7 +243,7 @@ plugins => { geoip => {
             dcmap => {
                 eqiad => donate-lb.eqiad.wikimedia.org.
                 esams => donate-lb.esams.wikimedia.org.
-                ulsfo => donate-lb.eqiad.wikimedia.org.
+                ulsfo => donate-lb.ulsfo.wikimedia.org.
             }
         }
         text-lb => {
@@ -251,7 +251,7 @@ plugins => { geoip => {
             dcmap => {
                 eqiad => text-lb.eqiad.wikimedia.org.
                 esams => text-lb.esams.wikimedia.org.
-                ulsfo => text-lb.eqiad.wikimedia.org.
+                ulsfo => text-lb.ulsfo.wikimedia.org.
             }
         }
         mobile-lb => {
@@ -259,7 +259,7 @@ plugins => { geoip => {
             dcmap => {
                 eqiad => mobile-lb.eqiad.wikimedia.org.
                 esams => mobile-lb.esams.wikimedia.org.
-                ulsfo => mobile-lb.eqiad.wikimedia.org.
+                ulsfo => mobile-lb.ulsfo.wikimedia.org.
             }
         }
     }
