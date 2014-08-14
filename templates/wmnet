@@ -2329,6 +2329,7 @@ $ORIGIN svc.pmtpa.wmnet.
 $ORIGIN svc.eqiad.wmnet.
 
 appservers  1H  IN A        10.2.2.1
+hhvm-appservers 1H  IN A        10.2.2.2
 search-pool1    1H  IN A        10.2.2.11
 search-pool2    1H  IN A        10.2.2.12
 search-pool3    1H  IN A        10.2.2.13
