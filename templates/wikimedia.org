@@ -626,7 +626,7 @@ download         1H  IN CNAME    dumps
 etherpad         1H  IN CNAME    zirconium.wikimedia.org.
 fundraising      1H  IN CNAME    barium-fundraising
 ganglia          1H  IN CNAME    nickel
-ishmael          1H  IN CNAME    neon
+ishmael          1H  IN CNAME    misc-web-lb.eqiad
 tendril          1H  IN CNAME    neon
 jobs             1H  IN CNAME    text-lb
 labs             1H  IN CNAME    text-lb
