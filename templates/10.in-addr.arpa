@@ -2497,8 +2497,36 @@ $ORIGIN 0.128.{{ zonename }}.
 ; CODFW (10.192.0.0/12)
 ;
 
+
 ; 10.192.0.0/22 - private1-a-codfw
-$ORIGIN 0.64.{{ zonename }}.
+$ORIGIN 0.192.{{ zonename }}.
+
+1   1H IN PTR   vrrp-gw-2017.codfw.wmnet.
+2   1H IN PTR   ae1-2017.cr1-codfw.wikimedia.org.
+3   1H IN PTR   ae1-2017.cr2-codfw.wikimedia.org.
+
+; 10.192.16.0/22 - private1-b-codfw
+$ORIGIN 16.192.{{ zonename }}.
+
+1   1H IN PTR   vrrp-gw-2018.codfw.wmnet.
+2   1H IN PTR   ae2-2018.cr1-codfw.wikimedia.org.
+3   1H IN PTR   ae2-2018.cr2-codfw.wikimedia.org.
+
+; 10.192.32.0/22 - private1-c-codfw
+$ORIGIN 32.192.{{ zonename }}.
+
+1   1H IN PTR   vrrp-gw-2019.codfw.wmnet.
+2   1H IN PTR   ae3-2019.cr1-codfw.wikimedia.org.
+3   1H IN PTR   ae3-2019.cr2-codfw.wikimedia.org.
+
+; 10.192.48.0/22 - private1-d-codfw
+$ORIGIN 48.192.{{ zonename }}.
+
+1   1H IN PTR   vrrp-gw-2020.codfw.wmnet.
+2   1H IN PTR   ae4-2020.cr1-codfw.wikimedia.org.
+3   1H IN PTR   ae4-2020.cr2-codfw.wikimedia.org.
+
+$ORIGIN 0.193.{{ zonename }}.
 
 ; 10.193.0.0/16 - mgmt-codfw
 
