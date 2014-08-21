@@ -2025,6 +2025,11 @@ $ORIGIN codfw.{{ zonename }}.
 
 $ORIGIN mgmt.codfw.{{ zonename }}.
 
+asw-a-codfw     1H  IN A    10.193.0.16
+asw-b-codfw     1H  IN A    10.193.0.17
+asw-c-codfw     1H  IN A    10.193.0.18
+asw-d-codfw     1H  IN A    10.193.0.19
+
 re0.cr1-codfw   1H  IN A    10.193.0.10
 re1.cr1-codfw   1H  IN A    10.193.0.11
 re0.cr2-codfw   1H  IN A    10.193.0.12
