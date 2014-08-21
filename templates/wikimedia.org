@@ -637,28 +637,29 @@ googlef3fe6c2a164e9650  1H  IN CNAME    google.com.
 
 ; Silverpop - mass-email contractor for 2012-2013 fundraiser
 spop1024._domainkey.email.donate 1H IN TXT  "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCnPE/TvQbvCk0FbqekfcpB7R6R9yXFulninKCCagEijzf/55WqL3o9mNMddmmEAIQvhlscYqtrEerd2RYQTo0pNjJQAXIddvhUaJo+r66TYoyTSoxtL6zF7oJ9ZOL9i7PIntN7zq7m448S/3llWKK8MDvkeG+f5MN/qZ+P2wyD+QIDAQAB"
-spop1024._domainkey         1H  IN TXT  "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpnujkAKfZWUN6W07scekor+i8wGvRGq3Ns9bk3nmgWovfbBebFwzHoNv3Oaq9VMf1cdTf53fuQY5NVZQ+hGZXqJ4mkcNJnSC0BZuGC45kUWjyOhB+Pxf0o9AuGM8QCQwm4nnvNqUe/lME7bFTzrtCSrF7sG0UxvwM2AeDEZj5NQIDAQAB"
+spop1024._domainkey              1H IN TXT  "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpnujkAKfZWUN6W07scekor+i8wGvRGq3Ns9bk3nmgWovfbBebFwzHoNv3Oaq9VMf1cdTf53fuQY5NVZQ+hGZXqJ4mkcNJnSC0BZuGC45kUWjyOhB+Pxf0o9AuGM8QCQwm4nnvNqUe/lME7bFTzrtCSrF7sG0UxvwM2AeDEZj5NQIDAQAB"
 
 bounce.email.donate     1H  IN A    74.121.50.42
 bounce.email.donate     1H  IN MX   5 bounce.email.donate
-bounce.email.donate     1H  IN TXT  "v=spf1 ip4:74.121.51.111 ip4:208.80.154.6 -all"
+bounce.email.donate     1H  IN TXT  "v=spf1 ip4:74.121.51.111 ip4:208.80.155.11 -all"
 
 email.donate            1H  IN A    208.80.154.224
 email.donate            1H  IN MX   10 reply.email.donate
 email.donate            1H  IN MX   20 mail3880.email.donate
-email.donate            1H  IN TXT  "v=spf1 ip4:74.121.51.111 ip4:208.80.154.6 -all"
+email.donate            1H  IN TXT  "v=spf1 ip4:74.121.51.111 ip4:208.80.155.11 -all"
 
-mail3880.email.donate       1H  IN A    74.121.51.111
-mail3880.email.donate       1H  IN MX   5 mail3880.email.donate
-mail3880.email.donate       1H  IN TXT  "v=spf1 ip4:74.121.51.111 ip4:208.80.154.6 -all"
+mail3880.email.donate   1H  IN A    74.121.51.111
+mail3880.email.donate   1H  IN MX   5 mail3880.email.donate
+mail3880.email.donate   1H  IN TXT  "v=spf1 ip4:74.121.51.111 ip4:208.80.155.11 -all"
 
 reply.email.donate      1H  IN A    74.121.50.42
 reply.email.donate      1H  IN MX   5 reply.email.donate
-reply.email.donate      1H  IN TXT  "v=spf1 ip4:74.121.51.111 ip4:208.80.154.6 -all"
+reply.email.donate      1H  IN TXT  "v=spf1 ip4:74.121.51.111 ip4:208.80.155.11 -all"
 
 links.email.donate      1H  IN CNAME recp.mkt41.net.
 open.email.donate       1H  IN CNAME open.mkt41.net.
 www.email.donate        1H  IN CNAME wikimedia.org.
+
 
 ; Corp glue records
 
