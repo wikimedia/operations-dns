@@ -452,7 +452,7 @@ smtp            1H  IN A        208.80.152.187  ; sanger
 
 stream      1H  IN CNAME        stream-lb.eqiad
 
-svn             5M  IN CNAME    misc-web-lb.eqiad
+svn         5M  IN CNAME    antimony.wikimedia.org.
 
 torrus          1H  IN CNAME    netmon1001
 
