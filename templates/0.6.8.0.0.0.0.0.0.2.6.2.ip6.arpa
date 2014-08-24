@@ -14,36 +14,14 @@ $ORIGIN {{ zonename }}.
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
-; pmtpa/codfw 2620:0:860::/48
-
-; pmtpa Squids subnet 2620:0:860:1::/64
-
-$ORIGIN 1.0.0.0.{{ zonename }}.
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-100.wikimedia.org.
-
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae0-100.cr2-pmtpa.wikimedia.org.
+; codfw 2620:0:860::/48
 
 
-; Service IPs
+; Service IPs 2620:0:860:ed1a::/64
 
 $ORIGIN a.1.d.e.{{ zonename }}.
 
 e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ns1.wikimedia.org.
-
-; pmtpa Public Services subnet 2620:0:860:2::/64
-
-$ORIGIN 2.0.0.0.{{ zonename }}.
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-101.wikimedia.org.
-
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae0-101.cr2-pmtpa.wikimedia.org.
-
-; Machines
-
-7.2.0.c.d.d.e.f.f.f.9.b.9.1.2.0 1H IN PTR   mchenry.wikimedia.org.
-5.6.1.0.2.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   fenari.wikimedia.org.
-
 
 ; Neighbor blocks
 
