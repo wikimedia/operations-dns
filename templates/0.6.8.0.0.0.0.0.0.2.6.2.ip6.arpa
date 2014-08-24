@@ -14,7 +14,72 @@ $ORIGIN {{ zonename }}.
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
-; codfw 2620:0:860::/48
+; codfw public subnets (2620:0:860:0::/80)
+
+; public1-a-codfw (2620:0:860:1::/64)
+$ORIGIN 1.0.0.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2001.wikimedia.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2001.cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2001.cr2-codfw.wikimedia.org.
+
+
+; public1-b-codfw (2620:0:860:2::/64)
+$ORIGIN 2.0.0.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2002.wikimedia.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2002.cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2002.cr2-codfw.wikimedia.org.
+
+
+; public1-c-codfw (2620:0:860:3::/64)
+$ORIGIN 3.0.0.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2003.wikimedia.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-2003.cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-2003.cr2-codfw.wikimedia.org.
+
+
+; public1-d-codfw (2620:0:860:4::/64)
+$ORIGIN 4.0.0.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2004.wikimedia.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-2004.cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-2004.cr2-codfw.wikimedia.org.
+
+
+; codfw private subnets (2620:0:860:100::/80)
+
+; private1-a-codfw (2620:0:860:101::/64)
+$ORIGIN 1.0.1.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2017.codfw.wmnet.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2017.cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2017.cr2-codfw.wikimedia.org.
+
+
+; private1-b-codfw (2620:0:860:102::/64)
+$ORIGIN 2.0.1.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2018.codfw.wmnet.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2018.cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2018.cr2-codfw.wikimedia.org.
+
+
+; private1-c-codfw (2620:0:860:103::/64)
+$ORIGIN 3.0.1.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2019.codfw.wmnet.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-2019.cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-2019.cr2-codfw.wikimedia.org.
+
+
+; private1-d-codfw (2620:0:860:104::/64)
+$ORIGIN 4.0.1.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2020.codfw.wmnet.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-2020.cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-2020.cr2-codfw.wikimedia.org.
 
 
 ; Service IPs 2620:0:860:ed1a::/64
