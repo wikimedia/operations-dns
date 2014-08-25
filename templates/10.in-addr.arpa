@@ -2541,6 +2541,39 @@ $ORIGIN 0.193.{{ zonename }}.
 18  1H  IN PTR  asw-c-codfw.mgmt.codfw.wmnet.
 19  1H  IN PTR  asw-d-codfw.mgmt.codfw.wmnet.
 
+25  1H IN PTR  ps1-a1-codfw.mgmt.codfw.wmnet.
+26  1H IN PTR  ps1-a2-codfw.mgmt.codfw.wmnet.
+27  1H IN PTR  ps1-a3-codfw.mgmt.codfw.wmnet.
+28  1H IN PTR  ps1-a4-codfw.mgmt.codfw.wmnet.
+29  1H IN PTR  ps1-a5-codfw.mgmt.codfw.wmnet.
+30  1H IN PTR  ps1-a6-codfw.mgmt.codfw.wmnet.
+31  1H IN PTR  ps1-a7-codfw.mgmt.codfw.wmnet.
+32  1H IN PTR  ps1-a8-codfw.mgmt.codfw.wmnet.
+33  1H IN PTR  ps1-b1-codfw.mgmt.codfw.wmnet.
+34  1H IN PTR  ps1-b2-codfw.mgmt.codfw.wmnet.
+35  1H IN PTR  ps1-b3-codfw.mgmt.codfw.wmnet.
+36  1H IN PTR  ps1-b4-codfw.mgmt.codfw.wmnet.
+37  1H IN PTR  ps1-b5-codfw.mgmt.codfw.wmnet.
+38  1H IN PTR  ps1-b6-codfw.mgmt.codfw.wmnet.
+39  1H IN PTR  ps1-b7-codfw.mgmt.codfw.wmnet.
+40  1H IN PTR  ps1-b8-codfw.mgmt.codfw.wmnet.
+41  1H IN PTR  ps1-c1-codfw.mgmt.codfw.wmnet.
+42  1H IN PTR  ps1-c2-codfw.mgmt.codfw.wmnet.
+43  1H IN PTR  ps1-c3-codfw.mgmt.codfw.wmnet.
+44  1H IN PTR  ps1-c4-codfw.mgmt.codfw.wmnet.
+45  1H IN PTR  ps1-c5-codfw.mgmt.codfw.wmnet.
+46  1H IN PTR  ps1-c6-codfw.mgmt.codfw.wmnet.
+47  1H IN PTR  ps1-c7-codfw.mgmt.codfw.wmnet.
+48  1H IN PTR  ps1-c8-codfw.mgmt.codfw.wmnet.
+49  1H IN PTR  ps1-d1-codfw.mgmt.codfw.wmnet.
+50  1H IN PTR  ps1-d2-codfw.mgmt.codfw.wmnet.
+51  1H IN PTR  ps1-d3-codfw.mgmt.codfw.wmnet.
+52  1H IN PTR  ps1-d4-codfw.mgmt.codfw.wmnet.
+53  1H IN PTR  ps1-d5-codfw.mgmt.codfw.wmnet.
+54  1H IN PTR  ps1-d6-codfw.mgmt.codfw.wmnet.
+55  1H IN PTR  ps1-d7-codfw.mgmt.codfw.wmnet.
+56  1H IN PTR  ps1-d8-codfw.mgmt.codfw.wmnet.
+
 ; LEGACY
 
 $ORIGIN 1.230.{{ zonename }}.

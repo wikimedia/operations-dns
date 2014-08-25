@@ -2037,6 +2037,39 @@ re1.cr2-codfw   1H  IN A    10.193.0.13
 scs-a1-codfw    1H  IN A    10.193.0.14
 scs-c1-codfw    1H  IN A    10.193.0.15
 
+ps1-a1-codfw    1H  IN A    10.193.0.25
+ps1-a2-codfw    1H  IN A    10.193.0.26
+ps1-a3-codfw    1H  IN A    10.193.0.27
+ps1-a4-codfw    1H  IN A    10.193.0.28
+ps1-a5-codfw    1H  IN A    10.193.0.29
+ps1-a6-codfw    1H  IN A    10.193.0.30
+ps1-a7-codfw    1H  IN A    10.193.0.31
+ps1-a8-codfw    1H  IN A    10.193.0.32
+ps1-b1-codfw    1H  IN A    10.193.0.33
+ps1-b2-codfw    1H  IN A    10.193.0.34
+ps1-b3-codfw    1H  IN A    10.193.0.35
+ps1-b4-codfw    1H  IN A    10.193.0.36
+ps1-b5-codfw    1H  IN A    10.193.0.37
+ps1-b6-codfw    1H  IN A    10.193.0.38
+ps1-b7-codfw    1H  IN A    10.193.0.39
+ps1-b8-codfw    1H  IN A    10.193.0.40
+ps1-c1-codfw    1H  IN A    10.193.0.41
+ps1-c2-codfw    1H  IN A    10.193.0.42
+ps1-c3-codfw    1H  IN A    10.193.0.43
+ps1-c4-codfw    1H  IN A    10.193.0.44
+ps1-c5-codfw    1H  IN A    10.193.0.45
+ps1-c6-codfw    1H  IN A    10.193.0.46
+ps1-c7-codfw    1H  IN A    10.193.0.47
+ps1-c8-codfw    1H  IN A    10.193.0.48
+ps1-d1-codfw    1H  IN A    10.193.0.49
+ps1-d2-codfw    1H  IN A    10.193.0.50
+ps1-d3-codfw    1H  IN A    10.193.0.51
+ps1-d4-codfw    1H  IN A    10.193.0.52
+ps1-d5-codfw    1H  IN A    10.193.0.53
+ps1-d6-codfw    1H  IN A    10.193.0.54
+ps1-d7-codfw    1H  IN A    10.193.0.55
+ps1-d8-codfw    1H  IN A    10.193.0.56
+
 ;
 ; ESAMS
 ;
