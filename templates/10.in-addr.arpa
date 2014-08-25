@@ -2530,16 +2530,16 @@ $ORIGIN 0.193.{{ zonename }}.
 
 ; 10.193.0.0/16 - mgmt-codfw
 
-10  1H  IN PTR  re0.cr1-codfw.mgmt.codfw.wmnet.
-11  1H  IN PTR  re1.cr1-codfw.mgmt.codfw.wmnet.
-12  1H  IN PTR  re0.cr2-codfw.mgmt.codfw.wmnet.
-13  1H  IN PTR  re1.cr2-codfw.mgmt.codfw.wmnet.
-14  1H  IN PTR  scs-a1-codfw.mgmt.codfw.wmnet.
-15  1H  IN PTR  scs-c1-codfw.mgmt.codfw.wmnet.
-16  1H  IN PTR  asw-a-codfw.mgmt.codfw.wmnet.
-17  1H  IN PTR  asw-b-codfw.mgmt.codfw.wmnet.
-18  1H  IN PTR  asw-c-codfw.mgmt.codfw.wmnet.
-19  1H  IN PTR  asw-d-codfw.mgmt.codfw.wmnet.
+10  1H IN PTR  re0.cr1-codfw.mgmt.codfw.wmnet.
+11  1H IN PTR  re1.cr1-codfw.mgmt.codfw.wmnet.
+12  1H IN PTR  re0.cr2-codfw.mgmt.codfw.wmnet.
+13  1H IN PTR  re1.cr2-codfw.mgmt.codfw.wmnet.
+14  1H IN PTR  scs-a1-codfw.mgmt.codfw.wmnet.
+15  1H IN PTR  scs-c1-codfw.mgmt.codfw.wmnet.
+16  1H IN PTR  asw-a-codfw.mgmt.codfw.wmnet.
+17  1H IN PTR  asw-b-codfw.mgmt.codfw.wmnet.
+18  1H IN PTR  asw-c-codfw.mgmt.codfw.wmnet.
+19  1H IN PTR  asw-d-codfw.mgmt.codfw.wmnet.
 
 25  1H IN PTR  ps1-a1-codfw.mgmt.codfw.wmnet.
 26  1H IN PTR  ps1-a2-codfw.mgmt.codfw.wmnet.
