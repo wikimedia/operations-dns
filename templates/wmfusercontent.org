@@ -1,0 +1,28 @@
+$TTL 3600
+$ORIGIN {{ zonename }}.
+@           1D  IN SOA  ns0.wikimedia.org.  hostmaster.wikimedia.org.   (
+                    {{ serial }}        ; serial
+                    12H     ; refresh
+                    2H      ; retry
+                    2W      ; expiry
+                    1H      ; negative cache TTL
+                    )
+
+; Name servers
+
+            1D  IN NS   ns0.wikimedia.org.
+            1D  IN NS   ns1.wikimedia.org.
+            1D  IN NS   ns2.wikimedia.org.
+
+; Mail exchangers
+
+; Canonical names
+
+; Servers (alphabetic order)
+phab        1H  IN CNAME    misc-web-lb.eqiad
+
+; Service aliases
+
+; Wikis (alphabetic order)
+
+; Other websites
