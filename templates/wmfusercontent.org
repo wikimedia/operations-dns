@@ -19,7 +19,7 @@ $ORIGIN {{ zonename }}.
 ; Canonical names
 
 ; Servers (alphabetic order)
-phab        1H  IN CNAME    misc-web-lb.eqiad
+phab        1H  IN CNAME    misc-web-lb.eqiad.wikimedia.org.
 
 ; Service aliases
 
