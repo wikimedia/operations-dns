@@ -489,6 +489,7 @@ payments        5M  IN A        208.80.155.5 ; eqiad
 payments-listener   1H  IN CNAME        thulium
 payments-listener.frdev 1H  IN CNAME        lutetium
 
+people          1H  IN CNAME    misc-web-lb.eqiad
 releases        1H  IN CNAME    misc-web-lb.eqiad
 
 reports.frdev   1H  IN CNAME        lutetium
