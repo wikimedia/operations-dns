@@ -2025,6 +2025,8 @@ $ORIGIN codfw.{{ zonename }}.
 
 $ORIGIN mgmt.codfw.{{ zonename }}.
 
+; Infrastructure
+
 asw-a-codfw     1H  IN A    10.193.0.16
 asw-b-codfw     1H  IN A    10.193.0.17
 asw-c-codfw     1H  IN A    10.193.0.18
@@ -2069,6 +2071,10 @@ ps1-d5-codfw    1H  IN A    10.193.0.53
 ps1-d6-codfw    1H  IN A    10.193.0.54
 ps1-d7-codfw    1H  IN A    10.193.0.55
 ps1-d8-codfw    1H  IN A    10.193.0.56
+
+; Servers (Alphabetically)
+
+install2001     1H  IN A    10.193.1.10
 
 ;
 ; ESAMS

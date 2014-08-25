@@ -2530,6 +2530,8 @@ $ORIGIN 0.193.{{ zonename }}.
 
 ; 10.193.0.0/16 - mgmt-codfw
 
+; 10.193.0.0 - mgmt infrastructure, network mgmt, power mgmt
+
 10  1H IN PTR  re0.cr1-codfw.mgmt.codfw.wmnet.
 11  1H IN PTR  re1.cr1-codfw.mgmt.codfw.wmnet.
 12  1H IN PTR  re0.cr2-codfw.mgmt.codfw.wmnet.
@@ -2573,6 +2575,13 @@ $ORIGIN 0.193.{{ zonename }}.
 54  1H IN PTR  ps1-d6-codfw.mgmt.codfw.wmnet.
 55  1H IN PTR  ps1-d7-codfw.mgmt.codfw.wmnet.
 56  1H IN PTR  ps1-d8-codfw.mgmt.codfw.wmnet.
+
+$ORIGIN 1.193.{{ zonename }}.
+
+; 10.193.1.0 - mgmt-codfw servers
+
+10  1H IN PTR  install2001.mgmt.codfw.wmnet.
+
 
 ; LEGACY
 
