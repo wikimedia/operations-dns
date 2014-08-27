@@ -2579,8 +2579,25 @@ $ORIGIN 0.193.{{ zonename }}.
 $ORIGIN 1.193.{{ zonename }}.
 
 ; 10.193.1.0 - mgmt-codfw servers
+; please list with hostname entry (when available) preceding the asset tag entry
+
+1   1H IN PTR  lvs2001.mgmt.codfw.wmnet.
+1   1H IN PTR  WMF6132.mgmt.codfw.wmnet.
+2   1H IN PTR  lvs2002.mgmt.codfw.wmnet.
+2   1H IN PTR  WMF6133.mgmt.codfw.wmnet.
+3   1H IN PTR  lvs2003.mgmt.codfw.wmnet.
+3   1H IN PTR  WMF6134.mgmt.codfw.wmnet.
+4   1H IN PTR  lvs2004.mgmt.codfw.wmnet.
+4   1H IN PTR  WMF6135.mgmt.codfw.wmnet.
+5   1H IN PTR  lvs2005.mgmt.codfw.wmnet.
+5   1H IN PTR  WMF6136.mgmt.codfw.wmnet.
+6   1H IN PTR  lvs2006.mgmt.codfw.wmnet.
+6   1H IN PTR  WMF6137.mgmt.codfw.wmnet.
 
 10  1H IN PTR  install2001.mgmt.codfw.wmnet.
+10  1H IN PTR  wmf5815.mgmt.codfw.wmnet.
+11  1H IN PTR  bast2001.mgmt.codfw.wmnet.
+11  1H IN PTR  WMF5821.mgmt.codfw.wmnet.
 
 
 ; LEGACY

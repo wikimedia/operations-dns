@@ -2076,9 +2076,27 @@ ps1-d6-codfw    1H  IN A    10.193.0.54
 ps1-d7-codfw    1H  IN A    10.193.0.55
 ps1-d8-codfw    1H  IN A    10.193.0.56
 
-; Servers (Alphabetically)
+; Servers MGMT - Alphabetical by hostname
 
+bast2001        1H  IN A    10.193.1.11
 install2001     1H  IN A    10.193.1.10
+lvs2001         1H  IN A    10.193.1.1
+lvs2002         1H  IN A    10.193.1.2
+lvs2003         1H  IN A    10.193.1.3
+lvs2004         1H  IN A    10.193.1.4
+lvs2005         1H  IN A    10.193.1.5
+lvs2006         1H  IN A    10.193.1.6
+
+; Servers MGMT - Alphabetical by asset tag
+
+WMF5815         1H  IN A    10.192.1.10
+WMF5821         1H  IN A    10.192.1.11
+WMF6132         1H  IN A    10.193.1.1
+WMF6133         1H  IN A    10.193.1.2
+WMF6134         1H  IN A    10.193.1.3
+WMF6135         1H  IN A    10.193.1.4
+WMF6136         1H  IN A    10.193.1.5
+WMF6137         1H  IN A    10.193.1.6
 
 ;
 ; ESAMS
