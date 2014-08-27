@@ -2020,6 +2020,10 @@ resourcemanager 1H      IN CNAME  analytics1010.eqiad.wmnet.
 
 $ORIGIN codfw.{{ zonename }}.
 
+; Service aliases
+puppet          1H  IN CNAME    palladium.eqiad.wmnet.
+webproxy        1H  IN CNAME    carbon.wikimedia.org.
+
 
 ; CODFW management
 
