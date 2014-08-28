@@ -53,7 +53,7 @@ $ORIGIN {{ zonename }}.
 66  1H IN PTR   ae2-1052.cr1-eqiad.wikimedia.org.
 67  1H IN PTR   ae2-1052.cr2-eqiad.wikimedia.org.
 68  1H IN PTR   dickson.freenode.net.
-69  1H IN PTR   atlas-eqiad.wikimedia.org
+69  1H IN PTR   ripe-atlas-eqiad.wikimedia.org.
 
 ; 208.80.155.96/27 public1-d-eqiad subnet
 
