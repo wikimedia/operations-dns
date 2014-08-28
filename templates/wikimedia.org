@@ -363,6 +363,12 @@ vl1003-eth2.lvs1003 1H  IN A    208.80.154.69
 vl1003-eth2.lvs1004 1H  IN A    208.80.154.70
 vl1003-eth2.lvs1005 1H  IN A    208.80.154.71
 vl1003-eth2.lvs1006 1H  IN A    208.80.154.72
+vl1004-eth3.lvs1001 1H  IN A    208.80.155.100
+vl1004-eth3.lvs1002 1H  IN A    208.80.155.101
+vl1004-eth3.lvs1003 1H  IN A    208.80.155.102
+vl1004-eth3.lvs1004 1H  IN A    208.80.155.103
+vl1004-eth3.lvs1005 1H  IN A    208.80.155.104
+vl1004-eth3.lvs1006 1H  IN A    208.80.155.105
 
 vl1017-eth0.lvs1001 1H  IN A    10.64.1.1
 vl1017-eth0.lvs1002 1H  IN A    10.64.1.2
@@ -382,6 +388,12 @@ vl1019-eth2.lvs1003 1H  IN A    10.64.33.3
 vl1019-eth2.lvs1004 1H  IN A    10.64.33.4
 vl1019-eth2.lvs1005 1H  IN A    10.64.33.5
 vl1019-eth2.lvs1006 1H  IN A    10.64.33.6
+vl1020-eth3.lvs1001 1H  IN A    10.64.49.1
+vl1020-eth3.lvs1002 1H  IN A    10.64.49.2
+vl1020-eth3.lvs1003 1H  IN A    10.64.49.3
+vl1020-eth3.lvs1004 1H  IN A    10.64.49.4
+vl1020-eth3.lvs1005 1H  IN A    10.64.49.5
+vl1020-eth3.lvs1006 1H  IN A    10.64.49.6
 
 csw1-knams      1H  IN CNAME    csw1-esams
 
