@@ -503,7 +503,7 @@ ms-be1015       1H  IN A        10.64.48.32
 ms-fe           1H  IN A        10.2.2.27   ;LVS address for ms-fe100*
 ms-fe1001       1H  IN A        10.64.0.167
 ms-fe1002       1H  IN A        10.64.0.168
-ms-fe1003       1H  IN A        10.64.16.150
+ms-fe1003       1H  IN A        10.64.32.152
 ms-fe1004       1H  IN A        10.64.32.92
 mw1001          1H  IN A        10.64.0.31
 mw1002          1H  IN A        10.64.0.32
