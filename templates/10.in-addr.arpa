@@ -2505,12 +2505,28 @@ $ORIGIN 0.192.{{ zonename }}.
 2   1H IN PTR   ae1-2017.cr1-codfw.wikimedia.org.
 3   1H IN PTR   ae1-2017.cr2-codfw.wikimedia.org.
 
+$ORIGIN 1.192.{{ zonename }}.
+1   1H IN PTR   vl2017-eth0.lvs2001.wikimedia.org.
+2   1H IN PTR   vl2017-eth0.lvs2002.wikimedia.org.
+3   1H IN PTR   vl2017-eth0.lvs2003.wikimedia.org.
+4   1H IN PTR   vl2017-eth1.lvs2004.wikimedia.org.
+5   1H IN PTR   vl2017-eth1.lvs2005.wikimedia.org.
+6   1H IN PTR   vl2017-eth1.lvs2006.wikimedia.org.
+
 ; 10.192.16.0/22 - private1-b-codfw
 $ORIGIN 16.192.{{ zonename }}.
 
 1   1H IN PTR   vrrp-gw-2018.codfw.wmnet.
 2   1H IN PTR   ae2-2018.cr1-codfw.wikimedia.org.
 3   1H IN PTR   ae2-2018.cr2-codfw.wikimedia.org.
+
+$ORIGIN 17.192.{{ zonename }}.
+1   1H IN PTR   vl2018-eth1.lvs2001.wikimedia.org.
+2   1H IN PTR   vl2018-eth1.lvs2002.wikimedia.org.
+3   1H IN PTR   vl2018-eth1.lvs2003.wikimedia.org.
+4   1H IN PTR   vl2018-eth0.lvs2004.wikimedia.org.
+5   1H IN PTR   vl2018-eth0.lvs2005.wikimedia.org.
+6   1H IN PTR   vl2018-eth0.lvs2006.wikimedia.org.
 
 ; 10.192.32.0/22 - private1-c-codfw
 $ORIGIN 32.192.{{ zonename }}.
@@ -2519,12 +2535,28 @@ $ORIGIN 32.192.{{ zonename }}.
 2   1H IN PTR   ae3-2019.cr1-codfw.wikimedia.org.
 3   1H IN PTR   ae3-2019.cr2-codfw.wikimedia.org.
 
+$ORIGIN 33.192.{{ zonename }}.
+1   1H IN PTR   vl2019-eth2.lvs2001.wikimedia.org.
+2   1H IN PTR   vl2019-eth2.lvs2002.wikimedia.org.
+3   1H IN PTR   vl2019-eth2.lvs2003.wikimedia.org.
+4   1H IN PTR   vl2019-eth2.lvs2004.wikimedia.org.
+5   1H IN PTR   vl2019-eth2.lvs2005.wikimedia.org.
+6   1H IN PTR   vl2019-eth2.lvs2006.wikimedia.org.
+
 ; 10.192.48.0/22 - private1-d-codfw
 $ORIGIN 48.192.{{ zonename }}.
 
 1   1H IN PTR   vrrp-gw-2020.codfw.wmnet.
 2   1H IN PTR   ae4-2020.cr1-codfw.wikimedia.org.
 3   1H IN PTR   ae4-2020.cr2-codfw.wikimedia.org.
+
+$ORIGIN 49.192.{{ zonename }}.
+1   1H IN PTR   vl2020-eth3.lvs2001.wikimedia.org.
+2   1H IN PTR   vl2020-eth3.lvs2002.wikimedia.org.
+3   1H IN PTR   vl2020-eth3.lvs2003.wikimedia.org.
+4   1H IN PTR   vl2020-eth3.lvs2004.wikimedia.org.
+5   1H IN PTR   vl2020-eth3.lvs2005.wikimedia.org.
+6   1H IN PTR   vl2020-eth3.lvs2006.wikimedia.org.
 
 $ORIGIN 0.193.{{ zonename }}.
 

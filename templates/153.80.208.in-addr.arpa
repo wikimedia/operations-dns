@@ -23,6 +23,9 @@ $ORIGIN {{ zonename }}.
 6   1H  IN PTR  lvs2001.wikimedia.org.
 7   1H  IN PTR  lvs2002.wikimedia.org.
 8   1H  IN PTR  lvs2003.wikimedia.org.
+9   1H  IN PTR  vl2001-eth1.lvs2004.wikimedia.org.
+10  1H  IN PTR  vl2001-eth1.lvs2005.wikimedia.org.
+11  1H  IN PTR  vl2001-eth1.lvs2006.wikimedia.org.
 
 ; 208.80.153.32/27 (public1-b-codfw)
 33  1H  IN PTR  vrrp-gw-2002.wikimedia.org.
@@ -31,16 +34,31 @@ $ORIGIN {{ zonename }}.
 36  1H  IN PTR  lvs2004.wikimedia.org.
 37  1H  IN PTR  lvs2005.wikimedia.org.
 38  1H  IN PTR  lvs2006.wikimedia.org.
+39  1H  IN PTR  vl2002-eth1.lvs2001.wikimedia.org.
+40  1H  IN PTR  vl2002-eth1.lvs2002.wikimedia.org.
+41  1H  IN PTR  vl2002-eth1.lvs2003.wikimedia.org.
 
 ; 208.80.153.64/27 (public1-c-codfw)
 65  1H  IN PTR  vrrp-gw-2003.wikimedia.org.
 66  1H  IN PTR  ae3-2003.cr1-codfw.wikimedia.org.
 67  1H  IN PTR  ae3-2003.cr2-codfw.wikimedia.org.
+68  1H  IN PTR  vl2003-eth2.lvs2001.wikimedia.org.
+69  1H  IN PTR  vl2003-eth2.lvs2002.wikimedia.org.
+70  1H  IN PTR  vl2003-eth2.lvs2003.wikimedia.org.
+71  1H  IN PTR  vl2003-eth2.lvs2004.wikimedia.org.
+72  1H  IN PTR  vl2003-eth2.lvs2005.wikimedia.org.
+73  1H  IN PTR  vl2003-eth2.lvs2006.wikimedia.org.
 
 ; 208.80.153.96/27 (public1-d-codfw)
 97  1H  IN PTR  vrrp-gw-2004.wikimedia.org.
 98  1H  IN PTR  ae4-2004.cr1-codfw.wikimedia.org.
 99  1H  IN PTR  ae4-2004.cr2-codfw.wikimedia.org.
+100 1H  IN PTR  vl2004-eth3.lvs2001.wikimedia.org.
+101 1H  IN PTR  vl2004-eth3.lvs2002.wikimedia.org.
+102 1H  IN PTR  vl2004-eth3.lvs2003.wikimedia.org.
+103 1H  IN PTR  vl2004-eth3.lvs2004.wikimedia.org.
+104 1H  IN PTR  vl2004-eth3.lvs2005.wikimedia.org.
+105 1H  IN PTR  vl2004-eth3.lvs2006.wikimedia.org.
 
 ; Neighbor blocks & loopbacks (208.80.153.192/27)
 
