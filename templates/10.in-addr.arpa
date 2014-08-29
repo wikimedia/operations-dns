@@ -1175,13 +1175,6 @@ $ORIGIN 49.64.{{ zonename }}.
 5       1H IN PTR       vl1020-eth3.lvs1005.wikimedia.org.
 6       1H IN PTR       vl1020-eth3.lvs1006.wikimedia.org.
 
-; 10.64.52.0/24 - labs-hosts1-d-eqiad
-$ORIGIN 52.64.{{ zonename }}.
-
-1       1H IN PTR       vrrp-gw-1120.eqiad.wmnet.
-2       1H IN PTR       ae4-1120.cr1-eqiad.wikimedia.org.
-3       1H IN PTR       ae4-1120.cr2-eqiad.wikimedia.org.
-
 ; 10.64.53.0/24 - analytics1-d-eqiad
 $ORIGIN 53.64.{{ zonename }}.
 
