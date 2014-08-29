@@ -53,3 +53,11 @@ $ORIGIN {{ zonename }}.
 223 1H  IN PTR  xe-5-2-1.cr2-codfw.wikimedia.org.
 
 ; LVS out-of-subnet service IPs (208.80.153.224/27)
+
+; Desktop Text & Assets  208.80.153.224 - 231 (208.80.153.224/29)  
+
+; Mobile Zero & general Support 208.80.154.232 - 39 (208.80.154.232/29)
+
+; Multimedia 208.80.154.240 - 247 (208.80.154.240/29)
+
+; Misc 208.80.154.248 - 208.80.154.255 (208.80.154.248/29)

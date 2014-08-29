@@ -82,11 +82,27 @@ $ORIGIN 4.0.1.0.{{ zonename }}.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-2020.cr2-codfw.wikimedia.org.
 
 
-; Service IPs 2620:0:860:ed1a::/64
+; LVS Service IPs, 2620:0:860:ed1a::/64
+
+; LVS Text, 2620:0:860:ed1a::0:0/96
 
 $ORIGIN a.1.d.e.{{ zonename }}.
 
 e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ns1.wikimedia.org.
+
+; LVS Mobile Zero & general support, 2620:0:860:ed1a::1:0/96
+
+$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+
+; LVS Multimedia, 2620:0:860:ed1a::2:0/96
+
+$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+
+; LVS Misc, 2620:0:860:ed1a::3:0/96
+
+$ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+
+
 
 ; Neighbor blocks
 
