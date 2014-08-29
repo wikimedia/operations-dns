@@ -644,7 +644,7 @@ $ORIGIN 1.64.{{ zonename }}.
 5       1H IN PTR       vl1017-eth1.lvs1005.wikimedia.org.
 6       1H IN PTR       vl1017-eth1.lvs1006.wikimedia.org.
 
-; 10.64.4.0/24 - labs-hosts1-a-eqiad
+; 10.64.4.0/24 - labs-support1-a-eqiad
 $ORIGIN 4.64.{{ zonename }}.
 
 1        1H IN PTR      vrrp-gw-1117.eqiad.wmnet.
@@ -868,7 +868,7 @@ $ORIGIN 20.64.{{ zonename }}.
 9   1H IN PTR   virt1006.eqiad.wmnet.
 10  1H IN PTR   virt1007.eqiad.wmnet.
 11      1H IN PTR       virt1008.eqiad.wmnet.
-12      1H IN PTR       labsdb1001.eqiad.wmnet.
+12      1H IN PTR       labsdb1001.eqiad.wmnet. ; MIGRATE to labs-support
 13  1H IN PTR   labnet1001.eqiad.wmnet.
 14      1H IN PTR       virt1009.eqiad.wmnet.
 
