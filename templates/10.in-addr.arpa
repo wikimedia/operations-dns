@@ -885,14 +885,6 @@ $ORIGIN 21.64.{{ zonename }}.
 110 1H IN PTR   analytics1010.eqiad.wmnet.
 123 1H IN PTR   vanadium.eqiad.wmnet.
 
-; 10.64.22.0/24 - labsexternal1-b-eqiad
-$ORIGIN 22.64.{{ zonename }}.
-
-1   1H IN PTR   vrrp-gw-1122.eqiad.wmnet.
-2   1H IN PTR   ae2-1122.cr1-eqiad.wikimedia.org.
-3   1H IN PTR   ae2-1122.cr2-eqiad.wikimedia.org.
-11  1H IN PTR   labnet1001-ext.eqiad.wmnet.
-
 ; 10.64.32.0/22 - private1-c-eqiad
 $ORIGIN 32.64.{{ zonename }}.
 
