@@ -871,14 +871,6 @@ $ORIGIN 20.64.{{ zonename }}.
 12      1H IN PTR       labsdb1001.eqiad.wmnet.
 13  1H IN PTR   labnet1001.eqiad.wmnet.
 14      1H IN PTR       virt1009.eqiad.wmnet.
-101 1H IN PTR   db1-rowb-RESERVED.
-102 1H IN PTR   db2-rowb-RESERVED.
-103 1H IN PTR   db3-rowb-RESERVED.
-104 1H IN PTR   db4-rowb-RESERVED.
-105 1H IN PTR   db5-rowb-RESERVED.
-106 1H IN PTR   db6-rowb-RESERVED.
-107 1H IN PTR   db7-rowb-RESERVED.
-108 1H IN PTR   db8-rowb-RESERVED.
 
 ; 10.64.21.0/24 - analytics1-b-eqiad
 $ORIGIN 21.64.{{ zonename }}.
@@ -1099,15 +1091,6 @@ $ORIGIN 37.64.{{ zonename }}.
 11      1H IN PTR       labsdb1006.eqiad.wmnet.
 12      1H IN PTR       labsdb1007.eqiad.wmnet.
 13      1H IN PTR       labmon1001.eqiad.wmnet.
-
-101     1H IN PTR       db1-rowc-RESERVED.
-102     1H IN PTR       db2-rowc-RESERVED.
-103     1H IN PTR       db3-rowc-RESERVED.
-104     1H IN PTR       db4-rowc-RESERVED.
-105     1H IN PTR       db5-rowc-RESERVED.
-106     1H IN PTR       db6-rowc-RESERVED.
-107     1H IN PTR       db7-rowc-RESERVED.
-108     1H IN PTR       db8-rowc-RESERVED.
 
 ; 10.64.40.0/23 - frack subnets
 $ORIGIN 40.64.{{ zonename }}.
