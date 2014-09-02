@@ -496,8 +496,6 @@ ntp.pmtpa       1H  IN CNAME    linne
 observium       1H  IN CNAME    librenms
 librenms        1H  IN CNAME    netmon1001
 
-; in theory we can run with both live, but eqiad-only is preferred
-;payments       5M  IN A        208.80.152.213 ; pmtpa
 payments        5M  IN A        208.80.155.5 ; eqiad
 
 payments-listener   1H  IN CNAME        thulium
