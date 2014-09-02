@@ -104,24 +104,11 @@ $ORIGIN {{ zonename }}.
 
 ; OLD LVS service IPs (91.198.174.224/28)
 
-; 11x XXX below temporarily commented out pending removal, so as to avoid false sniffer
-;   hits from arbitrary reverse->forward lookups --bblack
-
-; XXX 224     1H IN PTR       wikimedia-lb.esams.wikimedia.org.
-; XXX 225     1H IN PTR       wikipedia-lb.esams.wikimedia.org.
-; XXX 226     1H IN PTR       wiktionary-lb.esams.wikimedia.org.
-; XXX 227     1H IN PTR       wikiquote-lb.esams.wikimedia.org.
-; XXX 228     1H IN PTR       wikibooks-lb.esams.wikimedia.org.
-; XXX 229     1H IN PTR       wikisource-lb.esams.wikimedia.org.
-; XXX 230     1H IN PTR       wikinews-lb.esams.wikimedia.org.
-; XXX 231     1H IN PTR       wikiversity-lb.esams.wikimedia.org.
-; XXX 232     1H IN PTR       mediawiki-lb.esams.wikimedia.org.
 233     1H IN PTR       bits-lb.esams.wikimedia.org.
 
 235     1H IN PTR       text-lb.esams.wikimedia.org.
 236     1H IN PTR       mobile-lb.esams.wikimedia.org.
-; XXX 237     1H IN PTR       wikidata-lb.esams.wikimedia.org.
-; XXX 238     1H IN PTR       wikivoyage-lb.esams.wikimedia.org.
+
 239 1H IN PTR   ns2.wikimedia.org.
 
 ; Neighbor block between cr2-knams and csw2-esams (91.198.174.240/31)

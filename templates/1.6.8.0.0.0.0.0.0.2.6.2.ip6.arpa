@@ -202,19 +202,8 @@ $ORIGIN 9.1.1.0.{{ zonename }}.
 
 $ORIGIN a.1.d.e.{{ zonename }}.
 
-; 11x XXX below temporarily commented out pending removal, so as to avoid false sniffer
-;   hits from arbitrary reverse->forward lookups --bblack
-
-; XXX 0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   wikimedia-lb.eqiad.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   text-lb.eqiad.wikimedia.org.
-; XXX 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   wiktionary-lb.eqiad.wikimedia.org.
-; XXX 3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   wikiquote-lb.eqiad.wikimedia.org.
-; XXX 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   wikibooks-lb.eqiad.wikimedia.org.
-; XXX 5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   wikisource-lb.eqiad.wikimedia.org.
-; XXX 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   wikinews-lb.eqiad.wikimedia.org.
-; XXX 7.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   wikiversity-lb.eqiad.wikimedia.org.
-; XXX 8.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mediawiki-lb.eqiad.wikimedia.org.
-; XXX 9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   foundation-lb.eqiad.wikimedia.org.
+
 a.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   bits-lb.eqiad.wikimedia.org.
 b.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   upload-lb.eqiad.wikimedia.org.
 c.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mobile-lb.eqiad.wikimedia.org.
@@ -223,8 +212,6 @@ e.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ns0.wikimedia.org.
 f.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   dns-rec-lb.eqiad.wikimedia.org.
 0.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   osm-lb.eqiad.wikimedia.org.
 1.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   misc-web-lb.eqiad.wikimedia.org.
-; XXX 2.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   wikidata-lb.eqiad.wikimedia.org.
-; XXX 3.1.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   wikivoyage-lb.eqiad.wikimedia.org.
 
 ; LVS Mobile Zero & general support, 2620:0:861:ed1a::1:0/96
 
