@@ -2596,9 +2596,44 @@ $ORIGIN 1.193.{{ zonename }}.
 6   1H IN PTR  WMF6137.mgmt.codfw.wmnet.
 
 10  1H IN PTR  install2001.mgmt.codfw.wmnet.
-10  1H IN PTR  wmf5815.mgmt.codfw.wmnet.
+10  1H IN PTR  WMF5815.mgmt.codfw.wmnet.
 11  1H IN PTR  bast2001.mgmt.codfw.wmnet.
 11  1H IN PTR  WMF5821.mgmt.codfw.wmnet.
+12  1H IN PTR  virt2001.mgmt.codfw.wmnet.
+12  1H IN PTR  WMF3662.mgmt.codfw.wmnet.
+13  1H IN PTR  virt2002.mgmt.codfw.wmnet.
+13  1H IN PTR  WMF3743.mgmt.codfw.wmnet.
+14  1H IN PTR  virt2003.mgmt.codfw.wmnet.
+14  1H IN PTR  WMF3744.mgmt.codfw.wmnet.
+15  1H IN PTR  virt2004.mgmt.codfw.wmnet.
+15  1H IN PTR  WMF3745.mgmt.codfw.wmnet.
+16  1H IN PTR  virt2005.mgmt.codfw.wmnet.
+16  1H IN PTR  WMF3746.mgmt.codfw.wmnet.
+17  1H IN PTR  virt2006.mgmt.codfw.wmnet.
+17  1H IN PTR  WMF3747.mgmt.codfw.wmnet.
+18  1H IN PTR  virt2007.mgmt.codfw.wmnet.
+18  1H IN PTR  WMF3748.mgmt.codfw.wmnet.
+19  1H IN PTR  virt2008.mgmt.codfw.wmnet.
+19  1H IN PTR  WMF3749.mgmt.codfw.wmnet.
+20  1H IN PTR  virt2009.mgmt.codfw.wmnet.
+20  1H IN PTR  WMF5707.mgmt.codfw.wmnet.
+21  1H IN PTR  virt2010.mgmt.codfw.wmnet.
+21  1H IN PTR  WMF5708.mgmt.codfw.wmnet.
+22  1H IN PTR  virt2011.mgmt.codfw.wmnet.
+22  1H IN PTR  WMF5702.mgmt.codfw.wmnet.
+23  1H IN PTR  pc2001.mgmt.codfw.wmnet.
+23  1H IN PTR  WMF5703.mgmt.codfw.wmnet.
+24  1H IN PTR  pc2002.mgmt.codfw.wmnet.
+24  1H IN PTR  WMF5704.mgmt.codfw.wmnet.
+25  1H IN PTR  pc2003.mgmt.codfw.wmnet.
+25  1H IN PTR  WMF5705.mgmt.codfw.wmnet.
+26  1H IN PTR  labsdb2001.mgmt.codfw.wmnet.
+26  1H IN PTR  WMF5700.mgmt.codfw.wmnet.
+27  1H IN PTR  labsdb2002.mgmt.codfw.wmnet.
+27  1H IN PTR  WMF5701.mgmt.codfw.wmnet.
+28  1H IN PTR  labsdb2003.mgmt.codfw.wmnet.
+28  1H IN PTR  WMF5706.mgmt.codfw.wmnet.
+29  1H IN PTR  WMF5709.mgmt.codfw.wmnet.
 
 
 ; LEGACY
