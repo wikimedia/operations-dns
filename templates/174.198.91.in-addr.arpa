@@ -118,7 +118,7 @@ $ORIGIN {{ zonename }}.
 ; XXX 232     1H IN PTR       mediawiki-lb.esams.wikimedia.org.
 233     1H IN PTR       bits-lb.esams.wikimedia.org.
 
-235     1H IN PTR       foundation-lb.esams.wikimedia.org.
+235     1H IN PTR       text-lb.esams.wikimedia.org.
 236     1H IN PTR       mobile-lb.esams.wikimedia.org.
 ; XXX 237     1H IN PTR       wikidata-lb.esams.wikimedia.org.
 ; XXX 238     1H IN PTR       wikivoyage-lb.esams.wikimedia.org.
