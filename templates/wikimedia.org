@@ -275,6 +275,7 @@ mobile-lb.ulsfo     1H  IN A        198.35.26.108
 
 ; Mobile
 
+ca.m            1H  IN CNAME    m.wikimedia.org.
 commons.m       1H  IN CNAME    m.wikimedia.org.
 incubator.m     1H  IN CNAME    m.wikimedia.org.
 legalteam.m     1H  IN CNAME    m.wikimedia.org.
@@ -514,6 +515,7 @@ board           1H  IN CNAME    wikimedia-lb
 boardgovcom     1H  IN CNAME    wikimedia-lb
 bookshelf       1H  IN CNAME    wikimedia-lb
 br          1H  IN CNAME    wikimedia-lb
+ca          1H  IN CNAME    wikimedia-lb
 ch          1H  IN CNAME    wikimedia-lb
 chair           1H  IN CNAME    wikimedia-lb
 chapcom         1H  IN CNAME    wikimedia-lb
