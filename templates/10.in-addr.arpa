@@ -2638,7 +2638,8 @@ $ORIGIN 1.193.{{ zonename }}.
 30  1H IN PTR  WMF5822.mgmt.codfw.wmnet.
 31  1H IN PTR  achernar.mgmt.codfw.wmnet.
 31  1H IN PTR  WMF5819.mgmt.codfw.wmnet.
-
+32  1H IN PTR  baham.mgmt.codfw.wmnet.
+32  1H IN PTR  WMF5820.mgmt.codfw.wmnet.
 
 ; LEGACY
 
