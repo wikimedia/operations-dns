@@ -755,7 +755,9 @@ rdb1002         1H  IN A        10.64.32.77
 rdb1003         1H  IN A        10.64.0.201
 rdb1004         1H  IN A        10.64.16.183
 rhodium         1H  IN A        10.64.16.184
-ruthenium       1H  IN A    10.64.16.151
+ruthenium       1H  IN A        10.64.16.151
+sca1001         1H  IN A        10.64.32.153
+sca1002         1H  IN A        10.64.48.29
 search1001      1H  IN A        10.64.32.108
 search1002      1H  IN A        10.64.32.109
 search1003      1H  IN A        10.64.32.110
@@ -1956,11 +1958,13 @@ thallium        1H  IN A        10.65.5.191
 wmf4552     1H  IN A        10.65.5.192
 ocg1001     1H  IN A        10.65.5.192
 wmf4553     1H  IN A        10.65.5.193
+sca1001     1H  IN A        10.65.5.193
 wmf4554     1H  IN A        10.65.5.194
 ocg1002     1H  IN A        10.65.5.194
 wmf4555     1H  IN A        10.65.5.195
 ocg1003     1H  IN A        10.65.5.195
 wmf4556     1H  IN A        10.65.5.196
+sca1002     1H  IN A        10.65.5.196
 wmf4557     1H  IN A        10.65.5.197
 wmf4568         1H      IN A            10.65.5.198
 lead        1H          IN A            10.65.5.198
