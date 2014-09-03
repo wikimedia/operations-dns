@@ -2080,15 +2080,52 @@ ps1-d8-codfw    1H  IN A    10.193.0.56
 
 bast2001        1H  IN A    10.193.1.11
 install2001     1H  IN A    10.193.1.10
+labsdb2001      1H  IN A    10.193.1.26
+labsdb2002      1H  IN A    10.193.1.27
+labsdb2003      1H  IN A    10.193.1.28
 lvs2001         1H  IN A    10.193.1.1
 lvs2002         1H  IN A    10.193.1.2
 lvs2003         1H  IN A    10.193.1.3
 lvs2004         1H  IN A    10.193.1.4
 lvs2005         1H  IN A    10.193.1.5
 lvs2006         1H  IN A    10.193.1.6
+pc2001          1H  IN A    10.193.1.23
+pc2002          1H  IN A    10.193.1.24
+pc2003          1H  IN A    10.193.1.25
+virt2001        1H  IN A    10.193.1.12
+virt2002        1H  IN A    10.193.1.13
+virt2003        1H  IN A    10.193.1.14
+virt2004        1H  IN A    10.193.1.15
+virt2005        1H  IN A    10.193.1.16
+virt2006        1H  IN A    10.193.1.17
+virt2007        1H  IN A    10.193.1.18
+virt2008        1H  IN A    10.193.1.19
+virt2009        1H  IN A    10.193.1.20
+virt2010        1H  IN A    10.193.1.21
+virt2011        1H  IN A    10.193.1.22
+
 
 ; Servers MGMT - Alphabetical by asset tag
 
+
+WMF3662         1H  IN A    10.192.1.12
+WMF3743         1H  IN A    10.192.1.13
+WMF3744         1H  IN A    10.192.1.14
+WMF3745         1H  IN A    10.192.1.15
+WMF3746         1H  IN A    10.192.1.16
+WMF3747         1H  IN A    10.192.1.17
+WMF3748         1H  IN A    10.192.1.18
+WMF3749         1H  IN A    10.192.1.19
+WMF5700         1H  IN A    10.193.1.26
+WMF5701         1H  IN A    10.193.1.27
+WMF5702         1H  IN A    10.192.1.22
+WMF5703         1H  IN A    10.193.1.23
+WMF5704         1H  IN A    10.193.1.24
+WMF5705         1H  IN A    10.193.1.25
+WMF5706         1H  IN A    10.193.1.28
+WMF5707         1H  IN A    10.192.1.20
+WMF5708         1H  IN A    10.192.1.21
+WMF5709         1H  IN A    10.192.1.29
 WMF5815         1H  IN A    10.192.1.10
 WMF5821         1H  IN A    10.192.1.11
 WMF6132         1H  IN A    10.193.1.1
