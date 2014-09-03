@@ -148,9 +148,6 @@ $ORIGIN {{ zonename }}.
 ; LVS out-of-subnet service IPs (208.80.154.224/27)
 ; FIXME : These will be slowly rearranged to fit
 
-; 11x XXX below temporarily commented out pending removal, so as to avoid false sniffer
-;   hits from arbitrary reverse->forward lookups --bblack
-
 ; Desktop Text & Assets  208.80.154.224 - 231 (208.80.154.224/29)  
 224 1H  IN PTR  text-lb.eqiad.wikimedia.org.
 
