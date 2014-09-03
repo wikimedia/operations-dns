@@ -242,13 +242,14 @@ text-lb.eqiad       1H  IN A    208.80.154.224
 donate-lb.eqiad     1H  IN A    208.80.154.224 ; Explicitly v4 only
                 IN MX 10 polonium.wikimedia.org.
                 IN MX 50 lead.wikimedia.org.
+login-lb.eqiad      1H  IN A    208.80.154.233
+                    1H  IN AAAA 2620:0:861:ed1a::1:9
 bits-lb.eqiad       1H  IN A    208.80.154.234
             1H  IN AAAA 2620:0:861:ed1a::1:a
 upload-lb.eqiad     1H  IN A    208.80.154.240
             1H  IN AAAA 2620:0:861:ed1a::2:b
 mobile-lb.eqiad     1H  IN A    208.80.154.236
             1H  IN AAAA 2620:0:861:ed1a::1:c
-payments-lb.eqiad   1H  IN A    208.80.154.237
 ;;; ns0                 208.80.154.238
 dns-rec-lb.eqiad    1H  IN A    208.80.154.239
 osm-lb.eqiad        1H  IN A    208.80.154.244

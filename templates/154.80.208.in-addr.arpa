@@ -152,10 +152,9 @@ $ORIGIN {{ zonename }}.
 224 1H  IN PTR  text-lb.eqiad.wikimedia.org.
 
 ; Mobile Zero & general Support 208.80.154.232 - 39 (208.80.154.232/29)
+233 1H  IN PTR  login-lb.eqiad.wikimedia.org.
 234 1H  IN PTR  bits-lb.eqiad.wikimedia.org.
-235 1H  IN PTR  upload-lb.eqiad.wikimedia.org.
 236 1H  IN PTR  mobile-lb.eqiad.wikimedia.org.
-237 1H  IN PTR  payments-lb.eqiad.wikimedia.org.
 238 1H  IN PTR  ns0.wikimedia.org.
 239 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org.
 

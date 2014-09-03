@@ -204,12 +204,7 @@ $ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 1.0.0.0 1H IN PTR   text-lb.eqiad.wikimedia.org.
 
-a.0.0.0 1H IN PTR   bits-lb.eqiad.wikimedia.org.
-b.0.0.0 1H IN PTR   upload-lb.eqiad.wikimedia.org.
-c.0.0.0 1H IN PTR   mobile-lb.eqiad.wikimedia.org.
-d.0.0.0 1H IN PTR   payments-lb.eqiad.wikimedia.org.
 e.0.0.0 1H IN PTR   ns0.wikimedia.org.
-f.0.0.0 1H IN PTR   dns-rec-lb.eqiad.wikimedia.org.
 0.1.0.0 1H IN PTR   osm-lb.eqiad.wikimedia.org.
 1.1.0.0 1H IN PTR   misc-web-lb.eqiad.wikimedia.org.
 
@@ -217,6 +212,7 @@ f.0.0.0 1H IN PTR   dns-rec-lb.eqiad.wikimedia.org.
 
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
+9.0.0.0                         1H IN PTR   login-lb.eqiad.wikimedia.org.
 a.0.0.0                         1H IN PTR   bits-lb.eqiad.wikimedia.org.
 c.0.0.0                         1H IN PTR   mobile-lb.eqiad.wikimedia.org.
 
