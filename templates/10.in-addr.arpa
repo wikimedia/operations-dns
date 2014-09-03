@@ -2594,6 +2594,7 @@ $ORIGIN 1.193.{{ zonename }}.
 5   1H IN PTR  WMF6136.mgmt.codfw.wmnet.
 6   1H IN PTR  lvs2006.mgmt.codfw.wmnet.
 6   1H IN PTR  WMF6137.mgmt.codfw.wmnet.
+7   1H IN PTR  papaul-laptop.mgmt.codfw.wmnet.
 
 10  1H IN PTR  install2001.mgmt.codfw.wmnet.
 10  1H IN PTR  WMF5815.mgmt.codfw.wmnet.
