@@ -24,7 +24,7 @@ $ORIGIN {{ zonename }}.
 ; Canonical names
 
             1H  IN A    208.80.154.224
-            1H  IN AAAA 2620:0:861:ed1a::0
+            1H  IN AAAA 2620:0:861:ed1a::1
 
 ; Servers (alphabetic order)
 
