@@ -2634,6 +2634,10 @@ $ORIGIN 1.193.{{ zonename }}.
 28  1H IN PTR  labsdb2003.mgmt.codfw.wmnet.
 28  1H IN PTR  WMF5706.mgmt.codfw.wmnet.
 29  1H IN PTR  WMF5709.mgmt.codfw.wmnet.
+30  1H IN PTR  acamar.mgmt.codfw.wmnet.
+30  1H IN PTR  WMF5822.mgmt.codfw.wmnet.
+31  1H IN PTR  achernar.mgmt.codfw.wmnet.
+31  1H IN PTR  WMF5819.mgmt.codfw.wmnet.
 
 
 ; LEGACY

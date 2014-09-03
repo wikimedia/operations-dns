@@ -26,6 +26,7 @@ $ORIGIN {{ zonename }}.
 9   1H  IN PTR  vl2001-eth1.lvs2004.wikimedia.org.
 10  1H  IN PTR  vl2001-eth1.lvs2005.wikimedia.org.
 11  1H  IN PTR  vl2001-eth1.lvs2006.wikimedia.org.
+12  1H  IN PTR  acamar.wikimedia.org.
 
 ; 208.80.153.32/27 (public1-b-codfw)
 33  1H  IN PTR  vrrp-gw-2002.wikimedia.org.
@@ -37,6 +38,7 @@ $ORIGIN {{ zonename }}.
 39  1H  IN PTR  vl2002-eth1.lvs2001.wikimedia.org.
 40  1H  IN PTR  vl2002-eth1.lvs2002.wikimedia.org.
 41  1H  IN PTR  vl2002-eth1.lvs2003.wikimedia.org.
+42  1H  IN PTR  achernar.wikimedia.org.
 
 ; 208.80.153.64/27 (public1-c-codfw)
 65  1H  IN PTR  vrrp-gw-2003.wikimedia.org.

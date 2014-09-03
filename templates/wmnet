@@ -2078,6 +2078,8 @@ ps1-d8-codfw    1H  IN A    10.193.0.56
 
 ; Servers MGMT - Alphabetical by hostname
 
+acamar          1H  IN A    10.193.1.30
+achernar        1H  IN A    10.193.1.31
 bast2001        1H  IN A    10.193.1.11
 install2001     1H  IN A    10.193.1.10
 labsdb2001      1H  IN A    10.193.1.26
@@ -2107,7 +2109,6 @@ virt2011        1H  IN A    10.193.1.22
 
 ; Servers MGMT - Alphabetical by asset tag
 
-
 WMF3662         1H  IN A    10.192.1.12
 WMF3743         1H  IN A    10.192.1.13
 WMF3744         1H  IN A    10.192.1.14
@@ -2127,7 +2128,9 @@ WMF5707         1H  IN A    10.192.1.20
 WMF5708         1H  IN A    10.192.1.21
 WMF5709         1H  IN A    10.192.1.29
 WMF5815         1H  IN A    10.192.1.10
+WMF5819         1H  IN A    10.193.1.31
 WMF5821         1H  IN A    10.192.1.11
+WMF5822         1H  IN A    10.193.1.30
 WMF6132         1H  IN A    10.193.1.1
 WMF6133         1H  IN A    10.193.1.2
 WMF6134         1H  IN A    10.193.1.3
