@@ -85,18 +85,25 @@ upload      600 DYNC geoip!upload
 m       600 DYNC geoip!mobile-lb
 geoiplookup 600 DYNC geoip!geoiplookup
 donate      600 DYNC geoip!donate
+
+; Legacy geo-lb hostnames - no longer referenced
+; To be removed sometime after Sep 8, 2014
+; Probably should be announced as well in case
+;  3rd parties are referencing them.
+; Do not CNAME to these going forward!
 foundation-lb   600 DYNC geoip!text-lb
 mediawiki-lb    600 DYNC geoip!text-lb
 wikibooks-lb    600 DYNC geoip!text-lb
 wikimedia-lb    600 DYNC geoip!text-lb
-wikinews-lb 600 DYNC geoip!text-lb
+wikinews-lb     600 DYNC geoip!text-lb
 wikipedia-lb    600 DYNC geoip!text-lb
 wikiquote-lb    600 DYNC geoip!text-lb
 wikisource-lb   600 DYNC geoip!text-lb
 wikiversity-lb  600 DYNC geoip!text-lb
 wiktionary-lb   600 DYNC geoip!text-lb
-wikidata-lb 600 DYNC geoip!text-lb
+wikidata-lb     600 DYNC geoip!text-lb
 wikivoyage-lb   600 DYNC geoip!text-lb
+; End legacy lb hostnames
 
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
 
