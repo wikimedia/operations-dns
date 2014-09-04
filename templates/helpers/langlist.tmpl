@@ -1,27 +1,14 @@
 {% from "helpers/langs.tmpl" import langs %}
 
-{% macro langcname(lang, domain) -%}
-{{ lang }}              1H  IN CNAME    {{ domain }}
-www.{{ lang }}          1H  IN CNAME    {{ domain }}
-{{ lang }}.m            1H  IN CNAME    m.wikimedia.org.
-{{ lang }}.zero         1H  IN CNAME    m.wikimedia.org.
-{%- endmacro %}
-
-{% macro langlist(domain) -%}
-{% for lang in langs -%}
-{{ langcname(lang, domain) }}
-{% endfor %}
-{%- endmacro %}
-
 {% macro geolang(lang, dyna) -%}
-{{ lang }}              1H  IN DYNA    geoip!{{ dyna }}
-www.{{ lang }}          1H  IN DYNA    geoip!{{ dyna }}
-{{ lang }}.m            1H  IN DYNA    geoip!mobile-addrs
-{{ lang }}.zero         1H  IN DYNA    geoip!mobile-addrs
+{{ lang }}              600 IN DYNA    geoip!{{ dyna }}
+www.{{ lang }}          600 IN DYNA    geoip!{{ dyna }}
+{{ lang }}.m            600 IN DYNA    geoip!mobile-addrs
+{{ lang }}.zero         600 IN DYNA    geoip!mobile-addrs
 {%- endmacro %}
 
 {% macro geolanglist(dyna) -%}
 {% for lang in langs -%}
-{{ langdyna(lang, dyna) }}
+{{ geolang(lang, dyna) }}
 {% endfor %}
 {%- endmacro %}

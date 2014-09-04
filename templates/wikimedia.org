@@ -20,9 +20,7 @@ $ORIGIN {{ zonename }}.
             1H  IN MX   50  lead.wikimedia.org.
 
 ; Canonical names
-
-            1H  IN A    208.80.154.224
-            1H  IN AAAA 2620:0:861:ed1a::1
+            600 IN DYNA geoip!text-addrs
 
 ; Google Webmaster Tools verification record for search management
             600 IN TXT  "google-site-verification=APNaeC69s87mS4z-sfYqFYONgimBx4Bw22eCIaYEd_g"
@@ -80,30 +78,30 @@ recursor0       1H  IN A    208.80.154.239  ; eqiad LVS (dns-rec-lb)
 recursor1       1H  IN A    91.198.174.6    ; nescio
 
 ; Geodynamic records
-text-lb     600 DYNC geoip!text-lb
-bits        600 DYNC geoip!bits
-upload      600 DYNC geoip!upload
-m       600 DYNC geoip!mobile-lb
-geoiplookup 600 DYNC geoip!geoiplookup
-donate      600 DYNC geoip!donate
+text-lb     600 DYNA geoip!text-addrs
+bits        600 DYNA geoip!bits-addrs
+upload      600 DYNA geoip!upload-addrs
+m           600 DYNA geoip!mobile-addrs
+geoiplookup 600 DYNA geoip!bits-addrs-v4
+donate      600 DYNA geoip!text-addrs-v4
 
 ; Legacy geo-lb hostnames - no longer referenced
 ; To be removed sometime after Sep 8, 2014
 ; Probably should be announced as well in case
 ;  3rd parties are referencing them.
 ; Do not CNAME to these going forward!
-foundation-lb   600 DYNC geoip!text-lb
-mediawiki-lb    600 DYNC geoip!text-lb
-wikibooks-lb    600 DYNC geoip!text-lb
-wikimedia-lb    600 DYNC geoip!text-lb
-wikinews-lb     600 DYNC geoip!text-lb
-wikipedia-lb    600 DYNC geoip!text-lb
-wikiquote-lb    600 DYNC geoip!text-lb
-wikisource-lb   600 DYNC geoip!text-lb
-wikiversity-lb  600 DYNC geoip!text-lb
-wiktionary-lb   600 DYNC geoip!text-lb
-wikidata-lb     600 DYNC geoip!text-lb
-wikivoyage-lb   600 DYNC geoip!text-lb
+foundation-lb   600 DYNA geoip!text-addrs
+mediawiki-lb    600 DYNA geoip!text-addrs
+wikibooks-lb    600 DYNA geoip!text-addrs
+wikimedia-lb    600 DYNA geoip!text-addrs
+wikinews-lb     600 DYNA geoip!text-addrs
+wikipedia-lb    600 DYNA geoip!text-addrs
+wikiquote-lb    600 DYNA geoip!text-addrs
+wikisource-lb   600 DYNA geoip!text-addrs
+wikiversity-lb  600 DYNA geoip!text-addrs
+wiktionary-lb   600 DYNA geoip!text-addrs
+wikidata-lb     600 DYNA geoip!text-addrs
+wikivoyage-lb   600 DYNA geoip!text-addrs
 ; End legacy lb hostnames
 
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
@@ -239,26 +237,21 @@ zirconium       1H  IN A    208.80.154.41
 ; Round Robin LVS Service records
 
 ;;; eqiad
-text-lb.eqiad       1H  IN A    208.80.154.224
-                    1H  IN AAAA 2620:0:861:ed1a::1
-donate-lb.eqiad     1H  IN A    208.80.154.224 ; Explicitly v4 only
+text-lb.eqiad       600 IN DYNA geoip!text-addrs/eqiad
+login-lb.eqiad      600 IN DYNA geoip!login-addrs/eqiad
+bits-lb.eqiad       600 IN DYNA geoip!bits-addrs/eqiad
+upload-lb.eqiad     600 IN DYNA geoip!upload-addrs/eqiad
+mobile-lb.eqiad     600 IN DYNA geoip!mobile-addrs/eqiad
+donate-lb.eqiad     600 IN DYNA geoip!text-addrs-v4/eqiad
                 IN MX 10 polonium.wikimedia.org.
                 IN MX 50 lead.wikimedia.org.
-login-lb.eqiad      1H  IN A    208.80.154.233
-                    1H  IN AAAA 2620:0:861:ed1a::1:9
-bits-lb.eqiad       1H  IN A    208.80.154.234
-            1H  IN AAAA 2620:0:861:ed1a::1:a
-upload-lb.eqiad     1H  IN A    208.80.154.240
-            1H  IN AAAA 2620:0:861:ed1a::2:b
-mobile-lb.eqiad     1H  IN A    208.80.154.236
-            1H  IN AAAA 2620:0:861:ed1a::1:c
 ;;; ns0                 208.80.154.238
 dns-rec-lb.eqiad    1H  IN A    208.80.154.239
 osm-lb.eqiad        1H  IN A    208.80.154.244
 misc-web-lb.eqiad   1H  IN A    208.80.154.241
             1H  IN AAAA 2620:0:861:ed1a::11
 
-geoiplookup-lb.eqiad    1H  IN A    208.80.154.234
+geoiplookup-lb.eqiad    600 IN DYNA geoip!bits-addrs-v4/eqiad
 
 parsoid-lb.eqiad    1H  IN A    208.80.154.248
             1H  IN AAAA 2620:0:861:ed1a::3:14
@@ -266,40 +259,33 @@ stream-lb.eqiad 1H  IN A    208.80.154.249
             1H  IN AAAA 2620:0:861:ed1a::3:15
 
 ;;; ulsfo
-text-lb.ulsfo       1H  IN A        198.35.26.96
-            1H  IN AAAA     2620:0:863:ed1a::1
-donate-lb.ulsfo     1H  IN A        198.35.26.96 ; explicitly v4 only
+text-lb.ulsfo       600 IN DYNA geoip!text-addrs/ulsfo
+login-lb.ulsfo      600 IN DYNA geoip!login-addrs/ulsfo
+bits-lb.ulsfo       600 IN DYNA geoip!bits-addrs/ulsfo
+upload-lb.ulsfo     600 IN DYNA geoip!upload-addrs/ulsfo
+mobile-lb.ulsfo     600 IN DYNA geoip!mobile-addrs/ulsfo
+geoiplookup-lb.ulsfo    600 IN DYNA geoip!bits-addrs-v4/ulsfo
+donate-lb.ulsfo     600 IN DYNA geoip!text-addrs-v4/ulsfo
             1H  IN MX 10    polonium.wikimedia.org.
             1H  IN MX 50    lead.wikimedia.org.
-login-lb.ulsfo      1H  IN A        198.35.26.105
-            1H  IN AAAA     2620:0:863:ed1a::1:9
-bits-lb.ulsfo       1H  IN A        198.35.26.106
-            1H  IN AAAA     2620:0:863:ed1a::1:a
-geoiplookup-lb.ulsfo    1H  IN A        198.35.26.106 ; explicitly v4 only
-upload-lb.ulsfo     1H  IN A        198.35.26.112
-            1H  IN AAAA     2620:0:863:ed1a::2:b
-mobile-lb.ulsfo     1H  IN A        198.35.26.108
-            1H  IN AAAA     2620:0:863:ed1a::1:c
-
-
 
 ; Mobile
 
-ca.m            1H  IN CNAME    m.wikimedia.org.
-commons.m       1H  IN CNAME    m.wikimedia.org.
-incubator.m     1H  IN CNAME    m.wikimedia.org.
-legalteam.m     1H  IN CNAME    m.wikimedia.org.
-login.m         1H  IN CNAME    m.wikimedia.org.
-meta.m          1H  IN CNAME    m.wikimedia.org.
-office.m        1H  IN CNAME    m.wikimedia.org.
-outreach.m      1H  IN CNAME    m.wikimedia.org.
-pl.m            1H  IN CNAME    m.wikimedia.org.
-species.m       1H  IN CNAME    m.wikimedia.org.
-strategy.m      1H  IN CNAME    m.wikimedia.org.
-wikimania2012.m     1H  IN CNAME    m.wikimedia.org.
-wikimania2013.m     1H  IN CNAME    m.wikimedia.org.
-wikimania2014.m     1H  IN CNAME    m.wikimedia.org.
-wikimania2015.m     1H  IN CNAME    m.wikimedia.org.
+ca.m            600 IN DYNA     geoip!mobile-addrs
+commons.m       600 IN DYNA     geoip!mobile-addrs
+incubator.m     600 IN DYNA     geoip!mobile-addrs
+legalteam.m     600 IN DYNA     geoip!mobile-addrs
+login.m         600 IN DYNA     geoip!mobile-addrs
+meta.m          600 IN DYNA     geoip!mobile-addrs
+office.m        600 IN DYNA     geoip!mobile-addrs
+outreach.m      600 IN DYNA     geoip!mobile-addrs
+pl.m            600 IN DYNA     geoip!mobile-addrs
+species.m       600 IN DYNA     geoip!mobile-addrs
+strategy.m      600 IN DYNA     geoip!mobile-addrs
+wikimania2012.m     600 IN DYNA     geoip!mobile-addrs
+wikimania2013.m     600 IN DYNA     geoip!mobile-addrs
+wikimania2014.m     600 IN DYNA     geoip!mobile-addrs
+wikimania2015.m     600 IN DYNA     geoip!mobile-addrs
 
 ; Networking
 
@@ -453,7 +439,7 @@ apt         1H  IN CNAME    carbon
 
 archiva         1H  IN CNAME    titanium
 
-cache           1H  IN CNAME    text-lb
+cache           600 IN DYNA     geoip!text-addrs
 
 dash.frdev      1H  IN CNAME    lutetium
 
@@ -479,7 +465,7 @@ irc         1H  IN CNAME    argon
 phabricator     1H  IN A        208.80.154.241 ; misc-web-lb.eqiad
             1H  IN MX       10 polonium.wikimedia.org.
             1H  IN MX       50 lead.wikimedia.org.
-login           1H  IN CNAME    text-lb
+login           600 IN DYNA     geoip!text-addrs
 ntp.pmtpa       1H  IN CNAME    linne
 
 observium       1H  IN CNAME    librenms
@@ -500,7 +486,7 @@ rt          1H  IN A        208.80.154.5
             1H  IN MX       10 polonium.wikimedia.org.
             1H  IN MX       50 lead.wikimedia.org.
 
-secure          1H  IN CNAME        text-lb ; moved from singer to cluster
+secure          600 IN DYNA     geoip!text-addrs
 
 smtp            1H  IN A        208.80.152.187  ; sanger
 
@@ -517,97 +503,97 @@ url-downloader      1H  IN A        208.80.152.143  ; linne
 
 ; Wikis (alphabetic order)
 
-advisory         1H  IN CNAME    text-lb
-affcom           1H  IN CNAME    text-lb
-auditcom         1H  IN CNAME    text-lb
-ar               1H  IN CNAME    text-lb
-bd               1H  IN CNAME    text-lb
-be               1H  IN CNAME    text-lb
-board            1H  IN CNAME    text-lb
-boardgovcom      1H  IN CNAME    text-lb
-bookshelf        1H  IN CNAME    text-lb
-br               1H  IN CNAME    text-lb
-ca               1H  IN CNAME    text-lb
-ch               1H  IN CNAME    text-lb
-chair            1H  IN CNAME    text-lb
-chapcom          1H  IN CNAME    text-lb
-checkuser        1H  IN CNAME    text-lb
-co               1H  IN CNAME    text-lb
-collab           1H  IN CNAME    text-lb
-comcom           1H  IN CNAME    text-lb
-commons          1H  IN CNAME    text-lb
-www.commons      1H  IN CNAME    text-lb
-dk               1H  IN CNAME    text-lb
-educacao         1H  IN CNAME    text-lb
-education        1H  IN CNAME    text-lb
-et               1H  IN CNAME    text-lb
-exec             1H  IN CNAME    text-lb
-fdc              1H  IN CNAME    text-lb
-fi               1H  IN CNAME    text-lb
-grants           1H  IN CNAME    text-lb
-hu               1H  IN CNAME    text-lb
-iegcom           1H  IN CNAME    text-lb
-il               1H  IN CNAME    text-lb
-incubator        1H  IN CNAME    text-lb
-internal         1H  IN CNAME    text-lb
-it               1H  IN CNAME    text-lb
-kr               1H  IN CNAME    text-lb
-langcom          1H  IN CNAME    text-lb
-legalteam        1H  IN CNAME    text-lb
-meta             1H  IN CNAME    text-lb
-www.meta         1H  IN CNAME    text-lb
-mk               1H  IN CNAME    text-lb
-movementroles    1H  IN CNAME    text-lb
-mx               1H  IN CNAME    text-lb
-nl               1H  IN CNAME    text-lb
-www.nl           1H  IN CNAME    text-lb
-noboard.chapters 1H  IN CNAME    text-lb
-no               1H  IN CNAME    text-lb
-noboard-chapters 1H  IN CNAME    text-lb
-nostalgia        1H  IN CNAME    text-lb
-nz               1H  IN CNAME    text-lb
-office           1H  IN CNAME    text-lb
-ombudsmen        1H  IN CNAME    text-lb
-otrs-wiki        1H  IN CNAME    text-lb
-outreach         1H  IN CNAME    text-lb
-pa.us            1H  IN CNAME    text-lb
-pa-us            1H  IN CNAME    text-lb
-pt               1H  IN CNAME    text-lb
-pk               1H  IN CNAME    text-lb
-pl               1H  IN CNAME    text-lb
-quality          1H  IN CNAME    text-lb
-rs               1H  IN CNAME    text-lb
-ru               1H  IN CNAME    text-lb
-se               1H  IN CNAME    text-lb
-searchcom        1H  IN CNAME    text-lb
-spcom            1H  IN CNAME    text-lb
-species          1H  IN CNAME    text-lb
-steward          1H  IN CNAME    text-lb
-strategy         1H  IN CNAME    text-lb
-strategyapps     1H  IN CNAME    text-lb
-tr               1H  IN CNAME    text-lb
-transitionteam   1H  IN CNAME    text-lb
-ua               1H  IN CNAME    text-lb
-uk               1H  IN CNAME    text-lb
-usability        1H  IN CNAME    text-lb
-ve               1H  IN CNAME    text-lb
-videos           1H  IN CNAME    text-lb
-vote             1H  IN CNAME    text-lb
-wikimania        1H  IN CNAME    text-lb
-wikimania2005    1H  IN CNAME    text-lb
-wikimania2006    1H  IN CNAME    text-lb
-wikimania2007    1H  IN CNAME    text-lb
-wikimania2008    1H  IN CNAME    text-lb
-wikimania2009    1H  IN CNAME    text-lb
-wikimania2010    1H  IN CNAME    text-lb
-wikimania2011    1H  IN CNAME    text-lb
-wikimania2012    1H  IN CNAME    text-lb
-wikimania2013    1H  IN CNAME    text-lb
-wikimania2014    1H  IN CNAME    text-lb
-wikimania2015    1H  IN CNAME    text-lb
-wikimaniateam    1H  IN CNAME    text-lb
-www              1H  IN CNAME    text-lb
-zero             1H  IN CNAME    text-lb
+advisory         600 IN DYNA     geoip!text-addrs
+affcom           600 IN DYNA     geoip!text-addrs
+auditcom         600 IN DYNA     geoip!text-addrs
+ar               600 IN DYNA     geoip!text-addrs
+bd               600 IN DYNA     geoip!text-addrs
+be               600 IN DYNA     geoip!text-addrs
+board            600 IN DYNA     geoip!text-addrs
+boardgovcom      600 IN DYNA     geoip!text-addrs
+bookshelf        600 IN DYNA     geoip!text-addrs
+br               600 IN DYNA     geoip!text-addrs
+ca               600 IN DYNA     geoip!text-addrs
+ch               600 IN DYNA     geoip!text-addrs
+chair            600 IN DYNA     geoip!text-addrs
+chapcom          600 IN DYNA     geoip!text-addrs
+checkuser        600 IN DYNA     geoip!text-addrs
+co               600 IN DYNA     geoip!text-addrs
+collab           600 IN DYNA     geoip!text-addrs
+comcom           600 IN DYNA     geoip!text-addrs
+commons          600 IN DYNA     geoip!text-addrs
+www.commons      600 IN DYNA     geoip!text-addrs
+dk               600 IN DYNA     geoip!text-addrs
+educacao         600 IN DYNA     geoip!text-addrs
+education        600 IN DYNA     geoip!text-addrs
+et               600 IN DYNA     geoip!text-addrs
+exec             600 IN DYNA     geoip!text-addrs
+fdc              600 IN DYNA     geoip!text-addrs
+fi               600 IN DYNA     geoip!text-addrs
+grants           600 IN DYNA     geoip!text-addrs
+hu               600 IN DYNA     geoip!text-addrs
+iegcom           600 IN DYNA     geoip!text-addrs
+il               600 IN DYNA     geoip!text-addrs
+incubator        600 IN DYNA     geoip!text-addrs
+internal         600 IN DYNA     geoip!text-addrs
+it               600 IN DYNA     geoip!text-addrs
+kr               600 IN DYNA     geoip!text-addrs
+langcom          600 IN DYNA     geoip!text-addrs
+legalteam        600 IN DYNA     geoip!text-addrs
+meta             600 IN DYNA     geoip!text-addrs
+www.meta         600 IN DYNA     geoip!text-addrs
+mk               600 IN DYNA     geoip!text-addrs
+movementroles    600 IN DYNA     geoip!text-addrs
+mx               600 IN DYNA     geoip!text-addrs
+nl               600 IN DYNA     geoip!text-addrs
+www.nl           600 IN DYNA     geoip!text-addrs
+noboard.chapters 600 IN DYNA     geoip!text-addrs
+no               600 IN DYNA     geoip!text-addrs
+noboard-chapters 600 IN DYNA     geoip!text-addrs
+nostalgia        600 IN DYNA     geoip!text-addrs
+nz               600 IN DYNA     geoip!text-addrs
+office           600 IN DYNA     geoip!text-addrs
+ombudsmen        600 IN DYNA     geoip!text-addrs
+otrs-wiki        600 IN DYNA     geoip!text-addrs
+outreach         600 IN DYNA     geoip!text-addrs
+pa.us            600 IN DYNA     geoip!text-addrs
+pa-us            600 IN DYNA     geoip!text-addrs
+pt               600 IN DYNA     geoip!text-addrs
+pk               600 IN DYNA     geoip!text-addrs
+pl               600 IN DYNA     geoip!text-addrs
+quality          600 IN DYNA     geoip!text-addrs
+rs               600 IN DYNA     geoip!text-addrs
+ru               600 IN DYNA     geoip!text-addrs
+se               600 IN DYNA     geoip!text-addrs
+searchcom        600 IN DYNA     geoip!text-addrs
+spcom            600 IN DYNA     geoip!text-addrs
+species          600 IN DYNA     geoip!text-addrs
+steward          600 IN DYNA     geoip!text-addrs
+strategy         600 IN DYNA     geoip!text-addrs
+strategyapps     600 IN DYNA     geoip!text-addrs
+tr               600 IN DYNA     geoip!text-addrs
+transitionteam   600 IN DYNA     geoip!text-addrs
+ua               600 IN DYNA     geoip!text-addrs
+uk               600 IN DYNA     geoip!text-addrs
+usability        600 IN DYNA     geoip!text-addrs
+ve               600 IN DYNA     geoip!text-addrs
+videos           600 IN DYNA     geoip!text-addrs
+vote             600 IN DYNA     geoip!text-addrs
+wikimania        600 IN DYNA     geoip!text-addrs
+wikimania2005    600 IN DYNA     geoip!text-addrs
+wikimania2006    600 IN DYNA     geoip!text-addrs
+wikimania2007    600 IN DYNA     geoip!text-addrs
+wikimania2008    600 IN DYNA     geoip!text-addrs
+wikimania2009    600 IN DYNA     geoip!text-addrs
+wikimania2010    600 IN DYNA     geoip!text-addrs
+wikimania2011    600 IN DYNA     geoip!text-addrs
+wikimania2012    600 IN DYNA     geoip!text-addrs
+wikimania2013    600 IN DYNA     geoip!text-addrs
+wikimania2014    600 IN DYNA     geoip!text-addrs
+wikimania2015    600 IN DYNA     geoip!text-addrs
+wikimaniateam    600 IN DYNA     geoip!text-addrs
+www              600 IN DYNA     geoip!text-addrs
+zero             600 IN DYNA     geoip!text-addrs
 
 ; Other websites (NO wikis!)
 analytics        1H  IN CNAME    stat1001
@@ -615,11 +601,11 @@ blog             5M  IN CNAME    wikimediablog.wordpress.com.
 bugs             1H  IN CNAME    zirconium
 bugzilla         1H  IN CNAME    zirconium
 bug-attachment   1H  IN CNAME    zirconium
-careers          1H  IN CNAME    text-lb
+careers          600 IN DYNA     geoip!text-addrs
 civicrm          1H  IN CNAME    barium
 civicrm.frdev    1H  IN CNAME    lutetium
 civicrm-gr.frdev 1H  IN CNAME    lutetium
-coffee           1H  IN CNAME    text-lb
+coffee           600 IN DYNA     geoip!text-addrs
 contacts         1H  IN CNAME    misc-web-lb.eqiad
 cs               1H  IN CNAME    wikimedia.cz.
 cz               1H  IN CNAME    wikimedia.cz.
@@ -630,8 +616,8 @@ fundraising      1H  IN CNAME    barium-fundraising
 ganglia          1H  IN CNAME    nickel
 ishmael          1H  IN CNAME    misc-web-lb.eqiad
 tendril          1H  IN CNAME    neon
-jobs             1H  IN CNAME    text-lb
-labs             1H  IN CNAME    text-lb
+jobs             600 IN DYNA     geoip!text-addrs
+labs             600 IN DYNA     geoip!text-addrs
 labs-ns0         1H  IN A        208.80.152.33
 labs-ns1         1H  IN A        208.80.154.19
 labsconsole      1H  IN CNAME    wikitech
@@ -640,7 +626,7 @@ logstash         1H  IN CNAME    misc-web-lb.eqiad
 metrics-api      1H  IN CNAME    stat1001
 metrics          1H  IN CNAME    stat1001
 noc              1H  IN CNAME    fenari
-nyc              1H  IN CNAME    text-lb
+nyc              600 IN DYNA     geoip!text-addrs
 planet           1H  IN CNAME    zirconium
 ar.planet        1H  IN CNAME    zirconium
 ca.planet        1H  IN CNAME    zirconium
@@ -672,10 +658,10 @@ racktables       1H  IN CNAME    magnesium
 reportcard       1H  IN CNAME    stat1001
 scholarships     1H  IN CNAME    misc-web-lb.eqiad
 transparency     1H  IN CNAME    misc-web-lb.eqiad
-search           1H  IN CNAME    text-lb
+search           600 IN DYNA     geoip!text-addrs
 shop             1H  IN CNAME    shopwikipedia.myshopify.com.
 smokeping        1H  IN CNAME    netmon1001
-store            1H  IN CNAME    text-lb
+store            600 IN DYNA     geoip!text-addrs
 stats            1H  IN CNAME    stat1001
 status           1H  IN CNAME    status.watchmouse.com.
 techblog         5M  IN CNAME    wikimediablog.wordpress.com.
@@ -698,7 +684,7 @@ bounce.email.donate     1H  IN A    74.121.50.42
 bounce.email.donate     1H  IN MX   5 bounce.email.donate
 bounce.email.donate     1H  IN TXT  "v=spf1 ip4:74.121.51.111 ip4:208.80.155.11 -all"
 
-email.donate            1H  IN A    208.80.154.224
+email.donate            600 IN DYNA geoip!text-addrs-v4/eqiad
 email.donate            1H  IN MX   10 reply.email.donate
 email.donate            1H  IN MX   20 mail3880.email.donate
 email.donate            1H  IN TXT  "v=spf1 ip4:74.121.51.111 ip4:208.80.155.11 -all"
@@ -852,18 +838,12 @@ br1-knams.ipmi      1H  IN A    10.21.0.101
 scs-oe11-esams      1H  IN A    10.21.0.102
 
 ; Round robin record
-
-donate-lb       1H  IN A    91.198.174.192 ; Explicitly v4 only
-                IN MX 10 polonium.wikimedia.org.
-                IN MX 50 lead.wikimedia.org.
-text-lb         1H  IN A    91.198.174.192
-            1H  IN AAAA 2620:0:862:ed1a::1
-login-lb        1H  IN A    91.198.174.201
-            1H  IN AAAA 2620:0:862:ed1a::1:9
-bits-lb         1H  IN A    91.198.174.202
-            1H  IN AAAA 2620:0:862:ed1a::1:a
-upload-lb       1H  IN A    91.198.174.208
-            1H  IN AAAA 2620:0:862:ed1a::2:b
-mobile-lb       1H  IN A    91.198.174.204
-            1H  IN AAAA 2620:0:862:ed1a::1:c
-geoiplookup-lb      1H  IN A    91.198.174.202
+text-lb       600 IN DYNA geoip!text-addrs/esams
+login-lb      600 IN DYNA geoip!login-addrs/esams
+bits-lb       600 IN DYNA geoip!bits-addrs/esams
+upload-lb     600 IN DYNA geoip!upload-addrs/esams
+mobile-lb     600 IN DYNA geoip!mobile-addrs/esams
+geoiplookup-lb    600 IN DYNA geoip!bits-addrs-v4/esams
+donate-lb     600 IN DYNA geoip!text-addrs-v4/esams
+            1H  IN MX 10    polonium.wikimedia.org.
+            1H  IN MX 50    lead.wikimedia.org.

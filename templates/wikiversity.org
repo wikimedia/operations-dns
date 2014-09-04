@@ -1,4 +1,4 @@
-{% from "helpers/langlist.tmpl" import langlist with context -%}
+{% from "helpers/langlist.tmpl" import geolanglist with context -%}
 $TTL 3600
 $ORIGIN {{ zonename }}.
 @           1D  IN SOA  ns0.wikimedia.org.  hostmaster.wikimedia.org.   (
@@ -22,9 +22,7 @@ $ORIGIN {{ zonename }}.
 
 
 ; Canonical names
-
-            1H  IN A    208.80.154.224
-            1H  IN AAAA 2620:0:861:ed1a::1
+            600 IN DYNA geoip!text-addrs
 
 ; Google Webmaster Tools verification record for search management
             600 IN TXT  "google-site-verification=V1cbBf_zxEHDRFykCf8YR6TlOvLA1h-5lmD5a8pKfBw"
@@ -35,15 +33,15 @@ $ORIGIN {{ zonename }}.
 
 ; Wikis (alphabetic order)
 
-beta        1H  IN CNAME    text-lb.wikimedia.org.
-beta.m      1H  IN CNAME    m.wikimedia.org.
-www         1H  IN CNAME    text-lb.wikimedia.org.
+beta        600 IN DYNA     geoip!text-addrs
+beta.m      600 IN DYNA     geoip!mobile-addrs
+www         600 IN DYNA     geoip!text-addrs
 
 ; All languages will automatically be included here
-{{ langlist('text-lb.wikimedia.org.') }}
+{{ geolanglist('text-addrs') }}
 
 ; Other websites
-donate      1H  IN CNAME    text-lb.wikimedia.org.
-www.donate  1H  IN CNAME    text-lb.wikimedia.org.
-shop        1H  IN CNAME    text-lb.wikimedia.org.
-store       1H  IN CNAME    text-lb.wikimedia.org.
+donate      600 IN DYNA     geoip!text-addrs
+www.donate  600 IN DYNA     geoip!text-addrs
+shop        600 IN DYNA     geoip!text-addrs
+store       600 IN DYNA     geoip!text-addrs

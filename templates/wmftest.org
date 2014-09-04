@@ -1,4 +1,4 @@
-{% from "helpers/langlist.tmpl" import langlist with context -%}
+{% from "helpers/langlist.tmpl" import geolanglist with context -%}
 $TTL 3600
 $ORIGIN {{ zonename }}.
 @           1D  IN SOA  ns0.wikimedia.org.  hostmaster.wikimedia.org.   (
@@ -25,8 +25,7 @@ $ORIGIN {{ zonename }}.
 
 
 ; Canonical names
-
-                        1H      IN A    208.80.154.224
+            600 IN DYNA geoip!text-addrs-v4
 
 ; Servers (alphabetic order)
 
