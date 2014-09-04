@@ -12,3 +12,16 @@ www.{{ lang }}          1H  IN CNAME    {{ domain }}
 {{ langcname(lang, domain) }}
 {% endfor %}
 {%- endmacro %}
+
+{% macro geolang(lang, dyna) -%}
+{{ lang }}              1H  IN DYNA    geoip!{{ dyna }}
+www.{{ lang }}          1H  IN DYNA    geoip!{{ dyna }}
+{{ lang }}.m            1H  IN DYNA    geoip!mobile-addrs
+{{ lang }}.zero         1H  IN DYNA    geoip!mobile-addrs
+{%- endmacro %}
+
+{% macro geolanglist(dyna) -%}
+{% for lang in langs -%}
+{{ langdyna(lang, dyna) }}
+{% endfor %}
+{%- endmacro %}
