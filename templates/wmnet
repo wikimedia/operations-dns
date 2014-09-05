@@ -2096,6 +2096,22 @@ lvs2003         1H  IN A    10.193.1.3
 lvs2004         1H  IN A    10.193.1.4
 lvs2005         1H  IN A    10.193.1.5
 lvs2006         1H  IN A    10.193.1.6
+ms-be2001       1H  IN A    10.193.1.37
+ms-be2002       1H  IN A    10.193.1.38
+ms-be2003       1H  IN A    10.193.1.39
+ms-be2004       1H  IN A    10.193.1.40
+ms-be2005       1H  IN A    10.193.1.41
+ms-be2006       1H  IN A    10.193.1.42
+ms-be2007       1H  IN A    10.193.1.43
+ms-be2008       1H  IN A    10.193.1.44
+ms-be2009       1H  IN A    10.193.1.45
+ms-be2010       1H  IN A    10.193.1.46
+ms-be2011       1H  IN A    10.193.1.47
+ms-be2012       1H  IN A    10.193.1.48
+ms-fe2001       1H  IN A    10.193.1.33
+ms-fe2002       1H  IN A    10.193.1.34
+ms-fe2003       1H  IN A    10.193.1.35
+ms-fe2004       1H  IN A    10.193.1.36
 pc2001          1H  IN A    10.193.1.23
 pc2002          1H  IN A    10.193.1.24
 pc2003          1H  IN A    10.193.1.25
@@ -2114,7 +2130,13 @@ virt2011        1H  IN A    10.193.1.22
 
 ; Servers MGMT - Alphabetical by asset tag
 
+
+
+WMF3639         1H  IN A    10.193.1.33
+WMF3640         1H  IN A    10.193.1.34
 WMF3662         1H  IN A    10.192.1.12
+WMF3663         1H  IN A    10.193.1.35
+WMF3664         1H  IN A    10.193.1.36
 WMF3743         1H  IN A    10.192.1.13
 WMF3744         1H  IN A    10.192.1.14
 WMF3745         1H  IN A    10.192.1.15
@@ -2137,6 +2159,18 @@ WMF5819         1H  IN A    10.193.1.31
 WMF5820         1H  IN A    10.193.1.32
 WMF5821         1H  IN A    10.192.1.11
 WMF5822         1H  IN A    10.193.1.30
+WMF5828         1H  IN A    10.193.1.42
+WMF5829         1H  IN A    10.193.1.43
+WMF5830         1H  IN A    10.193.1.46
+WMF5831         1H  IN A    10.193.1.44
+WMF5832         1H  IN A    10.193.1.39
+WMF5839         1H  IN A    10.193.1.38
+WMF5840         1H  IN A    10.193.1.41
+WMF5841         1H  IN A    10.193.1.47
+WMF5903         1H  IN A    10.193.1.48
+WMF5917         1H  IN A    10.193.1.45
+WMF5918         1H  IN A    10.193.1.40
+WMF5919         1H  IN A    10.193.1.37
 WMF6132         1H  IN A    10.193.1.1
 WMF6133         1H  IN A    10.193.1.2
 WMF6134         1H  IN A    10.193.1.3

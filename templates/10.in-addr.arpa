@@ -2644,6 +2644,38 @@ $ORIGIN 1.193.{{ zonename }}.
 31  1H IN PTR  WMF5819.mgmt.codfw.wmnet.
 32  1H IN PTR  baham.mgmt.codfw.wmnet.
 32  1H IN PTR  WMF5820.mgmt.codfw.wmnet.
+33  1H IN PTR  ms-fe2001.mgmt.codfw.wmnet.
+33  1H IN PTR  WMF3639.mgmt.codfw.wmnet.
+34  1H IN PTR  ms-fe2002.mgmt.codfw.wmnet.
+34  1H IN PTR  WMF3640.mgmt.codfw.wmnet.
+35  1H IN PTR  ms-fe2003.mgmt.codfw.wmnet.
+35  1H IN PTR  WMF3663.mgmt.codfw.wmnet.
+36  1H IN PTR  ms-fe2004.mgmt.codfw.wmnet.
+36  1H IN PTR  WMF3664.mgmt.codfw.wmnet.
+37  1H IN PTR  ms-be2001.mgmt.codfw.wmnet.
+37  1H IN PTR  WMF5919.mgmt.codfw.wmnet.
+38  1H IN PTR  ms-be2002.mgmt.codfw.wmnet.
+38  1H IN PTR  WMF5839.mgmt.codfw.wmnet.
+39  1H IN PTR  ms-be2003.mgmt.codfw.wmnet.
+39  1H IN PTR  WMF5832.mgmt.codfw.wmnet.
+40  1H IN PTR  ms-be2004.mgmt.codfw.wmnet.
+40  1H IN PTR  WMF5918.mgmt.codfw.wmnet.
+41  1H IN PTR  ms-be2005.mgmt.codfw.wmnet.
+41  1H IN PTR  WMF5840.mgmt.codfw.wmnet.
+42  1H IN PTR  ms-be2006.mgmt.codfw.wmnet.
+42  1H IN PTR  WMF5828.mgmt.codfw.wmnet.
+43  1H IN PTR  ms-be2007.mgmt.codfw.wmnet.
+43  1H IN PTR  WMF5829.mgmt.codfw.wmnet.
+44  1H IN PTR  ms-be2008.mgmt.codfw.wmnet.
+44  1H IN PTR  WMF5831.mgmt.codfw.wmnet.
+45  1H IN PTR  ms-be2009.mgmt.codfw.wmnet.
+45  1H IN PTR  WMF5917.mgmt.codfw.wmnet.
+46  1H IN PTR  ms-be2010.mgmt.codfw.wmnet.
+46  1H IN PTR  WMF5830.mgmt.codfw.wmnet.
+47  1H IN PTR  ms-be2011.mgmt.codfw.wmnet.
+47  1H IN PTR  WMF5841.mgmt.codfw.wmnet.
+48  1H IN PTR  ms-be2012.mgmt.codfw.wmnet.
+48  1H IN PTR  WMF5903.mgmt.codfw.wmnet.
 
 ; LEGACY
 
