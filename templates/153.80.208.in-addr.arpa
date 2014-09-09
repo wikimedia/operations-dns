@@ -84,6 +84,7 @@ $ORIGIN {{ zonename }}.
 ; LVS out-of-subnet service IPs (208.80.153.224/27)
 
 ; Desktop Text & Assets  208.80.153.224 - .231 (208.80.153.224/29)
+231 1H  IN PTR  ns1.wikimedia.org
 
 ; Mobile Zero & general Support 208.80.153.232 - .239 (208.80.153.232/29)
 
