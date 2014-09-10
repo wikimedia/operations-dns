@@ -40,7 +40,7 @@ $ORIGIN {{ zonename }}.
 50  1H  IN PTR  hydrogen.wikimedia.org.
 51  1H  IN PTR  ssl1007.wikimedia.org.
 52  1H  IN PTR  rhenium.wikimedia.org.
-
+53  1H  IN PTR  uranium.wikimedia.org.
 55  1H  IN PTR  lvs1001.wikimedia.org.
 56  1H  IN PTR  lvs1002.wikimedia.org.
 57  1H  IN PTR  lvs1003.wikimedia.org.
