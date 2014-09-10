@@ -605,6 +605,7 @@ careers          600 IN DYNA     geoip!text-addrs
 civicrm          1H  IN CNAME    barium
 civicrm.frdev    1H  IN CNAME    lutetium
 civicrm-gr.frdev 1H  IN CNAME    lutetium
+civicrm2-gr.frdev 1H IN CNAME    lutetium
 coffee           600 IN DYNA     geoip!text-addrs
 contacts         1H  IN CNAME    misc-web-lb.eqiad
 cs               1H  IN CNAME    wikimedia.cz.
