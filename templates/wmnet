@@ -2600,6 +2600,7 @@ search-pool3    1H  IN A        10.2.2.13
 search-pool4    1H  IN A        10.2.2.14
 search-prefix   1H  IN A        10.2.2.15
 search-pool5    1H  IN A        10.2.2.16
+mathoid     1H  IN A        10.2.2.20
 rendering   1H  IN A        10.2.2.21
 api         1H  IN A        10.2.2.22
 bits        1H  IN A        10.2.2.23
