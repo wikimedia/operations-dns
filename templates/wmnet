@@ -2170,6 +2170,7 @@ db2040          1H  IN A    10.193.1.90
 db2041          1H  IN A    10.193.1.91
 db2042          1H  IN A    10.193.1.92
 install2001     1H  IN A    10.193.1.10
+labcontrol2001  1H  IN A    10.193.1.49
 labsdb2001      1H  IN A    10.193.1.26
 labsdb2002      1H  IN A    10.193.1.27
 labsdb2003      1H  IN A    10.193.1.28
@@ -2273,6 +2274,7 @@ WMF5832         1H  IN A    10.193.1.39
 WMF5839         1H  IN A    10.193.1.38
 WMF5840         1H  IN A    10.193.1.41
 WMF5841         1H  IN A    10.193.1.47
+WMF5847         1H  IN A    10.193.1.49
 WMF5903         1H  IN A    10.193.1.48
 WMF5917         1H  IN A    10.193.1.45
 WMF5918         1H  IN A    10.193.1.40
