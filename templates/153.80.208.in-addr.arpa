@@ -91,3 +91,4 @@ $ORIGIN {{ zonename }}.
 ; Multimedia 208.80.153.240 - .247 (208.80.153.240/29)
 
 ; Misc 208.80.153.248 - .255 (208.80.153.248/29)
+254  1H  IN PTR dns-rec-lb.codfw.wikimedia.org.

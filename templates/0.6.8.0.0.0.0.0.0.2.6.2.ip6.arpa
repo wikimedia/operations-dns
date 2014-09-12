@@ -102,6 +102,8 @@ $ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
+e.f.0.0 1H IN PTR  dns-rec-lb.codfw.wikimedia.org.
+
 
 
 ; Neighbor blocks

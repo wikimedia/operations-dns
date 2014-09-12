@@ -271,6 +271,10 @@ donate-lb.ulsfo     600 IN DYNA geoip!text-addrs-v4/ulsfo
             1H  IN MX 10    polonium.wikimedia.org.
             1H  IN MX 50    lead.wikimedia.org.
 
+;;; codfw
+dns-rec-lb.codfw    1H  IN A    208.80.153.254
+                    1H  IN AAAA 2620:0:860:ed1a::3:fe
+
 ; Mobile
 
 ca.m            600 IN DYNA     geoip!mobile-addrs
