@@ -2140,7 +2140,7 @@ $ORIGIN 5.65.{{ zonename }}.
 19  1H  IN PTR      ms-fe1003.mgmt.eqiad.wmnet.
 20  1H  IN PTR      ms-fe1004.mgmt.eqiad.wmnet.
 21  1H  IN PTR      ms-be1013.mgmt.eqiad.wmnet.
-22  1H      IN PTR      ms-be1014.mgmt.eqiad.wmnet.
+22  1H  IN PTR      ms-be1014.mgmt.eqiad.wmnet.
 23  1H  IN PTR      ms-be1015.mgmt.eqiad.wmnet.
 
 $ORIGIN 6.65.{{ zonename }}.
@@ -2492,7 +2492,10 @@ $ORIGIN 0.192.{{ zonename }}.
 16  1H IN PTR   db2013.codfw.wmnet.
 17  1H IN PTR   db2014.codfw.wmnet.
 18  1H IN PTR   db2015.codfw.wmnet.
-
+19  1H IN PTR   ms-be2001.codfw.wmnet.
+20  1H IN PTR   ms-be2002.codfw.wmnet.
+21  1H IN PTR   ms-be2003.codfw.wmnet.
+22  1H IN PTR   ms-be2004.codfw.wmnet.
 
 $ORIGIN 1.192.{{ zonename }}.
 1   1H IN PTR   vl2017-eth0.lvs2001.wikimedia.org.
@@ -2525,6 +2528,10 @@ $ORIGIN 16.192.{{ zonename }}.
 18  1H IN PTR   db2030.codfw.wmnet.
 19  1H IN PTR   db2031.codfw.wmnet.
 20  1H IN PTR   db2032.codfw.wmnet.
+21  1H IN PTR   ms-be2005.codfw.wmnet.
+22  1H IN PTR   ms-be2006.codfw.wmnet.
+23  1H IN PTR   ms-be2007.codfw.wmnet.
+24  1H IN PTR   ms-be2008.codfw.wmnet.
 
 $ORIGIN 17.192.{{ zonename }}.
 1   1H IN PTR   vl2018-eth1.lvs2001.wikimedia.org.
@@ -2550,6 +2557,10 @@ $ORIGIN 32.192.{{ zonename }}.
 11  1H IN PTR   db2040.codfw.wmnet.
 12  1H IN PTR   db2041.codfw.wmnet.
 13  1H IN PTR   db2042.codfw.wmnet.
+14  1H IN PTR   ms-be2009.codfw.wmnet.
+15  1H IN PTR   ms-be2010.codfw.wmnet.
+16  1H IN PTR   ms-be2011.codfw.wmnet.
+17  1H IN PTR   ms-be2012.codfw.wmnet.
 
 $ORIGIN 33.192.{{ zonename }}.
 1   1H IN PTR   vl2019-eth2.lvs2001.wikimedia.org.
