@@ -173,7 +173,7 @@ mercury         1H  IN A    208.80.154.86
 mexia           1H  IN A    208.80.152.136
 ms1001          1H  IN A    208.80.154.16
 neon            1H  IN A    208.80.154.14
-                        1H      IN AAAA 2620:0:861:1:7a2b:cbff:fe08:a42f
+                        1H      IN AAAA 2620:0:861:1:208:80:154:14
 netmon1001      1H  IN A    208.80.154.159
             1H  IN AAAA 2620:0:861:2:208:80:154:159
 nickel          1H  IN A    208.80.154.150
