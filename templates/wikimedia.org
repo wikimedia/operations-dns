@@ -150,6 +150,7 @@ install2001     1H  IN A    208.80.153.4
 iodine          1H  IN A    208.80.154.146
 iron            1H  IN A    208.80.154.151
             1H  IN AAAA 2620:0:861:2:208:80:154:151
+labcontrol2001  1H  IN A    208.80.153.14
 lead            1H  IN A    208.80.154.89
             1H  IN AAAA 2620:0:861:3:208:80:154:89
 linne           1H  IN A    208.80.152.167
