@@ -2498,12 +2498,12 @@ $ORIGIN 0.192.{{ zonename }}.
 22  1H IN PTR   ms-be2004.codfw.wmnet.
 
 $ORIGIN 1.192.{{ zonename }}.
-1   1H IN PTR   vl2017-eth0.lvs2001.wikimedia.org.
-2   1H IN PTR   vl2017-eth0.lvs2002.wikimedia.org.
-3   1H IN PTR   vl2017-eth0.lvs2003.wikimedia.org.
-4   1H IN PTR   vl2017-eth1.lvs2004.wikimedia.org.
-5   1H IN PTR   vl2017-eth1.lvs2005.wikimedia.org.
-6   1H IN PTR   vl2017-eth1.lvs2006.wikimedia.org.
+1   1H IN PTR   lvs2001.codfw.wmnet.
+2   1H IN PTR   lvs2002.codfw.wmnet.
+3   1H IN PTR   lvs2003.codfw.wmnet.
+4   1H IN PTR   vl2017-eth1.lvs2004.codfw.wmnet.
+5   1H IN PTR   vl2017-eth1.lvs2005.codfw.wmnet.
+6   1H IN PTR   vl2017-eth1.lvs2006.codfw.wmnet.
 
 ; 10.192.16.0/22 - private1-b-codfw
 $ORIGIN 16.192.{{ zonename }}.
@@ -2534,12 +2534,12 @@ $ORIGIN 16.192.{{ zonename }}.
 24  1H IN PTR   ms-be2008.codfw.wmnet.
 
 $ORIGIN 17.192.{{ zonename }}.
-1   1H IN PTR   vl2018-eth1.lvs2001.wikimedia.org.
-2   1H IN PTR   vl2018-eth1.lvs2002.wikimedia.org.
-3   1H IN PTR   vl2018-eth1.lvs2003.wikimedia.org.
-4   1H IN PTR   vl2018-eth0.lvs2004.wikimedia.org.
-5   1H IN PTR   vl2018-eth0.lvs2005.wikimedia.org.
-6   1H IN PTR   vl2018-eth0.lvs2006.wikimedia.org.
+1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
+2   1H IN PTR   vl2018-eth1.lvs2002.codfw.wmnet.
+3   1H IN PTR   vl2018-eth1.lvs2003.codfw.wmnet.
+4   1H IN PTR   lvs2004.codfw.wmnet.
+5   1H IN PTR   lvs2005.codfw.wmnet.
+6   1H IN PTR   lvs2006.codfw.wmnet.
 
 ; 10.192.32.0/22 - private1-c-codfw
 $ORIGIN 32.192.{{ zonename }}.
@@ -2563,12 +2563,12 @@ $ORIGIN 32.192.{{ zonename }}.
 17  1H IN PTR   ms-be2012.codfw.wmnet.
 
 $ORIGIN 33.192.{{ zonename }}.
-1   1H IN PTR   vl2019-eth2.lvs2001.wikimedia.org.
-2   1H IN PTR   vl2019-eth2.lvs2002.wikimedia.org.
-3   1H IN PTR   vl2019-eth2.lvs2003.wikimedia.org.
-4   1H IN PTR   vl2019-eth2.lvs2004.wikimedia.org.
-5   1H IN PTR   vl2019-eth2.lvs2005.wikimedia.org.
-6   1H IN PTR   vl2019-eth2.lvs2006.wikimedia.org.
+1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
+2   1H IN PTR   vl2019-eth2.lvs2002.codfw.wmnet.
+3   1H IN PTR   vl2019-eth2.lvs2003.codfw.wmnet.
+4   1H IN PTR   vl2019-eth2.lvs2004.codfw.wmnet.
+5   1H IN PTR   vl2019-eth2.lvs2005.codfw.wmnet.
+6   1H IN PTR   vl2019-eth2.lvs2006.codfw.wmnet.
 
 ; 10.192.48.0/22 - private1-d-codfw
 $ORIGIN 48.192.{{ zonename }}.
@@ -2578,12 +2578,12 @@ $ORIGIN 48.192.{{ zonename }}.
 3   1H IN PTR   ae4-2020.cr2-codfw.wikimedia.org.
 
 $ORIGIN 49.192.{{ zonename }}.
-1   1H IN PTR   vl2020-eth3.lvs2001.wikimedia.org.
-2   1H IN PTR   vl2020-eth3.lvs2002.wikimedia.org.
-3   1H IN PTR   vl2020-eth3.lvs2003.wikimedia.org.
-4   1H IN PTR   vl2020-eth3.lvs2004.wikimedia.org.
-5   1H IN PTR   vl2020-eth3.lvs2005.wikimedia.org.
-6   1H IN PTR   vl2020-eth3.lvs2006.wikimedia.org.
+1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
+2   1H IN PTR   vl2020-eth3.lvs2002.codfw.wmnet.
+3   1H IN PTR   vl2020-eth3.lvs2003.codfw.wmnet.
+4   1H IN PTR   vl2020-eth3.lvs2004.codfw.wmnet.
+5   1H IN PTR   vl2020-eth3.lvs2005.codfw.wmnet.
+6   1H IN PTR   vl2020-eth3.lvs2006.codfw.wmnet.
 
 $ORIGIN 0.193.{{ zonename }}.
 
