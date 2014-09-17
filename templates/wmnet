@@ -1994,6 +1994,7 @@ eth4-1102.labnet1001    1H  IN A    10.68.16.1
 ; EQIAD Fundraising/Payments
 
 $ORIGIN frack.eqiad.{{ zonename }}.
+aluminium       1H      IN A    10.64.40.110
 barium          1H      IN A    10.64.40.109
 barium-fundraising 1H      IN A    10.64.40.112
 boron           1H      IN A    10.64.40.66
