@@ -22,7 +22,8 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2001.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2001.cr2-codfw.wikimedia.org.
-4.0.9.9.0.5.0.d.0.0.0.0.0.0.0.0 1H IN PTR   install2001.wikimedia.org.
+
+4.0.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   install2001.wikimedia.org.
 
 ; public1-b-codfw (2620:0:860:2::/64)
 $ORIGIN 2.0.0.0.{{ zonename }}.
