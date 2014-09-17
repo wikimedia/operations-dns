@@ -584,8 +584,7 @@ labs-ns1         1H  IN A        208.80.154.19
 labsconsole      1H  IN CNAME    wikitech
 legalpad         1H  IN CNAME    misc-web-lb.eqiad
 logstash         1H  IN CNAME    misc-web-lb.eqiad
-metrics-api      1H  IN CNAME    stat1001
-metrics          1H  IN CNAME    stat1001
+metrics          1H  IN CNAME    misc-web-lb.eqiad
 noc              1H  IN CNAME    fenari
 nyc              600 IN DYNA     geoip!text-addrs
 planet           1H  IN CNAME    zirconium
