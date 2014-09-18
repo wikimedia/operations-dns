@@ -1,0 +1,29 @@
+$TTL 3600
+$ORIGIN {{ zonename }}.
+@           1D  IN SOA  ns0.wikimedia.org.  hostmaster.wikimedia.org.   (
+                    {{ serial }}    ; serial
+                    12H     ; refresh
+                    2H      ; retry
+                    2W      ; expiry
+                    1H      ; negative cache TTL
+                    )
+
+; Name servers
+
+            1D  IN NS   ns0.wikimedia.org.
+            1D  IN NS   ns1.wikimedia.org.
+            1D  IN NS   ns2.wikimedia.org.
+
+; Mail exchangers
+
+            1H  IN MX   10  polonium.wikimedia.org.
+            1H  IN MX   50  lead.wikimedia.org.
+
+
+; Canonical names
+            600 IN DYNA geoip!text-addrs
+
+; Service aliases
+
+www         600 IN DYNA     geoip!text-addrs
+
