@@ -456,7 +456,7 @@ iridium         1H  IN A        10.64.32.150
 labmon1001      1H  IN A        10.64.37.13
 labnet1001      1H  IN A        10.64.20.13
 labnet1001-ext  1H  IN A        10.64.22.11
-labsdb1001      1H  IN A        10.64.20.12
+labsdb1001      1H  IN A        10.64.4.11
 labsdb1002      1H  IN A        10.64.37.4
 labsdb1003      1H  IN A        10.64.37.5
 labstore1001    1H  IN A        10.64.37.6
