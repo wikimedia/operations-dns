@@ -136,7 +136,7 @@ cp1008          1H  IN A    208.80.154.42
 dataset2        1H  IN A    208.80.152.185
 dataset1001     1H  IN A    208.80.154.11
 dickson         1H  IN A    208.80.155.68
-            1H  IN AAAA 2620:0:861:52:208:80:155:68
+            1H  IN AAAA 2620:0:861:202:208:80:155:68
 dobson          1H  IN A    208.80.152.173
 fenari          1H  IN A    208.80.152.165
 francium        1H  IN A    208.80.154.93
@@ -188,7 +188,7 @@ polonium        1H  IN A    208.80.154.90
 protactinium    1H  IN A    208.80.154.13
 rhenium         1H  IN A    208.80.154.52
 ripe-atlas-eqiad     1H  IN A    208.80.155.69
-            1H  IN AAAA 2620:0:861:52:208:80:155:69
+            1H  IN AAAA 2620:0:861:202:208:80:155:69
 rubidium        1H  IN A    208.80.154.40
 samarium        1H  IN A    208.80.155.10
 sanger          1H  IN A    208.80.152.187

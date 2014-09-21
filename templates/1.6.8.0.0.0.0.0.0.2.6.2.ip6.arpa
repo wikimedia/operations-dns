@@ -86,14 +86,6 @@ $ORIGIN 4.0.0.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1004.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1004.cr2-eqiad.wikimedia.org.
 
-; sandbox1-b-eqiad (2620:0:861:52::/64)
-$ORIGIN 2.5.0.0.{{ zonename }}.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1052.eqiad.wmnet.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1052.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1052.cr2-eqiad.wikimedia.org.
-8.6.0.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dickson.freenode.net.
-9.6.0.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ripe-atlas-eqiad.wikimedia.org.
-
 
 ; eqiad private subnets (2620:0:861:100::/56)
 
@@ -206,9 +198,11 @@ $ORIGIN 1.0.2.0.{{ zonename }}.
 
 ; sandbox1-b-eqiad (2620:0:861:202::/64)
 $ORIGIN 2.0.2.0.{{ zonename }}.
-
-; WARNING: sandbox1-b-eqiad is currently allocated to 2620:0:861:52::/64
-; due to legacy reasons and needs renumbering
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1202.eqiad.wmnet.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1202.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1202.cr2-eqiad.wikimedia.org.
+8.6.0.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dickson.freenode.net.
+9.6.0.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ripe-atlas-eqiad.wikimedia.org.
 
 ; sandbox1-c-eqiad (2620:0:861:203::/64)
 $ORIGIN 3.0.2.0.{{ zonename }}.
