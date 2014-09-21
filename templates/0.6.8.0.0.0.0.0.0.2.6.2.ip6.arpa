@@ -14,7 +14,7 @@ $ORIGIN {{ zonename }}.
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
-; codfw public subnets (2620:0:860:0::/80)
+; codfw public subnets (2620:0:860:0::/56)
 
 ; public1-a-codfw (2620:0:860:1::/64)
 $ORIGIN 1.0.0.0.{{ zonename }}.
@@ -51,7 +51,7 @@ $ORIGIN 4.0.0.0.{{ zonename }}.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-2004.cr2-codfw.wikimedia.org.
 
 
-; codfw private subnets (2620:0:860:100::/80)
+; codfw private subnets (2620:0:860:100::/56)
 
 ; private1-a-codfw (2620:0:860:101::/64)
 $ORIGIN 1.0.1.0.{{ zonename }}.
@@ -83,6 +83,25 @@ $ORIGIN 4.0.1.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-2020.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-2020.cr2-codfw.wikimedia.org.
+
+
+; codfw sandbox subnets (2620:0:860:200::/56)
+
+; sandbox1-a-codfw (2620:0:860:201::/64)
+$ORIGIN 1.0.2.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2201.wikimedia.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2201.cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2201.cr2-codfw.wikimedia.org.
+
+; sandbox1-b-codfw (2620:0:860:202::/64)
+$ORIGIN 2.0.2.0.{{ zonename }}.
+
+; sandbox1-c-codfw (2620:0:860:203::/64)
+$ORIGIN 3.0.2.0.{{ zonename }}.
+
+; sandbox1-d-codfw (2620:0:860:204::/64)
+$ORIGIN 4.0.2.0.{{ zonename }}.
 
 
 ; LVS Service IPs, 2620:0:860:ed1a::/64

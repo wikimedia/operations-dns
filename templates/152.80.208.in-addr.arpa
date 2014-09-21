@@ -68,3 +68,12 @@ $ORIGIN {{ zonename }}.
 230 1H IN PTR   ts-array4a.mgmt.toolserver.org.
 
 234 1H IN PTR   web.amaranth.toolserver.org.
+
+; FIXME FIXME FIXME
+; TEMP OVERLAP ALLOCATION, do not use yet until Tampa shutdown
+; FIXME FIXME FIXME
+
+; 208.80.152.240/28 sandbox1-a-codfw (208.80.152.240 - 208.80.152.255)
+241 1H IN PTR   vrrp-gw-2201.wikimedia.org.
+242 1H IN PTR   ae1-2201.cr1-codfw.wikimedia.org.
+243 1H IN PTR   ae1-2201.cr2-codfw.wikimedia.org.

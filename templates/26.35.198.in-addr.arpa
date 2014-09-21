@@ -69,3 +69,8 @@ $ORIGIN {{ zonename }}.
 ; 198.35.26.208/31
 
 ; 198.35.26.210/31
+
+; 198.35.26.240/28 sandbox1-ulsfo (198.35.26.240 - 198.35.26.255)
+241 1H IN PTR   vrrp-gw-1221.wikimedia.org.
+242 1H IN PTR   ae1-1221.cr1-ulsfo.wikimedia.org.
+243 1H IN PTR   ae1-1221.cr2-ulsfo.wikimedia.org.

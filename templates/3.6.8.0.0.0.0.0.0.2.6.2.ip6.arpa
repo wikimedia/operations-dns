@@ -14,9 +14,9 @@ $ORIGIN {{ zonename }}.
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
+; ulsfo public subnets (2620:0:863:0::/56)
 
-; 2620:0:863:1::/64
-; Subnet public1-ulsfo
+; public1-ulsfo (2620:0:863:1::/64)
 $ORIGIN 1.0.0.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1201.wikimedia.org.
@@ -24,8 +24,10 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1201.cr1-ulsfo.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1201.cr2-ulsfo.wikimedia.org.
 
-; 2620:0:863:101::/64
-; Subnet private1-ulsfo
+
+; ulsfo private subnets (2620:0:863:100::/56)
+
+; private1-ulsfo (2620:0:863:101::/64)
 $ORIGIN 1.0.1.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1211.wikimedia.org.
@@ -51,6 +53,16 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 0.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4020.ulsfo.wmnet.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1211.cr1-ulsfo.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1211.cr2-ulsfo.wikimedia.org.
+
+
+; ulsfo sandbox subnets (2620:0:863:200::/56)
+
+; sandbox1-ulsfo (2620:0:863:201::/64)
+$ORIGIN 1.0.2.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1221.wikimedia.org.
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1221.cr1-ulsfo.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1221.cr2-ulsfo.wikimedia.org.
 
 
 ; Infrastructure IPs
