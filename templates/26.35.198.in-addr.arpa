@@ -74,3 +74,4 @@ $ORIGIN {{ zonename }}.
 241 1H IN PTR   vrrp-gw-1221.wikimedia.org.
 242 1H IN PTR   ae1-1221.cr1-ulsfo.wikimedia.org.
 243 1H IN PTR   ae1-1221.cr2-ulsfo.wikimedia.org.
+244 1H IN PTR   ripe-atlas-ulsfo.wikimedia.org.

@@ -77,3 +77,4 @@ $ORIGIN {{ zonename }}.
 241 1H IN PTR   vrrp-gw-2201.wikimedia.org.
 242 1H IN PTR   ae1-2201.cr1-codfw.wikimedia.org.
 243 1H IN PTR   ae1-2201.cr2-codfw.wikimedia.org.
+244 1H IN PTR   ripe-atlas-codfw.wikimedia.org.

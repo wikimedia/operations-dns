@@ -64,6 +64,8 @@ $ORIGIN 1.0.2.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1221.cr1-ulsfo.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1221.cr2-ulsfo.wikimedia.org.
 
+4.4.2.0.6.2.0.0.5.3.0.0.8.9.1.0 1H IN PTR   ripe-atlas-ulsfo.wikimedia.org.
+
 
 ; Infrastructure IPs
 
