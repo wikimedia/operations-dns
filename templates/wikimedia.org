@@ -405,6 +405,8 @@ archiva         1H  IN CNAME    titanium
 
 cache           600 IN DYNA     geoip!text-addrs
 
+config-master   1H  IN CNAME    misc-web-lb.eqiad
+
 dash.frdev      1H  IN CNAME    lutetium
 
 doc         1H  IN CNAME    misc-web-lb.eqiad
