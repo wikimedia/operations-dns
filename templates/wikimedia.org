@@ -469,7 +469,7 @@ torrus          1H  IN CNAME    netmon1001
 wiki-mail-eqiad     1H  IN A    208.80.154.91
             1H  IN AAAA 2620:0:861:3:208:80:154:91
 
-url-downloader      1H  IN A        208.80.152.143  ; linne
+url-downloader      1H  IN A        208.80.154.156  ; chromium
 
 ; Wikis (alphabetic order)
 
