@@ -20,7 +20,7 @@ $ORIGIN {{ zonename }}.
 3   1H  IN PTR  ae1-1001.cr2-eqiad.wikimedia.org.
 4   1H  IN PTR  lists.wikimedia.org.
 5   1H  IN PTR  magnesium.wikimedia.org.
-
+6   1H  IN PTR  neptunium.wikimedia.org.
 7   1H  IN PTR  antimony.wikimedia.org.
 8   1H  IN PTR  ssl1004.wikimedia.org.
 9   1H  IN PTR  ssl1003.wikimedia.org.
