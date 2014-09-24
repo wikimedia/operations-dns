@@ -39,8 +39,6 @@ $ORIGIN {{ zonename }}.
 165 1H IN PTR   fenari.wikimedia.org.
 167 1H IN PTR   linne.wikimedia.org.
 
-170 1H IN PTR   tridge.wikimedia.org.       ; Cold Backup Server
-
 173 1H IN PTR   dobson.wikimedia.org.
 
 181 1H IN PTR   pdf3.wikimedia.org.
