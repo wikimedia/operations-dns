@@ -120,20 +120,20 @@ plugins => { geoip => {
                 },
                 NA => {
                     US => { # United States of America
-                        AK => eqiad, # Alaska
+                        AK => ulsfo, # Alaska
                         AL => eqiad, # Alabama
                         AR => eqiad, # Arkansas
-                        AZ => eqiad, # Arizona
-                        CA => eqiad, # California
-                        CO => eqiad, # Colorado
+                        AZ => ulsfo, # Arizona
+                        CA => ulsfo, # California
+                        CO => ulsfo, # Colorado
                         CT => eqiad, # Connecticut
                         DC => eqiad, # District of Columbia
                         DE => eqiad, # Delaware
                         FL => eqiad, # Florida
                         GA => eqiad, # Georgia
-                        HI => eqiad, # Hawaii
+                        HI => ulsfo, # Hawaii
                         IA => eqiad, # Iowa
-                        ID => eqiad, # Idaho
+                        ID => ulsfo, # Idaho
                         IL => eqiad, # Illinois
                         IN => eqiad, # Indiana
                         KS => eqiad, # Kansas
