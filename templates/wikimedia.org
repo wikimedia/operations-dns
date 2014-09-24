@@ -226,7 +226,6 @@ thallium        1H  IN A    208.80.154.87
             1H  IN AAAA 2620:0:861:3:208:80:154:87
 thulium         1H  IN A    208.80.155.12
 titanium        1H  IN A    208.80.154.154
-tridge          1H  IN A    208.80.152.170 ; Cold Backup Server
 uranium         1H  IN A    208.80.154.53
 virt0           1H  IN A    208.80.152.32
 virt1000        1H  IN A    208.80.154.18
