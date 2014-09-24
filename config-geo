@@ -47,20 +47,20 @@ plugins => { geoip => {
                     MY => ulsfo, # Malaysia
                     NP => ulsfo, # Nepal
                     OM => esams, # Oman
-                    PH => eqiad, # Philippines
+                    PH => ulsfo, # Philippines
                     PK => eqiad, # Pakistan
                     PS => esams, # Palestine, State of
                     QA => esams, # Qatar
                     SA => esams, # Saudi Arabia
-                    SG => eqiad, # Singapore
+                    SG => ulsfo, # Singapore
                     SY => esams, # Syrian Arab Republic
-                    TH => eqiad, # Thailand
+                    TH => ulsfo, # Thailand
                     TJ => eqiad, # Tajikistan
-                    TL => eqiad, # Timor-Leste
+                    TL => ulsfo, # Timor-Leste
                     TM => eqiad, # Turkmenistan
-                    TW => eqiad, # Taiwan, Province of China
+                    TW => ulsfo, # Taiwan, Province of China
                     UZ => eqiad, # Uzbekistan
-                    VN => eqiad, # Viet Nam
+                    VN => ulsfo, # Viet Nam
                     YE => esams, # Yemen
                 },
                 EU => {
