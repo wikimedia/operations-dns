@@ -429,7 +429,7 @@ imap            1H  IN A        208.80.152.187  ; sanger
 integration     1H  IN CNAME    misc-web-lb.eqiad
 irc         1H  IN CNAME    argon
 
-ldap-eqiad      1H  IN CNAME    virt1000
+ldap-eqiad      1H  IN CNAME    neptunium
 ldap-codfw      1H  IN CNAME    labcontrol2001
 
 phabricator     1H  IN A        208.80.154.241 ; misc-web-lb.eqiad
