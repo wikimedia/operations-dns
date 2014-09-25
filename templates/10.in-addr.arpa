@@ -208,10 +208,10 @@ $ORIGIN 8.1.{{ zonename }}.
 ; Apaches pool (srv251+)
 $ORIGIN 9.1.{{ zonename }}.
 
-; pmtpa svc ips
+; codfw svc ips
 $ORIGIN 1.2.{{ zonename }}.
 
-; none
+27  1H  IN PTR  ms-fe.svc.codfw.wmnet.
 
 ; eqiad svc ips
 
