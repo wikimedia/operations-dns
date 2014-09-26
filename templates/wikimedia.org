@@ -608,7 +608,7 @@ labsconsole      1H  IN CNAME    wikitech
 legalpad         1H  IN CNAME    misc-web-lb.eqiad
 logstash         1H  IN CNAME    misc-web-lb.eqiad
 metrics          1H  IN CNAME    misc-web-lb.eqiad
-noc              1H  IN CNAME    fenari
+noc              1H  IN CNAME    misc-web-lb.eqiad
 nyc              600 IN DYNA     geoip!text-addrs
 planet           1H  IN CNAME    zirconium
 ar.planet        1H  IN CNAME    zirconium
