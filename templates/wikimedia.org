@@ -180,8 +180,6 @@ nitrogen        1H  IN A    208.80.154.17
 oxygen          1H  IN A    208.80.154.15
 pay-lvs1001     1H  IN A    208.80.155.2
 pay-lvs1002     1H  IN A    208.80.155.3
-pdf2            1H  IN A    208.80.152.154
-pdf3            1H  IN A    208.80.152.181
 platinum        1H  IN A    208.80.154.84
 plutonium       1H  IN A    208.80.154.62
 polonium        1H  IN A    208.80.154.90

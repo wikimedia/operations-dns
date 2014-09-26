@@ -33,13 +33,9 @@ $ORIGIN {{ zonename }}.
 141 1H IN PTR   wireless.tech.wikimedia.org.
 145 1H IN PTR   ae0-101.cr2-pmtpa.wikimedia.org.
 
-154 1H IN PTR   pdf2.wikimedia.org.
-
 165 1H IN PTR   fenari.wikimedia.org.
 
 173 1H IN PTR   dobson.wikimedia.org.
-
-181 1H IN PTR   pdf3.wikimedia.org.
 
 185 1H IN PTR   dataset2.wikimedia.org.
 186 1H IN PTR   mchenry.wikimedia.org.
