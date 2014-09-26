@@ -72,7 +72,7 @@ mail            1H  IN A    208.80.152.133
 wiki-mail       1H  IN A    208.80.152.133  ; obsolete service IP on mchenry
 
 ns0         1H  IN A    208.80.154.238
-ns1         1H  IN A    208.80.152.214 ; in transition
+ns1         1H  IN A    208.80.153.231 ; in transition
 ns1-mexia   1H  IN A    208.80.152.214 ; in transition
 ns1-baham   1H  IN A    208.80.153.231 ; in transition
 ns2         1H  IN A    91.198.174.239
