@@ -423,6 +423,8 @@ dash.frdev      1H  IN CNAME    lutetium
 
 doc         1H  IN CNAME    misc-web-lb.eqiad
 
+ldap-mirror	1H IN CNAME plutonium.wikimedia.org.
+
 ; don't want this for anything but wikimedia.org domain
 frdata.wikimedia.org.   1H  IN CNAME    samarium.wikimedia.org.
 
