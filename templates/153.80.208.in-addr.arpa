@@ -29,7 +29,7 @@ $ORIGIN {{ zonename }}.
 12  1H  IN PTR  acamar.wikimedia.org.
 13  1H  IN PTR  baham.wikimedia.org.
 14  1H  IN PTR  labcontrol2001.wikimedia.org.
-15  1H  IN PTR  labs-ns2.wikimedia.org.
+15  1H  IN PTR  labs-ns1.wikimedia.org.
 
 ; 208.80.153.32/27 (public1-b-codfw)
 33  1H  IN PTR  vrrp-gw-2002.wikimedia.org.

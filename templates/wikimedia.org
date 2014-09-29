@@ -603,10 +603,8 @@ ishmael          1H  IN CNAME    misc-web-lb.eqiad
 tendril          1H  IN CNAME    neon
 jobs             600 IN DYNA     geoip!text-addrs
 labs             600 IN DYNA     geoip!text-addrs
-labs-ns0         1H  IN A        208.80.152.33
-labs-ns1         1H  IN A        208.80.154.19
-; temporary transitional dns server:
-labs-ns2         1H  IN A        208.80.153.15
+labs-ns0         1H  IN A        208.80.154.19
+labs-ns1         1H  IN A        208.80.153.15
 ; deprecated but kept for compatibility, see RT #6769
 labsconsole      1H  IN CNAME    wikitech
 legalpad         1H  IN CNAME    misc-web-lb.eqiad
