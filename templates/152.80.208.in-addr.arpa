@@ -20,7 +20,6 @@ $ORIGIN {{ zonename }}.
 1   1H IN PTR   vrrp-gw-100.wikimedia.org.
 
 32  1H IN PTR   virt0.wikimedia.org.
-33  1H IN PTR   labs-ns0.wikimedia.org.
 
 126 1H IN PTR   ae0-100.cr2-pmtpa.wikimedia.org.
 
