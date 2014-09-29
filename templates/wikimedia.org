@@ -69,7 +69,7 @@ mail            1H  IN A    208.80.152.133
             1H  IN MX   10 polonium.wikimedia.org.
             1H  IN MX   50 lead.wikimedia.org.
 
-wiki-mail       1H  IN A    208.80.152.133  ; obsolete service IP on mchenry
+wiki-mail       1H  IN CNAME    polonium    ; used by Jenkins and possibly others
 
 ns0         1H  IN A    208.80.154.238
 ns1         1H  IN A    208.80.153.231 ; in transition
