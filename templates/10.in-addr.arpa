@@ -143,7 +143,6 @@ $ORIGIN 8.1.{{ zonename }}.
 1   1H  IN PTR  nfs1.mgmt.pmtpa.wmnet.
 4   1H  IN PTR  dobson.mgmt.pmtpa.wmnet.
 7   1H  IN PTR  fenari.mgmt.pmtpa.wmnet.
-10  1H  IN PTR  linne.mgmt.pmtpa.wmnet.
 
 
 16      1H      IN PTR  amaranth.mgmt.pmtpa.wmnet.
