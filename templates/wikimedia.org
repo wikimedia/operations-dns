@@ -448,8 +448,10 @@ ldap-eqiad      1H  IN CNAME    neptunium
 ldap-codfw      1H  IN CNAME    labcontrol2001
 
 phabricator     1H  IN A        208.80.154.241 ; misc-web-lb.eqiad
-            1H  IN MX       10 polonium.wikimedia.org.
-            1H  IN MX       50 lead.wikimedia.org.
+                1H  IN AAAA     2620:0:861:ed1a::11
+                1H  IN MX       10 polonium.wikimedia.org.
+                1H  IN MX       50 lead.wikimedia.org.
+
 login           600 IN DYNA     geoip!text-addrs
 
 observium       1H  IN CNAME    librenms
