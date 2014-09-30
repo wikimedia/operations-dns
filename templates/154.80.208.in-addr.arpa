@@ -102,7 +102,6 @@ $ORIGIN {{ zonename }}.
 149 1H  IN PTR  bast1001.wikimedia.org.
 150 1H  IN PTR  nickel.wikimedia.org.
 151 1H  IN PTR  iron.wikimedia.org.
-153 1H  IN PTR  silver.wikimedia.org.
 154 1H  IN PTR  titanium.wikimedia.org.
 155 1H  IN PTR  stat1001.wikimedia.org.
 156 1H  IN PTR  url-downloader.wikimedia.org. ; chromium
