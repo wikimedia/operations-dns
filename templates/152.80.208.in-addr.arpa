@@ -34,8 +34,6 @@ $ORIGIN {{ zonename }}.
 
 165 1H IN PTR   fenari.wikimedia.org.
 
-173 1H IN PTR   dobson.wikimedia.org.
-
 185 1H IN PTR   dataset2.wikimedia.org.
 186 1H IN PTR   mchenry.wikimedia.org.
 

@@ -130,7 +130,6 @@ $ORIGIN 7.1.{{ zonename }}.
 
 ; Misc. Services Server Project
 $ORIGIN 8.1.{{ zonename }}.
-4   1H  IN PTR  dobson.mgmt.pmtpa.wmnet.
 7   1H  IN PTR  fenari.mgmt.pmtpa.wmnet.
 
 
