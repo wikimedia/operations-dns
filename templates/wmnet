@@ -36,7 +36,7 @@ dns-r1          1H  IN A        10.0.5.7
 nfs-home        1H  IN A        10.0.5.8
 config-master   1H  IN CNAME    palladium.eqiad.wmnet.
 puppet          1H  IN CNAME    palladium.eqiad.wmnet.
-syslog          1H  IN CNAME    lithium.eqiad.wmnet.
+syslog          1H  IN CNAME    nfs-home
 s1-secondary        5M  IN CNAME    db60.pmtpa.wmnet.
 s5-secondary        5M  IN CNAME    db73.pmtpa.wmnet.
 
@@ -178,7 +178,7 @@ nfs2-xlink0 1H  IN A        10.3.0.2
 $ORIGIN eqiad.{{ zonename }}.
 
 ; Service aliases
-syslog          1H  IN CNAME    lithium.eqiad.wmnet.
+syslog          1H  IN CNAME    nfs-home.pmtpa.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
 zuul            1H  IN CNAME    gallium.wikimedia.org.
 carbon-relay        1H  IN CNAME    tungsten.eqiad.wmnet.
