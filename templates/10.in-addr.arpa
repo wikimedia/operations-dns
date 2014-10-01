@@ -117,7 +117,6 @@ $ORIGIN 8.1.{{ zonename }}.
 51  1H  IN PTR  WMF3848.mgmt.pmtpa.wmnet.
 52  1H  IN PTR  WMF3847.mgmt.pmtpa.wmnet.
 53  1H  IN PTR  WMF3846.mgmt.pmtpa.wmnet.
-55  1H  IN PTR  dataset2.mgmt.pmtpa.wmnet.
 61  1H  IN PTR  nas1-a.mgmt.pmtpa.wmnet.
 62  1H  IN PTR  nas1-b.mgmt.pmtpa.wmnet.
 63  1H  IN PTR  WMF3838.mgmt.pmtpa.wmnet.

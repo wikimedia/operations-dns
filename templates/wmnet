@@ -79,7 +79,6 @@ ps1-d3-pmtpa        1H  IN A        10.1.5.19
 ; SERVERS LISTED ALPHABETICALLY
 
 amaranth        1H      IN A            10.1.8.16
-dataset2        1H  IN A        10.1.8.55
 WMF3709         1H  IN A        10.1.6.71
 WMF3916         1H  IN A        10.1.8.42
 WMF3914         1H  IN A        10.1.8.44
