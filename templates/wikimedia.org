@@ -437,7 +437,6 @@ performance     1H  IN CNAME    misc-web-lb.eqiad
 
 icinga          1H  IN CNAME    neon
 icinga-admin        1H  IN A        208.80.154.14
-imap            1H  IN A        208.80.152.187  ; sanger
 
 integration     1H  IN CNAME    misc-web-lb.eqiad
 irc         1H  IN CNAME    argon
@@ -470,7 +469,7 @@ rt          1H  IN A        208.80.154.5
 
 secure          600 IN DYNA     geoip!text-addrs
 
-smtp            1H  IN A        208.80.152.187  ; sanger
+smtp            1H  IN A        208.80.154.90  ; polonium
 
 stream      1H  IN CNAME        stream-lb.eqiad
 
