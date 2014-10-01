@@ -22,8 +22,6 @@ $ORIGIN {{ zonename }}.
 
 $ORIGIN 0.0.{{ zonename }}.
 
-21  1H  IN PTR  tarin.pmtpa.wmnet.
-
 200     1H  IN PTR  vrrp-gw-2.pmtpa.wmnet.
 202     1H  IN PTR  ae0-2.cr2-pmtpa.wikimedia.org.
 
@@ -142,7 +140,6 @@ $ORIGIN 8.1.{{ zonename }}.
 25  1H  IN PTR  wmf3930.mgmt.pmtpa.wmnet.
 28  1H  IN PTR  virt0.mgmt.pmtpa.wmnet.
 29  1H  IN PTR  pdf2.mgmt.pmtpa.wmnet.
-35  1H  IN PTR  tarin.mgmt.pmtpa.wmnet.
 
 37  1H  IN PTR  pdf3.mgmt.pmtpa.wmnet.
 
