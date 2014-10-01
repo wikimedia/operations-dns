@@ -37,22 +37,6 @@ nfs-home        1H  IN A        10.0.5.8
 config-master   1H  IN CNAME    palladium.eqiad.wmnet.
 puppet          1H  IN CNAME    palladium.eqiad.wmnet.
 syslog          1H  IN CNAME    lithium.eqiad.wmnet.
-s1-secondary        5M  IN CNAME    db60.pmtpa.wmnet.
-s5-secondary        5M  IN CNAME    db73.pmtpa.wmnet.
-
-; Servers (alphabetic order)
-
-db60            1H  IN A        10.0.6.70
-db68            1H  IN A        10.0.6.78
-db69            1H  IN A        10.0.6.79
-db71            1H  IN A        10.0.6.81
-db72            1H  IN A        10.0.6.82
-db73            1H  IN A        10.0.6.83
-db74            1H  IN A        10.0.6.84
-es4         1H  IN A        10.0.0.228
-es7         1H  IN A        10.0.0.236
-es10                    1H      IN A            10.0.0.224
-
 nas1-a          1H  IN A        10.0.0.253
 nas1-b          1H  IN A        10.0.0.254
 
@@ -96,17 +80,7 @@ ps1-d3-pmtpa        1H  IN A        10.1.5.19
 
 amaranth        1H      IN A            10.1.8.16
 dataset2        1H  IN A        10.1.8.55
-db60            1H  IN A        10.1.6.70
 WMF3709         1H  IN A        10.1.6.71
-db68            1H  IN A        10.1.6.78
-db69            1H  IN A        10.1.6.79
-db71            1H  IN A        10.1.6.81
-db72            1H  IN A        10.1.6.82
-db73            1H  IN A        10.1.6.83
-db74            1H  IN A        10.1.6.84
-es4         1H  IN A        10.1.7.14
-es7         1H  IN A        10.1.7.17
-es10                    1H      IN A            10.1.7.20
 WMF3916         1H  IN A        10.1.8.42
 WMF3914         1H  IN A        10.1.8.44
 WMF3838         1H  IN A        10.1.8.63

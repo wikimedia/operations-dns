@@ -54,19 +54,9 @@ $ORIGIN 5.0.{{ zonename }}.
 7   1H  IN PTR  dns-r1.pmtpa.wmnet.
 8   1H  IN PTR  nfs-home.pmtpa.wmnet.
 
-
 ; Databases
 
 $ORIGIN 6.0.{{ zonename }}.
-
-
-70  1H  IN PTR  db60.pmtpa.wmnet.
-78  1H  IN PTR  db68.pmtpa.wmnet.
-79  1H  IN PTR  db69.pmtpa.wmnet.
-81  1H  IN PTR  db71.pmtpa.wmnet.
-82  1H  IN PTR  db72.pmtpa.wmnet.
-83  1H  IN PTR  db73.pmtpa.wmnet.
-84  1H  IN PTR  db74.pmtpa.wmnet.
 
 ; Management (pmtpa)
 
@@ -113,14 +103,6 @@ $ORIGIN 5.1.{{ zonename }}.
 
 ; Database Servers
 $ORIGIN 6.1.{{ zonename }}.
-70  1H  IN PTR db60.mgmt.pmtpa.wmnet.
-71  1H  IN PTR WMF3709.mgmt.pmtpa.wmnet.
-78      1H      IN PTR db68.mgmt.pmtpa.wmnet.
-79      1H      IN PTR db69.mgmt.pmtpa.wmnet.
-81      1H      IN PTR db71.mgmt.pmtpa.wmnet.
-82      1H      IN PTR db72.mgmt.pmtpa.wmnet.
-83      1H      IN PTR db73.mgmt.pmtpa.wmnet.
-84      1H      IN PTR db74.mgmt.pmtpa.wmnet.
 
 ; Media Servers & SSL Servers & ES Servers & Memcached Servers
 $ORIGIN 7.1.{{ zonename }}.
