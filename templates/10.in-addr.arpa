@@ -1035,6 +1035,7 @@ $ORIGIN 32.64.{{ zonename }}.
 151     1H IN PTR       ocg1001.eqiad.wmnet.
 152     1H IN PTR       ms-fe1003.eqiad.wmnet.
 153     1H IN PTR       sca1001.eqiad.wmnet.
+154     1H IN PTR       lithium.eqiad.wmnet.
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
@@ -2070,6 +2071,7 @@ $ORIGIN 3.65.{{ zonename }}.
 202     1H      IN PTR          wmf4572.mgmt.eqiad.wmnet.
 202     1H      IN PTR          francium.mgmt.eqiad.wmnet.
 203     1H      IN PTR          wmf4573.mgmt.eqiad.wmnet.
+203     1H      IN PTR          lithium.mgmt.eqiad.wmnet.
 204     1H      IN PTR          wmf4574.mgmt.eqiad.wmnet.
 204     1H      IN PTR          astatine.mgmt.eqiad.wmnet.
 205     1H      IN PTR          wmf4575.mgmt.eqiad.wmnet.
