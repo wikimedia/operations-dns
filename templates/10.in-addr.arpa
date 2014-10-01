@@ -2948,8 +2948,5 @@ $ORIGIN 1.193.{{ zonename }}.
 
 $ORIGIN 1.230.{{ zonename }}.
 
-240 1H IN PTR   mchenry.mgmt.pmtpa.wmnet.
-
-
 $ORIGIN 1.252.{{ zonename }}.
 
