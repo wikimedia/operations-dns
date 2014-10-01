@@ -23,7 +23,6 @@ $ORIGIN {{ zonename }}.
 $ORIGIN 0.0.{{ zonename }}.
 
 21  1H  IN PTR  tarin.pmtpa.wmnet.
-31      1H  IN PTR  bayle.pmtpa.wmnet.
 
 41  1H  IN PTR  labstore1.pmtpa.wmnet.
 42  1H  IN PTR  labstore2.pmtpa.wmnet.
