@@ -826,7 +826,7 @@ yarrow.ipmi     1H  IN A    10.21.0.100
 br1-knams.ipmi      1H  IN A    10.21.0.101
 scs-oe11-esams      1H  IN A    10.21.0.102
 
-; Round robin records
+; Round robin record
 text-lb       600 IN DYNA geoip!text-addrs/esams
 login-lb      600 IN DYNA geoip!login-addrs/esams
 bits-lb       600 IN DYNA geoip!bits-addrs/esams
