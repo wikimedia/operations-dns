@@ -31,7 +31,6 @@ $ORIGIN 0.0.{{ zonename }}.
 228 1H  IN PTR  es4.pmtpa.wmnet.
 
 236     1H  IN PTR  es7.pmtpa.wmnet.
-244 1H  IN PTR  nfs1.pmtpa.wmnet.
 253 1H  IN PTR  nas1-a.pmtpa.wmnet.
 254 1H  IN PTR  nas1-b.pmtpa.wmnet.
 
@@ -133,7 +132,6 @@ $ORIGIN 7.1.{{ zonename }}.
 
 ; Misc. Services Server Project
 $ORIGIN 8.1.{{ zonename }}.
-1   1H  IN PTR  nfs1.mgmt.pmtpa.wmnet.
 4   1H  IN PTR  dobson.mgmt.pmtpa.wmnet.
 7   1H  IN PTR  fenari.mgmt.pmtpa.wmnet.
 
