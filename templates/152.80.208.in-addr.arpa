@@ -29,7 +29,6 @@ $ORIGIN {{ zonename }}.
 129 1H IN PTR   vrrp-gw-101.wikimedia.org.
 133 1H IN PTR   wiki-mail.wikimedia.org.
 
-136 1H IN PTR   mexia.wikimedia.org.
 141 1H IN PTR   wireless.tech.wikimedia.org.
 145 1H IN PTR   ae0-101.cr2-pmtpa.wikimedia.org.
 
@@ -47,8 +46,6 @@ $ORIGIN {{ zonename }}.
 197 1H IN PTR   cr2-pmtpa.wikimedia.org.
 
 ; LVS out-of-subnet IPs
-
-214 1H IN PTR   ns1.wikimedia.org.
 
 ; 208.80.152.224/27 sandbox vlan
 225 1H IN PTR   vrrp-gw-103.wikimedia.org.
