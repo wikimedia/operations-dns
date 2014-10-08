@@ -72,8 +72,7 @@ mail            1H  IN A    208.80.152.133
 wiki-mail       1H  IN CNAME    polonium    ; used by Jenkins and possibly others
 
 ns0         1H  IN A    208.80.154.238
-ns1         1H  IN A    208.80.153.231 ; in transition
-ns1-baham   1H  IN A    208.80.153.231 ; in transition
+ns1         1H  IN A    208.80.153.231
 ns2         1H  IN A    91.198.174.239
 
 recursor0       1H  IN A    208.80.154.239  ; eqiad LVS (dns-rec-lb)
