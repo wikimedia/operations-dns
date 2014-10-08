@@ -110,7 +110,6 @@ $ORIGIN 8.1.{{ zonename }}.
 17  1H  IN PTR  ts-array4a.mgmt.pmtpa.wmnet.
 18  1H  IN PTR  ts-array4b.mgmt.pmtpa.wmnet.
 25  1H  IN PTR  wmf3930.mgmt.pmtpa.wmnet.
-28  1H  IN PTR  virt0.mgmt.pmtpa.wmnet.
 
 42  1H  IN PTR  WMF3916.mgmt.pmtpa.wmnet.
 44  1H  IN PTR  WMF3914.mgmt.pmtpa.wmnet.
@@ -232,7 +231,6 @@ $ORIGIN 0.3.{{ zonename }}.
 
 ; 10.4.0.0/21 - guest VMs subnet
 $ORIGIN {{ zonename }}.
-0.4 1H  IN NS   virt0.wikimedia.org.
 
 ; 10.4.16.0/24 - VM host compute nodes subnet
 $ORIGIN 16.4.{{ zonename }}.
