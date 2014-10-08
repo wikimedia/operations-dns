@@ -25,10 +25,6 @@ $ORIGIN 0.0.{{ zonename }}.
 200     1H  IN PTR  vrrp-gw-2.pmtpa.wmnet.
 202     1H  IN PTR  ae0-2.cr2-pmtpa.wikimedia.org.
 
-224     1H      IN PTR  es10.pmtpa.wmnet.
-228 1H  IN PTR  es4.pmtpa.wmnet.
-
-236     1H  IN PTR  es7.pmtpa.wmnet.
 253 1H  IN PTR  nas1-a.pmtpa.wmnet.
 254 1H  IN PTR  nas1-b.pmtpa.wmnet.
 
@@ -106,9 +102,6 @@ $ORIGIN 6.1.{{ zonename }}.
 
 ; Media Servers & SSL Servers & ES Servers & Memcached Servers
 $ORIGIN 7.1.{{ zonename }}.
-14  1H  IN PTR es4.mgmt.pmtpa.wmnet.
-17  1H  IN PTR es7.mgmt.pmtpa.wmnet.
-20  1H  IN PTR es10.mgmt.pmtpa.wmnet.
 
 ; Misc. Services Server Project
 $ORIGIN 8.1.{{ zonename }}.
