@@ -222,7 +222,6 @@ thallium        1H  IN A    208.80.154.87
 thulium         1H  IN A    208.80.155.12
 titanium        1H  IN A    208.80.154.154
 uranium         1H  IN A    208.80.154.53
-virt0           1H  IN A    208.80.152.32
 virt1000        1H  IN A    208.80.154.18
 ytterbium       1H  IN A    208.80.154.80
 zirconium       1H  IN A    208.80.154.41
