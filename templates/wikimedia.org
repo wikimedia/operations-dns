@@ -460,8 +460,6 @@ rt          1H  IN A        208.80.154.5
 
 secure          600 IN DYNA     geoip!text-addrs
 
-smtp            1H  IN A        208.80.154.90  ; polonium
-
 stream      1H  IN CNAME        stream-lb.eqiad
 
 svn         5M  IN CNAME    antimony.wikimedia.org.
