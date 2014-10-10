@@ -25,10 +25,6 @@ $ORIGIN 0.0.{{ zonename }}.
 200     1H  IN PTR  vrrp-gw-2.pmtpa.wmnet.
 202     1H  IN PTR  ae0-2.cr2-pmtpa.wikimedia.org.
 
-253 1H  IN PTR  nas1-a.pmtpa.wmnet.
-254 1H  IN PTR  nas1-b.pmtpa.wmnet.
-
-
 ; asw*  DEPRECATED, put in management network
 $ORIGIN 1.0.{{ zonename }}.
 
@@ -116,12 +112,8 @@ $ORIGIN 8.1.{{ zonename }}.
 51  1H  IN PTR  WMF3848.mgmt.pmtpa.wmnet.
 52  1H  IN PTR  WMF3847.mgmt.pmtpa.wmnet.
 53  1H  IN PTR  WMF3846.mgmt.pmtpa.wmnet.
-61  1H  IN PTR  nas1-a.mgmt.pmtpa.wmnet.
-62  1H  IN PTR  nas1-b.mgmt.pmtpa.wmnet.
 63  1H  IN PTR  WMF3838.mgmt.pmtpa.wmnet.
 64  1H  IN PTR  WMF3837.mgmt.pmtpa.wmnet.
-66  1H  IN PTR  nas1-a-e0m.mgmt.pmtpa.wmnet.
-67  1H  IN PTR  nas1-b-e0m.mgmt.pmtpa.wmnet.
 68  1H  IN PTR  WMF3641.mgmt.pmtpa.wmnet.
 69  1H  IN PTR  WMF3639.mgmt.pmtpa.wmnet.
 70  1H  IN PTR  WMF3640.mgmt.pmtpa.wmnet.
