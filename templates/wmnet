@@ -1713,6 +1713,8 @@ magnesium   1H  IN A    10.65.3.5
 WMF3146     1H  IN A    10.65.3.5
 aluminium   1H  IN A    10.65.3.4
 aluminum    1H  IN CNAME    aluminium
+americium   1H  IN A    10.65.3.225
+WMF4594     1H  IN A    10.65.3.225
 WMF3147     1H  IN A    10.65.3.4
 silicon     1H  IN A    10.65.3.3
 WMF3148     1H  IN A    10.65.3.3
@@ -1938,6 +1940,7 @@ eth4-1102.labnet1001    1H  IN A    10.68.16.1
 
 $ORIGIN frack.eqiad.{{ zonename }}.
 aluminium       1H      IN A    10.64.40.110
+americium       1H      IN A    10.64.40.113
 barium          1H      IN A    10.64.40.109
 barium-fundraising 1H      IN A    10.64.40.112
 boron           1H      IN A    10.64.40.66
