@@ -63,14 +63,6 @@ asw-d3-pmtpa        1H  IN A        10.1.1.24
 
 cr2-pmtpa       1H  IN A        10.1.1.18
 
-ps1-c1-pmtpa        1H  IN A        10.1.5.20
-ps1-c2-pmtpa        1H  IN A        10.1.5.21
-ps1-c3-pmtpa        1H  IN A        10.1.5.22
-ps1-d1-pmtpa        1H  IN A        10.1.5.17
-ps1-d2-pmtpa        1H  IN A        10.1.5.18
-ps1-d3-pmtpa        1H  IN A        10.1.5.19
-
-
 ; SERVERS LISTED ALPHABETICALLY
 
 amaranth        1H      IN A            10.1.8.16
