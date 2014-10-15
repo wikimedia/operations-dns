@@ -102,47 +102,6 @@ $ORIGIN 7.1.{{ zonename }}.
 ; Misc. Services Server Project
 $ORIGIN 8.1.{{ zonename }}.
 
-16      1H      IN PTR  amaranth.mgmt.pmtpa.wmnet.
-17  1H  IN PTR  ts-array4a.mgmt.pmtpa.wmnet.
-18  1H  IN PTR  ts-array4b.mgmt.pmtpa.wmnet.
-25  1H  IN PTR  wmf3930.mgmt.pmtpa.wmnet.
-
-42  1H  IN PTR  WMF3916.mgmt.pmtpa.wmnet.
-44  1H  IN PTR  WMF3914.mgmt.pmtpa.wmnet.
-51  1H  IN PTR  WMF3848.mgmt.pmtpa.wmnet.
-52  1H  IN PTR  WMF3847.mgmt.pmtpa.wmnet.
-53  1H  IN PTR  WMF3846.mgmt.pmtpa.wmnet.
-63  1H  IN PTR  WMF3838.mgmt.pmtpa.wmnet.
-64  1H  IN PTR  WMF3837.mgmt.pmtpa.wmnet.
-68  1H  IN PTR  WMF3641.mgmt.pmtpa.wmnet.
-69  1H  IN PTR  WMF3639.mgmt.pmtpa.wmnet.
-70  1H  IN PTR  WMF3640.mgmt.pmtpa.wmnet.
-
-71  1H  IN PTR  WMF3644.mgmt.pmtpa.wmnet.
-72  1H  IN PTR  WMF3645.mgmt.pmtpa.wmnet.
-73  1H  IN PTR  WMF3646.mgmt.pmtpa.wmnet.
-87  1H  IN PTR  WMF3731.mgmt.pmtpa.wmnet.
-88  1H  IN PTR  WMF3732.mgmt.pmtpa.wmnet.
-89  1H  IN PTR  WMF3733.mgmt.pmtpa.wmnet.
-90  1H  IN PTR  WMF3734.mgmt.pmtpa.wmnet.
-104     1H      IN PTR  wmf5706.mgmt.pmtpa.wmnet.
-105 1H  IN PTR  wmf5707.mgmt.pmtpa.wmnet.
-106 1H  IN PTR  wmf5708.mgmt.pmtpa.wmnet.
-107 1H  IN PTR  wmf5709.mgmt.pmtpa.wmnet.
-108 1H  IN PTR  wmf5710.mgmt.pmtpa.wmnet.
-109 1H  IN PTR  wmf5711.mgmt.pmtpa.wmnet.
-111 1H  IN PTR  wmf5816.mgmt.pmtpa.wmnet.
-118 1H  IN PTR  wmf5823.mgmt.pmtpa.wmnet.
-
-126 1H  IN PTR  WMF5845.mgmt.pmtpa.wmnet.
-127 1H  IN PTR  WMF5846.mgmt.pmtpa.wmnet.
-128 1H  IN PTR  WMF5847.mgmt.pmtpa.wmnet.
-129 1H  IN PTR  WMF5848.mgmt.pmtpa.wmnet.
-130 1H  IN PTR  WMF5849.mgmt.pmtpa.wmnet.
-131 1H  IN PTR  WMF5850.mgmt.pmtpa.wmnet.
-132 1H  IN PTR  WMF5851.mgmt.pmtpa.wmnet.
-133 1H  IN PTR  WMF5852.mgmt.pmtpa.wmnet.
-
 ; Apaches pool (srv251+)
 $ORIGIN 9.1.{{ zonename }}.
 

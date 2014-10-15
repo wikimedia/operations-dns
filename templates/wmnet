@@ -73,45 +73,6 @@ ps1-d3-pmtpa        1H  IN A        10.1.5.19
 
 ; SERVERS LISTED ALPHABETICALLY
 
-amaranth        1H      IN A            10.1.8.16
-WMF3709         1H  IN A        10.1.6.71
-WMF3916         1H  IN A        10.1.8.42
-WMF3914         1H  IN A        10.1.8.44
-WMF3838         1H  IN A        10.1.8.63
-WMF3837         1H  IN A        10.1.8.64
-WMF3731         1H  IN A        10.1.8.87
-WMF3732         1H  IN A        10.1.8.88
-WMF3733         1H  IN A        10.1.8.89
-WMF3734         1H  IN A        10.1.8.90
-WMF3848         1H  IN A        10.1.8.51
-WMF3847         1H  IN A        10.1.8.52
-WMF3846         1H  IN A        10.1.8.53
-wmf3930         1H  IN A        10.1.8.25
-ts-array4a      1H  IN A        10.1.8.17
-ts-array4b      1H  IN A        10.1.8.18
-WMF3639         1H  IN A        10.1.8.69
-WMF3640         1H  IN A        10.1.8.70
-WMF3641         1H  IN A        10.1.8.68
-WMF3644         1H  IN A        10.1.8.71
-WMF3645         1H  IN A        10.1.8.72
-WMF3646         1H  IN A        10.1.8.73
-wmf5706                 1H      IN A            10.1.8.104
-wmf5707         1H  IN A        10.1.8.105
-wmf5708         1H  IN A        10.1.8.106
-wmf5709         1H  IN A        10.1.8.107
-wmf5710         1H  IN A        10.1.8.108
-wmf5711         1H  IN A        10.1.8.109
-wmf5816         1H  IN A        10.1.8.111
-wmf5823         1H  IN A        10.1.8.118
-WMF5845         1H  IN A        10.1.8.126
-WMF5846         1H  IN A        10.1.8.127
-WMF5847         1H  IN A        10.1.8.128
-WMF5848         1H  IN A        10.1.8.129
-WMF5849         1H  IN A        10.1.8.130
-WMF5850         1H  IN A        10.1.8.131
-WMF5851         1H  IN A        10.1.8.132
-WMF5852         1H  IN A        10.1.8.133
-
 ; GENERATES FOR MANGEMENT
 
 ;
