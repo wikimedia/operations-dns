@@ -44,3 +44,5 @@ donate      600 IN DYNA     geoip!text-addrs
 shop        600 IN DYNA     geoip!text-addrs
 store       600 IN DYNA     geoip!text-addrs
 
+; Mobile
+m           600 IN DYNA     geoip!mobile-addrs
