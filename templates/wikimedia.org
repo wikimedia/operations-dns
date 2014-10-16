@@ -398,6 +398,7 @@ asw-b4-pmtpa        1H  IN A    10.1.1.8
 
 ; Service aliases (alphabetical order)
 
+annual          1H  IN CNAME    misc-web-lb.eqiad
 apt         1H  IN CNAME    carbon
 
 archiva         1H  IN CNAME    titanium
