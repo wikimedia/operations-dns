@@ -838,6 +838,7 @@ nas1001-a       1H  IN A        10.65.0.102
 nas1001-b       1H  IN A        10.65.0.101
 
 WMF3134     1H  IN A    10.65.2.1
+radium      1H  IN A    10.65.2.1
 WMF3133     1H  IN A    10.65.2.2
 rbf1001     1H  IN A    10.65.2.2
 WMF3132     1H  IN A    10.65.2.3

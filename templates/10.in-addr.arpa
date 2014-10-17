@@ -1580,6 +1580,7 @@ $ORIGIN 1.65.{{ zonename }}.
 $ORIGIN 2.65.{{ zonename }}.
 
 1   1H  IN PTR      WMF3134.mgmt.eqiad.wmnet.
+1   1H  IN PTR      radium.mgmt.eqiad.wmnet.
 2   1H  IN PTR      WMF3133.mgmt.eqiad.wmnet.
 2   1H  IN PTR      rbf1001.mgmt.eqiad.wmnet.
 3   1H  IN PTR      WMF3132.mgmt.eqiad.wmnet.
