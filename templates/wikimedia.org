@@ -400,7 +400,8 @@ asw-b4-pmtpa        1H  IN A    10.1.1.8
 ; Service aliases (alphabetical order)
 
 annual          1H  IN CNAME    misc-web-lb.eqiad
-apt         1H  IN CNAME    carbon
+
+apt             1H  IN CNAME    carbon
 
 archiva         1H  IN CNAME    titanium
 
@@ -410,27 +411,28 @@ config-master   1H  IN CNAME    misc-web-lb.eqiad
 
 dash.frdev      1H  IN CNAME    lutetium
 
-doc         1H  IN CNAME    misc-web-lb.eqiad
+doc             1H  IN CNAME    misc-web-lb.eqiad
 
-ldap-mirror	1H IN CNAME plutonium.wikimedia.org.
+ldap-mirror     1H  IN CNAME    plutonium.wikimedia.org.
+
 
 ; don't want this for anything but wikimedia.org domain
 frdata.wikimedia.org.   1H  IN CNAME    samarium.wikimedia.org.
 
 gerrit          1H  IN A        208.80.154.81
-            1H  IN AAAA     2620:0:861:3:208:80:154:81
-git         1H  IN CNAME    misc-web-lb.eqiad
+                1H  IN AAAA     2620:0:861:3:208:80:154:81
+git             1H  IN CNAME    misc-web-lb.eqiad
 gdash           1H  IN CNAME    misc-web-lb.eqiad
 graphite        1H  IN CNAME    misc-web-lb.eqiad
 grafana         1H  IN CNAME    misc-web-lb.eqiad
-parsoid-tests       1H  IN CNAME    misc-web-lb.eqiad
+parsoid-tests   1H  IN CNAME    misc-web-lb.eqiad
 performance     1H  IN CNAME    misc-web-lb.eqiad
 
 icinga          1H  IN CNAME    neon
-icinga-admin        1H  IN A        208.80.154.14
+icinga-admin    1H  IN A        208.80.154.14
 
 integration     1H  IN CNAME    misc-web-lb.eqiad
-irc         1H  IN CNAME    argon
+irc             1H  IN CNAME    argon
 
 ldap-eqiad      1H  IN CNAME    neptunium
 ldap-codfw      1H  IN CNAME    labcontrol2001
@@ -448,30 +450,30 @@ servermon       1H  IN CNAME    netmon1001
 
 payments        5M  IN A        208.80.155.5 ; eqiad
 
-payments-listener   1H  IN CNAME        thulium
+payments-listener       1H  IN CNAME        thulium
 payments-listener.frdev 1H  IN CNAME        lutetium
 
 people          1H  IN CNAME    misc-web-lb.eqiad
 releases        1H  IN CNAME    misc-web-lb.eqiad
 
-reports.frdev   1H  IN CNAME        lutetium
+reports.frdev   1H  IN CNAME    lutetium
 
-rt          1H  IN A        208.80.154.5
-            1H  IN MX       10 polonium.wikimedia.org.
-            1H  IN MX       50 lead.wikimedia.org.
+rt              1H  IN A        208.80.154.5
+                1H  IN MX       10 polonium.wikimedia.org.
+                1H  IN MX       50 lead.wikimedia.org.
 
 secure          600 IN DYNA     geoip!text-addrs
 
-stream      1H  IN CNAME        stream-lb.eqiad
+stream          1H  IN CNAME    stream-lb.eqiad
 
-svn         5M  IN CNAME    antimony.wikimedia.org.
+svn             5M  IN CNAME    antimony.wikimedia.org.
 
 torrus          1H  IN CNAME    netmon1001
 
-wiki-mail-eqiad     1H  IN A    208.80.154.91
-            1H  IN AAAA 2620:0:861:3:208:80:154:91
+wiki-mail-eqiad 1H  IN A        208.80.154.91
+                1H  IN AAAA     2620:0:861:3:208:80:154:91
 
-url-downloader      1H  IN A        208.80.154.156  ; chromium
+url-downloader  1H  IN A        208.80.154.156  ; chromium
 
 ; Wikis (alphabetic order)
 
