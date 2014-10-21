@@ -34,6 +34,7 @@ $ORIGIN {{ zonename }}.
 17  1H  IN PTR  nitrogen.wikimedia.org.
 18  1H  IN PTR  virt1000.wikimedia.org.
 19  1H  IN PTR  labs-ns0.wikimedia.org.
+39  1H  IN PTR  radium.wikimedia.org.
 40  1H  IN PTR  rubidium.wikimedia.org.
 41  1H  IN PTR  zirconium.wikimedia.org.
 42  1H  IN PTR  cp1008.wikimedia.org.
@@ -50,7 +51,6 @@ $ORIGIN {{ zonename }}.
 60  1H  IN PTR  vl1001-eth1.lvs1006.wikimedia.org.
 61  1H  IN PTR  sodium.wikimedia.org.
 62  1H  IN PTR  plutonium.wikimedia.org.
-63  1H  IN PTR  radium.wikimedia.org.
 
 ; 208.80.154.64/26 (public1-c-eqiad) (.64 - .127)
 
