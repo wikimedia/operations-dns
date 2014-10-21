@@ -17,32 +17,19 @@ $ORIGIN {{ zonename }}.
 ; Public subnet 208.80.152.0/25 (208.80.152.0 - 208.80.152.127)
 ; was Squids/LVS subnet
 
-1   1H IN PTR   vrrp-gw-100.wikimedia.org.
-
-126 1H IN PTR   ae0-100.cr2-pmtpa.wikimedia.org.
-
 
 ; Public services subnet 208.80.152.128/26 (208.80.152.128 - 208.80.152.191)
 
-129 1H IN PTR   vrrp-gw-101.wikimedia.org.
 133 1H IN PTR   wiki-mail.wikimedia.org.
 
-141 1H IN PTR   wireless.tech.wikimedia.org.
-145 1H IN PTR   ae0-101.cr2-pmtpa.wikimedia.org.
-
-
 ; Neighbor blocks, loopback IPs 208.80.152.192/27 (208.80.152.192 - 208.80.152.223)
-
-194 1H IN PTR   pim-rp.wikimedia.org.
 
 197 1H IN PTR   cr2-pmtpa.wikimedia.org.
 
 ; LVS out-of-subnet IPs
 
 ; 208.80.152.224/27 sandbox vlan
-225 1H IN PTR   vrrp-gw-103.wikimedia.org.
 226 1H IN PTR   amaranth.toolserver.org.
-228 1H IN PTR   ae0-103.cr2-pmtpa.wikimedia.org.
 229 1H IN PTR   ts-array4b.mgmt.toolserver.org.
 230 1H IN PTR   ts-array4a.mgmt.toolserver.org.
 
