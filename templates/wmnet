@@ -130,7 +130,6 @@ nas1001-b       1H  IN A        10.64.16.5
 
 ;Servers - listed alphabetically
 
-americium           1H  IN A         10.64.48.44
 analytics1003       1H  IN A         10.64.21.103
 analytics1004       1H  IN A         10.64.21.104
 ;analytics1007      1H  IN A         10.64.21.107
@@ -1895,7 +1894,7 @@ eth4-1102.labnet1001    1H  IN A    10.68.16.1
 
 $ORIGIN frack.eqiad.{{ zonename }}.
 aluminium       1H      IN A    10.64.40.110
-#americium       1H      IN A    10.64.40.113
+americium       1H      IN A    10.64.40.113
 barium          1H      IN A    10.64.40.109
 barium-fundraising 1H      IN A    10.64.40.112
 boron           1H      IN A    10.64.40.66
