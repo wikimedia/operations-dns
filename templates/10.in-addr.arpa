@@ -1001,7 +1001,7 @@ $ORIGIN 40.64.{{ zonename }}.
 110 1H IN PTR   aluminium.frack.eqiad.wmnet.
 111 1H IN PTR   lutetium.frack.eqiad.wmnet.
 112     1H IN PTR       barium-fundraising.frack.eqiad.wmnet.
-113 1H IN PTR   americium.frack.eqiad.wmnet.
+#113 1H IN PTR   americium.frack.eqiad.wmnet.
 
 ; 10.64.40.128/27 - frack-dmz1-c-eqiad
 130 1H IN PTR   samarium.frack.eqiad.wmnet.
@@ -1050,6 +1050,7 @@ $ORIGIN 48.64.{{ zonename }}.
 41      1H IN PTR       elastic1019.eqiad.wmnet.
 42      1H IN PTR       ocg1002.eqiad.wmnet.
 43      1H IN PTR       ocg1003.eqiad.wmnet.
+44      1H IN PTR       americium.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
