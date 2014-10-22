@@ -130,7 +130,7 @@ nas1001-b       1H  IN A        10.64.16.5
 
 ;Servers - listed alphabetically
 
-americium           1H  IN A         10.64.32.155
+americium           1H  IN A         10.64.48.44
 analytics1003       1H  IN A         10.64.21.103
 analytics1004       1H  IN A         10.64.21.104
 ;analytics1007      1H  IN A         10.64.21.107
