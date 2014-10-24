@@ -477,7 +477,8 @@ $ORIGIN 0.64.{{ zonename }}.
 166 1H IN PTR   dbproxy1002.eqiad.wmnet.
 167 1H IN PTR   ms-fe1001.eqiad.wmnet.
 168 1H IN PTR   ms-fe1002.eqiad.wmnet.
-
+169 1H IN PTR   berkelium.eqiad.wmnet.
+170 1H IN PTR   curium.eqiad.wmnet.
 171 1H IN PTR   cp1043.eqiad.wmnet.
 172 1H IN PTR   cp1044.eqiad.wmnet.
 173 1H IN PTR   ms-be1001.eqiad.wmnet.
