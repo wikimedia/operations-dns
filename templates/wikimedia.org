@@ -134,7 +134,6 @@ cp1008          1H  IN A    208.80.154.42
 dataset1001     1H  IN A    208.80.154.11
 dickson         1H  IN A    208.80.155.68
             1H  IN AAAA 2620:0:861:202:208:80:155:68
-francium        1H  IN A    208.80.154.93
 gadolinium      1H  IN A    208.80.154.73
 gallium         1H  IN A    208.80.154.135
 gold            1H  IN A    208.80.154.85
