@@ -26,10 +26,6 @@ $ORIGIN {{ zonename }}.
 ; Google Webmaster Tools verification record for search management
 {{ zonename }}.         600     IN TXT  "google-site-verification=AMHkgs-4ViEvIJf5znZle-BSE2EPNFqM1nDJGRyn2qk"
 
-; Service aliases
-
-mail                    1H      IN CNAME        mail.wikimedia.org.
-
 ; Wikis (alphabetic order)
 
 arbcom-de               600     IN DYNA         geoip!text-addrs
@@ -79,6 +75,7 @@ download        1H  IN CNAME    dumps.wikimedia.org.
 stats           1H  IN CNAME    stats.wikimedia.org.
 store           600 IN DYNA     geoip!text-addrs
 shop            600 IN DYNA     geoip!text-addrs
+mail            600 IN DYNA     geoip!text-addrs
 
 mobile          600 IN DYNA     geoip!mobile-addrs
 zero            600 IN DYNA     geoip!mobile-addrs
