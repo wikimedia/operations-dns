@@ -1936,7 +1936,7 @@ wmf4579         1H      IN A            10.65.5.209
 eth4-1102.labnet1001    1H  IN A    10.68.16.1
 
 
-; EQIAD Fundraising/Payments
+; EQIAD fundraising/payments
 
 $ORIGIN frack.eqiad.{{ zonename }}.
 aluminium       1H      IN A    10.64.40.110
@@ -2100,6 +2100,22 @@ vl2020-eth3.lvs2004 1H  IN A    10.192.49.4
 vl2020-eth3.lvs2005 1H  IN A    10.192.49.5
 vl2020-eth3.lvs2006 1H  IN A    10.192.49.6
 
+; CODFW fundraising/payments
+$ORIGIN frack.codfw.{{ zonename }}.
+payments2001        1H  IN A    10.195.0.5
+payments2002        1H  IN A    10.195.0.6
+payments2003        1H  IN A    10.195.0.7
+pay-lvs2001         1H  IN A    10.195.0.20
+pay-lvs2002         1H  IN A    10.195.0.21
+fdb2001             1H  IN A    10.195.0.34
+alnilam             1H  IN A    10.195.0.35
+mintaka             1H  IN A    10.195.0.36
+mintaka-fundraising 1H  IN A    10.195.0.37
+alnitak             1H  IN A    10.195.0.38
+rigel               1H  IN A    10.195.0.66
+heka                1H  IN A    10.195.0.74
+bellatrix           1H  IN A    10.195.0.75
+saiph               1H  IN A    10.195.0.82
 
 ; CODFW management
 

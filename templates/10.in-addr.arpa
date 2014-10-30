@@ -976,7 +976,7 @@ $ORIGIN 37.64.{{ zonename }}.
 12      1H IN PTR       labsdb1007.eqiad.wmnet.
 13      1H IN PTR       labmon1001.eqiad.wmnet.
 
-; 10.64.40.0/23 - frack subnets
+; 10.64.40.0/23 - frack.eqiad subnets
 $ORIGIN 40.64.{{ zonename }}.
 
 ; 10.64.40.0/27 - frack-payments1-c-eqiad
@@ -2915,6 +2915,32 @@ $ORIGIN 1.193.{{ zonename }}.
 243 1H IN PTR  wmf5757.mgmt.codfw.wmnet.
 244 1H IN PTR  es2010.mgmt.codfw.wmnet.
 
+; 10.195.0.0/25 - frack.codfw subnets
+$ORIGIN 0.195.{{ zonename }}.
+
+; 10.195.0.0/27 - frack-payments1-c-codfw
+5  1H IN PTR  payments2001.frack.codfw.wmnet.
+6  1H IN PTR  payments2002.frack.codfw.wmnet.
+7  1H IN PTR  payments2003.frack.codfw.wmnet.
+20 1H IN PTR  pay-lvs2001.frack.codfw.wmnet.
+21 1H IN PTR  pay-lvs2002.frack.codfw.wmnet.
+
+; 10.195.0.32/27 - frack-fundraising1-c-codfw
+34 1H IN PTR  fdb2001.frack.codfw.wmnet.
+35 1H IN PTR  alnilam.frack.codfw.wmnet.
+36 1H IN PTR  mintaka.frack.codfw.wmnet.
+37 1H IN PTR  mintaka-fundraising.frack.codfw.wmnet.
+38 1H IN PTR  alnitak.frack.codfw.wmnet.
+
+; 10.195.0.64/29 - frack-bastion1-c-codfw
+66 1H IN PTR  rigel.frack.codfw.wmnet.
+
+; 10.195.0.72/29 - frack-administration1-c-codfw
+74 1H IN PTR  heka.frack.codfw.wmnet.
+75 1H IN PTR  bellatrix.frack.codfw.wmnet.
+
+; 10.195.0.80/29 - frack-listenerdmz1-c-codfw
+82 1H IN PTR  saiph.frack.codfw.wmnet.
 
 ; LEGACY
 
