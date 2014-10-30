@@ -69,18 +69,16 @@ wg.en                   600     IN DYNA         geoip!text-addrs
 bugzilla        600 IN DYNA     geoip!text-addrs
 careers         600 IN DYNA     geoip!text-addrs
 donate          600 IN DYNA     geoip!text-addrs
-jobs            600 IN DYNA     geoip!text-addrs
-www.donate      600 IN DYNA     geoip!text-addrs
 download        1H  IN CNAME    dumps.wikimedia.org.
+jobs            600 IN DYNA     geoip!text-addrs
+m               600 IN DYNA     geoip!mobile-addrs
+mobile          600 IN DYNA     geoip!mobile-addrs
+shop            600 IN DYNA     geoip!text-addrs
 stats           1H  IN CNAME    stats.wikimedia.org.
 store           600 IN DYNA     geoip!text-addrs
-shop            600 IN DYNA     geoip!text-addrs
-mail            600 IN DYNA     geoip!text-addrs
-
-mobile          600 IN DYNA     geoip!mobile-addrs
-zero            600 IN DYNA     geoip!mobile-addrs
-m               600 IN DYNA     geoip!mobile-addrs
+www.donate      600 IN DYNA     geoip!text-addrs
 www.m           600 IN DYNA     geoip!mobile-addrs
+zero            600 IN DYNA     geoip!mobile-addrs
 
 ; SNI testing, temporary
 pinkunicorn     600 IN A        208.80.154.42
