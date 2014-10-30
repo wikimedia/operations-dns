@@ -37,7 +37,6 @@ arbcom-en               600     IN DYNA         geoip!text-addrs
 arbcom-fi               600     IN DYNA         geoip!text-addrs
 arbcom-nl               600     IN DYNA         geoip!text-addrs
 commons                 600     IN DYNA         geoip!text-addrs
-en2                     600     IN DYNA         geoip!text-addrs
 meta                    600     IN DYNA         geoip!text-addrs
 nostalgia               600     IN DYNA         geoip!text-addrs
 quote                   600     IN DYNA         geoip!text-addrs
