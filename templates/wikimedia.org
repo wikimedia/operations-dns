@@ -107,6 +107,7 @@ acamar          1H  IN A    208.80.153.12
             1H  IN AAAA 2620:0:860:1:208:80:153:12
 achernar        1H  IN A    208.80.153.42
             1H  IN AAAA 2620:0:860:2:208:80:153:42
+aluminium       1H  IN A    208.80.155.15
 antimony        1H  IN A    208.80.154.7
 argon           1H  IN A    208.80.154.160
 astatine        1H  IN A    208.80.155.110
