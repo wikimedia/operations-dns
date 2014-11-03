@@ -2914,6 +2914,13 @@ $ORIGIN 1.193.{{ zonename }}.
 243 1H IN PTR  es2009.mgmt.codfw.wmnet.
 243 1H IN PTR  wmf5757.mgmt.codfw.wmnet.
 244 1H IN PTR  es2010.mgmt.codfw.wmnet.
+244 1H IN PTR  wmf5758.mgmt.codfw.wmnet.
+245 1H IN PTR  ms-be2013.mgmt.codfw.wmnet.
+245 1H IN PTR  wmf6138.mgmt.codfw.wmnet.
+246 1H IN PTR  ms-be2014.mgmt.codfw.wmnet.
+246 1H IN PTR  wmf6139.mgmt.codfw.wmnet.
+247 1H IN PTR  ms-be2015.mgmt.codfw.wmnet.
+247 1H IN PTR  wmf6140.mgmt.codfw.wmnet.
 
 ; 10.195.0.0/25 - frack.codfw subnets
 $ORIGIN 0.195.{{ zonename }}.
