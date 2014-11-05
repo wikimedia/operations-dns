@@ -17,56 +17,6 @@ $ORIGIN {{ zonename }}.
 fundraisingdb-write 5M  IN CNAME    db1025.frack.eqiad.wmnet.
 fundraisingdb-read  5M  IN CNAME    db1008.frack.eqiad.wmnet.
 
-$ORIGIN pmtpa.{{ zonename }}.
-
-{% for i in range(1, 10) %}
-asw{{ i }}-pmtpa    1H  IN A        10.0.1.{{ i }}
-{%- endfor %}
-
-; Service aliases
-
-mirror          1H  IN CNAME    apt.wikimedia.org.
-webproxy        1H  IN CNAME    carbon.wikimedia.org.
-carbon-relay        1H  IN CNAME    tungsten.eqiad.wmnet.
-statsd          1H  IN CNAME    tungsten.eqiad.wmnet.
-eventlogging        1H  IN CNAME    vanadium.eqiad.wmnet.
-
-dns-r0          1H  IN A        10.0.5.6
-dns-r1          1H  IN A        10.0.5.7
-nfs-home        1H  IN A        10.0.5.8
-config-master   1H  IN CNAME    palladium.eqiad.wmnet.
-puppet          1H  IN CNAME    palladium.eqiad.wmnet.
-syslog          1H  IN CNAME    lithium.eqiad.wmnet.
-
-; GENERATES
-
-; Network equipment etc.
-
-vl-2-0                  1H  IN A        10.0.0.200
-
-; pmtpa management network
-
-$ORIGIN mgmt.pmtpa.{{ zonename }}.
-
-scs-d1-pmtpa        1H  IN A        10.1.2.2
-mr1-pmtpa       1H  IN A        10.1.2.3
-msw1-pmtpa      1H  IN A        10.1.1.15
-msw2-pmtpa      1H  IN A        10.1.1.25
-
-asw-c3-pmtpa            1H      IN A        10.1.1.3
-asw-c4-pmtpa            1H      IN A        10.1.1.4
-asw-a2-pmtpa            1H      IN A        10.1.1.7
-asw-d-pmtpa     1H  IN A        10.1.1.21
-asw-d1-pmtpa        1H  IN A        10.1.1.22
-asw-d2-pmtpa        1H  IN A        10.1.1.23
-asw-d3-pmtpa        1H  IN A        10.1.1.24
-
-cr2-pmtpa       1H  IN A        10.1.1.18
-
-; SERVERS LISTED ALPHABETICALLY
-
-; GENERATES FOR MANGEMENT
-
 ;
 ; EQIAD
 ;

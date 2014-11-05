@@ -127,14 +127,6 @@ $ORIGIN {{ zonename }}.
 202 1H  IN PTR  cr1-eqiad.wikimedia.org.
 203 1H  IN PTR  cr2-eqiad.wikimedia.org.
 
-; 208.80.154.208/30 (cr2-pmtpa <--> cr1-eqiad)
-209 1H  IN PTR  xe-5-2-1.cr1-eqiad.wikimedia.org.
-210 1H  IN PTR  xe-0-0-0.cr2-pmtpa.wikimedia.org.
-
-; 208.80.154.212/30 (cr2-pmtpa <--> cr2-eqiad)
-213 1H  IN PTR  xe-5-2-1.cr2-eqiad.wikimedia.org.
-214 1H  IN PTR  xe-1-1-0.cr2-pmtpa.wikimedia.org.
-
 ; 208.80.154.216/31 (cr1-eqiad <--> pfw1-eqiad)
 216 1H  IN PTR  xe-5-0-3.cr1-eqiad.wikimedia.org.
 217 1H  IN PTR  xe-6-0-0.pfw1-eqiad.wikimedia.org.

@@ -14,90 +14,6 @@ $ORIGIN {{ zonename }}.
             1D  IN NS       ns1.wikimedia.org.
             1D  IN NS       ns2.wikimedia.org.
 
-; 10.0.0.0/12 - pmtpa
-
-; 10.0.0.0/16 - pmtpa private vlan
-
-; Servers
-
-$ORIGIN 0.0.{{ zonename }}.
-
-200     1H  IN PTR  vrrp-gw-2.pmtpa.wmnet.
-202     1H  IN PTR  ae0-2.cr2-pmtpa.wikimedia.org.
-
-; asw*  DEPRECATED, put in management network
-$ORIGIN 1.0.{{ zonename }}.
-
-{% for i in range(1, 10) %}
-{{ i }} 1H  IN PTR  asw{{ i }}-pmtpa.pmtpa.wmnet.
-{%- endfor %}
-
-; srv*
-
-$ORIGIN 2.0.{{ zonename }}.
-
-$ORIGIN 3.0.{{ zonename }}.
-
-; Service IPs
-
-$ORIGIN 5.0.{{ zonename }}.
-
-6   1H  IN PTR  dns-r0.pmtpa.wmnet.
-7   1H  IN PTR  dns-r1.pmtpa.wmnet.
-8   1H  IN PTR  nfs-home.pmtpa.wmnet.
-
-; Databases
-
-$ORIGIN 6.0.{{ zonename }}.
-
-; Management (pmtpa)
-
-$ORIGIN 1.{{ zonename }}.
-
-; Network equipment
-
-$ORIGIN 1.1.{{ zonename }}.
-
-3   1H  IN PTR  asw-c3-pmtpa.mgmt.pmtpa.wmnet.
-4   1H  IN PTR  asw-c4-pmtpa.mgmt.pmtpa.wmnet.
-7   1H  IN PTR  asw-a2-pmtpa.mgmt.pmtpa.wmnet.
-15  1H  IN PTR  msw1-pmtpa.mgmt.pmtpa.wmnet.
-18  1H  IN PTR  cr2-pmtpa.mgmt.pmtpa.wmnet.
-
-21  1H  IN PTR  asw-d-pmtpa.mgmt.pmtpa.wmnet.
-22  1H  IN PTR  asw-d1-pmtpa.mgmt.pmtpa.wmnet.
-23  1H  IN PTR  asw-d2-pmtpa.mgmt.pmtpa.wmnet.
-24  1H  IN PTR  asw-d3-pmtpa.mgmt.pmtpa.wmnet.
-25  1H  IN PTR  msw2-pmtpa.mgmt.pmtpa.wmnet.
-
-; Supportive management infrastructure
-
-$ORIGIN 2.1.{{ zonename }}.
-
-2   1H  IN PTR scs-d1-pmtpa.mgmt.pmtpa.wmnet.
-3   1H  IN PTR mr1-pmtpa.mgmt.pmtpa.wmnet.
-
-$ORIGIN 3.1.{{ zonename }}.
-
-; Search Servers
-$ORIGIN 4.1.{{ zonename }}.
-
-; Power Distribution Units
-
-$ORIGIN 5.1.{{ zonename }}.
-
-; Database Servers
-$ORIGIN 6.1.{{ zonename }}.
-
-; Media Servers & SSL Servers & ES Servers & Memcached Servers
-$ORIGIN 7.1.{{ zonename }}.
-
-; Misc. Services Server Project
-$ORIGIN 8.1.{{ zonename }}.
-
-; Apaches pool (srv251+)
-$ORIGIN 9.1.{{ zonename }}.
-
 ; codfw svc ips
 $ORIGIN 1.2.{{ zonename }}.
 
@@ -149,39 +65,6 @@ $ORIGIN 4.2.{{ zonename }}.
 24  1H  IN PTR  upload.svc.ulsfo.wmnet.
 25  1H  IN PTR  text.svc.ulsfo.wmnet.
 26  1H  IN PTR  mobile.svc.ulsfo.wmnet.
-
-; labs svc ips
-
-$ORIGIN 128.2.{{ zonename }}.
-
-; Various small assignments
-
-$ORIGIN 0.3.{{ zonename }}.
-
-; Cross link between cr2-pmtpa and mr1-pmtpa: 10.3.0.8/30
-
-9   1H  IN PTR  ae0-402.cr2-pmtpa.wikimedia.org.
-10  1H  IN PTR  fe-0-0-2-402.mr1-pmtpa.wikimedia.org.
-
-; Loopbacks 10.3.0.12/30
-
-12  1H  IN PTR  mr1-pmtpa.mgmt.pmtpa.wmnet.
-
-; pmtpa wireless access network 10.3.1.0/24
-1   1H  IN PTR  fe-0-0-3.mr1-pmtpa.wikimedia.org.
-2   1H  IN PTR  wr1.pmtpa.wikimedia.org.
-
-; Virtualization subnets
-
-; 10.4.0.0/21 - guest VMs subnet
-$ORIGIN {{ zonename }}.
-
-; 10.4.16.0/24 - VM host compute nodes subnet
-$ORIGIN 16.4.{{ zonename }}.
-
-1   1H  IN PTR  vrrp-gw-105.wikimedia.org.
-
-253     1H      IN PTR  ae0-105.cr2-pmtpa.wikimedia.org.
 
 ;
 ; ESAMS

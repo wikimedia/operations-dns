@@ -14,31 +14,6 @@ $ORIGIN {{ zonename }}.
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
-; Public subnet 208.80.152.0/25 (208.80.152.0 - 208.80.152.127)
-; was Squids/LVS subnet
-
-
-; Public services subnet 208.80.152.128/26 (208.80.152.128 - 208.80.152.191)
-
-133 1H IN PTR   wiki-mail.wikimedia.org.
-
-; Neighbor blocks, loopback IPs 208.80.152.192/27 (208.80.152.192 - 208.80.152.223)
-
-197 1H IN PTR   cr2-pmtpa.wikimedia.org.
-
-; LVS out-of-subnet IPs
-
-; 208.80.152.224/27 sandbox vlan
-226 1H IN PTR   amaranth.toolserver.org.
-229 1H IN PTR   ts-array4b.mgmt.toolserver.org.
-230 1H IN PTR   ts-array4a.mgmt.toolserver.org.
-
-234 1H IN PTR   web.amaranth.toolserver.org.
-
-; FIXME FIXME FIXME
-; TEMP OVERLAP ALLOCATION, do not use yet until Tampa shutdown
-; FIXME FIXME FIXME
-
 ; 208.80.152.240/28 sandbox1-a-codfw (208.80.152.240 - 208.80.152.255)
 241 1H IN PTR   vrrp-gw-2201.wikimedia.org.
 242 1H IN PTR   ae1-2201.cr1-codfw.wikimedia.org.
