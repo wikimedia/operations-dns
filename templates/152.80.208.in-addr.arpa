@@ -14,6 +14,8 @@ $ORIGIN {{ zonename }}.
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
+; 208.80.152.224/28 frack-codfw (208.80.152.224 - 208.80.152.239)
+
 ; 208.80.152.240/28 sandbox1-a-codfw (208.80.152.240 - 208.80.152.255)
 241 1H IN PTR   vrrp-gw-2201.wikimedia.org.
 242 1H IN PTR   ae1-2201.cr1-codfw.wikimedia.org.
