@@ -28,6 +28,8 @@ syslog          1H  IN CNAME    lithium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
 zuul            1H  IN CNAME    gallium.wikimedia.org.
 carbon-relay        1H  IN CNAME    tungsten.eqiad.wmnet.
+graphite        1H  IN CNAME    tungsten.eqiad.wmnet.
+graphite-in     1H  IN CNAME    tungsten.eqiad.wmnet.
 config-master   1H  IN CNAME    palladium.eqiad.wmnet.
 statsd          1H  IN CNAME    tungsten.eqiad.wmnet.
 eventlogging        1H  IN CNAME    vanadium.eqiad.wmnet.
