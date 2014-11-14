@@ -2177,6 +2177,8 @@ labcontrol2001  1H  IN A    10.193.1.49
 labsdb2001      1H  IN A    10.193.1.26
 labsdb2002      1H  IN A    10.193.1.27
 labsdb2003      1H  IN A    10.193.1.28
+labstore2001    1H  IN A    10.193.1.248
+labstore2002    1H  IN A    10.193.1.249
 lvs2001         1H  IN A    10.193.1.1
 lvs2002         1H  IN A    10.193.1.2
 lvs2003         1H  IN A    10.193.1.3
@@ -2375,6 +2377,8 @@ wmf3639         1H  IN A    10.193.1.33
 wmf3640         1H  IN A    10.193.1.34
 wmf3641         1H  IN A    10.193.1.50
 wmf3647         1H  IN A    10.193.1.62
+wmf3649         1H  IN A    10.193.1.248
+wmf3651         1H  IN A    10.193.1.249
 wmf3662         1H  IN A    10.192.1.12
 wmf3663         1H  IN A    10.193.1.35
 wmf3664         1H  IN A    10.193.1.36
