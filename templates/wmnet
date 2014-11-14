@@ -1667,6 +1667,7 @@ aluminium   1H  IN A    10.65.3.4
 aluminum    1H  IN CNAME    aluminium
 americium   1H  IN A    10.65.3.225
 wmf4594     1H  IN A    10.65.3.225
+bismuth     1H  IN A    10.65.3.226
 wmf3147     1H  IN A    10.65.3.4
 silicon     1H  IN A    10.65.3.3
 wmf3148     1H  IN A    10.65.3.3
@@ -1895,6 +1896,7 @@ aluminium       1H      IN A    10.64.40.110
 americium       1H      IN A    10.64.40.113
 barium          1H      IN A    10.64.40.109
 barium-fundraising 1H      IN A    10.64.40.112
+bismuth         1H      IN A    10.64.40.114
 boron           1H      IN A    10.64.40.66
 db1008          1H      IN A    10.64.40.99
 db1025          1H      IN A    10.64.40.100
