@@ -56,8 +56,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 0.9.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   cp3020.esams.wikimedia.org.
 1.9.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   cp3021.esams.wikimedia.org.
 2.9.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   cp3022.esams.wikimedia.org.
-0.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   cp3001.esams.wikimedia.org.
-1.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   cp3002.esams.wikimedia.org.
 2.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   ssl3001.esams.wikimedia.org.
 3.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   ssl3002.esams.wikimedia.org.
 4.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   ssl3003.esams.wikimedia.org.
@@ -81,6 +79,8 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 3.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3003.esams.wmnet.
 4.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3004.esams.wmnet.
 
+1.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3001.esams.wmnet.
+2.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3002.esams.wmnet.
 3.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3013.esams.wmnet.
 4.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3014.esams.wmnet.
 5.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3015.esams.wmnet.

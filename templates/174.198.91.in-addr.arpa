@@ -58,8 +58,6 @@ $ORIGIN {{ zonename }}.
 91  1H IN PTR   cp3021.esams.wikimedia.org.
 92  1H IN PTR   cp3022.esams.wikimedia.org.
 
-100 1H IN PTR   cp3001.esams.wikimedia.org.
-101 1H IN PTR   cp3002.esams.wikimedia.org.
 102 1H IN PTR   ssl3001.esams.wikimedia.org.
 103 1H IN PTR   ssl3002.esams.wikimedia.org.
 104 1H IN PTR   ssl3003.esams.wikimedia.org.
