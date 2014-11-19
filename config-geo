@@ -82,7 +82,7 @@ plugins => { geoip => {
                     FI => [eqiad], # ESAMS-EQIAD # Finland
                     FO => [eqiad], # ESAMS-EQIAD # Faroe Islands
                     FR => [eqiad], # ESAMS-EQIAD # France
-                    GB => [esams, eqiad], # ESAMS-EQIAD # United Kingdom
+                    GB => [ulsfo], # ESAMS-ULSFO # United Kingdom
                     GG => [esams, eqiad], # ESAMS-EQIAD # Guernsey
                     GI => [esams, eqiad], # ESAMS-EQIAD # Gibraltar
                     GR => [esams, eqiad], # ESAMS-EQIAD # Greece
