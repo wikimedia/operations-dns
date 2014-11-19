@@ -72,9 +72,9 @@ plugins => { geoip => {
                     BE => [eqiad], # ESAMS-EQIAD # Belgium
                     BG => [eqiad], # ESAMS-EQIAD # Bulgaria
                     BY => [eqiad], # ESAMS-EQIAD # Belarus
-                    CH => [esams, eqiad], # ESAMS-EQIAD # Switzerland
-                    CZ => [esams, eqiad], # ESAMS-EQIAD # Czech Republic
-                    DE => [esams, eqiad], # ESAMS-EQIAD # Germany
+                    CH => [eqiad], # ESAMS-EQIAD # Switzerland
+                    CZ => [eqiad], # ESAMS-EQIAD # Czech Republic
+                    DE => [eqiad], # ESAMS-EQIAD # Germany
                     DK => [esams, eqiad], # ESAMS-EQIAD # Denmark
                     EE => [esams, eqiad], # ESAMS-EQIAD # Estonia
                     ES => [esams, eqiad], # ESAMS-EQIAD # Spain
@@ -114,8 +114,8 @@ plugins => { geoip => {
                     SJ => [esams, eqiad], # ESAMS-EQIAD # Svalbard and Jan Mayen Islands
                     SK => [esams, eqiad], # ESAMS-EQIAD # Slovakia
                     SM => [esams, eqiad], # ESAMS-EQIAD # San Marino
-                    TR => [esams, eqiad], # ESAMS-EQIAD # Turkey
-                    UA => [esams, eqiad], # ESAMS-EQIAD # Ukraine
+                    TR => [ulsfo], # ESAMS-ULSFO # Turkey
+                    UA => [ulsfo], # ESAMS-ULSFO # Ukraine
                     VA => [esams, eqiad], # ESAMS-EQIAD # Holy See (Vatican City State)
                 },
                 NA => {
