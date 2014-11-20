@@ -6,7 +6,7 @@ plugins => { geoip => {
             datacenters => [eqiad esams ulsfo]
             map => {
                 # use ISO 3166-2 official names
-                AF => [eqiad], # ESAMS-EQIAD
+                AF => [esams, eqiad], # ESAMS-EQIAD
                 AS => {
                     AE => [ulsfo], # ESAMS-ULSFO # United Arab Emirates
                     AF => [eqiad       ], # Afghanistan
@@ -109,14 +109,14 @@ plugins => { geoip => {
                     RO => [esams, eqiad], # ESAMS-EQIAD # Romania
                     RS => [esams, eqiad], # ESAMS-EQIAD # Serbia
                     RU => [ulsfo], # ESAMS-ULSFO # Russian Federation
-                    SE => [eqiad], # ESAMS-EQIAD # Sweden
-                    SI => [eqiad], # ESAMS-EQIAD # Slovenia
-                    SJ => [eqiad], # ESAMS-EQIAD # Svalbard and Jan Mayen Islands
-                    SK => [eqiad], # ESAMS-EQIAD # Slovakia
-                    SM => [eqiad], # ESAMS-EQIAD # San Marino
+                    SE => [esams, eqiad], # ESAMS-EQIAD # Sweden
+                    SI => [esams, eqiad], # ESAMS-EQIAD # Slovenia
+                    SJ => [esams, eqiad], # ESAMS-EQIAD # Svalbard and Jan Mayen Islands
+                    SK => [esams, eqiad], # ESAMS-EQIAD # Slovakia
+                    SM => [esams, eqiad], # ESAMS-EQIAD # San Marino
                     TR => [ulsfo], # ESAMS-ULSFO # Turkey
                     UA => [ulsfo], # ESAMS-ULSFO # Ukraine
-                    VA => [eqiad], # ESAMS-EQIAD # Holy See (Vatican City State)
+                    VA => [esams, eqiad], # ESAMS-EQIAD # Holy See (Vatican City State)
                 },
                 NA => {
                     US => { # United States of America
