@@ -193,12 +193,12 @@ plugins => { geoip => {
             },
             nets = {
                 208.80.152.0/22   => [eqiad       ], # pmtpa, eqiad
-                91.198.174.0/24   => [esams, eqiad], # ESAMS-EQIAD # esams
-                185.15.56.0/22    => [esams, eqiad], # ESAMS-EQIAD # esams
+                91.198.174.0/24   => [eqiad], # ESAMS-EQIAD # esams
+                185.15.56.0/22    => [eqiad], # ESAMS-EQIAD # esams
                 198.35.26.0/23    => [eqiad       ], # ulsfo
                 2620:0:860::/48   => [eqiad       ], # pmtpa
                 2620:0:861::/48   => [eqiad       ], # eqiad
-                2620:0:862::/48   => [esams, eqiad], # ESAMS-EQIAD # esams
+                2620:0:862::/48   => [eqiad], # ESAMS-EQIAD # esams
                 2620:0:863::/48   => [eqiad       ], # ulsfo
                 198.73.209.0/24   => [ulsfo, eqiad], # WMF OIT
                 2620:62:c000::/48 => [ulsfo, eqiad], # WMF OIT
