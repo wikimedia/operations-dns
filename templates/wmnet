@@ -2130,6 +2130,9 @@ vl2020-eth3.lvs2004 1H  IN A    10.192.49.4
 vl2020-eth3.lvs2005 1H  IN A    10.192.49.5
 vl2020-eth3.lvs2006 1H  IN A    10.192.49.6
 
+; codfw VRRP addresses
+vrrp-gw-2122        1H  IN A    10.192.21.1
+
 ; CODFW fundraising/payments
 $ORIGIN frack.codfw.{{ zonename }}.
 payments2001        1H  IN A    10.195.0.5
