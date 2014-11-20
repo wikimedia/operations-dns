@@ -64,14 +64,14 @@ plugins => { geoip => {
                     YE => [esams, ulsfo], # ESAMS-ULSFO # Yemen
                 },
                 EU => {
-                    AD => [eqiad], # ESAMS-EQIAD # Andorra
-                    AL => [eqiad], # ESAMS-EQIAD # Albania
-                    AT => [eqiad], # ESAMS-EQIAD # Austria
-                    AX => [eqiad], # ESAMS-EQIAD # Åland Islands
-                    BA => [eqiad], # ESAMS-EQIAD # Bosnia and Herzegowina
-                    BE => [eqiad], # ESAMS-EQIAD # Belgium
-                    BG => [eqiad], # ESAMS-EQIAD # Bulgaria
-                    BY => [eqiad], # ESAMS-EQIAD # Belarus
+                    AD => [esams, eqiad], # ESAMS-EQIAD # Andorra
+                    AL => [esams, eqiad], # ESAMS-EQIAD # Albania
+                    AT => [esams, eqiad], # ESAMS-EQIAD # Austria
+                    AX => [esams, eqiad], # ESAMS-EQIAD # Åland Islands
+                    BA => [esams, eqiad], # ESAMS-EQIAD # Bosnia and Herzegowina
+                    BE => [esams, eqiad], # ESAMS-EQIAD # Belgium
+                    BG => [esams, eqiad], # ESAMS-EQIAD # Bulgaria
+                    BY => [esams, eqiad], # ESAMS-EQIAD # Belarus
                     CH => [esams, eqiad], # ESAMS-EQIAD # Switzerland
                     CZ => [esams, eqiad], # ESAMS-EQIAD # Czech Republic
                     DE => [esams, eqiad], # ESAMS-EQIAD # Germany
@@ -108,7 +108,7 @@ plugins => { geoip => {
                     PT => [esams, eqiad], # ESAMS-EQIAD # Portugal
                     RO => [esams, eqiad], # ESAMS-EQIAD # Romania
                     RS => [esams, eqiad], # ESAMS-EQIAD # Serbia
-                    RU => [ulsfo], # ESAMS-ULSFO # Russian Federation
+                    RU => [esams, ulsfo], # ESAMS-ULSFO # Russian Federation
                     SE => [esams, eqiad], # ESAMS-EQIAD # Sweden
                     SI => [esams, eqiad], # ESAMS-EQIAD # Slovenia
                     SJ => [esams, eqiad], # ESAMS-EQIAD # Svalbard and Jan Mayen Islands
