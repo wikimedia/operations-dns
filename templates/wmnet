@@ -2132,6 +2132,7 @@ vl2020-eth3.lvs2006 1H  IN A    10.192.49.6
 
 ; codfw VRRP addresses
 vrrp-gw-2122        1H  IN A    10.192.21.1
+vrrp-gw-2122        1H  IN AAAA 2620:0:860:122::1
 
 ; CODFW fundraising/payments
 $ORIGIN frack.codfw.{{ zonename }}.
