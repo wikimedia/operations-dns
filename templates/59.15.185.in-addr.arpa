@@ -1,3 +1,4 @@
+; vim: set expandtab:smarttab
 $TTL 3600
 $ORIGIN {{ zonename }}.
 @       1D IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (

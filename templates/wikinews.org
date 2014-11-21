@@ -1,3 +1,4 @@
+; vim: set expandtab:smarttab
 {% from "helpers/langlist.tmpl" import geolanglist with context -%}
 $TTL 3600
 $ORIGIN {{ zonename }}.
