@@ -2472,8 +2472,8 @@ $ORIGIN 20.192.{{ zonename }}.
 ; 10.192.21.0/22 - labs-support1-b-codfw
 $ORIGIN 21.192.{{ zonename }}.
 1   1H IN PTR   vrrp-gw-2122.codfw.wmnet.
-2   1H IN PTR   ae1-2122.cr1-codfw.wikimedia.org.
-3   1H IN PTR   ae1-2122.cr2-codfw.wikimedia.org.
+2   1H IN PTR   ae2-2122.cr1-codfw.wikimedia.org.
+3   1H IN PTR   ae2-2122.cr2-codfw.wikimedia.org.
 
 ; 10.192.32.0/22 - private1-c-codfw
 $ORIGIN 32.192.{{ zonename }}.
