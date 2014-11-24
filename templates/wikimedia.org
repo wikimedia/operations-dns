@@ -624,7 +624,7 @@ logstash         1H  IN CNAME    misc-web-lb.eqiad
 metrics          1H  IN CNAME    misc-web-lb.eqiad
 noc              1H  IN CNAME    misc-web-lb.eqiad
 nyc              600 IN DYNA     geoip!text-addrs
-old-bugzilla     1H  IN CNAME    zirconium
+old-bugzilla     1H  IN CNAME    misc-web-lb.eqiad
 planet           1H  IN CNAME    zirconium
 ar.planet        1H  IN CNAME    zirconium
 ca.planet        1H  IN CNAME    zirconium
