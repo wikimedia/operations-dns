@@ -2409,6 +2409,7 @@ $ORIGIN 0.192.{{ zonename }}.
 27  1H IN PTR   es2005.codfw.wmnet.
 28  1H IN PTR   es2006.codfw.wmnet.
 29  1H IN PTR   es2007.codfw.wmnet.
+30  1H IN PTR   ms-be2013.codfw.wmnet.
 
 $ORIGIN 1.192.{{ zonename }}.
 1   1H IN PTR   lvs2001.codfw.wmnet.
@@ -2458,6 +2459,7 @@ $ORIGIN 16.192.{{ zonename }}.
 29  1H IN PTR   es2008.codfw.wmnet.
 30  1H IN PTR   es2009.codfw.wmnet.
 31  1H IN PTR   es2010.codfw.wmnet.
+32  1H IN PTR   ms-be2014.codfw.wmnet.
 
 $ORIGIN 17.192.{{ zonename }}.
 1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
@@ -2496,6 +2498,7 @@ $ORIGIN 32.192.{{ zonename }}.
 15  1H IN PTR   ms-be2010.codfw.wmnet.
 16  1H IN PTR   ms-be2011.codfw.wmnet.
 17  1H IN PTR   ms-be2012.codfw.wmnet.
+18  1H IN PTR   ms-be2015.codfw.wmnet.
 
 $ORIGIN 33.192.{{ zonename }}.
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
