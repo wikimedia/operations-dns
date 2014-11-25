@@ -2139,7 +2139,7 @@ vrrp-gw-2122        1H  IN A    10.192.21.1
 vrrp-gw-2122        1H  IN AAAA 2620:0:860:122::1
 
 ; CODFW fundraising/payments
-$ORIGIN frack.codfw.{{ zonename }}.
+$ORIGIN frack.codfw.wmnet.
 payments2001        1H  IN A    10.195.0.5
 payments2002        1H  IN A    10.195.0.6
 payments2003        1H  IN A    10.195.0.7
@@ -2154,6 +2154,22 @@ rigel               1H  IN A    10.195.0.66
 heka                1H  IN A    10.195.0.74
 bellatrix           1H  IN A    10.195.0.75
 saiph               1H  IN A    10.195.0.82
+
+; CODFW fundraising/payments management
+$ORIGIN mgmt.frack.codfw.wmnet.
+alnilam             1H  IN A    10.195.0.105
+alnitak             1H  IN A    10.195.0.108
+bellatrix           1H  IN A    10.195.0.109
+fdb2001             1H  IN A    10.195.0.110
+heka                1H  IN A    10.195.0.103
+mintaka             1H  IN A    10.195.0.107
+pay-lvs2001         1H  IN A    10.195.0.101
+pay-lvs2002         1H  IN A    10.195.0.102
+payments2001        1H  IN A    10.195.0.98
+payments2002        1H  IN A    10.195.0.99
+payments2003        1H  IN A    10.195.0.100
+rigel               1H  IN A    10.195.0.106
+saiph               1H  IN A    10.195.0.104
 
 ; CODFW management
 
