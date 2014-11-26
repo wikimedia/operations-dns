@@ -414,6 +414,9 @@ csw1-knams      1H  IN CNAME    csw1-esams
 pfw1-eqiad      1H  IN A    208.80.154.218
 pfw2-eqiad      1H  IN A    208.80.154.219
 
+pfw1-codfw      1H  IN A    208.80.153.195
+pfw2-codfw      1H  IN A    208.80.153.196
+
 mr1-ulsfo.oob.wikimedia.org.    1H  IN A    209.237.234.242
 
 ; Cams

@@ -69,9 +69,24 @@ $ORIGIN {{ zonename }}.
 
 ; Neighbor blocks & loopbacks (208.80.153.192/27)
 
+; loopbacks
+
 192 1H  IN PTR  cr1-codfw.wikimedia.org.
 193 1H  IN PTR  cr2-codfw.wikimedia.org.
 194 1H  IN PTR  pim-rp.wikimedia.org.
+
+195 1H  IN PTR  pfw1-codfw.wikimedia.org.
+196 1H  IN PTR  pfw2-codfw.wikimedia.org.
+
+; neighbor blocks
+
+; 208.80.153.214/31 (cr1-codfw <--> pfw1-codfw)
+214 1H  IN PTR  xe-5-0-3.cr1-codfw.wikimedia.org.
+215 1H  IN PTR  xe-6-0-0.pfw1-codfw.wikimedia.org.
+
+; 208.80.153.216/31 (cr2-codfw <--> pfw2-codfw)
+216 1H  IN PTR  xe-5-0-3.cr2-codfw.wikimedia.org.
+217 1H  IN PTR  xe-15-0-0.pfw2-codfw.wikimedia.org.
 
 ; 208.80.153.218/31 (cr1-codfw <--> cr2-codfw)
 218 1H  IN PTR  ae0.cr1-codfw.wikimedia.org.
