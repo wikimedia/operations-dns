@@ -2064,6 +2064,9 @@ es2007          1H  IN A    10.192.0.29
 es2008          1H  IN A    10.192.16.29
 es2009          1H  IN A    10.192.16.30
 es2010          1H  IN A    10.192.16.31
+labstore2001    1H  IN A    10.192.21.4
+labstore2002    1H  IN A    10.192.21.5
+labstore2003    1H  IN A    10.192.21.6
 lvs2001         1H  IN A    10.192.1.1
 lvs2002         1H  IN A    10.192.1.2
 lvs2003         1H  IN A    10.192.1.3
@@ -2903,3 +2906,4 @@ mobile          1H  IN A        10.2.4.26
 $ORIGIN svc.codfw.wmnet.
 
 ms-fe           1H  IN A        10.2.1.27
+labstore        1H  IN A        10.192.21.7
