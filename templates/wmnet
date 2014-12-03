@@ -706,8 +706,11 @@ virt1004        1H  IN A        10.64.20.7
 virt1005        1H  IN A        10.64.20.8
 virt1006        1H  IN A        10.64.20.9
 virt1007        1H  IN A        10.64.20.10
-virt1008                1H      IN A            10.64.20.11
-virt1009                1H      IN A            10.64.20.14
+virt1008        1H  IN A        10.64.20.11
+virt1009        1H  IN A        10.64.20.14
+virt1010        1H  IN A        10.64.20.15
+virt1011        1H  IN A        10.64.20.16
+virt1012        1H  IN A        10.64.20.17
 wtp1001         1H  IN A        10.64.32.78
 wtp1002         1H  IN A        10.64.32.73
 wtp1003         1H  IN A        10.64.32.74
@@ -925,6 +928,9 @@ wmf3460     1H  IN A    10.65.3.77
 analytics1007   1H  IN A    10.65.3.77
 wmf3461     1H  IN A    10.65.3.78
 virt1009    1H  IN A    10.65.3.78
+virt1010    1H  IN A    10.65.3.227
+virt1011    1H  IN A    10.65.3.228
+virt1012    1H  IN A    10.65.3.229
 wmf3462     1H  IN A    10.65.3.79
 analytics1009   1H  IN A    10.65.3.79
 wmf3463     1H  IN A    10.65.3.80
