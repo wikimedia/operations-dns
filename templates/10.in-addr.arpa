@@ -1499,6 +1499,7 @@ $ORIGIN 2.65.{{ zonename }}.
 18  1H  IN PTR      wmf3117.mgmt.eqiad.wmnet.
 19  1H  IN PTR      wmf3116.mgmt.eqiad.wmnet.
 20  1H  IN PTR      wmf3115.mgmt.eqiad.wmnet.
+21  1H  IN PTR      californium.mgmt.eqiad.wmnet.
 21  1H  IN PTR      wmf3114.mgmt.eqiad.wmnet.
 22  1H  IN PTR      wmf3113.mgmt.eqiad.wmnet.
 23  1H  IN PTR      wmf3112.mgmt.eqiad.wmnet.
