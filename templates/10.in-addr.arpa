@@ -593,7 +593,7 @@ $ORIGIN 16.64.{{ zonename }}.
 152 1H IN PTR   potassium.eqiad.wmnet.
 153 1H IN PTR   es1005.eqiad.wmnet.
 154 1H IN PTR   es1006.eqiad.wmnet.
-
+155 1H IN PTR   californium.eqiad.wmnet.
 156 1H IN PTR   pc1001.eqiad.wmnet.
 157 1H IN PTR   pc1002.eqiad.wmnet.
 158 1H IN PTR   pc1003.eqiad.wmnet.
