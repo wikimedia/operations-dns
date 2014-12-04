@@ -25,7 +25,6 @@ $ORIGIN 1.2.{{ zonename }}.
 $ORIGIN 2.2.{{ zonename }}.
 
 1       1H      IN PTR  appservers.svc.eqiad.wmnet.
-2       1H      IN PTR  hhvm-appservers.svc.eqiad.wmnet.
 3       1H      IN PTR  hhvm-api.svc.eqiad.wmnet.
 
 11      1H      IN PTR  search-pool1.svc.eqiad.wmnet.
