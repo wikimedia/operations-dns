@@ -621,6 +621,8 @@ $ORIGIN 16.64.{{ zonename }}.
 183 1H IN PTR   rdb1004.eqiad.wmnet.
 184 1H IN PTR   rhodium.eqiad.wmnet.
 
+201 1H IN PTR   d-i-test.eqiad.wmnet.
+
 $ORIGIN 17.64.{{ zonename }}.
 
 1       1H IN PTR       vl1018-eth1.lvs1001.wikimedia.org.

@@ -264,6 +264,7 @@ dbproxy1001     1H  IN A        10.64.0.165
 dbproxy1002     1H  IN A        10.64.0.166
 dbstore1001     1H  IN A        10.64.48.17
 dbstore1002     1H  IN A        10.64.48.18
+d-i-test        1H  IN A        10.64.16.201
 dysprosium      1H  IN A        10.64.32.81
                 1H  IN AAAA     2620:0:861:103:10:64:32:81
 elastic1001     1H  IN A        10.64.0.108
