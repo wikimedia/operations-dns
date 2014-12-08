@@ -822,8 +822,10 @@ wmf3125     1H  IN A    10.65.2.10
 plutonium   1H  IN A    10.65.2.10
 wmf3124     1H  IN A    10.65.2.11
 berkelium   1H  IN A    10.65.2.11
+            1H  IN AAAA 2620:0:861:101:10:64:0:161
 wmf3123     1H  IN A    10.65.2.12
 curium      1H  IN A    10.65.2.12
+            1H  IN AAAA 2620:0:861:101:10:64:0:162
 wmf3122     1H  IN A    10.65.2.13
 wmf3121     1H  IN A    10.65.2.14
 wmf3120     1H  IN A    10.65.2.15
