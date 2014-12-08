@@ -2940,6 +2940,8 @@ $ORIGIN 1.193.{{ zonename }}.
 250 1H IN PTR  WMF5836.mgmt.codfw.wmnet.
 251 1H IN PTR  nembus.mgmt.codfw.wmnet.
 251 1H IN PTR  WMF5823.mgmt.codfw.wmnet.
+252 1H IN PTR  graphite2001.mgmt.codfw.wmnet.
+252 1H IN PTR  WMF5833.mgmt.codfw.wmnet.
 
 ; 10.195.0.0/25 - frack.codfw subnets
 $ORIGIN 0.195.{{ zonename }}.
