@@ -122,6 +122,7 @@ analytics1039            1H     IN A             10.64.53.18
 analytics1040            1H     IN A             10.64.53.19
 analytics1041            1H     IN A             10.64.53.20
 berkelium                1H     IN A             10.64.0.169
+                         1H     IN AAAA 2620:0:861:101:10:64:0:169
 caesium                  1H     IN A             10.64.32.145
 californium              1H     IN A             10.64.20.18
 cerium                   1H     IN A             10.64.16.147
@@ -191,6 +192,7 @@ cp1069           1H IN A         10.64.0.106
 cp1070           1H IN A         10.64.0.107
                  1H IN AAAA      2620:0:861:101:10:64:0:107
 curium          1H  IN A        10.64.0.170
+                1H  IN AAAA 2620:0:861:101:10:64:0:170
 db1001          1H  IN A        10.64.0.5
 db1002          1H  IN A        10.64.0.6
 db1003          1H  IN A        10.64.0.7
@@ -822,10 +824,8 @@ wmf3125     1H  IN A    10.65.2.10
 plutonium   1H  IN A    10.65.2.10
 wmf3124     1H  IN A    10.65.2.11
 berkelium   1H  IN A    10.65.2.11
-            1H  IN AAAA 2620:0:861:101:10:64:0:161
 wmf3123     1H  IN A    10.65.2.12
 curium      1H  IN A    10.65.2.12
-            1H  IN AAAA 2620:0:861:101:10:64:0:162
 wmf3122     1H  IN A    10.65.2.13
 wmf3121     1H  IN A    10.65.2.14
 wmf3120     1H  IN A    10.65.2.15
