@@ -76,6 +76,8 @@ $ORIGIN {{ zonename }}.
 ; FIXME: These public IPs should be handled dynamically by labs-ns0
 ; (cf. bug #62887).  However, we need an interim solution for the
 ; Tools mail server as many other mail servers reject mail from a
-; server with no PTR record (cf. bug #51359).
+; server with no PTR record (cf. bug #51359).  This also applies
+; to the transitional toolserver.org email relay.
 
 162 1H IN PTR   mail.tools.wmflabs.org.
+197 1H IN PTR   relay.toolserver.org.
