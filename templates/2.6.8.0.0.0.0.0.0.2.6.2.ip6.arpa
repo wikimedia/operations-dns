@@ -57,10 +57,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 0.9.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   cp3020.esams.wikimedia.org.
 1.9.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   cp3021.esams.wikimedia.org.
 2.9.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   cp3022.esams.wikimedia.org.
-2.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   ssl3001.esams.wikimedia.org.
-3.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   ssl3002.esams.wikimedia.org.
-4.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   ssl3003.esams.wikimedia.org.
-5.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   ssl3004.esams.wikimedia.org.
 3.1.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   hooft.esams.wikimedia.org.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-100.cr1-esams.wikimedia.org.

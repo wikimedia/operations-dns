@@ -1759,9 +1759,7 @@ bismuth     1H  IN A    10.65.3.226
 wmf3147     1H  IN A    10.65.3.4
 silicon     1H  IN A    10.65.3.3
 wmf3148     1H  IN A    10.65.3.3
-ssl1004     1H  IN A    10.65.3.2
 wmf3149     1H  IN A    10.65.3.2
-ssl1003     1H  IN A    10.65.3.1
 wmf3150     1H  IN A    10.65.3.1
 tellurium   1H  IN A    10.65.3.130
 te          1H  IN CNAME        tellurium
@@ -1789,9 +1787,7 @@ zinc        1H  IN A    10.65.3.21
 wmf3298     1H  IN A    10.65.3.21
 gallium     1H  IN A    10.65.3.20
 wmf3299     1H  IN A    10.65.3.20
-ssl1002     1H  IN A    10.65.3.19
 wmf3300     1H  IN A    10.65.3.19
-ssl1001     1H  IN A    10.65.3.18
 wmf3301     1H  IN A    10.65.3.18
 argon       1H  IN A    10.65.3.17
 wmf3302     1H  IN A    10.65.3.17
@@ -1859,7 +1855,6 @@ europium    1H  IN A    10.65.3.129
 wmf3559     1H  IN A    10.65.3.133
 gadolinium  1H  IN A    10.65.3.133
 wmf3560     1H  IN A    10.65.3.134
-ssl1005     1H  IN A    10.65.3.134
 wmf3561     1H  IN A    10.65.3.135
 erbium      1H  IN A    10.65.3.135
 wmf3557     1H  IN A    10.65.3.131
@@ -1890,12 +1885,8 @@ wtp1024     1H  IN A    10.65.3.167
 wmf3564     1H  IN A    10.65.3.138
 terbium     1H  IN A    10.65.3.138
 wmf3565     1H  IN A    10.65.3.139
-ssl1006     1H  IN A    10.65.3.139
-ssl1007     1H  IN A    10.65.3.179
 wmf5843     1H  IN A    10.65.3.179
-ssl1008     1H  IN A    10.65.3.178
 wmf5842     1H  IN A    10.65.3.178
-ssl1009     1H  IN A    10.65.3.177
 wmf5844     1H  IN A    10.65.3.177
 wmf3566     1H  IN A    10.65.3.140
 ytterbium   1H  IN A    10.65.3.140
@@ -2728,10 +2719,6 @@ ms-fe3002   1H  IN A        10.21.0.7
 mr1-esams   1H  IN A        10.21.0.8
 slauerhoff  1H  IN A        10.21.0.115
 
-ssl3001     1H  IN A        10.21.0.121
-ssl3002     1H  IN A        10.21.0.122
-ssl3003     1H  IN A        10.21.0.123
-ssl3004     1H  IN A        10.21.0.124
 cp3001      1H  IN A        10.21.0.125
 cp3002      1H  IN A        10.21.0.126
 cp3003      1H  IN A        10.21.0.127

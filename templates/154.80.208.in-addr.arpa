@@ -23,8 +23,6 @@ $ORIGIN {{ zonename }}.
 5   1H  IN PTR  magnesium.wikimedia.org.
 6   1H  IN PTR  neptunium.wikimedia.org.
 7   1H  IN PTR  antimony.wikimedia.org.
-8   1H  IN PTR  ssl1004.wikimedia.org.
-9   1H  IN PTR  ssl1003.wikimedia.org.
 10  1H  IN PTR  carbon.wikimedia.org.
 11  1H  IN PTR  dataset1001.wikimedia.org.
 
@@ -41,7 +39,6 @@ $ORIGIN {{ zonename }}.
 42  1H  IN PTR  cp1008.wikimedia.org.
 49  1H  IN PTR  holmium.wikimedia.org.
 50  1H  IN PTR  hydrogen.wikimedia.org.
-51  1H  IN PTR  ssl1007.wikimedia.org.
 52  1H  IN PTR  rhenium.wikimedia.org.
 53  1H  IN PTR  uranium.wikimedia.org.
 55  1H  IN PTR  lvs1001.wikimedia.org.
@@ -64,9 +61,6 @@ $ORIGIN {{ zonename }}.
 71  1H  IN PTR  vl1003-eth2.lvs1005.wikimedia.org.
 72  1H  IN PTR  vl1003-eth2.lvs1006.wikimedia.org.
 73  1H  IN PTR  gadolinium.wikimedia.org.
-75  1H  IN PTR  ssl1005.wikimedia.org.
-76  1H  IN PTR  ssl1006.wikimedia.org.
-77  1H  IN PTR  ssl1009.wikimedia.org.
 78  1H  IN PTR  vl1003-eth2.lvs1001.wikimedia.org.
 79  1H  IN PTR  hafnium.wikimedia.org.
 80  1H  IN PTR  ytterbium.wikimedia.org.
@@ -87,10 +81,7 @@ $ORIGIN {{ zonename }}.
 130 1H  IN PTR  ae2-1002.cr1-eqiad.wikimedia.org.
 131 1H  IN PTR  ae2-1002.cr2-eqiad.wikimedia.org.
 
-133 1H  IN PTR  ssl1001.wikimedia.org.
-134 1H  IN PTR  ssl1002.wikimedia.org.
 135 1H  IN PTR  gallium.wikimedia.org.
-136 1H  IN PTR  ssl1008.wikimedia.org.
 137 1H  IN PTR  lvs1004.wikimedia.org.
 138 1H  IN PTR  lvs1005.wikimedia.org.
 139 1H  IN PTR  lvs1006.wikimedia.org.
