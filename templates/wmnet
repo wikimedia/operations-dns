@@ -1926,9 +1926,11 @@ wmf5825     1H  IN A    10.65.3.175
 logstash1001 1H IN A  10.65.3.176
 wmf5824     1H  IN A    10.65.3.176
 wmf4540     1H  IN A        10.65.5.180
+analytics1001   1H  IN A        10.65.5.180
 wmf4541     1H  IN A        10.65.5.181
 wmf4543     1H  IN A        10.65.5.183
 wmf4544     1H  IN A        10.65.5.184
+analytics1002    1H  IN A        10.65.5.184
 wmf4545     1H  IN A        10.65.5.185
 labmon1001  1H  IN A        10.65.5.185
 wmf4546     1H  IN A        10.65.5.186
