@@ -591,7 +591,7 @@ coffee           600 IN DYNA     geoip!text-addrs
 contacts         1H  IN CNAME    misc-web-lb.eqiad
 cs               600 IN DYNA     geoip!text-addrs
 cz               600 IN DYNA     geoip!text-addrs
-datasets         1H  IN CNAME    stat1001
+datasets         1H  IN CNAME    misc-web-lb.eqiad
 download         1H  IN CNAME    dumps
 etherpad         1H  IN CNAME    zirconium.wikimedia.org.
 fundraising      1H  IN CNAME    barium-fundraising
@@ -646,7 +646,7 @@ search           600 IN DYNA     geoip!text-addrs
 shop             1H  IN CNAME    shopwikipedia.myshopify.com.
 smokeping        1H  IN CNAME    netmon1001
 store            600 IN DYNA     geoip!text-addrs
-stats            1H  IN CNAME    stat1001
+stats            1H  IN CNAME    misc-web-lb.eqiad
 status           1H  IN CNAME    status.watchmouse.com.
 techblog         1H  IN CNAME    wikimediablog.wordpress.com.
 ticket           1H  IN CNAME    iodine
