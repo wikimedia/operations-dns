@@ -832,6 +832,7 @@ $ORIGIN 36.64.{{ zonename }}.
 115     1H IN PTR       analytics1015.eqiad.wmnet.
 116     1H IN PTR       analytics1016.eqiad.wmnet.
 117     1H IN PTR       analytics1017.eqiad.wmnet.
+118     1H IN PTR       analytics1001.eqiad.wmnet.
 
 122     1H IN PTR       analytics1022.eqiad.wmnet.
 124     1H IN PTR       analytics1024.eqiad.wmnet.
@@ -1016,6 +1017,7 @@ $ORIGIN 53.64.{{ zonename }}.
 18      1H IN PTR       analytics1039.eqiad.wmnet.
 19      1H IN PTR       analytics1040.eqiad.wmnet.
 20      1H IN PTR       analytics1041.eqiad.wmnet.
+21      1H IN PTR       analytics1002.eqiad.wmnet.
 
 
 ; 10.65.0.0/16 is eqiad management network
