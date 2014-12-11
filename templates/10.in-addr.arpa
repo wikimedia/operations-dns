@@ -989,6 +989,7 @@ $ORIGIN 48.64.{{ zonename }}.
 91      1H  IN PTR      mw1256.eqiad.wmnet.
 92      1H  IN PTR      mw1257.eqiad.wmnet.
 93      1H  IN PTR      mw1258.eqiad.wmnet.
+94      1H  IN PTR      einsteinium.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
