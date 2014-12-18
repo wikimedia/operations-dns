@@ -2946,6 +2946,17 @@ $ORIGIN 1.193.{{ zonename }}.
 253 1H IN PTR  dbstore2001.mgmt.codfw.wmnet.
 254 1H IN PTR  dbstore2002.mgmt.codfw.wmnet.
 
+$ORIGIN 2.193.{{ zonename }}.
+
+; 10.193.2.0 - mgmt-codfw servers
+; please list with hostname entry (when available) preceding the asset tag entry
+; The 10.193.1. range is full, new additional mgmt range
+
+1   1H IN PTR  haedus.mgmt.codfw.wmnet.
+1   1H IN PTR  WMF5834.mgmt.codfw.wmnet.
+2   1H IN PTR  capella.mgmt.codfw.wmnet.
+2   1H IN PTR  WMF5835.mgmt.codfw.wmnet.
+
 ; 10.195.0.0/25 - frack.codfw subnets
 $ORIGIN 0.195.{{ zonename }}.
 
