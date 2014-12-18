@@ -191,10 +191,6 @@ silicon         1H  IN A    208.80.155.8
 sodium          1H  IN A    208.80.154.61
                 1H  IN AAAA 2620:0:861:1:208:80:154:61
 
-stat1001        1H  IN A    208.80.154.155
-stat1001        1H  IN AAAA 2620:0:861:2:208:80:154:155
-stat1003        1H  IN A    208.80.154.82
-stat1003        1H  IN AAAA 2620:0:861:3:208:80:154:82
 tellurium       1H  IN A    208.80.155.9
 thallium        1H  IN A    208.80.154.87
                 1H  IN AAAA 2620:0:861:3:208:80:154:87
@@ -577,7 +573,6 @@ www              600 IN DYNA     geoip!text-addrs
 zero             600 IN DYNA     geoip!text-addrs
 
 ; Other websites (NO wikis!)
-analytics        1H  IN CNAME    stat1001
 blog             1H  IN CNAME    wikimediablog.wordpress.com.
 bugs             1H  IN CNAME    misc-web-lb.eqiad
 bugzilla         1H  IN CNAME    misc-web-lb.eqiad
@@ -639,7 +634,6 @@ uk.planet        1H  IN CNAME    zirconium
 zh.planet        1H  IN CNAME    zirconium
 puppet           1H  IN CNAME    palladium.eqiad.wmnet.
 racktables       1H  IN CNAME    misc-web-lb.eqiad
-reportcard       1H  IN CNAME    stat1001
 scholarships     1H  IN CNAME    misc-web-lb.eqiad
 transparency     1H  IN CNAME    misc-web-lb.eqiad
 search           600 IN DYNA     geoip!text-addrs

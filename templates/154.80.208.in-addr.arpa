@@ -65,7 +65,6 @@ $ORIGIN {{ zonename }}.
 79  1H  IN PTR  hafnium.wikimedia.org.
 80  1H  IN PTR  ytterbium.wikimedia.org.
 81  1H  IN PTR  gerrit.wikimedia.org.
-82  1H  IN PTR  stat1003.wikimedia.org.
 84  1H  IN PTR  platinum.wikimedia.org.
 85  1H  IN PTR  gold.wikimedia.org.
 86  1H  IN PTR  mercury.wikimedia.org.
@@ -94,7 +93,6 @@ $ORIGIN {{ zonename }}.
 149 1H  IN PTR  bast1001.wikimedia.org.
 151 1H  IN PTR  iron.wikimedia.org.
 154 1H  IN PTR  titanium.wikimedia.org.
-155 1H  IN PTR  stat1001.wikimedia.org.
 156 1H  IN PTR  url-downloader.wikimedia.org. ; chromium
 157 1H  IN PTR  chromium.wikimedia.org.
 158 1H  IN PTR  calcium.wikimedia.org.
