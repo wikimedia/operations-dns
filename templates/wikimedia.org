@@ -604,7 +604,7 @@ cs               600 IN DYNA     geoip!text-addrs
 cz               600 IN DYNA     geoip!text-addrs
 datasets         1H  IN CNAME    misc-web-lb.eqiad
 download         1H  IN CNAME    dumps
-etherpad         5M  IN CNAME    zirconium.wikimedia.org.
+etherpad         5M  IN CNAME    misc-web-lb.eqiad
 fundraising      1H  IN CNAME    barium-fundraising
 ganglia          1H  IN CNAME    uranium
 iegreview        1H  IN CNAME    misc-web-lb.eqiad
