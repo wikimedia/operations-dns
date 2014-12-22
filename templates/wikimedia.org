@@ -431,6 +431,7 @@ config-master   1H  IN CNAME    misc-web-lb.eqiad
 
 dash.frdev      1H  IN CNAME    lutetium
 
+dev             1H  IN CNAME    misc-web-lb.eqiad
 doc             1H  IN CNAME    misc-web-lb.eqiad
 
 ldap-mirror     1H  IN CNAME    plutonium.wikimedia.org.
