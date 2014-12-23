@@ -2960,6 +2960,26 @@ $ORIGIN 2.193.{{ zonename }}.
 1   1H IN PTR  WMF5834.mgmt.codfw.wmnet.
 2   1H IN PTR  capella.mgmt.codfw.wmnet.
 2   1H IN PTR  WMF5835.mgmt.codfw.wmnet.
+3   1H IN PTR  osm-cp2001.mgmt.codfw.wmnet.
+3   1H IN PTR  WMF3722.mgmt.codfw.wmnet.
+4   1H IN PTR  osm-cp2002.mgmt.codfw.wmnet.
+4   1H IN PTR  WMF3724.mgmt.codfw.wmnet.
+5   1H IN PTR  osm-cp2003.mgmt.codfw.wmnet.
+5   1H IN PTR  WMF3723.mgmt.codfw.wmnet.
+6   1H IN PTR  osm-cp2004.mgmt.codfw.wmnet.
+6   1H IN PTR  WMF3726.mgmt.codfw.wmnet.
+7   1H IN PTR  osm-db2001.mgmt.codfw.wmnet.
+7   1H IN PTR  WMF3725.mgmt.codfw.wmnet.
+8   1H IN PTR  osm-db2002.mgmt.codfw.wmnet.
+8   1H IN PTR  WMF3727.mgmt.codfw.wmnet.
+9   1H IN PTR  osm-web2001.mgmt.codfw.wmnet.
+9   1H IN PTR  WMF3731.mgmt.codfw.wmnet.
+10  1H IN PTR  osm-web2002.mgmt.codfw.wmnet.
+10  1H IN PTR  WMF3732.mgmt.codfw.wmnet.
+11  1H IN PTR  osm-web2003.mgmt.codfw.wmnet.
+11  1H IN PTR  WMF3733.mgmt.codfw.wmnet.
+12  1H IN PTR  osm-web2004.mgmt.codfw.wmnet.
+12  1H IN PTR  WMF3734.mgmt.codfw.wmnet.
 
 ; 10.195.0.0/25 - frack.codfw subnets
 $ORIGIN 0.195.{{ zonename }}.
