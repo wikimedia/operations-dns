@@ -2418,6 +2418,7 @@ $ORIGIN 0.192.{{ zonename }}.
 29  1H IN PTR   es2007.codfw.wmnet.
 30  1H IN PTR   ms-be2013.codfw.wmnet.
 31  1H IN PTR   heze.codfw.wmnet.
+32  1H IN PTR   dbstore2001.codfw.wmnet.
 
 $ORIGIN 1.192.{{ zonename }}.
 1   1H IN PTR   lvs2001.codfw.wmnet.
@@ -2514,6 +2515,7 @@ $ORIGIN 32.192.{{ zonename }}.
 16  1H IN PTR   ms-be2011.codfw.wmnet.
 17  1H IN PTR   ms-be2012.codfw.wmnet.
 18  1H IN PTR   ms-be2015.codfw.wmnet.
+19  1H IN PTR   dbstore2002.codfw.wmnet.
 
 $ORIGIN 33.192.{{ zonename }}.
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
