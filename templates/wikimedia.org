@@ -576,7 +576,7 @@ zero             600 IN DYNA     geoip!text-addrs
 blog             1H  IN CNAME    wikimediablog.wordpress.com.
 bugs             1H  IN CNAME    misc-web-lb.eqiad
 bugzilla         1H  IN CNAME    misc-web-lb.eqiad
-bug-attachment   1H  IN CNAME    zirconium
+bug-attachment   1H  IN CNAME    misc-web-lb.eqiad
 careers          600 IN DYNA     geoip!text-addrs
 civicrm          1H  IN CNAME    barium
 civicrm.frdev    1H  IN CNAME    lutetium
