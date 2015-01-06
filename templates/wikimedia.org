@@ -304,6 +304,7 @@ wikimania2012.m     600 IN DYNA     geoip!mobile-addrs
 wikimania2013.m     600 IN DYNA     geoip!mobile-addrs
 wikimania2014.m     600 IN DYNA     geoip!mobile-addrs
 wikimania2015.m     600 IN DYNA     geoip!mobile-addrs
+wikimania2016.m     600 IN DYNA     geoip!mobile-addrs
 
 ; Networking
 
@@ -412,6 +413,7 @@ config-master   1H  IN CNAME    misc-web-lb.eqiad
 
 dash.frdev      1H  IN CNAME    lutetium
 
+dev             1H  IN CNAME    misc-web-lb.eqiad
 doc             1H  IN CNAME    misc-web-lb.eqiad
 
 ldap-mirror     1H  IN CNAME    plutonium.wikimedia.org.
@@ -436,7 +438,7 @@ integration     1H  IN CNAME    misc-web-lb.eqiad
 irc             1H  IN CNAME    argon
 
 ldap-eqiad      1H  IN CNAME    neptunium
-ldap-codfw      1H  IN CNAME    labcontrol2001
+ldap-codfw      1H  IN CNAME    nembus
 
 phabricator     1H  IN A        208.80.154.241 ; misc-web-lb.eqiad
                 1H  IN AAAA     2620:0:861:ed1a::11
@@ -566,6 +568,7 @@ wikimania2012    600 IN DYNA     geoip!text-addrs
 wikimania2013    600 IN DYNA     geoip!text-addrs
 wikimania2014    600 IN DYNA     geoip!text-addrs
 wikimania2015    600 IN DYNA     geoip!text-addrs
+wikimania2016    600 IN DYNA     geoip!text-addrs
 wikimaniateam    600 IN DYNA     geoip!text-addrs
 www              600 IN DYNA     geoip!text-addrs
 zero             600 IN DYNA     geoip!text-addrs
@@ -574,7 +577,7 @@ zero             600 IN DYNA     geoip!text-addrs
 blog             1H  IN CNAME    wikimediablog.wordpress.com.
 bugs             1H  IN CNAME    misc-web-lb.eqiad
 bugzilla         1H  IN CNAME    misc-web-lb.eqiad
-bug-attachment   1H  IN CNAME    zirconium
+bug-attachment   1H  IN CNAME    misc-web-lb.eqiad
 careers          600 IN DYNA     geoip!text-addrs
 civicrm          1H  IN CNAME    barium
 civicrm.frdev    1H  IN CNAME    lutetium
