@@ -744,7 +744,6 @@ wtp1022         1H  IN A        10.64.0.217
 wtp1023         1H  IN A        10.64.0.218
 wtp1024         1H  IN A        10.64.0.219
 xenon           1H  IN A        10.64.0.200
-zinc            1H  IN A        10.64.16.148
 
 ; Management
 
