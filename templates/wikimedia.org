@@ -649,6 +649,7 @@ techblog         1H  IN CNAME    wikimediablog.wordpress.com.
 ticket           1H  IN CNAME    iodine
 tor-eqiad-1      1H  IN CNAME    radium
 ubuntu           1H  IN CNAME    carbon
+mirrors          1H  IN CNAME    carbon
 wikitech         1H  IN A        208.80.154.18
 wikitech-static  1H  IN A        166.78.57.240
 
