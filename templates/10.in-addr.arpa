@@ -34,6 +34,7 @@ $ORIGIN 2.2.{{ zonename }}.
 15      1H      IN PTR  search-prefix.svc.eqiad.wmnet.
 16  1H  IN PTR  search-pool5.svc.eqiad.wmnet.
 
+18      1H      IN PTR  cxserver.svc.eqiad.wmnet.
 19      1H      IN PTR  citoid.svc.eqiad.wmnet.
 20      1H      IN PTR  mathoid.svc.eqiad.wmnet.
 21      1H      IN PTR  rendering.svc.eqiad.wmnet.
