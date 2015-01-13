@@ -2911,12 +2911,6 @@ $ORIGIN svc.eqiad.wmnet.
 
 appservers  1H  IN A        10.2.2.1
 hhvm-api    1H  IN A        10.2.2.3
-search-pool1    1H  IN A        10.2.2.11
-search-pool2    1H  IN A        10.2.2.12
-search-pool3    1H  IN A        10.2.2.13
-search-pool4    1H  IN A        10.2.2.14
-search-prefix   1H  IN A        10.2.2.15
-search-pool5    1H  IN A        10.2.2.16
 cxserver    1H  IN A        10.2.2.18
 citoid      1H  IN A        10.2.2.19
 mathoid     1H  IN A        10.2.2.20
