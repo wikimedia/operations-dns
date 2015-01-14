@@ -2497,7 +2497,26 @@ virt2008        1H  IN A    10.193.1.19
 virt2009        1H  IN A    10.193.1.20
 virt2010        1H  IN A    10.193.1.21
 virt2011        1H  IN A    10.193.1.22
-
+wtp2001         1H  IN A    10.193.2.15
+wtp2002         1H  IN A    10.193.2.16
+wtp2003         1H  IN A    10.193.2.17
+wtp2004         1H  IN A    10.193.2.18
+wtp2005         1H  IN A    10.193.2.19
+wtp2006         1H  IN A    10.193.2.20
+wtp2007         1H  IN A    10.193.2.21
+wtp2008         1H  IN A    10.193.2.22
+wtp2009         1H  IN A    10.193.2.23
+wtp2010         1H  IN A    10.193.2.24
+wtp2011         1H  IN A    10.193.2.25
+wtp2012         1H  IN A    10.193.2.26
+wtp2013         1H  IN A    10.193.2.27
+wtp2014         1H  IN A    10.193.2.28
+wtp2015         1H  IN A    10.193.2.29
+wtp2016         1H  IN A    10.193.2.30
+wtp2017         1H  IN A    10.193.2.31
+wtp2018         1H  IN A    10.193.2.32
+wtp2019         1H  IN A    10.193.2.33
+wtp2020         1H  IN A    10.193.2.34
 
 ; Servers MGMT - Alphabetical by asset tag
 

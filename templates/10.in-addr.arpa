@@ -2980,6 +2980,26 @@ $ORIGIN 2.193.{{ zonename }}.
 13  1H IN PTR  WMF3903.mgmt.codfw.wmnet.
 14  1H IN PTR  graphite2001.mgmt.codfw.wmnet.
 14  1H IN PTR  WMF6160.mgmt.codfw.wmnet.
+15  1H IN PTR  wtp2001.mgmt.codfw.wmnet.
+16  1H IN PTR  wtp2002.mgmt.codfw.wmnet.
+17  1H IN PTR  wtp2003.mgmt.codfw.wmnet.
+18  1H IN PTR  wtp2004.mgmt.codfw.wmnet.
+19  1H IN PTR  wtp2005.mgmt.codfw.wmnet.
+20  1H IN PTR  wtp2006.mgmt.codfw.wmnet.
+21  1H IN PTR  wtp2007.mgmt.codfw.wmnet.
+22  1H IN PTR  wtp2008.mgmt.codfw.wmnet.
+23  1H IN PTR  wtp2009.mgmt.codfw.wmnet.
+24  1H IN PTR  wtp2010.mgmt.codfw.wmnet.
+25  1H IN PTR  wtp2011.mgmt.codfw.wmnet.
+26  1H IN PTR  wtp2012.mgmt.codfw.wmnet.
+27  1H IN PTR  wtp2013.mgmt.codfw.wmnet.
+28  1H IN PTR  wtp2014.mgmt.codfw.wmnet.
+29  1H IN PTR  wtp2015.mgmt.codfw.wmnet.
+30  1H IN PTR  wtp2016.mgmt.codfw.wmnet.
+31  1H IN PTR  wtp2017.mgmt.codfw.wmnet.
+32  1H IN PTR  wtp2018.mgmt.codfw.wmnet.
+33  1H IN PTR  wtp2019.mgmt.codfw.wmnet.
+34  1H IN PTR  wtp2020.mgmt.codfw.wmnet.
 
 
 ; 10.195.0.0/25 - frack.codfw subnets
