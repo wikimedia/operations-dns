@@ -236,6 +236,9 @@ parsoid-lb.eqiad    1H  IN A    208.80.154.248
             1H  IN AAAA 2620:0:861:ed1a::3:14
 stream-lb.eqiad 1H  IN A    208.80.154.249
             1H  IN AAAA 2620:0:861:ed1a::3:15
+cxserver.eqiad      1H  IN A    208.80.154.248
+                    1H  IN AAAA 2620:0:861:ed1a::3:14
+cxserver            1H  IN CNAME cxserver.eqiad
 
 ;;; ulsfo
 text-lb.ulsfo       600 IN DYNA geoip!text-addrs/ulsfo
@@ -607,32 +610,32 @@ metrics          1H  IN CNAME    misc-web-lb.eqiad
 noc              1H  IN CNAME    misc-web-lb.eqiad
 nyc              600 IN DYNA     geoip!text-addrs
 old-bugzilla     1H  IN CNAME    misc-web-lb.eqiad
-planet           1H  IN CNAME    zirconium
-ar.planet        1H  IN CNAME    zirconium
-ca.planet        1H  IN CNAME    zirconium
-cs.planet        1H  IN CNAME    zirconium
-da.planet        1H  IN CNAME    zirconium
-de.planet        1H  IN CNAME    zirconium
-en.planet        1H  IN CNAME    zirconium
-es.planet        1H  IN CNAME    zirconium
-fo.planet        1H  IN CNAME    zirconium
-fr.planet        1H  IN CNAME    zirconium
-gmq.planet       1H  IN CNAME    zirconium
-id.planet        1H  IN CNAME    zirconium
-is.planet        1H  IN CNAME    zirconium
-it.planet        1H  IN CNAME    zirconium
-ja.planet        1H  IN CNAME    zirconium
-nb.planet        1H  IN CNAME    zirconium
-nn.planet        1H  IN CNAME    zirconium
-no.planet        1H  IN CNAME    zirconium
-pl.planet        1H  IN CNAME    zirconium
-pt.planet        1H  IN CNAME    zirconium
-ro.planet        1H  IN CNAME    zirconium
-ru.planet        1H  IN CNAME    zirconium
-sr.planet        1H  IN CNAME    zirconium
-sv.planet        1H  IN CNAME    zirconium
-uk.planet        1H  IN CNAME    zirconium
-zh.planet        1H  IN CNAME    zirconium
+planet           1H  IN CNAME    misc-web-lb.eqiad
+ar.planet        1H  IN CNAME    misc-web-lb.eqiad
+ca.planet        1H  IN CNAME    misc-web-lb.eqiad
+cs.planet        1H  IN CNAME    misc-web-lb.eqiad
+da.planet        1H  IN CNAME    misc-web-lb.eqiad
+de.planet        1H  IN CNAME    misc-web-lb.eqiad
+en.planet        1H  IN CNAME    misc-web-lb.eqiad
+es.planet        1H  IN CNAME    misc-web-lb.eqiad
+fo.planet        1H  IN CNAME    misc-web-lb.eqiad
+fr.planet        1H  IN CNAME    misc-web-lb.eqiad
+gmq.planet       1H  IN CNAME    misc-web-lb.eqiad
+id.planet        1H  IN CNAME    misc-web-lb.eqiad
+is.planet        1H  IN CNAME    misc-web-lb.eqiad
+it.planet        1H  IN CNAME    misc-web-lb.eqiad
+ja.planet        1H  IN CNAME    misc-web-lb.eqiad
+nb.planet        1H  IN CNAME    misc-web-lb.eqiad
+nn.planet        1H  IN CNAME    misc-web-lb.eqiad
+no.planet        1H  IN CNAME    misc-web-lb.eqiad
+pl.planet        1H  IN CNAME    misc-web-lb.eqiad
+pt.planet        1H  IN CNAME    misc-web-lb.eqiad
+ro.planet        1H  IN CNAME    misc-web-lb.eqiad
+ru.planet        1H  IN CNAME    misc-web-lb.eqiad
+sr.planet        1H  IN CNAME    misc-web-lb.eqiad
+sv.planet        1H  IN CNAME    misc-web-lb.eqiad
+uk.planet        1H  IN CNAME    misc-web-lb.eqiad
+zh.planet        1H  IN CNAME    misc-web-lb.eqiad
 puppet           1H  IN CNAME    palladium.eqiad.wmnet.
 racktables       1H  IN CNAME    misc-web-lb.eqiad
 scholarships     1H  IN CNAME    misc-web-lb.eqiad
@@ -641,13 +644,14 @@ search           600 IN DYNA     geoip!text-addrs
 shop             1H  IN CNAME    shopwikipedia.myshopify.com.
 smokeping        1H  IN CNAME    netmon1001
 store            600 IN DYNA     geoip!text-addrs
+static-bugzilla  1H  IN CNAME    misc-web-lb.eqiad
 stats            1H  IN CNAME    misc-web-lb.eqiad
 status           1H  IN CNAME    status.watchmouse.com.
 techblog         1H  IN CNAME    wikimediablog.wordpress.com.
 ticket           1H  IN CNAME    iodine
 tor-eqiad-1      1H  IN CNAME    radium
-ubuntu           1H  IN A        208.80.154.10
-ubuntu           1H  IN AAAA     2620:0:861:1:208:80:154:10
+ubuntu           1H  IN CNAME    carbon
+mirrors          1H  IN CNAME    carbon
 wikitech         1H  IN A        208.80.154.18
 wikitech-static  1H  IN A        166.78.57.240
 

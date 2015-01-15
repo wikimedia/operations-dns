@@ -39,3 +39,5 @@ www         600 IN DYNA     geoip!text-addrs
 ; All languages will automatically be included here
 {{ geolanglist('text-addrs') }}
 
+; Mobile
+m           600 IN DYNA     geoip!mobile-addrs

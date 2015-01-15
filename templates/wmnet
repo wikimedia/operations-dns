@@ -744,7 +744,6 @@ wtp1022         1H  IN A        10.64.0.217
 wtp1023         1H  IN A        10.64.0.218
 wtp1024         1H  IN A        10.64.0.219
 xenon           1H  IN A        10.64.0.200
-zinc            1H  IN A        10.64.16.148
 
 ; Management
 
@@ -2301,7 +2300,7 @@ es2007          1H  IN A    10.193.1.241
 es2008          1H  IN A    10.193.1.242
 es2009          1H  IN A    10.193.1.243
 es2010          1H  IN A    10.193.1.244
-graphite2001    1H  IN A    10.193.1.252
+graphite2001    1H  IN A    10.193.2.14
 haedus          1H  IN A    10.193.2.1
 heze            1H  IN A    10.193.1.250
 install2001     1H  IN A    10.193.1.10
@@ -2470,6 +2469,87 @@ mw2131          1H  IN A    10.193.1.231
 mw2132          1H  IN A    10.193.1.232
 mw2133          1H  IN A    10.193.1.233
 mw2134          1H  IN A    10.193.1.234
+mw2135          1H  IN A    10.193.2.35
+mw2136          1H  IN A    10.193.2.36
+mw2137          1H  IN A    10.193.2.37
+mw2138          1H  IN A    10.193.2.38
+mw2139          1H  IN A    10.193.2.39
+mw2140          1H  IN A    10.193.2.40
+mw2141          1H  IN A    10.193.2.41
+mw2142          1H  IN A    10.193.2.42
+mw2143          1H  IN A    10.193.2.43
+mw2144          1H  IN A    10.193.2.44
+mw2145          1H  IN A    10.193.2.45
+mw2146          1H  IN A    10.193.2.46
+mw2147          1H  IN A    10.193.2.47
+mw2148          1H  IN A    10.193.2.48
+mw2149          1H  IN A    10.193.2.49
+mw2150          1H  IN A    10.193.2.50
+mw2151          1H  IN A    10.193.2.51
+mw2152          1H  IN A    10.193.2.52
+mw2153          1H  IN A    10.193.2.53
+mw2154          1H  IN A    10.193.2.54
+mw2155          1H  IN A    10.193.2.55
+mw2156          1H  IN A    10.193.2.56
+mw2157          1H  IN A    10.193.2.57
+mw2158          1H  IN A    10.193.2.58
+mw2159          1H  IN A    10.193.2.59
+mw2160          1H  IN A    10.193.2.60
+mw2161          1H  IN A    10.193.2.61
+mw2162          1H  IN A    10.193.2.62
+mw2163          1H  IN A    10.193.2.63
+mw2164          1H  IN A    10.193.2.64
+mw2165          1H  IN A    10.193.2.65
+mw2166          1H  IN A    10.193.2.66
+mw2167          1H  IN A    10.193.2.67
+mw2168          1H  IN A    10.193.2.68
+mw2169          1H  IN A    10.193.2.69
+mw2170          1H  IN A    10.193.2.70
+mw2171          1H  IN A    10.193.2.71
+mw2172          1H  IN A    10.193.2.72
+mw2173          1H  IN A    10.193.2.73
+mw2174          1H  IN A    10.193.2.74
+mw2175          1H  IN A    10.193.2.75
+mw2176          1H  IN A    10.193.2.76
+mw2177          1H  IN A    10.193.2.77
+mw2178          1H  IN A    10.193.2.78
+mw2179          1H  IN A    10.193.2.79
+mw2180          1H  IN A    10.193.2.80
+mw2181          1H  IN A    10.193.2.81
+mw2182          1H  IN A    10.193.2.82
+mw2183          1H  IN A    10.193.2.83
+mw2184          1H  IN A    10.193.2.84
+mw2185          1H  IN A    10.193.2.85
+mw2186          1H  IN A    10.193.2.86
+mw2187          1H  IN A    10.193.2.87
+mw2188          1H  IN A    10.193.2.88
+mw2189          1H  IN A    10.193.2.89
+mw2190          1H  IN A    10.193.2.90
+mw2191          1H  IN A    10.193.2.91
+mw2192          1H  IN A    10.193.2.92
+mw2193          1H  IN A    10.193.2.93
+mw2194          1H  IN A    10.193.2.94
+mw2195          1H  IN A    10.193.2.95
+mw2196          1H  IN A    10.193.2.96
+mw2197          1H  IN A    10.193.2.97
+mw2198          1H  IN A    10.193.2.98
+mw2199          1H  IN A    10.193.2.99
+mw2200          1H  IN A    10.193.2.100
+mw2201          1H  IN A    10.193.2.101
+mw2202          1H  IN A    10.193.2.102
+mw2203          1H  IN A    10.193.2.103
+mw2204          1H  IN A    10.193.2.104
+mw2205          1H  IN A    10.193.2.105
+mw2206          1H  IN A    10.193.2.106
+mw2207          1H  IN A    10.193.2.107
+mw2208          1H  IN A    10.193.2.108
+mw2209          1H  IN A    10.193.2.109
+mw2210          1H  IN A    10.193.2.110
+mw2211          1H  IN A    10.193.2.111
+mw2212          1H  IN A    10.193.2.112
+mw2213          1H  IN A    10.193.2.113
+mw2214          1H  IN A    10.193.2.114
+mw2215          1H  IN A    10.193.2.115
 nembus          1H  IN A    10.193.1.251
 osm-cp2001      1H  IN A    10.193.2.3
 osm-cp2002      1H  IN A    10.193.2.4
@@ -2486,6 +2566,8 @@ pc2002          1H  IN A    10.193.1.24
 pc2003          1H  IN A    10.193.1.25
 pollux          1H  IN A    10.193.1.50
 stat2001        1H  IN A    10.193.2.13
+rbf2001         1H  IN A    10.193.2.116
+rbf2002         1H  IN A    10.193.1.252
 tmh2001         1H  IN A    10.193.1.8
 tmh2002         1H  IN A    10.193.1.9
 virt2001        1H  IN A    10.193.1.12
@@ -2499,7 +2581,26 @@ virt2008        1H  IN A    10.193.1.19
 virt2009        1H  IN A    10.193.1.20
 virt2010        1H  IN A    10.193.1.21
 virt2011        1H  IN A    10.193.1.22
-
+wtp2001         1H  IN A    10.193.2.15
+wtp2002         1H  IN A    10.193.2.16
+wtp2003         1H  IN A    10.193.2.17
+wtp2004         1H  IN A    10.193.2.18
+wtp2005         1H  IN A    10.193.2.19
+wtp2006         1H  IN A    10.193.2.20
+wtp2007         1H  IN A    10.193.2.21
+wtp2008         1H  IN A    10.193.2.22
+wtp2009         1H  IN A    10.193.2.23
+wtp2010         1H  IN A    10.193.2.24
+wtp2011         1H  IN A    10.193.2.25
+wtp2012         1H  IN A    10.193.2.26
+wtp2013         1H  IN A    10.193.2.27
+wtp2014         1H  IN A    10.193.2.28
+wtp2015         1H  IN A    10.193.2.29
+wtp2016         1H  IN A    10.193.2.30
+wtp2017         1H  IN A    10.193.2.31
+wtp2018         1H  IN A    10.193.2.32
+wtp2019         1H  IN A    10.193.2.33
+wtp2020         1H  IN A    10.193.2.34
 
 ; Servers MGMT - Alphabetical by asset tag
 
@@ -2593,6 +2694,7 @@ WMF5839         1H  IN A    10.193.1.38
 WMF5840         1H  IN A    10.193.1.41
 WMF5841         1H  IN A    10.193.1.47
 WMF5847         1H  IN A    10.193.1.49
+WMF5849         1H  IN A    10.193.2.116
 WMF5903         1H  IN A    10.193.1.48
 WMF5917         1H  IN A    10.193.1.45
 WMF5918         1H  IN A    10.193.1.40
@@ -2618,6 +2720,7 @@ WMF6139         1H  IN A    10.193.1.246
 WMF6140         1H  IN A    10.193.1.247
 WMF6158         1H  IN A    10.193.1.253
 WMF6159         1H  IN A    10.193.1.254
+WMF6160         1H  IN A    10.193.2.14
 
 ;
 ; ESAMS
@@ -2913,12 +3016,7 @@ $ORIGIN svc.eqiad.wmnet.
 
 appservers  1H  IN A        10.2.2.1
 hhvm-api    1H  IN A        10.2.2.3
-search-pool1    1H  IN A        10.2.2.11
-search-pool2    1H  IN A        10.2.2.12
-search-pool3    1H  IN A        10.2.2.13
-search-pool4    1H  IN A        10.2.2.14
-search-prefix   1H  IN A        10.2.2.15
-search-pool5    1H  IN A        10.2.2.16
+cxserver    1H  IN A        10.2.2.18
 citoid      1H  IN A        10.2.2.19
 mathoid     1H  IN A        10.2.2.20
 rendering   1H  IN A        10.2.2.21
@@ -2933,6 +3031,7 @@ parsoidcache    1H  IN A        10.2.2.29
 search      1H  IN A        10.2.2.30
 ocg     1H  IN A        10.2.2.31
 labstore    1H  IN A        10.64.37.10
+apertium    1H  IN A        10.64.32.153
 
 ; ESAMS SERVICES
 
