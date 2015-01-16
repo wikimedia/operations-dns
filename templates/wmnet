@@ -2008,8 +2008,8 @@ thulium         1H      IN A    10.64.40.162
 ; EQIAD analytics cluster
 
 $ORIGIN analytics.eqiad.{{ zonename }}.
-namenode        1H      IN CNAME  analytics1010.eqiad.wmnet.
-resourcemanager 1H      IN CNAME  analytics1010.eqiad.wmnet.
+namenode        1H      IN CNAME  analytics1001.eqiad.wmnet.
+resourcemanager 1H      IN CNAME  analytics1001.eqiad.wmnet.
 
 
 ;
