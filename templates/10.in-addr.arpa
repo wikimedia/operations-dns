@@ -3087,6 +3087,8 @@ $ORIGIN 2.193.{{ zonename }}.
 115 1H IN PTR  mw2215.mgmt.codfw.wmnet.
 116 1H IN PTR  rbf2001.mgmt.codfw.wmnet.
 116 1H IN PTR  WMF5849.mgmt.codfw.wmnet.
+117 1H IN PTR  procyon.mgmt.codfw.wmnet.
+
 
 ; 10.195.0.0/25 - frack.codfw subnets
 $ORIGIN 0.195.{{ zonename }}.
