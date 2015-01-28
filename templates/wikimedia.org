@@ -713,11 +713,6 @@ ntp             1H  IN CNAME nescio
 
 ; Servers
 
-amslvs1         1H  IN A    91.198.174.109
-amslvs2         1H  IN A    91.198.174.110
-amslvs3         1H  IN A    91.198.174.111
-amslvs4         1H  IN A    91.198.174.112
-
 maerlant        1H  IN A    91.198.174.122
 slauerhoff      1H  IN A    91.198.174.108
 slauerhoff-array    1H  IN A    91.198.174.107

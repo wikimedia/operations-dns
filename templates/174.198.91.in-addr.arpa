@@ -62,10 +62,6 @@ $ORIGIN {{ zonename }}.
 106 1H IN PTR   nescio.esams.wikimedia.org.
 107 1H IN PTR   slauerhoff-array.esams.wikimedia.org.
 108 1H IN PTR   slauerhoff.esams.wikimedia.org.
-109 1H IN PTR   amslvs1.esams.wikimedia.org.
-110 1H IN PTR   amslvs2.esams.wikimedia.org.
-111 1H IN PTR   amslvs3.esams.wikimedia.org.
-112 1H IN PTR   amslvs4.esams.wikimedia.org.
 113 1H IN PTR   hooft.esams.wikimedia.org.
 
 121 1H IN PTR   eeden.esams.wikimedia.org.
