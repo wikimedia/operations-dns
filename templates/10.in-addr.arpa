@@ -2941,7 +2941,6 @@ $ORIGIN 1.193.{{ zonename }}.
 250 1H IN PTR  WMF5836.mgmt.codfw.wmnet.
 251 1H IN PTR  nembus.mgmt.codfw.wmnet.
 251 1H IN PTR  WMF5823.mgmt.codfw.wmnet.
-252 1H IN PTR  rbf2002.mgmt.codfw.wmnet.
 252 1H IN PTR  WMF5833.mgmt.codfw.wmnet.
 253 1H IN PTR  dbstore2001.mgmt.codfw.wmnet.
 253 1H IN PTR  WMF6158.mgmt.codfw.wmnet.
@@ -3086,6 +3085,7 @@ $ORIGIN 2.193.{{ zonename }}.
 116 1H IN PTR  rbf2001.mgmt.codfw.wmnet.
 116 1H IN PTR  WMF5849.mgmt.codfw.wmnet.
 117 1H IN PTR  procyon.mgmt.codfw.wmnet.
+118 1H IN PTR  WMF5845.mgmt.codfw.wmnet.
 
 
 ; 10.195.0.0/25 - frack.codfw subnets
