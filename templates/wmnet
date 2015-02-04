@@ -2515,6 +2515,7 @@ pollux          1H  IN A    10.193.1.50
 procyon         1H  IN A    10.193.2.117
 stat2001        1H  IN A    10.193.2.13
 rbf2001         1H  IN A    10.193.2.116
+rbf2001         1H  IN A    10.193.2.118
 tmh2001         1H  IN A    10.193.1.8
 tmh2002         1H  IN A    10.193.1.9
 virt2001        1H  IN A    10.193.1.12

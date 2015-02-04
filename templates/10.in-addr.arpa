@@ -3085,6 +3085,7 @@ $ORIGIN 2.193.{{ zonename }}.
 116 1H IN PTR  rbf2001.mgmt.codfw.wmnet.
 116 1H IN PTR  WMF5849.mgmt.codfw.wmnet.
 117 1H IN PTR  procyon.mgmt.codfw.wmnet.
+118 1H IN PTR  rbf2002.mgmt.codfw.wmnet.
 118 1H IN PTR  WMF5845.mgmt.codfw.wmnet.
 
 
