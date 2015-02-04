@@ -2514,6 +2514,7 @@ pc2003          1H  IN A    10.193.1.25
 pollux          1H  IN A    10.193.1.50
 procyon         1H  IN A    10.193.2.117
 stat2001        1H  IN A    10.193.2.13
+sterope         1H  IN A    10.193.2.19
 rbf2001         1H  IN A    10.193.2.116
 rbf2001         1H  IN A    10.193.2.118
 tmh2001         1H  IN A    10.193.1.8
@@ -2553,7 +2554,7 @@ wtp2020         1H  IN A    10.193.2.34
 ; Servers MGMT - Alphabetical by asset tag
 
 
-
+WMF3298         1H  IN A    10.193.2.119
 WMF3612         1H  IN A    10.193.1.235
 WMF3613         1H  IN A    10.193.1.236
 WMF3627         1H  IN A    10.193.1.237
