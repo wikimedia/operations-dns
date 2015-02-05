@@ -3090,6 +3090,43 @@ $ORIGIN 2.193.{{ zonename }}.
 119 1H IN PTR  sterope.mgmt.codfw.wmnet.
 119 1H IN PTR  WMF3298.mgmt.codfw.wmnet.
 
+121 1H IN PTR  mc2001.mgmt.codfw.wmnet.
+121 1H IN PTR  WMF5739.mgmt.codfw.wmnet.
+122 1H IN PTR  mc2002.mgmt.codfw.wmnet.
+122 1H IN PTR  WMF5740.mgmt.codfw.wmnet.
+123 1H IN PTR  mc2003.mgmt.codfw.wmnet.
+123 1H IN PTR  WMF5741.mgmt.codfw.wmnet.
+124 1H IN PTR  mc2004.mgmt.codfw.wmnet.
+124 1H IN PTR  WMF5742.mgmt.codfw.wmnet.
+125 1H IN PTR  mc2005.mgmt.codfw.wmnet.
+125 1H IN PTR  WMF5743.mgmt.codfw.wmnet.
+126 1H IN PTR  mc2006.mgmt.codfw.wmnet.
+126 1H IN PTR  WMF5744.mgmt.codfw.wmnet.
+127 1H IN PTR  mc2007.mgmt.codfw.wmnet.
+127 1H IN PTR  WMF5745.mgmt.codfw.wmnet.
+128 1H IN PTR  mc2008.mgmt.codfw.wmnet.
+128 1H IN PTR  WMF5746.mgmt.codfw.wmnet.
+129 1H IN PTR  mc2009.mgmt.codfw.wmnet.
+129 1H IN PTR  WMF5747.mgmt.codfw.wmnet.
+130 1H IN PTR  mc2010.mgmt.codfw.wmnet.
+130 1H IN PTR  WMF5748.mgmt.codfw.wmnet.
+131 1H IN PTR  mc2011.mgmt.codfw.wmnet.
+131 1H IN PTR  WMF5749.mgmt.codfw.wmnet.
+132 1H IN PTR  mc2012.mgmt.codfw.wmnet.
+132 1H IN PTR  WMF5750.mgmt.codfw.wmnet.
+133 1H IN PTR  mc2013.mgmt.codfw.wmnet.
+133 1H IN PTR  WMF5751.mgmt.codfw.wmnet.
+134 1H IN PTR  mc2014.mgmt.codfw.wmnet.
+134 1H IN PTR  WMF5752.mgmt.codfw.wmnet.
+135 1H IN PTR  mc2015.mgmt.codfw.wmnet.
+135 1H IN PTR  WMF5753.mgmt.codfw.wmnet.
+136 1H IN PTR  mc2016.mgmt.codfw.wmnet.
+136 1H IN PTR  WMF5754.mgmt.codfw.wmnet.
+137 1H IN PTR  mc2017.mgmt.codfw.wmnet.
+137 1H IN PTR  WMF5837.mgmt.codfw.wmnet.
+138 1H IN PTR  mc2018.mgmt.codfw.wmnet.
+138 1H IN PTR  WMF5838.mgmt.codfw.wmnet.
+
 
 ; 10.195.0.0/25 - frack.codfw subnets
 $ORIGIN 0.195.{{ zonename }}.
