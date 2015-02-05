@@ -611,7 +611,6 @@ labs-ns0         1H  IN A        208.80.154.19
 labs-ns1         1H  IN A        208.80.153.15
 ; deprecated but kept for compatibility, see RT #6769
 labsconsole      1H  IN CNAME    wikitech
-legalpad         1H  IN CNAME    misc-web-lb.eqiad
 logstash         1H  IN CNAME    misc-web-lb.eqiad
 metrics          1H  IN CNAME    misc-web-lb.eqiad
 noc              1H  IN CNAME    misc-web-lb.eqiad
