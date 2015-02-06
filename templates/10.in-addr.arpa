@@ -248,7 +248,6 @@ $ORIGIN 0.64.{{ zonename }}.
 20  1H IN PTR   db1016.eqiad.wmnet.
 21  1H IN PTR   fluorine.eqiad.wmnet.
 23  1H IN PTR   ms1003.eqiad.wmnet.
-24  1H IN PTR   ms1004.eqiad.wmnet.
 25  1H IN PTR   es1001.eqiad.wmnet.
 26  1H IN PTR   tantalum.eqiad.wmnet.
 27  1H IN PTR   cam1-a-eqiad.eqiad.wmnet.
@@ -1993,7 +1992,6 @@ $ORIGIN 5.65.{{ zonename }}.
 2   1H  IN PTR      wmf3249.mgmt.eqiad.wmnet.
 3   1H  IN PTR      ms1003.mgmt.eqiad.wmnet.
 3   1H  IN PTR      wmf3069.mgmt.eqiad.wmnet.
-4   1H  IN PTR      ms1004.mgmt.eqiad.wmnet.
 4   1H  IN PTR      wmf3248.mgmt.eqiad.wmnet.
 5   1H  IN PTR      ms-be1001.mgmt.eqiad.wmnet.
 6   1H  IN PTR      ms-be1002.mgmt.eqiad.wmnet.
