@@ -1915,6 +1915,12 @@ WMF4576         1H      IN A            10.65.5.206
 WMF4577         1H      IN A            10.65.5.207
 WMF4578         1H      IN A            10.65.5.208
 WMF4579         1H      IN A            10.65.5.209
+wmf4656         1H      IN A            10.65.2.109
+wmf4657         1H      IN A            10.65.2.110
+wmf4658         1H      IN A            10.65.2.111
+wmf4659         1H      IN A            10.65.2.112
+wmf4660         1H      IN A            10.65.2.113
+wmf4661         1H      IN A            10.65.2.114
 
 ; Labs VMs &c.
 eth4-1102.labnet1001    1H  IN A    10.68.16.1
