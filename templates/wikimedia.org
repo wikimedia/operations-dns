@@ -658,7 +658,7 @@ ticket           1H  IN CNAME    iodine
 tor-eqiad-1      1H  IN CNAME    radium
 ubuntu           1H  IN CNAME    carbon
 mirrors          1H  IN CNAME    carbon
-wikitech         5M  IN A        208.80.154.18
+wikitech         5M  IN A        208.80.154.136
 wikitech-static  1H  IN A        166.78.57.240
 
 ; SNI testing hostname
