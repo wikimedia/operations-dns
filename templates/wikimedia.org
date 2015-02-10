@@ -319,6 +319,7 @@ wikimania2013.m     600 IN DYNA     geoip!mobile-addrs
 wikimania2014.m     600 IN DYNA     geoip!mobile-addrs
 wikimania2015.m     600 IN DYNA     geoip!mobile-addrs
 wikimania2016.m     600 IN DYNA     geoip!mobile-addrs
+wikitech.m          600 IN DYNA     geoip!mobile-addrs
 
 ; Networking
 
