@@ -660,6 +660,12 @@ rdb1001         1H  IN A        10.64.32.76
 rdb1002         1H  IN A        10.64.32.77
 rdb1003         1H  IN A        10.64.0.201
 rdb1004         1H  IN A        10.64.16.183
+restbase1001    1H  IN A        10.64.0.220
+restbase1002    1H  IN A        10.64.0.221
+restbase1003    1H  IN A        10.64.32.159
+restbase1004    1H  IN A        10.64.32.160
+restbase1005    1H  IN A        10.64.48.99
+restbase1006    1H  IN A        10.64.48.100
 rhodium         1H  IN A        10.64.16.184
 ruthenium       1H  IN A        10.64.16.151
 sca1001         1H  IN A        10.64.32.153
@@ -1934,11 +1940,17 @@ WMF4577         1H      IN A            10.65.5.207
 WMF4578         1H      IN A            10.65.5.208
 WMF4579         1H      IN A            10.65.5.209
 wmf4656         1H      IN A            10.65.2.109
+restbase1001    1H      IN A            10.65.2.109
 wmf4657         1H      IN A            10.65.2.110
+restbase1002    1H      IN A            10.65.2.110
 wmf4658         1H      IN A            10.65.2.111
+restbase1003    1H      IN A            10.65.2.111
 wmf4659         1H      IN A            10.65.2.112
+restbase1004    1H      IN A            10.65.2.112
 wmf4660         1H      IN A            10.65.2.113
+restbase1005    1H      IN A            10.65.2.113
 wmf4661         1H      IN A            10.65.2.114
+restbase1006    1H      IN A            10.65.2.114
 
 ; Labs VMs &c.
 eth4-1102.labnet1001    1H  IN A    10.68.16.1
