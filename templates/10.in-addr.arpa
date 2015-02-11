@@ -376,6 +376,7 @@ $ORIGIN 0.64.{{ zonename }}.
 195 1H IN PTR   mc1016.eqiad.wmnet.
 196 1H IN PTR   tin.eqiad.wmnet.
 197 1H IN PTR   tmh1001.eqiad.wmnet.
+198 1H IN PTR   dbproxy1003.eqiad.wmnet.
 
 200 1H IN PTR   xenon.eqiad.wmnet.
 201 1H IN PTR   rdb1003.eqiad.wmnet.
@@ -570,18 +571,18 @@ $ORIGIN 16.64.{{ zonename }}.
 145 1H IN PTR   db1050.eqiad.wmnet.
 146 1H IN PTR   tmh1002.eqiad.wmnet.
 147     1H IN PTR       cerium.eqiad.wmnet.
-
+148 1H IN PTR   dbproxy1004.eqiad.wmnet.
 149     1H IN PTR       praseodymium.eqiad.wmnet.
 150 1H IN PTR   ms-fe1003.eqiad.wmnet.
 151 1H IN PTR   ruthenium.eqiad.wmnet.
 152 1H IN PTR   potassium.eqiad.wmnet.
 153 1H IN PTR   es1005.eqiad.wmnet.
 154 1H IN PTR   es1006.eqiad.wmnet.
-
+155 1H IN PTR   dbproxy1005.eqiad.wmnet.
 156 1H IN PTR   pc1001.eqiad.wmnet.
 157 1H IN PTR   pc1002.eqiad.wmnet.
 158 1H IN PTR   pc1003.eqiad.wmnet.
-
+159 1H IN PTR   dbproxy1006.eqiad.wmnet.
 160 1H IN PTR   palladium.eqiad.wmnet.
 161 1H IN PTR   osm-cp1003.eqiad.wmnet.
 162 1H IN PTR   osm-cp1004.eqiad.wmnet.
@@ -802,6 +803,9 @@ $ORIGIN 32.64.{{ zonename }}.
 153     1H IN PTR       sca1001.eqiad.wmnet.
 154     1H IN PTR       lithium.eqiad.wmnet.
 155     1H IN PTR       graphite1001.eqiad.wmnet.
+156     1H IN PTR       dbproxy1007.eqiad.wmnet.
+157     1H IN PTR       dbproxy1008.eqiad.wmnet.
+158     1H IN PTR       dbproxy1009.eqiad.wmnet.
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
@@ -985,6 +989,8 @@ $ORIGIN 48.64.{{ zonename }}.
 94      1H  IN PTR      einsteinium.eqiad.wmnet.
 95      1H  IN PTR      mc1017.eqiad.wmnet.
 96      1H  IN PTR      mc1018.eqiad.wmnet.
+97      1H  IN PTR      dbproxy1010.eqiad.wmnet.
+98      1H  IN PTR      dbproxy1011.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.

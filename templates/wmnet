@@ -259,6 +259,15 @@ db1072                  1H      IN A            10.64.48.27
 db1073                  1H      IN A            10.64.48.28
 dbproxy1001     1H  IN A        10.64.0.165
 dbproxy1002     1H  IN A        10.64.0.166
+dbproxy1003     1H  IN A        10.64.0.198
+dbproxy1004     1H  IN A        10.64.16.148
+dbproxy1005     1H  IN A        10.64.16.155
+dbproxy1006     1H  IN A        10.64.16.159
+dbproxy1007     1H  IN A        10.64.32.156
+dbproxy1008     1H  IN A        10.64.32.157
+dbproxy1009     1H  IN A        10.64.32.158
+dbproxy1010     1H  IN A        10.64.48.97
+dbproxy1011     1H  IN A        10.64.48.98
 dbstore1001     1H  IN A        10.64.48.17
 dbstore1002     1H  IN A        10.64.48.18
 d-i-test        1H  IN A        10.64.16.201
