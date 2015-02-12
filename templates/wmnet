@@ -829,8 +829,6 @@ WMF3112     1H  IN A    10.65.2.23
 dbproxy1010 1H  IN A    10.65.2.23
 WMF3111     1H  IN A    10.65.2.24
 dbproxy1007 1H  IN A    10.65.2.24
-WMF3110     1H  IN A    10.65.2.25
-dbproxy1008 1H  IN A    10.65.2.25
 WMF3109     1H  IN A    10.65.2.26
 dbproxy1009 1H  IN A    10.65.2.26
 WMF3108     1H  IN A    10.65.2.27
@@ -846,7 +844,7 @@ WMF3099     1H  IN A    10.65.2.36
 dbproxy1006 1H  IN A    10.65.2.36
 cp1037      1H  IN A    10.65.2.37
 WMF3098     1H  IN A    10.65.2.37
-cp1038      1H  IN A    10.65.2.38
+dbproxy1008 1H  IN A    10.65.2.38
 WMF3097     1H  IN A    10.65.2.38
 cp1039      1H  IN A    10.65.2.39
 WMF3096     1H  IN A    10.65.2.39
