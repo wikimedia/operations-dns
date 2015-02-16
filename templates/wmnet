@@ -3052,6 +3052,7 @@ $ORIGIN svc.eqiad.wmnet.
 
 appservers  1H  IN A        10.2.2.1
 hhvm-api    1H  IN A        10.2.2.3
+restbase    1H  IN A        10.2.2.17
 cxserver    1H  IN A        10.2.2.18
 citoid      1H  IN A        10.2.2.19
 mathoid     1H  IN A        10.2.2.20
