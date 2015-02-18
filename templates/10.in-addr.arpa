@@ -365,7 +365,6 @@ $ORIGIN 0.64.{{ zonename }}.
 183 1H IN PTR   mc1004.eqiad.wmnet.
 184 1H IN PTR   mc1005.eqiad.wmnet.
 185 1H IN PTR   mc1006.eqiad.wmnet.
-191 1H IN PTR   mc1012.eqiad.wmnet.
 196 1H IN PTR   tin.eqiad.wmnet.
 197 1H IN PTR   tmh1001.eqiad.wmnet.
 198 1H IN PTR   dbproxy1003.eqiad.wmnet.
@@ -807,6 +806,7 @@ $ORIGIN 32.64.{{ zonename }}.
 163     1H IN PTR       mc1009.eqiad.wmnet.
 164     1H IN PTR       mc1010.eqiad.wmnet.
 165     1H IN PTR       mc1011.eqiad.wmnet.
+166     1H IN PTR       mc1012.eqiad.wmnet.
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
