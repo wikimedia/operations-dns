@@ -371,7 +371,6 @@ $ORIGIN 0.64.{{ zonename }}.
 189 1H IN PTR   mc1010.eqiad.wmnet.
 190 1H IN PTR   mc1011.eqiad.wmnet.
 191 1H IN PTR   mc1012.eqiad.wmnet.
-192 1H IN PTR   mc1013.eqiad.wmnet.
 196 1H IN PTR   tin.eqiad.wmnet.
 197 1H IN PTR   tmh1001.eqiad.wmnet.
 198 1H IN PTR   dbproxy1003.eqiad.wmnet.
@@ -995,6 +994,7 @@ $ORIGIN 48.64.{{ zonename }}.
 98      1H  IN PTR      dbproxy1011.eqiad.wmnet.
 99      1H  IN PTR      restbase1005.eqiad.wmnet.
 100     1H  IN PTR      restbase1006.eqiad.wmnet.
+101     1H  IN PTR      mc1013.eqiad.wmnet.
 102     1H  IN PTR      mc1014.eqiad.wmnet.
 103     1H  IN PTR      mc1015.eqiad.wmnet.
 104     1H  IN PTR      mc1016.eqiad.wmnet.
