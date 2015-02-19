@@ -448,7 +448,6 @@ parsoid-tests   1H  IN CNAME    misc-web-lb.eqiad
 performance     1H  IN CNAME    misc-web-lb.eqiad
 
 icinga          1H  IN CNAME    neon
-icinga-admin    1H  IN CNAME    neon
 
 integration     1H  IN CNAME    misc-web-lb.eqiad
 irc             1H  IN CNAME    argon
