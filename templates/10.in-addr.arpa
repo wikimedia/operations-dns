@@ -26,6 +26,7 @@ $ORIGIN 2.2.{{ zonename }}.
 
 1       1H      IN PTR  appservers.svc.eqiad.wmnet.
 3       1H      IN PTR  hhvm-api.svc.eqiad.wmnet.
+16      1H      IN PTR  zotero.svc.eqiad.wmnet.
 17      1H      IN PTR  restbase.svc.eqiad.wmnet.
 18      1H      IN PTR  cxserver.svc.eqiad.wmnet.
 19      1H      IN PTR  citoid.svc.eqiad.wmnet.
