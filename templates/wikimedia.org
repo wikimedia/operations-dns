@@ -607,6 +607,7 @@ download         1H  IN CNAME    dumps
 etherpad         5M  IN CNAME    zirconium.wikimedia.org.
 fundraising      1H  IN CNAME    barium-fundraising
 ganglia          1H  IN CNAME    uranium
+hue              1H  IN CNAME    misc-web-lb.eqiad
 iegreview        1H  IN CNAME    misc-web-lb.eqiad
 ishmael          1H  IN CNAME    misc-web-lb.eqiad
 tendril          1H  IN CNAME    neon
