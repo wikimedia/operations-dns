@@ -718,11 +718,11 @@ $ORIGIN 32.64.{{ zonename }}.
 68      1H IN PTR       mw1198.eqiad.wmnet.
 69      1H IN PTR       mw1199.eqiad.wmnet.
 70      1H IN PTR       mw1200.eqiad.wmnet.
-73      1H IN PTR   wtp1002.eqiad.wmnet.
-74      1H IN PTR   wtp1003.eqiad.wmnet.
-75      1H IN PTR   wtp1004.eqiad.wmnet.
-76      1H IN PTR   rdb1001.eqiad.wmnet.
-77      1H IN PTR   rdb1002.eqiad.wmnet.
+73      1H IN PTR       wtp1002.eqiad.wmnet.
+74      1H IN PTR       wtp1003.eqiad.wmnet.
+75      1H IN PTR       wtp1004.eqiad.wmnet.
+76      1H IN PTR       rdb1001.eqiad.wmnet.
+77      1H IN PTR       rdb1002.eqiad.wmnet.
 78      1H IN PTR       wtp1001.eqiad.wmnet.
 81      1H IN PTR       dysprosium.eqiad.wmnet.
 82      1H IN PTR       cam1-c-eqiad.eqiad.wmnet.
@@ -810,6 +810,7 @@ $ORIGIN 32.64.{{ zonename }}.
 164     1H IN PTR       mc1010.eqiad.wmnet.
 165     1H IN PTR       mc1011.eqiad.wmnet.
 166     1H IN PTR       mc1012.eqiad.wmnet.
+167     1H IN PTR       eventlog1001.eqiad.wmnet.
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
