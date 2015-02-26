@@ -368,6 +368,9 @@ ms-be1012       1H  IN A        10.64.0.178
 ms-be1013       1H  IN A        10.64.48.30
 ms-be1014       1H  IN A        10.64.48.31
 ms-be1015       1H  IN A        10.64.48.32
+ms-be1016       1H  IN A        10.64.16.163
+ms-be1017       1H  IN A        10.64.16.164
+ms-be1018       1H  IN A        10.64.16.165
 ms-fe           1H  IN A        10.2.2.27   ;LVS address for ms-fe100*
 ms-fe1001       1H  IN A        10.64.0.167
 ms-fe1002       1H  IN A        10.64.0.168
@@ -1222,9 +1225,15 @@ ms-be1009   1H  IN A    10.65.5.13
 ms-be1010   1H  IN A    10.65.5.14
 ms-be1011   1H  IN A    10.65.5.15
 ms-be1012   1H  IN A    10.65.5.16
-ms-be1013       1H      IN A    10.65.5.21
-ms-be1014       1H      IN A    10.65.5.22
-ms-be1015       1H      IN A    10.65.5.23
+ms-be1013   1H  IN A    10.65.5.21
+ms-be1014   1H  IN A    10.65.5.22
+ms-be1015   1H  IN A    10.65.5.23
+ms-be1016   1H  IN A    10.65.5.24
+wmf4662     1H  IN A    10.65.5.24
+ms-be1017   1H  IN A    10.65.5.25
+wmf4663     1H  IN A    10.65.5.25
+ms-be1018   1H  IN A    10.65.5.26
+wmf4664     1H  IN A    10.65.5.26
 ms-fe1001   1H  IN A    10.65.5.17
 ms-fe1002   1H  IN A    10.65.5.18
 ms-fe1003   1H  IN A    10.65.5.19
