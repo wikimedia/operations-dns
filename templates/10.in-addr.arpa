@@ -1919,6 +1919,7 @@ $ORIGIN 3.65.{{ zonename }}.
 176     1H      IN PTR          logstash1001.mgmt.eqiad.wmnet.
 176     1H      IN PTR          wmf5824.mgmt.eqiad.wmnet.
 177     1H      IN PTR          wmf5844.mgmt.eqiad.wmnet.
+177     1H      IN PTR          eventlog1001.mgmt.eqiad.wmnet.
 178     1H      IN PTR          wmf5842.mgmt.eqiad.wmnet.
 179     1H      IN PTR          wmf5843.mgmt.eqiad.wmnet.
 180     1H  IN PTR      wmf4540.mgmt.eqiad.wmnet.
