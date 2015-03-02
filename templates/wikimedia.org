@@ -136,7 +136,6 @@ gallium         1H  IN A    208.80.154.135
 gold            1H  IN A    208.80.154.85
 ganeti          1H  IN A    208.80.154.88
 hafnium         1H  IN A    208.80.154.79
-holmium         1H  IN A    208.80.154.49
 hydrogen        1H  IN A    208.80.154.50
             1H  IN AAAA 2620:0:861:1:208:80:154:50
 install2001     1H  IN A    208.80.153.4
