@@ -445,6 +445,7 @@ graphite        1H  IN CNAME    misc-web-lb.eqiad
 grafana         1H  IN CNAME    misc-web-lb.eqiad
 parsoid-tests   1H  IN CNAME    misc-web-lb.eqiad
 performance     1H  IN CNAME    misc-web-lb.eqiad
+horizon         1H  IN CNAME    misc-web-lb.eqiad
 
 icinga          1H  IN CNAME    neon
 
