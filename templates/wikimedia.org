@@ -429,6 +429,7 @@ config-master   1H  IN CNAME    misc-web-lb.eqiad
 
 dash.frdev      1H  IN CNAME    lutetium
 
+dbtree          1H  IN CNAME    misc-web-lb.eqiad
 dev             1H  IN CNAME    misc-web-lb.eqiad
 doc             1H  IN CNAME    misc-web-lb.eqiad
 
