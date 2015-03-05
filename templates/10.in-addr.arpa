@@ -83,14 +83,28 @@ $ORIGIN 0.20.{{ zonename }}.
 19  1H  IN PTR      ms-be3003.esams.wmnet.
 20  1H  IN PTR      ms-be3004.esams.wmnet.
 
-111 1H  IN PTR      cp3001.esams.wmnet.
-112 1H  IN PTR      cp3002.esams.wmnet.
+101 1H  IN PTR      cp3001.esams.wmnet.
+102 1H  IN PTR      cp3002.esams.wmnet.
+103 1H  IN PTR      cp3003.esams.wmnet.
+104 1H  IN PTR      cp3004.esams.wmnet.
+105 1H  IN PTR      cp3005.esams.wmnet.
+106 1H  IN PTR      cp3006.esams.wmnet.
+107 1H  IN PTR      cp3007.esams.wmnet.
+108 1H  IN PTR      cp3008.esams.wmnet.
+109 1H  IN PTR      cp3009.esams.wmnet.
+110 1H  IN PTR      cp3010.esams.wmnet.
+111 1H  IN PTR      cp3011.esams.wmnet.
+112 1H  IN PTR      cp3012.esams.wmnet.
 113 1H  IN PTR      cp3013.esams.wmnet.
 114 1H  IN PTR      cp3014.esams.wmnet.
 115 1H  IN PTR      cp3015.esams.wmnet.
 116 1H  IN PTR      cp3016.esams.wmnet.
 117 1H  IN PTR      cp3017.esams.wmnet.
 118 1H  IN PTR      cp3018.esams.wmnet.
+119 1H  IN PTR      cp3019.esams.wmnet.
+120 1H  IN PTR      cp3020.esams.wmnet.
+121 1H  IN PTR      cp3021.esams.wmnet.
+122 1H  IN PTR      cp3022.esams.wmnet.
 
 131 1H  IN PTR      amssq31.esams.wmnet.
 132 1H  IN PTR      amssq32.esams.wmnet.
@@ -109,6 +123,21 @@ $ORIGIN 0.20.{{ zonename }}.
 145 1H  IN PTR      amssq45.esams.wmnet.
 146 1H  IN PTR      amssq46.esams.wmnet.
 147 1H  IN PTR      amssq47.esams.wmnet.
+148 1H  IN PTR      amssq48.esams.wmnet.
+149 1H  IN PTR      amssq49.esams.wmnet.
+150 1H  IN PTR      amssq50.esams.wmnet.
+151 1H  IN PTR      amssq51.esams.wmnet.
+152 1H  IN PTR      amssq52.esams.wmnet.
+153 1H  IN PTR      amssq53.esams.wmnet.
+154 1H  IN PTR      amssq54.esams.wmnet.
+155 1H  IN PTR      amssq55.esams.wmnet.
+156 1H  IN PTR      amssq56.esams.wmnet.
+157 1H  IN PTR      amssq57.esams.wmnet.
+158 1H  IN PTR      amssq58.esams.wmnet.
+159 1H  IN PTR      amssq59.esams.wmnet.
+160 1H  IN PTR      amssq60.esams.wmnet.
+161 1H  IN PTR      amssq61.esams.wmnet.
+162 1H  IN PTR      amssq62.esams.wmnet.
 
 ; Management
 
