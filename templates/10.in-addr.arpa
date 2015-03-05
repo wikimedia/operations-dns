@@ -633,7 +633,6 @@ $ORIGIN 20.64.{{ zonename }}.
 15  1H IN PTR   virt1010.eqiad.wmnet.
 16  1H IN PTR   virt1011.eqiad.wmnet.
 17  1H IN PTR   virt1012.eqiad.wmnet.
-18  1H IN PTR   californium.eqiad.wmnet.
 
 ; 10.64.21.0/24 - analytics1-b-eqiad
 $ORIGIN 21.64.{{ zonename }}.

@@ -190,6 +190,7 @@ rubidium        1H  IN A    208.80.154.40
 samarium        1H  IN A    208.80.155.10
 silicon         1H  IN A    208.80.155.8
 silver          1H  IN A    208.80.154.136
+californium     1H  IN A    208.80.154.147
 sodium          1H  IN A    208.80.154.61
                 1H  IN AAAA 2620:0:861:1:208:80:154:61
 
