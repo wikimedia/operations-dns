@@ -1982,10 +1982,11 @@ payments1001    1H      IN A    10.64.40.5
 payments1002    1H      IN A    10.64.40.6
 payments1003    1H      IN A    10.64.40.7
 payments1004    1H      IN A    10.64.40.8
+rkhunter.boron  1H      IN CNAME  boron
 silicon         1H      IN A    10.64.40.98
 samarium        1H      IN A    10.64.40.130
 tellurium       1H      IN A    10.64.40.34
-te              1H      IN CNAME          tellurium
+te              1H      IN CNAME  tellurium
 thulium         1H      IN A    10.64.40.162
 
 
@@ -2350,6 +2351,7 @@ rigel               1H  IN A    10.195.0.66
 heka                1H  IN A    10.195.0.74
 bellatrix           1H  IN A    10.195.0.75
 saiph               1H  IN A    10.195.0.82
+rkhunter.heka       1H  IN CNAME heka
 
 ; CODFW fundraising/payments management
 $ORIGIN mgmt.frack.codfw.wmnet.
