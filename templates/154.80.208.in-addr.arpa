@@ -91,6 +91,7 @@ $ORIGIN {{ zonename }}.
 
 144 1H  IN PTR  molybdenum.wikimedia.org.
 146 1H  IN PTR  iodine.wikimedia.org.
+147 1H  IN PTR  californium.wikimedia.org.
 149 1H  IN PTR  bast1001.wikimedia.org.
 151 1H  IN PTR  iron.wikimedia.org.
 154 1H  IN PTR  titanium.wikimedia.org.
