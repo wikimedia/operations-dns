@@ -3474,6 +3474,10 @@ $ORIGIN 2.193.{{ zonename }}.
 156 1H IN PTR  db2068.mgmt.codfw.wmnet.
 157 1H IN PTR  db2069.mgmt.codfw.wmnet.
 158 1H IN PTR  db2070.mgmt.codfw.wmnet.
+159 1H IN PTR  rbd2001.mgmt.codfw.wmnet.
+160 1H IN PTR  rbd2002.mgmt.codfw.wmnet.
+161 1H IN PTR  rbd2003.mgmt.codfw.wmnet.
+162 1H IN PTR  rbd2004.mgmt.codfw.wmnet.
 
 
 ; 10.195.0.0/25 - frack.codfw subnets
