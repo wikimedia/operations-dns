@@ -3214,6 +3214,7 @@ br1-knams   1H  IN A        145.97.39.134
 
 cr1-esams   1H  IN A        10.21.0.116
 csw1-esams  1H  IN A        10.21.0.102
+asw-esams   1H  IN A        10.21.0.104
 csw2-esams  1H  IN A        10.21.0.105
 amslvs1     1H  IN A        10.21.0.106
 amslvs2     1H  IN A        10.21.0.107

@@ -190,6 +190,7 @@ $ORIGIN 0.21.{{ zonename }}.
 100 1H  IN PTR  yarrow.ipmi.knams.wikimedia.org.
 101 1H  IN PTR  br1-knams.ipmi.knams.wikimedia.org.
 102 1H  IN PTR  csw1-esams.mgmt.esams.wmnet.
+104 1H  IN PTR  asw-esams.mgmt.esams.wmnet.
 105 1H  IN PTR  csw2-esams.mgmt.esams.wmnet.
 106 1H  IN PTR  amslvs1.mgmt.esams.wmnet.
 107 1H  IN PTR  amslvs2.mgmt.esams.wmnet.
