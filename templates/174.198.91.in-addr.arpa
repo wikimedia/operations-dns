@@ -29,12 +29,6 @@ $ORIGIN {{ zonename }}.
 13  1H IN PTR   vl100-eth0.lvs3003.esams.wmnet.
 14  1H IN PTR   vl100-eth0.lvs3004.esams.wmnet.
 
-58  1H IN PTR   amssq48.esams.wikimedia.org.
-59  1H IN PTR   amssq49.esams.wikimedia.org.
-60  1H IN PTR   amssq50.esams.wikimedia.org.
-61  1H IN PTR   amssq51.esams.wikimedia.org.
-62  1H IN PTR   amssq52.esams.wikimedia.org.
-63  1H IN PTR   amssq53.esams.wikimedia.org.
 64  1H IN PTR   amssq54.esams.wikimedia.org.
 65  1H IN PTR   amssq55.esams.wikimedia.org.
 66  1H IN PTR   amssq56.esams.wikimedia.org.
@@ -53,11 +47,9 @@ $ORIGIN {{ zonename }}.
 79  1H IN PTR   cp3009.esams.wikimedia.org.
 80  1H IN PTR   cp3010.esams.wikimedia.org.
 81  1H IN PTR   cp3011.esams.wikimedia.org.
-82  1H IN PTR   cp3012.esams.wikimedia.org.
 89  1H IN PTR   cp3019.esams.wikimedia.org.
 90  1H IN PTR   cp3020.esams.wikimedia.org.
 91  1H IN PTR   cp3021.esams.wikimedia.org.
-92  1H IN PTR   cp3022.esams.wikimedia.org.
 
 106 1H IN PTR   nescio.esams.wikimedia.org.
 107 1H IN PTR   slauerhoff-array.esams.wikimedia.org.
