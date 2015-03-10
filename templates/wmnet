@@ -2065,6 +2065,7 @@ es2007          1H  IN A    10.192.0.29
 es2008          1H  IN A    10.192.16.29
 es2009          1H  IN A    10.192.16.30
 es2010          1H  IN A    10.192.16.31
+eventlog2001    1H  IN A    10.192.16.121
 graphite2001    1H  IN A    10.192.16.33
 haedus          1H  IN A    10.192.16.34
 heze            1H  IN A    10.192.0.31
