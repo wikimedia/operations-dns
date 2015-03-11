@@ -17,7 +17,9 @@ $ORIGIN {{ zonename }}.
 
 ; codfw svc ips
 $ORIGIN 1.2.{{ zonename }}.
-
+1   1H  IN PTR  appservers.svc.codfw.wmnet.
+21  1H  IN PTR  rendering.svc.codfw.wmnet.
+22  1H  IN PTR  api.svc.codfw.wmnet.
 27  1H  IN PTR  ms-fe.svc.codfw.wmnet.
 
 ; eqiad svc ips

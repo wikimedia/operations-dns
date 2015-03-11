@@ -3516,5 +3516,8 @@ mobile          1H  IN A        10.2.4.26
 
 $ORIGIN svc.codfw.wmnet.
 
+appservers      1H  IN A        10.2.1.1
+rendering       1H  IN A        10.2.1.21
+api             1H  IN A        10.2.1.22
 ms-fe           1H  IN A        10.2.1.27
 labstore        1H  IN A        10.192.21.7
