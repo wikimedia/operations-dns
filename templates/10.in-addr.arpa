@@ -2565,8 +2565,8 @@ $ORIGIN 0.192.{{ zonename }}.
 116 1H IN PTR   mw2077.codfw.wmnet.
 117 1H IN PTR   mw2078.codfw.wmnet.
 118 1H IN PTR   mw2079.codfw.wmnet.
-119 1H IN PTR   rbd2001.codfw.wmnet.
-120 1H IN PTR   rbd2002.codfw.wmnet.
+119 1H IN PTR   rdb2001.codfw.wmnet.
+120 1H IN PTR   rdb2002.codfw.wmnet.
 
 $ORIGIN 1.192.{{ zonename }}.
 1   1H IN PTR   lvs2001.codfw.wmnet.
@@ -2706,8 +2706,8 @@ $ORIGIN 16.192.{{ zonename }}.
 119 1H IN PTR   mw2146.codfw.wmnet.
 120 1H IN PTR   mw2147.codfw.wmnet.
 121 1H IN PTR   eventlog2001.codfw.wmnet.
-122 1H IN PTR   rbd2003.codfw.wmnet.
-123 1H IN PTR   rbd2004.codfw.wmnet.
+122 1H IN PTR   rdb2003.codfw.wmnet.
+123 1H IN PTR   rdb2004.codfw.wmnet.
 
 $ORIGIN 17.192.{{ zonename }}.
 1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
@@ -3479,13 +3479,13 @@ $ORIGIN 2.193.{{ zonename }}.
 156 1H IN PTR  db2068.mgmt.codfw.wmnet.
 157 1H IN PTR  db2069.mgmt.codfw.wmnet.
 158 1H IN PTR  db2070.mgmt.codfw.wmnet.
-159 1H IN PTR  rbd2001.mgmt.codfw.wmnet.
+159 1H IN PTR  rdb2001.mgmt.codfw.wmnet.
 159 1H IN PTR  WMF6271.mgmt.codfw.wmnet.
-160 1H IN PTR  rbd2002.mgmt.codfw.wmnet.
+160 1H IN PTR  rdb2002.mgmt.codfw.wmnet.
 160 1H IN PTR  wmf6272.mgmt.codfw.wmnet.
-161 1H IN PTR  rbd2003.mgmt.codfw.wmnet.
+161 1H IN PTR  rdb2003.mgmt.codfw.wmnet.
 161 1H IN PTR  wmf6273.mgmt.codfw.wmnet.
-162 1H IN PTR  rbd2004.mgmt.codfw.wmnet.
+162 1H IN PTR  rdb2004.mgmt.codfw.wmnet.
 162 1H IN PTR  wmf6274.mgmt.codfw.wmnet.
 
 
