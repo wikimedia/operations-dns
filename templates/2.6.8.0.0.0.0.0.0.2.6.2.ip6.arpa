@@ -106,6 +106,31 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 1.6.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   amssq61.esams.wmnet.
 2.6.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   amssq62.esams.wmnet.
 
+5.6.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3030.esams.wmnet.
+6.6.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3031.esams.wmnet.
+7.6.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3032.esams.wmnet.
+8.6.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3033.esams.wmnet.
+9.6.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3034.esams.wmnet.
+0.7.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3035.esams.wmnet.
+1.7.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3036.esams.wmnet.
+2.7.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3037.esams.wmnet.
+3.7.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3038.esams.wmnet.
+4.7.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3039.esams.wmnet.
+5.7.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3040.esams.wmnet.
+6.7.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3041.esams.wmnet.
+7.7.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3042.esams.wmnet.
+8.7.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3043.esams.wmnet.
+9.7.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3044.esams.wmnet.
+0.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3045.esams.wmnet.
+1.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3046.esams.wmnet.
+2.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3047.esams.wmnet.
+3.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3048.esams.wmnet.
+4.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3049.esams.wmnet.
+5;8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3050.esams.wmnet.
+6.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3051.esams.wmnet.
+7.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3052.esams.wmnet.
+8.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3053.esams.wmnet.
+
 ; Toolserver external subnet 2620:0:862:101::/64
 
 $ORIGIN 1.0.1.0.{{ zonename }}.

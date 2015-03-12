@@ -139,6 +139,31 @@ $ORIGIN 0.20.{{ zonename }}.
 161 1H  IN PTR      amssq61.esams.wmnet.
 162 1H  IN PTR      amssq62.esams.wmnet.
 
+165 1H  IN PTR      cp3030.esams.wmnet.
+166 1H  IN PTR      cp3031.esams.wmnet.
+167 1H  IN PTR      cp3032.esams.wmnet.
+168 1H  IN PTR      cp3033.esams.wmnet.
+169 1H  IN PTR      cp3034.esams.wmnet.
+170 1H  IN PTR      cp3035.esams.wmnet.
+171 1H  IN PTR      cp3036.esams.wmnet.
+172 1H  IN PTR      cp3037.esams.wmnet.
+173 1H  IN PTR      cp3038.esams.wmnet.
+174 1H  IN PTR      cp3039.esams.wmnet.
+175 1H  IN PTR      cp3040.esams.wmnet.
+176 1H  IN PTR      cp3041.esams.wmnet.
+177 1H  IN PTR      cp3042.esams.wmnet.
+178 1H  IN PTR      cp3043.esams.wmnet.
+179 1H  IN PTR      cp3044.esams.wmnet.
+180 1H  IN PTR      cp3045.esams.wmnet.
+181 1H  IN PTR      cp3046.esams.wmnet.
+182 1H  IN PTR      cp3047.esams.wmnet.
+183 1H  IN PTR      cp3048.esams.wmnet.
+184 1H  IN PTR      cp3049.esams.wmnet.
+185 1H  IN PTR      cp3050.esams.wmnet.
+186 1H  IN PTR      cp3051.esams.wmnet.
+187 1H  IN PTR      cp3052.esams.wmnet.
+188 1H  IN PTR      cp3053.esams.wmnet.
+
 ; Management
 
 $ORIGIN 0.21.{{ zonename }}.
@@ -232,6 +257,30 @@ $ORIGIN 0.21.{{ zonename }}.
 148 1H  IN PTR  lvs3002.mgmt.esams.wmnet.
 149 1H  IN PTR  lvs3003.mgmt.esams.wmnet.
 150 1H  IN PTR  lvs3004.mgmt.esams.wmnet.
+151 1H  IN PTR  cp3030.mgmt.esams.wmnet.
+152 1H  IN PTR  cp3031.mgmt.esams.wmnet.
+153 1H  IN PTR  cp3032.mgmt.esams.wmnet.
+154 1H  IN PTR  cp3033.mgmt.esams.wmnet.
+155 1H  IN PTR  cp3034.mgmt.esams.wmnet.
+156 1H  IN PTR  cp3035.mgmt.esams.wmnet.
+157 1H  IN PTR  cp3036.mgmt.esams.wmnet.
+158 1H  IN PTR  cp3037.mgmt.esams.wmnet.
+159 1H  IN PTR  cp3038.mgmt.esams.wmnet.
+160 1H  IN PTR  cp3039.mgmt.esams.wmnet.
+161 1H  IN PTR  cp3040.mgmt.esams.wmnet.
+162 1H  IN PTR  cp3041.mgmt.esams.wmnet.
+163 1H  IN PTR  cp3042.mgmt.esams.wmnet.
+164 1H  IN PTR  cp3043.mgmt.esams.wmnet.
+165 1H  IN PTR  cp3044.mgmt.esams.wmnet.
+166 1H  IN PTR  cp3045.mgmt.esams.wmnet.
+167 1H  IN PTR  cp3046.mgmt.esams.wmnet.
+168 1H  IN PTR  cp3047.mgmt.esams.wmnet.
+169 1H  IN PTR  cp3048.mgmt.esams.wmnet.
+170 1H  IN PTR  cp3049.mgmt.esams.wmnet.
+171 1H  IN PTR  cp3050.mgmt.esams.wmnet.
+172 1H  IN PTR  cp3051.mgmt.esams.wmnet.
+173 1H  IN PTR  cp3052.mgmt.esams.wmnet.
+174 1H  IN PTR  cp3053.mgmt.esams.wmnet.
 
 210 1H  IN PTR  scs1-esams.mgmt.esams.wmnet.
 211 1H  IN PTR  ge-0-0-47.csw2-esams.wikimedia.org.
