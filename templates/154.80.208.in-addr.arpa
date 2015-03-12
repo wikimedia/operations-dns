@@ -25,7 +25,7 @@ $ORIGIN {{ zonename }}.
 7   1H  IN PTR  antimony.wikimedia.org.
 10  1H  IN PTR  carbon.wikimedia.org.
 11  1H  IN PTR  dataset1001.wikimedia.org.
-
+12  1H  IN PTR  holmium.wikimedia.org.
 13  1H  IN PTR  protactinium.wikimedia.org.
 14  1H  IN PTR  neon.wikimedia.org.
 15  1H  IN PTR  oxygen.wikimedia.org.
