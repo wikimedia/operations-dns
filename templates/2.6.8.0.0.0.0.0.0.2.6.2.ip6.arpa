@@ -26,10 +26,7 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 ; Machines
 
-6.7.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   cp3006.esams.wikimedia.org.
-7.7.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   cp3007.esams.wikimedia.org.
 8.7.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   cp3008.esams.wikimedia.org.
-9.7.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   cp3009.esams.wikimedia.org.
 
 3.1.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   hooft.esams.wikimedia.org.
 
