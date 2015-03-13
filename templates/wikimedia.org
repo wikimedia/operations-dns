@@ -733,8 +733,6 @@ tiles           1H  IN A    91.198.174.8
 
 ; Servers
 
-cp3008          1H  IN A    91.198.174.78
-            1H  IN AAAA 2620:0:862:1:91:198:174:78
 fuchsia         1H  IN A    91.198.174.120
 hawthorn        1H  IN A    91.198.174.122
 hooft           1H  IN A    91.198.174.113
