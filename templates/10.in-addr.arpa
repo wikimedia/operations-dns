@@ -159,10 +159,6 @@ $ORIGIN 0.20.{{ zonename }}.
 182 1H  IN PTR      cp3047.esams.wmnet.
 183 1H  IN PTR      cp3048.esams.wmnet.
 184 1H  IN PTR      cp3049.esams.wmnet.
-185 1H  IN PTR      cp3050.esams.wmnet.
-186 1H  IN PTR      cp3051.esams.wmnet.
-187 1H  IN PTR      cp3052.esams.wmnet.
-188 1H  IN PTR      cp3053.esams.wmnet.
 
 ; Management
 
@@ -277,10 +273,6 @@ $ORIGIN 0.21.{{ zonename }}.
 168 1H  IN PTR  cp3047.mgmt.esams.wmnet.
 169 1H  IN PTR  cp3048.mgmt.esams.wmnet.
 170 1H  IN PTR  cp3049.mgmt.esams.wmnet.
-171 1H  IN PTR  cp3050.mgmt.esams.wmnet.
-172 1H  IN PTR  cp3051.mgmt.esams.wmnet.
-173 1H  IN PTR  cp3052.mgmt.esams.wmnet.
-174 1H  IN PTR  cp3053.mgmt.esams.wmnet.
 
 210 1H  IN PTR  scs1-esams.mgmt.esams.wmnet.
 211 1H  IN PTR  ge-0-0-47.csw2-esams.wikimedia.org.
