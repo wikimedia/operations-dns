@@ -2623,6 +2623,7 @@ $ORIGIN 0.192.{{ zonename }}.
 118 1H IN PTR   mw2079.codfw.wmnet.
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
+121 1H IN PTR   suhail.codfw.wmnet.
 
 $ORIGIN 1.192.{{ zonename }}.
 1   1H IN PTR   lvs2001.codfw.wmnet.
@@ -2764,6 +2765,7 @@ $ORIGIN 16.192.{{ zonename }}.
 121 1H IN PTR   eventlog2001.codfw.wmnet.
 122 1H IN PTR   rdb2003.codfw.wmnet.
 123 1H IN PTR   rdb2004.codfw.wmnet.
+124 1H IN PTR   suhail.codfw.wmnet.
 
 $ORIGIN 17.192.{{ zonename }}.
 1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
@@ -3543,6 +3545,10 @@ $ORIGIN 2.193.{{ zonename }}.
 161 1H IN PTR  wmf6273.mgmt.codfw.wmnet.
 162 1H IN PTR  rdb2004.mgmt.codfw.wmnet.
 162 1H IN PTR  wmf6274.mgmt.codfw.wmnet.
+163 1H IN PTR  subra.mgmt.codfw.wmnet.
+163 1H IN PTR  wmf5816.mgmt.codfw.wmnet.
+164 1H IN PTR  suhail.mgmt.codfw.wmnet.
+164 1H IN PTR  wmf5817.mgmt.codfw.wmnet.
 
 
 ; 10.195.0.0/25 - frack.codfw subnets
