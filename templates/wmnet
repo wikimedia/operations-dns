@@ -2352,8 +2352,8 @@ rdb2003         1H  IN A    10.192.16.122
 rdb2004         1H  IN A    10.192.16.123
 rbf2001         1H  IN A    10.192.0.33
 rbf2002         1H  IN A    10.192.16.36
-subra           1H  IN A    10.192.0.121
-suhail          1H  IN A    10.192.16.124
+subra           1H  IN A    10.192.16.124
+suhail          1H  IN A    10.192.0.121
 wtp2001         1H  IN A    10.192.16.43
 wtp2002         1H  IN A    10.192.16.44
 wtp2003         1H  IN A    10.192.16.45
