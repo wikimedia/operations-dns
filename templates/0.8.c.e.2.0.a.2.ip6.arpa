@@ -15,14 +15,6 @@ $ORIGIN {{ zonename }}.
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
-; Toolserver (2a02:ec80:101::/48)
-
-$ORIGIN 1.0.1.0.{{ zonename }}.
-
-@   1H IN NS    a.ns.toolserver.org.
-@   1H IN NS    b.ns.toolserver.org.
-@   1H IN NS    c.ns.toolserver.org.
-
 ;  OOB Tilaa transit subnet (2a02:ec80:500:1::/64)
 
 $ORIGIN 1.0.0.0.0.0.5.0.{{ zonename }}.

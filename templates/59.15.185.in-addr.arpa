@@ -15,15 +15,6 @@ $ORIGIN {{ zonename }}.
         1D IN NS   ns1.wikimedia.org.
         1D IN NS   ns2.wikimedia.org.
 
-; Toolserver subnet: 185.15.59.192/27 (185.15.59.192 - 185.15.59.223)
-
-192-223 1H IN NS    a.ns.toolserver.org.
-        1H IN NS    b.ns.toolserver.org.
-        1H IN NS    c.ns.toolserver.org.
-{% for i in range(192, 224) %}
-{{ i }} 1H IN CNAME {{ i }}.192-223.59.15.185.in-addr.arpa.
-{%- endfor %}
-
 ; Neighbor blocks: 185.15.59.244/29
 
 ; cr1-esams <--> mr1-esams: 185.15.59.244/31

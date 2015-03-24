@@ -122,21 +122,6 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 3.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3048.esams.wmnet.
 4.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3049.esams.wmnet.
 
-; Toolserver external subnet 2620:0:862:101::/64
-
-$ORIGIN 1.0.1.0.{{ zonename }}.
-
-@   1H IN NS    a.ns.toolserver.org.
-@   1H IN NS    b.ns.toolserver.org.
-@   1H IN NS    c.ns.toolserver.org.
-
-; Toolserver internal subnet 2620:0:862:301::/64
-
-$ORIGIN 1.0.3.0.{{ zonename }}.
-
-@   1H IN NS    a.ns.toolserver.org.
-@   1H IN NS    b.ns.toolserver.org.
-@   1H IN NS    c.ns.toolserver.org.
 
 ; LVS Service IPs, 2620:0:862:ed1a::/64
 
