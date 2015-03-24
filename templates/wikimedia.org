@@ -713,7 +713,13 @@ $ORIGIN corp.{{ zonename }}.
 ns1             1H  IN A    198.73.209.15
 ns2             1H  IN A    198.73.209.16
 
-; Amsterdam cluster
+; esams cluster
+
+$ORIGIN {{ zonename }}.
+
+; Servers
+
+maerlant         1H  IN A       91.198.174.122
 
 $ORIGIN esams.{{ zonename }}.
 
@@ -724,8 +730,7 @@ recursor0       1H  IN A        91.198.174.6 ; nescio
 ntp             1H  IN CNAME    nescio
 
 ; Servers
-
-maerlant        1H  IN A    91.198.174.122
+; FIXME: these stay under .esams.wikimedia.org until they get reprovisioned
 slauerhoff      1H  IN A    91.198.174.108
 slauerhoff-array    1H  IN A    91.198.174.107
 hooft           1H  IN A    91.198.174.113
