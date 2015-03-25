@@ -18,7 +18,7 @@ plugins => { geoip => {
                     BN => [ulsfo, eqiad], # Brunei Darussalam
                     BT => [ulsfo, eqiad], # Bhutan
                     CC => [ulsfo, eqiad], # Cocos (Keeling) Islands
-                    CN => [eqiad       ], # China
+                    CN => [ulsfo, eqiad], # China
                     CX => [ulsfo, eqiad], # Christmas Island
                     CY => [esams, ulsfo], # ESAMS-ULSFO # Cyprus
                     GE => [esams, ulsfo], # ESAMS-ULSFO # Georgia
