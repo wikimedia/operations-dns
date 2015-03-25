@@ -720,6 +720,9 @@ $ORIGIN {{ zonename }}.
 ; Servers
 
 maerlant         1H  IN A       91.198.174.122
+                 1H  IN AAAA    2620:0:862:1:91:198:174:122
+multatuli        1H  IN A       91.198.174.114
+                 1H  IN AAAA    2620:0:862:1:91:198:174:114
 
 $ORIGIN esams.{{ zonename }}.
 

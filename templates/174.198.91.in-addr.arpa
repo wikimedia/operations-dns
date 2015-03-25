@@ -32,7 +32,10 @@ $ORIGIN {{ zonename }}.
 106 1H IN PTR   nescio.esams.wikimedia.org.
 107 1H IN PTR   slauerhoff-array.esams.wikimedia.org.
 108 1H IN PTR   slauerhoff.esams.wikimedia.org.
+
 113 1H IN PTR   hooft.esams.wikimedia.org.
+114 1H IN PTR   multatuli.wikimedia.org.
+
 121 1H IN PTR   eeden.esams.wikimedia.org.
 122 1H IN PTR   maerlant.wikimedia.org.
 
