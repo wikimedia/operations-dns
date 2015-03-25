@@ -211,7 +211,6 @@ $ORIGIN 0.21.{{ zonename }}.
 86  1H  IN PTR  amssq61.mgmt.esams.wmnet.
 87  1H  IN PTR  amssq62.mgmt.esams.wmnet.
 
-101 1H  IN PTR  br1-knams.ipmi.knams.wikimedia.org.
 102 1H  IN PTR  csw1-esams.mgmt.esams.wmnet.
 104 1H  IN PTR  asw-esams.mgmt.esams.wmnet.
 105 1H  IN PTR  csw2-esams.mgmt.esams.wmnet.

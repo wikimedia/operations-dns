@@ -3287,8 +3287,6 @@ amssq60     1H  IN A        10.21.0.85
 amssq61     1H  IN A        10.21.0.86
 amssq62     1H  IN A        10.21.0.87
 
-br1-knams   1H  IN A        145.97.39.134
-
 cr1-esams   1H  IN A        10.21.0.116
 csw1-esams  1H  IN A        10.21.0.102
 asw-esams   1H  IN A        10.21.0.104
@@ -3359,16 +3357,6 @@ lvs3003     1H  IN A        10.21.0.149
 lvs3004     1H  IN A        10.21.0.150
 scs1-esams  1H  IN A        10.21.0.210
 msw-oe12-esams  1H  IN A        10.21.0.249
-
-
-;
-; KNAMS
-;
-
-$ORIGIN mgmt.knams.wmnet.
-
-br1-knams       1H      IN A            145.97.39.134
-
 
 ;
 ; ULSFO MGMT
