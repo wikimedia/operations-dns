@@ -2752,6 +2752,12 @@ $ORIGIN 16.192.{{ zonename }}.
 122 1H IN PTR   rdb2003.codfw.wmnet.
 123 1H IN PTR   rdb2004.codfw.wmnet.
 124 1H IN PTR   subra.codfw.wmnet.
+125 1H IN PTR   ganeti2001.codfw.wmnet.
+126 1H IN PTR   ganeti2002.codfw.wmnet.
+127 1H IN PTR   ganeti2003.codfw.wmnet.
+128 1H IN PTR   ganeti2004.codfw.wmnet.
+129 1H IN PTR   ganeti2005.codfw.wmnet.
+130 1H IN PTR   ganeti2006.codfw.wmnet.
 
 $ORIGIN 17.192.{{ zonename }}.
 1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
