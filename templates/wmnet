@@ -2596,6 +2596,12 @@ es2008          1H  IN A    10.193.1.242
 es2009          1H  IN A    10.193.1.243
 es2010          1H  IN A    10.193.1.244
 eventlog2001    1H  IN A    10.193.2.119
+ganeti2001      1H  IN A    10.193.2.165
+ganeti2002      1H  IN A    10.193.2.166
+ganeti2003      1H  IN A    10.193.2.167
+ganeti2004      1H  IN A    10.193.2.168
+ganeti2005      1H  IN A    10.193.2.169
+ganeti2006      1H  IN A    10.193.2.170
 graphite2001    1H  IN A    10.193.2.14
 haedus          1H  IN A    10.193.2.1
 heze            1H  IN A    10.193.1.250
