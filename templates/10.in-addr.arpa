@@ -3562,11 +3562,17 @@ $ORIGIN 2.193.{{ zonename }}.
 164 1H IN PTR  suhail.mgmt.codfw.wmnet.
 164 1H IN PTR  wmf5817.mgmt.codfw.wmnet.
 165 1H IN PTR  ganeti2001.mgmt.codfw.wmnet.
+165 1H IN PTR  wmf6295.mgmt.codfw.wmnet.
 166 1H IN PTR  ganeti2002.mgmt.codfw.wmnet.
+166 1H IN PTR  wmf6296.mgmt.codfw.wmnet.
 167 1H IN PTR  ganeti2003.mgmt.codfw.wmnet.
+167 1H IN PTR  wmf6297.mgmt.codfw.wmnet.
 168 1H IN PTR  ganeti2004.mgmt.codfw.wmnet.
+168 1H IN PTR  wmf6298.mgmt.codfw.wmnet.
 169 1H IN PTR  ganeti2005.mgmt.codfw.wmnet.
+169 1H IN PTR  wmf6299.mgmt.codfw.wmnet.
 170 1H IN PTR  ganeti2006.mgmt.codfw.wmnet.
+170 1H IN PTR  wmf6300.mgmt.codfw.wmnet.
 
 
 ; 10.195.0.0/25 - frack.codfw subnets
