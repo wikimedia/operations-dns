@@ -732,7 +732,7 @@ $ORIGIN esams.{{ zonename }}.
 puppet          1H  IN CNAME    palladium.eqiad.wmnet.
 recursor0       1H  IN A        91.198.174.216  ; esams LVS (dns-rec-lb)
 recursor1       1H  IN A        208.80.154.239  ; eqiad LVS (dns-rec-lb)
-ntp             1H  IN CNAME    nescio
+ntp             1H  IN CNAME    maerlant.wikimedia.org.
 
 ; Servers
 ; FIXME: these stay under .esams.wikimedia.org until they get reprovisioned
