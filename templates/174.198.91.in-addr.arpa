@@ -65,6 +65,10 @@ $ORIGIN {{ zonename }}.
 
 ; - - 91.198.174.216/29 LVS Misc
 
+216 1H IN PTR   dns-rec-lb.esams.wikimedia.org.
+
+; 91.198.174.224/28 out-of-subnet service IPs
+
 239 1H IN PTR   ns2.wikimedia.org.
 
 ; Neighbor block between cr2-knams and csw2-esams (91.198.174.240/31)

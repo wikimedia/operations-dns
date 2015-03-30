@@ -754,5 +754,7 @@ upload-lb     600 IN DYNA geoip!upload-addrs/esams
 mobile-lb     600 IN DYNA geoip!mobile-addrs/esams
 geoiplookup-lb    600 IN DYNA geoip!bits-addrs-v4/esams
 donate-lb     600 IN DYNA geoip!text-addrs-v4/esams
-            1H  IN MX 10    polonium.wikimedia.org.
-            1H  IN MX 50    lead.wikimedia.org.
+              1H  IN MX 10    polonium.wikimedia.org.
+              1H  IN MX 50    lead.wikimedia.org.
+dns-rec-lb    1H  IN A    91.198.174.216
+              1H  IN AAAA 2620:0:862:ed1a::3:fe
