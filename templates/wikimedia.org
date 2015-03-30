@@ -73,7 +73,7 @@ ns1         1H  IN A    208.80.153.231
 ns2         1H  IN A    91.198.174.239
 
 recursor0       1H  IN A    208.80.154.239  ; eqiad LVS (dns-rec-lb)
-recursor1       1H  IN A    91.198.174.6    ; nescio
+recursor1       1H  IN A    91.198.174.216  ; esams LVS (dns-rec-lb)
 
 ; Geodynamic records
 text-lb     600 DYNA geoip!text-addrs
@@ -730,7 +730,8 @@ $ORIGIN esams.{{ zonename }}.
 ; Service aliases
 
 puppet          1H  IN CNAME    palladium.eqiad.wmnet.
-recursor0       1H  IN A        91.198.174.6 ; nescio
+recursor0       1H  IN A        91.198.174.216  ; esams LVS (dns-rec-lb)
+recursor1       1H  IN A        208.80.154.239  ; eqiad LVS (dns-rec-lb)
 ntp             1H  IN CNAME    nescio
 
 ; Servers
