@@ -351,9 +351,11 @@ cr2-ulsfo       1H  IN A    198.35.26.193
                 IN AAAA 2620:0:863:ffff::2
 
 mr1-eqiad       1H  IN A    208.80.154.201
-
+mr1-ulsfo.oob   1H  IN A    209.237.234.242
 mr1-esams       1H  IN A    91.198.174.247
                 1H  IN AAAA 2620:0:862:ffff::1
+mr1-esams.oob   1H  IN A    164.138.24.90
+;mr1-esams.oob   1H  IN AAAA    2a02:2770:c011::1 ; does not ping
 
 vl1001-eth1.lvs1004 1H  IN A    208.80.154.58
 vl1001-eth1.lvs1005 1H  IN A    208.80.154.59
@@ -404,8 +406,6 @@ pfw2-eqiad      1H  IN A    208.80.154.219
 
 pfw1-codfw      1H  IN A    208.80.153.195
 pfw2-codfw      1H  IN A    208.80.153.196
-
-mr1-ulsfo.oob.wikimedia.org.    1H  IN A    209.237.234.242
 
 ; Cams
 
