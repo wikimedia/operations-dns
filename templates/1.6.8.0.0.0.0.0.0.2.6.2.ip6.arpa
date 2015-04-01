@@ -262,7 +262,7 @@ $ORIGIN 0.0.e.f.{{ zonename }}.
 
 $ORIGIN 3.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-5-2-0-1.cr2-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr2-knams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr1-esams.wikimedia.org.
 
 ; Loopback IPs
 
