@@ -133,8 +133,6 @@ dickson         1H  IN A    208.80.155.68
             1H  IN AAAA 2620:0:861:202:208:80:155:68
 gadolinium      1H  IN A    208.80.154.73
 gallium         1H  IN A    208.80.154.135
-gold            1H  IN A    208.80.154.85
-ganeti          1H  IN A    208.80.154.88
 hafnium         1H  IN A    208.80.154.79
 holmium         1H  IN A    208.80.154.12
 hydrogen        1H  IN A    208.80.154.50
@@ -156,8 +154,6 @@ lvs1004         1H  IN A    208.80.154.137
 lvs1005         1H  IN A    208.80.154.138
 lvs1006         1H  IN A    208.80.154.139
 magnesium       1H  IN A    208.80.154.5
-mercury         1H  IN A    208.80.154.86
-            1H  IN AAAA 2620:0:861:3:208:80:154:86
 ms1001          1H  IN A    208.80.154.16
                 1H  IN AAAA 2620:0:861:1:208:80:154:16
 nembus          1H  IN A    208.80.153.44
@@ -171,7 +167,6 @@ nitrogen        1H  IN A    208.80.154.17
 oxygen          1H  IN A    208.80.154.15
 pay-lvs1001     1H  IN A    208.80.155.2
 pay-lvs1002     1H  IN A    208.80.155.3
-platinum        1H  IN A    208.80.154.84
 plutonium       1H  IN A    208.80.154.62
 polonium        1H  IN A    208.80.154.90
             1H  IN AAAA 2620:0:861:3:208:80:154:90
@@ -196,8 +191,6 @@ sodium          1H  IN A    208.80.154.61
                 1H  IN AAAA 2620:0:861:1:208:80:154:61
 
 tellurium       1H  IN A    208.80.155.9
-thallium        1H  IN A    208.80.154.87
-                1H  IN AAAA 2620:0:861:3:208:80:154:87
 thulium         1H  IN A    208.80.155.12
 titanium        1H  IN A    208.80.154.154
 uranium         1H  IN A    208.80.154.53

@@ -65,11 +65,6 @@ $ORIGIN {{ zonename }}.
 79  1H  IN PTR  hafnium.wikimedia.org.
 80  1H  IN PTR  ytterbium.wikimedia.org.
 81  1H  IN PTR  gerrit.wikimedia.org.
-84  1H  IN PTR  platinum.wikimedia.org.
-85  1H  IN PTR  gold.wikimedia.org.
-86  1H  IN PTR  mercury.wikimedia.org.
-87  1H  IN PTR  thallium.wikimedia.org.
-88  1H  IN PTR  ganeti.wikimedia.org.
 89  1H  IN PTR  lead.wikimedia.org.
 90  1H  IN PTR  polonium.wikimedia.org.
 91  1H  IN PTR  wiki-mail-eqiad.wikimedia.org.
