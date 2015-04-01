@@ -3335,7 +3335,6 @@ amssq61     1H  IN A        10.21.0.86
 amssq62     1H  IN A        10.21.0.87
 
 cr1-esams   1H  IN A        10.21.0.116
-csw1-esams  1H  IN A        10.21.0.102
 asw-esams   1H  IN A        10.21.0.104
 csw2-esams  1H  IN A        10.21.0.105
 amslvs1     1H  IN A        10.21.0.106

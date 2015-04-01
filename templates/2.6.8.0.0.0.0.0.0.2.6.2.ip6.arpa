@@ -171,12 +171,9 @@ $ORIGIN 1.0.e.f.{{ zonename }}.
 
 $ORIGIN 2.0.e.f.{{ zonename }}.
 
-; csw2-esams <--> cr2-knams (2620:0:862:fe03::/64)
+; unused (2620:0:862:fe03::/64)
 
 $ORIGIN 3.0.e.f.{{ zonename }}.
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-402.cr2-knams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vl402.csw2-esams.wikimedia.org.
 
 ; cr1-esams <--> mr1-esams (2620:0:862:fe04::/64)
 
@@ -204,6 +201,6 @@ $ORIGIN 6.0.e.f.{{ zonename }}.
 $ORIGIN f.f.f.f.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mr1-esams.wikimedia.org.
-3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   csw2-esams.wikimedia.org.
+
 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-knams.wikimedia.org.
 5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-esams.wikimedia.org.
