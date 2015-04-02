@@ -19,7 +19,6 @@ $ORIGIN {{ zonename }}.
 $ORIGIN 1.2.{{ zonename }}.
 
 1   1H  IN PTR  appservers.svc.codfw.wmnet.
-15  1H  IN PTR  ganeti01.svc.codfw.wmnet.
 21  1H  IN PTR  rendering.svc.codfw.wmnet.
 22  1H  IN PTR  api.svc.codfw.wmnet.
 27  1H  IN PTR  ms-fe.svc.codfw.wmnet.
@@ -30,7 +29,6 @@ $ORIGIN 2.2.{{ zonename }}.
 
 1   1H  IN PTR  appservers.svc.eqiad.wmnet.
 3   1H  IN PTR  hhvm-api.svc.eqiad.wmnet.
-15  1H  IN PTR  ganeti01.svc.eqiad.wmnet.
 16  1H  IN PTR  zotero.svc.eqiad.wmnet.
 17  1H  IN PTR  restbase.svc.eqiad.wmnet.
 18  1H  IN PTR  cxserver.svc.eqiad.wmnet.
@@ -876,6 +874,7 @@ $ORIGIN 32.64.{{ zonename }}.
 170     1H IN PTR       ganeti1002.eqiad.wmnet.
 171     1H IN PTR       ganeti1003.eqiad.wmnet.
 172     1H IN PTR       ganeti1004.eqiad.wmnet.
+173     1H IN PTR       ganeti01.svc.eqiad.wmnet.
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
@@ -2763,6 +2762,7 @@ $ORIGIN 16.192.{{ zonename }}.
 128 1H IN PTR   ganeti2004.codfw.wmnet.
 129 1H IN PTR   ganeti2005.codfw.wmnet.
 130 1H IN PTR   ganeti2006.codfw.wmnet.
+131 1H IN PTR   ganeti01.svc.codfw.wmnet.
 
 $ORIGIN 17.192.{{ zonename }}.
 1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
