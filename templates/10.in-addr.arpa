@@ -850,7 +850,6 @@ $ORIGIN 32.64.{{ zonename }}.
 146     1H IN PTR       osmium.eqiad.wmnet.
 147     1H IN PTR       hp1001.eqiad.wmnet.
 148     1H IN PTR       rcs1001.eqiad.wmnet.
-149     1H IN PTR       radon.eqiad.wmnet.
 150     1H IN PTR       iridium.eqiad.wmnet.
 151     1H IN PTR       ocg1001.eqiad.wmnet.
 152     1H IN PTR       ms-fe1003.eqiad.wmnet.
@@ -2665,8 +2664,6 @@ $ORIGIN 16.192.{{ zonename }}.
 31  1H IN PTR   es2010.codfw.wmnet.
 32  1H IN PTR   ms-be2014.codfw.wmnet.
 33  1H IN PTR   graphite2001.codfw.wmnet.
-34  1H IN PTR   haedus.codfw.wmnet.
-35  1H IN PTR   capella.codfw.wmnet.
 36  1H IN PTR   rbf2002.codfw.wmnet.
 37  1H IN PTR   mc2007.codfw.wmnet.
 38  1H IN PTR   mc2008.codfw.wmnet.

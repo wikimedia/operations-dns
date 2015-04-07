@@ -667,7 +667,6 @@ pc1002          1H  IN A        10.64.16.157
 pc1003          1H  IN A        10.64.16.158
 potassium       1H  IN A        10.64.16.152
 praseodymium    1H  IN A        10.64.16.149
-radon           1H  IN A        10.64.32.149
 rbf1001             1H  IN A        10.64.0.162
 rbf1002             1H  IN A        10.64.0.163
 rcs1001         1H  IN A        10.64.32.148
@@ -2031,7 +2030,6 @@ webproxy        1H  IN CNAME    carbon.wikimedia.org.
 
 ; Servers - listed alphabetically
 
-capella         1H  IN A    10.192.16.35
 db2001          1H  IN A    10.192.0.4
 db2002          1H  IN A    10.192.0.5
 db2003          1H  IN A    10.192.0.6
@@ -2094,7 +2092,6 @@ ganeti2004      1H  IN A    10.192.16.128
 ganeti2005      1H  IN A    10.192.16.129
 ganeti2006      1H  IN A    10.192.16.130
 graphite2001    1H  IN A    10.192.16.33
-haedus          1H  IN A    10.192.16.34
 heze            1H  IN A    10.192.0.31
 labstore2001    1H  IN A    10.192.21.4
 labstore2002    1H  IN A    10.192.21.5
