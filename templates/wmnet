@@ -674,8 +674,8 @@ pc1002          1H  IN A        10.64.16.157
 pc1003          1H  IN A        10.64.16.158
 potassium       1H  IN A        10.64.16.152
 praseodymium    1H  IN A        10.64.16.149
-rbf1001             1H  IN A        10.64.0.162
-rbf1002             1H  IN A        10.64.0.163
+
+
 rcs1001         1H  IN A        10.64.32.148
                 1H  IN AAAA     2620:0:861:103:10:64:32:148
 rcs1002         1H  IN A        10.64.0.17
@@ -814,13 +814,11 @@ nas1001-b       1H  IN A        10.65.0.101
 WMF3134     1H  IN A    10.65.2.1
 radium      1H  IN A    10.65.2.1
 WMF3133     1H  IN A    10.65.2.2
-rbf1001     1H  IN A    10.65.2.2
 WMF3132     1H  IN A    10.65.2.3
 dbproxy1002 1H  IN A    10.65.2.3
 WMF3131     1H  IN A    10.65.2.4
 dbproxy1001 1H  IN A    10.65.2.4
 WMF3130     1H  IN A    10.65.2.5
-rbf1002     1H  IN A    10.65.2.5
 WMF3129     1H  IN A    10.65.2.6
 protactinium   1H  IN A    10.65.2.6
 WMF3128     1H  IN A    10.65.2.7
@@ -2371,8 +2369,8 @@ rdb2001         1H  IN A    10.192.0.119
 rdb2002         1H  IN A    10.192.0.120
 rdb2003         1H  IN A    10.192.16.122
 rdb2004         1H  IN A    10.192.16.123
-rbf2001         1H  IN A    10.192.0.33
-rbf2002         1H  IN A    10.192.16.36
+
+
 subra           1H  IN A    10.192.16.124
 suhail          1H  IN A    10.192.0.121
 wtp2001         1H  IN A    10.192.16.43
@@ -2914,8 +2912,6 @@ rdb2001         1H  IN A    10.193.2.159
 rdb2002         1H  IN A    10.193.2.160
 rdb2003         1H  IN A    10.193.2.161
 rdb2004         1H  IN A    10.193.2.162
-rbf2001         1H  IN A    10.193.2.116
-rbf2002         1H  IN A    10.193.2.118
 tmh2001         1H  IN A    10.193.1.8
 tmh2002         1H  IN A    10.193.1.9
 virt2001        1H  IN A    10.193.1.12
