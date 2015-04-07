@@ -338,6 +338,7 @@ iridium         1H  IN A        10.64.32.150
 labmon1001      1H  IN A        10.64.37.13
 labnet1001      1H  IN A        10.64.20.13
 labnet1001-ext  1H  IN A        10.64.22.11
+labnodepool1001 1H  IN A        10.64.20.18
 labsdb1001      1H  IN A        10.64.4.11
 labsdb1002      1H  IN A        10.64.37.4
 labsdb1003      1H  IN A        10.64.37.5
@@ -864,6 +865,7 @@ dbproxy1008 1H  IN A    10.65.2.38
 WMF3097     1H  IN A    10.65.2.38
 WMF3096     1H  IN A    10.65.2.39
 WMF3095     1H  IN A    10.65.2.40
+labnodepool1001 1H  IN A    10.65.2.40
 WMF3094     1H  IN A    10.65.2.41
 dbproxy1005 1H  IN A    10.65.2.41
 WMF3093     1H  IN A    10.65.2.42
