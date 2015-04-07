@@ -851,7 +851,6 @@ $ORIGIN 32.64.{{ zonename }}.
 146     1H IN PTR       osmium.eqiad.wmnet.
 147     1H IN PTR       hp1001.eqiad.wmnet.
 148     1H IN PTR       rcs1001.eqiad.wmnet.
-149     1H IN PTR       radon.eqiad.wmnet.
 150     1H IN PTR       iridium.eqiad.wmnet.
 151     1H IN PTR       ocg1001.eqiad.wmnet.
 152     1H IN PTR       ms-fe1003.eqiad.wmnet.
