@@ -3666,6 +3666,8 @@ $ORIGIN 2.193.{{ zonename }}.
 169 1H IN PTR  wmf6299.mgmt.codfw.wmnet.
 170 1H IN PTR  ganeti2006.mgmt.codfw.wmnet.
 170 1H IN PTR  wmf6300.mgmt.codfw.wmnet.
+171 1H IN PTR  mira.mgmt.codfw.wmnet.
+171 1H IN PTR  wmf5818.mgmt.codfw.wmnet.
 
 
 ; 10.195.0.0/25 - frack.codfw subnets
