@@ -713,7 +713,6 @@ $ORIGIN 21.64.{{ zonename }}.
 103 1H IN PTR   analytics1003.eqiad.wmnet.
 104 1H IN PTR   analytics1004.eqiad.wmnet.
 110 1H IN PTR   analytics1010.eqiad.wmnet.
-123 1H IN PTR   vanadium.eqiad.wmnet.
 
 ; 10.64.32.0/22 - private1-c-eqiad
 $ORIGIN 32.64.{{ zonename }}.
