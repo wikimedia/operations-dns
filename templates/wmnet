@@ -2466,6 +2466,7 @@ $ORIGIN mgmt.frack.codfw.wmnet.
 alnilam             1H  IN A    10.195.0.105
 alnitak             1H  IN A    10.195.0.108
 bellatrix           1H  IN A    10.195.0.109
+betelgeuse          1H  IN A    10.195.0.111
 fdb2001             1H  IN A    10.195.0.110
 heka                1H  IN A    10.195.0.103
 mintaka             1H  IN A    10.195.0.107
@@ -2997,6 +2998,7 @@ WMF3746         1H  IN A    10.192.1.16
 WMF3747         1H  IN A    10.192.1.17
 WMF3748         1H  IN A    10.192.1.18
 WMF3749         1H  IN A    10.192.1.19
+WMF3762         1H  IN A    10.195.0.111
 WMF3811         1H  IN A    10.193.2.119
 WMF3903         1H  IN A    10.193.2.13
 WMF5700         1H  IN A    10.193.1.26
