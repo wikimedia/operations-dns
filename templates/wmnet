@@ -1798,6 +1798,7 @@ WMF3298     1H  IN A    10.65.3.21
 gallium     1H  IN A    10.65.3.20
 WMF3299     1H  IN A    10.65.3.20
 WMF3300     1H  IN A    10.65.3.19
+berrylium   1H  IN A    10.65.3.18
 WMF3301     1H  IN A    10.65.3.18
 argon       1H  IN A    10.65.3.17
 WMF3302     1H  IN A    10.65.3.17
@@ -2001,6 +2002,7 @@ aluminium       1H      IN A    10.64.40.110
 americium       1H      IN A    10.64.40.113
 barium          1H      IN A    10.64.40.109
 barium-fundraising 1H      IN A    10.64.40.112
+berrylium       1H      IN A    10.64.40.68
 bismuth         1H      IN A    10.64.40.114
 boron           1H      IN A    10.64.40.66
 db1008          1H      IN A    10.64.40.99
