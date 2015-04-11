@@ -645,7 +645,7 @@ transparency     1H  IN CNAME    misc-web-lb.eqiad
 search           600 IN DYNA     geoip!text-addrs
 shop             1H  IN CNAME    shopwikipedia.myshopify.com.
 smokeping        1H  IN CNAME    netmon1001
-store            600 IN CNAME    c.ssl.shopify.com.
+store            600 IN DYNA     geoip!text-addrs
 static-bugzilla  1H  IN CNAME    misc-web-lb.eqiad
 stats            1H  IN CNAME    misc-web-lb.eqiad
 status           1H  IN CNAME    status.watchmouse.com.
