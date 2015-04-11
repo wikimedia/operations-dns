@@ -139,15 +139,22 @@ $ORIGIN 4.0.2.0.{{ zonename }}.
 
 $ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
+1.0.0.0 1H IN PTR   text-lb.codfw.wikimedia.org.
 e.0.0.0 1H IN PTR   ns1.wikimedia.org.
 
 ; LVS Mobile Zero & general support, 2620:0:860:ed1a::1:0/112
 
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
+9.0.0.0                         1H IN PTR   login-lb.codfw.wikimedia.org.
+a.0.0.0                         1H IN PTR   bits-lb.codfw.wikimedia.org.
+c.0.0.0                         1H IN PTR   mobile-lb.codfw.wikimedia.org.
+
 ; LVS Multimedia, 2620:0:860:ed1a::2:0/112
 
 $ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+
+b.0.0.0                         1H IN PTR   upload-lb.codfw.wikimedia.org.
 
 ; LVS Misc, 2620:0:860:ed1a::3:0/112
 

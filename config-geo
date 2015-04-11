@@ -3,7 +3,7 @@ plugins => { geoip => {
         generic-map => {
             geoip_db => /usr/share/GeoIP/GeoLiteCityv6.dat
             geoip_db_v4_overlay => /usr/share/GeoIP/GeoIPCity.dat
-            datacenters => [eqiad esams ulsfo]
+            datacenters => [eqiad esams ulsfo codfw]
             map => {
                 # use ISO 3166-2 official names
                 AF => [esams, eqiad], # ESAMS-EQIAD
@@ -223,7 +223,7 @@ plugins => { geoip => {
         only-primary-map => {
             geoip_db => /usr/share/GeoIP/GeoIPv6.dat
             geoip_db_v4_overlay => /usr/share/GeoIP/GeoIP.dat
-            datacenters => [eqiad esams ulsfo]
+            datacenters => [eqiad codfw esams ulsfo]
             map => {
                 default => eqiad,
             }
@@ -235,6 +235,7 @@ plugins => { geoip => {
             service_types => up
             dcmap => {
                 eqiad => { addrs_v4 => 208.80.154.224, addrs_v6 => 2620:0:861:ed1a::1 }
+                codfw => { addrs_v4 => 208.80.153.224, addrs_v6 => 2620:8:860:ed1a::1 }
                 esams => { addrs_v4 => 91.198.174.192, addrs_v6 => 2620:0:862:ed1a::1 }
                 ulsfo => { addrs_v4 => 198.35.26.96,   addrs_v6 => 2620:0:863:ed1a::1 }
             }
@@ -244,6 +245,7 @@ plugins => { geoip => {
             service_types => up
             dcmap => {
                 eqiad => 208.80.154.224
+                codfw => 208.80.153.224
                 esams => 91.198.174.192
                 ulsfo => 198.35.26.96
             }
@@ -253,6 +255,7 @@ plugins => { geoip => {
             service_types => up
             dcmap => {
                 eqiad => { addrs_v4 => 208.80.154.234, addrs_v6 => 2620:0:861:ed1a::1:a }
+                codfw => { addrs_v4 => 208.80.153.234, addrs_v6 => 2620:0:860:ed1a::1:a }
                 esams => { addrs_v4 => 91.198.174.202, addrs_v6 => 2620:0:862:ed1a::1:a }
                 ulsfo => { addrs_v4 => 198.35.26.106,  addrs_v6 => 2620:0:863:ed1a::1:a }
             }
@@ -262,6 +265,7 @@ plugins => { geoip => {
             service_types => up
             dcmap => {
                 eqiad => 208.80.154.234
+                codfw => 208.80.153.234
                 esams => 91.198.174.202
                 ulsfo => 198.35.26.106
             }
@@ -271,6 +275,7 @@ plugins => { geoip => {
             service_types => up
             dcmap => {
                 eqiad => { addrs_v4 => 208.80.154.240, addrs_v6 => 2620:0:861:ed1a::2:b }
+                codfw => { addrs_v4 => 208.80.153.240, addrs_v6 => 2620:0:860:ed1a::2:b }
                 esams => { addrs_v4 => 91.198.174.208, addrs_v6 => 2620:0:862:ed1a::2:b }
                 ulsfo => { addrs_v4 => 198.35.26.112,  addrs_v6 => 2620:0:863:ed1a::2:b }
             }
@@ -280,6 +285,7 @@ plugins => { geoip => {
             service_types => up
             dcmap => {
                 eqiad => { addrs_v4 => 208.80.154.236, addrs_v6 => 2620:0:861:ed1a::1:c }
+                codfw => { addrs_v4 => 208.80.153.236, addrs_v6 => 2620:0:860:ed1a::1:c }
                 esams => { addrs_v4 => 91.198.174.204, addrs_v6 => 2620:0:862:ed1a::1:c }
                 ulsfo => { addrs_v4 => 198.35.26.108,  addrs_v6 => 2620:0:863:ed1a::1:c }
             }
@@ -289,6 +295,7 @@ plugins => { geoip => {
             service_types => up
             dcmap => {
                 eqiad => { addrs_v4 => 208.80.154.233, addrs_v6 => 2620:0:861:ed1a::1:9 }
+                codfw => { addrs_v4 => 208.80.153.233, addrs_v6 => 2620:0:860:ed1a::1:9 }
                 esams => { addrs_v4 => 91.198.174.201, addrs_v6 => 2620:0:862:ed1a::1:9 }
                 ulsfo => { addrs_v4 => 198.35.26.105,  addrs_v6 => 2620:0:863:ed1a::1:9 }
             }

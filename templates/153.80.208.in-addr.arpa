@@ -104,11 +104,16 @@ $ORIGIN {{ zonename }}.
 ; LVS out-of-subnet service IPs (208.80.153.224/27)
 
 ; Desktop Text & Assets  208.80.153.224 - .231 (208.80.153.224/29)
+224 1H  IN PTR  text-lb.codfw.wikimedia.org.
 231 1H  IN PTR  ns1.wikimedia.org.
 
 ; Mobile Zero & general Support 208.80.153.232 - .239 (208.80.153.232/29)
+233 1H  IN PTR  login-lb.codfw.wikimedia.org.
+234 1H  IN PTR  bits-lb.codfw.wikimedia.org.
+236 1H  IN PTR  mobile-lb.codfw.wikimedia.org.
 
 ; Multimedia 208.80.153.240 - .247 (208.80.153.240/29)
+240 1H  IN PTR  upload-lb.codfw.wikimedia.org.
 
 ; Misc 208.80.153.248 - .255 (208.80.153.248/29)
 254  1H  IN PTR dns-rec-lb.codfw.wikimedia.org.
