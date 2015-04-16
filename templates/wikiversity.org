@@ -44,8 +44,6 @@ www         600 IN DYNA     geoip!text-addrs
 ; Other websites
 donate      600 IN DYNA     geoip!text-addrs
 www.donate  600 IN DYNA     geoip!text-addrs
-shop        600 IN DYNA     geoip!text-addrs
-store       600 IN DYNA     geoip!text-addrs
 
 ; Mobile
 m           600 IN DYNA     geoip!mobile-addrs
