@@ -949,7 +949,7 @@ $ORIGIN 40.64.{{ zonename }}.
 ; 10.64.40.64/27 - frack-administration1-c-eqiad
 66  1H IN PTR   boron.frack.eqiad.wmnet.
 67  1H IN PTR   indium.frack.eqiad.wmnet.
-68  1H IN PTR   berrylium.frack.eqiad.wmnet.
+68  1H IN PTR   beryllium.frack.eqiad.wmnet.
 
 ; 10.64.40.96/27 - frack-fundraising1-c-eqiad
 98  1H IN PTR   silicon.frack.eqiad.wmnet.
@@ -1741,7 +1741,7 @@ $ORIGIN 3.65.{{ zonename }}.
 16  1H  IN PTR      wmf3135.mgmt.eqiad.wmnet.
 17  1H  IN PTR      argon.mgmt.eqiad.wmnet.
 17  1H  IN PTR      wmf3302.mgmt.eqiad.wmnet.
-18  1H  IN PTR      berrylium.mgmt.eqiad.wmnet.
+18  1H  IN PTR      beryllium.mgmt.eqiad.wmnet.
 18  1H  IN PTR      wmf3301.mgmt.eqiad.wmnet.
 19  1H  IN PTR      wmf3300.mgmt.eqiad.wmnet.
 20  1H  IN PTR      gallium.mgmt.eqiad.wmnet.
