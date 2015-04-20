@@ -652,7 +652,7 @@ racktables       1H  IN CNAME    misc-web-lb.eqiad
 scholarships     1H  IN CNAME    misc-web-lb.eqiad
 transparency     1H  IN CNAME    misc-web-lb.eqiad
 search           600 IN DYNA     geoip!text-addrs
-shop             1H  IN CNAME    shopwikipedia.myshopify.com.
+shop             600 IN DYNA     geoip!text-addrs
 smokeping        1H  IN CNAME    netmon1001
 store            600 IN CNAME    c.ssl.shopify.com.
 static-bugzilla  1H  IN CNAME    misc-web-lb.eqiad
