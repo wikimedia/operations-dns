@@ -3667,6 +3667,7 @@ $ORIGIN svc.eqiad.wmnet.
 appservers  1H  IN A        10.2.2.1
 hhvm-api    1H  IN A        10.2.2.3
 ganeti01    1H  IN A        10.64.32.173
+graphoid    1H  IN A        10.2.2.15
 zotero      1H  IN A        10.2.2.16
 restbase    1H  IN A        10.2.2.17
 cxserver    1H  IN A        10.2.2.18
