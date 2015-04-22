@@ -399,7 +399,7 @@ $ORIGIN 0.64.{{ zonename }}.
 120 1H IN PTR   snapshot1001.eqiad.wmnet.
 121 1H IN PTR   snapshot1002.eqiad.wmnet.
 161 1H IN PTR   lanthanum.eqiad.wmnet.
-
+162 1H IN PTR   logstash1004.eqiad.wmnet.
 
 164 1H IN PTR   strontium.eqiad.wmnet.
 165 1H IN PTR   dbproxy1001.eqiad.wmnet.
@@ -659,6 +659,7 @@ $ORIGIN 16.64.{{ zonename }}.
 182 1H IN PTR   wtp1014.eqiad.wmnet.
 183 1H IN PTR   rdb1004.eqiad.wmnet.
 184 1H IN PTR   rhodium.eqiad.wmnet.
+185 1H IN PTR   logstash1005.eqiad.wmnet.
 
 201 1H IN PTR   d-i-test.eqiad.wmnet.
 
@@ -1074,6 +1075,7 @@ $ORIGIN 48.64.{{ zonename }}.
 106     1H  IN PTR      cp1072.eqiad.wmnet.
 107     1H  IN PTR      cp1073.eqiad.wmnet.
 108     1H  IN PTR      cp1074.eqiad.wmnet.
+109     1H  IN PTR      logstash1006.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
@@ -2103,6 +2105,12 @@ $ORIGIN 4.65.{{ zonename }}.
 9   1H  IN PTR      wmf4063.mgmt.eqiad.wmnet.
 10  1H  IN PTR      es1010.mgmt.eqiad.wmnet.
 10  1H  IN PTR      wmf4064.mgmt.eqiad.wmnet.
+11  1H  IN PTR      logstash1004.mgmt.eqiad.wmnet.
+11  1H  IN PTR      wmf4675.mgmt.eqiad.wmnet.
+12  1H  IN PTR      logstash1005.mgmt.eqiad.wmnet.
+12  1H  IN PTR      wmf4676.mgmt.eqiad.wmnet.
+13  1H  IN PTR      logstash1006.mgmt.eqiad.wmnet.
+13  1H  IN PTR      wmf4677.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.{{ zonename }}.
 
