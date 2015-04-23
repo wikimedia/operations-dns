@@ -2990,7 +2990,6 @@ $ORIGIN 0.193.{{ zonename }}.
 17  1H IN PTR  asw-b-codfw.mgmt.codfw.wmnet.
 18  1H IN PTR  asw-c-codfw.mgmt.codfw.wmnet.
 19  1H IN PTR  asw-d-codfw.mgmt.codfw.wmnet.
-20  1H IN PTR  scs-c8-codfw.mgmt.codfw.wmnet.
 21  1H IN PTR  pfw1-codfw.mgmt.codfw.wmnet.
 22  1H IN PTR  pfw2-codfw.mgmt.codfw.wmnet.
 
