@@ -64,7 +64,7 @@ arbcom.nl               600     IN DYNA         geoip!text-addrs
 wg.en                   600     IN DYNA         geoip!text-addrs
 
 
-; All languages will automatically be included here
+; All languages will automatically be included here.
 {{ geolanglist('text-addrs') }}
 
 ; Other websites
