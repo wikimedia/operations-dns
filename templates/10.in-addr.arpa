@@ -444,6 +444,7 @@ $ORIGIN 0.64.{{ zonename }}.
 219 1H IN PTR   wtp1024.eqiad.wmnet.
 220 1H IN PTR   restbase1001.eqiad.wmnet.
 221 1H IN PTR   restbase1002.eqiad.wmnet.
+222 1H IN PTR   oxygen.eqiad.wmnet.
 
 $ORIGIN 1.64.{{ zonename }}.
 

@@ -28,7 +28,6 @@ $ORIGIN {{ zonename }}.
 12  1H  IN PTR  holmium.wikimedia.org.
 13  1H  IN PTR  protactinium.wikimedia.org.
 14  1H  IN PTR  neon.wikimedia.org.
-15  1H  IN PTR  oxygen.wikimedia.org.
 16  1H  IN PTR  ms1001.wikimedia.org.
 17  1H  IN PTR  nitrogen.wikimedia.org.
 18  1H  IN PTR  virt1000.wikimedia.org.
@@ -132,7 +131,7 @@ $ORIGIN {{ zonename }}.
 ; LVS out-of-subnet service IPs (208.80.154.224/27)
 ; FIXME : These will be slowly rearranged to fit
 
-; Desktop Text & Assets  208.80.154.224 - 231 (208.80.154.224/29)  
+; Desktop Text & Assets  208.80.154.224 - 231 (208.80.154.224/29)
 224 1H  IN PTR  text-lb.eqiad.wikimedia.org.
 
 ; Mobile Zero & general Support 208.80.154.232 - 39 (208.80.154.232/29)
