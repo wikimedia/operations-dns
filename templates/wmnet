@@ -206,7 +206,6 @@ db1007          1H  IN A        10.64.0.11
 db1009          1H  IN A        10.64.0.13
 db1010          1H  IN A        10.64.0.14
 db1011          1H  IN A        10.64.0.15
-tungsten        1H  IN A        10.64.0.18
 db1015          1H  IN A        10.64.0.19
 db1016          1H  IN A        10.64.0.20
 graphite1001    1H  IN A        10.64.32.155
