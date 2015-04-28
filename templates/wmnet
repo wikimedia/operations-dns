@@ -2538,7 +2538,6 @@ re1.cr2-codfw   1H  IN A    10.193.0.13
 
 scs-a1-codfw    1H  IN A    10.193.0.14
 scs-c1-codfw    1H  IN A    10.193.0.15
-scs-c8-codfw    1H  IN A    10.193.0.20
 
 pfw1-codfw      1H  IN A    10.193.0.21
 pfw2-codfw      1H  IN A    10.193.0.22
