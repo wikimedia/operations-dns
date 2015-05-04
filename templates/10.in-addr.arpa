@@ -24,6 +24,7 @@ $ORIGIN 1.2.{{ zonename }}.
 21  1H  IN PTR  rendering.svc.codfw.wmnet.
 22  1H  IN PTR  api.svc.codfw.wmnet.
 27  1H  IN PTR  ms-fe.svc.codfw.wmnet.
+28  1H  IN PTR  parsoid.svc.codfw.wmnet.
 30  1H  IN PTR  search.svc.codfw.wmnet.
 
 ; eqiad svc ips

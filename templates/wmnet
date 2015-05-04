@@ -3964,6 +3964,7 @@ ganeti01        1H  IN A        10.192.16.131
 rendering       1H  IN A        10.2.1.21
 api             1H  IN A        10.2.1.22
 ms-fe           1H  IN A        10.2.1.27
+parsoid         1H  IN A        10.2.1.28
 labstore        1H  IN A        10.192.21.7
 kartotherian    1H  IN A        10.2.1.13
 tilerator       1H  IN A        10.2.1.14
