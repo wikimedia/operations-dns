@@ -69,5 +69,3 @@
 #     geoip/bits-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
-
-geoip/generic-map/ulsfo => DOWN
