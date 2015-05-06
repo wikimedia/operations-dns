@@ -240,7 +240,7 @@ plugins => { geoip => {
                 ulsfo => { addrs_v4 => 198.35.26.96,   addrs_v6 => 2620:0:863:ed1a::1 }
             }
         }
-        text-addrs-v4 => { # v4 from above, for e.g. donate
+        text-addrs-v4 => { # v4 from above, for e.g. donate and geoiplookup
             map => generic-map
             service_types => up
             dcmap => {
@@ -258,16 +258,6 @@ plugins => { geoip => {
                 codfw => { addrs_v4 => 208.80.153.234, addrs_v6 => 2620:0:860:ed1a::1:a }
                 esams => { addrs_v4 => 91.198.174.202, addrs_v6 => 2620:0:862:ed1a::1:a }
                 ulsfo => { addrs_v4 => 198.35.26.106,  addrs_v6 => 2620:0:863:ed1a::1:a }
-            }
-        }
-        bits-addrs-v4 => { # v4 from above, for e.g. geoiplookup
-            map => generic-map
-            service_types => up
-            dcmap => {
-                eqiad => 208.80.154.234
-                codfw => 208.80.153.234
-                esams => 91.198.174.202
-                ulsfo => 198.35.26.106
             }
         }
         upload-addrs => {

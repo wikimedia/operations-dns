@@ -80,7 +80,7 @@ text-lb     600 DYNA geoip!text-addrs
 bits        600 DYNA geoip!bits-addrs
 upload      600 DYNA geoip!upload-addrs
 m           600 DYNA geoip!mobile-addrs
-geoiplookup 600 DYNA geoip!bits-addrs-v4
+geoiplookup 600 DYNA geoip!text-addrs-v4
 donate      600 DYNA geoip!text-addrs-v4
 
 ; Legacy geo-lb hostnames - no longer referenced
@@ -230,7 +230,7 @@ osm-lb.eqiad        1H  IN A    208.80.154.244
 misc-web-lb.eqiad   1H  IN A    208.80.154.241
             1H  IN AAAA 2620:0:861:ed1a::11
 
-geoiplookup-lb.eqiad    600 IN DYNA geoip!bits-addrs-v4/eqiad
+geoiplookup-lb.eqiad    600 IN DYNA geoip!text-addrs-v4/eqiad
 
 parsoid-lb.eqiad    1H  IN A    208.80.154.248
             1H  IN AAAA 2620:0:861:ed1a::3:14
@@ -256,7 +256,7 @@ login-lb.ulsfo      600 IN DYNA geoip!login-addrs/ulsfo
 bits-lb.ulsfo       600 IN DYNA geoip!bits-addrs/ulsfo
 upload-lb.ulsfo     600 IN DYNA geoip!upload-addrs/ulsfo
 mobile-lb.ulsfo     600 IN DYNA geoip!mobile-addrs/ulsfo
-geoiplookup-lb.ulsfo    600 IN DYNA geoip!bits-addrs-v4/ulsfo
+geoiplookup-lb.ulsfo    600 IN DYNA geoip!text-addrs-v4/ulsfo
 donate-lb.ulsfo     600 IN DYNA geoip!text-addrs-v4/ulsfo
             1H  IN MX 10    polonium.wikimedia.org.
             1H  IN MX 50    lead.wikimedia.org.
@@ -750,7 +750,7 @@ login-lb      600 IN DYNA geoip!login-addrs/esams
 bits-lb       600 IN DYNA geoip!bits-addrs/esams
 upload-lb     600 IN DYNA geoip!upload-addrs/esams
 mobile-lb     600 IN DYNA geoip!mobile-addrs/esams
-geoiplookup-lb    600 IN DYNA geoip!bits-addrs-v4/esams
+geoiplookup-lb    600 IN DYNA geoip!text-addrs-v4/esams
 donate-lb     600 IN DYNA geoip!text-addrs-v4/esams
               1H  IN MX 10    polonium.wikimedia.org.
               1H  IN MX 50    lead.wikimedia.org.

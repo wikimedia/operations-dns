@@ -53,19 +53,19 @@
 #     geoip/text*/esams => DOWN
 #     geoip/mobile-addrs/esams => DOWN
 #
-#     # Disable all services except bits-addrs + bits-addrs-v4 in ulsfo,
+#     # Disable all services except text-addrs + text-addrs-v4 in ulsfo,
 #     #   regardless of the order of these lines:
 #     geoip/generic-map/ulsfo => DOWN
-#     geoip/bits-*/ulsfo => UP
+#     geoip/text-*/ulsfo => UP
 #
-#     # Disable all services except bits-addrs in ulsfo:
+#     # Disable all services except text-addrs in ulsfo:
 #     geoip/generic-map/ulsfo => DOWN
-#     geoip/bits-*/ulsfo => UP # marks both bits UP as prev example, but...
-#     geoip/bits-addrs-v4/ulsfo => DOWN # this overrides the above for -v4
+#     geoip/text-*/ulsfo => UP # marks both text UP as prev example, but...
+#     geoip/text-addrs-v4/ulsfo => DOWN # this overrides the above for -v4
 #
-#     # Disables all services except bits-addrs + bits-addrs-v4 in ulsfo:
+#     # Disables all services except text-addrs + text-addrs-v4 in ulsfo:
 #     geoip/generic-map/ulsfo => DOWN
-#     geoip/bits-addrs-v4/ulsfo => DOWN # this does nothing because...
-#     geoip/bits-*/ulsfo => UP # ... this overrides the line above completely
+#     geoip/text-addrs-v4/ulsfo => DOWN # this does nothing because...
+#     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
