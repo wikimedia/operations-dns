@@ -124,7 +124,7 @@ plugins => { geoip => {
                         AL => [eqiad       ], # Alabama
                         AR => [eqiad       ], # Arkansas
                         AZ => [eqiad       ], # Arizona
-                        CA => [ulsfo, eqiad], # California
+                        CA => [eqiad       ], # California
                         CO => [eqiad       ], # Colorado
                         CT => [eqiad       ], # Connecticut
                         DC => [eqiad       ], # District of Columbia
@@ -207,16 +207,16 @@ plugins => { geoip => {
                 192.221.132.0/22  => [eqiad       ], # Atlanta
                 192.221.136.0/22  => [eqiad       ], # Chicago
                 192.221.140.0/22  => [eqiad       ], # Dallas
-                192.221.148.0/22  => [ulsfo, eqiad], # Los Angeles
+                192.221.148.0/22  => [eqiad       ], # Los Angeles
                 192.221.156.0/22  => [eqiad       ], # New York
-                192.221.160.0/22  => [ulsfo, eqiad], # San Jose
+                192.221.160.0/22  => [eqiad       ], # San Jose
                 192.221.164.0/22  => [eqiad       ], # Washington, DC
                 8.0.4.0/22        => [eqiad       ], # Atlanta
                 8.0.8.0/22        => [eqiad       ], # Chicago
                 8.0.12.0/22       => [eqiad       ], # Dallas
-                8.0.20.0/22       => [ulsfo, eqiad], # Los Angeles
+                8.0.20.0/22       => [eqiad       ], # Los Angeles
                 8.0.28.0/22       => [eqiad       ], # New York
-                8.0.32.0/22       => [ulsfo, eqiad], # San Jose
+                8.0.32.0/22       => [eqiad       ], # San Jose
                 8.0.36.0/22       => [eqiad       ], # Washington, DC
             },
         },
