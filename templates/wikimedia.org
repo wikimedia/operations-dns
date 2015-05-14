@@ -716,6 +716,8 @@ $ORIGIN {{ zonename }}.
 
 ; Servers
 
+eeden            1H  IN A       91.198.174.121
+                 1H  IN AAAA    2620:0:862:1:91:198:174:121
 maerlant         1H  IN A       91.198.174.122
                  1H  IN AAAA    2620:0:862:1:91:198:174:122
 multatuli        1H  IN A       91.198.174.114
@@ -738,7 +740,6 @@ slauerhoff      1H  IN A    91.198.174.108
 slauerhoff-array    1H  IN A    91.198.174.107
 hooft           1H  IN A    91.198.174.113
                 1H  IN AAAA 2620:0:862:1:91:198:174:113
-eeden           1H  IN A    91.198.174.121
 
 ; Management
 

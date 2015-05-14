@@ -34,7 +34,7 @@ $ORIGIN {{ zonename }}.
 113 1H IN PTR   hooft.esams.wikimedia.org.
 114 1H IN PTR   multatuli.wikimedia.org.
 
-121 1H IN PTR   eeden.esams.wikimedia.org.
+121 1H IN PTR   eeden.wikimedia.org.
 122 1H IN PTR   maerlant.wikimedia.org.
 
 ; unused 91.198.174.128/26 (91.198.174.128 - 91.198.174.191)
