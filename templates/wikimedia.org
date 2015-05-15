@@ -281,6 +281,7 @@ br.m                600 IN DYNA     geoip!mobile-addrs
 ca.m                600 IN DYNA     geoip!mobile-addrs
 chapcom.m           600 IN DYNA     geoip!mobile-addrs
 checkuser.m         600 IN DYNA     geoip!mobile-addrs
+cn.m                600 IN DYNA     geoip!mobile-addrs
 co.m                600 IN DYNA     geoip!mobile-addrs
 commons.m           600 IN DYNA     geoip!mobile-addrs
 dk.m                600 IN DYNA     geoip!mobile-addrs
@@ -511,6 +512,7 @@ ch               600 IN DYNA     geoip!text-addrs
 chair            600 IN DYNA     geoip!text-addrs
 chapcom          600 IN DYNA     geoip!text-addrs
 checkuser        600 IN DYNA     geoip!text-addrs
+cn               600 IN DYNA     geoip!text-addrs
 co               600 IN DYNA     geoip!text-addrs
 collab           600 IN DYNA     geoip!text-addrs
 comcom           600 IN DYNA     geoip!text-addrs
