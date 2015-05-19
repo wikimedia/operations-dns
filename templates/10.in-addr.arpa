@@ -700,6 +700,7 @@ $ORIGIN 20.64.{{ zonename }}.
 22  1H IN PTR   labvirt1004.eqiad.wmnet.
 23  1H IN PTR   labvirt1005.eqiad.wmnet.
 24  1H IN PTR   labvirt1006.eqiad.wmnet.
+25  1H IN PTR   labnet1002.eqiad.wmnet.
 
 ; 10.64.21.0/24 - analytics1-b-eqiad
 $ORIGIN 21.64.{{ zonename }}.
@@ -2328,7 +2329,7 @@ $ORIGIN 7.65.{{ zonename }}.
 21  1H  IN PTR      wmf3155.mgmt.eqiad.wmnet.
 22  1H  IN PTR      search1022.mgmt.eqiad.wmnet.
 22  1H  IN PTR      wmf3154.mgmt.eqiad.wmnet.
-23  1H  IN PTR      search1023.mgmt.eqiad.wmnet.
+23  1H  IN PTR      labnet1002.mgmt.eqiad.wmnet.
 23  1H  IN PTR      wmf3153.mgmt.eqiad.wmnet.
 24  1H  IN PTR      labcontrol1001.mgmt.eqiad.wmnet.
 24  1H  IN PTR      wmf3152.mgmt.eqiad.wmnet.
