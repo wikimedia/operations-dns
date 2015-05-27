@@ -195,6 +195,8 @@ cp1073           1H IN A         10.64.48.107
                  1H IN AAAA      2620:0:861:107:10:64:48:107
 cp1074           1H IN A         10.64.48.108
                  1H IN AAAA      2620:0:861:107:10:64:48:108
+cp1099           1H  IN A        10.64.32.81
+                 1H  IN AAAA     2620:0:861:103:10:64:32:81
 curium          1H  IN A        10.64.0.170
                 1H  IN AAAA 2620:0:861:101:10:64:0:170
 db1001          1H  IN A        10.64.0.5
@@ -280,8 +282,6 @@ dbproxy1011     1H  IN A        10.64.48.98
 dbstore1001     1H  IN A        10.64.48.17
 dbstore1002     1H  IN A        10.64.48.18
 d-i-test        1H  IN A        10.64.16.201
-dysprosium      1H  IN A        10.64.32.81
-                1H  IN AAAA     2620:0:861:103:10:64:32:81
 einsteinium     1H  IN A        10.64.48.94
 elastic1001     1H  IN A        10.64.0.108
 elastic1002     1H  IN A        10.64.0.109
