@@ -108,39 +108,6 @@ $ORIGIN 0.20.{{ zonename }}.
 121 1H  IN PTR      cp3021.esams.wmnet.
 122 1H  IN PTR      cp3022.esams.wmnet.
 
-131 1H  IN PTR      amssq31.esams.wmnet.
-132 1H  IN PTR      amssq32.esams.wmnet.
-133 1H  IN PTR      amssq33.esams.wmnet.
-134 1H  IN PTR      amssq34.esams.wmnet.
-135 1H  IN PTR      amssq35.esams.wmnet.
-136 1H  IN PTR      amssq36.esams.wmnet.
-137 1H  IN PTR      amssq37.esams.wmnet.
-138 1H  IN PTR      amssq38.esams.wmnet.
-139 1H  IN PTR      amssq39.esams.wmnet.
-140 1H  IN PTR      amssq40.esams.wmnet.
-141 1H  IN PTR      amssq41.esams.wmnet.
-142 1H  IN PTR      amssq42.esams.wmnet.
-143 1H  IN PTR      amssq43.esams.wmnet.
-144 1H  IN PTR      amssq44.esams.wmnet.
-145 1H  IN PTR      amssq45.esams.wmnet.
-146 1H  IN PTR      amssq46.esams.wmnet.
-147 1H  IN PTR      amssq47.esams.wmnet.
-148 1H  IN PTR      amssq48.esams.wmnet.
-149 1H  IN PTR      amssq49.esams.wmnet.
-150 1H  IN PTR      amssq50.esams.wmnet.
-151 1H  IN PTR      amssq51.esams.wmnet.
-152 1H  IN PTR      amssq52.esams.wmnet.
-153 1H  IN PTR      amssq53.esams.wmnet.
-154 1H  IN PTR      amssq54.esams.wmnet.
-155 1H  IN PTR      amssq55.esams.wmnet.
-156 1H  IN PTR      amssq56.esams.wmnet.
-157 1H  IN PTR      amssq57.esams.wmnet.
-158 1H  IN PTR      amssq58.esams.wmnet.
-159 1H  IN PTR      amssq59.esams.wmnet.
-160 1H  IN PTR      amssq60.esams.wmnet.
-161 1H  IN PTR      amssq61.esams.wmnet.
-162 1H  IN PTR      amssq62.esams.wmnet.
-
 165 1H  IN PTR      cp3030.esams.wmnet.
 166 1H  IN PTR      cp3031.esams.wmnet.
 167 1H  IN PTR      cp3032.esams.wmnet.
@@ -176,39 +143,6 @@ $ORIGIN 0.21.{{ zonename }}.
 8   1H  IN PTR  ge-0-0-0-0.mr1-esams.mgmt.esams.wmnet.
 
 ; 46-50 are used by TS
-
-56  1H  IN PTR  amssq31.mgmt.esams.wmnet.
-57  1H  IN PTR  amssq32.mgmt.esams.wmnet.
-58  1H  IN PTR  amssq33.mgmt.esams.wmnet.
-59  1H  IN PTR  amssq34.mgmt.esams.wmnet.
-60  1H  IN PTR  amssq35.mgmt.esams.wmnet.
-61  1H  IN PTR  amssq36.mgmt.esams.wmnet.
-62  1H  IN PTR  amssq37.mgmt.esams.wmnet.
-63  1H  IN PTR  amssq38.mgmt.esams.wmnet.
-64  1H  IN PTR  amssq39.mgmt.esams.wmnet.
-65  1H  IN PTR  amssq40.mgmt.esams.wmnet.
-66  1H  IN PTR  amssq41.mgmt.esams.wmnet.
-67  1H  IN PTR  amssq42.mgmt.esams.wmnet.
-68  1H  IN PTR  amssq43.mgmt.esams.wmnet.
-69  1H  IN PTR  amssq44.mgmt.esams.wmnet.
-70  1H  IN PTR  amssq45.mgmt.esams.wmnet.
-71  1H  IN PTR  amssq46.mgmt.esams.wmnet.
-72  1H  IN PTR  amssq47.mgmt.esams.wmnet.
-73  1H  IN PTR  amssq48.mgmt.esams.wmnet.
-74  1H  IN PTR  amssq49.mgmt.esams.wmnet.
-75  1H  IN PTR  amssq50.mgmt.esams.wmnet.
-76  1H  IN PTR  amssq51.mgmt.esams.wmnet.
-77  1H  IN PTR  amssq52.mgmt.esams.wmnet.
-78  1H  IN PTR  amssq53.mgmt.esams.wmnet.
-79  1H  IN PTR  amssq54.mgmt.esams.wmnet.
-80  1H  IN PTR  amssq55.mgmt.esams.wmnet.
-81  1H  IN PTR  amssq56.mgmt.esams.wmnet.
-82  1H  IN PTR  amssq57.mgmt.esams.wmnet.
-83  1H  IN PTR  amssq58.mgmt.esams.wmnet.
-84  1H  IN PTR  amssq59.mgmt.esams.wmnet.
-85  1H  IN PTR  amssq60.mgmt.esams.wmnet.
-86  1H  IN PTR  amssq61.mgmt.esams.wmnet.
-87  1H  IN PTR  amssq62.mgmt.esams.wmnet.
 
 104 1H  IN PTR  asw-esams.mgmt.esams.wmnet.
 105 1H  IN PTR  csw2-esams.mgmt.esams.wmnet.

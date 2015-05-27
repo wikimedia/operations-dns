@@ -3376,71 +3376,6 @@ cp3048      1H      IN A    10.20.0.183
 cp3049      1H      IN A    10.20.0.184
         1H      IN AAAA 2620:0:862:102:10:20:0:184
 
-amssq31     1H      IN A    10.20.0.131
-        1H      IN AAAA 2620:0:862:102:10:20:0:131
-amssq32     1H      IN A    10.20.0.132
-        1H      IN AAAA 2620:0:862:102:10:20:0:132
-amssq33     1H      IN A    10.20.0.133
-        1H      IN AAAA 2620:0:862:102:10:20:0:133
-amssq34     1H      IN A    10.20.0.134
-        1H      IN AAAA 2620:0:862:102:10:20:0:134
-amssq35     1H      IN A    10.20.0.135
-        1H      IN AAAA 2620:0:862:102:10:20:0:135
-amssq36     1H      IN A    10.20.0.136
-        1H      IN AAAA 2620:0:862:102:10:20:0:136
-amssq37     1H      IN A    10.20.0.137
-        1H      IN AAAA 2620:0:862:102:10:20:0:137
-amssq38     1H      IN A    10.20.0.138
-        1H      IN AAAA 2620:0:862:102:10:20:0:138
-amssq39     1H      IN A    10.20.0.139
-        1H      IN AAAA 2620:0:862:102:10:20:0:139
-amssq40     1H      IN A    10.20.0.140
-        1H      IN AAAA 2620:0:862:102:10:20:0:140
-amssq41     1H      IN A    10.20.0.141
-        1H      IN AAAA 2620:0:862:102:10:20:0:141
-amssq42     1H      IN A    10.20.0.142
-        1H      IN AAAA 2620:0:862:102:10:20:0:142
-amssq43     1H      IN A    10.20.0.143
-        1H      IN AAAA 2620:0:862:102:10:20:0:143
-amssq44     1H      IN A    10.20.0.144
-        1H      IN AAAA 2620:0:862:102:10:20:0:144
-amssq45     1H      IN A    10.20.0.145
-        1H      IN AAAA 2620:0:862:102:10:20:0:145
-amssq46     1H      IN A    10.20.0.146
-        1H      IN AAAA 2620:0:862:102:10:20:0:146
-amssq47     1H      IN A    10.20.0.147
-        1H      IN AAAA 2620:0:862:102:10:20:0:147
-amssq48     1H      IN A    10.20.0.148
-        1H      IN AAAA 2620:0:862:102:10:20:0:148
-amssq49     1H      IN A    10.20.0.149
-        1H      IN AAAA 2620:0:862:102:10:20:0:149
-amssq50     1H      IN A    10.20.0.150
-        1H      IN AAAA 2620:0:862:102:10:20:0:150
-amssq51     1H      IN A    10.20.0.151
-        1H      IN AAAA 2620:0:862:102:10:20:0:151
-amssq52     1H      IN A    10.20.0.152
-        1H      IN AAAA 2620:0:862:102:10:20:0:152
-amssq53     1H      IN A    10.20.0.153
-        1H      IN AAAA 2620:0:862:102:10:20:0:153
-amssq54     1H      IN A    10.20.0.154
-        1H      IN AAAA 2620:0:862:102:10:20:0:154
-amssq55     1H      IN A    10.20.0.155
-        1H      IN AAAA 2620:0:862:102:10:20:0:155
-amssq56     1H      IN A    10.20.0.156
-        1H      IN AAAA 2620:0:862:102:10:20:0:156
-amssq57     1H      IN A    10.20.0.157
-        1H      IN AAAA 2620:0:862:102:10:20:0:157
-amssq58     1H      IN A    10.20.0.158
-        1H      IN AAAA 2620:0:862:102:10:20:0:158
-amssq59     1H      IN A    10.20.0.159
-        1H      IN AAAA 2620:0:862:102:10:20:0:159
-amssq60     1H      IN A    10.20.0.160
-        1H      IN AAAA 2620:0:862:102:10:20:0:160
-amssq61     1H      IN A    10.20.0.161
-        1H      IN AAAA 2620:0:862:102:10:20:0:161
-amssq62     1H      IN A    10.20.0.162
-        1H      IN AAAA 2620:0:862:102:10:20:0:162
-
 ;
 ; SERVICES
 ;
@@ -3453,39 +3388,6 @@ ms-fe       600 IN A        10.20.0.15
 ms-fe       600 IN A        10.20.0.16
 
 $ORIGIN mgmt.esams.{{ zonename }}.
-
-amssq31     1H  IN A        10.21.0.56
-amssq32     1H  IN A        10.21.0.57
-amssq33     1H  IN A        10.21.0.58
-amssq34     1H  IN A        10.21.0.59
-amssq35     1H  IN A        10.21.0.60
-amssq36     1H  IN A        10.21.0.61
-amssq37     1H  IN A        10.21.0.62
-amssq38     1H  IN A        10.21.0.63
-amssq39     1H  IN A        10.21.0.64
-amssq40     1H  IN A        10.21.0.65
-amssq41     1H  IN A        10.21.0.66
-amssq42     1H  IN A        10.21.0.67
-amssq43     1H  IN A        10.21.0.68
-amssq44     1H  IN A        10.21.0.69
-amssq45     1H  IN A        10.21.0.70
-amssq46     1H  IN A        10.21.0.71
-amssq47     1H  IN A        10.21.0.72
-amssq48     1H  IN A        10.21.0.73
-amssq49     1H  IN A        10.21.0.74
-amssq50     1H  IN A        10.21.0.75
-amssq51     1H  IN A        10.21.0.76
-amssq52     1H  IN A        10.21.0.77
-amssq53     1H  IN A        10.21.0.78
-amssq54     1H  IN A        10.21.0.79
-amssq55     1H  IN A        10.21.0.80
-amssq56     1H  IN A        10.21.0.81
-amssq57     1H  IN A        10.21.0.82
-amssq58     1H  IN A        10.21.0.83
-amssq59     1H  IN A        10.21.0.84
-amssq60     1H  IN A        10.21.0.85
-amssq61     1H  IN A        10.21.0.86
-amssq62     1H  IN A        10.21.0.87
 
 cr1-esams   1H  IN A        10.21.0.116
 asw-esams   1H  IN A        10.21.0.104
