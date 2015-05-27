@@ -434,6 +434,9 @@ doc             1H  IN CNAME    misc-web-lb.eqiad
 
 ldap-mirror     1H  IN CNAME    plutonium.wikimedia.org.
 
+labs-puppetmaster-eqiad 300 IN CNAME  virt1000.wikimedia.org.
+labs-puppetmaster-codfw 300 IN CNAME  labcontrol2001.wikimedia.org.
+
 
 ; don't want this for anything but wikimedia.org domain
 frdata.wikimedia.org.   1H  IN CNAME    samarium.wikimedia.org.
