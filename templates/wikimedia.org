@@ -431,6 +431,7 @@ dash.frdev      1H  IN CNAME    lutetium
 dbtree          1H  IN CNAME    misc-web-lb.eqiad
 dev             600 IN DYNA     geoip!text-addrs
 doc             1H  IN CNAME    misc-web-lb.eqiad
+docs            600 IN DYNA     geoip!text-addrs
 
 ldap-mirror     1H  IN CNAME    plutonium.wikimedia.org.
 
