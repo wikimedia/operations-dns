@@ -380,6 +380,7 @@ $ORIGIN 0.64.{{ zonename }}.
 220 1H IN PTR   restbase1001.eqiad.wmnet.
 221 1H IN PTR   restbase1002.eqiad.wmnet.
 222 1H IN PTR   oxygen.eqiad.wmnet.
+223 1H IN PTR   restbase1007.eqiad.wmnet.
 
 $ORIGIN 1.64.{{ zonename }}.
 
@@ -820,6 +821,7 @@ $ORIGIN 32.64.{{ zonename }}.
 175     1H IN PTR       etcd1002.eqiad.wmnet.
 176     1H IN PTR       etcd1003.eqiad.wmnet.
 177     1H IN PTR       etherpad1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+178     1H IN PTR        restbase1008.eqiad.wmnet.
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
@@ -1017,6 +1019,7 @@ $ORIGIN 48.64.{{ zonename }}.
 107     1H  IN PTR      cp1073.eqiad.wmnet.
 108     1H  IN PTR      cp1074.eqiad.wmnet.
 109     1H  IN PTR      logstash1006.eqiad.wmnet.
+110     1H  IN PTR      restbase1009.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
@@ -1648,6 +1651,9 @@ $ORIGIN 2.65.{{ zonename }}.
 117 1H  IN PTR      cp1073.mgmt.eqiad.wmnet.
 118 1H  IN PTR      wmf4668.mgmt.eqiad.wmnet.
 118 1H  IN PTR      cp1074.mgmt.eqiad.wmnet.
+119 1H  IN PTR      restbase1007.mgmt.eqiad.wmnet.
+120 1H  IN PTR      restbase1008.mgmt.eqiad.wmnet.
+121 1H  IN PTR      restbase1009.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.{{ zonename }}.
 

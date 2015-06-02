@@ -696,6 +696,9 @@ restbase1003    1H  IN A        10.64.32.159
 restbase1004    1H  IN A        10.64.32.160
 restbase1005    1H  IN A        10.64.48.99
 restbase1006    1H  IN A        10.64.48.100
+restbase1007    1H  IN A        10.64.0.223
+restbase1008    1H  IN A        10.64.32.178
+restbase1009    1H  IN A        10.64.48.110
 rhodium         1H  IN A        10.64.16.184
 ruthenium       1H  IN A        10.64.16.151
 sca1001         1H  IN A        10.64.32.153
@@ -2007,7 +2010,9 @@ wmf4660         1H      IN A            10.65.2.113
 restbase1005    1H      IN A            10.65.2.113
 wmf4661         1H      IN A            10.65.2.114
 restbase1006    1H      IN A            10.65.2.114
-
+restbase1007    1H      IN A            10.65.2.119
+restbase1008    1H      IN A            10.65.2.120
+restbase1009    1H      IN A            10.65.2.121
 
 ; Labs VMs &c.
 eth4-1102.labnet1001    1H  IN A    10.68.16.1
