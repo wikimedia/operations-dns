@@ -598,8 +598,6 @@ $ORIGIN 16.64.{{ zonename }}.
 184 1H IN PTR   rhodium.eqiad.wmnet.
 185 1H IN PTR   logstash1005.eqiad.wmnet.
 
-201 1H IN PTR   d-i-test.eqiad.wmnet.
-
 $ORIGIN 17.64.{{ zonename }}.
 
 1   1H IN PTR   vl1018-eth1.lvs1001.wikimedia.org.
@@ -822,6 +820,8 @@ $ORIGIN 32.64.{{ zonename }}.
 176     1H IN PTR       etcd1003.eqiad.wmnet.
 177     1H IN PTR       etherpad1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 178     1H IN PTR        restbase1008.eqiad.wmnet.
+
+201     1H IN PTR       d-i-test.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.

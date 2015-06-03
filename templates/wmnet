@@ -281,7 +281,7 @@ dbproxy1010     1H  IN A        10.64.48.97
 dbproxy1011     1H  IN A        10.64.48.98
 dbstore1001     1H  IN A        10.64.48.17
 dbstore1002     1H  IN A        10.64.48.18
-d-i-test        1H  IN A        10.64.16.201
+d-i-test        1H  IN A        10.64.32.201
 einsteinium     1H  IN A        10.64.48.94
 elastic1001     1H  IN A        10.64.0.108
 elastic1002     1H  IN A        10.64.0.109
