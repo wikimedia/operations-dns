@@ -677,7 +677,7 @@ tor-eqiad-1      1H  IN CNAME    radium
 ubuntu           1H  IN CNAME    carbon
 mirrors          1H  IN CNAME    carbon
 yarn             1H  IN CNAME    misc-web-lb.eqiad
-wikitech         1H  IN A        208.80.154.136
+wikitech         1H  IN CNAME    silver
 wikitech-static  1H  IN A        166.78.57.240
 
 ; SNI testing hostname
