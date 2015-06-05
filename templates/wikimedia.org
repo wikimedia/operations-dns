@@ -603,7 +603,7 @@ zero             600 IN DYNA     geoip!text-addrs
 blog             1H  IN CNAME    wikimediablog.wordpress.com.
 bugs             1H  IN CNAME    misc-web-lb.eqiad
 bugzilla         1H  IN CNAME    misc-web-lb.eqiad
-bug-attachment   1H  IN CNAME    misc-web-lb.eqiad
+bug-attachment   1H  IN DYNA     geoip!text-addrs
 careers          600 IN DYNA     geoip!text-addrs
 civicrm          1H  IN CNAME    barium
 civicrm.frdev    1H  IN CNAME    lutetium
@@ -633,7 +633,7 @@ logstash         1H  IN CNAME    misc-web-lb.eqiad
 metrics          1H  IN CNAME    misc-web-lb.eqiad
 noc              1H  IN CNAME    misc-web-lb.eqiad
 nyc              600 IN DYNA     geoip!text-addrs
-old-bugzilla     1H  IN CNAME    misc-web-lb.eqiad
+old-bugzilla     1H  IN DYNA     geoip!text-addrs
 planet           1H  IN CNAME    misc-web-lb.eqiad
 ar.planet        1H  IN CNAME    misc-web-lb.eqiad
 ca.planet        1H  IN CNAME    misc-web-lb.eqiad
