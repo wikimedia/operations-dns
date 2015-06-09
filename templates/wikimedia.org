@@ -439,7 +439,7 @@ docs            600 IN DYNA     geoip!text-addrs
 
 ldap-mirror     1H  IN CNAME    plutonium.wikimedia.org.
 
-labs-puppetmaster-eqiad 300 IN CNAME  virt1000.wikimedia.org.
+labs-puppetmaster-eqiad 300 IN CNAME  labcontrol1001.wikimedia.org.
 labs-puppetmaster-codfw 300 IN CNAME  labcontrol2001.wikimedia.org.
 
 
