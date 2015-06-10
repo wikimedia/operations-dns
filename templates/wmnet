@@ -723,6 +723,7 @@ strontium       1H  IN A        10.64.0.164
 puppet          1H  IN CNAME    palladium.eqiad.wmnet.
 tantalum        1H  IN A        10.64.0.26
 tin             1H  IN A        10.64.0.196
+tin             1H  IN AAAA     2620:0:861:101:10:64:0:196
 terbium         1H  IN A        10.64.32.13
 lithium         1H  IN A        10.64.32.154
 logstash1001    1H  IN A        10.64.32.138
@@ -2194,6 +2195,7 @@ mc2016          1H  IN A    10.192.32.23
 mc2017          1H  IN A    10.192.32.24
 mc2018          1H  IN A    10.192.32.25
 mira            1H  IN A    10.192.16.132
+mira            1H  IN AAAA 2620:0:860:102:10:192:16:132
 ms-be2001       1H  IN A    10.192.0.19
 ms-be2002       1H  IN A    10.192.0.20
 ms-be2003       1H  IN A    10.192.0.21
