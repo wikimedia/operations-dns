@@ -62,6 +62,13 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2017.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2017.cr2-codfw.wikimedia.org.
 
+2.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2001.codfw.wmnet.
+3.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2002.codfw.wmnet.
+4.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2003.codfw.wmnet.
+5.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2004.codfw.wmnet.
+6.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2005.codfw.wmnet.
+7.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2006.codfw.wmnet.
+
 
 ; private1-b-codfw (2620:0:860:102::/64)
 $ORIGIN 2.0.1.0.{{ zonename }}.
@@ -71,6 +78,13 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2018.cr2-codfw.wikimedia.org.
 
 2.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   mira.codfw.wmnet.
+3.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2007.codfw.wmnet.
+4.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2008.codfw.wmnet.
+5.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2009.codfw.wmnet.
+6.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2010.codfw.wmnet.
+7.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2011.codfw.wmnet.
+8.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2012.codfw.wmnet.
+
 
 ; private1-c-codfw (2620:0:860:103::/64)
 $ORIGIN 3.0.1.0.{{ zonename }}.
@@ -79,6 +93,13 @@ $ORIGIN 3.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-2019.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-2019.cr2-codfw.wikimedia.org.
 
+2.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2013.codfw.wmnet.
+3.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2014.codfw.wmnet.
+4.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2015.codfw.wmnet.
+5.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2016.codfw.wmnet.
+6.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2017.codfw.wmnet.
+7.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2018.codfw.wmnet.
+
 
 ; private1-d-codfw (2620:0:860:104::/64)
 $ORIGIN 4.0.1.0.{{ zonename }}.
@@ -86,6 +107,16 @@ $ORIGIN 4.0.1.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-2020.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-2020.cr2-codfw.wikimedia.org.
+
+3.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2019.codfw.wmnet.
+4.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2020.codfw.wmnet.
+5.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2021.codfw.wmnet.
+6.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2022.codfw.wmnet.
+7.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2023.codfw.wmnet.
+8.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2024.codfw.wmnet.
+9.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2025.codfw.wmnet.
+0.3.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2026.codfw.wmnet.
+
 
 ; labs-hosts1-a-codfw (2620:0:860:117::/64) - RESERVED
 $ORIGIN 7.1.1.0.{{ zonename }}.
