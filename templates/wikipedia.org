@@ -69,7 +69,7 @@ wg.en                   600     IN DYNA         geoip!text-addrs
 
 ; Other websites
 
-bugzilla        600 IN DYNA     geoip!text-addrs
+bugzilla        1H  IN DYNA     geoip!text-addrs
 careers         600 IN DYNA     geoip!text-addrs
 donate          600 IN DYNA     geoip!text-addrs
 download        1H  IN CNAME    dumps.wikimedia.org.
