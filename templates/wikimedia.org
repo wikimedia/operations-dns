@@ -486,7 +486,7 @@ releases        1H  IN CNAME    misc-web-lb.eqiad
 
 reports.frdev   1H  IN CNAME    lutetium
 
-rt              1H  IN A        208.80.154.241 ; misc-web-lb.eqiad
+rt              5M  IN A        208.80.154.5
                 1H  IN MX       10 polonium.wikimedia.org.
                 1H  IN MX       50 lead.wikimedia.org.
 
