@@ -83,25 +83,6 @@ m           600 DYNA geoip!mobile-addrs
 geoiplookup 600 DYNA geoip!text-addrs-v4
 donate      600 DYNA geoip!text-addrs-v4
 
-; Legacy geo-lb hostnames - no longer referenced
-; To be removed sometime after Sep 8, 2014
-; Probably should be announced as well in case
-;  3rd parties are referencing them.
-; Do not CNAME to these going forward!
-foundation-lb   600 DYNA geoip!text-addrs
-mediawiki-lb    600 DYNA geoip!text-addrs
-wikibooks-lb    600 DYNA geoip!text-addrs
-wikimedia-lb    600 DYNA geoip!text-addrs
-wikinews-lb     600 DYNA geoip!text-addrs
-wikipedia-lb    600 DYNA geoip!text-addrs
-wikiquote-lb    600 DYNA geoip!text-addrs
-wikisource-lb   600 DYNA geoip!text-addrs
-wikiversity-lb  600 DYNA geoip!text-addrs
-wiktionary-lb   600 DYNA geoip!text-addrs
-wikidata-lb     600 DYNA geoip!text-addrs
-wikivoyage-lb   600 DYNA geoip!text-addrs
-; End legacy lb hostnames
-
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
 
 acamar          1H  IN A    208.80.153.12
