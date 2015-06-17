@@ -2,7 +2,6 @@
 
 {% macro geolang(lang, dyna) -%}
 {{ lang }}              600 IN DYNA    geoip!{{ dyna }}
-www.{{ lang }}          600 IN DYNA    geoip!{{ dyna }}
 {{ lang }}.m            600 IN DYNA    geoip!mobile-addrs
 {{ lang }}.zero         600 IN DYNA    geoip!mobile-addrs
 {%- endmacro %}
