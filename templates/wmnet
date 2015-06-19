@@ -116,9 +116,6 @@ analytics1021       1H  IN A         10.64.5.14
                          1H     IN AAAA          2620:0:861:104:10:64:5:14
 analytics1022        1H IN A         10.64.36.122
              1H IN AAAA      2620:0:861:106:10:64:36:122
-analytics1023            1H     IN A             10.64.5.15
-analytics1024            1H     IN A             10.64.36.124
-analytics1025            1H     IN A             10.64.53.13
 analytics1026            1H     IN A             10.64.36.126
 analytics1027            1H     IN A             10.64.36.127
 analytics1028            1H     IN A             10.64.36.128
@@ -1002,9 +999,9 @@ analytics1019   1H  IN A    10.65.3.102
 analytics1020   1H  IN A    10.65.3.103
 analytics1021   1H  IN A    10.65.3.104
 analytics1022   1H  IN A    10.65.3.105
-analytics1023   1H  IN A    10.65.3.112
-analytics1024   1H  IN A    10.65.3.113
-analytics1025   1H  IN A    10.65.3.114
+conf1001        1H  IN A    10.65.3.112
+conf1002        1H  IN A    10.65.3.113
+conf1003        1H  IN A    10.65.3.114
 analytics1026   1H  IN A    10.65.3.115
 analytics1027   1H  IN A    10.65.3.116
 analytics1028   1H      IN A    10.65.3.211
