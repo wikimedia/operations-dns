@@ -1750,7 +1750,7 @@ $ORIGIN 3.65.{{ zonename }}.
 46  1H  IN PTR      wmf3421.mgmt.eqiad.wmnet.
 47  1H  IN PTR      payments1002.mgmt.eqiad.wmnet.
 47  1H  IN PTR      wmf3422.mgmt.eqiad.wmnet.
-48  1H  IN PTR      virt1000.mgmt.eqiad.wmnet.
+48  1H  IN PTR      labcontrol1002.mgmt.eqiad.wmnet.
 48  1H  IN PTR      wmf3423.mgmt.eqiad.wmnet.
 49  1H  IN PTR      rubidium.mgmt.eqiad.wmnet.
 49  1H  IN PTR      wmf3424.mgmt.eqiad.wmnet.

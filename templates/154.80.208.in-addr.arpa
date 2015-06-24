@@ -70,6 +70,7 @@ $ORIGIN {{ zonename }}.
 92  1H  IN PTR  labcontrol1001.wikimedia.org.
 93  1H  IN PTR  radon.wikimedia.org.
 94  1H  IN PTR  labs-ns0.wikimedia.org.
+95  1H  IN PTR  labcontrol1002.wikimedia.org.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
