@@ -2074,6 +2074,11 @@ $ORIGIN codfw.{{ zonename }}.
 config-master   1H  IN CNAME    palladium.eqiad.wmnet.
 puppet          1H  IN CNAME    palladium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
+; etcd client discovery
+_etcd._tcp      5M  IN SRV      0 1 2379 etcd1001.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 2379 etcd1002.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 2379 etcd1003.eqiad.wmnet.
+
 
 ; Servers - listed alphabetically
 
@@ -3508,6 +3513,12 @@ config-master   1H  IN CNAME    palladium.eqiad.wmnet.
 puppet      1H  IN CNAME    palladium.eqiad.wmnet.
 webproxy    1H  IN CNAME    carbon.wikimedia.org.
 
+; etcd client discovery
+_etcd._tcp      5M  IN SRV      0 1 2379 etcd1001.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 2379 etcd1002.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 2379 etcd1003.eqiad.wmnet.
+
+
 ; temporary RR until we get new LVS up
 ms-fe       600 IN A        10.20.0.15
 ms-fe       600 IN A        10.20.0.16
@@ -3688,6 +3699,11 @@ cp4020          1H      IN A    10.128.0.120
 config-master   1H  IN CNAME    palladium.eqiad.wmnet.
 puppet          5M  IN CNAME    palladium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
+
+; etcd client discovery
+_etcd._tcp      5M  IN SRV      0 1 2379 etcd1001.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 2379 etcd1002.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 2379 etcd1003.eqiad.wmnet.
 
 
 ; EQIAD SERVICES
