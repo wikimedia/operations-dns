@@ -34,8 +34,8 @@ $ORIGIN {{ zonename }}.
 
 ; 208.80.155.32/30 cr1-esams <-> cr2-eqiad GRE tunnel
 
-33  1H IN PTR   gr-5-0-2.cr2-eqiad.wikimedia.org.
-34  1H IN PTR   gr-0-0-0.cr1-esams.wikimedia.org.
+33  1H IN PTR   gr-5-2-0-1.cr2-eqiad.wikimedia.org.
+34  1H IN PTR   gr-0-0-0-1.cr1-esams.wikimedia.org.
 
 ;208.80.155.36/31 cr1-ulsfo <-> cr2-eqiad 
 
