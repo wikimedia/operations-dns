@@ -106,9 +106,10 @@ $ORIGIN {{ zonename }}.
 193 1H  IN PTR  ae0.cr1-eqiad.wikimedia.org.
 194 1H  IN PTR  ae0.cr2-eqiad.wikimedia.org.
 
+; 208.80.154.196/30 (loopbacks)
 196 1H  IN PTR  cr1-eqiad.wikimedia.org.
 197 1H  IN PTR  cr2-eqiad.wikimedia.org.
-198 1H  IN PTR  gr-5-2-0-1.cr1-eqiad.wikimedia.org.
+198 1H  IN PTR  cr1-eqord.wikimedia.org.
 
 ; 208.80.154.200/29 (cr1,cr2 <--> mr1)
 

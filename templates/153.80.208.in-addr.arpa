@@ -75,8 +75,9 @@ $ORIGIN {{ zonename }}.
 192 1H  IN PTR  cr1-codfw.wikimedia.org.
 193 1H  IN PTR  cr2-codfw.wikimedia.org.
 194 1H  IN PTR  pim-rp.wikimedia.org.
-
 195 1H  IN PTR  pfw-codfw.wikimedia.org.
+
+198 1H  IN PTR  cr1-eqdfw.wikimedia.org.
 
 ; neighbor blocks
 

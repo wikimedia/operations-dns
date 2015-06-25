@@ -320,6 +320,12 @@ cr1-codfw       1H  IN A    208.80.153.192
 cr1-eqiad       1H  IN A    208.80.154.196
                 IN AAAA 2620:0:861:ffff::1
 
+cr1-eqdfw       1H  IN A    208.80.153.198
+                IN AAAA 2620:0:860:ffff::5
+
+cr1-eqord       1H  IN A    208.80.154.198
+                IN AAAA 2620:0:861:ffff::5
+
 cr1-esams       1H  IN A    91.198.174.245
                 IN AAAA 2620:0:862:ffff::5
 

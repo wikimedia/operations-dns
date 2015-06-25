@@ -226,3 +226,5 @@ $ORIGIN f.f.f.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-codfw.wikimedia.org.
 3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   pim-rp.wikimedia.org.
+;4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   pfw-eqdfw.wikimedia.org.
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-eqdfw.wikimedia.org.
