@@ -254,7 +254,11 @@ $ORIGIN 0.0.e.f.{{ zonename }}.
 
 ; unassigned (2620:0:861:fe01::/64)
 
-; unassigned (2620:0:861:fe02::/64)
+; cr2-eqiad <--> cr1-eqord (2620:0:861:fe02::/64)
+
+$ORIGIN 2.0.e.f.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-0.cr2-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-1-0-0.cr1-eqord.wikimedia.org.
 
 ; cr2-eqiad <--> cr2-knams GRE (2620:0:861:fe03::/64)
 
