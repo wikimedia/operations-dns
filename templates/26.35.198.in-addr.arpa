@@ -37,7 +37,6 @@ $ORIGIN {{ zonename }}.
 
 ; - - 198.35.26.104/29 LVS Mobile Zero & general support
 
-105 1H IN PTR   login-lb.ulsfo.wikimedia.org.
 106 1H IN PTR   bits-lb.ulsfo.wikimedia.org.
 
 108 1H IN PTR   mobile-lb.ulsfo.wikimedia.org.

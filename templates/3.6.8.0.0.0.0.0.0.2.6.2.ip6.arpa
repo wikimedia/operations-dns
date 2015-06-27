@@ -116,7 +116,6 @@ $ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
-9.0.0.0                         1H IN PTR   login-lb.ulsfo.wikimedia.org.
 a.0.0.0                         1H IN PTR   bits-lb.ulsfo.wikimedia.org.
 c.0.0.0                         1H IN PTR   mobile-lb.ulsfo.wikimedia.org.
 

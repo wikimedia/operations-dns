@@ -202,7 +202,6 @@ ntp.codfw           1H  IN CNAME acamar
 
 ;;; eqiad
 text-lb.eqiad       600 IN DYNA geoip!text-addrs/eqiad
-login-lb.eqiad      600 IN DYNA geoip!login-addrs/eqiad
 bits-lb.eqiad       600 IN DYNA geoip!bits-addrs/eqiad
 upload-lb.eqiad     600 IN DYNA geoip!upload-addrs/eqiad
 mobile-lb.eqiad     600 IN DYNA geoip!mobile-addrs/eqiad
@@ -238,7 +237,6 @@ rest                1H  IN CNAME restbase.eqiad
 
 ;;; ulsfo
 text-lb.ulsfo       600 IN DYNA geoip!text-addrs/ulsfo
-login-lb.ulsfo      600 IN DYNA geoip!login-addrs/ulsfo
 bits-lb.ulsfo       600 IN DYNA geoip!bits-addrs/ulsfo
 upload-lb.ulsfo     600 IN DYNA geoip!upload-addrs/ulsfo
 mobile-lb.ulsfo     600 IN DYNA geoip!mobile-addrs/ulsfo
@@ -251,7 +249,6 @@ donate-lb.ulsfo     600 IN DYNA geoip!text-addrs-v4/ulsfo
 dns-rec-lb.codfw    1H  IN A    208.80.153.254
                     1H  IN AAAA 2620:0:860:ed1a::3:fe
 text-lb.codfw       600 IN DYNA geoip!text-addrs/codfw
-login-lb.codfw      600 IN DYNA geoip!login-addrs/codfw
 bits-lb.codfw       600 IN DYNA geoip!bits-addrs/codfw
 upload-lb.codfw     600 IN DYNA geoip!upload-addrs/codfw
 mobile-lb.codfw     600 IN DYNA geoip!mobile-addrs/codfw
@@ -741,7 +738,6 @@ scs-oe11-esams      1H  IN A    10.21.0.102
 
 ; Round robin record
 text-lb       600 IN DYNA geoip!text-addrs/esams
-login-lb      600 IN DYNA geoip!login-addrs/esams
 bits-lb       600 IN DYNA geoip!bits-addrs/esams
 upload-lb     600 IN DYNA geoip!upload-addrs/esams
 mobile-lb     600 IN DYNA geoip!mobile-addrs/esams

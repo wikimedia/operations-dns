@@ -280,15 +280,5 @@ plugins => { geoip => {
                 ulsfo => { addrs_v4 => 198.35.26.108,  addrs_v6 => 2620:0:863:ed1a::1:c }
             }
         }
-        login-addrs => {
-            map => generic-map
-            service_types => up
-            dcmap => {
-                eqiad => { addrs_v4 => 208.80.154.233, addrs_v6 => 2620:0:861:ed1a::1:9 }
-                codfw => { addrs_v4 => 208.80.153.233, addrs_v6 => 2620:0:860:ed1a::1:9 }
-                esams => { addrs_v4 => 91.198.174.201, addrs_v6 => 2620:0:862:ed1a::1:9 }
-                ulsfo => { addrs_v4 => 198.35.26.105,  addrs_v6 => 2620:0:863:ed1a::1:9 }
-            }
-        }
     }
 }}
