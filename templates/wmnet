@@ -80,7 +80,6 @@ _etcd-server._tcp   5M  IN SRV      0 1 2380 conf1002.eqiad.wmnet.
 _etcd-server._tcp   5M  IN SRV      0 1 2380 conf1003.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 etcd1001.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 etcd1002.eqiad.wmnet.
-_etcd._tcp          5M  IN SRV      0 1 2379 etcd1003.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
@@ -2083,7 +2082,6 @@ webproxy        1H  IN CNAME    carbon.wikimedia.org.
 ; etcd client discovery
 _etcd._tcp      5M  IN SRV      0 1 2379 etcd1001.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 etcd1002.eqiad.wmnet.
-_etcd._tcp      5M  IN SRV      0 1 2379 etcd1003.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
@@ -3524,7 +3522,6 @@ webproxy    1H  IN CNAME    carbon.wikimedia.org.
 ; etcd client discovery
 _etcd._tcp      5M  IN SRV      0 1 2379 etcd1001.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 etcd1002.eqiad.wmnet.
-_etcd._tcp      5M  IN SRV      0 1 2379 etcd1003.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
@@ -3713,7 +3710,6 @@ webproxy        1H  IN CNAME    carbon.wikimedia.org.
 ; etcd client discovery
 _etcd._tcp      5M  IN SRV      0 1 2379 etcd1001.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 etcd1002.eqiad.wmnet.
-_etcd._tcp      5M  IN SRV      0 1 2379 etcd1003.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
