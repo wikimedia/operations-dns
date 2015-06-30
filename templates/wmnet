@@ -1749,7 +1749,6 @@ WMF3157     1H  IN A    10.65.7.19
 WMF3156     1H  IN A    10.65.7.20
 WMF3155     1H  IN A    10.65.7.21
 WMF3154     1H  IN A    10.65.7.22
-labnet1002  1H  IN A    10.65.7.23
 WMF3153     1H  IN A    10.65.7.23
 labcontrol1001  1H  IN A    10.65.7.24
 WMF3152     1H  IN A    10.65.7.24
@@ -1944,6 +1943,7 @@ WMF3573     1H  IN A    10.65.3.146
 samarium    1H  IN A    10.65.3.146
 rdb1003     1H  IN A    10.65.3.168
 rdb1004     1H  IN A    10.65.3.169
+labnet1001  1H  IN A    10.65.3.170
 WMF3642     1H  IN A    10.65.3.170
 labnet1001  1H  IN A    10.65.3.171
 WMF3643     1H  IN A    10.65.3.171
