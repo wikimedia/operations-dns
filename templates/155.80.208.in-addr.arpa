@@ -77,4 +77,5 @@ $ORIGIN {{ zonename }}.
 ; to the transitional toolserver.org email relay.
 
 162 1H IN PTR   mail.tools.wmflabs.org.
+188 1H IN PTR   mailrelay-02.tools.wmflabs.org.
 197 1H IN PTR   relay.toolserver.org.
