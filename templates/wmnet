@@ -352,6 +352,7 @@ ganeti1004      1H  IN A        10.64.32.172
 helium          1H  IN A        10.64.0.179
 hp1001          1H  IN A        10.64.32.147
 iridium         1H  IN A        10.64.32.150
+                1H  IN AAAA     2620:0:861:103:10:64:32:150
 labmon1001      1H  IN A        10.64.37.13
 labnet1001      1H  IN A        10.64.20.13
 labnet1001-ext  1H  IN A        10.64.22.11
