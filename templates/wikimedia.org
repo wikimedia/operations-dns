@@ -161,6 +161,7 @@ radium          1H  IN A    208.80.154.39
 radon           1H  IN A    208.80.154.93
                 1H  IN AAAA 2620:0:861:3:208:80:154:93
 rhenium         1H  IN A    208.80.154.52
+rigel           1H  IN A    208.80.152.231
 ripe-atlas-eqiad     1H  IN A    208.80.155.69
             1H  IN AAAA 2620:0:861:202:208:80:155:69
 ripe-atlas-codfw     1H  IN A    208.80.152.244
