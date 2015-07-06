@@ -3047,10 +3047,10 @@ mw2212          1H  IN A    10.193.2.112
 mw2213          1H  IN A    10.193.2.113
 mw2214          1H  IN A    10.193.2.114
 nembus          1H  IN A    10.193.1.251
-osm-cp2001      1H  IN A    10.193.2.3
-osm-cp2002      1H  IN A    10.193.2.4
-osm-cp2003      1H  IN A    10.193.2.5
-osm-cp2004      1H  IN A    10.193.2.6
+maps-test-db2001  1H  IN A    10.193.2.3
+maps-test-db2002  1H  IN A    10.193.2.4
+maps-test-web2001 1H  IN A    10.193.2.5
+maps-test-web2002 1H  IN A    10.193.2.6
 osm-db2001      1H  IN A    10.193.2.7
 osm-db2002      1H  IN A    10.193.2.8
 osm-web2001     1H  IN A    10.193.2.9
