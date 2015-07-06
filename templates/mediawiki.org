@@ -41,10 +41,8 @@ bugs            600 IN DYNA     geoip!text-addrs
 ; Other websites
 doc             600 IN DYNA     geoip!text-addrs
 docs            600 IN DYNA     geoip!text-addrs
-donate          600 IN DYNA     geoip!text-addrs
 download        600 IN DYNA     geoip!text-addrs
 integration     600 IN DYNA     geoip!text-addrs
-www.donate      600 IN DYNA     geoip!text-addrs
 svn             600 IN DYNA     geoip!text-addrs
 
 ; Mobile

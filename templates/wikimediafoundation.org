@@ -38,8 +38,4 @@ fundraising._domainkey  1H  IN TXT  "v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb
 ; Wikis (alphabetic order)
 
 www         600 IN DYNA     geoip!text-addrs
-
-; Other websites
-www.donate  600 IN DYNA     geoip!text-addrs
-donate      600 IN DYNA     geoip!text-addrs
 m           600 IN DYNA     geoip!mobile-addrs

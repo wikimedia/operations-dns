@@ -36,7 +36,3 @@ www         600 IN DYNA     geoip!text-addrs
 
 ; All languages will automatically be included here
 {{ geolanglist('text-addrs') }}
-
-; Other websites
-www.donate  600 IN DYNA     geoip!text-addrs
-donate      600 IN DYNA     geoip!text-addrs
