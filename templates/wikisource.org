@@ -34,7 +34,6 @@ $ORIGIN {{ zonename }}.
 
 ; Wikis (alphabetic order)
 
-mul         600 IN DYNA     geoip!text-addrs
 www         600 IN DYNA     geoip!text-addrs
 
 ; All languages will automatically be included here
