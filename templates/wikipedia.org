@@ -83,12 +83,5 @@ store           600 IN DYNA     geoip!text-addrs
 www.m           600 IN DYNA     geoip!mobile-addrs
 zero            600 IN DYNA     geoip!mobile-addrs
 
-; SNI testing, temporary
+; TLS testing, "temporary"
 pinkunicorn     600 IN A        208.80.154.42
-
-$ORIGIN wap.{{ zonename }}.
-{{ geolanglist('mobile-addrs') }}
-beta            600 IN DYNA     geoip!text-addrs
-
-$ORIGIN mobile.{{ zonename }}.
-{{ geolanglist('mobile-addrs') }}
