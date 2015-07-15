@@ -20,7 +20,6 @@ $ORIGIN {{ zonename }}.
 1   1H IN PTR   vlan-1131.pfw-eqiad.wikimedia.org.
 2   1H IN PTR   pay-lvs1001.wikimedia.org.
 3   1H IN PTR   pay-lvs1002.wikimedia.org.
-4   1H IN PTR   boron.wikimedia.org.
 5   1H IN PTR   payments.wikimedia.org.
 6   1H IN PTR   frack-ubuntu-repo.wikimedia.org.
 7   1H IN PTR   frack-payments-nat.wikimedia.org.
