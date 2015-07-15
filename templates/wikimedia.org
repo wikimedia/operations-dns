@@ -177,7 +177,6 @@ sodium          1H  IN A    208.80.154.61
                 1H  IN AAAA 2620:0:861:1:208:80:154:61
 
 tellurium       1H  IN A    208.80.155.9
-thulium         1H  IN A    208.80.155.12
 titanium        1H  IN A    208.80.154.154
 uranium         1H  IN A    208.80.154.53
                 1H  IN AAAA 2620:0:861:1:208:80:154:53
@@ -457,7 +456,8 @@ servermon       1H  IN CNAME    misc-web-lb.eqiad
 
 payments        5M  IN A        208.80.155.5 ; eqiad
 
-payments-listener       1H  IN CNAME        thulium
+payments-listener-eqiad 1H  IN A    208.80.155.12
+payments-listener       1H  IN CNAME        payments-listener-eqiad
 payments-listener.frdev 1H  IN CNAME        lutetium
 
 people          1H  IN CNAME    misc-web-lb.eqiad

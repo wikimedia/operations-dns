@@ -21,12 +21,12 @@ $ORIGIN {{ zonename }}.
 2   1H IN PTR   pay-lvs1001.wikimedia.org.
 3   1H IN PTR   pay-lvs1002.wikimedia.org.
 5   1H IN PTR   payments.wikimedia.org.
-6   1H IN PTR   frack-ubuntu-repo.wikimedia.org.
-7   1H IN PTR   frack-payments-nat.wikimedia.org.
+6   1H IN PTR   frack-default-net-eqiad.wikimedia.org.
+7   1H IN PTR   frack-payments-nat-eqiad.wikimedia.org.
 9   1H IN PTR   tellurium.wikimedia.org.
 10  1H IN PTR   frdata-eqiad.wikimedia.org.
 11  1H IN PTR   barium.wikimedia.org.
-12  1H IN PTR   thulium.wikimedia.org.
+12  1H IN PTR   payments-listener-eqiad.wikimedia.org.
 13  1H IN PTR   lutetium.wikimedia.org.
 14  1H IN PTR   fundraising-eqiad.wikimedia.org.
 

@@ -17,8 +17,8 @@ $ORIGIN {{ zonename }}.
 
 ; 208.80.152.224/28 frack-codfw (208.80.152.224 - 208.80.152.239)
 228 1H IN PTR   payments-codfw.wikimedia.org.
-229 1H IN PTR   frack-payments-nat.wikimedia.org.
-230 1H IN PTR   frack-default-nat.wikimedia.org.
+229 1H IN PTR   frack-payments-nat-codfw.wikimedia.org.
+230 1H IN PTR   frack-default-nat-codfw.wikimedia.org.
 231 1H IN PTR   rigel.wikimedia.org.
 232 1H IN PTR   civicrm-codfw.wikimedia.org.
 233 1H IN PTR   payments-listener-codfw.wikimedia.org.
