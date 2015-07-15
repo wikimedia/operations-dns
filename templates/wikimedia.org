@@ -95,7 +95,6 @@ astatine        1H  IN A    208.80.155.110
 baham           1H  IN A    208.80.153.13
                 1H  IN AAAA 2620:0:860:1:208:80:153:13
 barium          1H  IN A    208.80.155.11
-barium-fundraising  1H      IN A    208.80.155.14
 bast1001        1H  IN A    208.80.154.149
                 1H  IN AAAA 2620:0:861:2:208:80:154:149
 bast2001        1H  IN A    208.80.153.5
@@ -111,6 +110,10 @@ dataset1001     1H  IN A    208.80.154.11
                 1H  IN AAAA 2620:0:861:1:208:80:154:11
 dickson         1H  IN A    208.80.155.68
                 1H  IN AAAA 2620:0:861:202:208:80:155:68
+
+frdata-eqiad      1H  IN A    208.80.155.10
+fundraising-eqiad 1H  IN A    208.80.155.14
+
 gadolinium      1H  IN A    208.80.154.73
 gallium         1H  IN A    208.80.154.135
 hafnium         1H  IN A    208.80.154.79
@@ -167,8 +170,6 @@ ripe-atlas-codfw     1H  IN A    208.80.152.244
 ripe-atlas-ulsfo     1H  IN A    198.35.26.244
             1H  IN AAAA 2620:0:863:201:198:35:26:244
 rubidium        1H  IN A    208.80.154.40
-samarium        1H  IN A    208.80.155.10
-silicon         1H  IN A    208.80.155.8
 silver          1H  IN A    208.80.154.136
                 1H  IN AAAA 2620:0:861:2:208:80:154:136
 californium     1H  IN A    208.80.154.147
@@ -422,7 +423,7 @@ labs-puppetmaster-codfw 300 IN CNAME  labcontrol2001.wikimedia.org.
 
 
 ; don't want this for anything but wikimedia.org domain
-frdata.wikimedia.org.   1H  IN CNAME    samarium.wikimedia.org.
+frdata.wikimedia.org.   1H  IN CNAME    frdata-eqiad.wikimedia.org.
 
 gerrit          1H  IN A        208.80.154.81
                 1H  IN AAAA     2620:0:861:3:208:80:154:81
@@ -594,7 +595,7 @@ cz               600 IN DYNA     geoip!text-addrs
 datasets         1H  IN CNAME    misc-web-lb.eqiad
 download         1H  IN CNAME    dumps
 etherpad         5M  IN CNAME    misc-web-lb.eqiad
-fundraising      1H  IN CNAME    barium-fundraising
+fundraising      1H  IN CNAME    fundraising-eqiad
 ganglia          1H  IN CNAME    uranium
 hue              1H  IN CNAME    misc-web-lb.eqiad
 iegreview        1H  IN CNAME    misc-web-lb.eqiad
