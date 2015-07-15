@@ -334,7 +334,7 @@ $ORIGIN 0.64.{{ zonename }}.
 113 1H IN PTR   elastic1006.eqiad.wmnet.
 120 1H IN PTR   snapshot1001.eqiad.wmnet.
 121 1H IN PTR   snapshot1002.eqiad.wmnet.
-161 1H IN PTR   lanthanum.eqiad.wmnet.
+
 162 1H IN PTR   logstash1004.eqiad.wmnet.
 
 164 1H IN PTR   strontium.eqiad.wmnet.
