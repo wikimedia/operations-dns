@@ -3383,13 +3383,13 @@ $ORIGIN 2.193.{{ zonename }}.
 1   1H IN PTR  WMF5834.mgmt.codfw.wmnet.
 2   1H IN PTR  capella.mgmt.codfw.wmnet.
 2   1H IN PTR  WMF5835.mgmt.codfw.wmnet.
-3   1H IN PTR  maps-test-db2001.mgmt.codfw.wmnet.
+3   1H IN PTR  maps-test2001.mgmt.codfw.wmnet.
 3   1H IN PTR  WMF3722.mgmt.codfw.wmnet.
-4   1H IN PTR  maps-test-db2002.mgmt.codfw.wmnet.
+4   1H IN PTR  maps-test2002.mgmt.codfw.wmnet.
 4   1H IN PTR  WMF3724.mgmt.codfw.wmnet.
-5   1H IN PTR  maps-test-web2001.mgmt.codfw.wmnet.
+5   1H IN PTR  maps-test2003.mgmt.codfw.wmnet.
 5   1H IN PTR  WMF3723.mgmt.codfw.wmnet.
-6   1H IN PTR  maps-test-web2002.mgmt.codfw.wmnet.
+6   1H IN PTR  maps-test2004.mgmt.codfw.wmnet.
 6   1H IN PTR  WMF3726.mgmt.codfw.wmnet.
 7   1H IN PTR  osm-db2001.mgmt.codfw.wmnet.
 7   1H IN PTR  WMF3725.mgmt.codfw.wmnet.
