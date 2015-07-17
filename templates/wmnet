@@ -757,6 +757,7 @@ virt1009        1H  IN A        10.64.20.14
 labvirt1009     1H  IN A        10.64.20.15
 labvirt1007     1H  IN A        10.64.20.16
 labvirt1008     1H  IN A        10.64.20.17
+wdqs1001        1H  IN A        10.64.48.112
 wtp1001         1H  IN A        10.64.32.78
 wtp1002         1H  IN A        10.64.32.73
 wtp1003         1H  IN A        10.64.32.74

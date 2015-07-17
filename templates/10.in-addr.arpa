@@ -1024,6 +1024,7 @@ $ORIGIN 48.64.{{ zonename }}.
 109     1H  IN PTR      logstash1006.eqiad.wmnet.
 110     1H  IN PTR      restbase1009.eqiad.wmnet.
 111     1H  IN PTR      conf1003.eqiad.wmnet.
+112     1H  IN PTR      wdqs1001.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
