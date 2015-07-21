@@ -1862,7 +1862,12 @@ lvs1003     1H  IN A    10.65.3.41
 lvs1004     1H  IN A    10.65.3.42
 lvs1005     1H  IN A    10.65.3.43
 lvs1006     1H  IN A    10.65.3.44
-
+lvs1007     1H  IN A    10.65.4.18
+lvs1008     1H  IN A    10.65.4.19
+lvs1009     1H  IN A    10.65.4.20
+lvs1010     1H  IN A    10.65.4.21
+lvs1011     1H  IN A    10.65.4.22
+lvs1012     1H  IN A    10.65.4.23
 ruthenium   1H  IN A    10.65.3.56
 WMF3431     1H  IN A    10.65.3.56
 rhodium     1H  IN A    10.65.3.57

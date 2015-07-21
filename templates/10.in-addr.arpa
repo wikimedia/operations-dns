@@ -2072,6 +2072,12 @@ $ORIGIN 4.65.{{ zonename }}.
 15  1H  IN PTR      analytics1043.mgmt.eqiad.wmnet.
 16  1H  IN PTR      analytics1044.mgmt.eqiad.wmnet.
 17  1H  IN PTR      analytics1045.mgmt.eqiad.wmnet.
+18  1H  IN PTR      lvs1007.mgmt.eqiad.wmnet.
+19  1H  IN PTR      lvs1008.mgmt.eqiad.wmnet.
+20  1H  IN PTR      lvs1009.mgmt.eqiad.wmnet.
+21  1H  IN PTR      lvs1010.mgmt.eqiad.wmnet.
+22  1H  IN PTR      lvs1011.mgmt.eqiad.wmnet.
+23  1H  IN PTR      lvs1012.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.{{ zonename }}.
 
