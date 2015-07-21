@@ -38,7 +38,7 @@ beta        600 IN DYNA     geoip!text-addrs
 beta.m      600 IN DYNA     geoip!mobile-addrs
 www         600 IN DYNA     geoip!text-addrs
 
-; All languages will automatically be included here
+; All languages will automatically be included here.
 {{ geolanglist('text-addrs') }}
 
 ; Mobile
