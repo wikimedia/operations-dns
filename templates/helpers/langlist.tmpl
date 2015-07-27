@@ -1,13 +1,15 @@
 {% from "helpers/langs.tmpl" import langs %}
 
-{% macro geolang(lang) -%}
+{% macro geolang(lang, zero) -%}
 {{ lang }}              600 IN DYNA    geoip!text-addrs
 {{ lang }}.m            600 IN DYNA    geoip!mobile-addrs
+{%- if zero %}
 {{ lang }}.zero         600 IN DYNA    geoip!mobile-addrs
+{%- endif -%}
 {%- endmacro %}
 
-{% macro geolanglist() -%}
+{% macro geolanglist(zero=False) -%}
 {% for lang in langs -%}
-{{ geolang(lang) }}
+{{ geolang(lang, zero) }}
 {% endfor %}
 {%- endmacro %}

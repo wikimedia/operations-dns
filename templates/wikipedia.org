@@ -65,7 +65,7 @@ wg.en                   600     IN DYNA         geoip!text-addrs
 
 
 ; All languages will automatically be included here
-{{ geolanglist() }}
+{{ geolanglist(zero=True) }}
 
 ; Other websites
 
