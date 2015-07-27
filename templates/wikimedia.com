@@ -34,4 +34,4 @@ $ORIGIN {{ zonename }}.
 www         600 IN DYNA     geoip!text-addrs
 
 ; All languages will automatically be included here
-{{ geolanglist('text-addrs') }}
+{{ geolanglist() }}
