@@ -2649,7 +2649,7 @@ $ORIGIN 16.192.{{ zonename }}.
 22  1H IN PTR   ms-be2006.codfw.wmnet.
 23  1H IN PTR   ms-be2007.codfw.wmnet.
 24  1H IN PTR   ms-be2008.codfw.wmnet.
-25  1H IN PTR   ms-fe2003.codfw.wment.
+25  1H IN PTR   ms-fe2003.codfw.wmnet.
 26  1H IN PTR   ms-fe2004.codfw.wmnet.
 27  1H IN PTR   es2003.codfw.wmnet.
 28  1H IN PTR   es2004.codfw.wmnet.
