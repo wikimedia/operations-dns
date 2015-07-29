@@ -405,7 +405,7 @@ annual          1H  IN CNAME    misc-web-lb.eqiad
 apt             1H  IN CNAME    carbon
 
 archiva         1H  IN CNAME    titanium
-
+benefactorevents 1H IN CNAME    trilogytools1.azurewebsites.net.
 cache           600 IN DYNA     geoip!text-addrs
 
 config-master   1H  IN CNAME    misc-web-lb.eqiad
@@ -416,7 +416,7 @@ dbtree          1H  IN CNAME    misc-web-lb.eqiad
 dev             600 IN DYNA     geoip!text-addrs
 doc             1H  IN CNAME    misc-web-lb.eqiad
 docs            600 IN DYNA     geoip!text-addrs
-
+eventdonations  1H  IN CNAME    contrib-wi-10109-10472-20140728-1682402186.us-east-1.elb.amazonaws.com.
 ldap-mirror     1H  IN CNAME    plutonium.wikimedia.org.
 
 labs-puppetmaster-eqiad 300 IN CNAME  labcontrol1001.wikimedia.org.
