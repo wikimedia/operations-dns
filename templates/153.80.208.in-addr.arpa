@@ -107,7 +107,6 @@ $ORIGIN {{ zonename }}.
 231 1H  IN PTR  ns1.wikimedia.org.
 
 ; Mobile Zero & general Support 208.80.153.232 - .239 (208.80.153.232/29)
-234 1H  IN PTR  bits-lb.codfw.wikimedia.org.
 236 1H  IN PTR  mobile-lb.codfw.wikimedia.org.
 
 ; Multimedia 208.80.153.240 - .247 (208.80.153.240/29)

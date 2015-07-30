@@ -106,7 +106,6 @@ e.0.0.0                         1H IN PTR   ns2.wikimedia.org.
 
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
-a.0.0.0                         1H IN PTR   bits-lb.esams.wikimedia.org.
 c.0.0.0                         1H IN PTR   mobile-lb.esams.wikimedia.org.
 
 ; LVS Multimedia, 2620:0:862:ed1a::2:0/112

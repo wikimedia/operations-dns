@@ -241,16 +241,6 @@ plugins => { geoip => {
                 ulsfo => 198.35.26.96
             }
         }
-        bits-addrs => {
-            map => generic-map
-            service_types => up
-            dcmap => {
-                eqiad => { addrs_v4 => 208.80.154.234, addrs_v6 => 2620:0:861:ed1a::1:a }
-                codfw => { addrs_v4 => 208.80.153.234, addrs_v6 => 2620:0:860:ed1a::1:a }
-                esams => { addrs_v4 => 91.198.174.202, addrs_v6 => 2620:0:862:ed1a::1:a }
-                ulsfo => { addrs_v4 => 198.35.26.106,  addrs_v6 => 2620:0:863:ed1a::1:a }
-            }
-        }
         upload-addrs => {
             map => generic-map
             service_types => up
