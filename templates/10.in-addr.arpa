@@ -643,7 +643,7 @@ $ORIGIN 21.64.{{ zonename }}.
 
 103 1H IN PTR   analytics1003.eqiad.wmnet.
 104 1H IN PTR   analytics1004.eqiad.wmnet.
-105 1H IN PTR   analtyics1046.eqiad.wmnet.
+105 1H IN PTR   analytics1046.eqiad.wmnet.
 106 1H IN PTR   analytics1047.eqiad.wmnet.
 107 1H IN PTR   analytics1048.eqiad.wmnet.
 108 1H IN PTR   analytics1049.eqiad.wmnet.
