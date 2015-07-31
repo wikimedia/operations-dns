@@ -30,6 +30,7 @@ $ORIGIN {{ zonename }}.
 ; Servers (alphabetic order)
 
 ; Service aliases
+query       1H  IN CNAME    misc-web-lb.eqiad.wikimedia.org.
 
 ; Wikis (alphabetic order)
 
