@@ -220,14 +220,6 @@ plugins => { geoip => {
                 8.0.36.0/22       => [eqiad       ], # Washington, DC
             },
         },
-        only-primary-map => {
-            geoip_db => /usr/share/GeoIP/GeoIPv6.dat
-            geoip_db_v4_overlay => /usr/share/GeoIP/GeoIP.dat
-            datacenters => [eqiad codfw esams ulsfo]
-            map => {
-                default => eqiad,
-            }
-        },
     },
     resources => {
         text-addrs => {
