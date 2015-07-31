@@ -1,8 +1,7 @@
 plugins => { geoip => {
     maps => {
         generic-map => {
-            geoip_db => /usr/share/GeoIP/GeoLiteCityv6.dat
-            geoip_db_v4_overlay => /usr/share/GeoIP/GeoIPCity.dat
+            geoip2_db => /usr/share/GeoIP/GeoIP2-City.mmdb
             datacenters => [eqiad esams ulsfo codfw]
             map => {
                 # use ISO 3166-2 official names
