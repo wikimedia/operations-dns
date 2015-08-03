@@ -39,10 +39,7 @@ $ORIGIN 2.2.{{ zonename }}.
 20  1H  IN PTR  mathoid.svc.eqiad.wmnet.
 21  1H  IN PTR  rendering.svc.eqiad.wmnet.
 22  1H  IN PTR  api.svc.eqiad.wmnet.
-23  1H  IN PTR  bits.svc.eqiad.wmnet.
-24  1H  IN PTR  upload.svc.eqiad.wmnet.
-25  1H  IN PTR  text.svc.eqiad.wmnet.
-26  1H  IN PTR  mobile.svc.eqiad.wmnet.
+
 27  1H  IN PTR  ms-fe.svc.eqiad.wmnet.
 28  1H  IN PTR  parsoid.svc.eqiad.wmnet.
 29  1H  IN PTR  parsoidcache.svc.eqiad.wmnet.
@@ -54,19 +51,9 @@ $ORIGIN 2.2.{{ zonename }}.
 
 $ORIGIN 3.2.{{ zonename }}.
 
-23  1H  IN PTR  bits.svc.esams.wmnet.
-24  1H  IN PTR  upload.svc.esams.wmnet.
-25  1H  IN PTR  text.svc.esams.wmnet.
-26  1H  IN PTR  mobile.svc.esams.wmnet.
-
 ; ulsfo svc ips
 
 $ORIGIN 4.2.{{ zonename }}.
-
-23  1H  IN PTR  bits.svc.ulsfo.wmnet.
-24  1H  IN PTR  upload.svc.ulsfo.wmnet.
-25  1H  IN PTR  text.svc.ulsfo.wmnet.
-26  1H  IN PTR  mobile.svc.ulsfo.wmnet.
 
 ;
 ; ESAMS
