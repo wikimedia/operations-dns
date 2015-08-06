@@ -345,6 +345,7 @@ etcd1002        1H  IN A        10.64.32.175
 etcd1003        1H  IN A        10.64.32.176
 etherpad1001    1H  IN A        10.64.32.177 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 eventlog1001    1H  IN A        10.64.32.167
+fermium         1H  IN A        10.64.32.184
 fluorine        1H  IN A        10.64.0.21
 francium        1H  IN A        10.64.32.168
 ganeti1001      1H  IN A        10.64.32.169
