@@ -721,6 +721,8 @@ rhodium         1H  IN A        10.64.16.184
 ruthenium       1H  IN A        10.64.16.151
 sca1001         1H  IN A        10.64.32.153
 sca1002         1H  IN A        10.64.48.29
+scb1001         1H  IN A        10.64.16.21
+scb1002         1H  IN A        10.64.0.14
 snapshot1001        1H  IN A        10.64.0.120
 snapshot1002        1H  IN A        10.64.0.121
 snapshot1003        1H  IN A        10.64.16.141
@@ -1933,8 +1935,10 @@ wtp1024     1H  IN A    10.65.3.167
 WMF3564     1H  IN A    10.65.3.138
 terbium     1H  IN A    10.65.3.138
 WMF3565     1H  IN A    10.65.3.139
-WMF5843     1H  IN A    10.65.3.179
 WMF5842     1H  IN A    10.65.3.178
+scb1001     1H  IN A    10.65.3.178
+WMF5843     1H  IN A    10.65.3.179
+scb1002     1H  IN A    10.65.3.179
 WMF5844     1H  IN A    10.65.3.177
 eventlog1001 1H  IN A    10.65.3.177
 WMF3566     1H  IN A    10.65.3.140
