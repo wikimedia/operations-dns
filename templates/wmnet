@@ -108,14 +108,14 @@ analytics1009       1H  IN A         10.64.5.10
 analytics1010       1H  IN A         10.64.21.110
 analytics1011       1H  IN A         10.64.5.11
 analytics1012       1H  IN A         10.64.5.12
-analytics1013       1H  IN A         10.64.5.13
-analytics1014       1H  IN A         10.64.36.114
+kafka1013           1H  IN A         10.64.5.13
+kafka1014           1H  IN A         10.64.36.114
 analytics1015       1H  IN A         10.64.36.115
 analytics1016       1H  IN A         10.64.36.116
 analytics1017       1H  IN A         10.64.36.117
 analytics1018       1H  IN A         10.64.53.10
 analytics1019       1H  IN A         10.64.53.11
-analytics1020       1H  IN A         10.64.53.12
+kafka1020           1H  IN A         10.64.53.12
 analytics1021       1H  IN A         10.64.5.14
                          1H     IN AAAA          2620:0:861:104:10:64:5:14
 analytics1022        1H IN A         10.64.36.122
@@ -973,14 +973,14 @@ WMF3463     1H  IN A    10.65.3.80
 analytics1010   1H  IN A    10.65.3.80
 analytics1011   1H  IN A    10.65.3.94
 analytics1012   1H  IN A    10.65.3.95
-analytics1013   1H  IN A    10.65.3.96
-analytics1014   1H  IN A    10.65.3.97
+kafka1013       1H  IN A    10.65.3.96
+kafka1014       1H  IN A    10.65.3.97
 analytics1015   1H  IN A    10.65.3.98
 analytics1016   1H  IN A    10.65.3.99
 analytics1017   1H  IN A    10.65.3.100
 analytics1018   1H  IN A    10.65.3.101
 analytics1019   1H  IN A    10.65.3.102
-analytics1020   1H  IN A    10.65.3.103
+kafka1020       1H  IN A    10.65.3.103
 analytics1021   1H  IN A    10.65.3.104
 analytics1022   1H  IN A    10.65.3.105
 conf1001        1H  IN A    10.65.3.112
