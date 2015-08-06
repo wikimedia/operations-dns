@@ -2751,6 +2751,9 @@ $ORIGIN 16.192.{{ zonename }}.
 136 1H IN PTR   cp2010.codfw.wmnet.
 137 1H IN PTR   cp2011.codfw.wmnet.
 138 1H IN PTR   cp2012.codfw.wmnet.
+139 1H IN PTR   pybal-test2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+140 1H IN PTR   pybal-test2002.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+141 1H IN PTR   pybal-test2003.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 
 $ORIGIN 17.192.{{ zonename }}.
 1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
