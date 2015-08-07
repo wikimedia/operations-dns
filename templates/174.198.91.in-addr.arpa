@@ -56,7 +56,6 @@ $ORIGIN {{ zonename }}.
 ; - - 91.198.174.208/29 LVS Multimedia
 
 208 1H IN PTR   upload-lb.esams.wikimedia.org.
-209 1H IN PTR   osm-lb.esams.wikimedia.org.
 
 ; - - 91.198.174.216/29 LVS Misc
 

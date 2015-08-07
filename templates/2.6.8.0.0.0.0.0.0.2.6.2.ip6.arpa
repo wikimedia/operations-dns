@@ -100,7 +100,6 @@ $ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 1.0.0.0                         1H IN PTR   text-lb.esams.wikimedia.org.
 e.0.0.0                         1H IN PTR   ns2.wikimedia.org.
-0.1.0.0                         1H IN PTR   osm-lb.esams.wikimedia.org.
 
 ; LVS Mobile Zero & general support, 2620:0:862:ed1a::1:0/112
 
