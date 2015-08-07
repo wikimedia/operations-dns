@@ -211,6 +211,8 @@ dns-rec-lb.eqiad    1H  IN A    208.80.154.239
                     1H  IN AAAA 2620:0:861:ed1a::3:fe
 maps-lb.eqiad       1H  IN A    208.80.154.244
                     1H  IN AAAA 2620:0:861:ed1a::2:d
+maps                1H  IN A    208.80.154.244
+                    1H  IN AAAA 2620:0:861:ed1a::2:d
 misc-web-lb.eqiad   1H  IN A    208.80.154.241
             1H  IN AAAA 2620:0:861:ed1a::11
 
