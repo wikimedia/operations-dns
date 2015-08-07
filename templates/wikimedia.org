@@ -402,7 +402,14 @@ annual          1H  IN CNAME    misc-web-lb.eqiad
 apt             1H  IN CNAME    carbon
 
 archiva         1H  IN CNAME    titanium
+
 benefactorevents 1H IN CNAME    trilogytools1.azurewebsites.net.
+benefactors     1H  IN DYNA     geoip!text-addrs
+                1H  IN MX       10 polonium.wikimedia.org.
+                1H  IN MX       50 lead.wikimedia.org.
+                1H  IN TXT      "v=spf1 include:wikimedia.org include:jangosmtp.com ?all"
+benefactors._domainkey.benefactors 1H IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5yoFvu5O1XFxYE8Runib984wintsyQEz9c0WuvgSv69xKh20RvZqX3/YCE1a58JJKQ6FV62AqEeM8iOI2P88XlxHvt7We356Ztb8HUb23fmadXwKbfPzg+beij2MQUB4DTUf9nVifAUs9VH1YteUKHJ7n7SLgd2ANzhgz5soobQIDAQAB"
+
 cache           600 IN DYNA     geoip!text-addrs
 
 config-master   1H  IN CNAME    misc-web-lb.eqiad
