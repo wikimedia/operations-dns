@@ -146,7 +146,7 @@ $ORIGIN {{ zonename }}.
 240 1H  IN PTR  upload-lb.eqiad.wikimedia.org.
 241 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.
 
-244 1H  IN PTR  osm-lb.eqiad.wikimedia.org.
+244 1H  IN PTR  maps-lb.eqiad.wikimedia.org.
 
 ; Misc 208.80.154.248 - 208.80.154.255 (208.80.154.248/29)
 248 1H  IN PTR  parsoid-lb.eqiad.wikimedia.org.
