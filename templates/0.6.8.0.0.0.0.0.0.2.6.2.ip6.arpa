@@ -25,6 +25,7 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2001.cr2-codfw.wikimedia.org.
 
 4.0.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   install2001.wikimedia.org.
+5.0.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   bast2001.wikimedia.org.
 2.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   acamar.wikimedia.org.
 3.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   baham.wikimedia.org.
 
