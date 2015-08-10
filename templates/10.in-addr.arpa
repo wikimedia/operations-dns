@@ -2968,6 +2968,10 @@ $ORIGIN 0.193.{{ zonename }}.
 
 ; 10.193.0.0 - mgmt infrastructure, network mgmt, power mgmt
 
+1   1H IN PTR  mr1-codfw.mgmt.codfw.wmnet.
+
+3   1H IN PTR  msw1-codfw.mgmt.codfw.wmnet.
+
 10  1H IN PTR  re0.cr1-codfw.mgmt.codfw.wmnet.
 11  1H IN PTR  re1.cr1-codfw.mgmt.codfw.wmnet.
 12  1H IN PTR  re0.cr2-codfw.mgmt.codfw.wmnet.

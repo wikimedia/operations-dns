@@ -2629,6 +2629,10 @@ saiph               1H  IN A    10.195.0.104
 
 $ORIGIN mgmt.codfw.{{ zonename }}.
 
+mr1-codfw       1H  IN A        10.193.0.1
+
+msw1-codfw      1H  IN A        10.193.0.3
+
 ; Infrastructure
 
 asw-a-codfw     1H  IN A    10.193.0.16
