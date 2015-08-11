@@ -346,7 +346,7 @@ cr2-ulsfo       1H  IN A    198.35.26.193
 
 mr1-eqiad       1H  IN A    208.80.154.201
 mr1-codfw       1H  IN A    208.80.153.196
-                1H  IN AAAA 2620:0:860:ffff::5
+                1H  IN AAAA 2620:0:860:ffff::6
 mr1-ulsfo       1H  IN A    198.35.26.203
 mr1-ulsfo.oob   1H  IN A    209.237.234.242
 mr1-esams       1H  IN A    91.198.174.247
