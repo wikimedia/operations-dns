@@ -82,6 +82,14 @@ $ORIGIN {{ zonename }}.
 
 ; neighbor blocks
 
+; 208.80.153.206/31 (cr1-codfw <--> mr1-codfw)
+206 1H  IN PTR  xe-5-3-3.cr1-codfw.wikimedia.org.
+207 1H  IN PTR  ge-0-0-0-401.mr1-codfw.wikimedia.org.
+
+; 208.80.153.208/31 (cr2-codfw <--> mr1-codfw)
+208 1H  IN PTR  xe-5-3-3.cr2-codfw.wikimedia.org.
+209 1H  IN PTR  ge-0-0-0-402.mr1-codfw.wikimedia.org.
+
 ; 208.80.153.210/31 (cr1-codfw <--> cr1-eqdfw)
 210 1H  IN PTR  xe-5-0-0.cr1-codfw.wikimedia.org.
 211 1H  IN PTR  xe-0-0-0.cr1-eqdfw.wikimedia.org.
