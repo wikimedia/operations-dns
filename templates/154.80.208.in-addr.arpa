@@ -34,7 +34,6 @@ $ORIGIN {{ zonename }}.
 20  1H  IN PTR  labs-recursor0.wikimedia.org.
 39  1H  IN PTR  radium.wikimedia.org.
 40  1H  IN PTR  rubidium.wikimedia.org.
-41  1H  IN PTR  zirconium.wikimedia.org.
 42  1H  IN PTR  cp1008.wikimedia.org.
 
 50  1H  IN PTR  hydrogen.wikimedia.org.

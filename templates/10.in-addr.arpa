@@ -1750,7 +1750,6 @@ $ORIGIN 3.65.{{ zonename }}.
 50  1H  IN PTR      wmf3425.mgmt.eqiad.wmnet.
 51  1H  IN PTR      yttrium.mgmt.eqiad.wmnet.
 51  1H  IN PTR      wmf3426.mgmt.eqiad.wmnet.
-52  1H  IN PTR      zirconium.mgmt.eqiad.wmnet.
 52  1H  IN PTR      wmf3427.mgmt.eqiad.wmnet.
 53  1H  IN PTR      niobium.mgmt.eqiad.wmnet.
 53  1H  IN PTR      wmf3428.mgmt.eqiad.wmnet.
