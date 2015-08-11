@@ -31,6 +31,7 @@ $ORIGIN 2.2.{{ zonename }}.
 
 1   1H  IN PTR  appservers.svc.eqiad.wmnet.
 3   1H  IN PTR  hhvm-api.svc.eqiad.wmnet.
+14  1H  IN PTR  mobileapps.svc.eqiad.wmnet.
 15  1H  IN PTR  graphoid.svc.eqiad.wmnet.
 16  1H  IN PTR  zotero.svc.eqiad.wmnet.
 17  1H  IN PTR  restbase.svc.eqiad.wmnet.
@@ -45,7 +46,6 @@ $ORIGIN 2.2.{{ zonename }}.
 29  1H  IN PTR  parsoidcache.svc.eqiad.wmnet.
 30  1H  IN PTR  search.svc.eqiad.wmnet.
 31  1H  IN PTR  ocg.svc.eqiad.wmnet.
-32  1H  IN PTR  mobileapps.svc.eqiad.wmnet.
 
 ; esams svc ips
 
