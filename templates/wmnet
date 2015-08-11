@@ -2513,6 +2513,7 @@ mw2214          1H  IN A    10.192.32.102
 pybal-test2001  1H  IN A    10.192.16.139 ; VM on the ganeti01.svc.codfw.wmnet cluster
 pybal-test2002  1H  IN A    10.192.16.140 ; VM on the ganeti01.svc.codfw.wmnet cluster
 pybal-test2003  1H  IN A    10.192.16.141 ; VM on the ganeti01.svc.codfw.wmnet cluster
+pybal-testsvc   1H  IN A    10.192.16.142 ; service IP
 rdb2001         1H  IN A    10.192.0.119
 rdb2002         1H  IN A    10.192.0.120
 rdb2003         1H  IN A    10.192.16.122
