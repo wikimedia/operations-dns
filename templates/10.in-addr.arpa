@@ -227,6 +227,7 @@ $ORIGIN 0.64.{{ zonename }}.
 19  1H IN PTR   db1015.eqiad.wmnet.
 20  1H IN PTR   db1016.eqiad.wmnet.
 21  1H IN PTR   fluorine.eqiad.wmnet.
+22  1H IN PTR   tungsten.eqiad.wmnet.
 23  1H IN PTR   ms1003.eqiad.wmnet.
 25  1H IN PTR   es1001.eqiad.wmnet.
 26  1H IN PTR   tantalum.eqiad.wmnet.
