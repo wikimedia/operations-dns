@@ -144,6 +144,14 @@ analytics1046            1H     IN A             10.64.21.105
 analytics1047            1H     IN A             10.64.21.106
 analytics1048            1H     IN A             10.64.21.107
 analytics1049            1H     IN A             10.64.21.108
+analytics1050            1H     IN A             10.64.21.111
+analytics1051            1H     IN A             10.64.21.112
+analytics1052            1H     IN A             10.64.5.15
+analytics1053            1H     IN A             10.64.5.16
+analytics1054            1H     IN A             10.64.5.17
+analytics1055            1H     IN A             10.64.5.18
+analytics1056            1H     IN A             10.64.5.19
+analytics1057            1H     IN A             10.64.5.20
 berkelium                1H     IN A             10.64.0.169
                          1H     IN AAAA 2620:0:861:101:10:64:0:169
 caesium                  1H     IN A             10.64.32.145
@@ -1034,6 +1042,22 @@ wmf4694         1H      IN A    10.65.4.26
 analytics1048   1H      IN A    10.65.4.26
 wmf4695         1H      IN A    10.65.4.27
 analytics1049   1H      IN A    10.65.4.27
+wmf4696         1H      IN A    10.65.4.28
+analytics1050   1H      IN A    10.65.4.28
+wmf4697         1H      IN A    10.65.4.29
+analytics1051   1H      IN A    10.65.4.29
+wmf4698         1H      IN A    10.65.4.30
+analytics1052   1H      IN A    10.65.4.30
+wmf4699         1H      IN A    10.65.4.31
+analytics1053   1H      IN A    10.65.4.31
+wmf4700         1H      IN A    10.65.4.32
+analytics1054   1H      IN A    10.65.4.32
+wmf4701         1H      IN A    10.65.4.33
+analytics1055   1H      IN A    10.65.4.33
+wmf4702         1H      IN A    10.65.4.34
+analytics1056   1H      IN A    10.65.4.34
+wmf4703         1H      IN A    10.65.4.35
+analytics1057   1H      IN A    10.65.4.35
 dataset1001 1H  IN A    10.65.3.85
 WMF3471     1H  IN A    10.65.3.85
 db1001      1H  IN A    10.65.6.1
