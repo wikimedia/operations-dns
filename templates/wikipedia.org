@@ -68,7 +68,6 @@ download        1H  IN CNAME    dumps.wikimedia.org.
 jobs            600 IN DYNA     geoip!text-addrs
 m               600 IN DYNA     geoip!mobile-addrs
 mail            600 IN DYNA     geoip!text-addrs
-mobile          600 IN DYNA     geoip!mobile-addrs
 shop            600 IN DYNA     geoip!text-addrs
 stats           1H  IN CNAME    stats.wikimedia.org.
 store           600 IN DYNA     geoip!text-addrs
