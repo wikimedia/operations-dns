@@ -162,7 +162,7 @@ plugins => { geoip => {
                         SC => [eqiad       ], # South Carolina
                         SD => [eqiad       ], # South Dakota
                         TN => [eqiad       ], # Tennessee
-                        TX => [eqiad       ], # Texas
+                        TX => [codfw, eqiad], # Texas
                         UT => [eqiad       ], # Utah
                         VA => [eqiad       ], # Virginia
                         VT => [eqiad       ], # Vermont
