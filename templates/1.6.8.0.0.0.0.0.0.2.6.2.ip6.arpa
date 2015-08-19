@@ -139,7 +139,7 @@ $ORIGIN 3.0.1.0.{{ zonename }}.
 0.5.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   iridium.eqiad.wmnet.
 
 ; analytics1-a-eqiad (2620:0:861:104::/64)
-$ORIGIN 4.0.1.0.{{ zonename }}. 
+$ORIGIN 4.0.1.0.{{ zonename }}.
 4.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1021.eqiad.wmnet.
 
 ; analytics1-c-eqiad (2620:0:861:106::/64)
@@ -147,7 +147,7 @@ $ORIGIN 6.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1022.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1022.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1022.cr2-eqiad.wikimedia.org.
-2.2.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1022.eqiad.wmnet.
+2.2.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1022.eqiad.wmnet.
 
 ; private1-d-eqiad (2620:0:861:107::/64)
 $ORIGIN 7.0.1.0.{{ zonename }}.
