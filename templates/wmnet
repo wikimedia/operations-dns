@@ -989,7 +989,7 @@ kafka1014       1H  IN A    10.65.3.97
 analytics1015   1H  IN A    10.65.3.98
 analytics1016   1H  IN A    10.65.3.99
 analytics1017   1H  IN A    10.65.3.100
-analytics1018   1H  IN A    10.65.3.101
+kafka1018       1H  IN A    10.65.3.101
 analytics1019   1H  IN A    10.65.3.102
 kafka1020       1H  IN A    10.65.3.103
 analytics1021   1H  IN A    10.65.3.104
