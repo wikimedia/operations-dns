@@ -30,6 +30,10 @@ $ORIGIN {{ zonename }}.
 
 ; Servers (alphabetic order)
 
+; WebPageTest controller on AWS
+; see https://phabricator.wikimedia.org/T109666
+wpt                     1H      IN A    54.69.228.169
+
 ; Service aliases
 ; Wildcard to support name-based virtual hosts in local development environments
 *.local                 1H      IN A    127.0.0.1
