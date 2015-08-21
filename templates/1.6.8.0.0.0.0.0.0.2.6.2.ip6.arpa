@@ -63,7 +63,7 @@ $ORIGIN 2.0.0.0.{{ zonename }}.
 ; public1-c-eqiad (2620:0:861:3::/64)
 $ORIGIN 3.0.0.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1003.wikimedia.org.
-
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   lists.wikimedia.org. ; service IP for lists on fermium
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1003.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1003.cr2-eqiad.wikimedia.org.
 9.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   lead.wikimedia.org.
