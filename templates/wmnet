@@ -72,7 +72,6 @@ osmdb               5M  IN CNAME    labsdb1006.eqiad.wmnet.
 pgsql               5M  IN CNAME    labsdb1004.eqiad.wmnet.
 
 ; etcd records
-_etcd-server._tcp   5M  IN SRV      0 1 2380 etcd1001.eqiad.wmnet.
 _etcd-server._tcp   5M  IN SRV      0 1 2380 etcd1002.eqiad.wmnet.
 _etcd-server._tcp   5M  IN SRV      0 1 2380 etcd1003.eqiad.wmnet.
 _etcd-server._tcp   5M  IN SRV      0 1 2380 conf1001.eqiad.wmnet.
