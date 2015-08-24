@@ -815,8 +815,7 @@ $ORIGIN 32.64.{{ zonename }}.
 180     1H IN PTR       conf1002.eqiad.wmnet.
 181     1H IN PTR       bromine.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 182     1H IN PTR       krypton.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-183     1H  IN PTR      wdqs1002.eqiad.wmnet.
-184     1H IN PTR       fermium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+183     1H IN PTR       wdqs1002.eqiad.wmnet.
 
 
 201     1H IN PTR       d-i-test.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster

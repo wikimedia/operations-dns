@@ -111,7 +111,8 @@ dataset1001     1H  IN A    208.80.154.11
                 1H  IN AAAA 2620:0:861:1:208:80:154:11
 dickson         1H  IN A    208.80.155.68
                 1H  IN AAAA 2620:0:861:202:208:80:155:68
-
+fermium         1H  IN A    208.80.154.74 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+                1H  IN AAAA 2620:0:861:3:208:80:154:74
 frdata-eqiad      1H  IN A    208.80.155.10
 frdev-eqiad       1H  IN A    208.80.155.13
 fundraising-eqiad 1H  IN A    208.80.155.14
