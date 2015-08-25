@@ -64,7 +64,7 @@ zh-tw                   600     IN DYNA         geoip!text-addrs
 bugzilla        1H  IN DYNA     geoip!text-addrs
 careers         600 IN DYNA     geoip!text-addrs
 donate          600 IN DYNA     geoip!text-addrs
-download        1H  IN CNAME    dumps.wikimedia.org.
+download        600 IN DYNA     geoip!text-addrs
 jobs            600 IN DYNA     geoip!text-addrs
 m               600 IN DYNA     geoip!mobile-addrs
 mail            600 IN DYNA     geoip!text-addrs

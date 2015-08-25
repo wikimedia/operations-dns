@@ -611,7 +611,7 @@ coffee           600 IN DYNA     geoip!text-addrs
 cs               600 IN DYNA     geoip!text-addrs
 cz               600 IN DYNA     geoip!text-addrs
 datasets         1H  IN CNAME    misc-web-lb.eqiad
-download         1H  IN CNAME    dumps
+download         600 IN DYNA     geoip!text-addrs
 etherpad         5M  IN CNAME    misc-web-lb.eqiad
 fundraising      1H  IN CNAME    fundraising-eqiad
 ganglia          1H  IN CNAME    uranium
