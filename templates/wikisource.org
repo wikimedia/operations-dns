@@ -34,6 +34,7 @@ $ORIGIN {{ zonename }}.
 
 ; Wikis (alphabetic order)
 
+mul         600 IN DYNA     geoip!text-addrs
 www         600 IN DYNA     geoip!text-addrs
 
 ; All languages will automatically be included here.
@@ -41,3 +42,4 @@ www         600 IN DYNA     geoip!text-addrs
 
 ; Mobile
 m           600 IN DYNA     geoip!mobile-addrs
+mul.m       600 in DYNA     geoip!mobile-addrs
