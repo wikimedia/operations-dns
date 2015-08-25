@@ -479,7 +479,7 @@ payments-listener       1H  IN CNAME        payments-listener-eqiad
 payments-listener.frdev 1H  IN CNAME        frdev-eqiad
 
 people          1H  IN CNAME    misc-web-lb.eqiad
-policy          1H  IN CNAME    misc-web-lb.eqiad
+policy          5M  IN CNAME    misc-web-lb.eqiad
 releases        1H  IN CNAME    misc-web-lb.eqiad
 
 reports.frdev   1H  IN CNAME    frdev-eqiad
