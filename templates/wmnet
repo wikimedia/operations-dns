@@ -28,12 +28,12 @@ $ORIGIN eqiad.{{ zonename }}.
 syslog          1H  IN CNAME    lithium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
 zuul            1H  IN CNAME    gallium.wikimedia.org.
-carbon-relay        1H  IN CNAME    graphite1001.eqiad.wmnet.
+carbon-relay    1H  IN CNAME    graphite1001.eqiad.wmnet.
 graphite        1H  IN CNAME    graphite1001.eqiad.wmnet.
 graphite-in     1H  IN CNAME    graphite1001.eqiad.wmnet.
 config-master   1H  IN CNAME    palladium.eqiad.wmnet.
 statsd          1H  IN CNAME    graphite1001.eqiad.wmnet.
-eventlogging        1H  IN CNAME    eventlog1001.eqiad.wmnet.
+eventlogging    1H  IN CNAME    eventlog1001.eqiad.wmnet.
 udplog          1H  IN CNAME    fluorine.eqiad.wmnet.
 s1-master       5M  IN CNAME    db1052.eqiad.wmnet.
 s2-master       5M  IN CNAME    db1024.eqiad.wmnet.
@@ -90,8 +90,8 @@ cam1-c-eqiad        1H  IN A        10.64.32.82
 cam2-c-eqiad        1H  IN A        10.64.32.83
 
 ; Netapps
-nas1001-a       1H  IN A        10.64.16.4
-nas1001-b       1H  IN A        10.64.16.5
+nas1001-a           1H  IN A        10.64.16.4
+nas1001-b           1H  IN A        10.64.16.5
 
 ;Servers - listed alphabetically
 
@@ -115,7 +115,7 @@ analytics1016       1H  IN A         10.64.36.116
 analytics1017       1H  IN A         10.64.36.117
 analytics1019       1H  IN A         10.64.53.11
 analytics1021       1H  IN A         10.64.5.14
-                    1H     IN AAAA          2620:0:861:104:10:64:5:14
+                    1H  IN AAAA      2620:0:861:104:10:64:5:14
 
 analytics1026            1H     IN A             10.64.36.126
 analytics1027            1H     IN A             10.64.36.127
@@ -153,14 +153,14 @@ berkelium                1H     IN A             10.64.0.169
                          1H     IN AAAA 2620:0:861:101:10:64:0:169
 caesium                  1H     IN A             10.64.32.145
 cerium                   1H     IN A             10.64.16.147
-copper           1H     IN A             10.64.16.176
+copper                   1H     IN A             10.64.16.176
 conf1001                 1H     IN A             10.64.0.18
 conf1002                 1H     IN A             10.64.32.180
 conf1003                 1H     IN A             10.64.48.111
-cp1043          1H  IN A        10.64.0.171
-                1H  IN AAAA     2620:0:861:101:10:64:0:171
-cp1044          1H  IN A        10.64.0.172
-                1H  IN AAAA     2620:0:861:101:10:64:0:172
+cp1043           1H IN A        10.64.0.171
+                 1H IN AAAA     2620:0:861:101:10:64:0:171
+cp1044           1H IN A        10.64.0.172
+                 1H IN AAAA     2620:0:861:101:10:64:0:172
 cp1045           1H IN A         10.64.32.97
                  1H IN AAAA      2620:0:861:103:10:64:32:97
 cp1046           1H IN A         10.64.32.98
@@ -727,10 +727,10 @@ sca1001         1H  IN A        10.64.32.153
 sca1002         1H  IN A        10.64.48.29
 scb1001         1H  IN A        10.64.0.16
 scb1002         1H  IN A        10.64.16.21
-snapshot1001        1H  IN A        10.64.0.120
-snapshot1002        1H  IN A        10.64.0.121
-snapshot1003        1H  IN A        10.64.16.141
-snapshot1004        1H  IN A        10.64.16.142
+snapshot1001    1H  IN A        10.64.0.120
+snapshot1002    1H  IN A        10.64.0.121
+snapshot1003    1H  IN A        10.64.16.141
+snapshot1004    1H  IN A        10.64.16.142
 stat1001        1H  IN A        10.64.21.101
 stat1002        1H  IN A        10.64.5.102
 stat1003        1H  IN A        10.64.36.103
@@ -1778,16 +1778,16 @@ WMF3154     1H  IN A    10.65.7.22
 WMF3153     1H  IN A    10.65.7.23
 labcontrol1001  1H  IN A    10.65.7.24
 WMF3152     1H  IN A    10.65.7.24
-WMF3542         1H A    10.65.7.25
-WMF3543         1H A    10.65.7.26
-WMF3544         1H A    10.65.7.27
+WMF3542     1H  IN A    10.65.7.25
+WMF3543     1H  IN A    10.65.7.26
+WMF3544     1H  IN A    10.65.7.27
 WMF3151     1H  IN A    10.65.7.100
 snapshot1001    1H  IN A    10.65.3.81
-WMF3466     1H  IN A    10.65.3.81
+WMF3466         1H  IN A    10.65.3.81
 snapshot1002    1H  IN A    10.65.3.82
-WMF3467     1H  IN A    10.65.3.82
+WMF3467         1H  IN A    10.65.3.82
 snapshot1003    1H  IN A    10.65.3.83
-WMF3468     1H  IN A    10.65.3.83
+WMF3468         1H  IN A    10.65.3.83
 snapshot1004    1H  IN A    10.65.3.84
 WMF3469     1H  IN A    10.65.3.84
 carbon      1H  IN A    10.65.3.16
@@ -1890,15 +1890,15 @@ WMF3432     1H  IN A    10.65.3.57
 indium      1H  IN A    10.65.3.117
 
 payments1001    1H  IN A    10.65.3.55
-WMF3430     1H  IN A    10.65.3.55
+WMF3430         1H  IN A    10.65.3.55
 payments1002    1H  IN A    10.65.3.47
-WMF3422     1H  IN A    10.65.3.47
+WMF3422         1H  IN A    10.65.3.47
 payments1003    1H  IN A    10.65.3.54
-WMF3429     1H  IN A    10.65.3.54
+WMF3429         1H  IN A    10.65.3.54
 payments1004    1H  IN A    10.65.3.46
 WMF3421     1H  IN A    10.65.3.46
 WMF4073     1H  IN A    10.65.3.118
-tin     1H  IN A    10.65.3.118
+tin         1H  IN A    10.65.3.118
 WMF4074     1H  IN A    10.65.3.119
 antimony    1H  IN A    10.65.3.119
 WMF4075     1H  IN A    10.65.3.120
@@ -2027,16 +2027,16 @@ ocg1003     1H  IN A        10.65.5.195
 WMF4556     1H  IN A        10.65.5.196
 sca1002     1H  IN A        10.65.5.196
 WMF4557     1H  IN A        10.65.5.197
-einsteinium     1H  IN A        10.65.5.197
+einsteinium     1H      IN A            10.65.5.197
 WMF4568         1H      IN A            10.65.5.198
-lead        1H          IN A            10.65.5.198
+lead            1H      IN A            10.65.5.198
 WMF4569         1H      IN A            10.65.5.199
 radon           1H      IN A            10.65.5.199
 WMF4570         1H      IN A            10.65.5.200
 WMF4571         1H      IN A            10.65.5.201
 polonium        1H      IN A            10.65.5.201
 WMF4572         1H      IN A            10.65.5.202
-francium         1H      IN A            10.65.5.202
+francium        1H      IN A            10.65.5.202
 WMF4573         1H      IN A            10.65.5.203
 lithium         1H      IN A            10.65.5.203
 WMF4574         1H      IN A            10.65.5.204
@@ -3472,92 +3472,92 @@ ms-be3003   1H      IN A    10.20.0.19
 ms-be3004   1H      IN A    10.20.0.20
 
 cp3003      1H      IN A    10.20.0.103
-        1H      IN AAAA 2620:0:862:102:10:20:0:103
+            1H      IN AAAA 2620:0:862:102:10:20:0:103
 cp3004      1H      IN A    10.20.0.104
-        1H      IN AAAA 2620:0:862:102:10:20:0:104
+            1H      IN AAAA 2620:0:862:102:10:20:0:104
 cp3005      1H      IN A    10.20.0.105
-        1H      IN AAAA 2620:0:862:102:10:20:0:105
+            1H      IN AAAA 2620:0:862:102:10:20:0:105
 cp3006      1H      IN A    10.20.0.106
-        1H      IN AAAA 2620:0:862:102:10:20:0:106
+            1H      IN AAAA 2620:0:862:102:10:20:0:106
 cp3007      1H      IN A    10.20.0.107
-        1H      IN AAAA 2620:0:862:102:10:20:0:107
+            1H      IN AAAA 2620:0:862:102:10:20:0:107
 cp3008      1H      IN A    10.20.0.108
-        1H      IN AAAA 2620:0:862:102:10:20:0:108
+            1H      IN AAAA 2620:0:862:102:10:20:0:108
 cp3009      1H      IN A    10.20.0.109
-        1H      IN AAAA 2620:0:862:102:10:20:0:109
+            1H      IN AAAA 2620:0:862:102:10:20:0:109
 cp3010      1H      IN A    10.20.0.110
-        1H      IN AAAA 2620:0:862:102:10:20:0:110
+            1H      IN AAAA 2620:0:862:102:10:20:0:110
 cp3011      1H      IN A    10.20.0.111
-        1H      IN AAAA 2620:0:862:102:10:20:0:111
+            1H      IN AAAA 2620:0:862:102:10:20:0:111
 cp3012      1H      IN A    10.20.0.112
-        1H      IN AAAA 2620:0:862:102:10:20:0:112
+            1H      IN AAAA 2620:0:862:102:10:20:0:112
 cp3013      1H      IN A    10.20.0.113
-        1H      IN AAAA 2620:0:862:102:10:20:0:113
+            1H      IN AAAA 2620:0:862:102:10:20:0:113
 cp3014      1H      IN A    10.20.0.114
-        1H      IN AAAA 2620:0:862:102:10:20:0:114
+            1H      IN AAAA 2620:0:862:102:10:20:0:114
 cp3015      1H      IN A    10.20.0.115
-        1H      IN AAAA 2620:0:862:102:10:20:0:115
+            1H      IN AAAA 2620:0:862:102:10:20:0:115
 cp3016      1H      IN A    10.20.0.116
-        1H      IN AAAA 2620:0:862:102:10:20:0:116
+            1H      IN AAAA 2620:0:862:102:10:20:0:116
 cp3017      1H      IN A    10.20.0.117
-        1H      IN AAAA 2620:0:862:102:10:20:0:117
+            1H      IN AAAA 2620:0:862:102:10:20:0:117
 cp3018      1H      IN A    10.20.0.118
-        1H      IN AAAA 2620:0:862:102:10:20:0:118
+            1H      IN AAAA 2620:0:862:102:10:20:0:118
 cp3019      1H      IN A    10.20.0.119
-        1H      IN AAAA 2620:0:862:102:10:20:0:119
+            1H      IN AAAA 2620:0:862:102:10:20:0:119
 cp3020      1H      IN A    10.20.0.120
-        1H      IN AAAA 2620:0:862:102:10:20:0:120
+            1H      IN AAAA 2620:0:862:102:10:20:0:120
 cp3021      1H      IN A    10.20.0.121
-        1H      IN AAAA 2620:0:862:102:10:20:0:121
+            1H      IN AAAA 2620:0:862:102:10:20:0:121
 cp3022      1H      IN A    10.20.0.122
-        1H      IN AAAA 2620:0:862:102:10:20:0:122
+            1H      IN AAAA 2620:0:862:102:10:20:0:122
 cp3030      1H      IN A    10.20.0.165
-        1H      IN AAAA 2620:0:862:102:10:20:0:165
-cp3031     1H      IN A    10.20.0.166
-        1H      IN AAAA 2620:0:862:102:10:20:0:166
+            1H      IN AAAA 2620:0:862:102:10:20:0:165
+cp3031      1H      IN A    10.20.0.166
+            1H      IN AAAA 2620:0:862:102:10:20:0:166
 cp3032      1H      IN A    10.20.0.167
-        1H      IN AAAA 2620:0:862:102:10:20:0:167
-cp3033     1H      IN A    10.20.0.168
-        1H      IN AAAA 2620:0:862:102:10:20:0:168
+            1H      IN AAAA 2620:0:862:102:10:20:0:167
+cp3033      1H      IN A    10.20.0.168
+            1H      IN AAAA 2620:0:862:102:10:20:0:168
 cp3034      1H      IN A    10.20.0.169
-        1H      IN AAAA 2620:0:862:102:10:20:0:169
+            1H      IN AAAA 2620:0:862:102:10:20:0:169
 cp3035      1H      IN A    10.20.0.170
-        1H      IN AAAA 2620:0:862:102:10:20:0:170
+            1H      IN AAAA 2620:0:862:102:10:20:0:170
 cp3036      1H      IN A    10.20.0.171
-        1H      IN AAAA 2620:0:862:102:10:20:0:171
+            1H      IN AAAA 2620:0:862:102:10:20:0:171
 cp3037      1H      IN A    10.20.0.172
-        1H      IN AAAA 2620:0:862:102:10:20:0:172
+            1H      IN AAAA 2620:0:862:102:10:20:0:172
 cp3038      1H      IN A    10.20.0.173
-        1H      IN AAAA 2620:0:862:102:10:20:0:173
+            1H      IN AAAA 2620:0:862:102:10:20:0:173
 cp3039      1H      IN A    10.20.0.174
-        1H      IN AAAA 2620:0:862:102:10:20:0:174
+            1H      IN AAAA 2620:0:862:102:10:20:0:174
 cp3040      1H      IN A    10.20.0.175
-        1H      IN AAAA 2620:0:862:102:10:20:0:175
+            1H      IN AAAA 2620:0:862:102:10:20:0:175
 cp3041      1H      IN A    10.20.0.176
-        1H      IN AAAA 2620:0:862:102:10:20:0:176
+            1H      IN AAAA 2620:0:862:102:10:20:0:176
 cp3042      1H      IN A    10.20.0.177
-        1H      IN AAAA 2620:0:862:102:10:20:0:177
+            1H      IN AAAA 2620:0:862:102:10:20:0:177
 cp3043      1H      IN A    10.20.0.178
-        1H      IN AAAA 2620:0:862:102:10:20:0:178
+            1H      IN AAAA 2620:0:862:102:10:20:0:178
 cp3044      1H      IN A    10.20.0.179
-        1H      IN AAAA 2620:0:862:102:10:20:0:179
+            1H      IN AAAA 2620:0:862:102:10:20:0:179
 cp3045      1H      IN A    10.20.0.180
-        1H      IN AAAA 2620:0:862:102:10:20:0:180
+            1H      IN AAAA 2620:0:862:102:10:20:0:180
 cp3046      1H      IN A    10.20.0.181
-        1H      IN AAAA 2620:0:862:102:10:20:0:181
+            1H      IN AAAA 2620:0:862:102:10:20:0:181
 cp3047      1H      IN A    10.20.0.182
-        1H      IN AAAA 2620:0:862:102:10:20:0:182
+            1H      IN AAAA 2620:0:862:102:10:20:0:182
 cp3048      1H      IN A    10.20.0.183
-        1H      IN AAAA 2620:0:862:102:10:20:0:183
+            1H      IN AAAA 2620:0:862:102:10:20:0:183
 cp3049      1H      IN A    10.20.0.184
-        1H      IN AAAA 2620:0:862:102:10:20:0:184
+            1H      IN AAAA 2620:0:862:102:10:20:0:184
 
 ;
 ; SERVICES
 ;
 config-master   1H  IN CNAME    palladium.eqiad.wmnet.
-puppet      1H  IN CNAME    palladium.eqiad.wmnet.
-webproxy    1H  IN CNAME    carbon.wikimedia.org.
+puppet          1H  IN CNAME    palladium.eqiad.wmnet.
+webproxy        1H  IN CNAME    carbon.wikimedia.org.
 
 ; etcd client discovery
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
