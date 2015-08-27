@@ -480,7 +480,8 @@ payments-listener       1H  IN CNAME        payments-listener-eqiad
 payments-listener.frdev 1H  IN CNAME        frdev-eqiad
 
 people          1H  IN CNAME    misc-web-lb.eqiad
-policy          5M  IN CNAME    misc-web-lb.eqiad
+; policy.wikimedia.org goes to wordpress cluster T110203
+policy          5M  IN A        192.0.66.2
 releases        1H  IN CNAME    misc-web-lb.eqiad
 
 reports.frdev   1H  IN CNAME    frdev-eqiad
