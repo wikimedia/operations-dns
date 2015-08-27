@@ -268,6 +268,7 @@ cn.m                600 IN DYNA     geoip!mobile-addrs
 co.m                600 IN DYNA     geoip!mobile-addrs
 commons.m           600 IN DYNA     geoip!mobile-addrs
 dk.m                600 IN DYNA     geoip!mobile-addrs
+ee.m                600 IN DYNA     geoip!mobile-addrs
 et.m                600 IN DYNA     geoip!mobile-addrs
 incubator.m         600 IN DYNA     geoip!mobile-addrs
 fdc.m               600 IN DYNA     geoip!mobile-addrs
@@ -520,6 +521,7 @@ commons          600 IN DYNA     geoip!text-addrs
 dk               600 IN DYNA     geoip!text-addrs
 educacao         600 IN DYNA     geoip!text-addrs
 education        600 IN DYNA     geoip!text-addrs
+ee               600 IN DYNA     geoip!text-addrs
 et               600 IN DYNA     geoip!text-addrs
 exec             600 IN DYNA     geoip!text-addrs
 fdc              600 IN DYNA     geoip!text-addrs
