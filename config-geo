@@ -226,7 +226,7 @@ plugins => { geoip => {
             service_types => up
             dcmap => {
                 eqiad => { addrs_v4 => 208.80.154.224, addrs_v6 => 2620:0:861:ed1a::1 }
-                codfw => { addrs_v4 => 208.80.153.224, addrs_v6 => 2620:8:860:ed1a::1 }
+                codfw => { addrs_v4 => 208.80.153.224, addrs_v6 => 2620:0:860:ed1a::1 }
                 esams => { addrs_v4 => 91.198.174.192, addrs_v6 => 2620:0:862:ed1a::1 }
                 ulsfo => { addrs_v4 => 198.35.26.96,   addrs_v6 => 2620:0:863:ed1a::1 }
             }
