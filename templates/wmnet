@@ -2818,6 +2818,30 @@ db2069          1H  IN A    10.193.2.157
 db2070          1H  IN A    10.193.2.158
 dbstore2001     1H  IN A    10.193.1.253
 dbstore2002     1H  IN A    10.193.1.254
+elastic2001     1H  IN A    10.193.2.198
+elastic2002     1H  IN A    10.193.2.199
+elastic2003     1H  IN A    10.193.2.200
+elastic2004     1H  IN A    10.193.2.201
+elastic2005     1H  IN A    10.193.2.202
+elastic2006     1H  IN A    10.193.2.203
+elastic2007     1H  IN A    10.193.2.204
+elastic2008     1H  IN A    10.193.2.205
+elastic2009     1H  IN A    10.193.2.206
+elastic2010     1H  IN A    10.193.2.207
+elastic2011     1H  IN A    10.193.2.208
+elastic2012     1H  IN A    10.193.2.209
+elastic2013     1H  IN A    10.193.2.210
+elastic2014     1H  IN A    10.193.2.211
+elastic2015     1H  IN A    10.193.2.212
+elastic2016     1H  IN A    10.193.2.213
+elastic2017     1H  IN A    10.193.2.214
+elastic2018     1H  IN A    10.193.2.215
+elastic2019     1H  IN A    10.193.2.216
+elastic2020     1H  IN A    10.193.2.217
+elastic2021     1H  IN A    10.193.2.218
+elastic2022     1H  IN A    10.193.2.219
+elastic2023     1H  IN A    10.193.2.220
+elastic2024     1H  IN A    10.193.2.221   
 es2001          1H  IN A    10.193.1.235
 es2002          1H  IN A    10.193.1.236
 es2003          1H  IN A    10.193.1.237
@@ -3466,6 +3490,31 @@ WMF6323         1H  IN A    10.193.2.194
 WMF6324         1H  IN A    10.193.2.195
 WMF6325         1H  IN A    10.193.2.196
 WMF6326         1H  IN A    10.193.2.197
+WMF6339         1H  IN A    10.193.2.198
+WMF6340         1H  IN A    10.193.2.199
+WMF6341         1H  IN A    10.193.2.200
+WMF6342         1H  IN A    10.193.2.201
+WMF6343         1H  IN A    10.193.2.202
+WMF6344         1H  IN A    10.193.2.203
+WMF6345         1H  IN A    10.193.2.204
+WMF6346         1H  IN A    10.193.2.205
+WMF6347         1H  IN A    10.193.2.206
+WMF6348         1H  IN A    10.193.2.207
+WMF6349         1H  IN A    10.193.2.208
+WMF6350         1H  IN A    10.193.2.209
+WMF6351         1H  IN A    10.193.2.210
+WMF6352         1H  IN A    10.193.2.211
+WMF6353         1H  IN A    10.193.2.212
+WMF6354         1H  IN A    10.193.2.213
+WMF6355         1H  IN A    10.193.2.214
+WMF6356         1H  IN A    10.193.2.215
+WMF6357         1H  IN A    10.193.2.216
+WMF6358         1H  IN A    10.193.2.217
+WMF6359         1H  IN A    10.193.2.218
+WMF6360         1H  IN A    10.193.2.219
+WMF6361         1H  IN A    10.193.2.220
+WMF6362         1H  IN A    10.193.2.221
+
 ;
 ; ESAMS
 ;
