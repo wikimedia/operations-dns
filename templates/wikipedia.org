@@ -56,7 +56,7 @@ wg-en                   600     IN DYNA         geoip!text-addrs
 www                     600     IN DYNA         geoip!text-addrs
 zh-tw                   600     IN DYNA         geoip!text-addrs
 
-; All languages will automatically be included here
+; All languages will automatically be included here.
 {{ geolanglist(zero=True) }}
 
 ; Other websites
