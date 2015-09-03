@@ -233,13 +233,13 @@ $ORIGIN 4.0.e.f.{{ zonename }}.
 
 ; cr1-codfw <--> mr1-codfw (2620:0:860:fe05::/64)
 
-$ORIGIN 4.0.e.f.{{ zonename }}.
+$ORIGIN 5.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-3-3.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ge-0-0-0-401.mr1-codfw.wikimedia.org.
 
 ; cr2-codfw <--> mr1-codfw (2620:0:860:fe06::/64)
 
-$ORIGIN 4.0.e.f.{{ zonename }}.
+$ORIGIN 6.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-3-3.cr2-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ge-0-0-0-402.mr1-codfw.wikimedia.org.
 
