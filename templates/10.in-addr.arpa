@@ -810,6 +810,7 @@ $ORIGIN 32.64.{{ zonename }}.
 171     1H IN PTR       ganeti1003.eqiad.wmnet.
 172     1H IN PTR       ganeti1004.eqiad.wmnet.
 173     1H IN PTR       ganeti01.svc.eqiad.wmnet.
+174     1H IN PTR       mendelevium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 
 177     1H IN PTR       etherpad1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 178     1H IN PTR       restbase1008.eqiad.wmnet.
