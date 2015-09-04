@@ -72,9 +72,9 @@ osmdb               5M  IN CNAME    labsdb1006.eqiad.wmnet.
 pgsql               5M  IN CNAME    labsdb1004.eqiad.wmnet.
 
 ; etcd records
-_etcd-server._tcp   5M  IN SRV      0 1 2380 etcd1003.eqiad.wmnet.
 _etcd-server._tcp   5M  IN SRV      0 1 2380 conf1001.eqiad.wmnet.
 _etcd-server._tcp   5M  IN SRV      0 1 2380 conf1002.eqiad.wmnet.
+_etcd-server._tcp   5M  IN SRV      0 1 2380 conf1003.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
@@ -354,9 +354,6 @@ es1016          1H  IN A        10.64.32.185
 es1017          1H  IN A        10.64.48.114
 es1018          1H  IN A        10.64.48.115
 es1019          1H  IN A        10.64.48.116
-etcd1001        1H  IN A        10.64.32.174
-etcd1002        1H  IN A        10.64.32.175
-etcd1003        1H  IN A        10.64.32.176
 etherpad1001    1H  IN A        10.64.32.177 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 eventlog1001    1H  IN A        10.64.32.167
 fluorine        1H  IN A        10.64.0.21
