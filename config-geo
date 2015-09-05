@@ -121,7 +121,7 @@ plugins => { geoip => {
                     US => { # United States of America
                         AK => [ulsfo, eqiad], # Alaska
                         AL => [eqiad       ], # Alabama
-                        AR => [eqiad       ], # Arkansas
+                        AR => [codfw, eqiad], # Arkansas
                         AZ => [eqiad       ], # Arizona
                         CA => [eqiad       ], # California
                         CO => [eqiad       ], # Colorado
@@ -137,7 +137,7 @@ plugins => { geoip => {
                         IN => [eqiad       ], # Indiana
                         KS => [eqiad       ], # Kansas
                         KY => [eqiad       ], # Kentucky
-                        LA => [eqiad       ], # Louisiana
+                        LA => [codfw, eqiad], # Louisiana
                         MA => [eqiad       ], # Massachusetts
                         MD => [eqiad       ], # Maryland
                         ME => [eqiad       ], # Maine
@@ -151,11 +151,11 @@ plugins => { geoip => {
                         NE => [eqiad       ], # Nebraska
                         NH => [eqiad       ], # New Hampshire
                         NJ => [eqiad       ], # New Jersey
-                        NM => [eqiad       ], # New Mexico
+                        NM => [codfw, eqiad], # New Mexico
                         NV => [eqiad       ], # Nevada
                         NY => [eqiad       ], # New York
                         OH => [eqiad       ], # Ohio
-                        OK => [eqiad       ], # Oklahoma
+                        OK => [codfw, eqiad], # Oklahoma
                         OR => [eqiad       ], # Oregon
                         PA => [eqiad       ], # Pennsylvania
                         RI => [eqiad       ], # Rhode Island
