@@ -186,6 +186,7 @@ plugins => { geoip => {
                         SK => [eqiad       ], # Saskatchewan
                         YT => [eqiad       ], # Yukon Territory
                     },
+                    MX => [codfw, eqiad], # Mexico
                 },
                 OC => [ulsfo, eqiad],
                 default => eqiad,
