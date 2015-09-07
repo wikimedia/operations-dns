@@ -52,6 +52,7 @@ $ORIGIN {{ zonename }}.
 
 192 1H IN PTR   cr1-ulsfo.wikimedia.org.
 193 1H IN PTR   cr2-ulsfo.wikimedia.org.
+194 1H IN PTR   mr1-ulsfo.wikimedia.org.
 
 ; 198.35.26.196/31
 196 1H IN PTR   ae0-2.cr1-ulsfo.wikimedia.org.
