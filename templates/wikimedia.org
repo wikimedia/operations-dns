@@ -313,48 +313,40 @@ wikimania2016.m     600 IN DYNA     geoip!mobile-addrs
 wikitech.m          600 IN DYNA     geoip!mobile-addrs
 
 ; Networking
+cr1-eqiad       1H  IN A    208.80.154.196
+                1H  IN AAAA 2620:0:861:ffff::1
+cr2-eqiad       1H  IN A    208.80.154.197
+                1H  IN AAAA 2620:0:861:ffff::2
+cr1-eqord       1H  IN A    208.80.154.198
+                1H  IN AAAA 2620:0:861:ffff::5
+mr1-eqiad       1H  IN A    208.80.154.199
+                1H  IN AAAA 2620:0:861:ffff::6
 
 cr1-codfw       1H  IN A    208.80.153.192
                 1H  IN AAAA 2620:0:860:ffff::1
-
-cr1-eqiad       1H  IN A    208.80.154.196
-                IN AAAA 2620:0:861:ffff::1
-
-cr1-eqdfw       1H  IN A    208.80.153.198
-                IN AAAA 2620:0:860:ffff::5
-
-cr1-eqord       1H  IN A    208.80.154.198
-                IN AAAA 2620:0:861:ffff::5
-
-cr1-esams       1H  IN A    91.198.174.245
-                IN AAAA 2620:0:862:ffff::5
-
-cr1-ulsfo       1H  IN A    198.35.26.192
-                IN AAAA 2620:0:863:ffff::1
-
 cr2-codfw       1H  IN A    208.80.153.193
                 1H  IN AAAA 2620:0:860:ffff::2
-
-cr2-eqiad       1H  IN A    208.80.154.197
-                IN AAAA 2620:0:861:ffff::2
-
-cr2-knams       1H  IN A    91.198.174.246
-                IN AAAA 2620:0:862:ffff::4
-
-cr2-ulsfo       1H  IN A    198.35.26.193
-                IN AAAA 2620:0:863:ffff::2
-
-mr1-eqiad       1H  IN A    208.80.154.199
-                1H  IN AAAA 2620:0:861:ffff::6
 mr1-codfw       1H  IN A    208.80.153.196
                 1H  IN AAAA 2620:0:860:ffff::6
-mr1-ulsfo       1H  IN A    198.35.26.194
-                1H  IN AAAA 2620:0:863:ffff::6
-mr1-ulsfo.oob   1H  IN A    209.237.234.242
+cr1-eqdfw       1H  IN A    208.80.153.198
+                1H  IN AAAA 2620:0:860:ffff::5
+
+cr1-esams       1H  IN A    91.198.174.245
+                1H  IN AAAA 2620:0:862:ffff::5
+cr2-knams       1H  IN A    91.198.174.246
+                1H  IN AAAA 2620:0:862:ffff::4
 mr1-esams       1H  IN A    91.198.174.247
                 1H  IN AAAA 2620:0:862:ffff::1
 mr1-esams.oob   1H  IN A    164.138.24.90
 ;mr1-esams.oob   1H  IN AAAA    2a02:2770:c011::1 ; does not ping
+
+cr1-ulsfo       1H  IN A    198.35.26.192
+                1H  IN AAAA 2620:0:863:ffff::1
+cr2-ulsfo       1H  IN A    198.35.26.193
+                1H  IN AAAA 2620:0:863:ffff::2
+mr1-ulsfo       1H  IN A    198.35.26.194
+                1H  IN AAAA 2620:0:863:ffff::6
+mr1-ulsfo.oob   1H  IN A    209.237.234.242
 
 vl1001-eth1.lvs1004 1H  IN A    208.80.154.58
 vl1001-eth1.lvs1005 1H  IN A    208.80.154.59
