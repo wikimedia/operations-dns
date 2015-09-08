@@ -131,5 +131,4 @@ $ORIGIN {{ zonename }}.
 240 1H  IN PTR  upload-lb.codfw.wikimedia.org.
 
 ; Misc 208.80.153.248 - .255 (208.80.153.248/29)
-253  1H  IN PTR maps-lb.codfw.wikimedia.org. ; TEMPORARY for wikimania2015 hackathon
 254  1H  IN PTR dns-rec-lb.codfw.wikimedia.org.

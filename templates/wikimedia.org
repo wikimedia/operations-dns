@@ -219,7 +219,6 @@ misc-web-lb.eqiad   1H  IN A    208.80.154.241
 
 geoiplookup-lb.eqiad    600 IN DYNA geoip!text-addrs-v4/eqiad
 
-maps-lb             1H  IN CNAME maps-lb.codfw ; TEMPORARY for wikimania2015 hackathon
 parsoid-lb.eqiad    1H  IN A    208.80.154.248
             1H  IN AAAA 2620:0:861:ed1a::3:14
 stream-lb.eqiad 1H  IN A    208.80.154.249
@@ -250,7 +249,6 @@ donate-lb.ulsfo     600 IN DYNA geoip!text-addrs-v4/ulsfo
 ;;; codfw
 dns-rec-lb.codfw    1H  IN A    208.80.153.254
                     1H  IN AAAA 2620:0:860:ed1a::3:fe
-maps-lb.codfw       1H  IN A    208.80.153.253 ; TEMPORARY for wikimania2015 hackathon
 text-lb.codfw       600 IN DYNA geoip!text-addrs/codfw
 upload-lb.codfw     600 IN DYNA geoip!upload-addrs/codfw
 mobile-lb.codfw     600 IN DYNA geoip!mobile-addrs/codfw
