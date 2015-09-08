@@ -2576,6 +2576,9 @@ rdb2001         1H  IN A    10.192.0.119
 rdb2002         1H  IN A    10.192.0.120
 rdb2003         1H  IN A    10.192.16.122
 rdb2004         1H  IN A    10.192.16.123
+restbase-test2001 1H  IN A    10.192.16.149
+restbase-test2002 1H  IN A    10.192.16.150
+restbase-test2003 1H  IN A    10.192.16.151
 subra           1H  IN A    10.192.16.124
 suhail          1H  IN A    10.192.0.121
 wtp2001         1H  IN A    10.192.16.43
@@ -3172,6 +3175,9 @@ rdb2001         1H  IN A    10.193.2.159
 rdb2002         1H  IN A    10.193.2.160
 rdb2003         1H  IN A    10.193.2.161
 rdb2004         1H  IN A    10.193.2.162
+restbase-test2001 1H IN A   10.193.2.118
+restbase-test2002 1H IN A   10.193.2.222
+restbase-test2003 1H IN A   10.193.2.223
 tmh2001         1H  IN A    10.193.1.8
 tmh2002         1H  IN A    10.193.1.9
 virt2001        1H  IN A    10.193.1.12
@@ -3319,7 +3325,9 @@ WMF5839         1H  IN A    10.193.1.38
 WMF5840         1H  IN A    10.193.1.41
 WMF5841         1H  IN A    10.193.1.47
 WMF5845         1H  IN A    10.193.2.118
+WMF5846         1H  IN A    10.193.2.222
 WMF5847         1H  IN A    10.193.1.49
+WMF5848         1H  IN A    10.193.2.223
 WMF5849         1H  IN A    10.193.2.116
 WMF5903         1H  IN A    10.193.1.48
 WMF5917         1H  IN A    10.193.1.45
