@@ -111,6 +111,7 @@ $ORIGIN {{ zonename }}.
 196 1H  IN PTR  cr1-eqiad.wikimedia.org.
 197 1H  IN PTR  cr2-eqiad.wikimedia.org.
 198 1H  IN PTR  cr1-eqord.wikimedia.org.
+199 1H  IN PTR  mr1-eqiad.wikimedia.org.
 
 ; 208.80.154.200/29 (cr1,cr2 <--> mr1)
 
