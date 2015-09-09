@@ -517,7 +517,6 @@ co               600 IN DYNA     geoip!text-addrs
 collab           600 IN DYNA     geoip!text-addrs
 comcom           600 IN DYNA     geoip!text-addrs
 commons          600 IN DYNA     geoip!text-addrs
-www.commons      600 IN DYNA     geoip!text-addrs
 dk               600 IN DYNA     geoip!text-addrs
 educacao         600 IN DYNA     geoip!text-addrs
 education        600 IN DYNA     geoip!text-addrs
@@ -536,7 +535,6 @@ kr               600 IN DYNA     geoip!text-addrs
 langcom          600 IN DYNA     geoip!text-addrs
 legalteam        600 IN DYNA     geoip!text-addrs
 meta             600 IN DYNA     geoip!text-addrs
-www.meta         600 IN DYNA     geoip!text-addrs
 mk               600 IN DYNA     geoip!text-addrs
 movementroles    600 IN DYNA     geoip!text-addrs
 mx               600 IN DYNA     geoip!text-addrs
@@ -551,7 +549,6 @@ office           600 IN DYNA     geoip!text-addrs
 ombudsmen        600 IN DYNA     geoip!text-addrs
 otrs-wiki        600 IN DYNA     geoip!text-addrs
 outreach         600 IN DYNA     geoip!text-addrs
-pa.us            600 IN DYNA     geoip!text-addrs
 pa-us            600 IN DYNA     geoip!text-addrs
 pt               600 IN DYNA     geoip!text-addrs
 pk               600 IN DYNA     geoip!text-addrs
