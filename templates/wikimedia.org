@@ -539,8 +539,6 @@ mk               600 IN DYNA     geoip!text-addrs
 movementroles    600 IN DYNA     geoip!text-addrs
 mx               600 IN DYNA     geoip!text-addrs
 nl               600 IN DYNA     geoip!text-addrs
-www.nl           600 IN DYNA     geoip!text-addrs
-noboard.chapters 600 IN DYNA     geoip!text-addrs
 no               600 IN DYNA     geoip!text-addrs
 noboard-chapters 600 IN DYNA     geoip!text-addrs
 nostalgia        600 IN DYNA     geoip!text-addrs
