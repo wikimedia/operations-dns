@@ -199,9 +199,6 @@ $ORIGIN 0.21.{{ zonename }}.
 
 210 1H  IN PTR  scs1-esams.mgmt.esams.wmnet.
 
-212 1H  IN PTR  ae1-200.cr1-esams.wikimedia.org.
-213 1H  IN PTR  ae1-200.cr2-knams.wikimedia.org.
-
 249 1H  IN PTR  msw-oe12-esams.mgmt.esams.wmnet.
 253 1H  IN PTR  schleifenbauer.mgmt.esams.wmnet.
 
