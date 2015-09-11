@@ -123,14 +123,13 @@ $ORIGIN 0.20.{{ zonename }}.
 
 $ORIGIN 0.21.{{ zonename }}.
 
-1   1H  IN PTR  ge-0-0-0-0.mr1-esams.mgmt.esams.wmnet.
+1   1H  IN PTR  mr1-esams.mgmt.esams.wmnet.
 2   1H  IN PTR  ms-be3001.mgmt.esams.wmnet.
 3   1H  IN PTR  ms-be3002.mgmt.esams.wmnet.
 4   1H  IN PTR  ms-be3003.mgmt.esams.wmnet.
 5   1H  IN PTR  ms-be3004.mgmt.esams.wmnet.
 6   1H  IN PTR  ms-fe3001.mgmt.esams.wmnet.
 7   1H  IN PTR  ms-fe3002.mgmt.esams.wmnet.
-8   1H  IN PTR  ge-0-0-0-0.mr1-esams.mgmt.esams.wmnet.
 
 ; 46-50 are used by TS
 
