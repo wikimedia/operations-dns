@@ -40,3 +40,6 @@ www         600 IN DYNA     geoip!text-addrs
 ; Mobile
 m           600 IN DYNA     geoip!mobile-addrs
 test.m      600 IN DYNA     geoip!mobile-addrs
+
+; temporary hack for phab
+phab        600 IN CNAME    misc-web-lb.eqiad.wikimedia.org.
