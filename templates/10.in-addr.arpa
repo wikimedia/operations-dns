@@ -377,6 +377,12 @@ $ORIGIN 1.64.{{ zonename }}.
 4   1H IN PTR   vl1017-eth1.lvs1004.wikimedia.org.
 5   1H IN PTR   vl1017-eth1.lvs1005.wikimedia.org.
 6   1H IN PTR   vl1017-eth1.lvs1006.wikimedia.org.
+7   1H IN PTR   lvs1007.eqiad.wmnet.
+8   1H IN PTR   lvs1008.eqiad.wmnet.
+9   1H IN PTR   lvs1009.eqiad.wmnet.
+10  1H IN PTR   vl1017-eth1.lvs1010.eqiad.wmnet.
+11  1H IN PTR   vl1017-eth1.lvs1011.eqiad.wmnet.
+12  1H IN PTR   vl1017-eth1.lvs1012.eqiad.wmnet.
 
 ; 10.64.4.0/24 - labs-support1-a-eqiad
 $ORIGIN 4.64.{{ zonename }}.
@@ -600,6 +606,12 @@ $ORIGIN 17.64.{{ zonename }}.
 4   1H IN PTR   vl1018-eth0.lvs1004.wikimedia.org.
 5   1H IN PTR   vl1018-eth0.lvs1005.wikimedia.org.
 6   1H IN PTR   vl1018-eth0.lvs1006.wikimedia.org.
+7   1H IN PTR   vl1018-eth2.lvs1007.eqiad.wmnet.
+8   1H IN PTR   vl1018-eth2.lvs1008.eqiad.wmnet.
+9   1H IN PTR   vl1018-eth2.lvs1009.eqiad.wmnet.
+10  1H IN PTR   vl1018-eth2.lvs1010.eqiad.wmnet.
+11  1H IN PTR   vl1018-eth2.lvs1011.eqiad.wmnet.
+12  1H IN PTR   vl1018-eth2.lvs1012.eqiad.wmnet.
 
 ; 10.64.20.0/24 - labs-hosts1-b-eqiad
 $ORIGIN 20.64.{{ zonename }}.
@@ -828,6 +840,12 @@ $ORIGIN 33.64.{{ zonename }}.
 4       1H IN PTR       vl1019-eth2.lvs1004.wikimedia.org.
 5       1H IN PTR       vl1019-eth2.lvs1005.wikimedia.org.
 6       1H IN PTR       vl1019-eth2.lvs1006.wikimedia.org.
+7       1H IN PTR       vl1019-eth1.lvs1007.eqiad.wmnet.
+8       1H IN PTR       vl1019-eth1.lvs1008.eqiad.wmnet.
+9       1H IN PTR       vl1019-eth1.lvs1009.eqiad.wmnet.
+10      1H IN PTR       lvs1010.eqiad.wmnet.
+11      1H IN PTR       lvs1011.eqiad.wmnet.
+12      1H IN PTR       lvs1012.eqiad.wmnet.
 
 ; 10.64.36.0/24 - analytics1-c-eqiad
 $ORIGIN 36.64.{{ zonename }}.
@@ -1032,6 +1050,12 @@ $ORIGIN 49.64.{{ zonename }}.
 4       1H IN PTR       vl1020-eth3.lvs1004.wikimedia.org.
 5       1H IN PTR       vl1020-eth3.lvs1005.wikimedia.org.
 6       1H IN PTR       vl1020-eth3.lvs1006.wikimedia.org.
+7       1H IN PTR       vl1020-eth3.lvs1007.eqiad.wmnet.
+8       1H IN PTR       vl1020-eth3.lvs1008.eqiad.wmnet.
+9       1H IN PTR       vl1020-eth3.lvs1009.eqiad.wmnet.
+10      1H IN PTR       vl1020-eth3.lvs1010.eqiad.wmnet.
+11      1H IN PTR       vl1020-eth3.lvs1011.eqiad.wmnet.
+12      1H IN PTR       vl1020-eth3.lvs1012.eqiad.wmnet.
 
 ; 10.64.53.0/24 - analytics1-d-eqiad
 $ORIGIN 53.64.{{ zonename }}.
