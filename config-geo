@@ -206,14 +206,14 @@ plugins => { geoip => {
                 # Level3's DNS clusters
                 192.221.132.0/22  => [eqiad       ], # Atlanta
                 192.221.136.0/22  => [eqiad       ], # Chicago
-                192.221.140.0/22  => [eqiad       ], # Dallas
+                192.221.140.0/22  => [codfw, eqiad], # Dallas
                 192.221.148.0/22  => [eqiad       ], # Los Angeles
                 192.221.156.0/22  => [eqiad       ], # New York
                 192.221.160.0/22  => [eqiad       ], # San Jose
                 192.221.164.0/22  => [eqiad       ], # Washington, DC
                 8.0.4.0/22        => [eqiad       ], # Atlanta
                 8.0.8.0/22        => [eqiad       ], # Chicago
-                8.0.12.0/22       => [eqiad       ], # Dallas
+                8.0.12.0/22       => [codfw, eqiad], # Dallas
                 8.0.20.0/22       => [eqiad       ], # Los Angeles
                 8.0.28.0/22       => [eqiad       ], # New York
                 8.0.32.0/22       => [eqiad       ], # San Jose
