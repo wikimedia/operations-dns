@@ -2,7 +2,7 @@ plugins => { geoip => {
     maps => {
         generic-map => {
             geoip2_db => /usr/share/GeoIP/GeoIP2-City.mmdb
-            datacenters => [eqiad esams ulsfo codfw]
+            datacenters => [eqiad codfw esams ulsfo]
             map => {
                 # use ISO 3166-2 official names
                 AF => [esams, eqiad], # ESAMS-EQIAD
