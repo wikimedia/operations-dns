@@ -320,6 +320,7 @@ $ORIGIN 0.64.{{ zonename }}.
 120 1H IN PTR   snapshot1001.eqiad.wmnet.
 121 1H IN PTR   snapshot1002.eqiad.wmnet.
 122 1H IN PTR   logstash1001.eqiad.wmnet.
+123 1H IN PTR   aqs1001.eqiad.wmnet.
 
 162 1H IN PTR   logstash1004.eqiad.wmnet.
 
@@ -396,7 +397,6 @@ $ORIGIN 4.64.{{ zonename }}.
 ; 10.64.5.0/24 - analytics1-a-eqiad
 $ORIGIN 5.64.{{ zonename }}.
 10  1H IN PTR   analytics1009.eqiad.wmnet.
-11  1H IN PTR   analytics1011.eqiad.wmnet.
 12  1H IN PTR   kafka1012.eqiad.wmnet.
 13  1H IN PTR   kafka1013.eqiad.wmnet.
 14  1H IN PTR   analytics1021.eqiad.wmnet.
@@ -820,6 +820,7 @@ $ORIGIN 32.64.{{ zonename }}.
 172     1H IN PTR       ganeti1004.eqiad.wmnet.
 173     1H IN PTR       ganeti01.svc.eqiad.wmnet.
 174     1H IN PTR       mendelevium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+175     1H IN PTR       aqs1002.eqiad.wmnet.
 
 177     1H IN PTR       etherpad1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 178     1H IN PTR       restbase1008.eqiad.wmnet.
@@ -860,7 +861,6 @@ $ORIGIN 36.64.{{ zonename }}.
 122     1H IN PTR       kafka1022.eqiad.wmnet.
 
 115     1H IN PTR       analytics1015.eqiad.wmnet.
-116     1H IN PTR       analytics1016.eqiad.wmnet.
 117     1H IN PTR       analytics1017.eqiad.wmnet.
 118     1H IN PTR       analytics1001.eqiad.wmnet.
 
@@ -1042,6 +1042,7 @@ $ORIGIN 48.64.{{ zonename }}.
 114     1H  IN PTR      es1017.eqiad.wmnet.
 115     1H  IN PTR      es1018.eqiad.wmnet.
 116     1H  IN PTR      es1019.eqiad.wmnet.
+117     1H IN PTR       aqs1003.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
@@ -1064,7 +1065,6 @@ $ORIGIN 53.64.{{ zonename }}.
 2       1H IN PTR       ae4-1023.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae4-1023.cr2-eqiad.wikimedia.org.
 10      1H IN PTR       kafka1018.eqiad.wmnet.
-11      1H IN PTR       analytics1019.eqiad.wmnet.
 12      1H IN PTR       kafka1020.eqiad.wmnet.
 14      1H IN PTR       analytics1035.eqiad.wmnet.
 15      1H IN PTR       analytics1036.eqiad.wmnet.
@@ -1842,15 +1842,15 @@ $ORIGIN 3.65.{{ zonename }}.
 91  1H  IN PTR      osm-cp1002.mgmt.eqiad.wmnet.
 92  1H  IN PTR      osm-cp1003.mgmt.eqiad.wmnet.
 93  1H  IN PTR      osm-cp1004.mgmt.eqiad.wmnet.
-94  1H  IN PTR      analytics1011.mgmt.eqiad.wmnet.
+94  1H  IN PTR      aqs1001.mgmt.eqiad.wmnet.
 95  1H  IN PTR      kafka1012.mgmt.eqiad.wmnet.
 96  1H  IN PTR      kafka1013.mgmt.eqiad.wmnet.
 97  1H  IN PTR      kafka1014.mgmt.eqiad.wmnet.
 98  1H  IN PTR      analytics1015.mgmt.eqiad.wmnet.
-99  1H  IN PTR      analytics1016.mgmt.eqiad.wmnet.
+99  1H  IN PTR      aqs1002.mgmt.eqiad.wmnet.
 100 1H  IN PTR      analytics1017.mgmt.eqiad.wmnet.
 101 1H  IN PTR      kafka1018.mgmt.eqiad.wmnet.
-102 1H  IN PTR      analytics1019.mgmt.eqiad.wmnet.
+102 1H  IN PTR      aqs1003.mgmt.eqiad.wmnet.
 103 1H  IN PTR      kafka1020.mgmt.eqiad.wmnet.
 104 1H  IN PTR      analytics1021.mgmt.eqiad.wmnet.
 105 1H  IN PTR      kafka1022.mgmt.eqiad.wmnet.
