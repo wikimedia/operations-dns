@@ -193,16 +193,17 @@ plugins => { geoip => {
             },
             nets = {
                 # Wikimedia address space
-                208.80.152.0/22   => [eqiad       ], # codfw, eqiad
-                91.198.174.0/24   => [esams, eqiad], # ESAMS-EQIAD # esams
-                185.15.56.0/22    => [esams, eqiad], # ESAMS-EQIAD # esams
-                198.35.26.0/23    => [eqiad       ], # ulsfo
-                2620:0:860::/48   => [eqiad       ], # codfw
-                2620:0:861::/48   => [eqiad       ], # eqiad
-                2620:0:862::/48   => [esams, eqiad], # ESAMS-EQIAD # esams
-                2620:0:863::/48   => [eqiad       ], # ulsfo
-                198.73.209.0/24   => [ulsfo, eqiad], # WMF OIT
-                2620:62:c000::/48 => [ulsfo, eqiad], # WMF OIT
+                208.80.152.0/23   => [       codfw, eqiad], # codfw
+                208.80.154.0/23   => [       eqiad, codfw], # eqiad
+                91.198.174.0/24   => [esams, eqiad, codfw], # esams
+                185.15.56.0/22    => [esams, eqiad, codfw], # esams
+                198.35.26.0/23    => [ulsfo, eqiad, codfw], # ulsfo
+                2620:0:860::/48   => [       codfw, eqiad], # codfw
+                2620:0:861::/48   => [       eqiad, codfw], # eqiad
+                2620:0:862::/48   => [       esams, eqiad], # esams
+                2620:0:863::/48   => [ulsfo, eqiad, codfw], # ulsfo
+                198.73.209.0/24   => [ulsfo, eqiad, codfw], # WMF OIT
+                2620:62:c000::/48 => [ulsfo, eqiad, codfw], # WMF OIT
                 # Level3's DNS clusters
                 192.221.132.0/22  => [eqiad       ], # Atlanta
                 192.221.136.0/22  => [eqiad       ], # Chicago
