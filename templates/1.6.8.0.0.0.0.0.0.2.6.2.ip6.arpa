@@ -26,7 +26,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 7.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   antimony.wikimedia.org.
 
-1.6.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   sodium.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   lists.wikimedia.org.
 
 7.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   nitrogen.wikimedia.org.
