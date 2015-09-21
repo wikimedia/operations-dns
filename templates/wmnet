@@ -695,6 +695,7 @@ mw1256          1H  IN A        10.64.48.91
 mw1257          1H  IN A        10.64.48.92
 mw1258          1H  IN A        10.64.48.93
 mw1259          1H  IN A        10.64.0.197
+nobelium        1H  IN A        10.64.37.14
 ocg1001         1H  IN A        10.64.32.151
 ocg1002         1H  IN A        10.64.48.42
 ocg1003         1H  IN A        10.64.48.43
@@ -2021,6 +2022,7 @@ WMF4540      1H  IN A   10.65.5.180
 analytics1001 1H IN A   10.65.5.180
 WMF4541     1H  IN A        10.65.5.181
 WMF4543     1H  IN A        10.65.5.183
+nobelium    1H  IN A        10.65.5.183
 WMF4544     1H  IN A        10.65.5.184
 analytics1002    1H  IN A        10.65.5.184
 WMF4545     1H  IN A        10.65.5.185

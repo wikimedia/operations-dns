@@ -892,6 +892,7 @@ $ORIGIN 37.64.{{ zonename }}.
 11      1H IN PTR       labsdb1006.eqiad.wmnet.
 12      1H IN PTR       labsdb1007.eqiad.wmnet.
 13      1H IN PTR       labmon1001.eqiad.wmnet.
+14      1H IN PTR       nobelium.eqiad.wmnet.
 
 ; 10.64.40.0/23 - frack.eqiad subnets
 $ORIGIN 40.64.{{ zonename }}.
@@ -1969,6 +1970,7 @@ $ORIGIN 3.65.{{ zonename }}.
 182     1H  IN PTR      wmf4542.mgmt.eqiad.wmnet.
 182     1H  IN PTR      stat1003.mgmt.eqiad.wmnet.
 183     1H  IN PTR      wmf4543.mgmt.eqiad.wmnet.
+183     1H  IN PTR      nobelium.mgmt.eqiad.wmnet.
 184     1H  IN PTR      wmf4544.mgmt.eqiad.wmnet.
 184     1H  IN PTR      analytics1002.mgmt.eqiad.wmnet.
 185 1H  IN PTR      wmf4545.mgmt.eqiad.wmnet.
