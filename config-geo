@@ -200,7 +200,7 @@ plugins => { geoip => {
                 198.35.26.0/23    => [ulsfo, eqiad, codfw], # ulsfo
                 2620:0:860::/48   => [       codfw, eqiad], # codfw
                 2620:0:861::/48   => [       eqiad, codfw], # eqiad
-                2620:0:862::/48   => [       esams, eqiad], # esams
+                2620:0:862::/48   => [esams, eqiad, codfw], # esams
                 2620:0:863::/48   => [ulsfo, eqiad, codfw], # ulsfo
                 198.73.209.0/24   => [ulsfo, eqiad, codfw], # WMF OIT
                 2620:62:c000::/48 => [ulsfo, eqiad, codfw], # WMF OIT
