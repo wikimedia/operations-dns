@@ -144,6 +144,10 @@ lvs1006         1H  IN A    208.80.154.139
 magnesium       1H  IN A    208.80.154.5
 ms1001          1H  IN A    208.80.154.16
                 1H  IN AAAA 2620:0:861:1:208:80:154:16
+mx1001          1H  IN A    208.80.154.76 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+                1H  IN AAAA 2620:0:861:3:208:80:154:76
+mx2001          1H  IN A    208.80.153.45 ; VM on the ganeti01.svc.codfw.wmnet cluster
+                1H  IN AAAA 2620:0:860:2:208:80:153:45
 nembus          1H  IN A    208.80.153.44
 neon            1H  IN A    208.80.154.14
                 1H  IN AAAA 2620:0:861:1:208:80:154:14
