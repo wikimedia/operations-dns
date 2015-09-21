@@ -107,7 +107,7 @@ plugins => { geoip => {
                     PT => [esams, eqiad, codfw], # Portugal
                     RO => [esams, eqiad, codfw], # Romania
                     RS => [esams, eqiad, codfw], # Serbia
-                    RU => [esams, ulsfo, codfw], # Russian Federation
+                    RU => [esams, eqiad, codfw], # Russian Federation
                     SE => [esams, eqiad, codfw], # Sweden
                     SI => [esams, eqiad, codfw], # Slovenia
                     SJ => [esams, eqiad, codfw], # Svalbard and Jan Mayen Islands
