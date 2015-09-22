@@ -307,7 +307,7 @@ elastic1001     1H  IN A        10.64.0.108
 elastic1002     1H  IN A        10.64.0.109
 elastic1003     1H  IN A        10.64.0.110
 elastic1004     1H  IN A        10.64.0.111
-elastic1005     1H  IN A        10.64.0.112
+elastic1005     1H  IN A        10.64.48.118
 elastic1006     1H  IN A        10.64.0.113
 elastic1007     1H  IN A        10.64.32.139
 elastic1008     1H  IN A        10.64.32.140
@@ -332,7 +332,7 @@ elastic1026     1H  IN A        10.64.48.50
 elastic1027     1H  IN A        10.64.48.51
 elastic1028     1H  IN A        10.64.48.52
 elastic1029     1H  IN A        10.64.48.53
-elastic1030     1H  IN A        10.64.48.54
+elastic1030     1H  IN A        10.64.0.124
 elastic1031     1H  IN A        10.64.48.55
 erbium          1H  IN A        10.64.32.135
 es1001          1H  IN A        10.64.0.25
