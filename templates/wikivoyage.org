@@ -18,8 +18,8 @@ $ORIGIN {{ zonename }}.
 
 ; Mail exchangers
 
-            1H  IN MX   10  polonium.wikimedia.org.
-            1H  IN MX   50  lead.wikimedia.org.
+            1H  IN MX   10  mx1001.wikimedia.org.
+            1H  IN MX   50  mx2001.wikimedia.org.
 
 
 ; Canonical names
