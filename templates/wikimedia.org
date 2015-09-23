@@ -66,7 +66,7 @@ lists           1H  IN A    208.80.154.75
                 1H  IN MX   10 lists
                 1H  IN TXT  "v=spf1 mx ?all"
 
-wiki-mail       1H  IN CNAME    polonium    ; used by Jenkins and possibly others
+wiki-mail       1H  IN CNAME    mx1001    ; used by Jenkins and possibly others
 
 ns0         1H  IN A    208.80.154.238
 ns1         1H  IN A    208.80.153.231
