@@ -46,6 +46,7 @@ $ORIGIN {{ zonename }}.
 43  1H  IN PTR  pollux.wikimedia.org.
 44  1H  IN PTR  nembus.wikimedia.org.
 45  1H  IN PTR  mx2001.wikimedia.org.
+46  1H  IN PTR  wiki-mail-codfw.wikimedia.org.
 
 ; 208.80.153.64/27 (public1-c-codfw)
 65  1H  IN PTR  vrrp-gw-2003.wikimedia.org.
