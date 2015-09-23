@@ -444,6 +444,7 @@ frdata.wikimedia.org.   1H  IN CNAME    frdata-eqiad.wikimedia.org.
 gerrit          1H  IN A        208.80.154.81
                 1H  IN AAAA     2620:0:861:3:208:80:154:81
 git             1H  IN CNAME    misc-web-lb.eqiad
+git-ssh         1H  IN A        208.80.154.82
 gdash           1H  IN CNAME    misc-web-lb.eqiad
 tessera         1H  IN CNAME    misc-web-lb.eqiad
 graphite        1H  IN CNAME    misc-web-lb.eqiad
