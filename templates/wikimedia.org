@@ -627,7 +627,7 @@ labs-ns1         1H  IN A        208.80.153.15
 labs-ns2         1H  IN A        208.80.154.12
 labs-ns3         1H  IN A        208.80.155.117
 labs-recursor0   1H  IN A        208.80.154.20
-labs-recursor1   1H  IN A        208.80.154.21
+labs-recursor1   1H  IN A        208.80.155.118
 ; deprecated but kept for compatibility, see RT #6769
 labsconsole      600 IN DYNA     geoip!text-addrs
 logstash         1H  IN CNAME    misc-web-lb.eqiad
