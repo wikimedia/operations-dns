@@ -317,13 +317,12 @@ $ORIGIN 0.64.{{ zonename }}.
 110 1H IN PTR   elastic1003.eqiad.wmnet.
 111 1H IN PTR   elastic1004.eqiad.wmnet.
 
-113 1H IN PTR   elastic1006.eqiad.wmnet.
 120 1H IN PTR   snapshot1001.eqiad.wmnet.
 121 1H IN PTR   snapshot1002.eqiad.wmnet.
 122 1H IN PTR   logstash1001.eqiad.wmnet.
 123 1H IN PTR   aqs1001.eqiad.wmnet.
 124 1H IN PTR   elastic1030.eqiad.wmnet.
-
+125 1H IN PTR   elastic1031.eqiad.wmnet.
 162 1H IN PTR   logstash1004.eqiad.wmnet.
 
 164 1H IN PTR   strontium.eqiad.wmnet.
@@ -982,7 +981,6 @@ $ORIGIN 48.64.{{ zonename }}.
 52      1H IN PTR       elastic1028.eqiad.wmnet.
 53      1H IN PTR       elastic1029.eqiad.wmnet.
 
-55      1H IN PTR       elastic1031.eqiad.wmnet.
 56      1H  IN PTR      mw1221.eqiad.wmnet.
 57      1H  IN PTR      mw1222.eqiad.wmnet.
 58      1H  IN PTR      mw1223.eqiad.wmnet.
@@ -1046,6 +1044,7 @@ $ORIGIN 48.64.{{ zonename }}.
 116     1H  IN PTR      es1019.eqiad.wmnet.
 117     1H  IN PTR      aqs1003.eqiad.wmnet.
 118     1H  IN PTR      elastic1005.eqiad.wmnet.
+119     1H  IN PTR      elastic1006.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
