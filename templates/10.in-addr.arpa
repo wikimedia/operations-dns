@@ -20,7 +20,6 @@ $ORIGIN 1.2.{{ zonename }}.
 
 1   1H  IN PTR  appservers.svc.codfw.wmnet.
 13  1H  IN PTR  kartotherian.svc.codfw.wmnet.
-14  1H  IN PTR  tilerator.svc.codfw.wmnet.
 17  1H  IN PTR  restbase.svc.codfw.wmnet.
 21  1H  IN PTR  rendering.svc.codfw.wmnet.
 22  1H  IN PTR  api.svc.codfw.wmnet.
@@ -33,6 +32,8 @@ $ORIGIN 2.2.{{ zonename }}.
 
 1   1H  IN PTR  appservers.svc.eqiad.wmnet.
 3   1H  IN PTR  hhvm-api.svc.eqiad.wmnet.
+12  1H  IN PTR  aqs.svc.eqiad.wmnet.
+; keeping 13 for kartotherian to be consisent
 14  1H  IN PTR  mobileapps.svc.eqiad.wmnet.
 15  1H  IN PTR  graphoid.svc.eqiad.wmnet.
 16  1H  IN PTR  zotero.svc.eqiad.wmnet.

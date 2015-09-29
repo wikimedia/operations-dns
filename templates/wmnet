@@ -3931,6 +3931,8 @@ $ORIGIN svc.eqiad.wmnet.
 appservers  1H  IN A        10.2.2.1
 hhvm-api    1H  IN A        10.2.2.3
 ganeti01    1H  IN A        10.64.32.173
+aqs         1H  IN A        10.2.2.12
+; 13 reserved for kartotherian
 mobileapps  1H  IN A        10.2.2.14
 graphoid    1H  IN A        10.2.2.15
 zotero      1H  IN A        10.2.2.16
