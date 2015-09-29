@@ -1787,7 +1787,7 @@ $ORIGIN 3.65.{{ zonename }}.
 49  1H  IN PTR      wmf3424.mgmt.eqiad.wmnet.
 50  1H  IN PTR      strontium.mgmt.eqiad.wmnet.
 50  1H  IN PTR      wmf3425.mgmt.eqiad.wmnet.
-51  1H  IN PTR      yttrium.mgmt.eqiad.wmnet.
+51  1H  IN PTR      mw1259.mgmt.eqiad.wmnet.
 51  1H  IN PTR      wmf3426.mgmt.eqiad.wmnet.
 52  1H  IN PTR      wmf3427.mgmt.eqiad.wmnet.
 53  1H  IN PTR      niobium.mgmt.eqiad.wmnet.
@@ -1803,7 +1803,7 @@ $ORIGIN 3.65.{{ zonename }}.
 58  1H  IN PTR      palladium.mgmt.eqiad.wmnet.
 59  1H  IN PTR      silver.mgmt.eqiad.wmnet.
 59  1H  IN PTR      wmf3434.mgmt.eqiad.wmnet.
-60  1H  IN PTR      tmh1002.mgmt.eqiad.wmnet.
+60  1H  IN PTR      mw1260.mgmt.eqiad.wmnet.
 60  1H  IN PTR      wmf3435.mgmt.eqiad.wmnet.
 61  1H  IN PTR      wmf3437.mgmt.eqiad.wmnet.
 61  1H  IN PTR      pc1001.mgmt.eqiad.wmnet.
