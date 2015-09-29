@@ -695,6 +695,7 @@ mw1256          1H  IN A        10.64.48.91
 mw1257          1H  IN A        10.64.48.92
 mw1258          1H  IN A        10.64.48.93
 mw1259          1H  IN A        10.64.0.197
+mw1260          1H  IN A        10.64.16.146
 nobelium        1H  IN A        10.64.37.14
 ocg1001         1H  IN A        10.64.32.151
 ocg1002         1H  IN A        10.64.48.42
@@ -763,7 +764,6 @@ logstash1003    1H  IN A        10.64.48.113
 logstash1004    1H  IN A        10.64.0.162
 logstash1005    1H  IN A        10.64.16.185
 logstash1006    1H  IN A        10.64.48.109
-tmh1002         1H  IN A        10.64.16.146
 labvirt1009     1H  IN A        10.64.20.15
 labvirt1007     1H  IN A        10.64.20.16
 labvirt1008     1H  IN A        10.64.20.17

@@ -557,7 +557,7 @@ $ORIGIN 16.64.{{ zonename }}.
 142 1H IN PTR   snapshot1004.eqiad.wmnet.
 144 1H IN PTR   db1049.eqiad.wmnet.
 145 1H IN PTR   db1050.eqiad.wmnet.
-146 1H IN PTR   tmh1002.eqiad.wmnet.
+146 1H IN PTR   mw1260.eqiad.wmnet.
 147 1H IN PTR   cerium.eqiad.wmnet.
 148 1H IN PTR   dbproxy1004.eqiad.wmnet.
 149 1H IN PTR   praseodymium.eqiad.wmnet.
