@@ -182,3 +182,4 @@ $ORIGIN {{ zonename }}.
 ; Misc 208.80.154.248 - 208.80.154.255 (208.80.154.248/29)
 248 1H  IN PTR  parsoid-lb.eqiad.wikimedia.org.
 249 1H  IN PTR  stream-lb.eqiad.wikimedia.org.
+250 1H  IN PTR  git-ssh.eqiad.wikimedia.org.
