@@ -615,7 +615,6 @@ fundraising      1H  IN CNAME    fundraising-eqiad
 ganglia          1H  IN CNAME    uranium
 hue              1H  IN CNAME    misc-web-lb.eqiad
 iegreview        1H  IN CNAME    misc-web-lb.eqiad
-ishmael          1H  IN CNAME    misc-web-lb.eqiad
 tendril          1H  IN CNAME    neon
 jobs             600 IN DYNA     geoip!text-addrs
 labs             600 IN DYNA     geoip!text-addrs
