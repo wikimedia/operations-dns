@@ -832,6 +832,7 @@ $ORIGIN 32.64.{{ zonename }}.
 183     1H IN PTR       wdqs1002.eqiad.wmnet.
 184     1H IN PTR       es1015.eqiad.wmnet.
 185     1H IN PTR       es1016.eqiad.wmnet.
+186     1H IN PTR       iridium-vcs.eqiad.wmnet.
 
 201     1H IN PTR       d-i-test.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 
