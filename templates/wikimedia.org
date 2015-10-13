@@ -449,6 +449,7 @@ tessera         1H  IN CNAME    misc-web-lb.eqiad
 graphite        1H  IN CNAME    misc-web-lb.eqiad
 grafana         1H  IN CNAME    misc-web-lb.eqiad
 grafana-test    1H  IN CNAME    misc-web-lb.eqiad
+grafana-admin   1H  IN CNAME    misc-web-lb.eqiad
 parsoid-tests   1H  IN CNAME    misc-web-lb.eqiad
 performance     1H  IN CNAME    misc-web-lb.eqiad
 horizon         1H  IN CNAME    misc-web-lb.eqiad
