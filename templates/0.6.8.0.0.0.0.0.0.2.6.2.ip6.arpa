@@ -245,6 +245,12 @@ $ORIGIN 6.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-3-3.cr2-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ge-0-0-0-402.mr1-codfw.wikimedia.org.
 
+; cr2-codfw <--> cr2-eqiad (2620:0:860:fe07::/64)
+
+$ORIGIN 7.0.e.f.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-0-1.cr2-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-2-3.cr2-eqiad.wikimedia.org.
+
 ; Loopback IPs
 
 $ORIGIN f.f.f.f.{{ zonename }}.
