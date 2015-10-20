@@ -768,6 +768,8 @@ logstash1006    1H  IN A        10.64.48.109
 labvirt1009     1H  IN A        10.64.20.15
 labvirt1007     1H  IN A        10.64.20.16
 labvirt1008     1H  IN A        10.64.20.17
+labvirt1010     1H  IN A        10.64.20.26
+labvirt1011     1H  IN A        10.64.20.27
 mendelevium     1H  IN A        10.64.32.174 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 wdqs1001        1H  IN A        10.64.48.112
 wdqs1002        1H  IN A        10.64.32.183
@@ -988,6 +990,10 @@ analytics1007   1H  IN A    10.65.3.77
 labvirt1009     1H  IN A    10.65.3.227
 labvirt1007     1H  IN A    10.65.3.228
 labvirt1008     1H  IN A    10.65.3.229
+wmf4713         1H  IN A    10.65.3.236
+labvirt1010     1H  IN A    10.65.3.236
+wmf4714         1H  IN A    10.65.3.237
+labvirt1011     1H  IN A    10.65.3.237
 WMF3462         1H  IN A    10.65.3.79
 analytics1009   1H  IN A    10.65.3.79
 WMF3463         1H  IN A    10.65.3.80
