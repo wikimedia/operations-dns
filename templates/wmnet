@@ -1349,6 +1349,12 @@ ms-be1017   1H  IN A    10.65.5.25
 wmf4663     1H  IN A    10.65.5.25
 ms-be1018   1H  IN A    10.65.5.26
 wmf4664     1H  IN A    10.65.5.26
+ms-be1019   1H  IN A    10.65.5.27
+wmf4715     1H  IN A    10.65.5.27
+ms-be1020   1H  IN A    10.65.5.28
+wmf4716     1H  IN A    10.65.5.28
+ms-be1021   1H  IN A    10.65.5.29
+wmf4717     1H  IN A    10.65.5.29
 ms-fe1001   1H  IN A    10.65.5.17
 ms-fe1002   1H  IN A    10.65.5.18
 ms-fe1003   1H  IN A    10.65.5.19
