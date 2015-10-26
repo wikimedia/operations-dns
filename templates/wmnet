@@ -375,6 +375,7 @@ labvirt1003     1H  IN A        10.64.20.21
 labvirt1004     1H  IN A        10.64.20.22
 labvirt1005     1H  IN A        10.64.20.23
 labvirt1006     1H  IN A        10.64.20.24
+lawrencium      1H  IN A        10.64.48.94
 lvs1007         1H  IN A        10.64.1.7
 lvs1008         1H  IN A        10.64.1.8
 lvs1009         1H  IN A        10.64.1.9
@@ -1783,6 +1784,7 @@ WMF3153     1H  IN A    10.65.7.23
 labcontrol1001  1H  IN A    10.65.7.24
 WMF3152     1H  IN A    10.65.7.24
 WMF3542     1H  IN A    10.65.7.25
+lawrencium  1H  IN A    10.65.7.25
 WMF3543     1H  IN A    10.65.7.26
 WMF3544     1H  IN A    10.65.7.27
 WMF3151     1H  IN A    10.65.7.100
