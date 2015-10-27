@@ -150,6 +150,8 @@ berkelium        1H IN A             10.64.0.169
                  1H IN AAAA 2620:0:861:101:10:64:0:169
 caesium          1H IN A             10.64.32.145
 cerium           1H IN A             10.64.16.147
+cerium-a         1H IN A             10.64.16.153 ; cassandra instance
+cerium-b         1H IN A             10.64.16.154 ; cassandra instance
 copper           1H IN A             10.64.16.176
 conf1001         1H IN A             10.64.0.18
 conf1002         1H IN A             10.64.32.180
@@ -708,6 +710,8 @@ pc1003          1H  IN A        10.64.16.158
 planet1001      1H  IN A        10.64.32.179
 potassium       1H  IN A        10.64.16.152
 praseodymium    1H  IN A        10.64.16.149
+praseodymium-a  1H  IN A        10.64.16.188 ; cassandra instance
+praseodymium-b  1H  IN A        10.64.16.189 ; cassandra instance
 
 
 rcs1001         1H  IN A        10.64.32.148
@@ -788,6 +792,8 @@ wtp1022         1H  IN A        10.64.0.217
 wtp1023         1H  IN A        10.64.0.218
 wtp1024         1H  IN A        10.64.0.219
 xenon           1H  IN A        10.64.0.200
+xenon-a         1H  IN A        10.64.0.202 ; cassandra instance
+xenon-b         1H  IN A        10.64.0.203 ; cassandra instance
 
 ; Management
 
