@@ -398,6 +398,7 @@ $ORIGIN 4.64.{{ zonename }}.
 3   1H IN PTR   ae1-1117.cr2-eqiad.wikimedia.org.
 10  1H IN PTR   labstore1003.eqiad.wmnet.
 11  1H IN PTR   labsdb1001.eqiad.wmnet.
+12  1H IN PTR   scandium.eqiad.wmnet.
 
 ; 10.64.5.0/24 - analytics1-a-eqiad
 $ORIGIN 5.64.{{ zonename }}.
@@ -1562,6 +1563,7 @@ $ORIGIN 2.65.{{ zonename }}.
 13  1H  IN PTR      dbproxy1003.mgmt.eqiad.wmnet.
 13  1H  IN PTR      WMF3122.mgmt.eqiad.wmnet.
 14  1H  IN PTR      wmf3121.mgmt.eqiad.wmnet.
+14  1H  IN PTR      scandium.mgmt.eqiad.wmnet.
 15  1H  IN PTR      wmf3120.mgmt.eqiad.wmnet.
 16  1H  IN PTR      wmf3119.mgmt.eqiad.wmnet.
 17  1H  IN PTR      wmf3118.mgmt.eqiad.wmnet.

@@ -733,6 +733,7 @@ restbase1008    1H  IN A        10.64.32.178
 restbase1009    1H  IN A        10.64.48.110
 rhodium         1H  IN A        10.64.16.184
 ruthenium       1H  IN A        10.64.16.151
+scandium        1H  IN A        10.64.4.12
 sca1001         1H  IN A        10.64.32.153
 sca1002         1H  IN A        10.64.48.29
 scb1001         1H  IN A        10.64.0.16
@@ -881,6 +882,7 @@ curium      1H  IN A    10.65.2.12
 WMF3122     1H  IN A    10.65.2.13
 dbproxy1003 1H  IN A    10.65.2.13
 WMF3121     1H  IN A    10.65.2.14
+scandium    1H  IN A    10.65.2.14
 WMF3120     1H  IN A    10.65.2.15
 WMF3119     1H  IN A    10.65.2.16
 WMF3118     1H  IN A    10.65.2.17
