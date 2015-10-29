@@ -2855,8 +2855,11 @@ $ORIGIN 17.192.{{ zonename }}.
 5   1H IN PTR   lvs2005.codfw.wmnet.
 6   1H IN PTR   lvs2006.codfw.wmnet.
 
-; 10.192.20.0/24 - labs-hosts1-b-codfw - RESERVED
+; 10.192.20.0/24 - labs-hosts1-b-codfw
 $ORIGIN 20.192.{{ zonename }}.
+1   1H IN PTR   vrrp-gw-2118.codfw.wmnet.
+2   1H IN PTR   ae2-2118.cr1-codfw.wikimedia.org.
+3   1H IN PTR   ae2-2118.cr2-codfw.wikimedia.org.
 
 ; 10.192.21.0/24 - labs-support1-b-codfw
 $ORIGIN 21.192.{{ zonename }}.
