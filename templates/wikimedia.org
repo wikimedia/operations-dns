@@ -435,7 +435,6 @@ dev             600 IN DYNA     geoip!text-addrs
 doc             1H  IN CNAME    misc-web-lb.eqiad
 docs            600 IN DYNA     geoip!text-addrs
 eventdonations  1H  IN CNAME    contrib-wi-10109-10472-20140728-1682402186.us-east-1.elb.amazonaws.com.
-ldap-mirror     1H  IN CNAME    plutonium.wikimedia.org. ; TODO: Remove after transition to per DC mirrors
 ldap-mirror.eqiad     1H  IN CNAME    plutonium.wikimedia.org.
 ldap-mirror.codfw     1H  IN CNAME    pollux.wikimedia.org.
 ldap-corp.eqiad       1H  IN CNAME    dubnium.wikimedia.org.
