@@ -3983,6 +3983,27 @@ $ORIGIN 0.195.{{ zonename }}.
 111 1H IN PTR  betelgeuse.mgmt.frack.codfw.wmnet.
 111 1H IN PTR  WMF3762.mgmt.frack.codfw.wmnet.
 
+; codfw labs realm
+
+; 10.196.0.0/24 - labs-instances1-a-codfw
+$ORIGIN 0.196.{{ zonename }}.
+
+; 10.196.16.0/21 - labs-instances1-b-codfw
+$ORIGIN 16.196.{{ zonename }}.
+$ORIGIN 17.196.{{ zonename }}.
+$ORIGIN 18.196.{{ zonename }}.
+$ORIGIN 19.196.{{ zonename }}.
+$ORIGIN 20.196.{{ zonename }}.
+$ORIGIN 21.196.{{ zonename }}.
+$ORIGIN 22.196.{{ zonename }}.
+$ORIGIN 23.196.{{ zonename }}.
+
+; 10.196.32.0/24 - labs-instances1-c-codfw
+$ORIGIN 32.196.{{ zonename }}.
+
+; 10.196.48.0/24 - labs-instances1-d-codfw
+$ORIGIN 48.196.{{ zonename }}.
+
 ; LEGACY
 
 $ORIGIN 1.230.{{ zonename }}.
