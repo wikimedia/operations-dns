@@ -2952,6 +2952,12 @@ install2001     1H  IN A    10.193.1.10
 labcontrol2001  1H  IN A    10.193.1.49
 labstore2001    1H  IN A    10.193.1.248
 labstore2002    1H  IN A    10.193.1.249
+labtestcontrol2001    1H  IN A    10.193.2.1
+labtestmetal2001      1H  IN A    10.193.1.18
+labtestnet2001        1H  IN A    10.193.2.2
+labtestneutron2001    1H  IN A    10.193.1.20
+labtestservices2001   1H  IN A    10.193.1.21
+labtestvirt2001       1H  IN A    10.193.1.19
 lvs2001         1H  IN A    10.193.1.1
 lvs2002         1H  IN A    10.193.1.2
 lvs2003         1H  IN A    10.193.1.3
@@ -3286,6 +3292,7 @@ WMF3638         1H  IN A    10.193.1.61
 WMF3639         1H  IN A    10.193.1.33
 WMF3640         1H  IN A    10.193.1.34
 WMF3641         1H  IN A    10.193.1.50
+WMF3644         1H  IN A    10.193.1.21
 WMF3645         1H  IN A    10.193.1.8
 WMF3646         1H  IN A    10.193.1.9
 WMF3647         1H  IN A    10.193.1.62
@@ -3312,7 +3319,9 @@ WMF3740         1H  IN A    10.193.1.68
 WMF3741         1H  IN A    10.193.1.69
 WMF3742         1H  IN A    10.193.1.70
 WMF3762         1H  IN A    10.195.0.111
+WMF3763         1H  IN A    10.193.1.20
 WMF3811         1H  IN A    10.193.2.119
+WMF3810         1H  IN A    10.193.1.18
 WMF3903         1H  IN A    10.193.2.13
 WMF5718         1H  IN A    10.193.1.73
 WMF5723         1H  IN A    10.193.1.78
@@ -3367,6 +3376,9 @@ WMF5846         1H  IN A    10.193.2.222
 WMF5847         1H  IN A    10.193.1.49
 WMF5848         1H  IN A    10.193.2.223
 WMF5849         1H  IN A    10.193.2.116
+WMF5850         1H  IN A    10.193.1.19
+WMF5834         1H  IN A    10.193.2.1
+WMF5835         1H  IN A    10.193.2.2
 WMF5903         1H  IN A    10.193.1.48
 WMF5917         1H  IN A    10.193.1.45
 WMF5918         1H  IN A    10.193.1.40
