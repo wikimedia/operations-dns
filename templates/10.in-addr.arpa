@@ -3205,7 +3205,6 @@ $ORIGIN 1.193.{{ zonename }}.
 48  1H IN PTR  wmf5903.mgmt.codfw.wmnet.
 49  1H IN PTR  labcontrol2001.mgmt.codfw.wmnet.
 49  1H IN PTR  wmf5847.mgmt.codfw.wmnet.
-50  1H IN PTR  pollux.mgmt.codfw.wmnet.
 50  1H IN PTR  wmf3641.mgmt.codfw.wmnet.
 51  1H IN PTR  db2001.mgmt.codfw.wmnet.
 51  1H IN PTR  wmf3628.mgmt.codfw.wmnet.

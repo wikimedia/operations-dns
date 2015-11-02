@@ -3227,7 +3227,6 @@ osm-web2001     1H  IN A    10.193.2.9
 osm-web2002     1H  IN A    10.193.2.10
 osm-web2003     1H  IN A    10.193.2.11
 osm-web2004     1H  IN A    10.193.2.12
-pollux          1H  IN A    10.193.1.50
 procyon         1H  IN A    10.193.2.117
 stat2001        1H  IN A    10.193.2.13
 subra           1H  IN A    10.193.2.163
