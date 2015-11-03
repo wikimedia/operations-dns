@@ -350,6 +350,7 @@ ganeti1001      1H  IN A        10.64.32.169
 ganeti1002      1H  IN A        10.64.32.170
 ganeti1003      1H  IN A        10.64.32.171
 ganeti1004      1H  IN A        10.64.32.172
+hafnium         1H  IN A        10.64.32.176
 helium          1H  IN A        10.64.0.179
 hp1001          1H  IN A        10.64.32.147
 iridium         1H  IN A        10.64.32.150
