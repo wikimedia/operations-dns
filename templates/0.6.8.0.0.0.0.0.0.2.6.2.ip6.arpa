@@ -127,8 +127,11 @@ $ORIGIN 7.1.1.0.{{ zonename }}.
 ; labs-support1-a-codfw (2620:0:860:121::/64) - RESERVED
 $ORIGIN 1.2.1.0.{{ zonename }}.
 
-; labs-hosts1-b-codfw (2620:0:860:118::/64) - RESERVED
+; labs-hosts1-b-codfw (2620:0:860:118::/64)
 $ORIGIN 8.1.1.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2118.codfw.wmnet.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2118.cr1-codfw.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2118.cr2-codfw.wikimedia.org.
 
 ; labs-support1-b-codfw (2620:0:860:122::/64)
 $ORIGIN 2.2.1.0.{{ zonename }}.
