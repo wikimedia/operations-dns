@@ -403,6 +403,7 @@ mc1015          1H  IN A        10.64.48.103
 mc1016          1H  IN A        10.64.48.104
 mc1017          1H  IN A        10.64.48.95
 mc1018          1H  IN A        10.64.48.96
+mendelevium     1H  IN A        10.64.32.174 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 ms1003          1H  IN A        10.64.0.23
 ms-be1001       1H  IN A        10.64.0.173
 ms-be1002       1H  IN A        10.64.0.174
@@ -734,6 +735,7 @@ restbase1008    1H  IN A        10.64.32.178
 restbase1009    1H  IN A        10.64.48.110
 rhodium         1H  IN A        10.64.16.184
 ruthenium       1H  IN A        10.64.16.151
+rutherfordium   1H  IN A        10.64.32.17 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 scandium        1H  IN A        10.64.4.12
 sca1001         1H  IN A        10.64.32.153
 sca1002         1H  IN A        10.64.48.29
@@ -766,7 +768,6 @@ labvirt1007     1H  IN A        10.64.20.16
 labvirt1008     1H  IN A        10.64.20.17
 labvirt1010     1H  IN A        10.64.20.26
 labvirt1011     1H  IN A        10.64.20.27
-mendelevium     1H  IN A        10.64.32.174 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 wdqs1001        1H  IN A        10.64.48.112
 wdqs1002        1H  IN A        10.64.32.183
 wtp1001         1H  IN A        10.64.32.78
