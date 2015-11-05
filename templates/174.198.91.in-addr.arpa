@@ -72,9 +72,9 @@ $ORIGIN {{ zonename }}.
 242 1H IN PTR   ae1-401.cr1-esams.wikimedia.org.
 243 1H IN PTR   ae2-401.cr2-knams.wikimedia.org.
 
-; Loopback ips
+; Loopback IPs
 
-;244
+244 1H IN PTR   cr2-esams.wikimedia.org.
 245 1H IN PTR   cr1-esams.wikimedia.org.
 246 1H IN PTR   cr2-knams.wikimedia.org.
 247 1H IN PTR   mr1-esams.wikimedia.org.

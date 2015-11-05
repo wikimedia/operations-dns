@@ -339,12 +339,14 @@ cr1-eqdfw       1H  IN A    208.80.153.198
 
 cr1-esams       1H  IN A    91.198.174.245
                 1H  IN AAAA 2620:0:862:ffff::5
+cr2-esams       1H  IN A    91.198.174.244
+                1H  IN AAAA 2620:0:862:ffff::3
 cr2-knams       1H  IN A    91.198.174.246
                 1H  IN AAAA 2620:0:862:ffff::4
 mr1-esams       1H  IN A    91.198.174.247
                 1H  IN AAAA 2620:0:862:ffff::1
 mr1-esams.oob   1H  IN A    164.138.24.90
-;mr1-esams.oob   1H  IN AAAA    2a02:2770:c011::1 ; does not ping
+;mr1-esams.oob   1H  IN AAAA    2a02:2770:c011::2 ; does not ping
 
 cr1-ulsfo       1H  IN A    198.35.26.192
                 1H  IN AAAA 2620:0:863:ffff::1
