@@ -67,7 +67,7 @@ $ORIGIN {{ zonename }}.
 
 ; unused 91.198.174.240/31
 
-; Temp Neighbor block between cr1-esams and cr2-knams (91.198.174.242/31)
+; Neighbor block between cr1-esams and cr2-knams (91.198.174.242/31)
 
 242 1H IN PTR   ae1-401.cr1-esams.wikimedia.org.
 243 1H IN PTR   ae2-401.cr2-knams.wikimedia.org.
@@ -84,12 +84,12 @@ $ORIGIN {{ zonename }}.
 250 1H IN PTR   xe-4-2-2.cr1-eqiad.wikimedia.org.
 251 1H IN PTR   xe-1-1-0.cr2-knams.wikimedia.org.
 
-; Neighbor block between cr2-knams and cr1-esams (91.198.174.252/31)
+; Neighbor block between cr2-esams and cr2-knams (91.198.174.252/31)
 
-252 1H IN PTR   xe-0-0-1.cr1-esams.wikimedia.org.
-253 1H IN PTR   xe-0-0-0.cr2-knams.wikimedia.org.
+252 1H IN PTR   ae1-402.cr2-esams.wikimedia.org.
+253 1H IN PTR   ae1-402.cr1-esams.wikimedia.org.
 
-; Neighbor block between cr1-esams and cr2-knams (91.198.174.254/31)
+; Neighbor block between cr2-esams and cr1-esams (91.198.174.254/31)
 
-254 1H IN PTR   ae1-401.cr1-esams.wikimedia.org.
-255 1H IN PTR   ae1-401.cr2-knams.wikimedia.org.
+254 1H IN PTR   ae1-403.cr2-esams.wikimedia.org.
+255 1H IN PTR   ae1-403.cr2-knams.wikimedia.org.
