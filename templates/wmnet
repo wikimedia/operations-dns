@@ -3735,26 +3735,28 @@ ms-fe       600 IN A        10.20.0.16
 
 $ORIGIN mgmt.esams.{{ zonename }}.
 
-cr1-esams   1H  IN A        10.21.0.116
-asw-esams   1H  IN A        10.21.0.104
-csw2-esams  1H  IN A        10.21.0.105
-amslvs1     1H  IN A        10.21.0.106
-amslvs2     1H  IN A        10.21.0.107
-amslvs3     1H  IN A        10.21.0.108
-amslvs4     1H  IN A        10.21.0.109
-hooft       1H  IN A        10.21.0.110
-nescio      1H  IN A        10.21.0.111
-eeden       1H  IN A        10.21.0.112
-multatuli   1H  IN A        10.21.0.113
-maerlant    1H  IN A        10.21.0.114
-mr1-esams   1H  IN A        10.21.0.1
-ms-be3001   1H  IN A        10.21.0.2
-ms-be3002   1H  IN A        10.21.0.3
-ms-be3003   1H  IN A        10.21.0.4
-ms-be3004   1H  IN A        10.21.0.5
-ms-fe3001   1H  IN A        10.21.0.6
-ms-fe3002   1H  IN A        10.21.0.7
-slauerhoff  1H  IN A        10.21.0.115
+cr1-esams     1H  IN A        10.21.0.116
+asw-esams     1H  IN A        10.21.0.104
+csw2-esams    1H  IN A        10.21.0.105
+amslvs1       1H  IN A        10.21.0.106
+amslvs2       1H  IN A        10.21.0.107
+amslvs3       1H  IN A        10.21.0.108
+amslvs4       1H  IN A        10.21.0.109
+hooft         1H  IN A        10.21.0.110
+nescio        1H  IN A        10.21.0.111
+eeden         1H  IN A        10.21.0.112
+multatuli     1H  IN A        10.21.0.113
+maerlant      1H  IN A        10.21.0.114
+mr1-esams     1H  IN A        10.21.0.1
+ms-be3001     1H  IN A        10.21.0.2
+ms-be3002     1H  IN A        10.21.0.3
+ms-be3003     1H  IN A        10.21.0.4
+ms-be3004     1H  IN A        10.21.0.5
+ms-fe3001     1H  IN A        10.21.0.6
+ms-fe3002     1H  IN A        10.21.0.7
+slauerhoff    1H  IN A        10.21.0.115
+re0.cr2-esams 1H  IN A        10.21.0.117
+re1.cr2-esams 1H  IN A        10.21.0.118
 
 cp3001      1H  IN A        10.21.0.125
 cp3002      1H  IN A        10.21.0.126
