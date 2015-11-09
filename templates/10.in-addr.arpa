@@ -689,7 +689,7 @@ $ORIGIN 32.64.{{ zonename }}.
 17      1H IN PTR       rutherfordium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 18      1H IN PTR       rdb1007.eqiad.wmnet.
 19      1H IN PTR       rdb1008.eqiad.wmnet.
-
+20      1H IN PTR       neodymium.eqiad.wmnet.
 21      1H IN PTR       db1051.eqiad.wmnet.
 22      1H IN PTR       db1052.eqiad.wmnet.
 23      1H IN PTR       db1053.eqiad.wmnet.
