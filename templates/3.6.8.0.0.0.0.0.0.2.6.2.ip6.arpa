@@ -95,11 +95,9 @@ $ORIGIN 2.0.e.f.{{ zonename }}.
 
 $ORIGIN 3.0.e.f.{{ zonename }}.
 
-; cr2-ulsfo <--> cr1-eqiad (2620:0:863:fe04::/64)
+; unallocated (2620:0:863:fe04::/64)
 
 $ORIGIN 4.0.e.f.{{ zonename }}.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-1.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-1-2-0.cr2-ulsfo.wikimedia.org.
 
 ; cr1-ulsfo <--> mr1-ulsfo (2620:0:863:fe05::/64)
 
