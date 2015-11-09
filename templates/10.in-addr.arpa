@@ -376,6 +376,12 @@ $ORIGIN 0.64.{{ zonename }}.
 221 1H IN PTR   restbase1002.eqiad.wmnet.
 222 1H IN PTR   oxygen.eqiad.wmnet.
 223 1H IN PTR   restbase1007.eqiad.wmnet.
+224 1H IN PTR   restbase1001-a.eqiad.wmnet.
+225 1H IN PTR   restbase1001-b.eqiad.wmnet.
+226 1H IN PTR   restbase1001-c.eqiad.wmnet.
+227 1H IN PTR   restbase1002-a.eqiad.wmnet.
+228 1H IN PTR   restbase1002-b.eqiad.wmnet.
+229 1H IN PTR   restbase1002-c.eqiad.wmnet.
 
 $ORIGIN 1.64.{{ zonename }}.
 
@@ -2853,6 +2859,12 @@ $ORIGIN 16.192.{{ zonename }}.
 159 1H IN PTR   restbase-test2003-b.codfw.wmnet.
 160 1H IN PTR   ms-be2018.codfw.wmnet.
 161 1H IN PTR   ms-be2019.codfw.wmnet.
+162 1H IN PTR   restbase2001-a.codfw.wmnet.
+163 1H IN PTR   restbase2001-b.codfw.wmnet.
+164 1H IN PTR   restbase2001-c.codfw.wmnet.
+165 1H IN PTR   restbase2002-a.codfw.wmnet.
+166 1H IN PTR   restbase2002-b.codfw.wmnet.
+167 1H IN PTR   restbase2002-c.codfw.wmnet.
 
 $ORIGIN 17.192.{{ zonename }}.
 1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
