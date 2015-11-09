@@ -30,12 +30,12 @@ plugins => { geoip => {
                     IR => [esams, eqiad, codfw], # Iran (Islamic Republic of)
                     JO => [esams, eqiad, codfw], # Jordan
                     JP => [ulsfo, codfw, eqiad], # Japan
-                    KG => [       eqiad, codfw], # Kyrgyzstan
+                    KG => [esams, eqiad, codfw], # Kyrgyzstan
                     KH => [ulsfo, codfw, eqiad], # Cambodia
                     KP => [ulsfo, codfw, eqiad], # Korea, Democratic People's Republic of
                     KR => [ulsfo, codfw, eqiad], # Korea, Republic of
                     KW => [esams, eqiad, codfw], # Kuwait
-                    KZ => [       eqiad, codfw], # Kazakhstan
+                    KZ => [esams, eqiad, codfw], # Kazakhstan
                     LA => [ulsfo, codfw, eqiad], # Lao People's Democratic Republic
                     LB => [esams, eqiad, codfw], # Lebanon
                     LK => [       eqiad, codfw], # Sri Lanka
@@ -54,11 +54,11 @@ plugins => { geoip => {
                     SG => [ulsfo, codfw, eqiad], # Singapore
                     SY => [esams, eqiad, codfw], # Syrian Arab Republic
                     TH => [ulsfo, codfw, eqiad], # Thailand
-                    TJ => [       eqiad, codfw], # Tajikistan
+                    TJ => [esams, eqiad, codfw], # Tajikistan
                     TL => [ulsfo, codfw, eqiad], # Timor-Leste
-                    TM => [       eqiad, codfw], # Turkmenistan
+                    TM => [esams, eqiad, codfw], # Turkmenistan
                     TW => [ulsfo, codfw, eqiad], # Taiwan, Province of China
-                    UZ => [       eqiad, codfw], # Uzbekistan
+                    UZ => [esams, eqiad, codfw], # Uzbekistan
                     VN => [ulsfo, codfw, eqiad], # Viet Nam
                     YE => [esams, eqiad, codfw], # Yemen
                 },
