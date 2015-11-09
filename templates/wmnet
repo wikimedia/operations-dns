@@ -2360,6 +2360,10 @@ heze            1H  IN A    10.192.0.31
 labstore2001    1H  IN A    10.192.21.4
 labstore2002    1H  IN A    10.192.21.5
 labstore2003    1H  IN A    10.192.21.6
+labtestneutron2001      1H  IN A    10.192.20.4
+labtestnet2001          1H  IN A    10.192.20.5
+labtestvirt2001         1H  IN A    10.192.20.6
+labtestmetal2001        1H  IN A    10.192.20.7
 lvs2001         1H  IN A    10.192.1.1
 lvs2002         1H  IN A    10.192.1.2
 lvs2003         1H  IN A    10.192.1.3
