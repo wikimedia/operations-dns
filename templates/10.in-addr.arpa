@@ -914,6 +914,7 @@ $ORIGIN 37.64.{{ zonename }}.
 $ORIGIN 40.64.{{ zonename }}.
 
 ; 10.64.40.0/27 - frack-payments1-c-eqiad
+1   1H IN PTR   vrrp-gw-1132.frack.eqiad.wmnet.
 5   1H IN PTR   payments1001.frack.eqiad.wmnet.
 6   1H IN PTR   payments1002.frack.eqiad.wmnet.
 7   1H IN PTR   payments1003.frack.eqiad.wmnet.
@@ -3965,6 +3966,7 @@ $ORIGIN 2.193.{{ zonename }}.
 $ORIGIN 0.195.{{ zonename }}.
 
 ; 10.195.0.0/27 - frack-payments-codfw
+1  1H IN PTR  vrrp-gw-2132.frack.codfw.wmnet.
 5  1H IN PTR  payments2001.frack.codfw.wmnet.
 6  1H IN PTR  payments2002.frack.codfw.wmnet.
 7  1H IN PTR  payments2003.frack.codfw.wmnet.
