@@ -52,8 +52,6 @@ $ORIGIN {{ zonename }}.
 59  1H  IN PTR  vl1001-eth1.lvs1005.wikimedia.org.
 60  1H  IN PTR  vl1001-eth1.lvs1006.wikimedia.org.
 
-62  1H  IN PTR  plutonium.wikimedia.org.
-
 ; 208.80.154.64/26 (public1-c-eqiad) (.64 - .127)
 
 65  1H  IN PTR  vrrp-gw-1003.wikimedia.org.
