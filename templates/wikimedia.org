@@ -479,7 +479,9 @@ observium       1H  IN CNAME    librenms
 librenms        1H  IN CNAME    netmon1001
 servermon       1H  IN CNAME    misc-web-lb.eqiad
 
-payments        5M  IN A        208.80.155.5 ; eqiad
+payments        5M  IN A        208.80.155.5   ; eqiad
+payments.eqiad  1H  IN A        208.80.155.5   ; eqiad
+payments.codfw  1H  IN A        208.80.152.228 ; codfw
 
 payments-listener-eqiad 1H  IN A    208.80.155.12
 payments-listener       1H  IN CNAME        payments-listener-eqiad
