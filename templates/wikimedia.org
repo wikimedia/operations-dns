@@ -438,7 +438,7 @@ eventdonations  1H  IN CNAME    contrib-wi-10109-10472-20140728-1682402186.us-ea
 ldap-mirror     1H  IN CNAME    plutonium.wikimedia.org. ; TODO: Remove after transition to per DC mirrors
 ldap-mirror.eqiad     1H  IN CNAME    plutonium.wikimedia.org.
 ldap-mirror.codfw     1H  IN CNAME    pollux.wikimedia.org.
-ldap-corp.eqiad       1H  IN CNAME    plutonium.wikimedia.org.
+ldap-corp.eqiad       1H  IN CNAME    dubnium.wikimedia.org.
 ldap-corp.codfw       1H  IN CNAME    pollux.wikimedia.org.
 
 labs-puppetmaster-eqiad 300 IN CNAME  labcontrol1001.wikimedia.org.
