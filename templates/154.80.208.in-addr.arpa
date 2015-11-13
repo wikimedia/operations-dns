@@ -68,7 +68,7 @@ $ORIGIN {{ zonename }}.
 74  1H  IN PTR  fermium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 75  1H  IN PTR  lists.wikimedia.org. ; Service IP for lists on fermium
 76  1H  IN PTR  mx1001.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-
+77  1H  IN PTR  dubnium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 78  1H  IN PTR  vl1003-eth2.lvs1001.wikimedia.org.
 80  1H  IN PTR  ytterbium.wikimedia.org.
 81  1H  IN PTR  gerrit.wikimedia.org.
