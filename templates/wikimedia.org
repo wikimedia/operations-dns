@@ -471,7 +471,6 @@ phabricator     1H  IN A        208.80.154.241 ; misc-web-lb.eqiad
 
 login           600 IN DYNA     geoip!text-addrs
 
-observium       1H  IN CNAME    librenms
 librenms        1H  IN CNAME    netmon1001
 servermon       1H  IN CNAME    misc-web-lb.eqiad
 
