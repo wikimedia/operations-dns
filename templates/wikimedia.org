@@ -175,6 +175,8 @@ ripe-atlas-codfw     1H  IN A    208.80.152.244
 ripe-atlas-ulsfo     1H  IN A    198.35.26.244
             1H  IN AAAA 2620:0:863:201:198:35:26:244
 rubidium        1H  IN A    208.80.154.40
+seaborgium      1H  IN A    208.80.154.79 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+serpens         1H  IN A    208.80.153.49 ; VM on the ganeti01.svc.codfw.wmnet cluster
 silver          1H  IN A    208.80.154.136
                 1H  IN AAAA 2620:0:861:2:208:80:154:136
 tellurium       1H  IN A    208.80.155.9

@@ -68,6 +68,7 @@ $ORIGIN {{ zonename }}.
 76  1H  IN PTR  mx1001.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 77  1H  IN PTR  dubnium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 78  1H  IN PTR  vl1003-eth2.lvs1001.wikimedia.org.
+79  1H  IN PTR  seaborgium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 80  1H  IN PTR  ytterbium.wikimedia.org.
 81  1H  IN PTR  gerrit.wikimedia.org.
 
