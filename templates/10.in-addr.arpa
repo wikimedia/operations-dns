@@ -661,14 +661,11 @@ $ORIGIN 21.64.{{ zonename }}.
 
 101 1H IN PTR   stat1001.eqiad.wmnet.
 
-103 1H IN PTR   analytics1003.eqiad.wmnet.
-104 1H IN PTR   analytics1004.eqiad.wmnet.
 105 1H IN PTR   analytics1046.eqiad.wmnet.
 106 1H IN PTR   analytics1047.eqiad.wmnet.
 107 1H IN PTR   analytics1048.eqiad.wmnet.
 108 1H IN PTR   analytics1049.eqiad.wmnet.
 
-110 1H IN PTR   analytics1010.eqiad.wmnet.
 111 1H IN PTR   analytics1050.eqiad.wmnet.
 112 1H IN PTR   analytics1051.eqiad.wmnet.
 
@@ -1834,15 +1831,6 @@ $ORIGIN 3.65.{{ zonename }}.
 69  1H  IN PTR      labsdb1001.mgmt.eqiad.wmnet.
 70  1H  IN PTR      wmf3446.mgmt.eqiad.wmnet.
 70  1H  IN PTR      labsdb1002.mgmt.eqiad.wmnet.
-73  1H  IN PTR      analytics1003.mgmt.eqiad.wmnet.
-74  1H  IN PTR      wmf3457.mgmt.eqiad.wmnet.
-74  1H  IN PTR      analytics1004.mgmt.eqiad.wmnet.
-77  1H  IN PTR      wmf3460.mgmt.eqiad.wmnet.
-77  1H  IN PTR      analytics1007.mgmt.eqiad.wmnet.
-79  1H  IN PTR      wmf3462.mgmt.eqiad.wmnet.
-79  1H  IN PTR      analytics1009.mgmt.eqiad.wmnet.
-80  1H  IN PTR      wmf3463.mgmt.eqiad.wmnet.
-80  1H  IN PTR      analytics1010.mgmt.eqiad.wmnet.
 81  1H  IN PTR      snapshot1001.mgmt.eqiad.wmnet.
 81  1H  IN PTR      wmf3466.mgmt.eqiad.wmnet.
 82  1H  IN PTR      snapshot1002.mgmt.eqiad.wmnet.
