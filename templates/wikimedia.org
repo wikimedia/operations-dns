@@ -415,7 +415,7 @@ pfw2-codfw      1H  IN CNAME pfw-codfw
 
 ; Service aliases (alphabetical order)
 
-annual          1H  IN CNAME    misc-web-lb.eqiad
+annual          1H  IN DYNA     geoip!misc-addrs
 
 apt             1H  IN CNAME    carbon
 
@@ -430,13 +430,13 @@ benefactors._domainkey.benefactors 1H IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3
 
 cache           600 IN DYNA     geoip!text-addrs
 
-config-master   1H  IN CNAME    misc-web-lb.eqiad
+config-master   1H  IN DYNA     geoip!misc-addrs
 
 dash.frdev      1H  IN CNAME    frdev-eqiad
 
-dbtree          1H  IN CNAME    misc-web-lb.eqiad
+dbtree          1H  IN DYNA     geoip!misc-addrs
 dev             600 IN DYNA     geoip!text-addrs
-doc             1H  IN CNAME    misc-web-lb.eqiad
+doc             1H  IN DYNA     geoip!misc-addrs
 docs            600 IN DYNA     geoip!text-addrs
 eventdonations  1H  IN CNAME    contrib-wi-10109-10472-20140728-1682402186.us-east-1.elb.amazonaws.com.
 ldap-corp.eqiad 1H  IN CNAME    dubnium.wikimedia.org.
@@ -454,32 +454,31 @@ frdata.wikimedia.org.   1H  IN CNAME    frdata-eqiad.wikimedia.org.
 
 gerrit          1H  IN A        208.80.154.81
                 1H  IN AAAA     2620:0:861:3:208:80:154:81
-git             1H  IN CNAME    misc-web-lb.eqiad
-gdash           1H  IN CNAME    misc-web-lb.eqiad
-graphite        1H  IN CNAME    misc-web-lb.eqiad
-grafana         1H  IN CNAME    misc-web-lb.eqiad
-grafana-admin   1H  IN CNAME    misc-web-lb.eqiad
-parsoid-tests   1H  IN CNAME    misc-web-lb.eqiad
-performance     1H  IN CNAME    misc-web-lb.eqiad
-horizon         1H  IN CNAME    misc-web-lb.eqiad
+git             1H  IN DYNA     geoip!misc-addrs
+gdash           1H  IN DYNA     geoip!misc-addrs
+graphite        1H  IN DYNA     geoip!misc-addrs
+grafana         1H  IN DYNA     geoip!misc-addrs
+grafana-admin   1H  IN DYNA     geoip!misc-addrs
+parsoid-tests   1H  IN DYNA     geoip!misc-addrs
+performance     1H  IN DYNA     geoip!misc-addrs
+horizon         1H  IN DYNA     geoip!misc-addrs
 
 icinga          1H  IN CNAME    neon
 
-integration     1H  IN CNAME    misc-web-lb.eqiad
+integration     1H  IN DYNA     geoip!misc-addrs
 irc             1H  IN CNAME    argon
 
 ldap-eqiad      1H  IN CNAME    neptunium
 ldap-codfw      1H  IN CNAME    nembus
 
-phabricator     1H  IN A        208.80.154.241 ; misc-web-lb.eqiad
-                1H  IN AAAA     2620:0:861:ed1a::11
+phabricator     1H  IN DYNA     geoip!misc-addrs
                 1H  IN MX       10 mx1001.wikimedia.org.
                 1H  IN MX       50 mx2001.wikimedia.org.
 
 login           600 IN DYNA     geoip!text-addrs
 
 librenms        1H  IN CNAME    netmon1001
-servermon       1H  IN CNAME    misc-web-lb.eqiad
+servermon       1H  IN DYNA     geoip!misc-addrs
 
 payments        5M  IN A        208.80.155.5   ; eqiad
 payments-eqiad  1H  IN A        208.80.155.5   ; eqiad
@@ -489,10 +488,10 @@ payments-listener-eqiad 1H  IN A    208.80.155.12
 payments-listener       1H  IN CNAME        payments-listener-eqiad
 payments-listener.frdev 1H  IN CNAME        frdev-eqiad
 
-people          1H  IN CNAME    misc-web-lb.eqiad
+people          1H  IN DYNA     geoip!misc-addrs
 ; policy.wikimedia.org goes to wordpress cluster T110203
 policy          5M  IN A        192.0.66.2
-releases        1H  IN CNAME    misc-web-lb.eqiad
+releases        1H  IN DYNA     geoip!misc-addrs
 
 reports.frdev   1H  IN CNAME    frdev-eqiad
 
@@ -609,8 +608,8 @@ zero             600 IN DYNA     geoip!text-addrs
 
 ; Other websites (NO wikis!)
 blog             1H  IN CNAME    wikimediablog.wordpress.com.
-bugs             1H  IN CNAME    misc-web-lb.eqiad
-bugzilla         1H  IN CNAME    misc-web-lb.eqiad
+bugs             1H  IN DYNA     geoip!misc-addrs
+bugzilla         1H  IN DYNA     geoip!misc-addrs
 bug-attachment   1H  IN DYNA     geoip!text-addrs
 careers          600 IN DYNA     geoip!text-addrs
 civicrm          1H  IN CNAME    barium
@@ -620,13 +619,13 @@ civicrm2-gr.frdev 1H IN CNAME    frdev-eqiad
 coffee           600 IN DYNA     geoip!text-addrs
 cs               600 IN DYNA     geoip!text-addrs
 cz               600 IN DYNA     geoip!text-addrs
-datasets         1H  IN CNAME    misc-web-lb.eqiad
+datasets         1H  IN DYNA     geoip!misc-addrs
 download         600 IN DYNA     geoip!text-addrs
-etherpad         5M  IN CNAME    misc-web-lb.eqiad
+etherpad         5M  IN DYNA     geoip!misc-addrs
 fundraising      1H  IN CNAME    fundraising-eqiad
 ganglia          1H  IN CNAME    uranium
-hue              1H  IN CNAME    misc-web-lb.eqiad
-iegreview        1H  IN CNAME    misc-web-lb.eqiad
+hue              1H  IN DYNA     geoip!misc-addrs
+iegreview        1H  IN DYNA     geoip!misc-addrs
 tendril          1H  IN CNAME    neon
 jobs             600 IN DYNA     geoip!text-addrs
 labs             600 IN DYNA     geoip!text-addrs
@@ -638,55 +637,55 @@ labs-recursor0   1H  IN A        208.80.154.20
 labs-recursor1   1H  IN A        208.80.155.118
 ; deprecated but kept for compatibility, see RT #6769
 labsconsole      600 IN DYNA     geoip!text-addrs
-logstash         1H  IN CNAME    misc-web-lb.eqiad
-metrics          1H  IN CNAME    misc-web-lb.eqiad
-noc              1H  IN CNAME    misc-web-lb.eqiad
+logstash         1H  IN DYNA     geoip!misc-addrs
+metrics          1H  IN DYNA     geoip!misc-addrs
+noc              1H  IN DYNA     geoip!misc-addrs
 nyc              600 IN DYNA     geoip!text-addrs
 old-bugzilla     1H  IN DYNA     geoip!text-addrs
-planet           1H  IN CNAME    misc-web-lb.eqiad
-ar.planet        1H  IN CNAME    misc-web-lb.eqiad
-ca.planet        1H  IN CNAME    misc-web-lb.eqiad
-cs.planet        1H  IN CNAME    misc-web-lb.eqiad
-da.planet        1H  IN CNAME    misc-web-lb.eqiad
-de.planet        1H  IN CNAME    misc-web-lb.eqiad
-en.planet        1H  IN CNAME    misc-web-lb.eqiad
-es.planet        1H  IN CNAME    misc-web-lb.eqiad
-fo.planet        1H  IN CNAME    misc-web-lb.eqiad
-fr.planet        1H  IN CNAME    misc-web-lb.eqiad
-gmq.planet       1H  IN CNAME    misc-web-lb.eqiad
-id.planet        1H  IN CNAME    misc-web-lb.eqiad
-is.planet        1H  IN CNAME    misc-web-lb.eqiad
-it.planet        1H  IN CNAME    misc-web-lb.eqiad
-ja.planet        1H  IN CNAME    misc-web-lb.eqiad
-nb.planet        1H  IN CNAME    misc-web-lb.eqiad
-nn.planet        1H  IN CNAME    misc-web-lb.eqiad
-no.planet        1H  IN CNAME    misc-web-lb.eqiad
-pl.planet        1H  IN CNAME    misc-web-lb.eqiad
-pt.planet        1H  IN CNAME    misc-web-lb.eqiad
-ro.planet        1H  IN CNAME    misc-web-lb.eqiad
-ru.planet        1H  IN CNAME    misc-web-lb.eqiad
-sr.planet        1H  IN CNAME    misc-web-lb.eqiad
-sv.planet        1H  IN CNAME    misc-web-lb.eqiad
-uk.planet        1H  IN CNAME    misc-web-lb.eqiad
-zh.planet        1H  IN CNAME    misc-web-lb.eqiad
+planet           1H  IN DYNA     geoip!misc-addrs
+ar.planet        1H  IN DYNA     geoip!misc-addrs
+ca.planet        1H  IN DYNA     geoip!misc-addrs
+cs.planet        1H  IN DYNA     geoip!misc-addrs
+da.planet        1H  IN DYNA     geoip!misc-addrs
+de.planet        1H  IN DYNA     geoip!misc-addrs
+en.planet        1H  IN DYNA     geoip!misc-addrs
+es.planet        1H  IN DYNA     geoip!misc-addrs
+fo.planet        1H  IN DYNA     geoip!misc-addrs
+fr.planet        1H  IN DYNA     geoip!misc-addrs
+gmq.planet       1H  IN DYNA     geoip!misc-addrs
+id.planet        1H  IN DYNA     geoip!misc-addrs
+is.planet        1H  IN DYNA     geoip!misc-addrs
+it.planet        1H  IN DYNA     geoip!misc-addrs
+ja.planet        1H  IN DYNA     geoip!misc-addrs
+nb.planet        1H  IN DYNA     geoip!misc-addrs
+nn.planet        1H  IN DYNA     geoip!misc-addrs
+no.planet        1H  IN DYNA     geoip!misc-addrs
+pl.planet        1H  IN DYNA     geoip!misc-addrs
+pt.planet        1H  IN DYNA     geoip!misc-addrs
+ro.planet        1H  IN DYNA     geoip!misc-addrs
+ru.planet        1H  IN DYNA     geoip!misc-addrs
+sr.planet        1H  IN DYNA     geoip!misc-addrs
+sv.planet        1H  IN DYNA     geoip!misc-addrs
+uk.planet        1H  IN DYNA     geoip!misc-addrs
+zh.planet        1H  IN DYNA     geoip!misc-addrs
 puppet           1H  IN CNAME    palladium.eqiad.wmnet.
-racktables       1H  IN CNAME    misc-web-lb.eqiad
-scholarships     1H  IN CNAME    misc-web-lb.eqiad
-transparency     1H  IN CNAME    misc-web-lb.eqiad
+racktables       1H  IN DYNA     geoip!misc-addrs
+scholarships     1H  IN DYNA     geoip!misc-addrs
+transparency     1H  IN DYNA     geoip!misc-addrs
 search           600 IN DYNA     geoip!text-addrs
 shop             1H  IN DYNA     geoip!text-addrs
 smokeping        1H  IN CNAME    netmon1001
 store            1H  IN CNAME    c.ssl.shopify.com.
-static-bugzilla  1H  IN CNAME    misc-web-lb.eqiad
-stats            1H  IN CNAME    misc-web-lb.eqiad
+static-bugzilla  1H  IN DYNA     geoip!misc-addrs
+stats            1H  IN DYNA     geoip!misc-addrs
 status           1H  IN CNAME    status.watchmouse.com.
 techblog         1H  IN DYNA     geoip!text-addrs
 ticket           1H  IN CNAME    iodine
-otrs-test        1H  IN CNAME    misc-web-lb.eqiad
+otrs-test        1H  IN DYNA     geoip!misc-addrs
 tor-eqiad-1      1H  IN CNAME    radium
 ubuntu           1H  IN CNAME    carbon
 mirrors          1H  IN CNAME    carbon
-yarn             1H  IN CNAME    misc-web-lb.eqiad
+yarn             1H  IN DYNA     geoip!misc-addrs
 wikitech         1H  IN CNAME    silver
 wikitech-static  1H  IN A        166.78.57.240
                  1H  IN AAAA     2001:4800:7810:512:4bbc:637f:ff04:d370
