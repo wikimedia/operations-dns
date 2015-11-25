@@ -140,4 +140,6 @@ $ORIGIN {{ zonename }}.
 240 1H  IN PTR  upload-lb.codfw.wikimedia.org.
 
 ; Misc 208.80.153.248 - .255 (208.80.153.248/29)
+
+248  1H  IN PTR misc-web-lb.codfw.wikimedia.org.
 254  1H  IN PTR dns-rec-lb.codfw.wikimedia.org.

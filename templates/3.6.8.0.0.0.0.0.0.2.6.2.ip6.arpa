@@ -143,3 +143,5 @@ b.0.0.0                         1H IN PTR   upload-lb.ulsfo.wikimedia.org.
 ; LVS Misc, 2620:0:863:ed1a::3:0/112
 
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+
+d.0.0.0                         1H IN PTR   misc-web-lb.ulsfo.wikimedia.org.

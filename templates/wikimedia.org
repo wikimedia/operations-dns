@@ -79,6 +79,7 @@ text-lb     600 DYNA geoip!text-addrs
 bits        600 DYNA geoip!text-addrs
 upload      600 DYNA geoip!upload-addrs
 m           600 DYNA geoip!mobile-addrs
+misc-web-lb 600 DYNA geoip!misc-addrs
 geoiplookup 600 DYNA geoip!text-addrs-v4
 donate      600 DYNA geoip!text-addrs
 
@@ -205,6 +206,7 @@ ntp.codfw           1H  IN CNAME acamar
 text-lb.eqiad       600 IN DYNA geoip!text-addrs/eqiad
 upload-lb.eqiad     600 IN DYNA geoip!upload-addrs/eqiad
 mobile-lb.eqiad     600 IN DYNA geoip!mobile-addrs/eqiad
+misc-web-lb.eqiad   600 IN DYNA geoip!misc-addrs/eqiad
 donate-lb.eqiad     600 IN DYNA geoip!text-addrs/eqiad
                 IN MX 10 mx1001.wikimedia.org.
                 IN MX 50 mx2001.wikimedia.org.
@@ -215,8 +217,6 @@ maps-lb.eqiad       1H  IN A    208.80.154.244
                     1H  IN AAAA 2620:0:861:ed1a::2:d
 maps                1H  IN A    208.80.154.244
                     1H  IN AAAA 2620:0:861:ed1a::2:d
-misc-web-lb.eqiad   1H  IN A    208.80.154.241
-            1H  IN AAAA 2620:0:861:ed1a::11
 
 geoiplookup-lb.eqiad    600 IN DYNA geoip!text-addrs-v4/eqiad
 
@@ -246,6 +246,7 @@ git-ssh             1H  IN A    208.80.154.250
 text-lb.ulsfo       600 IN DYNA geoip!text-addrs/ulsfo
 upload-lb.ulsfo     600 IN DYNA geoip!upload-addrs/ulsfo
 mobile-lb.ulsfo     600 IN DYNA geoip!mobile-addrs/ulsfo
+misc-web-lb.ulsfo   600 IN DYNA geoip!misc-addrs/ulsfo
 geoiplookup-lb.ulsfo    600 IN DYNA geoip!text-addrs-v4/ulsfo
 donate-lb.ulsfo     600 IN DYNA geoip!text-addrs/ulsfo
             1H  IN MX 10    mx1001.wikimedia.org.
@@ -257,6 +258,7 @@ dns-rec-lb.codfw    1H  IN A    208.80.153.254
 text-lb.codfw       600 IN DYNA geoip!text-addrs/codfw
 upload-lb.codfw     600 IN DYNA geoip!upload-addrs/codfw
 mobile-lb.codfw     600 IN DYNA geoip!mobile-addrs/codfw
+misc-web-lb.codfw   600 IN DYNA geoip!misc-addrs/codfw
 donate-lb.codfw     600 IN DYNA geoip!text-addrs/codfw
 
 ; Mobile
@@ -769,6 +771,7 @@ scs-oe11-esams      1H  IN A    10.21.0.102
 text-lb       600 IN DYNA geoip!text-addrs/esams
 upload-lb     600 IN DYNA geoip!upload-addrs/esams
 mobile-lb     600 IN DYNA geoip!mobile-addrs/esams
+misc-web-lb   600 IN DYNA geoip!misc-addrs/esams
 geoiplookup-lb    600 IN DYNA geoip!text-addrs-v4/esams
 donate-lb     600 IN DYNA geoip!text-addrs/esams
               1H  IN MX 10    mx1001.wikimedia.org.

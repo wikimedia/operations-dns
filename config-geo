@@ -263,5 +263,15 @@ plugins => { geoip => {
                 ulsfo => { addrs_v4 => 198.35.26.108,  addrs_v6 => 2620:0:863:ed1a::1:c }
             }
         }
+        misc-addrs => {
+            map => generic-map
+            service_types => up
+            dcmap => {
+                eqiad => { addrs_v4 => 208.80.154.241, addrs_v6 => 2620:0:861:ed1a::11 }
+                codfw => { addrs_v4 => 208.80.153.248, addrs_v6 => 2620:0:860:ed1a::3:d }
+                esams => { addrs_v4 => 91.198.174.217, addrs_v6 => 2620:0:862:ed1a::3:d }
+                ulsfo => { addrs_v4 => 198.35.26.120,  addrs_v6 => 2620:0:863:ed1a::3:d }
+            }
+        }
     }
 }}

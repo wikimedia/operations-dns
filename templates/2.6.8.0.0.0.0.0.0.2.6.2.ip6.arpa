@@ -117,6 +117,7 @@ b.0.0.0                         1H IN PTR   upload-lb.esams.wikimedia.org.
 
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
+d.0.0.0                         1H IN PTR   misc-web-lb.esams.wikimedia.org.
 e.f.0.0                         1H IN PTR   dns-rec-lb.esams.wikimedia.org.
 
 ; unused (2620:0:862:fe00::/64)
