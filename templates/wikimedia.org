@@ -505,7 +505,7 @@ stream          1H  IN CNAME    stream-lb.eqiad
 
 svn             600 IN DYNA     geoip!text-addrs
 
-torrus          1H  IN CNAME    netmon1001
+torrus          600 IN DYNA     geoip!misc-addrs
 
 wiki-mail-eqiad 1H  IN A        208.80.154.91
                 1H  IN AAAA     2620:0:861:3:208:80:154:91
