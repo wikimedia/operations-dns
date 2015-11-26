@@ -83,6 +83,7 @@ $ORIGIN {{ zonename }}.
 99  1H  IN PTR  vl1003-eth0.lvs1010.eqiad.wmnet.
 100 1H  IN PTR  vl1003-eth0.lvs1011.eqiad.wmnet.
 101 1H  IN PTR  vl1003-eth0.lvs1012.eqiad.wmnet.
+102 1H  IN PTR  labs-ns1placeholder.wikimedia.org. ; soon this IP will be labs-ns1 (T119762)
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 

@@ -630,6 +630,7 @@ tendril          1H  IN CNAME    neon
 jobs             600 IN DYNA     geoip!text-addrs
 labs             600 IN DYNA     geoip!text-addrs
 labs-ns0         1H  IN A        208.80.154.94
+labs-ns1placeholder 1H  IN A        208.80.154.102
 labs-ns1         1H  IN A        208.80.153.15
 labs-ns3         1H  IN A        208.80.154.12
 labs-ns2         1H  IN A        208.80.155.117
