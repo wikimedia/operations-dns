@@ -72,7 +72,6 @@ mail            600 IN DYNA     geoip!text-addrs
 shop            600 IN DYNA     geoip!text-addrs
 stats           1H  IN CNAME    stats.wikimedia.org.
 store           600 IN DYNA     geoip!text-addrs
-www.m           600 IN DYNA     geoip!mobile-addrs
 zero            600 IN DYNA     geoip!mobile-addrs
 
 ; TLS testing, "temporary"
