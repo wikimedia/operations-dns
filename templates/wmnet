@@ -735,8 +735,11 @@ restbase1004    1H  IN A        10.64.32.160
 restbase1005    1H  IN A        10.64.48.99
 restbase1006    1H  IN A        10.64.48.100
 restbase1007    1H  IN A        10.64.0.223
+restbase1007-a  1H  IN A        10.64.0.230 ; cassandra instance
 restbase1008    1H  IN A        10.64.32.178
+restbase1008-a  1H  IN A        10.64.32.187 ; cassandra instance
 restbase1009    1H  IN A        10.64.48.110
+restbase1009-a  1H  IN A        10.64.48.120 ; cassandra instance
 rhodium         1H  IN A        10.64.16.184
 ruthenium       1H  IN A        10.64.16.151
 rutherfordium   1H  IN A        10.64.32.17 ; VM on the ganeti01.svc.eqiad.wmnet cluster
