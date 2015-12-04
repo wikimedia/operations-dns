@@ -674,7 +674,7 @@ scholarships     1H  IN DYNA     geoip!misc-addrs
 transparency     1H  IN DYNA     geoip!misc-addrs
 search           600 IN DYNA     geoip!text-addrs
 shop             1H  IN DYNA     geoip!text-addrs
-smokeping        1H  IN CNAME    netmon1001
+smokeping        600 IN DYNA     geoip!misc-addrs
 store            1H  IN CNAME    c.ssl.shopify.com.
 static-bugzilla  1H  IN DYNA     geoip!misc-addrs
 stats            1H  IN DYNA     geoip!misc-addrs
