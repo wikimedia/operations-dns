@@ -82,6 +82,8 @@ m           600 DYNA geoip!mobile-addrs
 misc-web-lb 600 DYNA geoip!misc-addrs
 geoiplookup 600 DYNA geoip!text-addrs-v4
 donate      600 DYNA geoip!text-addrs
+                1H  IN MX       10 mx1001.wikimedia.org.
+                1H  IN MX       50 mx2001.wikimedia.org.
 
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
 
