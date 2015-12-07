@@ -2823,6 +2823,7 @@ ps1-d8-codfw    1H  IN A    10.193.0.56
 
 acamar          1H  IN A    10.193.1.30
 achernar        1H  IN A    10.193.1.31
+auth2001        1H  IN A    10.193.1.22
 baham           1H  IN A    10.193.1.32
 bast2001        1H  IN A    10.193.1.11
 capella         1H  IN A    10.193.2.2
@@ -3618,6 +3619,7 @@ WMF6372         1H  IN A    10.193.1.14
 WMF6373         1H  IN A    10.193.1.15
 WMF6374         1H  IN A    10.193.1.16
 WMF6375         1H  IN A    10.193.1.17
+WMF6376         1H  IN A    10.193.1.22
 
 ;
 ; ESAMS
