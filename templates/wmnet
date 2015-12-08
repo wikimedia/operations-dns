@@ -2179,7 +2179,7 @@ _etcd._tcp      5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
 
 ; Servers - listed alphabetically
 
-
+auth2001	1H  IN A    10.192.0.138
 cp2001          1H  IN A    10.192.0.122
                 1H  IN AAAA 2620:0:860:101:10:192:0:122
 cp2002          1H  IN A    10.192.0.123
