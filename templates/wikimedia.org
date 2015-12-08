@@ -470,8 +470,8 @@ icinga          1H  IN CNAME    neon
 integration     1H  IN DYNA     geoip!misc-addrs
 irc             1H  IN CNAME    argon
 
-ldap-eqiad      1H  IN CNAME    neptunium
-ldap-codfw      1H  IN CNAME    nembus
+ldap-eqiad      1H  IN CNAME    seaborgium
+ldap-codfw      1H  IN CNAME    serpens
 
 phabricator     1H  IN DYNA     geoip!misc-addrs
                 1H  IN MX       10 mx1001.wikimedia.org.
