@@ -47,7 +47,7 @@ plugins => { geoip => {
                     NP => [ulsfo, codfw, eqiad], # Nepal
                     OM => [esams, eqiad, codfw], # Oman
                     PH => [ulsfo, codfw, eqiad], # Philippines
-                    PK => [       eqiad, codfw], # Pakistan
+                    PK => [esams, eqiad, codfw], # Pakistan
                     PS => [esams, eqiad, codfw], # Palestine, State of
                     QA => [esams, eqiad, codfw], # Qatar
                     SA => [esams, eqiad, codfw], # Saudi Arabia
