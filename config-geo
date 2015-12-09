@@ -8,7 +8,7 @@ plugins => { geoip => {
                 AF => [esams, eqiad, codfw],
                 AS => {
                     AE => [esams, eqiad, codfw], # United Arab Emirates
-                    AF => [       eqiad, codfw], # Afghanistan
+                    AF => [esams, eqiad, codfw], # Afghanistan
                     AM => [esams, eqiad, codfw], # Armenia
                     AP => [ulsfo, codfw, eqiad], # Asia-Pacific region (misc)
                     AZ => [esams, eqiad, codfw], # Azerbaijan
@@ -38,7 +38,7 @@ plugins => { geoip => {
                     KZ => [esams, eqiad, codfw], # Kazakhstan
                     LA => [ulsfo, codfw, eqiad], # Lao People's Democratic Republic
                     LB => [esams, eqiad, codfw], # Lebanon
-                    LK => [       eqiad, codfw], # Sri Lanka
+                    LK => [esams, eqiad, codfw], # Sri Lanka
                     MM => [ulsfo, codfw, eqiad], # Myanmar
                     MN => [ulsfo, codfw, eqiad], # Mongolia
                     MO => [ulsfo, codfw, eqiad], # Macao
