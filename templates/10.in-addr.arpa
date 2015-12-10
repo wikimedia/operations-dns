@@ -234,7 +234,7 @@ $ORIGIN 0.64.{{ zonename }}.
 21  1H IN PTR   fluorine.eqiad.wmnet.
 22  1H IN PTR   tungsten.eqiad.wmnet.
 23  1H IN PTR   ms1003.eqiad.wmnet.
-
+24  1H IN PTR   rdb1005.eqiad.wmnet.
 26  1H IN PTR   tantalum.eqiad.wmnet.
 27  1H IN PTR   cam1-a-eqiad.eqiad.wmnet.
 28  1H IN PTR   cam2-a-eqiad.eqiad.wmnet.
@@ -1000,8 +1000,8 @@ $ORIGIN 48.64.{{ zonename }}.
 51      1H IN PTR       elastic1027.eqiad.wmnet.
 52      1H IN PTR       elastic1028.eqiad.wmnet.
 53      1H IN PTR       elastic1029.eqiad.wmnet.
-54      1H  IN PTR      ms-be1021.eqiad.wmnet.
-
+54      1H IN PTR       ms-be1021.eqiad.wmnet.
+55      1H IN PTR       rdb1006.eqiad.wmnet.
 56      1H  IN PTR      mw1221.eqiad.wmnet.
 57      1H  IN PTR      mw1222.eqiad.wmnet.
 58      1H  IN PTR      mw1223.eqiad.wmnet.
