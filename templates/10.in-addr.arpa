@@ -1582,7 +1582,8 @@ $ORIGIN 2.65.{{ zonename }}.
 17  1H  IN PTR      wmf3118.mgmt.eqiad.wmnet.
 18  1H  IN PTR      wmf3117.mgmt.eqiad.wmnet.
 19  1H  IN PTR      wmf3116.mgmt.eqiad.wmnet.
-20  1H  IN PTR      wmf3115.mgmt.eqiad.wmnet.
+20  1H  IN PTR      rdb1005.mgmt.eqiad.wmnet.
+20  1H  IN PTR      wmf4718.mgmt.eqiad.wmnet.
 21  1H  IN PTR      californium.mgmt.eqiad.wmnet.
 21  1H  IN PTR      wmf3114.mgmt.eqiad.wmnet.
 22  1H  IN PTR      dbproxy1011.mgmt.eqiad.wmnet.
@@ -1591,7 +1592,8 @@ $ORIGIN 2.65.{{ zonename }}.
 23  1H  IN PTR      WMF3112.mgmt.eqiad.wmnet.
 24  1H  IN PTR      dbproxy1007.mgmt.eqiad.wmnet.
 24  1H  IN PTR      WMF3111.mgmt.eqiad.wmnet.
-
+25  1H  IN PTR      rdb1006.mgmt.eqiad.wmnet.
+25  1H  IN PTR      wmf4719.mgmt.eqiad.wmnet.
 26  1H  IN PTR      dbproxy1009.mgmt.eqiad.wmnet.
 26  1H  IN PTR      WMF3109.mgmt.eqiad.wmnet.
 27  1H  IN PTR      wmf3108.mgmt.eqiad.wmnet.
