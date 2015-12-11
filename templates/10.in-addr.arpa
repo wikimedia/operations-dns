@@ -3198,6 +3198,13 @@ $ORIGIN 1.193.{{ zonename }}.
 21  1H IN PTR  wmf3644.mgmt.codfw.wmnet.
 22  1H IN PTR  auth2001.mgmt.codfw.wmnet.
 22  1H IN PTR  wmf6376.mgmt.codfw.wmnet.
+23  1H IN PTR  wmf6377.mgmt.codfw.wmnet.
+24  1H IN PTR  wmf6378.mgmt.codfw.wmnet.
+25  1H IN PTR  wmf6379.mgmt.codfw.wmnet.
+26  1H IN PTR  wmf6380.mgmt.codfw.wmnet.
+27  1H IN PTR  wmf6381.mgmt.codfw.wmnet.
+28  1H IN PTR  wmf6382.mgmt.codfw.wmnet.
+29  1H IN PTR  wmf6383.mgmt.codfw.wmnet.
 30  1H IN PTR  acamar.mgmt.codfw.wmnet.
 30  1H IN PTR  wmf5822.mgmt.codfw.wmnet.
 31  1H IN PTR  achernar.mgmt.codfw.wmnet.
@@ -3959,6 +3966,7 @@ $ORIGIN 2.193.{{ zonename }}.
 228 1H IN PTR  wmf6367.mgmt.codfw.wmnet.
 229 1H IN PTR  restbase2006.mgmt.codfw.wmnet.
 229 1H IN PTR  wmf6368.mgmt.codfw.wmnet.
+230 1H IN PTR  wmf6384.mgmt.codfw.wmnet.
 
 ; 10.195.0.0/25 - frack.codfw subnets
 $ORIGIN 0.195.{{ zonename }}.
