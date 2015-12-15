@@ -71,6 +71,7 @@ $ORIGIN {{ zonename }}.
 116 1H IN PTR   vl1004-eth3.lvs1012.eqiad.wmnet.
 117 1H IN PTR   labservices1001.wikimedia.org.
 118 1H IN PTR   labs-recursor1.wikimedia.org.
+119 1H IN PTR   einsteinium.wikimedia.org.
 
 ; 208.80.155.128/25 Eqiad Labs virtualization subnet
 
