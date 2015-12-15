@@ -2084,6 +2084,14 @@ restbase1006    1H      IN A            10.65.2.114
 restbase1007    1H      IN A            10.65.2.119
 restbase1008    1H      IN A            10.65.2.120
 restbase1009    1H      IN A            10.65.2.121
+wmf4720         1H      IN A            10.65.2.122
+wmf4721         1H      IN A            10.65.2.123
+wmf4722         1H      IN A            10.65.2.124
+wmf4723         1H      IN A            10.65.2.125
+wmf4724         1H      IN A            10.65.2.126
+wmf4725         1H      IN A            10.65.2.127
+wmf4726         1H      IN A            10.65.2.128
+wmf4727         1H      IN A            10.65.2.129
 
 ; eqiad LVS cross-vlan addresses
 vl1017-eth1.lvs1010 1H IN A 10.64.1.10
