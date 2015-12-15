@@ -94,6 +94,8 @@ nas1001-b           1H  IN A        10.64.16.5
 
 analytics1001       1H  IN A         10.64.36.118
 analytics1002       1H  IN A         10.64.53.21
+kafka1001           1H  IN A         10.64.0.11
+kafka1002           1H  IN A         10.64.16.41
 kafka1012           1H  IN A         10.64.5.12
                     1H  IN AAAA      2620:0:861:104:10:64:5:12
 kafka1013           1H  IN A         10.64.5.13
@@ -695,6 +697,8 @@ nobelium        1H  IN A        10.64.37.14
 ocg1001         1H  IN A        10.64.32.151
 ocg1002         1H  IN A        10.64.48.42
 ocg1003         1H  IN A        10.64.48.43
+ores1001        1H  IN A        10.64.0.12
+ores1002        1H  IN A        10.64.16.42
 osm-cp1001      1H  IN A        10.64.0.211
 osm-cp1002      1H  IN A        10.64.0.212
 osm-cp1003      1H  IN A        10.64.16.161
@@ -2085,9 +2089,13 @@ restbase1007    1H      IN A            10.65.2.119
 restbase1008    1H      IN A            10.65.2.120
 restbase1009    1H      IN A            10.65.2.121
 wmf4720         1H      IN A            10.65.2.122
+kafka1001       1H      IN A            10.65.2.122
 wmf4721         1H      IN A            10.65.2.123
+ores1001        1H      IN A            10.65.2.123
 wmf4722         1H      IN A            10.65.2.124
+kafka1002       1H      IN A            10.65.2.124
 wmf4723         1H      IN A            10.65.2.125
+ores1002        1H      IN A            10.65.2.125
 wmf4724         1H      IN A            10.65.2.126
 wmf4725         1H      IN A            10.65.2.127
 wmf4726         1H      IN A            10.65.2.128

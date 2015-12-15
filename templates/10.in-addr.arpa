@@ -223,6 +223,8 @@ $ORIGIN 0.64.{{ zonename }}.
 7   1H IN PTR   es1012.eqiad.wmnet.
 8   1H IN PTR   ms-be1019.eqiad.wmnet.
 
+11  1H IN PTR   kafka1001.eqiad.wmnet.
+12  1H IN PTR   ores1001.eqiad.wmnet.
 13  1H IN PTR   db1009.eqiad.wmnet.
 14  1H IN PTR   db1010.eqiad.wmnet.
 15  1H IN PTR   db1011.eqiad.wmnet.
@@ -467,7 +469,8 @@ $ORIGIN 16.64.{{ zonename }}.
 38  1H IN PTR   e0M.nas1001-a.eqiad.wmnet.
 39  1H IN PTR   e0M.nas1001-b.eqiad.wmnet.
 40  1H IN PTR   ms-be1020.eqiad.wmnet.
-
+41  1H IN PTR   kafka1002.eqiad.wmnet.
+42  1H IN PTR   ores1002.eqiad.wmnet.
 43  1H IN PTR   cam1-b-c-eqiad.eqiad.wmnet.
 44  1H IN PTR   cam2-b-c-eqiad.eqiad.wmnet.
 45  1H IN PTR   mw1065.eqiad.wmnet.
@@ -1709,9 +1712,13 @@ $ORIGIN 2.65.{{ zonename }}.
 120 1H  IN PTR      restbase1008.mgmt.eqiad.wmnet.
 121 1H  IN PTR      restbase1009.mgmt.eqiad.wmnet.
 122 1H  IN PTR      wmf4720.mgmt.eqiad.wmnet.
+122 1H  IN PTR      kafka1001.mgmt.eqiad.wmnet.
 123 1H  IN PTR      wmf4721.mgmt.eqiad.wmnet.
+123 1H  IN PTR      ores1001.mgmt.eqiad.wmnet.
 124 1H  IN PTR      wmf4722.mgmt.eqiad.wmnet.
+124 1H  IN PTR      kafka1002.mgmt.eqiad.wmnet.
 125 1H  IN PTR      wmf4723.mgmt.eqiad.wmnet.
+125 1H  IN PTR      ores1002.mgmt.eqiad.wmnet.
 126 1H  IN PTR      wmf4724.mgmt.eqiad.wmnet.
 127 1H  IN PTR      wmf4725.mgmt.eqiad.wmnet.
 128 1H  IN PTR      wmf4726.mgmt.eqiad.wmnet.
