@@ -2362,6 +2362,8 @@ ganeti2005      1H  IN A    10.192.16.129
 ganeti2006      1H  IN A    10.192.16.130
 graphite2001    1H  IN A    10.192.16.33
 heze            1H  IN A    10.192.0.31
+kafka2001       1H  IN A    10.192.0.139
+kafka2002       1H  IN A    10.192.16.169
 labstore2001    1H  IN A    10.192.21.4
 labstore2002    1H  IN A    10.192.21.5
 labstore2003    1H  IN A    10.192.21.6
@@ -2977,6 +2979,8 @@ graphite2001    1H  IN A    10.193.2.14
 haedus          1H  IN A    10.193.2.1
 heze            1H  IN A    10.193.1.250
 install2001     1H  IN A    10.193.1.10
+kafka2001       1H  IN A    10.193.1.23
+kafka2002       1H  IN A    10.193.1.25
 labcontrol2001  1H  IN A    10.193.1.49
 labstore2001    1H  IN A    10.193.1.248
 labstore2002    1H  IN A    10.193.1.249
