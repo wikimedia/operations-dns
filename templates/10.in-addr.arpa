@@ -1070,6 +1070,7 @@ $ORIGIN 48.64.{{ zonename }}.
 118     1H  IN PTR      elastic1005.eqiad.wmnet.
 119     1H  IN PTR      elastic1006.eqiad.wmnet.
 120     1H  IN PTR      restbase1009-a.eqiad.wmnet.
+121     1H  IN PTR      auth1001.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
@@ -2040,6 +2041,7 @@ $ORIGIN 3.65.{{ zonename }}.
 205     1H      IN PTR          wmf4575.mgmt.eqiad.wmnet.
 205     1H      IN PTR          labservices1001.mgmt.eqiad.wmnet.
 206     1H      IN PTR          wmf4576.mgmt.eqiad.wmnet.
+206     1H      IN PTR          auth1001.mgmt.eqiad.wmnet.
 207     1H      IN PTR          wmf4577.mgmt.eqiad.wmnet.
 208     1H      IN PTR          wmf4578.mgmt.eqiad.wmnet.
 209     1H      IN PTR          wmf4579.mgmt.eqiad.wmnet.
