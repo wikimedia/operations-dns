@@ -1715,11 +1715,9 @@ $ORIGIN 2.65.{{ zonename }}.
 122 1H  IN PTR      wmf4720.mgmt.eqiad.wmnet.
 122 1H  IN PTR      kafka1001.mgmt.eqiad.wmnet.
 123 1H  IN PTR      wmf4721.mgmt.eqiad.wmnet.
-123 1H  IN PTR      ores1001.mgmt.eqiad.wmnet.
 124 1H  IN PTR      wmf4722.mgmt.eqiad.wmnet.
 124 1H  IN PTR      kafka1002.mgmt.eqiad.wmnet.
 125 1H  IN PTR      wmf4723.mgmt.eqiad.wmnet.
-125 1H  IN PTR      ores1002.mgmt.eqiad.wmnet.
 126 1H  IN PTR      wmf4724.mgmt.eqiad.wmnet.
 127 1H  IN PTR      wmf4725.mgmt.eqiad.wmnet.
 128 1H  IN PTR      wmf4726.mgmt.eqiad.wmnet.
