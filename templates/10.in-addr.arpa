@@ -224,7 +224,7 @@ $ORIGIN 0.64.{{ zonename }}.
 8   1H IN PTR   ms-be1019.eqiad.wmnet.
 
 11  1H IN PTR   kafka1001.eqiad.wmnet.
-12  1H IN PTR   ores1001.eqiad.wmnet.
+
 13  1H IN PTR   db1009.eqiad.wmnet.
 14  1H IN PTR   db1010.eqiad.wmnet.
 15  1H IN PTR   db1011.eqiad.wmnet.
@@ -470,7 +470,7 @@ $ORIGIN 16.64.{{ zonename }}.
 39  1H IN PTR   e0M.nas1001-b.eqiad.wmnet.
 40  1H IN PTR   ms-be1020.eqiad.wmnet.
 41  1H IN PTR   kafka1002.eqiad.wmnet.
-42  1H IN PTR   ores1002.eqiad.wmnet.
+
 43  1H IN PTR   cam1-b-c-eqiad.eqiad.wmnet.
 44  1H IN PTR   cam2-b-c-eqiad.eqiad.wmnet.
 45  1H IN PTR   mw1065.eqiad.wmnet.
