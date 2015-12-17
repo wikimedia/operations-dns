@@ -108,7 +108,7 @@ $ORIGIN {{ zonename }}.
 154 1H  IN PTR  titanium.wikimedia.org.
 156 1H  IN PTR  url-downloader.wikimedia.org. ; chromium
 157 1H  IN PTR  chromium.wikimedia.org.
-158 1H  IN PTR  calcium.wikimedia.org.
+
 159 1H  IN PTR  netmon1001.wikimedia.org.
 160 1H  IN PTR  argon.wikimedia.org.
 161 1H  IN PTR  vl1002-eth2.lvs1007.eqiad.wmnet.
