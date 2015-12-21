@@ -182,6 +182,7 @@ seaborgium      1H  IN A    208.80.154.79 ; VM on the ganeti01.svc.eqiad.wmnet c
 serpens         1H  IN A    208.80.153.49 ; VM on the ganeti01.svc.codfw.wmnet cluster
 silver          1H  IN A    208.80.154.136
                 1H  IN AAAA 2620:0:861:2:208:80:154:136
+tegmen          1H  IN A    208.80.153.74
 tellurium       1H  IN A    208.80.155.9
 titanium        1H  IN A    208.80.154.154
 uranium         1H  IN A    208.80.154.53

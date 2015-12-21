@@ -60,6 +60,7 @@ $ORIGIN {{ zonename }}.
 71  1H  IN PTR  vl2003-eth2.lvs2004.codfw.wmnet.
 72  1H  IN PTR  vl2003-eth2.lvs2005.codfw.wmnet.
 73  1H  IN PTR  vl2003-eth2.lvs2006.codfw.wmnet.
+74  1H  IN PTR  tegmen.wikimedia.org.
 
 ; 208.80.153.96/27 (public1-d-codfw)
 97  1H  IN PTR  vrrp-gw-2004.wikimedia.org.

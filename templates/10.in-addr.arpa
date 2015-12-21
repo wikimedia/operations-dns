@@ -3230,6 +3230,7 @@ $ORIGIN 1.193.{{ zonename }}.
 25  1H IN PTR  kafka2002.mgmt.codfw.wmnet.
 25  1H IN PTR  wmf6379.mgmt.codfw.wmnet.
 26  1H IN PTR  wmf6380.mgmt.codfw.wmnet.
+27  1H IN PTR  tegmen.mgmt.codfw.wmnet.
 27  1H IN PTR  wmf6381.mgmt.codfw.wmnet.
 28  1H IN PTR  wmf6382.mgmt.codfw.wmnet.
 29  1H IN PTR  wmf6383.mgmt.codfw.wmnet.
