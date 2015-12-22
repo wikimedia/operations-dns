@@ -43,7 +43,7 @@ $ORIGIN {{ zonename }}.
 41  1H  IN PTR  vl2002-eth1.lvs2003.codfw.wmnet.
 42  1H  IN PTR  achernar.wikimedia.org.
 43  1H  IN PTR  pollux.wikimedia.org.
-44  1H  IN PTR  nembus.wikimedia.org.
+
 45  1H  IN PTR  mx2001.wikimedia.org.
 46  1H  IN PTR  wiki-mail-codfw.wikimedia.org.
 47  1H  IN PTR  labtestcontrol2001.wikimedia.org.
