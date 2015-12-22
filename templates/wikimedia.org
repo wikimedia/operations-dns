@@ -491,6 +491,9 @@ payments-listener       1H  IN CNAME        payments-listener-eqiad
 payments-listener.frdev 1H  IN CNAME        frdev-eqiad
 
 people          1H  IN DYNA     geoip!misc-addrs
+
+piwik           1H  IN DYNA     geoip!misc-addrs ; T103577
+
 ; policy.wikimedia.org goes to wordpress cluster T110203
 policy          5M  IN A        192.0.66.2
 releases        1H  IN DYNA     geoip!misc-addrs
