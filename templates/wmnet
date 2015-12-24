@@ -2668,6 +2668,9 @@ mw2211          1H  IN A    10.192.32.99
 mw2212          1H  IN A    10.192.32.100
 mw2213          1H  IN A    10.192.32.101
 mw2214          1H  IN A    10.192.32.102
+pc2004          1H  IN A    10.192.16.170
+pc2005          1H  IN A    10.192.32.128
+pc2006          1H  IN A    10.192.48.39
 pybal-test2001  1H  IN A    10.192.16.139 ; VM on the ganeti01.svc.codfw.wmnet cluster
 pybal-test2002  1H  IN A    10.192.16.140 ; VM on the ganeti01.svc.codfw.wmnet cluster
 pybal-test2003  1H  IN A    10.192.16.141 ; VM on the ganeti01.svc.codfw.wmnet cluster
@@ -3293,6 +3296,9 @@ osm-web2001     1H  IN A    10.193.2.9
 osm-web2002     1H  IN A    10.193.2.10
 osm-web2003     1H  IN A    10.193.2.11
 osm-web2004     1H  IN A    10.193.2.12
+pc2004          1H  IN A    10.193.2.231
+pc2005          1H  IN A    10.193.2.232
+pc2006          1H  IN A    10.193.2.233
 procyon         1H  IN A    10.193.2.117
 stat2001        1H  IN A    10.193.2.13
 subra           1H  IN A    10.193.2.163
@@ -3676,6 +3682,9 @@ WMF6381         1H  IN A    10.193.1.27
 WMF6382         1H  IN A    10.193.1.28
 WMF6383         1H  IN A    10.193.1.29
 WMF6384         1H  IN A    10.193.2.230
+WMF6387         1H  IN A    10.193.2.231
+WMF6388         1H  IN A    10.193.2.232
+WMF6389         1H  IN A    10.193.2.233 
 
 ;
 ; ESAMS
