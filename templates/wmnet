@@ -2111,6 +2111,12 @@ wmf4724         1H      IN A            10.65.2.126
 wmf4725         1H      IN A            10.65.2.127
 wmf4726         1H      IN A            10.65.2.128
 wmf4727         1H      IN A            10.65.2.129
+pc1004          1H      IN A            10.65.2.33
+wmf4728         1H      IN A            10.65.2.33
+pc1005          1H      IN A            10.65.2.34
+wmf4729         1H      IN A            10.65.2.34
+pc1006          1H      IN A            10.65.2.35
+wmf4730         1H      IN A            10.65.2.35
 
 ; eqiad LVS cross-vlan addresses
 vl1017-eth1.lvs1010 1H IN A 10.64.1.10
