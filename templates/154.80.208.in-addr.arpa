@@ -181,3 +181,4 @@ $ORIGIN {{ zonename }}.
 248 1H  IN PTR  parsoid-lb.eqiad.wikimedia.org.
 249 1H  IN PTR  stream-lb.eqiad.wikimedia.org.
 250 1H  IN PTR  git-ssh.eqiad.wikimedia.org.
+251 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.
