@@ -181,7 +181,6 @@ $ORIGIN {{ zonename }}.
 ; - - 208.80.154.240/29 (240-247) LVS Multimedia
 
 240 1H  IN PTR  upload-lb.eqiad.wikimedia.org.
-241 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.
 
 244 1H  IN PTR  maps-lb.eqiad.wikimedia.org.
 

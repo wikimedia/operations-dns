@@ -229,7 +229,6 @@ $ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 ; wrong subnet, but not important...
 e.0.0.0 1H IN PTR   ns0.wikimedia.org.
-1.1.0.0 1H IN PTR   misc-web-lb.eqiad.wikimedia.org.
 
 ; - - 2620:0:861:ed1a::1:0/112 (::1:0 - ::1:ffff) LVS Mobile
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
