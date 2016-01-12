@@ -160,24 +160,33 @@ $ORIGIN {{ zonename }}.
 222 1H  IN PTR  st0.pfw-eqiad.wikimedia.org.
 223 1H  IN PTR  st0.pfw-codfw.wikimedia.org.
 
-; LVS out-of-subnet service IPs (208.80.154.224/27)
-; FIXME : These will be slowly rearranged to fit
+; 208.80.154.224/27 (224-255) LVS Service IPs
 
-; Desktop Text & Assets  208.80.154.224 - 231 (208.80.154.224/29)
+; - 208.80.154.224/28 (224-239) LVS Text
+
+; - - 208.80.154.224/29 (224-231) LVS Desktop
+
 224 1H  IN PTR  text-lb.eqiad.wikimedia.org.
 
-; Mobile Zero & general Support 208.80.154.232 - 39 (208.80.154.232/29)
+; - - 208.80.154.232/29 (232-239) LVS Mobile
+
 236 1H  IN PTR  mobile-lb.eqiad.wikimedia.org.
+
+; these two are in the wrong subnet, but not important...
 238 1H  IN PTR  ns0.wikimedia.org.
 239 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org.
 
-; Multimedia 208.80.154.240 - 247 (208.80.154.240/29)
+; - 208.80.154.240/28 (240-255) LVS Multimedia & Misc
+
+; - - 208.80.154.240/29 (240-247) LVS Multimedia
+
 240 1H  IN PTR  upload-lb.eqiad.wikimedia.org.
 241 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.
 
 244 1H  IN PTR  maps-lb.eqiad.wikimedia.org.
 
-; Misc 208.80.154.248 - 208.80.154.255 (208.80.154.248/29)
+; - - 208.80.154.248/29 (248-255) LVS Misc
+
 248 1H  IN PTR  parsoid-lb.eqiad.wikimedia.org.
 249 1H  IN PTR  stream-lb.eqiad.wikimedia.org.
 250 1H  IN PTR  git-ssh.eqiad.wikimedia.org.

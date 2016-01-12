@@ -92,29 +92,31 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 4.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3049.esams.wmnet.
 
 
-; LVS Service IPs, 2620:0:862:ed1a::/64
+; 2620:0:862:ed1a::0:0/110 (::0:0 - ::3:ffff) LVS Service IPs
 
-; LVS Text, 2620:0:862:ed1a::0:0/112
+; - 2620:0:862:ed1a::0:0/111 (::0:0 - ::1:ffff) LVS Text
 
+; - - 2620:0:862:ed1a::0:0/112 (::0:0 - ::0:ffff) LVS Desktop
 $ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 1.0.0.0                         1H IN PTR   text-lb.esams.wikimedia.org.
+
+; wrong subnet, but unimportant...
 e.0.0.0                         1H IN PTR   ns2.wikimedia.org.
 
-; LVS Mobile Zero & general support, 2620:0:862:ed1a::1:0/112
-
+; - - 2620:0:862:ed1a::1:0/112 (::1:0 - ::1:ffff) LVS Mobile
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 c.0.0.0                         1H IN PTR   mobile-lb.esams.wikimedia.org.
 
-; LVS Multimedia, 2620:0:862:ed1a::2:0/112
+; - 2620:0:862:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS Multimedia & Misc
 
+; - - 2620:0:862:ed1a::2:0/112 (::2:0 - ::2:ffff) LVS Multimedia
 $ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 b.0.0.0                         1H IN PTR   upload-lb.esams.wikimedia.org.
 
-; LVS Misc, 2620:0:862:ed1a::3:0/112
-
+; - - 2620:0:862:ed1a::3:0/112 (::3:0 - ::3:ffff) LVS Misc
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 d.0.0.0                         1H IN PTR   misc-web-lb.esams.wikimedia.org.
