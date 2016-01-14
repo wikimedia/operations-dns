@@ -1867,8 +1867,6 @@ tellurium   1H  IN A    10.65.3.130
 te          1H  IN CNAME        tellurium
 potassium   1H  IN A    10.65.3.32
 WMF3287     1H  IN A    10.65.3.32
-calcium     1H  IN A    10.65.3.31
-WMF3288     1H  IN A    10.65.3.31
 bast1001    1H  IN A    10.65.3.30
 WMF3289     1H  IN A    10.65.3.30
 titanium    1H  IN A    10.65.3.29

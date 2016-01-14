@@ -1804,8 +1804,6 @@ $ORIGIN 3.65.{{ zonename }}.
 29  1H  IN PTR      wmf3290.mgmt.eqiad.wmnet.
 30  1H  IN PTR      bast1001.mgmt.eqiad.wmnet.
 30  1H  IN PTR      wmf3289.mgmt.eqiad.wmnet.
-31  1H  IN PTR      calcium.mgmt.eqiad.wmnet.
-31  1H  IN PTR      wmf3288.mgmt.eqiad.wmnet.
 32  1H  IN PTR      potassium.mgmt.eqiad.wmnet.
 32  1H  IN PTR      wmf3287.mgmt.eqiad.wmnet.
 33  1H  IN PTR      tantalum.mgmt.eqiad.wmnet.
