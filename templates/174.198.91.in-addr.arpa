@@ -46,6 +46,7 @@ $ORIGIN {{ zonename }}.
 ; - - 91.198.174.192/29 (192-199) LVS Desktop
 
 192 1H  IN PTR  text-lb.esams.wikimedia.org.
+193 1H  IN PTR  geoiplookup-lb.esams.wikimedia.org.
 
 ; - - 91.198.174.200/29 (200-207) LVS Mobile
 

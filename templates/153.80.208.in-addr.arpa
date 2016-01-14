@@ -135,6 +135,7 @@ $ORIGIN {{ zonename }}.
 ; - - 208.80.153.224/29 (224-231) LVS Desktop
 
 224 1H  IN PTR  text-lb.codfw.wikimedia.org.
+225 1H  IN PTR  geoiplookup-lb.codfw.wikimedia.org.
 
 ; wrong subnet, but not important...
 231 1H  IN PTR  ns1.wikimedia.org.
