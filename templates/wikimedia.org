@@ -687,7 +687,6 @@ stats            1H  IN DYNA     geoip!misc-addrs
 status           1H  IN CNAME    status.watchmouse.com.
 techblog         1H  IN DYNA     geoip!text-addrs
 ticket           1H  IN CNAME    iodine
-otrs-test        1H  IN DYNA     geoip!misc-addrs
 tor-eqiad-1      1H  IN CNAME    radium
 ubuntu           1H  IN CNAME    carbon
 mirrors          1H  IN CNAME    carbon
