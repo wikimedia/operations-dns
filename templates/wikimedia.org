@@ -163,7 +163,6 @@ pay-lvs1001     1H  IN A    208.80.155.2
 pay-lvs1002     1H  IN A    208.80.155.3
 pollux          1H  IN A    208.80.153.43
 procyon         1H  IN A    208.80.152.245
-protactinium    1H  IN A    208.80.154.13
 radium          1H  IN A    208.80.154.39
                 1H  IN AAAA 2620:0:861:1:208:80:154:39
 radon           1H  IN A    208.80.154.93
