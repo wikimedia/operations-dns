@@ -638,8 +638,10 @@ labs-ns0         1H  IN A        208.80.154.94
 labs-ns1         1H  IN A        208.80.154.102
 labs-ns3         1H  IN A        208.80.154.12
 labs-ns2         1H  IN A        208.80.155.117
+labtest-ns0      1H  IN A        208.80.153.48
 labs-recursor0   1H  IN A        208.80.154.20
 labs-recursor1   1H  IN A        208.80.155.118
+labtest-recursor0 1H IN A        208.80.153.51
 ; deprecated but kept for compatibility, see RT #6769
 labsconsole      600 IN DYNA     geoip!text-addrs
 logstash         1H  IN DYNA     geoip!misc-addrs

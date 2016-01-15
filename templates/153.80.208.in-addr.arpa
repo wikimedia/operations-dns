@@ -50,6 +50,7 @@ $ORIGIN {{ zonename }}.
 48  1H  IN PTR  labtestservices2001.wikimedia.org.
 49  1H  IN PTR  serpens.wikimedia.org. ; VM on the ganeti01.svc.codfw.wmnet cluster
 50  1H  IN PTR  alsafi.wikimedia.org.  ; VM on the ganeti01.svc.codfw.wmnet cluster
+51  1H  IN PTR  labtest-recursor0.wikimedia.org. ; additional IP on labtestservices2001
 
 ; 208.80.153.64/27 (public1-c-codfw)
 65  1H  IN PTR  vrrp-gw-2003.wikimedia.org.
