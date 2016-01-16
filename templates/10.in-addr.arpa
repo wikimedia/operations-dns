@@ -3285,7 +3285,7 @@ $ORIGIN 1.193.{{ zonename }}.
 47  1H IN PTR  wmf5841.mgmt.codfw.wmnet.
 48  1H IN PTR  ms-be2012.mgmt.codfw.wmnet.
 48  1H IN PTR  wmf5903.mgmt.codfw.wmnet.
-49  1H IN PTR  labcontrol2001.mgmt.codfw.wmnet.
+49  1H IN PTR  labtestweb2001.mgmt.codfw.wmnet.
 49  1H IN PTR  wmf5847.mgmt.codfw.wmnet.
 50  1H IN PTR  wmf3641.mgmt.codfw.wmnet.
 51  1H IN PTR  db2001.mgmt.codfw.wmnet.

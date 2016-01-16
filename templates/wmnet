@@ -3010,7 +3010,7 @@ heze            1H  IN A    10.193.1.250
 install2001     1H  IN A    10.193.1.10
 kafka2001       1H  IN A    10.193.1.23
 kafka2002       1H  IN A    10.193.1.25
-labcontrol2001  1H  IN A    10.193.1.49
+labtestweb2001  1H  IN A    10.193.1.49
 labstore2001    1H  IN A    10.193.1.248
 labstore2002    1H  IN A    10.193.1.249
 labtestcontrol2001    1H  IN A    10.193.2.1
