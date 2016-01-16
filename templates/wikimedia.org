@@ -695,6 +695,9 @@ wikitech         1H  IN CNAME    silver
 wikitech-static  1H  IN A        166.78.57.240
                  1H  IN AAAA     2001:4800:7810:512:4bbc:637f:ff04:d370
 
+labtestwikitech  1H  IN CNAME    labtestweb2001
+labtesthorizon   1H  IN CNAME    labtestweb2001
+
 ; SNI testing hostname
 pinkunicorn      600 A 208.80.154.42
 
