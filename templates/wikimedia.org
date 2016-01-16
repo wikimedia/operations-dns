@@ -446,7 +446,6 @@ ldap-labs.eqiad 1H  IN CNAME    seaborgium.wikimedia.org.
 ldap-labs.codfw 1H  IN CNAME    serpens.wikimedia.org.
 
 labs-puppetmaster-eqiad 300 IN CNAME  labcontrol1001.wikimedia.org.
-labs-puppetmaster-codfw 300 IN CNAME  labcontrol2001.wikimedia.org.
 labtest-puppetmaster-codfw 300 IN CNAME  labtestcontrol2001.wikimedia.org.
 
 
