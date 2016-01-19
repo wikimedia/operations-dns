@@ -35,6 +35,7 @@ config-master   1H  IN CNAME    palladium.eqiad.wmnet.
 statsd          1H  IN CNAME    graphite1001.eqiad.wmnet.
 eventlogging    1H  IN CNAME    eventlog1001.eqiad.wmnet.
 udplog          1H  IN CNAME    fluorine.eqiad.wmnet.
+deployment      1H  IN CNAME    tin.eqiad.wmnet.
 s1-master       5M  IN CNAME    db1052.eqiad.wmnet.
 s2-master       5M  IN CNAME    db1024.eqiad.wmnet.
 s3-master       5M  IN CNAME    db1038.eqiad.wmnet.
@@ -2211,6 +2212,7 @@ $ORIGIN codfw.{{ zonename }}.
 config-master   1H  IN CNAME    palladium.eqiad.wmnet.
 puppet          1H  IN CNAME    palladium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
+deployment      1H  IN CNAME    tin.eqiad.wmnet.
 ; etcd client discovery
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
