@@ -3995,6 +3995,7 @@ _etcd._tcp      5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
 $ORIGIN svc.eqiad.wmnet.
 
 appservers  1H  IN A        10.2.2.1
+appservers-debug  1H  IN CNAME        mw1017.eqiad.wmnet.
 hhvm-api    1H  IN A        10.2.2.3
 ganeti01    1H  IN A        10.64.32.173
 aqs         1H  IN A        10.2.2.12
