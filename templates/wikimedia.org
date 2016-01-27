@@ -222,16 +222,15 @@ parsoid-lb.eqiad    1H  IN A    208.80.154.248
 stream-lb.eqiad 1H  IN A    208.80.154.249
             1H  IN AAAA 2620:0:861:ed1a::3:15
 
-;;;; cxserver/citoid below are LEGACY, to be removed eventually
+;;;; cxserver/citoid/rest(base) below are LEGACY, to be removed eventually
 cxserver.eqiad      600 IN DYNA geoip!text-addrs
 cxserver            600 IN DYNA geoip!text-addrs
 citoid.eqiad        600 IN DYNA geoip!text-addrs
 citoid              600 IN DYNA geoip!text-addrs
+restbase.eqiad      600 IN DYNA geoip!text-addrs
+restbase            600 IN DYNA geoip!text-addrs
+rest                600 IN DYNA geoip!text-addrs
 
-restbase.eqiad      1H  IN A    208.80.154.248
-                    1H  IN AAAA 2620:0:861:ed1a::3:14
-restbase            1H  IN CNAME restbase.eqiad
-rest                1H  IN CNAME restbase.eqiad
 git-ssh.eqiad       1H  IN A    208.80.154.250
                     1H  IN AAAA 2620:0:861:ed1a::3:16
 git-ssh             1H  IN A    208.80.154.250
