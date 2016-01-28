@@ -28,8 +28,9 @@ $ORIGIN {{ zonename }}.
 12  1H  IN PTR  holmium.wikimedia.org.
 
 14  1H  IN PTR  neon.wikimedia.org.
+
 16  1H  IN PTR  ms1001.wikimedia.org.
-17  1H  IN PTR  nitrogen.wikimedia.org.
+
 18  1H  IN PTR  virt1000.wikimedia.org.
 20  1H  IN PTR  labs-recursor0.wikimedia.org.
 39  1H  IN PTR  radium.wikimedia.org.
