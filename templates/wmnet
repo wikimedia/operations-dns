@@ -92,10 +92,6 @@ cam2-b-c-eqiad      1H  IN A        10.64.16.44
 cam1-c-eqiad        1H  IN A        10.64.32.82
 cam2-c-eqiad        1H  IN A        10.64.32.83
 
-; Netapps
-nas1001-a           1H  IN A        10.64.16.4
-nas1001-b           1H  IN A        10.64.16.5
-
 ;Servers - listed alphabetically
 
 analytics1001       1H  IN A         10.64.36.118
@@ -923,9 +919,6 @@ ps1-d5-eqiad        1H  IN A        10.65.0.60
 ps1-d6-eqiad        1H  IN A        10.65.0.61
 ps1-d7-eqiad        1H  IN A        10.65.0.62
 ps1-d8-eqiad        1H  IN A        10.65.0.63
-
-nas1001-a       1H  IN A        10.65.0.102
-nas1001-b       1H  IN A        10.65.0.101
 
 WMF3134     1H  IN A    10.65.2.1
 radium      1H  IN A    10.65.2.1
