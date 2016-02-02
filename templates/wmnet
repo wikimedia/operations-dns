@@ -700,6 +700,7 @@ nobelium        1H  IN A        10.64.37.14
 ocg1001         1H  IN A        10.64.32.151
 ocg1002         1H  IN A        10.64.48.42
 ocg1003         1H  IN A        10.64.48.43
+oresrdb1001     1H  IN A        10.64.48.129
 osm-cp1001      1H  IN A        10.64.0.211
 osm-cp1002      1H  IN A        10.64.0.212
 osm-cp1003      1H  IN A        10.64.16.161
