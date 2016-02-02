@@ -2063,7 +2063,9 @@ $ORIGIN 3.65.{{ zonename }}.
 206     1H      IN PTR          wmf4576.mgmt.eqiad.wmnet.
 206     1H      IN PTR          auth1001.mgmt.eqiad.wmnet.
 207     1H      IN PTR          wmf4577.mgmt.eqiad.wmnet.
+207     1H      IN PTR          oresrdb1001.mgmt.eqiad.wmnet.
 208     1H      IN PTR          wmf4578.mgmt.eqiad.wmnet.
+208     1H      IN PTR          oresrdb1002.mgmt.eqiad.wmnet.
 209     1H      IN PTR          wmf4579.mgmt.eqiad.wmnet.
 210     1H      IN PTR          hp1001.mgmt.eqiad.wmnet.
 211     1H      IN PTR          wmf4580.mgmt.eqiad.wmnet.

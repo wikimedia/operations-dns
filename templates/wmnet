@@ -2086,7 +2086,9 @@ labservices1001 1H      IN A            10.65.5.205
 WMF4576         1H      IN A            10.65.5.206
 auth1001        1H      IN A            10.65.5.206
 WMF4577         1H      IN A            10.65.5.207
+oresrdb1001     1H      IN A            10.65.5.207
 WMF4578         1H      IN A            10.65.5.208
+oresrdb1002     1H      IN A            10.65.5.208
 WMF4579         1H      IN A            10.65.5.209
 wmf4656         1H      IN A            10.65.2.109
 restbase1001    1H      IN A            10.65.2.109
