@@ -151,6 +151,8 @@ $ORIGIN {{ zonename }}.
 
 240 1H  IN PTR  upload-lb.codfw.wikimedia.org.
 
+244 1H  IN PTR  maps-lb.codfw.wikimedia.org.
+
 ; - - 208.80.153.248/29 (248-255) LVS Misc
 
 248  1H  IN PTR misc-web-lb.codfw.wikimedia.org.

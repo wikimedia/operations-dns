@@ -44,6 +44,7 @@ $ORIGIN {{ zonename }}.
 ; - - 198.35.26.112/29 (112-119) LVS Multimedia
 
 112 1H IN PTR   upload-lb.ulsfo.wikimedia.org.
+113 1H IN PTR   maps-lb.ulsfo.wikimedia.org.
 
 ; - - 198.35.26.120/29 (120-127) LVS Misc
 

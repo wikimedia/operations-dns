@@ -195,6 +195,7 @@ c.0.0.0                         1H IN PTR   mobile-lb.codfw.wikimedia.org.
 $ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 b.0.0.0                         1H IN PTR   upload-lb.codfw.wikimedia.org.
+d.0.0.0                         1H IN PTR   maps-lb.codfw.wikimedia.org.
 
 ; - - 2620:0:860:ed1a::3:0/112 (::3:0 - ::3:ffff) LVS Misc
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.

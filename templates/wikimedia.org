@@ -78,6 +78,9 @@ recursor1       1H  IN A    91.198.174.216  ; esams LVS (dns-rec-lb)
 text-lb     600 DYNA geoip!text-addrs
 bits        600 DYNA geoip!text-addrs
 upload      600 DYNA geoip!upload-addrs
+; XXX temporary, should be DYNA geoip!maps-addrs
+maps                1H  IN A    208.80.154.244
+                    1H  IN AAAA 2620:0:861:ed1a::2:d
 m           600 DYNA geoip!mobile-addrs
 misc-web-lb 600 DYNA geoip!misc-addrs
 geoiplookup 600 DYNA geoip!geoiplookup-addrs
@@ -203,6 +206,9 @@ ntp.codfw           1H  IN CNAME acamar
 text-lb.eqiad       600 IN DYNA geoip!text-addrs/eqiad
 upload-lb.eqiad     600 IN DYNA geoip!upload-addrs/eqiad
 mobile-lb.eqiad     600 IN DYNA geoip!mobile-addrs/eqiad
+; XXX temporary, should be DYNA geoip!maps-addrs/eqiad
+maps-lb.eqiad       1H  IN A    208.80.154.244
+                    1H  IN AAAA 2620:0:861:ed1a::2:d
 misc-web-lb.eqiad   600 IN DYNA geoip!misc-addrs/eqiad
 donate-lb.eqiad     600 IN DYNA geoip!text-addrs/eqiad
                 IN MX 10 mx1001.wikimedia.org.
@@ -210,10 +216,6 @@ donate-lb.eqiad     600 IN DYNA geoip!text-addrs/eqiad
 ;;; ns0                 208.80.154.238
 dns-rec-lb.eqiad    1H  IN A    208.80.154.239
                     1H  IN AAAA 2620:0:861:ed1a::3:fe
-maps-lb.eqiad       1H  IN A    208.80.154.244
-                    1H  IN AAAA 2620:0:861:ed1a::2:d
-maps                1H  IN A    208.80.154.244
-                    1H  IN AAAA 2620:0:861:ed1a::2:d
 
 geoiplookup-lb.eqiad    600 IN DYNA geoip!geoiplookup-addrs/eqiad
 
@@ -240,6 +242,9 @@ git-ssh             1H  IN A    208.80.154.250
 text-lb.ulsfo       600 IN DYNA geoip!text-addrs/ulsfo
 upload-lb.ulsfo     600 IN DYNA geoip!upload-addrs/ulsfo
 mobile-lb.ulsfo     600 IN DYNA geoip!mobile-addrs/ulsfo
+; XXX temporary, should be DYNA geoip!maps-addrs/ulsfo
+maps-lb.ulsfo       1H  IN A    198.35.26.113
+                    1H  IN AAAA 2620:0:863:ed1a::2:d
 misc-web-lb.ulsfo   600 IN DYNA geoip!misc-addrs/ulsfo
 geoiplookup-lb.ulsfo    600 IN DYNA geoip!geoiplookup-addrs/ulsfo
 donate-lb.ulsfo     600 IN DYNA geoip!text-addrs/ulsfo
@@ -252,6 +257,9 @@ dns-rec-lb.codfw    1H  IN A    208.80.153.254
 text-lb.codfw       600 IN DYNA geoip!text-addrs/codfw
 upload-lb.codfw     600 IN DYNA geoip!upload-addrs/codfw
 mobile-lb.codfw     600 IN DYNA geoip!mobile-addrs/codfw
+; XXX temporary, should be DYNA geoip!maps-addrs/codfw
+maps-lb.codfw       1H  IN A    208.80.153.244
+                    1H  IN AAAA 2620:0:860:ed1a::2:d
 misc-web-lb.codfw   600 IN DYNA geoip!misc-addrs/codfw
 donate-lb.codfw     600 IN DYNA geoip!text-addrs/codfw
 geoiplookup-lb.codfw    600 IN DYNA geoip!geoiplookup-addrs/codfw
@@ -775,6 +783,9 @@ scs-oe11-esams      1H  IN A    10.21.0.102
 text-lb       600 IN DYNA geoip!text-addrs/esams
 upload-lb     600 IN DYNA geoip!upload-addrs/esams
 mobile-lb     600 IN DYNA geoip!mobile-addrs/esams
+; XXX temporary, should be DYNA geoip!maps-addrs/esams
+maps-lb       1H  IN A    91.198.174.209
+              1H  IN AAAA 2620:0:862:ed1a::2:d
 misc-web-lb   600 IN DYNA geoip!misc-addrs/esams
 geoiplookup-lb    600 IN DYNA geoip!geoiplookup-addrs/esams
 donate-lb     600 IN DYNA geoip!text-addrs/esams
