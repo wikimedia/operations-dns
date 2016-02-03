@@ -153,7 +153,6 @@ aqs1003          1H IN A             10.64.48.117
 berkelium        1H IN A             10.64.0.169
                  1H IN AAAA 2620:0:861:101:10:64:0:169
 bohrium          1H IN A             10.64.32.71 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-caesium          1H IN A             10.64.32.145
 cerium           1H IN A             10.64.16.147
 cerium-a         1H IN A             10.64.16.153 ; cassandra instance
 cerium-b         1H IN A             10.64.16.154 ; cassandra instance
@@ -1944,7 +1943,6 @@ lanthanum   1H  IN A    10.65.3.122
 WMF4078     1H  IN A    10.65.3.123
 xenon       1H  IN A    10.65.3.123
 WMF4079     1H  IN A    10.65.3.124
-caesium     1H  IN A    10.65.3.124
 WMF4080     1H  IN A    10.65.3.125
 cerium      1H  IN A    10.65.3.125
 WMF4081     1H  IN A    10.65.3.126
