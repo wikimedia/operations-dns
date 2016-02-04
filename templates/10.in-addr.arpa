@@ -2713,6 +2713,7 @@ $ORIGIN 0.192.{{ zonename }}.
 137 1H IN PTR   ms-be2017.codfw.wmnet.
 138 1H IN PTR   auth2001.codfw.wmnet.
 139 1H IN PTR   kafka2001.codfw.wmnet.
+140 1H IN PTR   sarin.codfw.wmnet.
 
 $ORIGIN 1.192.{{ zonename }}.
 1   1H IN PTR   lvs2001.codfw.wmnet.
