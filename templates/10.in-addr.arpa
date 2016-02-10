@@ -1937,7 +1937,6 @@ $ORIGIN 3.65.{{ zonename }}.
 127 1H  IN PTR      wmf4082.mgmt.eqiad.wmnet.
 127 1H  IN PTR      thulium.mgmt.eqiad.wmnet.
 128 1H  IN PTR      wmf4083.mgmt.eqiad.wmnet.
-128 1H  IN PTR      iodine.mgmt.eqiad.wmnet.
 129 1H  IN PTR      wmf4084.mgmt.eqiad.wmnet.
 129 1H  IN PTR      europium.mgmt.eqiad.wmnet.
 130     1H      IN PTR          tellurium.mgmt.eqiad.wmnet.
