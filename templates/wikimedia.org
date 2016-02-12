@@ -428,7 +428,7 @@ apt             1H  IN CNAME    carbon
 archiva         1H  IN CNAME    titanium
 
 benefactorevents 1H IN CNAME    trilogytools1.azurewebsites.net.
-benefactors     1H  IN DYNA     geoip!text-addrs
+benefactors     600 IN DYNA     geoip!text-addrs
                 1H  IN MX       10 mx1001.wikimedia.org.
                 1H  IN MX       50 mx2001.wikimedia.org.
                 1H  IN TXT      "v=spf1 include:wikimedia.org include:jangomail.com ?all"
@@ -621,7 +621,7 @@ zero             600 IN DYNA     geoip!text-addrs
 blog             1H  IN CNAME    wikimediablog.wordpress.com.
 bugs             600 IN DYNA     geoip!misc-addrs
 bugzilla         600 IN DYNA     geoip!misc-addrs
-bug-attachment   1H  IN DYNA     geoip!text-addrs
+bug-attachment   600 IN DYNA     geoip!text-addrs
 careers          600 IN DYNA     geoip!text-addrs
 civicrm          1H  IN A        208.80.155.11
 civicrm.frdev    1H  IN CNAME    frdev-eqiad
@@ -632,7 +632,7 @@ cs               600 IN DYNA     geoip!text-addrs
 cz               600 IN DYNA     geoip!text-addrs
 datasets         600 IN DYNA     geoip!misc-addrs
 download         600 IN DYNA     geoip!text-addrs
-etherpad         5M  IN DYNA     geoip!misc-addrs
+etherpad         600 IN DYNA     geoip!misc-addrs
 fundraising      1H  IN CNAME    fundraising-eqiad
 ganglia          1H  IN CNAME    uranium
 hue              600 IN DYNA     geoip!misc-addrs
@@ -654,7 +654,7 @@ logstash         600 IN DYNA     geoip!misc-addrs
 metrics          600 IN DYNA     geoip!misc-addrs
 noc              600 IN DYNA     geoip!misc-addrs
 nyc              600 IN DYNA     geoip!text-addrs
-old-bugzilla     1H  IN DYNA     geoip!text-addrs
+old-bugzilla     600 IN DYNA     geoip!text-addrs
 planet           600 IN DYNA     geoip!misc-addrs
 ar.planet        600 IN DYNA     geoip!misc-addrs
 ca.planet        600 IN DYNA     geoip!misc-addrs
@@ -686,13 +686,13 @@ racktables       600 IN DYNA     geoip!misc-addrs
 scholarships     600 IN DYNA     geoip!misc-addrs
 transparency     600 IN DYNA     geoip!misc-addrs
 search           600 IN DYNA     geoip!text-addrs
-shop             1H  IN DYNA     geoip!text-addrs
+shop             600 IN DYNA     geoip!text-addrs
 smokeping        600 IN DYNA     geoip!misc-addrs
 store            1H  IN CNAME    c.ssl.shopify.com.
 static-bugzilla  600 IN DYNA     geoip!misc-addrs
 stats            600 IN DYNA     geoip!misc-addrs
 status           1H  IN CNAME    status.watchmouse.com.
-techblog         1H  IN DYNA     geoip!text-addrs
+techblog         600 IN DYNA     geoip!text-addrs
 ticket           600 IN DYNA     geoip!misc-addrs
 tor-eqiad-1      1H  IN CNAME    radium
 ubuntu           1H  IN CNAME    carbon

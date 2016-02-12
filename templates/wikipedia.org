@@ -62,7 +62,7 @@ zh-tw                   600     IN DYNA         geoip!text-addrs
 ; Other websites
 
 15              600 IN DYNA     geoip!misc-addrs
-bugzilla        1H  IN DYNA     geoip!text-addrs
+bugzilla        600 IN DYNA     geoip!text-addrs
 careers         600 IN DYNA     geoip!text-addrs
 donate          600 IN DYNA     geoip!text-addrs
 download        600 IN DYNA     geoip!text-addrs
