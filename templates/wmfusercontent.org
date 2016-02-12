@@ -20,7 +20,7 @@ $ORIGIN {{ zonename }}.
 ; Canonical names
 
 ; Servers (alphabetic order)
-phab        1H  IN DYNA     geoip!misc-addrs
+phab        600 IN DYNA     geoip!misc-addrs
 
 ; Service aliases
 

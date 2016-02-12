@@ -30,7 +30,7 @@ $ORIGIN {{ zonename }}.
 ; Servers (alphabetic order)
 
 ; Service aliases
-query       1H  IN DYNA     geoip!misc-addrs
+query       600 IN DYNA     geoip!misc-addrs
 
 ; Wikis (alphabetic order)
 
