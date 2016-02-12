@@ -71,6 +71,7 @@ $ORIGIN {{ zonename }}.
 79  1H  IN PTR  seaborgium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 80  1H  IN PTR  ytterbium.wikimedia.org.
 81  1H  IN PTR  gerrit.wikimedia.org.
+82  1H  IN PTR  lead.wikimedia.org.
 
 91  1H  IN PTR  wiki-mail-eqiad.wikimedia.org.
 92  1H  IN PTR  labcontrol1001.wikimedia.org.
