@@ -21,7 +21,7 @@ $ORIGIN {{ zonename }}.
 3   1H  IN PTR  ae1-1001.cr2-eqiad.wikimedia.org.
 4   1H  IN PTR  lists.wikimedia.org.
 5   1H  IN PTR  magnesium.wikimedia.org.
-
+6   1H  IN PTR  lead.wikimedia.org.
 7   1H  IN PTR  antimony.wikimedia.org.
 10  1H  IN PTR  carbon.wikimedia.org.
 11  1H  IN PTR  dataset1001.wikimedia.org.
