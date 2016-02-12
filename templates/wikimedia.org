@@ -621,7 +621,7 @@ bugs             600 IN DYNA     geoip!misc-addrs
 bugzilla         600 IN DYNA     geoip!misc-addrs
 bug-attachment   1H  IN DYNA     geoip!text-addrs
 careers          600 IN DYNA     geoip!text-addrs
-civicrm          1H  IN CNAME    barium
+civicrm          1H  IN A        208.80.155.11
 civicrm.frdev    1H  IN CNAME    frdev-eqiad
 civicrm-gr.frdev 1H  IN CNAME    frdev-eqiad
 civicrm2-gr.frdev 1H IN CNAME    frdev-eqiad
