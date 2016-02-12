@@ -119,6 +119,8 @@ dataset1001     1H  IN A    208.80.154.11
                 1H  IN AAAA 2620:0:861:1:208:80:154:11
 dickson         1H  IN A    208.80.155.68
                 1H  IN AAAA 2620:0:861:202:208:80:155:68
+eeden           1H  IN A    91.198.174.121
+                1H  IN AAAA 2620:0:862:1:91:198:174:121
 einsteinium     1H  IN A    208.80.155.119
 fermium         1H  IN A    208.80.154.74 ; VM on the ganeti01.svc.eqiad.wmnet cluster
                 1H  IN AAAA 2620:0:861:3:208:80:154:74
@@ -148,13 +150,19 @@ lvs1003         1H  IN A    208.80.154.57
 lvs1004         1H  IN A    208.80.154.137
 lvs1005         1H  IN A    208.80.154.138
 lvs1006         1H  IN A    208.80.154.139
+maerlant        1H  IN A    91.198.174.122
+                1H  IN AAAA 2620:0:862:1:91:198:174:122
 magnesium       1H  IN A    208.80.154.5
 ms1001          1H  IN A    208.80.154.16
                 1H  IN AAAA 2620:0:861:1:208:80:154:16
+multatuli       1H  IN A    91.198.174.114
+                1H  IN AAAA 2620:0:862:1:91:198:174:114
 mx1001          1H  IN A    208.80.154.76 ; VM on the ganeti01.svc.eqiad.wmnet cluster
                 1H  IN AAAA 2620:0:861:3:208:80:154:76
 mx2001          1H  IN A    208.80.153.45 ; VM on the ganeti01.svc.codfw.wmnet cluster
                 1H  IN AAAA 2620:0:860:2:208:80:153:45
+nescio          1H  IN A    91.198.174.106
+                1H  IN AAAA 2620:0:862:1:91:198:174:106
 neon            1H  IN A    208.80.154.14
                 1H  IN AAAA 2620:0:861:1:208:80:154:14
 netmon1001      1H  IN A    208.80.154.159
@@ -199,6 +207,9 @@ ntp.ulsfo           1H  IN CNAME hydrogen
 
 ;;; codfw
 ntp.codfw           1H  IN CNAME acamar
+
+;;; esams
+ntp.esams           1H  IN CNAME maerlant
 
 ; Round Robin LVS Service records
 
@@ -261,6 +272,21 @@ maps-lb.codfw       1H  IN A    208.80.153.244
 misc-web-lb.codfw   600 IN DYNA geoip!misc-addrs/codfw
 donate-lb.codfw     600 IN DYNA geoip!text-addrs/codfw
 geoiplookup-lb.codfw    600 IN DYNA geoip!geoiplookup-addrs/codfw
+
+;;; esams
+text-lb.esams       600 IN DYNA geoip!text-addrs/esams
+upload-lb.esams     600 IN DYNA geoip!upload-addrs/esams
+mobile-lb.esams     600 IN DYNA geoip!mobile-addrs/esams
+; XXX temporary, should be DYNA geoip!maps-addrs/esams
+maps-lb.esams       1H  IN A    91.198.174.209
+              1H  IN AAAA 2620:0:862:ed1a::2:d
+misc-web-lb.esams   600 IN DYNA geoip!misc-addrs/esams
+geoiplookup-lb.esams    600 IN DYNA geoip!geoiplookup-addrs/esams
+donate-lb.esams     600 IN DYNA geoip!text-addrs/esams
+              1H  IN MX 10    mx1001.wikimedia.org.
+              1H  IN MX 50    mx2001.wikimedia.org.
+dns-rec-lb.esams    1H  IN A    91.198.174.216
+              1H  IN AAAA 2620:0:862:ed1a::3:fe
 
 ; Mobile
 
@@ -743,28 +769,13 @@ ns1             1H  IN A    198.73.209.15
 ns2             1H  IN A    198.73.209.16
 
 ; esams cluster
-
-$ORIGIN {{ zonename }}.
-
-; Servers
-
-eeden            1H  IN A       91.198.174.121
-                 1H  IN AAAA    2620:0:862:1:91:198:174:121
-maerlant         1H  IN A       91.198.174.122
-                 1H  IN AAAA    2620:0:862:1:91:198:174:122
-multatuli        1H  IN A       91.198.174.114
-                 1H  IN AAAA    2620:0:862:1:91:198:174:114
-nescio           1H  IN A       91.198.174.106
-                 1H  IN AAAA    2620:0:862:1:91:198:174:106
-
 $ORIGIN esams.{{ zonename }}.
 
 ; Service aliases
-
+; FIXME: all 3 of these are suspect, we don't do these per-subdomain elsewhere..
 puppet          1H  IN CNAME    palladium.eqiad.wmnet.
 recursor0       1H  IN A        91.198.174.216  ; esams LVS (dns-rec-lb)
 recursor1       1H  IN A        208.80.154.239  ; eqiad LVS (dns-rec-lb)
-ntp             1H  IN CNAME    maerlant.wikimedia.org.
 
 ; Servers
 ; FIXME: these stay under .esams.wikimedia.org until they get reprovisioned
@@ -774,20 +785,4 @@ hooft           1H  IN A    91.198.174.113
                 1H  IN AAAA 2620:0:862:1:91:198:174:113
 
 ; Management
-
 scs-oe11-esams      1H  IN A    10.21.0.102
-
-; Round robin record
-text-lb       600 IN DYNA geoip!text-addrs/esams
-upload-lb     600 IN DYNA geoip!upload-addrs/esams
-mobile-lb     600 IN DYNA geoip!mobile-addrs/esams
-; XXX temporary, should be DYNA geoip!maps-addrs/esams
-maps-lb       1H  IN A    91.198.174.209
-              1H  IN AAAA 2620:0:862:ed1a::2:d
-misc-web-lb   600 IN DYNA geoip!misc-addrs/esams
-geoiplookup-lb    600 IN DYNA geoip!geoiplookup-addrs/esams
-donate-lb     600 IN DYNA geoip!text-addrs/esams
-              1H  IN MX 10    mx1001.wikimedia.org.
-              1H  IN MX 50    mx2001.wikimedia.org.
-dns-rec-lb    1H  IN A    91.198.174.216
-              1H  IN AAAA 2620:0:862:ed1a::3:fe
