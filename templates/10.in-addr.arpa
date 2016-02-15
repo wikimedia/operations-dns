@@ -390,6 +390,8 @@ $ORIGIN 0.64.{{ zonename }}.
 228 1H IN PTR   restbase1002-b.eqiad.wmnet.
 229 1H IN PTR   restbase1002-c.eqiad.wmnet.
 230 1H IN PTR   restbase1007-a.eqiad.wmnet.
+231 1H IN PTR   restbase1007-b.eqiad.wmnet.
+232 1H IN PTR   restbase1007-c.eqiad.wmnet.
 
 $ORIGIN 1.64.{{ zonename }}.
 
