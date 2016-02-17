@@ -2717,6 +2717,8 @@ $ORIGIN 0.192.{{ zonename }}.
 138 1H IN PTR   auth2001.codfw.wmnet.
 139 1H IN PTR   kafka2001.codfw.wmnet.
 140 1H IN PTR   sarin.codfw.wmnet.
+141 1H IN PTR   es2014.codfw.wmnet.
+142 1H IN PTR   es2017.codfw.wmnet.
 
 $ORIGIN 1.192.{{ zonename }}.
 1   1H IN PTR   lvs2001.codfw.wmnet.
@@ -2905,6 +2907,8 @@ $ORIGIN 16.192.{{ zonename }}.
 168 1H IN PTR   cygnus.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 169 1H IN PTR   kafka2002.codfw.wmnet.
 170 1H IN PTR   pc2004.codfw.wmnet.
+171 1H IN PTR   es2011.codfw.wmnet.
+172 1H IN PTR   es2018.codfw.wmnet.
 
 $ORIGIN 17.192.{{ zonename }}.
 1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
@@ -3066,6 +3070,8 @@ $ORIGIN 32.192.{{ zonename }}.
 126 1H IN PTR   ms-be2020.codfw.wmnet.
 127 1H IN PTR   ms-be2021.codfw.wmnet.
 128 1H IN PTR   pc2005.codfw.wmnet.
+129 1H IN PTR   es2012.codfw.wmnet.
+130 1H IN PTR   es2015.codfw.wmnt.
 
 $ORIGIN 33.192.{{ zonename }}.
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
@@ -3123,6 +3129,8 @@ $ORIGIN 48.192.{{ zonename }}.
 37  1H IN PTR   restbase2005.codfw.wmnet.
 38  1H IN PTR   restbase2006.codfw.wmnet.
 39  1H IN PTR   pc2006.codfw.wmnet.
+40  1H IN PTR   es2013.codfw.wmnet.
+41  1H IN PTR   es2016.codfw.wmnet.
 
 $ORIGIN 49.192.{{ zonename }}.
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
