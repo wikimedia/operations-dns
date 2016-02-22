@@ -219,8 +219,6 @@ dns-rec-lb.eqiad    1H  IN A    208.80.154.239
 
 geoiplookup-lb.eqiad    600 IN DYNA geoip!geoiplookup-addrs/eqiad
 
-parsoid-lb.eqiad    1H  IN A    208.80.154.248
-            1H  IN AAAA 2620:0:861:ed1a::3:14
 stream-lb.eqiad 1H  IN A    208.80.154.249
             1H  IN AAAA 2620:0:861:ed1a::3:15
 
