@@ -835,6 +835,7 @@ wtp1021         1H  IN A        10.64.0.216
 wtp1022         1H  IN A        10.64.0.217
 wtp1023         1H  IN A        10.64.0.218
 wtp1024         1H  IN A        10.64.0.219
+wmf4727-test	1H  IN A        10.64.48.132
 xenon           1H  IN A        10.64.0.200
 xenon-a         1H  IN A        10.64.0.202 ; cassandra instance
 xenon-b         1H  IN A        10.64.0.203 ; cassandra instance
