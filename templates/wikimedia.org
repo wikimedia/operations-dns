@@ -456,7 +456,6 @@ frdata.wikimedia.org.   1H  IN CNAME    frdata-eqiad.wikimedia.org.
 gerrit          1H  IN A        208.80.154.81
                 1H  IN AAAA     2620:0:861:3:208:80:154:81
 git             600 IN DYNA     geoip!misc-addrs
-gdash           600 IN DYNA     geoip!misc-addrs
 graphite        600 IN DYNA     geoip!misc-addrs
 grafana         600 IN DYNA     geoip!misc-addrs
 grafana-admin   600 IN DYNA     geoip!misc-addrs
