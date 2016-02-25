@@ -327,7 +327,8 @@ $ORIGIN 0.64.{{ zonename }}.
 109 1H IN PTR   elastic1002.eqiad.wmnet.
 110 1H IN PTR   elastic1003.eqiad.wmnet.
 111 1H IN PTR   elastic1004.eqiad.wmnet.
-
+112 1H IN PTR   restbase1010.eqiad.wmnet.
+113 1H IN PTR   restbase1011.eqiad.wmnet.
 120 1H IN PTR   snapshot1001.eqiad.wmnet.
 121 1H IN PTR   snapshot1002.eqiad.wmnet.
 122 1H IN PTR   logstash1001.eqiad.wmnet.
@@ -757,7 +758,8 @@ $ORIGIN 32.64.{{ zonename }}.
 76      1H IN PTR       rdb1001.eqiad.wmnet.
 77      1H IN PTR       rdb1002.eqiad.wmnet.
 78      1H IN PTR       wtp1001.eqiad.wmnet.
-
+79      1H IN PTR       restbase1012.eqiad.wmnet.
+80      1H IN PTR       restbase1013.eqiad.wmnet.
 81      1H IN PTR       cp1099.eqiad.wmnet.
 82      1H IN PTR       cam1-c-eqiad.eqiad.wmnet.
 83      1H IN PTR       cam2-c-eqiad.eqiad.wmnet.
@@ -1100,6 +1102,8 @@ $ORIGIN 48.64.{{ zonename }}.
 130     1H  IN PTR      restbase1009-b.eqiad.wmnet.
 131     1H  IN PTR      restbase1009-c.eqiad.wmnet.
 132     1H  IN PTR      wmf4727-test.eqiad.wmnet.
+133     1H  IN PTR      restbase1014.eqiad.wmnet.
+134     1H  IN PTR      restbase1015.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
@@ -1610,6 +1614,7 @@ $ORIGIN 2.65.{{ zonename }}.
 13  1H  IN PTR      WMF3122.mgmt.eqiad.wmnet.
 14  1H  IN PTR      wmf3121.mgmt.eqiad.wmnet.
 14  1H  IN PTR      scandium.mgmt.eqiad.wmnet.
+
 19  1H  IN PTR      wmf3116.mgmt.eqiad.wmnet.
 20  1H  IN PTR      rdb1005.mgmt.eqiad.wmnet.
 20  1H  IN PTR      wmf4718.mgmt.eqiad.wmnet.
@@ -1750,6 +1755,18 @@ $ORIGIN 2.65.{{ zonename }}.
 127 1H  IN PTR      wmf4725.mgmt.eqiad.wmnet.
 128 1H  IN PTR      wmf4726.mgmt.eqiad.wmnet.
 129 1H  IN PTR      wmf4727.mgmt.eqiad.wmnet.
+130 1H  IN PTR      wmf4731.mgmt.eqiad.wmnet.
+130 1H  IN PTR      restbase1010.mgmt.eqiad.wmnet.
+131 1H  IN PTR      wmf4732.mgmt.eqiad.wmnet.
+131 1H  IN PTR      restbase1011.mgmt.eqiad.wmnet.
+132 1H  IN PTR      wmf4733.mgmt.eqiad.wmnet.
+132 1H  IN PTR      restbase1012.mgmt.eqiad.wmnet.
+133 1H  IN PTR      wmf4734.mgmt.eqiad.wmnet.
+133 1H  IN PTR      restbase1013.mgmt.eqiad.wmnet.
+134 1H  IN PTR      wmf4735.mgmt.eqiad.wmnet.
+134 1H  IN PTR      restbase1014.mgmt.eqiad.wmnet.
+135 1H  IN PTR      wmf4736.mgmt.eqiad.wmnet.
+135 1H  IN PTR      restbase1015.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.{{ zonename }}.
 
