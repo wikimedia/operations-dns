@@ -652,6 +652,7 @@ nyc              600 IN DYNA     geoip!text-addrs
 old-bugzilla     600 IN DYNA     geoip!text-addrs
 planet           600 IN DYNA     geoip!misc-addrs
 ar.planet        600 IN DYNA     geoip!misc-addrs
+bg.planet        600 IN DYNA     geoip!misc-addrs
 ca.planet        600 IN DYNA     geoip!misc-addrs
 cs.planet        600 IN DYNA     geoip!misc-addrs
 da.planet        600 IN DYNA     geoip!misc-addrs
@@ -672,6 +673,7 @@ pl.planet        600 IN DYNA     geoip!misc-addrs
 pt.planet        600 IN DYNA     geoip!misc-addrs
 ro.planet        600 IN DYNA     geoip!misc-addrs
 ru.planet        600 IN DYNA     geoip!misc-addrs
+sq.planet        600 IN DYNA     geoip!misc-addrs
 sr.planet        600 IN DYNA     geoip!misc-addrs
 sv.planet        600 IN DYNA     geoip!misc-addrs
 uk.planet        600 IN DYNA     geoip!misc-addrs
