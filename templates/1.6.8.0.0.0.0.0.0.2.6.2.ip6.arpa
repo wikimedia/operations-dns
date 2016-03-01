@@ -105,8 +105,6 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 6.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1069.eqiad.wmnet.
 7.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1070.eqiad.wmnet.
 
-9.6.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   berkelium.eqiad.wmnet.
-0.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   curium.eqiad.wmnet.
 1.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1043.eqiad.wmnet.
 2.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1044.eqiad.wmnet.
 

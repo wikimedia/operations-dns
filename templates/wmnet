@@ -150,8 +150,6 @@ analytics1057    1H IN A             10.64.5.20
 aqs1001          1H IN A             10.64.0.123
 aqs1002          1H IN A             10.64.32.175
 aqs1003          1H IN A             10.64.48.117
-berkelium        1H IN A             10.64.0.169
-                 1H IN AAAA 2620:0:861:101:10:64:0:169
 bohrium          1H IN A             10.64.32.71 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 cerium           1H IN A             10.64.16.147
 cerium-a         1H IN A             10.64.16.153 ; cassandra instance
@@ -226,8 +224,6 @@ cp1074           1H IN A         10.64.48.108
                  1H IN AAAA      2620:0:861:107:10:64:48:108
 cp1099           1H  IN A        10.64.32.81
                  1H  IN AAAA     2620:0:861:103:10:64:32:81
-curium          1H  IN A        10.64.0.170
-                1H  IN AAAA 2620:0:861:101:10:64:0:170
 db1001          1H  IN A        10.64.0.5
 db1009          1H  IN A        10.64.0.13
 db1010          1H  IN A        10.64.0.14
