@@ -3069,6 +3069,8 @@ kafka2002       1H  IN A    10.193.1.25
 labtestweb2001  1H  IN A    10.193.1.49
 labstore2001    1H  IN A    10.193.1.248
 labstore2002    1H  IN A    10.193.1.249
+labstore2003    1H  IN A    10.193.2.244
+labstore2004    1H  IN A    10.193.2.245
 labtestcontrol2001    1H  IN A    10.193.2.1
 labtestmetal2001      1H  IN A    10.193.1.18
 labtestnet2001        1H  IN A    10.193.2.2
@@ -3420,6 +3422,8 @@ WMF3646         1H  IN A    10.193.1.9
 WMF3647         1H  IN A    10.193.1.62
 WMF3649         1H  IN A    10.193.1.248
 WMF3651         1H  IN A    10.193.1.249
+WMF3654         1H  IN A    10.193.2.244
+WMF3656         1H  IN A    10.193.2.245
 WMF3662         1H  IN A    10.192.1.12
 WMF3663         1H  IN A    10.193.1.35
 WMF3664         1H  IN A    10.193.1.36
