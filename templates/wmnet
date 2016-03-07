@@ -350,6 +350,7 @@ ganeti1002      1H  IN A        10.64.32.170
 ganeti1003      1H  IN A        10.64.32.171
 ganeti1004      1H  IN A        10.64.32.172
 hafnium         1H  IN A        10.64.32.176
+hassium         1H  IN A        10.64.32.135
 helium          1H  IN A        10.64.0.179
 hp1001          1H  IN A        10.64.32.147
 iridium         1H  IN A        10.64.32.150
@@ -2433,6 +2434,7 @@ ganeti2004      1H  IN A    10.192.16.128
 ganeti2005      1H  IN A    10.192.16.129
 ganeti2006      1H  IN A    10.192.16.130
 graphite2001    1H  IN A    10.192.16.33
+hassaleh        1H  IN A    10.192.16.173
 heze            1H  IN A    10.192.0.31
 kafka2001       1H  IN A    10.192.0.139
 kafka2002       1H  IN A    10.192.16.169
