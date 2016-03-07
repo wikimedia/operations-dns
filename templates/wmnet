@@ -3357,6 +3357,7 @@ pc2005          1H  IN A    10.193.2.232
 pc2006          1H  IN A    10.193.2.233
 procyon         1H  IN A    10.193.2.117
 sarin           1H  IN A    10.193.2.234
+sinistra        1H  IN A    10.193.2.246
 stat2001        1H  IN A    10.193.2.13
 subra           1H  IN A    10.193.2.163
 suhail          1H  IN A    10.193.2.164
@@ -3752,6 +3753,7 @@ WMF6395         1H  IN A    10.193.2.240
 WMF6396         1H  IN A    10.193.2.241
 WMF6397         1H  IN A    10.193.2.242
 WMF6398         1H  IN A    10.193.2.243
+WMF6399         1H  IN A    10.193.2.246
 
 ;
 ; ESAMS
