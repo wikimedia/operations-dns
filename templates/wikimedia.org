@@ -696,10 +696,8 @@ ubuntu           1H  IN CNAME    carbon
 mirrors          1H  IN CNAME    carbon
 yarn             600 IN DYNA     geoip!misc-addrs
 wikitech         1H  IN CNAME    silver
-wikitech-static         1H  IN A        166.78.57.240
-                        1H  IN AAAA     2001:4800:7810:512:4bbc:637f:ff04:d370
-wikitech-static-jessie  1H  IN A        162.209.126.221
-                        1H  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
+wikitech-static  1H  IN A        162.209.126.221
+                 1H  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
 labtestwikitech  1H  IN CNAME    labtestweb2001
 labtesthorizon   1H  IN DYNA     geoip!misc-addrs
 
