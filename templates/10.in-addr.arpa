@@ -19,8 +19,16 @@ $ORIGIN {{ zonename }}.
 $ORIGIN 1.2.{{ zonename }}.
 
 1   1H  IN PTR  appservers.svc.codfw.wmnet.
+11  1H  IN PTR  apertium.svc.codfw.wmnet.
+; reserving 12 for aqs to be consistent
 13  1H  IN PTR  kartotherian.svc.codfw.wmnet.
+14  1H  IN PTR  mobileapps.svc.codfw.wmnet.
+15  1H  IN PTR  graphoid.svc.codfw.wmnet.
+16  1H  IN PTR  zotero.svc.codfw.wmnet.
 17  1H  IN PTR  restbase.svc.codfw.wmnet.
+18  1H  IN PTR  cxserver.svc.codfw.wmnet.
+19  1H  IN PTR  citoid.svc.codfw.wmnet.
+20  1H  IN PTR  mathoid.svc.codfw.wmnet.
 21  1H  IN PTR  rendering.svc.codfw.wmnet.
 22  1H  IN PTR  api.svc.codfw.wmnet.
 23  1H  IN PTR  eventbus.svc.codfw.wmnet.
@@ -35,8 +43,9 @@ $ORIGIN 2.2.{{ zonename }}.
 
 1   1H  IN PTR  appservers.svc.eqiad.wmnet.
 3   1H  IN PTR  hhvm-api.svc.eqiad.wmnet.
+11  1H  IN PTR  apertium.svc.eqiad.wmnet.
 12  1H  IN PTR  aqs.svc.eqiad.wmnet.
-; keeping 13 for kartotherian to be consisent
+; reserving 13 for kartotherian to be consisent
 14  1H  IN PTR  mobileapps.svc.eqiad.wmnet.
 15  1H  IN PTR  graphoid.svc.eqiad.wmnet.
 16  1H  IN PTR  zotero.svc.eqiad.wmnet.

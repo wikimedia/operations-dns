@@ -4101,7 +4101,6 @@ $ORIGIN svc.eqiad.wmnet.
 appservers  1H  IN A        10.2.2.1
 appservers-debug  1H  IN CNAME        mw1017.eqiad.wmnet.
 hhvm-api    1H  IN A        10.2.2.3
-ganeti01    1H  IN A        10.64.32.173
 aqs         1H  IN A        10.2.2.12
 ; 13 reserved for kartotherian
 mobileapps  1H  IN A        10.2.2.14
@@ -4120,8 +4119,9 @@ ms-fe-thumbs 1H IN A        10.2.2.27
 parsoid     1H  IN A        10.2.2.28
 search      1H  IN A        10.2.2.30
 ocg         1H  IN A        10.2.2.31
+apertium    1H  IN A        10.64.32.153 ; TODO: Change it to 10.2.2.11
+ganeti01    1H  IN A        10.64.32.173
 labstore    1H  IN A        10.64.37.10
-apertium    1H  IN A        10.64.32.153
 
 ; ESAMS SERVICES
 
@@ -4136,7 +4136,17 @@ $ORIGIN svc.ulsfo.wmnet.
 $ORIGIN svc.codfw.wmnet.
 
 appservers      1H  IN A        10.2.1.1
-ganeti01        1H  IN A        10.192.16.131
+
+apertium        1H  IN A        10.2.1.11
+
+kartotherian    1H  IN A        10.2.1.13
+mobileapps      1H  IN A        10.2.1.14
+graphoid        1H  IN A        10.2.1.15
+zotero          1H  IN A        10.2.1.16
+restbase        1H  IN A        10.2.1.17
+cxserver        1H  IN A        10.2.1.18
+citoid          1H  IN A        10.2.1.19
+mathoid         1H  IN A        10.2.1.20
 rendering       1H  IN A        10.2.1.21
 api             1H  IN A        10.2.1.22
 eventbus        1H  IN A        10.2.1.23
@@ -4144,8 +4154,7 @@ eventbus        1H  IN A        10.2.1.23
 ms-fe           1H  IN A        10.2.1.27
 ms-fe-thumbs    1H  IN A        10.2.1.27
 parsoid         1H  IN A        10.2.1.28
-labstore        1H  IN A        10.192.21.7
-kartotherian    1H  IN A        10.2.1.13
-tilerator       1H  IN A        10.2.1.14
 search          1H  IN A        10.2.1.30
-restbase        1H  IN A        10.2.1.17
+
+ganeti01        1H  IN A        10.192.16.131
+labstore        1H  IN A        10.192.21.7
