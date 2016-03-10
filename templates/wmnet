@@ -4114,6 +4114,7 @@ api         1H  IN A        10.2.2.22
 eventbus    1H  IN A        10.2.2.23
 
 ms-fe       1H  IN A        10.2.2.27
+ms-fe-thumbs 1H IN A        10.2.2.27
 parsoid     1H  IN A        10.2.2.28
 search      1H  IN A        10.2.2.30
 ocg         1H  IN A        10.2.2.31
@@ -4139,6 +4140,7 @@ api             1H  IN A        10.2.1.22
 eventbus        1H  IN A        10.2.1.23
 
 ms-fe           1H  IN A        10.2.1.27
+ms-fe-thumbs    1H  IN A        10.2.1.27
 parsoid         1H  IN A        10.2.1.28
 labstore        1H  IN A        10.192.21.7
 kartotherian    1H  IN A        10.2.1.13
