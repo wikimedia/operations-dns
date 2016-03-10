@@ -309,7 +309,6 @@ incubator.m         600 IN DYNA     geoip!mobile-addrs
 fdc.m               600 IN DYNA     geoip!mobile-addrs
 fi.m                600 IN DYNA     geoip!mobile-addrs
 legalteam.m         600 IN DYNA     geoip!mobile-addrs
-login.m             600 IN DYNA     geoip!mobile-addrs
 meta.m              600 IN DYNA     geoip!mobile-addrs
 mk.m                600 IN DYNA     geoip!mobile-addrs
 mx.m                600 IN DYNA     geoip!mobile-addrs
