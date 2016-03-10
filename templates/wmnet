@@ -2743,6 +2743,8 @@ rdb2001         1H  IN A    10.192.0.119
 rdb2002         1H  IN A    10.192.0.120
 rdb2003         1H  IN A    10.192.16.122
 rdb2004         1H  IN A    10.192.16.123
+rdb2005         1H  IN A    10.192.32.133
+rdb2006         1H  IN A    10.192.48.44
 restbase-test2001   1H  IN A    10.192.16.149
 restbase-test2001-a 1H  IN A    10.192.16.154 ; cassandra instance
 restbase-test2001-b 1H  IN A    10.192.16.155 ; cassandra instance
