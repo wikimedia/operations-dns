@@ -395,16 +395,8 @@ $ORIGIN 0.64.{{ zonename }}.
 217 1H IN PTR   wtp1022.eqiad.wmnet.
 218 1H IN PTR   wtp1023.eqiad.wmnet.
 219 1H IN PTR   wtp1024.eqiad.wmnet.
-220 1H IN PTR   restbase1001.eqiad.wmnet.
-221 1H IN PTR   restbase1002.eqiad.wmnet.
 222 1H IN PTR   oxygen.eqiad.wmnet.
 223 1H IN PTR   restbase1007.eqiad.wmnet.
-224 1H IN PTR   restbase1001-a.eqiad.wmnet.
-225 1H IN PTR   restbase1001-b.eqiad.wmnet.
-226 1H IN PTR   restbase1001-c.eqiad.wmnet.
-227 1H IN PTR   restbase1002-a.eqiad.wmnet.
-228 1H IN PTR   restbase1002-b.eqiad.wmnet.
-229 1H IN PTR   restbase1002-c.eqiad.wmnet.
 230 1H IN PTR   restbase1007-a.eqiad.wmnet.
 231 1H IN PTR   restbase1007-b.eqiad.wmnet.
 232 1H IN PTR   restbase1007-c.eqiad.wmnet.
