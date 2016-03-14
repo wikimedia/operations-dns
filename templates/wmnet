@@ -804,6 +804,9 @@ snapshot1001    1H  IN A        10.64.0.120
 snapshot1002    1H  IN A        10.64.0.121
 snapshot1003    1H  IN A        10.64.16.141
 snapshot1004    1H  IN A        10.64.16.142
+snapshot1005    1H  IN A        10.64.0.9
+snapshot1006    1H  IN A        10.64.32.149
+snapshot1007    1H  IN A        10.64.48.141
 stat1001        1H  IN A        10.64.21.101
 stat1002        1H  IN A        10.64.5.102
 stat1003        1H  IN A        10.64.36.103
@@ -1866,6 +1869,12 @@ snapshot1003    1H  IN A    10.65.3.83
 WMF3468         1H  IN A    10.65.3.83
 snapshot1004    1H  IN A    10.65.3.84
 WMF3469     1H  IN A    10.65.3.84
+snapshot1005    1H  IN A    10.65.3.238
+wmf4743         1H  IN A    10.65.3.238
+snapshot1006    1H  IN A    10.65.3.239
+wmf4744         1H  IN A    10.65.3.239
+snapshot1007    1H  IN A    10.65.3.240
+wmf4745         1H  IN A    10.65.3.240
 carbon      1H  IN A    10.65.3.16
 WMF3135     1H  IN A    10.65.3.16
 hydrogen    1H  IN A    10.65.3.15
