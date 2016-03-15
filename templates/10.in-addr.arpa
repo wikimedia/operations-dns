@@ -2996,6 +2996,7 @@ $ORIGIN 21.192.{{ zonename }}.
 5   1H IN PTR   labstore2002.codfw.wmnet.
 6   1H IN PTR   labstore2003.codfw.wmnet.
 7   1H IN PTR   labstore.svc.codfw.wmnet.
+8   1H IN PTR   labstore2004.codfw.wmnet.
 
 ; 10.192.32.0/22 - private1-c-codfw
 $ORIGIN 32.192.{{ zonename }}.
