@@ -4127,6 +4127,9 @@ $ORIGIN 2.193.{{ zonename }}.
 247 1H IN PTR  wmf6400.mgmt.codfw.wmnet.
 248 1H IN PTR  rdb2006.mgmt.codfw.wmnet.
 248 1H IN PTR  wmf6401.mgmt.codfw.wmnet.
+249 1H IN PTR  wasat.mgmt.codfw.wmnet.
+249 1H IN PTR  wmf6402.mgmt.codfw.wmnet.
+
 
 ; 10.195.0.0/25 - frack.codfw subnets
 $ORIGIN 0.195.{{ zonename }}.
