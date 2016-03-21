@@ -29,9 +29,10 @@ $ORIGIN {{ zonename }}.
 ; Delegations
 
 ; Corporate office name server delegation
-
-corp            1D  IN NS   ns1.corp.wikimedia.org.
-            1D  IN NS   ns2.corp.wikimedia.org.
+corp        1D  IN NS   ns1.corp
+            1D  IN NS   ns2.corp
+ns1.corp    1H  IN A    198.73.209.15
+ns2.corp    1H  IN A    198.73.209.16
 
 ; DKIM policy records & ADSP (also see DMARC below); policy is "some mails /may/ be signed"
 _domainkey              1H  IN TXT  "o=~; r=postmaster@wikimedia.org;"
@@ -759,14 +760,6 @@ reply.email.donate      1H  IN TXT  "v=spf1 ip4:74.121.51.111 ip4:208.80.155.11 
 links.email.donate      1H  IN CNAME recp.mkt41.net.
 open.email.donate       1H  IN CNAME open.mkt41.net.
 www.email.donate        1H  IN CNAME wikimedia.org.
-
-
-; Corp glue records
-
-$ORIGIN corp.{{ zonename }}.
-
-ns1             1H  IN A    198.73.209.15
-ns2             1H  IN A    198.73.209.16
 
 ; esams cluster
 $ORIGIN esams.{{ zonename }}.
