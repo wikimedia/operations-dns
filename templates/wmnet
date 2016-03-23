@@ -4097,6 +4097,7 @@ $ORIGIN svc.eqiad.wmnet.
 appservers  1H  IN A        10.2.2.1
 appservers-debug  1H  IN CNAME        mw1017.eqiad.wmnet.
 hhvm-api    1H  IN A        10.2.2.3
+apertium    1H  IN A        10.2.2.11
 aqs         1H  IN A        10.2.2.12
 ; 13 reserved for kartotherian
 mobileapps  1H  IN A        10.2.2.14
@@ -4115,7 +4116,6 @@ ms-fe-thumbs 1H IN A        10.2.2.27
 parsoid     1H  IN A        10.2.2.28
 search      1H  IN A        10.2.2.30
 ocg         1H  IN A        10.2.2.31
-apertium    1H  IN A        10.64.32.153 ; TODO: Change it to 10.2.2.11
 ganeti01    1H  IN A        10.64.32.173
 labstore    1H  IN A        10.64.37.10
 
