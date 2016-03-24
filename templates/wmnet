@@ -95,6 +95,7 @@ nas1001-b           1H  IN A        10.64.16.5
 
 analytics1001       1H  IN A         10.64.36.118
 analytics1002       1H  IN A         10.64.53.21
+analytics1003       1H  IN A         10.64.36.116
 auth1001            1H  IN A         10.64.48.121
 kafka1001           1H  IN A         10.64.0.11
 kafka1002           1H  IN A         10.64.16.41
@@ -2068,6 +2069,7 @@ wmf4677      1H IN A    10.65.4.13
 WMF4540      1H  IN A   10.65.5.180
 analytics1001 1H IN A   10.65.5.180
 WMF4541     1H  IN A        10.65.5.181
+analytics1003    1H  IN A        10.65.5.181
 WMF4543     1H  IN A        10.65.5.183
 nobelium    1H  IN A        10.65.5.183
 WMF4544     1H  IN A        10.65.5.184
