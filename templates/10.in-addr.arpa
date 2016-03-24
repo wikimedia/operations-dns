@@ -1785,9 +1785,6 @@ $ORIGIN 2.65.{{ zonename }}.
 
 $ORIGIN 3.65.{{ zonename }}.
 
-1   1H  IN PTR      wmf3150.mgmt.eqiad.wmnet.
-2   1H  IN PTR      phosphorus.mgmt.eqiad.wmnet.
-2   1H  IN PTR      wmf3149.mgmt.eqiad.wmnet.
 3   1H  IN PTR      silicon.mgmt.eqiad.wmnet.
 3   1H  IN PTR      wmf3148.mgmt.eqiad.wmnet.
 4   1H  IN PTR      aluminum.mgmt.eqiad.wmnet.

@@ -1896,8 +1896,6 @@ bismuth     1H  IN A    10.65.3.226
 WMF3147     1H  IN A    10.65.3.4
 silicon     1H  IN A    10.65.3.3
 WMF3148     1H  IN A    10.65.3.3
-WMF3149     1H  IN A    10.65.3.2
-WMF3150     1H  IN A    10.65.3.1
 tellurium   1H  IN A    10.65.3.130
 te          1H  IN CNAME        tellurium
 potassium   1H  IN A    10.65.3.32
