@@ -4097,6 +4097,7 @@ $ORIGIN svc.eqiad.wmnet.
 appservers  1H  IN A        10.2.2.1
 appservers-debug  1H  IN CNAME        mw1017.eqiad.wmnet.
 hhvm-api    1H  IN A        10.2.2.3
+changeprop  1H  IN A        10.2.2.10
 apertium    1H  IN A        10.2.2.11
 aqs         1H  IN A        10.2.2.12
 ; 13 reserved for kartotherian
@@ -4133,6 +4134,7 @@ $ORIGIN svc.codfw.wmnet.
 
 appservers      1H  IN A        10.2.1.1
 
+changeprop      1H  IN A        10.2.1.10
 apertium        1H  IN A        10.2.1.11
 
 kartotherian    1H  IN A        10.2.1.13

@@ -19,6 +19,7 @@ $ORIGIN {{ zonename }}.
 $ORIGIN 1.2.{{ zonename }}.
 
 1   1H  IN PTR  appservers.svc.codfw.wmnet.
+10  1H  IN PTR  changeprop.svc.codfw.wmnet.
 11  1H  IN PTR  apertium.svc.codfw.wmnet.
 ; reserving 12 for aqs to be consistent
 13  1H  IN PTR  kartotherian.svc.codfw.wmnet.
@@ -43,6 +44,7 @@ $ORIGIN 2.2.{{ zonename }}.
 
 1   1H  IN PTR  appservers.svc.eqiad.wmnet.
 3   1H  IN PTR  hhvm-api.svc.eqiad.wmnet.
+10  1H  IN PTR  changeprop.svc.eqiad.wmnet.
 11  1H  IN PTR  apertium.svc.eqiad.wmnet.
 12  1H  IN PTR  aqs.svc.eqiad.wmnet.
 ; reserving 13 for kartotherian to be consisent
