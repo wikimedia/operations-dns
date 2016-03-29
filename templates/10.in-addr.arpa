@@ -294,8 +294,7 @@ $ORIGIN 0.64.{{ zonename }}.
 103 1H IN PTR   cp1066.eqiad.wmnet.
 104 1H IN PTR   cp1067.eqiad.wmnet.
 105 1H IN PTR   cp1068.eqiad.wmnet.
-106 1H IN PTR   cp1069.eqiad.wmnet.
-107 1H IN PTR   cp1070.eqiad.wmnet.
+
 108 1H IN PTR   elastic1001.eqiad.wmnet.
 109 1H IN PTR   elastic1002.eqiad.wmnet.
 110 1H IN PTR   elastic1003.eqiad.wmnet.
@@ -781,8 +780,7 @@ $ORIGIN 32.64.{{ zonename }}.
 130     1H IN PTR       search1023.eqiad.wmnet.
 131     1H IN PTR       search1024.eqiad.wmnet.
 132     1H IN PTR       searchidx1001.eqiad.wmnet.
-133     1H IN PTR       cp1056.eqiad.wmnet.
-134     1H IN PTR       cp1057.eqiad.wmnet.
+
 135     1H IN PTR       hassium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 136     1H IN PTR       db1078.eqiad.wmnet.
 137     1H IN PTR       logstash1002.eqiad.wmnet.
@@ -1560,8 +1558,8 @@ $ORIGIN 2.65.{{ zonename }}.
 53  1H  IN PTR      cp1053.mgmt.eqiad.wmnet.
 54  1H  IN PTR      cp1054.mgmt.eqiad.wmnet.
 55  1H  IN PTR      cp1055.mgmt.eqiad.wmnet.
-56  1H  IN PTR      cp1056.mgmt.eqiad.wmnet.
-57  1H  IN PTR      cp1057.mgmt.eqiad.wmnet.
+56  1H  IN PTR      wmf4182.mgmt.eqiad.wmnet.
+57  1H  IN PTR      wmf4183.mgmt.eqiad.wmnet.
 58  1H  IN PTR      cp1058.mgmt.eqiad.wmnet.
 59  1H  IN PTR      cp1059.mgmt.eqiad.wmnet.
 60  1H  IN PTR      cp1060.mgmt.eqiad.wmnet.
@@ -1573,8 +1571,8 @@ $ORIGIN 2.65.{{ zonename }}.
 66  1H  IN PTR      cp1066.mgmt.eqiad.wmnet.
 67  1H  IN PTR      cp1067.mgmt.eqiad.wmnet.
 68  1H  IN PTR      cp1068.mgmt.eqiad.wmnet.
-69  1H  IN PTR      cp1069.mgmt.eqiad.wmnet.
-70  1H  IN PTR      cp1070.mgmt.eqiad.wmnet.
+69  1H  IN PTR      wmf4195.mgmt.eqiad.wmnet.
+70  1H  IN PTR      wmf4196.mgmt.eqiad.wmnet.
 71  1H  IN PTR      mw1221.mgmt.eqiad.wmnet.
 72  1H  IN PTR      mw1222.mgmt.eqiad.wmnet.
 73  1H  IN PTR      mw1223.mgmt.eqiad.wmnet.
