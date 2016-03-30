@@ -2619,9 +2619,21 @@ restbase2002-a  1H  IN A    10.192.16.165 ; cassandra instance
 restbase2002-b  1H  IN A    10.192.16.166 ; cassandra instance
 restbase2002-c  1H  IN A    10.192.16.167 ; cassandra instance
 restbase2003    1H  IN A    10.192.32.124
+restbase2003-a  1H  IN A    10.192.32.134 ; cassandra instance
+restbase2003-b  1H  IN A    10.192.32.135 ; cassandra instance
+restbase2003-c  1H  IN A    10.192.32.136 ; cassandra instance
 restbase2004    1H  IN A    10.192.32.125
+restbase2004-a  1H  IN A    10.192.32.137 ; cassandra instance
+restbase2004-b  1H  IN A    10.192.32.138 ; cassandra instance
+restbase2004-c  1H  IN A    10.192.32.139 ; cassandra instance
 restbase2005    1H  IN A    10.192.48.37
+restbase2005-a  1H  IN A    10.192.48.46 ; cassandra instance
+restbase2005-b  1H  IN A    10.192.48.47 ; cassandra instance
+restbase2005-c  1H  IN A    10.192.48.48 ; cassandra instance
 restbase2006    1H  IN A    10.192.48.38
+restbase2006-a  1H  IN A    10.192.48.49 ; cassandra instance
+restbase2006-b  1H  IN A    10.192.48.50 ; cassandra instance
+restbase2006-c  1H  IN A    10.192.48.51 ; cassandra instance
 sarin           1H  IN A    10.192.0.140
 sca2001         1H  IN A    10.192.0.33
 sca2002         1H  IN A    10.192.16.36
