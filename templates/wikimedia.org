@@ -491,6 +491,7 @@ ldap-codfw      1H  IN CNAME    serpens
 phabricator     600 IN DYNA     geoip!misc-addrs
                 1H  IN MX       10 mx1001
                 1H  IN MX       50 mx2001
+                1H  IN TXT      "v=spf1 mx -all"
 
 login           600 IN DYNA     geoip!text-addrs
 
