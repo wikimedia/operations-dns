@@ -456,8 +456,9 @@ benefactorevents 1H IN CNAME    trilogytools1.azurewebsites.net.
 benefactors     600 IN DYNA     geoip!text-addrs
                 1H  IN MX       10 mx1001
                 1H  IN MX       50 mx2001
-                1H  IN TXT      "v=spf1 include:wikimedia.org include:jangomail.com ?all"
-benefactors._domainkey.benefactors 1H IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCu1t0FbSFXbsTxY9T10Lgfx4V0J2L8T6KkIgx3gouCJUinv3+9P32h/JJCgjzFv/wqm6nL2lttPJbC5/FKZ/v3OTPdv4OuQX9EfhIFMetgw1gDyAmhvVEgnSzhTlylLRV3HvZSmQN1AUblyqgBv9fa0wbMTprlgzlyI/oLwhLHwQIDAQAB"
+                1H  IN TXT      "v=spf1 include:wikimedia.org include:spf.mandrillapp.com -all"
+mandrill._domainkey.benefactors 1H IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;"
+
 
 cache           600 IN DYNA     geoip!text-addrs
 
