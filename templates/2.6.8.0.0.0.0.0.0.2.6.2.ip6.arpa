@@ -29,7 +29,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 1.2.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   eeden.wikimedia.org.
 6.0.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   nescio.wikimedia.org.
 2.1.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   bast3001.wikimedia.org.
-3.1.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   hooft.esams.wikimedia.org.
 4.1.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   multatuli.wikimedia.org.
 2.2.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   maerlant.wikimedia.org.
 
