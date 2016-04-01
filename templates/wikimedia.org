@@ -770,9 +770,6 @@ recursor0.esams        1H  IN A        91.198.174.216  ; esams LVS (dns-rec-lb)
 recursor1.esams        1H  IN A        208.80.154.239  ; eqiad LVS (dns-rec-lb)
 
 ; esams Servers
-; FIXME: these stay under .esams.wikimedia.org until they get reprovisioned
-slauerhoff.esams       1H  IN A    91.198.174.108
-slauerhoff-array.esams 1H  IN A    91.198.174.107
 
 ; esams Management
 scs-oe11-esams.esams   1H  IN A    10.21.0.102
