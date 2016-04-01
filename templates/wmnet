@@ -2957,6 +2957,7 @@ ganeti2004      1H  IN A    10.193.2.168
 ganeti2005      1H  IN A    10.193.2.169
 ganeti2006      1H  IN A    10.193.2.170
 graphite2001    1H  IN A    10.193.2.14
+graphite2002    1H  IN A    10.193.2.251
 haedus          1H  IN A    10.193.2.1
 heze            1H  IN A    10.193.1.250
 install2001     1H  IN A    10.193.1.10
@@ -3660,7 +3661,7 @@ WMF6399         1H  IN A    10.193.2.246
 WMF6400         1H  IN A    10.193.2.247
 WMF6401         1H  IN A    10.193.2.248
 WMF6402         1H  IN A    10.193.2.249
-
+WMF6403         1H  IN A    10.193.2.251
 
 ;
 ; ESAMS
