@@ -763,9 +763,3 @@ reply.email.donate      1H  IN TXT  "v=spf1 ip4:74.121.51.111 ip4:208.80.155.11 
 links.email.donate      1H  IN CNAME recp.mkt41.net.
 open.email.donate       1H  IN CNAME open.mkt41.net.
 www.email.donate        1H  IN CNAME wikimedia.org.
-
-; esams Service aliases
-; FIXME: all 3 of these are suspect, we don't do these per-subdomain elsewhere..
-puppet.esams           1H  IN CNAME    palladium.eqiad.wmnet.
-recursor0.esams        1H  IN A        91.198.174.216  ; esams LVS (dns-rec-lb)
-recursor1.esams        1H  IN A        208.80.154.239  ; eqiad LVS (dns-rec-lb)
