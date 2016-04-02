@@ -768,8 +768,3 @@ www.email.donate        1H  IN CNAME wikimedia.org.
 puppet.esams           1H  IN CNAME    palladium.eqiad.wmnet.
 recursor0.esams        1H  IN A        91.198.174.216  ; esams LVS (dns-rec-lb)
 recursor1.esams        1H  IN A        208.80.154.239  ; eqiad LVS (dns-rec-lb)
-
-; esams Servers
-
-; esams Management
-scs-oe11-esams.esams   1H  IN A    10.21.0.102
