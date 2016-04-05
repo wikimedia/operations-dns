@@ -752,6 +752,7 @@ snapshot1007    1H  IN A        10.64.48.141
 stat1001        1H  IN A        10.64.21.101
 stat1002        1H  IN A        10.64.5.102
 stat1003        1H  IN A        10.64.36.103
+stat1004        1H  IN A        10.64.5.104
 bromine         1H  IN A        10.64.32.181 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 strontium       1H  IN A        10.64.0.164
 puppet          1H  IN CNAME    palladium.eqiad.wmnet.
@@ -2014,6 +2015,7 @@ restbase1015    1H      IN A            10.65.2.135
 wmf4720         1H      IN A            10.65.2.122
 kafka1001       1H      IN A            10.65.2.122
 wmf4721         1H      IN A            10.65.2.123
+stat1004        1H      IN A            10.65.2.123
 wmf4722         1H      IN A            10.65.2.124
 kafka1002       1H      IN A            10.65.2.124
 wmf4723         1H      IN A            10.65.2.125
