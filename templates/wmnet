@@ -3999,6 +3999,9 @@ search      1H  IN A        10.2.2.30
 ocg         1H  IN A        10.2.2.31
 ganeti01    1H  IN A        10.64.32.173
 labstore    1H  IN A        10.64.37.10
+nfs-scratch          1H  IN A        10.64.37.16
+nfs-tools-home       1H  IN A        10.64.37.17
+nfs-tools-project    1H  IN A        10.64.37.18
 
 ; ESAMS SERVICES
 

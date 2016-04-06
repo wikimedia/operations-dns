@@ -902,6 +902,9 @@ $ORIGIN 37.64.{{ zonename }}.
 13      1H IN PTR       labmon1001.eqiad.wmnet.
 14      1H IN PTR       nobelium.eqiad.wmnet.
 15      1H IN PTR       labsdb1008.eqiad.wmnet.
+16      1H IN PTR       nfs-scratch.svc.eqiad.wmnet.
+17      1H IN PTR       nfs-tools-home.svc.eqiad.wmnet.
+18      1H IN PTR       nfs-tools-project.svc.eqiad.wmnet.
 
 ; 10.64.40.0/23 - frack.eqiad subnets
 $ORIGIN 40.64.{{ zonename }}.
