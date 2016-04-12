@@ -18,9 +18,10 @@ $ORIGIN {{ zonename }}.
 ; Mail exchangers
 
 ; Canonical names
+            600 IN DYNA geoip!misc-addrs
 
 ; Servers (alphabetic order)
-phab        600 IN DYNA     geoip!misc-addrs
+phab        600 IN DYNA geoip!misc-addrs
 
 ; Service aliases
 
