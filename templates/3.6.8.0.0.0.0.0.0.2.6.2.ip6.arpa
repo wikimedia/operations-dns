@@ -77,11 +77,9 @@ $ORIGIN 0.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr1-ulsfo.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr2-ulsfo.wikimedia.org.
 
-; cr1-ulsfo <--> cr2-eqiad (2620:0:863:fe01::/64)
+; unallocated (2620:0:863:fe01::/64)
 
 $ORIGIN 1.0.e.f.{{ zonename }}.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-2-2.cr2-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-0-3-538.cr1-ulsfo.wikimedia.org.
 
 ; cr1-ulsfo <--> cr1-eqord (2620:0:863:fe02::/64)
 
