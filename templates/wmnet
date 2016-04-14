@@ -225,6 +225,7 @@ db1015          1H  IN A        10.64.0.19
 db1016          1H  IN A        10.64.0.20
 graphite1001    1H  IN A        10.64.32.155
 graphite1002    1H  IN A        10.64.16.6
+graphite1003    1H  IN A        10.64.0.106
 db1018          1H  IN A        10.64.16.7
 db1019          1H  IN A        10.64.16.8
 db1020          1H  IN A        10.64.16.9
@@ -1988,6 +1989,7 @@ WMF4578         1H      IN A            10.65.5.208
 oresrdb1002     1H      IN A            10.65.5.208
 WMF4579         1H      IN A            10.65.5.209
 wmf4656         1H      IN A            10.65.2.109
+graphite1003    1H      IN A            10.65.2.109
 wmf4657         1H      IN A            10.65.2.110
 wmf4658         1H      IN A            10.65.2.111
 restbase1003    1H      IN A            10.65.2.111
