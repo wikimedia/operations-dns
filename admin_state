@@ -70,3 +70,7 @@
 #
 ##############################################################################
 geoip/upload-addrs/eqiad => DOWN
+geoip/text-addrs/eqiad => DOWN
+geoip/text-addrs-v4/eqiad => DOWN
+geoip/geoiplookup-addrs/eqiad => DOWN
+geoip/mobile-addrs/eqiad => DOWN
