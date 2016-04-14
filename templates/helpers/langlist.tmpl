@@ -2,9 +2,9 @@
 
 {% macro geolang(lang, zero) -%}
 {{ lang }}              600 IN DYNA    geoip!text-addrs
-{{ lang }}.m            600 IN DYNA    geoip!mobile-addrs
+{{ lang }}.m            600 IN DYNA    geoip!text-addrs
 {%- if zero %}
-{{ lang }}.zero         600 IN DYNA    geoip!mobile-addrs
+{{ lang }}.zero         600 IN DYNA    geoip!text-addrs
 {%- endif -%}
 {%- endmacro %}
 

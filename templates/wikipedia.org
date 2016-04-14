@@ -41,16 +41,16 @@ meta                    600     IN DYNA         geoip!text-addrs
 nostalgia               600     IN DYNA         geoip!text-addrs
 quote                   600     IN DYNA         geoip!text-addrs
 quality                 600     IN DYNA         geoip!text-addrs
-quality.m               600     IN DYNA         geoip!mobile-addrs
+quality.m               600     IN DYNA         geoip!text-addrs
 sep11                   600     IN DYNA         geoip!text-addrs
 sources                 600     IN DYNA         geoip!text-addrs
 species                 600     IN DYNA         geoip!text-addrs
 ten                     600     IN DYNA         geoip!text-addrs
-ten.m                   600     IN DYNA         geoip!mobile-addrs
+ten.m                   600     IN DYNA         geoip!text-addrs
 test                    600     IN DYNA         geoip!text-addrs
 test2                   600     IN DYNA         geoip!text-addrs
-test.m                  600     IN DYNA         geoip!mobile-addrs
-test2.m                 600     IN DYNA         geoip!mobile-addrs
+test.m                  600     IN DYNA         geoip!text-addrs
+test2.m                 600     IN DYNA         geoip!text-addrs
 textbook                600     IN DYNA         geoip!text-addrs
 wg-en                   600     IN DYNA         geoip!text-addrs
 www                     600     IN DYNA         geoip!text-addrs
@@ -67,12 +67,12 @@ careers         600 IN DYNA     geoip!text-addrs
 donate          600 IN DYNA     geoip!text-addrs
 download        600 IN DYNA     geoip!text-addrs
 jobs            600 IN DYNA     geoip!text-addrs
-m               600 IN DYNA     geoip!mobile-addrs
+m               600 IN DYNA     geoip!text-addrs
 mail            600 IN DYNA     geoip!text-addrs
 shop            600 IN DYNA     geoip!text-addrs
 stats           1H  IN CNAME    stats.wikimedia.org.
 store           600 IN DYNA     geoip!text-addrs
-zero            600 IN DYNA     geoip!mobile-addrs
+zero            600 IN DYNA     geoip!text-addrs
 
 ; TLS testing, "temporary"
 pinkunicorn     600 IN A        208.80.154.42

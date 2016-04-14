@@ -35,11 +35,11 @@ $ORIGIN {{ zonename }}.
 ; Wikis (alphabetic order)
 
 beta        600 IN DYNA     geoip!text-addrs
-beta.m      600 IN DYNA     geoip!mobile-addrs
+beta.m      600 IN DYNA     geoip!text-addrs
 www         600 IN DYNA     geoip!text-addrs
 
 ; All languages will automatically be included here.
 {{ geolanglist() }}
 
 ; Mobile
-m           600 IN DYNA     geoip!mobile-addrs
+m           600 IN DYNA     geoip!text-addrs

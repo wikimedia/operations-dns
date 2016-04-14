@@ -38,5 +38,5 @@ test        600 IN DYNA     geoip!text-addrs
 www         600 IN DYNA     geoip!text-addrs
 
 ; Mobile
-m           600 IN DYNA     geoip!mobile-addrs
-test.m      600 IN DYNA     geoip!mobile-addrs
+m           600 IN DYNA     geoip!text-addrs
+test.m      600 IN DYNA     geoip!text-addrs

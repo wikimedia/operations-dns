@@ -46,4 +46,4 @@ integration     600 IN DYNA     geoip!text-addrs
 svn             600 IN DYNA     geoip!text-addrs
 
 ; Mobile
-m               600 IN DYNA     geoip!mobile-addrs
+m               600 IN DYNA     geoip!text-addrs

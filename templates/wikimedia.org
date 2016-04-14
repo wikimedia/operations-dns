@@ -82,7 +82,7 @@ upload      600 DYNA geoip!upload-addrs
 ; XXX temporary, should be DYNA geoip!maps-addrs
 maps                1H  IN A    208.80.154.244
                     1H  IN AAAA 2620:0:861:ed1a::2:d
-m           600 DYNA geoip!mobile-addrs
+m           600 DYNA geoip!text-addrs
 misc-web-lb 600 DYNA geoip!misc-addrs
 geoiplookup 600 DYNA geoip!geoiplookup-addrs
 donate      600 DYNA geoip!text-addrs
@@ -297,60 +297,60 @@ dns-rec-lb.esams    1H  IN A    91.198.174.216
 
 ; Mobile
 
-advisory.m          600 IN DYNA     geoip!mobile-addrs
-ar.m                600 IN DYNA     geoip!mobile-addrs
-bd.m                600 IN DYNA     geoip!mobile-addrs
-be.m                600 IN DYNA     geoip!mobile-addrs
-br.m                600 IN DYNA     geoip!mobile-addrs
-ca.m                600 IN DYNA     geoip!mobile-addrs
-chapcom.m           600 IN DYNA     geoip!mobile-addrs
-checkuser.m         600 IN DYNA     geoip!mobile-addrs
-cn.m                600 IN DYNA     geoip!mobile-addrs
-co.m                600 IN DYNA     geoip!mobile-addrs
-commons.m           600 IN DYNA     geoip!mobile-addrs
-dk.m                600 IN DYNA     geoip!mobile-addrs
-ee.m                600 IN DYNA     geoip!mobile-addrs
-et.m                600 IN DYNA     geoip!mobile-addrs
-incubator.m         600 IN DYNA     geoip!mobile-addrs
-fdc.m               600 IN DYNA     geoip!mobile-addrs
-fi.m                600 IN DYNA     geoip!mobile-addrs
-legalteam.m         600 IN DYNA     geoip!mobile-addrs
-meta.m              600 IN DYNA     geoip!mobile-addrs
-mk.m                600 IN DYNA     geoip!mobile-addrs
-mx.m                600 IN DYNA     geoip!mobile-addrs
-nl.m                600 IN DYNA     geoip!mobile-addrs
-no.m                600 IN DYNA     geoip!mobile-addrs
-nostalgia.m         600 IN DYNA     geoip!mobile-addrs
-nyc.m               600 IN DYNA     geoip!mobile-addrs
-nz.m                600 IN DYNA     geoip!mobile-addrs
-office.m            600 IN DYNA     geoip!mobile-addrs
-outreach.m          600 IN DYNA     geoip!mobile-addrs
-quality.m           600 IN DYNA     geoip!mobile-addrs
-pa-us.m             600 IN DYNA     geoip!mobile-addrs
-pl.m                600 IN DYNA     geoip!mobile-addrs
-pt.m                600 IN DYNA     geoip!mobile-addrs
-rs.m                600 IN DYNA     geoip!mobile-addrs
-ru.m                600 IN DYNA     geoip!mobile-addrs
-se.m                600 IN DYNA     geoip!mobile-addrs
-species.m           600 IN DYNA     geoip!mobile-addrs
-steward.m           600 IN DYNA     geoip!mobile-addrs
-strategy.m          600 IN DYNA     geoip!mobile-addrs
-tr.m                600 IN DYNA     geoip!mobile-addrs
-ua.m                600 IN DYNA     geoip!mobile-addrs
-usability.m         600 IN DYNA     geoip!mobile-addrs
-vote.m              600 IN DYNA     geoip!mobile-addrs
-wikimania2007.m     600 IN DYNA     geoip!mobile-addrs
-wikimania2008.m     600 IN DYNA     geoip!mobile-addrs
-wikimania2009.m     600 IN DYNA     geoip!mobile-addrs
-wikimania2010.m     600 IN DYNA     geoip!mobile-addrs
-wikimania2011.m     600 IN DYNA     geoip!mobile-addrs
-wikimania2012.m     600 IN DYNA     geoip!mobile-addrs
-wikimania2013.m     600 IN DYNA     geoip!mobile-addrs
-wikimania2014.m     600 IN DYNA     geoip!mobile-addrs
-wikimania2015.m     600 IN DYNA     geoip!mobile-addrs
-wikimania2016.m     600 IN DYNA     geoip!mobile-addrs
-wikimania2017.m     600 IN DYNA     geoip!mobile-addrs
-wikitech.m          600 IN DYNA     geoip!mobile-addrs
+advisory.m          600 IN DYNA     geoip!text-addrs
+ar.m                600 IN DYNA     geoip!text-addrs
+bd.m                600 IN DYNA     geoip!text-addrs
+be.m                600 IN DYNA     geoip!text-addrs
+br.m                600 IN DYNA     geoip!text-addrs
+ca.m                600 IN DYNA     geoip!text-addrs
+chapcom.m           600 IN DYNA     geoip!text-addrs
+checkuser.m         600 IN DYNA     geoip!text-addrs
+cn.m                600 IN DYNA     geoip!text-addrs
+co.m                600 IN DYNA     geoip!text-addrs
+commons.m           600 IN DYNA     geoip!text-addrs
+dk.m                600 IN DYNA     geoip!text-addrs
+ee.m                600 IN DYNA     geoip!text-addrs
+et.m                600 IN DYNA     geoip!text-addrs
+incubator.m         600 IN DYNA     geoip!text-addrs
+fdc.m               600 IN DYNA     geoip!text-addrs
+fi.m                600 IN DYNA     geoip!text-addrs
+legalteam.m         600 IN DYNA     geoip!text-addrs
+meta.m              600 IN DYNA     geoip!text-addrs
+mk.m                600 IN DYNA     geoip!text-addrs
+mx.m                600 IN DYNA     geoip!text-addrs
+nl.m                600 IN DYNA     geoip!text-addrs
+no.m                600 IN DYNA     geoip!text-addrs
+nostalgia.m         600 IN DYNA     geoip!text-addrs
+nyc.m               600 IN DYNA     geoip!text-addrs
+nz.m                600 IN DYNA     geoip!text-addrs
+office.m            600 IN DYNA     geoip!text-addrs
+outreach.m          600 IN DYNA     geoip!text-addrs
+quality.m           600 IN DYNA     geoip!text-addrs
+pa-us.m             600 IN DYNA     geoip!text-addrs
+pl.m                600 IN DYNA     geoip!text-addrs
+pt.m                600 IN DYNA     geoip!text-addrs
+rs.m                600 IN DYNA     geoip!text-addrs
+ru.m                600 IN DYNA     geoip!text-addrs
+se.m                600 IN DYNA     geoip!text-addrs
+species.m           600 IN DYNA     geoip!text-addrs
+steward.m           600 IN DYNA     geoip!text-addrs
+strategy.m          600 IN DYNA     geoip!text-addrs
+tr.m                600 IN DYNA     geoip!text-addrs
+ua.m                600 IN DYNA     geoip!text-addrs
+usability.m         600 IN DYNA     geoip!text-addrs
+vote.m              600 IN DYNA     geoip!text-addrs
+wikimania2007.m     600 IN DYNA     geoip!text-addrs
+wikimania2008.m     600 IN DYNA     geoip!text-addrs
+wikimania2009.m     600 IN DYNA     geoip!text-addrs
+wikimania2010.m     600 IN DYNA     geoip!text-addrs
+wikimania2011.m     600 IN DYNA     geoip!text-addrs
+wikimania2012.m     600 IN DYNA     geoip!text-addrs
+wikimania2013.m     600 IN DYNA     geoip!text-addrs
+wikimania2014.m     600 IN DYNA     geoip!text-addrs
+wikimania2015.m     600 IN DYNA     geoip!text-addrs
+wikimania2016.m     600 IN DYNA     geoip!text-addrs
+wikimania2017.m     600 IN DYNA     geoip!text-addrs
+wikitech.m          600 IN DYNA     geoip!text-addrs
 
 ; Networking
 cr1-eqiad       1H  IN A    208.80.154.196
