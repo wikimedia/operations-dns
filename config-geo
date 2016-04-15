@@ -233,16 +233,6 @@ plugins => { geoip => {
                 ulsfo => { addrs_v4 => 198.35.26.96,   addrs_v6 => 2620:0:863:ed1a::1 }
             }
         }
-        text-addrs-v4 => { # only for wmftest.org now, and I'm not sure why...
-            map => generic-map
-            service_types => up
-            dcmap => {
-                eqiad => 208.80.154.224
-                codfw => 208.80.153.224
-                esams => 91.198.174.192
-                ulsfo => 198.35.26.96
-            }
-        }
         geoiplookup-addrs => {
             map => generic-map
             service_types => up

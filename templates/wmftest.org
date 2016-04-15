@@ -26,7 +26,6 @@ $ORIGIN {{ zonename }}.
 
 
 ; Canonical names
-            600 IN DYNA geoip!text-addrs-v4
 
 ; Servers (alphabetic order)
 
