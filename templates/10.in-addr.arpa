@@ -4023,6 +4023,12 @@ $ORIGIN 2.193.{{ zonename }}.
 $ORIGIN 3.193.{{ zonename }}.
 
 1   1H IN PTR  wmf6408.mgmt.codfw.wmnet.
+2   1H IN PTR  conf2001.mgmt.codfw.wmnet.
+2   1H IN PTR  wmf6409.mgmt.codfw.wmnet.
+3   1H IN PTR  conf2002.mgmt.codfw.wmnet.
+3   1H IN PTR  wmf6410.mgmt.codfw.wmnet.
+4   1H IN PTR  conf2003.mgmt.codfw.wmnet.
+4   1H IN PTR  wmf6411.mgmt.codfw.wmnet.
 
 ; 10.195.0.0/25 - frack.codfw subnets
 $ORIGIN 0.195.{{ zonename }}.
