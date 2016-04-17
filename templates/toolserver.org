@@ -17,6 +17,9 @@
 
             1H  IN MX   10 toolserver.org.
 
+; SPF records
+@           600 IN TXT  "v=spf1 -all"
+
 ; legacy support - this lives in the cloud
 ; in the toolserver-legacy project
 ;
