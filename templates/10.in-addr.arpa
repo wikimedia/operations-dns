@@ -2643,6 +2643,7 @@ $ORIGIN 0.192.{{ zonename }}.
 140 1H IN PTR   sarin.codfw.wmnet.
 141 1H IN PTR   es2014.codfw.wmnet.
 142 1H IN PTR   es2017.codfw.wmnet.
+143 1H IN PTR   conf2001.codfw.wmnet.
 
 $ORIGIN 1.192.{{ zonename }}.
 1   1H IN PTR   lvs2001.codfw.wmnet.
@@ -3009,6 +3010,7 @@ $ORIGIN 32.192.{{ zonename }}.
 138 1H IN PTR   restbase2004-b.codfw.wmnet.
 139 1H IN PTR   restbase2004-c.codfw.wmnet.
 140 1H IN PTR   graphite2002.codfw.wmnet.
+141 1H IN PTR   conf2002.codfw.wmnet.
 
 $ORIGIN 33.192.{{ zonename }}.
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
@@ -3078,6 +3080,7 @@ $ORIGIN 48.192.{{ zonename }}.
 49  1H IN PTR   restbase2006-a.codfw.wmnet.
 50  1H IN PTR   restbase2006-b.codfw.wmnet.
 51  1H IN PTR   restbase2006-c.codfw.wmnet.
+52  1H IN PTR   conf2003.codfw.wmnet.
 
 $ORIGIN 49.192.{{ zonename }}.
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
