@@ -691,14 +691,6 @@ rdb1005         1H  IN A        10.64.0.24
 rdb1006         1H  IN A        10.64.48.55
 rdb1007         1H  IN A        10.64.32.18
 rdb1008         1H  IN A        10.64.32.19
-restbase1005    1H  IN A        10.64.48.99
-restbase1005-a  1H  IN A        10.64.48.122 ; cassandra instance
-restbase1005-b  1H  IN A        10.64.48.123 ; cassandra instance
-restbase1005-c  1H  IN A        10.64.48.124 ; cassandra instance
-restbase1006    1H  IN A        10.64.48.100
-restbase1006-a  1H  IN A        10.64.48.125 ; cassandra instance
-restbase1006-b  1H  IN A        10.64.48.126 ; cassandra instance
-restbase1006-c  1H  IN A        10.64.48.127 ; cassandra instance
 restbase1007    1H  IN A        10.64.0.223
 restbase1007-a  1H  IN A        10.64.0.230 ; cassandra instance
 restbase1007-b  1H  IN A        10.64.0.231 ; cassandra instance
