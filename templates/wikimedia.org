@@ -139,6 +139,7 @@ install2001     1H  IN A    208.80.153.4
                 1H  IN AAAA 2620:0:860:1:208:80:153:4
 iron            1H  IN A    208.80.154.151
                 1H  IN AAAA 2620:0:861:2:208:80:154:151
+kraz            1H  IN A    208.80.153.44
 labcontrol1001  1H  IN A    208.80.154.92
 labcontrol1002  1H  IN A    208.80.154.95
 labtestweb2001  1H  IN A    208.80.153.14
