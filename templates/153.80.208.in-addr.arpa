@@ -75,6 +75,8 @@ $ORIGIN {{ zonename }}.
 104 1H  IN PTR  vl2004-eth3.lvs2005.codfw.wmnet.
 105 1H  IN PTR  vl2004-eth3.lvs2006.codfw.wmnet.
 
+; 208.80.153.128/27 labtest codfw public IPs (pool used by openstack)
+
 ; Neighbor blocks & loopbacks (208.80.153.192/27)
 
 ; loopbacks
