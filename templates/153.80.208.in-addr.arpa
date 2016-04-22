@@ -157,4 +157,4 @@ $ORIGIN {{ zonename }}.
 
 248  1H  IN PTR misc-web-lb.codfw.wikimedia.org.
 
-254  1H  IN PTR dns-rec-lb.codfw.wikimedia.org.
+254  1H  IN PTR dns-rec-lb.codfw.wikimedia.org. ; not actually public!

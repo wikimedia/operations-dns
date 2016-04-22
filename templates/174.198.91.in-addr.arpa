@@ -60,7 +60,7 @@ $ORIGIN {{ zonename }}.
 
 ; - - 91.198.174.216/29 (216-223) LVS Misc
 
-216 1H IN PTR   dns-rec-lb.esams.wikimedia.org.
+216 1H IN PTR   dns-rec-lb.esams.wikimedia.org. ; not actually public!
 217 1H IN PTR   misc-web-lb.esams.wikimedia.org.
 
 ; 91.198.174.224/28 (224-239) out-of-subnet LVS service IPs
