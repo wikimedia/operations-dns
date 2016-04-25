@@ -49,7 +49,8 @@ $ORIGIN {{ zonename }}.
 
 ; - - 91.198.174.200/29 (200-207) LVS Mobile
 
-204 1H IN PTR   mobile-lb.esams.wikimedia.org.
+; removed from service 2016-04-25, should wait a long time before re-using...
+; 204 1H IN PTR   mobile-lb.esams.wikimedia.org.
 
 ; - 91.198.174.208/28 (208-223) LVS Multimedia & Misc
 

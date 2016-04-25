@@ -253,16 +253,6 @@ plugins => { geoip => {
                 ulsfo => { addrs_v4 => 198.35.26.112,  addrs_v6 => 2620:0:863:ed1a::2:b }
             }
         }
-        mobile-addrs => {
-            map => generic-map
-            service_types => up
-            dcmap => {
-                eqiad => { addrs_v4 => 208.80.154.236, addrs_v6 => 2620:0:861:ed1a::1:c }
-                codfw => { addrs_v4 => 208.80.153.236, addrs_v6 => 2620:0:860:ed1a::1:c }
-                esams => { addrs_v4 => 91.198.174.204, addrs_v6 => 2620:0:862:ed1a::1:c }
-                ulsfo => { addrs_v4 => 198.35.26.108,  addrs_v6 => 2620:0:863:ed1a::1:c }
-            }
-        }
         maps-addrs => {
             map => generic-map
             service_types => up

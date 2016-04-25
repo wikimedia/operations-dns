@@ -37,7 +37,8 @@ $ORIGIN {{ zonename }}.
 
 ; - - 198.35.26.104/29 (104-111) LVS Mobile
 
-108 1H IN PTR   mobile-lb.ulsfo.wikimedia.org.
+; removed from service 2016-04-25, should wait a long time before re-using...
+; 108 1H IN PTR   mobile-lb.ulsfo.wikimedia.org.
 
 ; - 198.35.26.112/28 (112-127) LVS Multimedia & Misc
 

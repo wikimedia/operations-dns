@@ -223,7 +223,6 @@ ntp.esams           1H  IN CNAME maerlant
 ;;; eqiad
 text-lb.eqiad       600 IN DYNA geoip!text-addrs/eqiad
 upload-lb.eqiad     600 IN DYNA geoip!upload-addrs/eqiad
-mobile-lb.eqiad     600 IN DYNA geoip!mobile-addrs/eqiad
 maps-lb.eqiad       600 IN DYNA geoip!maps-addrs/eqiad
 misc-web-lb.eqiad   600 IN DYNA geoip!misc-addrs/eqiad
 donate-lb.eqiad     600 IN DYNA geoip!text-addrs/eqiad
@@ -255,7 +254,6 @@ git-ssh             1H  IN A    208.80.154.250
 ;;; ulsfo
 text-lb.ulsfo       600 IN DYNA geoip!text-addrs/ulsfo
 upload-lb.ulsfo     600 IN DYNA geoip!upload-addrs/ulsfo
-mobile-lb.ulsfo     600 IN DYNA geoip!mobile-addrs/ulsfo
 maps-lb.ulsfo       600 IN DYNA geoip!maps-addrs/ulsfo
 misc-web-lb.ulsfo   600 IN DYNA geoip!misc-addrs/ulsfo
 geoiplookup-lb.ulsfo    600 IN DYNA geoip!geoiplookup-addrs/ulsfo
@@ -268,7 +266,6 @@ dns-rec-lb.codfw    1H  IN A    208.80.153.254
                     1H  IN AAAA 2620:0:860:ed1a::3:fe
 text-lb.codfw       600 IN DYNA geoip!text-addrs/codfw
 upload-lb.codfw     600 IN DYNA geoip!upload-addrs/codfw
-mobile-lb.codfw     600 IN DYNA geoip!mobile-addrs/codfw
 maps-lb.codfw       600 IN DYNA geoip!maps-addrs/codfw
 misc-web-lb.codfw   600 IN DYNA geoip!misc-addrs/codfw
 donate-lb.codfw     600 IN DYNA geoip!text-addrs/codfw
@@ -277,7 +274,6 @@ geoiplookup-lb.codfw    600 IN DYNA geoip!geoiplookup-addrs/codfw
 ;;; esams
 text-lb.esams       600 IN DYNA geoip!text-addrs/esams
 upload-lb.esams     600 IN DYNA geoip!upload-addrs/esams
-mobile-lb.esams     600 IN DYNA geoip!mobile-addrs/esams
 maps-lb.esams       600 IN DYNA geoip!maps-addrs/esams
 misc-web-lb.esams   600 IN DYNA geoip!misc-addrs/esams
 geoiplookup-lb.esams    600 IN DYNA geoip!geoiplookup-addrs/esams
