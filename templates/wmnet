@@ -3276,12 +3276,15 @@ rdb2006         1H  IN A    10.193.2.248
 restbase-test2001 1H IN A   10.193.2.118
 restbase-test2002 1H IN A   10.193.2.222
 restbase-test2003 1H IN A   10.193.2.223
-restbase2001    1H IN A     10.193.2.224
-restbase2002    1H IN A     10.193.2.225
-restbase2003    1H IN A     10.193.2.226
-restbase2004    1H IN A     10.193.2.227
-restbase2005    1H IN A     10.193.2.228
-restbase2006    1H IN A     10.193.2.229
+restbase2001    1H  IN A    10.193.2.224
+restbase2002    1H  IN A    10.193.2.225
+restbase2003    1H  IN A    10.193.2.226
+restbase2004    1H  IN A    10.193.2.227
+restbase2005    1H  IN A    10.193.2.228
+restbase2006    1H  IN A    10.193.2.229
+restbase2007    1H  IN A    10.193.3.5
+restbase2008    1H  IN A    10.193.3.6
+restbase2009    1H  IN A    10.193.3.7
 sarin           1H  IN A    10.193.2.234
 sca2001         1H  IN A    10.193.1.24
 sca2002         1H  IN A    10.193.1.26
@@ -3684,6 +3687,9 @@ WMF6408         1H  IN A    10.193.3.1
 WMF6409         1H  IN A    10.193.3.2
 WMF6410         1H  IN A    10.193.3.3
 WMF6411         1H  IN A    10.193.3.4
+WMF6412         1H  IN A    10.193.3.5
+WMF6413         1H  IN A    10.193.3.6
+WMF6414         1H  IN A    10.193.3.7
 
 ;
 ; ESAMS
