@@ -2645,6 +2645,9 @@ restbase2006    1H  IN A    10.192.48.38
 restbase2006-a  1H  IN A    10.192.48.49 ; cassandra instance
 restbase2006-b  1H  IN A    10.192.48.50 ; cassandra instance
 restbase2006-c  1H  IN A    10.192.48.51 ; cassandra instance
+restbase2007    1H  IN A    10.192.16.175
+restbase2008    1H  IN A    10.192.32.142
+restbase2009    1H  IN A    10.192.48.53
 sarin           1H  IN A    10.192.0.140
 sca2001         1H  IN A    10.192.0.33
 sca2002         1H  IN A    10.192.16.36
