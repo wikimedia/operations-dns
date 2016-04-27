@@ -1251,7 +1251,7 @@ elastic1031     1H    IN A    10.65.7.74
 WMF4610         1H    IN A    10.65.7.74
 elastic1032 1H  IN A    10.65.7.1
 WMF3175     1H  IN A    10.65.7.1
-elatic1033  1H  IN A    10.65.7.2
+elastic1033  1H  IN A    10.65.7.2
 WMF3174     1H  IN A    10.65.7.2
 elastic1034 1H  IN A    10.65.7.3
 WMF3173     1H  IN A    10.65.7.3
@@ -1269,11 +1269,11 @@ elastic1040 1H  IN A    10.65.7.9
 WMF3167     1H  IN A    10.65.7.9
 elastic1041 1H  IN A    10.65.7.10
 WMF3166     1H  IN A    10.65.7.10
-elatic1042  1H  IN A    10.65.7.11
+elastic1042  1H  IN A    10.65.7.11
 WMF3165     1H  IN A    10.65.7.11
 elastic1043 1H  IN A    10.65.7.12
 WMF3164     1H  IN A    10.65.7.12
-elatic1044  1H  IN A    10.65.7.13
+elastic1044  1H  IN A    10.65.7.13
 WMF3163     1H  IN A    10.65.7.13
 elastic1045 1H  IN A    10.65.7.14
 WMF3162     1H  IN A    10.65.7.14
