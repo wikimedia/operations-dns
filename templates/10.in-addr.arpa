@@ -893,6 +893,8 @@ $ORIGIN 37.64.{{ zonename }}.
 16      1H IN PTR       nfs-scratch.svc.eqiad.wmnet.
 17      1H IN PTR       nfs-tools-home.svc.eqiad.wmnet.
 18      1H IN PTR       nfs-tools-project.svc.eqiad.wmnet.
+19      1H IN PTR       labstore1004.eqiad.wmnet.
+20      1H IN PTR       labstore1005.eqiad.wmnet.
 
 ; 10.64.40.0/23 - frack.eqiad subnets
 $ORIGIN 40.64.{{ zonename }}.
@@ -2199,6 +2201,10 @@ $ORIGIN 5.65.{{ zonename }}.
 28  1H  IN PTR      wmf4716.mgmt.eqiad.wmnet.
 29  1H  IN PTR      ms-be1021.mgmt.eqiad.wmnet.
 29  1H  IN PTR      wmf4717.mgmt.eqiad.wmnet.
+30  1H  IN PTR      labstore1004.mgmt.eqiad.wmnet.
+30  1H  IN PTR      wmf4768.mgmt.eqiad.wmnet.
+31  1H  IN PTR      labstore1005.mgmt.eqiad.wmnet.
+31  1H  IN PTR      wmf4769.mgmt.eqiad.wmnet.
 
 $ORIGIN 6.65.{{ zonename }}.
 
