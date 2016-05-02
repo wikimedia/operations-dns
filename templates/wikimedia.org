@@ -489,7 +489,7 @@ horizon         600 IN DYNA     geoip!misc-addrs
 icinga          1H  IN CNAME    neon
 
 integration     600 IN DYNA     geoip!misc-addrs
-irc             1H  IN CNAME    argon
+irc             1H  IN CNAME    kraz
 
 ldap-eqiad      1H  IN CNAME    seaborgium
 ldap-codfw      1H  IN CNAME    serpens
