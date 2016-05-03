@@ -308,6 +308,9 @@ dbproxy1011     1H  IN A        10.64.48.98
 dbstore1001     1H  IN A        10.64.48.17
 dbstore1002     1H  IN A        10.64.48.18
 d-i-test        1H  IN A        10.64.32.201
+druid1001       1H  IN A        10.64.0.163
+druid1002       1H  IN A        10.64.32.112
+druid1003       1H  IN A        10.64.48.147
 elastic1001     1H  IN A        10.64.0.108
 elastic1002     1H  IN A        10.64.0.109
 elastic1003     1H  IN A        10.64.0.110
@@ -1252,6 +1255,12 @@ WMF4533         1H      IN A    10.65.6.65
 dbstore1002     1H      IN A    10.65.6.65
 dickson         1H      IN A    10.65.3.26
 cp1099          1H      IN A    10.65.3.147
+druid1001       1H      IN A    10.65.4.48
+wmf4770         1H      IN A    10.65.4.48
+druid1002       1H      IN A    10.65.4.49
+wmf4771         1H      IN A    10.65.4.49
+druid1003       1H      IN A    10.65.4.50
+wmf4772         1H      IN A    10.65.4.50
 elastic1001     1H      IN A    10.65.7.101
 elastic1002     1H      IN A    10.65.7.102
 elastic1003     1H      IN A    10.65.7.103
