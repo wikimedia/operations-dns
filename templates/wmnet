@@ -2789,8 +2789,17 @@ restbase2006-a  1H  IN A    10.192.48.49 ; cassandra instance
 restbase2006-b  1H  IN A    10.192.48.50 ; cassandra instance
 restbase2006-c  1H  IN A    10.192.48.51 ; cassandra instance
 restbase2007    1H  IN A    10.192.16.175
+restbase2007-a  1H  IN A    10.192.16.176 ; cassandra instance
+restbase2007-b  1H  IN A    10.192.16.177 ; cassandra instance
+restbase2007-c  1H  IN A    10.192.16.178 ; cassandra instance
 restbase2008    1H  IN A    10.192.32.142
+restbase2008-a  1H  IN A    10.192.32.143 ; cassandra instance
+restbase2008-b  1H  IN A    10.192.32.144 ; cassandra instance
+restbase2008-c  1H  IN A    10.192.32.145 ; cassandra instance
 restbase2009    1H  IN A    10.192.48.53
+restbase2009-a  1H  IN A    10.192.48.54 ; cassandra instance
+restbase2009-b  1H  IN A    10.192.48.55 ; cassandra instance
+restbase2009-c  1H  IN A    10.192.48.56 ; cassandra instance
 sarin           1H  IN A    10.192.0.140
 sca2001         1H  IN A    10.192.0.33
 sca2002         1H  IN A    10.192.16.36
