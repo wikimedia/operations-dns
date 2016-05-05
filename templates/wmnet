@@ -3347,6 +3347,10 @@ mw2212          1H  IN A    10.193.2.112
 mw2213          1H  IN A    10.193.2.113
 mw2214          1H  IN A    10.193.2.114
 nembus          1H  IN A    10.193.1.251
+maps2001        1H  IN A    10.193.3.8
+maps2002        1H  IN A    10.193.3.9
+maps2003        1H  IN A    10.193.3.10
+maps2004        1H  IN A    10.193.3.11
 maps-test2001   1H  IN A    10.193.2.3
 maps-test2002   1H  IN A    10.193.2.4
 maps-test2003   1H  IN A    10.193.2.5
@@ -3784,6 +3788,10 @@ WMF6411         1H  IN A    10.193.3.4
 WMF6412         1H  IN A    10.193.3.7
 WMF6413         1H  IN A    10.193.3.6
 WMF6414         1H  IN A    10.193.3.5
+WMF6415         1H  IN A    10.193.3.8
+WMF6416         1H  IN A    10.193.3.9
+WMF6417         1H  IN A    10.193.3.10
+WMF6418         1H  IN A    10.193.3.11
 
 ;
 ; ESAMS

@@ -4053,7 +4053,14 @@ $ORIGIN 3.193.{{ zonename }}.
 6   1H IN PTR  wmf6413.mgmt.codfw.wmnet.
 7   1H IN PTR  restbase2009.mgmt.codfw.wmnet.
 7   1H IN PTR  wmf6412.mgmt.codfw.wmnet.
-
+8   1H IN PTR  maps2001.mgmt.codfw.wmnet.
+8   1H IN PTR  wmf6415.mgmt.codfw.wmnet.
+9   1H IN PTR  maps2002.mgmt.codfw.wmnet.
+9   1H IN PTR  wmf6416.mgmt.codfw.wmnet.
+10  1H IN PTR  maps2003.mgmt.codfw.wmnet.
+10  1H IN PTR  wmf6417.mgmt.codfw.wmnet.
+11  1H IN PTR  maps2004.mgmt.codfw.wmnet.
+11  1H IN PTR  wmf6418.mgmt.codfw.wmnet.
 
 
 ; 10.195.0.0/25 - frack.codfw subnets
