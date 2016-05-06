@@ -654,8 +654,6 @@ iegreview        600 IN DYNA     geoip!misc-addrs
 tendril          1H  IN CNAME    neon
 jobs             600 IN DYNA     geoip!text-addrs
 labs             600 IN DYNA     geoip!text-addrs
-labs-ns0-former-placeholder         1H  IN A        208.80.154.94
-labs-ns1-former-placeholder         1H  IN A        208.80.154.102
 labs-ns0         1H  IN A        208.80.155.117
 labs-ns1         1H  IN A        208.80.154.12
 ; these two are transitional, to be removed soon:
