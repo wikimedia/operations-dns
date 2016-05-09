@@ -314,6 +314,8 @@ $ORIGIN 0.64.{{ zonename }}.
 123 1H IN PTR   aqs1001.eqiad.wmnet.
 124 1H IN PTR   elastic1030.eqiad.wmnet.
 125 1H IN PTR   elastic1031.eqiad.wmnet.
+126 1H IN PTR   aqs1004-a.eqiad.wmnet. ; cassandra instance
+127 1H IN PTR   aqs1004-b.eqiad.wmnet. ; cassandra instance
 162 1H IN PTR   logstash1004.eqiad.wmnet.
 163 1H IN PTR   druid1001.eqiad.wmnet.
 164 1H IN PTR   strontium.eqiad.wmnet.
@@ -793,6 +795,8 @@ $ORIGIN 32.64.{{ zonename }}.
 186     1H IN PTR       iridium-vcs.eqiad.wmnet.
 187     1H IN PTR       restbase1008-a.eqiad.wmnet.
 188     1H IN PTR       technetium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+189     1H IN PTR       aqs1005-a.eqiad.wmnet. ; cassandra instance
+190     1H IN PTR       aqs1005-b.eqiad.wmnet. ; cassandra instance
 195     1H IN PTR       restbase1008-b.eqiad.wmnet.
 196     1H IN PTR       restbase1008-c.eqiad.wmnet.
 
@@ -1042,6 +1046,8 @@ $ORIGIN 48.64.{{ zonename }}.
 145     1H  IN PTR      elastic1047.eqiad.wmnet.
 146     1H  IN PTR      aqs1006.eqiad.wmnet.
 147     1H  IN PTR      druid1003.eqiad.wmnet.
+148     1H  IN PTR      aqs1006-a.eqiad.wmnet. ; cassandra instance
+149     1H  IN PTR      aqs1006-b.eqiad.wmnet. ; cassandra instance
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
