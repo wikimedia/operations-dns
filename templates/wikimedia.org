@@ -657,8 +657,8 @@ labs             600 IN DYNA     geoip!text-addrs
 labs-ns0         1H  IN A        208.80.155.117
 labs-ns1         1H  IN A        208.80.154.12
 labtest-ns0      1H  IN A        208.80.153.48
-labs-recursor0   1H  IN A        208.80.154.20
-labs-recursor1   1H  IN A        208.80.155.118
+labs-recursor0   1H  IN A        208.80.155.118
+labs-recursor1   1H  IN A        208.80.154.20
 labtest-recursor0 1H IN A        208.80.153.51
 ; deprecated but kept for compatibility, see RT #6769
 labsconsole      600 IN DYNA     geoip!text-addrs
