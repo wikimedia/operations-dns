@@ -7,6 +7,7 @@ plugins => { geoip => {
                 # use ISO 3166-2 official names
                 AF => [esams, eqiad, codfw],
                 AS => {
+                    default => [ulsfo, codfw, eqiad],
                     AE => [esams, eqiad, codfw], # United Arab Emirates
                     AF => [esams, eqiad, codfw], # Afghanistan
                     AM => [esams, eqiad, codfw], # Armenia
