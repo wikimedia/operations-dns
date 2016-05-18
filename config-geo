@@ -63,6 +63,7 @@ plugins => { geoip => {
                     YE => [esams, eqiad, codfw], # Yemen
                 },
                 EU => {
+                    default => [esams, eqiad, codfw],
                     AD => [esams, eqiad, codfw], # Andorra
                     AL => [esams, eqiad, codfw], # Albania
                     AT => [esams, eqiad, codfw], # Austria
