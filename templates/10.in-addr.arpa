@@ -1501,12 +1501,6 @@ $ORIGIN 1.65.{{ zonename }}.
 218 1H  IN PTR      mw1218.mgmt.eqiad.wmnet.
 219 1H  IN PTR      mw1219.mgmt.eqiad.wmnet.
 220 1H  IN PTR      mw1220.mgmt.eqiad.wmnet.
-221 1H  IN PTR      mw1305.mgmt.eqiad.wmnet.
-221 1H  IN PTR      wmf6944.mgmt.eqiad.wmnet.
-222 1H  IN PTR      mw1306.mgmt.eqiad.wmnet.
-222 1H  IN PTR      wmf6945.mgmt.eqiad.wmnet.
-223 1H  IN PTR      mw1307.mgmt.eqiad.wmnet.
-223 1H  IN PTR      wmf6946.mgmt.eqiad.wmnet.
 
 $ORIGIN 2.65.{{ zonename }}.
 
