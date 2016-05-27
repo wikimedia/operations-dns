@@ -33,7 +33,7 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 2.2.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   maerlant.wikimedia.org.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-100.cr1-esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-100.cr2-knams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-100.cr2-esams.wikimedia.org.
 
 ; private1-esams subnet 2620:0:862:102::/64
 
@@ -42,7 +42,7 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-103.esams.wikimedia.org.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-103.cr1-esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-103.cr2-knams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-103.cr2-esams.wikimedia.org.
 
 1.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3001.esams.wmnet.
 2.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3002.esams.wmnet.

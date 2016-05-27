@@ -82,7 +82,7 @@ $ORIGIN 4.2.{{ zonename }}.
 $ORIGIN 0.20.{{ zonename }}.
 1   1H  IN PTR  vrrp-gw-103.esams.wikimedia.org.
 2   1H  IN PTR  ae1-103.cr1-esams.wikimedia.org.
-3   1H  IN PTR  ae1-103.cr2-knams.wikimedia.org.
+3   1H  IN PTR  ae1-103.cr2-esams.wikimedia.org.
 
 11  1H  IN PTR      lvs3001.esams.wmnet.
 12  1H  IN PTR      lvs3002.esams.wmnet.

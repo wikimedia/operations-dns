@@ -20,7 +20,7 @@ $ORIGIN {{ zonename }}.
 
 1   1H IN PTR   vrrp-gw-100.esams.wikimedia.org.
 2   1H IN PTR   ae1-100.cr1-esams.wikimedia.org.
-3   1H IN PTR   ae1-100.cr2-knams.wikimedia.org.
+3   1H IN PTR   ae1-100.cr2-esams.wikimedia.org.
 
 11  1H IN PTR   vl100-eth0.lvs3001.esams.wmnet.
 12  1H IN PTR   vl100-eth0.lvs3002.esams.wmnet.
