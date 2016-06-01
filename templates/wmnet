@@ -758,6 +758,8 @@ rdb1005         1H  IN A        10.64.0.24
 rdb1006         1H  IN A        10.64.48.55
 rdb1007         1H  IN A        10.64.32.18
 rdb1008         1H  IN A        10.64.32.19
+relforge1001    1H  IN A        10.64.4.13
+relforge1002    1H  IN A        10.64.37.21
 restbase1007    1H  IN A        10.64.0.223
 restbase1007-a  1H  IN A        10.64.0.230 ; cassandra instance
 restbase1007-b  1H  IN A        10.64.0.231 ; cassandra instance
@@ -2139,8 +2141,9 @@ WMF4579         1H      IN A            10.65.5.209
 wmf4656         1H      IN A            10.65.2.109
 graphite1003    1H      IN A            10.65.2.109
 wmf4657         1H      IN A            10.65.2.110
+relforge1001    1H      IN A            10.65.2.110
 wmf4658         1H      IN A            10.65.2.111
-restbase1003    1H      IN A            10.65.2.111
+relforge1002    1H      IN A            10.65.2.111
 wmf4659         1H      IN A            10.65.2.112
 restbase1004    1H      IN A            10.65.2.112
 wmf4660         1H      IN A            10.65.2.113

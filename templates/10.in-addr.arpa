@@ -422,6 +422,7 @@ $ORIGIN 4.64.{{ zonename }}.
 10  1H IN PTR   labstore1003.eqiad.wmnet.
 11  1H IN PTR   labsdb1001.eqiad.wmnet.
 12  1H IN PTR   scandium.eqiad.wmnet.
+13  1H IN PTR   relforge1001.eqiad.wmnet.
 
 ; 10.64.5.0/24 - analytics1-a-eqiad
 $ORIGIN 5.64.{{ zonename }}.
@@ -931,6 +932,7 @@ $ORIGIN 37.64.{{ zonename }}.
 18      1H IN PTR       nfs-tools-project.svc.eqiad.wmnet.
 19      1H IN PTR       labstore1004.eqiad.wmnet.
 20      1H IN PTR       labstore1005.eqiad.wmnet.
+21      1H IN PTR       relforge1002.eqiad.wmnet.
 
 ; 10.64.40.0/23 - frack.eqiad subnets
 $ORIGIN 40.64.{{ zonename }}.
@@ -1680,8 +1682,9 @@ $ORIGIN 2.65.{{ zonename }}.
 109 1H  IN PTR      wmf4656.mgmt.eqiad.wmnet.
 109 1H  IN PTR      graphite1003.mgmt.eqiad.wmnet.
 110 1H  IN PTR      wmf4657.mgmt.eqiad.wmnet.
-110 1H  IN PTR      restbase1002.mgmt.eqiad.wmnet.
+110 1H  IN PTR      relforge1001.mgmt.eqiad.wmnet.
 111 1H  IN PTR      wmf4658.mgmt.eqiad.wmnet.
+111 1H  IN PTR      relforge1002.mgmt.eqiad.wmnet.
 112 1H  IN PTR      wmf4659.mgmt.eqiad.wmnet.
 113 1H  IN PTR      wmf4660.mgmt.eqiad.wmnet.
 114 1H  IN PTR      wmf4661.mgmt.eqiad.wmnet.
