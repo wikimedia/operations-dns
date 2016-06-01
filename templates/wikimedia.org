@@ -459,6 +459,8 @@ dbtree          600 IN DYNA     geoip!misc-addrs
 dev             600 IN DYNA     geoip!text-addrs
 doc             600 IN DYNA     geoip!misc-addrs
 docs            600 IN DYNA     geoip!text-addrs
+
+endowment       600 IN DYNA     geoip!misc-addrs
 eventdonations  1H  IN CNAME    contrib-wi-10109-10472-20140728-1682402186.us-east-1.elb.amazonaws.com.
 ldap-corp.eqiad 1H  IN CNAME    dubnium
 ldap-corp.codfw 1H  IN CNAME    pollux
