@@ -943,6 +943,11 @@ $ORIGIN 40.64.{{ zonename }}.
 6   1H IN PTR   payments1002.frack.eqiad.wmnet.
 7   1H IN PTR   payments1003.frack.eqiad.wmnet.
 8   1H IN PTR   payments1004.frack.eqiad.wmnet.
+9   1H IN PTR   payments1005.frack.eqiad.wmnet.
+10  1H IN PTR   payments1006.frack.eqiad.wmnet.
+11  1H IN PTR   payments1007.frack.eqiad.wmnet.
+12  1H IN PTR   payments1008.frack.eqiad.wmnet.
+
 20  1H IN PTR   pay-lvs1001.frack.eqiad.wmnet.
 21  1H IN PTR   pay-lvs1002.frack.eqiad.wmnet.
 
@@ -964,6 +969,9 @@ $ORIGIN 40.64.{{ zonename }}.
 111 1H IN PTR   lutetium.frack.eqiad.wmnet.
 112 1H IN PTR   barium-fundraising.frack.eqiad.wmnet.
 113 1H IN PTR   americium.frack.eqiad.wmnet.
+114 1H IN PTR   frdb1001.frack.eqiad.wmnet.
+115 1H IN PTR   frqueue1001.frack.eqiad.wmnet.
+116 1H IN PTR   frqueue1002.frack.eqiad.wmnet.
 
 ; 10.64.40.128/27 - frack-dmz1-c-eqiad
 130 1H IN PTR   samarium.frack.eqiad.wmnet.
@@ -1738,7 +1746,7 @@ $ORIGIN 3.65.{{ zonename }}.
 8   1H  IN PTR      wmf3143.mgmt.eqiad.wmnet.
 9   1H  IN PTR      oxygen.mgmt.eqiad.wmnet.
 9   1H  IN PTR      wmf3142.mgmt.eqiad.wmnet.
-
+10  1H  IN PTR      frdb1001.mgmt.eqiad.wmnet.
 11  1H  IN PTR      boron.mgmt.eqiad.wmnet.
 11  1H  IN PTR      wmf3140.mgmt.eqiad.wmnet.
 12  1H  IN PTR      pay-lvs1001.mgmt.eqiad.wmnet.
@@ -1762,7 +1770,8 @@ $ORIGIN 3.65.{{ zonename }}.
 21  1H  IN PTR      wmf3298.mgmt.eqiad.wmnet.
 22  1H  IN PTR      copper.mgmt.eqiad.wmnet.
 22  1H  IN PTR      wmf3297.mgmt.eqiad.wmnet.
-
+23  1H  IN PTR      frqueue1001.mgmt.eqiad.wmnet.
+24  1H  IN PTR      frqueue1002.mgmt.eqiad.wmnet.
 25  1H  IN PTR      iron.mgmt.eqiad.wmnet.
 25  1H  IN PTR      wmf3294.mgmt.eqiad.wmnet.
 26  1H  IN PTR      dickson.mgmt.eqiad.wmnet.
@@ -2158,6 +2167,10 @@ $ORIGIN 4.65.{{ zonename }}.
 49  1H  IN PTR      wmf4771.mgmt.eqiad.wmnet.
 50  1H  IN PTR      druid1003.mgmt.eqiad.wmnet.
 50  1H  IN PTR      wmf4772.mgmt.eqiad.wmnet.
+51  1H  IN PTR      payments1005.mgmt.eqiad.wmnet.
+52  1H  IN PTR      payments1006.mgmt.eqiad.wmnet.
+53  1H  IN PTR      payments007.mgmt.eqiad.wmnet.
+54  1H  IN PTR      payments1008.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.{{ zonename }}.
 

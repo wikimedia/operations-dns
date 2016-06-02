@@ -1894,6 +1894,9 @@ hp1001      1H      IN A    10.65.5.210
 pay-lvs1002 1H  IN A    10.65.3.13
 WMF3138     1H  IN A    10.65.3.13
 pay-lvs1001 1H  IN A    10.65.3.12
+frdb1001    1H  IN A    10.65.3.10
+frqueue1001 1H  IN A    10.65.3.23
+frqueue1002 1H  IN A    10.65.3.24
 WMF3139     1H  IN A    10.65.3.12
 boron       1H  IN A    10.65.3.11
 WMF3140     1H  IN A    10.65.3.11
@@ -1978,6 +1981,10 @@ WMF3422         1H  IN A    10.65.3.47
 payments1003    1H  IN A    10.65.3.54
 WMF3429         1H  IN A    10.65.3.54
 payments1004    1H  IN A    10.65.3.46
+payments1005    1H  IN A    10.65.4.51
+payments1006    1H  IN A    10.65.4.52
+payments1007    1H  IN A    10.65.4.53
+payments1008    1H  IN A    10.65.4.54
 WMF3421     1H  IN A    10.65.3.46
 WMF4073     1H  IN A    10.65.3.118
 tin         1H  IN A    10.65.3.118
@@ -2249,6 +2256,9 @@ bismuth         1H      IN A    10.64.40.69
 boron           1H      IN A    10.64.40.66
 db1008          1H      IN A    10.64.40.99
 db1025          1H      IN A    10.64.40.100
+frdb1001        1H      IN A    10.64.40.114
+frqueue1001     1H      IN A    10.64.40.115
+frqueue1002     1H      IN A    10.64.40.116
 indium          1H      IN A    10.64.40.67
 lutetium        1H      IN A    10.64.40.111
 pay-lvs1001     1H      IN A    10.64.40.20
@@ -2257,6 +2267,10 @@ payments1001    1H      IN A    10.64.40.5
 payments1002    1H      IN A    10.64.40.6
 payments1003    1H      IN A    10.64.40.7
 payments1004    1H      IN A    10.64.40.8
+payments1005    1H      IN A    10.64.40.9
+payments1006    1H      IN A    10.64.40.10
+payments1007    1H      IN A    10.64.40.11
+payments1008    1H      IN A    10.64.40.12
 rkhunter.boron  1H      IN CNAME  boron
 silicon         1H      IN A    10.64.40.98
 samarium        1H      IN A    10.64.40.130
