@@ -517,7 +517,7 @@ releases        600 IN DYNA     geoip!misc-addrs
 
 reports.frdev   1H  IN CNAME    frdev-eqiad
 
-rt              5M  IN A        208.80.154.5
+rt              600 IN DYNA     geoip!misc-addrs
                 1H  IN MX       10 mx1001
                 1H  IN MX       50 mx2001
 
