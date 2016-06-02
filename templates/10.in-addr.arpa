@@ -306,6 +306,7 @@ $ORIGIN 0.64.{{ zonename }}.
 76  1H IN PTR   mw1281.eqiad.wmnet.
 77  1H IN PTR   mw1282.eqiad.wmnet.
 78  1H IN PTR   mw1283.eqiad.wmnet.
+79  1H IN PTR   maps1001.eqiad.wmnet.
 
 91  1H IN PTR   db1079.eqiad.wmnet.
 92  1H IN PTR   db1080.eqiad.wmnet.
@@ -485,7 +486,7 @@ $ORIGIN 16.64.{{ zonename }}.
 39  1H IN PTR   e0M.nas1001-b.eqiad.wmnet.
 40  1H IN PTR   ms-be1020.eqiad.wmnet.
 41  1H IN PTR   kafka1002.eqiad.wmnet.
-
+42  1H IN PTR   maps1002.eqiad.wmnet.
 43  1H IN PTR   cam1-b-c-eqiad.eqiad.wmnet.
 44  1H IN PTR   cam2-b-c-eqiad.eqiad.wmnet.
 45  1H IN PTR   elastic1036.eqiad.wmnet.
@@ -803,7 +804,7 @@ $ORIGIN 32.64.{{ zonename }}.
 114     1H IN PTR       db1088.eqiad.wmnet.
 115     1H IN PTR       db1089.eqiad.wmnet.
 116     1H IN PTR       db1090.eqiad.wmnet.
-
+117     1H IN PTR       maps1003.eqiad.wmnet.
 135     1H IN PTR       hassium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 136     1H IN PTR       db1078.eqiad.wmnet.
 137     1H IN PTR       logstash1002.eqiad.wmnet.
@@ -1120,7 +1121,7 @@ $ORIGIN 48.64.{{ zonename }}.
 151     1H  IN PTR      db1092.eqiad.wmnet.
 152     1H  IN PTR      db1093.eqiad.wmnet.
 153     1H  IN PTR      db1094.eqiad.wmnet.
-
+154     1H  IN PTR      maps1004.eqiad.wmnet.
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
 2       1H IN PTR       vl1020-eth3.lvs1002.wikimedia.org.
@@ -2171,6 +2172,14 @@ $ORIGIN 4.65.{{ zonename }}.
 52  1H  IN PTR      payments1006.mgmt.eqiad.wmnet.
 53  1H  IN PTR      payments007.mgmt.eqiad.wmnet.
 54  1H  IN PTR      payments1008.mgmt.eqiad.wmnet.
+55  1H  IN PTR      maps1001.mgmt.eqiad.wmnet.
+55  1H  IN PTR      wmf4792.mgmt.eqiad.wmnet.
+56  1H  IN PTR      maps1002.mgmt.eqiad.wmnet.
+56  1H  IN PTR      wmf4793.mgmt.eqiad.wmnet.
+57  1H  IN PTR      maps1003.mgmt.eqiad.wmnet.
+57  1H  IN PTR      wmf4794.mgmt.eqiad.wmnet.
+58  1H  IN PTR      maps1004.mgmt.eqiad.wmnet.
+58  1H  IN PTR      wmf4795.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.{{ zonename }}.
 
