@@ -240,6 +240,9 @@ stream-lb.eqiad 1H  IN A    208.80.154.249
 cxserver            600 IN DYNA geoip!text-addrs
 citoid              600 IN DYNA geoip!text-addrs
 
+; ORES
+ores                600 IN DYNA geoip!misc-addrs
+
 ; This was announced as going away circa 2016-04-25 in https://lists.wikimedia.org/pipermail/wikitech-l/2016-April/085309.html
 ; But: we're keeping it around for a while because it sends a helpful error message to clients about the transition
 rest                600 IN DYNA geoip!text-addrs
