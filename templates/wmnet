@@ -2110,7 +2110,6 @@ nobelium    1H  IN A        10.65.5.183
 WMF4544     1H  IN A        10.65.5.184
 analytics1002    1H  IN A        10.65.5.184
 WMF4545     1H  IN A        10.65.5.185
-labmon1001  1H  IN A        10.65.5.185
 WMF4546     1H  IN A        10.65.5.186
 osmium      1H  IN A        10.65.5.186
 WMF4547     1H  IN A        10.65.5.187
@@ -2164,7 +2163,7 @@ relforge1001    1H      IN A            10.65.2.110
 wmf4658         1H      IN A            10.65.2.111
 relforge1002    1H      IN A            10.65.2.111
 wmf4659         1H      IN A            10.65.2.112
-restbase1004    1H      IN A            10.65.2.112
+labmon1001      1H      IN A            10.65.2.112
 wmf4660         1H      IN A            10.65.2.113
 restbase1005    1H      IN A            10.65.2.113
 wmf4661         1H      IN A            10.65.2.114

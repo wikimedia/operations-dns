@@ -1695,6 +1695,7 @@ $ORIGIN 2.65.{{ zonename }}.
 111 1H  IN PTR      wmf4658.mgmt.eqiad.wmnet.
 111 1H  IN PTR      relforge1002.mgmt.eqiad.wmnet.
 112 1H  IN PTR      wmf4659.mgmt.eqiad.wmnet.
+112 1H  IN PTR      labmon1001.mgmt.eqiad.wmnet.
 113 1H  IN PTR      wmf4660.mgmt.eqiad.wmnet.
 114 1H  IN PTR      wmf4661.mgmt.eqiad.wmnet.
 115 1H  IN PTR      wmf4665.mgmt.eqiad.wmnet.
@@ -2001,7 +2002,6 @@ $ORIGIN 3.65.{{ zonename }}.
 184     1H  IN PTR      wmf4544.mgmt.eqiad.wmnet.
 184     1H  IN PTR      analytics1002.mgmt.eqiad.wmnet.
 185 1H  IN PTR      wmf4545.mgmt.eqiad.wmnet.
-185 1H  IN PTR      labmon1001.mgmt.eqiad.wmnet.
 186 1H  IN PTR      wmf4546.mgmt.eqiad.wmnet.
 186 1H  IN PTR      osmium.mgmt.eqiad.wmnet.
 187 1H  IN PTR      wmf4547.mgmt.eqiad.wmnet.
