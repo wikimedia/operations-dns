@@ -669,6 +669,7 @@ labtest-recursor0 1H IN A        208.80.153.51
 labsconsole      600 IN DYNA     geoip!text-addrs
 logstash         600 IN DYNA     geoip!misc-addrs
 metrics          600 IN DYNA     geoip!misc-addrs
+moon             600 IN DYNA     geoip!text-addrs
 noc              600 IN DYNA     geoip!misc-addrs
 nyc              600 IN DYNA     geoip!text-addrs
 old-bugzilla     600 IN DYNA     geoip!text-addrs
