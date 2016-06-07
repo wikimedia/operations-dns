@@ -2161,13 +2161,12 @@ graphite1003    1H      IN A            10.65.2.109
 wmf4657         1H      IN A            10.65.2.110
 relforge1001    1H      IN A            10.65.2.110
 wmf4658         1H      IN A            10.65.2.111
-relforge1002    1H      IN A            10.65.2.111
 wmf4659         1H      IN A            10.65.2.112
 labmon1001      1H      IN A            10.65.2.112
 wmf4660         1H      IN A            10.65.2.113
 restbase1005    1H      IN A            10.65.2.113
 wmf4661         1H      IN A            10.65.2.114
-restbase1006    1H      IN A            10.65.2.114
+relforge1002    1H      IN A            10.65.2.114
 restbase1007    1H      IN A            10.65.2.119
 restbase1008    1H      IN A            10.65.2.120
 restbase1009    1H      IN A            10.65.2.121
