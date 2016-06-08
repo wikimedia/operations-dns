@@ -398,6 +398,7 @@ $ORIGIN 0.64.{{ zonename }}.
 234 1H IN PTR   elastic1033.eqiad.wmnet.
 235 1H IN PTR   elastic1034.eqiad.wmnet.
 236 1H IN PTR   elastic1035.eqiad.wmnet.
+237 1H IN PTR   contint1001.eqiad.wmnet.
 
 $ORIGIN 1.64.{{ zonename }}.
 
