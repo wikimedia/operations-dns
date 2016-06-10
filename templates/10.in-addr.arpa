@@ -3692,17 +3692,7 @@ $ORIGIN 1.193.{{ zonename }}.
 237 1H IN PTR  es2003.mgmt.codfw.wmnet.
 237 1H IN PTR  wmf3627.mgmt.codfw.wmnet.
 238 1H IN PTR  es2004.mgmt.codfw.wmnet.
-239 1H IN PTR  es2005.mgmt.codfw.wmnet.
-239 1H IN PTR  wmf5732.mgmt.codfw.wmnet.
-240 1H IN PTR  es2006.mgmt.codfw.wmnet.
-240 1H IN PTR  wmf5733.mgmt.codfw.wmnet.
-241 1H IN PTR  es2007.mgmt.codfw.wmnet.
-242 1H IN PTR  es2008.mgmt.codfw.wmnet.
-242 1H IN PTR  wmf5727.mgmt.codfw.wmnet.
-243 1H IN PTR  es2009.mgmt.codfw.wmnet.
-243 1H IN PTR  wmf5757.mgmt.codfw.wmnet.
-244 1H IN PTR  es2010.mgmt.codfw.wmnet.
-244 1H IN PTR  wmf5758.mgmt.codfw.wmnet.
+
 245 1H IN PTR  ms-be2013.mgmt.codfw.wmnet.
 245 1H IN PTR  wmf6138.mgmt.codfw.wmnet.
 246 1H IN PTR  ms-be2014.mgmt.codfw.wmnet.
