@@ -2760,6 +2760,7 @@ planet2001      1H  IN A    10.192.16.180
 pc2004          1H  IN A    10.192.16.170
 pc2005          1H  IN A    10.192.32.128
 pc2006          1H  IN A    10.192.48.39
+phab2001        1H  IN A    10.192.32.147
 pybal-test2001  1H  IN A    10.192.16.139 ; VM on the ganeti01.svc.codfw.wmnet cluster
 pybal-test2002  1H  IN A    10.192.16.140 ; VM on the ganeti01.svc.codfw.wmnet cluster
 pybal-test2003  1H  IN A    10.192.16.141 ; VM on the ganeti01.svc.codfw.wmnet cluster
@@ -3418,6 +3419,7 @@ osm-web2004     1H  IN A    10.193.2.12
 pc2004          1H  IN A    10.193.2.231
 pc2005          1H  IN A    10.193.2.232
 pc2006          1H  IN A    10.193.2.233
+phab2001        1H  IN A    10.193.2.252
 procyon         1H  IN A    10.193.2.117
 rdb2001         1H  IN A    10.193.2.159
 rdb2002         1H  IN A    10.193.2.160
