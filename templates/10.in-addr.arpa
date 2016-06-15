@@ -3533,6 +3533,18 @@ $ORIGIN 1.193.{{ zonename }}.
 136 1H IN PTR  wmf6453.mgmt.codfw.wmnet.
 137 1H IN PTR  mw2250.mgmt.codfw.wmnet.
 137 1H IN PTR  wmf6454.mgmt.codfw.wmnet.
+138 1H IN PTR  ms-be2022.mgmt.codfw.wmnet.
+138 1H IN PTR  wmf6455.mgmt.codfw.wmnet.
+139 1H IN PTR  ms-be2023.mgmt.codfw.wmnet.
+139 1H IN PTR  wmf6456.mgmt.codfw.wmnet.
+140 1H IN PTR  ms-be2024.mgmt.codfw.wmnet.
+140 1H IN PTR  wmf6457.mgmt.codfw.wmnet.
+141 1H IN PTR  ms-be2025.mgmt.codfw.wmnet.
+141 1H IN PTR  wmf6458.mgmt.codfw.wmnet.
+142 1H IN PTR  ms-be2026.mgmt.codfw.wmnet.
+142 1H IN PTR  wmf6459.mgmt.codfw.wmnet.
+143 1H IN PTR  ms-be2027.mgmt.codfw.wmnet.
+143 1H IN PTR  wmf6460.mgmt.codfw.wmnet.
 
 161 1H IN PTR  mw2061.mgmt.codfw.wmnet.
 162 1H IN PTR  mw2062.mgmt.codfw.wmnet.
