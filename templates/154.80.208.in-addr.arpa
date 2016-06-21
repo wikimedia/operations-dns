@@ -188,6 +188,6 @@ $ORIGIN {{ zonename }}.
 
 ; - - 208.80.154.248/29 (248-255) LVS Misc
 
-249 1H  IN PTR  stream-lb.eqiad.wikimedia.org.
+249 300 IN PTR  stream-lb.eqiad.wikimedia.org.
 250 1H  IN PTR  git-ssh.eqiad.wikimedia.org.
 251 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.
