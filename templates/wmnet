@@ -837,6 +837,7 @@ labvirt1010     1H  IN A        10.64.20.26
 labvirt1011     1H  IN A        10.64.20.27
 wdqs1001        1H  IN A        10.64.48.112
 wdqs1002        1H  IN A        10.64.32.183
+WMF4724         1H  IN A        10.64.37.22
 wtp1001         1H  IN A        10.64.32.78
 wtp1002         1H  IN A        10.64.32.73
 wtp1003         1H  IN A        10.64.32.74

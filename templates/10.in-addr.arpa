@@ -931,6 +931,7 @@ $ORIGIN 37.64.{{ zonename }}.
 19      1H IN PTR       labstore1004.eqiad.wmnet.
 20      1H IN PTR       labstore1005.eqiad.wmnet.
 21      1H IN PTR       relforge1002.eqiad.wmnet.
+22      1H IN PTR       WMF4724.eqiad.wmnet.
 
 ; 10.64.40.0/23 - frack.eqiad subnets
 $ORIGIN 40.64.{{ zonename }}.
