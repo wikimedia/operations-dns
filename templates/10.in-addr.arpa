@@ -2174,6 +2174,30 @@ $ORIGIN 4.65.{{ zonename }}.
 57  1H  IN PTR      wmf4794.mgmt.eqiad.wmnet.
 58  1H  IN PTR      maps1004.mgmt.eqiad.wmnet.
 58  1H  IN PTR      wmf4795.mgmt.eqiad.wmnet.
+59  1H  IN PTR      labsdb1009.mgmt.eqiad.wmnet.
+59  1H  IN PTR      wmf4797.mgmt.eqiad.wmnet.
+60  1H  IN PTR      labsdb1010.mgmt.eqiad.wmnet.
+60  1H  IN PTR      wmf4798.mgmt.eqiad.wmnet.
+61  1H  IN PTR      labsdb1011.mgmt.eqiad.wmnet.
+61  1H  IN PTR      wmf4799.mgmt.eqiad.wmnet.
+62  1H  IN PTR      labvirt1012.mgmt.eqiad.wmnet.
+62  1H  IN PTR      wmf6976.mgmt.eqiad.wmnet.
+63  1H  IN PTR      labvirt1013.mgmt.eqiad.wmnet.
+63  1H  IN PTR      wmf6977.mgmt.eqiad.wmnet.
+64  1H  IN PTR      labvirt1014.mgmt.eqiad.wmnet.
+64  1H  IN PTR      wmf6978.mgmt.eqiad.wmnet.
+65  1H  IN PTR      ms-be1022.mgmt.eqiad.wmnet.
+65  1H  IN PTR      wmf6970.mgmt.eqiad.wmnet.
+66  1H  IN PTR      ms-be1023.mgmt.eqiad.wmnet.
+66  1H  IN PTR      wmf6971.mgmt.eqiad.wmnet.
+67  1H  IN PTR      ms-be1024.mgmt.eqiad.wmnet.
+67  1H  IN PTR      wmf6972.mgmt.eqiad.wmnet.
+68  1H  IN PTR      ms-be1025.mgmt.eqiad.wmnet.
+68  1H  IN PTR      wmf6973.mgmt.eqiad.wmnet.
+69  1H  IN PTR      ms-be1026.mgmt.eqiad.wmnet.
+69  1H  IN PTR      wmf6974.mgmt.eqiad.wmnet.
+70  1H  IN PTR      ms-be1027.mgmt.eqiad.wmnet.
+70  1H  IN PTR      wmf6975.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.{{ zonename }}.
 
