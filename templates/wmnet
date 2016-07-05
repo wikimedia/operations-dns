@@ -383,7 +383,6 @@ es1017          1H  IN A        10.64.48.114
 es1018          1H  IN A        10.64.48.115
 es1019          1H  IN A        10.64.48.116
 etherpad1001    1H  IN A        10.64.32.177 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-etherpad1001b   1H  IN CNAME    etherpad1001 ; T138516
 eventlog1001    1H  IN A        10.64.32.167
 fluorine        1H  IN A        10.64.0.21
 francium        1H  IN A        10.64.32.168
