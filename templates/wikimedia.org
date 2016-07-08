@@ -476,6 +476,8 @@ frdata          1H  IN CNAME    frdata-eqiad
 
 gerrit          1H  IN A        208.80.154.81
                 1H  IN AAAA     2620:0:861:3:208:80:154:81
+gerrit-new      1H  IN A        208.80.154.85
+                1H  IN AAAA     2620:0:861:3:208:80:154:85
 git             600 IN DYNA     geoip!misc-addrs
 graphite        600 IN DYNA     geoip!misc-addrs
 grafana         600 IN DYNA     geoip!misc-addrs
