@@ -307,6 +307,11 @@ $ORIGIN 0.64.{{ zonename }}.
 77  1H IN PTR   mw1282.eqiad.wmnet.
 78  1H IN PTR   mw1283.eqiad.wmnet.
 79  1H IN PTR   maps1001.eqiad.wmnet.
+80  1H IN PTR   mc1019.eqiad.wmnet.
+81  1H IN PTR   mc1020.eqiad.wmnet.
+82  1H IN PTR   mc1021.eqiad.wmnet.
+83  1H IN PTR   mc1022.eqiad.wmnet.
+84  1H IN PTR   mc1023.eqiad.wmnet.
 
 91  1H IN PTR   db1079.eqiad.wmnet.
 92  1H IN PTR   db1080.eqiad.wmnet.
@@ -546,7 +551,10 @@ $ORIGIN 16.64.{{ zonename }}.
 104 1H IN PTR   db1086.eqiad.wmnet.
 105 1H IN PTR   mw1305.eqiad.wmnet.
 106 1H IN PTR   mw1306.eqiad.wmnet.
-
+107 1H IN PTR   mc1024.eqiad.wmnet.
+108 1H IN PTR   mc1025.eqiad.wmnet.
+109 1H IN PTR   mc1026.eqiad.wmnet.
+110 1H IN PTR   mc1027.eqiad.wmnet.
 111 1H IN PTR   mw1131.eqiad.wmnet.
 112 1H IN PTR   mw1132.eqiad.wmnet.
 113 1H IN PTR   mw1133.eqiad.wmnet.
@@ -862,12 +870,17 @@ $ORIGIN 32.64.{{ zonename }}.
 
 201     1H IN PTR       d-i-test.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 
-202      1H IN PTR       restbase1012-a.eqiad.wmnet.
-203      1H IN PTR       restbase1012-b.eqiad.wmnet.
-204      1H IN PTR       restbase1012-c.eqiad.wmnet.
-205      1H IN PTR       restbase1013-a.eqiad.wmnet.
-206      1H IN PTR       restbase1013-b.eqiad.wmnet.
-207      1H IN PTR       restbase1013-c.eqiad.wmnet.
+202     1H IN PTR       restbase1012-a.eqiad.wmnet.
+203     1H IN PTR       restbase1012-b.eqiad.wmnet.
+204     1H IN PTR       restbase1012-c.eqiad.wmnet.
+205     1H IN PTR       restbase1013-a.eqiad.wmnet.
+206     1H IN PTR       restbase1013-b.eqiad.wmnet.
+207     1H IN PTR       restbase1013-c.eqiad.wmnet.
+208     1H IN PTR       mc1028.eqiad.wmnet.
+209     1H IN PTR       mc1029.eqiad.wmnet.
+210     1H IN PTR       mc1030.eqiad.wmnet.
+211     1H IN PTR       mc1031.eqiad.wmnet.
+212     1H IN PTR       mc1032.eqiad.wmnet.
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
@@ -1122,6 +1135,11 @@ $ORIGIN 48.64.{{ zonename }}.
 152     1H  IN PTR      db1093.eqiad.wmnet.
 153     1H  IN PTR      db1094.eqiad.wmnet.
 154     1H  IN PTR      maps1004.eqiad.wmnet.
+155     1H  IN PTR      mc1033.eqiad.wmnet.
+156     1H  IN PTR      mc1034.eqiad.wmnet.
+157     1H  IN PTR      mc1035.eqiad.wmnet.
+158     1H  IN PTR      mc1036.eqiad.wmnet.
+
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
 2       1H IN PTR       vl1020-eth3.lvs1002.wikimedia.org.
