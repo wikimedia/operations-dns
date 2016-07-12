@@ -30,12 +30,6 @@ $ORIGIN {{ zonename }}.
 ; DMARC records http://dmarc.org/ -- policy none (monitor), for now
 _dmarc                  600     IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
 
-; SPF records
-wikimedia.org.          600     IN TXT  "v=spf1 include:wikimedia.org ?all"
-
-; temporary SPF record for fundraising tests, see T135410
-donate                  600     IN TXT  "v=spf1 include:donate.wikimedia.org ?all"
-
 ; Wikis (alphabetic order)
 
 arbcom-de               600     IN DYNA         geoip!text-addrs
