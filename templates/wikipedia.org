@@ -28,6 +28,12 @@
 ; DMARC records http://dmarc.org/ -- policy none (monitor), for now
 _dmarc                  600     IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
 
+; SPF records
+@                       600     IN TXT  "v=spf1 include:wikimedia.org ?all"
+
+; temporary DKIM record for fundraising A/B testing, ref. T135410
+spop1024._domainkey 1H IN TXT "v=DKIM1; k=rsa; g=donate; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDpnujkAKfZWUN6W07scekor+i8wGvRGq3Ns9bk3nmgWovfbBebFwzHoNv3Oaq9VMf1cdTf53fuQY5NVZQ+hGZXqJ4mkcNJnSC0BZuGC45kUWjyOhB+Pxf0o9AuGM8QCQwm4nnvNqUe/lME7bFTzrtCSrF7sG0UxvwM2AeDEZj5NQIDAQAB"
+
 ; Wikis (alphabetic order)
 
 arbcom-de               600     IN DYNA         geoip!text-addrs
