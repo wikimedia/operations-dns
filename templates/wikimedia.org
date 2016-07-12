@@ -231,10 +231,6 @@ dns-rec-lb.eqiad    1H  IN A    208.80.154.239
 
 geoiplookup-lb.eqiad    600 IN DYNA geoip!geoiplookup-addrs/eqiad
 
-; probably can be removed, shouldn't have been publicly used.
-; Check post-transition (can't tell before due to CNAME).
-stream-lb.eqiad     600 IN DYNA geoip!misc-addrs
-
 ; These legacy entries should eventually move to RESTBase
 cxserver            600 IN DYNA geoip!text-addrs
 citoid              600 IN DYNA geoip!text-addrs
