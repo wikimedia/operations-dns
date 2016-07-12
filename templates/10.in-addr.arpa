@@ -958,9 +958,6 @@ $ORIGIN 40.64.{{ zonename }}.
 7   1H IN PTR   payments1003.frack.eqiad.wmnet.
 8   1H IN PTR   payments1004.frack.eqiad.wmnet.
 9   1H IN PTR   payments1005.frack.eqiad.wmnet.
-10  1H IN PTR   payments1006.frack.eqiad.wmnet.
-11  1H IN PTR   payments1007.frack.eqiad.wmnet.
-12  1H IN PTR   payments1008.frack.eqiad.wmnet.
 
 20  1H IN PTR   pay-lvs1001.frack.eqiad.wmnet.
 21  1H IN PTR   pay-lvs1002.frack.eqiad.wmnet.
@@ -1844,7 +1841,7 @@ $ORIGIN 3.65.{{ zonename }}.
 53  1H  IN PTR      niobium.mgmt.eqiad.wmnet.
 53  1H  IN PTR      wmf3428.mgmt.eqiad.wmnet.
 54  1H  IN PTR      payments1003.mgmt.eqiad.wmnet.
-54  1H  IN PTR      wmf3429.mgmt.eqiad.wmnet.
+54  1H  IN PTR      wmf6949.mgmt.eqiad.wmnet.
 55  1H  IN PTR      payments1001.mgmt.eqiad.wmnet.
 55  1H  IN PTR      wmf3430.mgmt.eqiad.wmnet.
 56  1H  IN PTR      ruthenium.mgmt.eqiad.wmnet.
@@ -2182,9 +2179,6 @@ $ORIGIN 4.65.{{ zonename }}.
 50  1H  IN PTR      druid1003.mgmt.eqiad.wmnet.
 50  1H  IN PTR      wmf4772.mgmt.eqiad.wmnet.
 51  1H  IN PTR      payments1005.mgmt.eqiad.wmnet.
-52  1H  IN PTR      payments1006.mgmt.eqiad.wmnet.
-53  1H  IN PTR      payments007.mgmt.eqiad.wmnet.
-54  1H  IN PTR      payments1008.mgmt.eqiad.wmnet.
 55  1H  IN PTR      maps1001.mgmt.eqiad.wmnet.
 55  1H  IN PTR      wmf4792.mgmt.eqiad.wmnet.
 56  1H  IN PTR      maps1002.mgmt.eqiad.wmnet.

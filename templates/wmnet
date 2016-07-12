@@ -2078,12 +2078,9 @@ WMF3430         1H  IN A    10.65.3.55
 payments1002    1H  IN A    10.65.3.47
 WMF3422         1H  IN A    10.65.3.47
 payments1003    1H  IN A    10.65.3.54
-WMF3429         1H  IN A    10.65.3.54
+wmf6949        1H  IN A    10.65.3.54
 payments1004    1H  IN A    10.65.3.46
 payments1005    1H  IN A    10.65.4.51
-payments1006    1H  IN A    10.65.4.52
-payments1007    1H  IN A    10.65.4.53
-payments1008    1H  IN A    10.65.4.54
 WMF3421     1H  IN A    10.65.3.46
 WMF4073     1H  IN A    10.65.3.118
 tin         1H  IN A    10.65.3.118
@@ -2365,9 +2362,6 @@ payments1002    1H      IN A    10.64.40.6
 payments1003    1H      IN A    10.64.40.7
 payments1004    1H      IN A    10.64.40.8
 payments1005    1H      IN A    10.64.40.9
-payments1006    1H      IN A    10.64.40.10
-payments1007    1H      IN A    10.64.40.11
-payments1008    1H      IN A    10.64.40.12
 rkhunter.boron  1H      IN CNAME  boron
 silicon         1H      IN A    10.64.40.98
 samarium        1H      IN A    10.64.40.130
