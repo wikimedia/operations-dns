@@ -1,6 +1,4 @@
 ; vim: set expandtab:smarttab
-$TTL 3600
-$ORIGIN {{ zonename }}.
 @           1D  IN SOA ns0 hostmaster (
                     {{ serial }}    ; serial
                     12H     ; refresh

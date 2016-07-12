@@ -1,7 +1,5 @@
 ; vim: set expandtab:smarttab
 {% from "helpers/langlist.tmpl" import geolanglist with context -%}
-$TTL 3600
-$ORIGIN {{ zonename }}.
 @           1D  IN SOA  ns0.wikimedia.org.  hostmaster.wikimedia.org.   (
                     {{ serial }}    ; serial
                     12H     ; refresh
