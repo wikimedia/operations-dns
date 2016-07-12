@@ -20,7 +20,7 @@ fundraisingdb-read  5M  IN CNAME    db1008.frack.eqiad.wmnet.
 ; EQIAD
 ;
 
-$ORIGIN eqiad.{{ zonename }}.
+$ORIGIN eqiad.wmnet.
 
 ; Service aliases
 syslog          1H  IN CNAME    lithium.eqiad.wmnet.
@@ -887,7 +887,7 @@ xenon-b         1H  IN A        10.64.0.203 ; cassandra instance
 
 ; Management
 
-$ORIGIN mgmt.eqiad.{{ zonename }}.
+$ORIGIN mgmt.eqiad.wmnet.
 
 mr1-eqiad           1H  IN A        10.65.0.1
 
@@ -2338,7 +2338,7 @@ eth4-1102.labnet1001    1H  IN A    10.68.16.1
 
 ; EQIAD fundraising/payments
 
-$ORIGIN frack.eqiad.{{ zonename }}.
+$ORIGIN frack.eqiad.wmnet.
 aluminium       1H      IN A    10.64.40.110
 americium       1H      IN A    10.64.40.113
 barium          1H      IN A    10.64.40.109
@@ -2370,7 +2370,7 @@ thulium         1H      IN A    10.64.40.162
 
 ; EQIAD analytics cluster
 
-$ORIGIN analytics.eqiad.{{ zonename }}.
+$ORIGIN analytics.eqiad.wmnet.
 namenode        1H      IN CNAME  analytics1001.eqiad.wmnet.
 resourcemanager 1H      IN CNAME  analytics1001.eqiad.wmnet.
 
@@ -2379,7 +2379,7 @@ resourcemanager 1H      IN CNAME  analytics1001.eqiad.wmnet.
 ; CODFW
 ;
 
-$ORIGIN codfw.{{ zonename }}.
+$ORIGIN codfw.wmnet.
 
 ; Service aliases
 config-master   1H  IN CNAME    palladium.eqiad.wmnet.
@@ -3022,7 +3022,7 @@ saiph               1H  IN A    10.195.0.104
 
 ; CODFW management
 
-$ORIGIN mgmt.codfw.{{ zonename }}.
+$ORIGIN mgmt.codfw.wmnet.
 
 mr1-codfw       1H  IN A        10.193.0.1
 
@@ -3989,7 +3989,7 @@ WMF6460         1H  IN A    10.193.1.143
 ; ESAMS
 ;
 
-$ORIGIN esams.{{ zonename }}.
+$ORIGIN esams.wmnet.
 
 lvs3001     1H      IN A    10.20.0.11
 lvs3002     1H      IN A    10.20.0.12
@@ -4105,7 +4105,7 @@ _etcd._tcp      5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
 ms-fe       600 IN A        10.20.0.15
 ms-fe       600 IN A        10.20.0.16
 
-$ORIGIN mgmt.esams.{{ zonename }}.
+$ORIGIN mgmt.esams.wmnet.
 
 cr1-esams     1H  IN A        10.21.0.116
 asw-esams     1H  IN A        10.21.0.104
