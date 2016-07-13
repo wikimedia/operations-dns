@@ -634,6 +634,8 @@ $ORIGIN 16.64.{{ zonename }}.
 189 1H IN PTR   praseodymium-b.eqiad.wmnet.
 190 1H IN PTR   db1076.eqiad.wmnet.
 191 1H IN PTR   db1077.eqiad.wmnet.
+192 1H IN PTR   ms-be1022.eqiad.wmnet.
+193 1H IN PTR   ms-be1023.eqiad.wmnet.
 
 $ORIGIN 17.64.{{ zonename }}.
 
@@ -809,6 +811,9 @@ $ORIGIN 32.64.{{ zonename }}.
 115     1H IN PTR       db1089.eqiad.wmnet.
 116     1H IN PTR       db1090.eqiad.wmnet.
 117     1H IN PTR       maps1003.eqiad.wmnet.
+118     1H IN PTR       ms-be1024.eqiad.wmnet.
+119     1H IN PTR       ms-be1025.eqiad.wmnet.
+
 135     1H IN PTR       hassium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 136     1H IN PTR       db1078.eqiad.wmnet.
 137     1H IN PTR       logstash1002.eqiad.wmnet.
@@ -1137,7 +1142,8 @@ $ORIGIN 48.64.{{ zonename }}.
 156     1H  IN PTR      mc1034.eqiad.wmnet.
 157     1H  IN PTR      mc1035.eqiad.wmnet.
 158     1H  IN PTR      mc1036.eqiad.wmnet.
-
+159     1H  IN PTR      ms-be1026.eqiad.wmnet.
+160     1H  IN PTR      ms-be1027.eqiad.wmnet.
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
 2       1H IN PTR       vl1020-eth3.lvs1002.wikimedia.org.
