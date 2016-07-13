@@ -328,10 +328,6 @@ $ORIGIN 0.64.{{ zonename }}.
 105 1H IN PTR   cp1068.eqiad.wmnet.
 106 1H IN PTR   graphite1003.eqiad.wmnet.
 107 1H IN PTR   aqs1004.eqiad.wmnet.
-108 1H IN PTR   elastic1001.eqiad.wmnet.
-109 1H IN PTR   elastic1002.eqiad.wmnet.
-110 1H IN PTR   elastic1003.eqiad.wmnet.
-111 1H IN PTR   elastic1004.eqiad.wmnet.
 112 1H IN PTR   restbase1010.eqiad.wmnet.
 113 1H IN PTR   restbase1011.eqiad.wmnet.
 114 1H IN PTR   restbase1010-a.eqiad.wmnet.
@@ -818,12 +814,6 @@ $ORIGIN 32.64.{{ zonename }}.
 136     1H IN PTR       db1078.eqiad.wmnet.
 137     1H IN PTR       logstash1002.eqiad.wmnet.
 138     1H IN PTR       aqs1005.eqiad.wmnet.
-139     1H IN PTR       elastic1007.eqiad.wmnet.
-140     1H IN PTR       elastic1008.eqiad.wmnet.
-141     1H IN PTR       elastic1009.eqiad.wmnet.
-142     1H IN PTR       elastic1010.eqiad.wmnet.
-143     1H IN PTR       elastic1011.eqiad.wmnet.
-144     1H IN PTR       elastic1012.eqiad.wmnet.
 146     1H IN PTR       osmium.eqiad.wmnet.
 147     1H IN PTR       hp1001.eqiad.wmnet.
 148     1H IN PTR       rcs1001.eqiad.wmnet.
@@ -1003,10 +993,6 @@ $ORIGIN 48.64.{{ zonename }}.
 2   1H IN PTR   ae4-1020.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae4-1020.cr2-eqiad.wikimedia.org.
 
-10      1H IN PTR       elastic1013.eqiad.wmnet.
-11      1H IN PTR       elastic1014.eqiad.wmnet.
-12      1H IN PTR       elastic1015.eqiad.wmnet.
-13      1H IN PTR       elastic1016.eqiad.wmnet.
 14      1H IN PTR       db1061.eqiad.wmnet.
 15      1H IN PTR       db1062.eqiad.wmnet.
 16      1H IN PTR       db1063.eqiad.wmnet.
@@ -1109,8 +1095,6 @@ $ORIGIN 48.64.{{ zonename }}.
 115     1H  IN PTR      es1018.eqiad.wmnet.
 116     1H  IN PTR      es1019.eqiad.wmnet.
 117     1H  IN PTR      aqs1003.eqiad.wmnet.
-118     1H  IN PTR      elastic1005.eqiad.wmnet.
-119     1H  IN PTR      elastic1006.eqiad.wmnet.
 120     1H  IN PTR      restbase1009-a.eqiad.wmnet.
 121     1H  IN PTR      auth1001.eqiad.wmnet.
 128     1H  IN PTR      pc1006.eqiad.wmnet.
