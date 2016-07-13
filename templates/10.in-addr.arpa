@@ -426,6 +426,7 @@ $ORIGIN 4.64.{{ zonename }}.
 11  1H IN PTR   labsdb1001.eqiad.wmnet.
 12  1H IN PTR   scandium.eqiad.wmnet.
 13  1H IN PTR   relforge1001.eqiad.wmnet.
+14  1H IN PTR   labsdb1009.eqiad.wmnet.
 
 ; 10.64.5.0/24 - analytics1-a-eqiad
 $ORIGIN 5.64.{{ zonename }}.
@@ -945,6 +946,8 @@ $ORIGIN 37.64.{{ zonename }}.
 20      1H IN PTR       labstore1005.eqiad.wmnet.
 21      1H IN PTR       relforge1002.eqiad.wmnet.
 22      1H IN PTR       WMF4724.eqiad.wmnet.
+23      1H IN PTR       labsdb1010.eqiad.wmnet.
+24      1H IN PTR       labsdb1011.eqiad.wmnet.
 
 ; 10.64.40.0/23 - frack.eqiad subnets
 $ORIGIN 40.64.{{ zonename }}.

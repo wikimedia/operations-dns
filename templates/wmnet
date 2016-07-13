@@ -415,6 +415,9 @@ labsdb1005      1H  IN A        10.64.37.9
 labsdb1006      1H  IN A        10.64.37.11
 labsdb1007      1H  IN A        10.64.37.12
 labsdb1008      1H  IN A        10.64.37.15
+labsdb1009      1H  IN A        10.64.4.14
+labsdb1010      1H  IN A        10.64.37.23
+labsdb1011      1H  IN A        10.64.37.24
 labvirt1001     1H  IN A        10.64.20.19
 labvirt1002     1H  IN A        10.64.20.20
 labvirt1003     1H  IN A        10.64.20.21
