@@ -2067,14 +2067,13 @@ WMF3432     1H  IN A    10.65.3.57
 indium      1H  IN A    10.65.3.117
 
 payments1001    1H  IN A    10.65.3.55
-WMF3430         1H  IN A    10.65.3.55
+wmf6951         1H  IN A    10.65.3.55
 payments1002    1H  IN A    10.65.3.47
-WMF3422         1H  IN A    10.65.3.47
+wmf6950         1H  IN A    10.65.3.47
 payments1003    1H  IN A    10.65.3.54
-wmf6949        1H  IN A    10.65.3.54
+wmf6949         1H  IN A    10.65.3.54
 payments1004    1H  IN A    10.65.3.46
-payments1005    1H  IN A    10.65.4.51
-WMF3421     1H  IN A    10.65.3.46
+wmf6948         1H  IN A    10.65.3.46
 WMF4073     1H  IN A    10.65.3.118
 tin         1H  IN A    10.65.3.118
 WMF4074     1H  IN A    10.65.3.119
