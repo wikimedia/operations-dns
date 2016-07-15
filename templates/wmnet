@@ -37,7 +37,7 @@ deployment      1H  IN CNAME    tin.eqiad.wmnet.
 s1-master       5M  IN CNAME    db1057.eqiad.wmnet.
 s2-master       5M  IN CNAME    db1018.eqiad.wmnet.
 s3-master       5M  IN CNAME    db1075.eqiad.wmnet.
-s4-master       5M  IN CNAME    db1042.eqiad.wmnet.
+s4-master       5M  IN CNAME    db1040.eqiad.wmnet.
 s5-master       5M  IN CNAME    db1049.eqiad.wmnet.
 s6-master       5M  IN CNAME    db1050.eqiad.wmnet.
 s7-master       5M  IN CNAME    db1041.eqiad.wmnet.
