@@ -1843,12 +1843,6 @@ $ORIGIN 3.65.{{ zonename }}.
 59  1H  IN PTR      wmf3434.mgmt.eqiad.wmnet.
 60  1H  IN PTR      mw1260.mgmt.eqiad.wmnet.
 60  1H  IN PTR      wmf3435.mgmt.eqiad.wmnet.
-61  1H  IN PTR      wmf3437.mgmt.eqiad.wmnet.
-61  1H  IN PTR      pc1001.mgmt.eqiad.wmnet.
-62  1H  IN PTR      wmf3438.mgmt.eqiad.wmnet.
-62  1H  IN PTR      pc1002.mgmt.eqiad.wmnet.
-63  1H  IN PTR      wmf3439.mgmt.eqiad.wmnet.
-63  1H  IN PTR      pc1003.mgmt.eqiad.wmnet.
 68  1H  IN PTR      wmf3444.mgmt.eqiad.wmnet.
 68  1H  IN PTR      labsdb1003.mgmt.eqiad.wmnet.
 69  1H  IN PTR      wmf3445.mgmt.eqiad.wmnet.
