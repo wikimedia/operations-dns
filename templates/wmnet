@@ -4290,6 +4290,7 @@ mathoid     1H  IN A        10.2.2.20
 rendering   1H  IN A        10.2.2.21
 api         1H  IN A        10.2.2.22
 eventbus    1H  IN A        10.2.2.23
+thumbor     1H  IN A        10.2.2.24
 
 ms-fe       1H  IN A        10.2.2.27
 ms-fe-thumbs 1H IN A        10.2.2.27
@@ -4330,6 +4331,7 @@ mathoid         1H  IN A        10.2.1.20
 rendering       1H  IN A        10.2.1.21
 api             1H  IN A        10.2.1.22
 eventbus        1H  IN A        10.2.1.23
+thumbor         1H  IN A        10.2.1.24
 
 ms-fe           1H  IN A        10.2.1.27
 ms-fe-thumbs    1H  IN A        10.2.1.27

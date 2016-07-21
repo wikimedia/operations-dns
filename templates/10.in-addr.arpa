@@ -31,6 +31,7 @@ $ORIGIN 1.2.{{ zonename }}.
 21  1H  IN PTR  rendering.svc.codfw.wmnet.
 22  1H  IN PTR  api.svc.codfw.wmnet.
 23  1H  IN PTR  eventbus.svc.codfw.wmnet.
+24  1H  IN PTR  thumbor.svc.codfw.wmnet.
 
 27  1H  IN PTR  ms-fe.svc.codfw.wmnet.
 28  1H  IN PTR  parsoid.svc.codfw.wmnet.
@@ -57,6 +58,7 @@ $ORIGIN 2.2.{{ zonename }}.
 21  1H  IN PTR  rendering.svc.eqiad.wmnet.
 22  1H  IN PTR  api.svc.eqiad.wmnet.
 23  1H  IN PTR  eventbus.svc.eqiad.wmnet.
+24  1H  IN PTR  thumbor.svc.eqiad.wmnet.
 
 27  1H  IN PTR  ms-fe.svc.eqiad.wmnet.
 28  1H  IN PTR  parsoid.svc.eqiad.wmnet.
