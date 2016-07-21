@@ -991,9 +991,6 @@ WMF3094     1H  IN A    10.65.2.41
 dbproxy1005 1H  IN A    10.65.2.41
 WMF3093     1H  IN A    10.65.2.42
 dbproxy1004 1H  IN A    10.65.2.42
-cp1043      1H  IN A    10.65.2.43
-WMF3092     1H  IN A    10.65.2.43
-cp1044      1H  IN A    10.65.2.44
 cp1045      1H  IN A    10.65.2.45
 cp1046      1H  IN A    10.65.2.46
 cp1047      1H  IN A    10.65.2.47
