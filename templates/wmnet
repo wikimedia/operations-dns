@@ -1992,8 +1992,6 @@ neon        1H  IN A    10.65.3.7
 WMF3144     1H  IN A    10.65.3.7
 magnesium   1H  IN A    10.65.3.5
 WMF3146     1H  IN A    10.65.3.5
-aluminium   1H  IN A    10.65.3.4
-aluminum    1H  IN CNAME    aluminium
 americium   1H  IN A    10.65.3.225
 WMF4594     1H  IN A    10.65.3.225
 bismuth     1H  IN A    10.65.3.226
@@ -2325,7 +2323,6 @@ eth4-1102.labnet1001    1H  IN A    10.68.16.1
 ; EQIAD fundraising/payments
 
 $ORIGIN frack.eqiad.wmnet.
-aluminium       1H      IN A    10.64.40.110
 americium       1H      IN A    10.64.40.113
 barium          1H      IN A    10.64.40.109
 barium-fundraising 1H      IN A    10.64.40.112
