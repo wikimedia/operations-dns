@@ -71,9 +71,8 @@ $ORIGIN 3.0.0.0.{{ zonename }}.
 3.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   radon.wikimedia.org.
 4.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   fermium.wikimedia.org.
 6.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   mx1001.wikimedia.org.
-1.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit.wikimedia.org.
 3.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   install1001.wikimedia.org.
-5.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit-new.wikimedia.org.
+5.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit.wikimedia.org.
 
 ; public1-d-eqiad (2620:0:861:4::/64)
 $ORIGIN 4.0.0.0.{{ zonename }}.

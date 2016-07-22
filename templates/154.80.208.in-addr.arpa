@@ -66,11 +66,10 @@
 78  1H  IN PTR  vl1003-eth2.lvs1001.wikimedia.org.
 79  1H  IN PTR  seaborgium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 80  1H  IN PTR  ytterbium.wikimedia.org.
-81  1H  IN PTR  gerrit.wikimedia.org.
 82  1H  IN PTR  lead.wikimedia.org.
 83  1H  IN PTR  install1001.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 84  1H  IN PTR  ununpentium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-85  1H  IN PTR  gerrit-new.wikimedia.org.
+85  1H  IN PTR  gerrit.wikimedia.org.
 91  1H  IN PTR  wiki-mail-eqiad.wikimedia.org.
 92  1H  IN PTR  labcontrol1001.wikimedia.org.
 93  1H  IN PTR  radon.wikimedia.org.
