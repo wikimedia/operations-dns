@@ -2192,7 +2192,7 @@ $ORIGIN 4.65.{{ zonename }}.
 69  1H  IN PTR      wmf6974.mgmt.eqiad.wmnet.
 70  1H  IN PTR      ms-be1027.mgmt.eqiad.wmnet.
 70  1H  IN PTR      wmf6975.mgmt.eqiad.wmnet.
-71  1H  IN PTR      mirror1001.mgmt.eqiad.wmnet.
+71  1H  IN PTR      sodium.mgmt.eqiad.wmnet.
 71  1H  IN PTR      wmf6979.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.{{ zonename }}.
