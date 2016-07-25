@@ -80,6 +80,11 @@
 246 1H IN PTR   cr2-knams.wikimedia.org.
 247 1H IN PTR   mr1-esams.wikimedia.org.
 
+; Neighbor block between cr2-eqiad and cr2-esams (91.198.174.248/31)
+
+248 1H IN PTR   xe-4-1-3.cr2-eqiad.wikimedia.org.
+249 1H IN PTR   xe-0-1-3.cr2-esams.wikimedia.org.
+
 ; Neighbor block between cr1-eqiad and cr2-knams (91.198.174.250/31)
 
 250 1H IN PTR   xe-4-2-2.cr1-eqiad.wikimedia.org.
