@@ -704,8 +704,6 @@ mw1287          1H  IN A        10.64.16.52
 mw1288          1H  IN A        10.64.16.53
 mw1289          1H  IN A        10.64.16.54
 mw1290          1H  IN A        10.64.16.55
-mw1291          1H  IN A        10.64.16.56
-mw1292          1H  IN A        10.64.16.57
 mw1293          1H  IN A        10.64.16.58
 mw1294          1H  IN A        10.64.16.59
 mw1295          1H  IN A        10.64.16.60
@@ -827,6 +825,8 @@ strontium       1H  IN A        10.64.0.164
 puppet          1H  IN CNAME    palladium.eqiad.wmnet.
 tantalum        1H  IN A        10.64.0.26
 technetium      1H  IN A        10.64.32.188
+thumbor1001     1H  IN A        10.64.16.56
+thumbor1002     1H  IN A        10.64.16.57
 tin             1H  IN A        10.64.0.196
 tin             1H  IN AAAA     2620:0:861:101:10:64:0:196
 terbium         1H  IN A        10.64.32.13
@@ -1674,9 +1674,9 @@ mw1289      1H  IN A    10.65.1.54
 WMF6928     1H  IN A    10.65.1.54
 mw1290      1H  IN A    10.65.1.55
 WMF6929     1H  IN A    10.65.1.55
-mw1291      1H  IN A    10.65.1.56
+thumbor1001 1H  IN A    10.65.1.56
 WMF6930     1H  IN A    10.65.1.56
-mw1292      1H  IN A    10.65.1.57
+thumbor1002 1H  IN A    10.65.1.57
 WMF6931     1H  IN A    10.65.1.57
 mw1293      1H  IN A    10.65.1.58
 WMF6932     1H  IN A    10.65.1.58
