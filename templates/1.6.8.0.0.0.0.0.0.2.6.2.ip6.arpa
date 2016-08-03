@@ -113,6 +113,8 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1018.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1018.cr2-eqiad.wikimedia.org.
 
+4.8.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   rhodium.eqiad.wmnet.
+
 ; private1-c-eqiad (2620:0:861:103::/64)
 $ORIGIN 3.0.1.0.{{ zonename }}.
 
