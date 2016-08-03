@@ -39,7 +39,6 @@
 65  1H IN PTR   vrrp-gw-1202.wikimedia.org.
 66  1H IN PTR   ae2-1202.cr1-eqiad.wikimedia.org.
 67  1H IN PTR   ae2-1202.cr2-eqiad.wikimedia.org.
-68  1H IN PTR   dickson.freenode.net.
 69  1H IN PTR   ripe-atlas-eqiad.wikimedia.org.
 
 ; 208.80.155.96/27 public1-d-eqiad subnet

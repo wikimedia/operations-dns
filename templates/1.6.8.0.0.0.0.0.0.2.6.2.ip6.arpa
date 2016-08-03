@@ -201,7 +201,6 @@ $ORIGIN 2.0.2.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1202.eqiad.wmnet.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1202.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1202.cr2-eqiad.wikimedia.org.
-8.6.0.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dickson.freenode.net.
 9.6.0.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ripe-atlas-eqiad.wikimedia.org.
 
 ; sandbox1-c-eqiad (2620:0:861:203::/64)
