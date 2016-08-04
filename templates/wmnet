@@ -2810,6 +2810,7 @@ pc2004          1H  IN A    10.192.16.170
 pc2005          1H  IN A    10.192.32.128
 pc2006          1H  IN A    10.192.48.39
 phab2001        1H  IN A    10.192.32.147
+phab2001        1H  IN AAAA 2620:0:860:103:10:192:32:147
 prometheus2001  1H  IN A    10.192.16.181 ; VM on the ganeti01.svc.codfw.wmnet cluster
 prometheus2002  1H  IN A    10.192.16.182 ; VM on the ganeti01.svc.codfw.wmnet cluster
 pybal-test2001  1H  IN A    10.192.16.139 ; VM on the ganeti01.svc.codfw.wmnet cluster
