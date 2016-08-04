@@ -36,7 +36,7 @@ $ORIGIN 2.0.0.0.{{ zonename }}.
 2.4.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   achernar.wikimedia.org.
 5.4.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   mx2001.wikimedia.org.
 6.4.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   wiki-mail-codfw.wikimedia.org.
-
+0.5.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   alsafi.wikimedia.org.
 
 ; public1-c-codfw (2620:0:860:3::/64)
 $ORIGIN 3.0.0.0.{{ zonename }}.
