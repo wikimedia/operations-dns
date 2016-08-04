@@ -612,7 +612,6 @@ ua               600 IN DYNA     geoip!text-addrs
 uk               600 IN DYNA     geoip!text-addrs
 usability        600 IN DYNA     geoip!text-addrs
 ve               600 IN DYNA     geoip!text-addrs
-videos           600 IN DYNA     geoip!text-addrs
 vote             600 IN DYNA     geoip!text-addrs
 wikimania        600 IN DYNA     geoip!text-addrs
 wikimania2005    600 IN DYNA     geoip!text-addrs
