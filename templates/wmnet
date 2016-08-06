@@ -735,6 +735,7 @@ pc1004          1H  IN A        10.64.0.12
 pc1005          1H  IN A        10.64.32.72
 pc1006          1H  IN A        10.64.48.128
 planet1001      1H  IN A        10.64.32.179
+planet1001      1H  IN AAAA     2620:0:861:103:10:64:32:179
 potassium       1H  IN A        10.64.16.152
 praseodymium    1H  IN A        10.64.16.149
 praseodymium-a  1H  IN A        10.64.16.188 ; cassandra instance
@@ -2802,6 +2803,7 @@ mw2212          1H  IN A    10.192.32.100
 mw2213          1H  IN A    10.192.32.101
 mw2214          1H  IN A    10.192.32.102
 planet2001      1H  IN A    10.192.16.180
+planet2001      1H  IN AAAA 2620:0:860:102:10:192:16:180
 pc2004          1H  IN A    10.192.16.170
 pc2005          1H  IN A    10.192.32.128
 pc2006          1H  IN A    10.192.48.39
