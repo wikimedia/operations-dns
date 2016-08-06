@@ -87,6 +87,7 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 8.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2012.codfw.wmnet.
 
 0.8.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   planet2001.codfw.wmnet.
+3.8.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   zosma.codfw.wmnet.
 
 ; private1-c-codfw (2620:0:860:103::/64)
 $ORIGIN 3.0.1.0.{{ zonename }}.

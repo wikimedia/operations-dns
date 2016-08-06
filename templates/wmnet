@@ -2895,6 +2895,7 @@ wtp2018         1H  IN A    10.192.32.33
 wtp2019         1H  IN A    10.192.32.34
 wtp2020         1H  IN A    10.192.32.35
 zosma           1H  IN A    10.192.16.183
+zosma           1H  IN AAAA 2620:0:860:102:10:192:16:183
 
 ; codfw LVS cross-vlan addresses
 vl2001-eth0.lvs2001 1H  IN A    208.80.153.6
