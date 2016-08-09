@@ -720,6 +720,7 @@ wikitech-static  1H  IN A        162.209.126.221
 labtestwikitech  1H  IN CNAME    labtestweb2001
 labtesthorizon   1H  IN DYNA     geoip!misc-addrs
 labtestspice     1H  IN DYNA     geoip!misc-addrs
+labspice         1H  IN DYNA     geoip!misc-addrs
 
 ; SNI testing hostname
 pinkunicorn      600 A 208.80.154.42
