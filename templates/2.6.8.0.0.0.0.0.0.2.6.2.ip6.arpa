@@ -105,9 +105,6 @@ e.0.0.0                         1H IN PTR   ns2.wikimedia.org.
 ; - - 2620:0:862:ed1a::1:0/112 (::1:0 - ::1:ffff) LVS Mobile
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
-; removed from service 2016-04-25, should wait a long time before re-using...
-; c.0.0.0                         1H IN PTR   mobile-lb.esams.wikimedia.org.
-
 ; - 2620:0:862:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS Multimedia & Misc
 
 ; - - 2620:0:862:ed1a::2:0/112 (::2:0 - ::2:ffff) LVS Multimedia

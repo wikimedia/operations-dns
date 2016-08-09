@@ -167,9 +167,6 @@
 
 ; - - 208.80.154.232/29 (232-239) LVS Mobile
 
-; removed from service 2016-04-25, should wait a long time before re-using...
-; 236 1H  IN PTR  mobile-lb.eqiad.wikimedia.org.
-
 ; these two are in the wrong subnet, but not important...
 238 1H  IN PTR  ns0.wikimedia.org.
 239 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org. ; not actually public!

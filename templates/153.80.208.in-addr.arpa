@@ -143,9 +143,6 @@
 
 ; - - 208.80.153.232/29 (232-239) LVS Mobile
 
-; removed from service 2016-04-25, should wait a long time before re-using...
-; 236 1H  IN PTR  mobile-lb.codfw.wikimedia.org.
-
 ; - 208.80.153.240/28 (240-255) LVS Multimedia & Misc
 
 ; - - 208.80.153.240/29 (240-247) LVS Multimedia
