@@ -935,7 +935,7 @@ $ORIGIN 37.64.{{ zonename }}.
 19      1H IN PTR       labstore1004.eqiad.wmnet.
 20      1H IN PTR       labstore1005.eqiad.wmnet.
 21      1H IN PTR       relforge1002.eqiad.wmnet.
-22      1H IN PTR       WMF4724.eqiad.wmnet.
+
 23      1H IN PTR       labsdb1010.eqiad.wmnet.
 24      1H IN PTR       labsdb1011.eqiad.wmnet.
 
