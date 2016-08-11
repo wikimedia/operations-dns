@@ -535,7 +535,7 @@ wiki-mail-eqiad 1H  IN A        208.80.154.91
 wiki-mail-codfw 1H  IN A        208.80.153.46
                 1H  IN AAAA     2620:0:860:2:208:80:153:46
 
-url-downloader.eqiad  1H  IN A          208.80.153.50  ; chromium
+url-downloader.eqiad  1H  IN A          208.80.154.80  ; aluminium
 url-downloader.codfw  1H  IN A          208.80.153.50 ; alsafi
 url-downloader        1H  IN CNAME      url-downloader.eqiad
 
