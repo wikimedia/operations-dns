@@ -528,6 +528,8 @@ stream          600 IN DYNA     geoip!misc-addrs
 
 svn             600 IN DYNA     geoip!text-addrs
 
+toolsadmin      600 IN DYNA     geoip!misc-addrs
+
 torrus          600 IN DYNA     geoip!misc-addrs
 
 wiki-mail-eqiad 1H  IN A        208.80.154.91
