@@ -3608,6 +3608,8 @@ $ORIGIN 1.193.{{ zonename }}.
 142 1H IN PTR  wmf6459.mgmt.codfw.wmnet.
 143 1H IN PTR  ms-be2027.mgmt.codfw.wmnet.
 143 1H IN PTR  wmf6460.mgmt.codfw.wmnet.
+144 1H IN PTR  wezen.mgmt.codfw.wmnet.
+144 1H IN PTR  wmf6461.mgmt.codfw.wmnet.
 
 161 1H IN PTR  mw2061.mgmt.codfw.wmnet.
 162 1H IN PTR  mw2062.mgmt.codfw.wmnet.
