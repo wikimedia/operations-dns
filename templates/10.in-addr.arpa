@@ -3262,6 +3262,7 @@ $ORIGIN 48.192.{{ zonename }}.
 61  1H IN PTR   ms-be2025.codfw.wmnet.
 62  1H IN PTR   ms-be2026.codfw.wmnet.
 63  1H IN PTR   ms-be2027.codfw.wmnet.
+64  1H IN PTR   wezen.codfw.wmnet.
 
 $ORIGIN 49.192.{{ zonename }}.
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
