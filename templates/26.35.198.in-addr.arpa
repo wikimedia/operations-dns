@@ -31,7 +31,6 @@
 ; - - 198.35.26.96/29 (96-103) LVS Desktop
 
 96  1H IN PTR   text-lb.ulsfo.wikimedia.org.
-97  1H IN PTR   geoiplookup-lb.ulsfo.wikimedia.org.
 
 ; - - 198.35.26.104/29 (104-111) LVS Mobile
 

@@ -163,7 +163,6 @@
 ; - - 208.80.154.224/29 (224-231) LVS Desktop
 
 224 1H  IN PTR  text-lb.eqiad.wikimedia.org.
-225 1H  IN PTR  geoiplookup-lb.eqiad.wikimedia.org.
 
 ; - - 208.80.154.232/29 (232-239) LVS Mobile
 
