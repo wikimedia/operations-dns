@@ -927,7 +927,6 @@ $ORIGIN 37.64.{{ zonename }}.
 11      1H IN PTR       labsdb1006.eqiad.wmnet.
 12      1H IN PTR       labsdb1007.eqiad.wmnet.
 13      1H IN PTR       labmon1001.eqiad.wmnet.
-14      1H IN PTR       nobelium.eqiad.wmnet.
 15      1H IN PTR       labsdb1008.eqiad.wmnet.
 16      1H IN PTR       nfs-scratch.svc.eqiad.wmnet.
 17      1H IN PTR       nfs-tools-home.svc.eqiad.wmnet.
