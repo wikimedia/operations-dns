@@ -815,6 +815,7 @@ stat1003        1H  IN A        10.64.36.103
 stat1004        1H  IN A        10.64.5.104
 bromine         1H  IN A        10.64.32.181 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 strontium       1H  IN A        10.64.0.164
+phab1001        1H  IN CNAME    iridium.eqiad.wmnet.
 puppet          1H  IN CNAME    palladium.eqiad.wmnet.
 puppetmaster.test  1H  IN CNAME    palladium.eqiad.wmnet.
 tantalum        1H  IN A        10.64.0.26
