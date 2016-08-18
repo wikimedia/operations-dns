@@ -75,7 +75,6 @@ recursor1       1H  IN A    91.198.174.216  ; esams LVS (dns-rec-lb)
 
 ; Geodynamic records
 text-lb     600 DYNA geoip!text-addrs
-bits        600 DYNA geoip!text-addrs
 upload      600 DYNA geoip!upload-addrs
 maps        600 DYNA geoip!maps-addrs
 m           600 DYNA geoip!text-addrs
