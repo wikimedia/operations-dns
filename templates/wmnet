@@ -2899,8 +2899,8 @@ wtp2017         1H  IN A    10.192.32.32
 wtp2018         1H  IN A    10.192.32.33
 wtp2019         1H  IN A    10.192.32.34
 wtp2020         1H  IN A    10.192.32.35
-wqds2001        1H  IN A    10.192.32.148
-wqds2002        1H  IN A    10.192.48.65
+wdqs2001        1H  IN A    10.192.32.148
+wdqs2002        1H  IN A    10.192.48.65
 zosma           1H  IN A    10.192.16.183 ; VM on the ganeti01.svc.codfw.wmnet cluster
 zosma           1H  IN AAAA 2620:0:860:102:10:192:16:183
 
@@ -3530,8 +3530,8 @@ wtp2017         1H  IN A    10.193.2.31
 wtp2018         1H  IN A    10.193.2.32
 wtp2019         1H  IN A    10.193.2.33
 wtp2020         1H  IN A    10.193.2.34
-wqds2001        1H  IN A    10.193.1.145
-wqds2002        1H  IN A    10.193.1.146
+wdqs2001        1H  IN A    10.193.1.145
+wdqs2002        1H  IN A    10.193.1.146
 
 ; Servers MGMT - Alphabetical by asset tag
 
