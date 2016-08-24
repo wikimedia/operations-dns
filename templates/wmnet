@@ -2795,6 +2795,8 @@ phab2001        1H  IN A    10.192.32.147
 phab2001        1H  IN AAAA 2620:0:860:103:10:192:32:147
 prometheus2001  1H  IN A    10.192.16.181 ; VM on the ganeti01.svc.codfw.wmnet cluster
 prometheus2002  1H  IN A    10.192.16.182 ; VM on the ganeti01.svc.codfw.wmnet cluster
+puppetmaster2001  1H  IN A    10.192.0.27
+puppetmaster2002  1H  IN A    10.192.48.66
 pybal-test2001  1H  IN A    10.192.16.139 ; VM on the ganeti01.svc.codfw.wmnet cluster
 pybal-test2002  1H  IN A    10.192.16.140 ; VM on the ganeti01.svc.codfw.wmnet cluster
 pybal-test2003  1H  IN A    10.192.16.141 ; VM on the ganeti01.svc.codfw.wmnet cluster
@@ -3459,6 +3461,8 @@ pc2005          1H  IN A    10.193.2.232
 pc2006          1H  IN A    10.193.2.233
 phab2001        1H  IN A    10.193.2.252
 procyon         1H  IN A    10.193.2.117
+puppetmaster2001         1H  IN A    10.193.1.147
+puppetmaster2002         1H  IN A    10.193.1.148
 rdb2001         1H  IN A    10.193.2.159
 rdb2002         1H  IN A    10.193.2.160
 rdb2003         1H  IN A    10.193.2.161
@@ -3930,6 +3934,8 @@ WMF6460         1H  IN A    10.193.1.143
 WMF6461         1H  IN A    10.193.1.144
 WMF6462         1H  IN A    10.193.1.145
 WMF6463         1H  IN A    10.193.1.146
+WMF6464         1H  IN A    10.193.1.147
+WMF6465         1H  IN A    10.193.1.148
 
 ;
 ; ESAMS

@@ -2689,6 +2689,7 @@ $ORIGIN 0.192.{{ zonename }}.
 24  1H IN PTR   ms-fe2002.codfw.wmnet.
 25  1H IN PTR   es2001.codfw.wmnet.
 26  1H IN PTR   es2002.codfw.wmnet.
+27  1H IN PTR   puppetmaster2001.codfw.wmnet.
 
 30  1H IN PTR   ms-be2013.codfw.wmnet.
 31  1H IN PTR   heze.codfw.wmnet.
@@ -3247,6 +3248,7 @@ $ORIGIN 48.192.{{ zonename }}.
 63  1H IN PTR   ms-be2027.codfw.wmnet.
 64  1H IN PTR   wezen.codfw.wmnet.
 65  1H IN PTR   wdqs2002.codfw.wmnet.
+66  1H IN PTR   puppetmaster2002.codfw.wmnet.
 
 $ORIGIN 49.192.{{ zonename }}.
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
@@ -3599,6 +3601,11 @@ $ORIGIN 1.193.{{ zonename }}.
 145 1H IN PTR  wmf6462.mgmt.codfw.wmnet.
 146 1H IN PTR  wdds2002.mgmt.codfw.wmnet.
 146 1H IN PTR  wmf6463.mgmt.codfw.wmnet.
+147 1H IN PTR  puppetmaster2001.mgmt.codfw.wmnet.
+147 1H IN PTR  wmf6464.mgmt.codfw.wmnet.
+148 1H IN PTR  puppetmaster2002.mgmt.codfw.wmnet.
+148 1H IN PTR  wmf6465.mgmt.codfw.wmnet.
+
 
 161 1H IN PTR  mw2061.mgmt.codfw.wmnet.
 162 1H IN PTR  mw2062.mgmt.codfw.wmnet.
