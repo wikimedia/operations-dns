@@ -353,8 +353,8 @@ elastic1042     1H  IN A        10.64.32.110
 elastic1043     1H  IN A        10.64.32.111
 elastic1044     1H  IN A        10.64.0.85
 elastic1045     1H  IN A        10.64.0.86
-elastic1046     1H  IN A        10.64.16.71
-elastic1047     1H  IN A        10.64.16.72
+elastic1046     1H  IN A        10.64.16.70
+elastic1047     1H  IN A        10.64.16.71
 es1011          1H  IN A        10.64.0.6
 es1012          1H  IN A        10.64.0.7
 es1013          1H  IN A        10.64.16.186
