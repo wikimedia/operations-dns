@@ -69,4 +69,3 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
-geoip/upload-addrs/ulsfo => DOWN
