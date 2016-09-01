@@ -806,6 +806,7 @@ $ORIGIN 32.64.{{ zonename }}.
 119     1H IN PTR       ms-be1025.eqiad.wmnet.
 120     1H IN PTR       elastic1021.eqiad.wmnet.
 121     1H IN PTR       elastic1022.eqiad.wmnet.
+122     1H IN PTR       elastic1029.eqiad.wmnet.
 
 135     1H IN PTR       hassium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 136     1H IN PTR       db1078.eqiad.wmnet.
@@ -1026,7 +1027,6 @@ $ORIGIN 48.64.{{ zonename }}.
 50      1H IN PTR       elastic1026.eqiad.wmnet.
 51      1H IN PTR       elastic1027.eqiad.wmnet.
 
-53      1H IN PTR       elastic1029.eqiad.wmnet.
 54      1H IN PTR       ms-be1021.eqiad.wmnet.
 55      1H IN PTR       rdb1006.eqiad.wmnet.
 56      1H  IN PTR      mw1221.eqiad.wmnet.
