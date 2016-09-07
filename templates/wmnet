@@ -1999,7 +1999,7 @@ niobium     1H  IN A    10.65.3.53
 WMF3428     1H  IN A    10.65.3.53
 palladium   1H  IN A    10.65.3.58
 WMF3433     1H  IN A    10.65.3.58
-
+wmf6992     1H  IN A    10.65.4.76
 lvs1001     1H  IN A    10.65.3.39
 lvs1002     1H  IN A    10.65.3.40
 lvs1003     1H  IN A    10.65.3.41
@@ -2233,6 +2233,10 @@ wmf4748         1H      IN A            10.65.7.77
 wmf4749         1H      IN A            10.65.7.78
 wmf4750         1H      IN A            10.65.7.79
 wmf4751         1H      IN A            10.65.7.80
+wmf6990         1H      IN A            10.65.4.75
+puppetmaster1001 1H     IN A            10.65.4.75
+wmf6991         1H      IN A            10.65.4.76
+puppetmaster1002 1H     IN A            10.65.4.76
 
 ; eqiad LVS cross-vlan addresses
 vl1017-eth1.lvs1010 1H IN A 10.64.1.10

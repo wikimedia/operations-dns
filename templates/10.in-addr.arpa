@@ -2178,6 +2178,10 @@ $ORIGIN 4.65.{{ zonename }}.
 73  1H  IN PTR      wmf6989.mgmt.eqiad.wmnet.
 74  1H  IN PTR      frauth1001.mgmt.eqiad.wmnet.
 74  1H  IN PTR      wmf6990.mgmt.eqiad.wmnet.
+75  1H  IN PTR      puppetmaster1001.mgmt.eqiad.wmnet.
+75  1H  IN PTR      wmf6991.mgmt.eqiad.wmnet.
+76  1H  IN PTR      puppetmaster1002.mgmt.eqiad.wmnet.
+76  1H  IN PTR      wmf6992.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.{{ zonename }}.
 
