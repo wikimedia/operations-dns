@@ -401,7 +401,6 @@ $ORIGIN 0.64.{{ zonename }}.
 234 1H IN PTR   elastic1033.eqiad.wmnet.
 235 1H IN PTR   elastic1034.eqiad.wmnet.
 236 1H IN PTR   elastic1035.eqiad.wmnet.
-237 1H IN PTR   contint1001.eqiad.wmnet.
 
 $ORIGIN 1.64.{{ zonename }}.
 
@@ -2476,6 +2475,7 @@ $ORIGIN 7.65.{{ zonename }}.
 73      1H      IN PTR     wmf4609.mgmt.eqiad.wmnet.
 74      1H      IN PTR     elastic1031.mgmt.eqiad.wmnet.
 74      1H      IN PTR     wmf4610.mgmt.eqiad.wmnet.
+75      1H      IN PTR     contint1001.mgmt.eqiad.wmnet.
 75      1H      IN PTR     wmf4746.mgmt.eqiad.wmnet.
 76      1H      IN PTR     wmf4747.mgmt.eqiad.wmnet.
 77      1H      IN PTR     wmf4748.mgmt.eqiad.wmnet.
