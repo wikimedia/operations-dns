@@ -433,7 +433,7 @@ annual          600 IN DYNA     geoip!misc-addrs
 
 apt             1H  IN CNAME    carbon
 
-archiva         1H  IN CNAME    titanium
+archiva         1H  IN CNAME    meitnerium
 
 benefactorevents 1H IN CNAME    trilogytools1.azurewebsites.net.
 benefactors     600 IN DYNA     geoip!text-addrs
