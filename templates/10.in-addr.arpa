@@ -461,6 +461,7 @@ $ORIGIN 16.64.{{ zonename }}.
 11  1H IN PTR   db1022.eqiad.wmnet.
 12  1H IN PTR   db1023.eqiad.wmnet.
 13  1H IN PTR   db1024.eqiad.wmnet.
+
 15  1H IN PTR   db1026.eqiad.wmnet.
 16  1H IN PTR   db1027.eqiad.wmnet.
 17  1H IN PTR   db1028.eqiad.wmnet.
@@ -484,6 +485,7 @@ $ORIGIN 16.64.{{ zonename }}.
 35  1H IN PTR   db1046.eqiad.wmnet.
 36  1H IN PTR   db1047.eqiad.wmnet.
 37  1H IN PTR   db1048.eqiad.wmnet.
+
 40  1H IN PTR   ms-be1020.eqiad.wmnet.
 41  1H IN PTR   kafka1002.eqiad.wmnet.
 42  1H IN PTR   maps1002.eqiad.wmnet.
@@ -517,6 +519,7 @@ $ORIGIN 16.64.{{ zonename }}.
 70  1H IN PTR   elastic1046.eqiad.wmnet.
 71  1H IN PTR   elastic1047.eqiad.wmnet.
 72  1H IN PTR   elastic1028.eqiad.wmnet.
+73  1H IN PTR   puppetmaster1001.eqiad.wmnet.
 
 77  1H IN PTR   mw1097.eqiad.wmnet.
 78  1H IN PTR   mw1098.eqiad.wmnet.
@@ -1020,6 +1023,7 @@ $ORIGIN 48.64.{{ zonename }}.
 42      1H IN PTR       ocg1002.eqiad.wmnet.
 43      1H IN PTR       ocg1003.eqiad.wmnet.
 44      1H IN PTR       elastic1020.eqiad.wmnet.
+45      1H IN PTR       puppetmaster1002.eqiad.wmnet.
 
 47      1H IN PTR       elastic1023.eqiad.wmnet.
 48      1H IN PTR       elastic1024.eqiad.wmnet.
