@@ -711,8 +711,8 @@ status           1H  IN A        162.209.126.221
 techblog         600 IN DYNA     geoip!text-addrs
 ticket           600 IN DYNA     geoip!misc-addrs
 tor-eqiad-1      1H  IN CNAME    radium
-ubuntu           1H  IN CNAME    carbon
-mirrors          1H  IN CNAME    carbon
+ubuntu           1H  IN CNAME    sodium
+mirrors          1H  IN CNAME    sodium
 yarn             600 IN DYNA     geoip!misc-addrs
 wikitech         1H  IN CNAME    silver
 wikitech-static  1H  IN A        162.209.126.221
