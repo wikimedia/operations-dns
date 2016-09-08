@@ -48,7 +48,7 @@ $ORIGIN 2.2.{{ zonename }}.
 10  1H  IN PTR  changeprop.svc.eqiad.wmnet.
 11  1H  IN PTR  apertium.svc.eqiad.wmnet.
 12  1H  IN PTR  aqs.svc.eqiad.wmnet.
-; reserving 13 for kartotherian to be consisent
+13  1H  IN PTR  kartotherian.svc.eqiad.wmnet.
 14  1H  IN PTR  mobileapps.svc.eqiad.wmnet.
 15  1H  IN PTR  graphoid.svc.eqiad.wmnet.
 16  1H  IN PTR  zotero.svc.eqiad.wmnet.

@@ -4275,7 +4275,7 @@ hhvm-api    1H  IN A        10.2.2.3
 ores        1H  IN A        10.2.2.10
 apertium    1H  IN A        10.2.2.11
 aqs         1H  IN A        10.2.2.12
-; 13 reserved for kartotherian
+kartotherian 1H IN A        10.2.2.13
 mobileapps  1H  IN A        10.2.2.14
 graphoid    1H  IN A        10.2.2.15
 zotero      1H  IN A        10.2.2.16
