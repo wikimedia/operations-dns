@@ -954,6 +954,8 @@ $ORIGIN 40.64.{{ zonename }}.
 7   1H IN PTR   payments1003.frack.eqiad.wmnet.
 8   1H IN PTR   payments1004.frack.eqiad.wmnet.
 
+18  1H IN PTR   pay-lvs1003.frack.eqiad.wmnet.
+19  1H IN PTR   pay-lvs1004.frack.eqiad.wmnet.
 20  1H IN PTR   pay-lvs1001.frack.eqiad.wmnet.
 21  1H IN PTR   pay-lvs1002.frack.eqiad.wmnet.
 

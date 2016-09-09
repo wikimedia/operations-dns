@@ -2305,6 +2305,8 @@ indium          1H      IN A    10.64.40.67
 lutetium        1H      IN A    10.64.40.111
 pay-lvs1001     1H      IN A    10.64.40.20
 pay-lvs1002     1H      IN A    10.64.40.21
+pay-lvs1003     1H      IN A    10.64.40.18
+pay-lvs1004     1H      IN A    10.64.40.19
 payments1001    1H      IN A    10.64.40.5
 payments1002    1H      IN A    10.64.40.6
 payments1003    1H      IN A    10.64.40.7
