@@ -2411,24 +2411,6 @@ $ORIGIN 7.65.{{ zonename }}.
 79      1H      IN PTR     wmf4750.mgmt.eqiad.wmnet.
 80      1H      IN PTR     wmf4751.mgmt.eqiad.wmnet.
 
-100     1H      IN PTR     searchidx1001.mgmt.eqiad.wmnet.
-100     1H      IN PTR     wmf3151.mgmt.eqiad.wmnet.
-101     1H      IN PTR     elastic1001.mgmt.eqiad.wmnet.
-102     1H      IN PTR     elastic1002.mgmt.eqiad.wmnet.
-103     1H      IN PTR     elastic1003.mgmt.eqiad.wmnet.
-104     1H      IN PTR     elastic1004.mgmt.eqiad.wmnet.
-105     1H      IN PTR     elastic1005.mgmt.eqiad.wmnet.
-106     1H      IN PTR     elastic1006.mgmt.eqiad.wmnet.
-107     1H      IN PTR     elastic1007.mgmt.eqiad.wmnet.
-108     1H      IN PTR     elastic1008.mgmt.eqiad.wmnet.
-109     1H      IN PTR     elastic1009.mgmt.eqiad.wmnet.
-110     1H      IN PTR     elastic1010.mgmt.eqiad.wmnet.
-111     1H      IN PTR     elastic1011.mgmt.eqiad.wmnet.
-112     1H      IN PTR     elastic1012.mgmt.eqiad.wmnet.
-113     1H      IN PTR     elastic1013.mgmt.eqiad.wmnet.
-114     1H      IN PTR     elastic1014.mgmt.eqiad.wmnet.
-115     1H      IN PTR     elastic1015.mgmt.eqiad.wmnet.
-116     1H      IN PTR     elastic1016.mgmt.eqiad.wmnet.
 
 $ORIGIN 8.65.{{ zonename }}.
 
