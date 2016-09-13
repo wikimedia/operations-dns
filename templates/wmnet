@@ -82,7 +82,7 @@ _etcd._tcp          5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
 
 ; puppet records
 _x-puppet-ca._tcp   5M  IN SRV      0 1 8140 palladium.eqiad.wmnet.
-_x-puppet._tcp      5M  IN SRV      0 1 8140 palladium.eqiad.wmnet.
+_x-puppet._tcp      5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
 
 ; Cameras
 cam1-a-eqiad        1H  IN A        10.64.0.27
