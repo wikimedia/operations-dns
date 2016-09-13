@@ -2268,7 +2268,7 @@ _etcd._tcp      5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
 
 ; puppet records
 _x-puppet-ca._tcp   5M  IN SRV      0 1 8140 palladium.eqiad.wmnet.
-_x-puppet._tcp      5M  IN SRV      0 1 8140 palladium.eqiad.wmnet.
+_x-puppet._tcp      5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
 
 ; hack to make ocg work when switching over to codfw - these are the eqiad servers
 ocg1001         1H  IN A        10.64.32.151
@@ -3979,7 +3979,7 @@ _etcd._tcp      5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
 
 ; puppet records
 _x-puppet-ca._tcp   5M  IN SRV      0 1 8140 palladium.eqiad.wmnet.
-_x-puppet._tcp      5M  IN SRV      0 1 8140 palladium.eqiad.wmnet.
+_x-puppet._tcp      5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
 
 ; temporary RR until we get new LVS up
 ms-fe       600 IN A        10.20.0.15
@@ -4172,7 +4172,7 @@ _etcd._tcp      5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
 
 ; puppet records
 _x-puppet-ca._tcp   5M  IN SRV      0 1 8140 palladium.eqiad.wmnet.
-_x-puppet._tcp      5M  IN SRV      0 1 8140 palladium.eqiad.wmnet.
+_x-puppet._tcp      5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
 
 ; EQIAD SERVICES
 
