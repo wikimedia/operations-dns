@@ -3968,7 +3968,7 @@ cp3049      1H      IN A    10.20.0.184
 ; SERVICES
 ;
 config-master   1H  IN CNAME    palladium.eqiad.wmnet.
-puppet          1H  IN CNAME    palladium.eqiad.wmnet.
+puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppetmaster.test  1H  IN CNAME    palladium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
 
