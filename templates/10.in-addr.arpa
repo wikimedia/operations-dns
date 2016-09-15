@@ -3513,21 +3513,6 @@ $ORIGIN 1.193.{{ zonename }}.
 148 1H IN PTR  puppetmaster2002.mgmt.codfw.wmnet.
 148 1H IN PTR  wmf6465.mgmt.codfw.wmnet.
 
-
-161 1H IN PTR  mw2061.mgmt.codfw.wmnet.
-162 1H IN PTR  mw2062.mgmt.codfw.wmnet.
-163 1H IN PTR  mw2063.mgmt.codfw.wmnet.
-164 1H IN PTR  mw2064.mgmt.codfw.wmnet.
-165 1H IN PTR  mw2065.mgmt.codfw.wmnet.
-166 1H IN PTR  mw2066.mgmt.codfw.wmnet.
-167 1H IN PTR  mw2067.mgmt.codfw.wmnet.
-168 1H IN PTR  mw2068.mgmt.codfw.wmnet.
-169 1H IN PTR  mw2069.mgmt.codfw.wmnet.
-170 1H IN PTR  mw2070.mgmt.codfw.wmnet.
-171 1H IN PTR  mw2071.mgmt.codfw.wmnet.
-172 1H IN PTR  mw2072.mgmt.codfw.wmnet.
-173 1H IN PTR  mw2073.mgmt.codfw.wmnet.
-174 1H IN PTR  mw2074.mgmt.codfw.wmnet.
 175 1H IN PTR  mw2075.mgmt.codfw.wmnet.
 176 1H IN PTR  mw2076.mgmt.codfw.wmnet.
 177 1H IN PTR  mw2077.mgmt.codfw.wmnet.
