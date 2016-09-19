@@ -2260,7 +2260,7 @@ $ORIGIN codfw.wmnet.
 
 ; Service aliases
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          1H  IN CNAME    puppetmaster2001.codfw.wmnet.
 puppetmaster.test  1H  IN CNAME    palladium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
 deployment      1H  IN CNAME    tin.eqiad.wmnet.
@@ -4152,7 +4152,7 @@ cp4020          1H      IN A    10.128.0.120
 ; SERVICES
 ;
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 puppetmaster.test  1H  IN CNAME    palladium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
 
