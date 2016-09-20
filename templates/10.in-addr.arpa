@@ -923,6 +923,9 @@ $ORIGIN 37.64.{{ zonename }}.
 
 23      1H IN PTR       labsdb1010.eqiad.wmnet.
 24      1H IN PTR       labsdb1011.eqiad.wmnet.
+25      1H IN PTR       eth1.labstore1004.eqiad.wmnet.
+26      1H IN PTR       eth1.labstore1005.eqiad.wmnet.
+
 
 ; 10.64.40.0/23 - frack.eqiad subnets
 $ORIGIN 40.64.{{ zonename }}.

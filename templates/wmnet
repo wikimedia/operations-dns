@@ -395,6 +395,8 @@ labstore1002    1H  IN A        10.64.37.7
 labstore1003    1H  IN A        10.64.4.10
 labstore1004    1H  IN A        10.64.37.19
 labstore1005    1H  IN A        10.64.37.20
+eth1.labstore1004    1H  IN A        10.64.37.25
+eth1.labstore1005    1H  IN A        10.64.37.26
 labsdb1004      1H  IN A        10.64.37.8
 labsdb1005      1H  IN A        10.64.37.9
 labsdb1006      1H  IN A        10.64.37.11
