@@ -483,7 +483,7 @@ ldap-codfw      1H  IN CNAME    serpens
 phabricator     600 IN DYNA     geoip!misc-addrs
                 1H  IN MX       10 mx1001
                 1H  IN MX       50 mx2001
-                1H  IN TXT      "v=spf1 mx -all"
+                1H  IN TXT      "v=spf1 mx ip4:10.64.32.150 ip6:2620:0:861:103:10:64:32:150 -all"
 
 login           600 IN DYNA     geoip!text-addrs
 
