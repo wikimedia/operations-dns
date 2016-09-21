@@ -794,7 +794,7 @@ stat1004        1H  IN A        10.64.5.104
 bromine         1H  IN A        10.64.32.181 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 strontium       1H  IN A        10.64.0.164
 phab1001        1H  IN CNAME    iridium.eqiad.wmnet.
-puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          1H  IN CNAME    puppetmaster2001.codfw.wmnet.
 puppetmaster.test  1H  IN CNAME    palladium.eqiad.wmnet.
 tantalum        1H  IN A        10.64.0.26
 technetium      1H  IN A        10.64.32.188
@@ -3959,7 +3959,7 @@ cp3049      1H      IN A    10.20.0.184
 ; SERVICES
 ;
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          1H  IN CNAME    puppetmaster2001.codfw.wmnet.
 puppetmaster.test  1H  IN CNAME    palladium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
 
