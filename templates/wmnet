@@ -795,7 +795,6 @@ bromine         1H  IN A        10.64.32.181 ; VM on the ganeti01.svc.eqiad.wmne
 strontium       1H  IN A        10.64.0.164
 phab1001        1H  IN CNAME    iridium.eqiad.wmnet.
 puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppetmaster.test  1H  IN CNAME    palladium.eqiad.wmnet.
 tantalum        1H  IN A        10.64.0.26
 technetium      1H  IN A        10.64.32.188
 thumbor1001     1H  IN A        10.64.16.56
@@ -2261,7 +2260,6 @@ $ORIGIN codfw.wmnet.
 ; Service aliases
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          1H  IN CNAME    puppetmaster2001.codfw.wmnet.
-puppetmaster.test  1H  IN CNAME    palladium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
 deployment      1H  IN CNAME    tin.eqiad.wmnet.
 statsd          1H  IN CNAME    graphite2001.codfw.wmnet.
@@ -3960,7 +3958,6 @@ cp3049      1H      IN A    10.20.0.184
 ;
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppetmaster.test  1H  IN CNAME    palladium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
 
 ; etcd client discovery
@@ -4153,7 +4150,6 @@ cp4020          1H      IN A    10.128.0.120
 ;
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
-puppetmaster.test  1H  IN CNAME    palladium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
 
 ; etcd client discovery

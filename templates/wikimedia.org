@@ -690,7 +690,6 @@ sv.planet        600 IN DYNA     geoip!misc-addrs
 uk.planet        600 IN DYNA     geoip!misc-addrs
 zh.planet        600 IN DYNA     geoip!misc-addrs
 puppet           1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppetmaster.test 1H IN CNAME    palladium.eqiad.wmnet.
 pivot            600 IN DYNA     geoip!misc-addrs
 racktables       600 IN DYNA     geoip!misc-addrs
 scholarships     600 IN DYNA     geoip!misc-addrs
