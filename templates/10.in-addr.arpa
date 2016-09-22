@@ -1012,7 +1012,7 @@ $ORIGIN 48.64.{{ zonename }}.
 43      1H IN PTR       ocg1003.eqiad.wmnet.
 44      1H IN PTR       elastic1020.eqiad.wmnet.
 45      1H IN PTR       puppetmaster1002.eqiad.wmnet.
-45      1H IN PTR       wmf4750.eqiad.wmnet.
+46      1H IN PTR       wmf4750.eqiad.wmnet.
 47      1H IN PTR       elastic1023.eqiad.wmnet.
 48      1H IN PTR       elastic1024.eqiad.wmnet.
 49      1H IN PTR       elastic1025.eqiad.wmnet.
