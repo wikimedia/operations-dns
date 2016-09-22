@@ -4199,6 +4199,7 @@ parsoid     1H  IN A        10.2.2.28
 search      1H  IN A        10.2.2.30
 ocg         1H  IN A        10.2.2.31
 wdqs        1H  IN A        10.2.2.32
+kibana      1H  IN A        10.2.2.33
 ganeti01    1H  IN A        10.64.32.173
 labstore    1H  IN A        10.64.37.10
 nfs-scratch          1H  IN A        10.64.37.16
@@ -4242,6 +4243,7 @@ parsoid         1H  IN A        10.2.1.28
 search          1H  IN A        10.2.1.30
 ; 31 reserved for ocg
 wdqs            1H  IN A        10.2.1.32
+; 33 reserved for kibana
 
 ganeti01        1H  IN A        10.192.16.131
 labstore        1H  IN A        10.192.21.7
