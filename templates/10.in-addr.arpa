@@ -45,7 +45,6 @@ $ORIGIN 2.2.{{ zonename }}.
 1   1H  IN PTR  appservers.svc.eqiad.wmnet.
 3   1H  IN PTR  hhvm-api.svc.eqiad.wmnet.
 10  1H  IN PTR  ores.svc.eqiad.wmnet.
-10  1H  IN PTR  changeprop.svc.eqiad.wmnet.
 11  1H  IN PTR  apertium.svc.eqiad.wmnet.
 12  1H  IN PTR  aqs.svc.eqiad.wmnet.
 13  1H  IN PTR  kartotherian.svc.eqiad.wmnet.
