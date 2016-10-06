@@ -283,6 +283,7 @@ cn.m                600 IN DYNA     geoip!text-addrs
 co.m                600 IN DYNA     geoip!text-addrs
 commons.m           600 IN DYNA     geoip!text-addrs
 dk.m                600 IN DYNA     geoip!text-addrs
+ec.m                600 IN DYNA     geoip!text-addrs
 ee.m                600 IN DYNA     geoip!text-addrs
 et.m                600 IN DYNA     geoip!text-addrs
 incubator.m         600 IN DYNA     geoip!text-addrs
@@ -555,6 +556,7 @@ collab           600 IN DYNA     geoip!text-addrs
 comcom           600 IN DYNA     geoip!text-addrs
 commons          600 IN DYNA     geoip!text-addrs
 dk               600 IN DYNA     geoip!text-addrs
+ec               600 IN DYNA     geoip!text-addrs
 educacao         600 IN DYNA     geoip!text-addrs
 education        600 IN DYNA     geoip!text-addrs
 ee               600 IN DYNA     geoip!text-addrs
