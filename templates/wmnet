@@ -80,6 +80,15 @@ _etcd._tcp          5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
 
+; kubernetes-related records (etcd)
+_etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 etcd1001.eqiad.wmnet.
+_etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 etcd1002.eqiad.wmnet.
+_etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 etcd1003.eqiad.wmnet.
+_etcd-server._tcp.net.k8s 5M  IN SRV      0 1 2380 etcd1004.eqiad.wmnet.
+_etcd-server._tcp.net.k8s 5M  IN SRV      0 1 2380 etcd1005.eqiad.wmnet.
+_etcd-server._tcp.net.k8s 5M  IN SRV      0 1 2380 etcd1006.eqiad.wmnet.
+
+
 ; puppet records
 _x-puppet-ca._tcp   5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
 _x-puppet._tcp      5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
@@ -364,6 +373,12 @@ es1016          1H  IN A        10.64.32.185
 es1017          1H  IN A        10.64.48.114
 es1018          1H  IN A        10.64.48.115
 es1019          1H  IN A        10.64.48.116
+etcd1001        1H  IN A        10.64.32.213
+etcd1002        1H  IN A        10.64.32.214
+etcd1003        1H  IN A        10.64.32.215
+etcd1004        1H  IN A        10.64.32.216
+etcd1005        1H  IN A        10.64.32.217
+etcd1006        1H  IN A        10.64.32.218
 etherpad1001    1H  IN A        10.64.32.177 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 eventlog1001    1H  IN A        10.64.32.167
 fluorine        1H  IN A        10.64.0.21
