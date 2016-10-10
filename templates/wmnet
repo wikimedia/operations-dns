@@ -792,6 +792,8 @@ rutherfordium   1H  IN A        10.64.32.17 ; VM on the ganeti01.svc.eqiad.wmnet
 scandium        1H  IN A        10.64.4.12
 sca1001         1H  IN A        10.64.32.153
 sca1002         1H  IN A        10.64.48.29
+sca1003         1H  IN A        10.64.32.28
+sca1004         1H  IN A        10.64.32.125
 scb1001         1H  IN A        10.64.0.16
 scb1002         1H  IN A        10.64.16.21
 snapshot1001    1H  IN A        10.64.0.120
@@ -2785,6 +2787,8 @@ restbase2009-c  1H  IN A    10.192.48.56 ; cassandra instance
 sarin           1H  IN A    10.192.0.140
 sca2001         1H  IN A    10.192.0.33
 sca2002         1H  IN A    10.192.16.36
+sca2003         1H  IN A    10.192.16.29
+sca2004         1H  IN A    10.192.16.30
 scb2001         1H  IN A    10.192.32.132
 scb2002         1H  IN A    10.192.48.43
 subra           1H  IN A    10.192.16.124
