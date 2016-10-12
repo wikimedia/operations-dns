@@ -2117,6 +2117,14 @@ $ORIGIN 4.65.{{ zonename }}.
 75  1H  IN PTR      wmf6991.mgmt.eqiad.wmnet.
 76  1H  IN PTR      puppetmaster1002.mgmt.eqiad.wmnet.
 76  1H  IN PTR      wmf6992.mgmt.eqiad.wmnet.
+77  1H  IN PTR      kubernetes1001.mgmt.eqiad.wmnet.
+77  1H  IN PTR      wmf6993.mgmt.eqiad.wmnet.
+78  1H  IN PTR      kubernetes1002.mgmt.eqiad.wmnet.
+78  1H  IN PTR      wmf6994.mgmt.eqiad.wmnet.
+79  1H  IN PTR      kubernetes1003.mgmt.eqiad.wmnet.
+79  1H  IN PTR      wmf6995.mgmt.eqiad.wmnet.
+80  1H  IN PTR      kubernetes1004.mgmt.eqiad.wmnet.
+80  1H  IN PTR      wmf6996.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.{{ zonename }}.
 

@@ -1062,6 +1062,14 @@ wmf4775         1H  IN A    10.65.4.47
 kafka1020       1H  IN A    10.65.3.103
 notebook1002    1H  IN A    10.65.3.104
 kafka1022       1H  IN A    10.65.3.105
+kubernetes1001  1H  IN A    10.65.4.77
+wmf6993         1H  IN A    10.65.4.77
+kubernetes1002  1H  IN A    10.65.4.78
+wmf6994         1H  IN A    10.65.4.78
+kubernetes1003  1H  IN A    10.65.4.79
+wmf6995         1H  IN A    10.65.4.79
+kubernets1004   1H  IN A    10.65.4.80
+wmf6996         1H  IN A    10.65.4.80
 conf1001        1H  IN A    10.65.3.112
 conf1002        1H  IN A    10.65.3.113
 conf1003        1H  IN A    10.65.3.114
