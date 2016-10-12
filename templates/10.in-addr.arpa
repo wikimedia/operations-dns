@@ -591,7 +591,7 @@ $ORIGIN 16.64.{{ zonename }}.
 169 1H IN PTR   mw1214.eqiad.wmnet.
 170 1H IN PTR   mw1215.eqiad.wmnet.
 171 1H IN PTR   mw1216.eqiad.wmnet.
-172 1H IN PTR   mw1217.eqiad.wmnet.
+
 173 1H IN PTR   mw1218.eqiad.wmnet.
 174 1H IN PTR   mw1219.eqiad.wmnet.
 175 1H IN PTR   mw1220.eqiad.wmnet.
@@ -1472,7 +1472,7 @@ $ORIGIN 1.65.{{ zonename }}.
 214 1H  IN PTR      mw1214.mgmt.eqiad.wmnet.
 215 1H  IN PTR      mw1215.mgmt.eqiad.wmnet.
 216 1H  IN PTR      mw1216.mgmt.eqiad.wmnet.
-217 1H  IN PTR      mw1217.mgmt.eqiad.wmnet.
+
 218 1H  IN PTR      mw1218.mgmt.eqiad.wmnet.
 219 1H  IN PTR      mw1219.mgmt.eqiad.wmnet.
 220 1H  IN PTR      mw1220.mgmt.eqiad.wmnet.
