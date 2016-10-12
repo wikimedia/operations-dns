@@ -1868,12 +1868,9 @@ WMF3136     1H  IN A    10.65.3.15
 helium      1H  IN A    10.65.3.14
 WMF3137     1H  IN A    10.65.3.14
 hp1001      1H      IN A    10.65.5.210
-pay-lvs1002 1H  IN A    10.65.3.13
-WMF3138     1H  IN A    10.65.3.13
-pay-lvs1001 1H  IN A    10.65.3.12
-pay-lvs1003 1H  IN A    10.65.4.72
+pay-lvs1001 1H  IN A    10.65.4.72
 wmf6988     1H  IN A    10.65.4.72
-pay-lvs1004 1H  IN A    10.65.4.73
+pay-lvs1002 1H  IN A    10.65.4.73
 wmf6989     1H  IN A    10.65.4.73
 frauth1001  1H  IN A    10.65.4.74
 wmf6990     1H  IN A    10.65.4.74
@@ -2241,8 +2238,6 @@ indium          1H      IN A    10.64.40.67
 lutetium        1H      IN A    10.64.40.111
 pay-lvs1001     1H      IN A    10.64.40.20
 pay-lvs1002     1H      IN A    10.64.40.21
-pay-lvs1003     1H      IN A    10.64.40.18
-pay-lvs1004     1H      IN A    10.64.40.19
 payments1001    1H      IN A    10.64.40.5
 payments1002    1H      IN A    10.64.40.6
 payments1003    1H      IN A    10.64.40.7
