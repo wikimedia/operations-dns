@@ -1066,7 +1066,7 @@ kubernetes1002  1H  IN A    10.65.4.78
 wmf6994         1H  IN A    10.65.4.78
 kubernetes1003  1H  IN A    10.65.4.79
 wmf6995         1H  IN A    10.65.4.79
-kubernets1004   1H  IN A    10.65.4.80
+kubernetes1004  1H  IN A    10.65.4.80
 wmf6996         1H  IN A    10.65.4.80
 conf1001        1H  IN A    10.65.3.112
 conf1002        1H  IN A    10.65.3.113
