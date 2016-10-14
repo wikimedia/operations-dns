@@ -121,6 +121,7 @@ $ORIGIN 4.0.1.0.{{ zonename }}.
 9.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2025.codfw.wmnet.
 0.3.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2026.codfw.wmnet.
 
+5.4.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   wasat.codfw.wmnet.
 
 ; labs-hosts1-a-codfw (2620:0:860:117::/64) - RESERVED
 $ORIGIN 7.1.1.0.{{ zonename }}.
