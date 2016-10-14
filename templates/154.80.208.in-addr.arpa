@@ -167,7 +167,6 @@
 
 ; these two are in the wrong subnet, but not important...
 238 1H  IN PTR  ns0.wikimedia.org.
-239 1H  IN PTR  old-dns-rec-lb.eqiad.wikimedia.org. ; not actually public! (move in progress)
 
 ; - 208.80.154.240/28 (240-255) LVS Multimedia & Misc
 
@@ -182,4 +181,4 @@
 250 1H  IN PTR  git-ssh.eqiad.wikimedia.org.
 251 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.
 
-254 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org. ; not actually public! (move in progress)
+254 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org. ; not actually public!

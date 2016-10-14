@@ -227,8 +227,6 @@ donate-lb.eqiad     600 IN DYNA geoip!text-addrs/eqiad
                 IN MX 10 mx1001
                 IN MX 50 mx2001
 ;;; ns0                 208.80.154.238
-old-dns-rec-lb.eqiad    1H  IN A    208.80.154.239
-                    1H  IN AAAA 2620:0:861:ed1a::3:fe
 dns-rec-lb.eqiad    1H  IN A    208.80.154.254
                     1H  IN AAAA 2620:0:861:ed1a::3:fe
 
