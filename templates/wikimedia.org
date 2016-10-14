@@ -498,7 +498,7 @@ payments-codfw  1H  IN A        208.80.152.228 ; codfw
 
 payments-listener-eqiad 1H  IN A    208.80.155.12
 payments-listener-codfw 1H  IN A    208.80.152.233
-payments-listener       1H  IN CNAME        payments-listener-eqiad
+payments-listener       5M  IN CNAME        payments-listener-codfw
 
 people          600 IN DYNA     geoip!misc-addrs
 
