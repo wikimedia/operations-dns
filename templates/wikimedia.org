@@ -70,7 +70,7 @@ ns0         1H  IN A    208.80.154.238
 ns1         1H  IN A    208.80.153.231
 ns2         1H  IN A    91.198.174.239
 
-recursor0       1H  IN A    208.80.154.239  ; eqiad LVS (dns-rec-lb)
+recursor0       1H  IN A    208.80.154.254  ; eqiad LVS (dns-rec-lb)
 recursor1       1H  IN A    91.198.174.216  ; esams LVS (dns-rec-lb)
 
 ; Geodynamic records
@@ -225,7 +225,9 @@ donate-lb.eqiad     600 IN DYNA geoip!text-addrs/eqiad
                 IN MX 10 mx1001
                 IN MX 50 mx2001
 ;;; ns0                 208.80.154.238
-dns-rec-lb.eqiad    1H  IN A    208.80.154.239
+old-dns-rec-lb.eqiad    1H  IN A    208.80.154.239
+                    1H  IN AAAA 2620:0:861:ed1a::3:fe
+dns-rec-lb.eqiad    1H  IN A    208.80.154.254
                     1H  IN AAAA 2620:0:861:ed1a::3:fe
 
 ; These legacy entries should eventually move to RESTBase
