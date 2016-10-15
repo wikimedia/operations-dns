@@ -118,6 +118,8 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1018.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1018.cr2-eqiad.wikimedia.org.
 
+3.7.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1001.eqiad.wmnet.
+
 ; private1-c-eqiad (2620:0:861:103::/64)
 $ORIGIN 3.0.1.0.{{ zonename }}.
 
@@ -164,6 +166,9 @@ $ORIGIN 7.0.1.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1020.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1020.cr2-eqiad.wikimedia.org.
+
+5.4.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1002.eqiad.wmnet.
+
 5.0.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1071.eqiad.wmnet.
 6.0.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1072.eqiad.wmnet.
 7.0.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1073.eqiad.wmnet.
