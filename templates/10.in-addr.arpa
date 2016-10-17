@@ -347,7 +347,7 @@ $ORIGIN 0.64.{{ zonename }}.
 118 1H IN PTR   restbase1011-b.eqiad.wmnet.
 119 1H IN PTR   restbase1011-c.eqiad.wmnet.
 120 1H IN PTR   snapshot1001.eqiad.wmnet.
-
+121 1H IN PTR   kubernetes1001.eqiad.wmnet.
 122 1H IN PTR   logstash1001.eqiad.wmnet.
 123 1H IN PTR   aqs1001.eqiad.wmnet.
 124 1H IN PTR   elastic1030.eqiad.wmnet.
@@ -525,6 +525,7 @@ $ORIGIN 16.64.{{ zonename }}.
 72  1H IN PTR   elastic1028.eqiad.wmnet.
 73  1H IN PTR   puppetmaster1001.eqiad.wmnet.
 74  1H IN PTR   wmf4747.eqiad.wmnet.
+75  1H IN PTR   kubernetes1002.eqiad.wmnet.
 
 77  1H IN PTR   mw1097.eqiad.wmnet.
 78  1H IN PTR   mw1098.eqiad.wmnet.
@@ -934,7 +935,7 @@ $ORIGIN 37.64.{{ zonename }}.
 19      1H IN PTR       labstore1004.eqiad.wmnet.
 20      1H IN PTR       labstore1005.eqiad.wmnet.
 21      1H IN PTR       relforge1002.eqiad.wmnet.
-
+22      1H IN PTR       kubernetes1003.eqiad.wmnet.
 23      1H IN PTR       labsdb1010.eqiad.wmnet.
 24      1H IN PTR       labsdb1011.eqiad.wmnet.
 25      1H IN PTR       eth1.labstore1004.eqiad.wmnet.
@@ -1026,7 +1027,7 @@ $ORIGIN 48.64.{{ zonename }}.
 49      1H IN PTR       elastic1025.eqiad.wmnet.
 50      1H IN PTR       elastic1026.eqiad.wmnet.
 51      1H IN PTR       elastic1027.eqiad.wmnet.
-
+52      1H IN PTR       kubernetes1004.eqiad.wmnet.
 54      1H IN PTR       ms-be1021.eqiad.wmnet.
 55      1H IN PTR       rdb1006.eqiad.wmnet.
 56      1H  IN PTR      mw1221.eqiad.wmnet.

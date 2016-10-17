@@ -395,6 +395,10 @@ iridium         1H  IN A        10.64.32.150
 iridium-vcs     1H  IN A        10.64.32.186
                 1H  IN AAAA     2620:0:861:103:10:64:32:186
 krypton         1H  IN A        10.64.32.182
+kubernetes1001  1H  IN A        10.64.0.121
+kubernetes1002  1H  IN A        10.64.16.75
+kubernetes1003  1H  IN A        10.64.37.22
+kubernetes1004  1H  IN A        10.64.48.51
 labmon1001      1H  IN A        10.64.37.13
 labnet1001      1H  IN A        10.64.20.13
 labnet1001-ext  1H  IN A        10.64.22.11
