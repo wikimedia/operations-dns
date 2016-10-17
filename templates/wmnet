@@ -788,12 +788,12 @@ rhodium         1H  IN A        10.64.16.184
 ruthenium       1H  IN A        10.64.16.151
 rutherfordium   1H  IN A        10.64.32.17 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 scandium        1H  IN A        10.64.4.12
-sca1001         1H  IN A        10.64.32.153
-sca1002         1H  IN A        10.64.48.29
 sca1003         1H  IN A        10.64.32.28
 sca1004         1H  IN A        10.64.32.125
 scb1001         1H  IN A        10.64.0.16
 scb1002         1H  IN A        10.64.16.21
+scb1003         1H  IN A        10.64.32.153
+scb1004         1H  IN A        10.64.48.29
 snapshot1001    1H  IN A        10.64.0.120
 snapshot1005    1H  IN A        10.64.0.9
 snapshot1006    1H  IN A        10.64.32.149
@@ -2082,13 +2082,13 @@ ganeti1004  1H  IN A        10.65.5.191
 WMF4552     1H  IN A        10.65.5.192
 ocg1001     1H  IN A        10.65.5.192
 WMF4553     1H  IN A        10.65.5.193
-sca1001     1H  IN A        10.65.5.193
+scb1003     1H  IN A        10.65.5.193
 WMF4554     1H  IN A        10.65.5.194
 ocg1002     1H  IN A        10.65.5.194
 WMF4555     1H  IN A        10.65.5.195
 ocg1003     1H  IN A        10.65.5.195
 WMF4556     1H  IN A        10.65.5.196
-sca1002     1H  IN A        10.65.5.196
+scb1004     1H  IN A        10.65.5.196
 WMF4557     1H  IN A        10.65.5.197
 einsteinium     1H      IN A            10.65.5.197
 WMF4568         1H      IN A            10.65.5.198
@@ -2783,12 +2783,12 @@ restbase2009-a  1H  IN A    10.192.48.54 ; cassandra instance
 restbase2009-b  1H  IN A    10.192.48.55 ; cassandra instance
 restbase2009-c  1H  IN A    10.192.48.56 ; cassandra instance
 sarin           1H  IN A    10.192.0.140
-sca2001         1H  IN A    10.192.0.33
-sca2002         1H  IN A    10.192.16.36
 sca2003         1H  IN A    10.192.16.29
 sca2004         1H  IN A    10.192.16.30
 scb2001         1H  IN A    10.192.32.132
 scb2002         1H  IN A    10.192.48.43
+scb2003         1H  IN A    10.192.0.33
+scb2004         1H  IN A    10.192.16.36
 subra           1H  IN A    10.192.16.124
 sinistra        1H  IN A    10.192.32.131
 suhail          1H  IN A    10.192.0.121
@@ -3400,10 +3400,10 @@ restbase2007    1H  IN A    10.193.3.5
 restbase2008    1H  IN A    10.193.3.6
 restbase2009    1H  IN A    10.193.3.7
 sarin           1H  IN A    10.193.2.234
-sca2001         1H  IN A    10.193.1.24
-sca2002         1H  IN A    10.193.1.26
 scb2001         1H  IN A    10.193.1.28
 scb2002         1H  IN A    10.193.2.230
+scb2003         1H  IN A    10.193.1.24
+scb2004         1H  IN A    10.193.1.26
 sinistra        1H  IN A    10.193.2.246
 stat2001        1H  IN A    10.193.2.13
 subra           1H  IN A    10.193.2.163

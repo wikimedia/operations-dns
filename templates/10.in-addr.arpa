@@ -809,7 +809,7 @@ $ORIGIN 32.64.{{ zonename }}.
 150     1H IN PTR       iridium.eqiad.wmnet.
 151     1H IN PTR       ocg1001.eqiad.wmnet.
 152     1H IN PTR       ms-fe1003.eqiad.wmnet.
-153     1H IN PTR       sca1001.eqiad.wmnet.
+153     1H IN PTR       scb1003.eqiad.wmnet.
 154     1H IN PTR       lithium.eqiad.wmnet.
 155     1H IN PTR       graphite1001.eqiad.wmnet.
 156     1H IN PTR       dbproxy1007.eqiad.wmnet.
@@ -1003,7 +1003,7 @@ $ORIGIN 48.64.{{ zonename }}.
 26      1H IN PTR       db1071.eqiad.wmnet.
 27      1H IN PTR       db1072.eqiad.wmnet.
 28      1H IN PTR       db1073.eqiad.wmnet.
-29      1H IN PTR       sca1002.eqiad.wmnet.
+29      1H IN PTR       scb1004.eqiad.wmnet.
 30      1H IN PTR       ms-be1013.eqiad.wmnet.
 31      1H IN PTR       ms-be1014.eqiad.wmnet.
 32      1H IN PTR       ms-be1015.eqiad.wmnet.
@@ -1919,13 +1919,13 @@ $ORIGIN 3.65.{{ zonename }}.
 192 1H  IN PTR      wmf4552.mgmt.eqiad.wmnet.
 192 1H  IN PTR      ocg1001.mgmt.eqiad.wmnet.
 193 1H  IN PTR      wmf4553.mgmt.eqiad.wmnet.
-193 1H  IN PTR      sca1001.mgmt.eqiad.wmnet.
+193 1H  IN PTR      scb1003.mgmt.eqiad.wmnet.
 194 1H  IN PTR      wmf4554.mgmt.eqiad.wmnet.
 194 1H  IN PTR      ocg1002.mgmt.eqiad.wmnet.
 195 1H  IN PTR      wmf4555.mgmt.eqiad.wmnet.
 195 1H  IN PTR      ocg1003.mgmt.eqiad.wmnet.
 196 1H  IN PTR      wmf4556.mgmt.eqiad.wmnet.
-196 1H  IN PTR      sca1002.mgmt.eqiad.wmnet.
+196 1H  IN PTR      scb1004.mgmt.eqiad.wmnet.
 197 1H  IN PTR      wmf4557.mgmt.eqiad.wmnet.
 197 1H  IN PTR      einsteinium.mgmt.eqiad.wmnet.
 198     1H      IN PTR          wmf4568.mgmt.eqiad.wmnet.
@@ -2630,7 +2630,7 @@ $ORIGIN 0.192.{{ zonename }}.
 30  1H IN PTR   ms-be2013.codfw.wmnet.
 31  1H IN PTR   heze.codfw.wmnet.
 32  1H IN PTR   dbstore2001.codfw.wmnet.
-33  1H IN PTR   sca2001.codfw.wmnet.
+33  1H IN PTR   scb2003.codfw.wmnet.
 34  1H IN PTR   mc2001.codfw.wmnet.
 35  1H IN PTR   mc2002.codfw.wmnet.
 36  1H IN PTR   mc2003.codfw.wmnet.
@@ -2759,7 +2759,7 @@ $ORIGIN 16.192.{{ zonename }}.
 33  1H IN PTR   graphite2001.codfw.wmnet.
 34  1H IN PTR   maps-test2003.codfw.wmnet.
 35  1H IN PTR   maps-test2004.codfw.wmnet.
-36  1H IN PTR   sca2002.codfw.wmnet.
+36  1H IN PTR   scb2004.codfw.wmnet.
 37  1H IN PTR   mc2007.codfw.wmnet.
 38  1H IN PTR   mc2008.codfw.wmnet.
 39  1H IN PTR   mc2009.codfw.wmnet.
@@ -3294,11 +3294,11 @@ $ORIGIN 1.193.{{ zonename }}.
 22  1H IN PTR  wmf6376.mgmt.codfw.wmnet.
 23  1H IN PTR  kafka2001.mgmt.codfw.wmnet.
 23  1H IN PTR  wmf6377.mgmt.codfw.wmnet.
-24  1H IN PTR  sca2001.mgmt.codfw.wmnet.
+24  1H IN PTR  scb2003.mgmt.codfw.wmnet.
 24  1H IN PTR  wmf6378.mgmt.codfw.wmnet.
 25  1H IN PTR  kafka2002.mgmt.codfw.wmnet.
 25  1H IN PTR  wmf6379.mgmt.codfw.wmnet.
-26  1H IN PTR  sca2002.mgmt.codfw.wmnet.
+26  1H IN PTR  scb2004.mgmt.codfw.wmnet.
 26  1H IN PTR  wmf6380.mgmt.codfw.wmnet.
 27  1H IN PTR  tegmen.mgmt.codfw.wmnet.
 27  1H IN PTR  wmf6381.mgmt.codfw.wmnet.
