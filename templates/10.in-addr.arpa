@@ -796,6 +796,7 @@ $ORIGIN 32.64.{{ zonename }}.
 123     1H IN PTR       wmf4748.eqiad.wmnet.
 124     1H IN PTR       wmf4749.eqiad.wmnet.
 125     1H IN PTR       sca1004.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+126     1H IN PTR       poolcounter1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 
 135     1H IN PTR       hassium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 136     1H IN PTR       db1078.eqiad.wmnet.
