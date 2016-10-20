@@ -734,7 +734,9 @@ praseodymium    1H  IN A        10.64.16.149
 praseodymium-a  1H  IN A        10.64.16.188 ; cassandra instance
 praseodymium-b  1H  IN A        10.64.16.189 ; cassandra instance
 prometheus1001  1H  IN A        10.64.32.197 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+                1H  IN AAAA     2620:0:861:103:10:64:32:197
 prometheus1002  1H  IN A        10.64.32.198 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+                1H  IN AAAA     2620:0:861:103:10:64:32:198
 promethium      1H  IN A        10.64.20.12
 puppetmaster1001 1H  IN A        10.64.16.73
 puppetmaster1002 1H  IN A        10.64.48.45
@@ -2729,7 +2731,9 @@ pc2006          1H  IN A    10.192.48.39
 phab2001        1H  IN A    10.192.32.147
 phab2001        1H  IN AAAA 2620:0:860:103:10:192:32:147
 prometheus2001  1H  IN A    10.192.16.181 ; VM on the ganeti01.svc.codfw.wmnet cluster
+                1H  IN AAAA 2620:0:860:102:10:192:16:181
 prometheus2002  1H  IN A    10.192.16.182 ; VM on the ganeti01.svc.codfw.wmnet cluster
+                1H  IN AAAA 2620:0:860:102:10:192:16:182
 puppetmaster2001  1H  IN A    10.192.0.27
 puppetmaster2002  1H  IN A    10.192.48.66
 pybal-test2001  1H  IN A    10.192.16.139 ; VM on the ganeti01.svc.codfw.wmnet cluster
