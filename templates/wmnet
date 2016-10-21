@@ -111,6 +111,7 @@ analytics1003       1H  IN A         10.64.36.116
 auth1001            1H  IN A         10.64.48.121
 kafka1001           1H  IN A         10.64.0.11
 kafka1002           1H  IN A         10.64.16.41
+kafka1003           1H  IN A         10.64.32.127
 kafka1012           1H  IN A         10.64.5.12
                     1H  IN AAAA      2620:0:861:104:10:64:5:12
 kafka1013           1H  IN A         10.64.5.13
@@ -2153,6 +2154,7 @@ stat1004        1H      IN A            10.65.2.123
 wmf4722         1H      IN A            10.65.2.124
 kafka1002       1H      IN A            10.65.2.124
 wmf4723         1H      IN A            10.65.2.125
+kafka1003       1H      IN A            10.65.2.125
 wmf4724         1H      IN A            10.65.2.126
 wmf4725         1H      IN A            10.65.2.127
 cobalt          1H      IN A            10.65.2.127
