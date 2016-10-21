@@ -392,9 +392,7 @@ hassium         1H  IN A        10.64.32.135
 helium          1H  IN A        10.64.0.179
 hp1001          1H  IN A        10.64.32.147
 iridium         1H  IN A        10.64.32.150
-                1H  IN AAAA     2620:0:861:103:10:64:32:150
-iridium-vcs     1H  IN A        10.64.32.186
-                1H  IN AAAA     2620:0:861:103:10:64:32:186
+iridium         1H  IN AAAA     2620:0:861:103:10:64:32:150
 krypton         1H  IN A        10.64.32.182
 kubernetes1001  1H  IN A        10.64.0.121
 kubernetes1002  1H  IN A        10.64.16.75
@@ -763,6 +761,8 @@ stat1004        1H  IN A        10.64.5.104
 bromine         1H  IN A        10.64.32.181 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 strontium       1H  IN A        10.64.0.164
 phab1001        1H  IN CNAME    iridium.eqiad.wmnet.
+phab1001-vcs    1H  IN A        10.64.32.186
+phab1001-vcs    1H  IN AAAA     2620:0:861:103:10:64:32:186
 puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 tantalum        1H  IN A        10.64.0.26
 technetium      1H  IN A        10.64.32.188
