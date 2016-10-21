@@ -2584,6 +2584,8 @@ pc2005          1H  IN A    10.192.32.128
 pc2006          1H  IN A    10.192.48.39
 phab2001        1H  IN A    10.192.32.147
 phab2001        1H  IN AAAA 2620:0:860:103:10:192:32:147
+phab2001-vcs    1H  IN A    10.192.32.149
+phab2001-vcs    1H  IN AAAA 2620:0:860:103:10:192:32:149
 prometheus2001  1H  IN A    10.192.16.181 ; VM on the ganeti01.svc.codfw.wmnet cluster
                 1H  IN AAAA 2620:0:860:102:10:192:16:181
 prometheus2002  1H  IN A    10.192.16.182 ; VM on the ganeti01.svc.codfw.wmnet cluster
