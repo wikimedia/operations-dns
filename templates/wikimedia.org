@@ -234,9 +234,9 @@ citoid              600 IN DYNA geoip!text-addrs
 ores                600 IN DYNA geoip!misc-addrs
 
 git-ssh.eqiad       1H  IN A    208.80.154.250
-                    1H  IN AAAA 2620:0:861:ed1a::3:16
+git-ssh.eqiad       1H  IN AAAA 2620:0:861:ed1a::3:16
 git-ssh             1H  IN A    208.80.154.250
-                    1H  IN AAAA 2620:0:861:ed1a::3:16
+git-ssh             1H  IN AAAA 2620:0:861:ed1a::3:16
 
 ;;; ulsfo
 text-lb.ulsfo       600 IN DYNA geoip!text-addrs/ulsfo
@@ -255,6 +255,9 @@ upload-lb.codfw     600 IN DYNA geoip!upload-addrs/codfw
 maps-lb.codfw       600 IN DYNA geoip!maps-addrs/codfw
 misc-web-lb.codfw   600 IN DYNA geoip!misc-addrs/codfw
 donate-lb.codfw     600 IN DYNA geoip!text-addrs/codfw
+
+git-ssh.codfw       1H  IN A    208.80.153.250
+git-ssh.codfw       1H  IN AAAA 2620:0:860:ed1a::3:fa
 
 ;;; esams
 text-lb.esams       600 IN DYNA geoip!text-addrs/esams

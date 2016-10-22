@@ -199,6 +199,7 @@ d.0.0.0                         1H IN PTR   maps-lb.codfw.wikimedia.org.
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 d.0.0.0 1H IN PTR  misc-web-lb.codfw.wikimedia.org.
+a.f.0.0 1H IN PTR  git-ssh.codfw.wikimedia.org.
 e.f.0.0 1H IN PTR  dns-rec-lb.codfw.wikimedia.org.
 
 ; Neighbor blocks
