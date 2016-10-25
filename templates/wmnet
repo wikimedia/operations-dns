@@ -729,8 +729,8 @@ pc1005          1H  IN A        10.64.32.72
 pc1006          1H  IN A        10.64.48.128
 planet1001      1H  IN A        10.64.32.179
 planet1001      1H  IN AAAA     2620:0:861:103:10:64:32:179
-potassium       1H  IN A        10.64.16.152
 poolcounter1001 1H  IN A        10.64.32.126 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+poolcounter1002 1H  IN A        10.64.16.152
 praseodymium    1H  IN A        10.64.16.149
 praseodymium-a  1H  IN A        10.64.16.188 ; cassandra instance
 praseodymium-b  1H  IN A        10.64.16.189 ; cassandra instance
@@ -1901,7 +1901,7 @@ silicon     1H  IN A    10.65.3.3
 WMF3148     1H  IN A    10.65.3.3
 tellurium   1H  IN A    10.65.3.130
 te          1H  IN CNAME        tellurium
-potassium   1H  IN A    10.65.3.32
+poolcounter1002   1H  IN A    10.65.3.32
 WMF3287     1H  IN A    10.65.3.32
 bast1001    1H  IN A    10.65.3.30
 WMF3289     1H  IN A    10.65.3.30

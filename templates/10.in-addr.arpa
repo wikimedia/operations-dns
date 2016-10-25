@@ -572,7 +572,7 @@ $ORIGIN 16.64.{{ zonename }}.
 149 1H IN PTR   praseodymium.eqiad.wmnet.
 150 1H IN PTR   ms-fe1003.eqiad.wmnet.
 151 1H IN PTR   ruthenium.eqiad.wmnet.
-152 1H IN PTR   potassium.eqiad.wmnet.
+152 1H IN PTR   poolcounter1002.eqiad.wmnet.
 153 1H IN PTR   cerium-a.eqiad.wmnet.
 154 1H IN PTR   cerium-b.eqiad.wmnet.
 155 1H IN PTR   dbproxy1005.eqiad.wmnet.
@@ -1703,7 +1703,7 @@ $ORIGIN 3.65.{{ zonename }}.
 29  1H  IN PTR      wmf3290.mgmt.eqiad.wmnet.
 30  1H  IN PTR      bast1001.mgmt.eqiad.wmnet.
 30  1H  IN PTR      wmf3289.mgmt.eqiad.wmnet.
-32  1H  IN PTR      potassium.mgmt.eqiad.wmnet.
+32  1H  IN PTR      poolcounter1002.mgmt.eqiad.wmnet.
 32  1H  IN PTR      wmf3287.mgmt.eqiad.wmnet.
 33  1H  IN PTR      tantalum.mgmt.eqiad.wmnet.
 33  1H  IN PTR      wmf3407.mgmt.eqiad.wmnet.
