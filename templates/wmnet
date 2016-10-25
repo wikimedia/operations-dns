@@ -4075,6 +4075,9 @@ nfs-tools-project    1H  IN A        10.64.37.18
 
 $ORIGIN svc.esams.wmnet.
 
+ms-fe       1H  IN A        10.2.3.27
+swift       1H  IN CNAME    ms-fe.svc.esams.wmnet.
+
 ; ULSFO SERVICES
 
 $ORIGIN svc.ulsfo.wmnet.

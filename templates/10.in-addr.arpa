@@ -76,6 +76,8 @@ $ORIGIN 2.2.{{ zonename }}.
 
 $ORIGIN 3.2.{{ zonename }}.
 
+27  1H  IN PTR  ms-fe.svc.esams.wmnet.
+
 ; 10.2.4.0/24 - ulsfo LVS low-traffic (internal) services
 
 $ORIGIN 4.2.{{ zonename }}.
