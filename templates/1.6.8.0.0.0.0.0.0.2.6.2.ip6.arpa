@@ -64,7 +64,6 @@ $ORIGIN 3.0.0.0.{{ zonename }}.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   lists.wikimedia.org. ; service IP for lists on fermium
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1003.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1003.cr2-eqiad.wikimedia.org.
-9.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   lead.wikimedia.org.
 1.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cobalt.wikimedia.org.
 0.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   polonium.wikimedia.org.
 1.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   wiki-mail-eqiad.wikimedia.org.
