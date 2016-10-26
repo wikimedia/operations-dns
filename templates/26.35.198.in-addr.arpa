@@ -26,22 +26,14 @@
 
 ; 198.35.26.96/27 (96-127) LVS Service IPs
 
-; - 198.35.26.96/28 (96-111) LVS Text
-
-; - - 198.35.26.96/29 (96-103) LVS Desktop
+; - 198.35.26.96/28 (96-111) LVS high-traffic1 (Text)
 
 96  1H IN PTR   text-lb.ulsfo.wikimedia.org.
 
-; - - 198.35.26.104/29 (104-111) LVS Mobile
-
-; - 198.35.26.112/28 (112-127) LVS Multimedia & Misc
-
-; - - 198.35.26.112/29 (112-119) LVS Multimedia
+; - 198.35.26.112/28 (112-127) LVS high-traffic2 (Multimedia & Misc)
 
 112 1H IN PTR   upload-lb.ulsfo.wikimedia.org.
 113 1H IN PTR   maps-lb.ulsfo.wikimedia.org.
-
-; - - 198.35.26.120/29 (120-127) LVS Misc
 
 120 1H IN PTR   misc-web-lb.ulsfo.wikimedia.org.
 

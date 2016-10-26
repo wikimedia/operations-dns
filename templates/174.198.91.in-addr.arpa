@@ -38,22 +38,14 @@
 
 ; 91.198.174.192/27 (192-223) LVS Service IPs
 
-; - 91.198.174.192/28 (192-207) LVS Text
-
-; - - 91.198.174.192/29 (192-199) LVS Desktop
+; - 91.198.174.192/28 (192-207) LVS high-traffic1 (Text)
 
 192 1H  IN PTR  text-lb.esams.wikimedia.org.
 
-; - - 91.198.174.200/29 (200-207) LVS Mobile
-
-; - 91.198.174.208/28 (208-223) LVS Multimedia & Misc
-
-; - - 91.198.174.208/29 (208-215) LVS Multimedia
+; - 91.198.174.208/28 (208-223) LVS high-traffic2 (Multimedia & Misc)
 
 208 1H IN PTR   upload-lb.esams.wikimedia.org.
 209 1H IN PTR   maps-lb.esams.wikimedia.org.
-
-; - - 91.198.174.216/29 (216-223) LVS Misc
 
 216 1H IN PTR   dns-rec-lb.esams.wikimedia.org. ; not actually public!
 217 1H IN PTR   misc-web-lb.esams.wikimedia.org.

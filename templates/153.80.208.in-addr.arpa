@@ -131,26 +131,18 @@
 
 ; 208.80.153.224/27 (224-255) LVS Service IPs
 
-; - 208.80.153.224/28 (224-239) LVS Text
-
-; - - 208.80.153.224/29 (224-231) LVS Desktop
+; - 208.80.153.224/28 (224-239) LVS high-traffic1 (Text)
 
 224 1H  IN PTR  text-lb.codfw.wikimedia.org.
 
 ; wrong subnet, but not important...
 231 1H  IN PTR  ns1.wikimedia.org.
 
-; - - 208.80.153.232/29 (232-239) LVS Mobile
-
-; - 208.80.153.240/28 (240-255) LVS Multimedia & Misc
-
-; - - 208.80.153.240/29 (240-247) LVS Multimedia
+; - 208.80.153.240/28 (240-255) LVS high-traffic2 (Multimedia & Misc)
 
 240 1H  IN PTR  upload-lb.codfw.wikimedia.org.
 
 244 1H  IN PTR  maps-lb.codfw.wikimedia.org.
-
-; - - 208.80.153.248/29 (248-255) LVS Misc
 
 248  1H  IN PTR misc-web-lb.codfw.wikimedia.org.
 

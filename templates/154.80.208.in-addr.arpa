@@ -157,26 +157,18 @@
 
 ; 208.80.154.224/27 (224-255) LVS Service IPs
 
-; - 208.80.154.224/28 (224-239) LVS Text
-
-; - - 208.80.154.224/29 (224-231) LVS Desktop
+; - 208.80.154.224/28 (224-239) LVS high-traffic1 (Text)
 
 224 1H  IN PTR  text-lb.eqiad.wikimedia.org.
 
-; - - 208.80.154.232/29 (232-239) LVS Mobile
-
-; these two are in the wrong subnet, but not important...
+; wrong subnet? but not important...
 238 1H  IN PTR  ns0.wikimedia.org.
 
-; - 208.80.154.240/28 (240-255) LVS Multimedia & Misc
-
-; - - 208.80.154.240/29 (240-247) LVS Multimedia
+; - 208.80.154.240/28 (240-255) LVS high-traffic2 (Multimedia & Misc)
 
 240 1H  IN PTR  upload-lb.eqiad.wikimedia.org.
 
 244 1H  IN PTR  maps-lb.eqiad.wikimedia.org.
-
-; - - 208.80.154.248/29 (248-255) LVS Misc
 
 250 1H  IN PTR  git-ssh.eqiad.wikimedia.org.
 251 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.

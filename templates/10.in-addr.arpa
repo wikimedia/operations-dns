@@ -13,7 +13,7 @@
             1D  IN NS       ns1.wikimedia.org.
             1D  IN NS       ns2.wikimedia.org.
 
-; codfw svc ips
+; 10.2.1.0/24 - codfw LVS low-traffic (internal) services
 $ORIGIN 1.2.{{ zonename }}.
 
 1   1H  IN PTR  appservers.svc.codfw.wmnet.
@@ -41,7 +41,7 @@ $ORIGIN 1.2.{{ zonename }}.
 32  1H  IN PTR  wdqs.svc.codfw.wmnet.
 ; 33 reserved for kibana
 
-; eqiad svc ips
+; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
 $ORIGIN 2.2.{{ zonename }}.
 
@@ -72,11 +72,11 @@ $ORIGIN 2.2.{{ zonename }}.
 32  1H  IN PTR  wdqs.svc.eqiad.wmnet.
 33  1H  IN PTR  kibana.svc.eqiad.wmnet.
 
-; esams svc ips
+; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
 $ORIGIN 3.2.{{ zonename }}.
 
-; ulsfo svc ips
+; 10.2.4.0/24 - ulsfo LVS low-traffic (internal) services
 
 $ORIGIN 4.2.{{ zonename }}.
 
