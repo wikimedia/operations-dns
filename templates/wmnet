@@ -837,7 +837,6 @@ asw-a-eqiad         1H  IN A        10.65.0.17
 asw-b-eqiad         1H  IN A        10.65.0.18
 lab-ex4200-1        1H  IN A        10.65.0.19
 asw2-a5-eqiad       1H  IN A        10.65.0.20
-psw1-eqiad          1H  IN A        10.65.0.21
 scs-c1-eqiad        1H  IN A        10.65.0.22
 asw-c-eqiad         1H  IN A        10.65.0.23
 asw-d-eqiad         1H  IN A        10.65.0.24
