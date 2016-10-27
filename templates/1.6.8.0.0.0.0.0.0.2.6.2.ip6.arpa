@@ -34,8 +34,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 1.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dataset1001.wikimedia.org.
 
-4.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   neon.wikimedia.org.
-
 5.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   sodium.wikimedia.org.
 
 6.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ms1001.wikimedia.org.
