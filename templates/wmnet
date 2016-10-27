@@ -25,7 +25,7 @@ $ORIGIN eqiad.wmnet.
 ; Service aliases
 syslog          1H  IN CNAME    lithium.eqiad.wmnet.
 webproxy        1H  IN CNAME    carbon.wikimedia.org.
-zuul            1H  IN CNAME    gallium.wikimedia.org.
+zuul            1H  IN CNAME    contint1001.wikimedia.org.
 carbon-relay    1H  IN CNAME    graphite1001.eqiad.wmnet.
 graphite        1H  IN CNAME    graphite1001.eqiad.wmnet.
 graphite-in     1H  IN CNAME    graphite1001.eqiad.wmnet.
