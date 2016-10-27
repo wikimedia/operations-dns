@@ -197,8 +197,6 @@ tellurium       1H  IN A    208.80.155.9
 ununpentium     1H  IN A    208.80.154.84
 uranium         1H  IN A    208.80.154.53
 uranium         1H  IN AAAA 2620:0:861:1:208:80:154:53
-virt1000        1H  IN A    208.80.154.18
-
 
 ; Service aliases
 
