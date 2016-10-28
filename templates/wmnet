@@ -4058,6 +4058,7 @@ thumbor     1H  IN A        10.2.2.24
 prometheus  1H  IN A        10.2.2.25
 
 ms-fe       1H  IN A        10.2.2.27
+swift       1H  IN CNAME    ms-fe.svc.eqiad.wmnet.
 ms-fe-thumbs 1H IN A        10.2.2.27
 parsoid     1H  IN A        10.2.2.28
 search      1H  IN A        10.2.2.30
@@ -4105,6 +4106,7 @@ thumbor         1H  IN A        10.2.1.24
 prometheus      1H  IN A        10.2.1.25
 
 ms-fe           1H  IN A        10.2.1.27
+swift           1H  IN CNAME    ms-fe.svc.codfw.wmnet.
 ms-fe-thumbs    1H  IN A        10.2.1.27
 parsoid         1H  IN A        10.2.1.28
 search          1H  IN A        10.2.1.30
