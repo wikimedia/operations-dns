@@ -475,7 +475,7 @@ parsoid-tests   600 IN DYNA     geoip!misc-addrs
 performance     600 IN DYNA     geoip!misc-addrs
 horizon         600 IN DYNA     geoip!misc-addrs
 
-icinga          5M  IN CNAME    einsteinium
+icinga          5M  IN CNAME    tegmen
 
 integration     600 IN DYNA     geoip!misc-addrs
 irc             1H  IN CNAME    kraz
@@ -647,7 +647,7 @@ fundraising      1H  IN CNAME    fundraising-eqiad
 ganglia          1H  IN CNAME    uranium
 hue              600 IN DYNA     geoip!misc-addrs
 iegreview        600 IN DYNA     geoip!misc-addrs
-tendril          5M  IN CNAME    einsteinium
+tendril          5M  IN CNAME    tegmen
 jobs             600 IN DYNA     geoip!text-addrs
 labs             600 IN DYNA     geoip!text-addrs
 labs-ns0         1H  IN A        208.80.155.117
