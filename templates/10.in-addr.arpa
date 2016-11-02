@@ -2213,7 +2213,7 @@ $ORIGIN 7.65.{{ zonename }}.
 4   1H  IN PTR      wmf4755.mgmt.eqiad.wmnet.
 5   1H  IN PTR      elastic1036.mgmt.eqiad.wmnet.
 5   1H  IN PTR      wmf4756.mgmt.eqiad.wmnet.
-6   1H  IN PTR      elsatic1037.mgmt.eqiad.wmnet.
+6   1H  IN PTR      elastic1037.mgmt.eqiad.wmnet.
 6   1H  IN PTR      wmf4757.mgmt.eqiad.wmnet.
 7   1H  IN PTR      elastic1038.mgmt.eqiad.wmnet.
 7   1H  IN PTR      wmf4758.mgmt.eqiad.wmnet.
@@ -3387,7 +3387,7 @@ $ORIGIN 1.193.{{ zonename }}.
 144 1H IN PTR  wmf6461.mgmt.codfw.wmnet.
 145 1H IN PTR  wdqs2001.mgmt.codfw.wmnet.
 145 1H IN PTR  wmf6462.mgmt.codfw.wmnet.
-146 1H IN PTR  wdds2002.mgmt.codfw.wmnet.
+146 1H IN PTR  wdqs2002.mgmt.codfw.wmnet.
 146 1H IN PTR  wmf6463.mgmt.codfw.wmnet.
 147 1H IN PTR  puppetmaster2001.mgmt.codfw.wmnet.
 147 1H IN PTR  wmf6464.mgmt.codfw.wmnet.
@@ -3843,7 +3843,7 @@ $ORIGIN 2.193.{{ zonename }}.
 179 1H IN PTR  cp2008.mgmt.codfw.wmnet.
 179 1H IN PTR  wmf6308.mgmt.codfw.wmnet.
 180 1H IN PTR  cp2009.mgmt.codfw.wmnet.
-180 1H IN PTR  wmf6309mgmt.codfw.wmnet.
+180 1H IN PTR  wmf6309.mgmt.codfw.wmnet.
 181 1H IN PTR  cp2010.mgmt.codfw.wmnet.
 181 1H IN PTR  wmf6310.mgmt.codfw.wmnet.
 182 1H IN PTR  cp2011.mgmt.codfw.wmnet.
@@ -3863,7 +3863,7 @@ $ORIGIN 2.193.{{ zonename }}.
 189 1H IN PTR  cp2018.mgmt.codfw.wmnet.
 189 1H IN PTR  wmf6318.mgmt.codfw.wmnet.
 190 1H IN PTR  cp2019.mgmt.codfw.wmnet.
-190 1H IN PTR  wmf6319mgmt.codfw.wmnet.
+190 1H IN PTR  wmf6319.mgmt.codfw.wmnet.
 191 1H IN PTR  cp2020.mgmt.codfw.wmnet.
 191 1H IN PTR  wmf6320.mgmt.codfw.wmnet.
 192 1H IN PTR  cp2021.mgmt.codfw.wmnet.
