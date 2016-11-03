@@ -256,7 +256,7 @@ $ORIGIN 6.0.e.f.{{ zonename }}.
 
 $ORIGIN 7.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-0-1.cr2-codfw.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-2-3.cr2-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-3-2-3.cr2-eqiad.wikimedia.org.
 
 ; Loopback IPs
 

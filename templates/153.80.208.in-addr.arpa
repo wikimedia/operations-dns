@@ -91,7 +91,7 @@
 
 ; 208.80.153.204/31 (cr2-codfw <--> cr2-eqiad)
 204 1H  IN PTR  xe-5-0-1.cr2-codfw.wikimedia.org.
-205 1H  IN PTR  xe-5-2-3.cr2-eqiad.wikimedia.org.
+205 1H  IN PTR  xe-3-2-3.cr2-eqiad.wikimedia.org.
 
 ; 208.80.153.206/31 (cr1-codfw <--> mr1-codfw)
 206 1H  IN PTR  xe-5-3-3.cr1-codfw.wikimedia.org.
