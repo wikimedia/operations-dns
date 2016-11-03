@@ -3963,7 +3963,7 @@ $ORIGIN 2.193.{{ zonename }}.
 240 1H IN PTR  es2016.mgmt.codfw.wmnet.
 240 1H IN PTR  wmf6395.mgmt.codfw.wmnet.
 241 1H IN PTR  es2017.mgmt.codfw.wmnet.
-241 1H IN PTR  wmf6596.mgmt.codfw.wmnet.
+241 1H IN PTR  wmf6396.mgmt.codfw.wmnet.
 242 1H IN PTR  es2018.mgmt.codfw.wmnet.
 242 1H IN PTR  wmf6397.mgmt.codfw.wmnet.
 243 1H IN PTR  es2019.mgmt.codfw.wmnet.

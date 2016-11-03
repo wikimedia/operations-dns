@@ -3311,6 +3311,15 @@ wdqs2002        1H  IN A    10.193.1.146
 
 ; Servers MGMT - Alphabetical by asset tag
 
+WMF3414         1H  IN A    10.65.3.39
+WMF3415         1H  IN A    10.65.3.40
+WMF3416         1H  IN A    10.65.3.41
+WMF3417         1H  IN A    10.65.3.42
+WMF3418         1H  IN A    10.65.3.43
+WMF3419         1H  IN A    10.65.3.44
+WMF3558         1H  IN A    10.65.3.132
+WMF3562         1H  IN A    10.65.3.136
+WMF3563         1H  IN A    10.65.3.137
 WMF3612         1H  IN A    10.193.1.235
 WMF3613         1H  IN A    10.193.1.236
 WMF3627         1H  IN A    10.193.1.237
@@ -3361,6 +3370,22 @@ WMF3763         1H  IN A    10.193.1.20
 WMF3811         1H  IN A    10.193.2.119
 WMF3810         1H  IN A    10.193.1.18
 WMF3903         1H  IN A    10.193.2.13
+WMF4752         1H  IN A    10.65.7.1
+WMF4753         1H  IN A    10.65.7.2
+WMF4754         1H  IN A    10.65.7.3
+WMF4755         1H  IN A    10.65.7.4
+WMF4756         1H  IN A    10.65.7.5
+WMF4757         1H  IN A    10.65.7.6
+WMF4758         1H  IN A    10.65.7.7
+WMF4759         1H  IN A    10.65.7.8
+WMF4760         1H  IN A    10.65.7.9
+WMF4761         1H  IN A    10.65.7.10
+WMF4762         1H  IN A    10.65.7.11
+WMF4763         1H  IN A    10.65.7.12
+WMF4764         1H  IN A    10.65.7.13
+WMF4765         1H  IN A    10.65.7.14
+WMF4766         1H  IN A    10.65.7.15
+WMF4767         1H  IN A    10.65.7.16
 WMF5718         1H  IN A    10.193.1.73
 WMF5723         1H  IN A    10.193.1.78
 WMF5724         1H  IN A    10.193.1.79
