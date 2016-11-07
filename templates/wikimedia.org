@@ -449,6 +449,7 @@ dash.frdev      1H  IN CNAME    frdev-eqiad
 dbtree          600 IN DYNA     geoip!misc-addrs
 dev             600 IN DYNA     geoip!text-addrs
 doc             600 IN DYNA     geoip!misc-addrs
+docker-registry 600 IN DYNA     geoip!misc-addrs
 docs            600 IN DYNA     geoip!text-addrs
 
 endowment       600 IN DYNA     geoip!misc-addrs
