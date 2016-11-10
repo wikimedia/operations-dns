@@ -2986,6 +2986,7 @@ heze            1H  IN A    10.193.1.250
 install2001     1H  IN A    10.193.1.10
 kafka2001       1H  IN A    10.193.1.23
 kafka2002       1H  IN A    10.193.1.25
+kafka2003       1H  IN A    10.193.1.71
 labtestweb2001  1H  IN A    10.193.1.49
 labstore2001    1H  IN A    10.193.1.248
 labstore2002    1H  IN A    10.193.1.249
@@ -3751,6 +3752,10 @@ WMF6462         1H  IN A    10.193.1.145
 WMF6463         1H  IN A    10.193.1.146
 WMF6464         1H  IN A    10.193.1.147
 WMF6465         1H  IN A    10.193.1.148
+WMF6466         1H  IN A    10.193.1.63
+WMF6467         1H  IN A    10.193.1.71
+WMF6468         1H  IN A    10.193.1.72
+WMF6469         1H  IN A    10.193.1.74
 
 ;
 ; ESAMS
