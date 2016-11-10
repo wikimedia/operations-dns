@@ -2328,6 +2328,7 @@ hassaleh        1H  IN A    10.192.16.173
 heze            1H  IN A    10.192.0.31
 kafka2001       1H  IN A    10.192.0.139
 kafka2002       1H  IN A    10.192.16.169
+kafka2003       1H  IN A    10.192.32.150
 labstore2001    1H  IN A    10.192.21.4
 labstore2002    1H  IN A    10.192.21.5
 labstore2003    1H  IN A    10.192.21.6
