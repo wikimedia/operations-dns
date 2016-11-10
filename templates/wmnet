@@ -4118,10 +4118,14 @@ $ORIGIN svc.esams.wmnet.
 
 ms-fe       1H  IN A        10.2.3.27
 swift       1H  IN CNAME    ms-fe.svc.esams.wmnet.
+; Used for consistency with eqiad/codfw
+prometheus  1H  IN CNAME    bast3001.wikimedia.org.
 
 ; ULSFO SERVICES
 
 $ORIGIN svc.ulsfo.wmnet.
+; Used for consistency with eqiad/codfw
+prometheus  1H  IN CNAME    bast4001.wikimedia.org.
 
 ; CODFW SERVICES
 
