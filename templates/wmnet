@@ -3303,6 +3303,9 @@ restbase2006    1H  IN A    10.193.2.229
 restbase2007    1H  IN A    10.193.3.5
 restbase2008    1H  IN A    10.193.3.6
 restbase2009    1H  IN A    10.193.3.7
+restbase2010    1H  IN A    10.193.1.153
+restbase2011    1H  IN A    10.193.1.154
+restbase2012    1H  IN A    10.193.1.155
 sarin           1H  IN A    10.193.2.234
 scb2001         1H  IN A    10.193.1.28
 scb2002         1H  IN A    10.193.2.230
@@ -3766,6 +3769,9 @@ wmf6466         1H  IN A    10.193.1.149
 wmf6467         1H  IN A    10.193.1.150
 wmf6468         1H  IN A    10.193.1.151
 wmf6469         1H  IN A    10.193.1.152
+wmf6470         1H  IN A    10.193.1.153
+wmf6471         1H  IN A    10.193.1.154
+wmf6472         1H  IN A    10.193.1.155
 
 ;
 ; ESAMS
