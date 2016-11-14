@@ -2680,6 +2680,9 @@ restbase2009    1H  IN A    10.192.48.53
 restbase2009-a  1H  IN A    10.192.48.54 ; cassandra instance
 restbase2009-b  1H  IN A    10.192.48.55 ; cassandra instance
 restbase2009-c  1H  IN A    10.192.48.56 ; cassandra instance
+restbase2010    1H  IN A    10.192.16.185
+restbase2011    1H  IN A    10.192.32.151
+restbase2012    1H  IN A    10.192.48.67
 sarin           1H  IN A    10.192.0.140
 sca2003         1H  IN A    10.192.16.29
 sca2004         1H  IN A    10.192.16.30
