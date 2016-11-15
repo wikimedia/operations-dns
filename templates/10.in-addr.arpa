@@ -753,6 +753,7 @@ $ORIGIN 32.64.{{ zonename }}.
 125     1H IN PTR       sca1004.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 126     1H IN PTR       poolcounter1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 127     1H IN PTR       kafka1003.eqiad.wmnet.
+128     1H IN PTR       db1095.eqiad.wmnet.
 
 135     1H IN PTR       hassium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 136     1H IN PTR       db1078.eqiad.wmnet.
@@ -883,7 +884,7 @@ $ORIGIN 37.64.{{ zonename }}.
 11      1H IN PTR       labsdb1006.eqiad.wmnet.
 12      1H IN PTR       labsdb1007.eqiad.wmnet.
 13      1H IN PTR       labmon1001.eqiad.wmnet.
-15      1H IN PTR       labsdb1008.eqiad.wmnet.
+
 16      1H IN PTR       nfs-scratch.svc.eqiad.wmnet.
 17      1H IN PTR       nfs-tools-home.svc.eqiad.wmnet.
 18      1H IN PTR       nfs-tools-project.svc.eqiad.wmnet.
@@ -2165,7 +2166,7 @@ $ORIGIN 6.65.{{ zonename }}.
 81      1H IN PTR       wmf4741.mgmt.eqiad.wmnet.
 81      1H IN PTR       db1078.mgmt.eqiad.wmnet.
 82      1H IN PTR       wmf4742.mgmt.eqiad.wmnet.
-82      1H IN PTR       labsdb1008.mgmt.eqiad.wmnet.
+82      1H IN PTR       db1095.mgmt.eqiad.wmnet.
 83      1H IN PTR       db1079.mgmt.eqiad.wmnet.
 83      1H IN PTR       wmf4776.mgmt.eqiad.wmnet.
 84      1H IN PTR       db1080.mgmt.eqiad.wmnet.
