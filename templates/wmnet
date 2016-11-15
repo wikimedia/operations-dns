@@ -827,7 +827,7 @@ xenon-b         1H  IN A        10.64.0.203 ; cassandra instance
 $ORIGIN mgmt.eqiad.wmnet.
 
 mr1-eqiad           1H  IN A        10.65.0.1
-
+fe-0-0-2.mr1-eqiad  1H  IN A        10.66.0.1
 msw1-eqiad          1H  IN A        10.65.0.10
 scs-a8-eqiad        1H  IN A        10.65.0.11
 re0.cr1-eqiad       1H  IN A        10.65.0.12
