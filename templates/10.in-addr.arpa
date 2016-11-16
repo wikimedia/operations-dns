@@ -71,6 +71,7 @@ $ORIGIN 2.2.{{ zonename }}.
 31  1H  IN PTR  ocg.svc.eqiad.wmnet.
 32  1H  IN PTR  wdqs.svc.eqiad.wmnet.
 33  1H  IN PTR  kibana.svc.eqiad.wmnet.
+34  1H  IN PTR  eventstreams.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
