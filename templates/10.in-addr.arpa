@@ -4077,7 +4077,6 @@ $ORIGIN 0.195.{{ zonename }}.
 109 1H IN PTR  bellatrix.mgmt.frack.codfw.wmnet.
 110 1H IN PTR  fdb2001.mgmt.frack.codfw.wmnet.
 111 1H IN PTR  betelgeuse.mgmt.frack.codfw.wmnet.
-111 1H IN PTR  wmf3762.mgmt.frack.codfw.wmnet.
 
 ; codfw labs realm
 
