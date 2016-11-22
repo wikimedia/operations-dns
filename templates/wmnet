@@ -33,6 +33,8 @@ statsd          1H  IN CNAME    graphite1001.eqiad.wmnet.
 eventlogging    1H  IN CNAME    eventlog1001.eqiad.wmnet.
 udplog          1H  IN CNAME    fluorine.eqiad.wmnet.
 deployment      1H  IN CNAME    tin.eqiad.wmnet.
+mwtest1001      1H  IN CNAME    mw1170.eqiad.wmnet.
+mwtest1002      1H  IN CNAME    mw1171.eqiad.wmnet.
 people          1H  IN CNAME    rutherfordium.eqiad.wmnet.
 s1-master       5M  IN CNAME    db1057.eqiad.wmnet.
 s2-master       5M  IN CNAME    db1018.eqiad.wmnet.
