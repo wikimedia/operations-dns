@@ -40,6 +40,7 @@ $ORIGIN 1.2.{{ zonename }}.
 ; 31 reserved for ocg
 32  1H  IN PTR  wdqs.svc.codfw.wmnet.
 ; 33 reserved for kibana
+34  1H  IN PTR  eventstreams.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
