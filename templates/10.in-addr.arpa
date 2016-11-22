@@ -3421,6 +3421,10 @@ $ORIGIN 1.193.{{ zonename }}.
 154 1H IN PTR  wmf6471.mgmt.codfw.wmnet.
 155 1H IN PTR  restbase2012.mgmt.codfw.wmnet.
 155 1H IN PTR  wmf6472.mgmt.codfw.wmnet.
+156 1H IN PTR  prometheus2001.mgmt.codfw.wmnet.
+156 1H IN PTR  wmf6473.mgmt.codfw.wmnet.
+157 1H IN PTR  prometheus2002.mgmt.codfw.wmnet.
+157 1H IN PTR  wmf6474.mgmt.codfw.wmnet.
 
 175 1H IN PTR  mw2075.mgmt.codfw.wmnet.
 176 1H IN PTR  mw2076.mgmt.codfw.wmnet.
