@@ -324,8 +324,8 @@ dbproxy1006     1H  IN A        10.64.16.159
 dbproxy1007     1H  IN A        10.64.32.156
 dbproxy1008     1H  IN A        10.64.32.157
 dbproxy1009     1H  IN A        10.64.32.158
-dbproxy1010     1H  IN A        10.64.48.97
-dbproxy1011     1H  IN A        10.64.48.98
+dbproxy1010     1H  IN A        10.64.37.14
+dbproxy1011     1H  IN A        10.64.37.15
 dbstore1001     1H  IN A        10.64.48.17
 dbstore1002     1H  IN A        10.64.48.18
 d-i-test        1H  IN A        10.64.32.201

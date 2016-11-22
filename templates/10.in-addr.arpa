@@ -886,7 +886,8 @@ $ORIGIN 37.64.{{ zonename }}.
 11      1H IN PTR       labsdb1006.eqiad.wmnet.
 12      1H IN PTR       labsdb1007.eqiad.wmnet.
 13      1H IN PTR       labmon1001.eqiad.wmnet.
-
+14      1H IN PTR       dbproxy1010.eqiad.wmnet.
+15      1H IN PTR       dbproxy1011.eqiad.wmnet.
 16      1H IN PTR       nfs-scratch.svc.eqiad.wmnet.
 17      1H IN PTR       nfs-tools-home.svc.eqiad.wmnet.
 18      1H IN PTR       nfs-tools-project.svc.eqiad.wmnet.
@@ -1029,8 +1030,7 @@ $ORIGIN 48.64.{{ zonename }}.
 94      1H  IN PTR      lawrencium.eqiad.wmnet.
 95      1H  IN PTR      mc1017.eqiad.wmnet.
 96      1H  IN PTR      mc1018.eqiad.wmnet.
-97      1H  IN PTR      dbproxy1010.eqiad.wmnet.
-98      1H  IN PTR      dbproxy1011.eqiad.wmnet.
+
 101     1H  IN PTR      mc1013.eqiad.wmnet.
 102     1H  IN PTR      mc1014.eqiad.wmnet.
 103     1H  IN PTR      mc1015.eqiad.wmnet.
