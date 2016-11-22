@@ -3290,8 +3290,8 @@ pc2005          1H  IN A    10.193.2.232
 pc2006          1H  IN A    10.193.2.233
 phab2001        1H  IN A    10.193.2.252
 procyon         1H  IN A    10.193.2.117
-prometheus2001  1H  IN A    10.193.1.156
-prometheus2002  1H  IN A    10.193.1.157
+prometheus2003  1H  IN A    10.193.1.156
+prometheus2004  1H  IN A    10.193.1.157
 puppetmaster2001         1H  IN A    10.193.1.147
 puppetmaster2002         1H  IN A    10.193.1.148
 rdb2001         1H  IN A    10.193.2.159
