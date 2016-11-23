@@ -2619,6 +2619,8 @@ prometheus2001  1H  IN A    10.192.16.181 ; VM on the ganeti01.svc.codfw.wmnet c
                 1H  IN AAAA 2620:0:860:102:10:192:16:181
 prometheus2002  1H  IN A    10.192.16.182 ; VM on the ganeti01.svc.codfw.wmnet cluster
                 1H  IN AAAA 2620:0:860:102:10:192:16:182
+prometheus2003   1H IN A    10.192.0.145
+prometheus2004   1H IN A    10.192.16.189
 puppetmaster2001 1H IN A    10.192.0.27
 puppetmaster2001 1H IN AAAA 2620:0:860:101:10:192:0:27
 puppetmaster2002 1H IN A    10.192.48.66
