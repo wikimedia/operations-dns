@@ -221,6 +221,9 @@ plugins => { geoip => {
                 8.0.28.0/22       => [eqiad, codfw, ulsfo, esams], # New York
                 8.0.32.0/22       => [ulsfo, codfw, eqiad, esams], # San Jose
                 8.0.36.0/22       => [eqiad, codfw, ulsfo, esams], # Washington, DC
+                # AT&T's DNS clusters (incomplete)
+                151.164.0.0/16    => [ulsfo, codfw, eqiad, esams], # West Coast?
+                12.121.113.0/22   => [ulsfo, codfw, eqiad, esams], # West Coast?
             },
         },
     },
