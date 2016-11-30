@@ -41,6 +41,7 @@ $ORIGIN 1.2.{{ zonename }}.
 32  1H  IN PTR  wdqs.svc.codfw.wmnet.
 ; 33 reserved for kibana
 34  1H  IN PTR  eventstreams.svc.codfw.wmnet.
+35  1H  IN PTR  pdfrender.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -73,6 +74,7 @@ $ORIGIN 2.2.{{ zonename }}.
 32  1H  IN PTR  wdqs.svc.eqiad.wmnet.
 33  1H  IN PTR  kibana.svc.eqiad.wmnet.
 34  1H  IN PTR  eventstreams.svc.eqiad.wmnet.
+35  1H  IN PTR  pdfrender.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
