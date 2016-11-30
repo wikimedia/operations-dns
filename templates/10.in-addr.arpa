@@ -1052,7 +1052,6 @@ $ORIGIN 48.64.{{ zonename }}.
 114     1H  IN PTR      es1017.eqiad.wmnet.
 115     1H  IN PTR      es1018.eqiad.wmnet.
 116     1H  IN PTR      es1019.eqiad.wmnet.
-117     1H  IN PTR      thorium.eqiad.wmnet.
 
 120     1H  IN PTR      restbase1009-a.eqiad.wmnet.
 121     1H  IN PTR      auth1001.eqiad.wmnet.
@@ -1118,6 +1117,7 @@ $ORIGIN 53.64.{{ zonename }}.
 23      1H IN PTR       analytics1043.eqiad.wmnet.
 24      1H IN PTR       analytics1044.eqiad.wmnet.
 25      1H IN PTR       analytics1045.eqiad.wmnet.
+26      1H  IN PTR      thorium.eqiad.wmnet.
 
 103     1H  IN PTR      druid1003.eqiad.wmnet.
 
