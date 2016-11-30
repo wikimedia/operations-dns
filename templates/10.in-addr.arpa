@@ -1520,6 +1520,12 @@ $ORIGIN 2.65.{{ zonename }}.
 134 1H  IN PTR      restbase1014.mgmt.eqiad.wmnet.
 135 1H  IN PTR      wmf4736.mgmt.eqiad.wmnet.
 135 1H  IN PTR      restbase1015.mgmt.eqiad.wmnet.
+136 1H  IN PTR      wmf6997.mgmt.eqiad.wmnet.
+136 1H  IN PTR      restbase1016.mgmt.eqiad.wmnet.
+137 1H  IN PTR      wmf6998.mgmt.eqiad.wmnet.
+137 1H  IN PTR      restbase1017.mgmt.eqiad.wmnet.
+138 1H  IN PTR      wmf6999.mgmt.eqiad.wmnet.
+138 1H  IN PTR      restbase1018.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.{{ zonename }}.
 

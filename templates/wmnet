@@ -2028,6 +2028,12 @@ wmf4735         1H      IN A            10.65.2.134
 restbase1014    1H      IN A            10.65.2.134
 wmf4736         1H      IN A            10.65.2.135
 restbase1015    1H      IN A            10.65.2.135
+wmf6997         1H      IN A            10.65.2.136
+restbase1016    1H      IN A            10.65.2.136
+wmf6998         1H      IN A            10.65.2.137
+restbase1017    1H      IN A            10.65.2.137
+wmf6999         1H      IN A            10.65.2.138
+restbase1018    1H      IN A            10.65.2.138
 wmf4720         1H      IN A            10.65.2.122
 kafka1001       1H      IN A            10.65.2.122
 wmf4721         1H      IN A            10.65.2.123
