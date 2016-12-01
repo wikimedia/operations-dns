@@ -483,9 +483,9 @@ ldap-eqiad      1H  IN CNAME    seaborgium
 ldap-codfw      1H  IN CNAME    serpens
 
 phabricator     600 IN DYNA     geoip!misc-addrs
-                1H  IN MX       10 mx1001
-                1H  IN MX       50 mx2001
-                1H  IN TXT      "v=spf1 mx ip4:10.64.32.150 ip6:2620:0:861:103:10:64:32:150 -all"
+phabricator     1H  IN MX       10 mx1001
+phabricator     1H  IN MX       50 mx2001
+phabricator     1H  IN TXT      "v=spf1 mx ip4:10.64.32.150 ip6:2620:0:861:103:10:64:32:150 -all"
 
 login           600 IN DYNA     geoip!text-addrs
 
@@ -511,8 +511,8 @@ releases        600 IN DYNA     geoip!misc-addrs
 reports.frdev   1H  IN CNAME    frdev-eqiad
 
 rt              600 IN DYNA     geoip!misc-addrs
-                1H  IN MX       10 mx1001
-                1H  IN MX       50 mx2001
+rt              1H  IN MX       10 mx1001
+rt              1H  IN MX       50 mx2001
 
 secure          600 IN DYNA     geoip!text-addrs
 
