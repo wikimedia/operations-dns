@@ -462,7 +462,7 @@ labtest-puppetmaster-codfw 300 IN CNAME  labtestcontrol2001
 frdata          1H  IN CNAME    frdata-eqiad
 
 gerrit          600 IN A        208.80.154.85
-                600 IN AAAA     2620:0:861:3:208:80:154:85
+gerrit          600 IN AAAA     2620:0:861:3:208:80:154:85
 git             600 IN DYNA     geoip!misc-addrs
 graphite        600 IN DYNA     geoip!misc-addrs
 graphite-labs   600 IN DYNA     geoip!misc-addrs
@@ -706,7 +706,7 @@ store            1H  IN CNAME    c.ssl.shopify.com.
 static-bugzilla  600 IN DYNA     geoip!misc-addrs
 stats            600 IN DYNA     geoip!misc-addrs
 status           1H  IN A        162.209.126.221
-                 1H  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
+status           1H  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
 techblog         600 IN DYNA     geoip!text-addrs
 ticket           600 IN DYNA     geoip!misc-addrs
 tor-eqiad-1      1H  IN CNAME    radium
@@ -715,7 +715,7 @@ mirrors          1H  IN CNAME    sodium
 yarn             600 IN DYNA     geoip!misc-addrs
 wikitech         1H  IN CNAME    silver
 wikitech-static  1H  IN A        162.209.126.221
-                 1H  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
+wikitech-static  1H  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
 labtestwikitech  1H  IN CNAME    labtestweb2001
 labtesthorizon   1H  IN DYNA     geoip!misc-addrs
 labtestspice     1H  IN DYNA     geoip!misc-addrs
