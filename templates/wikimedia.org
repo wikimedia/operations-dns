@@ -487,6 +487,8 @@ phabricator     1H  IN MX       10 mx1001
 phabricator     1H  IN MX       50 mx2001
 phabricator     1H  IN TXT      "v=spf1 mx ip4:10.64.32.150 ip6:2620:0:861:103:10:64:32:150 -all"
 
+phabricator-new 600 IN DYNA     geoip!misc-addrs
+
 login           600 IN DYNA     geoip!text-addrs
 
 librenms        1H  IN CNAME    netmon1001
