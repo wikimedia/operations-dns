@@ -334,7 +334,7 @@ $ORIGIN 0.64.{{ zonename }}.
 120 1H IN PTR   snapshot1001.eqiad.wmnet.
 121 1H IN PTR   kubernetes1001.eqiad.wmnet.
 122 1H IN PTR   logstash1001.eqiad.wmnet.
-
+123 1H IN PTR   prometheus1003.eqiad.wmnet.
 124 1H IN PTR   elastic1030.eqiad.wmnet.
 125 1H IN PTR   elastic1031.eqiad.wmnet.
 126 1H IN PTR   aqs1004-a.eqiad.wmnet. ; cassandra instance
@@ -473,6 +473,7 @@ $ORIGIN 16.64.{{ zonename }}.
 35  1H IN PTR   db1046.eqiad.wmnet.
 36  1H IN PTR   db1047.eqiad.wmnet.
 37  1H IN PTR   db1048.eqiad.wmnet.
+38  1H IN PTR   prometheus1004.eqiad.wmnet.
 
 40  1H IN PTR   ms-be1020.eqiad.wmnet.
 41  1H IN PTR   kafka1002.eqiad.wmnet.
@@ -1531,6 +1532,10 @@ $ORIGIN 2.65.{{ zonename }}.
 137 1H  IN PTR      restbase1017.mgmt.eqiad.wmnet.
 138 1H  IN PTR      wmf6999.mgmt.eqiad.wmnet.
 138 1H  IN PTR      restbase1018.mgmt.eqiad.wmnet.
+139 1H  IN PTR      wmf7000.mgmt.eqiad.wmnet.
+139 1H  IN PTR      prometheus1003.mgmt.eqiad.wmnet.
+140 1H  IN PTR      wmf7001.mgmt.eqiad.wmnet.
+140 1H  IN PTR      prometheus1004.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.{{ zonename }}.
 
