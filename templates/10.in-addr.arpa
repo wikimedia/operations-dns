@@ -3072,6 +3072,7 @@ $ORIGIN 48.192.{{ zonename }}.
 68  1H IN PTR   restbase2012-a.codfw.wmnet.
 69  1H IN PTR   restbase2012-b.codfw.wmnet.
 70  1H IN PTR   restbase2012-c.codfw.wmnet.
+71  1H IN PTR   gerrit2001.codfw.wmnet.
 
 $ORIGIN 49.192.{{ zonename }}.
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
@@ -4046,6 +4047,7 @@ $ORIGIN 2.193.{{ zonename }}.
 ;10.193.3.0 - mgmt-codfw servers
 $ORIGIN 3.193.{{ zonename }}.
 
+1   1H IN PTR  gerrit2001.mgmt.codfw.wmnet.
 1   1H IN PTR  wmf6408.mgmt.codfw.wmnet.
 2   1H IN PTR  conf2001.mgmt.codfw.wmnet.
 2   1H IN PTR  wmf6409.mgmt.codfw.wmnet.

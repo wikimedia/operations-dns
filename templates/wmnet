@@ -2366,6 +2366,7 @@ ganeti2003      1H  IN A    10.192.16.127
 ganeti2004      1H  IN A    10.192.16.128
 ganeti2005      1H  IN A    10.192.16.129
 ganeti2006      1H  IN A    10.192.16.130
+gerrit2001      1H  IN A    10.192.48.71
 graphite2001    1H  IN A    10.192.16.33
 graphite2002    1H  IN A    10.192.32.140
 hassaleh        1H  IN A    10.192.16.173
@@ -3038,6 +3039,7 @@ ganeti2003      1H  IN A    10.193.2.167
 ganeti2004      1H  IN A    10.193.2.168
 ganeti2005      1H  IN A    10.193.2.169
 ganeti2006      1H  IN A    10.193.2.170
+gerrit2001      1H  IN A    10.193.3.1
 graphite2001    1H  IN A    10.193.2.14
 graphite2002    1H  IN A    10.193.2.251
 haedus          1H  IN A    10.193.2.1
