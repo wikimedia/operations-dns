@@ -172,10 +172,12 @@ aqs1005-b        1H IN A             10.64.32.190 ; cassandra instance
 aqs1006          1H IN A             10.64.48.146
 aqs1006-a        1H IN A             10.64.48.148 ; cassandra instance
 aqs1006-b        1H IN A             10.64.48.149 ; cassandra instance
+argon            1H IN A             10.64.32.133 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 bohrium          1H IN A             10.64.32.71 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 cerium           1H IN A             10.64.16.147
 cerium-a         1H IN A             10.64.16.153 ; cassandra instance
 cerium-b         1H IN A             10.64.16.154 ; cassandra instance
+chlorine         1H IN A             10.64.32.134 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 copper           1H IN A             10.64.16.176
 conf1001         1H IN A             10.64.0.18
 conf1002         1H IN A             10.64.32.180
