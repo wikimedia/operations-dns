@@ -298,6 +298,7 @@ nostalgia.m         600 IN DYNA     geoip!text-addrs
 nyc.m               600 IN DYNA     geoip!text-addrs
 nz.m                600 IN DYNA     geoip!text-addrs
 office.m            600 IN DYNA     geoip!text-addrs
+otrs-wiki.m         600 IN DYNA     geoip!text-addrs
 outreach.m          600 IN DYNA     geoip!text-addrs
 quality.m           600 IN DYNA     geoip!text-addrs
 pa-us.m             600 IN DYNA     geoip!text-addrs
