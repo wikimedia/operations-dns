@@ -273,6 +273,9 @@ $ORIGIN 0.64.{{ zonename }}.
 29  1H IN PTR   cam1-a-b-eqiad.eqiad.wmnet.
 30  1H IN PTR   cam2-a-b-eqiad.eqiad.wmnet.
 31  1H IN PTR   restbase1016.eqiad.wmnet.
+32  1H IN PTR   restbase1016-a.eqiad.wmnet.
+33  1H IN PTR   restbase1016-b.eqiad.wmnet.
+34  1H IN PTR   restbase1016-c.eqiad.wmnet.
 
 56  1H IN PTR   mw1261.eqiad.wmnet.
 57  1H IN PTR   mw1262.eqiad.wmnet.
@@ -762,6 +765,9 @@ $ORIGIN 32.64.{{ zonename }}.
 127     1H IN PTR       kafka1003.eqiad.wmnet.
 128     1H IN PTR       db1095.eqiad.wmnet.
 129     1H IN PTR       restbase1017.eqiad.wmnet.
+130     1H IN PTR       restbase1017-a.eqiad.wmnet.
+131     1H IN PTR       restbase1017-b.eqiad.wmnet.
+132     1H IN PTR       restbase1017-c.eqiad.wmnet.
 
 135     1H IN PTR       hassium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 136     1H IN PTR       db1078.eqiad.wmnet.
@@ -1037,6 +1043,9 @@ $ORIGIN 48.64.{{ zonename }}.
 95      1H  IN PTR      mc1017.eqiad.wmnet.
 96      1H  IN PTR      mc1018.eqiad.wmnet.
 97      1H  IN PTR      restbase1018.eqiad.wmnet.
+98      1H  IN PTR      restbase1018-a.eqiad.wmnet.
+99      1H  IN PTR      restbase1018-b.eqiad.wmnet.
+100     1H  IN PTR      restbase1018-c.eqiad.wmnet.
 
 101     1H  IN PTR      mc1013.eqiad.wmnet.
 102     1H  IN PTR      mc1014.eqiad.wmnet.

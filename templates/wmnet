@@ -747,8 +747,17 @@ restbase1015-a  1H  IN A        10.64.48.138 ; cassandra instance
 restbase1015-b  1H  IN A        10.64.48.139 ; cassandra instance
 restbase1015-c  1H  IN A        10.64.48.140 ; cassandra instance
 restbase1016    1H  IN A        10.64.0.31
+restbase1016-a  1H  IN A        10.64.0.32 ; cassandra instance
+restbase1016-b  1H  IN A        10.64.0.33 ; cassandra instance
+restbase1016-c  1H  IN A        10.64.0.34 ; cassandra instance
 restbase1017    1H  IN A        10.64.32.129
+restbase1017-a  1H  IN A        10.64.32.130 ; cassandra instance
+restbase1017-b  1H  IN A        10.64.32.131 ; cassandra instance
+restbase1017-c  1H  IN A        10.64.32.132 ; cassandra instance
 restbase1018    1H  IN A        10.64.48.97
+restbase1018-a  1H  IN A        10.64.48.98  ; cassandra instance
+restbase1018-b  1H  IN A        10.64.48.99  ; cassandra instance
+restbase1018-c  1H  IN A        10.64.48.100 ; cassandra instance
 rhodium         1H  IN A        10.64.16.184
 ruthenium       1H  IN A        10.64.16.151
 rutherfordium   1H  IN A        10.64.32.17 ; VM on the ganeti01.svc.eqiad.wmnet cluster
