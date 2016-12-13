@@ -60,13 +60,13 @@ pc3-master      5M  IN CNAME    pc1006.eqiad.wmnet.
 tendril-backend 5M  IN CNAME    db1011.eqiad.wmnet.
 
 s1-analytics-slave  5M  IN CNAME    db1047.eqiad.wmnet.
-s2-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
+s2-analytics-slave  5M  IN CNAME    db1047.eqiad.wmnet.
 s3-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
 s4-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
 s5-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
 s6-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
 s7-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
-x1-analytics-slave  5M  IN CNAME    db1031.eqiad.wmnet.
+x1-analytics-slave  5M  IN CNAME    db1029.eqiad.wmnet.
 analytics-slave     5M  IN CNAME    db1047.eqiad.wmnet.
 analytics-store     5M  IN CNAME    dbstore1002.eqiad.wmnet.
 osmdb               5M  IN CNAME    labsdb1006.eqiad.wmnet.
