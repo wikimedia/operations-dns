@@ -2769,6 +2769,7 @@ wtp2019         1H  IN A    10.192.32.34
 wtp2020         1H  IN A    10.192.32.35
 wdqs2001        1H  IN A    10.192.32.148
 wdqs2002        1H  IN A    10.192.48.65
+wdqs2003        1H  IN A    10.192.0.29
 zosma           1H  IN A    10.192.16.183 ; VM on the ganeti01.svc.codfw.wmnet cluster
 zosma           1H  IN AAAA 2620:0:860:102:10:192:16:183
 
