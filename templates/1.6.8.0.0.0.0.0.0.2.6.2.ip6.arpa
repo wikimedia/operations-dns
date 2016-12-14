@@ -70,6 +70,7 @@ $ORIGIN 3.0.0.0.{{ zonename }}.
 3.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   radon.wikimedia.org.
 4.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   fermium.wikimedia.org.
 6.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   mx1001.wikimedia.org.
+2.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dbmonitor1001.wikimedia.org.
 3.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   install1001.wikimedia.org.
 5.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit.wikimedia.org.
 0.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   aluminium.wikimedia.org.
@@ -82,7 +83,6 @@ $ORIGIN 4.0.0.0.{{ zonename }}.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1004.cr2-eqiad.wikimedia.org.
 
 9.1.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   einsteinium.wikimedia.org.
-
 
 ; eqiad private subnets (2620:0:861:100::/56)
 
