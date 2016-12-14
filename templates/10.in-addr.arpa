@@ -3474,6 +3474,8 @@ $ORIGIN 1.193.{{ zonename }}.
 160 1H IN PTR  wmf6477.mgmt.codfw.wmnet.
 161 1H IN PTR  ms-fe2008.mgmt.codfw.wmnet.
 161 1H IN PTR  wmf6478.mgmt.codfw.wmnet.
+162 1H IN PTR  wdqs2003.mgmt.codfw.wmnet.
+162 1H IN PTR  wmf6479.mgmt.codfw.wmnet.
 
 175 1H IN PTR  mw2075.mgmt.codfw.wmnet.
 176 1H IN PTR  mw2076.mgmt.codfw.wmnet.

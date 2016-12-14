@@ -3141,7 +3141,6 @@ ms-fe2005       1H  IN A    10.193.1.158
 ms-fe2006       1H  IN A    10.193.1.159
 ms-fe2007       1H  IN A    10.193.1.160
 ms-fe2008       1H  IN A    10.193.1.161
-
 mw2215          1H  IN A    10.193.1.101
 mw2216          1H  IN A    10.193.1.102
 mw2217          1H  IN A    10.193.1.103
@@ -3401,6 +3400,7 @@ wtp2019         1H  IN A    10.193.2.33
 wtp2020         1H  IN A    10.193.2.34
 wdqs2001        1H  IN A    10.193.1.145
 wdqs2002        1H  IN A    10.193.1.146
+wdqs2003        1H  IN A    10.193.1.162
 
 ; Servers MGMT - Alphabetical by asset tag
 
@@ -3837,6 +3837,7 @@ wmf6475         1H  IN A    10.193.1.158
 wmf6476         1H  IN A    10.193.1.159
 wmf6477         1H  IN A    10.193.1.160
 wmf6478         1H  IN A    10.193.1.161
+wwf6479         1H  IN A    10.193.1.162
 
 ;
 ; ESAMS
