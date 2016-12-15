@@ -26,6 +26,7 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 5.0.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   bast2001.wikimedia.org.
 2.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   acamar.wikimedia.org.
 3.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   baham.wikimedia.org.
+5.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   contint2001.wikimedia.org.
 
 ; public1-b-codfw (2620:0:860:2::/64)
 $ORIGIN 2.0.0.0.{{ zonename }}.
