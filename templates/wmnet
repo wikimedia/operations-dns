@@ -2930,6 +2930,7 @@ capella         1H  IN A    10.193.2.2
 conf2001        1H  IN A    10.193.3.2
 conf2002        1H  IN A    10.193.3.3
 conf2003        1H  IN A    10.193.3.4
+contint2001     1H  IN A    10.193.2.250
 cp2001          1H  IN A    10.193.2.172
 cp2002          1H  IN A    10.193.2.173
 cp2003          1H  IN A    10.193.2.174
