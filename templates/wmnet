@@ -814,6 +814,7 @@ labvirt1013     1H  IN A        10.64.20.29
 labvirt1014     1H  IN A        10.64.20.30
 wdqs1001        1H  IN A        10.64.48.112
 wdqs1002        1H  IN A        10.64.32.183
+wdqs1003        1H  IN A        10.64.0.14
 wtp1001         1H  IN A        10.64.32.78
 wtp1002         1H  IN A        10.64.32.73
 wtp1003         1H  IN A        10.64.32.74
@@ -1761,6 +1762,8 @@ wmf3543     1H  IN A    10.65.7.26
 wdqs1001    1H  IN A    10.65.7.26
 wmf3544     1H  IN A    10.65.7.27
 wdqs1002    1H  IN A    10.65.7.27
+wmf7002     1H  IN A    10.65.7.28
+wdqs1003    1H  IN A    10.65.7.28
 wmf3151     1H  IN A    10.65.7.100
 snapshot1001    1H  IN A    10.65.3.81
 wmf3466         1H  IN A    10.65.3.81
