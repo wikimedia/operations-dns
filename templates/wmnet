@@ -2652,6 +2652,7 @@ mw2211          1H  IN A    10.192.32.99
 mw2212          1H  IN A    10.192.32.100
 mw2213          1H  IN A    10.192.32.101
 mw2214          1H  IN A    10.192.32.102
+mwlog2001       1H  IN A    10.192.32.131
 nihal           1H  IN A    10.192.16.184 ; VM on the ganeti01.svc.codfw.wmnet cluster
 planet2001      1H  IN A    10.192.16.180
 planet2001      1H  IN AAAA 2620:0:860:102:10:192:16:180
@@ -2747,7 +2748,6 @@ scb2002         1H  IN A    10.192.48.43
 scb2003         1H  IN A    10.192.0.33
 scb2004         1H  IN A    10.192.16.36
 subra           1H  IN A    10.192.16.124
-sinistra        1H  IN A    10.192.32.131
 suhail          1H  IN A    10.192.0.121
 wasat           1H  IN A    10.192.48.45
 wasat           1H  IN AAAA 2620:0:860:104:10:192:48:45
@@ -3325,6 +3325,7 @@ mw2211          1H  IN A    10.193.2.111
 mw2212          1H  IN A    10.193.2.112
 mw2213          1H  IN A    10.193.2.113
 mw2214          1H  IN A    10.193.2.114
+mwlog2001       1H  IN A    10.193.2.246
 nembus          1H  IN A    10.193.1.251
 maps2001        1H  IN A    10.193.3.8
 maps2002        1H  IN A    10.193.3.9
@@ -3376,7 +3377,6 @@ scb2001         1H  IN A    10.193.1.28
 scb2002         1H  IN A    10.193.2.230
 scb2003         1H  IN A    10.193.1.24
 scb2004         1H  IN A    10.193.1.26
-sinistra        1H  IN A    10.193.2.246
 stat2001        1H  IN A    10.193.2.13
 subra           1H  IN A    10.193.2.163
 suhail          1H  IN A    10.193.2.164
