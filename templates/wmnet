@@ -4164,7 +4164,6 @@ _x-puppet._tcp      5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
 $ORIGIN svc.eqiad.wmnet.
 
 appservers  1H  IN A        10.2.2.1
-appservers-debug  1H  IN CNAME        mw1017.eqiad.wmnet.
 hhvm-api    1H  IN A        10.2.2.3
 trendingedits 1H  IN A      10.2.2.9
 ores        1H  IN A        10.2.2.10
