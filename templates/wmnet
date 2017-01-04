@@ -762,9 +762,9 @@ restbase1018    1H  IN A        10.64.48.97
 restbase1018-a  1H  IN A        10.64.48.98  ; cassandra instance
 restbase1018-b  1H  IN A        10.64.48.99  ; cassandra instance
 restbase1018-c  1H  IN A        10.64.48.100 ; cassandra instance
-restbase-test1001  1H IN A      10.64.0.35
-restbase-test1002  1H IN A      10.64.32.112
-restbase-test1003  1H IN A      10.64.48.46
+restbase-dev1001  1H IN A       10.64.0.35
+restbase-dev1002  1H IN A       10.64.32.112
+restbase-dev1003  1H IN A       10.64.48.46
 rhodium         1H  IN A        10.64.16.184
 ruthenium       1H  IN A        10.64.16.151
 rutherfordium   1H  IN A        10.64.32.17 ; VM on the ganeti01.svc.eqiad.wmnet cluster
@@ -1033,17 +1033,17 @@ labvirt1013 1H  IN A    10.65.4.63
 wmf6977     1H  IN A    10.65.4.63
 labvirt1014 1H  IN A    10.65.4.64
 wmf6978     1H  IN A    10.65.4.64
-restbase-test1001  1H  IN A    10.65.3.94
+restbase-dev1001  1H  IN A    10.65.3.94
 WMF4086     1H  IN A    10.65.3.94
 kafka1012       1H  IN A    10.65.3.95
 kafka1013       1H  IN A    10.65.3.96
 kafka1014       1H  IN A    10.65.3.97
 analytics1015   1H  IN A    10.65.3.98
-restbase-test1002  1H  IN A    10.65.3.99
+restbase-dev1002  1H  IN A    10.65.3.99
 WMF4091     1H  IN A    10.65.3.99
 notebook1001    1H  IN A    10.65.3.100
 kafka1018       1H  IN A    10.65.3.101
-restbase-test1003  1H  IN A    10.65.3.102
+restbase-dev1003  1H  IN A    10.65.3.102
 WMF4093         1H  IN A    10.65.3.102
 aqs1004         1H  IN A    10.65.4.45
 wmf4773         1H  IN A    10.65.4.45

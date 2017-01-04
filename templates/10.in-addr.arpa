@@ -278,7 +278,7 @@ $ORIGIN 0.64.{{ zonename }}.
 32  1H IN PTR   restbase1016-a.eqiad.wmnet.
 33  1H IN PTR   restbase1016-b.eqiad.wmnet.
 34  1H IN PTR   restbase1016-c.eqiad.wmnet.
-35  1H IN PTR   restbase-test1001.eqiad.wmnet.
+35  1H IN PTR   restbase-dev1001.eqiad.wmnet.
 
 56  1H IN PTR   mw1261.eqiad.wmnet.
 57  1H IN PTR   mw1262.eqiad.wmnet.
@@ -750,7 +750,7 @@ $ORIGIN 32.64.{{ zonename }}.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
 110     1H IN PTR       elastic1042.eqiad.wmnet.
 111     1H IN PTR       elastic1043.eqiad.wmnet.
-112     1H IN PTR       restbase-test1002.eqiad.wmnet.
+112     1H IN PTR       restbase-dev1002.eqiad.wmnet.
 113     1H IN PTR       db1087.eqiad.wmnet.
 114     1H IN PTR       db1088.eqiad.wmnet.
 115     1H IN PTR       db1089.eqiad.wmnet.
@@ -997,7 +997,7 @@ $ORIGIN 48.64.{{ zonename }}.
 43      1H IN PTR       ocg1003.eqiad.wmnet.
 44      1H IN PTR       elastic1020.eqiad.wmnet.
 45      1H IN PTR       puppetmaster1002.eqiad.wmnet.
-46      1H IN PTR       restbase-test1003.eqiad.wmnet.
+46      1H IN PTR       restbase-dev1003.eqiad.wmnet.
 47      1H IN PTR       elastic1023.eqiad.wmnet.
 48      1H IN PTR       elastic1024.eqiad.wmnet.
 49      1H IN PTR       elastic1025.eqiad.wmnet.
@@ -1673,17 +1673,17 @@ $ORIGIN 3.65.{{ zonename }}.
 91  1H  IN PTR      osm-cp1002.mgmt.eqiad.wmnet.
 92  1H  IN PTR      osm-cp1003.mgmt.eqiad.wmnet.
 93  1H  IN PTR      osm-cp1004.mgmt.eqiad.wmnet.
-94  1H  IN PTR      restbase-test1001.mgmt.eqiad.wmnet.
+94  1H  IN PTR      restbase-dev1001.mgmt.eqiad.wmnet.
 94  1H  IN PTR      WMF4086.mgmt.eqiad.wmnet.
 95  1H  IN PTR      kafka1012.mgmt.eqiad.wmnet.
 96  1H  IN PTR      kafka1013.mgmt.eqiad.wmnet.
 97  1H  IN PTR      kafka1014.mgmt.eqiad.wmnet.
 98  1H  IN PTR      analytics1015.mgmt.eqiad.wmnet.
-99  1H  IN PTR      restbase-test1002.mgmt.eqiad.wmnet.
+99  1H  IN PTR      restbase-dev1002.mgmt.eqiad.wmnet.
 99  1H  IN PTR      WMF4091.mgmt.eqiad.wmnet.
 100 1H  IN PTR      notebook1001.mgmt.eqiad.wmnet.
 101 1H  IN PTR      kafka1018.mgmt.eqiad.wmnet.
-102 1H  IN PTR      restbase-test1003.mgmt.eqiad.wmnet.
+102 1H  IN PTR      restbase-dev1003.mgmt.eqiad.wmnet.
 102 1H  IN PTR      WMF4093.mgmt.eqiad.wmnet.
 103 1H  IN PTR      kafka1020.mgmt.eqiad.wmnet.
 104 1H  IN PTR      notebook1002.mgmt.eqiad.wmnet.
