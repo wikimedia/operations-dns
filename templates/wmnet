@@ -2375,6 +2375,18 @@ elastic2021     1H  IN A    10.192.48.33
 elastic2022     1H  IN A    10.192.48.34
 elastic2023     1H  IN A    10.192.48.35
 elastic2024     1H  IN A    10.192.48.36
+elastic2025     1H  IN A    10.192.0.77
+elastic2026     1H  IN A    10.192.0.78
+elastic2027     1H  IN A    10.192.0.79
+elastic2028     1H  IN A    10.192.16.191
+elastic2029     1H  IN A    10.192.16.192
+elastic2030     1H  IN A    10.192.16.193
+elastic2031     1H  IN A    10.192.32.156
+elastic2032     1H  IN A    10.192.32.157
+elastic2033     1H  IN A    10.192.32.158
+elastic2034     1H  IN A    10.192.48.73
+elastic2035     1H  IN A    10.192.48.74
+elastic2036     1H  IN A    10.192.48.75
 es2001          1H  IN A    10.192.0.25
 es2002          1H  IN A    10.192.0.26
 es2003          1H  IN A    10.192.16.27
@@ -3054,6 +3066,18 @@ elastic2021     1H  IN A    10.193.2.218
 elastic2022     1H  IN A    10.193.2.219
 elastic2023     1H  IN A    10.193.2.220
 elastic2024     1H  IN A    10.193.2.221
+elastic2025     1H  IN A    10.193.1.163
+elastic2026     1H  IN A    10.193.1.164
+elastic2027     1H  IN A    10.193.1.165
+elastic2028     1H  IN A    10.193.1.166
+elastic2029     1H  IN A    10.193.1.167
+elastic2030     1H  IN A    10.193.1.168
+elastic2031     1H  IN A    10.193.1.169
+elastic2032     1H  IN A    10.193.1.170
+elastic2033     1H  IN A    10.193.1.171
+elastic2034     1H  IN A    10.193.1.172
+elastic2035     1H  IN A    10.193.1.173
+elastic2036     1H  IN A    10.193.1.174
 es2001          1H  IN A    10.193.1.235
 es2002          1H  IN A    10.193.1.236
 es2003          1H  IN A    10.193.1.237
@@ -3852,6 +3876,18 @@ wmf6476         1H  IN A    10.193.1.159
 wmf6477         1H  IN A    10.193.1.160
 wmf6478         1H  IN A    10.193.1.161
 wmf6479         1H  IN A    10.193.1.162
+wmf6490         1H  IN A    10.193.1.163
+wmf6491         1H  IN A    10.193.1.164
+wmf6492         1H  IN A    10.193.1.165
+wmf6493         1H  IN A    10.193.1.166
+wmf6494         1H  IN A    10.193.1.167
+wmf6495         1H  IN A    10.193.1.168
+wmf6496         1H  IN A    10.193.1.169
+wmf6497         1H  IN A    10.193.1.170
+wmf6498         1H  IN A    10.193.1.171
+wmf6499         1H  IN A    10.193.1.172
+wmf6500         1H  IN A    10.193.1.173
+wmf6501         1H  IN A    10.193.1.174
 
 ;
 ; ESAMS
