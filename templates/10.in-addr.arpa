@@ -520,8 +520,6 @@ $ORIGIN 16.64.{{ zonename }}.
 
 75  1H IN PTR   kubernetes1002.eqiad.wmnet.
 
-79  1H IN PTR   mw1099.eqiad.wmnet.
-
 101 1H IN PTR   db1083.eqiad.wmnet.
 102 1H IN PTR   db1084.eqiad.wmnet.
 103 1H IN PTR   db1085.eqiad.wmnet.
@@ -1207,9 +1205,6 @@ $ORIGIN 0.65.{{ zonename }}.
 
 $ORIGIN 1.65.{{ zonename }}.
 
-17  1H  IN PTR      mw1017.mgmt.eqiad.wmnet.
-17  1H  IN PTR      wmf3199.mgmt.eqiad.wmnet.
-
 26  1H  IN PTR      mw1261.mgmt.eqiad.wmnet.
 26  1H  IN PTR      wmf6900.mgmt.eqiad.wmnet.
 27  1H  IN PTR      mw1262.mgmt.eqiad.wmnet.
@@ -1302,9 +1297,6 @@ $ORIGIN 1.65.{{ zonename }}.
 70  1H  IN PTR      wmf6944.mgmt.eqiad.wmnet.
 71  1H  IN PTR      mw1306.mgmt.eqiad.wmnet.
 71  1H  IN PTR      wmf6945.mgmt.eqiad.wmnet.
-
-99  1H  IN PTR      mw1099.mgmt.eqiad.wmnet.
-99  1H  IN PTR      wmf3365.mgmt.eqiad.wmnet.
 
 161 1H  IN PTR      mw1161.mgmt.eqiad.wmnet.
 162 1H  IN PTR      mw1162.mgmt.eqiad.wmnet.
