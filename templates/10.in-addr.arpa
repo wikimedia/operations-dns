@@ -281,7 +281,8 @@ $ORIGIN 0.64.{{ zonename }}.
 35  1H IN PTR   restbase-dev1001.eqiad.wmnet.
 36  1H IN PTR   restbase-dev1001-a.eqiad.wmnet. ; cassandra instance
 37  1H IN PTR   restbase-dev1001-b.eqiad.wmnet. ; cassandra instance
-
+38  1H IN PTR   ms-fe1005.eqiad.wmnet.
+39  1H IN PTR   ms-fe1006.eqiad.wmnet.
 56  1H IN PTR   mw1261.eqiad.wmnet.
 57  1H IN PTR   mw1262.eqiad.wmnet.
 58  1H IN PTR   mw1263.eqiad.wmnet.
@@ -848,6 +849,8 @@ $ORIGIN 32.64.{{ zonename }}.
 217     1H IN PTR       etcd1005.eqiad.wmnet.   ; VM on the ganeti01.svc.eqiad.wmnet cluster
 218     1H IN PTR       etcd1006.eqiad.wmnet.   ; VM on the ganeti01.svc.eqiad.wmnet cluster
 219     1H IN PTR       europium.eqiad.wmnet.
+220     1H IN PTR       ms-fe1007.eqiad.wmnet.
+221     1H IN PTR       ms-fe1008.eqiad.wmnet.
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
@@ -2044,9 +2047,13 @@ $ORIGIN 5.65.{{ zonename }}.
 15  1H  IN PTR      ms-be1011.mgmt.eqiad.wmnet.
 16  1H  IN PTR      ms-be1012.mgmt.eqiad.wmnet.
 17  1H  IN PTR      ms-fe1001.mgmt.eqiad.wmnet.
+17  1H  IN PTR      wmf3531.mgmt.eqiad.wmnet.
 18  1H  IN PTR      ms-fe1002.mgmt.eqiad.wmnet.
+18  1H  IN PTR      wmf3532.mgmt.eqiad.wmnet.
 19  1H  IN PTR      ms-fe1003.mgmt.eqiad.wmnet.
+19  1H  IN PTR      wmf3533.mgmt.eqiad.wmnet.
 20  1H  IN PTR      ms-fe1004.mgmt.eqiad.wmnet.
+21  1H  IN PTR      wmf3534.mgmt.eqiad.wmnet.
 21  1H  IN PTR      ms-be1013.mgmt.eqiad.wmnet.
 22  1H  IN PTR      ms-be1014.mgmt.eqiad.wmnet.
 23  1H  IN PTR      ms-be1015.mgmt.eqiad.wmnet.
@@ -2066,6 +2073,14 @@ $ORIGIN 5.65.{{ zonename }}.
 30  1H  IN PTR      wmf4768.mgmt.eqiad.wmnet.
 31  1H  IN PTR      labstore1005.mgmt.eqiad.wmnet.
 31  1H  IN PTR      wmf4769.mgmt.eqiad.wmnet.
+32  1H  IN PTR      ms-fe1005.mgmt.eqiad.wmnet.
+32  1H  IN PTR      wmf7006.mgmt.eqiad.wmnet.
+33  1H  IN PTR      ms-fe1006.mgmt.eqiad.wmnet.
+33  1H  IN PTR      wmf7007.mgmt.eqiad.wmnet.
+34  1H  IN PTR      ms-fe1007.mgmt.eqiad.wmnet.
+34  1H  IN PTR      wmf7008.mgmt.eqiad.wmnet.
+35  1H  IN PTR      ms-fe1008.mgmt.eqiad.wmnet.
+35  1H  IN PTR      wmf7009.mgmt.eqiad.wmnet.
 
 $ORIGIN 6.65.{{ zonename }}.
 
