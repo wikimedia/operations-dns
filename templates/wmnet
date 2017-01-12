@@ -4237,7 +4237,7 @@ labstore    1H  IN A        10.64.37.10
 nfs-scratch          1H  IN A        10.64.37.16
 nfs-tools-home       1H  IN A        10.64.37.17
 nfs-tools-project    1H  IN A        10.64.37.18
-oresrdb     5M  IN A        10.64.48.129
+oresrdb     5M  IN A        10.64.0.10
 
 ; ESAMS SERVICES
 
