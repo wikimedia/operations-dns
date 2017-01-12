@@ -2593,6 +2593,9 @@ $ORIGIN 0.192.{{ zonename }}.
 77  1H IN PTR   elastic2025.codfw.wmnet.
 78  1H IN PTR   elastic2026.codfw.wmnet.
 79  1H IN PTR   elastic2027.codfw.wmnet.
+80  1H IN PTR   mw2251.codfw.wmnet.
+81  1H IN PTR   mw2252.codfw.wmnet.
+82  1H IN PTR   mw2253.codfw.wmnet.
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
@@ -3014,6 +3017,13 @@ $ORIGIN 32.192.{{ zonename }}.
 156 1H IN PTR   elastic2031.codfw.wmnet.
 157 1H IN PTR   elastic2032.codfw.wmnet.
 158 1H IN PTR   elastic2033.codfw.wmnet.
+159 1H IN PTR   mw2254.codfw.wmnet.
+160 1H IN PTR   mw2255.codfw.wmnet.
+161 1H IN PTR   mw2256.codfw.wmnet.
+162 1H IN PTR   mw2257.codfw.wmnet.
+163 1H IN PTR   mw2258.codfw.wmnet.
+164 1H IN PTR   mw2259.codfw.wmnet.
+165 1H IN PTR   mw2260.codfw.wmnet.
 
 $ORIGIN 33.192.{{ zonename }}.
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
@@ -3582,7 +3592,18 @@ $ORIGIN 1.193.{{ zonename }}.
 237 1H IN PTR  es2003.mgmt.codfw.wmnet.
 237 1H IN PTR  wmf3627.mgmt.codfw.wmnet.
 238 1H IN PTR  es2004.mgmt.codfw.wmnet.
-
+239 1H IN PTR  mw2251.mgmt.codfw.wmnet.
+239 1H IN PTR  wmf6480.mgmt.codfw.wmnet.
+240 1H IN PTR  mw2252.mgmt.codfw.wmnet.
+240 1H IN PTR  wmf6481.mgmt.codfw.wmnet.
+241 1H IN PTR  mw2253.mgmt.codfw.wmnet.
+241 1H IN PTR  wmf6482.mgmt.codfw.wmnet.
+242 1H IN PTR  mw2254.mgmt.codfw.wmnet.
+242 1H IN PTR  wmf6483.mgmt.codfw.wmnet.
+243 1H IN PTR  mw2255.mgmt.codfw.wmnet.
+243 1H IN PTR  wmf6484.mgmt.codfw.wmnet.
+244 1H IN PTR  mw2256.mgmt.codfw.wmnet.
+244 1H IN PTR  wmf6485.mgmt.codfw.wmnet.
 245 1H IN PTR  ms-be2013.mgmt.codfw.wmnet.
 245 1H IN PTR  wmf6138.mgmt.codfw.wmnet.
 246 1H IN PTR  ms-be2014.mgmt.codfw.wmnet.
@@ -4138,7 +4159,14 @@ $ORIGIN 3.193.{{ zonename }}.
 10  1H IN PTR  wmf6417.mgmt.codfw.wmnet.
 11  1H IN PTR  maps2004.mgmt.codfw.wmnet.
 11  1H IN PTR  wmf6418.mgmt.codfw.wmnet.
-
+12  1H IN PTR  mw2257.mgmt.codfw.wmnet.
+12  1H IN PTR  wmf6486.mgmt.codfw.wmnet.
+13  1H IN PTR  mw2258.mgmt.codfw.wmnet.
+13  1H IN PTR  wmf6487.mgmt.codfw.wmnet.
+14  1H IN PTR  mw2259.mgmt.codfw.wmnet.
+14  1H IN PTR  wmf6488.mgmt.codfw.wmnet.
+15  1H IN PTR  mw2260.mgmt.codfw.wmnet.
+15  1H IN PTR  wmf6489.mgmt.codfw.wmnet.
 
 ; 10.195.0.0/25 - frack.codfw subnets
 $ORIGIN 0.195.{{ zonename }}.
