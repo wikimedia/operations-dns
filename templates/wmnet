@@ -787,7 +787,6 @@ snapshot1001    1H  IN A        10.64.0.120
 snapshot1005    1H  IN A        10.64.0.9
 snapshot1006    1H  IN A        10.64.32.149
 snapshot1007    1H  IN A        10.64.48.141
-stat1001        1H  IN A        10.64.21.101
 stat1002        1H  IN A        10.64.5.102
 stat1003        1H  IN A        10.64.36.103
 stat1004        1H  IN A        10.64.5.104

@@ -632,8 +632,6 @@ $ORIGIN 21.64.{{ zonename }}.
 3   1H IN PTR   ae2-1021.cr2-eqiad.wikimedia.org.
 ;107    1H IN PTR   analytics1007.eqiad.wmnet.
 
-101 1H IN PTR   stat1001.eqiad.wmnet.
-
 105 1H IN PTR   analytics1046.eqiad.wmnet.
 106 1H IN PTR   analytics1047.eqiad.wmnet.
 107 1H IN PTR   analytics1048.eqiad.wmnet.
