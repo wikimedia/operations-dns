@@ -2674,8 +2674,8 @@ $ORIGIN 16.192.{{ zonename }}.
 26  1H IN PTR   ms-fe2004.codfw.wmnet.
 27  1H IN PTR   es2003.codfw.wmnet.
 28  1H IN PTR   es2004.codfw.wmnet.
-29  1H IN PTR   sca2003.codfw.wmnet.
-30  1H IN PTR   sca2004.codfw.wmnet.
+29  1H IN PTR   sca2003.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+30  1H IN PTR   sca2004.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 
 32  1H IN PTR   ms-be2014.codfw.wmnet.
 33  1H IN PTR   graphite2001.codfw.wmnet.

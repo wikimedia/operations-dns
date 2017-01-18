@@ -2771,8 +2771,8 @@ restbase2012-a  1H  IN A    10.192.48.68 ; cassandra instance
 restbase2012-b  1H  IN A    10.192.48.69 ; cassandra instance
 restbase2012-c  1H  IN A    10.192.48.70 ; cassandra instance
 sarin           1H  IN A    10.192.0.140
-sca2003         1H  IN A    10.192.16.29
-sca2004         1H  IN A    10.192.16.30
+sca2003         1H  IN A    10.192.16.29 ; VM on the ganeti01.svc.codfw.wmnet cluster
+sca2004         1H  IN A    10.192.16.30 ; VM on the ganeti01.svc.codfw.wmnet cluster
 scb2001         1H  IN A    10.192.32.132
 scb2002         1H  IN A    10.192.48.43
 scb2003         1H  IN A    10.192.0.33
