@@ -2698,6 +2698,13 @@ $ORIGIN 16.192.{{ zonename }}.
 50  1H IN PTR   wtp2008.codfw.wmnet.
 51  1H IN PTR   wtp2009.codfw.wmnet.
 52  1H IN PTR   wtp2010.codfw.wmnet.
+53  1H IN PTR   mw2254.codfw.wmnet.
+54  1H IN PTR   mw2255.codfw.wmnet.
+55  1H IN PTR   mw2256.codfw.wmnet.
+56  1H IN PTR   mw2257.codfw.wmnet.
+57  1H IN PTR   mw2258.codfw.wmnet.
+58  1H IN PTR   mw2259.codfw.wmnet.
+59  1H IN PTR   mw2260.codfw.wmnet.
 
 63  1H IN PTR   mw2090.codfw.wmnet.
 64  1H IN PTR   mw2091.codfw.wmnet.
@@ -3021,13 +3028,6 @@ $ORIGIN 32.192.{{ zonename }}.
 156 1H IN PTR   elastic2031.codfw.wmnet.
 157 1H IN PTR   elastic2032.codfw.wmnet.
 158 1H IN PTR   elastic2033.codfw.wmnet.
-159 1H IN PTR   mw2254.codfw.wmnet.
-160 1H IN PTR   mw2255.codfw.wmnet.
-161 1H IN PTR   mw2256.codfw.wmnet.
-162 1H IN PTR   mw2257.codfw.wmnet.
-163 1H IN PTR   mw2258.codfw.wmnet.
-164 1H IN PTR   mw2259.codfw.wmnet.
-165 1H IN PTR   mw2260.codfw.wmnet.
 
 $ORIGIN 33.192.{{ zonename }}.
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
