@@ -172,6 +172,9 @@ aqs1005-b        1H IN A             10.64.32.190 ; cassandra instance
 aqs1006          1H IN A             10.64.48.146
 aqs1006-a        1H IN A             10.64.48.148 ; cassandra instance
 aqs1006-b        1H IN A             10.64.48.149 ; cassandra instance
+aqs1007          1H IN A             10.64.0.199
+aqs1008          1H IN A             10.64.16.14
+aqs1009          1H IN A             10.64.48.119
 argon            1H IN A             10.64.32.133 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 bohrium          1H IN A             10.64.32.71 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 cerium           1H IN A             10.64.16.147
@@ -1058,6 +1061,12 @@ aqs1005         1H  IN A    10.65.4.46
 wmf4774         1H  IN A    10.65.4.46
 aqs1006         1H  IN A    10.65.4.47
 wmf4775         1H  IN A    10.65.4.47
+aqs1007         1H  IN A    10.65.4.81
+wmf7003         1H  IN A    10.65.4.81
+aqs1008         1H  IN A    10.65.4.82
+wmf7004         1H  IN A    10.65.4.82
+aqs1009         1H  IN A    10.65.4.83
+wmf7005         1H  IN A    10.65.4.83
 kafka1020       1H  IN A    10.65.3.103
 notebook1002    1H  IN A    10.65.3.104
 kafka1022       1H  IN A    10.65.3.105
