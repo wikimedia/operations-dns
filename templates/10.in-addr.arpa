@@ -521,6 +521,7 @@ $ORIGIN 16.64.{{ zonename }}.
 
 75  1H IN PTR   kubernetes1002.eqiad.wmnet.
 76  1H IN PTR   db1051.eqiad.wmnet.
+77  1H IN PTR   db1052.eqiad.wmnet.
 
 101 1H IN PTR   db1083.eqiad.wmnet.
 102 1H IN PTR   db1084.eqiad.wmnet.
@@ -660,7 +661,6 @@ $ORIGIN 32.64.{{ zonename }}.
 19      1H IN PTR       rdb1008.eqiad.wmnet.
 20      1H IN PTR       neodymium.eqiad.wmnet.
 
-22      1H IN PTR       db1052.eqiad.wmnet.
 23      1H IN PTR       kubernetes1003.eqiad.wmnet.
 24      1H IN PTR       db1054.eqiad.wmnet.
 25      1H IN PTR       db1055.eqiad.wmnet.
