@@ -173,8 +173,14 @@ aqs1006          1H IN A             10.64.48.146
 aqs1006-a        1H IN A             10.64.48.148 ; cassandra instance
 aqs1006-b        1H IN A             10.64.48.149 ; cassandra instance
 aqs1007          1H IN A             10.64.0.199
+aqs1007-a        1H IN A             10.64.0.213 ; cassandra instance
+aqs1007-b        1H IN A             10.64.0.237 ; cassandra instance
 aqs1008          1H IN A             10.64.16.14
+aqs1008-a        1H IN A             10.64.16.74 ; cassandra instance
+aqs1008-b        1H IN A             10.64.16.78 ; cassandra instance
 aqs1009          1H IN A             10.64.48.119
+aqs1009-a        1H IN A             10.64.48.122 ; cassandra instance
+aqs1009-b        1H IN A             10.64.48.123 ; cassandra instance
 argon            1H IN A             10.64.32.133 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 bohrium          1H IN A             10.64.32.71 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 cerium           1H IN A             10.64.16.147
