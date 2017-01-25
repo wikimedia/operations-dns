@@ -4174,7 +4174,7 @@ $ORIGIN 0.195.{{ zonename }}.
 21 1H IN PTR  pay-lvs2002.frack.codfw.wmnet.
 
 ; 10.195.0.32/27 - frack-fundraising-codfw
-34 1H IN PTR  fdb2001.frack.codfw.wmnet.
+34 1H IN PTR  frdb2001.frack.codfw.wmnet.
 35 1H IN PTR  alnilam.frack.codfw.wmnet.
 36 1H IN PTR  mintaka.frack.codfw.wmnet.
 37 1H IN PTR  mintaka-fundraising.frack.codfw.wmnet.
@@ -4204,7 +4204,7 @@ $ORIGIN 0.195.{{ zonename }}.
 107 1H IN PTR  mintaka.mgmt.frack.codfw.wmnet.
 108 1H IN PTR  alnitak.mgmt.frack.codfw.wmnet.
 109 1H IN PTR  bellatrix.mgmt.frack.codfw.wmnet.
-110 1H IN PTR  fdb2001.mgmt.frack.codfw.wmnet.
+110 1H IN PTR  frdb2001.mgmt.frack.codfw.wmnet.
 111 1H IN PTR  betelgeuse.mgmt.frack.codfw.wmnet.
 
 ; codfw labs realm
