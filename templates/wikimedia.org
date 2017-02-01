@@ -135,8 +135,8 @@ hydrogen        1H  IN A    208.80.154.50
                 1H  IN AAAA 2620:0:861:1:208:80:154:50
 install1001     1H  IN A    208.80.154.83
 install1001     1H  IN AAAA 2620:0:861:3:208:80:154:83
-install1002     1H  IN A    208.80.154.102
-install1002     1H  IN AAAA 2620:0:861:3:208:80:154:102
+install1002     1H  IN A    208.80.154.86
+install1002     1H  IN AAAA 2620:0:861:3:208:80:154:86
 install2001     1H  IN A    208.80.153.4
 install2001     1H  IN AAAA 2620:0:860:1:208:80:153:4
 install2002     1H  IN A    208.80.153.53
