@@ -432,7 +432,7 @@ pfw2-codfw      1H  IN CNAME pfw-codfw
 
 annual          600 IN DYNA     geoip!misc-addrs
 
-apt             1H  IN CNAME    carbon
+apt             300  IN CNAME    carbon
 
 archiva         1H  IN CNAME    meitnerium
 
