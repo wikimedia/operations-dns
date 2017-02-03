@@ -24,7 +24,7 @@ $ORIGIN eqiad.wmnet.
 
 ; Service aliases
 syslog          1H  IN CNAME    lithium.eqiad.wmnet.
-webproxy        5M  IN CNAME    carbon.wikimedia.org.
+webproxy        5M  IN CNAME    install1002.wikimedia.org.
 carbon-relay    1H  IN CNAME    graphite1001.eqiad.wmnet.
 graphite        1H  IN CNAME    graphite1001.eqiad.wmnet.
 graphite-in     1H  IN CNAME    graphite1001.eqiad.wmnet.
@@ -2224,7 +2224,7 @@ $ORIGIN codfw.wmnet.
 ; Service aliases
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          1H  IN CNAME    puppetmaster2001.codfw.wmnet.
-webproxy        5M  IN CNAME    carbon.wikimedia.org.
+webproxy        5M  IN CNAME    install2002.wikimedia.org.
 deployment      1H  IN CNAME    tin.eqiad.wmnet.
 statsd          1H  IN CNAME    graphite2001.codfw.wmnet.
 syslog          1H  IN CNAME    wezen.codfw.wmnet.
@@ -4071,7 +4071,7 @@ cp3049      1H      IN A    10.20.0.184
 ;
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-webproxy        5M  IN CNAME    carbon.wikimedia.org.
+webproxy        5M  IN CNAME    install1002.wikimedia.org.
 
 ; etcd client discovery
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
@@ -4263,7 +4263,7 @@ cp4020          1H      IN A    10.128.0.120
 ;
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
-webproxy        5M  IN CNAME    carbon.wikimedia.org.
+webproxy        5M  IN CNAME    install2002.wikimedia.org.
 
 ; etcd client discovery
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
