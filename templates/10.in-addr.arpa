@@ -1637,8 +1637,7 @@ $ORIGIN 3.65.{{ zonename }}.
 56  1H  IN PTR      ruthenium.mgmt.eqiad.wmnet.
 56  1H  IN PTR      wmf3431.mgmt.eqiad.wmnet.
 57  1H  IN PTR      rhodium.mgmt.eqiad.wmnet.
-58  1H  IN PTR      wmf3433.mgmt.eqiad.wmnet.
-58  1H  IN PTR      palladium.mgmt.eqiad.wmnet.
+
 59  1H  IN PTR      silver.mgmt.eqiad.wmnet.
 59  1H  IN PTR      wmf3434.mgmt.eqiad.wmnet.
 60  1H  IN PTR      mw1260.mgmt.eqiad.wmnet.
