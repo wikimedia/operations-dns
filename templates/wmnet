@@ -1055,7 +1055,6 @@ WMF4086     1H  IN A    10.65.3.94
 kafka1012       1H  IN A    10.65.3.95
 kafka1013       1H  IN A    10.65.3.96
 kafka1014       1H  IN A    10.65.3.97
-analytics1015   1H  IN A    10.65.3.98
 restbase-dev1002  1H  IN A    10.65.3.99
 WMF4091     1H  IN A    10.65.3.99
 notebook1001    1H  IN A    10.65.3.100

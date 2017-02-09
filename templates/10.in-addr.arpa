@@ -1669,7 +1669,7 @@ $ORIGIN 3.65.{{ zonename }}.
 95  1H  IN PTR      kafka1012.mgmt.eqiad.wmnet.
 96  1H  IN PTR      kafka1013.mgmt.eqiad.wmnet.
 97  1H  IN PTR      kafka1014.mgmt.eqiad.wmnet.
-98  1H  IN PTR      analytics1015.mgmt.eqiad.wmnet.
+
 99  1H  IN PTR      restbase-dev1002.mgmt.eqiad.wmnet.
 99  1H  IN PTR      WMF4091.mgmt.eqiad.wmnet.
 100 1H  IN PTR      notebook1001.mgmt.eqiad.wmnet.
