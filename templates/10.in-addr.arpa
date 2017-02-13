@@ -414,7 +414,6 @@ $ORIGIN 4.64.{{ zonename }}.
 3   1H IN PTR   ae1-1117.cr2-eqiad.wikimedia.org.
 10  1H IN PTR   labstore1003.eqiad.wmnet.
 11  1H IN PTR   labsdb1001.eqiad.wmnet.
-12  1H IN PTR   scandium.eqiad.wmnet.
 13  1H IN PTR   relforge1001.eqiad.wmnet.
 14  1H IN PTR   labsdb1009.eqiad.wmnet.
 
