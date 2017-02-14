@@ -2845,6 +2845,7 @@ $ORIGIN 16.192.{{ zonename }}.
 192 1H IN PTR   elastic2029.codfw.wmnet.
 193 1H IN PTR   elastic2030.codfw.wmnet.
 194 1H IN PTR   mc2026.codfw.wmnet.
+195  1H IN PTR   db2062.codfw.wmnet.
 
 $ORIGIN 17.192.{{ zonename }}.
 1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
@@ -3072,7 +3073,7 @@ $ORIGIN 48.192.{{ zonename }}.
 11  1H IN PTR   db2059.codfw.wmnet.
 12  1H IN PTR   db2060.codfw.wmnet.
 13  1H IN PTR   db2061.codfw.wmnet.
-14  1H IN PTR   db2062.codfw.wmnet.
+
 15  1H IN PTR   db2063.codfw.wmnet.
 16  1H IN PTR   db2064.codfw.wmnet.
 17  1H IN PTR   db2065.codfw.wmnet.
