@@ -316,6 +316,8 @@ tr.m                600 IN DYNA     geoip!text-addrs
 ua.m                600 IN DYNA     geoip!text-addrs
 usability.m         600 IN DYNA     geoip!text-addrs
 vote.m              600 IN DYNA     geoip!text-addrs
+wikimania2005.m     600 IN DYNA     geoip!text-addrs
+wikimania2006.m     600 IN DYNA     geoip!text-addrs
 wikimania2007.m     600 IN DYNA     geoip!text-addrs
 wikimania2008.m     600 IN DYNA     geoip!text-addrs
 wikimania2009.m     600 IN DYNA     geoip!text-addrs
