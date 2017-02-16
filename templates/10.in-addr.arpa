@@ -2883,7 +2883,7 @@ $ORIGIN 32.192.{{ zonename }}.
 2   1H IN PTR   ae3-2019.cr1-codfw.wikimedia.org.
 3   1H IN PTR   ae3-2019.cr2-codfw.wikimedia.org.
 4   1H IN PTR   db2033.codfw.wmnet.
-
+5   1H IN PTR   db2070.codfw.wmnet.
 6   1H IN PTR   db2035.codfw.wmnet.
 7   1H IN PTR   db2036.codfw.wmnet.
 8   1H IN PTR   db2037.codfw.wmnet.
@@ -3081,7 +3081,6 @@ $ORIGIN 48.192.{{ zonename }}.
 19  1H IN PTR   db2067.codfw.wmnet.
 20  1H IN PTR   db2068.codfw.wmnet.
 21  1H IN PTR   db2069.codfw.wmnet.
-22  1H IN PTR   db2070.codfw.wmnet.
 23  1H IN PTR   cp2019.codfw.wmnet.
 24  1H IN PTR   cp2020.codfw.wmnet.
 25  1H IN PTR   cp2021.codfw.wmnet.
