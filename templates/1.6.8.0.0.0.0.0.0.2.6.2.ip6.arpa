@@ -30,8 +30,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 0.5.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   hydrogen.wikimedia.org.
 
-0.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   carbon.wikimedia.org.
-
 1.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dataset1001.wikimedia.org.
 
 5.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   sodium.wikimedia.org.
