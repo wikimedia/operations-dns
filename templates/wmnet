@@ -25,11 +25,11 @@ $ORIGIN eqiad.wmnet.
 ; Service aliases
 syslog          1H  IN CNAME    lithium.eqiad.wmnet.
 webproxy        5M  IN CNAME    install1002.wikimedia.org.
-carbon-relay    1H  IN CNAME    graphite2001.codfw.wmnet.
-graphite        1H  IN CNAME    graphite2001.codfw.wmnet.
-graphite-in     1H  IN CNAME    graphite2001.codfw.wmnet.
+carbon-relay    1H  IN CNAME    graphite1001.eqiad.wmnet.
+graphite        1H  IN CNAME    graphite1001.eqiad.wmnet.
+graphite-in     1H  IN CNAME    graphite1001.eqiad.wmnet.
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-statsd          1H  IN CNAME    graphite2001.codfw.wmnet.
+statsd          1H  IN CNAME    graphite1001.eqiad.wmnet.
 eventlogging    1H  IN CNAME    eventlog1001.eqiad.wmnet.
 udplog          1H  IN CNAME    fluorine.eqiad.wmnet.
 deployment      1H  IN CNAME    tin.eqiad.wmnet.
