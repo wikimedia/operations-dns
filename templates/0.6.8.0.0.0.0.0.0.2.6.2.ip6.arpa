@@ -74,6 +74,7 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 5.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2004.codfw.wmnet.
 6.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2005.codfw.wmnet.
 7.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2006.codfw.wmnet.
+0.4.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   sarin.codfw.wmnet.
 
 
 ; private1-b-codfw (2620:0:860:102::/64)
