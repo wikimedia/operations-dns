@@ -802,12 +802,10 @@ stat1002        1H  IN A        10.64.5.102
 stat1003        1H  IN A        10.64.36.103
 stat1004        1H  IN A        10.64.5.104
 bromine         1H  IN A        10.64.32.181 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-strontium       1H  IN A        10.64.0.164
 phab1001        1H  IN CNAME    iridium.eqiad.wmnet.
 phab1001-vcs    1H  IN A        10.64.32.186
 phab1001-vcs    1H  IN AAAA     2620:0:861:103:10:64:32:186
 puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-tantalum        1H  IN A        10.64.0.26
 technetium      1H  IN A        10.64.32.188
 thorium         1H  IN A        10.64.53.26
 thumbor1001     1H  IN A        10.64.16.56
@@ -1088,7 +1086,6 @@ wmf6996         1H  IN A    10.65.4.80
 conf1001        1H  IN A    10.65.3.112
 conf1002        1H  IN A    10.65.3.113
 conf1003        1H  IN A    10.65.3.114
-analytics1026   1H  IN A    10.65.3.115
 analytics1027   1H  IN A    10.65.3.116
 wmf4580         1H      IN A    10.65.3.211
 analytics1028   1H      IN A    10.65.3.211
@@ -1522,8 +1519,6 @@ mc1035      1H  IN A    10.65.8.35
 wmf6968     1H  IN A    10.65.8.35
 mc1036      1H  IN A    10.65.8.36
 wmf6969     1H  IN A    10.65.8.36
-tantalum    1H  IN A    10.65.3.33
-wmf3407     1H  IN A    10.65.3.33
 rhenium     1H  IN A    10.65.3.34
 wmf3408     1H  IN A    10.65.3.34
 rcs1002     1H  IN A    10.65.3.35
@@ -1816,8 +1811,6 @@ snapshot1006    1H  IN A    10.65.3.239
 wmf4744         1H  IN A    10.65.3.239
 snapshot1007    1H  IN A    10.65.3.240
 wmf4745         1H  IN A    10.65.3.240
-carbon      1H  IN A    10.65.3.16
-wmf3135     1H  IN A    10.65.3.16
 hydrogen    1H  IN A    10.65.3.15
 wmf3136     1H  IN A    10.65.3.15
 helium      1H  IN A    10.65.3.14
@@ -1842,10 +1835,6 @@ oxygen      1H  IN A    10.65.3.9
 wmf3142     1H  IN A    10.65.3.9
 fluorine    1H  IN A    10.65.3.8
 wmf3143     1H  IN A    10.65.3.8
-neon        1H  IN A    10.65.3.7
-wmf3144     1H  IN A    10.65.3.7
-magnesium   1H  IN A    10.65.3.5
-wmf3146     1H  IN A    10.65.3.5
 americium   1H  IN A    10.65.3.225
 wmf4594     1H  IN A    10.65.3.225
 bismuth     1H  IN A    10.65.3.226
@@ -1880,8 +1869,6 @@ rubidium    1H  IN A    10.65.3.49
 wmf3424     1H  IN A    10.65.3.49
 silver      1H  IN A    10.65.3.59
 wmf3434     1H  IN A    10.65.3.59
-strontium   1H  IN A    10.65.3.50
-wmf3425     1H  IN A    10.65.3.50
 arsenic     1H  IN A    10.65.3.45
 wmf3420     1H  IN A    10.65.3.45
 mw1260      1H  IN A    10.65.3.60
@@ -1923,8 +1910,6 @@ wmf4075     1H  IN A    10.65.3.120
 labservices1002 1H  IN A    10.65.3.120
 wmf4076     1H  IN A    10.65.3.121
 barium      1H  IN A    10.65.3.121
-wmf4077     1H  IN A    10.65.3.122
-lanthanum   1H  IN A    10.65.3.122
 wmf4078     1H  IN A    10.65.3.123
 xenon       1H  IN A    10.65.3.123
 wmf4079     1H  IN A    10.65.3.124
