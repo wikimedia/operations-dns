@@ -721,7 +721,6 @@ status           1H  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
 techblog         600 IN DYNA     geoip!text-addrs
 ticket           600 IN DYNA     geoip!misc-addrs
 tor-eqiad-1      1H  IN CNAME    radium
-ubuntu           1H  IN CNAME    sodium
 mirrors          1H  IN CNAME    sodium
 yarn             600 IN DYNA     geoip!misc-addrs
 wikitech         1H  IN CNAME    silver
