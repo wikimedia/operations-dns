@@ -1,0 +1,10 @@
+plugins => {
+    geoip => {
+        maps => {
+            $include{geo-maps},
+        },
+        resources => {
+            $include{geo-resources},
+        },
+    },
+}
