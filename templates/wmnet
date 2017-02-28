@@ -2721,6 +2721,7 @@ mw2259          1H  IN A    10.192.16.58
 mw2260          1H  IN A    10.192.16.59
 mwlog2001       1H  IN A    10.192.32.131
 nihal           1H  IN A    10.192.16.184 ; VM on the ganeti01.svc.codfw.wmnet cluster
+oresrdb2001     1H  IN A    10.192.16.31 ; VM on the ganeti01.svc.codfw.wmnet cluster
 planet2001      1H  IN A    10.192.16.180
 planet2001      1H  IN AAAA 2620:0:860:102:10:192:16:180
 pc2004          1H  IN A    10.192.16.170
@@ -4385,3 +4386,4 @@ pdfrender       1H  IN A        10.2.1.35
 
 ganeti01        1H  IN A        10.192.16.131
 labstore        1H  IN A        10.192.21.7
+oresrdb         5M  IN A        10.192.16.31
