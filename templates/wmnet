@@ -2800,6 +2800,8 @@ scb2001         1H  IN A    10.192.32.132
 scb2002         1H  IN A    10.192.48.43
 scb2003         1H  IN A    10.192.0.33
 scb2004         1H  IN A    10.192.16.36
+scb2005         1H  IN A    10.192.0.34
+scb2006         1H  IN A    10.192.32.20
 subra           1H  IN A    10.192.16.124
 suhail          1H  IN A    10.192.0.121
 wasat           1H  IN A    10.192.48.45
@@ -3466,6 +3468,8 @@ scb2001         1H  IN A    10.193.1.28
 scb2002         1H  IN A    10.193.2.230
 scb2003         1H  IN A    10.193.1.24
 scb2004         1H  IN A    10.193.1.26
+scb2005         1H  IN A    10.193.1.149
+scb2006         1H  IN A    10.193.1.151
 stat2001        1H  IN A    10.193.2.13
 subra           1H  IN A    10.193.2.163
 suhail          1H  IN A    10.193.2.164
