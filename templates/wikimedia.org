@@ -638,6 +638,7 @@ www              600 IN DYNA     geoip!text-addrs
 zero             600 IN DYNA     geoip!text-addrs
 
 ; Other websites (NO wikis!)
+2030             600 IN DYNA     geoip!text-addrs
 analytics        600 IN DYNA     geoip!misc-addrs
 blog             1H  IN CNAME    wikimediablog.wordpress.com.
 bugs             600 IN DYNA     geoip!misc-addrs
