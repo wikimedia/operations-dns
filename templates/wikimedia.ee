@@ -14,11 +14,16 @@
             1D  IN NS   ns1.wikimedia.org.
             1D  IN NS   ns2.wikimedia.org.
 
-; Mail exchangers
+; Mail exchangers (T158638)
 
-            1H  IN MX   10  mh3.elkdata.ee.
-            1H  IN MX   20  mh5.elkdata.ee.
+            1H  IN MX   1   aspmx.l.google.com.
+            1H  IN MX   5   alt1.aspmx.l.google.com.
+            1H  IN MX   5   alt2.aspmx.l.google.com.
+            1H  IN MX  10   alt3.aspmx.l.google.com.
+            1H  IN MX  10   alt4.aspmx.l.google.com.
 
+; Google Apps verification record (T158638)
+            600 IN TXT  "google-site-verification=UaWxZ1AWR0OP6l8qqTI766B5teh_fTH-8T8KbCDM2wk"
 
 ; Canonical names
             600 IN DYNA geoip!text-addrs
