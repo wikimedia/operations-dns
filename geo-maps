@@ -204,6 +204,15 @@ generic-map => {
         2620:0:863::/48   => [ulsfo, codfw, eqiad, esams], # ulsfo
         198.73.209.0/24   => [ulsfo, codfw, eqiad, esams], # WMF OIT
         2620:62:c000::/48 => [ulsfo, codfw, eqiad, esams], # WMF OIT
+        # Wikimedia 10/8 private space
+        10.2.1.0/24       => [codfw, eqiad, ulsfo, esams], # codfw LVS
+        10.2.2.0/24       => [eqiad, codfw, ulsfo, esams], # eqiad LVS
+        10.2.3.0/24       => [esams, eqiad, codfw, ulsfo], # esams LVS
+        10.2.4.0/24       => [ulsfo, codfw, eqiad, esams], # ulsfo LVS
+        10.20.0.0/23      => [esams, eqiad, codfw, ulsfo], # esams private/mgmt
+        10.64.0.0/12      => [eqiad, codfw, ulsfo, esams], # eqiad private/mgmt
+        10.128.0.0/16     => [ulsfo, codfw, eqiad, esams], # ulsfo private/mgmt
+        10.192.0.0/12     => [codfw, eqiad, ulsfo, esams], # codfw private/mgmt
         # Level3's DNS clusters
         192.221.132.0/22  => [eqiad, codfw, ulsfo, esams], # Atlanta
         192.221.136.0/22  => [eqiad, codfw, ulsfo, esams], # Chicago
