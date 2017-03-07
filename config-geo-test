@@ -2,9 +2,18 @@ plugins => {
     geoip => {
         maps => {
             $include{geo-maps},
+            mock => { datacenters => mock }
         },
         resources => {
             $include{geo-resources},
+            # mock active-active entries by copying here and changing name
+            disc-appservers-ro => { map => mock, dcmap => { mock => 192.0.2.1 } }
         },
+    },
+    metafo => {
+        resources => {
+            # mock active-passive entries by copying here and changing name
+            disc-appservers-rw => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
+        }
     },
 }

@@ -4341,3 +4341,12 @@ pdfrender       1H  IN A        10.2.1.35
 ganeti01        1H  IN A        10.192.16.131
 labstore        1H  IN A        10.192.21.7
 oresrdb         5M  IN A        10.192.16.31
+
+; DISCOVERY SERVICES
+
+; active-active use "geoip" plugin, active-passive use "metafo" for failoid behavior.
+; resource name is "disc-foo", where "foo" is a key in discovery::services hieradata.
+
+$ORIGIN discovery.wmnet.
+appservers-ro   5M  IN DYNA     geoip!disc-appservers-ro
+appservers-rw   5M  IN DYNA     metafo!disc-appservers-rw
