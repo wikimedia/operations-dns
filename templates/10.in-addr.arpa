@@ -1166,6 +1166,29 @@ $ORIGIN 53.64.{{ zonename }}.
 
 103     1H  IN PTR      druid1003.eqiad.wmnet.
 
+; 10.64.64.0/21 - kubernetes eqiad pod IPs reservation
+; Need to revisit whether we want reverse DNS for this and how we would populate it
+$ORIGIN 64.64.{{ zonename }}.
+$ORIGIN 65.64.{{ zonename }}.
+$ORIGIN 66.64.{{ zonename }}.
+$ORIGIN 67.64.{{ zonename }}.
+$ORIGIN 68.64.{{ zonename }}.
+$ORIGIN 69.64.{{ zonename }}.
+$ORIGIN 70.64.{{ zonename }}.
+$ORIGIN 71.64.{{ zonename }}.
+
+; 10.64.72.0/24 - kubernetes eqiad service IPs reservation
+; Need to revisit whether we want reverse DNS for this and how we would populate it
+$ORIGIN 72.64.{{ zonename }}.
+
+; 10.64.75.0/24 - kubernetes staging (eqiad) pod IPs reservation
+; Need to revisit whether we want reverse DNS for this and how we would populate it
+$ORIGIN 75.64.{{ zonename }}.
+
+; 10.64.76.0/24 - kubernetes staging (eqiad) service IPs reservation
+; Need to revisit whether we want reverse DNS for this and how we would populate it
+$ORIGIN 76.64.{{ zonename }}.
+
 ; 10.65.0.0/16 is eqiad management network
 
 $ORIGIN 65.{{ zonename }}.
@@ -3361,6 +3384,22 @@ $ORIGIN 52.192.{{ zonename }}.
 
 ; 10.192.53.0/24 - labs-support1-d-codfw - RESERVED
 $ORIGIN 53.192.{{ zonename }}.
+
+; 10.192.64.0/21 - kubernetes codfw pod IPs reservation
+; Need to revisit whether we want reverse DNS for this and how we would populate it
+$ORIGIN 64.192.{{ zonename }}.
+$ORIGIN 65.192.{{ zonename }}.
+$ORIGIN 66.192.{{ zonename }}.
+$ORIGIN 67.192.{{ zonename }}.
+$ORIGIN 68.192.{{ zonename }}.
+$ORIGIN 69.192.{{ zonename }}.
+$ORIGIN 70.192.{{ zonename }}.
+$ORIGIN 71.192.{{ zonename }}.
+
+; 10.192.72.0/24 - kubernetes codfw service IPs reservation
+; Need to revisit whether we want reverse DNS for this and how we would populate it
+$ORIGIN 72.192.{{ zonename }}.
+
 
 $ORIGIN 0.193.{{ zonename }}.
 

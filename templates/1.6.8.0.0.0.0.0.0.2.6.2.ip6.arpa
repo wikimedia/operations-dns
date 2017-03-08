@@ -226,6 +226,21 @@ $ORIGIN 3.0.2.0.{{ zonename }}.
 ; sandbox1-d-eqiad (2620:0:861:204::/64)
 $ORIGIN 4.0.2.0.{{ zonename }}.
 
+; kubernetes eqiad pod IPs reservation (2620:0:861:cabe::/64)
+; Need to revisit whether we want reverse DNS for this and how we would populate it
+$ORIGIN e.b.a.c.{{ zonename }}.
+
+; kubernetes eqiad service IPs reservation (2620:0:861:cabf::/64)
+; Need to revisit whether we want reverse DNS for this and how we would populate it
+$ORIGIN f.b.a.c.{{ zonename }}.
+
+; kubernetes staging (eqiad) pod IPs reservation (2620:0:861:babe::/64)
+; Need to revisit whether we want reverse DNS for this and how we would populate it
+$ORIGIN e.b.a.b.{{ zonename }}.
+
+; kubernetes staging (eqiad) service IPs reservation (2620:0:861:babf::/64)
+; Need to revisit whether we want reverse DNS for this and how we would populate it
+$ORIGIN f.b.a.b.{{ zonename }}.
 
 ; 2620:0:861:ed1a::0:0/110 (::0:0 - ::3:ffff) LVS Service IPs
 
