@@ -3401,6 +3401,7 @@ maps-test2001   1H  IN A    10.193.2.3
 maps-test2002   1H  IN A    10.193.2.4
 maps-test2003   1H  IN A    10.193.2.5
 maps-test2004   1H  IN A    10.193.2.6
+oresrdb2002     1H  IN A    10.193.1.65
 osm-db2001      1H  IN A    10.193.2.7
 osm-db2002      1H  IN A    10.193.2.8
 osm-web2001     1H  IN A    10.193.2.9
@@ -3948,6 +3949,7 @@ wmf6528         1H  IN A    10.193.3.27
 wmf6529         1H  IN A    10.193.3.28
 wmf6530         1H  IN A    10.193.3.29
 wmf6531         1H  IN A    10.193.3.30
+wmf6532         1H  IN A    10.193.1.65
 
 ;
 ; ESAMS
