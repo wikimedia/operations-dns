@@ -2878,6 +2878,7 @@ $ORIGIN 32.192.{{ zonename }}.
 18  1H IN PTR   ms-be2015.codfw.wmnet.
 19  1H IN PTR   dbstore2002.codfw.wmnet.
 20  1H IN PTR   scb2006.codfw.wmnet.
+21  1H IN PTR   oresrdb2002.codfw.wmnet.
 
 24  1H IN PTR   mc2017.codfw.wmnet.
 25  1H IN PTR   mc2018.codfw.wmnet.
