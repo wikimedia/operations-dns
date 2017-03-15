@@ -1824,7 +1824,7 @@ wmf6989     1H  IN A    10.65.4.73
 frauth1001  1H  IN A    10.65.4.74
 wmf6990     1H  IN A    10.65.4.74
 frdb1001    1H  IN A    10.65.3.10
-frpm1001    1H  IN A    10.65.5.36
+civi1001    1H  IN A    10.65.5.36
 wmf7010     1H  IN A    10.65.5.36
 frqueue1001 1H  IN A    10.65.3.23
 frqueue1002 1H  IN A    10.65.3.24
@@ -2183,6 +2183,7 @@ barium          1H      IN A    10.64.40.109
 barium-fundraising 1H      IN A    10.64.40.112
 bismuth         1H      IN A    10.64.40.69
 boron           1H      IN A    10.64.40.66
+civi1001        1H      IN A    10.64.40.110
 frav1001        1H      IN A    10.64.40.71
 db1025          1H      IN A    10.64.40.100
 frauth1001      1H      IN A    10.64.40.68

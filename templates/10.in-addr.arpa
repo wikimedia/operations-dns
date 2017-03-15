@@ -939,6 +939,7 @@ $ORIGIN 40.64.{{ zonename }}.
 98  1H IN PTR   silicon.frack.eqiad.wmnet.
 100 1H IN PTR   db1025.frack.eqiad.wmnet.
 109 1H IN PTR   barium.frack.eqiad.wmnet.
+110 1H IN PTR   civi1001.frack.eqiad.wmnet.
 111 1H IN PTR   lutetium.frack.eqiad.wmnet.
 112 1H IN PTR   barium-fundraising.frack.eqiad.wmnet.
 113 1H IN PTR   americium.frack.eqiad.wmnet.
@@ -2067,7 +2068,7 @@ $ORIGIN 5.65.{{ zonename }}.
 34  1H  IN PTR      wmf7008.mgmt.eqiad.wmnet.
 35  1H  IN PTR      ms-fe1008.mgmt.eqiad.wmnet.
 35  1H  IN PTR      wmf7009.mgmt.eqiad.wmnet.
-36  1H  IN PTR      frpm1001.mgmt.eqiad.wmnet.
+36  1H  IN PTR      civi1001.mgmt.eqiad.wmnet.
 36  1H  IN PTR      wmf7010.mgmt.eqiad.wmnet.
 
 $ORIGIN 6.65.{{ zonename }}.
