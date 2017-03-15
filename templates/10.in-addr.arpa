@@ -3297,24 +3297,7 @@ $ORIGIN 1.193.{{ zonename }}.
 49  1H IN PTR  labtestweb2001.mgmt.codfw.wmnet.
 49  1H IN PTR  wmf5847.mgmt.codfw.wmnet.
 50  1H IN PTR  wmf3641.mgmt.codfw.wmnet.
-51  1H IN PTR  db2001.mgmt.codfw.wmnet.
-51  1H IN PTR  wmf3628.mgmt.codfw.wmnet.
-52  1H IN PTR  db2002.mgmt.codfw.wmnet.
-52  1H IN PTR  wmf3629.mgmt.codfw.wmnet.
-53  1H IN PTR  db2003.mgmt.codfw.wmnet.
-53  1H IN PTR  wmf3630.mgmt.codfw.wmnet.
-54  1H IN PTR  db2004.mgmt.codfw.wmnet.
-54  1H IN PTR  wmf3631.mgmt.codfw.wmnet.
-55  1H IN PTR  db2005.mgmt.codfw.wmnet.
-55  1H IN PTR  wmf3632.mgmt.codfw.wmnet.
-56  1H IN PTR  db2006.mgmt.codfw.wmnet.
-56  1H IN PTR  wmf3633.mgmt.codfw.wmnet.
-57  1H IN PTR  db2007.mgmt.codfw.wmnet.
-57  1H IN PTR  wmf3634.mgmt.codfw.wmnet.
-58  1H IN PTR  db2008.mgmt.codfw.wmnet.
-58  1H IN PTR  wmf3635.mgmt.codfw.wmnet.
-59  1H IN PTR  db2009.mgmt.codfw.wmnet.
-59  1H IN PTR  wmf3636.mgmt.codfw.wmnet.
+
 60  1H IN PTR  db2010.mgmt.codfw.wmnet.
 60  1H IN PTR  wmf3637.mgmt.codfw.wmnet.
 61  1H IN PTR  db2011.mgmt.codfw.wmnet.
