@@ -653,7 +653,7 @@ $ORIGIN 32.64.{{ zonename }}.
 21      1H IN PTR       elastic1051.eqiad.wmnet.
 22      1H IN PTR       elastic1052.eqiad.wmnet.
 23      1H IN PTR       kubernetes1003.eqiad.wmnet.
-
+24      1H IN PTR       roentgenium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 25      1H IN PTR       db1055.eqiad.wmnet.
 26      1H IN PTR       db1056.eqiad.wmnet.
 27      1H IN PTR       db1057.eqiad.wmnet.
@@ -2683,6 +2683,7 @@ $ORIGIN 16.192.{{ zonename }}.
 22  1H IN PTR   ms-be2006.codfw.wmnet.
 23  1H IN PTR   ms-be2007.codfw.wmnet.
 24  1H IN PTR   ms-be2008.codfw.wmnet.
+25  1H IN PTR   tureis.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 
 27  1H IN PTR   es2003.codfw.wmnet.
 28  1H IN PTR   es2004.codfw.wmnet.
