@@ -2251,6 +2251,8 @@ config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          1H  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install2002.wikimedia.org.
 deployment      1H  IN CNAME    tin.eqiad.wmnet.
+m2-master       5M  IN CNAME    db2011.codfw.wmnet.
+m2-slave        5M  IN CNAME    db2011.codfw.wmnet.
 statsd          1H  IN CNAME    graphite2001.codfw.wmnet.
 syslog          1H  IN CNAME    wezen.codfw.wmnet.
 udplog          1H  IN CNAME    mwlog1001.eqiad.wmnet.
