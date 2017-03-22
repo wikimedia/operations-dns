@@ -4364,14 +4364,31 @@ oresrdb         5M  IN A        10.192.16.31
 ; resource name is "disc-foo", where "foo" is a key in discovery::services hieradata.
 
 $ORIGIN discovery.wmnet.
-appservers-ro 300/10 IN DYNA geoip!disc-appservers-ro
-appservers-rw 300/10 IN DYNA metafo!disc-appservers-rw
-api-ro        300/10 IN DYNA geoip!disc-appservers-ro
-api-rw        300/10 IN DYNA metafo!disc-appservers-rw
-parsoid       300/10 IN DYNA geoip!disc-parsoid
-restbase      300/10 IN DYNA geoip!disc-restbase
-graphoid      300/10 IN DYNA geoip!disc-graphoid
-mathoid       300/10 IN DYNA geoip!disc-mathoid
-mobileapps    300/10 IN DYNA geoip!disc-mobileapps
-pdfrender     300/10 IN DYNA geoip!disc-pdfrender
-citoid        300/10 IN DYNA geoip!disc-citoid
+; MediaWiki related
+appservers-ro  300/10 IN DYNA geoip!disc-appservers-ro
+appservers-rw  300/10 IN DYNA metafo!disc-appservers-rw
+api-ro         300/10 IN DYNA geoip!disc-appservers-ro
+api-rw         300/10 IN DYNA metafo!disc-appservers-rw
+imagescaler-ro 300/10 IN DYNA geoip!disc-imagescaler-ro
+imagescaler-rw 300/10 IN DYNA metafo!disc-imagescaler-rw
+swift-ro       300/10 IN DYNA geoip!disc-swift-ro
+swift-rw       300/10 IN DYNA metafo!disc-swift-rw
+; Main services
+parsoid        300/10 IN DYNA geoip!disc-parsoid
+restbase       300/10 IN DYNA geoip!disc-restbase
+search         300/10 IN DYNA geoip!disc-search
+; Other services
+apertium       300/10 IN DYNA geoip!disc-apertium
+citoid         300/10 IN DYNA geoip!disc-citoid
+cxserver       300/10 IN DYNA geoip!disc-cxserver
+eventbus       300/10 IN DYNA geoip!disc-eventbus
+eventstreams   300/10 IN DYNA geoip!disc-eventstreams
+graphoid       300/10 IN DYNA geoip!disc-graphoid
+kartotherian   300/10 IN DYNA geoip!disc-kartotherian
+mathoid        300/10 IN DYNA geoip!disc-mathoid
+mobileapps     300/10 IN DYNA geoip!disc-mobileapps
+ores           300/10 IN DYNA geoip!disc-ores
+pdfrender      300/10 IN DYNA geoip!disc-pdfrender
+trendingedits  300/10 IN DYNA geoip!disc-trendingedits
+wdqs           300/10 IN DYNA geoip!disc-wdqs
+zotero         300/10 IN DYNA geoip!disc-zotero
