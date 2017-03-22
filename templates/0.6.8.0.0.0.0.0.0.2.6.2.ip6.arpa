@@ -56,6 +56,7 @@ $ORIGIN 4.0.0.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-2004.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-2004.cr2-codfw.wikimedia.org.
 
+6.0.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit2001.wikimedia.org.
 
 ; codfw private subnets (2620:0:860:100::/56)
 
