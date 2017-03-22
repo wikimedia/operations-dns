@@ -4350,14 +4350,14 @@ oresrdb         5M  IN A        10.192.16.31
 ; resource name is "disc-foo", where "foo" is a key in discovery::services hieradata.
 
 $ORIGIN discovery.wmnet.
-appservers-ro   5M  IN DYNA     geoip!disc-appservers-ro
-appservers-rw   5M  IN DYNA     metafo!disc-appservers-rw
-api-ro          5M  IN DYNA     geoip!disc-appservers-ro
-api-rw          5M  IN DYNA     metafo!disc-appservers-rw
-parsoid         5M  IN DYNA     geoip!disc-parsoid
-restbase        5M  IN DYNA     geoip!disc-restbase
-graphoid        5M  IN DYNA     geoip!disc-graphoid
-mathoid         5M  IN DYNA     geoip!disc-mathoid
-mobileapps      5M  IN DYNA     geoip!disc-mobileapps
-pdfrender       5M  IN DYNA     geoip!disc-pdfrender
-citoid          5M  IN DYNA     geoip!disc-citoid
+appservers-ro 300/10 IN DYNA geoip!disc-appservers-ro
+appservers-rw 300/10 IN DYNA metafo!disc-appservers-rw
+api-ro        300/10 IN DYNA geoip!disc-appservers-ro
+api-rw        300/10 IN DYNA metafo!disc-appservers-rw
+parsoid       300/10 IN DYNA geoip!disc-parsoid
+restbase      300/10 IN DYNA geoip!disc-restbase
+graphoid      300/10 IN DYNA geoip!disc-graphoid
+mathoid       300/10 IN DYNA geoip!disc-mathoid
+mobileapps    300/10 IN DYNA geoip!disc-mobileapps
+pdfrender     300/10 IN DYNA geoip!disc-pdfrender
+citoid        300/10 IN DYNA geoip!disc-citoid
