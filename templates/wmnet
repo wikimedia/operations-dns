@@ -2465,7 +2465,7 @@ labstore2004    1H  IN A    10.192.21.8
 labtestneutron2001      1H  IN A    10.192.20.4
 labtestnet2001          1H  IN A    10.192.20.5
 labtestvirt2001         1H  IN A    10.192.20.6
-labtestmetal2001        1H  IN A    10.192.20.7
+labtestvirt2002        1H  IN A    10.192.20.7
 lvs2001         1H  IN A    10.192.1.1
 lvs2002         1H  IN A    10.192.1.2
 lvs2003         1H  IN A    10.192.1.3
@@ -3158,7 +3158,7 @@ labstore2002    1H  IN A    10.193.1.249
 labstore2003    1H  IN A    10.193.2.244
 labstore2004    1H  IN A    10.193.2.245
 labtestcontrol2001    1H  IN A    10.193.2.1
-labtestmetal2001      1H  IN A    10.193.1.18
+labtestvirt2002      1H  IN A    10.193.1.18
 labtestnet2001        1H  IN A    10.193.2.2
 labtestneutron2001    1H  IN A    10.193.1.20
 labtestservices2001   1H  IN A    10.193.1.21
