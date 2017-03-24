@@ -3418,14 +3418,7 @@ $ORIGIN 1.193.{{ zonename }}.
 31  1H IN PTR  wmf5819.mgmt.codfw.wmnet.
 32  1H IN PTR  baham.mgmt.codfw.wmnet.
 32  1H IN PTR  wmf5820.mgmt.codfw.wmnet.
-33  1H IN PTR  ms-fe2001.mgmt.codfw.wmnet.
-33  1H IN PTR  wmf3639.mgmt.codfw.wmnet.
-34  1H IN PTR  ms-fe2002.mgmt.codfw.wmnet.
-34  1H IN PTR  wmf3640.mgmt.codfw.wmnet.
-35  1H IN PTR  ms-fe2003.mgmt.codfw.wmnet.
-35  1H IN PTR  wmf3663.mgmt.codfw.wmnet.
-36  1H IN PTR  ms-fe2004.mgmt.codfw.wmnet.
-36  1H IN PTR  wmf3664.mgmt.codfw.wmnet.
+
 37  1H IN PTR  ms-be2001.mgmt.codfw.wmnet.
 37  1H IN PTR  wmf5919.mgmt.codfw.wmnet.
 38  1H IN PTR  ms-be2002.mgmt.codfw.wmnet.
