@@ -1861,6 +1861,10 @@ wmf6989     1H  IN A    10.65.4.73
 frauth1001  1H  IN A    10.65.4.74
 wmf6990     1H  IN A    10.65.4.74
 frdb1001    1H  IN A    10.65.3.10
+frdb1002    1H  IN A    10.65.3.50
+wmf7029     1H  IN A    10.65.3.50
+frdev1001   1H  IN A    10.65.3.26
+wmf7028     1H  IN A    10.65.3.26
 civi1001    1H  IN A    10.65.5.36
 wmf7010     1H  IN A    10.65.5.36
 frqueue1001 1H  IN A    10.65.3.23
