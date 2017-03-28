@@ -515,6 +515,7 @@ $ORIGIN 16.64.{{ zonename }}.
 79  1H IN PTR   db1073.eqiad.wmnet.
 80  1H IN PTR   ms-be1031.eqiad.wmnet.
 81  1H IN PTR   ms-be1032.eqiad.wmnet.
+82  1H IN PTR   ms-be1033.eqiad.wmnet.
 
 101 1H IN PTR   db1083.eqiad.wmnet.
 102 1H IN PTR   db1084.eqiad.wmnet.
@@ -844,7 +845,7 @@ $ORIGIN 32.64.{{ zonename }}.
 219     1H IN PTR       europium.eqiad.wmnet.
 220     1H IN PTR       ms-fe1007.eqiad.wmnet.
 221     1H IN PTR       ms-fe1008.eqiad.wmnet.
-222     1H IN PTR       ms-be1033.eqiad.wmnet.
+
 223     1H IN PTR       ms-be1034.eqiad.wmnet.
 224     1H IN PTR       ms-be1035.eqiad.wmnet.
 225     1H IN PTR       ms-be1036.eqiad.wmnet.
