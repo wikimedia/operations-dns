@@ -341,8 +341,6 @@ $ORIGIN 0.64.{{ zonename }}.
 
 165 1H IN PTR   dbproxy1001.eqiad.wmnet.
 166 1H IN PTR   dbproxy1002.eqiad.wmnet.
-167 1H IN PTR   ms-fe1001.eqiad.wmnet.
-168 1H IN PTR   ms-fe1002.eqiad.wmnet.
 173 1H IN PTR   ms-be1001.eqiad.wmnet.
 174 1H IN PTR   ms-be1002.eqiad.wmnet.
 175 1H IN PTR   ms-be1003.eqiad.wmnet.
