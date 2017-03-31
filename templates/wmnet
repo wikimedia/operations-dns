@@ -4380,6 +4380,7 @@ swift-rw       300/10 IN DYNA metafo!disc-swift-rw
 ; Main services
 parsoid        300/10 IN DYNA geoip!disc-parsoid
 restbase       300/10 IN DYNA geoip!disc-restbase
+restbase-async 300/10 IN DYNA geoip!disc-restbase-async
 search         300/10 IN DYNA geoip!disc-search
 ; Other services
 apertium       300/10 IN DYNA geoip!disc-apertium
