@@ -2753,13 +2753,7 @@ $ORIGIN 16.192.{{ zonename }}.
 60  1H IN PTR   mc2023.codfw.wmnet.
 61  1H IN PTR   mc2024.codfw.wmnet.
 62  1H IN PTR   mc2025.codfw.wmnet.
-63  1H IN PTR   mw2090.codfw.wmnet.
-64  1H IN PTR   mw2091.codfw.wmnet.
-65  1H IN PTR   mw2092.codfw.wmnet.
-66  1H IN PTR   mw2093.codfw.wmnet.
-67  1H IN PTR   mw2094.codfw.wmnet.
-68  1H IN PTR   mw2095.codfw.wmnet.
-69  1H IN PTR   mw2096.codfw.wmnet.
+
 70  1H IN PTR   mw2097.codfw.wmnet.
 71  1H IN PTR   mw2098.codfw.wmnet.
 72  1H IN PTR   mw2099.codfw.wmnet.
