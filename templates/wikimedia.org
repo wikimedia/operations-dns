@@ -96,7 +96,7 @@ aluminium       1H  IN AAAA 2620:0:861:3:208:80:154:80
 astatine        1H  IN A    208.80.155.110
 baham           1H  IN A    208.80.153.13
                 1H  IN AAAA 2620:0:860:1:208:80:153:13
-barium          1H  IN A    208.80.155.11
+civi1001        1H  IN A    208.80.155.11
 bast1001        1H  IN A    208.80.154.149
 bast1001        1H  IN AAAA 2620:0:861:2:208:80:154:149
 bast2001        1H  IN A    208.80.153.5

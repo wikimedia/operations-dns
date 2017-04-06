@@ -2240,11 +2240,11 @@ eth4-1102.labnet1001    1H  IN A    10.68.16.1
 
 $ORIGIN frack.eqiad.wmnet.
 americium       1H      IN A    10.64.40.113
-barium          1H      IN A    10.64.40.109
-barium-fundraising 1H      IN A    10.64.40.112
+civi1001        1H      IN A    10.64.40.109
+civi1001-fundraising 1H      IN A    10.64.40.112
 bismuth         1H      IN A    10.64.40.69
 boron           1H      IN A    10.64.40.66
-civi1001        1H      IN A    10.64.40.110
+barium          1H      IN A    10.64.40.110
 frav1001        1H      IN A    10.64.40.71
 db1025          1H      IN A    10.64.40.100
 frauth1001      1H      IN A    10.64.40.68
