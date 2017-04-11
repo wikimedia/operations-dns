@@ -2952,6 +2952,7 @@ heka                1H  IN A    10.195.0.74
 bellatrix           1H  IN A    10.195.0.75
 betelgeuse          1H  IN A    10.195.0.76
 saiph               1H  IN A    10.195.0.82
+frbackup2001        1H  IN A    10.195.0.77
 rkhunter.heka       1H  IN CNAME heka
 
 ; CODFW fundraising/payments management
@@ -2960,6 +2961,7 @@ alnilam             1H  IN A    10.195.0.105
 alnitak             1H  IN A    10.195.0.108
 bellatrix           1H  IN A    10.195.0.109
 betelgeuse          1H  IN A    10.195.0.111
+frbackup2001        1H  IN A    10.195.0.112
 frdb2001            1H  IN A    10.195.0.110
 heka                1H  IN A    10.195.0.103
 mintaka             1H  IN A    10.195.0.107
