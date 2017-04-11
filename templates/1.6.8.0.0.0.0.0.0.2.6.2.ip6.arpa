@@ -147,9 +147,6 @@ $ORIGIN 3.0.1.0.{{ zonename }}.
 9.7.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   planet1001.eqiad.wmnet.
 6.8.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   phab1001-vcs.eqiad.wmnet.
 
-7.9.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   prometheus1001.eqiad.wmnet.
-8.9.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   prometheus1002.eqiad.wmnet.
-
 ; analytics1-a-eqiad (2620:0:861:104::/64)
 $ORIGIN 4.0.1.0.{{ zonename }}.
 4.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   notebook1002.eqiad.wmnet.

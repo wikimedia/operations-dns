@@ -824,8 +824,7 @@ $ORIGIN 32.64.{{ zonename }}.
 190     1H IN PTR       aqs1005-b.eqiad.wmnet. ; cassandra instance
 195     1H IN PTR       restbase1008-b.eqiad.wmnet.
 196     1H IN PTR       restbase1008-c.eqiad.wmnet.
-197     1H IN PTR       prometheus1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-198     1H IN PTR       prometheus1002.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+
 199     1H IN PTR       nitrogen.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 200     1H IN PTR       darmstadtium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 201     1H IN PTR       d-i-test.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
@@ -2876,8 +2875,7 @@ $ORIGIN 16.192.{{ zonename }}.
 178 1H IN PTR   restbase2007-c.codfw.wmnet.
 179 1H IN PTR   maps2002.codfw.wmnet.
 180 1H IN PTR   planet2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
-181 1H IN PTR   prometheus2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
-182 1H IN PTR   prometheus2002.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+
 183 1H IN PTR   zosma.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 184 1H IN PTR   nihal.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 185 1H IN PTR   restbase2010.codfw.wmnet.
