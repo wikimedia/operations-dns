@@ -2953,7 +2953,7 @@ $ORIGIN 32.192.{{ zonename }}.
 19  1H IN PTR   dbstore2002.codfw.wmnet.
 20  1H IN PTR   scb2006.codfw.wmnet.
 21  1H IN PTR   oresrdb2002.codfw.wmnet.
-22  1H IN PTR   graphite2003.codfw.wmnet.
+22  1H IN PTR   naos.codfw.wmnet.
 
 24  1H IN PTR   mc2017.codfw.wmnet.
 25  1H IN PTR   mc2018.codfw.wmnet.
@@ -4229,7 +4229,7 @@ $ORIGIN 2.193.{{ zonename }}.
 251 1H IN PTR  wmf6403.mgmt.codfw.wmnet.
 252 1H IN PTR  phab2001.mgmt.codfw.wmnet.
 252 1H IN PTR  wmf6405.mgmt.codfw.wmnet.
-253 1H IN PTR  graphite2003.mgmt.codfw.wmnet.
+253 1H IN PTR  naos.mgmt.codfw.wmnet.
 253 1H IN PTR  wmf6406.mgmt.codfw.wmnet.
 254 1H IN PTR  tempdb2001.mgmt.codfw.wmnet.
 254 1H IN PTR  wmf6407.mgmt.codfw.wmnet.

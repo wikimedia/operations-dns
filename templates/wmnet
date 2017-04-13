@@ -2516,7 +2516,6 @@ ganeti2005      1H  IN A    10.192.16.129
 ganeti2006      1H  IN A    10.192.16.130
 graphite2001    1H  IN A    10.192.16.33
 graphite2002    1H  IN A    10.192.32.140
-graphite2003    1H  IN A    10.192.32.22
 hassaleh        1H  IN A    10.192.16.173
 heze            1H  IN A    10.192.0.31
 kafka2001       1H  IN A    10.192.0.139
@@ -2775,6 +2774,7 @@ mw2258          1H  IN A    10.192.16.57
 mw2259          1H  IN A    10.192.16.58
 mw2260          1H  IN A    10.192.16.59
 mwlog2001       1H  IN A    10.192.32.131
+naos            1H  IN A    10.192.32.22
 nihal           1H  IN A    10.192.16.184 ; VM on the ganeti01.svc.codfw.wmnet cluster
 oresrdb2001     1H  IN A    10.192.16.31 ; VM on the ganeti01.svc.codfw.wmnet cluster
 oresrdb2002     1H  IN A    10.192.32.21
@@ -3224,7 +3224,6 @@ ganeti2006      1H  IN A    10.193.2.170
 gerrit2001      1H  IN A    10.193.3.1
 graphite2001    1H  IN A    10.193.2.14
 graphite2002    1H  IN A    10.193.2.251
-graphite2003    1H  IN A    10.193.2.253
 haedus          1H  IN A    10.193.2.1
 heze            1H  IN A    10.193.1.250
 install2001     1H  IN A    10.193.1.10
@@ -3489,6 +3488,7 @@ mw2258          1H  IN A    10.193.3.13
 mw2259          1H  IN A    10.193.3.14
 mw2260          1H  IN A    10.193.3.15
 mwlog2001       1H  IN A    10.193.2.246
+naos            1H  IN A    10.193.2.253
 nembus          1H  IN A    10.193.1.251
 maps2001        1H  IN A    10.193.3.8
 maps2002        1H  IN A    10.193.3.9
