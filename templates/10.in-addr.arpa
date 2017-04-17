@@ -1563,6 +1563,28 @@ $ORIGIN 2.65.{{ zonename }}.
 139 1H  IN PTR      prometheus1003.mgmt.eqiad.wmnet.
 140 1H  IN PTR      wmf7001.mgmt.eqiad.wmnet.
 140 1H  IN PTR      prometheus1004.mgmt.eqiad.wmnet.
+141 1H  IN PTR      wmf7030.mgmt.eqiad.wmnet.
+141 1H  IN PTR      db1096.mgmt.eqiad.wmnet.
+142 1H  IN PTR      wmf7031.mgmt.eqiad.wmnet.
+142 1H  IN PTR      db1097.mgmt.eqiad.wmnet.
+143 1H  IN PTR      wmf7032.mgmt.eqiad.wmnet.
+143 1H  IN PTR      db1098.mgmt.eqiad.wmnet.
+144 1H  IN PTR      wmf7033.mgmt.eqiad.wmnet.
+144 1H  IN PTR      db1099.mgmt.eqiad.wmnet.
+145 1H  IN PTR      wmf7034.mgmt.eqiad.wmnet.
+145 1H  IN PTR      db1100.mgmt.eqiad.wmnet.
+146 1H  IN PTR      wmf7035.mgmt.eqiad.wmnet.
+146 1H  IN PTR      db1101.mgmt.eqiad.wmnet.
+147 1H  IN PTR      wmf7036.mgmt.eqiad.wmnet.
+147 1H  IN PTR      db1102.mgmt.eqiad.wmnet.
+148 1H  IN PTR      wmf7037.mgmt.eqiad.wmnet.
+148 1H  IN PTR      db1103.mgmt.eqiad.wmnet.
+149 1H  IN PTR      wmf7038.mgmt.eqiad.wmnet.
+149 1H  IN PTR      db1104.mgmt.eqiad.wmnet.
+150 1H  IN PTR      wmf7039.mgmt.eqiad.wmnet.
+150 1H  IN PTR      db1105.mgmt.eqiad.wmnet.
+151 1H  IN PTR      wmf7040.mgmt.eqiad.wmnet.
+151 1H  IN PTR      db1106.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.{{ zonename }}.
 
