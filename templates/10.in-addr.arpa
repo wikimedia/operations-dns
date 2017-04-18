@@ -1599,7 +1599,8 @@ $ORIGIN 3.65.{{ zonename }}.
 3   1H  IN PTR      silicon.mgmt.eqiad.wmnet.
 3   1H  IN PTR      wmf3148.mgmt.eqiad.wmnet.
 4   1H  IN PTR      wmf3147.mgmt.eqiad.wmnet.
-
+5   1H  IN PTR      frpm1001.mgmt.eqiad.wmnet.
+5   1H  IN PTR      wmf7041.mgmt.eqiad.wmnet.
 8   1H  IN PTR      fluorine.mgmt.eqiad.wmnet.
 8   1H  IN PTR      wmf3143.mgmt.eqiad.wmnet.
 9   1H  IN PTR      oxygen.mgmt.eqiad.wmnet.

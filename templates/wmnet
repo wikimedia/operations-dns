@@ -1922,6 +1922,8 @@ frdev1001   1H  IN A    10.65.3.26
 wmf7028     1H  IN A    10.65.3.26
 civi1001    1H  IN A    10.65.5.36
 wmf7010     1H  IN A    10.65.5.36
+frpm1001    1H  IN A    10.65.3.5
+wmf7041     1H  IN A    10.65.3.5
 frqueue1001 1H  IN A    10.65.3.23
 frqueue1002 1H  IN A    10.65.3.24
 wmf3139     1H  IN A    10.65.3.12
