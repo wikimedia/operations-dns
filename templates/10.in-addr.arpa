@@ -338,7 +338,8 @@ $ORIGIN 0.64.{{ zonename }}.
 126 1H IN PTR   aqs1004-a.eqiad.wmnet. ; cassandra instance
 127 1H IN PTR   aqs1004-b.eqiad.wmnet. ; cassandra instance
 162 1H IN PTR   logstash1004.eqiad.wmnet.
-
+163 1H IN PTR   db1096.eqiad.wmnet.
+164 1H IN PTR   db1103.eqiad.wmnet.
 165 1H IN PTR   dbproxy1001.eqiad.wmnet.
 166 1H IN PTR   dbproxy1002.eqiad.wmnet.
 173 1H IN PTR   ms-be1001.eqiad.wmnet.
@@ -517,6 +518,9 @@ $ORIGIN 16.64.{{ zonename }}.
 80  1H IN PTR   ms-be1031.eqiad.wmnet.
 81  1H IN PTR   ms-be1032.eqiad.wmnet.
 82  1H IN PTR   ms-be1033.eqiad.wmnet.
+83  1H IN PTR   db1098.eqiad.wmnet.
+84  1H IN PTR   db1099.eqiad.wmnet.
+85  1H IN PTR   db1104.eqiad.wmnet.
 
 101 1H IN PTR   db1083.eqiad.wmnet.
 102 1H IN PTR   db1084.eqiad.wmnet.
@@ -824,7 +828,8 @@ $ORIGIN 32.64.{{ zonename }}.
 190     1H IN PTR       aqs1005-b.eqiad.wmnet. ; cassandra instance
 195     1H IN PTR       restbase1008-b.eqiad.wmnet.
 196     1H IN PTR       restbase1008-c.eqiad.wmnet.
-
+197     1H IN PTR       db1100.eqiad.wmnet.
+198     1H IN PTR       db1101.eqiad.wmnet.
 199     1H IN PTR       nitrogen.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 200     1H IN PTR       darmstadtium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 201     1H IN PTR       d-i-test.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
@@ -848,7 +853,7 @@ $ORIGIN 32.64.{{ zonename }}.
 219     1H IN PTR       europium.eqiad.wmnet.
 220     1H IN PTR       ms-fe1007.eqiad.wmnet.
 221     1H IN PTR       ms-fe1008.eqiad.wmnet.
-
+222     1H IN PTR       db1105.eqiad.wmnet.
 223     1H IN PTR       ms-be1034.eqiad.wmnet.
 224     1H IN PTR       ms-be1035.eqiad.wmnet.
 225     1H IN PTR       ms-be1036.eqiad.wmnet.
@@ -975,6 +980,9 @@ $ORIGIN 48.64.{{ zonename }}.
 1   1H IN PTR   vrrp-gw-1020.eqiad.wmnet.
 2   1H IN PTR   ae4-1020.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae4-1020.cr2-eqiad.wikimedia.org.
+
+11      1H IN PTR       db1097.eqiad.wmnet.
+12      1H IN PTR       db1102.eqiad.wmnet.
 
 14      1H IN PTR       db1061.eqiad.wmnet.
 15      1H IN PTR       db1062.eqiad.wmnet.
