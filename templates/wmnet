@@ -75,12 +75,19 @@ labsdb-analytics    5M  IN CNAME    dbproxy1010.eqiad.wmnet.
 labsdb-web          5M  IN CNAME    dbproxy1011.eqiad.wmnet.
 
 ; etcd records
+; server
 _etcd-server._tcp   5M  IN SRV      0 1 2380 conf1001.eqiad.wmnet.
 _etcd-server._tcp   5M  IN SRV      0 1 2380 conf1002.eqiad.wmnet.
 _etcd-server._tcp   5M  IN SRV      0 1 2380 conf1003.eqiad.wmnet.
+; All read clients
 _etcd._tcp          5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
+; Conftool (RW)
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
+
 
 ; kubernetes-related records (etcd)
 _etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 etcd1001.eqiad.wmnet.
@@ -2334,10 +2341,15 @@ statsd          1H  IN CNAME    graphite2001.codfw.wmnet.
 syslog          1H  IN CNAME    wezen.codfw.wmnet.
 udplog          1H  IN CNAME    mwlog1001.eqiad.wmnet.
 
-; etcd client discovery
+; etcd client RO discovery
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
+
+; Conftool (RW)
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
 
 ; etcd server discovery
 _etcd-server._tcp   5M  IN SRV      0 1 2380 conf2001.codfw.wmnet.
@@ -4186,10 +4198,16 @@ config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install1002.wikimedia.org.
 
-; etcd client discovery
+; etcd client discovery (RO)
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
+
+; Conftool (RW)
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
+
 
 ; puppet records
 _x-puppet-ca._tcp   5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
@@ -4378,10 +4396,15 @@ config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install2002.wikimedia.org.
 
-; etcd client discovery
+; etcd client discovery (RO)
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
+
+; Conftool (RW)
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
 
 ; puppet records
 _x-puppet-ca._tcp   5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
