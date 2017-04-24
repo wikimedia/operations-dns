@@ -1254,6 +1254,8 @@ db1031      1H  IN A    10.65.6.31
 wmf3255     1H  IN A    10.65.6.31
 netmon1001  1H  IN A    10.65.6.32
 wmf3254     1H  IN A    10.65.6.32
+netmont1002 1H  IN A    10.65.5.37
+wmf7042     1H  IN A    10.65.5.37
 db1033      1H  IN A    10.65.6.33
 wmf3286     1H  IN A    10.65.6.33
 db1034      1H  IN A    10.65.6.34
