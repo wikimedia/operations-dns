@@ -170,6 +170,7 @@ nescio          1H  IN A    91.198.174.106
                 1H  IN AAAA 2620:0:862:1:91:198:174:106
 netmon1001      1H  IN A    208.80.154.159
 netmon1001      1H  IN AAAA 2620:0:861:2:208:80:154:159
+netmon1002      1H  IN A    208.80.154.5
 pay-lvs1001     1H  IN A    208.80.155.2
 pay-lvs1002     1H  IN A    208.80.155.3
 pollux          1H  IN A    208.80.153.43 ; VM on the ganeti01.svc.codfw.wmnet cluster
