@@ -709,7 +709,6 @@ pt.planet        600 IN DYNA     geoip!misc-addrs
 ro.planet        600 IN DYNA     geoip!misc-addrs
 ru.planet        600 IN DYNA     geoip!misc-addrs
 sq.planet        600 IN DYNA     geoip!misc-addrs
-sr.planet        600 IN DYNA     geoip!misc-addrs
 sv.planet        600 IN DYNA     geoip!misc-addrs
 uk.planet        600 IN DYNA     geoip!misc-addrs
 zh.planet        600 IN DYNA     geoip!misc-addrs
