@@ -2172,7 +2172,7 @@ $ORIGIN 5.65.{{ zonename }}.
 35  1H  IN PTR      wmf7009.mgmt.eqiad.wmnet.
 36  1H  IN PTR      civi1001.mgmt.eqiad.wmnet.
 36  1H  IN PTR      wmf7010.mgmt.eqiad.wmnet.
-37  1H  IN PTR      netmont1002.mgmt.eqiad.wmnet.
+37  1H  IN PTR      netmon1002.mgmt.eqiad.wmnet.
 37  1H  IN PTR      wmf7042.mgmt.eqiad.wmnet.
 
 $ORIGIN 6.65.{{ zonename }}.
