@@ -516,7 +516,6 @@ mc1034          1H  IN A        10.64.48.156
 mc1035          1H  IN A        10.64.48.157
 mc1036          1H  IN A        10.64.48.158
 mendelevium     1H  IN A        10.64.32.174 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-ms1003          1H  IN A        10.64.0.23
 ms-be1001       1H  IN A        10.64.0.173
 ms-be1002       1H  IN A        10.64.0.174
 ms-be1003       1H  IN A        10.64.0.175
@@ -1607,8 +1606,6 @@ mobile1005  1H  IN A    10.65.3.37
 wmf3411     1H  IN A    10.65.3.37
 ms1001      1H  IN A    10.65.5.1
 wmf3070     1H  IN A    10.65.5.1
-ms1003      1H  IN A    10.65.5.3
-wmf3069     1H  IN A    10.65.5.3
 wmf3248     1H  IN A    10.65.5.4
 ms-be1001   1H  IN A    10.65.5.5
 ms-be1002   1H  IN A    10.65.5.6
