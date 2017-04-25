@@ -88,14 +88,14 @@ donate      600 DYNA geoip!text-addrs
 acamar          1H  IN A    208.80.153.12
 acamar          1H  IN AAAA 2620:0:860:1:208:80:153:12
 achernar        1H  IN A    208.80.153.42
-                1H  IN AAAA 2620:0:860:2:208:80:153:42
+achernar        1H  IN AAAA 2620:0:860:2:208:80:153:42
 alsafi          1H  IN A    208.80.153.50
 alsafi          1H  IN AAAA 2620:0:860:2:208:80:153:50
 aluminium       1H  IN A    208.80.154.80 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 aluminium       1H  IN AAAA 2620:0:861:3:208:80:154:80
 astatine        1H  IN A    208.80.155.110
 baham           1H  IN A    208.80.153.13
-                1H  IN AAAA 2620:0:860:1:208:80:153:13
+baham           1H  IN AAAA 2620:0:860:1:208:80:153:13
 civi1001        1H  IN A    208.80.155.11
 bast1001        1H  IN A    208.80.154.149
 bast1001        1H  IN AAAA 2620:0:861:2:208:80:154:149
@@ -107,7 +107,7 @@ bast4001        1H  IN A    198.35.26.5
 bast4001        1H  IN AAAA 2620:0:863:1:198:35:26:5
 californium     1H  IN A    208.80.154.147
 chromium        1H  IN A    208.80.154.157
-                1H  IN AAAA 2620:0:861:2:208:80:154:157
+chromium        1H  IN AAAA 2620:0:861:2:208:80:154:157
 cobalt          1H  IN A    208.80.154.81
 cobalt          1H  IN AAAA 2620:0:861:3:208:80:154:81
 contint1001     1H  IN A    208.80.154.17
@@ -119,7 +119,7 @@ cp1008          1H  IN A    208.80.154.42
 dataset1001     1H  IN A    208.80.154.11
 dataset1001     1H  IN AAAA 2620:0:861:1:208:80:154:11
 eeden           1H  IN A    91.198.174.121
-                1H  IN AAAA 2620:0:862:1:91:198:174:121
+eeden           1H  IN AAAA 2620:0:862:1:91:198:174:121
 einsteinium     1H  IN A    208.80.155.119
 einsteinium     1H  IN AAAA 2620:0:861:4:208:80:155:119
 fermium         1H  IN A    208.80.154.74 ; VM on the ganeti01.svc.eqiad.wmnet cluster
@@ -130,7 +130,7 @@ fundraising-eqiad 1H  IN A    208.80.155.14
 gerrit2001      1H  IN A    208.80.153.106
 gerrit2001      1H  IN AAAA 2620:0:860:4:208:80:153:106
 hydrogen        1H  IN A    208.80.154.50
-                1H  IN AAAA 2620:0:861:1:208:80:154:50
+hydrogen        1H  IN AAAA 2620:0:861:1:208:80:154:50
 install1002     1H  IN A    208.80.154.86
 install1002     1H  IN AAAA 2620:0:861:3:208:80:154:86
 install2002     1H  IN A    208.80.153.53
@@ -154,7 +154,7 @@ lvs1004         1H  IN A    208.80.154.137
 lvs1005         1H  IN A    208.80.154.138
 lvs1006         1H  IN A    208.80.154.139
 maerlant        1H  IN A    91.198.174.122
-                1H  IN AAAA 2620:0:862:1:91:198:174:122
+maerlant        1H  IN AAAA 2620:0:862:1:91:198:174:122
 meitnerium      1H  IN A    208.80.154.73 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 sodium          1H  IN A    208.80.154.15
 sodium          1H  IN AAAA 2620:0:861:1:208:80:154:15
@@ -163,11 +163,11 @@ ms1001          1H  IN AAAA 2620:0:861:1:208:80:154:16
 multatuli       1H  IN A    91.198.174.114
 multatuli       1H  IN AAAA 2620:0:862:1:91:198:174:114
 mx1001          1H  IN A    208.80.154.76 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-                1H  IN AAAA 2620:0:861:3:208:80:154:76
+mx1001          1H  IN AAAA 2620:0:861:3:208:80:154:76
 mx2001          1H  IN A    208.80.153.45 ; VM on the ganeti01.svc.codfw.wmnet cluster
-                1H  IN AAAA 2620:0:860:2:208:80:153:45
+mx2001          1H  IN AAAA 2620:0:860:2:208:80:153:45
 nescio          1H  IN A    91.198.174.106
-                1H  IN AAAA 2620:0:862:1:91:198:174:106
+nescio          1H  IN AAAA 2620:0:862:1:91:198:174:106
 netmon1001      1H  IN A    208.80.154.159
 netmon1001      1H  IN AAAA 2620:0:861:2:208:80:154:159
 netmon1002      1H  IN A    208.80.154.5
@@ -178,7 +178,7 @@ procyon         1H  IN A    208.80.152.245
 radium          1H  IN A    208.80.154.39
 radium          1H  IN AAAA 2620:0:861:1:208:80:154:39
 radon           1H  IN A    208.80.154.93
-                1H  IN AAAA 2620:0:861:3:208:80:154:93
+radon           1H  IN AAAA 2620:0:861:3:208:80:154:93
 rhenium         1H  IN A    208.80.154.52
 rigel           1H  IN A    208.80.152.231
 ripe-atlas-eqiad 1H IN A    208.80.155.69
