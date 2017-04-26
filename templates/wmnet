@@ -84,9 +84,9 @@ _etcd._tcp          5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
 ; Conftool (RW)
-_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2001.codfw.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2002.codfw.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2003.codfw.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 
 ; kubernetes-related records (etcd)
@@ -2345,9 +2345,9 @@ _etcd._tcp      5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
 
 ; Conftool (RW)
-_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2001.codfw.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2002.codfw.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2003.codfw.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 ; etcd server discovery
 _etcd-server._tcp   5M  IN SRV      0 1 2380 conf2001.codfw.wmnet.
@@ -4202,9 +4202,9 @@ _etcd._tcp      5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
 
 ; Conftool (RW)
-_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2001.codfw.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2002.codfw.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2003.codfw.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 
 ; puppet records
@@ -4400,9 +4400,9 @@ _etcd._tcp      5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
 
 ; Conftool (RW)
-_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2001.codfw.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2002.codfw.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2003.codfw.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 ; puppet records
 _x-puppet-ca._tcp   5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
