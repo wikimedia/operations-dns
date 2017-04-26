@@ -153,6 +153,9 @@ $ORIGIN 4.0.1.0.{{ zonename }}.
 2.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1012.eqiad.wmnet.
 3.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1013.eqiad.wmnet.
 
+; analytics1-b-eqiad (2620:0:861:105::/64)
+$ORIGIN 5.0.1.0.{{ zonename }}.
+
 ; analytics1-c-eqiad (2620:0:861:106::/64)
 $ORIGIN 6.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1022.wikimedia.org.
