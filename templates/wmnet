@@ -835,7 +835,7 @@ stat1002        1H  IN A        10.64.5.102
 stat1003        1H  IN A        10.64.36.103
 stat1004        1H  IN A        10.64.5.104
 bromine         1H  IN A        10.64.32.181 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-phab1001        1H  IN CNAME    iridium.eqiad.wmnet.
+phab1001        1H  IN A        10.64.16.8
 phab1001-vcs    1H  IN A        10.64.32.186
 phab1001-vcs    1H  IN AAAA     2620:0:861:103:10:64:32:186
 puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
@@ -2223,6 +2223,7 @@ wmf4730         1H      IN A            10.65.2.35
 wmf4746         1H      IN A            10.65.7.75
 contint1001     1H      IN A            10.65.7.75
 wmf4747         1H      IN A            10.65.7.76
+phab1001        1H      IN A            10.65.7.76
 wmf4748         1H      IN A            10.65.7.77
 wmf4749         1H      IN A            10.65.7.78
 wmf4750         1H      IN A            10.65.7.79

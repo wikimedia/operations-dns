@@ -445,6 +445,7 @@ $ORIGIN 16.64.{{ zonename }}.
 3   1H IN PTR   ae2-1018.cr2-eqiad.wikimedia.org.
 6   1H IN PTR   graphite1002.eqiad.wmnet.
 7   1H IN PTR   db1018.eqiad.wmnet.
+8   1H IN PTR   phab1001.eqiad.wmnet.
 9   1H IN PTR   db1020.eqiad.wmnet.
 10  1H IN PTR   db1021.eqiad.wmnet.
 11  1H IN PTR   db1022.eqiad.wmnet.
@@ -2430,6 +2431,7 @@ $ORIGIN 7.65.{{ zonename }}.
 74      1H      IN PTR     wmf4610.mgmt.eqiad.wmnet.
 75      1H      IN PTR     contint1001.mgmt.eqiad.wmnet.
 75      1H      IN PTR     wmf4746.mgmt.eqiad.wmnet.
+76      1H      IN PTR     phab1001.mgmt.eqiad.wmnet.
 76      1H      IN PTR     wmf4747.mgmt.eqiad.wmnet.
 77      1H      IN PTR     wmf4748.mgmt.eqiad.wmnet.
 78      1H      IN PTR     wmf4749.mgmt.eqiad.wmnet.
