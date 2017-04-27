@@ -857,6 +857,8 @@ $ORIGIN 32.64.{{ zonename }}.
 223     1H IN PTR       ms-be1034.eqiad.wmnet.
 224     1H IN PTR       ms-be1035.eqiad.wmnet.
 225     1H IN PTR       ms-be1036.eqiad.wmnet.
+226     1H IN PTR       mwreleases1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
