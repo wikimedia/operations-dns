@@ -228,7 +228,6 @@ dns-rec-lb.eqiad    1H  IN A    208.80.154.254
 
 ; These legacy entries should eventually move to RESTBase
 cxserver            600 IN DYNA geoip!text-addrs
-citoid              600 IN DYNA geoip!text-addrs
 
 ; ORES
 ores                600 IN DYNA geoip!misc-addrs
