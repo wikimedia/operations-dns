@@ -40,6 +40,8 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 9.3.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   radium.wikimedia.org.
 
+9.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   netmon1001.wikimedia.org.
+
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1001.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1001.cr2-eqiad.wikimedia.org.
 
