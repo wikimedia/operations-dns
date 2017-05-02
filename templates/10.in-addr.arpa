@@ -2648,6 +2648,8 @@ $ORIGIN 0.192.{{ zonename }}.
 32  1H IN PTR   dbstore2001.codfw.wmnet.
 33  1H IN PTR   scb2003.codfw.wmnet.
 34  1H IN PTR   scb2005.codfw.wmnet.
+35  1H IN PTR   ganeti2005.codfw.wmnet.
+36  1H IN PTR   ganeti2006.codfw.wmnet.
 
 40  1H IN PTR   mw2215.codfw.wmnet.
 41  1H IN PTR   mw2216.codfw.wmnet.
@@ -2868,8 +2870,7 @@ $ORIGIN 16.192.{{ zonename }}.
 126 1H IN PTR   ganeti2002.codfw.wmnet.
 127 1H IN PTR   ganeti2003.codfw.wmnet.
 128 1H IN PTR   ganeti2004.codfw.wmnet.
-129 1H IN PTR   ganeti2005.codfw.wmnet.
-130 1H IN PTR   ganeti2006.codfw.wmnet.
+
 131 1H IN PTR   ganeti01.svc.codfw.wmnet.
 132 1H IN PTR   mira.codfw.wmnet.
 133 1H IN PTR   cp2007.codfw.wmnet.
