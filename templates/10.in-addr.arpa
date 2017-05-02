@@ -2675,6 +2675,8 @@ $ORIGIN 0.192.{{ zonename }}.
 34  1H IN PTR   scb2005.codfw.wmnet.
 35  1H IN PTR   ganeti2005.codfw.wmnet.
 36  1H IN PTR   ganeti2006.codfw.wmnet.
+37  1H IN PTR   ganeti2007.codfw.wmnet.
+38  1H IN PTR   ganeti2008.codfw.wmnet.
 
 40  1H IN PTR   mw2215.codfw.wmnet.
 41  1H IN PTR   mw2216.codfw.wmnet.

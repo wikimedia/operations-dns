@@ -2543,6 +2543,8 @@ ganeti2003      1H  IN A    10.192.16.127
 ganeti2004      1H  IN A    10.192.16.128
 ganeti2005      1H  IN A    10.192.0.35
 ganeti2006      1H  IN A    10.192.0.36
+ganeti2007      1H  IN A    10.192.0.37
+ganeti2008      1H  IN A    10.192.0.38
 graphite2001    1H  IN A    10.192.16.33
 graphite2002    1H  IN A    10.192.32.140
 hassaleh        1H  IN A    10.192.16.173
