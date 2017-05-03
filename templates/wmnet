@@ -422,7 +422,6 @@ etcd1004        1H  IN A        10.64.32.216
 etcd1005        1H  IN A        10.64.32.217
 etcd1006        1H  IN A        10.64.32.218
 etherpad1001    1H  IN A        10.64.32.177 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-europium        1H  IN A        10.64.32.219
 eventlog1001    1H  IN A        10.64.32.167
 eventlog1001    1H  IN AAAA     2620:0:861:103:10:64:32:167
 francium        1H  IN A        10.64.32.168

@@ -850,7 +850,6 @@ $ORIGIN 32.64.{{ zonename }}.
 216     1H IN PTR       etcd1004.eqiad.wmnet.   ; VM on the ganeti01.svc.eqiad.wmnet cluster
 217     1H IN PTR       etcd1005.eqiad.wmnet.   ; VM on the ganeti01.svc.eqiad.wmnet cluster
 218     1H IN PTR       etcd1006.eqiad.wmnet.   ; VM on the ganeti01.svc.eqiad.wmnet cluster
-219     1H IN PTR       europium.eqiad.wmnet.
 220     1H IN PTR       ms-fe1007.eqiad.wmnet.
 221     1H IN PTR       ms-fe1008.eqiad.wmnet.
 222     1H IN PTR       db1105.eqiad.wmnet.
