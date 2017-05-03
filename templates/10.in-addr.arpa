@@ -2573,6 +2573,30 @@ $ORIGIN 129.128.{{ zonename }}.
 118 1H  IN PTR      cp4018.mgmt.ulsfo.wmnet.
 119 1H  IN PTR      cp4019.mgmt.ulsfo.wmnet.
 120 1H  IN PTR      cp4020.mgmt.ulsfo.wmnet.
+121 1H  IN PTR      cp4021.mgmt.ulsfo.wmnet.
+121 1H  IN PTR      WMF5803.mgmt.ulsfo.wmnet.
+122 1H  IN PTR      cp4022.mgmt.ulsfo.wmnet.
+122 1H  IN PTR      WMF5804.mgmt.ulsfo.wmnet.
+123 1H  IN PTR      cp4023.mgmt.ulsfo.wmnet.
+123 1H  IN PTR      WMF5805.mgmt.ulsfo.wmnet.
+124 1H  IN PTR      cp4024.mgmt.ulsfo.wmnet.
+124 1H  IN PTR      WMF5806.mgmt.ulsfo.wmnet.
+125 1H  IN PTR      cp4025.mgmt.ulsfo.wmnet.
+125 1H  IN PTR      WMF5807.mgmt.ulsfo.wmnet.
+126 1H  IN PTR      cp4026.mgmt.ulsfo.wmnet.
+126 1H  IN PTR      WMF5808.mgmt.ulsfo.wmnet.
+127 1H  IN PTR      cp4027.mgmt.ulsfo.wmnet.
+127 1H  IN PTR      WMF5809.mgmt.ulsfo.wmnet.
+128 1H  IN PTR      cp4028.mgmt.ulsfo.wmnet.
+128 1H  IN PTR      WMF5810.mgmt.ulsfo.wmnet.
+129 1H  IN PTR      cp4029.mgmt.ulsfo.wmnet.
+129 1H  IN PTR      WMF5811.mgmt.ulsfo.wmnet.
+130 1H  IN PTR      cp4030.mgmt.ulsfo.wmnet.
+130 1H  IN PTR      WMF5812.mgmt.ulsfo.wmnet.
+131 1H  IN PTR      cp4031.mgmt.ulsfo.wmnet.
+131 1H  IN PTR      WMF5813.mgmt.ulsfo.wmnet.
+132 1H  IN PTR      cp4031.mgmt.ulsfo.wmnet.
+132 1H  IN PTR      WMF5814.mgmt.ulsfo.wmnet.
 
 ; 10.128.0.0/24 - private1-ulsfo
 $ORIGIN 0.128.{{ zonename }}.
@@ -2603,6 +2627,18 @@ $ORIGIN 0.128.{{ zonename }}.
 118 1H  IN PTR      cp4018.ulsfo.wmnet.
 119 1H  IN PTR      cp4019.ulsfo.wmnet.
 120 1H  IN PTR      cp4020.ulsfo.wmnet.
+121 1H  IN PTR      cp4021.ulsfo.wmnet.
+122 1H  IN PTR      cp4022.ulsfo.wmnet.
+123 1H  IN PTR      cp4023.ulsfo.wmnet.
+124 1H  IN PTR      cp4024.ulsfo.wmnet.
+125 1H  IN PTR      cp4025.ulsfo.wmnet.
+126 1H  IN PTR      cp4026.ulsfo.wmnet.
+127 1H  IN PTR      cp4027.ulsfo.wmnet.
+128 1H  IN PTR      cp4028.ulsfo.wmnet.
+129 1H  IN PTR      cp4029.ulsfo.wmnet.
+130 1H  IN PTR      cp4030.ulsfo.wmnet.
+131 1H  IN PTR      cp4031.ulsfo.wmnet.
+132 1H  IN PTR      cp4032.ulsfo.wmnet.
 
 ;
 ; CODFW (10.192.0.0/12)
