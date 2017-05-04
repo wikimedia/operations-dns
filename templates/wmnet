@@ -3263,6 +3263,8 @@ ganeti2003      1H  IN A    10.193.2.167
 ganeti2004      1H  IN A    10.193.2.168
 ganeti2005      1H  IN A    10.193.2.169
 ganeti2006      1H  IN A    10.193.2.170
+ganeti2007      1H  IN A    10.193.2.129
+ganeti2008      1H  IN A    10.193.2.130
 gerrit2001      1H  IN A    10.193.3.1
 graphite2001    1H  IN A    10.193.2.14
 graphite2002    1H  IN A    10.193.2.251
@@ -4102,6 +4104,8 @@ wmf6551         1H  IN A    10.193.2.125
 wmf6552         1H  IN A    10.193.2.126
 wmf6553         1H  IN A    10.193.2.127
 wmf6554         1H  IN A    10.193.2.128
+wmf6556         1H  IN A    10.193.2.129
+wmf6557         1H  IN A    10.193.2.130
 
 ;
 ; ESAMS
