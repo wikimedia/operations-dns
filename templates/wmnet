@@ -1244,8 +1244,6 @@ db1023      1H  IN A    10.65.6.23
 wmf3263     1H  IN A    10.65.6.23
 db1024      1H  IN A    10.65.6.24
 wmf3262     1H  IN A    10.65.6.24
-db1025      1H  IN A    10.65.6.25
-wmf3261     1H  IN A    10.65.6.25
 db1026      1H  IN A    10.65.6.26
 wmf3260     1H  IN A    10.65.6.26
 wmf3259     1H  IN A    10.65.6.27
@@ -1509,8 +1507,6 @@ labsdb1010  1H  IN A    10.65.4.60
 wmf4798     1H  IN A    10.65.4.60
 labsdb1011  1H  IN A    10.65.4.61
 wmf4799     1H  IN A    10.65.4.61
-lutetium    1H  IN A    10.65.6.13
-wmf3078     1H  IN A    10.65.6.13
 maps1001    1H  IN A    10.65.4.55
 wmf4792     1H  IN A    10.65.4.55
 maps1002    1H  IN A    10.65.4.56
@@ -1931,8 +1927,6 @@ wmf7041     1H  IN A    10.65.3.5
 frqueue1001 1H  IN A    10.65.3.23
 frqueue1002 1H  IN A    10.65.3.24
 wmf3139     1H  IN A    10.65.3.12
-boron       1H  IN A    10.65.3.11
-wmf3140     1H  IN A    10.65.3.11
 oxygen      1H  IN A    10.65.3.9
 wmf3142     1H  IN A    10.65.3.9
 fluorine    1H  IN A    10.65.3.8
@@ -1941,8 +1935,6 @@ americium   1H  IN A    10.65.3.225
 wmf4594     1H  IN A    10.65.3.225
 bismuth     1H  IN A    10.65.3.226
 wmf3147     1H  IN A    10.65.3.4
-silicon     1H  IN A    10.65.3.3
-wmf3148     1H  IN A    10.65.3.3
 tellurium   1H  IN A    10.65.3.130
 te          1H  IN CNAME        tellurium
 poolcounter1002   1H  IN A    10.65.3.32
@@ -2008,8 +2000,6 @@ tin         1H  IN A    10.65.3.118
 
 wmf4075     1H  IN A    10.65.3.120
 labservices1002 1H  IN A    10.65.3.120
-wmf4076     1H  IN A    10.65.3.121
-barium      1H  IN A    10.65.3.121
 wmf4078     1H  IN A    10.65.3.123
 xenon       1H  IN A    10.65.3.123
 wmf4079     1H  IN A    10.65.3.124
@@ -2283,9 +2273,7 @@ americium       1H      IN A    10.64.40.113
 civi1001        1H      IN A    10.64.40.109
 civi1001-fundraising 1H      IN A    10.64.40.112
 bismuth         1H      IN A    10.64.40.69
-boron           1H      IN A    10.64.40.66
 frav1001        1H      IN A    10.64.40.71
-db1025          1H      IN A    10.64.40.100
 frauth1001      1H      IN A    10.64.40.68
 frdb1001        1H      IN A    10.64.40.114
 frdb1002        1H      IN A    10.64.40.99
@@ -2294,7 +2282,6 @@ frpm1001        1H      IN A    10.64.40.70
 frqueue1001     1H      IN A    10.64.40.115
 frqueue1002     1H      IN A    10.64.40.116
 indium          1H      IN A    10.64.40.67
-lutetium        1H      IN A    10.64.40.111
 pay-lvs1001     1H      IN A    10.64.40.20
 pay-lvs1002     1H      IN A    10.64.40.21
 payments1001    1H      IN A    10.64.40.5
@@ -2302,8 +2289,6 @@ payments1002    1H      IN A    10.64.40.6
 payments1003    1H      IN A    10.64.40.7
 payments1004    1H      IN A    10.64.40.8
 payments1005    1H      IN A    10.64.40.9
-rkhunter.boron  1H      IN CNAME  boron
-silicon         1H      IN A    10.64.40.98
 samarium        1H      IN A    10.64.40.130
 tellurium       1H      IN A    10.64.40.34
 te              1H      IN CNAME  tellurium
