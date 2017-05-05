@@ -1212,6 +1212,8 @@ wmf3087     1H  IN A    10.65.6.4
 wmf3086     1H  IN A    10.65.6.5
 wmf3085     1H  IN A    10.65.6.6
 wmf3084     1H  IN A    10.65.6.7
+frlog1001   1H  IN A    10.65.6.10
+wmf7043     1H  IN A    10.65.6.10
 frav1001    1H  IN A    10.65.6.8
 wmf3083     1H  IN A    10.65.6.8
 db1009      1H  IN A    10.65.6.9
@@ -2278,6 +2280,7 @@ frauth1001      1H      IN A    10.64.40.68
 frdb1001        1H      IN A    10.64.40.114
 frdb1002        1H      IN A    10.64.40.99
 frdev1001       1H      IN A    10.64.40.117
+frlog1001       1H      IN A    10.64.40.72
 frpm1001        1H      IN A    10.64.40.70
 frqueue1001     1H      IN A    10.64.40.115
 frqueue1002     1H      IN A    10.64.40.116

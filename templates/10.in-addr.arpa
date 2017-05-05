@@ -954,6 +954,7 @@ $ORIGIN 40.64.{{ zonename }}.
 69  1H IN PTR   bismuth.frack.eqiad.wmnet.
 70  1H IN PTR   frpm1001.frack.eqiad.wmnet.
 71  1H IN PTR   frav1001.frack.eqiad.wmnet.
+72  1H IN PTR   frlog1001.frack.eqiad.wmnet.
 
 ; 10.64.40.96/27 - frack-fundraising1-c-eqiad
 
@@ -2180,7 +2181,8 @@ $ORIGIN 6.65.{{ zonename }}.
 8       1H IN PTR       wmf3083.mgmt.eqiad.wmnet.
 9       1H IN PTR       db1009.mgmt.eqiad.wmnet.
 9       1H IN PTR       wmf3082.mgmt.eqiad.wmnet.
-
+10      1H IN PTR       frlog1001.mgmt.eqiad.wmnet.
+10      1H IN PTR       wmf7043.mgmt.eqiad.wmnet.
 11      1H IN PTR       db1011.mgmt.eqiad.wmnet.
 11      1H IN PTR       wmf3080.mgmt.eqiad.wmnet.
 12      1H IN PTR       stat1002.mgmt.eqiad.wmnet.
