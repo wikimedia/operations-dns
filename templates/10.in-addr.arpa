@@ -2648,6 +2648,7 @@ $ORIGIN 0.192.{{ zonename }}.
 8   1H IN PTR   db2085.codfw.wmnet.
 9   1H IN PTR   db2089.codfw.wmnet.
 10  1H IN PTR   db2091.codfw.wmnet.
+11  1H IN PTR   kubernetes2001.codfw.wmnet.
 
 13  1H IN PTR   db2010.codfw.wmnet.
 14  1H IN PTR   db2011.codfw.wmnet.
@@ -2813,7 +2814,7 @@ $ORIGIN 16.192.{{ zonename }}.
 39  1H IN PTR   db2082.codfw.wmnet.
 40  1H IN PTR   db2086.codfw.wmnet.
 41  1H IN PTR   db2092.codfw.wmnet.
-
+42  1H IN PTR   kubernetes2002.codfw.wmnet.
 43  1H IN PTR   wtp2001.codfw.wmnet.
 44  1H IN PTR   wtp2002.codfw.wmnet.
 45  1H IN PTR   wtp2003.codfw.wmnet.
@@ -3014,7 +3015,7 @@ $ORIGIN 32.192.{{ zonename }}.
 20  1H IN PTR   scb2006.codfw.wmnet.
 21  1H IN PTR   oresrdb2002.codfw.wmnet.
 22  1H IN PTR   naos.codfw.wmnet.
-
+23  1H IN PTR   kubernetes2003.codfw.wmnet.
 24  1H IN PTR   mc2017.codfw.wmnet.
 25  1H IN PTR   mc2018.codfw.wmnet.
 26  1H IN PTR   wtp2011.codfw.wmnet.
@@ -3251,7 +3252,7 @@ $ORIGIN 48.192.{{ zonename }}.
 68  1H IN PTR   restbase2012-a.codfw.wmnet.
 69  1H IN PTR   restbase2012-b.codfw.wmnet.
 70  1H IN PTR   restbase2012-c.codfw.wmnet.
-
+71  1H IN PTR   kubernetes2004.codfw.wmnet.
 72  1H IN PTR   ms-fe2008.codfw.wmnet.
 73  1H IN PTR   elastic2034.codfw.wmnet.
 74  1H IN PTR   elastic2035.codfw.wmnet.
@@ -4053,6 +4054,14 @@ $ORIGIN 2.193.{{ zonename }}.
 129 1H IN PTR  wmf6556.mgmt.codfw.wmnet.
 130 1H IN PTR  ganeti2008.mgmt.codfw.wmnet.
 130 1H IN PTR  wmf6557.mgmt.codfw.wmnet.
+131 1H IN PTR  kubernetes2001.mgmt.codfw.wmnet.
+131 1H IN PTR  wmf6558.mgmt.codfw.wmnet.
+132 1H IN PTR  kubernetes2002.mgmt.codfw.wmnet.
+132 1H IN PTR  wmf6559.mgmt.codfw.wmnet.
+133 1H IN PTR  kubernetes2003.mgmt.codfw.wmnet.
+133 1H IN PTR  wmf6560.mgmt.codfw.wmnet.
+134 1H IN PTR  kubernetes2004.mgmt.codfw.wmnet.
+134 1H IN PTR  wmf6561.mgmt.codfw.wmnet.
 
 137 1H IN PTR  mc2017.mgmt.codfw.wmnet.
 137 1H IN PTR  wmf5837.mgmt.codfw.wmnet.
