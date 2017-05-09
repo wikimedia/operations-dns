@@ -2009,10 +2009,6 @@ praseodymium    1H  IN A    10.65.3.126
 wmf4082     1H  IN A    10.65.3.127
 thulium     1H  IN A    10.65.3.127
 wmf4083     1H  IN A    10.65.3.128
-
-wmf4084     1H  IN A    10.65.3.129
-europium    1H  IN A    10.65.3.129
-
 wmf3560     1H  IN A    10.65.3.134
 wmf3561     1H  IN A    10.65.3.135
 erbium      1H  IN A    10.65.3.135
@@ -2050,8 +2046,6 @@ wmf5843     1H  IN A    10.65.3.179
 scb1001     1H  IN A    10.65.3.179
 wmf5844     1H  IN A    10.65.3.177
 eventlog1001 1H  IN A    10.65.3.177
-wmf3566     1H  IN A    10.65.3.140
-ytterbium   1H  IN A    10.65.3.140
 wmf3568     1H  IN A    10.65.3.141
 neodymium   1H  IN A    10.65.3.141
 wmf3570     1H  IN A    10.65.3.143
