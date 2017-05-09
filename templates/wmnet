@@ -137,7 +137,6 @@ notebook1001        1H  IN A         10.64.36.117
 notebook1002        1H  IN A         10.64.5.14
                     1H  IN AAAA      2620:0:861:104:10:64:5:14
 
-analytics1027    1H IN A             10.64.36.127
 analytics1028    1H IN A             10.64.36.128
 analytics1029    1H IN A             10.64.36.129
 analytics1030    1H IN A             10.64.36.130
@@ -1116,7 +1115,6 @@ wmf6996         1H  IN A    10.65.4.80
 conf1001        1H  IN A    10.65.3.112
 conf1002        1H  IN A    10.65.3.113
 conf1003        1H  IN A    10.65.3.114
-analytics1027   1H  IN A    10.65.3.116
 wmf4580         1H      IN A    10.65.3.211
 analytics1028   1H      IN A    10.65.3.211
 wmf4581         1H      IN A    10.65.2.212
