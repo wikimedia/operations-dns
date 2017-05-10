@@ -2899,7 +2899,7 @@ $ORIGIN 16.192.{{ zonename }}.
 128 1H IN PTR   ganeti2004.codfw.wmnet.
 
 131 1H IN PTR   ganeti01.svc.codfw.wmnet.
-132 1H IN PTR   mira.codfw.wmnet.
+
 133 1H IN PTR   cp2007.codfw.wmnet.
 134 1H IN PTR   cp2008.codfw.wmnet.
 135 1H IN PTR   cp2009.codfw.wmnet.

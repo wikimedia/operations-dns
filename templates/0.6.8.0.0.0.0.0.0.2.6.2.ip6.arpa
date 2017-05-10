@@ -86,7 +86,6 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2018.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2018.cr2-codfw.wikimedia.org.
 
-2.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   mira.codfw.wmnet.
 3.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2007.codfw.wmnet.
 4.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2008.codfw.wmnet.
 5.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2009.codfw.wmnet.
