@@ -2728,6 +2728,7 @@ $ORIGIN 0.192.{{ zonename }}.
 89  1H IN PTR   ms-be2029.codfw.wmnet.
 90  1H IN PTR   ms-be2030.codfw.wmnet.
 91  1H IN PTR   sca2004.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+92  1H IN PTR   planet2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
@@ -2946,7 +2947,6 @@ $ORIGIN 16.192.{{ zonename }}.
 177 1H IN PTR   restbase2007-b.codfw.wmnet.
 178 1H IN PTR   restbase2007-c.codfw.wmnet.
 179 1H IN PTR   maps2002.codfw.wmnet.
-180 1H IN PTR   planet2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 
 183 1H IN PTR   zosma.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 184 1H IN PTR   nihal.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
