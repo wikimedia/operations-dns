@@ -137,6 +137,8 @@ notebook1001        1H  IN A         10.64.36.117
 notebook1002        1H  IN A         10.64.5.14
                     1H  IN AAAA      2620:0:861:104:10:64:5:14
 
+acrab            1H IN A             10.192.16.26 ; VM on ganeti01.svc.codfw.wmnet
+acrux            1H IN A             10.192.0.93  ; VM on ganeti01.svc.codfw.wmnet
 analytics1028    1H IN A             10.64.36.128
 analytics1029    1H IN A             10.64.36.129
 analytics1030    1H IN A             10.64.36.130
