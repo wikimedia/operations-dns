@@ -2842,7 +2842,7 @@ $ORIGIN 16.192.{{ zonename }}.
 62  1H IN PTR   mc2025.codfw.wmnet.
 
 70  1H IN PTR   mw2097.codfw.wmnet.
-71  1H IN PTR   mw2098.codfw.wmnet.
+
 72  1H IN PTR   mw2099.codfw.wmnet.
 73  1H IN PTR   mw2100.codfw.wmnet.
 74  1H IN PTR   mw2101.codfw.wmnet.
