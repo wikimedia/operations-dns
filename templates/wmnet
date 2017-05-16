@@ -2323,6 +2323,11 @@ _etcd-server._tcp   5M  IN SRV      0 1 2380 conf2001.codfw.wmnet.
 _etcd-server._tcp   5M  IN SRV      0 1 2380 conf2002.codfw.wmnet.
 _etcd-server._tcp   5M  IN SRV      0 1 2380 conf2003.codfw.wmnet.
 
+; kubernetes-related records (etcd)
+_etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 kubetcd2001.codfw.wmnet.
+_etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 kubetcd2002.codfw.wmnet.
+_etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 kubetcd2003.codfw.wmnet.
+
 ; puppet records
 _x-puppet-ca._tcp   5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
 _x-puppet._tcp      5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
