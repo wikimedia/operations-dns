@@ -2524,6 +2524,9 @@ es2016          1H  IN A    10.192.48.41
 es2017          1H  IN A    10.192.0.142
 es2018          1H  IN A    10.192.16.172
 es2019          1H  IN A    10.192.48.42
+kubetcd2001     1H  IN A    10.192.0.94
+kubetcd2002     1H  IN A    10.192.0.95
+kubetcd2003     1H  IN A    10.192.16.30
 eventlog2001    1H  IN A    10.192.16.121
 ganeti2001      1H  IN A    10.192.16.125
 ganeti2002      1H  IN A    10.192.16.126

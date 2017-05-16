@@ -2730,6 +2730,8 @@ $ORIGIN 0.192.{{ zonename }}.
 91  1H IN PTR   sca2004.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 92  1H IN PTR   planet2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 93  1H IN PTR   acrux.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+94  1H IN PTR   kubetcd2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
+95  1H IN PTR   kubetcd2002.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
@@ -2805,7 +2807,7 @@ $ORIGIN 16.192.{{ zonename }}.
 27  1H IN PTR   es2003.codfw.wmnet.
 28  1H IN PTR   es2004.codfw.wmnet.
 29  1H IN PTR   sca2003.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
-
+30  1H IN PTR   kubetcd2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 31  1H IN PTR   oresrdb2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 32  1H IN PTR   ms-be2014.codfw.wmnet.
 33  1H IN PTR   graphite2001.codfw.wmnet.
