@@ -619,6 +619,7 @@ spcom            600 IN DYNA     geoip!text-addrs
 species          600 IN DYNA     geoip!text-addrs
 steward          600 IN DYNA     geoip!text-addrs
 strategy         600 IN DYNA     geoip!text-addrs
+techconduct      600 IN DYNA     geoip!text-addrs
 tr               600 IN DYNA     geoip!text-addrs
 transitionteam   600 IN DYNA     geoip!text-addrs
 ua               600 IN DYNA     geoip!text-addrs
