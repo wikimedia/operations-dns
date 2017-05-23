@@ -2805,6 +2805,15 @@ mwlog2001       1H  IN A    10.192.32.131
 naos            1H  IN A    10.192.32.22
 naos            1H  IN AAAA 2620:0:860:103:10:192:32:22
 nihal           1H  IN A    10.192.16.184 ; VM on the ganeti01.svc.codfw.wmnet cluster
+ores2001        1H  IN A    10.192.0.12
+ores2002        1H  IN A    10.192.0.18
+ores2003        1H  IN A    10.192.16.63
+ores2004        1H  IN A    10.192.16.64
+ores2005        1H  IN A    10.192.32.173
+ores2006        1H  IN A    10.192.32.174
+ores2007        1H  IN A    10.192.48.88
+ores2008        1H  IN A    10.192.48.89
+ores2009        1H  IN A    10.192.48.90
 oresrdb2001     1H  IN A    10.192.16.31 ; VM on the ganeti01.svc.codfw.wmnet cluster
 oresrdb2002     1H  IN A    10.192.32.21
 planet2001      1H  IN A    10.192.0.92
@@ -3524,6 +3533,15 @@ maps-test2001   1H  IN A    10.193.2.3
 maps-test2002   1H  IN A    10.193.2.4
 maps-test2003   1H  IN A    10.193.2.5
 maps-test2004   1H  IN A    10.193.2.6
+ores2001        1H  IN A    10.193.1.190
+ores2002        1H  IN A    10.193.1.191
+ores2003        1H  IN A    10.193.1.192
+ores2004        1H  IN A    10.193.1.193
+ores2005        1H  IN A    10.193.1.194
+ores2006        1H  IN A    10.193.1.195
+ores2007        1H  IN A    10.193.1.196
+ores2008        1H  IN A    10.193.2.135
+ores2009        1H  IN A    10.193.2.136
 oresrdb2002     1H  IN A    10.193.1.65
 osm-db2001      1H  IN A    10.193.2.7
 osm-db2002      1H  IN A    10.193.2.8
@@ -4092,6 +4110,15 @@ wmf6558         1H  IN A    10.193.2.131
 wmf6559         1H  IN A    10.193.2.132
 wmf6560         1H  IN A    10.193.2.133
 wmf6561         1H  IN A    10.193.2.134
+wmf6562         1H  IN A    10.193.1.190
+wmf6563         1H  IN A    10.193.1.191
+wmf6564         1H  IN A    10.193.1.192
+wmf6565         1H  IN A    10.193.1.193
+wmf6566         1H  IN A    10.193.1.194
+wmf6567         1H  IN A    10.193.1.195
+wmf6568         1H  IN A    10.193.1.196
+wmf6569         1H  IN A    10.193.2.135
+wmf6570         1H  IN A    10.193.2.136
 
 ;
 ; ESAMS
