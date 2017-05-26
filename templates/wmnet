@@ -1497,6 +1497,10 @@ wmf7039     1H  IN A    10.65.2.150
 db1105      1H  IN A    10.65.2.150
 wmf7040     1H  IN A    10.65.2.151
 db1106      1H  IN A    10.65.2.151
+wmf7089     1H  IN A    10.65.5.64
+dumpsdata1001 1H  IN A    10.65.5.64
+wmf7090     1H  IN A    10.65.5.65
+dumpsdata1002 1H  IN A    10.65.5.65
 labsdb1009  1H  IN A    10.65.4.59
 wmf4797     1H  IN A    10.65.4.59
 labsdb1010  1H  IN A    10.65.4.60
