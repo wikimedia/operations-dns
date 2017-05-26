@@ -1120,6 +1120,10 @@ kubernetes1003  1H  IN A    10.65.4.79
 wmf6995         1H  IN A    10.65.4.79
 kubernetes1004  1H  IN A    10.65.4.80
 wmf6996         1H  IN A    10.65.4.80
+kubestage1001   1H  IN A    10.65.5.70
+wmf7083         1H  IN A    10.65.5.70
+kubestage1002   1H  IN A    10.65.5.71
+wmf7084         1H  IN A    10.65.5.71
 conf1001        1H  IN A    10.65.3.112
 conf1002        1H  IN A    10.65.3.113
 conf1003        1H  IN A    10.65.3.114
