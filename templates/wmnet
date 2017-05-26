@@ -1078,6 +1078,14 @@ labvirt1013 1H  IN A    10.65.4.63
 wmf6977     1H  IN A    10.65.4.63
 labvirt1014 1H  IN A    10.65.4.64
 wmf6978     1H  IN A    10.65.4.64
+labvirt1015 1H  IN A    10.65.5.66
+wmf7085     1H  IN A    10.65.5.66
+labvirt1016 1H  IN A    10.65.5.67
+wmf7086     1H  IN A    10.65.5.67
+labvirt1017 1H  IN A    10.65.5.68
+wmf7087     1H  IN A    10.65.5.68
+labvirt1018 1H  IN A    10.65.5.69
+wmf7088     1H  IN A    10.65.5.69
 restbase-dev1001  1H  IN A    10.65.3.94
 WMF4086     1H  IN A    10.65.3.94
 kafka1012       1H  IN A    10.65.3.95
