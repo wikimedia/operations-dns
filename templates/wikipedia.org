@@ -31,6 +31,12 @@ _dmarc                  600     IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dm
 ; SPF records
 @                       600     IN TXT  "v=spf1 include:wikimedia.org ?all"
 
+; CAA records
+; issue digicert.com, iodef "mailto:dns-admin@wikimedia.org"
+; cf. https://sslmate.com/labs/caa/
+@                       600     IN TYPE257 \# 19 0005697373756564696769636572742E636F6D
+@                       600     IN TYPE257 \# 37 0005696F6465666D61696C746F3A646E732D61646D696E4077696B696D656469612E6F7267
+
 ; Wikis (alphabetic order)
 
 arbcom-cs               600     IN DYNA         geoip!text-addrs
