@@ -2254,6 +2254,14 @@ $ORIGIN 5.65.{{ zonename }}.
 70  1H  IN PTR      wmf7083.mgmt.eqiad.wmnet.
 71  1H  IN PTR      kubestage1002.mgmt.eqiad.wmnet.
 71  1H  IN PTR      wmf7084.mgmt.eqiad.wmnet.
+72  1H  IN PTR      ganeti1005.mgmt.eqiad.wmnet.
+72  1H  IN PTR      wmf7068.mgmt.eqiad.wmnet.
+73  1H  IN PTR      ganeti1006.mgmt.eqiad.wmnet.
+73  1H  IN PTR      wmf7069.mgmt.eqiad.wmnet.
+74  1H  IN PTR      ganeti1007.mgmt.eqiad.wmnet.
+74  1H  IN PTR      wmf7070.mgmt.eqiad.wmnet.
+75  1H  IN PTR      ganeti1008.mgmt.eqiad.wmnet.
+75  1H  IN PTR      wmf7071.mgmt.eqiad.wmnet.
 
 $ORIGIN 6.65.{{ zonename }}.
 
