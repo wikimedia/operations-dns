@@ -691,6 +691,7 @@ ca.planet        600 IN DYNA     geoip!misc-addrs
 cs.planet        600 IN DYNA     geoip!misc-addrs
 da.planet        600 IN DYNA     geoip!misc-addrs
 de.planet        600 IN DYNA     geoip!misc-addrs
+el.planet        600 IN DYNA     geoip!misc-addrs
 en.planet        600 IN DYNA     geoip!misc-addrs
 es.planet        600 IN DYNA     geoip!misc-addrs
 fo.planet        600 IN DYNA     geoip!misc-addrs
