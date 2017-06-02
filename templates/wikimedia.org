@@ -730,10 +730,10 @@ tor-eqiad-1      1H  IN CNAME    radium
 mirrors          1H  IN CNAME    sodium
 yarn             600 IN DYNA     geoip!misc-addrs
 wikitech         1H  IN CNAME    silver
-wikitech-static  1H  IN A        162.209.126.221
-wikitech-static  1H  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
-wikitech-static-ord  1H  IN A        192.237.162.200
-wikitech-static-ord  1H  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
+wikitech-static  5M  IN A        162.209.126.221
+wikitech-static  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
+wikitech-static-ord  5M IN A     192.237.162.200
+wikitech-static-ord  5M IN AAAA  2001:4801:7821:77:be76:4eff:fe10:2ed5
 labtestwikitech  1H  IN CNAME    labtestweb2001
 labtesthorizon   1H  IN DYNA     geoip!misc-addrs
 labtestspice     1H  IN DYNA     geoip!misc-addrs
