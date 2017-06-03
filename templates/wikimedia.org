@@ -687,7 +687,6 @@ old-bugzilla     600 IN DYNA     geoip!text-addrs
 planet           600 IN DYNA     geoip!misc-addrs
 ar.planet        600 IN DYNA     geoip!misc-addrs
 bg.planet        600 IN DYNA     geoip!misc-addrs
-ca.planet        600 IN DYNA     geoip!misc-addrs
 cs.planet        600 IN DYNA     geoip!misc-addrs
 da.planet        600 IN DYNA     geoip!misc-addrs
 de.planet        600 IN DYNA     geoip!misc-addrs
@@ -700,7 +699,6 @@ gmq.planet       600 IN DYNA     geoip!misc-addrs
 id.planet        600 IN DYNA     geoip!misc-addrs
 is.planet        600 IN DYNA     geoip!misc-addrs
 it.planet        600 IN DYNA     geoip!misc-addrs
-ja.planet        600 IN DYNA     geoip!misc-addrs
 nb.planet        600 IN DYNA     geoip!misc-addrs
 nn.planet        600 IN DYNA     geoip!misc-addrs
 no.planet        600 IN DYNA     geoip!misc-addrs
