@@ -33,7 +33,6 @@
 ; - 198.35.26.112/28 (112-127) LVS high-traffic2 (Multimedia & Misc)
 
 112 1H IN PTR   upload-lb.ulsfo.wikimedia.org.
-113 1H IN PTR   maps-lb.ulsfo.wikimedia.org.
 
 120 1H IN PTR   misc-web-lb.ulsfo.wikimedia.org.
 

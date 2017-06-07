@@ -166,8 +166,6 @@
 
 240 1H  IN PTR  upload-lb.eqiad.wikimedia.org.
 
-244 1H  IN PTR  maps-lb.eqiad.wikimedia.org.
-
 250 1H  IN PTR  git-ssh.eqiad.wikimedia.org.
 251 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.
 
