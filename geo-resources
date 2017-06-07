@@ -18,16 +18,6 @@ upload-addrs => {
         ulsfo => { addrs_v4 => 198.35.26.112,  addrs_v6 => 2620:0:863:ed1a::2:b }
     }
 }
-maps-addrs => {
-    map => generic-map
-    service_types => up
-    dcmap => {
-        eqiad => { addrs_v4 => 208.80.154.244, addrs_v6 => 2620:0:861:ed1a::2:d }
-        codfw => { addrs_v4 => 208.80.153.244, addrs_v6 => 2620:0:860:ed1a::2:d }
-        esams => { addrs_v4 => 91.198.174.209, addrs_v6 => 2620:0:862:ed1a::2:d }
-        ulsfo => { addrs_v4 => 198.35.26.113,  addrs_v6 => 2620:0:863:ed1a::2:d }
-    }
-}
 misc-addrs => {
     map => generic-map
     service_types => up
