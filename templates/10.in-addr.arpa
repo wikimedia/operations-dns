@@ -391,6 +391,15 @@ $ORIGIN 0.64.{{ zonename }}.
 236 1H IN PTR   elastic1035.eqiad.wmnet.
 237 1H IN PTR   aqs1007-b.eqiad.wmnet. ; cassandra instance
 238 1H IN PTR   elastic1048.eqiad.wmnet.
+239 1H IN PTR   wtp1025.eqiad.wmnet.
+240 1H IN PTR   wtp1026.eqiad.wmnet.
+241 1H IN PTR   wtp1027.eqiad.wmnet.
+242 1H IN PTR   wtp1028.eqiad.wmnet.
+243 1H IN PTR   wtp1029.eqiad.wmnet.
+244 1H IN PTR   wtp1030.eqiad.wmnet.
+245 1H IN PTR   ganeti1005.eqiad.wmnet.
+246 1H IN PTR   ganeti1006.eqiad.wmnet.
+247 1H IN PTR   kubestage1001.eqiad.wmnet.
 
 $ORIGIN 1.64.{{ zonename }}.
 
@@ -467,8 +476,7 @@ $ORIGIN 16.64.{{ zonename }}.
 26  1H IN PTR   db1037.eqiad.wmnet.
 27  1H IN PTR   db1038.eqiad.wmnet.
 28  1H IN PTR   db1039.eqiad.wmnet.
-
-
+29  1H IN PTR   ganeti1007.eqiad.wmnet.
 30  1H IN PTR   db1041.eqiad.wmnet.
 32  1H IN PTR   db1043.eqiad.wmnet.
 33  1H IN PTR   db1044.eqiad.wmnet.
@@ -524,6 +532,14 @@ $ORIGIN 16.64.{{ zonename }}.
 83  1H IN PTR   db1098.eqiad.wmnet.
 84  1H IN PTR   db1099.eqiad.wmnet.
 85  1H IN PTR   db1104.eqiad.wmnet.
+86  1H IN PTR   wtp1031.eqiad.wmnet.
+87  1H IN PTR   wtp1032.eqiad.wmnet.
+88  1H IN PTR   wtp1033.eqiad.wmnet.
+89  1H IN PTR   wtp1034.eqiad.wmnet.
+90  1H IN PTR   wtp1035.eqiad.wmnet.
+91  1H IN PTR   wtp1036.eqiad.wmnet.
+92  1H IN PTR   kubestage1002.eqiad.wmnet.
+93  1H IN PTR   dumpsdata1001.eqiad.wmnet.
 
 101 1H IN PTR   db1083.eqiad.wmnet.
 102 1H IN PTR   db1084.eqiad.wmnet.
@@ -628,6 +644,10 @@ $ORIGIN 20.64.{{ zonename }}.
 28  1H IN PTR   labvirt1012.eqiad.wmnet.
 29  1H IN PTR   labvirt1013.eqiad.wmnet.
 30  1H IN PTR   labvirt1014.eqiad.wmnet.
+31  1H IN PTR   labvirt1015.eqiad.wmnet.
+32  1H IN PTR   labvirt1016.eqiad.wmnet.
+33  1H IN PTR   labvirt1017.eqiad.wmnet.
+34  1H IN PTR   labvirt1018.eqiad.wmnet.
 
 ; 10.64.21.0/24 - analytics1-b-eqiad
 $ORIGIN 21.64.{{ zonename }}.
@@ -862,6 +882,12 @@ $ORIGIN 32.64.{{ zonename }}.
 226     1H IN PTR       mwreleases1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 227     1H IN PTR       db1061.eqiad.wmnet.
 228     1H IN PTR       db1063.eqiad.wmnet.
+229     1H IN PTR       wtp1037.eqiad.wmnet.
+230     1H IN PTR       wtp1038.eqiad.wmnet.
+231     1H IN PTR       wtp1039.eqiad.wmnet.
+232     1H IN PTR       wtp1040.eqiad.wmnet.
+233     1H IN PTR       wtp1041.eqiad.wmnet.
+234     1H IN PTR       wtp1042.eqiad.wmnet.
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
@@ -989,7 +1015,7 @@ $ORIGIN 48.64.{{ zonename }}.
 12      1H IN PTR       db1102.eqiad.wmnet.
 13      1H IN PTR       db1106.eqiad.wmnet.
 15      1H IN PTR       db1062.eqiad.wmnet.
-
+16      1H IN PTR       ganeti1008.eqiad.wmnet.
 17      1H IN PTR       dbstore1001.eqiad.wmnet.
 18      1H IN PTR       dbstore1002.eqiad.wmnet.
 19      1H IN PTR       db1064.eqiad.wmnet.
@@ -1111,7 +1137,7 @@ $ORIGIN 48.64.{{ zonename }}.
 142     1H  IN PTR      ms-be1037.eqiad.wmnet.
 143     1H  IN PTR      ms-be1038.eqiad.wmnet.
 144     1H  IN PTR      ms-be1039.eqiad.wmnet.
-
+145     1H  IN PTR      dumpstat1002.eqiad.wmnet.
 146     1H  IN PTR      aqs1006.eqiad.wmnet.
 148     1H  IN PTR      aqs1006-a.eqiad.wmnet. ; cassandra instance
 149     1H  IN PTR      aqs1006-b.eqiad.wmnet. ; cassandra instance
@@ -1126,6 +1152,13 @@ $ORIGIN 48.64.{{ zonename }}.
 158     1H  IN PTR      mc1036.eqiad.wmnet.
 159     1H  IN PTR      ms-be1026.eqiad.wmnet.
 160     1H  IN PTR      ms-be1027.eqiad.wmnet.
+161     1H  IN PTR      wtp1043.eqiad.wmnet.
+162     1H  IN PTR      wtp1044.eqiad.wmnet.
+163     1H  IN PTR      wtp1045.eqiad.wmnet.
+164     1H  IN PTR      wtp1046.eqiad.wmnet.
+165     1H  IN PTR      wtp1047.eqiad.wmnet.
+166     1H  IN PTR      wtp1048.eqiad.wmnet.
+
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
 2       1H IN PTR       vl1020-eth3.lvs1002.wikimedia.org.
@@ -1164,6 +1197,8 @@ $ORIGIN 53.64.{{ zonename }}.
 27      1H IN PTR       analytics1067.eqiad.wmnet.
 28      1H IN PTR       analytics1068.eqiad.wmnet.
 29      1H IN PTR       analytics1069.eqiad.wmnet.
+30      1H IN PTR       stat1005.eqiad.wmnet.
+31      1H IN PTR       stat1006.eqiad.wmnet.
 
 103     1H  IN PTR      druid1003.eqiad.wmnet.
 

@@ -368,6 +368,8 @@ d-i-test        1H  IN A        10.64.32.201
 druid1001       1H  IN A        10.64.5.101
 druid1002       1H  IN A        10.64.36.102
 druid1003       1H  IN A        10.64.53.103
+dumpsdata1001   1H  IN A        10.64.16.93
+dumpsdata1002   1H  IN A        10.64.48.145
 elastic1017     1H  IN A        10.64.48.39
 elastic1018     1H  IN A        10.64.48.40
 elastic1019     1H  IN A        10.64.48.41
@@ -427,6 +429,10 @@ ganeti1001      1H  IN A        10.64.32.169
 ganeti1002      1H  IN A        10.64.32.170
 ganeti1003      1H  IN A        10.64.32.171
 ganeti1004      1H  IN A        10.64.32.172
+ganeti1005      1H  IN A        10.64.0.245
+ganeti1006      1H  IN A        10.64.0.246
+ganeti1007      1H  IN A        10.64.16.29
+ganeti1008      1H  IN A        10.64.48.16
 hafnium         1H  IN A        10.64.32.176
 hassium         1H  IN A        10.64.32.135
 helium          1H  IN A        10.64.0.179
@@ -434,6 +440,8 @@ hp1001          1H  IN A        10.64.32.147
 iridium         1H  IN A        10.64.32.150
 iridium         1H  IN AAAA     2620:0:861:103:10:64:32:150
 krypton         1H  IN A        10.64.32.182
+kubestage1001   1H  IN A        10.64.0.247
+kubestage1002   1H  IN A        10.64.16.92
 kubernetes1001  1H  IN A        10.64.0.121
 kubernetes1002  1H  IN A        10.64.16.75
 kubernetes1003  1H  IN A        10.64.32.23
@@ -832,6 +840,8 @@ snapshot1007    1H  IN A        10.64.48.141
 stat1002        1H  IN A        10.64.5.102
 stat1003        1H  IN A        10.64.36.103
 stat1004        1H  IN A        10.64.5.104
+stat1005        1H  IN A        10.64.53.30
+stat1006        1H  IN A        10.64.53.31
 bromine         1H  IN A        10.64.32.181 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 phab1001        1H  IN A        10.64.16.8
 phab1001-vcs    1H  IN A        10.64.32.186
@@ -861,6 +871,10 @@ labvirt1011     1H  IN A        10.64.20.27
 labvirt1012     1H  IN A        10.64.20.28
 labvirt1013     1H  IN A        10.64.20.29
 labvirt1014     1H  IN A        10.64.20.30
+labvirt1015     1H  IN A        10.64.20.31
+labvirt1016     1H  IN A        10.64.20.32
+labvirt1017     1H  IN A        10.64.20.33
+labvirt1018     1H  IN A        10.64.20.34
 wdqs1001        1H  IN A        10.64.48.112
 wdqs1002        1H  IN A        10.64.32.183
 wdqs1003        1H  IN A        10.64.0.14
@@ -888,6 +902,30 @@ wtp1021         1H  IN A        10.64.0.216
 wtp1022         1H  IN A        10.64.0.217
 wtp1023         1H  IN A        10.64.0.218
 wtp1024         1H  IN A        10.64.0.219
+wtp1025         1H  IN A        10.64.0.239
+wtp1026         1H  IN A        10.64.0.240
+wtp1027         1H  IN A        10.64.0.241
+wtp1028         1H  IN A        10.64.0.242
+wtp1029         1H  IN A        10.64.0.243
+wtp1030         1H  IN A        10.64.0.244
+wtp1031         1H  IN A        10.64.16.86
+wtp1032         1H  IN A        10.64.16.87
+wtp1033         1H  IN A        10.64.16.88
+wtp1034         1H  IN A        10.64.16.89
+wtp1035         1H  IN A        10.64.16.90
+wtp1036         1H  IN A        10.64.16.91
+wtp1037         1H  IN A        10.64.32.229
+wtp1038         1H  IN A        10.64.32.230
+wtp1039         1H  IN A        10.64.32.231
+wtp1040         1H  IN A        10.64.32.232
+wtp1041         1H  IN A        10.64.32.233
+wtp1042         1H  IN A        10.64.32.234
+wtp1043         1H  IN A        10.64.48.161
+wtp1044         1H  IN A        10.64.48.162
+wtp1045         1H  IN A        10.64.48.163
+wtp1046         1H  IN A        10.64.48.164
+wtp1047         1H  IN A        10.64.48.165
+wtp1048         1H  IN A        10.64.48.166
 xenon           1H  IN A        10.64.0.200
 xenon-a         1H  IN A        10.64.0.202 ; cassandra instance
 xenon-b         1H  IN A        10.64.0.203 ; cassandra instance
