@@ -178,6 +178,7 @@ analytics1065    1H IN A             10.64.36.105
 analytics1066    1H IN A             10.64.36.106
 analytics1067    1H IN A             10.64.53.27
 analytics1068    1H IN A             10.64.53.28
+analytics1069    1H IN A             10.64.53.29
 aqs1004          1H IN A             10.64.0.107
 aqs1004-a        1H IN A             10.64.0.126 ; cassandra instance
 aqs1004-b        1H IN A             10.64.0.127 ; cassandra instance

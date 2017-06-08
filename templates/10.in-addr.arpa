@@ -1163,6 +1163,7 @@ $ORIGIN 53.64.{{ zonename }}.
 26      1H IN PTR       thorium.eqiad.wmnet.
 27      1H IN PTR       analytics1067.eqiad.wmnet.
 28      1H IN PTR       analytics1068.eqiad.wmnet.
+29      1H IN PTR       analytics1069.eqiad.wmnet.
 
 103     1H  IN PTR      druid1003.eqiad.wmnet.
 
