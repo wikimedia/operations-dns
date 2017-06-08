@@ -2672,7 +2672,9 @@ labstore2003    1H  IN A    10.192.21.6
 labstore2004    1H  IN A    10.192.21.8
 labtestpuppetmaster2001      1H  IN A    10.192.48.91
 labtestneutron2001      1H  IN A    10.192.20.4
+labtestneutron2002      1H  IN A    10.192.20.10
 labtestnet2001          1H  IN A    10.192.20.5
+labtestnet2002          1H  IN A    10.192.20.9
 labtestvirt2001         1H  IN A    10.192.20.6
 labtestvirt2002         1H  IN A    10.192.20.7
 labtestvirt2003         1H  IN A    10.192.20.8
@@ -3400,6 +3402,8 @@ labtestvirt2002      1H  IN A    10.193.1.18
 labtestnet2001        1H  IN A    10.193.2.2
 labtestpuppetmaster2001    1H  IN A    10.193.1.36
 labtestneutron2001    1H  IN A    10.193.1.20
+labtestnet2002        1H  IN A    10.193.1.34
+labtestneutron2002    1H  IN A    10.193.1.35
 labtestservices2001   1H  IN A    10.193.1.21
 labtestvirt2001       1H  IN A    10.193.1.19
 labtestvirt2003       1H  IN A    10.193.1.33
@@ -4231,6 +4235,8 @@ wmf6569         1H  IN A    10.193.2.135
 wmf6570         1H  IN A    10.193.2.136
 wmf6571         1H  IN A    10.193.1.33
 wmf6572         1H  IN A    10.193.1.36
+wmf6573         1H  IN A    10.193.1.34
+wmf6574         1H  IN A    10.193.1.35
 
 ;
 ; ESAMS

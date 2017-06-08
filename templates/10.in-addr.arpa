@@ -3119,6 +3119,8 @@ $ORIGIN 20.192.{{ zonename }}.
 6   1H IN PTR   labtestvirt2001.codfw.wmnet.
 7   1H IN PTR   labtestvirt2002.codfw.wmnet.
 8   1H IN PTR   labtestvirt2003.codfw.wmnet.
+9   1H IN PTR   labtestnet2002.codfw.wmnet.
+10  1H IN PTR   labtestneutron2002.codfw.wmnet.
 
 ; 10.192.21.0/24 - labs-support1-b-codfw
 $ORIGIN 21.192.{{ zonename }}.
@@ -3572,7 +3574,10 @@ $ORIGIN 1.193.{{ zonename }}.
 32  1H IN PTR  wmf5820.mgmt.codfw.wmnet.
 33  1H IN PTR  labtestvirt2003.mgmt.codfw.wmnet.
 33  1H IN PTR  wmf6571.mgmt.codfw.wmnet.
-
+34  1H IN PTR  labtestnet2002.mgmt.codfw.wmnet.
+34  1H IN PTR  wmf6573.mgmt.codfw.wmnet.
+35  1H IN PTR  labtestneutron2002.mgmt.codfw.wmnet.
+35  1H IN PTR  wmf6574.mgmt.codfw.wmnet.
 36  1H IN PTR  labtestpuppetmaster2001.mgmt.codfw.wmnet.
 36  1H IN PTR  wmf6572.mgmt.codfw.wmnet.
 37  1H IN PTR  ms-be2001.mgmt.codfw.wmnet.
