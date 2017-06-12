@@ -2678,7 +2678,6 @@ labstore2001    1H  IN A    10.192.21.4
 labstore2002    1H  IN A    10.192.21.5
 labstore2003    1H  IN A    10.192.21.6
 labstore2004    1H  IN A    10.192.21.8
-labtestpuppetmaster2001      1H  IN A    10.192.48.91
 labtestneutron2001      1H  IN A    10.192.20.4
 labtestneutron2002      1H  IN A    10.192.20.10
 labtestnet2001          1H  IN A    10.192.20.5
