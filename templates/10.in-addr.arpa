@@ -888,6 +888,9 @@ $ORIGIN 32.64.{{ zonename }}.
 232     1H IN PTR       wtp1040.eqiad.wmnet.
 233     1H IN PTR       wtp1041.eqiad.wmnet.
 234     1H IN PTR       wtp1042.eqiad.wmnet.
+235     1H IN PTR       kubstagetcd1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+236     1H IN PTR       kubstagetcd1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+237     1H IN PTR       kubstagetcd1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 $ORIGIN 33.64.{{ zonename }}.
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
