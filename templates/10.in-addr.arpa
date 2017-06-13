@@ -1140,7 +1140,7 @@ $ORIGIN 48.64.{{ zonename }}.
 142     1H  IN PTR      ms-be1037.eqiad.wmnet.
 143     1H  IN PTR      ms-be1038.eqiad.wmnet.
 144     1H  IN PTR      ms-be1039.eqiad.wmnet.
-145     1H  IN PTR      dumpstat1002.eqiad.wmnet.
+145     1H  IN PTR      dumpsdata1002.eqiad.wmnet.
 146     1H  IN PTR      aqs1006.eqiad.wmnet.
 148     1H  IN PTR      aqs1006-a.eqiad.wmnet. ; cassandra instance
 149     1H  IN PTR      aqs1006-b.eqiad.wmnet. ; cassandra instance
