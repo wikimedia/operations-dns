@@ -720,7 +720,6 @@ mw1305          1H  IN A        10.64.16.105
 mw1306          1H  IN A        10.64.16.106
 mwdebug1001     1H  IN A        10.64.32.123 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 mwdebug1002     1H  IN A        10.64.32.124 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-mwreleases1001  1H  IN A        10.64.32.226 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 neodymium       1H  IN A        10.64.32.20
 neodymium       1H  IN AAAA     2620:0:861:103:10:64:32:20
 neon            1H  IN A        10.64.32.27 ; VM on ganeti01.svc.eqiad.wmnet
@@ -775,6 +774,7 @@ rdb1005         1H  IN A        10.64.0.24
 rdb1006         1H  IN A        10.64.48.55
 rdb1007         1H  IN A        10.64.32.18
 rdb1008         1H  IN A        10.64.32.19
+releases1001    1H  IN A        10.64.32.226 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 relforge1001    1H  IN A        10.64.4.13
 relforge1002    1H  IN A        10.64.37.21
 restbase1007    1H  IN A        10.64.0.223
