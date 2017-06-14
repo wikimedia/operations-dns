@@ -96,6 +96,9 @@ _etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 etcd1003.eqiad.wmnet.
 _etcd-server._tcp.net.k8s 5M  IN SRV      0 1 2380 etcd1004.eqiad.wmnet.
 _etcd-server._tcp.net.k8s 5M  IN SRV      0 1 2380 etcd1005.eqiad.wmnet.
 _etcd-server._tcp.net.k8s 5M  IN SRV      0 1 2380 etcd1006.eqiad.wmnet.
+_etcd-server._tcp.k8s-staging 5M  IN SRV      0 1 2380 kubestagetcd1001.eqiad.wmnet.
+_etcd-server._tcp.k8s-staging 5M  IN SRV      0 1 2380 kubestagetcd1002.eqiad.wmnet.
+_etcd-server._tcp.k8s-staging 5M  IN SRV      0 1 2380 kubestagetcd1003.eqiad.wmnet.
 
 
 ; puppet records
