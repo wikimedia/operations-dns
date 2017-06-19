@@ -444,7 +444,9 @@ iridium         1H  IN A        10.64.32.150
 iridium         1H  IN AAAA     2620:0:861:103:10:64:32:150
 krypton         1H  IN A        10.64.32.182
 kubestage1001   1H  IN A        10.64.0.247
+kubestage1001   1H  IN AAAA     2620:0:861:101:10:64:0:247
 kubestage1002   1H  IN A        10.64.16.92
+kubestage1002   1H  IN AAAA     2620:0:861:102:10:64:16:92
 kubestagetcd1001 1H IN A        10.64.32.235
 kubestagetcd1001 1H IN AAAA     2620:0:861:103:10:64:32:235 ; VM on ganeti01.svc.eqiad.wmnet
 kubestagetcd1002 1H IN A        10.64.32.236
