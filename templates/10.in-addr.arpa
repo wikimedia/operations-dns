@@ -274,6 +274,10 @@ $ORIGIN 0.64.{{ zonename }}.
 38  1H IN PTR   ms-fe1005.eqiad.wmnet.
 39  1H IN PTR   ms-fe1006.eqiad.wmnet.
 40  1H IN PTR   neon.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+41  1H IN PTR   etcd1002.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+42  1H IN PTR   etcd1003.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+43  1H IN PTR   etcd1004.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+44  1H IN PTR   etcd1005.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 
 56  1H IN PTR   mw1261.eqiad.wmnet.
 57  1H IN PTR   mw1262.eqiad.wmnet.
@@ -870,11 +874,9 @@ $ORIGIN 32.64.{{ zonename }}.
 211     1H IN PTR       mc1031.eqiad.wmnet.
 212     1H IN PTR       mc1032.eqiad.wmnet.
 213     1H IN PTR       etcd1001.eqiad.wmnet.  ; VM on the ganeti01.svc.eqiad.wmnet cluster
-214     1H IN PTR       etcd1002.eqiad.wmnet.  ; VM on the ganeti01.svc.eqiad.wmnet cluster
-215     1H IN PTR       etcd1003.eqiad.wmnet.  ; VM on the ganeti01.svc.eqiad.wmnet cluster
-216     1H IN PTR       etcd1004.eqiad.wmnet.   ; VM on the ganeti01.svc.eqiad.wmnet cluster
-217     1H IN PTR       etcd1005.eqiad.wmnet.   ; VM on the ganeti01.svc.eqiad.wmnet cluster
+
 218     1H IN PTR       etcd1006.eqiad.wmnet.   ; VM on the ganeti01.svc.eqiad.wmnet cluster
+
 220     1H IN PTR       ms-fe1007.eqiad.wmnet.
 221     1H IN PTR       ms-fe1008.eqiad.wmnet.
 222     1H IN PTR       db1105.eqiad.wmnet.
