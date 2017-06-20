@@ -1076,8 +1076,8 @@ $ORIGIN 48.64.{{ zonename }}.
 68      1H  IN PTR      mw1233.eqiad.wmnet.
 69      1H  IN PTR      mw1234.eqiad.wmnet.
 70      1H  IN PTR      mw1235.eqiad.wmnet.
-71      1H  IN PTR      mw1236.eqiad.wmnet.
-72      1H  IN PTR      mw1237.eqiad.wmnet.
+71      1H  IN PTR      thumbor1003.eqiad.wmnet.
+72      1H  IN PTR      thumbor1004.eqiad.wmnet.
 73      1H  IN PTR      mw1238.eqiad.wmnet.
 74      1H  IN PTR      mw1239.eqiad.wmnet.
 75      1H  IN PTR      mw1240.eqiad.wmnet.
@@ -1559,8 +1559,8 @@ $ORIGIN 2.65.{{ zonename }}.
 83  1H  IN PTR      mw1233.mgmt.eqiad.wmnet.
 84  1H  IN PTR      mw1234.mgmt.eqiad.wmnet.
 85  1H  IN PTR      mw1235.mgmt.eqiad.wmnet.
-86  1H  IN PTR      mw1236.mgmt.eqiad.wmnet.
-87  1H  IN PTR      mw1237.mgmt.eqiad.wmnet.
+86  1H  IN PTR      thumbor1003.mgmt.eqiad.wmnet.
+87  1H  IN PTR      thumbor1004.mgmt.eqiad.wmnet.
 88  1H  IN PTR      mw1238.mgmt.eqiad.wmnet.
 89  1H  IN PTR      mw1239.mgmt.eqiad.wmnet.
 90  1H  IN PTR      mw1240.mgmt.eqiad.wmnet.

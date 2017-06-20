@@ -651,8 +651,6 @@ mw1232          1H  IN A        10.64.48.67
 mw1233          1H  IN A        10.64.48.68
 mw1234          1H  IN A        10.64.48.69
 mw1235          1H  IN A        10.64.48.70
-mw1236          1H  IN A        10.64.48.71
-mw1237          1H  IN A        10.64.48.72
 mw1238          1H  IN A        10.64.48.73
 mw1239          1H  IN A        10.64.48.74
 mw1240          1H  IN A        10.64.48.75
@@ -865,6 +863,8 @@ technetium      1H  IN A        10.64.32.188
 thorium         1H  IN A        10.64.53.26
 thumbor1001     1H  IN A        10.64.16.56
 thumbor1002     1H  IN A        10.64.16.57
+thumbor1003     1H  IN A        10.64.48.71
+thumbor1004     1H  IN A        10.64.48.72
 tin             1H  IN A        10.64.0.196
 tin             1H  IN AAAA     2620:0:861:101:10:64:0:196
 terbium         1H  IN A        10.64.32.13
@@ -1809,6 +1809,8 @@ thumbor1001 1H  IN A    10.65.1.56
 wmf6930     1H  IN A    10.65.1.56
 thumbor1002 1H  IN A    10.65.1.57
 wmf6931     1H  IN A    10.65.1.57
+thumbor1003 1H  IN A    10.65.2.86
+thumbor1004 1H  IN A    10.65.2.87
 mw1293      1H  IN A    10.65.1.58
 wmf6932     1H  IN A    10.65.1.58
 mw1294      1H  IN A    10.65.1.59
@@ -1912,8 +1914,6 @@ mw1232      1H  IN A    10.65.2.82
 mw1233      1H  IN A    10.65.2.83
 mw1234      1H  IN A    10.65.2.84
 mw1235      1H  IN A    10.65.2.85
-mw1236      1H  IN A    10.65.2.86
-mw1237      1H  IN A    10.65.2.87
 mw1238      1H  IN A    10.65.2.88
 mw1239      1H  IN A    10.65.2.89
 mw1240      1H  IN A    10.65.2.90
