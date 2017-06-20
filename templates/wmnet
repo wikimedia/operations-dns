@@ -1180,6 +1180,12 @@ wmf7084         1H  IN A    10.65.5.71
 conf1001        1H  IN A    10.65.3.112
 conf1002        1H  IN A    10.65.3.113
 conf1003        1H  IN A    10.65.3.114
+wmf7093         1H  IN A    10.65.3.115
+conf1004        1H  IN A    10.65.3.115
+wmf7094         1H  IN A    10.65.3.116
+conf1005        1H  IN A    10.65.3.116
+wmf7095         1H  IN A    10.65.3.119
+conf1006        1H  IN A    10.65.3.119
 wmf4580         1H      IN A    10.65.3.211
 analytics1028   1H      IN A    10.65.3.211
 wmf4581         1H      IN A    10.65.2.212
