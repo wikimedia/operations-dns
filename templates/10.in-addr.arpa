@@ -2178,6 +2178,24 @@ $ORIGIN 4.65.{{ zonename }}.
 106 1H  IN PTR      analytics1068.mgmt.eqiad.wmnet.
 106 1H  IN PTR      wmf7081.mgmt.eqiad.wmnet.
 107 1H  IN PTR      analytics1069.mgmt.eqiad.wmnet.
+108 1H  IN PTR      wmf7104.mgmt.eqiad.wmnet.
+108 1H  IN PTR      ores1001.mgmt.eqiad.wmnet.
+109 1H  IN PTR      wmf7105.mgmt.eqiad.wmnet.
+109 1H  IN PTR      ores1002.mgmt.eqiad.wmnet.
+110 1H  IN PTR      wmf7106.mgmt.eqiad.wmnet.
+110 1H  IN PTR      ores1003.mgmt.eqiad.wmnet.
+111 1H  IN PTR      wmf7107.mgmt.eqiad.wmnet.
+111 1H  IN PTR      ores1004.mgmt.eqiad.wmnet.
+112 1H  IN PTR      wmf7108.mgmt.eqiad.wmnet.
+112 1H  IN PTR      ores1005.mgmt.eqiad.wmnet.
+113 1H  IN PTR      wmf7109.mgmt.eqiad.wmnet.
+113 1H  IN PTR      ores1006.mgmt.eqiad.wmnet.
+114 1H  IN PTR      wmf7110.mgmt.eqiad.wmnet.
+114 1H  IN PTR      ores1007.mgmt.eqiad.wmnet.
+115 1H  IN PTR      wmf7111.mgmt.eqiad.wmnet.
+115 1H  IN PTR      ores1008.mgmt.eqiad.wmnet.
+116 1H  IN PTR      wmf7112.mgmt.eqiad.wmnet.
+116 1H  IN PTR      ores1009.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.{{ zonename }}.
 
