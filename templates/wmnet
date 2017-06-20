@@ -719,7 +719,7 @@ mw1304          1H  IN A        10.64.16.69
 mw1305          1H  IN A        10.64.16.105
 mw1306          1H  IN A        10.64.16.106
 mwdebug1001     1H  IN A        10.64.32.123 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-mwdebug1002     1H  IN A        10.64.32.124 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+mwdebug1002     1H  IN A        10.64.0.46 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 neodymium       1H  IN A        10.64.32.20
 neodymium       1H  IN AAAA     2620:0:861:103:10:64:32:20
 neon            1H  IN A        10.64.0.40 ; VM on ganeti01.svc.eqiad.wmnet
@@ -839,8 +839,8 @@ rhodium         1H  IN A        10.64.16.184
 roentgenium     1H  IN A        10.64.32.24 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 ruthenium       1H  IN A        10.64.16.151
 rutherfordium   1H  IN A        10.64.32.17 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-sca1003         1H  IN A        10.64.32.28
-sca1004         1H  IN A        10.64.32.125
+sca1003         1H  IN A        10.64.32.28 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+sca1004         1H  IN A        10.64.0.47 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 scb1001         1H  IN A        10.64.0.16
 scb1002         1H  IN A        10.64.16.21
 scb1003         1H  IN A        10.64.32.153
