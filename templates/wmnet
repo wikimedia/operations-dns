@@ -434,8 +434,8 @@ ganeti1003      1H  IN A        10.64.32.171
 ganeti1004      1H  IN A        10.64.32.172
 ganeti1005      1H  IN A        10.64.0.245
 ganeti1006      1H  IN A        10.64.0.246
-ganeti1007      1H  IN A        10.64.16.29
-ganeti1008      1H  IN A        10.64.48.16
+ganeti1007      1H  IN A        10.64.0.248
+ganeti1008      1H  IN A        10.64.0.249
 hafnium         1H  IN A        10.64.32.176
 hassium         1H  IN A        10.64.32.135
 helium          1H  IN A        10.64.0.179
