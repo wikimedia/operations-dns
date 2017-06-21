@@ -4716,7 +4716,7 @@ pdfrender       1H  IN A        10.2.1.35
 
 ganeti01        1H  IN A        10.192.16.131
 labstore        1H  IN A        10.192.21.7
-oresrdb         5M  IN A        10.192.16.31
+oresrdb         5M  IN A        10.192.32.21
 
 ; DISCOVERY SERVICES
 
