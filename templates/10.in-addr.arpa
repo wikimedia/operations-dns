@@ -283,6 +283,7 @@ $ORIGIN 0.64.{{ zonename }}.
 47  1H IN PTR   sca1004.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 48  1H IN PTR   kubestagetcd1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 49  1H IN PTR   kubestagetcd1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+50  1H IN PTR   planet1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 
 56  1H IN PTR   mw1261.eqiad.wmnet.
 57  1H IN PTR   mw1262.eqiad.wmnet.
@@ -839,7 +840,7 @@ $ORIGIN 32.64.{{ zonename }}.
 176     1H IN PTR       hafnium.eqiad.wmnet.
 177     1H IN PTR       etherpad1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 178     1H IN PTR       restbase1008.eqiad.wmnet.
-179     1H IN PTR       planet1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+
 180     1H IN PTR       conf1002.eqiad.wmnet.
 181     1H IN PTR       bromine.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 182     1H IN PTR       krypton.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
