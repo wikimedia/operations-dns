@@ -2987,8 +2987,8 @@ $ORIGIN 16.192.{{ zonename }}.
 55  1H IN PTR   mw2256.codfw.wmnet.
 56  1H IN PTR   mw2257.codfw.wmnet.
 57  1H IN PTR   mw2258.codfw.wmnet.
-58  1H IN PTR   mw2259.codfw.wmnet.
-59  1H IN PTR   mw2260.codfw.wmnet.
+58  1H IN PTR   thumbor2003.codfw.wmnet.
+59  1H IN PTR   thumbor2004.codfw.wmnet.
 60  1H IN PTR   mc2023.codfw.wmnet.
 61  1H IN PTR   mc2024.codfw.wmnet.
 62  1H IN PTR   mc2025.codfw.wmnet.
@@ -3186,8 +3186,8 @@ $ORIGIN 32.192.{{ zonename }}.
 33  1H IN PTR   wtp2018.codfw.wmnet.
 34  1H IN PTR   wtp2019.codfw.wmnet.
 35  1H IN PTR   wtp2020.codfw.wmnet.
-36  1H IN PTR   mw2148.codfw.wmnet.
-37  1H IN PTR   mw2149.codfw.wmnet.
+36  1H IN PTR   thumbor2001.codfw.wmnet.
+37  1H IN PTR   thumbor2002.codfw.wmnet.
 38  1H IN PTR   mw2150.codfw.wmnet.
 39  1H IN PTR   mw2151.codfw.wmnet.
 40  1H IN PTR   mw2152.codfw.wmnet.
@@ -4083,9 +4083,9 @@ $ORIGIN 2.193.{{ zonename }}.
 46  1H IN PTR  wmf6193.mgmt.codfw.wmnet.
 47  1H IN PTR  mw2147.mgmt.codfw.wmnet.
 47  1H IN PTR  wmf6194.mgmt.codfw.wmnet.
-48  1H IN PTR  mw2148.mgmt.codfw.wmnet.
+48  1H IN PTR  thumbor2001.mgmt.codfw.wmnet.
 48  1H IN PTR  wmf6195.mgmt.codfw.wmnet.
-49  1H IN PTR  mw2149.mgmt.codfw.wmnet.
+49  1H IN PTR  thumbor2002.mgmt.codfw.wmnet.
 49  1H IN PTR  wmf6196.mgmt.codfw.wmnet.
 50  1H IN PTR  mw2150.mgmt.codfw.wmnet.
 50  1H IN PTR  wmf6197.mgmt.codfw.wmnet.
@@ -4524,9 +4524,9 @@ $ORIGIN 3.193.{{ zonename }}.
 12  1H IN PTR  wmf6486.mgmt.codfw.wmnet.
 13  1H IN PTR  mw2258.mgmt.codfw.wmnet.
 13  1H IN PTR  wmf6487.mgmt.codfw.wmnet.
-14  1H IN PTR  mw2259.mgmt.codfw.wmnet.
+14  1H IN PTR  thumbor2003.mgmt.codfw.wmnet.
 14  1H IN PTR  wmf6488.mgmt.codfw.wmnet.
-15  1H IN PTR  mw2260.mgmt.codfw.wmnet.
+15  1H IN PTR  thumbor2004.mgmt.codfw.wmnet.
 15  1H IN PTR  wmf6489.mgmt.codfw.wmnet.
 16  1H IN PTR  mc2034.mgmt.codfw.wmnet.
 16  1H IN PTR  wmf6517.mgmt.codfw.wmnet.

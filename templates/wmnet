@@ -2818,8 +2818,6 @@ mw2144          1H  IN A    10.192.16.117
 mw2145          1H  IN A    10.192.16.118
 mw2146          1H  IN A    10.192.16.119
 mw2147          1H  IN A    10.192.16.120
-mw2148          1H  IN A    10.192.32.36
-mw2149          1H  IN A    10.192.32.37
 mw2150          1H  IN A    10.192.32.38
 mw2151          1H  IN A    10.192.32.39
 mw2152          1H  IN A    10.192.32.40
@@ -2930,8 +2928,6 @@ mw2255          1H  IN A    10.192.16.54
 mw2256          1H  IN A    10.192.16.55
 mw2257          1H  IN A    10.192.16.56
 mw2258          1H  IN A    10.192.16.57
-mw2259          1H  IN A    10.192.16.58
-mw2260          1H  IN A    10.192.16.59
 mwlog2001       1H  IN A    10.192.32.131
 naos            1H  IN A    10.192.32.22
 naos            1H  IN AAAA 2620:0:860:103:10:192:32:22
@@ -3044,6 +3040,10 @@ scb2006         1H  IN A    10.192.32.20
 subra           1H  IN A    10.192.16.124
 suhail          1H  IN A    10.192.0.121
 tempdb2001      1H  IN A    10.192.48.14
+thumbor2001     1H  IN A    10.192.32.36
+thumbor2002     1H  IN A    10.192.32.37
+thumbor2003     1H  IN A    10.192.16.58
+thumbor2004     1H  IN A    10.192.16.59
 tureis          1H  IN A    10.192.16.25 ; VM on the ganeti01.svc.codfw.wmnet cluster
 wasat           1H  IN A    10.192.48.45
 wasat           1H  IN AAAA 2620:0:860:104:10:192:48:45
@@ -3540,8 +3540,6 @@ mw2144          1H  IN A    10.193.2.44
 mw2145          1H  IN A    10.193.2.45
 mw2146          1H  IN A    10.193.2.46
 mw2147          1H  IN A    10.193.2.47
-mw2148          1H  IN A    10.193.2.48
-mw2149          1H  IN A    10.193.2.49
 mw2150          1H  IN A    10.193.2.50
 mw2151          1H  IN A    10.193.2.51
 mw2152          1H  IN A    10.193.2.52
@@ -3652,8 +3650,6 @@ mw2255          1H  IN A    10.193.1.243
 mw2256          1H  IN A    10.193.1.244
 mw2257          1H  IN A    10.193.3.12
 mw2258          1H  IN A    10.193.3.13
-mw2259          1H  IN A    10.193.3.14
-mw2260          1H  IN A    10.193.3.15
 mwlog2001       1H  IN A    10.193.2.246
 naos            1H  IN A    10.193.2.253
 maps2001        1H  IN A    10.193.3.8
@@ -3723,6 +3719,10 @@ subra           1H  IN A    10.193.2.163
 suhail          1H  IN A    10.193.2.164
 tegmen          1H  IN A    10.193.1.27
 tempdb2001      1H  IN A    10.193.2.254
+thumbor2001     1H  IN A    10.193.2.48
+thumbor2002     1H  IN A    10.193.2.49
+thumbor2003     1H  IN A    10.193.3.14
+thumbor2004     1H  IN A    10.193.3.15
 tmh2001         1H  IN A    10.193.1.8
 tmh2002         1H  IN A    10.193.1.9
 wasat           1H  IN A    10.193.2.249
