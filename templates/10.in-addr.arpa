@@ -2187,6 +2187,10 @@ $ORIGIN 4.65.{{ zonename }}.
 115 1H  IN PTR      ores1008.mgmt.eqiad.wmnet.
 116 1H  IN PTR      wmf7112.mgmt.eqiad.wmnet.
 116 1H  IN PTR      ores1009.mgmt.eqiad.wmnet.
+117 1H  IN PTR      wmf7113.mgmt.eqiad.wmnet.
+117 1H  IN PTR      labpuppetmaster1001.mgmt.eqiad.wmnet.
+118 1H  IN PTR      wmf7114.mgmt.eqiad.wment.
+118 1H  IN PTR      labpuppetmaster1002.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.{{ zonename }}.
 

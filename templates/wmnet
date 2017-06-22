@@ -1042,6 +1042,10 @@ wmf3097     1H  IN A    10.65.2.38
 wmf3095     1H  IN A    10.65.2.40
 labnodepool1001 1H  IN A    10.65.2.40
 wmf3094     1H  IN A    10.65.2.41
+labpuppetmaster1001 1H  IN A   10.65.4.117
+wmf7113     1H  IN A    10.65.4.117
+labpuppetmaster1002 1H IN A    10.65.4.118
+wmf7114     1H  IN A    10.65.4.118
 dbproxy1005 1H  IN A    10.65.2.41
 wmf3093     1H  IN A    10.65.2.42
 dbproxy1004 1H  IN A    10.65.2.42
