@@ -284,6 +284,8 @@ $ORIGIN 0.64.{{ zonename }}.
 48  1H IN PTR   kubestagetcd1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 49  1H IN PTR   kubestagetcd1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 50  1H IN PTR   planet1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+51  1H IN PTR   ores1001.eqiad.wmnet.
+52  1H IN PTR   ores1002.eqiad.wmnet.
 
 56  1H IN PTR   mw1261.eqiad.wmnet.
 57  1H IN PTR   mw1262.eqiad.wmnet.
@@ -549,6 +551,8 @@ $ORIGIN 16.64.{{ zonename }}.
 91  1H IN PTR   wtp1036.eqiad.wmnet.
 92  1H IN PTR   kubestage1002.eqiad.wmnet.
 93  1H IN PTR   dumpsdata1001.eqiad.wmnet.
+94  1H IN PTR   ores1003.eqiad.wmnet.
+95  1H IN PTR   ores1004.eqiad.wmnet.
 
 101 1H IN PTR   db1083.eqiad.wmnet.
 102 1H IN PTR   db1084.eqiad.wmnet.
@@ -685,6 +689,8 @@ $ORIGIN 32.64.{{ zonename }}.
 3       1H IN PTR       ae3-1019.cr2-eqiad.wikimedia.org.
 
 13      1H IN PTR       terbium.eqiad.wmnet.
+14      1H IN PTR       ores1005.eqiad.wmnet.
+15      1H IN PTR       ores1006.eqiad.wmnet.
 
 17      1H IN PTR       rutherfordium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 18      1H IN PTR       rdb1007.eqiad.wmnet.
@@ -1017,7 +1023,7 @@ $ORIGIN 48.64.{{ zonename }}.
 12      1H IN PTR       db1102.eqiad.wmnet.
 13      1H IN PTR       db1106.eqiad.wmnet.
 15      1H IN PTR       db1062.eqiad.wmnet.
-
+16      1H IN PTR       ores1007.eqiad.wmnet.
 17      1H IN PTR       dbstore1001.eqiad.wmnet.
 18      1H IN PTR       dbstore1002.eqiad.wmnet.
 19      1H IN PTR       db1064.eqiad.wmnet.
@@ -1028,7 +1034,8 @@ $ORIGIN 48.64.{{ zonename }}.
 24      1H IN PTR       db1069.eqiad.wmnet.
 25      1H IN PTR       db1070.eqiad.wmnet.
 26      1H IN PTR       db1071.eqiad.wmnet.
-
+27      1H IN PTR       ores1008.eqiad.wmnet.
+28      1H IN PTR       ores1009.eqiad.wmnet.
 29      1H IN PTR       scb1004.eqiad.wmnet.
 30      1H IN PTR       ms-be1013.eqiad.wmnet.
 31      1H IN PTR       ms-be1014.eqiad.wmnet.
