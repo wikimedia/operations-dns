@@ -668,7 +668,7 @@ fundraising      1H  IN CNAME    fundraising-eqiad
 ganglia          1H  IN CNAME    uranium
 hue              600 IN DYNA     geoip!misc-addrs
 iegreview        600 IN DYNA     geoip!misc-addrs
-tendril          5M  IN CNAME    dbmonitor1001
+tendril          5M  IN CNAME    einsteinium
 jobs             600 IN DYNA     geoip!text-addrs
 labs             600 IN DYNA     geoip!text-addrs
 labs-ns0         1H  IN A        208.80.155.117
