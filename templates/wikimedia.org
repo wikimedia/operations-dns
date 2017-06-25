@@ -309,6 +309,7 @@ incubator.m         600 IN DYNA     geoip!text-addrs
 fdc.m               600 IN DYNA     geoip!text-addrs
 fi.m                600 IN DYNA     geoip!text-addrs
 legalteam.m         600 IN DYNA     geoip!text-addrs
+mai.m               600 IN DYNA     geoip!text-addrs
 meta.m              600 IN DYNA     geoip!text-addrs
 mk.m                600 IN DYNA     geoip!text-addrs
 mx.m                600 IN DYNA     geoip!text-addrs
@@ -608,6 +609,7 @@ it               600 IN DYNA     geoip!text-addrs
 kr               600 IN DYNA     geoip!text-addrs
 langcom          600 IN DYNA     geoip!text-addrs
 legalteam        600 IN DYNA     geoip!text-addrs
+mai              600 IN DYNA     geoip!text-addrs
 meta             600 IN DYNA     geoip!text-addrs
 mk               600 IN DYNA     geoip!text-addrs
 movementroles    600 IN DYNA     geoip!text-addrs
