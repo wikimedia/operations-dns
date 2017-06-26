@@ -286,6 +286,7 @@ $ORIGIN 0.64.{{ zonename }}.
 50  1H IN PTR   planet1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 51  1H IN PTR   ores1001.eqiad.wmnet.
 52  1H IN PTR   ores1002.eqiad.wmnet.
+53  1H IN PTR   hassium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 
 56  1H IN PTR   mw1261.eqiad.wmnet.
 57  1H IN PTR   mw1262.eqiad.wmnet.
@@ -809,7 +810,6 @@ $ORIGIN 32.64.{{ zonename }}.
 132     1H IN PTR       restbase1017-c.eqiad.wmnet.
 133     1H IN PTR       argon.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 
-135     1H IN PTR       hassium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 136     1H IN PTR       db1078.eqiad.wmnet.
 137     1H IN PTR       logstash1002.eqiad.wmnet.
 138     1H IN PTR       aqs1005.eqiad.wmnet.
