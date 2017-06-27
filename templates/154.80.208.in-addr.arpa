@@ -21,12 +21,15 @@
 
 11  1H  IN PTR  dataset1001.wikimedia.org.
 12  1H  IN PTR  labservices1002.wikimedia.org.
-
+13  5M  IN PTR  dubnium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+14  5M  IN PTR  fermium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 15  1H  IN PTR  sodium.wikimedia.org.
 16  1H  IN PTR  ms1001.wikimedia.org.
 17  1H  IN PTR  contint1001.wikimedia.org.
-
+18  5M  IN PTR  meitnerium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+19  5M  IN PTR  ununpentium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 20  1H  IN PTR  labs-recursor1.wikimedia.org.
+21  1H  IN PTR  lists.wikimedia.org. ; Service IP for lists on fermium
 39  1H  IN PTR  radium.wikimedia.org.
 
 42  1H  IN PTR  cp1008.wikimedia.org.
@@ -57,17 +60,15 @@
 70  1H  IN PTR  vl1003-eth2.lvs1004.wikimedia.org.
 71  1H  IN PTR  vl1003-eth2.lvs1005.wikimedia.org.
 72  1H  IN PTR  vl1003-eth2.lvs1006.wikimedia.org.
-73  5M  IN PTR  meitnerium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-74  5M  IN PTR  fermium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-75  1H  IN PTR  lists.wikimedia.org. ; Service IP for lists on fermium
+
 76  1H  IN PTR  mx1001.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-77  5M  IN PTR  dubnium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+
 78  1H  IN PTR  vl1003-eth2.lvs1001.wikimedia.org.
 79  1H  IN PTR  seaborgium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 80  1H  IN PTR  aluminium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 81  1H  IN PTR  cobalt.wikimedia.org.
 82  1H  IN PTR  dbmonitor1001.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-84  5M  IN PTR  ununpentium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+
 85  1H  IN PTR  gerrit.wikimedia.org.
 86  5M  IN PTR  install1002.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 91  1H  IN PTR  wiki-mail-eqiad.wikimedia.org.
