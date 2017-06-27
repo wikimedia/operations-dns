@@ -2775,16 +2775,14 @@ $ORIGIN 0.128.{{ zonename }}.
 108 1H  IN PTR      cp4008.ulsfo.wmnet.
 109 1H  IN PTR      cp4009.ulsfo.wmnet.
 110 1H  IN PTR      cp4010.ulsfo.wmnet.
-111 1H  IN PTR      cp4011.ulsfo.wmnet.
-112 1H  IN PTR      cp4012.ulsfo.wmnet.
+
 113 1H  IN PTR      cp4013.ulsfo.wmnet.
 114 1H  IN PTR      cp4014.ulsfo.wmnet.
 115 1H  IN PTR      cp4015.ulsfo.wmnet.
 116 1H  IN PTR      cp4016.ulsfo.wmnet.
 117 1H  IN PTR      cp4017.ulsfo.wmnet.
 118 1H  IN PTR      cp4018.ulsfo.wmnet.
-119 1H  IN PTR      cp4019.ulsfo.wmnet.
-120 1H  IN PTR      cp4020.ulsfo.wmnet.
+
 121 1H  IN PTR      cp4021.ulsfo.wmnet.
 122 1H  IN PTR      cp4022.ulsfo.wmnet.
 123 1H  IN PTR      cp4023.ulsfo.wmnet.
