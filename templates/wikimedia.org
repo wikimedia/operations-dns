@@ -53,7 +53,7 @@ _dmarc.lists    1H  IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-rua@wikimedia.org
 ; SPF txt and rr records
 wikimedia.org.      600 IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
 
-donate          5M  IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ?all"
+donate          5M  IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
 
 ; CAA records
 ; issue digicert.com, issue letsencrypt.org, iodef mailto:dns-admin@wikimedia.org
