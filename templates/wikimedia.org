@@ -539,8 +539,6 @@ svn             600 IN DYNA     geoip!text-addrs
 
 toolsadmin      600 IN DYNA     geoip!misc-addrs
 
-torrus          600 IN DYNA     geoip!misc-addrs
-
 wiki-mail-eqiad 1H  IN A        208.80.154.91
                 1H  IN AAAA     2620:0:861:3:208:80:154:91
 wiki-mail-codfw 1H  IN A        208.80.153.46
