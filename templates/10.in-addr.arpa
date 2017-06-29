@@ -3601,6 +3601,14 @@ $ORIGIN 1.193.{{ zonename }}.
 35  1H IN PTR  wmf6574.mgmt.codfw.wmnet.
 36  1H IN PTR  labtestpuppetmaster2001.mgmt.codfw.wmnet.
 36  1H IN PTR  wmf6572.mgmt.codfw.wmnet.
+37  1H IN PTR  labtestmetal2001.mgmt.codfw.wmnet.
+37  1H IN PTR  wmf6578.mgmt.codfw.wmnet.
+38  1H IN PTR  labtestservices2003.mgmt.codfw.wmnet.
+38  1H IN PTR  wmf6579.mgmt.codfw.wmnet.
+39  1H IN PTR  labtestservices2002.mgmt.codfw.wmnet.
+39  1H IN PTR  wmf6580.mgmt.codfw.wmnet.
+40  1H IN PTR  labtestcontrol2003.mgmt.codfw.wmnet.
+40  1H IN PTR  wmf6581.mgmt.codfw.wmnet.
 
 49  1H IN PTR  labtestweb2001.mgmt.codfw.wmnet.
 49  1H IN PTR  wmf5847.mgmt.codfw.wmnet.
