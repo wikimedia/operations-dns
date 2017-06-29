@@ -72,3 +72,5 @@
 ### v T164610 - semi-permanent to avoid confusion until T164609
 geoip/misc-addrs/ulsfo => DOWN
 ### ^ T164610 - semi-permanent to avoid confusion until T164609
+### v T168462 - switch upgrade
+geoip/generic-map/codfw => DOWN
