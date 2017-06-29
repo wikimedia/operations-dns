@@ -2406,7 +2406,6 @@ eth4-1102.labnet1001    1H  IN A    10.68.16.1
 $ORIGIN frack.eqiad.wmnet.
 americium       1H      IN A    10.64.40.113
 civi1001        1H      IN A    10.64.40.109
-civi1001-fundraising 1H      IN A    10.64.40.112
 bismuth         1H      IN A    10.64.40.69
 frav1001        1H      IN A    10.64.40.71
 frauth1001      1H      IN A    10.64.40.68
@@ -2429,6 +2428,7 @@ samarium        1H      IN A    10.64.40.130
 tellurium       1H      IN A    10.64.40.34
 te              1H      IN CNAME  tellurium
 thulium         1H      IN A    10.64.40.162
+thulium-fundraising 1H      IN A    10.64.40.163
 
 
 ; EQIAD analytics cluster
@@ -3139,13 +3139,13 @@ pay-lvs2002         1H  IN A    10.195.0.21
 frdb2001            1H  IN A    10.195.0.34
 alnilam             1H  IN A    10.195.0.35
 mintaka             1H  IN A    10.195.0.36
-mintaka-fundraising 1H  IN A    10.195.0.37
 alnitak             1H  IN A    10.195.0.38
 rigel               1H  IN A    10.195.0.66
 heka                1H  IN A    10.195.0.74
 bellatrix           1H  IN A    10.195.0.75
 betelgeuse          1H  IN A    10.195.0.76
 saiph               1H  IN A    10.195.0.82
+saiph-fundraising   1H  IN A    10.195.0.83
 frbackup2001        1H  IN A    10.195.0.77
 rkhunter.heka       1H  IN CNAME heka
 
