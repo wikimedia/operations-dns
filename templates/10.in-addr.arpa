@@ -2824,6 +2824,7 @@ $ORIGIN 0.192.{{ zonename }}.
 16  1H IN PTR   db2013.codfw.wmnet.
 17  1H IN PTR   db2014.codfw.wmnet.
 18  1H IN PTR   ores2002.codfw.wmnet.
+19  1H IN PTR   poolcounter2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 25  1H IN PTR   es2001.codfw.wmnet.
 26  1H IN PTR   es2002.codfw.wmnet.
@@ -2962,6 +2963,7 @@ $ORIGIN 16.192.{{ zonename }}.
 18  1H IN PTR   db2030.codfw.wmnet.
 19  1H IN PTR   db2031.codfw.wmnet.
 20  1H IN PTR   db2032.codfw.wmnet.
+21  1H IN PTR   poolcounter2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 25  1H IN PTR   tureis.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 26  1H IN PTR   acrab.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
