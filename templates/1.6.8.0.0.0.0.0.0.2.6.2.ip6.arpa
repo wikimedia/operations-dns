@@ -21,6 +21,7 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 ; (in-subnet) service IPs
 
+9.4.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   actinium.wikimedia.org.
 5.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   netmon1002.wikimedia.org.
 
 7.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   contint1001.wikimedia.org.
