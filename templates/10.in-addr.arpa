@@ -2498,6 +2498,12 @@ $ORIGIN 6.65.{{ zonename }}.
 97      1H IN PTR       wmf4790.mgmt.eqiad.wmnet.
 98      1H IN PTR       db1094.mgmt.eqiad.wmnet.
 98      1H IN PTR       wmf4791.mgmt.eqiad.wmnet.
+99      1H IN PTR       restbase-dev1004.mgmt.eqiad.wmnet.
+99      1H IN PTR       wmf7101.mgmt.eqiad.wmnet.
+100     1H IN PTR       restbase-dev1005.mgmt.eqiad.wmnet.
+100     1H IN PTR       wmf7102.mgmt.eqiad.wmnet.
+101     1H IN PTR       restbase-dev1006.mgmt.eqiad.wmnet.
+101     1H IN PTR       wmf7103.mgmt.eqiad.wmnet.
 
 $ORIGIN 7.65.{{ zonename }}.
 

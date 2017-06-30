@@ -1143,8 +1143,14 @@ restbase-dev1002  1H  IN A    10.65.3.99
 WMF4091     1H  IN A    10.65.3.99
 notebook1001    1H  IN A    10.65.3.100
 kafka1018       1H  IN A    10.65.3.101
-restbase-dev1003  1H  IN A    10.65.3.102
+restbase-dev1003  1H  IN A  10.65.3.102
 WMF4093         1H  IN A    10.65.3.102
+restbase-dev1004 1H   IN A  10.65.6.99
+wmf7101         1H  IN A    10.65.6.99
+restbase-dev1005 1H   IN A  10.65.6.100
+wmf7102         1H  IN A    10.65.6.100
+restbase-dev1006 1H   IN A  10.65.6.101
+wmf7103         1H  IN A    10.65.6.101
 aqs1004         1H  IN A    10.65.4.45
 wmf4773         1H  IN A    10.65.4.45
 aqs1005         1H  IN A    10.65.4.46
