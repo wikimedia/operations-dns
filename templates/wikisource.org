@@ -26,6 +26,12 @@
 ; Google Webmaster Tools verification record for search management
             600 IN TXT  "google-site-verification=5JHI3pfbO766dhRWL8b4E4CcKiUjsTLtz98zIwhEEMU"
 
+; CAA records
+; issue digicert.com, iodef "mailto:dns-admin@wikimedia.org"
+; cf. https://sslmate.com/labs/caa/
+@           600 IN TYPE257 \# 19 0005697373756564696769636572742E636F6D
+@           600 IN TYPE257 \# 37 0005696F6465666D61696C746F3A646E732D61646D696E4077696B696D656469612E6F7267
+
 ; Servers (alphabetic order)
 
 ; Service aliases
