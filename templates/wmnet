@@ -4644,8 +4644,6 @@ oresrdb     5M  IN A        10.64.48.129
 
 $ORIGIN svc.esams.wmnet.
 
-ms-fe       1H  IN A        10.2.3.27
-swift       1H  IN CNAME    ms-fe.svc.esams.wmnet.
 ; Used for consistency with eqiad/codfw
 prometheus  1H  IN CNAME    bast3002.wikimedia.org.
 
