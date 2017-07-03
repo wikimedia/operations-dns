@@ -155,8 +155,11 @@ labcontrol1004      1H  IN A    208.80.154.132
 labservices1001     1H  IN A    208.80.155.117
 labservices1002     1H  IN A    208.80.154.12
 labtestcontrol2001  1H  IN A    208.80.153.47
+labtestcontrol2003  1H  IN A    208.80.153.75
 labtestpuppetmaster2001 1H IN A 208.80.153.108
 labtestservices2001 1H  IN A    208.80.153.48
+labtestservices2002 1H  IN A    208.80.153.76
+labtestservices2003 1H  IN A    208.80.153.109
 labtestweb2001      1H  IN A    208.80.153.14
 labtestweb2001      1H  IN AAAA 2620:0:860:1:208:80:153:14
 lvs1001         1H  IN A    208.80.154.55
