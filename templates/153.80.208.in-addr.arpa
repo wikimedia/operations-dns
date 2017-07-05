@@ -29,6 +29,7 @@
 14  1H  IN PTR  labtestweb2001.wikimedia.org.
 15  1H  IN PTR  contint2001.wikimedia.org.
 16  1H  IN PTR  alcyone.wikimedia.org.
+17  1H  IN PTR  diadem.wikimedia.org.
 
 ; 208.80.153.32/27 (public1-b-codfw)
 33  1H  IN PTR  vrrp-gw-2002.wikimedia.org.
