@@ -2905,7 +2905,7 @@ $ORIGIN 0.192.{{ zonename }}.
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
-121 1H IN PTR   suhail.codfw.wmnet.
+
 122 1H IN PTR   cp2001.codfw.wmnet.
 123 1H IN PTR   cp2002.codfw.wmnet.
 124 1H IN PTR   cp2003.codfw.wmnet.
@@ -3065,7 +3065,7 @@ $ORIGIN 16.192.{{ zonename }}.
 121 1H IN PTR   eventlog2001.codfw.wmnet.
 122 1H IN PTR   rdb2003.codfw.wmnet.
 123 1H IN PTR   rdb2004.codfw.wmnet.
-124 1H IN PTR   subra.codfw.wmnet.
+
 125 1H IN PTR   ganeti2001.codfw.wmnet.
 126 1H IN PTR   ganeti2002.codfw.wmnet.
 127 1H IN PTR   ganeti2003.codfw.wmnet.
