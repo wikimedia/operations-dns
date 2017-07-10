@@ -2948,6 +2948,7 @@ mw2258          1H  IN A    10.192.16.57
 mwlog2001       1H  IN A    10.192.32.131
 naos            1H  IN A    10.192.32.22
 naos            1H  IN AAAA 2620:0:860:103:10:192:32:22
+netmon2001      1H  IN A    10.192.48.91
 nihal           1H  IN A    10.192.16.184 ; VM on the ganeti01.svc.codfw.wmnet cluster
 ores2001        1H  IN A    10.192.0.12
 ores2002        1H  IN A    10.192.0.18
@@ -3668,6 +3669,7 @@ maps-test2001   1H  IN A    10.193.2.3
 maps-test2002   1H  IN A    10.193.2.4
 maps-test2003   1H  IN A    10.193.2.5
 maps-test2004   1H  IN A    10.193.2.6
+netmon2001      1H  IN A    10.193.1.41
 ores2001        1H  IN A    10.193.1.190
 ores2002        1H  IN A    10.193.1.191
 ores2003        1H  IN A    10.193.1.192
@@ -4253,6 +4255,7 @@ wmf6578         1H  IN A    10.193.1.37
 wmf6579         1H  IN A    10.193.1.38
 wmf6580         1H  IN A    10.193.1.39
 wmf6581         1H  IN A    10.193.1.40
+wmf6582         1H  IN A    10.193.1.41
 
 ;
 ; ESAMS
