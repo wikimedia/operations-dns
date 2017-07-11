@@ -13,7 +13,7 @@ plugins => {
             disc-swift-ro       => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-parsoid        => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-restbase       => { map => mock, dcmap => { mock => 192.0.2.1 } }
-            disc-restbase-async => { map => mock, dcmap => { mock => 192.0.2.1 } }            
+            disc-restbase-async => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-search         => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-apertium       => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-citoid         => { map => mock, dcmap => { mock => 192.0.2.1 } }
@@ -26,6 +26,7 @@ plugins => {
             disc-mobileapps     => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-ores           => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-pdfrender      => { map => mock, dcmap => { mock => 192.0.2.1 } }
+            disc-recommendation-api => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-trendingedits  => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-wdqs           => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-zotero         => { map => mock, dcmap => { mock => 192.0.2.1 } }
