@@ -456,7 +456,6 @@ apt             300  IN CNAME   install1002
 
 archiva         1H  IN CNAME    meitnerium
 
-benefactorevents 1H IN CNAME    trilogytools1.azurewebsites.net.
 benefactors     600 IN DYNA     geoip!text-addrs
                 1H  IN MX       10 mx1001
                 1H  IN MX       50 mx2001
