@@ -189,6 +189,7 @@ netmon1001      1H  IN A    208.80.154.159
 netmon1001      1H  IN AAAA 2620:0:861:2:208:80:154:159
 netmon1002      1H  IN A    208.80.154.5
 netmon1002      1H  IN AAAA 2620:0:861:1:208:80:154:5
+netmon2001      1H  IN a    208.80.153.110
 pay-lvs1001     1H  IN A    208.80.155.2
 pay-lvs1002     1H  IN A    208.80.155.3
 pollux          1H  IN A    208.80.153.43 ; VM on the ganeti01.svc.codfw.wmnet cluster

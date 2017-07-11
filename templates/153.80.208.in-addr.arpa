@@ -82,6 +82,7 @@
 107 1H  IN PTR  gerrit-slave.wikimedia.org.
 108 1H  IN PTR  labtestpuppetmaster2001.wikimedia.org.
 109 1H  IN PTR  labtestservices2003.wikimedia.org.
+110 1H  IN PTR  netmon2001.wikimedia.org.
 
 ; 208.80.153.128/27 labtest codfw public IPs (pool used by openstack)
 
