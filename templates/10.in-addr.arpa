@@ -45,6 +45,7 @@ $ORIGIN 1.2.{{ zonename }}.
 34  1H  IN PTR  eventstreams.svc.codfw.wmnet.
 35  1H  IN PTR  pdfrender.svc.codfw.wmnet.
 ; 36 reserved for logstash
+37  1H  IN PTR  recommendation-api.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -81,6 +82,7 @@ $ORIGIN 2.2.{{ zonename }}.
 34  1H  IN PTR  eventstreams.svc.eqiad.wmnet.
 35  1H  IN PTR  pdfrender.svc.eqiad.wmnet.
 36  1H  IN PTR  logstash.svc.eqiad.wmnet.
+37  1H  IN PTR  recommendation-api.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 

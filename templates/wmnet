@@ -4636,6 +4636,7 @@ kibana      1H  IN A        10.2.2.33
 eventstreams 1H  IN A       10.2.2.34
 pdfrender    1H  IN A       10.2.2.35
 logstash     1H  IN A       10.2.2.36
+recommendation-api 1H IN A      10.2.2.37
 
 ganeti01    1H  IN A        10.64.32.173
 labstore    1H  IN A        10.64.37.10
@@ -4693,7 +4694,7 @@ wdqs            1H  IN A        10.2.1.32
 eventstreams    1H  IN A        10.2.1.34
 pdfrender       1H  IN A        10.2.1.35
 ; 36 reserved for logstash
-
+recommendation-api  1H  IN A        10.2.1.37
 ganeti01        1H  IN A        10.192.16.131
 labstore        1H  IN A        10.192.21.7
 oresrdb         5M  IN A        10.192.16.31
