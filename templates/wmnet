@@ -464,6 +464,8 @@ labmon1001      1H  IN A        10.64.37.13
 labnet1001      1H  IN A        10.64.20.13
 labnet1001-ext  1H  IN A        10.64.22.11
 labnet1002      1H  IN A        10.64.20.25
+labnet1003      1H  IN A        10.64.20.35
+labnet1004      1H  IN A        10.64.20.36
 labnodepool1001 1H  IN A        10.64.20.18
 labsdb1001      1H  IN A        10.64.4.11
 labsdb1003      1H  IN A        10.64.37.5
@@ -2192,6 +2194,10 @@ labnet1002  1H  IN A    10.65.3.170
 wmf3642     1H  IN A    10.65.3.170
 labnet1001  1H  IN A    10.65.3.171
 wmf3643     1H  IN A    10.65.3.171
+labnet1003  1H  IN A    10.65.3.180
+wmf7115     1H  IN A    10.65.3.180
+labnet1004  1H  IN A    10.65.3.181
+wmf7116     1H  IN A    10.65.3.181
 rcs1001     1H  IN A    10.65.3.172
 wmf3838     1H  IN A    10.65.3.172
 wmf3837     1H  IN A    10.65.3.173
