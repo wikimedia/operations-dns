@@ -323,6 +323,7 @@ $ORIGIN 0.64.{{ zonename }}.
 86  1H IN PTR   elastic1045.eqiad.wmnet.
 87  1H IN PTR   db1053.eqiad.wmnet.
 88  1H IN PTR   releases1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+89  1H IN PTR   restbase-dev1004.eqiad.wmnet.
 
 91  1H IN PTR   db1079.eqiad.wmnet.
 92  1H IN PTR   db1080.eqiad.wmnet.
@@ -558,6 +559,7 @@ $ORIGIN 16.64.{{ zonename }}.
 93  1H IN PTR   dumpsdata1001.eqiad.wmnet.
 94  1H IN PTR   ores1003.eqiad.wmnet.
 95  1H IN PTR   ores1004.eqiad.wmnet.
+96  1H IN PTR   restbase-dev1005.eqiad.wmnet.
 
 101 1H IN PTR   db1083.eqiad.wmnet.
 102 1H IN PTR   db1084.eqiad.wmnet.
@@ -1013,6 +1015,7 @@ $ORIGIN 48.64.{{ zonename }}.
 2   1H IN PTR   ae4-1020.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae4-1020.cr2-eqiad.wikimedia.org.
 
+10      1H IN PTR       restbase-dev1006.eqiad.wmnet.
 11      1H IN PTR       db1097.eqiad.wmnet.
 12      1H IN PTR       db1102.eqiad.wmnet.
 13      1H IN PTR       db1106.eqiad.wmnet.
