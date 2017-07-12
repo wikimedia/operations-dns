@@ -1145,6 +1145,10 @@ labvirt1017 1H  IN A    10.65.5.68
 wmf7087     1H  IN A    10.65.5.68
 labvirt1018 1H  IN A    10.65.5.69
 wmf7088     1H  IN A    10.65.5.69
+labweb1001  1H  IN A    10.65.4.121
+wmf7096     1H  IN A    10.65.4.121
+labweb1002  1H  IN A    10.65.4.122
+wmf7097     1H  IN A    10.65.4.122
 restbase-dev1001  1H  IN A    10.65.3.94
 WMF4086     1H  IN A    10.65.3.94
 kafka1012       1H  IN A    10.65.3.95

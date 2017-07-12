@@ -2151,6 +2151,10 @@ $ORIGIN 4.65.{{ zonename }}.
 119 1H  IN PTR      labcontrol1003.mgmt.eqiad.wmnet.
 120 1H  IN PTR      wmf7099.mgmt.eqiad.wmnet.
 120 1H  IN PTR      labcontrol1004.mgmt.eqiad.wmnet.
+121 1H  IN PTR      wmf7096.mgmt.eqiad.wmnet.
+121 1H  IN PTR      labweb1001.mgmt.eqiad.wmnet.
+122 1H  IN PTR      wmf7097.mgmt.eqiad.wmnet.
+122 1H  IN PTR      labweb1002.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.{{ zonename }}.
 
