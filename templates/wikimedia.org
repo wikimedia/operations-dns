@@ -154,6 +154,8 @@ labcontrol1001      1H  IN A    208.80.154.92
 labcontrol1002      1H  IN A    208.80.154.95
 labcontrol1003      1H  IN A    208.80.154.23
 labcontrol1004      1H  IN A    208.80.154.132
+labpuppetmaster1001 1H  IN A    208.80.154.158
+labpuppetmaster1002 1H  IN A    208.80.155.120
 labservices1001     1H  IN A    208.80.155.117
 labservices1002     1H  IN A    208.80.154.12
 labtestcontrol2001  1H  IN A    208.80.153.47

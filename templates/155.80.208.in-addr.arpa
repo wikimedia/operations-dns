@@ -63,6 +63,7 @@
 117 1H IN PTR   labservices1001.wikimedia.org.
 118 1H IN PTR   labs-recursor0.wikimedia.org.
 119 1H IN PTR   einsteinium.wikimedia.org.
+120 1H IN PTR   labpuppetmaster1002.wikimedia.org.
 
 ; 208.80.155.128/25 Eqiad Labs virtualization subnet
 ; Delegate 208.80.155.128 - 208.80.155.255 to labs-ns*
