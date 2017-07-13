@@ -223,7 +223,7 @@ $ORIGIN 0.21.{{ zonename }}.
 169 1H  IN PTR  cp3048.mgmt.esams.wmnet.
 170 1H  IN PTR  cp3049.mgmt.esams.wmnet.
 
-210 1H  IN PTR  scs1-esams.mgmt.esams.wmnet.
+210 1H  IN PTR  scs-oe11-esams.mgmt.esams.wmnet.
 
 249 1H  IN PTR  msw-oe12-esams.mgmt.esams.wmnet.
 253 1H  IN PTR  schleifenbauer.mgmt.esams.wmnet.

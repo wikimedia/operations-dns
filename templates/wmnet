@@ -4449,7 +4449,7 @@ lvs3001     1H  IN A        10.21.0.147
 lvs3002     1H  IN A        10.21.0.148
 lvs3003     1H  IN A        10.21.0.149
 lvs3004     1H  IN A        10.21.0.150
-scs1-esams  1H  IN A        10.21.0.210
+scs-oe11-esams  1H  IN A        10.21.0.210
 msw-oe12-esams  1H  IN A        10.21.0.249
 schleifenbauer  1H  IN A        10.21.0.253
 
