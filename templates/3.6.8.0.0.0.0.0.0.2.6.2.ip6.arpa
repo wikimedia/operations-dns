@@ -31,10 +31,6 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1211.wikimedia.org.
 
-1.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4001.ulsfo.wmnet.
-2.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4002.ulsfo.wmnet.
-3.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4003.ulsfo.wmnet.
-4.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4004.ulsfo.wmnet.
 5.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4005.ulsfo.wmnet.
 6.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4006.ulsfo.wmnet.
 7.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4007.ulsfo.wmnet.
