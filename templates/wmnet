@@ -755,10 +755,6 @@ puppetmaster1001 1H IN A        10.64.16.73
 puppetmaster1001 1H IN AAAA     2620:0:861:102:10:64:16:73
 puppetmaster1002 1H IN A        10.64.48.45
 puppetmaster1002 1H IN AAAA     2620:0:861:107:10:64:48:45
-rcs1001         1H  IN A        10.64.32.148
-rcs1001         1H  IN AAAA     2620:0:861:103:10:64:32:148
-rcs1002         1H  IN A        10.64.0.17
-rcs1002         1H  IN AAAA     2620:0:861:101:10:64:0:17
 rdb1001         1H  IN A        10.64.32.76
 rdb1002         1H  IN A        10.64.32.77
 rdb1003         1H  IN A        10.64.0.201
