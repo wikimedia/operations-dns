@@ -741,7 +741,7 @@ $ORIGIN 32.64.{{ zonename }}.
 63      1H IN PTR       mw1193.eqiad.wmnet.
 64      1H IN PTR       mw1194.eqiad.wmnet.
 65      1H IN PTR       mw1195.eqiad.wmnet.
-66      1H IN PTR       mw1196.eqiad.wmnet.
+
 67      1H IN PTR       mw1197.eqiad.wmnet.
 68      1H IN PTR       mw1198.eqiad.wmnet.
 69      1H IN PTR       mw1199.eqiad.wmnet.
