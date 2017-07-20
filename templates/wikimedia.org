@@ -533,7 +533,7 @@ phabricator-new 600 IN DYNA     geoip!misc-addrs
 
 login           600 IN DYNA     geoip!text-addrs
 
-librenms        1H  IN CNAME    netmon1001
+librenms        1H  IN CNAME    netmon1002
 servermon       600 IN DYNA     geoip!misc-addrs
 
 payments        5M  IN A        208.80.155.5   ; eqiad
