@@ -292,12 +292,6 @@ $ORIGIN 2.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-0.cr2-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-1-1-0.cr1-eqord.wikimedia.org.
 
-; cr2-eqiad <--> cr2-knams GRE (2620:0:861:fe03::/64)
-
-$ORIGIN 3.0.e.f.{{ zonename }}.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-5-2-0-1.cr2-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr1-esams.wikimedia.org.
-
 ; cr1-eqiad <--> mr1-eqiad (2620:0:861:fe04::/64)
 
 $ORIGIN 4.0.e.f.{{ zonename }}.

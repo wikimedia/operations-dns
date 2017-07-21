@@ -28,12 +28,7 @@
 13  1H IN PTR   frdev-eqiad.wikimedia.org.
 14  1H IN PTR   fundraising-eqiad.wikimedia.org.
 
-; 208.80.155.32/27 Infrastructure block
-
-; 208.80.155.32/30 cr1-esams <-> cr2-eqiad GRE tunnel
-
-33  1H IN PTR   gr-5-2-0-1.cr2-eqiad.wikimedia.org.
-34  1H IN PTR   gr-0-0-0-1.cr1-esams.wikimedia.org.
+; 208.80.155.32/27 Unused
 
 ;208.80.155.64/28 sandbox1-b-eqiad subnet
 65  1H IN PTR   vrrp-gw-1202.wikimedia.org.
