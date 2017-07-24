@@ -3210,7 +3210,8 @@ scs-c1-codfw    1H  IN A    10.193.0.15
 
 pfw1-codfw      1H  IN A    10.193.0.21
 pfw2-codfw      1H  IN A    10.193.0.22
-
+pfw3a-codfw     1H  IN A    10.193.0.23
+pfw3b-codfw     1H  IN A    10.193.0.24
 ps1-a1-codfw    1H  IN A    10.193.0.25
 ps1-a2-codfw    1H  IN A    10.193.0.26
 ps1-a3-codfw    1H  IN A    10.193.0.27
