@@ -3244,6 +3244,8 @@ ps1-d5-codfw    1H  IN A    10.193.0.53
 ps1-d6-codfw    1H  IN A    10.193.0.54
 ps1-d7-codfw    1H  IN A    10.193.0.55
 ps1-d8-codfw    1H  IN A    10.193.0.56
+fasw-c-codfw    1H  IN A    10.193.0.57
+
 
 ; Servers MGMT - Alphabetical by hostname
 

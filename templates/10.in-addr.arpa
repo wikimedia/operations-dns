@@ -3551,6 +3551,8 @@ $ORIGIN 0.193.{{ zonename }}.
 54  1H IN PTR  ps1-d6-codfw.mgmt.codfw.wmnet.
 55  1H IN PTR  ps1-d7-codfw.mgmt.codfw.wmnet.
 56  1H IN PTR  ps1-d8-codfw.mgmt.codfw.wmnet.
+57  1H IN PTR  fasw-c-codfw.mgmt.codfw.wmnet.
+
 
 $ORIGIN 1.193.{{ zonename }}.
 
