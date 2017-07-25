@@ -95,10 +95,18 @@
 194 1H  IN PTR  pim-rp.wikimedia.org.
 195 1H  IN PTR  pfw-codfw.wikimedia.org.
 196 1H  IN PTR  mr1-codfw.wikimedia.org.
-
+197 1H  IN PTR  pfw3-codfw.wikimedia.org.
 198 1H  IN PTR  cr1-eqdfw.wikimedia.org.
 
 ; neighbor blocks
+
+; 208.80.153.200/31 (cr1-codfw <--> pfw3-codfw)
+200 1H  IN PTR  xe-5-1-1.cr1-codfw.wikimedia.org.
+201 1H  IN PTR  xe-0-0-16.pfw3-codfw.wikimedia.org.
+
+; 208.80.153.202/31 (cr2-codfw <--> pfw3-codfw)
+202 1H  IN PTR  xe-5-1-1.cr2-codfw.wikimedia.org.
+203 1H  IN PTR  xe-7-0-16.pfw3-codfw.wikimedia.org.
 
 ; 208.80.153.204/31 (cr2-codfw <--> cr2-eqiad)
 204 1H  IN PTR  xe-5-0-1.cr2-codfw.wikimedia.org.

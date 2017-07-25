@@ -453,6 +453,8 @@ pfw-codfw       1H  IN A     208.80.153.195
 pfw1-codfw      1H  IN CNAME pfw-codfw
 pfw2-codfw      1H  IN CNAME pfw-codfw
 
+pfw3-codfw       1H  IN A    208.80.153.197
+
 ; Cams
 
 ; Service aliases (alphabetical order)
