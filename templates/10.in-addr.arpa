@@ -4576,7 +4576,7 @@ $ORIGIN 3.193.{{ zonename }}.
 32  1H IN PTR  wmf6576.mgmt.codfw.wmnet.
 33  1H IN PTR  wmf6577.mgmt.codfw.wmnet.
 
-; 10.195.0.0/25 - frack.codfw subnets
+; 10.195.0.0/24 - frack.codfw subnets
 $ORIGIN 0.195.{{ zonename }}.
 
 ; 10.195.0.0/27 - frack-payments-codfw
@@ -4622,6 +4622,13 @@ $ORIGIN 0.195.{{ zonename }}.
 110 1H IN PTR  frdb2001.mgmt.frack.codfw.wmnet.
 111 1H IN PTR  betelgeuse.mgmt.frack.codfw.wmnet.
 112 1H IN PTR  frbackup2001.mgmt.frack.codfw.wmnet.
+
+; 10.195.0.248/29 - reserved for frack infra
+
+; 10.195.0.248/31 (pfw3-eqiad:st0 <--> pfw3-codfw:st0)
+248 1H  IN PTR  st0.pfw3-codfw.frack.codfw.wmnet.
+249 1H  IN PTR  st0.pfw3-codfw.frack.codfw.wmnet.
+
 
 ; codfw labs realm
 
