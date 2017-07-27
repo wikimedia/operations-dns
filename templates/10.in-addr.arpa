@@ -3572,10 +3572,6 @@ $ORIGIN 1.193.{{ zonename }}.
 6   1H IN PTR  lvs2006.mgmt.codfw.wmnet.
 6   1H IN PTR  wmf6137.mgmt.codfw.wmnet.
 7   1H IN PTR  papaul-laptop.mgmt.codfw.wmnet.
-8   1H IN PTR  tmh2001.mgmt.codfw.wmnet.
-8   1H IN PTR  wmf3645.mgmt.codfw.wmnet.
-9   1H IN PTR  tmh2002.mgmt.codfw.wmnet.
-9   1H IN PTR  wmf3646.mgmt.codfw.wmnet.
 10  1H IN PTR  install2001.mgmt.codfw.wmnet.
 10  1H IN PTR  wmf5815.mgmt.codfw.wmnet.
 11  1H IN PTR  bast2001.mgmt.codfw.wmnet.
