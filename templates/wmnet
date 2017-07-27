@@ -2997,6 +2997,8 @@ rdb2003         1H  IN A    10.192.16.122
 rdb2004         1H  IN A    10.192.16.123
 rdb2005         1H  IN A    10.192.32.133
 rdb2006         1H  IN A    10.192.48.44
+releases2001    1H  IN A        10.192.16.174 ; VM on the ganeti01.svc.codfw.wmnet cluster
+releases2001    1H  IN AAAA     2620:0:860:102:10:192:16:174
 restbase-test2001   1H  IN A    10.192.16.149
 restbase-test2001-a 1H  IN A    10.192.16.154 ; cassandra instance
 restbase-test2001-b 1H  IN A    10.192.16.155 ; cassandra instance
