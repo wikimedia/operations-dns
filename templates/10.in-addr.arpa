@@ -1813,10 +1813,12 @@ $ORIGIN 3.65.{{ zonename }}.
 118 1H  IN PTR      tin.mgmt.eqiad.wmnet.
 119 1H  IN PTR      wmf7095.mgmt.eqiad.wmnet.
 119 1H  IN PTR      conf1006.mgmt.eqiad.wmnet.
-
 120 1H  IN PTR      labservices1002.mgmt.eqiad.wmnet.
 120 1H  IN PTR      wmf4075.mgmt.eqiad.wmnet.
-
+121 1H  IN PTR      labstore1006.mgmt.eqiad.wmnet.
+121 1H  IN PTR      wmf7123.mgmt.eqiad.wmnet.
+122 1H  IN PTR      labstore1007.mgmt.eqiad.wmnet.
+122 1H  IN PTR      wmf7124.mgmt.eqiad.wmnet.
 123 1H  IN PTR      wmf4078.mgmt.eqiad.wmnet.
 123 1H  IN PTR      xenon.mgmt.eqiad.wmnet.
 124 1H  IN PTR      wmf4079.mgmt.eqiad.wmnet.

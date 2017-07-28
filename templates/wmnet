@@ -1548,6 +1548,10 @@ labstore1004 1H  IN A    10.65.5.30
 wmf4768     1H  IN A    10.65.5.30
 labstore1005 1H  IN A    10.65.5.31
 wmf4769     1H  IN A    10.65.5.31
+labstore1006 1H IN A    10.65.3.121
+wmf7123      1H IN A    10.65.3.121
+labstore1007 1H IN A    10.65.3.122
+wmf7124      1H IN A    10.65.3.122
 labsdb1004  1H  IN A    10.65.3.108
 labsdb1005  1H  IN A    10.65.3.109
 labsdb1006  1H  IN A    10.65.3.110

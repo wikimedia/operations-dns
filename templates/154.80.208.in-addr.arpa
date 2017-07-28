@@ -19,7 +19,7 @@
 3   1H  IN PTR  ae1-1001.cr2-eqiad.wikimedia.org.
 5   1H  IN PTR  netmon1002.wikimedia.org.
 6   1H  IN PTR  netmon1003.wikimedia.org.
-
+7   1H  IN PTR  labstore1006.wikimedia.org.
 11  1H  IN PTR  dataset1001.wikimedia.org.
 12  1H  IN PTR  labservices1002.wikimedia.org.
 13  1H  IN PTR  dubnium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
