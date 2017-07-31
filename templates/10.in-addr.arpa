@@ -1461,20 +1461,20 @@ $ORIGIN 2.65.{{ zonename }}.
 
 1   1H  IN PTR      wmf3134.mgmt.eqiad.wmnet.
 1   1H  IN PTR      radium.mgmt.eqiad.wmnet.
-2   1H  IN PTR      wmf3133.mgmt.eqiad.wmnet.
+
 3   1H  IN PTR      wmf3132.mgmt.eqiad.wmnet.
 3   1H  IN PTR      dbproxy1002.mgmt.eqiad.wmnet.
 4   1H  IN PTR      wmf3131.mgmt.eqiad.wmnet.
 4   1H  IN PTR      dbproxy1001.mgmt.eqiad.wmnet.
 5   1H  IN PTR      wmf3130.mgmt.eqiad.wmnet.
-6   1H  IN PTR      wmf3129.mgmt.eqiad.wmnet.
-6   1H  IN PTR      protactinium.mgmt.eqiad.wmnet.
+
 7   1H  IN PTR      wmf3128.mgmt.eqiad.wmnet.
 7   1H  IN PTR      uranium.mgmt.eqiad.wmnet.
 8   1H  IN PTR      wmf3127.mgmt.eqiad.wmnet.
+8   1H  IN PTR      cp1008.mgmt.eqiad.wmnet.
 9   1H  IN PTR      wmf3126.mgmt.eqiad.wmnet.
 9   1H  IN PTR      neptunium.mgmt.eqiad.wmnet.
-10  1H  IN PTR      wmf3125.mgmt.eqiad.wmnet.
+
 11  1H  IN PTR      wmf3124.mgmt.eqiad.wmnet.
 11  1H  IN PTR      berkelium.mgmt.eqiad.wmnet.
 12  1H  IN PTR      wmf3123.mgmt.eqiad.wmnet.
@@ -1484,7 +1484,6 @@ $ORIGIN 2.65.{{ zonename }}.
 14  1H  IN PTR      wmf3121.mgmt.eqiad.wmnet.
 14  1H  IN PTR      scandium.mgmt.eqiad.wmnet.
 
-19  1H  IN PTR      wmf3116.mgmt.eqiad.wmnet.
 20  1H  IN PTR      rdb1005.mgmt.eqiad.wmnet.
 20  1H  IN PTR      wmf4718.mgmt.eqiad.wmnet.
 21  1H  IN PTR      californium.mgmt.eqiad.wmnet.

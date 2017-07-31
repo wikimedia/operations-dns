@@ -992,14 +992,11 @@ ps1-d8-eqiad        1H  IN A        10.65.0.63
 
 wmf3134     1H  IN A    10.65.2.1
 radium      1H  IN A    10.65.2.1
-wmf3133     1H  IN A    10.65.2.2
 wmf3132     1H  IN A    10.65.2.3
 dbproxy1002 1H  IN A    10.65.2.3
 wmf3131     1H  IN A    10.65.2.4
 dbproxy1001 1H  IN A    10.65.2.4
 wmf3130     1H  IN A    10.65.2.5
-wmf3129     1H  IN A    10.65.2.6
-protactinium   1H  IN A    10.65.2.6
 wmf3128     1H  IN A    10.65.2.7
 uranium     1H  IN A    10.65.2.7
 wmf3127     1H  IN A    10.65.2.8
@@ -1015,7 +1012,6 @@ wmf3122     1H  IN A    10.65.2.13
 dbproxy1003 1H  IN A    10.65.2.13
 wmf3121     1H  IN A    10.65.2.14
 scandium    1H  IN A    10.65.2.14
-wmf3116     1H  IN A    10.65.2.19
 wmf3114     1H  IN A    10.65.2.21
 californium 1H  IN A    10.65.2.21
 wmf3113     1H  IN A    10.65.2.22
