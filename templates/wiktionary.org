@@ -27,8 +27,9 @@
             600 IN TXT  "google-site-verification=wDfZC58wuashI6IzZt6OI7E61HCDIV2jpNZJY9cHl3g"
 
 ; CAA records
-; issue digicert.com, iodef "mailto:dns-admin@wikimedia.org"
+; issue globalsign.com, issue digicert.com, iodef "mailto:dns-admin@wikimedia.org"
 ; cf. https://sslmate.com/labs/caa/
+@           600 IN TYPE257 \# 21 00056973737565676C6F62616C7369676E2E636F6D
 @           600 IN TYPE257 \# 19 0005697373756564696769636572742E636F6D
 @           600 IN TYPE257 \# 37 0005696F6465666D61696C746F3A646E732D61646D696E4077696B696D656469612E6F7267
 
