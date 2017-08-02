@@ -136,6 +136,12 @@ kafka1020           1H  IN A         10.64.53.12
                     1H  IN AAAA      2620:0:861:108:10:64:53:12
 kafka1022           1H  IN A         10.64.36.122
                     1H  IN AAAA      2620:0:861:106:10:64:36:122
+kafka-jumbo1001     1H  IN A         10.64.0.35
+kafka-jumbo1002     1H  IN A         10.64.0.36
+kafka-jumbo1003     1H  IN A         10.64.16.99
+kafka-jumbo1004     1H  IN A         10.64.32.16
+kafka-jumbo1005     1H  IN A         10.64.48.117
+kafka-jumbo1006     1H  IN A         10.64.48.118
 notebook1001        1H  IN A         10.64.36.117
 notebook1002        1H  IN A         10.64.5.14
                     1H  IN AAAA      2620:0:861:104:10:64:5:14
@@ -1151,6 +1157,12 @@ restbase-dev1002  1H  IN A    10.65.3.99
 WMF4091     1H  IN A    10.65.3.99
 notebook1001    1H  IN A    10.65.3.100
 kafka1018       1H  IN A    10.65.3.101
+kafka-jumbo1001 1H  IN A    10.65.1.72
+kafka-jumbo1002 1H  IN A    10.65.1.73
+kafka-jumbo1003 1H  IN A    10.65.1.74
+kafka-jumbo1004 1H  IN A    10.65.1.75
+kafka-jumbo1005 1H  IN A    10.65.1.76
+kafka-jumbo1006 1H  IN A    10.65.1.77
 restbase-dev1003  1H  IN A  10.65.3.102
 WMF4093         1H  IN A    10.65.3.102
 restbase-dev1004 1H   IN A  10.65.6.99
