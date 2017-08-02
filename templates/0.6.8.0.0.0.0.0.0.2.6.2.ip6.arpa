@@ -22,6 +22,7 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2001.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-2001.cr2-codfw.wikimedia.org.
 
+4.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestweb2001.wikimedia.org.
 6.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   alcyone.wikimedia.org.
 5.0.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   bast2001.wikimedia.org.
 2.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   acamar.wikimedia.org.
@@ -34,7 +35,6 @@ $ORIGIN 2.0.0.0.{{ zonename }}.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2002.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2002.cr2-codfw.wikimedia.org.
-4.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestweb2001.wikimedia.org.
 2.4.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   achernar.wikimedia.org.
 5.4.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   mx2001.wikimedia.org.
 4.4.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   kraz.wikimedia.org.
