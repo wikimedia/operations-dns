@@ -251,7 +251,7 @@ $ORIGIN 0.64.{{ zonename }}.
 14  1H IN PTR   wdqs1003.eqiad.wmnet.
 15  1H IN PTR   db1011.eqiad.wmnet.
 16  1H IN PTR   scb1001.eqiad.wmnet.
-
+17  1H IN PTR   wdqs1004.eqiad.wmnet.
 18  1H IN PTR   conf1001.eqiad.wmnet.
 19  1H IN PTR   db1015.eqiad.wmnet.
 20  1H IN PTR   db1016.eqiad.wmnet.
@@ -460,6 +460,7 @@ $ORIGIN 5.64.{{ zonename }}.
 21  1H IN PTR   analytics1058.eqiad.wmnet.
 22  1H IN PTR   analytics1059.eqiad.wmnet.
 23  1H IN PTR   analytics1060.eqiad.wmnet.
+24  1H IN PTR   druid1004.eqiad.wmnet.
 
 101 1H IN PTR   druid1001.eqiad.wmnet.
 102 1H IN PTR   stat1002.eqiad.wmnet.
@@ -1054,7 +1055,7 @@ $ORIGIN 48.64.{{ zonename }}.
 43      1H IN PTR       ocg1003.eqiad.wmnet.
 44      1H IN PTR       elastic1020.eqiad.wmnet.
 45      1H IN PTR       puppetmaster1002.eqiad.wmnet.
-
+46      1H IN PTR       wdqs1005.eqiad.wmnet.
 47      1H IN PTR       elastic1023.eqiad.wmnet.
 48      1H IN PTR       elastic1024.eqiad.wmnet.
 49      1H IN PTR       elastic1025.eqiad.wmnet.
@@ -1212,6 +1213,7 @@ $ORIGIN 53.64.{{ zonename }}.
 29      1H IN PTR       analytics1069.eqiad.wmnet.
 30      1H IN PTR       stat1005.eqiad.wmnet.
 31      1H IN PTR       stat1006.eqiad.wmnet.
+32      1H IN PTR       druid1006.eqiad.wmnet.
 
 103     1H  IN PTR      druid1003.eqiad.wmnet.
 
@@ -2620,7 +2622,16 @@ $ORIGIN 7.65.{{ zonename }}.
 78      1H      IN PTR     wmf4749.mgmt.eqiad.wmnet.
 79      1H      IN PTR     wmf4750.mgmt.eqiad.wmnet.
 80      1H      IN PTR     wmf4751.mgmt.eqiad.wmnet.
-
+81      1H      IN PTR     wdqs1004.mgmt.eqiad.wmnet.
+81      1H      IN PTR     wmf7117.mgmt.eqiad.wmnet.
+82      1H      IN PTR     wdqs1005.mgmt.eqiad.wmnet.
+82      1H      IN PTR     wmf7118.mgmt.eqiad.wmnet.
+83      1H      IN PTR     druid1004.mgmt.eqiad.wmnet.
+83      1H      IN PTR     wmf7119.mgmt.eqiad.wmnet.
+84      1H      IN PTR     druid1005.mgmt.eqiad.wmnet.
+84      1H      IN PTR     wmf7120.mgmt.eqiad.wmnet.
+85      1H      IN PTR     labmon1002.mgmt.eqiad.wmnet.
+85      1H      IN PTR     wmf7126.mgmt.eqiad.wmnet.
 
 $ORIGIN 8.65.{{ zonename }}.
 

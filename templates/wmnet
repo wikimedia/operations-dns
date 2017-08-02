@@ -374,6 +374,8 @@ d-i-test        1H  IN A        10.64.32.201
 druid1001       1H  IN A        10.64.5.101
 druid1002       1H  IN A        10.64.36.102
 druid1003       1H  IN A        10.64.53.103
+druid1004       1H  IN A        10.64.5.24
+druid1005       1H  IN A        10.64.53.32
 dumpsdata1001   1H  IN A        10.64.16.93
 dumpsdata1002   1H  IN A        10.64.48.145
 elastic1017     1H  IN A        10.64.48.39
@@ -881,6 +883,8 @@ labvirt1018     1H  IN A        10.64.20.34
 wdqs1001        1H  IN A        10.64.48.112
 wdqs1002        1H  IN A        10.64.32.183
 wdqs1003        1H  IN A        10.64.0.14
+wdqs1004        1H  IN A        10.64.0.17
+wdqs1005        1H  IN A        10.64.48.46
 wtp1001         1H  IN A        10.64.32.78
 wtp1002         1H  IN A        10.64.32.73
 wtp1003         1H  IN A        10.64.32.74
@@ -1440,6 +1444,10 @@ druid1002       1H      IN A    10.65.4.49
 wmf4771         1H      IN A    10.65.4.49
 druid1003       1H      IN A    10.65.4.50
 wmf4772         1H      IN A    10.65.4.50
+druid1004       1H      IN A    10.65.7.83
+wmf7119         1H      IN A    10.65.7.83
+druid1005       1H      IN A    10.65.7.84
+wmf7120         1H      IN A    10.65.7.84
 wmf4752         1H      IN A    10.65.7.1
 wmf4753         1H      IN A    10.65.7.2
 wmf4754         1H    IN A    10.65.7.3
@@ -1974,6 +1982,10 @@ wmf3544     1H  IN A    10.65.7.27
 wdqs1002    1H  IN A    10.65.7.27
 wmf7002     1H  IN A    10.65.7.28
 wdqs1003    1H  IN A    10.65.7.28
+wmf7117     1H  IN A    10.65.7.81
+wdqs1004    1H  IN A    10.65.7.81
+wmf7118     1H  IN A    10.65.7.82
+wdqs1005    1H  IN A    10.65.7.82
 wmf3151     1H  IN A    10.65.7.100
 snapshot1001    1H  IN A    10.65.3.81
 wmf3466         1H  IN A    10.65.3.81
@@ -2304,6 +2316,8 @@ relforge1001    1H      IN A            10.65.2.110
 wmf4658         1H      IN A            10.65.2.111
 wmf4659         1H      IN A            10.65.2.112
 labmon1001      1H      IN A            10.65.2.112
+wmf7126         1H      IN A            10.65.7.85
+labmon1002      1H      IN A            10.65.7.85
 wmf7000         1H      IN A            10.65.2.139
 prometheus1003  1H      IN A            10.65.2.139
 wmf7001         1H      IN A            10.65.2.140
