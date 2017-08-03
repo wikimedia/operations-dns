@@ -2642,6 +2642,8 @@ $ORIGIN 7.65.{{ zonename }}.
 84      1H      IN PTR     wmf7120.mgmt.eqiad.wmnet.
 85      1H      IN PTR     labmon1002.mgmt.eqiad.wmnet.
 85      1H      IN PTR     wmf7126.mgmt.eqiad.wmnet.
+86      1H      IN PTR     druid1006.mgmt.eqiad.wmnet.
+86      1H      IN PTR     wmf7121.mgmt.eqiad.wmnet.
 
 $ORIGIN 8.65.{{ zonename }}.
 
