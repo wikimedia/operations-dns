@@ -568,7 +568,7 @@ $ORIGIN 16.64.{{ zonename }}.
 97  1H IN PTR   restbase-dev1005-a.eqiad.wmnet. ; cassandra instance
 98  1H IN PTR   restbase-dev1005-b.eqiad.wmnet. ; cassandra instance
 99  1H IN PTR   kafka-jumbo1003.eqiad.wmnet.
-
+100 1H IN PTR   phab1001-vcs.eqiad.wmnet.
 101 1H IN PTR   db1083.eqiad.wmnet.
 102 1H IN PTR   db1084.eqiad.wmnet.
 103 1H IN PTR   db1085.eqiad.wmnet.
@@ -859,7 +859,6 @@ $ORIGIN 32.64.{{ zonename }}.
 183     1H IN PTR       wdqs1002.eqiad.wmnet.
 184     1H IN PTR       es1015.eqiad.wmnet.
 185     1H IN PTR       es1016.eqiad.wmnet.
-186     1H IN PTR       phab1001-vcs.eqiad.wmnet.
 187     1H IN PTR       restbase1008-a.eqiad.wmnet.
 188     1H IN PTR       technetium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 189     1H IN PTR       aqs1005-a.eqiad.wmnet. ; cassandra instance
