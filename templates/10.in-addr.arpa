@@ -2762,10 +2762,6 @@ $ORIGIN 129.128.{{ zonename }}.
 10  1H  IN PTR      bast4001.mgmt.ulsfo.wmnet.
 11  1H  IN PTR      frbackup4001.mgmt.ulsfo.wmnet.
 
-101 1H  IN PTR      cp4001.mgmt.ulsfo.wmnet.
-102 1H  IN PTR      cp4002.mgmt.ulsfo.wmnet.
-103 1H  IN PTR      cp4003.mgmt.ulsfo.wmnet.
-104 1H  IN PTR      cp4004.mgmt.ulsfo.wmnet.
 105 1H  IN PTR      cp4005.mgmt.ulsfo.wmnet.
 106 1H  IN PTR      cp4006.mgmt.ulsfo.wmnet.
 107 1H  IN PTR      cp4007.mgmt.ulsfo.wmnet.
