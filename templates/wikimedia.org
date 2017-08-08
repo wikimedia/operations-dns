@@ -454,10 +454,6 @@ pfw-eqiad       1H  IN A     208.80.154.218
 pfw1-eqiad      1H  IN CNAME pfw-eqiad
 pfw2-eqiad      1H  IN CNAME pfw-eqiad
 
-pfw-codfw       1H  IN A     208.80.153.195
-pfw1-codfw      1H  IN CNAME pfw-codfw
-pfw2-codfw      1H  IN CNAME pfw-codfw
-
 pfw3-codfw       1H  IN A    208.80.153.197
 
 ; Cams

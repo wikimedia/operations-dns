@@ -93,7 +93,6 @@
 192 1H  IN PTR  cr1-codfw.wikimedia.org.
 193 1H  IN PTR  cr2-codfw.wikimedia.org.
 194 1H  IN PTR  pim-rp.wikimedia.org.
-195 1H  IN PTR  pfw-codfw.wikimedia.org.
 196 1H  IN PTR  mr1-codfw.wikimedia.org.
 197 1H  IN PTR  pfw3-codfw.wikimedia.org.
 198 1H  IN PTR  cr1-eqdfw.wikimedia.org.
@@ -127,14 +126,6 @@
 ; 208.80.153.212/31 (cr2-codfw <--> cr1-eqdfw)
 212 1H  IN PTR  xe-5-0-0.cr2-codfw.wikimedia.org.
 213 1H  IN PTR  xe-1-0-0.cr1-eqdfw.wikimedia.org.
-
-; 208.80.153.214/31 (cr1-codfw <--> pfw-codfw)
-214 1H  IN PTR  xe-5-0-3.cr1-codfw.wikimedia.org.
-215 1H  IN PTR  xe-6-0-0.pfw-codfw.wikimedia.org.
-
-; 208.80.153.216/31 (cr2-codfw <--> pfw-codfw)
-216 1H  IN PTR  xe-5-0-3.cr2-codfw.wikimedia.org.
-217 1H  IN PTR  xe-15-0-0.pfw-codfw.wikimedia.org.
 
 ; 208.80.153.218/31 (cr1-codfw <--> cr2-codfw)
 218 1H  IN PTR  ae0.cr1-codfw.wikimedia.org.

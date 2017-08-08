@@ -156,9 +156,7 @@
 220 1H  IN PTR  xe-3-3-2.cr2-eqiad.wikimedia.org.
 221 1H  IN PTR  xe-15-0-0.pfw-eqiad.wikimedia.org.
 
-; 208.80.154.222/31 (pfw-eqiad <--> pfw-codfw)
-222 1H  IN PTR  st0.pfw-eqiad.wikimedia.org.
-223 1H  IN PTR  st0.pfw-codfw.wikimedia.org.
+; 208.80.154.222/31 unused
 
 ; 208.80.154.224/27 (224-255) LVS Service IPs
 
