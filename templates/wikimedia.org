@@ -496,8 +496,6 @@ ldap-corp.codfw 1H  IN CNAME    pollux
 ldap-labs.eqiad 1H  IN CNAME    seaborgium
 ldap-labs.codfw 1H  IN CNAME    serpens
 
-labs-puppetmaster-eqiad    300 IN CNAME  labcontrol1001
-labtest-puppetmaster-codfw 300 IN CNAME  labtestcontrol2001
 labs-puppetmaster          300 IN CNAME  labpuppetmaster1001
 labtest-puppetmaster       300 IN CNAME  labtestpuppetmaster2001
 
