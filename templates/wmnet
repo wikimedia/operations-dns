@@ -890,6 +890,8 @@ labvirt1015     1H  IN A        10.64.20.31
 labvirt1016     1H  IN A        10.64.20.32
 labvirt1017     1H  IN A        10.64.20.33
 labvirt1018     1H  IN A        10.64.20.34
+labvirt1019     1H  IN A        10.64.20.38
+labvirt1020     1H  IN A        10.64.20.39
 wdqs1001        1H  IN A        10.64.48.112
 wdqs1002        1H  IN A        10.64.32.183
 wdqs1003        1H  IN A        10.64.0.14
@@ -1148,6 +1150,10 @@ labvirt1017 1H  IN A    10.65.5.68
 wmf7087     1H  IN A    10.65.5.68
 labvirt1018 1H  IN A    10.65.5.69
 wmf7088     1H  IN A    10.65.5.69
+labvirt1019 1H  IN A    10.65.5.76
+wmf7132     1H  IN A    10.65.5.76
+labvirt1020 1H  IN A    10.65.5.77
+wmf7133     1H  IN A    10.65.5.77
 labweb1001  1H  IN A    10.65.4.121
 wmf7096     1H  IN A    10.65.4.121
 labweb1002  1H  IN A    10.65.4.122
