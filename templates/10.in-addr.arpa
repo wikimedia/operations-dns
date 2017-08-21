@@ -271,7 +271,7 @@ $ORIGIN 0.64.{{ zonename }}.
 34  1H IN PTR   restbase1016-c.eqiad.wmnet.
 35  1H IN PTR   kafka-jumbo1001.eqiad.wmnet.
 36  1H IN PTR   kafka-jumbo1002.eqiad.wmnet.
-
+37  1H IN PTR   logstash1007.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 38  1H IN PTR   ms-fe1005.eqiad.wmnet.
 39  1H IN PTR   ms-fe1006.eqiad.wmnet.
 40  1H IN PTR   neon.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
@@ -324,7 +324,7 @@ $ORIGIN 0.64.{{ zonename }}.
 87  1H IN PTR   db1053.eqiad.wmnet.
 88  1H IN PTR   releases1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 89  1H IN PTR   restbase-dev1004.eqiad.wmnet.
-
+90  1H IN PTR   logstash1008.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 91  1H IN PTR   db1079.eqiad.wmnet.
 92  1H IN PTR   db1080.eqiad.wmnet.
 93  1H IN PTR   db1081.eqiad.wmnet.
@@ -722,7 +722,7 @@ $ORIGIN 32.64.{{ zonename }}.
 24      1H IN PTR       roentgenium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 25      1H IN PTR       db1055.eqiad.wmnet.
 26      1H IN PTR       db1056.eqiad.wmnet.
-
+27      1H IN PTR       logstash1009.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 28      1H IN PTR       sca1003.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 29      1H IN PTR       db1059.eqiad.wmnet.
 30      1H IN PTR       db1060.eqiad.wmnet.

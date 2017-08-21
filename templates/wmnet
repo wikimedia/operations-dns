@@ -878,6 +878,9 @@ logstash1003    1H  IN A        10.64.48.113
 logstash1004    1H  IN A        10.64.0.162
 logstash1005    1H  IN A        10.64.16.185
 logstash1006    1H  IN A        10.64.48.109
+logstash1007    1H  IN A        10.64.0.37
+logstash1008    1H  IN A        10.64.0.90
+logstash1009    1H  IN A        10.64.32.27
 labvirt1009     1H  IN A        10.64.20.15
 labvirt1007     1H  IN A        10.64.20.16
 labvirt1008     1H  IN A        10.64.20.17
