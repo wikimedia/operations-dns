@@ -71,6 +71,27 @@ wikimedia.org.  5M  IN TYPE257 \# 23 0009697373756577696C6464696769636572742E636
 wikimedia.org.  5M  IN TYPE257 \# 25 0009697373756577696C64676C6F62616C7369676E2E636F6D
 wikimedia.org.  5M  IN TYPE257 \# 37 0005696F6465666D61696C746F3A646E732D61646D696E4077696B696D656469612E6F7267
 
+; CAA for policy.wikimedia.org
+; policy is operated by a third party which uses Namecheap/Comodo to issue DV certs on our behalf
+; we're also keeping all the base domain records here, as a Just In Case of any confusion on policy or wildcards/subdomains.
+; data below is:
+; 0 issue "digicert.com"
+; 0 issue "globalsign.com"
+; 0 issue "letsencrypt.org"
+; 0 issue "comodoca.com"
+; 0 issue "namecheap.com"
+; 0 issuewild "digicert.com"
+; 0 issuewild "globalsign.com"
+; 0 iodef "mailto:dns-admin@wikimedia.org"
+policy          5M  IN TYPE257 \# 19 0005697373756564696769636572742E636F6D
+policy          5M  IN TYPE257 \# 21 00056973737565676C6F62616C7369676E2E636F6D
+policy          5M  IN TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
+policy          5M  IN TYPE257 \# 19 00056973737565636F6D6F646F63612E636F6D
+policy          5M  IN TYPE257 \# 20 000569737375656E616D6563686561702E636F6D
+policy          5M  IN TYPE257 \# 23 0009697373756577696C6464696769636572742E636F6D
+policy          5M  IN TYPE257 \# 25 0009697373756577696C64676C6F62616C7369676E2E636F6D
+policy          5M  IN TYPE257 \# 37 0005696F6465666D61696C746F3A646E732D61646D696E4077696B696D656469612E6F7267
+
 dumps           1H  IN CNAME dataset1001
 
 lists           5M  IN A    208.80.154.21
