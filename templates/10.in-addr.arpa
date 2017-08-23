@@ -269,8 +269,7 @@ $ORIGIN 0.64.{{ zonename }}.
 32  1H IN PTR   restbase1016-a.eqiad.wmnet.
 33  1H IN PTR   restbase1016-b.eqiad.wmnet.
 34  1H IN PTR   restbase1016-c.eqiad.wmnet.
-35  1H IN PTR   kafka-jumbo1001.eqiad.wmnet.
-36  1H IN PTR   kafka-jumbo1002.eqiad.wmnet.
+
 37  1H IN PTR   logstash1007.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 38  1H IN PTR   ms-fe1005.eqiad.wmnet.
 39  1H IN PTR   ms-fe1006.eqiad.wmnet.
@@ -464,6 +463,9 @@ $ORIGIN 5.64.{{ zonename }}.
 22  1H IN PTR   analytics1059.eqiad.wmnet.
 23  1H IN PTR   analytics1060.eqiad.wmnet.
 24  1H IN PTR   druid1004.eqiad.wmnet.
+25  1H IN PTR   kafka-jumbo1001.eqiad.wmnet.
+26  1H IN PTR   kafka-jumbo1002.eqiad.wmnet.
+
 
 101 1H IN PTR   druid1001.eqiad.wmnet.
 102 1H IN PTR   stat1002.eqiad.wmnet.
@@ -567,7 +569,7 @@ $ORIGIN 16.64.{{ zonename }}.
 96  1H IN PTR   restbase-dev1005.eqiad.wmnet.
 97  1H IN PTR   restbase-dev1005-a.eqiad.wmnet. ; cassandra instance
 98  1H IN PTR   restbase-dev1005-b.eqiad.wmnet. ; cassandra instance
-99  1H IN PTR   kafka-jumbo1003.eqiad.wmnet.
+
 100 1H IN PTR   phab1001-vcs.eqiad.wmnet.
 101 1H IN PTR   db1083.eqiad.wmnet.
 102 1H IN PTR   db1084.eqiad.wmnet.
@@ -688,14 +690,13 @@ $ORIGIN 21.64.{{ zonename }}.
 1   1H IN PTR   vrrp-gw-1021.eqiad.wmnet.
 2   1H IN PTR   ae2-1021.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae2-1021.cr2-eqiad.wikimedia.org.
-;107    1H IN PTR   analytics1007.eqiad.wmnet.
 
 105 1H IN PTR   analytics1046.eqiad.wmnet.
 106 1H IN PTR   analytics1047.eqiad.wmnet.
 107 1H IN PTR   analytics1048.eqiad.wmnet.
 108 1H IN PTR   analytics1049.eqiad.wmnet.
 109 1H IN PTR   druid1005.eqiad.wmnet.
-
+110 1H IN PTR   kafka-jumbo1003.eqiad.wmnet.
 111 1H IN PTR   analytics1050.eqiad.wmnet.
 112 1H IN PTR   analytics1051.eqiad.wmnet.
 113 1H IN PTR   analytics1061.eqiad.wmnet.
@@ -930,6 +931,7 @@ $ORIGIN 36.64.{{ zonename }}.
 104     1H IN PTR       analytics1064.eqiad.wmnet.
 105     1H IN PTR       analytics1065.eqiad.wmnet.
 106     1H IN PTR       analytics1066.eqiad.wmnet.
+107     1H IN PTR       kafka-jumbo1004.eqiad.wmnet.
 
 114     1H IN PTR       kafka1014.eqiad.wmnet.
 116     1H IN PTR       analytics1003.eqiad.wmnet.
@@ -1131,8 +1133,7 @@ $ORIGIN 48.64.{{ zonename }}.
 114     1H  IN PTR      es1017.eqiad.wmnet.
 115     1H  IN PTR      es1018.eqiad.wmnet.
 116     1H  IN PTR      es1019.eqiad.wmnet.
-117     1H  IN PTR      kafka-jumbo1005.eqiad.wmnet.
-118     1H  IN PTR      kafka-jumbo1006.eqiad.wmnet.
+
 119     1H  IN PTR      aqs1009.eqiad.wmnet.
 120     1H  IN PTR      restbase1009-a.eqiad.wmnet.
 121     1H  IN PTR      auth1001.eqiad.wmnet.
@@ -1221,6 +1222,9 @@ $ORIGIN 53.64.{{ zonename }}.
 30      1H IN PTR       stat1005.eqiad.wmnet.
 31      1H IN PTR       stat1006.eqiad.wmnet.
 32      1H IN PTR       druid1006.eqiad.wmnet.
+33      1H  IN PTR      kafka-jumbo1005.eqiad.wmnet.
+34      1H  IN PTR      kafka-jumbo1006.eqiad.wmnet.
+
 
 103     1H  IN PTR      druid1003.eqiad.wmnet.
 
