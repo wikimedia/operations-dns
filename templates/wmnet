@@ -971,10 +971,12 @@ asw2-a5-eqiad       1H  IN A        10.65.0.20
 scs-c1-eqiad        1H  IN A        10.65.0.22
 asw-c-eqiad         1H  IN A        10.65.0.23
 asw-d-eqiad         1H  IN A        10.65.0.24
-asw2-d-eqiad        1H  IN A        10.65.0.27
-
 pfw1-eqiad          1H  IN A        10.65.0.25
 pfw2-eqiad          1H  IN A        10.65.0.26
+asw2-d-eqiad        1H  IN A        10.65.0.27
+pfw3a-eqiad         1H  IN A        10.65.0.28
+pfw3b-eqiad         1H  IN A        10.65.0.29
+fasw-c-codfw        1H  IN A        10.65.0.30
 
 ps1-a1-eqiad        1H  IN A        10.65.0.32
 ps1-a2-eqiad        1H  IN A        10.65.0.33

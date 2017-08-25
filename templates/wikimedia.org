@@ -483,6 +483,7 @@ vl1020-eth3.lvs1006 1H  IN A    10.64.49.6
 pfw-eqiad       1H  IN A     208.80.154.218
 pfw1-eqiad      1H  IN CNAME pfw-eqiad
 pfw2-eqiad      1H  IN CNAME pfw-eqiad
+pfw3-eqiad      1H  IN A     208.80.154.219
 
 pfw3-codfw       1H  IN A    208.80.153.197
 
