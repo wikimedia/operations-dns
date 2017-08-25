@@ -132,11 +132,11 @@
 199 1H  IN PTR  mr1-eqiad.wikimedia.org.
 
 ; 208.80.154.200/31 (cr1-eqiad <--> pfw3-eqiad)
-200 1H  IN PTR  xe-5-1-1.cr1-eqiad.wikimedia.org.
+200 1H  IN PTR  xe-3-1-7.cr1-eqiad.wikimedia.org.
 201 1H  IN PTR  xe-0-0-16.pfw3-eqiad.wikimedia.org.
 
 ; 208.80.154.202/31 (cr2-eqiad <--> pfw3-eqiad)
-202 1H  IN PTR  xe-5-1-1.cr2-eqiad.wikimedia.org.
+202 1H  IN PTR  xe-3-1-7.cr2-eqiad.wikimedia.org.
 203 1H  IN PTR  xe-7-0-16.pfw3-eqiad.wikimedia.org.
 
 ; 208.80.154.204/31 (cr1-eqiad <--> mr1-eqiad)
