@@ -13,9 +13,7 @@
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
-
-; Public services subnet 91.198.174.0/25 (91.198.174.0 - 91.198.174.127)
-
+; 91.198.174.0/25 public1-esams (91.198.174.0 - 91.198.174.127)
 1   1H IN PTR   vrrp-gw-100.esams.wikimedia.org.
 2   1H IN PTR   ae1-100.cr1-esams.wikimedia.org.
 3   1H IN PTR   ae1-100.cr2-esams.wikimedia.org.
@@ -33,7 +31,15 @@
 121 1H IN PTR   eeden.wikimedia.org.
 122 1H IN PTR   maerlant.wikimedia.org.
 
-; unused 91.198.174.128/26 (91.198.174.128 - 91.198.174.191)
+; 91.198.174.128/28 sandbox1-esams (91.198.174.128 - 91.198.174.143)
+129 1H IN PTR   vrrp-gw-102.esams.wikimedia.org.
+130 1H IN PTR   ae1-102.cr1-esams.wikimedia.org.
+131 1H IN PTR   ae1-102.cr2-esams.wikimedia.org.
+132 1H IN PTR   ripe-atlas-esams.wikimedia.org.
+
+; 91.198.174.144/28 (91.198.174.144 - 91.198.174.159)
+
+; 91.198.174.160/27 (91.198.174.160 - 91.198.174.191)
 
 ; 91.198.174.192/27 (192-223) LVS Service IPs
 
