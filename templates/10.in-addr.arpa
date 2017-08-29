@@ -173,8 +173,8 @@ $ORIGIN 0.21.{{ zonename }}.
 116 1H  IN PTR  cr1-esams.mgmt.esams.wmnet.
 117 1H  IN PTR  re0.cr2-esams.mgmt.esams.wmnet.
 118 1H  IN PTR  re1.cr2-esams.mgmt.esams.wmnet.
-
-; 110-120 reserved for the new servers
+119 1H  IN PTR  re0.cr3-esams.mgmt.esams.wmnet.
+120 1H  IN PTR  re1.cr3-esams.mgmt.esams.wmnet.
 
 125 1H  IN PTR  cp3001.mgmt.esams.wmnet.
 126 1H  IN PTR  cp3002.mgmt.esams.wmnet.
