@@ -713,6 +713,28 @@ mw1303          1H  IN A        10.64.16.68
 mw1304          1H  IN A        10.64.16.69
 mw1305          1H  IN A        10.64.16.105
 mw1306          1H  IN A        10.64.16.106
+mw1307          1H  IN A        10.64.0.169
+mw1308          1H  IN A        10.64.0.170
+mw1309          1H  IN A        10.64.0.171
+mw1310          1H  IN A        10.64.0.172
+mw1311          1H  IN A        10.64.0.173
+mw1312          1H  IN A        10.64.0.174
+mw1313          1H  IN A        10.64.16.194
+mw1314          1H  IN A        10.64.16.195
+mw1315          1H  IN A        10.64.16.196
+mw1316          1H  IN A        10.64.16.197
+mw1317          1H  IN A        10.64.16.198
+mw1318          1H  IN A        10.64.16.199
+mw1319          1H  IN A        10.64.32.40
+mw1320          1H  IN A        10.64.32.41
+mw1321          1H  IN A        10.64.32.42
+mw1322          1H  IN A        10.64.32.43
+mw1323          1H  IN A        10.64.32.44
+mw1324          1H  IN A        10.64.32.45
+mw1325          1H  IN A        10.64.32.46
+mw1326          1H  IN A        10.64.32.47
+mw1327          1H  IN A        10.64.32.48
+mw1328          1H  IN A        10.64.32.49
 mwdebug1001     1H  IN A        10.64.32.123 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 mwdebug1002     1H  IN A        10.64.0.46 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 neodymium       1H  IN A        10.64.32.20
