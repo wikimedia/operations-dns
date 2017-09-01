@@ -35,7 +35,7 @@ $ORIGIN 1.2.{{ zonename }}.
 23  1H  IN PTR  eventbus.svc.codfw.wmnet.
 24  1H  IN PTR  thumbor.svc.codfw.wmnet.
 25  1H  IN PTR  prometheus.svc.codfw.wmnet.
-
+26  1H  IN PTR  jobrunner.svc.codfw.wmnet.
 27  1H  IN PTR  ms-fe.svc.codfw.wmnet.
 28  1H  IN PTR  parsoid.svc.codfw.wmnet.
 30  1H  IN PTR  search.svc.codfw.wmnet.
@@ -71,7 +71,7 @@ $ORIGIN 2.2.{{ zonename }}.
 23  1H  IN PTR  eventbus.svc.eqiad.wmnet.
 24  1H  IN PTR  thumbor.svc.eqiad.wmnet.
 25  1H  IN PTR  prometheus.svc.eqiad.wmnet.
-
+26  1H  IN PTR  jobrunner.svc.eqiad.wmnet.
 27  1H  IN PTR  ms-fe.svc.eqiad.wmnet.
 28  1H  IN PTR  parsoid.svc.eqiad.wmnet.
 
