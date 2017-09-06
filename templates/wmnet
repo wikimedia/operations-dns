@@ -142,7 +142,7 @@ kafka-jumbo1001     1H  IN A         10.64.5.25
 kafka-jumbo1002     1H  IN A         10.64.5.26
 kafka-jumbo1003     1H  IN A         10.64.21.110
 kafka-jumbo1004     1H  IN A         10.64.36.107
-kafka-jumbo1005     1H  IN A         10.64.53.33
+kafka-jumbo1005     1H  IN A         10.64.36.108
 kafka-jumbo1006     1H  IN A         10.64.53.34
 notebook1001        1H  IN A         10.64.36.117
 notebook1002        1H  IN A         10.64.5.14
@@ -1195,11 +1195,17 @@ WMF4091     1H  IN A    10.65.3.99
 notebook1001    1H  IN A    10.65.3.100
 kafka1018       1H  IN A    10.65.3.101
 kafka-jumbo1001 1H  IN A    10.65.1.72
+wmf7127         1H  IN A    10.65.1.72
 kafka-jumbo1002 1H  IN A    10.65.1.73
+wmf7128         1H  IN A    10.65.1.73
 kafka-jumbo1003 1H  IN A    10.65.1.74
+wmf7129         1H  IN A    10.65.1.74
 kafka-jumbo1004 1H  IN A    10.65.1.75
+wmf7134         1H  IN A    10.65.1.75
 kafka-jumbo1005 1H  IN A    10.65.1.76
+wmf7130         1H  IN A    10.65.1.76
 kafka-jumbo1006 1H  IN A    10.65.1.77
+wmf7131         1H  IN A    10.65.1.77
 restbase-dev1003  1H  IN A  10.65.3.102
 WMF4093         1H  IN A    10.65.3.102
 restbase-dev1004 1H   IN A  10.65.6.99
