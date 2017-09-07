@@ -378,6 +378,7 @@ dbproxy1010     1H  IN A        10.64.37.14
 dbproxy1011     1H  IN A        10.64.37.15
 dbstore1001     1H  IN A        10.64.48.17
 dbstore1002     1H  IN A        10.64.48.18
+deploy1001      1H  IN A        10.64.32.16
 d-i-test        1H  IN A        10.64.32.201
 druid1001       1H  IN A        10.64.5.101
 druid1002       1H  IN A        10.64.36.102
@@ -2468,6 +2469,7 @@ contint1001     1H      IN A            10.65.7.75
 wmf4747         1H      IN A            10.65.7.76
 phab1001        1H      IN A            10.65.7.76
 wmf4748         1H      IN A            10.65.7.77
+deploy1001      1H      IN A            10.65.7.77
 wmf4749         1H      IN A            10.65.7.78
 wmf4750         1H      IN A            10.65.7.79
 wmf4751         1H      IN A            10.65.7.80

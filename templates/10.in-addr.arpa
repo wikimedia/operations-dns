@@ -724,6 +724,7 @@ $ORIGIN 32.64.{{ zonename }}.
 13      1H IN PTR       terbium.eqiad.wmnet.
 14      1H IN PTR       ores1005.eqiad.wmnet.
 15      1H IN PTR       ores1006.eqiad.wmnet.
+16      1H IN PTR       deploy1001.eqiad.wmnet.
 
 18      1H IN PTR       rdb1007.eqiad.wmnet.
 19      1H IN PTR       rdb1008.eqiad.wmnet.
@@ -2709,6 +2710,7 @@ $ORIGIN 7.65.{{ zonename }}.
 75      1H      IN PTR     wmf4746.mgmt.eqiad.wmnet.
 76      1H      IN PTR     phab1001.mgmt.eqiad.wmnet.
 76      1H      IN PTR     wmf4747.mgmt.eqiad.wmnet.
+77      1H      IN PTR     deploy1001.mgmt.eqiad.wmnet.
 77      1H      IN PTR     wmf4748.mgmt.eqiad.wmnet.
 78      1H      IN PTR     wmf4749.mgmt.eqiad.wmnet.
 79      1H      IN PTR     wmf4750.mgmt.eqiad.wmnet.
