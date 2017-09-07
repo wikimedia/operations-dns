@@ -4809,6 +4809,7 @@ appservers-ro  300/10 IN DYNA geoip!disc-appservers-ro
 appservers-rw  300/10 IN DYNA metafo!disc-appservers-rw
 api-ro         300/10 IN DYNA geoip!disc-api-ro
 api-rw         300/10 IN DYNA metafo!disc-api-rw
+jobrunner      300/10 IN DYNA metafo!disc-jobrunner
 imagescaler-ro 300/10 IN DYNA geoip!disc-imagescaler-ro
 imagescaler-rw 300/10 IN DYNA metafo!disc-imagescaler-rw
 swift-ro       300/10 IN DYNA geoip!disc-swift-ro
