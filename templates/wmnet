@@ -473,6 +473,7 @@ kubernetes1002  1H  IN A        10.64.16.75
 kubernetes1003  1H  IN A        10.64.32.23
 kubernetes1004  1H  IN A        10.64.48.52
 labmon1001      1H  IN A        10.64.37.13
+prometheus-labmon 1H      IN CNAME  labmon1001
 labmon1002      1H  IN A        10.64.4.15
 labnet1001      1H  IN A        10.64.20.13
 labnet1001-ext  1H  IN A        10.64.22.11
