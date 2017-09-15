@@ -66,7 +66,7 @@ s4-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
 s5-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
 s6-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
 s7-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
-x1-analytics-slave  5M  IN CNAME    db1029.eqiad.wmnet.
+x1-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
 analytics-slave     5M  IN CNAME    db1047.eqiad.wmnet.
 analytics-store     5M  IN CNAME    dbstore1002.eqiad.wmnet.
 osmdb               5M  IN CNAME    labsdb1007.eqiad.wmnet.
