@@ -335,6 +335,7 @@ dns-rec-lb.esams    1H  IN A    91.198.174.216
 ; Mobile
 
 advisory.m          600 IN DYNA     geoip!text-addrs
+am.m                600 IN DYNA     geoip!text-addrs
 ar.m                600 IN DYNA     geoip!text-addrs
 bd.m                600 IN DYNA     geoip!text-addrs
 be.m                600 IN DYNA     geoip!text-addrs
@@ -610,6 +611,7 @@ url-downloader        1H  IN CNAME      url-downloader.eqiad
 
 advisory         600 IN DYNA     geoip!text-addrs
 affcom           600 IN DYNA     geoip!text-addrs
+am               600 IN DYNA     geoip!text-addrs
 auditcom         600 IN DYNA     geoip!text-addrs
 ar               600 IN DYNA     geoip!text-addrs
 bd               600 IN DYNA     geoip!text-addrs
