@@ -4742,6 +4742,8 @@ eventstreams 1H  IN A       10.2.2.34
 pdfrender    1H  IN A       10.2.2.35
 logstash     1H  IN A       10.2.2.36
 recommendation-api 1H IN A      10.2.2.37
+druid-analytics    1H  IN A     10.2.2.38
+
 
 ganeti01    1H  IN A        10.64.32.173
 labstore    1H  IN A        10.64.37.10
