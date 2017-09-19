@@ -16,7 +16,8 @@
 ; Mail exchangers
 
             1H  IN MX   10  mx1001
-            1H  IN MX   50  mx2001
+;            Pulling mx2001 out of service for OS upgrade
+;            1H  IN MX   50  mx2001
 
 ; Canonical names
             600 IN DYNA geoip!text-addrs
