@@ -69,6 +69,7 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+geoip/text*/esams => DOWN
 ### v T164610 - semi-permanent to avoid confusion until T164609
 geoip/misc-addrs/ulsfo => DOWN
 ### ^ T164610 - semi-permanent to avoid confusion until T164609
