@@ -1765,8 +1765,6 @@ $ORIGIN 3.65.{{ zonename }}.
 15  1H  IN PTR      wmf3136.mgmt.eqiad.wmnet.
 16  1H  IN PTR      carbon.mgmt.eqiad.wmnet.
 16  1H  IN PTR      wmf3135.mgmt.eqiad.wmnet.
-18  1H  IN PTR      beryllium.mgmt.eqiad.wmnet.
-18  1H  IN PTR      wmf3301.mgmt.eqiad.wmnet.
 19  1H  IN PTR      wmf3300.mgmt.eqiad.wmnet.
 
 21  1H  IN PTR      zinc.mgmt.eqiad.wmnet.
