@@ -3539,6 +3539,7 @@ es2017          1H  IN A    10.193.2.241
 es2018          1H  IN A    10.193.2.242
 es2019          1H  IN A    10.193.2.243
 eventlog2001    1H  IN A    10.193.2.119
+furud           1H  IN A    10.193.1.42
 ganeti2001      1H  IN A    10.193.2.165
 ganeti2002      1H  IN A    10.193.2.166
 ganeti2003      1H  IN A    10.193.2.167
@@ -4385,7 +4386,7 @@ wmf6579         1H  IN A    10.193.1.38
 wmf6580         1H  IN A    10.193.1.39
 wmf6581         1H  IN A    10.193.1.40
 wmf6582         1H  IN A    10.193.1.41
-
+wmf6587         1H  IN A    10.193.1.42
 ;
 ; ESAMS
 ;
