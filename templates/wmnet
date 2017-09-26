@@ -2525,7 +2525,6 @@ eth4-1102.labnet1001    1H  IN A    10.68.16.1
 
 
 ; EQIAD fundraising/payments
-
 $ORIGIN frack.eqiad.wmnet.
 americium       1H      IN A    10.64.40.113
 civi1001        1H      IN A    10.64.40.109
@@ -2550,9 +2549,32 @@ payments1004    1H      IN A    10.64.40.8
 payments1005    1H      IN A    10.64.40.9
 samarium        1H      IN A    10.64.40.130
 tellurium       1H      IN A    10.64.40.34
-te              1H      IN CNAME  tellurium
 thulium         1H      IN A    10.64.40.162
 thulium-fundraising 1H      IN A    10.64.40.163
+
+; EQIAD fundraising/payments management
+$ORIGIN mgmt.frack.eqiad.wmnet.
+pfw3-eqiad      1H  IN A    10.64.40.193
+pay-lvs1001     1H  IN A    10.64.40.194
+pay-lvs1002     1H  IN A    10.64.40.195
+frauth1001      1H  IN A    10.64.40.196
+frdb1001        1H  IN A    10.64.40.197
+frdb1002        1H  IN A    10.64.40.198
+frdb1003        1H  IN A    10.64.40.199
+frdev1001       1H  IN A    10.64.40.200
+civi1001        1H  IN A    10.64.40.201
+frpm1001        1H  IN A    10.64.40.202
+frqueue1001     1H  IN A    10.64.40.203
+frqueue1002     1H  IN A    10.64.40.204
+americium       1H  IN A    10.64.40.205
+bismuth         1H  IN A    10.64.40.206
+tellurium       1H  IN A    10.64.40.207
+payments1001    1H  IN A    10.64.40.208
+payments1002    1H  IN A    10.64.40.209
+payments1003    1H  IN A    10.64.40.210
+payments1004    1H  IN A    10.64.40.211
+samarium        1H  IN A    10.64.40.212
+thulium         1H  IN A    10.64.40.213
 
 
 ; EQIAD analytics cluster
