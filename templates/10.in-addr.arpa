@@ -1042,6 +1042,8 @@ $ORIGIN 40.64.{{ zonename }}.
 162 1H IN PTR   thulium.frack.eqiad.wmnet.
 163 1H IN PTR   thulium-fundraising.frack.eqiad.wmnet.
 
+; 10.64.40.192/26 - frack-management1-c-eqiad
+
 ; 10.64.48.0/22 - private1-d-eqiad
 $ORIGIN 48.64.{{ zonename }}.
 
