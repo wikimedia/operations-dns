@@ -316,6 +316,5 @@ $ORIGIN f.f.f.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-eqiad.wikimedia.org.
 
-;4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   pfw-eqiad.wikimedia.org.
 5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-eqord.wikimedia.org.
 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mr1-eqiad.wikimedia.org.

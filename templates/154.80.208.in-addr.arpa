@@ -151,17 +151,13 @@
 208 1H  IN PTR  xe-4-2-0.cr2-eqiad.wikimedia.org.
 209 1H  IN PTR  xe-1-1-0.cr1-eqord.wikimedia.org.
 
-; 208.80.154.216/31 (cr1-eqiad <--> pfw-eqiad)
-216 1H  IN PTR  xe-3-3-2.cr1-eqiad.wikimedia.org.
-217 1H  IN PTR  xe-6-0-0.pfw-eqiad.wikimedia.org.
+; 208.80.154.216/31 unused
 
 ; 208.80.154.218 - 219 (loopbacks)
-218 1H  IN PTR  pfw-eqiad.wikimedia.org.
+
 219 1H  IN PTR  pfw3-eqiad.wikimedia.org.
 
-; 208.80.154.220/31 (cr2-eqiad <--> pfw-eqiad)
-220 1H  IN PTR  xe-3-3-2.cr2-eqiad.wikimedia.org.
-221 1H  IN PTR  xe-15-0-0.pfw-eqiad.wikimedia.org.
+; 208.80.154.220/31 unused
 
 ; 208.80.154.222/31 unused
 
