@@ -1043,8 +1043,6 @@ $ORIGIN 40.64.{{ zonename }}.
 163 1H IN PTR   thulium-fundraising.frack.eqiad.wmnet.
 
 ; 10.64.40.192/26 - frack-management1-c-eqiad
-194 1H IN PTR    frdb1002.mgmt.frack.eqiad.wmnet.
-195 1H IN PTR    frdb1003.mgmt.frack.eqiad.wment.
 
 ; 10.64.48.0/22 - private1-d-eqiad
 $ORIGIN 48.64.{{ zonename }}.
@@ -1822,7 +1820,8 @@ $ORIGIN 3.65.{{ zonename }}.
 48  1H  IN PTR      wmf3423.mgmt.eqiad.wmnet.
 49  1H  IN PTR      rubidium.mgmt.eqiad.wmnet.
 49  1H  IN PTR      wmf3424.mgmt.eqiad.wmnet.
-
+50  1H  IN PTR      frdb1002.mgmt.eqiad.wmnet.
+50  1H  IN PTR      wmf7029.mgmt.eqiad.wmnet.
 51  1H  IN PTR      mw1259.mgmt.eqiad.wmnet.
 51  1H  IN PTR      wmf3426.mgmt.eqiad.wmnet.
 52  1H  IN PTR      wmf3427.mgmt.eqiad.wmnet.
@@ -2454,7 +2453,8 @@ $ORIGIN 6.65.{{ zonename }}.
 5       1H IN PTR       wmf3086.mgmt.eqiad.wmnet.
 6       1H IN PTR       wmf3085.mgmt.eqiad.wmnet.
 7       1H IN PTR       wmf3084.mgmt.eqiad.wmnet.
-
+8       1H IN PTR       frdb1003.mgmt.eqiad.wmnet.
+8       1H IN PTR       wmf3083.mgmt.eqiad.wmnet.
 9       1H IN PTR       db1009.mgmt.eqiad.wmnet.
 9       1H IN PTR       wmf3082.mgmt.eqiad.wmnet.
 10      1H IN PTR       frlog1001.mgmt.eqiad.wmnet.
