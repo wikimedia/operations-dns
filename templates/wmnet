@@ -3117,8 +3117,11 @@ puppetmaster2001 1H IN AAAA 2620:0:860:101:10:192:0:27
 puppetmaster2002 1H IN A    10.192.48.66
 puppetmaster2002 1H IN AAAA 2620:0:860:104:10:192:48:66
 pybal-test2001  1H  IN A    10.192.16.139 ; VM on the ganeti01.svc.codfw.wmnet cluster
+pybal-test2001  1H  IN AAAA 2620:0:860:102:10:192:16:139
 pybal-test2002  1H  IN A    10.192.16.140 ; VM on the ganeti01.svc.codfw.wmnet cluster
+pybal-test2002  1H  IN AAAA 2620:0:860:102:10:192:16:140
 pybal-test2003  1H  IN A    10.192.16.141 ; VM on the ganeti01.svc.codfw.wmnet cluster
+pybal-test2003  1H  IN AAAA 2620:0:860:102:10:192:16:141
 pybal-testsvc   1H  IN A    10.192.16.142 ; service IP
 rdb2001         1H  IN A    10.192.0.119
 rdb2002         1H  IN A    10.192.0.120
