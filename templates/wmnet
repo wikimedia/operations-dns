@@ -2822,6 +2822,7 @@ es2016          1H  IN A    10.192.48.41
 es2017          1H  IN A    10.192.0.142
 es2018          1H  IN A    10.192.16.172
 es2019          1H  IN A    10.192.48.42
+furud           1H  IN A    10.192.16.65
 kubetcd2001     1H  IN A    10.192.0.94
 kubetcd2002     1H  IN A    10.192.0.95
 kubetcd2003     1H  IN A    10.192.16.30

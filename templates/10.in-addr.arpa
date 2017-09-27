@@ -3144,6 +3144,7 @@ $ORIGIN 16.192.{{ zonename }}.
 62  1H IN PTR   mc2025.codfw.wmnet.
 63  1H IN PTR   ores2003.codfw.wmnet.
 64  1H IN PTR   ores2004.codfw.wmnet.
+65  1H IN PTR   furud.codfw.wmnet.
 
 70  1H IN PTR   mw2097.codfw.wmnet.
 
