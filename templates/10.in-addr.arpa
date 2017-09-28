@@ -1172,7 +1172,7 @@ $ORIGIN 48.64.{{ zonename }}.
 109     1H  IN PTR      logstash1006.eqiad.wmnet.
 110     1H  IN PTR      restbase1009.eqiad.wmnet.
 111     1H  IN PTR      conf1003.eqiad.wmnet.
-
+112     1H  IN PTR      flerovium.eqiad.wmnet.
 113     1H  IN PTR      logstash1003.eqiad.wmnet.
 114     1H  IN PTR      es1017.eqiad.wmnet.
 115     1H  IN PTR      es1018.eqiad.wmnet.
@@ -1884,7 +1884,7 @@ $ORIGIN 3.65.{{ zonename }}.
 95  1H  IN PTR      kafka1012.mgmt.eqiad.wmnet.
 96  1H  IN PTR      kafka1013.mgmt.eqiad.wmnet.
 97  1H  IN PTR      kafka1014.mgmt.eqiad.wmnet.
-
+98  1H  IN PTR      flerovium.mgmt.eqiad.wmnet.
 99  1H  IN PTR      restbase-dev1002.mgmt.eqiad.wmnet.
 99  1H  IN PTR      WMF4091.mgmt.eqiad.wmnet.
 100 1H  IN PTR      notebook1001.mgmt.eqiad.wmnet.
