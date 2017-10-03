@@ -110,7 +110,6 @@
 157 1H  IN PTR  chromium.wikimedia.org.
 158 1H  IN PTR  labpuppetmaster1001.wikimedia.org.
 
-160 1H  IN PTR  labweb1001.wikimedia.org.
 161 1H  IN PTR  vl1002-eth2.lvs1007.eqiad.wmnet.
 162 1H  IN PTR  vl1002-eth2.lvs1008.eqiad.wmnet.
 163 1H  IN PTR  vl1002-eth2.lvs1009.eqiad.wmnet.

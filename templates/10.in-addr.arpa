@@ -642,6 +642,7 @@ $ORIGIN 16.64.{{ zonename }}.
 197 1H IN PTR   mw1316.eqiad.wmnet.
 198 1H IN PTR   mw1317.eqiad.wmnet.
 199 1H IN PTR   mw1318.eqiad.wmnet.
+200 1H IN PTR   labweb1001.eqiad.wmnet.
 
 $ORIGIN 17.64.{{ zonename }}.
 
@@ -1223,7 +1224,7 @@ $ORIGIN 48.64.{{ zonename }}.
 167     1H  IN PTR      conf1006.eqiad.wmnet.
 168     1H IN PTR       restbase-dev1006-a.eqiad.wmnet. ; cassandra instance
 169     1H IN PTR       restbase-dev1006-b.eqiad.wmnet. ; cassandra instance
-
+170     1H IN PTR       labweb1002.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
