@@ -506,6 +506,8 @@ labvirt1003     1H  IN A        10.64.20.21
 labvirt1004     1H  IN A        10.64.20.22
 labvirt1005     1H  IN A        10.64.20.23
 labvirt1006     1H  IN A        10.64.20.24
+labweb1001      1H  IN A        10.64.16.200
+labweb1002      1H  IN A        10.64.48.170
 lawrencium      1H  IN A        10.64.48.94
 lvs1007         1H  IN A        10.64.1.7
 lvs1008         1H  IN A        10.64.1.8
@@ -1182,9 +1184,9 @@ labvirt1019 1H  IN A    10.65.5.76
 wmf7132     1H  IN A    10.65.5.76
 labvirt1020 1H  IN A    10.65.5.77
 wmf7133     1H  IN A    10.65.5.77
-labweb1001  1H  IN A    10.64.16.200
+labweb1001  1H  IN A    10.64.4.121
 wmf7096     1H  IN A    10.65.4.121
-labweb1002  1H  IN A    10.64.48.170
+labweb1002  1H  IN A    10.64.4.122
 wmf7097     1H  IN A    10.65.4.122
 restbase-dev1001  1H  IN A    10.65.3.94
 WMF4086     1H  IN A    10.65.3.94
