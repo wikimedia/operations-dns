@@ -521,7 +521,6 @@ doc             600 IN DYNA     geoip!misc-addrs
 docker-registry 600 IN DYNA     geoip!misc-addrs
 docs            600 IN DYNA     geoip!text-addrs
 
-endowment       600 IN DYNA     geoip!misc-addrs
 ldap-corp.eqiad 1H  IN CNAME    dubnium
 ldap-corp.codfw 1H  IN CNAME    pollux
 ldap-labs.eqiad 1H  IN CNAME    seaborgium
