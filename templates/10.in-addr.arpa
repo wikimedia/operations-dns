@@ -398,12 +398,7 @@ $ORIGIN 0.64.{{ zonename }}.
 211 1H IN PTR   osm-cp1001.eqiad.wmnet.
 212 1H IN PTR   osm-cp1002.eqiad.wmnet.
 213 1H IN PTR   aqs1007-a.eqiad.wmnet. ; cassandra instance
-214 1H IN PTR   wtp1019.eqiad.wmnet.
-215 1H IN PTR   wtp1020.eqiad.wmnet.
-216 1H IN PTR   wtp1021.eqiad.wmnet.
-217 1H IN PTR   wtp1022.eqiad.wmnet.
-218 1H IN PTR   wtp1023.eqiad.wmnet.
-219 1H IN PTR   wtp1024.eqiad.wmnet.
+
 222 1H IN PTR   oxygen.eqiad.wmnet.
 223 1H IN PTR   restbase1007.eqiad.wmnet.
 230 1H IN PTR   restbase1007-a.eqiad.wmnet.
@@ -619,12 +614,7 @@ $ORIGIN 16.64.{{ zonename }}.
 174 1H IN PTR   mw1219.eqiad.wmnet.
 175 1H IN PTR   mw1220.eqiad.wmnet.
 176 1H IN PTR   copper.eqiad.wmnet.
-177 1H IN PTR   wtp1009.eqiad.wmnet.
-178 1H IN PTR   wtp1010.eqiad.wmnet.
-179 1H IN PTR   wtp1011.eqiad.wmnet.
-180 1H IN PTR   wtp1012.eqiad.wmnet.
-181 1H IN PTR   wtp1013.eqiad.wmnet.
-182 1H IN PTR   wtp1014.eqiad.wmnet.
+
 183 1H IN PTR   rdb1004.eqiad.wmnet.
 184 1H IN PTR   rhodium.eqiad.wmnet.
 185 1H IN PTR   logstash1005.eqiad.wmnet.
@@ -781,25 +771,16 @@ $ORIGIN 32.64.{{ zonename }}.
 70      1H IN PTR       mw1200.eqiad.wmnet.
 
 72      1H IN PTR       pc1005.eqiad.wmnet.
-73      1H IN PTR       wtp1002.eqiad.wmnet.
-74      1H IN PTR       wtp1003.eqiad.wmnet.
-75      1H IN PTR       wtp1004.eqiad.wmnet.
+
 76      1H IN PTR       rdb1001.eqiad.wmnet.
 77      1H IN PTR       rdb1002.eqiad.wmnet.
-78      1H IN PTR       wtp1001.eqiad.wmnet.
+
 79      1H IN PTR       restbase1012.eqiad.wmnet.
 80      1H IN PTR       restbase1013.eqiad.wmnet.
 81      1H IN PTR       cp1099.eqiad.wmnet.
 82      1H IN PTR       cam1-c-eqiad.eqiad.wmnet.
 83      1H IN PTR       cam2-c-eqiad.eqiad.wmnet.
-84      1H IN PTR       wtp1005.eqiad.wmnet.
-85      1H IN PTR       wtp1006.eqiad.wmnet.
-86      1H IN PTR       wtp1007.eqiad.wmnet.
-87      1H IN PTR       wtp1008.eqiad.wmnet.
-88      1H IN PTR       wtp1015.eqiad.wmnet.
-89      1H IN PTR       wtp1016.eqiad.wmnet.
-90      1H IN PTR       wtp1017.eqiad.wmnet.
-91      1H IN PTR       wtp1018.eqiad.wmnet.
+
 92      1H IN PTR       ms-fe1004.eqiad.wmnet.
 93      1H IN PTR       osm-web1001.eqiad.wmnet.
 94      1H IN PTR       osm-web1002.eqiad.wmnet.
