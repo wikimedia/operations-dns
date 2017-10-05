@@ -445,6 +445,7 @@ eventlog1001    1H  IN A        10.64.32.167
 eventlog1001    1H  IN AAAA     2620:0:861:103:10:64:32:167
 flerovium       1H  IN A        10.64.48.112
 francium        1H  IN A        10.64.32.168
+ftp-internal    1H  IN A        10.64.32.179
 ganeti1001      1H  IN A        10.64.32.169
 ganeti1002      1H  IN A        10.64.32.170
 ganeti1003      1H  IN A        10.64.32.171
