@@ -347,6 +347,7 @@ commons.m           600 IN DYNA     geoip!text-addrs
 dk.m                600 IN DYNA     geoip!text-addrs
 ec.m                600 IN DYNA     geoip!text-addrs
 ee.m                600 IN DYNA     geoip!text-addrs
+electcom.m          600 IN DYNA     geoip!text-addrs
 et.m                600 IN DYNA     geoip!text-addrs
 incubator.m         600 IN DYNA     geoip!text-addrs
 fdc.m               600 IN DYNA     geoip!text-addrs
