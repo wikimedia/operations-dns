@@ -72,6 +72,3 @@
 ### v T164610 - semi-permanent to avoid confusion until T164609
 geoip/misc-addrs/ulsfo => DOWN
 ### ^ T164610 - semi-permanent to avoid confusion until T164609
-
-# esams AS renumbering - T167840
-geoip/generic-map/esams => DOWN
