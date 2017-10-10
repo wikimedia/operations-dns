@@ -270,7 +270,7 @@ $ORIGIN 0.64.{{ zonename }}.
 32  1H IN PTR   restbase1016-a.eqiad.wmnet.
 33  1H IN PTR   restbase1016-b.eqiad.wmnet.
 34  1H IN PTR   restbase1016-c.eqiad.wmnet.
-
+35  1H IN PTR   druid1004.eqiad.wmnet.
 36  1H IN PTR   boron.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 37  1H IN PTR   logstash1007.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 38  1H IN PTR   ms-fe1005.eqiad.wmnet.
@@ -465,7 +465,6 @@ $ORIGIN 5.64.{{ zonename }}.
 21  1H IN PTR   analytics1058.eqiad.wmnet.
 22  1H IN PTR   analytics1059.eqiad.wmnet.
 23  1H IN PTR   analytics1060.eqiad.wmnet.
-24  1H IN PTR   druid1004.eqiad.wmnet.
 
 101 1H IN PTR   druid1001.eqiad.wmnet.
 102 1H IN PTR   stat1002.eqiad.wmnet.
@@ -610,7 +609,7 @@ $ORIGIN 16.64.{{ zonename }}.
 169 1H IN PTR   mw1214.eqiad.wmnet.
 170 1H IN PTR   mw1215.eqiad.wmnet.
 171 1H IN PTR   mw1216.eqiad.wmnet.
-
+172 1H IN PTR   druid1005.eqiad.wmnet.
 173 1H IN PTR   mw1218.eqiad.wmnet.
 174 1H IN PTR   mw1219.eqiad.wmnet.
 175 1H IN PTR   mw1220.eqiad.wmnet.
@@ -697,7 +696,6 @@ $ORIGIN 21.64.{{ zonename }}.
 106 1H IN PTR   analytics1047.eqiad.wmnet.
 107 1H IN PTR   analytics1048.eqiad.wmnet.
 108 1H IN PTR   analytics1049.eqiad.wmnet.
-109 1H IN PTR   druid1005.eqiad.wmnet.
 
 111 1H IN PTR   analytics1050.eqiad.wmnet.
 112 1H IN PTR   analytics1051.eqiad.wmnet.
@@ -1207,6 +1205,7 @@ $ORIGIN 48.64.{{ zonename }}.
 168     1H IN PTR       restbase-dev1006-a.eqiad.wmnet. ; cassandra instance
 169     1H IN PTR       restbase-dev1006-b.eqiad.wmnet. ; cassandra instance
 170     1H IN PTR       labweb1002.eqiad.wmnet.
+171     1H IN PTR       druid1006.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
@@ -1248,7 +1247,6 @@ $ORIGIN 53.64.{{ zonename }}.
 29      1H IN PTR       analytics1069.eqiad.wmnet.
 30      1H IN PTR       stat1005.eqiad.wmnet.
 31      1H IN PTR       stat1006.eqiad.wmnet.
-32      1H IN PTR       druid1006.eqiad.wmnet.
 
 103     1H  IN PTR      druid1003.eqiad.wmnet.
 
