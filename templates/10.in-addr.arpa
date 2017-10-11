@@ -399,6 +399,7 @@ $ORIGIN 0.64.{{ zonename }}.
 211 1H IN PTR   osm-cp1001.eqiad.wmnet.
 212 1H IN PTR   osm-cp1002.eqiad.wmnet.
 213 1H IN PTR   aqs1007-a.eqiad.wmnet. ; cassandra instance
+214 1H IN PTR   db1107.eqiad.wmnet.
 
 222 1H IN PTR   oxygen.eqiad.wmnet.
 223 1H IN PTR   restbase1007.eqiad.wmnet.
@@ -768,7 +769,7 @@ $ORIGIN 32.64.{{ zonename }}.
 68      1H IN PTR       mw1198.eqiad.wmnet.
 69      1H IN PTR       mw1199.eqiad.wmnet.
 70      1H IN PTR       mw1200.eqiad.wmnet.
-
+71      1H IN PTR       db1108.eqiad.wmnet.
 72      1H IN PTR       pc1005.eqiad.wmnet.
 
 76      1H IN PTR       rdb1001.eqiad.wmnet.
