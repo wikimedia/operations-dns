@@ -2613,11 +2613,6 @@ _etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 kubetcd2003.codfw.wmnet.
 _x-puppet-ca._tcp   5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
 _x-puppet._tcp      5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
 
-; hack to make ocg work when switching over to codfw - these are the eqiad servers
-ocg1001         1H  IN A        10.64.32.151
-ocg1002         1H  IN A        10.64.48.42
-ocg1003         1H  IN A        10.64.48.43
-
 
 ; Servers - listed alphabetically
 
@@ -4741,7 +4736,7 @@ swift       1H  IN CNAME    ms-fe.svc.eqiad.wmnet.
 ms-fe-thumbs 1H IN A        10.2.2.27
 parsoid     1H  IN A        10.2.2.28
 search      1H  IN A        10.2.2.30
-ocg         1H  IN A        10.2.2.31
+
 wdqs        1H  IN A        10.2.2.32
 kibana      1H  IN A        10.2.2.33
 eventstreams 1H  IN A       10.2.2.34
@@ -4801,7 +4796,7 @@ swift           1H  IN CNAME    ms-fe.svc.codfw.wmnet.
 ms-fe-thumbs    1H  IN A        10.2.1.27
 parsoid         1H  IN A        10.2.1.28
 search          1H  IN A        10.2.1.30
-; 31 reserved for ocg
+
 wdqs            1H  IN A        10.2.1.32
 ; 33 reserved for kibana
 eventstreams    1H  IN A        10.2.1.34
