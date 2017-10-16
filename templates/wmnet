@@ -285,7 +285,6 @@ db1016          1H  IN A        10.64.0.20
 graphite1001    1H  IN A        10.64.32.155
 graphite1002    1H  IN A        10.64.16.6
 graphite1003    1H  IN A        10.64.0.106
-db1018          1H  IN A        10.64.16.7
 db1020          1H  IN A        10.64.16.9
 db1021          1H  IN A        10.64.16.10
 db1026          1H  IN A        10.64.16.15
@@ -1346,8 +1345,6 @@ graphite1001   1H  IN A    10.65.6.76
 wmf4654        1H  IN A    10.65.6.76
 graphite1002   1H  IN A    10.65.6.17
 wmf3269     1H  IN A    10.65.6.17
-db1018      1H  IN A    10.65.6.18
-wmf3268     1H  IN A    10.65.6.18
 db1020      1H  IN A    10.65.6.20
 wmf3266     1H  IN A    10.65.6.20
 db1021      1H  IN A    10.65.6.21
