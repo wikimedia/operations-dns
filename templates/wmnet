@@ -1164,13 +1164,9 @@ labweb1001  1H  IN A    10.65.4.121
 wmf7096     1H  IN A    10.65.4.121
 labweb1002  1H  IN A    10.65.4.122
 wmf7097     1H  IN A    10.65.4.122
-restbase-dev1001  1H  IN A    10.65.3.94
-WMF4086     1H  IN A    10.65.3.94
 kafka1012       1H  IN A    10.65.3.95
 kafka1013       1H  IN A    10.65.3.96
 kafka1014       1H  IN A    10.65.3.97
-restbase-dev1002  1H  IN A    10.65.3.99
-WMF4091     1H  IN A    10.65.3.99
 notebook1001    1H  IN A    10.65.3.100
 kafka1018       1H  IN A    10.65.3.101
 kafka-jumbo1001 1H  IN A    10.65.1.72
@@ -1185,8 +1181,6 @@ kafka-jumbo1005 1H  IN A    10.65.1.76
 wmf7130         1H  IN A    10.65.1.76
 kafka-jumbo1006 1H  IN A    10.65.1.77
 wmf7131         1H  IN A    10.65.1.77
-restbase-dev1003  1H  IN A  10.65.3.102
-WMF4093         1H  IN A    10.65.3.102
 restbase-dev1004 1H   IN A  10.65.6.99
 wmf7101         1H  IN A    10.65.6.99
 restbase-dev1005 1H   IN A  10.65.6.100
