@@ -2868,6 +2868,9 @@ $ORIGIN 0.128.{{ zonename }}.
 12  1H  IN PTR      lvs4002.ulsfo.wmnet.
 13  1H  IN PTR      lvs4003.ulsfo.wmnet.
 14  1H  IN PTR      lvs4004.ulsfo.wmnet.
+15  1H  IN PTR      lvs4005.ulsfo.wmnet.
+16  1H  IN PTR      lvs4006.ulsfo.wmnet.
+17  1H  IN PTR      lvs4007.ulsfo.wmnet.
 
 20  1H  IN PTR      frbackup4001.ulsfo.wmnet.
 
