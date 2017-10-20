@@ -2540,7 +2540,8 @@ $ORIGIN codfw.wmnet.
 
 ; Service aliases
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          1H  IN CNAME    puppetmaster2001.codfw.wmnet.
+; Temoporarily depool codfw puppet T177254
+puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install2002.wikimedia.org.
 deployment      1H  IN CNAME    tin.eqiad.wmnet.
 m2-master       5M  IN CNAME    db2011.codfw.wmnet.
@@ -4652,7 +4653,8 @@ cp4032          1H      IN A    10.128.0.132
 ; SERVICES
 ;
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
+; Temporarily depool codfw puppet T177254
+puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install2002.wikimedia.org.
 
 ; etcd client discovery (RO)
