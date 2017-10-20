@@ -4807,3 +4807,6 @@ recommendation-api 300/10 IN DYNA geoip!disc-recommendation-api
 trendingedits  300/10 IN DYNA geoip!disc-trendingedits
 wdqs           300/10 IN DYNA geoip!disc-wdqs
 zotero         300/10 IN DYNA geoip!disc-zotero
+; Will become a proper discovery endpoint once we add more registries
+docker-registry 300 IN CNAME darmstadtium.eqiad.wmnet.
+
