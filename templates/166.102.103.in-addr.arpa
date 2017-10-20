@@ -13,4 +13,16 @@
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
+; 103.102.166.0/24 (103.102.166.0 - 103.102.166.255)
 ; APNIC space, reserved for eqsin
+
+; 103.102.166.0/28 (0-15) - public1-eqsin
+; 103.102.166.16/28 (16-31) - sandbox1-eqsin
+; 103.102.166.32/27 (32-63) - unused
+; 103.102.166.64/26 (64-127) - unused
+; 103.102.166.128/27 (128-159) - Infrastructure Space
+; 103.102.166.160/27 (160-191) - unused
+; 103.102.166.192/27 (192-223) - unused
+; 103.102.166.224/27 (224-255) - LVS Service IPs
+; - 103.102.166.224/28 (224-239) -- LVS high-traffic1 (Text)
+; - 103.102.166.240/28 (240-255) -- high-traffic2 (Multimedia & Misc)

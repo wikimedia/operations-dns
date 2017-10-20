@@ -2895,6 +2895,15 @@ $ORIGIN 0.128.{{ zonename }}.
 131 1H  IN PTR      cp4031.ulsfo.wmnet.
 132 1H  IN PTR      cp4032.ulsfo.wmnet.
 
+; EQSIN (10.132.0.0/16)
+; 10.132.0.0/16 - eqsin
+; 10.132.0.0/17 - eqsin private
+; 10.132.0.0/24 - private1-eqsin
+$ORIGIN 0.132.{{ zonename }}.
+; 10.132.128.0/17 - eqsin mgmt
+$ORIGIN 128.132.{{ zonename }}.
+$ORIGIN 129.132.{{ zonename }}.
+
 ;
 ; CODFW (10.192.0.0/12)
 ;

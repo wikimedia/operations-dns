@@ -13,4 +13,32 @@
                         1D      IN NS   ns1.wikimedia.org.
                         1D      IN NS   ns2.wikimedia.org.
 
+; 2001:0df2:e500::/48
 ; APNIC space, reserved for eqsin
+
+; 2001:0df2:e500:0::/56 - eqsin public subnets
+; 2001:0df2:e500:1::/64 - public1-eqsin
+$ORIGIN 1.0.0.0.{{ zonename }}.
+
+; 2001:0df2:e500:100::/56 - eqsin private subnets
+; 2001:0df2:e500:101::/64 - private1-eqsin
+$ORIGIN 1.0.1.0.{{ zonename }}.
+
+; 2001:0df2:e500:200::/56 - eqsin sandbox subnets
+; 2001:0df2:e500:201::/64 - sandbox1-eqsin
+$ORIGIN 1.0.2.0.{{ zonename }}.
+
+; 2001:0df2:e500:ed1a::/64 - LVS Public Service IPs (allocated)
+; - 2001:0df2:e500:ed1a::0:0/110 (::0:0 - ::3:ffff -- LVS Public Service IPs (in use)
+; -- 2001:0df2:e500:ed1a::0:0/111 (::0:0 - ::1:ffff --- LVS high-traffic1 (Text)
+$ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+; -- 2001:0df2:e500:ed1a::2:0/111 (::2:0 - ::3:ffff --- LVS high-traffic2 (Multimedia & Misc)
+$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+
+; 2001:0df2:e500:fe00::/56 - Infrastructure IPs
+$ORIGIN 0.0.e.f.{{ zonename }}.
+
+; 2001:0df2:e500:ffff::/56 - Loopback IPs
+$ORIGIN f.f.f.f.{{ zonename }}.
