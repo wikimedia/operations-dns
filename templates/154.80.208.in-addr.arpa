@@ -156,10 +156,10 @@
 
 219 1H  IN PTR  pfw3-eqiad.wikimedia.org.
 
-; 208.80.154.220/31 (cr2-eqiad:gr-5/2/0.1 <--> cr2-esams:gr-0/0/0.1)
+; 208.80.154.220/31 (cr2-eqiad:gr-4/3/0.1 <--> cr2-esams:gr-0/1/0.1)
 
-220 1H IN PTR   gr-5-2-0-1.cr2-eqiad.wikimedia.org.
-221 1H IN PTR   gr-0-0-0-1.cr2-esams.wikimedia.org.
+220 1H IN PTR   gr-4-3-0-1.cr2-eqiad.wikimedia.org.
+221 1H IN PTR   gr-0-1-0-1.cr2-esams.wikimedia.org.
 
 ; 208.80.154.222/31 unused
 
