@@ -18,6 +18,9 @@
 
 ; 103.102.166.0/28 (0-15) - public1-eqsin
 ; 103.102.166.16/28 (16-31) - sandbox1-eqsin
+
+20 1H IN PTR   ripe-atlas-eqsin.wikimedia.org.
+
 ; 103.102.166.32/27 (32-63) - unused
 ; 103.102.166.64/26 (64-127) - unused
 ; 103.102.166.128/27 (128-159) - Infrastructure Space

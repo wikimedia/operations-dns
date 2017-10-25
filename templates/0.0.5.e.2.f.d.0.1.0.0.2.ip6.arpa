@@ -28,6 +28,8 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 ; 2001:0df2:e500:201::/64 - sandbox1-eqsin
 $ORIGIN 1.0.2.0.{{ zonename }}.
 
+0.2.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   ripe-atlas-eqsin.wikimedia.org.
+
 ; 2001:0df2:e500:ed1a::/64 - LVS Public Service IPs (allocated)
 ; - 2001:0df2:e500:ed1a::0:0/110 (::0:0 - ::3:ffff -- LVS Public Service IPs (in use)
 ; -- 2001:0df2:e500:ed1a::0:0/111 (::0:0 - ::1:ffff --- LVS high-traffic1 (Text)
