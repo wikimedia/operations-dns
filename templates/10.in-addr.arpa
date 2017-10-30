@@ -3007,6 +3007,7 @@ $ORIGIN 0.192.{{ zonename }}.
 93  1H IN PTR   acrux.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 94  1H IN PTR   kubetcd2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
 95  1H IN PTR   kubetcd2002.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
+96  1H IN PTR   webperf2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
