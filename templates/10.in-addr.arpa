@@ -402,7 +402,7 @@ $ORIGIN 0.64.{{ zonename }}.
 212 1H IN PTR   osm-cp1002.eqiad.wmnet.
 213 1H IN PTR   aqs1007-a.eqiad.wmnet. ; cassandra instance
 214 1H IN PTR   db1107.eqiad.wmnet.
-
+215 1H IN PTR   webperf1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 222 1H IN PTR   oxygen.eqiad.wmnet.
 223 1H IN PTR   restbase1007.eqiad.wmnet.
 230 1H IN PTR   restbase1007-a.eqiad.wmnet.

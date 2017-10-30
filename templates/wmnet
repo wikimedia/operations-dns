@@ -922,6 +922,7 @@ labvirt1017     1H  IN A        10.64.20.33
 labvirt1018     1H  IN A        10.64.20.34
 labvirt1019     1H  IN A        10.64.20.38
 labvirt1020     1H  IN A        10.64.20.39
+webperf1001     1H  IN A        10.64.0.215
 wdqs1003        1H  IN A        10.64.0.14
 wdqs1004        1H  IN A        10.64.0.17
 wdqs1005        1H  IN A        10.64.48.46
