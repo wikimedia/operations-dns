@@ -614,7 +614,6 @@ $ORIGIN 16.64.{{ zonename }}.
 173 1H IN PTR   mw1218.eqiad.wmnet.
 174 1H IN PTR   mw1219.eqiad.wmnet.
 175 1H IN PTR   mw1220.eqiad.wmnet.
-176 1H IN PTR   copper.eqiad.wmnet.
 
 183 1H IN PTR   rdb1004.eqiad.wmnet.
 184 1H IN PTR   rhodium.eqiad.wmnet.
