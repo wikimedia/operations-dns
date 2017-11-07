@@ -4677,6 +4677,96 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
 _x-puppet-ca._tcp   5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
 _x-puppet._tcp      5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
 
+;
+; EQSIN MGMT
+;
+
+$ORIGIN mgmt.eqsin.wmnet.
+
+; Servers listed sequentially
+bast5001        1H      IN A    10.132.129.7
+dns5001         1H      IN A    10.132.129.8
+dns5002         1H      IN A    10.132.129.9
+
+lvs5001         1H      IN A    10.132.129.11
+lvs5002         1H      IN A    10.132.129.12
+lvs5003         1H      IN A    10.132.129.13
+
+cp5001          1H      IN A    10.132.129.101
+cp5002          1H      IN A    10.132.129.102
+cp5003          1H      IN A    10.132.129.103
+cp5004          1H      IN A    10.132.129.104
+cp5005          1H      IN A    10.132.129.105
+cp5006          1H      IN A    10.132.129.106
+cp5007          1H      IN A    10.132.129.107
+cp5008          1H      IN A    10.132.129.108
+cp5009          1H      IN A    10.132.129.109
+cp5010          1H      IN A    10.132.129.110
+cp5011          1H      IN A    10.132.129.111
+cp5012          1H      IN A    10.132.129.112
+
+
+; Asset tags listed in order
+
+
+;
+; EQSIN private1
+;
+
+$ORIGIN eqsin.wmnet.
+
+; Servers listed sequentially
+lvs5001         1H      IN A    10.132.0.11
+lvs5002         1H      IN A    10.132.0.12
+lvs5003         1H      IN A    10.132.0.13
+
+cp5001          1H      IN A    10.132.0.101
+                1H      IN AAAA 2001:0df2:e500:101:10:132:0:101
+cp5002          1H      IN A    10.132.0.102
+                1H      IN AAAA 2001:0df2:e500:101:10:132:0:102
+cp5003          1H      IN A    10.132.0.103
+                1H      IN AAAA 2001:0df2:e500:101:10:132:0:103
+cp5004          1H      IN A    10.132.0.104
+                1H      IN AAAA 2001:0df2:e500:101:10:132:0:104
+cp5005          1H      IN A    10.132.0.105
+                1H      IN AAAA 2001:0df2:e500:101:10:132:0:105
+cp5006          1H      IN A    10.132.0.106
+                1H      IN AAAA 2001:0df2:e500:101:10:132:0:106
+cp5007          1H      IN A    10.132.0.107
+                1H      IN AAAA 2001:0df2:e500:101:10:132:0:107
+cp5008          1H      IN A    10.132.0.108
+                1H      IN AAAA 2001:0df2:e500:101:10:132:0:108
+cp5009          1H      IN A    10.132.0.109
+                1H      IN AAAA 2001:0df2:e500:101:10:132:0:109
+cp5010          1H      IN A    10.132.0.110
+                1H      IN AAAA 2001:0df2:e500:101:10:132:0:110
+cp5011          1H      IN A    10.132.0.111
+                1H      IN AAAA 2001:0df2:e500:101:10:132:0:111
+cp5012          1H      IN A    10.132.0.112
+                1H      IN AAAA 2001:0df2:e500:101:10:132:0:112
+
+;
+; SERVICES
+;
+config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
+; Temporarily depool codfw puppet T177254
+puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+webproxy        5M  IN CNAME    install2002.wikimedia.org.
+
+; etcd client discovery (RO)
+_etcd._tcp      5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
+
+; Conftool (RW)
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1001.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1002.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf1003.eqiad.wmnet.
+
+; puppet records
+_x-puppet-ca._tcp   5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
+_x-puppet._tcp      5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
+
 ; EQIAD SERVICES
 
 $ORIGIN svc.eqiad.wmnet.
@@ -4736,6 +4826,12 @@ prometheus  1H  IN CNAME    bast3002.wikimedia.org.
 $ORIGIN svc.ulsfo.wmnet.
 ; Used for consistency with eqiad/codfw
 prometheus  1H  IN CNAME    bast4001.wikimedia.org.
+
+; EQSIN SERVICES
+
+$ORIGIN svc.eqsin.wmnet.
+; Used for consistency with eqiad/codfw
+prometheus  1H  IN CNAME    bast5001.wikimedia.org.
 
 ; CODFW SERVICES
 

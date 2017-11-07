@@ -20,9 +20,26 @@
 ; 2001:0df2:e500:1::/64 - public1-eqsin
 $ORIGIN 1.0.0.0.{{ zonename }}.
 
+7.0.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   bast5001.wikimedia.org.
+8.0.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   dns5001.wikimedia.org.
+9.0.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   dns5002.wikimedia.org.
+
 ; 2001:0df2:e500:100::/56 - eqsin private subnets
 ; 2001:0df2:e500:101::/64 - private1-eqsin
 $ORIGIN 1.0.1.0.{{ zonename }}.
+
+1.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5001.eqsin.wmnet.
+2.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5002.eqsin.wmnet.
+3.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5003.eqsin.wmnet.
+4.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5004.eqsin.wmnet.
+5.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5005.eqsin.wmnet.
+6.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5006.eqsin.wmnet.
+7.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5007.eqsin.wmnet.
+8.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5008.eqsin.wmnet.
+9.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5009.eqsin.wmnet.
+0.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5010.eqsin.wmnet.
+1.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5011.eqsin.wmnet.
+2.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5012.eqsin.wmnet.
 
 ; 2001:0df2:e500:200::/56 - eqsin sandbox subnets
 ; 2001:0df2:e500:201::/64 - sandbox1-eqsin
@@ -34,9 +51,16 @@ $ORIGIN 1.0.2.0.{{ zonename }}.
 ; - 2001:0df2:e500:ed1a::0:0/110 (::0:0 - ::3:ffff -- LVS Public Service IPs (in use)
 ; -- 2001:0df2:e500:ed1a::0:0/111 (::0:0 - ::1:ffff --- LVS high-traffic1 (Text)
 $ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+
+1.0.0.0                         1H IN PTR   text-lb.eqsin.wikimedia.org.
+
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+
 ; -- 2001:0df2:e500:ed1a::2:0/111 (::2:0 - ::3:ffff --- LVS high-traffic2 (Multimedia & Misc)
 $ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+
+b.0.0.0                         1H IN PTR   upload-lb.eqsin.wikimedia.org.
+
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 ; 2001:0df2:e500:fe00::/56 - Infrastructure IPs

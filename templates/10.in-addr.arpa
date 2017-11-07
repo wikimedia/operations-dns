@@ -95,6 +95,10 @@ $ORIGIN 3.2.{{ zonename }}.
 
 $ORIGIN 4.2.{{ zonename }}.
 
+; 10.2.5.0/24 - eqsin LVS low-traffic (internal) services
+
+$ORIGIN 5.2.{{ zonename }}.
+
 ;
 ; ESAMS
 ;
@@ -2904,9 +2908,46 @@ $ORIGIN 0.128.{{ zonename }}.
 ; 10.132.0.0/17 - eqsin private
 ; 10.132.0.0/24 - private1-eqsin
 $ORIGIN 0.132.{{ zonename }}.
+11  1H  IN PTR      lvs5001.eqsin.wmnet.
+12  1H  IN PTR      lvs5002.eqsin.wmnet.
+13  1H  IN PTR      lvs5003.eqsin.wmnet.
+
+101 1H  IN PTR      cp5001.eqsin.wmnet.
+102 1H  IN PTR      cp5002.eqsin.wmnet.
+103 1H  IN PTR      cp5003.eqsin.wmnet.
+104 1H  IN PTR      cp5004.eqsin.wmnet.
+105 1H  IN PTR      cp5005.eqsin.wmnet.
+106 1H  IN PTR      cp5006.eqsin.wmnet.
+107 1H  IN PTR      cp5007.eqsin.wmnet.
+108 1H  IN PTR      cp5008.eqsin.wmnet.
+109 1H  IN PTR      cp5009.eqsin.wmnet.
+110 1H  IN PTR      cp5010.eqsin.wmnet.
+111 1H  IN PTR      cp5011.eqsin.wmnet.
+112 1H  IN PTR      cp5012.eqsin.wmnet.
+
 ; 10.132.128.0/17 - eqsin mgmt
 $ORIGIN 128.132.{{ zonename }}.
 $ORIGIN 129.132.{{ zonename }}.
+7   1H  IN PTR      bast5001.mgmt.eqsin.wmnet.
+8   1H  IN PTR      dns5001.mgmt.eqsin.wmnet.
+9   1H  IN PTR      dns5002.mgmt.eqsin.wmnet.
+
+11  1H  IN PTR      lvs5001.mgmt.eqsin.wmnet.
+12  1H  IN PTR      lvs5002.mgmt.eqsin.wmnet.
+13  1H  IN PTR      lvs5003.mgmt.eqsin.wmnet.
+
+101 1H  IN PTR      cp5001.mgmt.eqsin.wmnet.
+102 1H  IN PTR      cp5002.mgmt.eqsin.wmnet.
+103 1H  IN PTR      cp5003.mgmt.eqsin.wmnet.
+104 1H  IN PTR      cp5004.mgmt.eqsin.wmnet.
+105 1H  IN PTR      cp5005.mgmt.eqsin.wmnet.
+106 1H  IN PTR      cp5006.mgmt.eqsin.wmnet.
+107 1H  IN PTR      cp5007.mgmt.eqsin.wmnet.
+108 1H  IN PTR      cp5008.mgmt.eqsin.wmnet.
+109 1H  IN PTR      cp5009.mgmt.eqsin.wmnet.
+110 1H  IN PTR      cp5010.mgmt.eqsin.wmnet.
+111 1H  IN PTR      cp5011.mgmt.eqsin.wmnet.
+112 1H  IN PTR      cp5012.mgmt.eqsin.wmnet.
 
 ;
 ; CODFW (10.192.0.0/12)
