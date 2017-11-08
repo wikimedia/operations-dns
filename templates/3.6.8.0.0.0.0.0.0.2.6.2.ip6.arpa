@@ -23,6 +23,9 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 6.0.0.0.6.2.0.0.5.3.0.0.8.9.1.0 1H IN PTR   bast4002.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1201.cr1-ulsfo.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1201.cr2-ulsfo.wikimedia.org.
+7.0.0.0.6.2.0.0.5.3.0.0.8.9.1.0 1H IN PTR   dns4001.wikimedia.org.
+8.0.0.0.6.2.0.0.5.3.0.0.8.9.1.0 1H IN PTR   dns4002.wikimedia.org.
+
 
 
 ; ulsfo private subnets (2620:0:863:100::/56)

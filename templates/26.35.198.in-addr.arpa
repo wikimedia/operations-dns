@@ -23,6 +23,8 @@
 3   1H IN PTR   ae1-1201.cr2-ulsfo.wikimedia.org.
 5   1H IN PTR   bast4001.wikimedia.org.
 6   1H IN PTR   bast4002.wikimedia.org.
+7   1H IN PTR   dns4001.wikimedia.org.
+8   1H IN PTR   dns4002.wikimedia.org.
 
 ; 198.35.26.16/28 (16-31) - unused
 ; 198.35.26.32/27 (32-63) - unused
