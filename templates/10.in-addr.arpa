@@ -828,7 +828,7 @@ $ORIGIN 32.64.{{ zonename }}.
 136     1H IN PTR       db1078.eqiad.wmnet.
 137     1H IN PTR       logstash1002.eqiad.wmnet.
 138     1H IN PTR       aqs1005.eqiad.wmnet.
-146     1H IN PTR       osmium.eqiad.wmnet.
+
 147     1H IN PTR       hp1001.eqiad.wmnet.
 
 149     1H IN PTR       snapshot1006.eqiad.wmnet.
