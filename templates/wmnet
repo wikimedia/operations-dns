@@ -4544,6 +4544,8 @@ cp4029          1H      IN A    10.128.129.129
 cp4030          1H      IN A    10.128.129.130
 cp4031          1H      IN A    10.128.129.131
 cp4032          1H      IN A    10.128.129.132
+dns4001         1H      IN A    10.128.129.15
+dns4002         1H      IN A    10.128.129.16
 
 
 ; Asset tags listed in order
