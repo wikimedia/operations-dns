@@ -147,7 +147,7 @@ bast4001        1H  IN AAAA 2620:0:863:1:198:35:26:5
 bast4002        1H  IN A    198.35.26.6
 bast4002        1H  IN AAAA 2620:0:863:1:198:35:26:6
 bast5001        1H  IN A    103.102.166.7
-bast5001        1H  IN AAAA 2001:0df2:e500:1:103:102:166:7
+bast5001        1H  IN AAAA 2001:df2:e500:1:103:102:166:7
 californium     1H  IN A    208.80.154.147
 californium     1H  IN AAAA 2620:0:861:2:208:80:154:147
 chromium        1H  IN A    208.80.154.157
@@ -160,9 +160,9 @@ contint2001     1H  IN A    208.80.153.15
 contint2001     1H  IN AAAA 2620:0:860:1:208:80:153:15
 diadem          1H  IN A    208.80.153.17
 dns5001         1H  IN A    103.102.166.8
-dns5001         1H  IN AAAA 2001:0df2:e500:1:103:102:166:8
+dns5001         1H  IN AAAA 2001:df2:e500:1:103:102:166:8
 dns5002         1H  IN A    103.102.166.9
-dns5002         1H  IN AAAA 2001:0df2:e500:1:103:102:166:9
+dns5002         1H  IN AAAA 2001:df2:e500:1:103:102:166:9
 dubnium         1H  IN A    208.80.154.13
 dysprosium      1H  IN A    208.80.154.24
 cp1008          1H  IN A    208.80.154.42
@@ -256,7 +256,7 @@ ripe-atlas-esams 1H IN AAAA 2620:0:862:201:91:198:174:132
 ripe-atlas-ulsfo 1H IN A    198.35.26.244
 ripe-atlas-ulsfo 1H IN AAAA 2620:0:863:201:198:35:26:244
 ripe-atlas-eqsin 1H IN A    103.102.166.20
-ripe-atlas-eqsin 1H IN AAAA 2001:0df2:e500:201:103:102:166:20
+ripe-atlas-eqsin 1H IN AAAA 2001:df2:e500:201:103:102:166:20
 seaborgium      1H  IN A    208.80.154.79 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 serpens         1H  IN A    208.80.153.49 ; VM on the ganeti01.svc.codfw.wmnet cluster
 silver          1H  IN A    208.80.154.136

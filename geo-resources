@@ -8,7 +8,7 @@ text-addrs => {
         ulsfo => { addrs_v4 => 198.35.26.96,   addrs_v6 => 2620:0:863:ed1a::1 }
         # eqsin using ulsfo IPs temporarily for testing/validation, site not ready yet
         # real addresses for future use:
-        # eqsin => { addrs_v4 => 103.102.166.224, addrs_v6 => 2001:0df2:e500:ed1a::1 }
+        # eqsin => { addrs_v4 => 103.102.166.224, addrs_v6 => 2001:df2:e500:ed1a::1 }
         eqsin => { addrs_v4 => 198.35.26.96,   addrs_v6 => 2620:0:863:ed1a::1 }
     }
 }
@@ -22,7 +22,7 @@ upload-addrs => {
         ulsfo => { addrs_v4 => 198.35.26.112,  addrs_v6 => 2620:0:863:ed1a::2:b }
         # eqsin using ulsfo IPs temporarily for testing/validation, site not ready yet
         # real addresses for future use:
-        # eqsin => { addrs_v4 => 103.102.166.240, addrs_v6 => 2001:0df2:e500:ed1a::2:b }
+        # eqsin => { addrs_v4 => 103.102.166.240, addrs_v6 => 2001:df2:e500:ed1a::2:b }
         eqsin => { addrs_v4 => 198.35.26.112,  addrs_v6 => 2620:0:863:ed1a::2:b }
     }
 }
