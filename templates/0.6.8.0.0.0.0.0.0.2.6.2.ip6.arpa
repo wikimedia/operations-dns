@@ -86,6 +86,7 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 0.4.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   sarin.codfw.wmnet.
 5.4.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   prometheus2003.codfw.wmnet.
 2.9.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   planet2001.codfw.wmnet.
+1.1.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2001.codfw.wmnet.
 
 
 ; private1-b-codfw (2620:0:860:102::/64)
@@ -102,6 +103,7 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 7.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2011.codfw.wmnet.
 8.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2012.codfw.wmnet.
 
+2.4.0.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2002.codfw.wmnet.
 4.7.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   releases2001.codfw.wmnet.
 9.8.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   prometheus2004.codfw.wmnet.
 
@@ -123,6 +125,7 @@ $ORIGIN 3.0.1.0.{{ zonename }}.
 6.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2017.codfw.wmnet.
 7.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2018.codfw.wmnet.
 
+3.2.0.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2003.codfw.wmnet.
 7.4.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   phab2001.codfw.wmnet.
 9.4.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   phab2001-vcs.codfw.wmnet.
 2.2.0.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   naos.codfw.wmnet.
@@ -144,6 +147,7 @@ $ORIGIN 4.0.1.0.{{ zonename }}.
 9.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2025.codfw.wmnet.
 0.3.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2026.codfw.wmnet.
 
+1.7.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2004.codfw.wmnet.
 5.4.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   wasat.codfw.wmnet.
 6.6.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   puppetmaster2002.codfw.wmnet.
 
