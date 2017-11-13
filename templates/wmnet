@@ -4896,3 +4896,8 @@ zotero         300/10 IN DYNA geoip!disc-zotero
 ; Will become a proper discovery endpoint once we add more registries
 docker-registry 300 IN CNAME darmstadtium.eqiad.wmnet.
 
+; Internal Anycast addresses (10.3.0.0/24)
+
+$ORIGIN anycast.wmnet.
+
+recdns        1H  IN A        10.3.0.1

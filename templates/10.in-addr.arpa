@@ -99,6 +99,12 @@ $ORIGIN 4.2.{{ zonename }}.
 
 $ORIGIN 5.2.{{ zonename }}.
 
+; 10.3.0.0/24 - Internal anycast services
+
+$ORIGIN 0.3.{{ zonename }}.
+
+1  1H  IN PTR  recdns.anycast.wmnet.
+
 ;
 ; ESAMS
 ;
