@@ -728,15 +728,7 @@ $ORIGIN 32.64.{{ zonename }}.
 28      1H IN PTR       sca1003.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 29      1H IN PTR       db1059.eqiad.wmnet.
 30      1H IN PTR       db1060.eqiad.wmnet.
-31      1H IN PTR       mw1161.eqiad.wmnet.
-32      1H IN PTR       mw1162.eqiad.wmnet.
-33      1H IN PTR       mw1163.eqiad.wmnet.
-34      1H IN PTR       mw1164.eqiad.wmnet.
-35      1H IN PTR       mw1165.eqiad.wmnet.
-36      1H IN PTR       mw1166.eqiad.wmnet.
-37      1H IN PTR       mw1167.eqiad.wmnet.
-38      1H IN PTR       mw1168.eqiad.wmnet.
-39      1H IN PTR       mw1169.eqiad.wmnet.
+
 40      1H IN PTR       mw1319.eqiad.wmnet.
 41      1H IN PTR       mw1320.eqiad.wmnet.
 42      1H IN PTR       mw1321.eqiad.wmnet.
@@ -1489,15 +1481,6 @@ $ORIGIN 1.65.{{ zonename }}.
 98  1H  IN PTR      wmf7154.mgmt.eqiad.wmnet.
 99  1H  IN PTR      mw1328.mgmt.eqiad.wmnet.
 99  1H  IN PTR      wmf7155.mgmt.eqiad.wmnet.
-161 1H  IN PTR      mw1161.mgmt.eqiad.wmnet.
-162 1H  IN PTR      mw1162.mgmt.eqiad.wmnet.
-163 1H  IN PTR      mw1163.mgmt.eqiad.wmnet.
-164 1H  IN PTR      mw1164.mgmt.eqiad.wmnet.
-165 1H  IN PTR      mw1165.mgmt.eqiad.wmnet.
-166 1H  IN PTR      mw1166.mgmt.eqiad.wmnet.
-167 1H  IN PTR      mw1167.mgmt.eqiad.wmnet.
-168 1H  IN PTR      mw1168.mgmt.eqiad.wmnet.
-169 1H  IN PTR      mw1169.mgmt.eqiad.wmnet.
 
 180 1H  IN PTR      mw1180.mgmt.eqiad.wmnet.
 181 1H  IN PTR      mw1181.mgmt.eqiad.wmnet.
