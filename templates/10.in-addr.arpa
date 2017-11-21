@@ -1776,6 +1776,10 @@ $ORIGIN 2.65.{{ zonename }}.
 154 1H  IN PTR      db1110.mgmt.eqiad.wmnet.
 155 1H  IN PTR      wmf7288.mgmt.eqiad.wmnet.
 155 1H  IN PTR      db1109.mgmt.eqiad.wmnet.
+156 1H  IN PTR      wmf7289.mgmt.eqiad.wmnet.
+156 1H  IN PTR      db1111.mgmt.eqiad.wmnet.
+157 1H  IN PTR      wmf7290.mgmt.eqiad.wmnet.
+157 1H  IN PTR      db1112.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.{{ zonename }}.
 
