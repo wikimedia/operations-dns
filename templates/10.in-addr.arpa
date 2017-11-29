@@ -734,7 +734,7 @@ $ORIGIN 32.64.{{ zonename }}.
 28      1H IN PTR       sca1003.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 29      1H IN PTR       db1059.eqiad.wmnet.
 30      1H IN PTR       db1060.eqiad.wmnet.
-31      1H IN PTR       db1110.eqiad.wmnet.
+
 32      1H IN PTR       mw1330.eqiad.wmnet.
 33      1H IN PTR       mw1331.eqiad.wmnet.
 34      1H IN PTR       mw1332.eqiad.wmnet.
@@ -776,6 +776,7 @@ $ORIGIN 32.64.{{ zonename }}.
 70      1H IN PTR       mw1200.eqiad.wmnet.
 71      1H IN PTR       db1108.eqiad.wmnet.
 72      1H IN PTR       pc1005.eqiad.wmnet.
+73      1H IN PTR       db1110.eqiad.wmnet.
 
 76      1H IN PTR       rdb1001.eqiad.wmnet.
 77      1H IN PTR       rdb1002.eqiad.wmnet.
