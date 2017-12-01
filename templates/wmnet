@@ -891,7 +891,7 @@ phab1001        1H  IN AAAA     2620:0:861:102:10:64:16:8
 phab1001-aphlict 1H IN CNAME    phab1001 ; CNAME here due to varnish puppetization woes
 phab1001-vcs    1H  IN A        10.64.16.100
 phab1001-vcs    1H  IN AAAA     2620:0:861:102:10:64:16:100
-puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          1H  IN CNAME    puppetmaster2001.codfw.wmnet.
 technetium      1H  IN A        10.64.32.188
 thorium         1H  IN A        10.64.53.26
 thumbor1001     1H  IN A        10.64.16.56
@@ -4761,8 +4761,7 @@ cp5012          1H      IN A    10.132.0.112
 ; SERVICES
 ;
 config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-; Temporarily depool codfw puppet T177254
-puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install2002.wikimedia.org.
 
 ; etcd client discovery (RO)
