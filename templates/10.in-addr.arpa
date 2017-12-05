@@ -371,6 +371,8 @@ $ORIGIN 0.64.{{ zonename }}.
 125 1H IN PTR   elastic1031.eqiad.wmnet.
 126 1H IN PTR   aqs1004-a.eqiad.wmnet. ; cassandra instance
 127 1H IN PTR   aqs1004-b.eqiad.wmnet. ; cassandra instance
+128 1H IN PTR   db1111.eqiad.wmnet.
+
 162 1H IN PTR   logstash1004.eqiad.wmnet.
 163 1H IN PTR   db1096.eqiad.wmnet.
 164 1H IN PTR   db1103.eqiad.wmnet.
@@ -491,10 +493,11 @@ $ORIGIN 16.64.{{ zonename }}.
 2   1H IN PTR   ae2-1018.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae2-1018.cr2-eqiad.wikimedia.org.
 6   1H IN PTR   graphite1002.eqiad.wmnet.
-
+7   1H IN PTR   db1112.eqiad.wmnet.
 8   1H IN PTR   phab1001.eqiad.wmnet.
 9   1H IN PTR   db1020.eqiad.wmnet.
 10  1H IN PTR   db1021.eqiad.wmnet.
+11  1H IN PTR   db1113.eqiad.wmnet.
 
 14  1H IN PTR   aqs1008.eqiad.wmnet.
 15  1H IN PTR   db1026.eqiad.wmnet.
@@ -1215,6 +1218,7 @@ $ORIGIN 48.64.{{ zonename }}.
 170     1H IN PTR       labweb1002.eqiad.wmnet.
 171     1H IN PTR       druid1006.eqiad.wmnet.
 172     1H IN PTR       db1109.eqiad.wmnet.
+173     1H IN PTR       db1114.eqiad.wmnet.
 
 $ORIGIN 49.64.{{ zonename }}.
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
@@ -1780,6 +1784,10 @@ $ORIGIN 2.65.{{ zonename }}.
 156 1H  IN PTR      db1111.mgmt.eqiad.wmnet.
 157 1H  IN PTR      wmf7290.mgmt.eqiad.wmnet.
 157 1H  IN PTR      db1112.mgmt.eqiad.wmnet.
+158 1H  IN PTR      wmf7294.mgmt.eqiad.wmnet.
+158 1H  IN PTR      db1113.mgmt.eqiad.wmnet.
+159 1H  IN PTR      wmf7295.mgmt.eqiad.wmnet.
+159 1H  IN PTR      db1114.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.{{ zonename }}.
 
