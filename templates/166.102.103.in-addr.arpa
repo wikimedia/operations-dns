@@ -29,6 +29,15 @@
 ; 103.102.166.32/27 (32-63) - unused
 ; 103.102.166.64/26 (64-127) - unused
 ; 103.102.166.128/27 (128-159) - Infrastructure Space
+
+; 103.102.166.128/30 (128-131) - Router's loopbacks
+128 1H IN PTR   mr1-eqsin.wikimedia.org.
+129 1H IN PTR   cr1-eqsin.wikimedia.org.
+
+; 103.102.166.132/31 -- cr1-eqsin <--> mr1-eqsin
+132 1H IN PTR   ae1-401.cr1-eqsin.wikimedia.org.
+133 1H IN PTR   ge-0-0-4-401.mr1-eqsin.wikimedia.org.
+
 ; 103.102.166.160/27 (160-191) - unused
 ; 103.102.166.192/27 (192-223) - unused
 ; 103.102.166.224/27 (224-255) - LVS Service IPs

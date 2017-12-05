@@ -4695,6 +4695,11 @@ _x-puppet._tcp      5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
 
 $ORIGIN mgmt.eqsin.wmnet.
 
+mr1-eqsin       1H      IN A    10.132.128.1
+cr1-eqsin       1H      IN A    10.132.128.2
+asw-eqsin       1H      IN A    10.132.128.4
+scs-eqsin       1H      IN A    10.132.128.5
+
 ; Servers listed sequentially
 bast5001        1H      IN A    10.132.129.7
 dns5001         1H      IN A    10.132.129.8
