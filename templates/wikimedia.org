@@ -806,6 +806,7 @@ uk.planet        600 IN DYNA     geoip!misc-addrs
 zh.planet        600 IN DYNA     geoip!misc-addrs
 puppet           1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 pivot            600 IN DYNA     geoip!misc-addrs
+superset         600 IN DYNA     geoip!misc-addrs
 racktables       600 IN DYNA     geoip!misc-addrs
 scholarships     600 IN DYNA     geoip!misc-addrs
 transparency     600 IN DYNA     geoip!misc-addrs
