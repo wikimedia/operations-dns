@@ -147,7 +147,7 @@ kafka-jumbo1004     1H  IN A         10.64.32.159
 kafka-jumbo1005     1H  IN A         10.64.32.160
 kafka-jumbo1006     1H  IN A         10.64.48.117
 notebook1001        1H  IN A         10.64.36.117
-notebook1002        1H  IN A         10.64.5.14
+kafka1023           1H  IN A         10.64.5.14
                     1H  IN AAAA      2620:0:861:104:10:64:5:14
 
 analytics1028    1H IN A             10.64.36.128
@@ -1210,6 +1210,7 @@ aqs1009         1H  IN A    10.65.4.83
 wmf7005         1H  IN A    10.65.4.83
 kafka1020       1H  IN A    10.65.3.103
 notebook1002    1H  IN A    10.65.3.104
+kafka1023       1H  IN A    10.65.3.104 ; duplicate of notebook1002 - T181518
 kafka1022       1H  IN A    10.65.3.105
 kubernetes1001  1H  IN A    10.65.4.77
 wmf6993         1H  IN A    10.65.4.77

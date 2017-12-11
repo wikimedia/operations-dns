@@ -470,7 +470,7 @@ $ORIGIN 5.64.{{ zonename }}.
 10  1H IN PTR   analytics1009.eqiad.wmnet.
 12  1H IN PTR   kafka1012.eqiad.wmnet.
 13  1H IN PTR   kafka1013.eqiad.wmnet.
-14  1H IN PTR   notebook1002.eqiad.wmnet.
+14  1H IN PTR   kafka1023.eqiad.wmnet.
 15  1H IN PTR   analytics1052.eqiad.wmnet.
 16  1H IN PTR   analytics1053.eqiad.wmnet.
 17  1H IN PTR   analytics1054.eqiad.wmnet.
@@ -1908,6 +1908,7 @@ $ORIGIN 3.65.{{ zonename }}.
 
 103 1H  IN PTR      kafka1020.mgmt.eqiad.wmnet.
 104 1H  IN PTR      notebook1002.mgmt.eqiad.wmnet.
+104 1H  IN PTR      kafka1023.mgmt.eqiad.wmnet. ; duplicate of notebook1002 - T181518
 105 1H  IN PTR      kafka1022.mgmt.eqiad.wmnet.
 106 1H  IN PTR      labstore1001.mgmt.eqiad.wmnet.
 107 1H  IN PTR      labstore1002.mgmt.eqiad.wmnet.
