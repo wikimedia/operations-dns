@@ -2787,7 +2787,6 @@ furud           1H  IN A    10.192.16.65
 kubetcd2001     1H  IN A    10.192.0.94
 kubetcd2002     1H  IN A    10.192.0.95
 kubetcd2003     1H  IN A    10.192.16.30
-eventlog2001    1H  IN A    10.192.16.121
 ganeti2001      1H  IN A    10.192.16.125
 ganeti2002      1H  IN A    10.192.16.126
 ganeti2003      1H  IN A    10.192.16.127
