@@ -1198,8 +1198,7 @@ wmf7004         1H  IN A    10.65.4.82
 aqs1009         1H  IN A    10.65.4.83
 wmf7005         1H  IN A    10.65.4.83
 kafka1020       1H  IN A    10.65.3.103
-notebook1002    1H  IN A    10.65.3.104
-kafka1023       1H  IN A    10.65.3.104 ; duplicate of notebook1002 - T181518
+kafka1023       1H  IN A    10.65.3.104
 kafka1022       1H  IN A    10.65.3.105
 kubernetes1001  1H  IN A    10.65.4.77
 wmf6993         1H  IN A    10.65.4.77

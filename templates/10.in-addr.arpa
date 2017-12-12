@@ -1902,8 +1902,7 @@ $ORIGIN 3.65.{{ zonename }}.
 101 1H  IN PTR      kafka1018.mgmt.eqiad.wmnet.
 
 103 1H  IN PTR      kafka1020.mgmt.eqiad.wmnet.
-104 1H  IN PTR      notebook1002.mgmt.eqiad.wmnet.
-104 1H  IN PTR      kafka1023.mgmt.eqiad.wmnet. ; duplicate of notebook1002 - T181518
+104 1H  IN PTR      kafka1023.mgmt.eqiad.wmnet.
 105 1H  IN PTR      kafka1022.mgmt.eqiad.wmnet.
 106 1H  IN PTR      labstore1001.mgmt.eqiad.wmnet.
 107 1H  IN PTR      labstore1002.mgmt.eqiad.wmnet.

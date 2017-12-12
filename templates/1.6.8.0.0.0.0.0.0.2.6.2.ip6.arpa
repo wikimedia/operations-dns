@@ -164,7 +164,7 @@ $ORIGIN 3.0.1.0.{{ zonename }}.
 
 ; analytics1-a-eqiad (2620:0:861:104::/64)
 $ORIGIN 4.0.1.0.{{ zonename }}.
-4.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   notebook1002.eqiad.wmnet.
+4.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1023.eqiad.wmnet.
 2.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1012.eqiad.wmnet.
 3.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1013.eqiad.wmnet.
 
