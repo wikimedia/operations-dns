@@ -18,7 +18,6 @@ $ORIGIN 1.2.{{ zonename }}.
 
 1   1H  IN PTR  appservers.svc.codfw.wmnet.
 8   1H  IN PTR  kubemaster.svc.codfw.wmnet.
-9   1H  IN PTR  trendingedits.svc.codfw.wmnet.
 10  1H  IN PTR  ores.svc.codfw.wmnet.
 11  1H  IN PTR  apertium.svc.codfw.wmnet.
 ; reserving 12 for aqs to be consistent
@@ -54,7 +53,6 @@ $ORIGIN 2.2.{{ zonename }}.
 1   1H  IN PTR  appservers.svc.eqiad.wmnet.
 3   1H  IN PTR  hhvm-api.svc.eqiad.wmnet.
 8   1H  IN PTR  kubemaster.svc.eqiad.wmnet.
-9   1H  IN PTR  trendingedits.svc.eqiad.wmnet.
 10  1H  IN PTR  ores.svc.eqiad.wmnet.
 11  1H  IN PTR  apertium.svc.eqiad.wmnet.
 12  1H  IN PTR  aqs.svc.eqiad.wmnet.
