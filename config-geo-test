@@ -27,7 +27,6 @@ plugins => {
             disc-ores           => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-pdfrender      => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-recommendation-api => { map => mock, dcmap => { mock => 192.0.2.1 } }
-            disc-trendingedits  => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-wdqs           => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-zotero         => { map => mock, dcmap => { mock => 192.0.2.1 } }
         },
