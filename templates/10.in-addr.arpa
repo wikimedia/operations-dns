@@ -266,7 +266,7 @@ $ORIGIN 0.64.{{ zonename }}.
 16  1H IN PTR   scb1001.eqiad.wmnet.
 17  1H IN PTR   wdqs1004.eqiad.wmnet.
 18  1H IN PTR   conf1001.eqiad.wmnet.
-19  1H IN PTR   db1015.eqiad.wmnet.
+
 20  1H IN PTR   db1016.eqiad.wmnet.
 21  1H IN PTR   ms-be1028.eqiad.wmnet.
 22  1H IN PTR   tungsten.eqiad.wmnet.
@@ -496,11 +496,11 @@ $ORIGIN 16.64.{{ zonename }}.
 7   1H IN PTR   db1112.eqiad.wmnet.
 8   1H IN PTR   phab1001.eqiad.wmnet.
 9   1H IN PTR   db1020.eqiad.wmnet.
-10  1H IN PTR   db1021.eqiad.wmnet.
+
 11  1H IN PTR   db1113.eqiad.wmnet.
 
 14  1H IN PTR   aqs1008.eqiad.wmnet.
-15  1H IN PTR   db1026.eqiad.wmnet.
+
 18  1H IN PTR   db1029.eqiad.wmnet.
 19  1H IN PTR   db1030.eqiad.wmnet.
 20  1H IN PTR   db1031.eqiad.wmnet.
@@ -512,11 +512,7 @@ $ORIGIN 16.64.{{ zonename }}.
 29  1H IN PTR   conf1005.eqiad.wmnet.
 
 32  1H IN PTR   db1043.eqiad.wmnet.
-33  1H IN PTR   db1044.eqiad.wmnet.
-34  1H IN PTR   db1045.eqiad.wmnet.
-35  1H IN PTR   db1046.eqiad.wmnet.
-36  1H IN PTR   db1047.eqiad.wmnet.
-37  1H IN PTR   db1048.eqiad.wmnet.
+
 38  1H IN PTR   prometheus1004.eqiad.wmnet.
 39  1H IN PTR   db1072.eqiad.wmnet.
 40  1H IN PTR   ms-be1020.eqiad.wmnet.
@@ -592,8 +588,7 @@ $ORIGIN 16.64.{{ zonename }}.
 110 1H IN PTR   mc1027.eqiad.wmnet.
 111 1H IN PTR   elastic1049.eqiad.wmnet.
 112 1H IN PTR   elastic1050.eqiad.wmnet.
-144 1H IN PTR   db1049.eqiad.wmnet.
-145 1H IN PTR   db1050.eqiad.wmnet.
+
 146 1H IN PTR   mw1260.eqiad.wmnet.
 147 1H IN PTR   cerium.eqiad.wmnet.
 148 1H IN PTR   dbproxy1004.eqiad.wmnet.
@@ -2484,8 +2479,7 @@ $ORIGIN 6.65.{{ zonename }}.
 
 14      1H IN PTR       tungsten.mgmt.eqiad.wmnet.
 14      1H IN PTR       wmf3077.mgmt.eqiad.wmnet.
-15      1H IN PTR       db1015.mgmt.eqiad.wmnet.
-15      1H IN PTR       wmf3076.mgmt.eqiad.wmnet.
+
 16      1H IN PTR       db1016.mgmt.eqiad.wmnet.
 16      1H IN PTR       wmf3075.mgmt.eqiad.wmnet.
 17      1H IN PTR       graphite1002.mgmt.eqiad.wmnet.
@@ -2493,11 +2487,7 @@ $ORIGIN 6.65.{{ zonename }}.
 
 20      1H IN PTR       db1020.mgmt.eqiad.wmnet.
 20      1H IN PTR       wmf3266.mgmt.eqiad.wmnet.
-21      1H IN PTR       db1021.mgmt.eqiad.wmnet.
-21      1H IN PTR       wmf3265.mgmt.eqiad.wmnet.
 
-26      1H IN PTR       db1026.mgmt.eqiad.wmnet.
-26      1H IN PTR       wmf3260.mgmt.eqiad.wmnet.
 27      1H IN PTR       wmf3259.mgmt.eqiad.wmnet.
 
 29      1H IN PTR       db1029.mgmt.eqiad.wmnet.
@@ -2515,18 +2505,7 @@ $ORIGIN 6.65.{{ zonename }}.
 
 43      1H IN PTR       db1043.mgmt.eqiad.wmnet.
 43      1H IN PTR       wmf3276.mgmt.eqiad.wmnet.
-44      1H IN PTR       db1044.mgmt.eqiad.wmnet.
-44      1H IN PTR       wmf3275.mgmt.eqiad.wmnet.
-45      1H IN PTR       db1045.mgmt.eqiad.wmnet.
-45      1H IN PTR       wmf3274.mgmt.eqiad.wmnet.
-46      1H IN PTR       db1046.mgmt.eqiad.wmnet.
-46      1H IN PTR       wmf3273.mgmt.eqiad.wmnet.
-47      1H IN PTR       db1047.mgmt.eqiad.wmnet.
-47      1H IN PTR       wmf3272.mgmt.eqiad.wmnet.
-48      1H IN PTR       db1048.mgmt.eqiad.wmnet.
-48      1H IN PTR       wmf3271.mgmt.eqiad.wmnet.
-49      1H IN PTR       db1049.mgmt.eqiad.wmnet.
-50      1H IN PTR       db1050.mgmt.eqiad.wmnet.
+
 51      1H IN PTR       db1051.mgmt.eqiad.wmnet.
 52      1H IN PTR       db1052.mgmt.eqiad.wmnet.
 53      1H IN PTR       db1053.mgmt.eqiad.wmnet.
