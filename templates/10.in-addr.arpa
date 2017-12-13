@@ -4321,8 +4321,7 @@ $ORIGIN 2.193.{{ zonename }}.
 117 1H IN PTR  wmf6161.mgmt.codfw.wmnet.
 118 1H IN PTR  restbase-test2001.mgmt.codfw.wmnet.
 118 1H IN PTR  wmf5845.mgmt.codfw.wmnet.
-119 1H IN PTR  eventlog2001.mgmt.codfw.wmnet.
-119 1H IN PTR  wmf3811.mgmt.codfw.wmnet.
+
 120 1H IN PTR  db2084.mgmt.codfw.wmnet.
 120 1H IN PTR  wmf6546.mgmt.codfw.wmnet.
 121 1H IN PTR  db2085.mgmt.codfw.wmnet.
