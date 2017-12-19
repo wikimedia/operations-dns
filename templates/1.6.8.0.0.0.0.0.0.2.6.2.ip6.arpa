@@ -27,8 +27,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 7.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   contint1001.wikimedia.org.
 
-3.5.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   uranium.wikimedia.org.
-
 4.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   fermium.wikimedia.org.
 0.5.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   hydrogen.wikimedia.org.
 1.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   lists.wikimedia.org.; service IP for lists on fermium
