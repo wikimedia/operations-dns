@@ -759,7 +759,6 @@ datasets         600 IN DYNA     geoip!misc-addrs
 download         600 IN DYNA     geoip!text-addrs
 etherpad         600 IN DYNA     geoip!misc-addrs
 fundraising      1H  IN CNAME    fundraising-eqiad
-ganglia          1H  IN CNAME    uranium
 hue              600 IN DYNA     geoip!misc-addrs
 iegreview        600 IN DYNA     geoip!misc-addrs
 tendril          5M  IN CNAME    dbmonitor1001
