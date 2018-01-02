@@ -747,6 +747,8 @@ bugzilla         600 IN DYNA     geoip!misc-addrs
 bug-attachment   600 IN DYNA     geoip!text-addrs
 careers          600 IN DYNA     geoip!text-addrs
 civicrm          1H  IN A        208.80.155.11
+civicrm          1H  IN MX       10 mx1001
+civicrm          1H  IN MX       50 mx2001
 civicrm.frdev    1H  IN CNAME    frdev-eqiad
 civicrm-gr.frdev 1H  IN CNAME    frdev-eqiad
 civicrm2-gr.frdev 1H IN CNAME    frdev-eqiad
