@@ -1140,6 +1140,10 @@ labvirt1019 1H  IN A    10.65.5.76
 wmf7132     1H  IN A    10.65.5.76
 labvirt1020 1H  IN A    10.65.5.77
 wmf7133     1H  IN A    10.65.5.77
+labvirt1021 1H  IN A    10.65.5.78
+wmf7296     1H  IN A    10.65.5.78
+labvirt1022 1H  IN A    10.65.5.79
+wmf7297     1H  IN A    10.65.5.79
 labweb1001  1H  IN A    10.65.4.121
 wmf7096     1H  IN A    10.65.4.121
 labweb1002  1H  IN A    10.65.4.122
