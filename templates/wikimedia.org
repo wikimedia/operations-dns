@@ -613,6 +613,8 @@ policy          5M  IN A        192.0.66.2
 releases         600 IN DYNA     geoip!misc-addrs
 releases-jenkins 600 IN DYNA     geoip!misc-addrs
 
+research         600 IN DYNA     geoip!misc-addrs
+
 reports.frdev   1H  IN CNAME    frdev-eqiad
 
 rt              600 IN DYNA     geoip!misc-addrs
