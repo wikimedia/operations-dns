@@ -741,27 +741,9 @@ $ORIGIN 32.64.{{ zonename }}.
 47      1H IN PTR       mw1326.eqiad.wmnet.
 48      1H IN PTR       mw1327.eqiad.wmnet.
 49      1H IN PTR       mw1328.eqiad.wmnet.
-50      1H IN PTR       mw1180.eqiad.wmnet.
-51      1H IN PTR       mw1181.eqiad.wmnet.
-52      1H IN PTR       mw1182.eqiad.wmnet.
-53      1H IN PTR       mw1183.eqiad.wmnet.
-54      1H IN PTR       mw1184.eqiad.wmnet.
-55      1H IN PTR       mw1185.eqiad.wmnet.
-56      1H IN PTR       mw1186.eqiad.wmnet.
-57      1H IN PTR       mw1187.eqiad.wmnet.
-58      1H IN PTR       mw1188.eqiad.wmnet.
-59      1H IN PTR       mw1189.eqiad.wmnet.
-60      1H IN PTR       mw1190.eqiad.wmnet.
-61      1H IN PTR       mw1191.eqiad.wmnet.
-62      1H IN PTR       mw1192.eqiad.wmnet.
-63      1H IN PTR       mw1193.eqiad.wmnet.
-64      1H IN PTR       mw1194.eqiad.wmnet.
-65      1H IN PTR       mw1195.eqiad.wmnet.
+
 66      1H IN PTR       mw1329.eqiad.wmnet.
-67      1H IN PTR       mw1197.eqiad.wmnet.
-68      1H IN PTR       mw1198.eqiad.wmnet.
-69      1H IN PTR       mw1199.eqiad.wmnet.
-70      1H IN PTR       mw1200.eqiad.wmnet.
+
 71      1H IN PTR       db1108.eqiad.wmnet.
 72      1H IN PTR       pc1005.eqiad.wmnet.
 73      1H IN PTR       db1110.eqiad.wmnet.
@@ -1496,27 +1478,6 @@ $ORIGIN 1.65.{{ zonename }}.
 108 1H  IN PTR      mw1337.mgmt.eqiad.wmnet.
 108 1H  IN PTR      wmf7286.mgmt.eqiad.wmnet.
 
-180 1H  IN PTR      mw1180.mgmt.eqiad.wmnet.
-181 1H  IN PTR      mw1181.mgmt.eqiad.wmnet.
-182 1H  IN PTR      mw1182.mgmt.eqiad.wmnet.
-183 1H  IN PTR      mw1183.mgmt.eqiad.wmnet.
-184 1H  IN PTR      mw1184.mgmt.eqiad.wmnet.
-185 1H  IN PTR      mw1185.mgmt.eqiad.wmnet.
-186 1H  IN PTR      mw1186.mgmt.eqiad.wmnet.
-187 1H  IN PTR      mw1187.mgmt.eqiad.wmnet.
-188 1H  IN PTR      mw1188.mgmt.eqiad.wmnet.
-189 1H  IN PTR      mw1189.mgmt.eqiad.wmnet.
-190 1H  IN PTR      mw1190.mgmt.eqiad.wmnet.
-191 1H  IN PTR      mw1191.mgmt.eqiad.wmnet.
-192 1H  IN PTR      mw1192.mgmt.eqiad.wmnet.
-193 1H  IN PTR      mw1193.mgmt.eqiad.wmnet.
-194 1H  IN PTR      mw1194.mgmt.eqiad.wmnet.
-195 1H  IN PTR      mw1195.mgmt.eqiad.wmnet.
-196 1H  IN PTR      mw1196.mgmt.eqiad.wmnet.
-197 1H  IN PTR      mw1197.mgmt.eqiad.wmnet.
-198 1H  IN PTR      mw1198.mgmt.eqiad.wmnet.
-199 1H  IN PTR      mw1199.mgmt.eqiad.wmnet.
-200 1H  IN PTR      mw1200.mgmt.eqiad.wmnet.
 201 1H  IN PTR      mw1201.mgmt.eqiad.wmnet.
 202 1H  IN PTR      mw1202.mgmt.eqiad.wmnet.
 203 1H  IN PTR      mw1203.mgmt.eqiad.wmnet.
