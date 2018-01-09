@@ -118,12 +118,6 @@ $ORIGIN 0.20.{{ zonename }}.
 12  1H  IN PTR      lvs3002.esams.wmnet.
 13  1H  IN PTR      lvs3003.esams.wmnet.
 14  1H  IN PTR      lvs3004.esams.wmnet.
-15  1H  IN PTR      ms-fe3001.esams.wmnet.
-16  1H  IN PTR      ms-fe3002.esams.wmnet.
-17  1H  IN PTR      ms-be3001.esams.wmnet.
-18  1H  IN PTR      ms-be3002.esams.wmnet.
-19  1H  IN PTR      ms-be3003.esams.wmnet.
-20  1H  IN PTR      ms-be3004.esams.wmnet.
 
 103 1H  IN PTR      cp3003.esams.wmnet.
 104 1H  IN PTR      cp3004.esams.wmnet.
