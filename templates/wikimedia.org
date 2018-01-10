@@ -576,7 +576,7 @@ parsoid-vd-tests     600 IN DYNA     geoip!misc-addrs
 performance     600 IN DYNA     geoip!misc-addrs
 horizon         600 IN DYNA     geoip!misc-addrs
 
-icinga          5M  IN CNAME    einsteinium
+icinga          5M  IN CNAME    tegmen
 
 integration     600 IN DYNA     geoip!misc-addrs
 irc             1H  IN CNAME    kraz
