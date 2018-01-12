@@ -2044,12 +2044,19 @@ lvs1009     1H  IN A    10.65.4.20
 lvs1010     1H  IN A    10.65.4.21
 lvs1011     1H  IN A    10.65.4.22
 lvs1012     1H  IN A    10.65.4.23
+lvs1013     1H  IN A    10.65.4.123
+wmf7311     1H  IN A    10.65.4.123
+lvs1014     1H  IN A    10.65.4.124
+wmf7312     1H  IN A    10.65.4.124
+lvs1015     1H  IN A    10.65.4.125
+wmf7313     1H  IN A    10.65.4.125
+lvs1016     1H  IN A    10.65.4.126
+wmf7314     1H  IN A    10.65.4.126
 ruthenium   1H  IN A    10.65.3.56
 wmf3431     1H  IN A    10.65.3.56
 rhodium     1H  IN A    10.65.3.57
 wmf3432     1H  IN A    10.65.3.57
 indium      1H  IN A    10.65.3.117
-
 payments1001    1H  IN A    10.65.3.55
 wmf6951         1H  IN A    10.65.3.55
 payments1002    1H  IN A    10.65.3.47
