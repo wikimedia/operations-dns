@@ -1301,8 +1301,7 @@ wmf3085     1H  IN A    10.65.6.6
 wmf3084     1H  IN A    10.65.6.7
 frlog1001   1H  IN A    10.65.6.10
 wmf7043     1H  IN A    10.65.6.10
-;frav1001    1H  IN A    10.65.6.8
-frdb1003    1H  IN A    10.65.6.8
+frav1001    1H  IN A    10.65.6.8
 wmf3083     1H  IN A    10.65.6.8
 db1009      1H  IN A    10.65.6.9
 wmf3082     1H  IN A    10.65.6.9
@@ -2420,11 +2419,10 @@ $ORIGIN frack.eqiad.wmnet.
 americium       1H      IN A    10.64.40.113
 civi1001        1H      IN A    10.64.40.109
 bismuth         1H      IN A    10.64.40.69
-;frav1001        1H      IN A    10.64.40.71
+frav1001        1H      IN A    10.64.40.71
 frauth1001      1H      IN A    10.64.40.68
 frdb1001        1H      IN A    10.64.40.114
 frdb1002        1H      IN A    10.64.40.99
-frdb1003        1H      IN A    10.64.40.118
 frdev1001       1H      IN A    10.64.40.117
 frlog1001       1H      IN A    10.64.40.72
 frpm1001        1H      IN A    10.64.40.70
@@ -2451,7 +2449,7 @@ pay-lvs1002     1H  IN A    10.64.40.195
 frauth1001      1H  IN A    10.64.40.196
 frdb1001        1H  IN A    10.64.40.197
 frdb1002        1H  IN A    10.64.40.198
-frdb1003        1H  IN A    10.64.40.199
+frav1001        1H  IN A    10.64.40.199
 frdev1001       1H  IN A    10.64.40.200
 civi1001        1H  IN A    10.64.40.201
 frpm1001        1H  IN A    10.64.40.202
