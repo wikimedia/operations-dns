@@ -982,7 +982,7 @@ $ORIGIN 40.64.{{ zonename }}.
 68  1H IN PTR   frauth1001.frack.eqiad.wmnet.
 69  1H IN PTR   bismuth.frack.eqiad.wmnet.
 70  1H IN PTR   frpm1001.frack.eqiad.wmnet.
-;71  1H IN PTR   frav1001.frack.eqiad.wmnet.
+71  1H IN PTR   frav1001.frack.eqiad.wmnet.
 72  1H IN PTR   frlog1001.frack.eqiad.wmnet.
 
 ; 10.64.40.96/27 - frack-fundraising1-c-eqiad
