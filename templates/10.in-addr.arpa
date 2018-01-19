@@ -3046,20 +3046,16 @@ $ORIGIN 16.192.{{ zonename }}.
 1   1H IN PTR   vrrp-gw-2018.codfw.wmnet.
 2   1H IN PTR   ae2-2018.cr1-codfw.wikimedia.org.
 3   1H IN PTR   ae2-2018.cr2-codfw.wikimedia.org.
-4   1H IN PTR   db2016.codfw.wmnet.
-5   1H IN PTR   db2017.codfw.wmnet.
-6   1H IN PTR   db2018.codfw.wmnet.
-7   1H IN PTR   db2019.codfw.wmnet.
+
 8   1H IN PTR   db2020.codfw.wmnet.
 9   1H IN PTR   db2021.codfw.wmnet.
 10  1H IN PTR   db2022.codfw.wmnet.
-11  1H IN PTR   db2023.codfw.wmnet.
+
 12  1H IN PTR   db2024.codfw.wmnet.
 13  1H IN PTR   ms-be2031.codfw.wmnet.
 14  1H IN PTR   ms-be2032.codfw.wmnet.
 15  1H IN PTR   ms-be2033.codfw.wmnet.
-16  1H IN PTR   db2028.codfw.wmnet.
-17  1H IN PTR   db2029.codfw.wmnet.
+
 18  1H IN PTR   db2030.codfw.wmnet.
 19  1H IN PTR   db2031.codfw.wmnet.
 20  1H IN PTR   db2032.codfw.wmnet.
