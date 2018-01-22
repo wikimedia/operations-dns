@@ -4385,7 +4385,7 @@ maerlant      1H  IN A        10.21.0.114
 mr1-esams     1H  IN A        10.21.0.1
 ms-be3001     1H  IN A        10.21.0.2
 ms-be3002     1H  IN A        10.21.0.3
-bast3003      1H  IN A        10.21.0.4
+ms-be3003     1H  IN A        10.21.0.4
 ms-be3004     1H  IN A        10.21.0.5
 ms-fe3001     1H  IN A        10.21.0.6
 ms-fe3002     1H  IN A        10.21.0.7
