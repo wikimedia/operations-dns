@@ -168,7 +168,7 @@ $ORIGIN 0.21.{{ zonename }}.
 106 1H  IN PTR  amslvs1.mgmt.esams.wmnet.
 107 1H  IN PTR  amslvs2.mgmt.esams.wmnet.
 108 1H  IN PTR  amslvs3.mgmt.esams.wmnet.
-109 1H  IN PTR  amslvs4.mgmt.esams.wmnet.
+109 1H  IN PTR  bast3003.mgmt.esams.wmnet.
 110 1H  IN PTR  bast3002.mgmt.esams.wmnet.
 111 1H  IN PTR  nescio.mgmt.esams.wmnet.
 112 1H  IN PTR  eeden.mgmt.esams.wmnet.
