@@ -38,6 +38,10 @@
 132 1H IN PTR   ae1-401.cr1-eqsin.wikimedia.org.
 133 1H IN PTR   ge-0-0-4-401.mr1-eqsin.wikimedia.org.
 
+; 103.102.166.134/31  -- PCCW peering
+134 1H IN PTR   xe-2-0-2.cr1-eqsin.wikimedia.org.
+; 135 1H IN PTR   PCCW TBD.
+
 ; 103.102.166.160/27 (160-191) - unused
 ; 103.102.166.192/27 (192-223) - unused
 ; 103.102.166.224/27 (224-255) - LVS Service IPs
