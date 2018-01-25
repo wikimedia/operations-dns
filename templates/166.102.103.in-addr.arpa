@@ -40,7 +40,7 @@
 
 ; 103.102.166.134/31  -- PCCW peering
 134 1H IN PTR   xe-2-0-2.cr1-eqsin.wikimedia.org.
-; 135 1H IN PTR   PCCW TBD.
+135 1H IN PTR   pccw-peering.cr1-eqsin.wikimedia.org.
 
 ; 103.102.166.160/27 (160-191) - unused
 ; 103.102.166.192/27 (192-223) - unused
