@@ -3752,20 +3752,12 @@ $ORIGIN 1.193.{{ zonename }}.
 64  1H IN PTR  wmf3709.mgmt.codfw.wmnet.
 65  1H IN PTR  oresrdb2002.mgmt.codfw.wmnet.
 65  1H IN PTR  wmf6532.mgmt.codfw.wmnet.
-66  1H IN PTR  db2016.mgmt.codfw.wmnet.
-66  1H IN PTR  wmf3738.mgmt.codfw.wmnet.
-67  1H IN PTR  db2017.mgmt.codfw.wmnet.
-67  1H IN PTR  wmf3739.mgmt.codfw.wmnet.
-68  1H IN PTR  db2018.mgmt.codfw.wmnet.
-68  1H IN PTR  wmf3740.mgmt.codfw.wmnet.
-69  1H IN PTR  db2019.mgmt.codfw.wmnet.
-69  1H IN PTR  wmf3741.mgmt.codfw.wmnet.
+
 70  1H IN PTR  db2020.mgmt.codfw.wmnet.
 70  1H IN PTR  wmf3742.mgmt.codfw.wmnet.
 71  1H IN PTR  wmf5716.mgmt.codfw.wmnet.
 72  1H IN PTR  wmf5717.mgmt.codfw.wmnet.
-73  1H IN PTR  db2023.mgmt.codfw.wmnet.
-73  1H IN PTR  wmf5718.mgmt.codfw.wmnet.
+
 74  1H IN PTR  wmf5719.mgmt.codfw.wmnet.
 75  1H IN PTR  db2080.mgmt.codfw.wmnet.
 75  1H IN PTR  wmf6542.mgmt.codfw.wmnet.
@@ -3773,10 +3765,7 @@ $ORIGIN 1.193.{{ zonename }}.
 76  1H IN PTR  wmf6543.mgmt.codfw.wmnet.
 77  1H IN PTR  db2082.mgmt.codfw.wmnet.
 77  1H IN PTR  wmf6544.mgmt.codfw.wmnet.
-78  1H IN PTR  db2028.mgmt.codfw.wmnet.
-78  1H IN PTR  wmf5723.mgmt.codfw.wmnet.
-79  1H IN PTR  db2029.mgmt.codfw.wmnet.
-79  1H IN PTR  wmf5724.mgmt.codfw.wmnet.
+
 80  1H IN PTR  db2030.mgmt.codfw.wmnet.
 80  1H IN PTR  wmf5725.mgmt.codfw.wmnet.
 81  1H IN PTR  db2031.mgmt.codfw.wmnet.
