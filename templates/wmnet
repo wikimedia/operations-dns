@@ -4457,6 +4457,7 @@ mr1-ulsfo       1H      IN A    10.128.128.1
 cr1-ulsfo       1H      IN A    10.128.128.2
 cr2-ulsfo       1H      IN A    10.128.128.3
 asw-ulsfo       1H      IN A    10.128.128.6
+asw2-ulsfo      1H      IN A    10.128.128.7
 scs-ulsfo       1H      IN A    10.128.128.11
 
 ; Servers listed sequentially
