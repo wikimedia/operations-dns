@@ -3751,6 +3751,7 @@ scb2006         1H  IN A    10.193.1.151
 stat2001        1H  IN A    10.193.2.13
 tegmen          1H  IN A    10.193.1.27
 tempdb2001      1H  IN A    10.193.2.254
+tendril2001     1H  IN A    10.193.1.43
 thumbor2001     1H  IN A    10.193.2.48
 thumbor2002     1H  IN A    10.193.2.49
 thumbor2003     1H  IN A    10.193.3.14
@@ -4271,6 +4272,7 @@ wmf6580         1H  IN A    10.193.1.39
 wmf6581         1H  IN A    10.193.1.40
 wmf6582         1H  IN A    10.193.1.41
 wmf6587         1H  IN A    10.193.1.42
+wmf6595         1H  IN A    10.193.1.43
 ;
 ; ESAMS
 ;
