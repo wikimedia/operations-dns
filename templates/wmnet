@@ -451,8 +451,6 @@ hafnium         1H  IN A        10.64.32.176
 hassium         1H  IN A        10.64.0.53
 helium          1H  IN A        10.64.0.179
 hp1001          1H  IN A        10.64.32.147
-iridium         1H  IN A        10.64.32.150
-iridium         1H  IN AAAA     2620:0:861:103:10:64:32:150
 krypton         1H  IN A        10.64.32.182
 kubestage1001   1H  IN A        10.64.0.247
 kubestage1001   1H  IN AAAA     2620:0:861:101:10:64:0:247
