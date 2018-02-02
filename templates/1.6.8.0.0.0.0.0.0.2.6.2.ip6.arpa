@@ -190,7 +190,7 @@ $ORIGIN 7.0.1.0.{{ zonename }}.
 7.0.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1073.eqiad.wmnet.
 8.0.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1074.eqiad.wmnet.
 2.5.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1004.eqiad.wmnet.
-5.9.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1004.eqiad.wmnet.
+5.9.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   eventlog1002.eqiad.wmnet.
 
 ; analytics1-d-eqiad (2620:0:861:108::/64)
 $ORIGIN 8.0.1.0.{{ zonename }}.
