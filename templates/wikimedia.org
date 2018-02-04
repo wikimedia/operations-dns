@@ -576,6 +576,7 @@ parsoid-rt-tests     600 IN DYNA     geoip!misc-addrs
 parsoid-vd-tests     600 IN DYNA     geoip!misc-addrs
 performance     600 IN DYNA     geoip!misc-addrs
 horizon         600 IN DYNA     geoip!misc-addrs
+newhorizon      600 IN DYNA     geoip!misc-addrs
 
 icinga          5M  IN CNAME    einsteinium
 
