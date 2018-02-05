@@ -480,8 +480,6 @@ labnet1003      1H  IN A        10.64.20.35
 labnet1004      1H  IN A        10.64.20.36
 labnodepool1001 1H  IN A        10.64.20.18
 labnodepool1002 1H  IN A        10.64.20.37
-labsdb1001      1H  IN A        10.64.4.11
-labsdb1003      1H  IN A        10.64.37.5
 labstore1001    1H  IN A        10.64.37.6
 labstore1002    1H  IN A        10.64.37.7
 labstore1003    1H  IN A        10.64.4.10
