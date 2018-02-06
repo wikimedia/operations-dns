@@ -2354,6 +2354,7 @@ phab1001        1H      IN A            10.65.7.76
 wmf4748         1H      IN A            10.65.7.77
 deploy1001      1H      IN A            10.65.7.77
 wmf4749         1H      IN A            10.65.7.78
+bast1001        1H      IN A            10.65.7.78
 wmf4750         1H      IN A            10.65.7.79
 eventlog1002    1H      IN A            10.65.7.80
 wmf4751         1H      IN A            10.65.7.80

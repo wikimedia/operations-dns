@@ -2665,6 +2665,7 @@ $ORIGIN 7.65.{{ zonename }}.
 76      1H      IN PTR     wmf4747.mgmt.eqiad.wmnet.
 77      1H      IN PTR     deploy1001.mgmt.eqiad.wmnet.
 77      1H      IN PTR     wmf4748.mgmt.eqiad.wmnet.
+78      1H      IN PTR     bast1002.mgmt.eqiad.wmnet.
 78      1H      IN PTR     wmf4749.mgmt.eqiad.wmnet.
 79      1H      IN PTR     wmf4750.mgmt.eqiad.wmnet.
 80      1H      IN PTR     eventlog1002.mgmt.eqiad.wmnet.
