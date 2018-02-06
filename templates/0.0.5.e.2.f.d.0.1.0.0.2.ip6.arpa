@@ -19,6 +19,8 @@
 ; 2001:df2:e500:0::/56 - eqsin public subnets
 ; 2001:df2:e500:1::/64 - public1-eqsin
 $ORIGIN 1.0.0.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-510.cr1-eqsin.wikimedia.org.
+
 
 7.0.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   bast5001.wikimedia.org.
 8.0.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   dns5001.wikimedia.org.
@@ -27,6 +29,7 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 ; 2001:df2:e500:100::/56 - eqsin private subnets
 ; 2001:df2:e500:101::/64 - private1-eqsin
 $ORIGIN 1.0.1.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-520.cr1-eqsin.wikimedia.org.
 
 1.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5001.eqsin.wmnet.
 2.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5002.eqsin.wmnet.
@@ -44,6 +47,7 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 ; 2001:df2:e500:200::/56 - eqsin sandbox subnets
 ; 2001:df2:e500:201::/64 - sandbox1-eqsin
 $ORIGIN 1.0.2.0.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-530.cr1-eqsin.wikimedia.org.
 
 0.2.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   ripe-atlas-eqsin.wikimedia.org.
 
@@ -69,6 +73,11 @@ $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 $ORIGIN 0.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-2-0-2.cr1-eqsin.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   pccw-peering.cr1-eqsin.wikimedia.org.
+
+; 2001:df2:e500:fe01::/64 -  cr1-ulsfo <--> cr1-eqsin
+$ORIGIN 1.0.e.f.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr1-eqsin.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-1-3-0-1.cr1-ulsfo.wikimedia.org.
 
 ; 2001:df2:e500:ffff::/56 - Loopback IPs
 $ORIGIN f.f.f.f.{{ zonename }}.

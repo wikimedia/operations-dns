@@ -2856,6 +2856,8 @@ $ORIGIN 0.128.{{ zonename }}.
 ; 10.132.0.0/17 - eqsin private
 ; 10.132.0.0/24 - private1-eqsin
 $ORIGIN 0.132.{{ zonename }}.
+1   1H  IN PTR      ae1-520.cr1-eqsin.wikimedia.org.
+
 11  1H  IN PTR      lvs5001.eqsin.wmnet.
 12  1H  IN PTR      lvs5002.eqsin.wmnet.
 13  1H  IN PTR      lvs5003.eqsin.wmnet.
