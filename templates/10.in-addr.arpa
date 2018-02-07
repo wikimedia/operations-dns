@@ -1206,7 +1206,7 @@ $ORIGIN 53.64.{{ zonename }}.
 1       1H IN PTR       vrrp-gw-1023.eqiad.wmnet.
 2       1H IN PTR       ae4-1023.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae4-1023.cr2-eqiad.wikimedia.org.
-10      1H IN PTR       kafka1018.eqiad.wmnet.
+
 12      1H IN PTR       kafka1020.eqiad.wmnet.
 14      1H IN PTR       analytics1035.eqiad.wmnet.
 15      1H IN PTR       analytics1036.eqiad.wmnet.
