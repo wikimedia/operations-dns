@@ -141,11 +141,17 @@ kafka1020           1H  IN A         10.64.53.12
 kafka1022           1H  IN A         10.64.36.122
                     1H  IN AAAA      2620:0:861:106:10:64:36:122
 kafka-jumbo1001     1H  IN A         10.64.0.175
+                    1H  IN AAAA      2620:0:861:101:10:64:0:175
 kafka-jumbo1002     1H  IN A         10.64.0.176
+                    1H  IN AAAA      2620:0:861:101:10:64:0:176
 kafka-jumbo1003     1H  IN A         10.64.16.99
+                    1H  IN AAAA      2620:0:861:102:10:64:16:99
 kafka-jumbo1004     1H  IN A         10.64.32.159
+                    1H  IN AAAA      2620:0:861:103:10:64:32:159
 kafka-jumbo1005     1H  IN A         10.64.32.160
+                    1H  IN AAAA      2620:0:861:103:10:64:32:160
 kafka-jumbo1006     1H  IN A         10.64.48.117
+                    1H  IN AAAA      2620:0:861:107:10:64:48:117
 notebook1001        1H  IN A         10.64.36.117
 notebook1003        1H  IN A         10.64.21.109
 notebook1004        1H  IN A         10.64.36.107
