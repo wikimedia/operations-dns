@@ -2877,7 +2877,7 @@ $ORIGIN 0.132.{{ zonename }}.
 $ORIGIN 128.132.{{ zonename }}.
 1   1H  IN PTR      mr1-eqsin.mgmt.eqsin.wmnet.
 2   1H  IN PTR      cr1-eqsin.mgmt.eqsin.wmnet.
-4   1H  IN PTR      asw-eqsin.mgmt.eqsin.wmnet.
+4   1H  IN PTR      asw1-eqsin.mgmt.eqsin.wmnet.
 5   1H  IN PTR      scs-eqsin.mgmt.eqsin.wmnet.
 
 $ORIGIN 129.132.{{ zonename }}.

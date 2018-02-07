@@ -4618,7 +4618,7 @@ $ORIGIN mgmt.eqsin.wmnet.
 
 mr1-eqsin       1H      IN A    10.132.128.1
 cr1-eqsin       1H      IN A    10.132.128.2
-asw-eqsin       1H      IN A    10.132.128.4
+asw1-eqsin      1H      IN A    10.132.128.4
 scs-eqsin       1H      IN A    10.132.128.5
 
 ; Servers listed sequentially
