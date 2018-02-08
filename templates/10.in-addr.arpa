@@ -1025,6 +1025,7 @@ $ORIGIN 40.64.{{ zonename }}.
 211 1H IN PTR   payments1004.mgmt.frack.eqiad.wmnet.
 212 1H IN PTR   samarium.mgmt.frack.eqiad.wmnet.
 213 1H IN PTR   thulium.mgmt.frack.eqiad.wmnet.
+214 1H IN PTR   frlog1001.mgmt.frack.eqiad.wmnet.
 
 ; 10.64.48.0/22 - private1-d-eqiad
 $ORIGIN 48.64.{{ zonename }}.
@@ -2451,7 +2452,6 @@ $ORIGIN 6.65.{{ zonename }}.
 8       1H IN PTR       wmf3083.mgmt.eqiad.wmnet.
 9       1H IN PTR       db1009.mgmt.eqiad.wmnet.
 9       1H IN PTR       wmf3082.mgmt.eqiad.wmnet.
-10      1H IN PTR       frlog1001.mgmt.eqiad.wmnet.
 10      1H IN PTR       wmf7043.mgmt.eqiad.wmnet.
 11      1H IN PTR       db1011.mgmt.eqiad.wmnet.
 11      1H IN PTR       wmf3080.mgmt.eqiad.wmnet.

@@ -1298,7 +1298,6 @@ wmf3087     1H  IN A    10.65.6.4
 wmf3086     1H  IN A    10.65.6.5
 wmf3085     1H  IN A    10.65.6.6
 wmf3084     1H  IN A    10.65.6.7
-frlog1001   1H  IN A    10.65.6.10
 wmf7043     1H  IN A    10.65.6.10
 frav1001    1H  IN A    10.65.6.8
 wmf3083     1H  IN A    10.65.6.8
@@ -2463,6 +2462,7 @@ payments1003    1H  IN A    10.64.40.210
 payments1004    1H  IN A    10.64.40.211
 samarium        1H  IN A    10.64.40.212
 thulium         1H  IN A    10.64.40.213
+frlog1001       1H  IN A    10.64.40.214
 
 
 ; EQIAD analytics cluster
