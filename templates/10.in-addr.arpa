@@ -909,7 +909,7 @@ $ORIGIN 36.64.{{ zonename }}.
 3       1H IN PTR       ae3-1022.cr2-eqiad.wikimedia.org.
 
 102     1H IN PTR       druid1002.eqiad.wmnet.
-103     1H IN PTR       stat1003.eqiad.wmnet.
+
 104     1H IN PTR       analytics1064.eqiad.wmnet.
 105     1H IN PTR       analytics1065.eqiad.wmnet.
 106     1H IN PTR       analytics1066.eqiad.wmnet.
