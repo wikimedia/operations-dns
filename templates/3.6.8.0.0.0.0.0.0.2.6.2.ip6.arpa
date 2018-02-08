@@ -147,3 +147,5 @@ $ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 b.0.0.0                         1H IN PTR   upload-lb.ulsfo.wikimedia.org.
 
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+
+e.f.0.0                         1H IN PTR   dns-rec-lb.ulsfo.wikimedia.org.

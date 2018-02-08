@@ -323,6 +323,8 @@ misc-web-lb.ulsfo   600 IN DYNA geoip!misc-addrs/codfw
 donate-lb.ulsfo     600 IN DYNA geoip!text-addrs/ulsfo
             1H  IN MX 10    mx1001
             1H  IN MX 50    mx2001
+dns-rec-lb.ulsfo    1H  IN A    198.35.26.127
+                    1H  IN AAAA 2620:0:863:ed1a::3:fe
 
 ;;; eqsin
 text-lb.eqsin       600 IN DYNA geoip!text-addrs/eqsin
@@ -333,7 +335,8 @@ misc-web-lb.eqsin   600 IN DYNA geoip!misc-addrs/codfw
 donate-lb.eqsin     600 IN DYNA geoip!text-addrs/eqsin
             1H  IN MX 10    mx1001
             1H  IN MX 50    mx2001
-
+dns-rec-lb.eqsin    1H  IN A    103.102.166.254
+                    1H  IN AAAA 2001:df2:e500:ed1a::3:fe
 ;;; codfw
 dns-rec-lb.codfw    1H  IN A    208.80.153.254
                     1H  IN AAAA 2620:0:860:ed1a::3:fe

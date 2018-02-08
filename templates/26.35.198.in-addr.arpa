@@ -39,6 +39,7 @@
 ; - 198.35.26.112/28 (112-127) -- LVS high-traffic2 (Multimedia & Misc)
 
 112 1H IN PTR   upload-lb.ulsfo.wikimedia.org.
+127 1H IN PTR   dns-rec-lb.ulsfo.wikimedia.org.
 
 ; 198.35.26.128/26 (128-191) - unused
 

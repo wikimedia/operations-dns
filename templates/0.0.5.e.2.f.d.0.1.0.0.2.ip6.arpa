@@ -67,6 +67,8 @@ b.0.0.0                         1H IN PTR   upload-lb.eqsin.wikimedia.org.
 
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
+e.f.0.0                         1H IN PTR   dns-rec-lb.eqsin.wikimedia.org.
+
 ; 2001:df2:e500:fe00::/56 - Infrastructure IPs
 
 ; 2001:df2:e500:fe00::/64 - PCCW peering
