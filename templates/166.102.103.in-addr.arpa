@@ -22,6 +22,9 @@
 7  1H IN PTR   bast5001.wikimedia.org.
 8  1H IN PTR   dns5001.wikimedia.org.
 9  1H IN PTR   dns5002.wikimedia.org.
+10 1H IN PTR   vl510-eth0.lvs5001.eqsin.wmnet.
+11 1H IN PTR   vl510-eth0.lvs5002.eqsin.wmnet.
+12 1H IN PTR   vl510-eth0.lvs5003.eqsin.wmnet.
 
 ; 103.102.166.16/28 (16-31) - sandbox1-eqsin
 17 1H IN PTR   ae1-530.cr1-eqsin.wikimedia.org.

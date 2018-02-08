@@ -4688,6 +4688,11 @@ cp5011          1H      IN A    10.132.0.111
 cp5012          1H      IN A    10.132.0.112
                 1H      IN AAAA 2001:df2:e500:101:10:132:0:112
 
+; eqsin LVS cross-vlan
+vl510-eth0.lvs5001 1H   IN A 103.102.166.10
+vl510-eth0.lvs5002 1H   IN A 103.102.166.11
+vl510-eth0.lvs5003 1H   IN A 103.102.166.12
+
 ;
 ; SERVICES
 ;
