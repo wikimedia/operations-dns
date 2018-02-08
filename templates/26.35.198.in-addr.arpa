@@ -25,6 +25,9 @@
 6   1H IN PTR   bast4002.wikimedia.org.
 7   1H IN PTR   dns4001.wikimedia.org.
 8   1H IN PTR   dns4002.wikimedia.org.
+9   1H IN PTR   vl1201-eth0.lvs4005.ulsfo.wmnet.
+10  1H IN PTR   vl1201-eth0.lvs4006.ulsfo.wmnet.
+11  1H IN PTR   vl1201-eth0.lvs4007.ulsfo.wmnet.
 
 ; 198.35.26.16/28 (16-31) - unused
 ; 198.35.26.32/27 (32-63) - unused
