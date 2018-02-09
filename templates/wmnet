@@ -870,9 +870,6 @@ terbium         1H  IN A        10.64.32.13
 terbium         1H  IN AAAA     2620:0:861:103:10:64:32:13
 tungsten        1H  IN A        10.64.0.22
 lithium         1H  IN A        10.64.32.154
-logstash1001    1H  IN A        10.64.0.122
-logstash1002    1H  IN A        10.64.32.137
-logstash1003    1H  IN A        10.64.48.113
 logstash1004    1H  IN A        10.64.0.162
 logstash1005    1H  IN A        10.64.16.185
 logstash1006    1H  IN A        10.64.48.109
