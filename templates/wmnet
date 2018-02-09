@@ -943,10 +943,12 @@ asw-a-eqiad         1H  IN A        10.65.0.17
 asw-b-eqiad         1H  IN A        10.65.0.18
 lab-ex4200-1        1H  IN A        10.65.0.19
 asw2-a5-eqiad       1H  IN A        10.65.0.20
+asw2-a-eqiad        1H  IN A        10.65.0.21
 scs-c1-eqiad        1H  IN A        10.65.0.22
 asw-c-eqiad         1H  IN A        10.65.0.23
 asw-d-eqiad         1H  IN A        10.65.0.24
-
+asw2-b-eqiad        1H  IN A        10.65.0.25
+asw2-c-eqiad        1H  IN A        10.65.0.26
 asw2-d-eqiad        1H  IN A        10.65.0.27
 pfw3a-eqiad         1H  IN A        10.65.0.28
 pfw3b-eqiad         1H  IN A        10.65.0.29
