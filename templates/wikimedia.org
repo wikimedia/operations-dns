@@ -281,13 +281,16 @@ ununpentium     1H  IN A    208.80.154.19 ; VM on ganeti01.svc.eqiad.wmnet
 ntp.eqiad           1H  IN CNAME hydrogen
 
 ;;; ulsfo
-ntp.ulsfo           1H  IN CNAME hydrogen
+ntp.ulsfo           1H  IN CNAME dns4001
 
 ;;; codfw
 ntp.codfw           1H  IN CNAME acamar
 
 ;;; esams
 ntp.esams           1H  IN CNAME maerlant
+
+;;; eqsin
+ntp.eqsin           1H  IN CNAME dns5001
 
 ; Round Robin LVS Service records
 
