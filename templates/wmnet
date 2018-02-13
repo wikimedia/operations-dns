@@ -4643,8 +4643,11 @@ $ORIGIN eqsin.wmnet.
 
 ; Servers listed sequentially
 lvs5001         1H      IN A    10.132.0.11
+                1H      IN AAAA 2001:df2:e500:101:10:132:0:11
 lvs5002         1H      IN A    10.132.0.12
+                1H      IN AAAA 2001:df2:e500:101:10:132:0:12
 lvs5003         1H      IN A    10.132.0.13
+                1H      IN AAAA 2001:df2:e500:101:10:132:0:13
 
 cp5001          1H      IN A    10.132.0.101
                 1H      IN AAAA 2001:df2:e500:101:10:132:0:101

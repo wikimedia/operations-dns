@@ -31,18 +31,22 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 $ORIGIN 1.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-520.cr1-eqsin.wikimedia.org.
 
-1.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5001.eqsin.wmnet.
-2.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5002.eqsin.wmnet.
-3.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5003.eqsin.wmnet.
-4.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5004.eqsin.wmnet.
-5.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5005.eqsin.wmnet.
-6.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5006.eqsin.wmnet.
-7.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5007.eqsin.wmnet.
-8.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5008.eqsin.wmnet.
-9.0.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5009.eqsin.wmnet.
-0.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5010.eqsin.wmnet.
-1.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5011.eqsin.wmnet.
-2.1.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp5012.eqsin.wmnet.
+1.1.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   lvs5001.eqsin.wmnet.
+2.1.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   lvs5002.eqsin.wmnet.
+3.1.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   lvs5003.eqsin.wmnet.
+
+1.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5001.eqsin.wmnet.
+2.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5002.eqsin.wmnet.
+3.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5003.eqsin.wmnet.
+4.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5004.eqsin.wmnet.
+5.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5005.eqsin.wmnet.
+6.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5006.eqsin.wmnet.
+7.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5007.eqsin.wmnet.
+8.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5008.eqsin.wmnet.
+9.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5009.eqsin.wmnet.
+0.1.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5010.eqsin.wmnet.
+1.1.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5011.eqsin.wmnet.
+2.1.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5012.eqsin.wmnet.
 
 ; 2001:df2:e500:200::/56 - eqsin sandbox subnets
 ; 2001:df2:e500:201::/64 - sandbox1-eqsin
