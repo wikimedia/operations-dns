@@ -2753,8 +2753,6 @@ maps-test2001   1H  IN A    10.192.0.128
 maps-test2002   1H  IN A    10.192.0.129
 maps-test2003   1H  IN A    10.192.16.34
 maps-test2004   1H  IN A    10.192.16.35
-mc2017          1H  IN A    10.192.32.24
-mc2018          1H  IN A    10.192.32.25
 mc2019          1H  IN A    10.192.0.83
 mc2020          1H  IN A    10.192.0.84
 mc2021          1H  IN A    10.192.0.85

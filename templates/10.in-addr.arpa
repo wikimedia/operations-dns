@@ -3291,8 +3291,7 @@ $ORIGIN 32.192.{{ zonename }}.
 21  1H IN PTR   oresrdb2002.codfw.wmnet.
 22  1H IN PTR   naos.codfw.wmnet.
 23  1H IN PTR   kubernetes2003.codfw.wmnet.
-24  1H IN PTR   mc2017.codfw.wmnet.
-25  1H IN PTR   mc2018.codfw.wmnet.
+
 26  1H IN PTR   wtp2011.codfw.wmnet.
 27  1H IN PTR   wtp2012.codfw.wmnet.
 28  1H IN PTR   wtp2013.codfw.wmnet.
