@@ -718,6 +718,7 @@ pk               600 IN DYNA     geoip!text-addrs
 pl               600 IN DYNA     geoip!text-addrs
 projectcom       600 IN DYNA     geoip!text-addrs
 quality          600 IN DYNA     geoip!text-addrs
+romd             600 IN DYNA     geoip!text-addrs
 rs               600 IN DYNA     geoip!text-addrs
 ru               600 IN DYNA     geoip!text-addrs
 se               600 IN DYNA     geoip!text-addrs
