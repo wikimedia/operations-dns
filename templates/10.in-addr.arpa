@@ -83,6 +83,7 @@ $ORIGIN 2.2.{{ zonename }}.
 37  1H  IN PTR  recommendation-api.svc.eqiad.wmnet.
 38  1H  IN PTR  druid-public-broker.svc.eqiad.wmnet.
 39  1H  IN PTR  druid-public-overlord.svc.eqiad.wmnet.
+40  1H  IN PTR  labweb.svc.eqiad.wmnet.
 
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services

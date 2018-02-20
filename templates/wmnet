@@ -4740,6 +4740,7 @@ logstash     1H  IN A       10.2.2.36
 recommendation-api 1H IN A      10.2.2.37
 druid-public-broker    1H  IN A     10.2.2.38
 druid-public-overlord  1H  IN A     10.2.2.39
+labweb  1H  IN A     10.2.2.40
 
 ganeti01    1H  IN A        10.64.32.173
 labstore    1H  IN A        10.64.37.10
