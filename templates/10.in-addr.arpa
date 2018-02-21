@@ -3277,6 +3277,14 @@ $ORIGIN 21.192.{{ zonename }}.
 7   1H IN PTR   labstore.svc.codfw.wmnet.
 8   1H IN PTR   labstore2004.codfw.wmnet.
 
+; 10.192.22.0/24 - labs-instance-transport1-b-codfw
+$ORIGIN 22.192.{{ zonename }}.
+1   1H IN PTR   vrrp-gw-2120.codfw.wmnet.
+2   1H IN PTR   ae2-2120.cr1-codfw.wikimedia.org.
+3   1H IN PTR   ae2-2120.cr2-codfw.wikimedia.org.
+4   1H IN PTR   eth1-2120.labtestneutron2001.codfw.wmnet.
+5   1H IN PTR   eth1-2120.labtestneutron2002.codfw.wmnet.
+
 ; 10.192.32.0/22 - private1-c-codfw
 $ORIGIN 32.192.{{ zonename }}.
 
