@@ -3365,6 +3365,7 @@ db2089          1H  IN A    10.193.2.125
 db2090          1H  IN A    10.193.2.126
 db2091          1H  IN A    10.193.2.127
 db2092          1H  IN A    10.193.2.128
+db2093          1H  IN A    10.192.1.43
 dbstore2001     1H  IN A    10.193.1.253
 dbstore2002     1H  IN A    10.193.1.254
 elastic2001     1H  IN A    10.193.2.198
@@ -3744,7 +3745,6 @@ scb2006         1H  IN A    10.193.1.151
 stat2001        1H  IN A    10.193.2.13
 tegmen          1H  IN A    10.193.1.27
 tempdb2001      1H  IN A    10.193.2.254
-tendril2001     1H  IN A    10.193.1.43
 thumbor2001     1H  IN A    10.193.2.48
 thumbor2002     1H  IN A    10.193.2.49
 thumbor2003     1H  IN A    10.193.3.14
