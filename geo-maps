@@ -235,5 +235,7 @@ generic-map => {
         # AT&T's DNS clusters (incomplete)
         151.164.0.0/16     => [ulsfo, codfw, eqiad, esams, eqsin], # West Coast?
         12.121.112.0/22    => [ulsfo, codfw, eqiad, esams, eqsin], # West Coast?
+        # Facebook bots (incomplete)
+        2a03:2880::/32     => [codfw, eqiad, ulsfo, esams, eqsin],
     },
 }
