@@ -235,7 +235,23 @@ generic-map => {
         # AT&T's DNS clusters (incomplete)
         151.164.0.0/16     => [ulsfo, codfw, eqiad, esams, eqsin], # West Coast?
         12.121.112.0/22    => [ulsfo, codfw, eqiad, esams, eqsin], # West Coast?
-        # Facebook bots (incomplete)
+        # Facebook prefixes learned in ulsfo
+        31.13.24.0/21      => [codfw, eqiad, ulsfo, esams, eqsin],
+        31.13.64.0/18      => [codfw, eqiad, ulsfo, esams, eqsin],
+        45.64.40.0/22      => [codfw, eqiad, ulsfo, esams, eqsin],
+        66.220.144.0/20    => [codfw, eqiad, ulsfo, esams, eqsin],
+        69.63.176.0/20     => [codfw, eqiad, ulsfo, esams, eqsin],
+        69.171.224.0/19    => [codfw, eqiad, ulsfo, esams, eqsin],
+        74.119.76.0/22     => [codfw, eqiad, ulsfo, esams, eqsin],
+        103.4.96.0/22      => [codfw, eqiad, ulsfo, esams, eqsin],
+        157.240.0.0/17     => [codfw, eqiad, ulsfo, esams, eqsin],
+        173.252.64.0/19    => [codfw, eqiad, ulsfo, esams, eqsin],
+        173.252.96.0/19    => [codfw, eqiad, ulsfo, esams, eqsin],
+        179.60.192.0/22    => [codfw, eqiad, ulsfo, esams, eqsin],
+        185.60.216.0/22    => [codfw, eqiad, ulsfo, esams, eqsin],
+        204.15.20.0/22     => [codfw, eqiad, ulsfo, esams, eqsin],
+        2620:0:1c00::/40   => [codfw, eqiad, ulsfo, esams, eqsin],
+        2620:0:1cff::/48   => [codfw, eqiad, ulsfo, esams, eqsin],
         2a03:2880::/32     => [codfw, eqiad, ulsfo, esams, eqsin],
     },
 }
