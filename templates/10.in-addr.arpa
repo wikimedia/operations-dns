@@ -364,6 +364,7 @@ $ORIGIN 0.64.{{ zonename }}.
 126 1H IN PTR   aqs1004-a.eqiad.wmnet. ; cassandra instance
 127 1H IN PTR   aqs1004-b.eqiad.wmnet. ; cassandra instance
 128 1H IN PTR   db1111.eqiad.wmnet.
+129 1H IN PTR   kafkamon1001.eqiad.wmnet. ; VM ganeti01.svc.eqiad.wmnet
 
 162 1H IN PTR   logstash1004.eqiad.wmnet.
 163 1H IN PTR   db1096.eqiad.wmnet.
@@ -3014,6 +3015,7 @@ $ORIGIN 0.192.{{ zonename }}.
 94  1H IN PTR   kubetcd2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
 95  1H IN PTR   kubetcd2002.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
 96  1H IN PTR   webperf2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
+97  1H IN PTR   kafkamon2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
