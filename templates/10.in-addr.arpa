@@ -2942,7 +2942,7 @@ $ORIGIN 0.192.{{ zonename }}.
 17  1H IN PTR   db2014.codfw.wmnet.
 18  1H IN PTR   ores2002.codfw.wmnet.
 19  1H IN PTR   poolcounter2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-
+20  1H IN PTR   wdqs2004.codfw.wmnet.
 25  1H IN PTR   es2001.codfw.wmnet.
 26  1H IN PTR   es2002.codfw.wmnet.
 27  1H IN PTR   puppetmaster2001.codfw.wmnet.
@@ -3065,6 +3065,7 @@ $ORIGIN 16.192.{{ zonename }}.
 1   1H IN PTR   vrrp-gw-2018.codfw.wmnet.
 2   1H IN PTR   ae2-2018.cr1-codfw.wikimedia.org.
 3   1H IN PTR   ae2-2018.cr2-codfw.wikimedia.org.
+4   1H IN PTR   wdqs2005.codfw.wmnet.
 
 8   1H IN PTR   db2020.codfw.wmnet.
 9   1H IN PTR   db2021.codfw.wmnet.
@@ -3568,6 +3569,7 @@ $ORIGIN 48.192.{{ zonename }}.
 89  1H IN PTR   ores2008.codfw.wmnet.
 90  1H IN PTR   ores2009.codfw.wmnet.
 91  1H IN PTR   db2093.codfw.wmnet.
+92  1H IN PTR   wdqs2006.codfw.wmnet.
 
 $ORIGIN 49.192.{{ zonename }}.
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
@@ -3741,6 +3743,12 @@ $ORIGIN 1.193.{{ zonename }}.
 42  1H IN PTR  wmf6587.mgmt.codfw.wmnet.
 43  1H IN PTR  db2093.mgmt.codfw.wmnet.
 43  1H IN PTR  wmf6595.mgmt.codfw.wmnet.
+44  1H IN PTR  wdqs2004.mgmt.codfw.wmnet.
+44  1H IN PTR  wmf6596.mgmt.codfw.wmnet.
+45  1H IN PTR  wdqs2005.mgmt.codfw.wmnet.
+45  1H IN PTR  wmf6597.mgmt.codfw.wmnet.
+46  1H IN PTR  wdqs2006.mgmt.codfw.wmnet.
+46  1H IN PTR  wmf6598.mgmt.codfw.wmnet.
 
 49  1H IN PTR  labtestweb2001.mgmt.codfw.wmnet.
 49  1H IN PTR  wmf5847.mgmt.codfw.wmnet.

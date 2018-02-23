@@ -3126,6 +3126,10 @@ wtp2020         1H  IN A    10.192.32.35
 wdqs2001        1H  IN A    10.192.32.148
 wdqs2002        1H  IN A    10.192.48.65
 wdqs2003        1H  IN A    10.192.0.29
+wdqs2004        1H  IN A    10.192.0.20
+wdqs2005        1H  IN A    10.192.16.4
+wdqs2006        1H  IN A    10.192.48.92
+
 
 ; codfw LVS cross-vlan addresses
 vl2001-eth0.lvs2001 1H  IN A    208.80.153.6
@@ -3786,6 +3790,9 @@ wtp2020         1H  IN A    10.193.2.34
 wdqs2001        1H  IN A    10.193.1.145
 wdqs2002        1H  IN A    10.193.1.146
 wdqs2003        1H  IN A    10.193.1.162
+wdqs2004        1H  IN A    10.193.1.44
+wdqs2005        1H  IN A    10.193.1.45
+wdqs2006        1H  IN A    10.193.1.46
 
 ; Servers MGMT - Alphabetical by asset tag
 
@@ -4271,6 +4278,10 @@ wmf6581         1H  IN A    10.193.1.40
 wmf6582         1H  IN A    10.193.1.41
 wmf6587         1H  IN A    10.193.1.42
 wmf6595         1H  IN A    10.193.1.43
+wmf6596         1H  IN A    10.193.1.44
+wmf6597         1H  IN A    10.193.1.45
+wmf6598         1H  IN A    10.193.1.46
+
 ;
 ; ESAMS
 ;
