@@ -124,6 +124,7 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 0.5.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   planet1001.eqiad.wmnet.
 3.2.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   prometheus1003.eqiad.wmnet.
 8.8.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   releases1001.eqiad.wmnet.
+9.2.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafkamon1001.eqiad.wmnet.
 
 6.9.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   tin.eqiad.wmnet.
 

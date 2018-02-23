@@ -456,6 +456,7 @@ hassium         1H  IN A        10.64.0.53
 helium          1H  IN A        10.64.0.179
 hp1001          1H  IN A        10.64.32.147
 kafkamon1001    1H  IN A        10.64.0.129
+kafkamon1001    1H  IN AAAA     2620:0:861:101:10:64:0:129
 krypton         1H  IN A        10.64.32.182
 kubestage1001   1H  IN A        10.64.0.247
 kubestage1001   1H  IN AAAA     2620:0:861:101:10:64:0:247
@@ -2730,6 +2731,7 @@ kafka2001       1H  IN A    10.192.0.139
 kafka2002       1H  IN A    10.192.16.169
 kafka2003       1H  IN A    10.192.32.150
 kafkamon2001    1H  IN A    10.192.0.97
+kafkamon2001    1H  IN AAAA 2620:0:860:101:10:192:0:97
 kubernetes2001  1H  IN A    10.192.0.11
 kubernetes2001  1H  IN AAAA 2620:0:860:101:10:192:0:11
 kubernetes2002  1H  IN A    10.192.16.42
