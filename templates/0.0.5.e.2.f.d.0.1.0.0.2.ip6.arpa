@@ -83,7 +83,7 @@ $ORIGIN 0.0.e.f.{{ zonename }}.
 ; 2001:df2:e500:fe01::/64 -  cr1-ulsfo <--> cr1-eqsin (Telia tunnel)
 $ORIGIN 1.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr1-eqsin.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-1-3-0-1.cr1-ulsfo.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr2-ulsfo.wikimedia.org.
 
 ; 2001:df2:e500:fe02::/64 -  cr1-codfw <--> cr1-eqsin (Telia EVPN)
 $ORIGIN 2.0.e.f.{{ zonename }}.
