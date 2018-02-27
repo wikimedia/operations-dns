@@ -45,7 +45,7 @@ s8-master       5M  IN CNAME    db1071.eqiad.wmnet.
 m1-master       5M  IN CNAME    dbproxy1006.eqiad.wmnet.
 m1-slave        5M  IN CNAME    db1001.eqiad.wmnet.
 m2-master       5M  IN CNAME    dbproxy1002.eqiad.wmnet.
-m2-slave        5M  IN CNAME    db2011.codfw.wmnet.
+m2-slave        5M  IN CNAME    db2044.codfw.wmnet.
 m3-master       5M  IN CNAME    dbproxy1008.eqiad.wmnet.
 m3-slave        5M  IN CNAME    db1053.eqiad.wmnet.
 m4-master       5M  IN CNAME    dbproxy1009.eqiad.wmnet.
@@ -2493,8 +2493,8 @@ config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          1H  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install2002.wikimedia.org.
 deployment      1H  IN CNAME    tin.eqiad.wmnet.
-m2-master       5M  IN CNAME    db2011.codfw.wmnet.
-m2-slave        5M  IN CNAME    db2011.codfw.wmnet.
+m2-master       5M  IN CNAME    db2044.codfw.wmnet.
+m2-slave        5M  IN CNAME    db2044.codfw.wmnet.
 statsd          1H  IN CNAME    graphite2001.codfw.wmnet.
 syslog          1H  IN CNAME    wezen.codfw.wmnet.
 udplog          1H  IN CNAME    mwlog1001.eqiad.wmnet.
