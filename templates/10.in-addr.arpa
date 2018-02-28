@@ -3257,6 +3257,7 @@ $ORIGIN 16.192.{{ zonename }}.
 178 1H IN PTR   restbase2007-c.codfw.wmnet.
 179 1H IN PTR   maps2002.codfw.wmnet.
 
+182 1H IN PTR   elnath.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 183 1H IN PTR   puppetdb2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 184 1H IN PTR   nihal.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 185 1H IN PTR   restbase2010.codfw.wmnet.
