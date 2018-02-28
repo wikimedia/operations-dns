@@ -826,6 +826,7 @@ superset         600 IN DYNA     geoip!misc-addrs
 racktables       600 IN DYNA     geoip!misc-addrs
 scholarships     600 IN DYNA     geoip!misc-addrs
 transparency     600 IN DYNA     geoip!misc-addrs
+transparency-private 600 IN DYNA     geoip!misc-addrs
 search           600 IN DYNA     geoip!text-addrs
 shop             600 IN DYNA     geoip!text-addrs
 smokeping        600 IN DYNA     geoip!misc-addrs
