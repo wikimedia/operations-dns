@@ -589,6 +589,7 @@ performance     600 IN DYNA     geoip!misc-addrs
 horizon         600 IN DYNA     geoip!misc-addrs
 newhorizon      600 IN DYNA     geoip!misc-addrs
 newtoolsadmin   600 IN DYNA     geoip!misc-addrs
+newwikitech     600 IN DYNA     geoip!misc-addrs
 
 icinga          5M  IN CNAME    einsteinium
 
