@@ -80,7 +80,7 @@ $ORIGIN 0.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-2-0-2.cr1-eqsin.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   pccw-peering.cr1-eqsin.wikimedia.org.
 
-; 2001:df2:e500:fe01::/64 -  cr1-ulsfo <--> cr1-eqsin (Telia tunnel)
+; 2001:df2:e500:fe01::/64 -  cr1-ulsfo <--> cr1-eqsin (NTT tunnel)
 $ORIGIN 1.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr1-eqsin.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr2-ulsfo.wikimedia.org.
@@ -89,6 +89,11 @@ $ORIGIN 1.0.e.f.{{ zonename }}.
 $ORIGIN 2.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-0.cr1-eqsin.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-1-2.cr1-codfw.wikimedia.org.
+
+; 2001:df2:e500:fe03::/64 -  mr1-eqsin <--> cr1-eqsin
+$ORIGIN 3.0.e.f.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-401.cr1-eqsin.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ge-0-0-4-401.mr1-eqsin.wikimedia.org.
 
 ; 2001:df2:e500:ffff::/56 - Loopback IPs
 $ORIGIN f.f.f.f.{{ zonename }}.
