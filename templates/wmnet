@@ -3001,6 +3001,8 @@ mw2255          1H  IN A    10.192.16.54
 mw2256          1H  IN A    10.192.16.55
 mw2257          1H  IN A    10.192.16.56
 mw2258          1H  IN A    10.192.16.57
+mwdebug2001     1H  IN A    10.192.0.98 ; VM on the ganeti01.svc.codfw.wmnet cluster
+mwdebug2002     1H  IN A    10.192.16.66 ; VM on the ganeti01.svc.codfw.wmnet cluster
 mwlog2001       1H  IN A    10.192.32.131
 naos            1H  IN A    10.192.32.22
 naos            1H  IN AAAA 2620:0:860:103:10:192:32:22
