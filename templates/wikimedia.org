@@ -589,7 +589,7 @@ performance     600 IN DYNA     geoip!misc-addrs
 horizon         600 IN DYNA     geoip!misc-addrs
 newhorizon      600 IN DYNA     geoip!misc-addrs
 newtoolsadmin   600 IN DYNA     geoip!misc-addrs
-newwikitech     600 IN DYNA     geoip!misc-addrs
+wikitech        600 IN DYNA     geoip!misc-addrs
 
 icinga          5M  IN CNAME    einsteinium
 
@@ -840,7 +840,6 @@ ticket           600 IN DYNA     geoip!misc-addrs
 tor-eqiad-1      1H  IN CNAME    radium
 mirrors          1H  IN CNAME    sodium
 yarn             600 IN DYNA     geoip!misc-addrs
-wikitech             5M  IN CNAME    silver
 wikitech-static-iad  5M  IN A        162.209.126.221
 wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
 wikitech-static      5M  IN A        192.237.162.200
