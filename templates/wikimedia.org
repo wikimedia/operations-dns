@@ -388,6 +388,7 @@ et.m                600 IN DYNA     geoip!text-addrs
 incubator.m         600 IN DYNA     geoip!text-addrs
 fdc.m               600 IN DYNA     geoip!text-addrs
 fi.m                600 IN DYNA     geoip!text-addrs
+hi.m                600 IN DYNA     geoip!text-addrs
 legalteam.m         600 IN DYNA     geoip!text-addrs
 mai.m               600 IN DYNA     geoip!text-addrs
 meta.m              600 IN DYNA     geoip!text-addrs
@@ -690,6 +691,7 @@ exec             600 IN DYNA     geoip!text-addrs
 fdc              600 IN DYNA     geoip!text-addrs
 fi               600 IN DYNA     geoip!text-addrs
 grants           600 IN DYNA     geoip!text-addrs
+hi               600 IN DYNA     geoip!text-addrs
 hu               600 IN DYNA     geoip!text-addrs
 iegcom           600 IN DYNA     geoip!text-addrs
 il               600 IN DYNA     geoip!text-addrs
