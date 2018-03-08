@@ -6,10 +6,7 @@ text-addrs => {
         codfw => { addrs_v4 => 208.80.153.224, addrs_v6 => 2620:0:860:ed1a::1 }
         esams => { addrs_v4 => 91.198.174.192, addrs_v6 => 2620:0:862:ed1a::1 }
         ulsfo => { addrs_v4 => 198.35.26.96,   addrs_v6 => 2620:0:863:ed1a::1 }
-        # eqsin using ulsfo IPs temporarily for testing/validation, site not ready yet
-        # real addresses for future use:
-        # eqsin => { addrs_v4 => 103.102.166.224, addrs_v6 => 2001:df2:e500:ed1a::1 }
-        eqsin => { addrs_v4 => 198.35.26.96,   addrs_v6 => 2620:0:863:ed1a::1 }
+        eqsin => { addrs_v4 => 103.102.166.224, addrs_v6 => 2001:df2:e500:ed1a::1 }
     }
 }
 upload-addrs => {
@@ -20,10 +17,7 @@ upload-addrs => {
         codfw => { addrs_v4 => 208.80.153.240, addrs_v6 => 2620:0:860:ed1a::2:b }
         esams => { addrs_v4 => 91.198.174.208, addrs_v6 => 2620:0:862:ed1a::2:b }
         ulsfo => { addrs_v4 => 198.35.26.112,  addrs_v6 => 2620:0:863:ed1a::2:b }
-        # eqsin using ulsfo IPs temporarily for testing/validation, site not ready yet
-        # real addresses for future use:
-        # eqsin => { addrs_v4 => 103.102.166.240, addrs_v6 => 2001:df2:e500:ed1a::2:b }
-        eqsin => { addrs_v4 => 198.35.26.112,  addrs_v6 => 2620:0:863:ed1a::2:b }
+        eqsin => { addrs_v4 => 103.102.166.240, addrs_v6 => 2001:df2:e500:ed1a::2:b }
     }
 }
 misc-addrs => {
