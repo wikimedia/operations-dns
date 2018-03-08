@@ -73,7 +73,7 @@
 82  1H  IN PTR  dbmonitor1001.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 
 85  1H  IN PTR  gerrit.wikimedia.org.
-86  1H  IN PTR  bast1001.wikimedia.org.
+86  1H  IN PTR  bast1002.wikimedia.org.
 
 91  1H  IN PTR  wiki-mail-eqiad.wikimedia.org.
 92  1H  IN PTR  labcontrol1001.wikimedia.org.
