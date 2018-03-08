@@ -900,6 +900,9 @@ webperf1001     1H  IN A        10.64.0.215
 wdqs1003        1H  IN A        10.64.0.14
 wdqs1004        1H  IN A        10.64.0.17
 wdqs1005        1H  IN A        10.64.48.46
+wdqs1006        1H  IN A        10.64.0.109
+wdqs1007        1H  IN A        10.64.16.10
+wdqs1008        1H  IN A        10.64.48.24
 wtp1025         1H  IN A        10.64.0.239
 wtp1026         1H  IN A        10.64.0.240
 wtp1027         1H  IN A        10.64.0.241
@@ -1973,6 +1976,12 @@ wmf7117     1H  IN A    10.65.7.81
 wdqs1004    1H  IN A    10.65.7.81
 wmf7118     1H  IN A    10.65.7.82
 wdqs1005    1H  IN A    10.65.7.82
+wdqs1006    1H  IN A    10.65.7.87
+wmf7352     1H  IN A    10.65.7.87
+wdqs1007    1H  IN A    10.65.7.88
+wmf7353     1H  IN A    10.65.7.88
+wdqs1008    1H  IN A    10.65.7.89
+wmf7354     1H  IN A    10.65.7.89
 wmf3151     1H  IN A    10.65.7.100
 snapshot1001    1H  IN A    10.65.3.81
 wmf3466         1H  IN A    10.65.3.81
