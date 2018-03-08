@@ -56,6 +56,7 @@ wikimedia.org.      600 IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 
 
 donate          5M  IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
 
+gh-mail         1H  IN TXT  "v=spf1 include:mg-spf.greenhouse.io ~all"
 
 ; CAA records for wikimedia.org - all types for globalsign and digicert, non-wildcard for LE
 ; cf. https://sslmate.com/labs/caa/, data below is:
@@ -782,6 +783,8 @@ bugs             600 IN DYNA     geoip!misc-addrs
 bugzilla         600 IN DYNA     geoip!misc-addrs
 bug-attachment   600 IN DYNA     geoip!text-addrs
 careers          600 IN DYNA     geoip!text-addrs
+gh-mail          1H  IN MX       10 mxa.mailgun.org.
+gh-mail          1H  IN MX       10 mxb.mailgun.org.
 civicrm          1H  IN A        208.80.155.11
 civicrm          1H  IN MX       10 mx1001
 civicrm          1H  IN MX       50 mx2001
