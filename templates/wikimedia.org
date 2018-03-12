@@ -406,6 +406,7 @@ pa-us.m             600 IN DYNA     geoip!text-addrs
 pl.m                600 IN DYNA     geoip!text-addrs
 pt.m                600 IN DYNA     geoip!text-addrs
 rs.m                600 IN DYNA     geoip!text-addrs
+romd.m              600 IN DYNA     geoip!text-addrs
 ru.m                600 IN DYNA     geoip!text-addrs
 se.m                600 IN DYNA     geoip!text-addrs
 species.m           600 IN DYNA     geoip!text-addrs
