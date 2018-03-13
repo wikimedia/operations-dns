@@ -229,9 +229,6 @@ argon            1H IN AAAA          2620:0:861:103:10:64:32:133
 bast-test        1H IN A             10.64.48.96
 bohrium          1H IN A             10.64.0.55 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 boron            1H IN A             10.64.0.36 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-cerium           1H IN A             10.64.16.147
-cerium-a         1H IN A             10.64.16.153 ; cassandra instance
-cerium-b         1H IN A             10.64.16.154 ; cassandra instance
 chlorine         1H IN A             10.64.0.45 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 chlorine         1H IN AAAA          2620:0:861:101:10:64:0:45
 conf1001         1H IN A             10.64.0.18
@@ -762,9 +759,6 @@ planet1001      1H  IN A        10.64.0.50
 planet1001      1H  IN AAAA     2620:0:861:101:10:64:0:50
 poolcounter1001 1H  IN A        10.64.32.126 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 poolcounter1002 1H  IN A        10.64.16.152
-praseodymium    1H  IN A        10.64.16.149
-praseodymium-a  1H  IN A        10.64.16.188 ; cassandra instance
-praseodymium-b  1H  IN A        10.64.16.189 ; cassandra instance
 prometheus1003  1H  IN A        10.64.0.123
 prometheus1003  1H  IN AAAA     2620:0:861:101:10:64:0:123
 prometheus1004  1H  IN A        10.64.16.38
@@ -932,9 +926,6 @@ wtp1045         1H  IN A        10.64.48.163
 wtp1046         1H  IN A        10.64.48.164
 wtp1047         1H  IN A        10.64.48.165
 wtp1048         1H  IN A        10.64.48.166
-xenon           1H  IN A        10.64.0.200
-xenon-a         1H  IN A        10.64.0.202 ; cassandra instance
-xenon-b         1H  IN A        10.64.0.203 ; cassandra instance
 
 ; Management
 

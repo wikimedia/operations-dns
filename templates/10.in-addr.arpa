@@ -389,10 +389,9 @@ $ORIGIN 0.64.{{ zonename }}.
 197 1H IN PTR   mw1259.eqiad.wmnet.
 198 1H IN PTR   dbproxy1003.eqiad.wmnet.
 199 1H IN PTR   aqs1007.eqiad.wmnet.
-200 1H IN PTR   xenon.eqiad.wmnet.
+
 201 1H IN PTR   rdb1003.eqiad.wmnet.
-202 1H IN PTR   xenon-a.eqiad.wmnet.
-203 1H IN PTR   xenon-b.eqiad.wmnet.
+
 204 1H IN PTR   db1074.eqiad.wmnet.
 205 1H IN PTR   db1075.eqiad.wmnet.
 206 1H IN PTR   db1054.eqiad.wmnet.
@@ -582,14 +581,12 @@ $ORIGIN 16.64.{{ zonename }}.
 112 1H IN PTR   elastic1050.eqiad.wmnet.
 
 146 1H IN PTR   mw1260.eqiad.wmnet.
-147 1H IN PTR   cerium.eqiad.wmnet.
+
 148 1H IN PTR   dbproxy1004.eqiad.wmnet.
-149 1H IN PTR   praseodymium.eqiad.wmnet.
 
 151 1H IN PTR   ruthenium.eqiad.wmnet.
 152 1H IN PTR   poolcounter1002.eqiad.wmnet.
-153 1H IN PTR   cerium-a.eqiad.wmnet.
-154 1H IN PTR   cerium-b.eqiad.wmnet.
+
 155 1H IN PTR   dbproxy1005.eqiad.wmnet.
 156 1H IN PTR   pc1001.eqiad.wmnet.
 157 1H IN PTR   pc1002.eqiad.wmnet.
@@ -616,8 +613,7 @@ $ORIGIN 16.64.{{ zonename }}.
 185 1H IN PTR   logstash1005.eqiad.wmnet.
 186 1H IN PTR   es1013.eqiad.wmnet.
 187 1H IN PTR   es1014.eqiad.wmnet.
-188 1H IN PTR   praseodymium-a.eqiad.wmnet.
-189 1H IN PTR   praseodymium-b.eqiad.wmnet.
+
 190 1H IN PTR   db1076.eqiad.wmnet.
 191 1H IN PTR   db1077.eqiad.wmnet.
 192 1H IN PTR   ms-be1022.eqiad.wmnet.
