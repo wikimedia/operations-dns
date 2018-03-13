@@ -3105,7 +3105,6 @@ $ORIGIN 16.192.{{ zonename }}.
 14  1H IN PTR   ms-be2032.codfw.wmnet.
 15  1H IN PTR   ms-be2033.codfw.wmnet.
 
-18  1H IN PTR   db2030.codfw.wmnet.
 19  1H IN PTR   db2031.codfw.wmnet.
 20  1H IN PTR   db2032.codfw.wmnet.
 21  1H IN PTR   poolcounter2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
