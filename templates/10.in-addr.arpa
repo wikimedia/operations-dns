@@ -714,6 +714,7 @@ $ORIGIN 32.64.{{ zonename }}.
 14      1H IN PTR       ores1005.eqiad.wmnet.
 15      1H IN PTR       ores1006.eqiad.wmnet.
 16      1H IN PTR       deploy1001.eqiad.wmnet.
+17      1H IN PTR       puppetboard1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 18      1H IN PTR       rdb1007.eqiad.wmnet.
 19      1H IN PTR       rdb1008.eqiad.wmnet.
 20      1H IN PTR       neodymium.eqiad.wmnet.
@@ -3109,6 +3110,7 @@ $ORIGIN 16.192.{{ zonename }}.
 20  1H IN PTR   db2032.codfw.wmnet.
 21  1H IN PTR   poolcounter2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 22  1H IN PTR   db2051.codfw.wmnet.
+23  1H IN PTR   puppetboard2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 25  1H IN PTR   tureis.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 26  1H IN PTR   acrab.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 27  1H IN PTR   es2003.codfw.wmnet.
