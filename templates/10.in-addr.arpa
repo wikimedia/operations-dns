@@ -502,8 +502,6 @@ $ORIGIN 16.64.{{ zonename }}.
 28  1H IN PTR   db1039.eqiad.wmnet.
 29  1H IN PTR   conf1005.eqiad.wmnet.
 
-32  1H IN PTR   db1043.eqiad.wmnet.
-
 38  1H IN PTR   prometheus1004.eqiad.wmnet.
 39  1H IN PTR   db1072.eqiad.wmnet.
 40  1H IN PTR   ms-be1020.eqiad.wmnet.
