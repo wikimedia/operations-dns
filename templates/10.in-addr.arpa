@@ -45,6 +45,9 @@ $ORIGIN 1.2.{{ zonename }}.
 35  1H  IN PTR  pdfrender.svc.codfw.wmnet.
 ; 36 reserved for logstash
 37  1H  IN PTR  recommendation-api.svc.codfw.wmnet.
+; 38 reserved for druid-public-broker
+; 39 reserved for druid-public-overlord
+; 40 reserved for labweb
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
