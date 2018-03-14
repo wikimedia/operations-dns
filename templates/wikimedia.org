@@ -630,6 +630,8 @@ piwik           600 IN DYNA     geoip!misc-addrs ; T103577
 ; policy.wikimedia.org goes to wordpress cluster T110203
 policy          5M  IN A        192.0.66.2
 
+puppetboard      600 IN DYNA     geoip!misc-addrs
+
 releases         600 IN DYNA     geoip!misc-addrs
 releases-jenkins 600 IN DYNA     geoip!misc-addrs
 
