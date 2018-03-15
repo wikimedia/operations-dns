@@ -850,8 +850,9 @@ wikitech-static-iad  5M  IN A        162.209.126.221
 wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
 wikitech-static      5M  IN A        192.237.162.200
 wikitech-static      5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
-labtestwikitech  1H  IN CNAME    labtestweb2001
-labtesthorizon   1H  IN DYNA     geoip!misc-addrs
+labtestwikitech   1H  IN DYNA     geoip!misc-addrs
+labtesthorizon    1H  IN DYNA     geoip!misc-addrs
+labtesttoolsadmin 1H  IN DYNA     geoip!misc-addrs
 labtestspice     1H  IN DYNA     geoip!misc-addrs
 labspice         1H  IN DYNA     geoip!misc-addrs
 
