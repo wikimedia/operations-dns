@@ -853,8 +853,6 @@ wikitech-static      5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
 labtestwikitech   1H  IN DYNA     geoip!misc-addrs
 labtesthorizon    1H  IN DYNA     geoip!misc-addrs
 labtesttoolsadmin 1H  IN DYNA     geoip!misc-addrs
-labtestspice     1H  IN DYNA     geoip!misc-addrs
-labspice         1H  IN DYNA     geoip!misc-addrs
 
 ; SNI testing hostname
 pinkunicorn      600 A 208.80.154.42
