@@ -28,7 +28,7 @@ webproxy        5M  IN CNAME    install1002.wikimedia.org.
 carbon-relay    1H  IN CNAME    graphite1001.eqiad.wmnet.
 graphite        1H  IN CNAME    graphite1001.eqiad.wmnet.
 graphite-in     1H  IN CNAME    graphite1001.eqiad.wmnet.
-config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
+config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 statsd          1H  IN CNAME    graphite1001.eqiad.wmnet.
 eventlogging    1H  IN CNAME    eventlog1001.eqiad.wmnet.
 udplog          1H  IN CNAME    mwlog1001.eqiad.wmnet.
@@ -862,7 +862,7 @@ phab1001        1H  IN AAAA     2620:0:861:102:10:64:16:8
 phab1001-aphlict 1H IN CNAME    phab1001 ; CNAME here due to varnish puppetization woes
 phab1001-vcs    1H  IN A        10.64.16.100
 phab1001-vcs    1H  IN AAAA     2620:0:861:102:10:64:16:100
-puppet          1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 technetium      1H  IN A        10.64.32.188
 thorium         1H  IN A        10.64.53.26
 thumbor1001     1H  IN A        10.64.16.56
@@ -2507,8 +2507,8 @@ resourcemanager 1H      IN CNAME  analytics1001.eqiad.wmnet.
 $ORIGIN codfw.wmnet.
 
 ; Service aliases
-config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          1H  IN CNAME    puppetmaster2001.codfw.wmnet.
+config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install2002.wikimedia.org.
 deployment      1H  IN CNAME    tin.eqiad.wmnet.
 m2-master       5M  IN CNAME    db2044.codfw.wmnet.
@@ -4332,8 +4332,8 @@ cp3049      1H      IN A    10.20.0.184
 ;
 ; SERVICES
 ;
-config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          1H  IN CNAME    puppetmaster2001.codfw.wmnet.
+config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install1002.wikimedia.org.
 
 ; etcd client discovery (RO)
@@ -4579,7 +4579,7 @@ vl1201-eth0.lvs4007  1H IN A 198.35.26.11
 ;
 ; SERVICES
 ;
-config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
+config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install2002.wikimedia.org.
 
@@ -4699,7 +4699,7 @@ vl510-eth0.lvs5003 1H   IN A 103.102.166.12
 ;
 ; SERVICES
 ;
-config-master   1H  IN CNAME    puppetmaster1001.eqiad.wmnet.
+config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install2002.wikimedia.org.
 
