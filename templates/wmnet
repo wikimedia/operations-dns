@@ -4701,7 +4701,7 @@ vl510-eth0.lvs5003 1H   IN A 103.102.166.12
 ; SERVICES
 ;
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install2002.wikimedia.org.
 
 ; etcd client discovery (RO)
