@@ -4581,7 +4581,7 @@ vl1201-eth0.lvs4007  1H IN A 198.35.26.11
 ; SERVICES
 ;
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install2002.wikimedia.org.
 
 ; etcd client discovery (RO)
