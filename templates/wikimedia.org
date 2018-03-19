@@ -554,6 +554,8 @@ config-master   600 IN DYNA     geoip!misc-addrs
 
 dash.frdev      1H  IN CNAME    frdev-eqiad
 
+design          600 IN DYNA     geoip!misc-addrs
+
 dbmonitor1001   600 IN A        208.80.154.82
 dbmonitor1001   600 IN AAAA     2620:0:861:3:208:80:154:82
 dbmonitor2001   600 IN A        208.80.153.52
