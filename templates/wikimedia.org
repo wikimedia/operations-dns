@@ -657,6 +657,7 @@ url-downloader        1H  IN CNAME      url-downloader.eqiad
 
 ; Wikis (alphabetic order)
 
+advisors         600 IN DYNA     geoip!text-addrs
 advisory         600 IN DYNA     geoip!text-addrs
 affcom           600 IN DYNA     geoip!text-addrs
 am               600 IN DYNA     geoip!text-addrs
