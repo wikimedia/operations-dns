@@ -293,7 +293,6 @@ cp1099           1H  IN A        10.64.32.81
                  1H  IN AAAA     2620:0:861:103:10:64:32:81
 darmstadtium    1H  IN A        10.64.32.200 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 db1001          1H  IN A        10.64.0.5
-db1009          1H  IN A        10.64.0.13
 db1011          1H  IN A        10.64.0.15
 db1016          1H  IN A        10.64.0.20
 graphite1001    1H  IN A        10.64.32.155

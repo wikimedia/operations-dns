@@ -253,7 +253,7 @@ $ORIGIN 0.64.{{ zonename }}.
 10  1H IN PTR   oresrdb1002.eqiad.wmnet.
 11  1H IN PTR   kafka1001.eqiad.wmnet.
 12  1H IN PTR   pc1004.eqiad.wmnet.
-13  1H IN PTR   db1009.eqiad.wmnet.
+
 14  1H IN PTR   wdqs1003.eqiad.wmnet.
 15  1H IN PTR   db1011.eqiad.wmnet.
 16  1H IN PTR   scb1001.eqiad.wmnet.
