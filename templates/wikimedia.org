@@ -320,6 +320,8 @@ git-ssh.eqiad       1H  IN AAAA 2620:0:861:ed1a::3:16
 git-ssh             600 IN A    208.80.154.250
 git-ssh             600 IN AAAA 2620:0:861:ed1a::3:16
 
+; test ping VIP - T190090
+ping-test.eqiad    1H  IN A    208.80.154.225
 ;;; ulsfo
 text-lb.ulsfo       600 IN DYNA geoip!text-addrs/ulsfo
 upload-lb.ulsfo     600 IN DYNA geoip!upload-addrs/ulsfo

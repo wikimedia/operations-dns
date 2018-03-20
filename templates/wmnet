@@ -753,6 +753,7 @@ pc1003          1H  IN A        10.64.16.158
 pc1004          1H  IN A        10.64.0.12
 pc1005          1H  IN A        10.64.32.72
 pc1006          1H  IN A        10.64.48.128
+ping1001        1H  IN A        10.64.32.31
 planet1001      1H  IN A        10.64.0.50
 planet1001      1H  IN AAAA     2620:0:861:101:10:64:0:50
 poolcounter1001 1H  IN A        10.64.32.126 ; VM on the ganeti01.svc.eqiad.wmnet cluster
