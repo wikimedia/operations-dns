@@ -380,6 +380,7 @@ dbproxy1011     1H  IN A        10.64.37.15
 dbstore1001     1H  IN A        10.64.48.17
 dbstore1002     1H  IN A        10.64.48.18
 deploy1001      1H  IN A        10.64.32.16
+deploy1001      1H  IN AAAA     2620:0:861:103:10:64:32:16
 d-i-test        1H  IN A        10.64.32.201
 druid1001       1H  IN A        10.64.5.101
 druid1002       1H  IN A        10.64.36.102
