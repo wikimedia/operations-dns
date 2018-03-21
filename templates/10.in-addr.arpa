@@ -2936,7 +2936,7 @@ $ORIGIN 0.192.{{ zonename }}.
 12  1H IN PTR   ores2001.codfw.wmnet.
 13  1H IN PTR   db2010.codfw.wmnet.
 14  1H IN PTR   db2011.codfw.wmnet.
-
+15  1H IN PTR   ms-be2040.codfw.wmnet.
 16  1H IN PTR   db2013.codfw.wmnet.
 17  1H IN PTR   db2014.codfw.wmnet.
 18  1H IN PTR   ores2002.codfw.wmnet.
@@ -3132,6 +3132,7 @@ $ORIGIN 16.192.{{ zonename }}.
 69  1H IN PTR   mw2268.codfw.wmnet.
 70  1H IN PTR   mw2269.codfw.wmnet.
 71  1H IN PTR   mw2270.codfw.wmnet.
+72  1H IN PTR   ms-be2041.codfw.wmnet.
 
 108 1H IN PTR   mw2135.codfw.wmnet.
 109 1H IN PTR   mw2136.codfw.wmnet.
@@ -3268,6 +3269,7 @@ $ORIGIN 32.192.{{ zonename }}.
 11  1H IN PTR   db2040.codfw.wmnet.
 12  1H IN PTR   db2041.codfw.wmnet.
 13  1H IN PTR   db2042.codfw.wmnet.
+14  1H IN PTR   ms-be2042.codfw.wmnet.
 
 18  1H IN PTR   ms-be2015.codfw.wmnet.
 19  1H IN PTR   dbstore2002.codfw.wmnet.
@@ -3554,6 +3556,7 @@ $ORIGIN 48.192.{{ zonename }}.
 110 1H IN PTR   mw2288.codfw.wmnet.
 111 1H IN PTR   mw2289.codfw.wmnet.
 112 1H IN PTR   mw2290.codfw.wmnet.
+113 1H IN PTR   ms-be2043.codfw.wmnet.
 
 $ORIGIN 49.192.{{ zonename }}.
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
