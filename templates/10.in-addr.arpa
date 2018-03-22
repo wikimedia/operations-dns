@@ -387,7 +387,6 @@ $ORIGIN 0.64.{{ zonename }}.
 174 1H IN PTR   mw1312.eqiad.wmnet.
 175 1H IN PTR   kafka-jumbo1001.eqiad.wmnet.
 176 1H IN PTR   kafka-jumbo1002.eqiad.wmnet.
-177 1H IN PTR   backup1001.eqiad.wmnet.
 179 1H IN PTR   helium.eqiad.wmnet.
 
 196 1H IN PTR   tin.eqiad.wmnet.
@@ -2671,7 +2670,6 @@ $ORIGIN 7.65.{{ zonename }}.
 77      1H      IN PTR     wmf4748.mgmt.eqiad.wmnet.
 78      1H      IN PTR     bast1002.mgmt.eqiad.wmnet.
 78      1H      IN PTR     wmf4749.mgmt.eqiad.wmnet.
-79      1H      IN PTR     backup1001.mgmt.eqiad.wmnet.
 79      1H      IN PTR     wmf4750.mgmt.eqiad.wmnet.
 80      1H      IN PTR     eventlog1002.mgmt.eqiad.wmnet.
 80      1H      IN PTR     wmf4751.mgmt.eqiad.wmnet.
