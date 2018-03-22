@@ -226,6 +226,7 @@ aqs1009-a        1H IN A             10.64.48.122 ; cassandra instance
 aqs1009-b        1H IN A             10.64.48.123 ; cassandra instance
 argon            1H IN A             10.64.32.133 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 argon            1H IN AAAA          2620:0:861:103:10:64:32:133
+backup1001       1H IN A             10.64.0.177
 bast-test        1H IN A             10.64.48.96
 bohrium          1H IN A             10.64.0.55 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 boron            1H IN A             10.64.0.36 ; VM on the ganeti01.svc.eqiad.wmnet cluster
@@ -2350,6 +2351,7 @@ wmf4748         1H      IN A            10.65.7.77
 deploy1001      1H      IN A            10.65.7.77
 wmf4749         1H      IN A            10.65.7.78
 bast1002        1H      IN A            10.65.7.78
+backup1001      1H      IN A            10.65.7.79
 wmf4750         1H      IN A            10.65.7.79
 eventlog1002    1H      IN A            10.65.7.80
 wmf4751         1H      IN A            10.65.7.80
