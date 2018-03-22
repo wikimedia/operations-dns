@@ -630,8 +630,6 @@ mw1255          1H  IN A        10.64.48.90
 mw1256          1H  IN A        10.64.48.91
 mw1257          1H  IN A        10.64.48.92
 mw1258          1H  IN A        10.64.48.93
-mw1259          1H  IN A        10.64.0.197
-mw1260          1H  IN A        10.64.16.146
 mw1261          1H  IN A        10.64.0.56
 mw1262          1H  IN A        10.64.0.57
 mw1263          1H  IN A        10.64.0.58
@@ -1088,8 +1086,6 @@ wmf3416     1H  IN A    10.65.3.41
 wmf3417     1H  IN A    10.65.3.42
 wmf3418     1H  IN A    10.65.3.43
 wmf3419     1H  IN A    10.65.3.44
-mw1259      1H  IN A    10.65.3.51
-wmf3426     1H  IN A    10.65.3.51
 wmf3427     1H  IN A    10.65.3.52
 wmf3423     1H  IN A    10.65.3.48
 labcontrol1002  1H  IN A    10.65.3.48
@@ -2049,8 +2045,6 @@ rubidium    1H  IN A    10.65.3.49
 wmf3424     1H  IN A    10.65.3.49
 silver      1H  IN A    10.65.3.59
 wmf3434     1H  IN A    10.65.3.59
-mw1260      1H  IN A    10.65.3.60
-wmf3435     1H  IN A    10.65.3.60
 niobium     1H  IN A    10.65.3.53
 wmf3428     1H  IN A    10.65.3.53
 wmf3433     1H  IN A    10.65.3.58
