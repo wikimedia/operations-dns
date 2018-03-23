@@ -1820,8 +1820,7 @@ $ORIGIN 3.65.{{ zonename }}.
 32  1H  IN PTR      wmf3287.mgmt.eqiad.wmnet.
 34  1H  IN PTR      rhenium.mgmt.eqiad.wmnet.
 34  1H  IN PTR      wmf3408.mgmt.eqiad.wmnet.
-35  1H  IN PTR      rcs1002.mgmt.eqiad.wmnet.
-35  1H  IN PTR      wmf3409.mgmt.eqiad.wmnet.
+
 36  1H  IN PTR      mobile1004.mgmt.eqiad.wmnet.
 36  1H  IN PTR      wmf3410.mgmt.eqiad.wmnet.
 37  1H  IN PTR      mobile1005.mgmt.eqiad.wmnet.
@@ -1956,8 +1955,7 @@ $ORIGIN 3.65.{{ zonename }}.
 170     1H      IN PTR          wmf3642.mgmt.eqiad.wmnet.
 171     1H      IN PTR          wmf3643.mgmt.eqiad.wmnet.
 171     1H      IN PTR          labnet1001.mgmt.eqiad.wmnet.
-172     1H      IN PTR          wmf3838.mgmt.eqiad.wmnet.
-172     1H      IN PTR          rcs1001.mgmt.eqiad.wmnet.
+
 173     1H      IN PTR          wmf3837.mgmt.eqiad.wmnet.
 173     1H      IN PTR          hafnium.mgmt.eqiad.wmnet.
 174     1H      IN PTR          logstash1003.mgmt.eqiad.wmnet.
