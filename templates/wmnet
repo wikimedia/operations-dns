@@ -2171,12 +2171,6 @@ wmf3837     1H  IN A    10.65.3.173
 wmf3573     1H  IN A    10.65.3.146
 samarium    1H  IN A    10.65.3.146
 hafnium     1H  IN A    10.65.3.173
-logstash1003 1H IN A    10.65.3.174
-wmf5826      1H IN A    10.65.3.174
-logstash1002 1H IN A    10.65.3.175
-wmf5825      1H IN A    10.65.3.175
-logstash1001 1H IN A    10.65.3.176
-wmf5824      1H IN A    10.65.3.176
 logstash1004 1H IN A    10.65.4.11
 wmf4675      1H IN A    10.65.4.11
 logstash1005 1H IN A    10.65.4.12
