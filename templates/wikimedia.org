@@ -859,10 +859,6 @@ labtesttoolsadmin 1H  IN DYNA     geoip!misc-addrs
 pinkunicorn      600 A 208.80.154.42
                  600 AAAA 2620:0:861:1:208:80:154:42
 
-; puppet records
-_x-puppet-ca._tcp   5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
-_x-puppet._tcp      5M  IN SRV      0 1 8140 puppetmaster1001.eqiad.wmnet.
-
 ; Misc
 
 ; Google apps
