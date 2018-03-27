@@ -32,7 +32,7 @@ config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 statsd          1H  IN CNAME    graphite1001.eqiad.wmnet.
 eventlogging    1H  IN CNAME    eventlog1001.eqiad.wmnet.
 udplog          1H  IN CNAME    mwlog1001.eqiad.wmnet.
-deployment      1H  IN CNAME    tin.eqiad.wmnet.
+deployment      1H  IN CNAME    deploy1001.eqiad.wmnet.
 people          1H  IN CNAME    rutherfordium.eqiad.wmnet.
 s1-master       5M  IN CNAME    db1052.eqiad.wmnet.
 s2-master       5M  IN CNAME    db1054.eqiad.wmnet.
@@ -2461,7 +2461,7 @@ $ORIGIN codfw.wmnet.
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install2002.wikimedia.org.
-deployment      1H  IN CNAME    tin.eqiad.wmnet.
+deployment      1H  IN CNAME    deploy1001.eqiad.wmnet.
 m2-master       5M  IN CNAME    db2044.codfw.wmnet.
 m2-slave        5M  IN CNAME    db2044.codfw.wmnet.
 statsd          1H  IN CNAME    graphite2001.codfw.wmnet.
