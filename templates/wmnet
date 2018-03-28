@@ -1301,8 +1301,6 @@ wmf7351         1H      IN A    10.65.4.134
 analytics1077   1H      IN A    10.65.4.134
 dataset1001 1H  IN A    10.65.3.85
 wmf3471     1H  IN A    10.65.3.85
-db1001      1H  IN A    10.65.6.1
-wmf3090     1H  IN A    10.65.6.1
 wmf3089     1H  IN A    10.65.6.2
 wmf3088     1H  IN A    10.65.6.3
 wmf3087     1H  IN A    10.65.6.4
