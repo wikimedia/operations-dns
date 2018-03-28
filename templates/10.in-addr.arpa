@@ -2451,8 +2451,6 @@ $ORIGIN 6.65.{{ zonename }}.
 14      1H IN PTR       tungsten.mgmt.eqiad.wmnet.
 14      1H IN PTR       wmf3077.mgmt.eqiad.wmnet.
 
-16      1H IN PTR       db1016.mgmt.eqiad.wmnet.
-16      1H IN PTR       wmf3075.mgmt.eqiad.wmnet.
 17      1H IN PTR       graphite1002.mgmt.eqiad.wmnet.
 17      1H IN PTR       wmf3269.mgmt.eqiad.wmnet.
 
