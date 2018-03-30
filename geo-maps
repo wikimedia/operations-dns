@@ -5,11 +5,11 @@ generic-map => {
         # use ISO 3166-2 official names
         AF => [esams, eqiad, codfw, ulsfo, eqsin],
         AS => {
-            default => [ulsfo, codfw, eqiad, esams, eqsin],
+            default => [eqsin, ulsfo, codfw, eqiad, esams],
             AE => [esams, eqiad, codfw, ulsfo, eqsin], # United Arab Emirates
             AF => [esams, eqiad, codfw, ulsfo, eqsin], # Afghanistan
             AM => [esams, eqiad, codfw, ulsfo, eqsin], # Armenia
-            AP => [ulsfo, codfw, eqiad, esams, eqsin], # Asia-Pacific region (misc)
+            AP => [eqsin, ulsfo, codfw, eqiad, esams], # Asia-Pacific region (misc)
             AZ => [esams, eqiad, codfw, ulsfo, eqsin], # Azerbaijan
             BD => [eqsin, ulsfo, codfw, eqiad, esams], # Bangladesh
             BH => [esams, eqiad, codfw, ulsfo, eqsin], # Bahrain
