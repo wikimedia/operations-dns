@@ -818,8 +818,6 @@ $ORIGIN 32.64.{{ zonename }}.
 
 149     1H IN PTR       snapshot1006.eqiad.wmnet.
 
-151     1H IN PTR       ocg1001.eqiad.wmnet.
-
 153     1H IN PTR       scb1003.eqiad.wmnet.
 154     1H IN PTR       lithium.eqiad.wmnet.
 155     1H IN PTR       graphite1001.eqiad.wmnet.
@@ -1080,8 +1078,7 @@ $ORIGIN 48.64.{{ zonename }}.
 39      1H IN PTR       elastic1017.eqiad.wmnet.
 40      1H IN PTR       elastic1018.eqiad.wmnet.
 41      1H IN PTR       elastic1019.eqiad.wmnet.
-42      1H IN PTR       ocg1002.eqiad.wmnet.
-43      1H IN PTR       ocg1003.eqiad.wmnet.
+
 44      1H IN PTR       elastic1020.eqiad.wmnet.
 45      1H IN PTR       puppetmaster1002.eqiad.wmnet.
 46      1H IN PTR       wdqs1005.eqiad.wmnet.
