@@ -718,7 +718,6 @@ neodymium       1H  IN A        10.64.32.20
 neodymium       1H  IN AAAA     2620:0:861:103:10:64:32:20
 neon            1H  IN A        10.64.0.40 ; VM on ganeti01.svc.eqiad.wmnet
 neon            1H  IN AAAA     2620:0:861:101:10:64:0:40 ; VM on ganeti01.svc.eqiad.wmnet
-nitrogen        1H  IN A        10.64.32.199 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 ores1001        1H  IN A        10.64.0.51
 ores1002        1H  IN A        10.64.0.52
 ores1003        1H  IN A        10.64.16.94
@@ -2925,7 +2924,6 @@ mwdebug2002     1H  IN A    10.192.16.66 ; VM on the ganeti01.svc.codfw.wmnet cl
 mwlog2001       1H  IN A    10.192.32.131
 naos            1H  IN A    10.192.32.22
 naos            1H  IN AAAA 2620:0:860:103:10:192:32:22
-nihal           1H  IN A    10.192.16.184 ; VM on the ganeti01.svc.codfw.wmnet cluster
 ores2001        1H  IN A    10.192.0.12
 ores2002        1H  IN A    10.192.0.18
 ores2003        1H  IN A    10.192.16.63

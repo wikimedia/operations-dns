@@ -854,7 +854,6 @@ $ORIGIN 32.64.{{ zonename }}.
 196     1H IN PTR       restbase1008-c.eqiad.wmnet.
 197     1H IN PTR       db1100.eqiad.wmnet.
 198     1H IN PTR       db1101.eqiad.wmnet.
-199     1H IN PTR       nitrogen.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 200     1H IN PTR       darmstadtium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 201     1H IN PTR       d-i-test.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 202     1H IN PTR       restbase1012-a.eqiad.wmnet.
@@ -3171,7 +3170,6 @@ $ORIGIN 16.192.{{ zonename }}.
 
 182 1H IN PTR   elnath.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 183 1H IN PTR   puppetdb2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
-184 1H IN PTR   nihal.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 185 1H IN PTR   restbase2010.codfw.wmnet.
 186 1H IN PTR   restbase2010-a.codfw.wmnet.
 187 1H IN PTR   restbase2010-b.codfw.wmnet.
