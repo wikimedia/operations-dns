@@ -2053,7 +2053,6 @@ ruthenium   1H  IN A    10.65.3.56
 wmf3431     1H  IN A    10.65.3.56
 rhodium     1H  IN A    10.65.3.57
 wmf3432     1H  IN A    10.65.3.57
-indium      1H  IN A    10.65.3.117
 payments1001    1H  IN A    10.65.3.55
 wmf6951         1H  IN A    10.65.3.55
 payments1002    1H  IN A    10.65.3.47
@@ -2174,8 +2173,6 @@ analytics1002    1H  IN A        10.65.5.184
 wmf4545     1H  IN A        10.65.5.185
 wmf4546     1H  IN A        10.65.5.186
 osmium      1H  IN A        10.65.5.186
-wmf4547     1H  IN A        10.65.5.187
-iridium     1H  IN A        10.65.5.187
 wmf4548     1H  IN A        10.65.5.188
 ganeti1001  1H  IN A        10.65.5.188
 wmf4549     1H  IN A        10.65.5.189
@@ -2390,7 +2387,6 @@ frpig1001       1H      IN A    10.64.40.164
 frpm1001        1H      IN A    10.64.40.70
 frqueue1001     1H      IN A    10.64.40.115
 frqueue1002     1H      IN A    10.64.40.116
-indium          1H      IN A    10.64.40.67
 pay-lvs1001     1H      IN A    10.64.40.20
 pay-lvs1002     1H      IN A    10.64.40.21
 payments1001    1H      IN A    10.64.40.5
