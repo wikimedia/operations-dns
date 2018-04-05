@@ -191,10 +191,7 @@ generic-map => {
         OC => {
             default => [ulsfo, codfw, eqiad, esams, eqsin],
             AS => [ulsfo, codfw, eqiad, esams, eqsin], # American Samoa
-            AU => {
-                default => [ulsfo, codfw, eqiad, esams, eqsin], # Australia
-                WA => [eqsin, ulsfo, codfw, eqiad, esams], # Western Australia
-            },
+            AU => [eqsin, ulsfo, codfw, eqiad, esams], # Australia
             CK => [ulsfo, codfw, eqiad, esams, eqsin], # Cook Islands
             FJ => [ulsfo, codfw, eqiad, esams, eqsin], # EQSIN blocked by Zero - T189250 # Fiji
             FM => [eqsin, ulsfo, codfw, eqiad, esams], # Micronesia, Federated States of
