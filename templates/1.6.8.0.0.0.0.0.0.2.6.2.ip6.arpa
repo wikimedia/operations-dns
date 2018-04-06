@@ -173,7 +173,6 @@ $ORIGIN 3.0.1.0.{{ zonename }}.
 9.5.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1004.eqiad.wmnet.
 0.6.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1005.eqiad.wmnet.
 
-7.6.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   eventlog1001.eqiad.wmnet.
 1.8.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   bromine.eqiad.wmnet.
 3.2.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1003.eqiad.wmnet.
 

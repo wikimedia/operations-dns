@@ -816,7 +816,6 @@ $ORIGIN 32.64.{{ zonename }}.
 159     1H IN PTR       kafka-jumbo1004.eqiad.wmnet.
 160     1H IN PTR       kafka-jumbo1005.eqiad.wmnet.
 
-167     1H IN PTR       eventlog1001.eqiad.wmnet.
 168     1H IN PTR       francium.eqiad.wmnet.
 169     1H IN PTR       ganeti1001.eqiad.wmnet.
 170     1H IN PTR       ganeti1002.eqiad.wmnet.
