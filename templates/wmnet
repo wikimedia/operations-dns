@@ -4725,6 +4725,7 @@ recommendation-api 1H IN A      10.2.2.37
 druid-public-broker    1H  IN A     10.2.2.38
 druid-public-overlord  1H  IN A     10.2.2.39
 labweb  1H  IN A     10.2.2.40
+wdqs-internal 1H  IN A        10.2.2.41
 
 ganeti01    1H  IN A        10.64.32.173
 labstore    1H  IN A        10.64.37.10
@@ -4788,6 +4789,7 @@ eventstreams    1H  IN A        10.2.1.34
 pdfrender       1H  IN A        10.2.1.35
 ; 36 reserved for logstash
 recommendation-api  1H  IN A        10.2.1.37
+wdqs-internal   1H  IN A        10.2.1.41
 ganeti01        1H  IN A        10.192.16.131
 labstore        1H  IN A        10.192.21.7
 oresrdb         5M  IN A        10.192.16.31
@@ -4827,6 +4829,7 @@ ores           300/10 IN DYNA geoip!disc-ores
 pdfrender      300/10 IN DYNA geoip!disc-pdfrender
 recommendation-api 300/10 IN DYNA geoip!disc-recommendation-api
 wdqs           300/10 IN DYNA geoip!disc-wdqs
+wdqs-internal  300/10 IN DYNA geoip!disc-wdqs-internal
 zotero         300/10 IN DYNA geoip!disc-zotero
 ; Will become a proper discovery endpoint once we add more registries
 docker-registry 300 IN CNAME darmstadtium.eqiad.wmnet.
