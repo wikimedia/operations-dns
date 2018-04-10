@@ -2374,8 +2374,6 @@ $ORIGIN 5.65.{{ zonename }}.
 184 1H  IN PTR      wmf4544.mgmt.eqiad.wmnet.
 184 1H  IN PTR      analytics1002.mgmt.eqiad.wmnet.
 185 1H  IN PTR      wmf4545.mgmt.eqiad.wmnet.
-186 1H  IN PTR      wmf4546.mgmt.eqiad.wmnet.
-186 1H  IN PTR      osmium.mgmt.eqiad.wmnet.
 
 188 1H  IN PTR      wmf4548.mgmt.eqiad.wmnet.
 188 1H  IN PTR      ganeti1001.mgmt.eqiad.wmnet.
