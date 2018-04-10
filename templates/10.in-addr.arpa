@@ -3086,7 +3086,7 @@ $ORIGIN 16.192.{{ zonename }}.
 71  1H IN PTR   mw2270.codfw.wmnet.
 72  1H IN PTR   ms-be2041.codfw.wmnet.
 73  1H IN PTR   db2035.codfw.wmnet.
-
+74  1H IN PTR   db2045.codfw.wmnet.
 
 108 1H IN PTR   mw2135.codfw.wmnet.
 109 1H IN PTR   mw2136.codfw.wmnet.
@@ -3309,7 +3309,7 @@ $ORIGIN 32.192.{{ zonename }}.
 102 1H IN PTR   mw2214.codfw.wmnet.
 103 1H IN PTR   db2043.codfw.wmnet.
 104 1H IN PTR   db2044.codfw.wmnet.
-105 1H IN PTR   db2045.codfw.wmnet.
+
 106 1H IN PTR   db2046.codfw.wmnet.
 107 1H IN PTR   db2047.codfw.wmnet.
 108 1H IN PTR   db2048.codfw.wmnet.
