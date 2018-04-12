@@ -4264,8 +4264,7 @@ $ORIGIN 2.193.{{ zonename }}.
 116 1H IN PTR  wmf5849.mgmt.codfw.wmnet.
 117 1H IN PTR  procyon.mgmt.codfw.wmnet.
 117 1H IN PTR  wmf6161.mgmt.codfw.wmnet.
-118 1H IN PTR  restbase-test2001.mgmt.codfw.wmnet.
-118 1H IN PTR  wmf5845.mgmt.codfw.wmnet.
+
 119 1H IN PTR  mw2270.mgmt.codfw.wmnet.
 119 1H IN PTR  wmf6610.mgmt.codfw.wmnet.
 120 1H IN PTR  db2084.mgmt.codfw.wmnet.
@@ -4472,10 +4471,7 @@ $ORIGIN 2.193.{{ zonename }}.
 220 1H IN PTR  wmf6361.mgmt.codfw.wmnet.
 221 1H IN PTR  elastic2024.mgmt.codfw.wmnet.
 221 1H IN PTR  wmf6362.mgmt.codfw.wmnet.
-222 1H IN PTR  restbase-test2002.mgmt.codfw.wmnet.
-222 1H IN PTR  wmf5846.mgmt.codfw.wmnet.
-223 1H IN PTR  restbase-test2003.mgmt.codfw.wmnet.
-223 1H IN PTR  wmf5848.mgmt.codfw.wmnet.
+
 224 1H IN PTR  restbase2001.mgmt.codfw.wmnet.
 224 1H IN PTR  wmf6363.mgmt.codfw.wmnet.
 225 1H IN PTR  restbase2002.mgmt.codfw.wmnet.
