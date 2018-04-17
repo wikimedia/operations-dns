@@ -3758,8 +3758,7 @@ $ORIGIN 1.193.{{ zonename }}.
 78  1H IN PTR  wmf6607.mgmt.codfw.wmnet.
 79  1H IN PTR  mw2268.mgmt.codfw.wmnet.
 79  1H IN PTR  wmf6608.mgmt.codfw.wmnet.
-80  1H IN PTR  db2030.mgmt.codfw.wmnet.
-80  1H IN PTR  wmf5725.mgmt.codfw.wmnet.
+
 81  1H IN PTR  db2031.mgmt.codfw.wmnet.
 81  1H IN PTR  wmf5755.mgmt.codfw.wmnet.
 82  1H IN PTR  db2083.mgmt.codfw.wmnet.
