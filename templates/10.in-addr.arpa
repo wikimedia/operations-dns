@@ -2973,6 +2973,7 @@ $ORIGIN 0.192.{{ zonename }}.
 96  1H IN PTR   webperf2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
 97  1H IN PTR   kafkamon2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
 98  1H IN PTR   mwdebug2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
+99  1H IN PTR   db2048.codfw.wmnet.
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
@@ -3317,7 +3318,7 @@ $ORIGIN 32.192.{{ zonename }}.
 
 106 1H IN PTR   db2046.codfw.wmnet.
 107 1H IN PTR   db2047.codfw.wmnet.
-108 1H IN PTR   db2048.codfw.wmnet.
+
 109 1H IN PTR   db2049.codfw.wmnet.
 110 1H IN PTR   db2050.codfw.wmnet.
 
