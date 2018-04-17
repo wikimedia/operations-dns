@@ -4704,7 +4704,6 @@ restbase    1H  IN A        10.2.2.17
 cxserver    1H  IN A        10.2.2.18
 citoid      1H  IN A        10.2.2.19
 mathoid     1H  IN A        10.2.2.20
-rendering   1H  IN A        10.2.2.21
 api         1H  IN A        10.2.2.22
 eventbus    1H  IN A        10.2.2.23
 thumbor     1H  IN A        10.2.2.24
@@ -4771,7 +4770,6 @@ restbase        1H  IN A        10.2.1.17
 cxserver        1H  IN A        10.2.1.18
 citoid          1H  IN A        10.2.1.19
 mathoid         1H  IN A        10.2.1.20
-rendering       1H  IN A        10.2.1.21
 api             1H  IN A        10.2.1.22
 eventbus        1H  IN A        10.2.1.23
 thumbor         1H  IN A        10.2.1.24
@@ -4806,8 +4804,6 @@ appservers-rw  300/10 IN DYNA metafo!disc-appservers-rw
 api-ro         300/10 IN DYNA geoip!disc-api-ro
 api-rw         300/10 IN DYNA metafo!disc-api-rw
 jobrunner      300/10 IN DYNA metafo!disc-jobrunner
-imagescaler-ro 300/10 IN DYNA geoip!disc-imagescaler-ro
-imagescaler-rw 300/10 IN DYNA metafo!disc-imagescaler-rw
 swift-ro       300/10 IN DYNA geoip!disc-swift-ro
 swift-rw       300/10 IN DYNA metafo!disc-swift-rw
 ; Main services

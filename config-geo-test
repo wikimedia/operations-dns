@@ -9,7 +9,6 @@ plugins => {
             # mock active-active entries by copying here and changing name
             disc-appservers-ro  => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-api-ro         => { map => mock, dcmap => { mock => 192.0.2.1 } }
-            disc-imagescaler-ro => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-swift-ro       => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-parsoid        => { map => mock, dcmap => { mock => 192.0.2.1 } }
             disc-restbase       => { map => mock, dcmap => { mock => 192.0.2.1 } }
@@ -38,7 +37,6 @@ plugins => {
             disc-appservers-rw  => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
             disc-api-rw         => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
             disc-jobrunner      => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
-            disc-imagescaler-rw => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
             disc-swift-rw       => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
         }
     },
