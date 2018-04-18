@@ -492,7 +492,6 @@ labstore1002    1H  IN A        10.64.37.7
 labstore1003    1H  IN A        10.64.4.10
 labstore1004    1H  IN A        10.64.37.19
 labstore1005    1H  IN A        10.64.37.20
-lawrencium      1H  IN A        10.64.48.14
 eth1.labstore1004    1H  IN A        10.64.37.25
 eth1.labstore1005    1H  IN A        10.64.37.26
 labsdb1004      1H  IN A        10.64.37.8
@@ -1926,8 +1925,6 @@ rdb1007     1H  IN A    10.65.7.23
 wmf3153     1H  IN A    10.65.7.23
 labcontrol1001  1H  IN A    10.65.7.24
 wmf3152     1H  IN A    10.65.7.24
-wmf3542     1H  IN A    10.65.7.25
-lawrencium  1H  IN A    10.65.7.25
 
 wmf7002     1H  IN A    10.65.7.28
 wdqs1003    1H  IN A    10.65.7.28
