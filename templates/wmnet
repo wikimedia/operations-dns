@@ -393,7 +393,6 @@ elastic1017     1H  IN A        10.64.48.39
 elastic1018     1H  IN A        10.64.48.40
 elastic1019     1H  IN A        10.64.48.41
 elastic1020     1H  IN A        10.64.48.44
-elastic1021     1H  IN A        10.64.32.120
 elastic1022     1H  IN A        10.64.32.121
 elastic1023     1H  IN A        10.64.48.47
 elastic1024     1H  IN A        10.64.48.48
@@ -1418,8 +1417,6 @@ elastic1019     1H    IN A    10.65.7.62
 wmf4598         1H    IN A    10.65.7.62
 elastic1020     1H    IN A    10.65.7.63
 wmf4599         1H    IN A    10.65.7.63
-elastic1021     1H    IN A    10.65.7.64
-wmf4600         1H    IN A    10.65.7.64
 elastic1022     1H    IN A    10.65.7.65
 wmf4601         1H    IN A    10.65.7.65
 elastic1023     1H    IN A    10.65.7.66
