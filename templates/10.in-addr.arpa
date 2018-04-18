@@ -1874,7 +1874,6 @@ $ORIGIN 3.65.{{ zonename }}.
 98  1H  IN PTR      flerovium.mgmt.eqiad.wmnet.
 
 100 1H  IN PTR      notebook1001.mgmt.eqiad.wmnet.
-101 1H  IN PTR      kafka1018.mgmt.eqiad.wmnet.
 
 103 1H  IN PTR      kafka1020.mgmt.eqiad.wmnet.
 104 1H  IN PTR      kafka1023.mgmt.eqiad.wmnet.

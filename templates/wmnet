@@ -1126,7 +1126,6 @@ notebook1003    1H  IN A    10.65.3.82
 wmf7298         1H  IN A    10.65.3.82
 notebook1004    1H  IN A    10.65.3.83
 wmf7299         1H  IN A    10.65.3.83
-kafka1018       1H  IN A    10.65.3.101
 kafka-jumbo1001 1H  IN A    10.65.1.72
 wmf7127         1H  IN A    10.65.1.72
 kafka-jumbo1002 1H  IN A    10.65.1.73
