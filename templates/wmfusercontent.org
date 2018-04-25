@@ -26,6 +26,7 @@
 @           600 IN TYPE257 \# 37 0005696F6465666D61696C746F3A646E732D61646D696E4077696B696D656469612E6F7267
 
 ; Servers (alphabetic order)
+gerrit      600 IN DYNA geoip!misc-addrs
 phab        600 IN DYNA geoip!misc-addrs
 
 ; Service aliases
