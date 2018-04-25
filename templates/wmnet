@@ -2943,6 +2943,7 @@ phab2001        1H  IN AAAA 2620:0:860:103:10:192:32:147
 phab2001-aphlict 1H IN CNAME    phab2001 ; CNAME here due to varnish puppetization woes
 phab2001-vcs    1H  IN A    10.192.32.149
 phab2001-vcs    1H  IN AAAA 2620:0:860:103:10:192:32:149
+ping2001        1H  IN A    10.192.0.22 ; VM on ganeti01.svc.codfw.wmnet
 poolcounter2001 1H  IN A    10.192.0.19 ; VM on ganeti01.svc.codfw.wmnet
 poolcounter2002 1H  IN A    10.192.16.21 ; VM on ganeti01.svc.codfw.wmnet
 prometheus2003   1H IN A    10.192.0.145
