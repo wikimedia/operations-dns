@@ -262,6 +262,7 @@ $ORIGIN 0.64.{{ zonename }}.
 16  1H IN PTR   scb1001.eqiad.wmnet.
 17  1H IN PTR   wdqs1004.eqiad.wmnet.
 18  1H IN PTR   conf1001.eqiad.wmnet.
+19  1H IN PTR   poolcounter1003.eqiad.wmnet.
 
 21  1H IN PTR   ms-be1028.eqiad.wmnet.
 22  1H IN PTR   tungsten.eqiad.wmnet.
