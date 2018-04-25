@@ -169,9 +169,6 @@
 
 224 1H  IN PTR  text-lb.eqiad.wikimedia.org.
 
-; test ping VIP - T190090
-225 1H  IN PTR  ping-test.eqiad.wikimedia.org.
-
 ; wrong subnet? but not important...
 238 1H  IN PTR  ns0.wikimedia.org.
 
