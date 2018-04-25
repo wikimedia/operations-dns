@@ -117,9 +117,10 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 6.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1069.eqiad.wmnet.
 7.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1070.eqiad.wmnet.
 
+
 5.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1001.eqiad.wmnet.
 6.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1002.eqiad.wmnet.
-
+1.1.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1001.eqiad.wmnet.
 1.2.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1001.eqiad.wmnet.
 7.4.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestage1001.eqiad.wmnet.
 8.4.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestagetcd1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
@@ -143,6 +144,7 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 8.0.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   phab1001.eqiad.wmnet.
 2.9.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestage1002.eqiad.wmnet.
 9.9.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1003.eqiad.wmnet.
+1.4.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1002.eqiad.wmnet.
 8.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   prometheus1004.eqiad.wmnet.
 
 3.7.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1001.eqiad.wmnet.
@@ -176,7 +178,7 @@ $ORIGIN 3.0.1.0.{{ zonename }}.
 
 9.5.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1004.eqiad.wmnet.
 0.6.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1005.eqiad.wmnet.
-
+7.2.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1003.eqiad.wmnet.
 1.8.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   bromine.eqiad.wmnet.
 3.2.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1003.eqiad.wmnet.
 
