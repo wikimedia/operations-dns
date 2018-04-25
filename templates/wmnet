@@ -744,6 +744,8 @@ prometheus1003  1H  IN AAAA     2620:0:861:101:10:64:0:123
 prometheus1004  1H  IN A        10.64.16.38
 prometheus1004  1H  IN AAAA     2620:0:861:102:10:64:16:38
 promethium      1H  IN A        10.64.20.12
+proton1001      1H  IN A        10.64.0.20 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+proton1002      1H  IN A        10.64.32.61 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 puppetdb1001    1H  IN A        10.64.32.214 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 puppetboard1001 1H  IN A        10.64.32.17 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 puppetmaster1001 1H IN A        10.64.16.73
@@ -2941,6 +2943,8 @@ prometheus2003   1H IN A    10.192.0.145
 prometheus2003   1H IN AAAA 2620:0:860:101:10:192:0:145
 prometheus2004   1H IN A    10.192.16.189
 prometheus2004   1H IN AAAA 2620:0:860:102:10:192:16:189
+proton2001       1H IN A    10.192.0.21  ; VM on the ganeti01.svc.codfw.wmnet cluster
+proton2002       1H IN A    10.192.16.75  ; VM on the ganeti01.svc.codfw.wmnet cluster
 puppetboard2001  1H IN A    10.192.16.23 ; VM on the ganeti01.svc.codfw.wmnet cluster
 puppetdb2001     1H IN A    10.192.16.183 ; VM on the ganeti01.svc.codfw.wmnet cluster
 puppetmaster2001 1H IN A    10.192.0.27
