@@ -387,6 +387,7 @@ ec.m                600 IN DYNA     geoip!text-addrs
 ee.m                600 IN DYNA     geoip!text-addrs
 electcom.m          600 IN DYNA     geoip!text-addrs
 et.m                600 IN DYNA     geoip!text-addrs
+id.m                600 IN DYNA     geoip!text-addrs
 incubator.m         600 IN DYNA     geoip!text-addrs
 fdc.m               600 IN DYNA     geoip!text-addrs
 fi.m                600 IN DYNA     geoip!text-addrs
@@ -700,6 +701,7 @@ fi               600 IN DYNA     geoip!text-addrs
 grants           600 IN DYNA     geoip!text-addrs
 hi               600 IN DYNA     geoip!text-addrs
 hu               600 IN DYNA     geoip!text-addrs
+id               600 IN DYNA     geoip!text-addrs
 iegcom           600 IN DYNA     geoip!text-addrs
 il               600 IN DYNA     geoip!text-addrs
 incubator        600 IN DYNA     geoip!text-addrs
