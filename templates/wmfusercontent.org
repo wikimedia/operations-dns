@@ -15,6 +15,9 @@
 
 ; Mail exchangers
 
+; SPF txt and rr records (no email)
+            600 IN TXT  "v=spf1 -all"
+
 ; Canonical names
             600 IN DYNA geoip!misc-addrs
 
@@ -29,8 +32,3 @@
 gerrit      600 IN DYNA geoip!misc-addrs
 phab        600 IN DYNA geoip!misc-addrs
 
-; Service aliases
-
-; Wikis (alphabetic order)
-
-; Other websites
