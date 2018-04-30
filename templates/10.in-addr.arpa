@@ -1818,10 +1818,6 @@ $ORIGIN 3.65.{{ zonename }}.
 34  1H  IN PTR      rhenium.mgmt.eqiad.wmnet.
 34  1H  IN PTR      wmf3408.mgmt.eqiad.wmnet.
 
-36  1H  IN PTR      mobile1004.mgmt.eqiad.wmnet.
-36  1H  IN PTR      wmf3410.mgmt.eqiad.wmnet.
-37  1H  IN PTR      mobile1005.mgmt.eqiad.wmnet.
-37  1H  IN PTR      wmf3411.mgmt.eqiad.wmnet.
 38  1H  IN PTR      stat1001.mgmt.eqiad.wmnet.
 38  1H  IN PTR      wmf3412.mgmt.eqiad.wmnet.
 39  1H  IN PTR      lvs1001.mgmt.eqiad.wmnet.
