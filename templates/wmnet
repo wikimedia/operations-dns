@@ -386,6 +386,7 @@ dbproxy1010     1H  IN A        10.64.37.14
 dbproxy1011     1H  IN A        10.64.37.15
 dbstore1001     1H  IN A        10.64.48.17
 dbstore1002     1H  IN A        10.64.48.18
+debmonitor1001  1H  IN A        10.64.32.62 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 deploy1001      1H  IN A        10.64.32.16
 deploy1001      1H  IN AAAA     2620:0:861:103:10:64:32:16
 d-i-test        1H  IN A        10.64.32.201
@@ -2600,6 +2601,7 @@ db2092          1H  IN A    10.192.16.41
 db2093          1H  IN A    10.192.48.91
 dbstore2001     1H  IN A    10.192.0.32
 dbstore2002     1H  IN A    10.192.32.19
+debmonitor2001  1H  IN A    10.192.0.14 ; VM on the ganeti01.svc.codfw.wmnet cluster
 elastic2001     1H  IN A    10.192.0.130
 elastic2002     1H  IN A    10.192.0.131
 elastic2003     1H  IN A    10.192.0.132
