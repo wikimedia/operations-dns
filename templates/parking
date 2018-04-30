@@ -13,3 +13,7 @@
             1D  IN NS   ns1.wikimedia.org.
             1D  IN NS   ns2.wikimedia.org.
 
+
+; SPF txt and rr records
+; No email for parked domains (T193408)
+            600 IN TXT  "v=spf1 -all"
