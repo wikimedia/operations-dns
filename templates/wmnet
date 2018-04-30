@@ -299,7 +299,6 @@ cp1099           1H  IN A        10.64.32.81
                  1H  IN AAAA     2620:0:861:103:10:64:32:81
 darmstadtium    1H  IN A        10.64.32.200 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 graphite1001    1H  IN A        10.64.32.155
-graphite1002    1H  IN A        10.64.16.6
 graphite1003    1H  IN A        10.64.0.106
 db1051          1H  IN A        10.64.16.76
 db1052          1H  IN A        10.64.16.77
@@ -1304,8 +1303,6 @@ tungsten    1H  IN A    10.65.6.14
 wmf3077     1H  IN A    10.65.6.14
 graphite1001   1H  IN A    10.65.6.76
 wmf4654        1H  IN A    10.65.6.76
-graphite1002   1H  IN A    10.65.6.17
-wmf3269     1H  IN A    10.65.6.17
 netmon1002  1H  IN A    10.65.5.37
 wmf7042     1H  IN A    10.65.5.37
 db1051          1H      IN A    10.65.6.51
