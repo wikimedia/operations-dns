@@ -45,13 +45,17 @@
 48  1H  IN PTR  vl1001-eth1.lvs1012.eqiad.wmnet.
 49  1H  IN PTR  actinium.wikimedia.org.
 50  1H  IN PTR  hydrogen.wikimedia.org.
+51  1H  IN PTR  vl1001-eth0.lvs1013.eqiad.wmnet.
 52  1H  IN PTR  rhenium.wikimedia.org.
+53  1H  IN PTR  vl1001-eth1.lvs1014.eqiad.wmnet.
+54  1H  IN PTR  vl1001-eth1.lvs1015.eqiad.wmnet.
 55  1H  IN PTR  lvs1001.wikimedia.org.
 56  1H  IN PTR  lvs1002.wikimedia.org.
 57  1H  IN PTR  lvs1003.wikimedia.org.
 58  1H  IN PTR  vl1001-eth1.lvs1004.wikimedia.org.
 59  1H  IN PTR  vl1001-eth1.lvs1005.wikimedia.org.
 60  1H  IN PTR  vl1001-eth1.lvs1006.wikimedia.org.
+61  1H  IN PTR  vl1001-eth1.lvs1016.eqiad.wmnet.
 
 ; 208.80.154.64/26 (public1-c-eqiad) (.64 - .127)
 
@@ -86,6 +90,10 @@
 99  1H  IN PTR  vl1003-eth0.lvs1010.eqiad.wmnet.
 100 1H  IN PTR  vl1003-eth0.lvs1011.eqiad.wmnet.
 101 1H  IN PTR  vl1003-eth0.lvs1012.eqiad.wmnet.
+102 1H  IN PTR  vl1003-eth2.lvs1013.eqiad.wmnet.
+103 1H  IN PTR  vl1003-eth2.lvs1014.eqiad.wmnet.
+104 1H  IN PTR  vl1003-eth0.lvs1015.eqiad.wmnet.
+105 1H  IN PTR  vl1003-eth3.lvs1016.eqiad.wmnet.
 
 ; 208.80.154.128/26 (public1-b-eqiad) (.128 - .191)
 
@@ -116,6 +124,10 @@
 164 1H  IN PTR  vl1002-eth2.lvs1010.eqiad.wmnet.
 165 1H  IN PTR  vl1002-eth2.lvs1011.eqiad.wmnet.
 166 1H  IN PTR  vl1002-eth2.lvs1012.eqiad.wmnet.
+167 1H  IN PTR  vl1002-eth1.lvs1013.eqiad.wmnet.
+168 1H  IN PTR  vl1002-eth0.lvs1014.eqiad.wmnet.
+169 1H  IN PTR  vl1002-eth2.lvs1015.eqiad.wmnet.
+170 1H  IN PTR  vl1002-eth2.lvs1016.eqiad.wmnet.
 
 
 ; Neighbor blocks (208.80.154.192/27)
