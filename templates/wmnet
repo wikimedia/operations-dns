@@ -4416,6 +4416,8 @@ $ORIGIN mgmt.ulsfo.wmnet.
 mr1-ulsfo       1H      IN A    10.128.128.1
 cr1-ulsfo       1H      IN A    10.128.128.2
 cr2-ulsfo       1H      IN A    10.128.128.3
+cr3-ulsfo       1H      IN A    10.128.128.4
+cr4-ulsfo       1H      IN A    10.128.128.5
 asw-ulsfo       1H      IN A    10.128.128.6
 asw2-ulsfo      1H      IN A    10.128.128.7
 scs-ulsfo       1H      IN A    10.128.128.11

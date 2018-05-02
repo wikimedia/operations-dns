@@ -2709,6 +2709,8 @@ $ORIGIN 128.128.{{ zonename }}.
 1   1H  IN PTR      mr1-ulsfo.mgmt.ulsfo.wmnet.
 2   1H  IN PTR      cr1-ulsfo.mgmt.ulsfo.wmnet.
 3   1H  IN PTR      cr2-ulsfo.mgmt.ulsfo.wmnet.
+4   1H  IN PTR      cr3-ulsfo.mgmt.ulsfo.wmnet.
+5   1H  IN PTR      cr4-ulsfo.mgmt.ulsfo.wmnet.
 6   1H  IN PTR      asw-ulsfo.mgmt.ulsfo.wmnet.
 7   1H  IN PTR      asw2-ulsfo.mgmt.ulsfo.wmnet.
 11  1H  IN PTR      scs-ulsfo.mgmt.ulsfo.wmnet.
