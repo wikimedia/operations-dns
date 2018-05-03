@@ -582,8 +582,9 @@ ldap-labs.codfw 1H  IN CNAME    serpens
 labs-puppetmaster          300 IN CNAME  labpuppetmaster1001
 labtest-puppetmaster       300 IN CNAME  labtestpuppetmaster2001
 
-frbast-eqiad    1H  IN CNAME    frbast1001
+frbast          1H  IN CNAME    frbast1001
 frbast-codfw    1H  IN CNAME    rigel
+frbast-eqiad    1H  IN CNAME    frbast1001
 frdata          1H  IN CNAME    frdata-eqiad
 
 gerrit          600 IN A        208.80.154.85
