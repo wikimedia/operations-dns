@@ -474,6 +474,10 @@ cr1-ulsfo       1H  IN A    198.35.26.192
                 1H  IN AAAA 2620:0:863:ffff::1
 cr2-ulsfo       1H  IN A    198.35.26.193
                 1H  IN AAAA 2620:0:863:ffff::2
+cr3-ulsfo       1H  IN A    198.35.26.195
+                1H  IN AAAA 2620:0:863:ffff::3
+cr4-ulsfo       1H  IN A    198.35.26.202
+                1H  IN AAAA 2620:0:863:ffff::4
 mr1-ulsfo       1H  IN A    198.35.26.194
                 1H  IN AAAA 2620:0:863:ffff::6
 mr1-ulsfo.oob   1H  IN A    209.237.234.242
