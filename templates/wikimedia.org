@@ -859,6 +859,7 @@ ticket           600 IN DYNA     geoip!misc-addrs
 tor-eqiad-1      1H  IN CNAME    radium
 mirrors          1H  IN CNAME    sodium
 yarn             600 IN DYNA     geoip!misc-addrs
+turnilo          600 IN DYNA     geoip!misc-addrs
 wikitech-static-iad  5M  IN A        162.209.126.221
 wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
 wikitech-static      5M  IN A        192.237.162.200
