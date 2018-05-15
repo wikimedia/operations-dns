@@ -888,7 +888,8 @@ labvirt1019     1H  IN A        10.64.20.38
 labvirt1020     1H  IN A        10.64.20.39
 labvirt1021     1H  IN A        10.64.20.40
 labvirt1022     1H  IN A        10.64.20.41
-webperf1001     1H  IN A        10.64.0.215
+webperf1001     1H  IN A        10.64.0.215 ; VM ganeti01.svc.eqiad.wmnet
+webperf1002     1H  IN A        10.64.0.216 ; VM ganeti01.svc.eqiad.wmnet
 wdqs1003        1H  IN A        10.64.0.14
 wdqs1004        1H  IN A        10.64.0.17
 wdqs1005        1H  IN A        10.64.48.46
@@ -3071,7 +3072,8 @@ vega            1H  IN AAAA 2620:0:860:102:10:192:16:121
 wasat           1H  IN A    10.192.48.45
 wasat           1H  IN AAAA 2620:0:860:104:10:192:48:45
 wezen           1H  IN A    10.192.48.64
-webperf2001     1H  IN A    10.192.0.96
+webperf2001     1H  IN A    10.192.0.96   ; VM ganeti01.svc.codfw.wmnet
+webperf2002     1H  IN A    10.192.0.100  ; VM ganeti01.svc.codfw.wmnet
 wtp2001         1H  IN A    10.192.16.43
 wtp2002         1H  IN A    10.192.16.44
 wtp2003         1H  IN A    10.192.16.45
