@@ -895,6 +895,8 @@ wdqs1005        1H  IN A        10.64.48.46
 wdqs1006        1H  IN A        10.64.0.109
 wdqs1007        1H  IN A        10.64.16.10
 wdqs1008        1H  IN A        10.64.48.24
+wdqs1009        1H  IN A        10.64.16.15
+wdqs1010        1H  IN A        10.64.32.63
 wtp1025         1H  IN A        10.64.0.239
 wtp1026         1H  IN A        10.64.0.240
 wtp1027         1H  IN A        10.64.0.241
@@ -1953,6 +1955,10 @@ wdqs1007    1H  IN A    10.65.7.88
 wmf7353     1H  IN A    10.65.7.88
 wdqs1008    1H  IN A    10.65.7.89
 wmf7354     1H  IN A    10.65.7.89
+wdqs1009    1H  IN A    10.65.7.90
+wmf7367     1H  IN A    10.65.7.90
+wdqs1010    1H  IN A    10.65.7.91
+wmf7368     1H  IN A    10.65.7.91
 wmf3151     1H  IN A    10.65.7.100
 snapshot1001    1H  IN A    10.65.3.81
 wmf3466         1H  IN A    10.65.3.81
