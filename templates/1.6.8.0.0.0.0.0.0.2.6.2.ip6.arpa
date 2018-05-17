@@ -135,6 +135,8 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 
 6.9.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   tin.eqiad.wmnet.
 
+6.1.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   webperf1002.eqiad.wmnet.
+
 ; private1-b-eqiad (2620:0:861:102::/64)
 $ORIGIN 2.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1018.wikimedia.org.
