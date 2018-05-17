@@ -2632,6 +2632,7 @@ db2093          1H  IN A    10.192.48.91
 dbstore2001     1H  IN A    10.192.0.32
 dbstore2002     1H  IN A    10.192.32.19
 debmonitor2001  1H  IN A    10.192.0.14 ; VM on the ganeti01.svc.codfw.wmnet cluster
+deploy2001      1H  IN A    10.192.32.24
 elastic2001     1H  IN A    10.192.0.130
 elastic2002     1H  IN A    10.192.0.131
 elastic2003     1H  IN A    10.192.0.132
