@@ -353,6 +353,7 @@ $ORIGIN 0.64.{{ zonename }}.
 107 1H IN PTR   aqs1004.eqiad.wmnet.
 108 1H IN PTR   db1069.eqiad.wmnet.
 109 1H IN PTR   wdqs1006.eqiad.wmnet.
+110 1H IN PTR   db1066.eqiad.wmnet.
 
 112 1H IN PTR   restbase1010.eqiad.wmnet.
 113 1H IN PTR   restbase1011.eqiad.wmnet.
@@ -1062,7 +1063,6 @@ $ORIGIN 48.64.{{ zonename }}.
 18      1H IN PTR       dbstore1002.eqiad.wmnet.
 19      1H IN PTR       db1064.eqiad.wmnet.
 20      1H IN PTR       db1065.eqiad.wmnet.
-21      1H IN PTR       db1066.eqiad.wmnet.
 
 23      1H IN PTR       db1068.eqiad.wmnet.
 24      1H IN PTR       wdqs1008.eqiad.wmnet.
