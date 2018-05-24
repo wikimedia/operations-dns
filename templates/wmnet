@@ -371,6 +371,8 @@ db1120          1H  IN A        10.64.32.11
 db1121          1H  IN A        10.64.32.12
 db1122          1H  IN A        10.64.48.34
 db1123          1H  IN A        10.64.48.35
+db1124          1H  IN A        10.64.16.17
+db1125          1H  IN A        10.64.48.14
 dbproxy1001     1H  IN A        10.64.0.165
 dbproxy1002     1H  IN A        10.64.0.166
 dbproxy1003     1H  IN A        10.64.0.198
@@ -1569,6 +1571,10 @@ db1122      1H  IN A    10.65.1.7
 wmf7365     1H  IN A    10.65.1.7
 db1123      1H  IN A    10.65.1.8
 wmf7366     1H  IN A    10.65.1.8
+db1124      1H  IN A    10.65.1.9
+wmf7372     1H  IN A    10.65.1.9
+db1125      1H  IN A    10.65.1.10
+wmf7373     1H  IN A    10.65.1.10
 dumpsdata1001 1H  IN A    10.65.5.64
 wmf7090     1H  IN A    10.65.5.65
 dumpsdata1002 1H  IN A    10.65.5.65
