@@ -108,6 +108,8 @@ $ORIGIN 3.0.e.f.{{ zonename }}.
 ; unallocated (2620:0:863:fe04::/64)
 
 $ORIGIN 4.0.e.f.{{ zonename }}.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-2.cr2-ulsfo.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr1-eqdfw.wikimedia.org.
 
 ; cr1-ulsfo <--> mr1-ulsfo (2620:0:863:fe05::/64)
 

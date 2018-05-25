@@ -69,7 +69,9 @@
 ; - 198.35.26.202/31 (202-203) More routers
 202 1H IN PTR   cr4-ulsfo.wikimedia.org.
 
-; - 198.35.26.204/31 (204-205) unused
+; - 198.35.26.204/31 (204-205) cr2-ulsfo <--> cr1-eqdfw
+204 1H  IN PTR  gr-0-0-0-2.cr2-ulsfo.wikimedia.org.
+205 1H  IN PTR  gr-0-0-0-1.cr1-eqdfw.wikimedia.org.
 
 ; - 198.35.26.206/31 (206-207) unused
 
