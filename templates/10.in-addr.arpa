@@ -1128,7 +1128,7 @@ $ORIGIN 48.64.{{ zonename }}.
 93      1H  IN PTR      mw1258.eqiad.wmnet.
 94      1H  IN PTR      lawrencium.eqiad.wmnet.
 95      1H  IN PTR      eventlog1002.eqiad.wmnet.
-96      1H  IN PTR      bast-test.eqiad.wmnet.
+
 97      1H  IN PTR      restbase1018.eqiad.wmnet.
 98      1H  IN PTR      restbase1018-a.eqiad.wmnet.
 99      1H  IN PTR      restbase1018-b.eqiad.wmnet.
