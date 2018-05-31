@@ -3923,6 +3923,7 @@ $ORIGIN 1.193.{{ zonename }}.
 150 1H IN PTR  wmf6467.mgmt.codfw.wmnet.
 151 1H IN PTR  scb2006.mgmt.codfw.wmnet.
 151 1H IN PTR  wmf6468.mgmt.codfw.wmnet.
+152 1H IN PTR  labtestnet2003.mgmt.codfw.wmnet.
 152 1H IN PTR  wmf6469.mgmt.codfw.wmnet.
 153 1H IN PTR  restbase2010.mgmt.codfw.wmnet.
 153 1H IN PTR  wmf6470.mgmt.codfw.wmnet.
