@@ -1059,7 +1059,7 @@ $ORIGIN 48.64.{{ zonename }}.
 19      1H IN PTR       db1064.eqiad.wmnet.
 20      1H IN PTR       db1065.eqiad.wmnet.
 21      1H IN PTR       phab1002.eqiad.wmnet.
-
+22      1H IN PTR       phab1002-vcs.eqiad.wmnet.
 23      1H IN PTR       db1068.eqiad.wmnet.
 24      1H IN PTR       wdqs1008.eqiad.wmnet.
 25      1H IN PTR       db1070.eqiad.wmnet.
