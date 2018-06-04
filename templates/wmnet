@@ -4741,6 +4741,7 @@ $ORIGIN svc.eqiad.wmnet.
 
 appservers  1H  IN A        10.2.2.1
 hhvm-api    1H  IN A        10.2.2.3
+videoscaler 1H  IN A        10.2.2.5
 kubemaster  1H  IN A        10.2.2.8
 ores        1H  IN A        10.2.2.10
 apertium    1H  IN A        10.2.2.11
@@ -4806,7 +4807,7 @@ prometheus  1H  IN CNAME    bast5001.wikimedia.org.
 $ORIGIN svc.codfw.wmnet.
 
 appservers      1H  IN A        10.2.1.1
-
+videoscaler     1H  IN A        10.2.1.5
 kubemaster      1H  IN A        10.2.1.8
 ores            1H  IN A        10.2.1.10
 apertium        1H  IN A        10.2.1.11
@@ -4853,6 +4854,7 @@ appservers-rw  300/10 IN DYNA metafo!disc-appservers-rw
 api-ro         300/10 IN DYNA geoip!disc-api-ro
 api-rw         300/10 IN DYNA metafo!disc-api-rw
 jobrunner      300/10 IN DYNA metafo!disc-jobrunner
+videoscaler    300/10 IN DYNA metafo!disc-videoscaler
 swift-ro       300/10 IN DYNA geoip!disc-swift-ro
 swift-rw       300/10 IN DYNA metafo!disc-swift-rw
 ; Main services
