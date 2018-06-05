@@ -4690,6 +4690,7 @@ $ORIGIN 0.195.{{ zonename }}.
 
 ; 10.195.0.64/29 - frack-bastion-codfw
 66 1H IN PTR  rigel.frack.codfw.wmnet.
+67 1H IN PTR  frbast2001.frack.codfw.wmnet.
 
 ; 10.195.0.72/29 - frack-administration-codfw
 74 1H IN PTR  heka.frack.codfw.wmnet.
