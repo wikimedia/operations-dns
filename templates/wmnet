@@ -3181,6 +3181,7 @@ alnitak             1H  IN A    10.195.0.108
 bellatrix           1H  IN A    10.195.0.109
 betelgeuse          1H  IN A    10.195.0.111
 frbackup2001        1H  IN A    10.195.0.112
+frbast2001          1H  IN A    10.195.0.113
 frdb2001            1H  IN A    10.195.0.110
 heka                1H  IN A    10.195.0.103
 mintaka             1H  IN A    10.195.0.107

@@ -4714,6 +4714,7 @@ $ORIGIN 0.195.{{ zonename }}.
 110 1H IN PTR  frdb2001.mgmt.frack.codfw.wmnet.
 111 1H IN PTR  betelgeuse.mgmt.frack.codfw.wmnet.
 112 1H IN PTR  frbackup2001.mgmt.frack.codfw.wmnet.
+113 1H IN PTR  frbast2001.mgmt.frack.codfw.wmnet.
 
 ; 10.195.0.248/29 - reserved for frack infra
 
