@@ -2729,6 +2729,7 @@ labtestneutron2001      1H  IN A    10.192.20.4
 labtestneutron2002      1H  IN A    10.192.20.10
 labtestnet2001          1H  IN A    10.192.20.5
 labtestnet2002          1H  IN A    10.192.20.9
+labtestnet2003          1H  IN A    10.192.20.12
 labtestvirt2001         1H  IN A    10.192.20.6
 labtestvirt2002         1H  IN A    10.192.20.7
 labtestvirt2003         1H  IN A    10.192.20.8

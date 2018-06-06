@@ -3214,6 +3214,7 @@ $ORIGIN 20.192.{{ zonename }}.
 9   1H IN PTR   labtestnet2002.codfw.wmnet.
 10  1H IN PTR   labtestneutron2002.codfw.wmnet.
 11  1H IN PTR   labtestmetal2001.codfw.wmnet.
+12  1H IN PTR   labtestnet2003.codfw.wmnet.
 
 ; 10.192.21.0/24 - labs-support1-b-codfw
 $ORIGIN 21.192.{{ zonename }}.
