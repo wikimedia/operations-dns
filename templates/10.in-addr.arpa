@@ -4696,6 +4696,7 @@ $ORIGIN 0.195.{{ zonename }}.
 75 1H IN PTR  bellatrix.frack.codfw.wmnet.
 76 1H IN PTR  betelgeuse.frack.codfw.wmnet.
 77 1H IN PTR  frbackup2001.frack.codfw.wmnet.
+78 1H IN PTR  frmon2001.frack.codfw.wmnet.
 
 ; 10.195.0.80/29 - frack-listenerdmz-codfw
 82 1H IN PTR  saiph.frack.codfw.wmnet.
@@ -4718,6 +4719,7 @@ $ORIGIN 0.195.{{ zonename }}.
 111 1H IN PTR  betelgeuse.mgmt.frack.codfw.wmnet.
 112 1H IN PTR  frbackup2001.mgmt.frack.codfw.wmnet.
 113 1H IN PTR  frbast2001.mgmt.frack.codfw.wmnet.
+114 1H IN PTR  frmon2001.mgmt.frack.codfw.wmnet.
 
 ; 10.195.0.248/29 - reserved for frack infra
 

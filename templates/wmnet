@@ -3175,6 +3175,7 @@ betelgeuse          1H  IN A    10.195.0.76
 saiph               1H  IN A    10.195.0.82
 saiph-fundraising   1H  IN A    10.195.0.83
 frbackup2001        1H  IN A    10.195.0.77
+frmon2001           1H  IN A    10.195.0.78
 rkhunter.heka       1H  IN CNAME heka
 
 ; CODFW fundraising/payments management
@@ -3186,6 +3187,7 @@ betelgeuse          1H  IN A    10.195.0.111
 frbackup2001        1H  IN A    10.195.0.112
 frbast2001          1H  IN A    10.195.0.113
 frdb2001            1H  IN A    10.195.0.110
+frmon2001           1H  IN A    10.195.0.114
 heka                1H  IN A    10.195.0.103
 mintaka             1H  IN A    10.195.0.107
 pay-lvs2001         1H  IN A    10.195.0.101
