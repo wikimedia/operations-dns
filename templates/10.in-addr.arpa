@@ -1875,8 +1875,7 @@ $ORIGIN 3.65.{{ zonename }}.
 50  1H  IN PTR      wmf7029.mgmt.eqiad.wmnet.
 
 52  1H  IN PTR      wmf3427.mgmt.eqiad.wmnet.
-53  1H  IN PTR      niobium.mgmt.eqiad.wmnet.
-53  1H  IN PTR      wmf3428.mgmt.eqiad.wmnet.
+
 54  1H  IN PTR      payments1003.mgmt.eqiad.wmnet.
 54  1H  IN PTR      wmf6949.mgmt.eqiad.wmnet.
 55  1H  IN PTR      payments1001.mgmt.eqiad.wmnet.
