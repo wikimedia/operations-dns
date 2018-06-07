@@ -837,6 +837,7 @@ snapshot1005    1H  IN A        10.64.0.9
 snapshot1006    1H  IN A        10.64.32.149
 snapshot1007    1H  IN A        10.64.48.141
 snapshot1008    1H  IN A        10.64.16.16
+snapshot1009    1H  IN A        10.64.48.37
 stat1002        1H  IN A        10.64.5.102
 stat1004        1H  IN A        10.64.5.104
 stat1005        1H  IN A        10.64.53.30
@@ -1969,6 +1970,8 @@ snapshot1007    1H  IN A    10.65.3.240
 wmf4745         1H  IN A    10.65.3.240
 snapshot1008    1H  IN A    10.65.4.139
 wmf7371         1H  IN A    10.65.4.139
+snapshot1009    1H  IN A    10.65.2.162
+wmf7375         1H  IN A    10.65.2.162
 hydrogen    1H  IN A    10.65.3.15
 wmf3136     1H  IN A    10.65.3.15
 helium      1H  IN A    10.65.3.14

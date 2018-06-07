@@ -1078,6 +1078,7 @@ $ORIGIN 48.64.{{ zonename }}.
 34      1H IN PTR       db1122.eqiad.wmnet.
 35      1H IN PTR       db1123.eqiad.wmnet.
 36      1H IN PTR       backup1001.eqiad.wmnet.
+37      1H IN PTR       snapshot1009.eqiad.wmnet.
 
 39      1H IN PTR       elastic1017.eqiad.wmnet.
 40      1H IN PTR       elastic1018.eqiad.wmnet.
@@ -1802,6 +1803,8 @@ $ORIGIN 2.65.{{ zonename }}.
 160 1H  IN PTR      db1115.mgmt.eqiad.wmnet.
 161 1H  IN PTR      wmf7374.mgmt.eqiad.wmnet.
 161 1H  IN PTR      backup1001.mgmt.eqiad.wmnet.
+162 1H  IN PTR      wmf7375.mgmt.eqiad.wmnet.
+162 1H  IN PTR      snapshot1009.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.{{ zonename }}.
 
