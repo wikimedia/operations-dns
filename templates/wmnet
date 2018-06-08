@@ -2506,6 +2506,7 @@ acrab           1H  IN AAAA 2620:0:860:102:10:192:16:26
 acrux           1H  IN A    10.192.0.93  ; VM on ganeti01.svc.codfw.wmnet
 acrux           1H  IN AAAA 2620:0:860:101:10:192:0:93
 auth2001        1H  IN A    10.192.0.138
+backup2001      1H  IN A    10.192.48.116
 conf2001        1H  IN A    10.192.0.143
 conf2002        1H  IN A    10.192.32.141
 conf2003        1H  IN A    10.192.48.52
@@ -3266,6 +3267,7 @@ fasw-c-codfw    1H  IN A    10.193.0.57
 acamar          1H  IN A    10.193.1.30
 achernar        1H  IN A    10.193.1.31
 auth2001        1H  IN A    10.193.1.22
+backup2001      1H  IN A    10.193.1.80
 baham           1H  IN A    10.193.1.32
 bast2001        1H  IN A    10.193.1.11
 capella         1H  IN A    10.193.2.2
@@ -4293,6 +4295,7 @@ wmf6633         1H  IN A    10.193.3.53
 wmf6634         1H  IN A    10.193.3.54
 wmf6635         1H  IN A    10.193.1.61
 wmf6636         1H  IN A    10.193.1.62
+wmf6639         1H  IN A    10.193.1.80
 
 ;
 ; ESAMS
