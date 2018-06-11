@@ -3269,6 +3269,7 @@ auth2001        1H  IN A    10.193.1.22
 backup2001      1H  IN A    10.193.1.80
 baham           1H  IN A    10.193.1.32
 bast2001        1H  IN A    10.193.1.11
+bast2002        1H  IN A    10.193.1.207
 capella         1H  IN A    10.193.2.2
 conf2001        1H  IN A    10.193.3.2
 conf2002        1H  IN A    10.193.3.3
@@ -4295,6 +4296,7 @@ wmf6634         1H  IN A    10.193.3.54
 wmf6635         1H  IN A    10.193.1.61
 wmf6636         1H  IN A    10.193.1.62
 wmf6639         1H  IN A    10.193.1.80
+wmf6649         1H  IN A    10.193.1.207
 
 ;
 ; ESAMS
