@@ -3034,6 +3034,7 @@ $ORIGIN 1.192.{{ zonename }}.
 4   1H IN PTR   vl2017-eth1.lvs2004.codfw.wmnet.
 5   1H IN PTR   vl2017-eth1.lvs2005.codfw.wmnet.
 6   1H IN PTR   vl2017-eth1.lvs2006.codfw.wmnet.
+7   1H IN PTR   lvs2007.codfw.wmnet.
 
 ; 10.192.4.0/24 - labs-hosts1-a-codfw - RESERVED
 $ORIGIN 4.192.{{ zonename }}.
@@ -3203,6 +3204,7 @@ $ORIGIN 17.192.{{ zonename }}.
 4   1H IN PTR   lvs2004.codfw.wmnet.
 5   1H IN PTR   lvs2005.codfw.wmnet.
 6   1H IN PTR   lvs2006.codfw.wmnet.
+7   1H IN PTR   lvs2008.codfw.wmnet.
 
 ; 10.192.20.0/24 - labs-hosts1-b-codfw
 $ORIGIN 20.192.{{ zonename }}.
@@ -3420,6 +3422,7 @@ $ORIGIN 33.192.{{ zonename }}.
 4   1H IN PTR   vl2019-eth2.lvs2004.codfw.wmnet.
 5   1H IN PTR   vl2019-eth2.lvs2005.codfw.wmnet.
 6   1H IN PTR   vl2019-eth2.lvs2006.codfw.wmnet.
+7   1H IN PTR   lvs2009.codfw.wmnet.
 
 ; 10.192.36.0/24 - labs-hosts1-c-codfw - RESERVED
 $ORIGIN 36.192.{{ zonename }}.
@@ -3553,6 +3556,7 @@ $ORIGIN 49.192.{{ zonename }}.
 4   1H IN PTR   vl2020-eth3.lvs2004.codfw.wmnet.
 5   1H IN PTR   vl2020-eth3.lvs2005.codfw.wmnet.
 6   1H IN PTR   vl2020-eth3.lvs2006.codfw.wmnet.
+7   1H IN PTR   lvs2010.codfw.wmnet.
 
 ; 10.192.52.0/24 - labs-hosts1-d-codfw - RESERVED
 $ORIGIN 52.192.{{ zonename }}.
@@ -4018,6 +4022,15 @@ $ORIGIN 1.193.{{ zonename }}.
 195 1H IN PTR  wmf6567.mgmt.codfw.wmnet.
 196 1H IN PTR  ores2007.mgmt.codfw.wmnet.
 196 1H IN PTR  wmf6568.mgmt.codfw.wmnet.
+
+202 1H IN PTR  lvs2007.mgmt.codfw.wmnet.
+202 1H IN PTR  wmf6640.mgmt.codfw.wmnet.
+203 1H IN PTR  lvs2008.mgmt.codfw.wmnet.
+203 1H IN PTR  wmf6641.mgmt.codfw.wmnet.
+204 1H IN PTR  lvs2009.mgmt.codfw.wmnet.
+204 1H IN PTR  wmf6642.mgmt.codfw.wmnet.
+205 1H IN PTR  lvs2010.mgmt.codfw.wmnet.
+205 1H IN PTR  wmf6643.mgmt.codfw.wmnet.
 
 207 1H IN PTR  bast2002.mgmt.codfw.wmnet.
 207 1H IN PTR  wmf6649.mgmt.codfw.wmnet.
