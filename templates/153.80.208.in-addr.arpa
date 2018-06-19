@@ -67,6 +67,7 @@
 74  1H  IN PTR  tegmen.wikimedia.org.
 75  1H  IN PTR  labtestcontrol2003.wikimedia.org.
 76  1H  IN PTR  labtestservices2002.wikimedia.org.
+77  1H  IN PTR  dns2001.wikimedia.org.
 
 ; 208.80.153.96/27 (public1-d-codfw)
 97  1H  IN PTR  vrrp-gw-2004.wikimedia.org.
@@ -83,6 +84,7 @@
 108 1H  IN PTR  labtestpuppetmaster2001.wikimedia.org.
 109 1H  IN PTR  labtestservices2003.wikimedia.org.
 110 1H  IN PTR  netmon2001.wikimedia.org.
+111 1H  IN PTR  dns2002.wikimedia.org.
 
 ; 208.80.153.128/27 labtest codfw public IPs (pool used by openstack)
 
