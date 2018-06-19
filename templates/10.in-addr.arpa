@@ -4028,6 +4028,8 @@ $ORIGIN 1.193.{{ zonename }}.
 198 1H IN PTR  wmf6645.mgmt.codfw.wmnet.
 199 1H IN PTR  authdns2001.mgmt.codfw.wmnet.
 199 1H IN PTR  wmf6650.mgmt.codfw.wmnet.
+200 1H IN PTR  wmf6652.mgmt.codfw.wmnet.
+201 1H IN PTR  wmf6653.mgmt.codfw.wmnet.
 202 1H IN PTR  lvs2007.mgmt.codfw.wmnet.
 202 1H IN PTR  wmf6640.mgmt.codfw.wmnet.
 203 1H IN PTR  lvs2008.mgmt.codfw.wmnet.
