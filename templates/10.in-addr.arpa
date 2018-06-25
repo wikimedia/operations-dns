@@ -3002,6 +3002,7 @@ $ORIGIN 0.192.{{ zonename }}.
 99  1H IN PTR   db2048.codfw.wmnet.
 100 1H IN PTR   webperf2002.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
 101 1H IN PTR   db2094.codfw.wmnet.
+102 1H IN PTR   graphite2003.codfw.wmnet.
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
@@ -4039,7 +4040,8 @@ $ORIGIN 1.193.{{ zonename }}.
 204 1H IN PTR  wmf6642.mgmt.codfw.wmnet.
 205 1H IN PTR  lvs2010.mgmt.codfw.wmnet.
 205 1H IN PTR  wmf6643.mgmt.codfw.wmnet.
-
+206 1H IN PTR  graphite2003.mgmt.codfw.wmnet.
+206 1H IN PTR  wmf6646.mgmt.codfw.wmnet.
 207 1H IN PTR  bast2002.mgmt.codfw.wmnet.
 207 1H IN PTR  wmf6649.mgmt.codfw.wmnet.
 
