@@ -3275,6 +3275,7 @@ fasw-c-codfw    1H  IN A    10.193.0.57
 acamar          1H  IN A    10.193.1.30
 achernar        1H  IN A    10.193.1.31
 auth2001        1H  IN A    10.193.1.22
+authdns2001     1H  IN A    10.193.1.199
 backup2001      1H  IN A    10.193.1.80
 baham           1H  IN A    10.193.1.32
 bast2001        1H  IN A    10.193.1.11
@@ -4320,6 +4321,8 @@ wmf6644         1H  IN A    10.193.1.197
 wmf6645         1H  IN A    10.193.1.198
 wmf6646         1H  IN A    10.193.1.206
 wmf6649         1H  IN A    10.193.1.207
+wmf6650         1H  IN A    10.193.1.199
+
 ;
 ; ESAMS
 ;
