@@ -135,6 +135,7 @@ alsafi          1H  IN AAAA 2620:0:860:2:208:80:153:50
 aluminium       1H  IN A    208.80.154.80 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 aluminium       1H  IN AAAA 2620:0:861:3:208:80:154:80
 astatine        1H  IN A    208.80.155.110
+authdns2001     1H  IN A    208.80.153.17
 baham           1H  IN A    208.80.153.13
 baham           1H  IN AAAA 2620:0:860:1:208:80:153:13
 civi1001        1H  IN A    208.80.155.11
