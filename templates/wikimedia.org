@@ -615,7 +615,6 @@ git             600 IN DYNA     geoip!misc-addrs
 graphite        600 IN DYNA     geoip!misc-addrs
 graphite-labs   600 IN DYNA     geoip!misc-addrs
 grafana         600 IN DYNA     geoip!misc-addrs
-grafana-admin   600 IN DYNA     geoip!misc-addrs
 grafana-labs         600 IN DYNA     geoip!misc-addrs
 grafana-labs-admin   600 IN DYNA     geoip!misc-addrs
 parsoid-rt-tests     600 IN DYNA     geoip!misc-addrs
