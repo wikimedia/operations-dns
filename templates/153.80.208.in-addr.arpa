@@ -129,6 +129,14 @@
 212 1H  IN PTR  xe-5-0-0.cr2-codfw.wikimedia.org.
 213 1H  IN PTR  xe-1-0-0.cr1-eqdfw.wikimedia.org.
 
+; 208.80.153.214/31 (cr1-eqiad <--> cr1-eqdfw)
+214 1H  IN PTR  xe-4-2-2-12.cr1-eqiad.wikimedia.org.
+215 1H  IN PTR  xe-0-0-3-12.cr1-eqdfw.wikimedia.org.
+
+; 208.80.153.216/31 (cr2-knams <--> cr1-eqdfw)
+216 1H  IN PTR  xe-1-1-0-23.cr2-knams.wikimedia.org.
+217 1H  IN PTR  xe-0-0-3-23.cr1-eqdfw.wikimedia.org.
+
 ; 208.80.153.218/31 (cr1-codfw <--> cr2-codfw)
 218 1H  IN PTR  ae0.cr1-codfw.wikimedia.org.
 219 1H  IN PTR  ae0.cr2-codfw.wikimedia.org.
