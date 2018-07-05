@@ -129,7 +129,6 @@ $ORIGIN 0.20.{{ zonename }}.
 
 107 1H  IN PTR      cp3007.esams.wmnet.
 108 1H  IN PTR      cp3008.esams.wmnet.
-109 1H  IN PTR      cp3009.esams.wmnet.
 110 1H  IN PTR      cp3010.esams.wmnet.
 
 165 1H  IN PTR      cp3030.esams.wmnet.
@@ -189,7 +188,6 @@ $ORIGIN 0.21.{{ zonename }}.
 126 1H  IN PTR  cp3002.mgmt.esams.wmnet.
 131 1H  IN PTR  cp3007.mgmt.esams.wmnet.
 132 1H  IN PTR  cp3008.mgmt.esams.wmnet.
-133 1H  IN PTR  cp3009.mgmt.esams.wmnet.
 134 1H  IN PTR  cp3010.mgmt.esams.wmnet.
 135 1H  IN PTR  cp3011.mgmt.esams.wmnet.
 136 1H  IN PTR  cp3012.mgmt.esams.wmnet.
