@@ -71,7 +71,6 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 0.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3045.esams.wmnet.
 1.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3046.esams.wmnet.
 2.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3047.esams.wmnet.
-3.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3048.esams.wmnet.
 4.8.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3049.esams.wmnet.
 
 

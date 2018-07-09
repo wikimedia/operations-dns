@@ -149,7 +149,6 @@ $ORIGIN 0.20.{{ zonename }}.
 180 1H  IN PTR      cp3045.esams.wmnet.
 181 1H  IN PTR      cp3046.esams.wmnet.
 182 1H  IN PTR      cp3047.esams.wmnet.
-183 1H  IN PTR      cp3048.esams.wmnet.
 184 1H  IN PTR      cp3049.esams.wmnet.
 
 ; Management
