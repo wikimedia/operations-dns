@@ -234,6 +234,7 @@ bohrium          1H IN A             10.64.0.55 ; VM on the ganeti01.svc.eqiad.w
 boron            1H IN A             10.64.0.36 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 chlorine         1H IN A             10.64.0.45 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 chlorine         1H IN AAAA          2620:0:861:101:10:64:0:45
+cloudvirt1021    1H IN A             10.64.20.40
 conf1001         1H IN A             10.64.0.18
 conf1002         1H IN A             10.64.32.180
 conf1003         1H IN A             10.64.48.111
@@ -887,7 +888,6 @@ labvirt1017     1H  IN A        10.64.20.33
 labvirt1018     1H  IN A        10.64.20.34
 labvirt1019     1H  IN A        10.64.20.38
 labvirt1020     1H  IN A        10.64.20.39
-labvirt1021     1H  IN A        10.64.20.40
 labvirt1022     1H  IN A        10.64.20.41
 webperf1001     5M  IN A        10.64.0.215 ; VM ganeti01.svc.eqiad.wmnet
 webperf1001     5M  IN AAAA     2620:0:861:101:10:64:0:215 ; VM ganeti01.svc.eqiad.wmnet
@@ -1126,7 +1126,8 @@ labvirt1019 1H  IN A    10.65.5.76
 wmf7132     1H  IN A    10.65.5.76
 labvirt1020 1H  IN A    10.65.5.77
 wmf7133     1H  IN A    10.65.5.77
-labvirt1021 1H  IN A    10.65.5.78
+cloudvirt1021 1H  IN A  10.65.5.78 ; duplicated on purpose
+labvirt1021 1H  IN A  10.65.5.78 ; duplicated on purpose
 wmf7296     1H  IN A    10.65.5.78
 labvirt1022 1H  IN A    10.65.5.79
 wmf7297     1H  IN A    10.65.5.79
