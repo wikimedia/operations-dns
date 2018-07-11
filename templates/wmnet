@@ -888,8 +888,7 @@ labvirt1017     1H  IN A        10.64.20.33
 labvirt1018     1H  IN A        10.64.20.34
 labvirt1019     1H  IN A        10.64.20.38
 labvirt1020     1H  IN A        10.64.20.39
-labvirt1022     1H  IN A        10.64.20.41 ; duplicated vvvv
-cloudvirt1022   1H  IN A        10.64.20.41 ; duplicated ^^^^
+cloudvirt1022   1H  IN A        10.64.20.41
 webperf1001     5M  IN A        10.64.0.215 ; VM ganeti01.svc.eqiad.wmnet
 webperf1001     5M  IN AAAA     2620:0:861:101:10:64:0:215 ; VM ganeti01.svc.eqiad.wmnet
 webperf1002     1H  IN A        10.64.0.216 ; VM ganeti01.svc.eqiad.wmnet
@@ -1129,8 +1128,7 @@ labvirt1020 1H  IN A    10.65.5.77
 wmf7133     1H  IN A    10.65.5.77
 cloudvirt1021 1H  IN A  10.65.5.78
 wmf7296     1H  IN A    10.65.5.78
-labvirt1022 1H  IN A    10.65.5.79   ; duplicated vvvv
-cloudvirt1022 1H  IN A    10.65.5.79 ; duplicated ^^^^
+cloudvirt1022 1H  IN A    10.65.5.79
 wmf7297     1H  IN A    10.65.5.79
 labweb1001  1H  IN A    10.65.4.121
 wmf7096     1H  IN A    10.65.4.121
