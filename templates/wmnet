@@ -2967,6 +2967,8 @@ mw2289          1H  IN A    10.192.48.111
 mw2290          1H  IN A    10.192.48.112
 mwdebug2001     1H  IN A    10.192.0.98 ; VM on the ganeti01.svc.codfw.wmnet cluster
 mwdebug2002     1H  IN A    10.192.16.66 ; VM on the ganeti01.svc.codfw.wmnet cluster
+mwmaint2001     1H  IN A    10.192.48.45
+mwmaint2001     1H  IN AAAA 2620:0:860:104:10:192:48:45
 mwlog2001       1H  IN A    10.192.32.131
 ores2001        1H  IN A    10.192.0.12
 ores2002        1H  IN A    10.192.0.18
@@ -3696,6 +3698,7 @@ mw2287          1H  IN A    10.193.3.47
 mw2288          1H  IN A    10.193.3.48
 mw2289          1H  IN A    10.193.3.49
 mw2290          1H  IN A    10.193.3.50
+mwmaint2001     1H  IN A    10.193.2.249
 mwlog2001       1H  IN A    10.193.2.246
 maps2001        1H  IN A    10.193.3.8
 maps2002        1H  IN A    10.193.3.9
