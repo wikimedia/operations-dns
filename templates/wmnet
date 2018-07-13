@@ -2150,8 +2150,7 @@ labnet1002  1H  IN A    10.65.3.170
 wmf3642     1H  IN A    10.65.3.170
 labnet1001  1H  IN A    10.65.3.171
 wmf3643     1H  IN A    10.65.3.171
-labnet1003  1H  IN A    10.65.3.180  ; duplicated vvvv
-cloudnet1003 1H  IN A    10.65.3.180 ; duplicated ^^^^
+cloudnet1003 1H  IN A    10.65.3.180
 wmf7115     1H  IN A    10.65.3.180
 labnet1004  1H  IN A    10.65.3.181
 wmf7116     1H  IN A    10.65.3.181
