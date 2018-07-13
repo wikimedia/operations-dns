@@ -158,7 +158,7 @@ $ORIGIN 4.0.1.0.{{ zonename }}.
 0.3.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2026.codfw.wmnet.
 
 1.7.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2004.codfw.wmnet.
-5.4.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   wasat.codfw.wmnet.
+5.4.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   mwmaint2001.codfw.wmnet.
 6.6.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   puppetmaster2002.codfw.wmnet.
 
 ; labs-hosts1-a-codfw (2620:0:860:117::/64) - RESERVED
