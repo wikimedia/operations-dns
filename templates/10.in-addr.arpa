@@ -393,7 +393,6 @@ $ORIGIN 0.64.{{ zonename }}.
 
 204 1H IN PTR   db1074.eqiad.wmnet.
 205 1H IN PTR   db1075.eqiad.wmnet.
-206 1H IN PTR   db1054.eqiad.wmnet.
 
 213 1H IN PTR   aqs1007-a.eqiad.wmnet. ; cassandra instance
 214 1H IN PTR   db1107.eqiad.wmnet.
