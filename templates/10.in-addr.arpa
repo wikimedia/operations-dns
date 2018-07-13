@@ -538,7 +538,7 @@ $ORIGIN 16.64.{{ zonename }}.
 73  1H IN PTR   puppetmaster1001.eqiad.wmnet.
 74  1H IN PTR   aqs1008-a.eqiad.wmnet. ; cassandra instance
 75  1H IN PTR   kubernetes1002.eqiad.wmnet.
-76  1H IN PTR   db1051.eqiad.wmnet.
+
 77  1H IN PTR   db1052.eqiad.wmnet.
 78  1H IN PTR   aqs1008-b.eqiad.wmnet. ; cassandra instance
 79  1H IN PTR   db1073.eqiad.wmnet.
