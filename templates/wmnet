@@ -2002,8 +2002,6 @@ americium   1H  IN A    10.65.3.225
 wmf4594     1H  IN A    10.65.3.225
 bismuth     1H  IN A    10.65.3.226
 wmf3147     1H  IN A    10.65.3.4
-tellurium   1H  IN A    10.65.3.130
-te          1H  IN CNAME        tellurium
 poolcounter1002   1H  IN A    10.65.3.32
 wmf3287     1H  IN A    10.65.3.32
 backup1001  1H  IN A    10.65.2.161
@@ -2420,7 +2418,6 @@ payments1003    1H      IN A    10.64.40.7
 payments1004    1H      IN A    10.64.40.8
 payments1005    1H      IN A    10.64.40.9
 samarium        1H      IN A    10.64.40.130
-tellurium       1H      IN A    10.64.40.34
 thulium         1H      IN A    10.64.40.162
 thulium-fundraising 1H      IN A    10.64.40.163
 
@@ -2437,14 +2434,13 @@ frdb1002        1H  IN A    10.64.40.198
 frav1001        1H  IN A    10.64.40.199
 frdev1001       1H  IN A    10.64.40.200
 civi1001        1H  IN A    10.64.40.201
-frmon1001	1H  IN A    10.64.40.215
+frmon1001       1H  IN A    10.64.40.215
 frpig1001       1H  IN A    10.64.40.218
 frpm1001        1H  IN A    10.64.40.202
 frqueue1001     1H  IN A    10.64.40.203
 frqueue1002     1H  IN A    10.64.40.204
 americium       1H  IN A    10.64.40.205
 bismuth         1H  IN A    10.64.40.206
-tellurium       1H  IN A    10.64.40.207
 payments1001    1H  IN A    10.64.40.208
 payments1002    1H  IN A    10.64.40.209
 payments1003    1H  IN A    10.64.40.210
