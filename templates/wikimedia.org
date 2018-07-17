@@ -398,6 +398,7 @@ id.m                600 IN DYNA     geoip!text-addrs
 id-internal.m       600 IN DYNA     geoip!text-addrs
 incubator.m         600 IN DYNA     geoip!text-addrs
 fdc.m               600 IN DYNA     geoip!text-addrs
+foundation.m        600 IN DYNA     geoip!text-addrs
 fi.m                600 IN DYNA     geoip!text-addrs
 hi.m                600 IN DYNA     geoip!text-addrs
 legalteam.m         600 IN DYNA     geoip!text-addrs
