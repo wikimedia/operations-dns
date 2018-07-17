@@ -1083,8 +1083,7 @@ wmf3423     1H  IN A    10.65.3.48
 labcontrol1002  1H  IN A    10.65.3.48
 labcontrol1003  1H  IN A    10.65.4.119
 wmf7098         1H  IN A    10.65.4.119
-cloudcontrol1004 1H  IN A    10.65.4.120 ; vvv duplicated
-labcontrol1004  1H  IN A    10.65.4.120  ; ^^^ duplicated
+cloudcontrol1004 1H  IN A    10.65.4.120
 wmf7099         1H  IN A    10.65.4.120
 wmf3444     1H  IN A    10.65.3.68
 labsdb1003  1H  IN A    10.65.3.68
