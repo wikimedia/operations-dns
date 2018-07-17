@@ -100,7 +100,7 @@
 129 1H  IN PTR  vrrp-gw-1002.wikimedia.org.
 130 1H  IN PTR  ae2-1002.cr1-eqiad.wikimedia.org.
 131 1H  IN PTR  ae2-1002.cr2-eqiad.wikimedia.org.
-132 1H  IN PTR  labcontrol1004.wikimedia.org.
+132 1H  IN PTR  cloudcontrol1004.wikimedia.org.
 
 136 1H  IN PTR  silver.wikimedia.org.
 137 1H  IN PTR  lvs1004.wikimedia.org.
