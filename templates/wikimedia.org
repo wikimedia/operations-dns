@@ -714,6 +714,7 @@ et               600 IN DYNA     geoip!text-addrs
 exec             600 IN DYNA     geoip!text-addrs
 fdc              600 IN DYNA     geoip!text-addrs
 fi               600 IN DYNA     geoip!text-addrs
+foundation       600 IN DYNA     geoip!text-addrs
 grants           600 IN DYNA     geoip!text-addrs
 hi               600 IN DYNA     geoip!text-addrs
 hu               600 IN DYNA     geoip!text-addrs
