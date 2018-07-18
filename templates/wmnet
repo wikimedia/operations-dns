@@ -491,7 +491,8 @@ labmon1002      1H  IN A        10.64.4.15
 labnet1001      1H  IN A        10.64.20.13
 labnet1001-ext  1H  IN A        10.64.22.11
 labnet1002      1H  IN A        10.64.20.25
-labnet1004      1H  IN A        10.64.20.36
+labnet1004      1H  IN A        10.64.20.36 ; vvv duplicated
+cloudnet1004    1H  IN A        10.64.20.36 ; ^^^ duplicated
 labnodepool1001 1H  IN A        10.64.20.18
 labnodepool1002 1H  IN A        10.64.20.37
 labstore1001    1H  IN A        10.64.37.6
@@ -2148,7 +2149,8 @@ labnet1001  1H  IN A    10.65.3.171
 wmf3643     1H  IN A    10.65.3.171
 cloudnet1003 1H  IN A    10.65.3.180
 wmf7115     1H  IN A    10.65.3.180
-labnet1004  1H  IN A    10.65.3.181
+cloudnet1004 1H  IN A    10.65.3.181 ; vvvv duplicated
+labnet1004  1H  IN A    10.65.3.181  ; ^^^^ duplicated
 wmf7116     1H  IN A    10.65.3.181
 wmf3837     1H  IN A    10.65.3.173
 wmf3573     1H  IN A    10.65.3.146
