@@ -295,7 +295,7 @@ $ORIGIN 8.0.1.0.{{ zonename }}.
 4.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1035.eqiad.wmnet.
 5.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1036.eqiad.wmnet.
 6.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1037.eqiad.wmnet.
-4.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1038.eqiad.wmnet.
+7.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1038.eqiad.wmnet.
 8.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1039.eqiad.wmnet.
 9.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1040.eqiad.wmnet.
 0.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1041.eqiad.wmnet.
