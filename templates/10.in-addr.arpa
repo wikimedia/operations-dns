@@ -323,7 +323,7 @@ $ORIGIN 0.64.{{ zonename }}.
 84  1H IN PTR   mc1023.eqiad.wmnet.
 85  1H IN PTR   elastic1044.eqiad.wmnet.
 86  1H IN PTR   elastic1045.eqiad.wmnet.
-87  1H IN PTR   db1053.eqiad.wmnet.
+
 88  1H IN PTR   releases1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 89  1H IN PTR   restbase-dev1004.eqiad.wmnet.
 90  1H IN PTR   logstash1008.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
