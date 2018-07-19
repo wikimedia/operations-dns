@@ -384,8 +384,6 @@ $ORIGIN 0.64.{{ zonename }}.
 176 1H IN PTR   kafka-jumbo1002.eqiad.wmnet.
 179 1H IN PTR   helium.eqiad.wmnet.
 
-196 1H IN PTR   tin.eqiad.wmnet.
-
 198 1H IN PTR   dbproxy1003.eqiad.wmnet.
 199 1H IN PTR   aqs1007.eqiad.wmnet.
 

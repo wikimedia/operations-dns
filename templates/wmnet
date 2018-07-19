@@ -858,8 +858,6 @@ thumbor1001     1H  IN A        10.64.16.56
 thumbor1002     1H  IN A        10.64.16.57
 thumbor1003     1H  IN A        10.64.48.71
 thumbor1004     1H  IN A        10.64.48.72
-tin             1H  IN A        10.64.0.196
-tin             1H  IN AAAA     2620:0:861:101:10:64:0:196
 terbium         1H  IN A        10.64.32.13
 terbium         1H  IN AAAA     2620:0:861:103:10:64:32:13
 tungsten        1H  IN A        10.64.0.22
