@@ -1109,8 +1109,7 @@ wmf3419     1H  IN A    10.65.3.44
 wmf3427     1H  IN A    10.65.3.52
 wmf3423     1H  IN A    10.65.3.48
 labcontrol1002  1H  IN A    10.65.3.48
-labcontrol1003  1H  IN A    10.65.4.119  ; vvvv duplicated
-cloudcontrol1003 1H  IN A    10.65.4.119 ; ^^^^ duplicated
+cloudcontrol1003 1H  IN A    10.65.4.119
 wmf7098         1H  IN A    10.65.4.119
 cloudcontrol1004 1H  IN A    10.65.4.120
 wmf7099         1H  IN A    10.65.4.120
