@@ -303,7 +303,6 @@ darmstadtium    1H  IN A        10.64.32.200 ; VM on the ganeti01.svc.eqiad.wmne
 graphite1001    1H  IN A        10.64.32.155
 graphite1003    1H  IN A        10.64.0.106
 db1052          1H  IN A        10.64.16.77
-db1056          1H  IN A        10.64.32.26
 db1060          1H  IN A        10.64.32.30
 db1061          1H  IN A        10.64.32.227
 db1062          1H  IN A        10.64.48.15
