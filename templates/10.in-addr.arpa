@@ -2221,7 +2221,7 @@ $ORIGIN 4.65.{{ zonename }}.
 118 1H  IN PTR      wmf7114.mgmt.eqiad.wment.
 118 1H  IN PTR      labpuppetmaster1002.mgmt.eqiad.wmnet.
 119 1H  IN PTR      wmf7098.mgmt.eqiad.wmnet.
-119 1H  IN PTR      labcontrol1003.mgmt.eqiad.wmnet.
+119 1H  IN PTR      cloudcontrol1003.mgmt.eqiad.wmnet.
 120 1H  IN PTR      wmf7099.mgmt.eqiad.wmnet.
 120 1H  IN PTR      cloudcontrol1004.mgmt.eqiad.wmnet.
 121 1H  IN PTR      wmf7096.mgmt.eqiad.wmnet.
