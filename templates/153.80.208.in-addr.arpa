@@ -54,7 +54,6 @@
 52  1H  IN PTR  dbmonitor2001.wikimedia.org. ; VM on the ganeti01.svc.codfw.wmnet cluster
 53  1H  IN PTR  install2002.wikimedia.org. ; VM on the ganeti01.svc.codfw.wmnet cluster
 54  1H  IN PTR  bast2002.wikimedia.org.
-55  1H  IN PTR  labtest-recursor1.wikimedia.org. ; additional IP on labtestservices2002
 
 ; 208.80.153.64/27 (public1-c-codfw)
 65  1H  IN PTR  vrrp-gw-2003.wikimedia.org.
@@ -70,6 +69,7 @@
 75  1H  IN PTR  labtestcontrol2003.wikimedia.org.
 76  1H  IN PTR  labtestservices2002.wikimedia.org.
 77  1H  IN PTR  dns2001.wikimedia.org.
+78  1H  IN PTR  labtest-recursor1.wikimedia.org. ; additional IP on labtestservices2002
 
 ; 208.80.153.96/27 (public1-d-codfw)
 97  1H  IN PTR  vrrp-gw-2004.wikimedia.org.
