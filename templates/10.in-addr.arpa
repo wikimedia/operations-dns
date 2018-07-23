@@ -470,7 +470,7 @@ $ORIGIN 5.64.{{ zonename }}.
 25  1H IN PTR   analytics1071.eqiad.wmnet.
 
 101 1H IN PTR   druid1001.eqiad.wmnet.
-102 1H IN PTR   stat1002.eqiad.wmnet.
+
 104 1H IN PTR   stat1004.eqiad.wmnet.
 
 

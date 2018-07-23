@@ -831,7 +831,6 @@ snapshot1006    1H  IN A        10.64.32.149
 snapshot1007    1H  IN A        10.64.48.141
 snapshot1008    1H  IN A        10.64.16.16
 snapshot1009    1H  IN A        10.64.48.37
-stat1002        1H  IN A        10.64.5.102
 stat1004        1H  IN A        10.64.5.104
 stat1005        1H  IN A        10.64.53.30
 stat1006        1H  IN A        10.64.53.31
