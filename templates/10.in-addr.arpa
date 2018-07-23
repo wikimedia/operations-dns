@@ -2974,7 +2974,7 @@ $ORIGIN 0.192.{{ zonename }}.
 53  1H IN PTR   mw2228.codfw.wmnet.
 54  1H IN PTR   mw2229.codfw.wmnet.
 55  1H IN PTR   mw2230.codfw.wmnet.
-56  1H IN PTR   mw2017.codfw.wmnet.
+
 57  1H IN PTR   mw2231.codfw.wmnet.
 58  1H IN PTR   mw2232.codfw.wmnet.
 59  1H IN PTR   mw2233.codfw.wmnet.
