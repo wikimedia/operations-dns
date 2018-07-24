@@ -55,7 +55,7 @@ m5-slave        5M  IN CNAME    db1117.eqiad.wmnet.
 x1-master       5M  IN CNAME    db1069.eqiad.wmnet.
 x1-slave        5M  IN CNAME    db1064.eqiad.wmnet.
 es2-master      5M  IN CNAME    es1011.eqiad.wmnet.
-es3-master      5M  IN CNAME    es1014.eqiad.wmnet.
+es3-master      5M  IN CNAME    es1017.eqiad.wmnet.
 pc1-master      5M  IN CNAME    pc1004.eqiad.wmnet.
 pc2-master      5M  IN CNAME    pc1005.eqiad.wmnet.
 pc3-master      5M  IN CNAME    pc1006.eqiad.wmnet.
