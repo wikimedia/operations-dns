@@ -20,12 +20,12 @@
 5   1H  IN PTR  netmon1002.wikimedia.org.
 6   1H  IN PTR  netmon1003.wikimedia.org.
 7   1H  IN PTR  labstore1006.wikimedia.org.
-11  1H  IN PTR  dataset1001.wikimedia.org.
+
 12  1H  IN PTR  labservices1002.wikimedia.org.
 13  1H  IN PTR  dubnium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 14  1H  IN PTR  fermium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 15  1H  IN PTR  sodium.wikimedia.org.
-16  1H  IN PTR  ms1001.wikimedia.org.
+
 17  1H  IN PTR  contint1001.wikimedia.org.
 18  1H  IN PTR  meitnerium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 19  1H  IN PTR  ununpentium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
