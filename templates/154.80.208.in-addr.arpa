@@ -20,6 +20,7 @@
 5   1H  IN PTR  netmon1002.wikimedia.org.
 6   1H  IN PTR  netmon1003.wikimedia.org.
 7   1H  IN PTR  labstore1006.wikimedia.org.
+8   1H  IN PTR  cloudelastic1001.wikimedia.org.
 
 12  1H  IN PTR  labservices1002.wikimedia.org.
 13  1H  IN PTR  dubnium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
@@ -75,6 +76,7 @@
 80  1H  IN PTR  aluminium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 81  1H  IN PTR  cobalt.wikimedia.org.
 82  1H  IN PTR  dbmonitor1001.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+83  1H  IN PTR  cloudelastic1003.wikimedia.org.
 
 85  1H  IN PTR  gerrit.wikimedia.org.
 86  1H  IN PTR  bast1002.wikimedia.org.
@@ -101,6 +103,7 @@
 130 1H  IN PTR  ae2-1002.cr1-eqiad.wikimedia.org.
 131 1H  IN PTR  ae2-1002.cr2-eqiad.wikimedia.org.
 132 1H  IN PTR  cloudcontrol1004.wikimedia.org.
+133 1H  IN PTR  cloudelastic1002.wikimedia.org.
 
 136 1H  IN PTR  silver.wikimedia.org.
 137 1H  IN PTR  lvs1004.wikimedia.org.
