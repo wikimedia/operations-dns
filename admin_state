@@ -73,3 +73,6 @@
 geoip/misc-addrs/ulsfo => DOWN
 geoip/misc-addrs/eqsin => DOWN
 ### ^ T164610 - semi-permanent to avoid confusion until T164609
+#
+# Depool ulsfo, outages on both physical links
+geoip/generic-map/DCNAME => DOWN
