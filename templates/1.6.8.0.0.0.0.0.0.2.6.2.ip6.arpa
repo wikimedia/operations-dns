@@ -45,6 +45,7 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 8.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   meitnerium.wikimedia.org.
 
 2.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labservices1002.wikimedia.org.
+3.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   clouddcontrol1003.wikimedia.org.
 
 
 ; public1-b-eqiad (2620:0:861:2::/64)
@@ -61,6 +62,8 @@ $ORIGIN 2.0.0.0.{{ zonename }}.
 8.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labpuppetmaster1001.wikimedia.org.
 
 0.6.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labweb1001.wikimedia.org.
+
+2.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcontrol1004.wikimedia.org.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1002.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1002.cr2-eqiad.wikimedia.org.

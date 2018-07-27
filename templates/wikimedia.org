@@ -206,7 +206,9 @@ labcontrol1001      1H  IN AAAA 2620:0:861:3:208:80:154:92
 labcontrol1002      1H  IN A    208.80.154.95
 labcontrol1002      1H  IN AAAA 2620:0:861:3:208:80:154:95
 cloudcontrol1003    1H  IN A    208.80.154.23
+cloudcontrol1003    1H  IN AAAA 2620:0:861:1:208:80:154:23
 cloudcontrol1004    1H  IN A    208.80.154.132
+cloudcontrol1004    1H  IN AAAA 2620:0:861:2:208:80:154:132
 cloudelastic1001    1H  IN A    208.80.154.8
 cloudelastic1001    1H  IN AAAA 2620:0:861:1:208:80:154:8
 cloudelastic1002    1H  IN A    208.80.154.133
