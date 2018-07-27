@@ -80,6 +80,8 @@ $ORIGIN 3.0.0.0.{{ zonename }}.
 5.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit.wikimedia.org.
 6.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   bast1002.wikimedia.org.
 0.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   aluminium.wikimedia.org.
+2.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labcontrol1001.wikimedia.org.
+5.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labcontrol1002.wikimedia.org.
 
 ; public1-d-eqiad (2620:0:861:4::/64)
 $ORIGIN 4.0.0.0.{{ zonename }}.
