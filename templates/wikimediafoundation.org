@@ -21,7 +21,7 @@
 
 
 ; Canonical names
-            600 IN DYNA geoip!text-addrs
+            60  IN DYNA geoip!text-addrs
 
 ; DKIM domain policy record
 _domainkey  1H  IN TXT  "o=~; r=hostmaster@wikimediafoundation.org;"
@@ -47,5 +47,5 @@ fundraising._domainkey  1H  IN TXT  "v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb
 
 ; Wikis (alphabetic order)
 
-www         600 IN DYNA     geoip!text-addrs
-m           600 IN DYNA     geoip!text-addrs
+www         60  IN DYNA     geoip!text-addrs
+m           60  IN DYNA     geoip!text-addrs
