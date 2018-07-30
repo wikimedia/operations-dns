@@ -543,7 +543,7 @@ $ORIGIN 16.64.{{ zonename }}.
 73  1H IN PTR   puppetmaster1001.eqiad.wmnet.
 74  1H IN PTR   aqs1008-a.eqiad.wmnet. ; cassandra instance
 75  1H IN PTR   kubernetes1002.eqiad.wmnet.
-
+76  1H IN PTR   rdb1009.eqiad.wmnet.
 77  1H IN PTR   db1052.eqiad.wmnet.
 78  1H IN PTR   aqs1008-b.eqiad.wmnet. ; cassandra instance
 79  1H IN PTR   db1073.eqiad.wmnet.
@@ -1081,7 +1081,7 @@ $ORIGIN 48.64.{{ zonename }}.
 35      1H IN PTR       db1123.eqiad.wmnet.
 36      1H IN PTR       backup1001.eqiad.wmnet.
 37      1H IN PTR       snapshot1009.eqiad.wmnet.
-
+38      1H IN PTR       rdb1010.eqiad.wmnet.
 39      1H IN PTR       elastic1017.eqiad.wmnet.
 40      1H IN PTR       elastic1018.eqiad.wmnet.
 41      1H IN PTR       elastic1019.eqiad.wmnet.
@@ -2717,6 +2717,10 @@ $ORIGIN 7.65.{{ zonename }}.
 90      1H      IN PTR     wmf7367.mgmt.eqiad.wmnet.
 91      1H      IN PTR     wdqs1010.mgmt.eqiad.wmnet.
 91      1H      IN PTR     wmf7368.mgmt.eqiad.wmnet.
+92      1H      IN PTR     rdb1009.mgmt.eqiad.wmnet.
+92      1H      IN PTR     wmf7380.mgmt.eqiad.wmnet.
+93      1H      IN PTR     rdb1010.mgmt.eqiad.wmnet.
+93      1H      IN PTR     wmf7381.mgmt.eqiad.wmnet.
 
 $ORIGIN 8.65.{{ zonename }}.
 
