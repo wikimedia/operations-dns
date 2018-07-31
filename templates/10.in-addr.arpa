@@ -1368,6 +1368,8 @@ $ORIGIN 1.65.{{ zonename }}.
 9   1H  IN PTR      wmf7372.mgmt.eqiad.wmnet.
 10  1H  IN PTR      db1125.mgmt.eqiad.wmnet.
 10  1H  IN PTR      wmf7373.mgmt.eqiad.wmnet.
+11  1H  IN PTR      torrelay1001.mgmt.eqiad.wmnet.
+11  1H  IN PTR      wmf7391.mgmt.eqiad.wmnet.
 
 26  1H  IN PTR      mw1261.mgmt.eqiad.wmnet.
 26  1H  IN PTR      wmf6900.mgmt.eqiad.wmnet.
