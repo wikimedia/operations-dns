@@ -582,6 +582,7 @@ $ORIGIN 16.64.{{ zonename }}.
 112 1H IN PTR   elastic1050.eqiad.wmnet.
 
 148 1H IN PTR   dbproxy1004.eqiad.wmnet.
+149 1H IN PTR   graphite1004.eqiad.wmnet.
 
 151 1H IN PTR   ruthenium.eqiad.wmnet.
 152 1H IN PTR   poolcounter1002.eqiad.wmnet.
@@ -1818,6 +1819,8 @@ $ORIGIN 3.65.{{ zonename }}.
 5   1H  IN PTR      wmf7041.mgmt.eqiad.wmnet.
 6   1H  IN PTR      authdns1001.mgmt.eqiad.wmnet.
 6   1H  IN PTR      wmf7390.mgmt.eqiad.wmnet.
+7   1H  IN PTR      graphite1004.mgmt.eqiad.wmnet.
+7   1H  IN PTR      wmf7393.mgmt.eqiad.wmnet.
 
 9   1H  IN PTR      oxygen.mgmt.eqiad.wmnet.
 9   1H  IN PTR      wmf3142.mgmt.eqiad.wmnet.
