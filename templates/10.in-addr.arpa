@@ -585,7 +585,6 @@ $ORIGIN 16.64.{{ zonename }}.
 149 1H IN PTR   graphite1004.eqiad.wmnet.
 
 151 1H IN PTR   ruthenium.eqiad.wmnet.
-152 1H IN PTR   poolcounter1002.eqiad.wmnet.
 
 155 1H IN PTR   dbproxy1005.eqiad.wmnet.
 156 1H IN PTR   pc1001.eqiad.wmnet.
