@@ -713,7 +713,7 @@ $ORIGIN 32.64.{{ zonename }}.
 10      1H IN PTR       ms-be1042.eqiad.wmnet.
 11      1H IN PTR       db1120.eqiad.wmnet.
 12      1H IN PTR       db1121.eqiad.wmnet.
-13      1H IN PTR       terbium.eqiad.wmnet.
+
 14      1H IN PTR       ores1005.eqiad.wmnet.
 15      1H IN PTR       ores1006.eqiad.wmnet.
 16      1H IN PTR       deploy1001.eqiad.wmnet.

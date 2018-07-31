@@ -189,7 +189,6 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 $ORIGIN 3.0.1.0.{{ zonename }}.
 
 3.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   argon.eqiad.wmnet.
-3.1.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   terbium.eqiad.wmnet.
 0.2.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   neodymium.eqiad.wmnet.
 6.1.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   deploy1001.eqiad.wmnet.
 5.3.2.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestagetcd1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
