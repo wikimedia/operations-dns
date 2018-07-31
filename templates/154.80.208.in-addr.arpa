@@ -105,6 +105,7 @@
 131 1H  IN PTR  ae2-1002.cr2-eqiad.wikimedia.org.
 132 1H  IN PTR  cloudcontrol1004.wikimedia.org.
 133 1H  IN PTR  cloudelastic1002.wikimedia.org.
+134 1H  IN PTR  authdns1001.wikimedia.org.
 
 136 1H  IN PTR  silver.wikimedia.org.
 137 1H  IN PTR  lvs1004.wikimedia.org.
