@@ -416,6 +416,12 @@ dbproxy1008     1H  IN A        10.64.32.157
 dbproxy1009     1H  IN A        10.64.32.158
 dbproxy1010     1H  IN A        10.64.37.14
 dbproxy1011     1H  IN A        10.64.37.15
+dbproxy1012     1H  IN A        10.64.0.134
+dbproxy1013     1H  IN A        10.64.0.135
+dbproxy1014     1H  IN A        10.64.16.18
+dbproxy1015     1H  IN A        10.64.16.19
+dbproxy1016     1H  IN A        10.64.48.42
+dbproxy1017     1H  IN A        10.64.48.43
 dbstore1001     1H  IN A        10.64.48.17
 dbstore1002     1H  IN A        10.64.48.18
 debmonitor1001  1H  IN A        10.64.32.62 ; VM on the ganeti01.svc.eqiad.wmnet cluster
@@ -2047,6 +2053,18 @@ snapshot1008    1H  IN A    10.65.4.139
 wmf7371         1H  IN A    10.65.4.139
 snapshot1009    1H  IN A    10.65.2.162
 wmf7375         1H  IN A    10.65.2.162
+dbproxy1012     1H  IN A    10.65.2.163
+wmf7396         1H  IN A    10.65.2.163
+dbproxy1013     1H  IN A    10.65.2.164
+wmf7397         1H  IN A    10.65.2.164
+dbproxy1014     1H  IN A    10.65.2.165
+wmf7398         1H  IN A    10.65.2.165
+dbproxy1015     1H  IN A    10.65.2.166
+wmf7399         1H  IN A    10.65.2.166
+dbproxy1016     1H  IN A    10.65.2.167
+wmf7400         1H  IN A    10.65.2.167
+dbproxy1017     1H  IN A    10.65.2.168
+wmf7401         1H  IN A    10.65.2.168
 hydrogen        1H  IN A    10.65.3.15
 wmf3136         1H  IN A    10.65.3.15
 helium          1H  IN A    10.65.3.14
