@@ -935,7 +935,7 @@ $ORIGIN 36.64.{{ zonename }}.
 
 114     1H IN PTR       kafka1014.eqiad.wmnet.
 116     1H IN PTR       analytics1003.eqiad.wmnet.
-117     1H IN PTR       notebook1001.eqiad.wmnet.
+
 118     1H IN PTR       analytics1001.eqiad.wmnet.
 122     1H IN PTR       kafka1022.eqiad.wmnet.
 
