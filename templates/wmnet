@@ -1649,6 +1649,8 @@ db1125          1H  IN A    10.65.1.10
 wmf7373         1H  IN A    10.65.1.10
 torrelay1001    1H  IN A    10.65.1.11
 wmf7391         1H  IN A    10.65.1.11
+wmf7621         1H  IN A    10.65.1.12
+wmf7622         1H  IN A    10.65.1.13
 dumpsdata1001   1H  IN A    10.65.5.64
 wmf7090         1H  IN A    10.65.5.65
 dumpsdata1002   1H  IN A    10.65.5.65
