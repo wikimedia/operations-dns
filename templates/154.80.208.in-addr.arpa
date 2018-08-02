@@ -28,7 +28,7 @@
 13  1H  IN PTR  dubnium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 14  1H  IN PTR  fermium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 15  1H  IN PTR  sodium.wikimedia.org.
-
+16  1H  IN PTR  archiva1001.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 17  1H  IN PTR  contint1001.wikimedia.org.
 18  1H  IN PTR  meitnerium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 19  1H  IN PTR  ununpentium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
