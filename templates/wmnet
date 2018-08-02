@@ -227,27 +227,28 @@ aqs1008-b        1H IN A             10.64.16.78 ; cassandra instance
 aqs1009          1H IN A             10.64.48.119
 aqs1009-a        1H IN A             10.64.48.122 ; cassandra instance
 aqs1009-b        1H IN A             10.64.48.123 ; cassandra instance
-argon            1H IN A             10.64.32.133 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-argon            1H IN AAAA          2620:0:861:103:10:64:32:133
-backup1001       1H IN A             10.64.48.36
-bohrium          1H IN A             10.64.0.55 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-boron            1H IN A             10.64.0.36 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-chlorine         1H IN A             10.64.0.45 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-chlorine         1H IN AAAA          2620:0:861:101:10:64:0:45
-cloudnet1003     1H IN A             10.64.20.35
-cloudvirt1021    1H IN A             10.64.20.40
-cloudvirt1022    1H  IN A            10.64.20.41
-cloudvirt1023    1H IN A             10.64.20.42
-cloudvirt1024    1H IN A             10.64.20.43
-conf1001         1H IN A             10.64.0.18
-conf1002         1H IN A             10.64.32.180
-conf1003         1H IN A             10.64.48.111
-conf1004         1H IN A             10.64.0.23
-conf1004         1H IN AAAA          2620:0:861:101:10:64:0:23
-conf1005         1H IN A             10.64.16.29
-conf1005         1H IN AAAA          2620:0:861:102:10:64:16:29
-conf1006         1H IN A             10.64.48.167
-conf1006         1H IN AAAA          2620:0:861:107:10:64:48:167
+argon            1H IN A         10.64.32.133 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+argon            1H IN AAAA      2620:0:861:103:10:64:32:133
+backup1001       1H IN A         10.64.48.36
+bohrium          1H IN A         10.64.0.55 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+boron            1H IN A         10.64.0.36 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+centrallog1001   1H IN A         10.64.48.113
+chlorine         1H IN A         10.64.0.45 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+chlorine         1H IN AAAA      2620:0:861:101:10:64:0:45
+cloudnet1003     1H IN A         10.64.20.35
+cloudvirt1021    1H IN A         10.64.20.40
+cloudvirt1022    1H IN A         10.64.20.41
+cloudvirt1023    1H IN A         10.64.20.42
+cloudvirt1024    1H IN A         10.64.20.43
+conf1001         1H IN A         10.64.0.18
+conf1002         1H IN A         10.64.32.180
+conf1003         1H IN A         10.64.48.111
+conf1004         1H IN A         10.64.0.23
+conf1004         1H IN AAAA      2620:0:861:101:10:64:0:23
+conf1005         1H IN A         10.64.16.29
+conf1005         1H IN AAAA      2620:0:861:102:10:64:16:29
+conf1006         1H IN A         10.64.48.167
+conf1006         1H IN AAAA      2620:0:861:107:10:64:48:167
 cp1045           1H IN A         10.64.32.97
                  1H IN AAAA      2620:0:861:103:10:64:32:97
 cp1046           1H IN A         10.64.32.98
@@ -1651,6 +1652,8 @@ torrelay1001    1H  IN A    10.65.1.11
 wmf7391         1H  IN A    10.65.1.11
 wmf7621         1H  IN A    10.65.1.12
 wmf7622         1H  IN A    10.65.1.13
+centrallog1001  1H  IN A    10.65.1.14
+wmf7420         1H  IN A    10.65.1.14
 dumpsdata1001   1H  IN A    10.65.5.64
 wmf7090         1H  IN A    10.65.5.65
 dumpsdata1002   1H  IN A    10.65.5.65
