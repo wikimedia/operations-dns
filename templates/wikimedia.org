@@ -629,9 +629,9 @@ gerrit-slave    600 IN AAAA     2620:0:860:4:208:80:153:107
 git             600 IN DYNA     geoip!misc-addrs
 graphite        600 IN DYNA     geoip!misc-addrs
 graphite-labs   600 IN DYNA     geoip!misc-addrs
-grafana         600 IN DYNA     geoip!misc-addrs
-grafana-labs         600 IN DYNA     geoip!misc-addrs
-grafana-labs-admin   600 IN DYNA     geoip!misc-addrs
+grafana         600 IN DYNA     geoip!text-addrs
+grafana-labs         600 IN DYNA     geoip!text-addrs
+grafana-labs-admin   600 IN DYNA     geoip!text-addrs
 parsoid-rt-tests     600 IN DYNA     geoip!misc-addrs
 parsoid-vd-tests     600 IN DYNA     geoip!misc-addrs
 performance     600 IN DYNA     geoip!misc-addrs
