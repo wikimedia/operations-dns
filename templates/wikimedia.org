@@ -599,7 +599,7 @@ dbmonitor2001   600 IN A        208.80.153.52
 dbmonitor2001   600 IN AAAA     2620:0:860:2:208:80:153:52
 dbtree          600 IN DYNA     geoip!misc-addrs
 
-debmonitor      600 IN DYNA     geoip!misc-addrs
+debmonitor      600 IN DYNA     geoip!text-addrs
 
 dev             600 IN DYNA     geoip!text-addrs
 doc             600 IN DYNA     geoip!misc-addrs
@@ -671,7 +671,7 @@ piwik           600 IN DYNA     geoip!misc-addrs ; T103577
 ; policy.wikimedia.org goes to wordpress cluster T110203
 policy          5M  IN A        192.0.66.2
 
-puppetboard      600 IN DYNA     geoip!misc-addrs
+puppetboard      600 IN DYNA     geoip!text-addrs
 
 releases         600 IN DYNA     geoip!misc-addrs
 releases-jenkins 600 IN DYNA     geoip!misc-addrs
