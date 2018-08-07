@@ -532,7 +532,6 @@ labnet1001-ext  1H  IN A        10.64.22.11
 labnet1002      1H  IN A        10.64.20.25
 cloudnet1004    1H  IN A        10.64.20.36
 labnodepool1001 1H  IN A        10.64.20.18
-labnodepool1002 1H  IN A        10.64.20.37
 labstore1001    1H  IN A        10.64.37.6
 labstore1002    1H  IN A        10.64.37.7
 labstore1003    1H  IN A        10.64.4.10

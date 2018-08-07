@@ -107,7 +107,7 @@
 132 1H  IN PTR  cloudcontrol1004.wikimedia.org.
 133 1H  IN PTR  cloudelastic1002.wikimedia.org.
 134 1H  IN PTR  authdns1001.wikimedia.org.
-
+135 1H  IN PTR  cloudservices1003.wikimedia.org.
 136 1H  IN PTR  silver.wikimedia.org.
 137 1H  IN PTR  lvs1004.wikimedia.org.
 138 1H  IN PTR  lvs1005.wikimedia.org.
