@@ -1067,7 +1067,7 @@ wmf3097     1H  IN A    10.65.2.38
 wmf3095     1H  IN A    10.65.2.40
 labnodepool1001 1H  IN A    10.65.2.40
 wmf7225     1H  IN A    10.65.2.43
-labnodepool1002 1H  IN A    10.65.2.43
+cloudservices1003 1H  IN A    10.65.2.43
 wmf3094     1H  IN A    10.65.2.41
 labpuppetmaster1001 1H  IN A   10.65.4.117
 wmf7113     1H  IN A    10.65.4.117
