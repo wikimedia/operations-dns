@@ -839,12 +839,14 @@ jobs             600 IN DYNA     geoip!text-addrs
 labs             600 IN DYNA     geoip!text-addrs
 labs-ns0         1H  IN A        208.80.155.117
 labs-ns1         1H  IN A        208.80.154.12
+labs-ns2         1H  IN A        208.80.154.135
 labtest-ns0      1H  IN A        208.80.153.48
 labtest-ns1      1H  IN A        208.80.153.76
 labs-recursor0   1H  IN A        208.80.155.118
 labs-recursor1   1H  IN A        208.80.154.20
 labtest-recursor0 1H IN A        208.80.153.51
 labtest-recursor1 1H IN A        208.80.153.78
+labtest-recursor2 1H IN A        208.80.154.143
 ; deprecated but kept for compatibility, see RT #6769
 labsconsole      600 IN DYNA     geoip!text-addrs
 logstash         600 IN DYNA     geoip!misc-addrs
