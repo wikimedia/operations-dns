@@ -224,6 +224,7 @@ cloudelastic1003    1H  IN AAAA 2620:0:861:3:208:80:154:83
 cloudelastic1004    1H  IN A    208.80.155.107
 cloudelastic1004    1H  IN AAAA 2620:0:861:4:208:80:155:107
 cloudservices1003   1H  IN A    208.80.154.135
+cloudservices1003   1H  IN AAAA 2620:0:861:2:208:80:154:135
 labpuppetmaster1001 1H  IN A    208.80.154.158
 labpuppetmaster1001 1H  IN AAAA 2620:0:861:2:208:80:154:158
 labpuppetmaster1002 1H  IN A    208.80.155.120
