@@ -1365,8 +1365,6 @@ wmf7350         1H      IN A    10.65.4.133
 analytics1076   1H      IN A    10.65.4.133
 wmf7351         1H      IN A    10.65.4.134
 analytics1077   1H      IN A    10.65.4.134
-dataset1001 1H  IN A    10.65.3.85
-wmf3471     1H  IN A    10.65.3.85
 wmf3089     1H  IN A    10.65.6.2
 wmf3088     1H  IN A    10.65.6.3
 wmf3087     1H  IN A    10.65.6.4
@@ -1701,8 +1699,6 @@ mc1036      1H  IN A    10.65.8.36
 wmf6969     1H  IN A    10.65.8.36
 rhenium     1H  IN A    10.65.3.34
 wmf3408     1H  IN A    10.65.3.34
-ms1001      1H  IN A    10.65.5.1
-wmf3070     1H  IN A    10.65.5.1
 ms-be1013   1H  IN A    10.65.5.21
 ms-be1014   1H  IN A    10.65.5.22
 ms-be1015   1H  IN A    10.65.5.23

@@ -1910,9 +1910,6 @@ $ORIGIN 3.65.{{ zonename }}.
 83  1H  IN PTR      notebook1004.mgmt.eqiad.wmnet.
 83  1H  IN PTR      wmf7299.mgmt.eqiad.wmnet.
 
-85  1H  IN PTR      dataset1001.mgmt.eqiad.wmnet.
-85  1H  IN PTR      wmf3471.mgmt.eqiad.wmnet.
-
 95  1H  IN PTR      kafka1012.mgmt.eqiad.wmnet.
 96  1H  IN PTR      kafka1013.mgmt.eqiad.wmnet.
 97  1H  IN PTR      kafka1014.mgmt.eqiad.wmnet.
@@ -2287,8 +2284,6 @@ $ORIGIN 4.65.{{ zonename }}.
 
 $ORIGIN 5.65.{{ zonename }}.
 
-1   1H  IN PTR      ms1001.mgmt.eqiad.wmnet.
-1   1H  IN PTR      wmf3070.mgmt.eqiad.wmnet.
 2   1H  IN PTR      labstore1003.mgmt.eqiad.wmnet.
 2   1H  IN PTR      wmf3249.mgmt.eqiad.wmnet.
 
