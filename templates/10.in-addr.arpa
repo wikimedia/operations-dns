@@ -2016,8 +2016,6 @@ $ORIGIN 3.65.{{ zonename }}.
 173     1H      IN PTR          wmf3837.mgmt.eqiad.wmnet.
 173     1H      IN PTR          hafnium.mgmt.eqiad.wmnet.
 
-177     1H      IN PTR          wmf5844.mgmt.eqiad.wmnet.
-177     1H      IN PTR          eventlog1001.mgmt.eqiad.wmnet.
 178     1H      IN PTR          wmf5842.mgmt.eqiad.wmnet.
 178     1H      IN PTR          scb1002.mgmt.eqiad.wmnet.
 179     1H      IN PTR          wmf5843.mgmt.eqiad.wmnet.
