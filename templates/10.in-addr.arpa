@@ -2552,15 +2552,7 @@ $ORIGIN 6.65.{{ zonename }}.
 27      1H IN PTR       wmf3259.mgmt.eqiad.wmnet.
 
 
-51      1H IN PTR       db1051.mgmt.eqiad.wmnet.
 52      1H IN PTR       db1052.mgmt.eqiad.wmnet.
-53      1H IN PTR       db1053.mgmt.eqiad.wmnet.
-54      1H IN PTR       db1054.mgmt.eqiad.wmnet.
-55      1H IN PTR       db1055.mgmt.eqiad.wmnet.
-56      1H IN PTR       db1056.mgmt.eqiad.wmnet.
-
-59      1H IN PTR       db1059.mgmt.eqiad.wmnet.
-60      1H IN PTR       db1060.mgmt.eqiad.wmnet.
 61      1H IN PTR       wmf4529.mgmt.eqiad.wmnet.
 61      1H IN PTR       db1061.mgmt.eqiad.wmnet.
 62      1H IN PTR       wmf4530.mgmt.eqiad.wmnet.
