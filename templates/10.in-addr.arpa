@@ -1934,8 +1934,6 @@ $ORIGIN 3.65.{{ zonename }}.
 116 1H  IN PTR      wmf7094.mgmt.eqiad.wmnet.
 116 1H  IN PTR      conf1005.mgmt.eqiad.wmnet.
 
-118 1H  IN PTR      wmf4073.mgmt.eqiad.wmnet.
-118 1H  IN PTR      tin.mgmt.eqiad.wmnet.
 119 1H  IN PTR      wmf7095.mgmt.eqiad.wmnet.
 119 1H  IN PTR      conf1006.mgmt.eqiad.wmnet.
 120 1H  IN PTR      labservices1002.mgmt.eqiad.wmnet.
