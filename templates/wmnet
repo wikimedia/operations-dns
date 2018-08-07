@@ -2140,7 +2140,6 @@ labservices1002 1H  IN A    10.65.3.120
 wmf4082     1H  IN A    10.65.3.127
 thulium     1H  IN A    10.65.3.127
 wmf4083     1H  IN A    10.65.3.128
-wmf3560     1H  IN A    10.65.3.134
 wtp1025     1H  IN A    10.65.5.38
 wmf7044     1H  IN A    10.65.5.38
 wtp1026     1H  IN A    10.65.5.39
@@ -2189,8 +2188,6 @@ wtp1047     1H  IN A    10.65.5.60
 wmf7066     1H  IN A    10.65.5.60
 wtp1048     1H  IN A    10.65.5.61
 wmf7067     1H  IN A    10.65.5.61
-wmf3564     1H  IN A    10.65.3.138
-terbium     1H  IN A    10.65.3.138
 wmf5842     1H  IN A    10.65.3.178
 scb1002     1H  IN A    10.65.3.178
 wmf5843     1H  IN A    10.65.3.179
