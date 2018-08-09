@@ -346,7 +346,7 @@ dns-rec-lb.eqiad    1H  IN A    208.80.154.254
 cxserver            600 IN DYNA geoip!text-addrs
 
 ; ORES
-ores                30 IN DYNA geoip!misc-addrs
+ores                30 IN DYNA geoip!text-addrs
 
 git-ssh.eqiad       1H  IN A    208.80.154.250
 git-ssh.eqiad       1H  IN AAAA 2620:0:861:ed1a::3:16
@@ -575,7 +575,7 @@ pfw3-codfw      1H  IN A     208.80.153.197
 
 ; Service aliases (alphabetical order)
 
-annual          30 IN DYNA     geoip!misc-addrs
+annual          30 IN DYNA     geoip!text-addrs
 
 apt             300  IN CNAME   install1002
 
@@ -594,19 +594,19 @@ config-master   600 IN DYNA     geoip!text-addrs
 
 dash.frdev      1H  IN CNAME    frdev-eqiad
 
-design          30 IN DYNA     geoip!misc-addrs
+design          30 IN DYNA     geoip!text-addrs
 
 dbmonitor1001   600 IN A        208.80.154.82
 dbmonitor1001   600 IN AAAA     2620:0:861:3:208:80:154:82
 dbmonitor2001   600 IN A        208.80.153.52
 dbmonitor2001   600 IN AAAA     2620:0:860:2:208:80:153:52
-dbtree          30 IN DYNA     geoip!misc-addrs
+dbtree          30 IN DYNA     geoip!text-addrs
 
 debmonitor      600 IN DYNA     geoip!text-addrs
 
 dev             600 IN DYNA     geoip!text-addrs
-doc             30 IN DYNA     geoip!misc-addrs
-docker-registry 30 IN DYNA     geoip!misc-addrs
+doc             30 IN DYNA     geoip!text-addrs
+docker-registry 30 IN DYNA     geoip!text-addrs
 docs            600 IN DYNA     geoip!text-addrs
 
 ldap-corp.eqiad 1H  IN CNAME    dubnium
@@ -627,27 +627,27 @@ gerrit          600 IN A        208.80.154.85
 gerrit          600 IN AAAA     2620:0:861:3:208:80:154:85
 gerrit-slave    600 IN A        208.80.153.107
 gerrit-slave    600 IN AAAA     2620:0:860:4:208:80:153:107
-git             30 IN DYNA     geoip!misc-addrs
-graphite        30 IN DYNA     geoip!misc-addrs
-graphite-labs   30 IN DYNA     geoip!misc-addrs
+git             30 IN DYNA     geoip!text-addrs
+graphite        30 IN DYNA     geoip!text-addrs
+graphite-labs   30 IN DYNA     geoip!text-addrs
 grafana         600 IN DYNA     geoip!text-addrs
 grafana-labs         600 IN DYNA     geoip!text-addrs
 grafana-labs-admin   600 IN DYNA     geoip!text-addrs
-parsoid-rt-tests     30 IN DYNA     geoip!misc-addrs
-parsoid-vd-tests     30 IN DYNA     geoip!misc-addrs
-performance     30 IN DYNA     geoip!misc-addrs
+parsoid-rt-tests     30 IN DYNA     geoip!text-addrs
+parsoid-vd-tests     30 IN DYNA     geoip!text-addrs
+performance     30 IN DYNA     geoip!text-addrs
 horizon         600 IN DYNA     geoip!text-addrs
-wikitech        30 IN DYNA     geoip!misc-addrs
+wikitech        30 IN DYNA     geoip!text-addrs
 
 icinga          5M  IN CNAME    einsteinium
 
-integration     30 IN DYNA     geoip!misc-addrs
+integration     30 IN DYNA     geoip!text-addrs
 irc             1H  IN CNAME    kraz
 
 ldap-eqiad      1H  IN CNAME    seaborgium
 ldap-codfw      1H  IN CNAME    serpens
 
-phabricator     30 IN DYNA     geoip!misc-addrs
+phabricator     30 IN DYNA     geoip!text-addrs
 phabricator     1H  IN MX       10 mx1001
 phabricator     1H  IN MX       50 mx2001
 phabricator     1H  IN TXT      "v=spf1 mx ip4:10.64.32.150 ip6:2620:0:861:103:10:64:32:150 -all"
@@ -657,7 +657,7 @@ login           600 IN DYNA     geoip!text-addrs
 librenms        1H  IN CNAME    netmon1002
 netbox          1H  IN CNAME    netmon1002
 
-servermon       30 IN DYNA     geoip!misc-addrs
+servermon       30 IN DYNA     geoip!text-addrs
 
 payments        5M  IN A        208.80.155.5   ; eqiad
 payments-eqiad  1H  IN A        208.80.155.5   ; eqiad
@@ -669,14 +669,14 @@ payments-listener       5M  IN CNAME        payments-listener-eqiad
 
 people          600 IN DYNA     geoip!text-addrs
 
-piwik           30 IN DYNA     geoip!misc-addrs ; T103577
+piwik           30 IN DYNA     geoip!text-addrs ; T103577
 
 ; policy.wikimedia.org goes to wordpress cluster T110203
 policy          5M  IN A        192.0.66.2
 
 puppetboard      600 IN DYNA     geoip!text-addrs
 
-releases         30 IN DYNA     geoip!misc-addrs
+releases         30 IN DYNA     geoip!text-addrs
 releases-jenkins 600 IN DYNA     geoip!text-addrs
 
 research         600 IN DYNA     geoip!text-addrs
@@ -689,11 +689,11 @@ rt              1H  IN MX       50 mx2001
 
 secure          600 IN DYNA     geoip!text-addrs
 
-stream          30 IN DYNA     geoip!misc-addrs
+stream          30 IN DYNA     geoip!text-addrs
 
 svn             600 IN DYNA     geoip!text-addrs
 
-toolsadmin      30 IN DYNA     geoip!misc-addrs
+toolsadmin      30 IN DYNA     geoip!text-addrs
 
 wiki-mail-eqiad 1H  IN A        208.80.154.91
                 1H  IN AAAA     2620:0:861:3:208:80:154:91
@@ -813,10 +813,10 @@ zero             600 IN DYNA     geoip!text-addrs
 
 ; Other websites (NO wikis!)
 2030             600 IN DYNA     geoip!text-addrs
-analytics        30 IN DYNA     geoip!misc-addrs
+analytics        30 IN DYNA     geoip!text-addrs
 blog             1H  IN CNAME    wikimediablog.wordpress.com.
 bugs             600 IN DYNA     geoip!text-addrs
-bugzilla         30 IN DYNA     geoip!misc-addrs
+bugzilla         30 IN DYNA     geoip!text-addrs
 bug-attachment   600 IN DYNA     geoip!text-addrs
 careers          600 IN DYNA     geoip!text-addrs
 gh-mail          1H  IN MX       10 mxa.mailgun.org.
@@ -829,12 +829,12 @@ civicrm-codfw    1H  IN A        208.80.152.232
 coffee           600 IN DYNA     geoip!text-addrs
 cs               600 IN DYNA     geoip!text-addrs
 cz               600 IN DYNA     geoip!text-addrs
-datasets         30 IN DYNA     geoip!misc-addrs
+datasets         30 IN DYNA     geoip!text-addrs
 download         600 IN DYNA     geoip!text-addrs
-etherpad         30 IN DYNA     geoip!misc-addrs
+etherpad         30 IN DYNA     geoip!text-addrs
 fundraising      1H  IN CNAME    fundraising-eqiad
-hue              30 IN DYNA     geoip!misc-addrs
-iegreview        30 IN DYNA     geoip!misc-addrs
+hue              30 IN DYNA     geoip!text-addrs
+iegreview        30 IN DYNA     geoip!text-addrs
 tendril          5M  IN CNAME    dbmonitor1001
 jobs             600 IN DYNA     geoip!text-addrs
 labs             600 IN DYNA     geoip!text-addrs
@@ -850,66 +850,66 @@ labtest-recursor0 1H IN A        208.80.153.51
 labtest-recursor1 1H IN A        208.80.153.78
 ; deprecated but kept for compatibility, see RT #6769
 labsconsole      600 IN DYNA     geoip!text-addrs
-logstash         30 IN DYNA     geoip!misc-addrs
-metrics          30 IN DYNA     geoip!misc-addrs
+logstash         30 IN DYNA     geoip!text-addrs
+metrics          30 IN DYNA     geoip!text-addrs
 moon             600 IN DYNA     geoip!text-addrs
-noc              30 IN DYNA     geoip!misc-addrs
+noc              30 IN DYNA     geoip!text-addrs
 nyc              600 IN DYNA     geoip!text-addrs
 old-bugzilla     600 IN DYNA     geoip!text-addrs
-planet           30 IN DYNA     geoip!misc-addrs
-ar.planet        30 IN DYNA     geoip!misc-addrs
-bg.planet        30 IN DYNA     geoip!misc-addrs
-cs.planet        30 IN DYNA     geoip!misc-addrs
-da.planet        30 IN DYNA     geoip!misc-addrs
-de.planet        30 IN DYNA     geoip!misc-addrs
-el.planet        30 IN DYNA     geoip!misc-addrs
-en.planet        30 IN DYNA     geoip!misc-addrs
-es.planet        30 IN DYNA     geoip!misc-addrs
-fo.planet        30 IN DYNA     geoip!misc-addrs
-fr.planet        30 IN DYNA     geoip!misc-addrs
-gmq.planet       30 IN DYNA     geoip!misc-addrs
-id.planet        30 IN DYNA     geoip!misc-addrs
-is.planet        30 IN DYNA     geoip!misc-addrs
-it.planet        30 IN DYNA     geoip!misc-addrs
-nb.planet        30 IN DYNA     geoip!misc-addrs
-nn.planet        30 IN DYNA     geoip!misc-addrs
-no.planet        30 IN DYNA     geoip!misc-addrs
-pl.planet        30 IN DYNA     geoip!misc-addrs
-pt.planet        30 IN DYNA     geoip!misc-addrs
-ro.planet        30 IN DYNA     geoip!misc-addrs
-ru.planet        30 IN DYNA     geoip!misc-addrs
-sq.planet        30 IN DYNA     geoip!misc-addrs
-sv.planet        30 IN DYNA     geoip!misc-addrs
-uk.planet        30 IN DYNA     geoip!misc-addrs
-zh.planet        30 IN DYNA     geoip!misc-addrs
+planet           30 IN DYNA     geoip!text-addrs
+ar.planet        30 IN DYNA     geoip!text-addrs
+bg.planet        30 IN DYNA     geoip!text-addrs
+cs.planet        30 IN DYNA     geoip!text-addrs
+da.planet        30 IN DYNA     geoip!text-addrs
+de.planet        30 IN DYNA     geoip!text-addrs
+el.planet        30 IN DYNA     geoip!text-addrs
+en.planet        30 IN DYNA     geoip!text-addrs
+es.planet        30 IN DYNA     geoip!text-addrs
+fo.planet        30 IN DYNA     geoip!text-addrs
+fr.planet        30 IN DYNA     geoip!text-addrs
+gmq.planet       30 IN DYNA     geoip!text-addrs
+id.planet        30 IN DYNA     geoip!text-addrs
+is.planet        30 IN DYNA     geoip!text-addrs
+it.planet        30 IN DYNA     geoip!text-addrs
+nb.planet        30 IN DYNA     geoip!text-addrs
+nn.planet        30 IN DYNA     geoip!text-addrs
+no.planet        30 IN DYNA     geoip!text-addrs
+pl.planet        30 IN DYNA     geoip!text-addrs
+pt.planet        30 IN DYNA     geoip!text-addrs
+ro.planet        30 IN DYNA     geoip!text-addrs
+ru.planet        30 IN DYNA     geoip!text-addrs
+sq.planet        30 IN DYNA     geoip!text-addrs
+sv.planet        30 IN DYNA     geoip!text-addrs
+uk.planet        30 IN DYNA     geoip!text-addrs
+zh.planet        30 IN DYNA     geoip!text-addrs
 puppet           5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-pivot            30 IN DYNA     geoip!misc-addrs
-superset         30 IN DYNA     geoip!misc-addrs
-racktables       30 IN DYNA     geoip!misc-addrs
-scholarships     30 IN DYNA     geoip!misc-addrs
+pivot            30 IN DYNA     geoip!text-addrs
+superset         30 IN DYNA     geoip!text-addrs
+racktables       30 IN DYNA     geoip!text-addrs
+scholarships     30 IN DYNA     geoip!text-addrs
 transparency     600 IN DYNA     geoip!text-addrs
-transparency-private 30 IN DYNA     geoip!misc-addrs
+transparency-private 30 IN DYNA     geoip!text-addrs
 search           600 IN DYNA     geoip!text-addrs
 shop             600 IN DYNA     geoip!text-addrs
 smokeping        600 IN DYNA     geoip!text-addrs
 store            1H  IN CNAME    c.ssl.shopify.com.
-static-bugzilla  30 IN DYNA     geoip!misc-addrs
-stats            30 IN DYNA     geoip!misc-addrs
+static-bugzilla  30 IN DYNA     geoip!text-addrs
+stats            30 IN DYNA     geoip!text-addrs
 status           5M  IN A        192.237.162.200
 status           5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
 techblog         600 IN DYNA     geoip!text-addrs
-ticket           30 IN DYNA     geoip!misc-addrs
+ticket           30 IN DYNA     geoip!text-addrs
 tor-eqiad-1      1H  IN CNAME    radium
 mirrors          1H  IN CNAME    sodium
-yarn             30 IN DYNA     geoip!misc-addrs
+yarn             30 IN DYNA     geoip!text-addrs
 turnilo          600 IN DYNA     geoip!text-addrs
 wikitech-static-iad  5M  IN A        162.209.126.221
 wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
 wikitech-static      5M  IN A        192.237.162.200
 wikitech-static      5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
-labtestwikitech   30  IN DYNA     geoip!misc-addrs
-labtesthorizon    30  IN DYNA     geoip!misc-addrs
-labtesttoolsadmin 30  IN DYNA     geoip!misc-addrs
+labtestwikitech   30  IN DYNA     geoip!text-addrs
+labtesthorizon    30  IN DYNA     geoip!text-addrs
+labtesttoolsadmin 30  IN DYNA     geoip!text-addrs
 
 ; SNI testing hostname
 pinkunicorn      600 A 208.80.154.42
