@@ -75,7 +75,7 @@ zh-tw                   600     IN DYNA         geoip!text-addrs
 
 ; Other websites
 
-15              30 IN DYNA     geoip!text-addrs
+15              600 IN DYNA     geoip!text-addrs
 bugzilla        600 IN DYNA     geoip!text-addrs
 careers         600 IN DYNA     geoip!text-addrs
 donate          600 IN DYNA     geoip!text-addrs

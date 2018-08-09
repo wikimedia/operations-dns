@@ -35,7 +35,7 @@
 ; Servers (alphabetic order)
 
 ; Service aliases
-query       30 IN DYNA     geoip!text-addrs
+query       600 IN DYNA     geoip!text-addrs
 
 ; Wikis (alphabetic order)
 
