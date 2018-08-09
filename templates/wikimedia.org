@@ -590,7 +590,7 @@ mandrill._domainkey.benefactors 1H IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQE
 
 cache           600 IN DYNA     geoip!text-addrs
 
-config-master   600 IN DYNA     geoip!misc-addrs
+config-master   600 IN DYNA     geoip!text-addrs
 
 dash.frdev      1H  IN CNAME    frdev-eqiad
 
@@ -636,7 +636,7 @@ grafana-labs-admin   600 IN DYNA     geoip!text-addrs
 parsoid-rt-tests     600 IN DYNA     geoip!misc-addrs
 parsoid-vd-tests     600 IN DYNA     geoip!misc-addrs
 performance     600 IN DYNA     geoip!misc-addrs
-horizon         600 IN DYNA     geoip!misc-addrs
+horizon         600 IN DYNA     geoip!text-addrs
 wikitech        600 IN DYNA     geoip!misc-addrs
 
 icinga          5M  IN CNAME    einsteinium
@@ -667,7 +667,7 @@ payments-listener-eqiad 1H  IN A    208.80.155.12
 payments-listener-codfw 1H  IN A    208.80.152.233
 payments-listener       5M  IN CNAME        payments-listener-eqiad
 
-people          600 IN DYNA     geoip!misc-addrs
+people          600 IN DYNA     geoip!text-addrs
 
 piwik           600 IN DYNA     geoip!misc-addrs ; T103577
 
@@ -677,13 +677,13 @@ policy          5M  IN A        192.0.66.2
 puppetboard      600 IN DYNA     geoip!text-addrs
 
 releases         600 IN DYNA     geoip!misc-addrs
-releases-jenkins 600 IN DYNA     geoip!misc-addrs
+releases-jenkins 600 IN DYNA     geoip!text-addrs
 
-research         600 IN DYNA     geoip!misc-addrs
+research         600 IN DYNA     geoip!text-addrs
 
 reports.frdev   1H  IN CNAME    frdev-eqiad
 
-rt              600 IN DYNA     geoip!misc-addrs
+rt              600 IN DYNA     geoip!text-addrs
 rt              1H  IN MX       10 mx1001
 rt              1H  IN MX       50 mx2001
 
@@ -815,7 +815,7 @@ zero             600 IN DYNA     geoip!text-addrs
 2030             600 IN DYNA     geoip!text-addrs
 analytics        600 IN DYNA     geoip!misc-addrs
 blog             1H  IN CNAME    wikimediablog.wordpress.com.
-bugs             600 IN DYNA     geoip!misc-addrs
+bugs             600 IN DYNA     geoip!text-addrs
 bugzilla         600 IN DYNA     geoip!misc-addrs
 bug-attachment   600 IN DYNA     geoip!text-addrs
 careers          600 IN DYNA     geoip!text-addrs
@@ -887,11 +887,11 @@ pivot            600 IN DYNA     geoip!misc-addrs
 superset         600 IN DYNA     geoip!misc-addrs
 racktables       600 IN DYNA     geoip!misc-addrs
 scholarships     600 IN DYNA     geoip!misc-addrs
-transparency     600 IN DYNA     geoip!misc-addrs
+transparency     600 IN DYNA     geoip!text-addrs
 transparency-private 600 IN DYNA     geoip!misc-addrs
 search           600 IN DYNA     geoip!text-addrs
 shop             600 IN DYNA     geoip!text-addrs
-smokeping        600 IN DYNA     geoip!misc-addrs
+smokeping        600 IN DYNA     geoip!text-addrs
 store            1H  IN CNAME    c.ssl.shopify.com.
 static-bugzilla  600 IN DYNA     geoip!misc-addrs
 stats            600 IN DYNA     geoip!misc-addrs
@@ -902,7 +902,7 @@ ticket           600 IN DYNA     geoip!misc-addrs
 tor-eqiad-1      1H  IN CNAME    radium
 mirrors          1H  IN CNAME    sodium
 yarn             600 IN DYNA     geoip!misc-addrs
-turnilo          600 IN DYNA     geoip!misc-addrs
+turnilo          600 IN DYNA     geoip!text-addrs
 wikitech-static-iad  5M  IN A        162.209.126.221
 wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
 wikitech-static      5M  IN A        192.237.162.200
