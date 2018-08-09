@@ -47,7 +47,7 @@
 47  1H  IN PTR  vl1001-eth1.lvs1011.eqiad.wmnet.
 48  1H  IN PTR  vl1001-eth1.lvs1012.eqiad.wmnet.
 49  1H  IN PTR  actinium.wikimedia.org.
-50  1H  IN PTR  hydrogen.wikimedia.org.
+
 51  1H  IN PTR  vl1001-eth0.lvs1013.eqiad.wmnet.
 52  1H  IN PTR  rhenium.wikimedia.org.
 53  1H  IN PTR  vl1001-eth1.lvs1014.eqiad.wmnet.
@@ -120,7 +120,7 @@
 147 1H  IN PTR  californium.wikimedia.org.
 
 151 1H  IN PTR  iron.wikimedia.org.
-157 1H  IN PTR  chromium.wikimedia.org.
+
 158 1H  IN PTR  labpuppetmaster1001.wikimedia.org.
 
 160 1H  IN PTR  labweb1001.wikimedia.org.
