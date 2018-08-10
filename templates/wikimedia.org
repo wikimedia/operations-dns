@@ -685,6 +685,8 @@ rt              1H  IN MX       50 mx2001
 
 secure          600 IN DYNA     geoip!text-addrs
 
+sitemaps        600 IN DYNA     geoip!text-addrs
+
 stream          600 IN DYNA     geoip!text-addrs
 
 svn             600 IN DYNA     geoip!text-addrs
