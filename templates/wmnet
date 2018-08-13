@@ -2211,8 +2211,6 @@ cloudnet1004     1H  IN A    10.65.3.181
 wmf7116          1H  IN A    10.65.3.181
 hafnium          1H  IN A    10.65.3.173
 wmf3837          1H  IN A    10.65.3.173
-samarium         1H  IN A    10.65.3.146
-wmf3573          1H  IN A    10.65.3.146
 logstash1004     1H  IN A    10.65.4.11
 wmf4675          1H  IN A    10.65.4.11
 logstash1005     1H  IN A    10.65.4.12
@@ -2470,7 +2468,6 @@ payments1002    1H      IN A    10.64.40.6
 payments1003    1H      IN A    10.64.40.7
 payments1004    1H      IN A    10.64.40.8
 payments1005    1H      IN A    10.64.40.9
-samarium        1H      IN A    10.64.40.130
 thulium         1H      IN A    10.64.40.162
 thulium-fundraising 1H      IN A    10.64.40.163
 
@@ -2498,7 +2495,6 @@ payments1001    1H  IN A    10.64.40.208
 payments1002    1H  IN A    10.64.40.209
 payments1003    1H  IN A    10.64.40.210
 payments1004    1H  IN A    10.64.40.211
-samarium        1H  IN A    10.64.40.212
 thulium         1H  IN A    10.64.40.213
 frlog1001       1H  IN A    10.64.40.214
 
