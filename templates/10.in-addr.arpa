@@ -4130,8 +4130,7 @@ $ORIGIN 2.193.{{ zonename }}.
 
 1   1H IN PTR  labtestcontrol2001.mgmt.codfw.wmnet.
 1   1H IN PTR  wmf5834.mgmt.codfw.wmnet.
-2   1H IN PTR  labtestnet2001.mgmt.codfw.wmnet.
-2   1H IN PTR  wmf5835.mgmt.codfw.wmnet.
+
 3   1H IN PTR  maps-test2001.mgmt.codfw.wmnet.
 3   1H IN PTR  wmf3722.mgmt.codfw.wmnet.
 4   1H IN PTR  maps-test2002.mgmt.codfw.wmnet.

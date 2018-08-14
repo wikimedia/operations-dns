@@ -3527,7 +3527,6 @@ labstore2004    1H  IN A    10.193.2.245
 labtestcontrol2001    1H  IN A    10.193.2.1
 labtestcontrol2003    1H  IN A    10.193.1.40
 labtestvirt2002       1H  IN A    10.193.1.18
-labtestnet2001        1H  IN A    10.193.2.2
 labtestmetal2001      1H  IN A    10.193.1.37
 labtestpuppetmaster2001    1H  IN A    10.193.1.36
 labtestneutron2001    1H  IN A    10.193.1.20
@@ -3896,7 +3895,6 @@ wmf5822         1H  IN A    10.193.1.30
 wmf5823         1H  IN A    10.193.1.251
 wmf5833         1H  IN A    10.193.1.252
 wmf5834         1H  IN A    10.193.2.1
-wmf5835         1H  IN A    10.193.2.2
 wmf5836         1H  IN A    10.193.1.250
 wmf5837         1H  IN A    10.193.2.137
 wmf5838         1H  IN A    10.193.2.138
