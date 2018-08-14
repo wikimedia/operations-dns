@@ -1377,6 +1377,22 @@ $ORIGIN 1.65.{{ zonename }}.
 13  1H  IN PTR      wmf7622.mgmt.eqiad.wmnet.
 14  1H  IN PTR      centrallog1001.mgmt.eqiad.wmnet.
 14  1H  IN PTR      wmf7420.mgmt.eqiad.wmnet.
+15  1H  IN PTR      cloudservices1004.mgmt.eqiad.wmnet.
+15  1H  IN PTR      wmf7425.mgmt.eqiad.wmnet.
+16  1H  IN PTR      wmf7426.mgmt.eqiad.wmnet.
+17  1H  IN PTR      puppetmaster1003.mgmt.eqiad.wmnet.
+17  1H  IN PTR      wmf7427.mgmt.eqiad.wmnet.
+18  1H  IN PTR      mwmaint1002.mgmt.eqiad.wmnet.
+18  1H  IN PTR      wmf7428.mgmt.eqiad.wmnet.
+19  1H  IN PTR      clustermgmt1001.mgmt.eqiad.wmnet.
+19  1H  IN PTR      wmf7429.mgmt.eqiad.wmnet.
+20  1H  IN PTR      sulfur.mgmt.eqiad.wmnet.
+20  1H  IN PTR      wmf7430.mgmt.eqiad.wmnet.
+21  1H  IN PTR      icinga1001.mgmt.eqiad.wmnet.
+21  1H  IN PTR      wmf7431.mgmt.eqiad.wmnet.
+22  1H  IN PTR      scandium.mgmt.eqiad.wmnet.
+22  1H  IN PTR      wmf7432.mgmt.eqiad.wmnet.
+23  1H  IN PTR      wmf7433.mgmt.eqiad.wmnet.
 
 26  1H  IN PTR      mw1261.mgmt.eqiad.wmnet.
 26  1H  IN PTR      wmf6900.mgmt.eqiad.wmnet.
