@@ -1148,10 +1148,6 @@ cloudcontrol1003 1H  IN A    10.65.4.119
 wmf7098         1H  IN A    10.65.4.119
 cloudcontrol1004 1H  IN A    10.65.4.120
 wmf7099         1H  IN A    10.65.4.120
-wmf3444         1H  IN A    10.65.3.68
-labsdb1003      1H  IN A    10.65.3.68
-wmf3445         1H  IN A    10.65.3.69
-labsdb1001      1H  IN A    10.65.3.69
 wmf3446         1H  IN A    10.65.3.70
 labsdb1002      1H  IN A    10.65.3.70
 labvirt1001     1H  IN A    10.65.3.230
