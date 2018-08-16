@@ -2073,6 +2073,10 @@ authdns1001     1H  IN A    10.65.3.6
 wmf7390         1H  IN A    10.65.3.6
 graphite1004    1H  IN A    10.65.3.7
 wmf7393         1H  IN A    10.65.3.7
+analyticsmaster1001 1H  IN A 10.65.3.8
+wmf7434         1H  IN A    10.65.3.8
+analyticsmaster1002 1H  IN A 10.65.3.11
+wmf7435         1H  IN A    10.65.3.11
 backup1001      1H  IN A    10.65.2.161
 wmf7374         1H  IN A    10.65.2.161
 bast1001        1H  IN A    10.65.3.30
