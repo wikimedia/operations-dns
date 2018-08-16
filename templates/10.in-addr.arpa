@@ -1605,8 +1605,7 @@ $ORIGIN 2.65.{{ zonename }}.
 12  1H  IN PTR      curium.mgmt.eqiad.wmnet.
 13  1H  IN PTR      dbproxy1003.mgmt.eqiad.wmnet.
 13  1H  IN PTR      wmf3122.mgmt.eqiad.wmnet.
-14  1H  IN PTR      wmf3121.mgmt.eqiad.wmnet.
-14  1H  IN PTR      scandium.mgmt.eqiad.wmnet.
+
 15  1H  IN PTR      dns1001.mgmt.eqiad.wmnet.
 15  1H  IN PTR      wmf7394.mgmt.eqiad.wmnet.
 16  1H  IN PTR      dns1002.mgmt.eqiad.wmnet.
