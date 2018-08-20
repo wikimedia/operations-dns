@@ -879,7 +879,9 @@ $ORIGIN 32.64.{{ zonename }}.
 212     1H IN PTR       mc1032.eqiad.wmnet.
 213     1H IN PTR       etcd1001.eqiad.wmnet.  ; VM on the ganeti01.svc.eqiad.wmnet cluster
 214     1H IN PTR       puppetdb1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-
+215     1H IN PTR       analytics-tool1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+216     1H IN PTR       analytics-tool1002.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+217     1H IN PTR       analytics-tool1003.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 218     1H IN PTR       etcd1006.eqiad.wmnet.   ; VM on the ganeti01.svc.eqiad.wmnet cluster
 
 220     1H IN PTR       ms-fe1007.eqiad.wmnet.
