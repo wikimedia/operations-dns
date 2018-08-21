@@ -2212,8 +2212,6 @@ cloudnet1003     1H  IN A    10.65.3.180
 wmf7115          1H  IN A    10.65.3.180
 cloudnet1004     1H  IN A    10.65.3.181
 wmf7116          1H  IN A    10.65.3.181
-hafnium          1H  IN A    10.65.3.173
-wmf3837          1H  IN A    10.65.3.173
 logstash1004     1H  IN A    10.65.4.11
 wmf4675          1H  IN A    10.65.4.11
 logstash1005     1H  IN A    10.65.4.12
