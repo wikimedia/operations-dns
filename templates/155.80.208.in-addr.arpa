@@ -66,6 +66,7 @@
 122 1H IN PTR   vl1004-eth3.lvs1014.eqiad.wmnet.
 123 1H IN PTR   vl1004-eth3.lvs1015.eqiad.wmnet.
 124 1H IN PTR   vl1004-eth0.lvs1016.eqiad.wmnet.
+125 1H IN PTR   icinga.wikimedia.org.
 
 ; 208.80.155.128/25 Eqiad Labs virtualization subnet
 ; Delegate 208.80.155.128 - 208.80.155.255 to labs-ns*
