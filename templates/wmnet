@@ -2042,8 +2042,6 @@ dbproxy1016     1H  IN A    10.65.2.167
 wmf7400         1H  IN A    10.65.2.167
 dbproxy1017     1H  IN A    10.65.2.168
 wmf7401         1H  IN A    10.65.2.168
-hydrogen        1H  IN A    10.65.3.15
-wmf3136         1H  IN A    10.65.3.15
 helium          1H  IN A    10.65.3.14
 wmf3137         1H  IN A    10.65.3.14
 hp1001          1H  IN A    10.65.5.210
@@ -2084,8 +2082,6 @@ backup1001      1H  IN A    10.65.2.161
 wmf7374         1H  IN A    10.65.2.161
 titanium        1H  IN A    10.65.3.29
 wmf3290         1H  IN A    10.65.3.29
-chromium        1H  IN A    10.65.3.27
-wmf3292         1H  IN A    10.65.3.27
 iron            1H  IN A    10.65.3.25
 wmf3294         1H  IN A    10.65.3.25
 wmf3300         1H  IN A    10.65.3.19
