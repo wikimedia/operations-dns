@@ -1200,7 +1200,6 @@ wmf7097         1H  IN A    10.65.4.122
 kafka1012       1H  IN A    10.65.3.95
 kafka1013       1H  IN A    10.65.3.96
 kafka1014       1H  IN A    10.65.3.97
-notebook1001    1H  IN A    10.65.3.100
 notebook1003    1H  IN A    10.65.3.82
 wmf7298         1H  IN A    10.65.3.82
 notebook1004    1H  IN A    10.65.3.83
