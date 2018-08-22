@@ -98,7 +98,6 @@ $ORIGIN 4.0.0.0.{{ zonename }}.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1004.cr2-eqiad.wikimedia.org.
 
 9.1.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   einsteinium.wikimedia.org.
-
 0.2.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labpuppetmaster1002.wikimedia.org.
 
 7.1.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labservices1001.wikimedia.org.
@@ -108,8 +107,6 @@ $ORIGIN 4.0.0.0.{{ zonename }}.
 6.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labstore1007.wikimedia.org.
 7.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1004.wikimedia.org.
 8.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dns1002.wikimedia.org.
-5.2.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   icinga1001.wikimedia.org.
-
 
 ; eqiad private subnets (2620:0:861:100::/56)
 
