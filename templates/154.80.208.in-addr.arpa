@@ -79,7 +79,7 @@
 81  1H  IN PTR  cobalt.wikimedia.org.
 82  1H  IN PTR  dbmonitor1001.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 83  1H  IN PTR  cloudelastic1003.wikimedia.org.
-
+84  1H  IN PTR  icinga1001.wikimedia.org.
 85  1H  IN PTR  gerrit.wikimedia.org.
 86  1H  IN PTR  bast1002.wikimedia.org.
 
