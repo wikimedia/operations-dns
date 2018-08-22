@@ -20,13 +20,14 @@
 5   1H IN PTR   payments.wikimedia.org.
 6   1H IN PTR   frack-default-net-eqiad.wikimedia.org.
 7   1H IN PTR   frack-payments-nat-eqiad.wikimedia.org.
-8   1H IN PTR   frbast1001.wikimedia.org.
+8   1H IN PTR   frbast-eqiad.wikimedia.org.
 9   1H IN PTR   frmon-eqiad.wikimedia.org.
 10  1H IN PTR   frdata-eqiad.wikimedia.org.
 11  1H IN PTR   civicrm.wikimedia.org.
 12  1H IN PTR   payments-listener-eqiad.wikimedia.org.
 13  1H IN PTR   frdev-eqiad.wikimedia.org.
 14  1H IN PTR   fundraising-eqiad.wikimedia.org.
+15  1H IN PTR   payments-listener.frdev.wikimedia.org.
 
 ; 208.80.155.32/27 Unused
 
