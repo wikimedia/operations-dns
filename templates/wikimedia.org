@@ -487,7 +487,7 @@ cr2-codfw       1H  IN A    208.80.153.193
 mr1-codfw       1H  IN A    208.80.153.196
                 1H  IN AAAA 2620:0:860:ffff::6
 mr1-codfw.oob   1H  IN A    216.117.46.36
-cr1-eqdfw       1H  IN A    208.80.153.198
+cr2-eqdfw       1H  IN A    208.80.153.198
                 1H  IN AAAA 2620:0:860:ffff::5
 
 cr1-esams       1H  IN A    91.198.174.245
