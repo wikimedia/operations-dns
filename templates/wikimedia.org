@@ -453,6 +453,7 @@ ua.m                600 IN DYNA     geoip!text-addrs
 usability.m         600 IN DYNA     geoip!text-addrs
 vote.m              600 IN DYNA     geoip!text-addrs
 wb.m                600 IN DYNA     geoip!text-addrs
+wikimania.m         600 IN DYNA     geoip!text-addrs
 wikimania2005.m     600 IN DYNA     geoip!text-addrs
 wikimania2006.m     600 IN DYNA     geoip!text-addrs
 wikimania2007.m     600 IN DYNA     geoip!text-addrs
