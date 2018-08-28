@@ -577,7 +577,7 @@ annual          600 IN DYNA     geoip!text-addrs
 
 apt             300  IN CNAME   install1002
 
-archiva         1H  IN CNAME    meitnerium
+archiva         5M  IN CNAME    meitnerium
 
 archiva-new     1H  IN CNAME    archiva1001
 
