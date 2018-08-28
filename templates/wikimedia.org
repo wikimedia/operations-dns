@@ -580,9 +580,7 @@ annual          600 IN DYNA     geoip!text-addrs
 
 apt             300  IN CNAME   install1002
 
-archiva         5M  IN CNAME    meitnerium
-
-archiva-new     1H  IN CNAME    archiva1001
+archiva         5M  IN CNAME    archiva1001
 
 benefactors     600 IN DYNA     geoip!text-addrs
                 1H  IN MX       10 mx1001
