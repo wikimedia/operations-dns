@@ -845,11 +845,13 @@ labs             600 IN DYNA     geoip!text-addrs
 labs-ns0         1H  IN A        208.80.155.117
 labs-ns1         1H  IN A        208.80.154.12
 labs-ns2         1H  IN A        208.80.154.135
+labs-ns3         1H  IN A        208.80.154.11
 labtest-ns0      1H  IN A        208.80.153.48
 labtest-ns1      1H  IN A        208.80.153.76
 labs-recursor0   1H  IN A        208.80.155.118
 labs-recursor1   1H  IN A        208.80.154.20
 labs-recursor2   1H  IN A        208.80.154.143
+labs-recursor3   1H  IN A        208.80.154.24
 labtest-recursor0 1H IN A        208.80.153.51
 labtest-recursor1 1H IN A        208.80.153.78
 ; deprecated but kept for compatibility, see RT #6769
