@@ -101,8 +101,6 @@ lists           5M  IN AAAA 2620:0:861:1:208:80:154:21
 lists           1H  IN MX   10 lists
 lists           1H  IN TXT  "v=spf1 mx a:mx1001.wikimedia.org a:mx2001.wikimedia.org ~all"
 
-wiki-mail       1H  IN CNAME    mx1001    ; used by Jenkins and possibly others
-
 ns0         1H  IN A    208.80.154.238
 ns1         1H  IN A    208.80.153.231
 ns2         1H  IN A    91.198.174.239
