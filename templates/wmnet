@@ -761,6 +761,8 @@ ores1006        1H  IN A        10.64.32.15
 ores1007        1H  IN A        10.64.48.16
 ores1008        1H  IN A        10.64.48.27
 ores1009        1H  IN A        10.64.48.28
+orespoolcounter1001 1H IN A     10.64.0.87
+orespoolcounter1002 1H IN A     10.64.32.13
 oresrdb1001     1H  IN A        10.64.48.129
 oresrdb1002     1H  IN A        10.64.0.10
 oxygen          1H  IN A        10.64.0.222
@@ -3017,6 +3019,8 @@ ores2006        1H  IN A    10.192.32.174
 ores2007        1H  IN A    10.192.48.88
 ores2008        1H  IN A    10.192.48.89
 ores2009        1H  IN A    10.192.48.90
+orespoolcounter2001 1H IN A 10.192.0.56
+orespoolcounter2002 1H IN A 10.192.16.56
 oresrdb2001     1H  IN A    10.192.16.31 ; VM on the ganeti01.svc.codfw.wmnet cluster
 oresrdb2002     1H  IN A    10.192.32.21
 planet2001      1H  IN A    10.192.0.92
