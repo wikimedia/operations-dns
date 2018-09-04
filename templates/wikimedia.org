@@ -666,8 +666,6 @@ payments-listener-eqiad 1H  IN A    208.80.155.12
 payments-listener-codfw 1H  IN A    208.80.152.233
 payments-listener       5M  IN CNAME        payments-listener-eqiad
 
-payments-listener.frdev 1H  IN A    208.80.155.15
-
 people          600 IN DYNA     geoip!text-addrs
 
 piwik           600 IN DYNA     geoip!text-addrs ; T103577

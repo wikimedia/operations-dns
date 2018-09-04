@@ -2125,8 +2125,6 @@ payments1004    1H  IN A    10.65.3.46
 wmf6948         1H  IN A    10.65.3.46
 wmf4075     1H  IN A    10.65.3.120
 labservices1002 1H  IN A    10.65.3.120
-wmf4082     1H  IN A    10.65.3.127
-thulium     1H  IN A    10.65.3.127
 wmf4083     1H  IN A    10.65.3.128
 wtp1025     1H  IN A    10.65.5.38
 wmf7044     1H  IN A    10.65.5.38
@@ -2460,6 +2458,7 @@ frdev1001       1H      IN A    10.64.40.117
 frlog1001       1H      IN A    10.64.40.72
 frmon1001       1H      IN A    10.64.40.73
 frpig1001       1H      IN A    10.64.40.164
+frpig1001-fundraising 1H      IN A    10.64.40.165
 frpm1001        1H      IN A    10.64.40.70
 frqueue1001     1H      IN A    10.64.40.115
 frqueue1002     1H      IN A    10.64.40.116
@@ -2470,8 +2469,6 @@ payments1002    1H      IN A    10.64.40.6
 payments1003    1H      IN A    10.64.40.7
 payments1004    1H      IN A    10.64.40.8
 payments1005    1H      IN A    10.64.40.9
-thulium         1H      IN A    10.64.40.162
-thulium-fundraising 1H      IN A    10.64.40.163
 
 ; EQIAD fundraising/payments management
 $ORIGIN mgmt.frack.eqiad.wmnet.
