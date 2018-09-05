@@ -3020,7 +3020,7 @@ ores2007        1H  IN A    10.192.48.88
 ores2008        1H  IN A    10.192.48.89
 ores2009        1H  IN A    10.192.48.90
 orespoolcounter2001 1H IN A 10.192.0.56
-orespoolcounter2002 1H IN A 10.192.16.56
+orespoolcounter2002 1H IN A 10.192.16.76
 oresrdb2001     1H  IN A    10.192.16.31 ; VM on the ganeti01.svc.codfw.wmnet cluster
 oresrdb2002     1H  IN A    10.192.32.21
 planet2001      1H  IN A    10.192.0.92
