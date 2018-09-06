@@ -507,6 +507,8 @@ $ORIGIN 16.64.{{ zonename }}.
 24  1H IN PTR   cp1081.eqiad.wmnet.
 25  1H IN PTR   cp1082.eqiad.wmnet.
 
+27  1H IN PTR   cloudvirt1024b.eqiad.wmnet.
+
 29  1H IN PTR   conf1005.eqiad.wmnet.
 
 38  1H IN PTR   prometheus1004.eqiad.wmnet.
