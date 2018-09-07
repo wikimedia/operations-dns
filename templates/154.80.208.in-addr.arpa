@@ -30,7 +30,6 @@
 15  1H  IN PTR  sodium.wikimedia.org.
 16  1H  IN PTR  archiva1001.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 17  1H  IN PTR  contint1001.wikimedia.org.
-18  1H  IN PTR  meitnerium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 19  1H  IN PTR  ununpentium.wikimedia.org. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 20  1H  IN PTR  labs-recursor1.wikimedia.org.
 21  1H  IN PTR  lists.wikimedia.org. ; Service IP for lists on fermium
