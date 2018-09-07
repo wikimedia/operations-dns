@@ -904,7 +904,7 @@ status           5M  IN A        192.237.162.200
 status           5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
 techblog         600 IN DYNA     geoip!text-addrs
 ticket           600 IN DYNA     geoip!text-addrs
-tor-eqiad-1      5M  IN CNAME    radium
+tor-eqiad-1      5M  IN CNAME    torrelay1001
 mirrors          1H  IN CNAME    sodium
 yarn             600 IN DYNA     geoip!text-addrs
 turnilo          600 IN DYNA     geoip!text-addrs
