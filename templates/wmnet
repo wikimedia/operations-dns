@@ -239,6 +239,8 @@ centrallog1001   1H IN A         10.64.48.113
 chlorine         1H IN A         10.64.0.45 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 chlorine         1H IN AAAA      2620:0:861:101:10:64:0:45
 cloudnet1003     1H IN A         10.64.20.35
+cloudvirt1019    1H  IN A        10.64.20.38
+cloudvirt1020    1H  IN A        10.64.20.39
 cloudvirt1021    1H IN A         10.64.20.40
 cloudvirt1022    1H IN A         10.64.20.41
 cloudvirt1023    1H IN A         10.64.20.42
@@ -920,8 +922,6 @@ labvirt1015     1H  IN A        10.64.20.31
 labvirt1016     1H  IN A        10.64.20.32
 labvirt1017     1H  IN A        10.64.20.33
 labvirt1018     1H  IN A        10.64.20.34
-labvirt1019     1H  IN A        10.64.20.38
-labvirt1020     1H  IN A        10.64.20.39
 webperf1001     5M  IN A        10.64.0.215 ; VM ganeti01.svc.eqiad.wmnet
 webperf1001     5M  IN AAAA     2620:0:861:101:10:64:0:215 ; VM ganeti01.svc.eqiad.wmnet
 webperf1002     1H  IN A        10.64.0.216 ; VM ganeti01.svc.eqiad.wmnet
@@ -1186,8 +1186,10 @@ wmf7087         1H  IN A    10.65.5.68
 labvirt1018     1H  IN A    10.65.5.69
 wmf7088         1H  IN A    10.65.5.69
 labvirt1019     1H  IN A    10.65.5.76
+cloudvirt1019   1H  IN A    10.65.5.76
 wmf7132         1H  IN A    10.65.5.76
 labvirt1020     1H  IN A    10.65.5.77
+cloudvirt1020   1H  IN A    10.65.5.77
 wmf7133         1H  IN A    10.65.5.77
 cloudvirt1021   1H  IN A    10.65.5.78
 wmf7296         1H  IN A    10.65.5.78
