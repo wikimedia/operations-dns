@@ -2392,10 +2392,8 @@ $ORIGIN 5.65.{{ zonename }}.
 74  1H  IN PTR      wmf7070.mgmt.eqiad.wmnet.
 75  1H  IN PTR      ganeti1008.mgmt.eqiad.wmnet.
 75  1H  IN PTR      wmf7071.mgmt.eqiad.wmnet.
-76  1H  IN PTR      labvirt1019.mgmt.eqiad.wmnet.
 76  1H  IN PTR      cloudvirt1019.mgmt.eqiad.wmnet.
 76  1H  IN PTR      wmf7132.mgmt.eqiad.wmnet.
-77  1H  IN PTR      labvirt1020.mgmt.eqiad.wmnet.
 77  1H  IN PTR      cloudvirt1020.mgmt.eqiad.wmnet.
 77  1H  IN PTR      wmf7133.mgmt.eqiad.wmnet.
 78  1H  IN PTR      cloudvirt1021.mgmt.eqiad.wmnet.
