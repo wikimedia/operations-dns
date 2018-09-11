@@ -4842,6 +4842,7 @@ mobileapps  1H  IN A        10.2.2.14
 graphoid    1H  IN A        10.2.2.15
 zotero      1H  IN A        10.2.2.16
 restbase    1H  IN A        10.2.2.17
+restbase-async 1H  IN A     10.2.2.17
 cxserver    1H  IN A        10.2.2.18
 citoid      1H  IN A        10.2.2.19
 mathoid     1H  IN A        10.2.2.20
@@ -4910,6 +4911,7 @@ mobileapps      1H  IN A        10.2.1.14
 graphoid        1H  IN A        10.2.1.15
 zotero          1H  IN A        10.2.1.16
 restbase        1H  IN A        10.2.1.17
+restbase-async  1H  IN A        10.2.1.17
 cxserver        1H  IN A        10.2.1.18
 citoid          1H  IN A        10.2.1.19
 mathoid         1H  IN A        10.2.1.20
