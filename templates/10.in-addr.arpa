@@ -4777,7 +4777,7 @@ $ORIGIN 0.195.{{ zonename }}.
 75 1H IN PTR  bellatrix.frack.codfw.wmnet.
 76 1H IN PTR  betelgeuse.frack.codfw.wmnet.
 77 1H IN PTR  frbackup2001.frack.codfw.wmnet.
-78 1H IN PTR  frmon2001.frack.codfw.wmnet.
+78 1H IN PTR  frauth2001.frack.codfw.wmnet.
 
 ; 10.195.0.80/29 - frack-listenerdmz-codfw
 81 1H IN PTR  reth0-2137.pfw3-codfw.frack.codfw.wmnet.

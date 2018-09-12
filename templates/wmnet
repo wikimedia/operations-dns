@@ -3249,6 +3249,7 @@ payments2002        1H  IN A    10.195.0.6
 payments2003        1H  IN A    10.195.0.7
 pay-lvs2001         1H  IN A    10.195.0.20
 pay-lvs2002         1H  IN A    10.195.0.21
+frauth2001          1H  IN A    10.195.0.78
 frbast2001          1H  IN A    10.195.0.67
 frdb2001            1H  IN A    10.195.0.34
 alnilam             1H  IN A    10.195.0.35
@@ -3261,7 +3262,6 @@ betelgeuse          1H  IN A    10.195.0.76
 saiph               1H  IN A    10.195.0.82
 saiph-fundraising   1H  IN A    10.195.0.83
 frbackup2001        1H  IN A    10.195.0.77
-frmon2001           1H  IN A    10.195.0.78
 rkhunter.heka       1H  IN CNAME heka
 
 ; CODFW fundraising/payments management
