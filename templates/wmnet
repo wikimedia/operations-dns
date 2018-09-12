@@ -2337,6 +2337,8 @@ stat1005        1H      IN A            10.65.5.62
 wmf7091         1H      IN A            10.65.5.63
 stat1006        1H      IN A            10.65.5.63
 wmf4722         1H      IN A            10.65.2.124
+stat1007        1H      IN A            10.65.2.2
+wmf7436         1H      IN A            10.65.2.2
 kafka1002       1H      IN A            10.65.2.124
 wmf4723         1H      IN A            10.65.2.125
 kafka1003       1H      IN A            10.65.2.125
