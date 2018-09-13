@@ -347,7 +347,7 @@ $ORIGIN 0.64.{{ zonename }}.
 108 1H IN PTR   db1069.eqiad.wmnet.
 109 1H IN PTR   wdqs1006.eqiad.wmnet.
 110 1H IN PTR   db1066.eqiad.wmnet.
-
+111 1H IN PTR   matomo1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 112 1H IN PTR   restbase1010.eqiad.wmnet.
 113 1H IN PTR   restbase1011.eqiad.wmnet.
 114 1H IN PTR   restbase1010-a.eqiad.wmnet.
