@@ -232,6 +232,7 @@ certcentral1001  1H IN A         10.64.32.26 ; VM on the ganeti01.svc.eqiad.wmne
 certcentral1001  1H IN AAAA      2620:0:861:103:10:64:32:26
 chlorine         1H IN A         10.64.0.45 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 chlorine         1H IN AAAA      2620:0:861:101:10:64:0:45
+vip-gw-cloudnet  1H IN A         10.64.22.4
 cloudnet1003     1H IN A         10.64.20.35
 cloudvirt1019    1H IN A         10.64.20.38
 cloudvirt1019    1H IN AAAA      2620:0:861:118:10:64:20:38
