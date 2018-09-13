@@ -181,8 +181,6 @@
 
 240 1H  IN PTR  upload-lb.codfw.wikimedia.org.
 
-248  1H  IN PTR misc-web-lb.codfw.wikimedia.org.
-
 250  1H  IN PTR git-ssh.codfw.wikimedia.org.
 
 254  1H  IN PTR dns-rec-lb.codfw.wikimedia.org. ; not actually public!

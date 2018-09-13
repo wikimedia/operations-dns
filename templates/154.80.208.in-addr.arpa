@@ -195,6 +195,5 @@
 240 1H  IN PTR  upload-lb.eqiad.wikimedia.org.
 
 250 1H  IN PTR  git-ssh.eqiad.wikimedia.org.
-251 1H  IN PTR  misc-web-lb.eqiad.wikimedia.org.
 
 254 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org. ; not actually public!

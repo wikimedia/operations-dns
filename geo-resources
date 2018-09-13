@@ -20,15 +20,3 @@ upload-addrs => {
         eqsin => { addrs_v4 => 103.102.166.240, addrs_v6 => 2001:df2:e500:ed1a::2:b }
     }
 }
-misc-addrs => {
-    map => generic-map
-    service_types => up
-    dcmap => {
-        eqiad => { addrs_v4 => 208.80.154.251, addrs_v6 => 2620:0:861:ed1a::3:d }
-        codfw => { addrs_v4 => 208.80.153.248, addrs_v6 => 2620:0:860:ed1a::3:d }
-        esams => { addrs_v4 => 91.198.174.217, addrs_v6 => 2620:0:862:ed1a::3:d }
-        # T164610 - using codfw IPs here until T164609, also downed in admin_state to avoid confusion
-        ulsfo => { addrs_v4 => 208.80.153.248, addrs_v6 => 2620:0:860:ed1a::3:d }
-        eqsin => { addrs_v4 => 208.80.153.248, addrs_v6 => 2620:0:860:ed1a::3:d }
-    }
-}

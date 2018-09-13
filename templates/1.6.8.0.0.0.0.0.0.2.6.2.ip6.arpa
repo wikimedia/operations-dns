@@ -417,7 +417,6 @@ b.0.0.0                         1H IN PTR   upload-lb.eqiad.wikimedia.org.
 
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
-d.0.0.0                         1H IN PTR   misc-web-lb.eqiad.wikimedia.org.
 6.1.0.0                         1H IN PTR   git-ssh.eqiad.wikimedia.org.
 e.f.0.0                         1H IN PTR   dns-rec-lb.eqiad.wikimedia.org.
 
