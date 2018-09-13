@@ -532,7 +532,6 @@ labmon1001      1H  IN A        10.64.37.13
 prometheus-labmon 1H      IN CNAME  labmon1001
 labmon1002      1H  IN A        10.64.4.15
 labnet1001      1H  IN A        10.64.20.13
-labnet1001-ext  1H  IN A        10.64.22.11
 labnet1002      1H  IN A        10.64.20.25
 cloudnet1004    1H  IN A        10.64.20.36
 labnodepool1001 1H  IN A        10.64.20.18
