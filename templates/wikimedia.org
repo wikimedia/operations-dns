@@ -284,8 +284,6 @@ pay-lvs1001     1H  IN A    208.80.155.2
 pay-lvs1002     1H  IN A    208.80.155.3
 pollux          1H  IN A    208.80.153.43 ; VM on the ganeti01.svc.codfw.wmnet cluster
 procyon         1H  IN A    208.80.152.245
-radium          1H  IN A    208.80.154.39
-radium          1H  IN AAAA 2620:0:861:1:208:80:154:39
 radon           1H  IN A    208.80.154.93
 radon           1H  IN AAAA 2620:0:861:3:208:80:154:93
 rhenium         1H  IN A    208.80.154.52

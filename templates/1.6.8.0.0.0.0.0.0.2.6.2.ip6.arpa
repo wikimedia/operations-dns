@@ -37,8 +37,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 5.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   sodium.wikimedia.org.
 
-9.3.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   radium.wikimedia.org.
-
 7.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labstore1006.wikimedia.org.
 8.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1001.wikimedia.org.
 0.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dns1001.wikimedia.org.

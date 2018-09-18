@@ -37,8 +37,6 @@
 23  1H  IN PTR  cloudcontrol1003.wikimedia.org.
 24  1H  IN PTR  labs-recursor3.wikimedia.org.
 
-39  1H  IN PTR  radium.wikimedia.org.
-
 42  1H  IN PTR  cp1008.wikimedia.org.
 43  1H  IN PTR  vl1001-eth0.lvs1007.eqiad.wmnet.
 44  1H  IN PTR  vl1001-eth0.lvs1008.eqiad.wmnet.
