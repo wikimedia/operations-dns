@@ -180,6 +180,7 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 
 0.0.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   phab1001-vcs.eqiad.wmnet.
 5.7.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1002.eqiad.wmnet.
+7.7.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   mwmaint1001.eqiad.wmnet.
 
 9.2.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   conf1005.eqiad.wmnet.
 
