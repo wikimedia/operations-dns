@@ -356,7 +356,7 @@ $ORIGIN 0.64.{{ zonename }}.
 117 1H IN PTR   restbase1011-a.eqiad.wmnet.
 118 1H IN PTR   restbase1011-b.eqiad.wmnet.
 119 1H IN PTR   restbase1011-c.eqiad.wmnet.
-
+120 1H IN PTR   an-master1001.eqiad.wmnet.
 121 1H IN PTR   kubernetes1001.eqiad.wmnet.
 122 1H IN PTR   db1115.eqiad.wmnet.
 123 1H IN PTR   prometheus1003.eqiad.wmnet.
@@ -500,7 +500,7 @@ $ORIGIN 16.64.{{ zonename }}.
 17  1H IN PTR   db1124.eqiad.wmnet.
 18  1H IN PTR   dbproxy1014.eqiad.wmnet.
 19  1H IN PTR   dbproxy1015.eqiad.wmnet.
-
+20  1H IN PTR   an-master1002.eqiad.wmnet.
 21  1H IN PTR   scb1002.eqiad.wmnet.
 22  1H IN PTR   cp1079.eqiad.wmnet.
 23  1H IN PTR   cp1080.eqiad.wmnet.
@@ -1849,12 +1849,12 @@ $ORIGIN 3.65.{{ zonename }}.
 6   1H  IN PTR      wmf7390.mgmt.eqiad.wmnet.
 7   1H  IN PTR      graphite1004.mgmt.eqiad.wmnet.
 7   1H  IN PTR      wmf7393.mgmt.eqiad.wmnet.
-8   1H  IN PTR      analyticsmaster1001.eqiad.mgmt.wmnet.
+8   1H  IN PTR      an-master1001.eqiad.mgmt.wmnet.
 8   1H  IN PTR      wmf7434.mgmt.eqiad.wmnet.
 9   1H  IN PTR      oxygen.mgmt.eqiad.wmnet.
 9   1H  IN PTR      wmf3142.mgmt.eqiad.wmnet.
 10  1H  IN PTR      frdb1001.mgmt.eqiad.wmnet.
-11  1H  IN PTR      analyticsmaster1002.mgmt.wmnet.
+11  1H  IN PTR      an-master1002.mgmt.wmnet.
 11  1H  IN PTR      wmf7435.eqiad.mgmt.wmnet.
 12  1H  IN PTR      wmf3139.mgmt.eqiad.wmnet.
 13  1H  IN PTR      wmf3138.mgmt.eqiad.wmnet.
