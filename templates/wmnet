@@ -126,7 +126,7 @@ analytics1002       1H  IN A         10.64.53.21
 analytics1003       1H  IN A         10.64.36.116
 auth1001            1H  IN A         10.64.48.121
 auth1002            1H  IN A         10.64.48.96
-an-master1001    1H IN A             10.64.5.25
+an-master1001    1H IN A             10.64.5.26
 an-master1002    1H IN A             10.64.21.110
 analytics1028    1H IN A             10.64.36.128
 analytics1029    1H IN A             10.64.36.129
