@@ -1397,7 +1397,7 @@ $ORIGIN 1.65.{{ zonename }}.
 17  1H  IN PTR      wmf7427.mgmt.eqiad.wmnet.
 18  1H  IN PTR      mwmaint1002.mgmt.eqiad.wmnet.
 18  1H  IN PTR      wmf7428.mgmt.eqiad.wmnet.
-19  1H  IN PTR      clustermgmt1001.mgmt.eqiad.wmnet.
+19  1H  IN PTR      cumin1001.mgmt.eqiad.wmnet.
 19  1H  IN PTR      wmf7429.mgmt.eqiad.wmnet.
 20  1H  IN PTR      sulfur.mgmt.eqiad.wmnet.
 20  1H  IN PTR      wmf7430.mgmt.eqiad.wmnet.
