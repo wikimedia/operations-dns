@@ -309,8 +309,10 @@ cp1089           1H IN A         10.64.48.103
                  1H IN AAAA      2620:0:861:107:10:64:48:103
 cp1090           1H IN A         10.64.48.104
                  1H IN AAAA      2620:0:861:107:10:64:48:104
-cp1099           1H  IN A        10.64.32.81
-                 1H  IN AAAA     2620:0:861:103:10:64:32:81
+cp1099           1H IN A         10.64.32.81
+                 1H IN AAAA      2620:0:861:103:10:64:32:81
+cumin1001        1H IN A         10.64.32.25
+                 1H IN AAAA      2620:0:861:103:10:64:32:25
 darmstadtium    1H  IN A        10.64.32.200 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 graphite1001    1H  IN A        10.64.32.155
 graphite1003    1H  IN A        10.64.0.106
