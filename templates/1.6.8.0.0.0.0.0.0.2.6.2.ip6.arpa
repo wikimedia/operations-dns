@@ -47,8 +47,8 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 2.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labservices1002.wikimedia.org.
 3.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   clouddcontrol1003.wikimedia.org.
-
-
+5.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudstore1008.wikimedia.org.
+6.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudstore1009.wikimedia.org.
 
 ; public1-b-eqiad (2620:0:861:2::/64)
 $ORIGIN 2.0.0.0.{{ zonename }}.
