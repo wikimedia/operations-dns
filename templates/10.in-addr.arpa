@@ -1960,9 +1960,9 @@ $ORIGIN 3.65.{{ zonename }}.
 121 1H  IN PTR      wmf7123.mgmt.eqiad.wmnet.
 122 1H  IN PTR      labstore1007.mgmt.eqiad.wmnet.
 122 1H  IN PTR      wmf7124.mgmt.eqiad.wmnet.
-123 1H  IN PTR      labstore1008.mgmt.eqiad.wmnet.
+123 1H  IN PTR      cloudstore1008.mgmt.eqiad.wmnet.
 123 1H  IN PTR      wmf7369.mgmt.eqiad.wmnet.
-124 1H  IN PTR      labstore1009.mgmt.eqiad.wmnet.
+124 1H  IN PTR      cloudstore1009.mgmt.eqiad.wmnet.
 124 1H  IN PTR      wmf7370.mgmt.eqiad.wmnwt.
 
 128 1H  IN PTR      wmf4083.mgmt.eqiad.wmnet.
