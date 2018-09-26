@@ -356,6 +356,7 @@ $ORIGIN 8.1.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1118.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1118.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1118.cr2-eqiad.wikimedia.org.
+8.3.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirt1019.eqiad.wmnet.
 
 ; labs-support1-c-eqiad (2620:0:861:119::/64)
 $ORIGIN 9.1.1.0.{{ zonename }}.

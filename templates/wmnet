@@ -210,6 +210,7 @@ chlorine         1H IN A         10.64.0.45 ; VM on the ganeti01.svc.eqiad.wmnet
 chlorine         1H IN AAAA      2620:0:861:101:10:64:0:45
 cloudnet1003     1H IN A         10.64.20.35
 cloudvirt1019    1H  IN A        10.64.20.38
+cloudvirt1019    1H  IN AAAA     2620:0:861:118:10:64:20:38
 cloudvirt1020    1H  IN A        10.64.20.39
 cloudvirt1021    1H IN A         10.64.20.40
 cloudvirt1022    1H IN A         10.64.20.41
