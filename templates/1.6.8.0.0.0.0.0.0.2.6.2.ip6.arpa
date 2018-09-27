@@ -41,7 +41,6 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 8.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1001.wikimedia.org.
 0.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dns1001.wikimedia.org.
 1.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudservices1004.wikimedia.org.
-4.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   icinga1001.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1001.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1001.cr2-eqiad.wikimedia.org.
 
@@ -85,6 +84,7 @@ $ORIGIN 3.0.0.0.{{ zonename }}.
 5.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit.wikimedia.org.
 6.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   bast1002.wikimedia.org.
 0.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   aluminium.wikimedia.org.
+4.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   icinga1001.wikimedia.org.
 2.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labcontrol1001.wikimedia.org.
 5.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labcontrol1002.wikimedia.org.
 
