@@ -81,7 +81,14 @@
 210 1H  IN PTR  xe-0-1-2.cr4-ulsfo.wikimedia.org.
 211 1H  IN PTR  xe-5-0-2.cr1-codfw.wikimedia.org.
 
-; 198.35.26.224/28 (224-239) - unused
+; 198.35.26.224/29 (224-231) - Office interconnect
+225 1H  IN PTR  et-0-0-1-501.cr3-ulsfo.wikimedia.org.
+226 1H  IN PTR  et-0-0-1-501.cr4-ulsfo.wikimedia.org.
+227 1H  IN PTR  eth2.router1.corp.wikimedia.org.
+228 1H  IN PTR  eth2.router2.corp.wikimedia.org.
+
+
+; 198.35.26.232/29 (232-239) - unused
 
 ; 198.35.26.240/28 (240-255) - sandbox1-ulsfo
 241 1H IN PTR   vrrp-gw-1221.wikimedia.org.
