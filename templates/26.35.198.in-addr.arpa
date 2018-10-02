@@ -53,9 +53,9 @@
 193 1H IN PTR   cr4-ulsfo.wikimedia.org.
 194 1H IN PTR   mr1-ulsfo.wikimedia.org.
 
-; - 198.35.26.196/31 (196-197) -- Router AEs
-196 1H IN PTR   et-0-0-0-2.cr3-ulsfo.wikimedia.org.
-197 1H IN PTR   et-0-0-0-2.cr4-ulsfo.wikimedia.org.
+; - 198.35.26.196/31 (196-197) -- cr3-ulsfo <--> cr4-ulsfo
+196 1H IN PTR   ae0-2.cr3-ulsfo.wikimedia.org.
+197 1H IN PTR   ae0-2.cr4-ulsfo.wikimedia.org.
 
 ; - 198.35.26.198/31 (198-199) -- cr3-ulsfo <--> mr1-ulsfo
 198 1H IN PTR   et-1-0-1-401.cr3-ulsfo.wikimedia.org.
