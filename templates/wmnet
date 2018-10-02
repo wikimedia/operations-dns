@@ -4571,10 +4571,6 @@ asw2-ulsfo      1H      IN A    10.128.128.7
 scs-ulsfo       1H      IN A    10.128.128.11
 
 ; Servers listed sequentially
-lvs4001         1H      IN A    10.128.129.1
-lvs4002         1H      IN A    10.128.129.2
-lvs4003         1H      IN A    10.128.129.3
-lvs4004         1H      IN A    10.128.129.4
 lvs4005         1H      IN A    10.128.129.5
 lvs4006         1H      IN A    10.128.129.6
 lvs4007         1H      IN A    10.128.129.7
@@ -4637,10 +4633,6 @@ WMF7218          1H      IN A    10.128.129.12
 $ORIGIN ulsfo.wmnet.
 
 ; Servers listed sequentially
-lvs4001         1H      IN A    10.128.0.11
-lvs4002         1H      IN A    10.128.0.12
-lvs4003         1H      IN A    10.128.0.13
-lvs4004         1H      IN A    10.128.0.14
 lvs4005         1H      IN A    10.128.0.15
 lvs4006         1H      IN A    10.128.0.16
 lvs4007         1H      IN A    10.128.0.17

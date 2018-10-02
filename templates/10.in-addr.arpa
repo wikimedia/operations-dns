@@ -2784,10 +2784,6 @@ $ORIGIN 128.128.{{ zonename }}.
 
 
 $ORIGIN 129.128.{{ zonename }}.
-1   1H  IN PTR      lvs4001.mgmt.ulsfo.wmnet.
-2   1H  IN PTR      lvs4002.mgmt.ulsfo.wmnet.
-3   1H  IN PTR      lvs4003.mgmt.ulsfo.wmnet.
-4   1H  IN PTR      lvs4004.mgmt.ulsfo.wmnet.
 5   1H  IN PTR      lvs4005.mgmt.ulsfo.wmnet.
 5   1H  IN PTR      WMF7213.mgmt.ulsfo.wmnet.
 6   1H  IN PTR      lvs4006.mgmt.ulsfo.wmnet.
@@ -2849,10 +2845,6 @@ $ORIGIN 129.128.{{ zonename }}.
 
 ; 10.128.0.0/24 - private1-ulsfo
 $ORIGIN 0.128.{{ zonename }}.
-11  1H  IN PTR      lvs4001.ulsfo.wmnet.
-12  1H  IN PTR      lvs4002.ulsfo.wmnet.
-13  1H  IN PTR      lvs4003.ulsfo.wmnet.
-14  1H  IN PTR      lvs4004.ulsfo.wmnet.
 15  1H  IN PTR      lvs4005.ulsfo.wmnet.
 16  1H  IN PTR      lvs4006.ulsfo.wmnet.
 17  1H  IN PTR      lvs4007.ulsfo.wmnet.
