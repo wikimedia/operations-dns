@@ -4809,6 +4809,11 @@ $ORIGIN 0.195.{{ zonename }}.
 114 1H IN PTR  frmon2001.mgmt.frack.codfw.wmnet.
 115 1H IN PTR  frauth2001.mgmt.frack.codfw.wmnet.
 
+; 10.195.0.128/29 - frack-bastion-codfw
+129 1H IN PTR  reth0-2133.pfw3-codfw.frack.codfw.wmnet.
+130 1H IN PTR  frbast2001.frack.codfw.wmnet.
+
+
 ; 10.195.0.248/29 - reserved for frack infra
 
 ; 10.195.0.248/31 (pfw3-eqiad:st0 <--> pfw3-codfw:st0)
