@@ -4762,13 +4762,9 @@ $ORIGIN 0.195.{{ zonename }}.
 36 1H IN PTR  mintaka.frack.codfw.wmnet.
 38 1H IN PTR  alnitak.frack.codfw.wmnet.
 
-; 10.195.0.64/29 - frack-bastion-codfw
-65 1H IN PTR  reth0-2133.pfw3-codfw.frack.codfw.wmnet.
-66 1H IN PTR  rigel.frack.codfw.wmnet.
-67 1H IN PTR  frbast2001.frack.codfw.wmnet.
+; 10.195.0.64/28 - frack-administration-codfw
+65 1H IN PTR  reth0-2134.pfw3-codfw.frack.codfw.wmnet.
 
-; 10.195.0.72/29 - frack-administration-codfw
-73 1H IN PTR  reth0-2134.pfw3-codfw.frack.codfw.wmnet.
 74 1H IN PTR  heka.frack.codfw.wmnet.
 75 1H IN PTR  bellatrix.frack.codfw.wmnet.
 76 1H IN PTR  betelgeuse.frack.codfw.wmnet.
