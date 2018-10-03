@@ -4888,7 +4888,7 @@ prometheus  1H  IN CNAME    bast3002.wikimedia.org.
 
 $ORIGIN svc.ulsfo.wmnet.
 ; Used for consistency with eqiad/codfw
-prometheus  1H  IN CNAME    bast4001.wikimedia.org.
+prometheus  1H  IN CNAME    bast4002.wikimedia.org.
 
 ; EQSIN SERVICES
 
