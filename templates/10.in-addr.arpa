@@ -737,7 +737,7 @@ $ORIGIN 32.64.{{ zonename }}.
 23      1H IN PTR       kubernetes1003.eqiad.wmnet.
 24      1H IN PTR       roentgenium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 25      1H IN PTR       cumin1001.eqiad.wmnet.
-
+26      1H IN PTR       certcentral1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 27      1H IN PTR       logstash1009.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 28      1H IN PTR       sca1003.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 
@@ -3031,6 +3031,7 @@ $ORIGIN 0.192.{{ zonename }}.
 100 1H IN PTR   webperf2002.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
 101 1H IN PTR   db2094.codfw.wmnet.
 102 1H IN PTR   graphite2003.codfw.wmnet.
+103 1H IN PTR   certcentral2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
