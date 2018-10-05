@@ -70,6 +70,3 @@
 #
 ##############################################################################
 geoip/generic-map/eqiad => DOWN
-# Depool ulsfo for DC move
-geoip/generic-map/ulsfo => DOWN
-
