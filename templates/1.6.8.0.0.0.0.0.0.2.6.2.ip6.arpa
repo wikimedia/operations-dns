@@ -158,6 +158,8 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 
 5.5.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   bohrium.eqiad.wmnet.
 
+1.1.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   matomo1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
 
 ; private1-b-eqiad (2620:0:861:102::/64)
 $ORIGIN 2.0.1.0.{{ zonename }}.
