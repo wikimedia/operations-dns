@@ -88,9 +88,9 @@ _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1004.eqiad.wmnet.
 _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1005.eqiad.wmnet.
 _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1006.eqiad.wmnet.
 ; All read clients
-_etcd._tcp          5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
-_etcd._tcp          5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
-_etcd._tcp          5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
+_etcd._tcp          5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
+_etcd._tcp          5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
+_etcd._tcp          5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
 ; Conftool (RW)
 _etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
@@ -4474,9 +4474,9 @@ puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install1002.wikimedia.org.
 
 ; etcd client discovery (RO)
-_etcd._tcp      5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
-_etcd._tcp      5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
-_etcd._tcp      5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
 
 ; Conftool (RW)
 _etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
