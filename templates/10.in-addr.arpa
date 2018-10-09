@@ -3113,6 +3113,7 @@ $ORIGIN 16.192.{{ zonename }}.
 31  1H IN PTR   oresrdb2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 32  1H IN PTR   ms-be2014.codfw.wmnet.
 33  1H IN PTR   graphite2001.codfw.wmnet.
+34  1H IN PTR   db2096.codfw.wmnet.
 
 36  1H IN PTR   scb2004.codfw.wmnet.
 37  1H IN PTR   db2072.codfw.wmnet.
@@ -3908,7 +3909,8 @@ $ORIGIN 1.193.{{ zonename }}.
 115 1H IN PTR  wmf6433.mgmt.codfw.wmnet.
 116 1H IN PTR  mw2230.mgmt.codfw.wmnet.
 116 1H IN PTR  wmf6434.mgmt.codfw.wmnet.
-
+117 1H IN PTR  db2096.mgmt.codfw.wmnet.
+117 1H IN PTR  wmf6658.mgmt.codfw.wmnet.
 118 1H IN PTR  mw2231.mgmt.codfw.wmnet.
 118 1H IN PTR  wmf6435.mgmt.codfw.wmnet.
 119 1H IN PTR  mw2232.mgmt.codfw.wmnet.

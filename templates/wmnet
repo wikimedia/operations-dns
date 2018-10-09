@@ -2698,6 +2698,7 @@ db2092          1H  IN A    10.192.16.41
 db2093          1H  IN A    10.192.48.91
 db2094          1H  IN A    10.192.0.101
 db2095          1H  IN A    10.192.32.6
+db2096          1H  IN A    10.192.16.34
 dbstore2001     1H  IN A    10.192.0.32
 dbstore2002     1H  IN A    10.192.32.19
 debmonitor2001  1H  IN A    10.192.0.14 ; VM on the ganeti01.svc.codfw.wmnet cluster
@@ -3462,6 +3463,7 @@ db2092          1H  IN A    10.193.2.128
 db2093          1H  IN A    10.193.1.43
 db2094          1H  IN A    10.193.1.61
 db2095          1H  IN A    10.193.1.62
+db2096          1H  IN A    10.193.1.117
 dbstore2001     1H  IN A    10.193.1.253
 dbstore2002     1H  IN A    10.193.1.254
 deploy2001      1H  IN A    10.193.2.253
@@ -4404,6 +4406,7 @@ wmf6646         1H  IN A    10.193.1.206
 wmf6649         1H  IN A    10.193.1.207
 wmf6650         1H  IN A    10.193.1.199
 wmf6653         1H  IN A    10.193.1.201
+wmf6658         1H  IN A    10.193.1.117
 
 ;
 ; ESAMS
