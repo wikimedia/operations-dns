@@ -175,7 +175,6 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 1.4.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1002.eqiad.wmnet.
 8.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   prometheus1004.eqiad.wmnet.
 
-2.6.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   mwmaint1001.eqiad.wmnet.
 3.7.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1001.eqiad.wmnet.
 
 0.0.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   phab1001-vcs.eqiad.wmnet.
