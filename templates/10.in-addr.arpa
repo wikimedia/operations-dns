@@ -705,6 +705,7 @@ $ORIGIN 21.64.{{ zonename }}.
 115 1H IN PTR   analytics1063.eqiad.wmnet.
 116 1H IN PTR   analytics1072.eqiad.wmnet.
 117 1H IN PTR   analytics1073.eqiad.wmnet.
+118 1H IN PTR   stat1007.eqiad.wmnet.
 
 ; 10.64.22.0/24 - cloud-instance-transport1-b-eqiad
 $ORIGIN 22.64.{{ zonename }}.
