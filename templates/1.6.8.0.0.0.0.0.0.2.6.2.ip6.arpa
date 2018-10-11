@@ -257,6 +257,7 @@ $ORIGIN 5.0.1.0.{{ zonename }}.
 6.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1072.eqiad.wmnet.
 7.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1073.eqiad.wmnet.
 0.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-master1002.eqiad.wmnet.
+8.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   stat1007.eqiad.wmnet.
 
 ; analytics1-c-eqiad (2620:0:861:106::/64)
 $ORIGIN 6.0.1.0.{{ zonename }}.
