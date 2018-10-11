@@ -497,6 +497,7 @@ cr4-ulsfo       1H  IN A    198.35.26.193
 mr1-ulsfo       1H  IN A    198.35.26.194
                 1H  IN AAAA 2620:0:863:ffff::6
 mr1-ulsfo.oob   1H  IN A    198.24.47.102
+mr1-ulsfo.oob   1H  IN AAAA 2607:fb58:9000:7::2
 
 cr1-eqsin       1H  IN A    103.102.166.129
                 1H  IN AAAA 2001:df2:e500:ffff::2
