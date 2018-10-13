@@ -1194,8 +1194,7 @@ labvirt1016     1H  IN A    10.65.5.67
 wmf7086         1H  IN A    10.65.5.67
 labvirt1017     1H  IN A    10.65.5.68
 wmf7087         1H  IN A    10.65.5.68
-cloudvirt1018     1H  IN A    10.65.5.69
-labvirt1018     1H  IN A    10.65.5.69
+cloudvirt1018   1H  IN A    10.65.5.69
 wmf7088         1H  IN A    10.65.5.69
 cloudvirt1019   1H  IN A    10.65.5.76
 wmf7132         1H  IN A    10.65.5.76
