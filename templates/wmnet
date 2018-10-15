@@ -3270,8 +3270,9 @@ rigel               1H  IN A    10.195.0.66
 heka                1H  IN A    10.195.0.74
 bellatrix           1H  IN A    10.195.0.75
 betelgeuse          1H  IN A    10.195.0.76
-saiph               1H  IN A    10.195.0.82
-saiph-fundraising   1H  IN A    10.195.0.83
+frpig2001           1H  IN A    10.195.0.82
+saiph               1H  IN CNAME frpig2001
+frpig2001-fundraising 1H  IN A    10.195.0.83
 frbackup2001        1H  IN A    10.195.0.77
 rkhunter.heka       1H  IN CNAME heka
 
@@ -3294,7 +3295,8 @@ payments2001        1H  IN A    10.195.0.98
 payments2002        1H  IN A    10.195.0.99
 payments2003        1H  IN A    10.195.0.100
 rigel               1H  IN A    10.195.0.106
-saiph               1H  IN A    10.195.0.104
+frpig2001           1H  IN A    10.195.0.104
+saiph               1H  IN CNAME frpig2001
 
 ; CODFW management
 
