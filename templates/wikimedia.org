@@ -437,6 +437,7 @@ strategy.m          600 IN DYNA     geoip!text-addrs
 tr.m                600 IN DYNA     geoip!text-addrs
 ua.m                600 IN DYNA     geoip!text-addrs
 usability.m         600 IN DYNA     geoip!text-addrs
+ve.m                600 IN DYNA     geoip!text-addrs
 vote.m              600 IN DYNA     geoip!text-addrs
 wb.m                600 IN DYNA     geoip!text-addrs
 wikimania.m         600 IN DYNA     geoip!text-addrs
