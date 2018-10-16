@@ -45,7 +45,6 @@ $ORIGIN 2.0.0.0.{{ zonename }}.
 3.5.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   install2002.wikimedia.org.
 8.4.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestservices2001.wikimedia.org.
 7.4.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestcontrol2001.wikimedia.org.
-5.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestcontrol2003.wikimedia.org.
 
 ; public1-c-codfw (2620:0:860:3::/64)
 $ORIGIN 3.0.0.0.{{ zonename }}.
