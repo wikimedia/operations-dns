@@ -1998,11 +1998,12 @@ $ORIGIN 3.65.{{ zonename }}.
 178     1H      IN PTR          wmf5842.mgmt.eqiad.wmnet.
 178     1H      IN PTR          scb1002.mgmt.eqiad.wmnet.
 179     1H      IN PTR          wmf5843.mgmt.eqiad.wmnet.
-179     1H      IN PTR          scb1002.mgmt.eqiad.wmnet.
+179     1H      IN PTR          scb1001.mgmt.eqiad.wmnet.
 180     1H      IN PTR          wmf7115.mgmt.eqiad.wmnet.
 180     1H      IN PTR          cloudnet1003.mgmt.eqiad.wmnet.
 181     1H      IN PTR          wmf7116.mgmt.eqiad.wmnet.
 181     1H      IN PTR          cloudnet1004.mgmt.eqiad.wmnet.
+209     1H      IN PTR          wmf4579.mgmt.eqiad.wmnet.
 210     1H      IN PTR          hp1001.mgmt.eqiad.wmnet.
 211     1H      IN PTR          wmf4580.mgmt.eqiad.wmnet.
 211     1H      IN PTR          analytics1028.mgmt.eqiad.wmnet.
@@ -2279,7 +2280,7 @@ $ORIGIN 4.65.{{ zonename }}.
 132 1H  IN PTR      wmf7349.mgmt.eqiad.wmnet.
 132 1H  IN PTR      analytics1075.mgmt.eqiad.wmnet.
 133 1H  IN PTR      wmf7350.mgmt.eqiad.wmnet.
-133 1H  IN PTR      analytics1076.eqiad.wmnet.
+133 1H  IN PTR      analytics1076.mgmt.eqiad.wmnet.
 134 1H  IN PTR      wmf7351.mgmt.eqiad.wmnet.
 134 1H  IN PTR      analytics1077.mgmt.eqiad.wmnet.
 135 1H  IN PTR      wmf7355.mgmt.eqiad.wmnet.
@@ -2479,7 +2480,6 @@ $ORIGIN 5.65.{{ zonename }}.
 198 1H  IN PTR      lead.mgmt.eqiad.wmnet.
 199 1H  IN PTR      wmf4569.mgmt.eqiad.wmnet.
 199 1H  IN PTR      radon.mgmt.eqiad.wmnet.
-200 1H  IN PTR      wmf4570.mgmt.eqiad.wmnet.
 201 1H  IN PTR      wmf4571.mgmt.eqiad.wmnet.
 201 1H  IN PTR      polonium.mgmt.eqiad.wmnet.
 202 1H  IN PTR      wmf4572.mgmt.eqiad.wmnet.
@@ -2496,7 +2496,6 @@ $ORIGIN 5.65.{{ zonename }}.
 207 1H  IN PTR      oresrdb1001.mgmt.eqiad.wmnet.
 208 1H  IN PTR      wmf4578.mgmt.eqiad.wmnet.
 208 1H  IN PTR      oresrdb1002.mgmt.eqiad.wmnet.
-209 1H  IN PTR      wmf4579.mgmt.eqiad.wmnet.
 
 $ORIGIN 6.65.{{ zonename }}.
 
@@ -2841,7 +2840,7 @@ $ORIGIN 129.128.{{ zonename }}.
 130 1H  IN PTR      WMF5812.mgmt.ulsfo.wmnet.
 131 1H  IN PTR      cp4031.mgmt.ulsfo.wmnet.
 131 1H  IN PTR      WMF5813.mgmt.ulsfo.wmnet.
-132 1H  IN PTR      cp4031.mgmt.ulsfo.wmnet.
+132 1H  IN PTR      cp4032.mgmt.ulsfo.wmnet.
 132 1H  IN PTR      WMF5814.mgmt.ulsfo.wmnet.
 
 ; 10.128.0.0/24 - private1-ulsfo

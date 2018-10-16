@@ -1276,7 +1276,7 @@ wmf7095         1H  IN A    10.65.3.119
 conf1006        1H  IN A    10.65.3.119
 wmf4580         1H      IN A    10.65.3.211
 analytics1028   1H      IN A    10.65.3.211
-wmf4581         1H      IN A    10.65.2.212
+wmf4581         1H      IN A    10.65.3.212
 analytics1029   1H      IN A    10.65.3.212
 wmf4582         1H      IN A    10.65.3.213
 analytics1030   1H      IN A    10.65.3.213
@@ -1605,10 +1605,10 @@ wmf7039     1H  IN A    10.65.2.150
 db1105      1H  IN A    10.65.2.150
 wmf7040     1H  IN A    10.65.2.151
 db1106      1H  IN A    10.65.2.151
-wmf7166     1H  IN A    10.65.2.152
-db1107      1H  IN A    10.65.2.152
-wmf7167     1H  IN A    10.65.2.153
+wmf7166     1H  IN A    10.65.2.153
 db1108      1H  IN A    10.65.2.153
+wmf7167     1H  IN A    10.65.2.152
+db1107      1H  IN A    10.65.2.152
 wmf7288     1H  IN A    10.65.2.155
 db1109      1H  IN A    10.65.2.155
 wmf7287     1H  IN A    10.65.2.154
@@ -1683,7 +1683,7 @@ wmf4793         1H  IN A    10.65.4.56
 maps1003        1H  IN A    10.65.4.57
 wmf4794         1H  IN A    10.65.4.57
 maps1004        1H  IN A    10.65.4.58
-wmf4795         1H  IN A    10.65.4.59
+wmf4795         1H  IN A    10.65.4.58
 sodium          1H  IN A    10.65.4.71
 wmf6979         1H  IN A    10.65.4.71
 mc1019          1H  IN A    10.65.8.19
@@ -1897,7 +1897,7 @@ wmf7143     1H  IN A    10.65.1.81
 mw1311      1H  IN A    10.65.1.82
 wmf7144     1H  IN A    10.65.1.82
 mw1312      1H  IN A    10.65.1.83
-wmf7155     1H  IN A    10.65.1.83
+wmf7145     1H  IN A    10.65.1.83
 mw1313      1H  IN A    10.65.1.84
 wmf7156     1H  IN A    10.65.1.84
 mw1314      1H  IN A    10.65.1.85
@@ -1955,9 +1955,9 @@ wmf7301     1H  IN A    10.65.1.110
 mw1340      1H  IN A    10.65.1.111
 wmf7302     1H  IN A    10.65.1.111
 mw1341      1H  IN A    10.65.1.112
-wmf7303     1H  IN A    10.65.1.113
+wmf7303     1H  IN A    10.65.1.112
 mw1342      1H  IN A    10.65.1.113
-wmf7304     1H  IN A    10.65.1.114
+wmf7304     1H  IN A    10.65.1.113
 mw1343      1H  IN A    10.65.1.114
 wmf7305     1H  IN A    10.65.1.114
 mw1344      1H  IN A    10.65.1.115
@@ -2085,6 +2085,7 @@ wmf3142         1H  IN A    10.65.3.9
 americium       1H  IN A    10.65.3.225
 wmf4594         1H  IN A    10.65.3.225
 bismuth         1H  IN A    10.65.3.226
+wmf4570         1H  IN A    10.65.3.226
 wmf3147         1H  IN A    10.65.3.4
 authdns1001     1H  IN A    10.65.3.6
 wmf7390         1H  IN A    10.65.3.6
@@ -2106,7 +2107,6 @@ wmf3424         1H  IN A    10.65.3.49
 silver          1H  IN A    10.65.3.59
 wmf3434         1H  IN A    10.65.3.59
 wmf3433         1H  IN A    10.65.3.58
-wmf6992         1H  IN A    10.65.4.76
 lvs1001         1H  IN A    10.65.3.39
 lvs1002         1H  IN A    10.65.3.40
 lvs1003         1H  IN A    10.65.3.41
@@ -2266,7 +2266,6 @@ wmf4568         1H      IN A            10.65.5.198
 lead            1H      IN A            10.65.5.198
 wmf4569         1H      IN A            10.65.5.199
 radon           1H      IN A            10.65.5.199
-wmf4570         1H      IN A            10.65.5.200
 wmf4571         1H      IN A            10.65.5.201
 polonium        1H      IN A            10.65.5.201
 wmf4572         1H      IN A            10.65.5.202
@@ -2381,10 +2380,10 @@ wmf4750         1H      IN A            10.65.7.79
 weblog1001      1H      IN A            10.65.7.79
 eventlog1002    1H      IN A            10.65.7.80
 wmf4751         1H      IN A            10.65.7.80
-wmf6990         1H      IN A            10.65.4.75
 puppetmaster1001 1H     IN A            10.65.4.75
-wmf6991         1H      IN A            10.65.4.76
+wmf6991          1H     IN A            10.65.4.75
 puppetmaster1002 1H     IN A            10.65.4.76
+wmf6992          1H     IN A            10.65.4.76
 
 ; eqiad LVS cross-vlan addresses
 vl1017-eth1.lvs1010 1H IN A 10.64.1.10
@@ -3915,10 +3914,10 @@ wmf5716         1H  IN A    10.193.1.71
 wmf5717         1H  IN A    10.193.1.72
 wmf5719         1H  IN A    10.193.1.74
 wmf5755         1H  IN A    10.193.1.81
-wmf5815         1H  IN A    10.192.1.10
+wmf5815         1H  IN A    10.193.1.10
 wmf5819         1H  IN A    10.193.1.31
 wmf5820         1H  IN A    10.193.1.32
-wmf5821         1H  IN A    10.192.1.11
+wmf5821         1H  IN A    10.193.1.11
 wmf5822         1H  IN A    10.193.1.30
 wmf5823         1H  IN A    10.193.1.251
 wmf5833         1H  IN A    10.193.1.252
@@ -4371,8 +4370,8 @@ wmf6605         1H  IN A    10.193.1.69
 wmf6606         1H  IN A    10.193.1.73
 wmf6607         1H  IN A    10.193.1.78
 wmf6608         1H  IN A    10.193.1.79
-wmf6608         1H  IN A    10.193.1.251
-wmf6609         1H  IN A    10.193.2.119
+wmf6609         1H  IN A    10.193.1.251
+wmf6610         1H  IN A    10.193.2.119
 wmf6611         1H  IN A    10.193.2.163
 wmf6612         1H  IN A    10.193.2.164
 wmf6613         1H  IN A    10.193.2.171
