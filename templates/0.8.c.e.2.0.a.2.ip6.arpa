@@ -17,4 +17,4 @@
 
 $ORIGIN 1.0.0.0.0.0.5.0.{{ zonename }}.
 
-1   1H  IN PTR  ge-2-0-0-2483.mr1-esams.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   1H  IN PTR  ge-2-0-0-2483.mr1-esams.wikimedia.org.
