@@ -457,6 +457,7 @@ wikimania2017.m     600 IN DYNA     geoip!text-addrs
 wikimania2018.m     600 IN DYNA     geoip!text-addrs
 wikimania2019.m     600 IN DYNA     geoip!text-addrs
 wikimaniateam.m     600 IN DYNA     geoip!text-addrs
+za.m                600 IN DYNA     geoip!text-addrs
 
 ; Networking
 cr1-eqiad       1H  IN A    208.80.154.196
@@ -795,6 +796,7 @@ wikimania2019    600 IN DYNA     geoip!text-addrs
 wikimaniateam    600 IN DYNA     geoip!text-addrs
 
 www              600 IN DYNA     geoip!text-addrs
+za               600 IN DYNA     geoip!text-addrs
 zero             600 IN DYNA     geoip!text-addrs
 
 ; Other websites (NO wikis!)
