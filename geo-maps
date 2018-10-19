@@ -281,5 +281,7 @@ generic-map => {
         2620:0:1c00::/40   => [codfw, eqiad, ulsfo, esams, eqsin],
         2620:0:1cff::/48   => [codfw, eqiad, ulsfo, esams, eqsin],
         2a03:2880::/32     => [codfw, eqiad, ulsfo, esams, eqsin],
+        # Wikia's space in VA
+        74.120.189.0/24    => [eqiad, codfw, ulsfo, esams, eqsin],
     },
 }
