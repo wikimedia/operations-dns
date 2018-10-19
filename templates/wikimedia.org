@@ -109,6 +109,7 @@ recursor0       1H  IN A    208.80.154.254  ; eqiad LVS (dns-rec-lb)
 recursor1       1H  IN A    91.198.174.216  ; esams LVS (dns-rec-lb)
 
 ; Geodynamic records
+reflect      10 DYNA reflect ; GeoDNS debugging
 text-lb     600 DYNA geoip!text-addrs
 upload      600 DYNA geoip!upload-addrs
 maps        600 DYNA geoip!upload-addrs

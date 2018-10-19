@@ -42,4 +42,5 @@ plugins => {
             disc-swift-rw       => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
         }
     },
+    reflect => {},
 }
