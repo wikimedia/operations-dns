@@ -428,6 +428,7 @@ quality.m           600 IN DYNA     geoip!text-addrs
 pa-us.m             600 IN DYNA     geoip!text-addrs
 pl.m                600 IN DYNA     geoip!text-addrs
 pt.m                600 IN DYNA     geoip!text-addrs
+punjabi.m           600 IN DYNA     geoip!text-addrs
 rs.m                600 IN DYNA     geoip!text-addrs
 romd.m              600 IN DYNA     geoip!text-addrs
 ru.m                600 IN DYNA     geoip!text-addrs
@@ -756,6 +757,7 @@ otrs-wiki        600 IN DYNA     geoip!text-addrs
 outreach         600 IN DYNA     geoip!text-addrs
 pa-us            600 IN DYNA     geoip!text-addrs
 pt               600 IN DYNA     geoip!text-addrs
+punjabi          600 IN DYNA     geoip!text-addrs
 pk               600 IN DYNA     geoip!text-addrs
 pl               600 IN DYNA     geoip!text-addrs
 projectcom       600 IN DYNA     geoip!text-addrs
