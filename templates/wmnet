@@ -203,7 +203,6 @@ aqs1009-b        1H IN A             10.64.48.123 ; cassandra instance
 argon            1H IN A         10.64.32.133 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 argon            1H IN AAAA      2620:0:861:103:10:64:32:133
 backup1001       1H IN A         10.64.48.36
-barium           1H IN A         10.64.0.120
 boron            1H IN A         10.64.0.36 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 centrallog1001   1H IN A         10.64.48.113
 certcentral1001  1H IN A         10.64.32.26 ; VM on the ganeti01.svc.eqiad.wmnet cluster
@@ -934,6 +933,7 @@ labvirt1015     1H  IN A        10.64.20.31
 labvirt1016     1H  IN A        10.64.20.32
 labvirt1017     1H  IN A        10.64.20.33
 cloudvirt1018   1H  IN A        10.64.20.34
+weblog1001       1H IN A         10.64.0.120
 webperf1001     5M  IN A        10.64.0.215 ; VM ganeti01.svc.eqiad.wmnet
 webperf1001     5M  IN AAAA     2620:0:861:101:10:64:0:215 ; VM ganeti01.svc.eqiad.wmnet
 webperf1002     1H  IN A        10.64.0.216 ; VM ganeti01.svc.eqiad.wmnet
@@ -2378,7 +2378,7 @@ deploy1001      1H      IN A            10.65.7.77
 wmf4749         1H      IN A            10.65.7.78
 bast1002        1H      IN A            10.65.7.78
 wmf4750         1H      IN A            10.65.7.79
-barium          1H      IN A            10.65.7.79
+weblog1001      1H      IN A            10.65.7.79
 eventlog1002    1H      IN A            10.65.7.80
 wmf4751         1H      IN A            10.65.7.80
 wmf6990         1H      IN A            10.65.4.75
