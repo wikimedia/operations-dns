@@ -203,6 +203,7 @@ aqs1009-b        1H IN A             10.64.48.123 ; cassandra instance
 argon            1H IN A         10.64.32.133 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 argon            1H IN AAAA      2620:0:861:103:10:64:32:133
 backup1001       1H IN A         10.64.48.36
+barium           1H IN A         10.64.0.120
 boron            1H IN A         10.64.0.36 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 centrallog1001   1H IN A         10.64.48.113
 certcentral1001  1H IN A         10.64.32.26 ; VM on the ganeti01.svc.eqiad.wmnet cluster
@@ -2377,6 +2378,7 @@ deploy1001      1H      IN A            10.65.7.77
 wmf4749         1H      IN A            10.65.7.78
 bast1002        1H      IN A            10.65.7.78
 wmf4750         1H      IN A            10.65.7.79
+barium          1H      IN A            10.65.7.79
 eventlog1002    1H      IN A            10.65.7.80
 wmf4751         1H      IN A            10.65.7.80
 wmf6990         1H      IN A            10.65.4.75
