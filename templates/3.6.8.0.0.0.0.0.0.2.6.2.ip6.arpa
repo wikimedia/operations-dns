@@ -93,11 +93,11 @@ $ORIGIN 0.0.e.f.{{ zonename }}.
 
 $ORIGIN 1.0.e.f.{{ zonename }}.
 
-; cr3-ulsfo <--> cr1-eqord (2620:0:863:fe02::/64)
+; cr3-ulsfo <--> cr2-eqord (2620:0:863:fe02::/64)
 
 $ORIGIN 2.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-1.cr3-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-0-1.cr1-eqord.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-1.cr2-eqord.wikimedia.org.
 
 ; cr4-ulsfo <--> cr1-codfw (2620:0:863:fe03::/64)
 

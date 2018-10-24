@@ -268,10 +268,10 @@ $ORIGIN 1.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-0.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-2-1.cr1-codfw.wikimedia.org.
 
-; cr1-eqord <--> cr2-codfw (2620:0:860:fe02::/64)
+; cr2-eqord <--> cr2-codfw (2620:0:860:fe02::/64)
 
 $ORIGIN 2.0.e.f.{{ zonename }}.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-0-0.cr1-eqord.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-0.cr2-eqord.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-2-1.cr2-codfw.wikimedia.org.
 
 ; cr1-codfw <--> cr2-eqdfw (2620:0:860:fe03::/64)

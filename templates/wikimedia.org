@@ -466,7 +466,7 @@ cr1-eqiad       1H  IN A    208.80.154.196
                 1H  IN AAAA 2620:0:861:ffff::1
 cr2-eqiad       1H  IN A    208.80.154.197
                 1H  IN AAAA 2620:0:861:ffff::2
-cr1-eqord       1H  IN A    208.80.154.198
+cr2-eqord       1H  IN A    208.80.154.198
                 1H  IN AAAA 2620:0:861:ffff::5
 mr1-eqiad       1H  IN A    208.80.154.199
                 1H  IN AAAA 2620:0:861:ffff::6

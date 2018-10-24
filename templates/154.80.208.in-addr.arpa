@@ -145,7 +145,7 @@
 ; 208.80.154.196/30 (loopbacks)
 196 1H  IN PTR  cr1-eqiad.wikimedia.org.
 197 1H  IN PTR  cr2-eqiad.wikimedia.org.
-198 1H  IN PTR  cr1-eqord.wikimedia.org.
+198 1H  IN PTR  cr2-eqord.wikimedia.org.
 199 1H  IN PTR  mr1-eqiad.wikimedia.org.
 
 ; 208.80.154.200/31 (cr1-eqiad <--> pfw3-eqiad)
@@ -164,9 +164,9 @@
 206 1H  IN PTR  ae1-402.cr2-eqiad.wikimedia.org.
 207 1H  IN PTR  ge-0-0-1-402.mr1-eqiad.wikimedia.org.
 
-; 208.80.154.208/31 (cr2-eqiad <--> cr1-eqord)
+; 208.80.154.208/31 (cr2-eqiad <--> cr2-eqord)
 208 1H  IN PTR  xe-4-2-0.cr2-eqiad.wikimedia.org.
-209 1H  IN PTR  xe-1-1-0.cr1-eqord.wikimedia.org.
+209 1H  IN PTR  xe-0-1-5.cr1-eqord.wikimedia.org.
 
 ; 208.80.154.216/31 unused
 

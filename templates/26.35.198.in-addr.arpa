@@ -73,9 +73,9 @@
 
 ; - 198.35.26.206/31 (206-207) unused
 
-; - 198.35.26.208/31 (208-209) -- cr3-ulsfo <--> cr1-eqord
+; - 198.35.26.208/31 (208-209) -- cr3-ulsfo <--> cr2-eqord
 208 1H  IN PTR  xe-0-1-1.cr3-ulsfo.wikimedia.org.
-209 1H  IN PTR  xe-0-0-1.cr1-eqord.wikimedia.org.
+209 1H  IN PTR  xe-0-1-1.cr2-eqord.wikimedia.org.
 
 ; - 198.35.26.210/31 (210-211) -- cr4-ulsfo <--> cr1-codfw
 210 1H  IN PTR  xe-0-1-2.cr4-ulsfo.wikimedia.org.

@@ -443,11 +443,11 @@ $ORIGIN 0.0.e.f.{{ zonename }}.
 
 ; unassigned (2620:0:861:fe01::/64)
 
-; cr2-eqiad <--> cr1-eqord (2620:0:861:fe02::/64)
+; cr2-eqiad <--> cr2-eqord (2620:0:861:fe02::/64)
 
 $ORIGIN 2.0.e.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-0.cr2-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-1-1-0.cr1-eqord.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-5.cr2-eqord.wikimedia.org.
 
 ; cr2-eqiad:gr-4/3/0.1 <--> cr2-esams:gr-0/1/0.1 (2620:0:861:fe03::/64)
 
@@ -474,5 +474,5 @@ $ORIGIN f.f.f.f.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-eqiad.wikimedia.org.
 
-5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-eqord.wikimedia.org.
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-eqord.wikimedia.org.
 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mr1-eqiad.wikimedia.org.
