@@ -478,6 +478,11 @@ $ORIGIN 5.64.{{ zonename }}.
 24  1H IN PTR   analytics1070.eqiad.wmnet.
 25  1H IN PTR   analytics1071.eqiad.wmnet.
 26  1H IN PTR   an-master1001.eqiad.wmnet.
+27  1H IN PTR   an-worker1078.eqiad.wmnet.
+28  1H IN PTR   an-worker1079.eqiad.wmnet.
+29  1H IN PTR   an-worker1080.eqiad.wmnet.
+30  1H IN PTR   an-worker1081.eqiad.wmnet.
+31  1H IN PTR   an-worker1082.eqiad.wmnet.
 
 101 1H IN PTR   druid1001.eqiad.wmnet.
 
@@ -706,6 +711,11 @@ $ORIGIN 21.64.{{ zonename }}.
 116 1H IN PTR   analytics1072.eqiad.wmnet.
 117 1H IN PTR   analytics1073.eqiad.wmnet.
 118 1H IN PTR   stat1007.eqiad.wmnet.
+119 1H IN PTR   an-worker1083.eqiad.wmnet.
+120 1H IN PTR   an-worker1084.eqiad.wmnet.
+121 1H IN PTR   an-worker1085.eqiad.wmnet.
+122 1H IN PTR   an-worker1086.eqiad.wmnet.
+123 1H IN PTR   an-worker1087.eqiad.wmnet.
 
 ; 10.64.22.0/24 - cloud-instance-transport1-b-eqiad
 $ORIGIN 22.64.{{ zonename }}.
@@ -931,8 +941,9 @@ $ORIGIN 36.64.{{ zonename }}.
 2       1H IN PTR       ae3-1022.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae3-1022.cr2-eqiad.wikimedia.org.
 
+100     1H IN PTR       an-worker1088.eqiad.wmnet.
 102     1H IN PTR       druid1002.eqiad.wmnet.
-
+103     1H IN PTR       an-worker1089.eqiad.wment.
 104     1H IN PTR       analytics1064.eqiad.wmnet.
 105     1H IN PTR       analytics1065.eqiad.wmnet.
 106     1H IN PTR       analytics1066.eqiad.wmnet.
@@ -942,8 +953,9 @@ $ORIGIN 36.64.{{ zonename }}.
 110     1H IN PTR       analytics-tool1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 111     1H IN PTR       analytics-tool1002.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 112     1H IN PTR       analytics-tool1003.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-
+113     1H IN PTR       an-worker1090.eqiad.wmnet.
 114     1H IN PTR       kafka1014.eqiad.wmnet.
+115     1H IN PTR       an-worker1091.eqiad.wmnet.
 116     1H IN PTR       analytics1003.eqiad.wmnet.
 
 118     1H IN PTR       analytics1001.eqiad.wmnet.
@@ -1272,6 +1284,10 @@ $ORIGIN 53.64.{{ zonename }}.
 31      1H IN PTR       stat1006.eqiad.wmnet.
 32      1H IN PTR       analytics1076.eqiad.wmnet.
 33      1H IN PTR       analytics1077.eqiad.wmnet.
+34      1H IN PTR       an-worker1092.eqiad.wmnet.
+35      1H IN PTR       an-worker1093.eqiad.wmnet.
+36      1H IN PTR       an-worker1094.eqiad.wmnet.
+37      1H IN PTR       an-worker1095.eqiad.wmnet.
 
 103     1H  IN PTR      druid1003.eqiad.wmnet.
 
@@ -1921,9 +1937,44 @@ $ORIGIN 3.65.{{ zonename }}.
 
 59  1H  IN PTR      silver.mgmt.eqiad.wmnet.
 59  1H  IN PTR      wmf3434.mgmt.eqiad.wmnet.
-
+60  1H  IN PTR      an-worker1078.mgmt.eqiad.wmnet.
+60  1H  IN PTR      wmf7437.mgmt.eqiad.wmnet.
+61  1H  IN PTR      an-worker1079.mgmt.eqiad.wmnet.
+61  1H  IN PTR      wmf7438.mgmt.eqiad.wmnet.
+62  1H  IN PTR      an-worker1080.mgmt.eqiad.wmnet.
+62  1H  IN PTR      wmf7439.mgmt.eqiad.wmnet.
+63  1H  IN PTR      an-worker1081.mgmt.eqiad.wmnet.
+63  1H  IN PTR      wmf7440.mgmt.eqiad.wmnet.
+64  1H  IN PTR      an-worker1082.mgmt.eqiad.wmnet.
+64  1H  IN PTR      wmf7441.mgmt.eqiad.wmnet.
+65  1H  IN PTR      an-worker1083.mgmt.eqiad.wmnet.
+65  1H  IN PTR      wmf7442.mgmt.eqiad.wmnet.
+66  1H  IN PTR      an-worker1084.mgmt.eqiad.wmnet.
+66  1H  IN PTR      wmf7443.mgmt.eqiad.wmnet.
+67  1H  IN PTR      an-worker1085.mgmt.eqiad.wmnet.
+67  1H  IN PTR      wmf7444.mgmt.eqiad.wmnet.
+68  1H  IN PTR      an-worker1086.mgmt.eqiad.wmnet.
+68  1H  IN PTR      wmf7445.mgmt.eqiad.wmnet.
+69  1H  IN PTR      an-worker1087.mgmt.eqiad.wmnet.
+69  1H  IN PTR      wmf7446.mgmt.eqiad.wmnet.
 70  1H  IN PTR      wmf3446.mgmt.eqiad.wmnet.
 70  1H  IN PTR      labsdb1002.mgmt.eqiad.wmnet.
+71  1H  IN PTR      an-worker1088.mgmt.eqiad.wmnet.
+71  1H  IN PTR      wmf7447.mgmt.eqiad.wmnet.
+72  1H  IN PTR      an-worker1089.mgmt.eqiad.wmnet.
+72  1H  IN PTR      wmf7448.mgmt.eqiad.wmnet.
+73  1H  IN PTR      an-worker1090.mgmt.eqiad.wmnet.
+73  1H  IN PTR      wmf7449.mgmt.eqiad.wmnet.
+74  1H  IN PTR      an-worker1091.mgmt.eqiad.wmnet.
+74  1H  IN PTR      wmf7450.mgmt.eqiad.wmnet.
+75  1H  IN PTR      an-worker1092.mgmt.eqiad.wmnet.
+75  1H  IN PTR      wmf7451.mgmt.eqiad.wmnet.
+76  1H  IN PTR      an-worker1093.mgmt.eqiad.wmnet.
+76  1H  IN PTR      wmf7452.mgmt.eqiad.wmnet.
+77  1H  IN PTR      an-worker1094.mgmt.eqiad.wmnet.
+77  1H  IN PTR      wmf7453.mgmt.eqiad.wmnet.
+78  1H  IN PTR      an-worker1095.mgmt.eqiad.wmnet.
+78  1H  IN PTR      wmf7454.mgmt.eqiad.wmnet.
 82  1H  IN PTR      notebook1003.mgmt.eqiad.wmnet.
 82  1H  IN PTR      wmf7298.mgmt.eqiad.wmnet.
 83  1H  IN PTR      notebook1004.mgmt.eqiad.wmnet.
