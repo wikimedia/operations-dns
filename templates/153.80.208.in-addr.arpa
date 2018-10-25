@@ -107,6 +107,17 @@
 
 ; 208.80.153.128/27 labtest codfw public IPs (pool used by openstack)
 
+; 208.80.153.160/28 (160-175) unused
+
+; 208.80.153.176/29 (176-183) unused
+
+; 208.80.153.184/29 (184-191) cloud-instance-transport1-b-codfw
+185  1H  IN PTR  vrrp-gw-2120.wikimedia.org.
+186  1H  IN PTR  ae2-2120.cr1-codfw.wikimedia.org.
+187  1H  IN PTR  ae2-2120.cr2-codfw.wikimedia.org.
+188  1H  IN PTR  eth1-2120.labtestneutron2001.codfw.wmnet.
+189  1H  IN PTR  eth1-2120.labtestneutron2002.codfw.wmnet.
+
 ; Neighbor blocks & loopbacks (208.80.153.192/27)
 
 ; loopbacks
