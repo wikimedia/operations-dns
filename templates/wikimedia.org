@@ -575,6 +575,9 @@ benefactors     600 IN DYNA     geoip!text-addrs
 mandrill._domainkey.benefactors 1H IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;"
 
 
+; Mexico Awareness Campaign (T207816)
+bienvenida      600 IN DYNA     geoip!text-addrs
+
 cache           600 IN DYNA     geoip!text-addrs
 
 config-master   600 IN DYNA     geoip!text-addrs
