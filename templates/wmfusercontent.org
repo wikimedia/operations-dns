@@ -21,9 +21,6 @@
 ; Canonical names
             600 IN DYNA geoip!text-addrs
 
-; Temporary Validation for GlobalSign renewal
-            600 IN TXT "_globalsign-domain-verification=-5ANsF9mi1cWwwGQHqh1CBBqFqO4yt1PVYmPynie2C"
-
 ; CAA records
 ; issue globalsign.com, issue digicert.com, iodef "mailto:dns-admin@wikimedia.org"
 ; cf. https://sslmate.com/labs/caa/

@@ -26,9 +26,6 @@
 ; Google Webmaster Tools verification record for search management
             600 IN TXT  "google-site-verification=V1cbBf_zxEHDRFykCf8YR6TlOvLA1h-5lmD5a8pKfBw"
 
-; Temporary Validation for GlobalSign renewal
-            600 IN TXT "_globalsign-domain-verification=I9-Ip_0Wp-pYMM7mehyp54RQ4cq-39O2YejQ82qB7T"
-
 ; CAA records
 ; issue globalsign.com, issue digicert.com, iodef "mailto:dns-admin@wikimedia.org"
 ; cf. https://sslmate.com/labs/caa/
