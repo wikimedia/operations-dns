@@ -71,7 +71,7 @@ www                     600     IN DYNA         geoip!text-addrs
 zh-tw                   600     IN DYNA         geoip!text-addrs
 
 ; All languages will automatically be included here.
-{{ geolanglist(zero=True) }}
+{{ geolanglist() }}
 
 ; Other websites
 
