@@ -25,8 +25,6 @@ $ORIGIN eqiad.wmnet.
 ; Service aliases
 syslog          1H  IN CNAME    lithium.eqiad.wmnet.
 webproxy        5M  IN CNAME    install1002.wikimedia.org.
-carbon-relay    1M  IN CNAME    graphite1001.eqiad.wmnet.
-graphite        1M  IN CNAME    graphite1001.eqiad.wmnet.
 graphite-in     1M  IN CNAME    graphite1004.eqiad.wmnet.
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 statsd          5M  IN CNAME    graphite1004.eqiad.wmnet.
