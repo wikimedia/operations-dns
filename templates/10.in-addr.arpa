@@ -3080,6 +3080,7 @@ $ORIGIN 0.192.{{ zonename }}.
 101 1H IN PTR   db2094.codfw.wmnet.
 102 1H IN PTR   graphite2003.codfw.wmnet.
 103 1H IN PTR   certcentral2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
+104 1H IN PTR   pc2007.codfw.wmnet.
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
@@ -3163,7 +3164,7 @@ $ORIGIN 16.192.{{ zonename }}.
 32  1H IN PTR   ms-be2014.codfw.wmnet.
 33  1H IN PTR   graphite2001.codfw.wmnet.
 34  1H IN PTR   db2096.codfw.wmnet.
-
+35  1H IN PTR   pc2008.codfw.wmnet.
 36  1H IN PTR   scb2004.codfw.wmnet.
 37  1H IN PTR   db2072.codfw.wmnet.
 38  1H IN PTR   db2076.codfw.wmnet.
@@ -3341,6 +3342,7 @@ $ORIGIN 32.192.{{ zonename }}.
 7   1H IN PTR   db2036.codfw.wmnet.
 8   1H IN PTR   db2037.codfw.wmnet.
 9   1H IN PTR   db2038.codfw.wmnet.
+10  1H IN PTR   pc2009.codfw.wmnet.
 
 12  1H IN PTR   db2041.codfw.wmnet.
 
@@ -3538,7 +3540,7 @@ $ORIGIN 48.192.{{ zonename }}.
 11  1H IN PTR   db2059.codfw.wmnet.
 12  1H IN PTR   db2060.codfw.wmnet.
 13  1H IN PTR   db2061.codfw.wmnet.
-
+14  1H IN PTR   pc2010.codfw.wmnet.
 15  1H IN PTR   db2063.codfw.wmnet.
 16  1H IN PTR   cumin2001.codfw.wmnet.
 17  1H IN PTR   db2065.codfw.wmnet.
@@ -4137,6 +4139,14 @@ $ORIGIN 1.193.{{ zonename }}.
 206 1H IN PTR  wmf6646.mgmt.codfw.wmnet.
 207 1H IN PTR  bast2002.mgmt.codfw.wmnet.
 207 1H IN PTR  wmf6649.mgmt.codfw.wmnet.
+208 1H IN PTR  pc2007.mgmt.codfw.wmnet.
+208 1H IN PTR  wmf6659.mgmt.codfw.wmnet.
+209 1H IN PTR  pc2008.mgmt.codfw.wmnet.
+209 1H IN PTR  wmf6660.mgmt.codfw.wmnet.
+210 1H IN PTR  pc2009.mgmt.codfw.wmnet.
+210 1H IN PTR  wmf6661.mgmt.codfw.wmnet.
+211 1H IN PTR  pc2010.mgmt.codfw.wmnet.
+211 1H IN PTR  wmf6662.mgmt.codfw.wmnet.
 
 235 1H IN PTR  es2001.mgmt.codfw.wmnet.
 235 1H IN PTR  wmf3612.mgmt.codfw.wmnet.

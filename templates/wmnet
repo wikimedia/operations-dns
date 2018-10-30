@@ -3089,6 +3089,10 @@ planet2001      1H  IN AAAA 2620:0:860:101:10:192:0:92
 pc2004          1H  IN A    10.192.16.170
 pc2005          1H  IN A    10.192.32.128
 pc2006          1H  IN A    10.192.48.39
+pc2007          1H  IN A    10.192.0.104
+pc2008          1H  IN A    10.192.16.35
+pc2009          1H  IN A    10.192.32.10
+pc2010          1H  IN A    10.192.48.14
 phab2001        1H  IN A    10.192.32.147
 phab2001        1H  IN AAAA 2620:0:860:103:10:192:32:147
 phab2001-aphlict 1H IN CNAME    phab2001 ; CNAME here due to varnish puppetization woes
@@ -3858,6 +3862,10 @@ papaul-laptop   1H  IN A    10.193.1.7
 pc2004          1H  IN A    10.193.2.231
 pc2005          1H  IN A    10.193.2.232
 pc2006          1H  IN A    10.193.2.233
+pc2007          1H  IN A    10.193.1.208
+pc2008          1H  IN A    10.193.1.209
+pc2009          1H  IN A    10.193.1.210
+pc2010          1H  IN A    10.193.1.211
 phab2001        1H  IN A    10.193.2.252
 procyon         1H  IN A    10.193.2.117
 prometheus2003  1H  IN A    10.193.1.156
@@ -4451,6 +4459,10 @@ wmf6649         1H  IN A    10.193.1.207
 wmf6650         1H  IN A    10.193.1.199
 wmf6653         1H  IN A    10.193.1.201
 wmf6658         1H  IN A    10.193.1.117
+wmf6659         1H  IN A    10.193.1.208
+wmf6660         1H  IN A    10.193.1.209
+wmf6661         1H  IN A    10.193.1.210
+wmf6662         1H  IN A    10.193.1.211
 
 ;
 ; ESAMS
