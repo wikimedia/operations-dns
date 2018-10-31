@@ -1863,6 +1863,14 @@ $ORIGIN 2.65.{{ zonename }}.
 167 1H  IN PTR      dbproxy1016.mgmt.eqiad.wmnet.
 168 1H  IN PTR      wmf7401.mgmt.eqiad.wmnet.
 168 1H  IN PTR      dbproxy1017.mgmt.eqiad.wmnet.
+169 1H  IN PTR      pc1007.mgmt.eqiad.wmnet.
+169 1H  IN PTR      wmf7455.mgmt.eqiad.wmnet.
+170 1H  IN PTR      pc1008.mgmt.eqiad.wmnet.
+170 1H  IN PTR      wmf7456.mgmt.eqiad.wmnet.
+171 1H  IN PTR      pc1009.mgmt.eqiad.wmnet.
+171 1H  IN PTR      wmf7457.mgmt.eqiad.wmnet.
+172 1H  IN PTR      pc1010.mgmt.eqiad.wmnet.
+172 1H  IN PTR      wmf7458.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.{{ zonename }}.
 
