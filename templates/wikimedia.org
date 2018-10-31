@@ -58,19 +58,15 @@ donate          5M  IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:
 
 gh-mail         1H  IN TXT  "v=spf1 include:mg-spf.greenhouse.io ~all"
 
-; CAA records for wikimedia.org - all types for globalsign and digicert, non-wildcard for LE
+; CAA records for wikimedia.org - all types for globalsign, digicert, and LE
 ; cf. https://sslmate.com/labs/caa/, data below is:
 ; 0 issue "digicert.com"
 ; 0 issue "globalsign.com"
 ; 0 issue "letsencrypt.org"
-; 0 issuewild "digicert.com"
-; 0 issuewild "globalsign.com"
 ; 0 iodef "mailto:dns-admin@wikimedia.org"
 wikimedia.org.  5M  IN TYPE257 \# 19 0005697373756564696769636572742E636F6D
 wikimedia.org.  5M  IN TYPE257 \# 21 00056973737565676C6F62616C7369676E2E636F6D
 wikimedia.org.  5M  IN TYPE257 \# 22 000569737375656C657473656E63727970742E6F7267
-wikimedia.org.  5M  IN TYPE257 \# 23 0009697373756577696C6464696769636572742E636F6D
-wikimedia.org.  5M  IN TYPE257 \# 25 0009697373756577696C64676C6F62616C7369676E2E636F6D
 wikimedia.org.  5M  IN TYPE257 \# 37 0005696F6465666D61696C746F3A646E732D61646D696E4077696B696D656469612E6F7267
 
 ; CAA for policy.wikimedia.org
