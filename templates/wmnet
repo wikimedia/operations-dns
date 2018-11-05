@@ -1013,7 +1013,7 @@ re1.cr1-eqiad       1H  IN A        10.65.0.13
 re0.cr2-eqiad       1H  IN A        10.65.0.14
 re1.cr2-eqiad       1H  IN A        10.65.0.15
 asw-a-eqiad         1H  IN A        10.65.0.17
-asw-b-eqiad         1H  IN A        10.65.0.18
+
 lab-ex4200-1        1H  IN A        10.65.0.19
 asw2-a5-eqiad       1H  IN A        10.65.0.20
 asw2-a-eqiad        1H  IN A        10.65.0.21

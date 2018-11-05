@@ -1333,7 +1333,7 @@ $ORIGIN 0.65.{{ zonename }}.
 15  1H IN PTR   re1.cr2-eqiad.mgmt.eqiad.wmnet.
 
 17  1H IN PTR   asw-a-eqiad.mgmt.eqiad.wmnet.
-18  1H IN PTR   asw-b-eqiad.mgmt.eqiad.wmnet.
+
 19  1H IN PTR   lab-ex4200-1.mgmt.eqiad.wmnet.
 20  1H IN PTR   asw2-a5-eqiad.mgmt.eqiad.wmnet.
 21  1H IN PTR   asw2-a-eqiad.mgmt.eqiad.wmnet.
