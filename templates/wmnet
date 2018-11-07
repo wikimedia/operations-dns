@@ -3585,7 +3585,8 @@ graphite2001    1H  IN A    10.193.2.14
 graphite2002    1H  IN A    10.193.2.251
 graphite2003    1H  IN A    10.193.1.206
 heze            1H  IN A    10.193.1.250
-icinga2001      1H  IN A    10.193.1.27
+icinga2001      1H  IN A    10.193.1.27 ; duplicated
+tegmen          1H  IN A    10.193.1.27 ; duplicated
 install2001     1H  IN A    10.193.1.10
 kafka2001       1H  IN A    10.193.1.23
 kafka2002       1H  IN A    10.193.1.25
