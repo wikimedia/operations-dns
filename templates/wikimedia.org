@@ -198,6 +198,8 @@ gerrit2001      1H  IN A    208.80.153.106
 gerrit2001      1H  IN AAAA 2620:0:860:4:208:80:153:106
 icinga1001      1H  IN A    208.80.154.84
 icinga1001      1H  IN AAAA 2620:0:861:3:208:80:154:84
+icinga2001      1H  IN A    208.80.153.74
+icinga2001      1H  IN AAAA 2620:0:860:3:208:80:153:74
 install1002     1H  IN A    208.80.154.22
 install1002     1H  IN AAAA 2620:0:861:1:208:80:154:22
 install2002     1H  IN A    208.80.153.53
@@ -302,8 +304,6 @@ ripe-atlas-eqsin 1H IN A    103.102.166.20
 ripe-atlas-eqsin 1H IN AAAA 2001:df2:e500:201:103:102:166:20
 seaborgium      1H  IN A    208.80.154.79 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 serpens         1H  IN A    208.80.153.49 ; VM on the ganeti01.svc.codfw.wmnet cluster
-tegmen          1H  IN A    208.80.153.74
-tegmen          1H  IN AAAA 2620:0:860:3:208:80:153:74
 torrelay1001    1H  IN A    208.80.154.9
 torrelay1001    1H  IN AAAA 2620:0:861:1:208:80:154:9
 ununpentium     1H  IN A    208.80.154.19 ; VM on ganeti01.svc.eqiad.wmnet

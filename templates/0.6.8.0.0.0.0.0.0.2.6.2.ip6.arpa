@@ -53,7 +53,7 @@ $ORIGIN 3.0.0.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-2003.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-2003.cr2-codfw.wikimedia.org.
 
-4.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   tegmen.wikimedia.org.
+4.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   icinga2001.wikimedia.org.
 5.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestcontrol2003.wikimedia.org.
 6.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestservices2002.wikimedia.org.
 
