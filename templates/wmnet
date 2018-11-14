@@ -959,7 +959,7 @@ labvirt1012     1H  IN A        10.64.20.28
 labvirt1013     1H  IN A        10.64.20.29
 labvirt1014     1H  IN A        10.64.20.30
 labvirt1015     1H  IN A        10.64.20.31
-labvirt1016     1H  IN A        10.64.20.32
+cloudvirt1016   1H  IN A        10.64.20.32
 cloudvirt1017   1H  IN A        10.64.20.33
 cloudvirt1018   1H  IN A        10.64.20.34
 weblog1001       1H IN A         10.64.0.120
@@ -1217,7 +1217,8 @@ labvirt1014     1H  IN A    10.65.4.64
 wmf6978         1H  IN A    10.65.4.64
 labvirt1015     1H  IN A    10.65.5.66
 wmf7085         1H  IN A    10.65.5.66
-labvirt1016     1H  IN A    10.65.5.67
+labvirt1016     1H  IN A    10.65.5.67 ; duplicate
+cloudvirt1016   1H  IN A    10.65.5.67 ; duplicate
 wmf7086         1H  IN A    10.65.5.67
 cloudvirt1017   1H  IN A    10.65.5.68
 wmf7087         1H  IN A    10.65.5.68
