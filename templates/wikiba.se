@@ -1,0 +1,26 @@
+; vim: set expandtab:smarttab
+@           1D  IN SOA  ns0.wikimedia.org.  hostmaster.wikimedia.org.   (
+                    {{ serial }}    ; serial
+                    12H     ; refresh
+                    2H      ; retry
+                    2W      ; expiry
+                    1H      ; negative cache TTL
+                    )
+
+; Name servers
+
+            1D  IN NS   ns0.wikimedia.org.
+            1D  IN NS   ns1.wikimedia.org.
+            1D  IN NS   ns2.wikimedia.org.
+
+; Mail exchangers
+
+            1H  IN MX   10  mx00.udag.de.
+            1H  IN MX   20  mx01.udag.de.
+
+; Canonical names
+            333 IN A   89.31.143.100
+
+; Servers (alphabetic order)
+
+www         333  IN A   89.31.143.100
