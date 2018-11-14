@@ -1215,8 +1215,7 @@ labvirt1013     1H  IN A    10.65.4.63
 wmf6977         1H  IN A    10.65.4.63
 labvirt1014     1H  IN A    10.65.4.64
 wmf6978         1H  IN A    10.65.4.64
-cloudvirt1015   1H  IN A    10.65.5.66 ; duplicate
-labvirt1015     1H  IN A    10.65.5.66 ; duplicate
+cloudvirt1015   1H  IN A    10.65.5.66
 wmf7085         1H  IN A    10.65.5.66
 cloudvirt1016   1H  IN A    10.65.5.67
 wmf7086         1H  IN A    10.65.5.67
