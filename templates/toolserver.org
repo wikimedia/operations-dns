@@ -17,11 +17,11 @@
 
             1H  IN MX   10 toolserver.org.
 
-; legacy support - this lives in labs as
-; relic.wmflabs.org in the toolserver-legacy project
+; legacy support - this lives in the cloud
+; in the toolserver-legacy project
 ;
 ; It can't just be a CNAME because of the MX RR :-(
 
-@           1H  IN A    208.80.155.197
-*           1H  IN A    208.80.155.197
+@           1H  IN A    185.15.56.23
+*           1H  IN A    185.15.56.23
 
