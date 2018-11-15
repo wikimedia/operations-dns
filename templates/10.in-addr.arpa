@@ -40,7 +40,7 @@ $ORIGIN 1.2.{{ zonename }}.
 28  1H  IN PTR  parsoid.svc.codfw.wmnet.
 29  1H  IN PTR  zoterov2.svc.codfw.wmnet.
 30  1H  IN PTR  search.svc.codfw.wmnet.
-; 31 reserved for ocg
+
 32  1H  IN PTR  wdqs.svc.codfw.wmnet.
 ; 33 reserved for kibana
 34  1H  IN PTR  eventstreams.svc.codfw.wmnet.
@@ -81,7 +81,7 @@ $ORIGIN 2.2.{{ zonename }}.
 28  1H  IN PTR  parsoid.svc.eqiad.wmnet.
 29  1H  IN PTR  zoterov2.svc.eqiad.wmnet.
 30  1H  IN PTR  search.svc.eqiad.wmnet.
-31  1H  IN PTR  ocg.svc.eqiad.wmnet.
+
 32  1H  IN PTR  wdqs.svc.eqiad.wmnet.
 33  1H  IN PTR  kibana.svc.eqiad.wmnet.
 34  1H  IN PTR  eventstreams.svc.eqiad.wmnet.
