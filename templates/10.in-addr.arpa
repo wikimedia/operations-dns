@@ -3081,6 +3081,8 @@ $ORIGIN 0.192.{{ zonename }}.
 102 1H IN PTR   graphite2003.codfw.wmnet.
 103 1H IN PTR   certcentral2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
 104 1H IN PTR   pc2007.codfw.wmnet.
+105 1H IN PTR   ms-be2044.codfw.wmnet.
+106 1H IN PTR   ms-be2045.codfw.wmnet.
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
@@ -3206,6 +3208,8 @@ $ORIGIN 16.192.{{ zonename }}.
 74  1H IN PTR   db2045.codfw.wmnet.
 75  1H IN PTR   proton2002.codfw.wmnet.
 76  1H IN PTR   orespoolcounter2002.codfw.wmnet.
+77  1H IN PTR   ms-be2046.codfw.wmnet.
+78  1H IN PTR   ms-be2047.codfw.wmnet.
 
 108 1H IN PTR   mw2135.codfw.wmnet.
 109 1H IN PTR   mw2136.codfw.wmnet.
@@ -3343,9 +3347,9 @@ $ORIGIN 32.192.{{ zonename }}.
 8   1H IN PTR   db2037.codfw.wmnet.
 9   1H IN PTR   db2038.codfw.wmnet.
 10  1H IN PTR   pc2009.codfw.wmnet.
-
+11  1H IN PTR   ms-be2048.codfw.wmnet.
 12  1H IN PTR   db2041.codfw.wmnet.
-
+13  1H IN PTR   ms-be2049.codfw.wmnet.
 14  1H IN PTR   ms-be2042.codfw.wmnet.
 
 18  1H IN PTR   ms-be2015.codfw.wmnet.
@@ -3642,6 +3646,7 @@ $ORIGIN 48.192.{{ zonename }}.
 114 1H IN PTR   db2039.codfw.wmnet.
 115 1H IN PTR   db2042.codfw.wmnet.
 116 1H IN PTR   backup2001.codfw.wmnet.
+117 1H IN PTR   ms-be2050.codfw.wmnet.
 
 $ORIGIN 49.192.{{ zonename }}.
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
@@ -4147,6 +4152,20 @@ $ORIGIN 1.193.{{ zonename }}.
 210 1H IN PTR  wmf6661.mgmt.codfw.wmnet.
 211 1H IN PTR  pc2010.mgmt.codfw.wmnet.
 211 1H IN PTR  wmf6662.mgmt.codfw.wmnet.
+212 1H IN PTR  ms-be2044.mgmt.codfw.wmnet.
+212 1H IN PTR  wmf6663.mgmt.codfw.wmnet.
+213 1H IN PTR  ms-be2045.mgmt.codfw.wmnet.
+213 1H IN PTR  wmf6664.mgmt.codfw.wmnet.
+214 1H IN PTR  ms-be2046.mgmt.codfw.wmnet.
+214 1H IN PTR  wmf6665.mgmt.codfw.wmnet.
+215 1H IN PTR  ms-be2047.mgmt.codfw.wmnet.
+215 1H IN PTR  wmf6666.mgmt.codfw.wmnet.
+216 1H IN PTR  ms-be2048.mgmt.codfw.wmnet.
+216 1H IN PTR  wmf6667.mgmt.codfw.wmnet.
+217 1H IN PTR  ms-be2049.mgmt.codfw.wmnet.
+217 1H IN PTR  wmf6668.mgmt.codfw.wmnet.
+218 1H IN PTR  ms-be2050.mgmt.codfw.wmnet.
+218 1H IN PTR  wmf6669.mgmt.codfw.wmnet.
 
 235 1H IN PTR  es2001.mgmt.codfw.wmnet.
 235 1H IN PTR  wmf3612.mgmt.codfw.wmnet.
