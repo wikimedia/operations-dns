@@ -943,7 +943,7 @@ $ORIGIN 36.64.{{ zonename }}.
 
 100     1H IN PTR       an-worker1088.eqiad.wmnet.
 102     1H IN PTR       druid1002.eqiad.wmnet.
-103     1H IN PTR       an-worker1089.eqiad.wment.
+103     1H IN PTR       an-worker1089.eqiad.wmnet.
 104     1H IN PTR       analytics1064.eqiad.wmnet.
 105     1H IN PTR       analytics1065.eqiad.wmnet.
 106     1H IN PTR       analytics1066.eqiad.wmnet.
@@ -2297,7 +2297,7 @@ $ORIGIN 4.65.{{ zonename }}.
 116 1H  IN PTR      ores1009.mgmt.eqiad.wmnet.
 117 1H  IN PTR      wmf7113.mgmt.eqiad.wmnet.
 117 1H  IN PTR      labpuppetmaster1001.mgmt.eqiad.wmnet.
-118 1H  IN PTR      wmf7114.mgmt.eqiad.wment.
+118 1H  IN PTR      wmf7114.mgmt.eqiad.wmnet.
 118 1H  IN PTR      labpuppetmaster1002.mgmt.eqiad.wmnet.
 119 1H  IN PTR      wmf7098.mgmt.eqiad.wmnet.
 119 1H  IN PTR      cloudcontrol1003.mgmt.eqiad.wmnet.
