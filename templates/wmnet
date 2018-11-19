@@ -3194,6 +3194,9 @@ scb2003         1H  IN A    10.192.0.33
 scb2004         1H  IN A    10.192.16.36
 scb2005         1H  IN A    10.192.0.34
 scb2006         1H  IN A    10.192.32.20
+sessionstore2001         1H  IN A    10.192.16.79
+sessionstore2002         1H  IN A    10.192.32.15
+sessionstore2003         1H  IN A    10.192.48.118
 thumbor2001     1H  IN A    10.192.32.36
 thumbor2002     1H  IN A    10.192.32.37
 thumbor2003     1H  IN A    10.192.16.58
@@ -3913,6 +3916,9 @@ scb2003         1H  IN A    10.193.1.24
 scb2004         1H  IN A    10.193.1.26
 scb2005         1H  IN A    10.193.1.149
 scb2006         1H  IN A    10.193.1.151
+sessionstore2001 1H  IN A    10.193.1.219
+sessionstore2002 1H  IN A    10.193.1.220
+sessionstore2003 1H  IN A    10.193.1.221
 stat2001        1H  IN A    10.193.2.13
 thumbor2001     1H  IN A    10.193.2.48
 thumbor2002     1H  IN A    10.193.2.49
@@ -4485,6 +4491,9 @@ wmf6666         1H  IN A    10.193.1.215
 wmf6667         1H  IN A    10.193.1.216
 wmf6668         1H  IN A    10.193.1.217
 wmf6669         1H  IN A    10.193.1.218
+wmf6670         1H  IN A    10.193.1.219
+wmf6671         1H  IN A    10.193.1.220
+wmf6672         1H  IN A    10.193.1.221
 
 ;
 ; ESAMS
