@@ -917,7 +917,6 @@ restbase-dev1006-b  1H IN A     10.64.48.169
 rhodium         1H  IN A        10.64.16.184
 roentgenium     1H  IN A        10.64.32.24 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 ruthenium       1H  IN A        10.64.16.151
-rutherfordium   1H  IN A        10.64.0.54 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 scandium        1H  IN A        10.64.48.94
 sca1003         1H  IN A        10.64.32.28 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 sca1004         1H  IN A        10.64.0.47 ; VM on the ganeti01.svc.eqiad.wmnet cluster

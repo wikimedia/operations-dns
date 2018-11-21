@@ -291,7 +291,7 @@ $ORIGIN 0.64.{{ zonename }}.
 51  1H IN PTR   ores1001.eqiad.wmnet.
 52  1H IN PTR   ores1002.eqiad.wmnet.
 53  1H IN PTR   hassium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-54  1H IN PTR   rutherfordium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+
 56  1H IN PTR   mw1261.eqiad.wmnet.
 57  1H IN PTR   mw1262.eqiad.wmnet.
 58  1H IN PTR   mw1263.eqiad.wmnet.
