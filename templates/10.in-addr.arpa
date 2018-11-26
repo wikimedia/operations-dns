@@ -373,6 +373,7 @@ $ORIGIN 0.64.{{ zonename }}.
 134 1H IN PTR   dbproxy1012.eqiad.wmnet.
 135 1H IN PTR   dbproxy1013.eqiad.wmnet.
 136 1H IN PTR   people1001.eqiad.wmnet. ; VM ganeti01.svc.eqiad.wmnet
+137 1H IN PTR   dbstore1003.eqiad.wmnet.
 
 162 1H IN PTR   logstash1004.eqiad.wmnet.
 163 1H IN PTR   db1096.eqiad.wmnet.
@@ -517,7 +518,7 @@ $ORIGIN 16.64.{{ zonename }}.
 23  1H IN PTR   cp1080.eqiad.wmnet.
 24  1H IN PTR   cp1081.eqiad.wmnet.
 25  1H IN PTR   cp1082.eqiad.wmnet.
-
+26  1H IN PTR   dbstore1004.eqiad.wmnet.
 27  1H IN PTR   cloudvirt1024b.eqiad.wmnet.
 
 29  1H IN PTR   conf1005.eqiad.wmnet.
@@ -753,7 +754,7 @@ $ORIGIN 32.64.{{ zonename }}.
 27      1H IN PTR       logstash1009.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 28      1H IN PTR       sca1003.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
 29      1H IN PTR       pc1009.eqiad.wmnet.
-
+30      1H IN PTR       dbstore1005.eqiad.wmnet.
 31      1H IN PTR       ping1001.eqiad.wmnet.
 32      1H IN PTR       mw1330.eqiad.wmnet.
 33      1H IN PTR       mw1331.eqiad.wmnet.
