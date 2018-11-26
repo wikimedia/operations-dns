@@ -1482,6 +1482,12 @@ wmf4532         1H      IN A    10.65.6.64
 dbstore1001     1H      IN A    10.65.6.64
 wmf4533         1H      IN A    10.65.6.65
 dbstore1002     1H      IN A    10.65.6.65
+wmf7467         1H      IN A    10.65.3.20
+dbstore1003     1H      IN A    10.65.3.20
+wmf7468         1H      IN A    10.65.3.21
+dbstore1004     1H      IN A    10.65.3.21
+wmf7469         1H      IN A    10.65.3.22
+dbstore1005     1H      IN A    10.65.3.22
 cp1099          1H      IN A    10.65.3.147
 druid1001       1H      IN A    10.65.4.48
 wmf4770         1H      IN A    10.65.4.48
