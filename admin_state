@@ -69,6 +69,3 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
-
-# Overlapping maintenance on ulsfo-codfw and eqord-codfw links
-geoip/generic-map/ulsfo => DOWN
