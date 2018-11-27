@@ -3206,6 +3206,12 @@ restbase2012    1H  IN A    10.192.48.67
 restbase2012-a  1H  IN A    10.192.48.68 ; cassandra instance
 restbase2012-b  1H  IN A    10.192.48.69 ; cassandra instance
 restbase2012-c  1H  IN A    10.192.48.70 ; cassandra instance
+restbase2013    1H  IN A    10.192.16.80
+restbase2014    1H  IN A    10.192.16.81
+restbase2015    1H  IN A    10.192.32.16
+restbase2016    1H  IN A    10.192.32.17
+restbase2017    1H  IN A    10.192.48.119
+restbase2018    1H  IN A    10.192.48.120
 sarin           1H  IN A    10.192.0.140
 sarin           1H  IN AAAA 2620:0:860:101:10:192:0:140
 sca2003         1H  IN A    10.192.16.29 ; VM on the ganeti01.svc.codfw.wmnet cluster
@@ -3931,6 +3937,12 @@ restbase2009    1H  IN A    10.193.3.7
 restbase2010    1H  IN A    10.193.1.153
 restbase2011    1H  IN A    10.193.1.154
 restbase2012    1H  IN A    10.193.1.155
+restbase2013    1H  IN A    10.193.1.222
+restbase2014    1H  IN A    10.193.1.223
+restbase2015    1H  IN A    10.193.1.224
+restbase2016    1H  IN A    10.193.1.225
+restbase2017    1H  IN A    10.193.1.226
+restbase2018    1H  IN A    10.193.1.227
 sarin           1H  IN A    10.193.2.234
 scb2001         1H  IN A    10.193.1.28
 scb2002         1H  IN A    10.193.2.230
@@ -4516,6 +4528,12 @@ wmf6669         1H  IN A    10.193.1.218
 wmf6670         1H  IN A    10.193.1.219
 wmf6671         1H  IN A    10.193.1.220
 wmf6672         1H  IN A    10.193.1.221
+wmf6673         1H  IN A    10.193.1.222
+wmf6674         1H  IN A    10.193.1.223
+wmf6675         1H  IN A    10.193.1.224
+wmf6676         1H  IN A    10.193.1.225
+wmf6677         1H  IN A    10.193.1.226
+wmf6678         1H  IN A    10.193.1.227
 
 ;
 ; ESAMS
