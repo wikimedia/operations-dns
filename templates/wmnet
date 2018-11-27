@@ -570,6 +570,7 @@ kubernetes1004  1H  IN AAAA     2620:0:861:107:10:64:48:52
 labmon1001      1H  IN A        10.64.37.13
 prometheus-labmon 1H      IN CNAME  labmon1001
 labmon1002      1H  IN A        10.64.4.15
+labmon1002      1H  IN AAAA     2620:0:861:117:10:64:4:15
 labnet1001      1H  IN A        10.64.20.13
 labnet1002      1H  IN A        10.64.20.25
 cloudnet1004    1H  IN A        10.64.20.36
