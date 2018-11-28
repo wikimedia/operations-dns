@@ -1246,6 +1246,16 @@ cloudvirt1023   1H  IN A    10.65.5.96
 wmf7402         1H  IN A    10.65.5.96
 cloudvirt1024   1H  IN A    10.65.5.97
 wmf7403         1H  IN A    10.65.5.97
+cloudvirtan1001 1H  IN A    10.65.6.15
+wmf7470         1H  IN A    10.65.6.15
+cloudvirtan1002 1H  IN A    10.65.6.16
+wmf7471         1H  IN A    10.65.6.16
+cloudvirtan1003 1H  IN A    10.65.6.17
+wmf7472         1H  IN A    10.65.6.17
+cloudvirtan1004 1H  IN A    10.65.6.18
+wmf7473         1H  IN A    10.65.6.18
+cloudvirtan1005 1H  IN A    10.65.6.19
+wmf7474         1H  IN A    10.65.6.19
 labweb1001      1H  IN A    10.65.4.121
 wmf7096         1H  IN A    10.65.4.121
 labweb1002      1H  IN A    10.65.4.122
