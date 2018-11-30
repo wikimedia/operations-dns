@@ -3241,6 +3241,12 @@ $ORIGIN 16.192.{{ zonename }}.
 79  1H IN PTR   sessionstore2001.codfw.wmnet.
 80  1H IN PTR   restbase2013.codfw.wmnet.
 81  1H IN PTR   restbase2014.codfw.wmnet.
+82  1H IN PTR   restbase2013-a.codfw.wmnet.
+83  1H IN PTR   restbase2013-b.codfw.wmnet.
+84  1H IN PTR   restbase2013-c.codfw.wmnet.
+85  1H IN PTR   restbase2014-a.codfw.wmnet.
+86  1H IN PTR   restbase2014-b.codfw.wmnet.
+87  1H IN PTR   restbase2014-c.codfw.wmnet.
 
 108 1H IN PTR   mw2135.codfw.wmnet.
 109 1H IN PTR   mw2136.codfw.wmnet.
@@ -3389,10 +3395,10 @@ $ORIGIN 32.192.{{ zonename }}.
 19  1H IN PTR   dbstore2002.codfw.wmnet.
 20  1H IN PTR   scb2006.codfw.wmnet.
 21  1H IN PTR   oresrdb2002.codfw.wmnet.
-
+22  1H IN PTR   restbase2015-a.codfw.wmnet.
 23  1H IN PTR   kubernetes2003.codfw.wmnet.
 24  1H IN PTR   deploy2001.codfw.wmnet.
-
+25  1H IN PTR   restbase2015-b.codfw.wmnet.
 26  1H IN PTR   wtp2011.codfw.wmnet.
 27  1H IN PTR   wtp2012.codfw.wmnet.
 28  1H IN PTR   wtp2013.codfw.wmnet.
@@ -3472,13 +3478,13 @@ $ORIGIN 32.192.{{ zonename }}.
 102 1H IN PTR   mw2214.codfw.wmnet.
 103 1H IN PTR   db2043.codfw.wmnet.
 104 1H IN PTR   db2044.codfw.wmnet.
-
+105 1H IN PTR   restbase2015-c.codfw.wmnet.
 106 1H IN PTR   db2046.codfw.wmnet.
 107 1H IN PTR   db2047.codfw.wmnet.
-
+108 1H IN PTR   restbase2016-a.codfw.wmnet.
 109 1H IN PTR   db2049.codfw.wmnet.
 110 1H IN PTR   db2050.codfw.wmnet.
-
+111 1H IN PTR   restbase2016-b.codfw.wmnet.
 112 1H IN PTR   cp2013.codfw.wmnet.
 113 1H IN PTR   cp2014.codfw.wmnet.
 114 1H IN PTR   cp2015.codfw.wmnet.
@@ -3542,6 +3548,7 @@ $ORIGIN 32.192.{{ zonename }}.
 172 1H IN PTR   db2090.codfw.wmnet.
 173 1H IN PTR   ores2005.codfw.wmnet.
 174 1H IN PTR   ores2006.codfw.wmnet.
+175 1H IN PTR   restbase2016-c.codfw.wmnet.
 
 $ORIGIN 33.192.{{ zonename }}.
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
@@ -3683,6 +3690,12 @@ $ORIGIN 48.192.{{ zonename }}.
 118 1H IN PTR   sessionstore2003.codfw.wmnet.
 119 1H IN PTR   restbase2017.codfw.wmnet.
 120 1H IN PTR   restbase2018.codfw.wmnet.
+121 1H IN PTR   restbase2017-a.codfw.wmnet.
+122 1H IN PTR   restbase2017-b.codfw.wmnet.
+123 1H IN PTR   restbase2017-c.codfw.wmnet.
+124 1H IN PTR   restbase2018-a.codfw.wmnet.
+125 1H IN PTR   restbase2018-b.codfw.wmnet.
+126 1H IN PTR   restbase2018-c.codfw.wmnet.
 
 $ORIGIN 49.192.{{ zonename }}.
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
