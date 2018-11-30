@@ -2819,6 +2819,14 @@ elastic2033     1H  IN A    10.192.32.158
 elastic2034     1H  IN A    10.192.48.73
 elastic2035     1H  IN A    10.192.48.74
 elastic2036     1H  IN A    10.192.48.75
+elastic2037     1H  IN A    10.192.0.107
+elastic2038     1H  IN A    10.192.0.108
+elastic2039     1H  IN A    10.192.0.109
+elastic2040     1H  IN A    10.192.0.110
+elastic2041     1H  IN A    10.192.16.88
+elastic2042     1H  IN A    10.192.16.89
+elastic2043     1H  IN A    10.192.16.90
+elastic2044     1H  IN A    10.192.16.91
 elnath          1H  IN A    10.192.16.182 ; VM on the ganeti01.svc.codfw.wmnet cluster
 es2001          1H  IN A    10.192.0.25
 es2002          1H  IN A    10.192.0.26
@@ -3623,6 +3631,14 @@ elastic2033     1H  IN A    10.193.1.171
 elastic2034     1H  IN A    10.193.1.172
 elastic2035     1H  IN A    10.193.1.173
 elastic2036     1H  IN A    10.193.1.174
+elastic2037     1H  IN A    10.193.1.228
+elastic2038     1H  IN A    10.193.1.229
+elastic2039     1H  IN A    10.193.1.230
+elastic2040     1H  IN A    10.193.1.231
+elastic2041     1H  IN A    10.193.1.232
+elastic2042     1H  IN A    10.193.1.233
+elastic2043     1H  IN A    10.193.1.234
+elastic2044     1H  IN A    10.193.2.2
 es2001          1H  IN A    10.193.1.235
 es2002          1H  IN A    10.193.1.236
 es2003          1H  IN A    10.193.1.237
@@ -4562,6 +4578,14 @@ wmf6675         1H  IN A    10.193.1.224
 wmf6676         1H  IN A    10.193.1.225
 wmf6677         1H  IN A    10.193.1.226
 wmf6678         1H  IN A    10.193.1.227
+wmf6679         1H  IN A    10.193.1.228
+wmf6680         1H  IN A    10.193.1.229
+wmf6681         1H  IN A    10.193.1.230
+wmf6682         1H  IN A    10.193.1.231
+wmf6683         1H  IN A    10.193.1.232
+wmf6684         1H  IN A    10.193.1.233
+wmf6685         1H  IN A    10.193.1.234
+wmf6686         1H  IN A    10.193.2.2
 
 ;
 ; ESAMS

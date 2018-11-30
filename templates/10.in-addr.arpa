@@ -291,7 +291,6 @@ $ORIGIN 0.64.{{ zonename }}.
 51  1H IN PTR   ores1001.eqiad.wmnet.
 52  1H IN PTR   ores1002.eqiad.wmnet.
 53  1H IN PTR   hassium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-
 56  1H IN PTR   mw1261.eqiad.wmnet.
 57  1H IN PTR   mw1262.eqiad.wmnet.
 58  1H IN PTR   mw1263.eqiad.wmnet.
@@ -3111,6 +3110,10 @@ $ORIGIN 0.192.{{ zonename }}.
 104 1H IN PTR   pc2007.codfw.wmnet.
 105 1H IN PTR   ms-be2044.codfw.wmnet.
 106 1H IN PTR   ms-be2045.codfw.wmnet.
+107 1H IN PTR   elastic2037.codfw.wmnet.
+108 1H IN PTR   elastic2038.codfw.wmnet.
+109 1H IN PTR   elastic2039.codfw.wmnet.
+110 1H IN PTR   elastic2040.codfw.wmnet.
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
 120 1H IN PTR   rdb2002.codfw.wmnet.
@@ -3247,6 +3250,10 @@ $ORIGIN 16.192.{{ zonename }}.
 85  1H IN PTR   restbase2014-a.codfw.wmnet.
 86  1H IN PTR   restbase2014-b.codfw.wmnet.
 87  1H IN PTR   restbase2014-c.codfw.wmnet.
+88  1H IN PTR   elastic2041.codfw.wmnet.
+89  1H IN PTR   elastic2042.codfw.wmnet.
+90  1H IN PTR   elastic2043.codfw.wmnet.
+91  1H IN PTR   elastic2044.codfw.wmnet.
 
 108 1H IN PTR   mw2135.codfw.wmnet.
 109 1H IN PTR   mw2136.codfw.wmnet.
@@ -4233,9 +4240,20 @@ $ORIGIN 1.193.{{ zonename }}.
 226 1H IN PTR  wmf6677.mgmt.codfw.wmnet.
 227 1H IN PTR  restbase2018.mgmt.codfw.wmnet.
 227 1H IN PTR  wmf6678.mgmt.codfw.wmnet.
-
-
-
+228 1H IN PTR  elastic2037.mgmt.codfw.wmnet.
+228 1H IN PTR  wmf6679.mgmt.codfw.wmnet.
+229 1H IN PTR  elastic2038.mgmt.codfw.wmnet.
+229 1H IN PTR  wmf6680.mgmt.codfw.wmnet.
+230 1H IN PTR  elastic2039.mgmt.codfw.wmnet.
+230 1H IN PTR  wmf6681.mgmt.codfw.wmnet.
+231 1H IN PTR  elastic2040.mgmt.codfw.wmnet.
+231 1H IN PTR  wmf6682.mgmt.codfw.wmnet.
+232 1H IN PTR  elastic2041.mgmt.codfw.wmnet.
+232 1H IN PTR  wmf6683.mgmt.codfw.wmnet.
+233 1H IN PTR  elastic2042.mgmt.codfw.wmnet.
+233 1H IN PTR  wmf6684.mgmt.codfw.wmnet.
+234 1H IN PTR  elastic2043.mgmt.codfw.wmnet.
+234 1H IN PTR  wmf6685.mgmt.codfw.wmnet.
 235 1H IN PTR  es2001.mgmt.codfw.wmnet.
 235 1H IN PTR  wmf3612.mgmt.codfw.wmnet.
 236 1H IN PTR  es2002.mgmt.codfw.wmnet.
@@ -4283,7 +4301,8 @@ $ORIGIN 2.193.{{ zonename }}.
 
 1   1H IN PTR  labtestcontrol2001.mgmt.codfw.wmnet.
 1   1H IN PTR  wmf5834.mgmt.codfw.wmnet.
-
+2   1H IN PTR  elastic2044.mgmt.codfw.wmnet.
+2   1H IN PTR  wmf6686.mgmt.codfw.wmnet.
 3   1H IN PTR  maps-test2001.mgmt.codfw.wmnet.
 3   1H IN PTR  wmf3722.mgmt.codfw.wmnet.
 4   1H IN PTR  maps-test2002.mgmt.codfw.wmnet.
