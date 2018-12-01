@@ -967,7 +967,7 @@ labvirt1010     1H  IN A        10.64.20.26
 labvirt1011     1H  IN A        10.64.20.27
 labvirt1012     1H  IN A        10.64.20.28
 labvirt1013     1H  IN A        10.64.20.29
-labvirt1014     1H  IN A        10.64.20.30
+cloudvirt1014   1H  IN A        10.64.20.30
 cloudvirt1015   1H  IN A        10.64.20.31
 cloudvirt1016   1H  IN A        10.64.20.32
 cloudvirt1017   1H  IN A        10.64.20.33
@@ -1224,6 +1224,7 @@ wmf6976         1H  IN A    10.65.4.62
 labvirt1013     1H  IN A    10.65.4.63
 wmf6977         1H  IN A    10.65.4.63
 labvirt1014     1H  IN A    10.65.4.64
+cloudvirt1014   1H  IN A    10.65.4.64
 wmf6978         1H  IN A    10.65.4.64
 cloudvirt1015   1H  IN A    10.65.5.66
 wmf7085         1H  IN A    10.65.5.66
