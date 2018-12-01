@@ -2207,7 +2207,6 @@ $ORIGIN 4.65.{{ zonename }}.
 62  1H  IN PTR      wmf6976.mgmt.eqiad.wmnet.
 63  1H  IN PTR      labvirt1013.mgmt.eqiad.wmnet.
 63  1H  IN PTR      wmf6977.mgmt.eqiad.wmnet.
-64  1H  IN PTR      labvirt1014.mgmt.eqiad.wmnet.
 64  1H  IN PTR      cloudvirt1014.mgmt.eqiad.wmnet.
 64  1H  IN PTR      wmf6978.mgmt.eqiad.wmnet.
 65  1H  IN PTR      ms-be1022.mgmt.eqiad.wmnet.
