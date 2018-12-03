@@ -365,6 +365,11 @@ $ORIGIN 8.1.1.0.{{ zonename }}.
 9.3.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirt1020.eqiad.wmnet.
 0.4.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirt1021.eqiad.wmnet.
 1.4.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirt1022.eqiad.wmnet.
+4.4.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirtan1001.eqiad.wmnet.
+5.4.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirtan1002.eqiad.wmnet.
+6.4.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirtan1003.eqiad.wmnet.
+7.4.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirtan1004.eqiad.wmnet.
+8.4.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirtan1005.eqiad.wmnet.
 
 ; labs-support1-c-eqiad (2620:0:861:119::/64)
 $ORIGIN 9.1.1.0.{{ zonename }}.
