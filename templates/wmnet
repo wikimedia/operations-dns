@@ -3145,9 +3145,6 @@ oresrdb2001     1H  IN A    10.192.16.31 ; VM on the ganeti01.svc.codfw.wmnet cl
 oresrdb2002     1H  IN A    10.192.32.21
 planet2001      1H  IN A    10.192.0.92
 planet2001      1H  IN AAAA 2620:0:860:101:10:192:0:92
-pc2004          1H  IN A    10.192.16.170
-pc2005          1H  IN A    10.192.32.128
-pc2006          1H  IN A    10.192.48.39
 pc2007          1H  IN A    10.192.0.104
 pc2008          1H  IN A    10.192.16.35
 pc2009          1H  IN A    10.192.32.10

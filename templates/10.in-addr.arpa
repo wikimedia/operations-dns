@@ -3112,7 +3112,7 @@ $ORIGIN 0.192.{{ zonename }}.
 101 1H IN PTR   db2094.codfw.wmnet.
 102 1H IN PTR   graphite2003.codfw.wmnet.
 103 1H IN PTR   certcentral2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
-104 1H IN PTR   pc2007.codfw.wmnet.
+
 105 1H IN PTR   ms-be2044.codfw.wmnet.
 106 1H IN PTR   ms-be2045.codfw.wmnet.
 107 1H IN PTR   elastic2037.codfw.wmnet.
@@ -3513,7 +3513,7 @@ $ORIGIN 32.192.{{ zonename }}.
 125 1H IN PTR   restbase2004.codfw.wmnet.
 126 1H IN PTR   ms-be2020.codfw.wmnet.
 127 1H IN PTR   ms-be2021.codfw.wmnet.
-128 1H IN PTR   pc2005.codfw.wmnet.
+
 129 1H IN PTR   es2012.codfw.wmnet.
 130 1H IN PTR   es2015.codfw.wmnet.
 131 1H IN PTR   mwlog2001.codfw.wmnet.
@@ -3620,7 +3620,7 @@ $ORIGIN 48.192.{{ zonename }}.
 36  1H IN PTR   elastic2024.codfw.wmnet.
 37  1H IN PTR   restbase2005.codfw.wmnet.
 38  1H IN PTR   restbase2006.codfw.wmnet.
-39  1H IN PTR   pc2006.codfw.wmnet.
+
 40  1H IN PTR   es2013.codfw.wmnet.
 41  1H IN PTR   es2016.codfw.wmnet.
 42  1H IN PTR   es2019.codfw.wmnet.
