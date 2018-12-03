@@ -2838,6 +2838,16 @@ elastic2041     1H  IN A    10.192.16.88
 elastic2042     1H  IN A    10.192.16.89
 elastic2043     1H  IN A    10.192.16.90
 elastic2044     1H  IN A    10.192.16.91
+elastic2045     1H  IN A    10.192.32.128
+elastic2046     1H  IN A    10.192.32.176
+elastic2047     1H  IN A    10.192.32.177
+elastic2048     1H  IN A    10.192.32.178
+elastic2049     1H  IN A    10.192.32.179
+elastic2050     1H  IN A    10.192.48.39
+elastic2051     1H  IN A    10.192.48.127
+elastic2052     1H  IN A    10.192.48.128
+elastic2053     1H  IN A    10.192.48.129
+elastic2054     1H  IN A    10.192.48.130
 elnath          1H  IN A    10.192.16.182 ; VM on the ganeti01.svc.codfw.wmnet cluster
 es2001          1H  IN A    10.192.0.25
 es2002          1H  IN A    10.192.0.26
@@ -3647,11 +3657,20 @@ elastic2041     1H  IN A    10.193.1.232
 elastic2042     1H  IN A    10.193.1.233
 elastic2043     1H  IN A    10.193.1.234
 elastic2044     1H  IN A    10.193.2.2
+elastic2045     1H  IN A    10.193.2.118
+elastic2046     1H  IN A    10.193.2.152
+elastic2047     1H  IN A    10.193.2.222
+elastic2048     1H  IN A    10.193.2.223
+elastic2049     1H  IN A    10.193.3.55
+elastic2050     1H  IN A    10.193.3.56
+elastic2051     1H  IN A    10.193.3.57
+elastic2052     1H  IN A    10.193.3.58
+elastic2053     1H  IN A    10.193.3.59
+elastic2054     1H  IN A    10.193.3.60
 es2001          1H  IN A    10.193.1.235
 es2002          1H  IN A    10.193.1.236
 es2003          1H  IN A    10.193.1.237
 es2004          1H  IN A    10.193.1.238
-
 es2011          1H  IN A    10.193.2.235
 es2012          1H  IN A    10.193.2.236
 es2013          1H  IN A    10.193.2.237
@@ -4594,6 +4613,16 @@ wmf6683         1H  IN A    10.193.1.232
 wmf6684         1H  IN A    10.193.1.233
 wmf6685         1H  IN A    10.193.1.234
 wmf6686         1H  IN A    10.193.2.2
+wmf6687         1H  IN A    10.193.2.118
+wmf6688         1H  IN A    10.193.2.152
+wmf6689         1H  IN A    10.193.2.222
+wmf6690         1H  IN A    10.193.2.223
+wmf6691         1H  IN A    10.193.3.55
+wmf6692         1H  IN A    10.193.3.56
+wmf6693         1H  IN A    10.193.3.57
+wmf6694         1H  IN A    10.193.3.58
+wmf6695         1H  IN A    10.193.3.59
+wmf6696         1H  IN A    10.193.3.60
 
 ;
 ; ESAMS
