@@ -514,6 +514,7 @@ ganeti1005      1H  IN A        10.64.0.245
 ganeti1006      1H  IN A        10.64.0.246
 ganeti1007      1H  IN A        10.64.0.248
 ganeti1008      1H  IN A        10.64.0.249
+grafana1001     1H  IN A        10.64.32.183 ; VM on the ganeti01.svc.eqiad.wmnet cluster
 hassium         1H  IN A        10.64.0.53
 helium          1H  IN A        10.64.0.179
 kafka1001           1H  IN A         10.64.0.11
