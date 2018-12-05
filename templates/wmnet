@@ -608,6 +608,9 @@ labvirt1003     1H  IN A        10.64.20.21
 labvirt1004     1H  IN A        10.64.20.22
 labvirt1005     1H  IN A        10.64.20.23
 labvirt1006     1H  IN A        10.64.20.24
+logstash2004    1H  IN A        10.192.0.111 ; VM on ganeti01.svc.codfw.wmnet
+logstash2005    1H  IN A        10.192.16.92 ; VM on ganeti01.svc.codfw.wmnet
+logstash2006    1H  IN A        10.192.16.93 ; VM on ganeti01.svc.codfw.wmnet
 lvs1007         1H  IN A        10.64.1.7
 lvs1008         1H  IN A        10.64.1.8
 lvs1009         1H  IN A        10.64.1.9
