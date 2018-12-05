@@ -2908,6 +2908,9 @@ labtestnet2003          1H  IN A    10.192.20.12
 labtestvirt2001         1H  IN A    10.192.20.6
 labtestvirt2002         1H  IN A    10.192.20.7
 labtestvirt2003         1H  IN A    10.192.20.8
+logstash2004    1H  IN A    10.192.0.111 ; VM on ganeti01.svc.codfw.wmnet
+logstash2005    1H  IN A    10.192.16.92 ; VM on ganeti01.svc.codfw.wmnet
+logstash2006    1H  IN A    10.192.16.93 ; VM on ganeti01.svc.codfw.wmnet
 lvs2001         1H  IN A    10.192.1.1
 lvs2002         1H  IN A    10.192.1.2
 lvs2003         1H  IN A    10.192.1.3
