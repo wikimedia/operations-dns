@@ -3144,12 +3144,6 @@ $ORIGIN 0.192.{{ zonename }}.
 126 1H IN PTR   cp2005.codfw.wmnet.
 127 1H IN PTR   cp2006.codfw.wmnet.
 
-130 1H IN PTR   elastic2001.codfw.wmnet.
-131 1H IN PTR   elastic2002.codfw.wmnet.
-132 1H IN PTR   elastic2003.codfw.wmnet.
-133 1H IN PTR   elastic2004.codfw.wmnet.
-134 1H IN PTR   elastic2005.codfw.wmnet.
-135 1H IN PTR   elastic2006.codfw.wmnet.
 136 1H IN PTR   ms-be2016.codfw.wmnet.
 137 1H IN PTR   ms-be2017.codfw.wmnet.
 138 1H IN PTR   auth2001.codfw.wmnet.
@@ -3310,12 +3304,7 @@ $ORIGIN 16.192.{{ zonename }}.
 140 1H IN PTR   pybal-test2002.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 141 1H IN PTR   pybal-test2003.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
 142 1H IN PTR   pybal-testsvc.codfw.wmnet.  ; service IP
-143 1H IN PTR   elastic2007.codfw.wmnet.
-144 1H IN PTR   elastic2008.codfw.wmnet.
-145 1H IN PTR   elastic2009.codfw.wmnet.
-146 1H IN PTR   elastic2010.codfw.wmnet.
-147 1H IN PTR   elastic2011.codfw.wmnet.
-148 1H IN PTR   elastic2012.codfw.wmnet.
+
 152 1H IN PTR   restbase2001.codfw.wmnet.
 153 1H IN PTR   restbase2002.codfw.wmnet.
 160 1H IN PTR   ms-be2018.codfw.wmnet.
@@ -3511,12 +3500,7 @@ $ORIGIN 32.192.{{ zonename }}.
 115 1H IN PTR   cp2016.codfw.wmnet.
 116 1H IN PTR   cp2017.codfw.wmnet.
 117 1H IN PTR   cp2018.codfw.wmnet.
-118 1H IN PTR   elastic2013.codfw.wmnet.
-119 1H IN PTR   elastic2014.codfw.wmnet.
-120 1H IN PTR   elastic2015.codfw.wmnet.
-121 1H IN PTR   elastic2016.codfw.wmnet.
-122 1H IN PTR   elastic2017.codfw.wmnet.
-123 1H IN PTR   elastic2018.codfw.wmnet.
+
 124 1H IN PTR   restbase2003.codfw.wmnet.
 125 1H IN PTR   restbase2004.codfw.wmnet.
 126 1H IN PTR   ms-be2020.codfw.wmnet.
@@ -3625,12 +3609,7 @@ $ORIGIN 48.192.{{ zonename }}.
 28  1H IN PTR   cp2024.codfw.wmnet.
 29  1H IN PTR   cp2025.codfw.wmnet.
 30  1H IN PTR   cp2026.codfw.wmnet.
-31  1H IN PTR   elastic2019.codfw.wmnet.
-32  1H IN PTR   elastic2020.codfw.wmnet.
-33  1H IN PTR   elastic2021.codfw.wmnet.
-34  1H IN PTR   elastic2022.codfw.wmnet.
-35  1H IN PTR   elastic2023.codfw.wmnet.
-36  1H IN PTR   elastic2024.codfw.wmnet.
+
 37  1H IN PTR   restbase2005.codfw.wmnet.
 38  1H IN PTR   restbase2006.codfw.wmnet.
 39  1H IN PTR   elastic2050.codfw.wmnet.
