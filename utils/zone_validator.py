@@ -314,8 +314,11 @@ class ZonesValidator(object):
     def _validate_names(self, value, records, label):
         """Validate record names for all the given IP/PTR, only one record expected."""
         if len(records) != 1:
-            self.err("Found %d name(s) for %s '%s', expected 1: %s",
-                     len(records), label, value, records)
+            level = logging.WARNING
+            if any(ipaddress.ip_address(record.get_ip()).is_private for record in records):
+                level = logging.ERROR
+            self._log(level, "Found %d name(s) for %s '%s', expected 1: %s",
+                      len(records), label, value, records)
 
     def _validate_origin_ips(self, origin, is_mgmt):
         """Validate PTRs for all the IPs in the given origin."""
