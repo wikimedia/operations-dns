@@ -1230,7 +1230,6 @@ labvirt1003     1H  IN A    10.65.3.232
 labvirt1004     1H  IN A    10.65.3.233
 labvirt1005     1H  IN A    10.65.3.234
 labvirt1006     1H  IN A    10.65.3.235
-wmf3447         1H  IN A    10.65.3.71
 labvirt1009     1H  IN A    10.65.3.227
 labvirt1007     1H  IN A    10.65.3.228
 labvirt1008     1H  IN A    10.65.3.229
@@ -1860,7 +1859,6 @@ ms-fe1007   1H  IN A    10.65.5.34
 wmf7008     1H  IN A    10.65.5.34
 ms-fe1008   1H  IN A    10.65.5.35
 wmf7009     1H  IN A    10.65.5.35
-wmf3248     1H  IN A    10.65.5.4
 mw1261      1H  IN A    10.65.1.26
 wmf6900     1H  IN A    10.65.1.26
 mw1262      1H  IN A    10.65.1.27
@@ -3514,7 +3512,6 @@ backup2001      1H  IN A    10.193.1.80
 baham           1H  IN A    10.193.1.32
 bast2001        1H  IN A    10.193.1.11
 bast2002        1H  IN A    10.193.1.207
-capella         1H  IN A    10.193.2.2
 conf2001        1H  IN A    10.193.3.2
 conf2002        1H  IN A    10.193.3.3
 conf2003        1H  IN A    10.193.3.4
