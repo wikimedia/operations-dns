@@ -3125,7 +3125,7 @@ $ORIGIN 0.192.{{ zonename }}.
 101 1H IN PTR   db2094.codfw.wmnet.
 102 1H IN PTR   graphite2003.codfw.wmnet.
 103 1H IN PTR   certcentral2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
-
+104 1H IN PTR   pc2007.codfw.wmnet.
 105 1H IN PTR   ms-be2044.codfw.wmnet.
 106 1H IN PTR   ms-be2045.codfw.wmnet.
 107 1H IN PTR   elastic2037.codfw.wmnet.
