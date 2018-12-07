@@ -2895,22 +2895,6 @@ $ORIGIN 129.128.{{ zonename }}.
 16  1H  IN PTR      WMF7216.mgmt.ulsfo.wmnet.
 
 
-105 1H  IN PTR      cp4005.mgmt.ulsfo.wmnet.
-106 1H  IN PTR      cp4006.mgmt.ulsfo.wmnet.
-107 1H  IN PTR      cp4007.mgmt.ulsfo.wmnet.
-108 1H  IN PTR      cp4008.mgmt.ulsfo.wmnet.
-109 1H  IN PTR      cp4009.mgmt.ulsfo.wmnet.
-110 1H  IN PTR      cp4010.mgmt.ulsfo.wmnet.
-111 1H  IN PTR      cp4011.mgmt.ulsfo.wmnet.
-112 1H  IN PTR      cp4012.mgmt.ulsfo.wmnet.
-113 1H  IN PTR      cp4013.mgmt.ulsfo.wmnet.
-114 1H  IN PTR      cp4014.mgmt.ulsfo.wmnet.
-115 1H  IN PTR      cp4015.mgmt.ulsfo.wmnet.
-116 1H  IN PTR      cp4016.mgmt.ulsfo.wmnet.
-117 1H  IN PTR      cp4017.mgmt.ulsfo.wmnet.
-118 1H  IN PTR      cp4018.mgmt.ulsfo.wmnet.
-119 1H  IN PTR      cp4019.mgmt.ulsfo.wmnet.
-120 1H  IN PTR      cp4020.mgmt.ulsfo.wmnet.
 121 1H  IN PTR      cp4021.mgmt.ulsfo.wmnet.
 121 1H  IN PTR      WMF5803.mgmt.ulsfo.wmnet.
 122 1H  IN PTR      cp4022.mgmt.ulsfo.wmnet.
