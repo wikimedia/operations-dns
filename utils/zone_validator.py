@@ -1,8 +1,75 @@
 #!/usr/bin/python3
 """Zone Validator: a WMF-specific DNS zone files consistency check validator
 
-Automatically parse and validate the internal 'wmnet' zonefile and all the reverse zonefiles in
-the templates directory.
+The script parses the following zones in the templates/ directory:
+- wmnet
+- wikimedia.org
+- *.in-addr.arpa
+- *.ip6.arpa
+
+Violations will be reported to stdout, logging to stderr.
+
+Parsing will fail in any of the following cases:
+- all $ORIGINs must be fully qualified, relative ORIGINs are not supported.
+- all A/AAAA/PTR records must be relative to their $ORIGIN, fully qualified
+  records are not supported.
+- unable to reverse a PTR record.
+
+While parsing the following records are skipped:
+- all records that are not A, AAAA or PTR.
+- any $ORIGINs starting with 'svc.' is skipped completely.
+- any PTR that has '.svc.' in the name.
+
+In addition any line with a comment of the form:
+    wmf-zone-validator-ignore=$NAME_OF_VIOLATION
+will be ignored for that particular violation. The comment can contain
+multiple ignore blocks.
+
+It then performs the following global validations:
+- check of any duplicate record across all parsed records
+  [Error.GLOBAL_DUPLICATE]
+
+It then iterate over all ORIGINs, detecting (best effort) if it's a management
+one or not (reported as is_mgmt=True/False in debug mode) and performs the
+following ORIGIN-specific validations:
+- Any ORIGIN
+  - expect a correct PTR exists for each direct record
+    - other PTRs found, maybe a typo
+      [Error.MISSING_OR_WRONG_IP_FOR_NAME_AND_PTR]
+    - no PTR found [Warning.MISSING_PTR_FOR_NAME_AND_IP]
+  - expect a correct IP exists for each PTR record
+    - other IPs found, possibly a typo
+      [Error.MISSING_OR_WRONG_PTR_FOR_NAME_AND_IP]
+    - no IP found [Warning.MISSING_IP_FOR_NAME_AND_PTR]
+
+- Management ORIGIN
+  - ignore any 5th level mgmt record (i.e. $vlan_eth.$hostname.mgmt.$dc.wmnet)
+  - expect 2 A and 2 PTR records for {$hostname,$asset_tag}.mgmt.$dc.wmnet
+    - more than 2 found [Error.TOO_MANY_MGMT_NAMES]
+    - 1 found [Warning.TOO_FEW_MGMT_NAMES]
+      - ignore if record start with one of the NO_ASSET_TAG_PREFIXES
+    - 2 found
+      - no asset tag is found [Warning.MISSING_ASSET_TAG]
+      - multiple asset tags found [Warning.MULTIPLE_ASSET_TAGS]
+  - expect 1 IP for each record name [Error.MULTIPLE_IPS_FOR_NAME]
+
+- Regular ORIGIN
+  - expect 1 IP only for each name
+    - any IP is private [Error.TOO_MANY_NAMES]
+    - all IP are public [Warning.TOO_MANY_PUBLIC_NAMES]
+  - expect a management record [Warning.MISSING_MGMT_FOR_NAME]
+    - unless is IPv6 (management network is v4)
+    - unless is a 4th level name (i.e. foo.$host.$dc.wmnet)
+    - unless is a Ganeti VMs (detected via the comment)
+      - expect all Ganeti records have the comment
+        [Warning.MISSING_GANETI_COMMENT]
+  - expect 1 record per name unless dual stack [Error.MULTIPLE_IPS_FOR_NAME]
+    - if 2 records, expect dual stack (v4 + v6)
+      [Warning.MISSING_DUAL_STACK_FOR_NAME]
+
+TODO:
+- add support for frack management records (are currently skipped being a 5th
+  level mgmt name: $host.mgmt.frack.eqiad.wmnet)
 """
 import argparse
 import glob
@@ -13,6 +80,7 @@ import re
 import sys
 
 from collections import Counter, defaultdict
+from enum import Enum, unique
 
 
 # Main logger, streams to stderr
@@ -26,6 +94,329 @@ IPV4_REVERSE_DOMAIN = 'in-addr.arpa.'
 IPV6_REVERSE_DOMAIN = 'ip6.arpa.'
 
 
+class ViolationBase(Enum):
+    """Base Enum class for all Validations."""
+
+    @property
+    def level(self):
+        """The logging level of this type of validations.
+
+        Returns:
+            int: one of the logging module log level.
+        """
+        raise NotImplementedError('Property level not defined in class {name}'.format(name=self.__class__.__name__))
+
+    @property
+    def color(self):
+        """The color to use to highlight this type of validations.
+
+        Returns:
+            str: the color code escape sequence for this type of validations.
+        """
+        raise NotImplementedError('Property color not defined in class {name}'.format(name=self.__class__.__name__))
+
+    def __str__(self):
+        """String representation of the instance, color coded.
+
+        Arguments and return value:
+            According to https://docs.python.org/3/reference/datamodel.html
+        """
+        return '{o.color}{o.value}|{o.name}\x1b[0m:'.format(o=self)
+
+    def __lt__(self, other):
+        """Less than comparator for the instance.
+
+        Arguments and return value:
+            According to https://docs.python.org/3/reference/datamodel.html
+        """
+        return self.value + self.name < other.value + other.name
+
+    def ignore(self, comment):
+        """Check if the comment include the ignore for this violation.
+
+        Arguments:
+            comment (str): the comment line to check for the ignore string.
+
+        Returns:
+            bool: whether the violation should be ignored or not.
+        """
+        return 'wmf-zone-validator-ignore=' + self.name in comment
+
+
+@unique
+class Error(ViolationBase):
+    """Error validations."""
+
+    # Codes in the E001-E100 range are generic DNS errors
+    GLOBAL_DUPLICATE = 'E001'
+    MISSING_OR_WRONG_IP_FOR_NAME_AND_PTR = 'E002'
+    MISSING_OR_WRONG_PTR_FOR_NAME_AND_IP = 'E003'
+    # Codes in the E101-E999 range are WMF-specific errors
+    MULTIPLE_IPS_FOR_NAME = 'E101'
+    TOO_MANY_MGMT_NAMES = 'E102'
+    TOO_MANY_NAMES = 'E103'
+
+    @property
+    def level(self):
+        """Return logging Error level."""
+        return logging.ERROR
+
+    @property
+    def color(self):
+        """Return the red color escape sequence."""
+        return '\x1b[31;1m'
+
+
+@unique
+class Warning(ViolationBase):
+    """Warning validations."""
+
+    # Codes in the W001-W100 range are generic DNS warnings
+    MISSING_IP_FOR_NAME_AND_PTR = 'W001'
+    MISSING_PTR_FOR_NAME_AND_IP = 'W002'
+    # Codes in the W101-W999 range are WMF-specific warnings
+    MISSING_ASSET_TAG = 'W101'
+    MULTIPLE_ASSET_TAGS = 'W102'
+    MISSING_DUAL_STACK_FOR_NAME = 'W103'
+    MISSING_MGMT_FOR_NAME = 'W104'
+    MISSING_GANETI_COMMENT = 'W105'
+    TOO_FEW_MGMT_NAMES = 'W106'
+    TOO_MANY_PUBLIC_NAMES = 'W107'
+
+    @property
+    def level(self):
+        """Return logging Warning level."""
+        return logging.WARNING
+
+    @property
+    def color(self):
+        """Return the yellow color escape sequence."""
+        return '\x1b[33;1m'
+
+
+class ViolationFactory:
+    """Violation factory class to instantiate ViolationBase subclasses."""
+
+    @staticmethod
+    def new(method_name):
+        """Instantiate the appropriate ViolationBase subclass based on the method name.
+
+        Arguments:
+            func_name (str): the name of the method called in ViolationsReporter.
+
+        Returns:
+            ViolationBase: an instance of a ViolationBase subclass.
+
+        Raises:
+            AttributeError: if the violation doesn't exists in the chosen subclass.
+            ValueError: if unable to recognize the violation subclass from the method name.
+
+        """
+        name = method_name.upper()
+        if name.startswith('E_'):
+            return getattr(Error, name[2:])
+        elif name.startswith('W_'):
+            return getattr(Warning, name[2:])
+        else:
+            raise ValueError('Unrecognized validation name {name}'.format(name=name))
+
+    @staticmethod
+    def find(name):
+        """Find and instantiate the appropriate ViolationBase subclass based on the violation name.
+
+        Arguments:
+            name (str): the violation name to look for.
+
+        Returns:
+            ViolationBase: an instance of a ViolationBase subclass.
+
+        Raises:
+            ValueError: if unable to find the violation in any of the ViolationBase subclasses.
+
+        """
+        for cls in (Error, Warning):
+            try:
+                return getattr(cls, name)
+            except AttributeError:
+                pass  # Continue searching
+
+        raise ValueError('Unable to find violation {name} in any of the ViolationBase subclasses'.format(name=name))
+
+
+class ViolationsReporter:
+    """Reporter of violations class."""
+
+    def __init__(self, level, ignores=None, shows=None):
+        """Initialize the instance.
+
+        Arguments:
+            level (int): the error level to report, any violation with a level lower than the one provided will not be
+                printed. The value must be one of the log level from the logging module.
+            ignores (list, optional): the list of ViolationBase instances to ignore.
+            shows (list, optional): the list of ViolationBase instances names to show. If set overrides the ignores one.
+        """
+        self.level = level
+        self.logger = logging.getLogger('zone-validator.reporter')
+        self._setup_logger()
+        self.max_infraction = logging.NOTSET
+        self.counters = Counter()
+        self.ignores = ignores or []
+        self.shows = shows or []
+        self.ignored_violations = 0
+        self.ignored_lines = 0
+
+    def log_results(self):
+        """Log the final results."""
+        if self.shows:
+            logger.info('Only the following violations (if any) were shown: %s', ', '.join(v.name for v in self.shows))
+        elif self.ignores:
+            logger.info('The following violations (if any) were ignored: %s', ', '.join(v.name for v in self.ignores))
+
+        if sum(self.counters.values()) == 0:
+            logger.info('All records are valid!')
+            return
+
+        violations = Counter()
+        violations_found = []
+        for violation, count in sorted(self.counters.items()):
+            violations_found.append('{violation} {count}'.format(violation=violation, count=count))
+            violations[violation.level] += count
+
+        logger.info('Summary of violations:\n    %s', '\n    '.join(violations_found))
+
+        logger.info(('RESULT: \x1b[31;1m%d Errors\x1b[0m, \x1b[33;1m%d Warnings\x1b[0m, %d Ignored violations, '
+                     '%d Ignored lines'), violations[logging.ERROR], violations[logging.WARNING],
+                    self.ignored_violations, self.ignored_lines)
+
+    def _err(self, records, message, *args):
+        """Log a violation of type error.
+
+        Arguments:
+            records (list): list of DNSRecord instances to which the violation refers to.
+            message (str): the message string to log, it will be passed to the logger, hence % replacements are
+                available.
+            *args (list): list of positional arguments. They will be passed to the logger for the % replacements.
+        """
+        self._log(logging.ERROR, records, message, *args)
+
+    def _warn(self, records, message, *args):
+        """Log a violation of type warning.
+
+        Arguments:
+            records (list): list of DNSRecord instances to which the violation refers to.
+            message (str): the message string to log, it will be passed to the logger, hence % replacements are
+                available.
+            *args (list): list of positional arguments. They will be passed to the logger for the % replacements.
+        """
+        self._log(logging.WARNING, records, message, *args)
+
+    def _log(self, level, records, message, *args):
+        """Log a violation unless in the ignore list and update statistics.
+
+        Arguments:
+            level (int): the logging level to use for this message.
+            records (list): list of DNSRecord instances to which the violation refers to.
+            message (str): the message string to log, it will be passed to the logger, hence % replacements are
+                available.
+            *args (list): list of positional arguments. They will be passed to the logger for the % replacements.
+        """
+        violation = ViolationFactory.new(sys._getframe(2).f_code.co_name)
+        if (self.shows and violation not in self.shows) or violation in self.ignores:
+            self.ignored_violations += 1
+            return
+
+        if all(violation.ignore(record.comment) for record in records):
+            for record in records:
+                self.ignored_lines += 1
+                logger.warning('Ignoring violation %s in %s:%d', violation.name, record.file, record.line)
+            return
+
+        self.counters[violation] += 1
+        if self.max_infraction < level:
+            self.max_infraction = level
+
+        if len(records) > 1:
+            source_files = ''
+            source = '%s'
+        else:
+            source_files = ' '.join('{file}:{line}'.format(file=record.file, line=record.line) for record in records)
+            source = ' (defined in %s)'
+        self.logger.log(level, '%s ' + message + source, violation, *args, source_files)
+
+    def _setup_logger(self):
+        """Setup the violations logger, streams to stdout."""
+        self.logger.propagate = False
+        self.logger.raiseExceptions = False
+
+        formatter = logging.Formatter(fmt='%(message)s')
+        handler = logging.StreamHandler(stream=sys.stdout)
+        handler.setFormatter(formatter)
+        handler.setLevel(self.level)
+        self.logger.addHandler(handler)
+
+    # ERRORS
+
+    def e_global_duplicate(self, records):
+        self._err(records, 'Global duplicate records found: %s', records)
+
+    def e_missing_or_wrong_ip_for_name_and_ptr(self, record, ips):
+        ip = record.get_ip()
+        self._err([record], "Missing IPv%d '%s' for name '%s' and PTR '%s'. Current IPs are: %s",
+                  ip.version, ip, record.value, record.name, ips)
+
+    def e_missing_or_wrong_ptr_for_name_and_ip(self, ptr, name, ip, ptrs, records):
+        self._err(records, "Missing PTR '%s' for name '%s' and IP '%s', PTRs are: %s",
+                  ptr, name, ip, ptrs)
+
+    def e_multiple_ips_for_name(self, name, records):
+        self._err(records, "Found %d IPs for name '%s', expected 1: %s",
+                  len(records), name, records)
+
+    def e_too_many_mgmt_names(self, label, value, records):
+        self._err(records, "Found %d name(s) for %s '%s', expected 2 (hostname, wmfNNNN): %s",
+                  len(records), label, value, records)
+
+    def e_too_many_names(self, label, value, records):
+        self._err(records, "Found %d name(s) for %s '%s', expected 1: %s",
+                  len(records), label, value, records)
+
+    # WARNINGS
+
+    def w_missing_ip_for_name_and_ptr(self, record):
+        ip = record.get_ip()
+        self._warn([record], "Missing IPv%d '%s' for name '%s' and PTR '%s'. No current IP set.",
+                   ip.version, ip, record.value, record.name)
+
+    def w_missing_ptr_for_name_and_ip(self, ptr, name, ip, ptrs, records):
+        self._warn(records, "Missing PTR '%s' for name '%s' and IP '%s', PTRs are: %s",
+                   ptr, name, ip, ptrs)
+
+    def w_missing_asset_tag(self, label, value, records):
+        names = ' '.join(record.get_name() for record in records)
+        self._warn(records, "Missing asset tag for %s '%s' and name(s) '%s'", label, value, names)
+
+    def w_multiple_asset_tags(self, label, value, records):
+        self._warn(records, "Multiple asset tags found for %s '%s': %s", label, value, records)
+
+    def w_missing_dual_stack_for_name(self, name, records):
+        self._warn(records, "Found %d IP(s) for name '%s' but expected dual stack (IPv4 + IPv6): %s",
+                   len(records), name, records)
+
+    def w_missing_mgmt_for_name(self, name, records):
+        self._warn(records, "Missing mgmt record for name '%s' and record(s): %s", name, records)
+
+    def w_missing_ganeti_comment(self, name, records):
+        self._warn(records, "Missing ganeti comment for name '%s' in record(s): %s", name, records)
+
+    def w_too_few_mgmt_names(self, label, value, records):
+        self._warn(records, "Found %d name(s) for %s '%s', expected 2 (hostname, wmfNNNN): %s",
+                   len(records), label, value, records)
+
+    def w_too_many_public_names(self, label, value, records):
+        self._warn(records, "Found %d name(s) for %s '%s', expected 1: %s",
+                   len(records), label, value, records)
+
+
 class PrintList(list):
     """Custom list class to pretty print the results, one per line, indented."""
 
@@ -37,7 +428,7 @@ class PrintList(list):
             return '[]'
 
 
-class DNSRecord(object):
+class DNSRecord:
     """A DNS Record object, immutable."""
     # Specify the fields that can be set, also optimizing them.
     __slots__ = ['name', 'type', 'value', 'file', 'line', 'comment']
@@ -62,8 +453,7 @@ class DNSRecord(object):
 
     def __repr__(self):
         """Representation of the object."""
-        return '<DNSRecord {o.name} {o.type} {o.value} ({o.file}:{o.line}) {o.comment}>'.format(
-            o=self)
+        return '<DNSRecord {o.name} {o.type} {o.value} ({o.file}:{o.line}) {o.comment}>'.format(o=self)
 
     def __str__(self):
         """String representation of the object."""
@@ -92,7 +482,7 @@ class DNSRecord(object):
     def get_ip(self):
         """Return the record's IP, raise ValueError if unable."""
         if self.type in ('A', 'AAAA'):
-            return self.value
+            return ipaddress.ip_address(self.value)
 
         elif self.type == 'PTR':  # Reverse the PTR back to IP
             reverse = self.name.split('.')[:-3][::-1]
@@ -103,16 +493,15 @@ class DNSRecord(object):
             else:
                 raise ValueError('Unknown PTR type: {addr}'.format(addr=self.name))
 
-            return str(ipaddress.ip_address(addr))
+            return ipaddress.ip_address(addr)
 
 
-class ZonesValidator(object):
+class ZonesValidator:
     """Zones Validator main class."""
 
-    def __init__(self, zonefiles, level):
+    def __init__(self, zonefiles, reporter):
         """Constructor, initialize variables and reporter logger."""
         self.zonefiles = zonefiles
-        self.level = level
 
         # Parsing temprorary variables
         self.origin = None
@@ -127,39 +516,30 @@ class ZonesValidator(object):
         self.unique_records = defaultdict(PrintList)
         self.fqdn_mgmt_prefixes = set()
         self.origins = set()
+        self.skipped_origins = 0
+        self.skipped_records = 0
 
-        # Analyzer stats
-        self.max_infraction = logging.NOTSET
-        self.counters = Counter()
-
-        self.reporter = logging.getLogger('zone-validator.report')
-        self._setup_reporter()
+        self.reporter = reporter
 
     def validate(self):
-        """Parse all the configured zonfiles and validate the records.
-
-        Return:
-            int: 0 if no errors are found, 1 otherwise.
-        """
+        """Parse all the configured zonfiles and validate the records."""
         self._parse()
+
+        logger.info(('PARSE STATISTICS | Files:%d, Origins:%d, Domain origins with records:%d, '
+                     'Pointer origins with records:%d, Skipped origins:%d, IPs:%d, PTRs:%d, '
+                     'Names from direct records:%d, Names from pointer records:%d, Skipped records:%d'),
+                    len(self.zonefiles),
+                    len(self.origins),
+                    len(self.names['IP']),
+                    len(self.names['PTR']),
+                    self.skipped_origins,
+                    sum(len(ips) for ips in self.names['IP'].values()),
+                    sum(len(ptrs) for ptrs in self.names['PTR'].values()),
+                    sum(len(ips) for ips in self.ips.values()),
+                    sum(len(ptrs) for ptrs in self.ptrs.values()),
+                    self.skipped_records)
+
         self._validate()
-
-        # Log summary line
-        if sum(self.counters.values()) == 0:
-            logger.info('All records are valid!')
-        else:
-            epilogue = ''
-            message = ', '.join('{n} {name}(S)'.format(n=value, name=logging.getLevelName(key))
-                                for key, value in sorted(self.counters.items()))
-            if self.level >= logging.ERROR:
-                epilogue = ' (WARNING(S) were suppressed, set -w/--warning to show them)'
-            logger.log(self.max_infraction, '%s were found!%s', message, epilogue)
-
-        # The return code depends on the maximum level of logged message in the checks report logger
-        if self.max_infraction >= logging.ERROR:
-            return 1
-        else:
-            return 0
 
     @staticmethod
     def is_mgmt_subhost(name):
@@ -168,22 +548,6 @@ class ZonesValidator(object):
         Example: <subrecord>.<record>.mgmt.<dc>.wmnet.
         """
         return len(name.split('.')) > 5  # All names have the tailing dot
-
-    def err(self, message, *args):
-        """Log in the reporter logger with level ERROR."""
-        self._log(logging.ERROR, message, *args)
-
-    def warn(self, message, *args):
-        """Log in the reporter logger with level WARNING."""
-        self._log(logging.WARNING, message, *args)
-
-    def _log(self, level, message, *args):
-        """Log in the reporter logger with the given level, update stats and maximum level."""
-        self.counters[level] += 1
-        if self.max_infraction < level:
-            self.max_infraction = level
-
-        self.reporter.log(level, message, *args)
 
     def _parse(self):
         """Parse all the configured zonefiles."""
@@ -195,7 +559,7 @@ class ZonesValidator(object):
             self.origins.add(self.origin)
 
             with open(zonefile, 'r') as f:
-                for lineno, line in enumerate(f.readlines()):
+                for lineno, line in enumerate(f.readlines(), start=1):
                     self._process_line(line, lineno)
                     if not line.startswith(' '):
                         self.previous_full_line = line
@@ -216,7 +580,9 @@ class ZonesValidator(object):
             self.origins.add(self.origin)
 
         elif self.origin is not None and self.origin.startswith('svc.'):
-            return  # Skip svc.* ORIGINs
+            self.skipped_origins += 1
+            logger.debug('Skip svc.* $ORIGIN %s', self.origin)
+            return
 
         elif ' IN A ' in line or ' IN AAAA ' in line:
             if line.startswith(' '):
@@ -242,7 +608,9 @@ class ZonesValidator(object):
         elif ' IN PTR ' in line:
             ip, _, _, record_type, fqdn, *comments = line.split(None, 5)
             if '.svc.' in fqdn:
-                return  # Skip .svc. records
+                self.skipped_records += 1
+                logger.debug('Skip .svc. record %s', fqdn)
+                return
 
             if ip[-1] == '.':
                 raise ValueError('Unsupported fully qualified PTR: {file}:{lineno} {line}'.format(
@@ -261,14 +629,12 @@ class ZonesValidator(object):
     def _validate(self):
         """Validate all the parsed records."""
         duplicates = [records for records in self.unique_records.values() if len(records) > 1]
-        if not duplicates:
-            logger.info('No global duplicate record found')
-        for duplicate in duplicates:
-            self.err('Global duplicate records found: %s', duplicate)
+        for duplicate_records in duplicates:
+            self.reporter.e_global_duplicate(duplicate_records)
 
         for origin in sorted(self.origins):
             is_mgmt = self._is_mgmt(origin)
-            logger.info('Validating $ORIGIN %s (is_mgmt=%s)', origin, is_mgmt)
+            logger.debug('Validating $ORIGIN %s (is_mgmt=%s)', origin, is_mgmt)
             self._validate_origin_names(origin, is_mgmt)
             self._validate_origin_ips(origin, is_mgmt)
             self._validate_origin_ptrs(origin, is_mgmt)
@@ -277,9 +643,6 @@ class ZonesValidator(object):
         """Validate IPs and PTRs in the given origin."""
         for label, names in sorted(self.names.items()):
             for value, records in sorted(names[origin].items()):
-                if not records:
-                    continue
-
                 if is_mgmt:
                     self._validate_mgmt_names(origin, value, records, label)
                 else:
@@ -290,35 +653,32 @@ class ZonesValidator(object):
         if len(records) == 1:  # Check if for this item it's ok to have only one entry.
             name = records[0].get_name()
             if ZonesValidator.is_mgmt_subhost(name):
-                logger.debug('Skipping 5th level mgmt record: %s', records[0])
+                logger.debug('Ignoring 5th level mgmt record: %s', records[0])
                 return
             if any(name.startswith(prefix) for prefix in NO_ASSET_TAG_PREFIXES):
-                logger.debug('Skipping no asset tag mgmt record: %s', records[0])
+                logger.debug('Ignoring no asset tag mgmt record: %s', records[0])
                 return
 
         if len(records) != 2:  # We expected 2 records for each mgmt, hostname and WMF asset tag.
             if len(records) > 2:
-                level = logging.ERROR
+                self.reporter.e_too_many_mgmt_names(label, ip, records)
             else:
-                level = logging.WARNING
-            self._log(level, "Found %d name(s) for %s '%s', expected 2 (hostname, wmfNNNN): %s",
-                      len(records), label, ip, records)
+                self.reporter.w_too_few_mgmt_names(label, ip, records)
 
         # Check that there is one and only one WMF asset tag set for this name.
         matches = [ASSET_TAG_PATTERN.match(record.get_name()) for record in records]
-        if (all(match is None for match in matches) or
-                sum(match is not None for match in matches) != 1):
-            self.warn("Expected one asset tag name matching '%s', got: %s",
-                      ASSET_TAG_PATTERN.pattern, records)
+        if all(match is None for match in matches):
+            self.reporter.w_missing_asset_tag(label, ip, records)
+        elif sum(match is not None for match in matches) > 1:
+            self.reporter.w_multiple_asset_tags(label, ip, records)
 
     def _validate_names(self, value, records, label):
         """Validate record names for all the given IP/PTR, only one record expected."""
         if len(records) != 1:
-            level = logging.WARNING
-            if any(ipaddress.ip_address(record.get_ip()).is_private for record in records):
-                level = logging.ERROR
-            self._log(level, "Found %d name(s) for %s '%s', expected 1: %s",
-                      len(records), label, value, records)
+            if any(record.get_ip().is_private for record in records):
+                self.reporter.e_too_many_names(label, value, records)
+            else:
+                self.reporter.w_too_many_public_names(label, value, records)
 
     def _validate_origin_ips(self, origin, is_mgmt):
         """Validate PTRs for all the IPs in the given origin."""
@@ -345,10 +705,9 @@ class ZonesValidator(object):
         """Validate the IPs for the given record name."""
         if len(records) == 2 and not is_mgmt:  # Two records, must be one IPv4 and one IPv6
             if sum(ipaddress.ip_address(record.value).version for record in records) != 10:
-                self.warn("Found %d IP(s) for name '%s', expected 1 v4 and 1 v6: %s",
-                          len(records), name, records)
+                self.reporter.w_missing_dual_stack_for_name(name, records)
         elif len(records) != 1:
-            self.err("Found %d IP(s) for name '%s', expected 1: %s", len(records), name, records)
+            self.reporter.e_multiple_ips_for_name(name, records)
 
     def _validate_ips_ptrs(self, origin, name, records, is_mgmt):
         """Validate the PTR records of all the IPs."""
@@ -361,16 +720,13 @@ class ZonesValidator(object):
             if name in self.ptrs[orig]:
                 ptrs += [record.name for record in self.ptrs[orig][name]]
 
-        if ptrs:
-            level = logging.ERROR
-        else:
-            level = logging.WARNING
-
         for record in records:
             ptr = ipaddress.ip_address(record.value).reverse_pointer + '.'
-            if ptr not in ptrs:
-                self._log(level, "Missing PTR '%s' for name '%s' and IP '%s', PTRs are: %s",
-                          ptr, name, record.value, ptrs)
+            if ptrs:
+                if ptr not in ptrs:
+                    self.reporter.e_missing_or_wrong_ptr_for_name_and_ip(ptr, name, record.value, ptrs, records)
+            else:
+                self.reporter.w_missing_ptr_for_name_and_ip(ptr, name, record.value, ptrs, records)
 
     def _validate_ptrs_ips(self, origin, name, records, is_mgmt):
         """Validate the IP records of all the PTRs."""
@@ -383,21 +739,16 @@ class ZonesValidator(object):
             if name in self.ips[orig]:
                 ips += [record.value for record in self.ips[orig][name]]
 
-        if ips:
-            level = logging.ERROR
-        else:
-            level = logging.WARNING
-
         for record in records:
             try:
                 ip = record.get_ip()
-                if ip not in ips:
-                    self._log(level, "Missing IP '%s' for name '%s' and PTR '%s', IPs are: %s",
-                              ip, name, record.name, ips)
+                if str(ip) not in ips:
+                    if ips:
+                        self.reporter.e_missing_or_wrong_ip_for_name_and_ptr(record, ips)
+                    else:
+                        self.reporter.w_missing_ip_for_name_and_ptr(record)
             except ValueError as e:
-                self._log(level, "Missing unknown IP for name '%s' and PTR '%s', IPs are: %s",
-                          name, record.name, ips)
-                self.err("Unable to reverse PTR to IP for record '%s': %s", record, e)
+                raise ValueError("Unable to reverse PTR to IP for record %s: %s", record, e)
 
     def _validate_mgmt_exists(self, name, records, is_mgmt):
         """Validate that the mgmt interface exists if not Ganeti VMs."""
@@ -414,11 +765,11 @@ class ZonesValidator(object):
 
         ganeti = [record for record in records if 'ganeti' in record.comment.lower()]
         if not ganeti:
-            self.warn("Missing mgmt record for name '%s' and record(s): %s", name, records)
+            self.reporter.w_missing_mgmt_for_name(name, records)
 
         elif len(ganeti) < len(records):
             missing = PrintList([record for record in records if record not in ganeti])
-            self.warn("Missing ganeti comment for name '%s' in record(s): %s", name, missing)
+            self.reporter.w_missing_ganeti_comment(name, missing)
 
     def _is_mgmt(self, origin):
         """Return True if the given origin is a management one."""
@@ -434,28 +785,42 @@ class ZonesValidator(object):
 
         return False
 
-    def _setup_reporter(self):
-        """Setup the checks reporter logger, streams to stdout."""
-        self.reporter.propagate = False
-        self.reporter.raiseExceptions = False
-
-        formatter = logging.Formatter(fmt='%(levelname)s: %(message)s')
-        handler = logging.StreamHandler(stream=sys.stdout)
-        handler.setFormatter(formatter)
-        handler.setLevel(self.level)
-        self.reporter.addHandler(handler)
-
 
 def parse_args():
     """Parse command line arguments."""
+    errors_string = ', '.join([v.name for v in Error])
+    warnings_string = ', '.join([v.name for v in Warning])
+
     parser = argparse.ArgumentParser(
         description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument('-w', '--warning', action='store_true',
-                        help='Print also warnings, by default only errors are reported.')
+    parser.add_argument('-e', '--errors', action='store_true',
+                        help=('Set the report level to errors, reporting error details. '
+                              'By default only the summary is reported.'))
+    parser.add_argument('-w', '--warnings', action='store_true',
+                        help=('Set the report level to warnings, reporting both error and warning details. '
+                              'By default only the summary is reported.'))
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument('-i', '--ignores',
+                       help=('Comma-separated list of violations to ignore (case insensitive). Available errors: '
+                             '{errors} ---- Available warnings: {warnings}').format(
+                            errors=errors_string, warnings=warnings_string))
+    group.add_argument('-s', '--show-only', help=('Comma-separated list of violations to show (case insensitive). '
+                                                  'See -i/--ignores for the available violations.'))
     parser.add_argument('-d', '--debug', action='store_true',
                         help='Set log level to debug.')
 
-    return parser.parse_args()
+    args = parser.parse_args()
+
+    try:
+        if args.ignores is not None:
+            args.ignores = [ViolationFactory.find(name) for name in args.ignores.upper().split(',')]
+
+        if args.show_only is not None:
+            args.show_only = [ViolationFactory.find(name) for name in args.show_only.upper().split(',')]
+    except ValueError as e:
+        parser.error(e)
+
+    return args
 
 
 def main():
@@ -464,19 +829,28 @@ def main():
     if args.debug:
         logger.setLevel(logging.DEBUG)
 
-    if args.warning:
+    level = logging.CRITICAL
+    if args.warnings or args.show_only is not None:
         level = logging.WARNING
-    else:
+    elif args.errors:
         level = logging.ERROR
 
     # Collect all the zonefiles
-    base_path = os.path.join(os.path.abspath(os.path.dirname(__file__)), os.pardir, 'templates')
+    base_path = os.path.abspath(os.path.join(os.path.abspath(os.path.dirname(__file__)), os.pardir, 'templates'))
     zonefiles = [os.path.join(base_path, zone) for zone in ('wmnet', 'wikimedia.org')]  # Default zones
     zonefiles += glob.glob(os.path.join(base_path, '*.in-addr.arpa'))  # IPv4 reverse zonefiles
     zonefiles += glob.glob(os.path.join(base_path, '*.ip6.arpa'))  # IPv6 reverse zonefiles
 
-    validator = ZonesValidator(zonefiles, level)
-    return validator.validate()
+    reporter = ViolationsReporter(level, ignores=args.ignores, shows=args.show_only)
+    validator = ZonesValidator(zonefiles, reporter)
+    validator.validate()
+    reporter.log_results()
+
+    # The return code depends on the maximum level of logged message in the checks report logger
+    if reporter.max_infraction >= logging.ERROR:
+        return 1
+    else:
+        return 0
 
 
 if __name__ == '__main__':
