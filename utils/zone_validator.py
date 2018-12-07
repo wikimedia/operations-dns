@@ -150,7 +150,7 @@ class ZonesValidator(object):
         else:
             epilogue = ''
             message = ', '.join('{n} {name}(S)'.format(n=value, name=logging.getLevelName(key))
-                                for key, value in self.counters.items())
+                                for key, value in sorted(self.counters.items()))
             if self.level >= logging.ERROR:
                 epilogue = ' (WARNING(S) were suppressed, set -w/--warning to show them)'
             logger.log(self.max_infraction, '%s were found!%s', message, epilogue)
@@ -266,7 +266,7 @@ class ZonesValidator(object):
         for duplicate in duplicates:
             self.err('Global duplicate records found: %s', duplicate)
 
-        for origin in self.origins:
+        for origin in sorted(self.origins):
             is_mgmt = self._is_mgmt(origin)
             logger.info('Validating $ORIGIN %s (is_mgmt=%s)', origin, is_mgmt)
             self._validate_origin_names(origin, is_mgmt)
@@ -275,8 +275,8 @@ class ZonesValidator(object):
 
     def _validate_origin_names(self, origin, is_mgmt):
         """Validate IPs and PTRs in the given origin."""
-        for label, names in self.names.items():
-            for value, records in names[origin].items():
+        for label, names in sorted(self.names.items()):
+            for value, records in sorted(names[origin].items()):
                 if not records:
                     continue
 
@@ -322,7 +322,7 @@ class ZonesValidator(object):
 
     def _validate_origin_ips(self, origin, is_mgmt):
         """Validate PTRs for all the IPs in the given origin."""
-        for name, records in self.ips[origin].items():
+        for name, records in sorted(self.ips[origin].items()):
             if not records:
                 continue
 
@@ -333,7 +333,7 @@ class ZonesValidator(object):
     def _validate_origin_ptrs(self, origin, is_mgmt):
         """Validate IPs for all the PTRs in the given origin."""
         is_v6 = IPV6_REVERSE_DOMAIN in origin
-        for name, records in self.ptrs[origin].items():
+        for name, records in sorted(self.ptrs[origin].items()):
             if not records:
                 continue
 
@@ -356,7 +356,11 @@ class ZonesValidator(object):
             logger.debug('Skipping 5th level mgmt name %s', name)
             return
 
-        ptrs = [record.name for orig in self.origins for record in self.ptrs[orig][name]]
+        ptrs = []
+        for orig in self.origins:
+            if name in self.ptrs[orig]:
+                ptrs += [record.name for record in self.ptrs[orig][name]]
+
         if ptrs:
             level = logging.ERROR
         else:
@@ -374,7 +378,11 @@ class ZonesValidator(object):
             logger.debug('Skipping 5th level mgmt name %s', name)
             return
 
-        ips = [record.value for orig in self.origins for record in self.ips[orig][name]]
+        ips = []
+        for orig in self.origins:
+            if name in self.ips[orig]:
+                ips += [record.value for record in self.ips[orig][name]]
+
         if ips:
             level = logging.ERROR
         else:
@@ -420,12 +428,9 @@ class ZonesValidator(object):
         if not origin.endswith(IPV4_REVERSE_DOMAIN):
             return False
 
-        # Detect if it's a mgmt reverse ORIGIN by checking the first items
-        for i, name in enumerate(self.ptrs[origin].keys()):
-            if name.split('.')[-4] == 'mgmt':
-                return True
-            if i > 5:
-                break
+        # Detect if it's a mgmt reverse ORIGIN by checking if there is any mgmt item
+        if any(name.split('.')[-4] == 'mgmt' for name in self.ptrs[origin].keys()):
+            return True
 
         return False
 
