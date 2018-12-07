@@ -317,7 +317,7 @@ ntp.eqiad           1H  IN CNAME dns1001
 ntp.ulsfo           1H  IN CNAME dns4001
 
 ;;; codfw
-ntp.codfw           1H  IN CNAME acamar
+ntp.codfw           1H  IN CNAME dns2001
 
 ;;; esams
 ntp.esams           1H  IN CNAME maerlant
