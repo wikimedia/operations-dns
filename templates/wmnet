@@ -252,12 +252,12 @@ analytics1076    1H IN A             10.64.53.32
 analytics1076    1H IN AAAA          2620:0:861:108:10:64:53:32
 analytics1077    1H IN A             10.64.53.33
 analytics1077    1H IN AAAA          2620:0:861:108:10:64:53:33
-analytics-tool1001 1H IN A           10.64.36.110
-analytics-tool1001 1H IN AAAA        2620:0:861:106:10:64:36:110
-analytics-tool1002 1H IN A           10.64.36.111
-analytics-tool1002 1H IN AAAA        2620:0:861:106:10:64:36:111
-analytics-tool1003 1H IN A           10.64.36.112
-analytics-tool1003 1H IN AAAA        2620:0:861:106:10:64:36:112
+analytics-tool1001 1H IN A           10.64.36.110 ; VM on ganeti01.svc.eqiad.wmnet
+analytics-tool1001 1H IN AAAA        2620:0:861:106:10:64:36:110 ; VM on ganeti01.svc.eqiad.wmnet
+analytics-tool1002 1H IN A           10.64.36.111 ; VM on ganeti01.svc.eqiad.wmnet
+analytics-tool1002 1H IN AAAA        2620:0:861:106:10:64:36:111 ; VM on ganeti01.svc.eqiad.wmnet
+analytics-tool1003 1H IN A           10.64.36.112 ; VM on ganeti01.svc.eqiad.wmnet
+analytics-tool1003 1H IN AAAA        2620:0:861:106:10:64:36:112 ; VM on ganeti01.svc.eqiad.wmnet
 aqs1004          1H IN A             10.64.0.107
 aqs1004          1H IN AAAA          2620:0:861:101:10:64:0:107
 aqs1004-a        1H IN A             10.64.0.126 ; cassandra instance
@@ -282,15 +282,15 @@ aqs1009          1H IN A             10.64.48.119
 aqs1009          1H IN AAAA          2620:0:861:107:10:64:48:119
 aqs1009-a        1H IN A             10.64.48.122 ; cassandra instance
 aqs1009-b        1H IN A             10.64.48.123 ; cassandra instance
-argon            1H IN A         10.64.32.133 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-argon            1H IN AAAA      2620:0:861:103:10:64:32:133
+argon            1H IN A         10.64.32.133 ; VM on ganeti01.svc.eqiad.wmnet
+argon            1H IN AAAA      2620:0:861:103:10:64:32:133 ; VM on ganeti01.svc.eqiad.wmnet
 backup1001       1H IN A         10.64.48.36
-boron            1H IN A         10.64.0.36 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+boron            1H IN A         10.64.0.36 ; VM on ganeti01.svc.eqiad.wmnet
 centrallog1001   1H IN A         10.64.48.113
-certcentral1001  1H IN A         10.64.32.26 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-certcentral1001  1H IN AAAA      2620:0:861:103:10:64:32:26
-chlorine         1H IN A         10.64.0.45 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-chlorine         1H IN AAAA      2620:0:861:101:10:64:0:45
+certcentral1001  1H IN A         10.64.32.26 ; VM on ganeti01.svc.eqiad.wmnet
+certcentral1001  1H IN AAAA      2620:0:861:103:10:64:32:26 ; VM on ganeti01.svc.eqiad.wmnet
+chlorine         1H IN A         10.64.0.45 ; VM on ganeti01.svc.eqiad.wmnet
+chlorine         1H IN AAAA      2620:0:861:101:10:64:0:45 ; VM on ganeti01.svc.eqiad.wmnet
 vip-gw-cloudnet  1H IN A         10.64.22.4
 cloudnet1003     1H IN A         10.64.20.35
 cloudvirt1019    1H IN A         10.64.20.38
@@ -411,7 +411,7 @@ cp1099           1H IN A         10.64.32.81
                  1H IN AAAA      2620:0:861:103:10:64:32:81
 cumin1001        1H IN A         10.64.32.25
                  1H IN AAAA      2620:0:861:103:10:64:32:25
-darmstadtium    1H  IN A        10.64.32.200 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+darmstadtium    1H  IN A        10.64.32.200 ; VM on ganeti01.svc.eqiad.wmnet
 graphite1001    1H  IN A        10.64.32.155
 graphite1003    1H  IN A        10.64.0.106
 graphite1004    1H  IN A        10.64.16.149
@@ -502,10 +502,10 @@ dbstore1002     1H  IN A        10.64.48.18
 dbstore1003     1H  IN A        10.64.0.137
 dbstore1004     1H  IN A        10.64.16.26
 dbstore1005     1H  IN A        10.64.32.30
-debmonitor1001  1H  IN A        10.64.32.62 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+debmonitor1001  1H  IN A        10.64.32.62 ; VM on ganeti01.svc.eqiad.wmnet
 deploy1001      1H  IN A        10.64.32.16
 deploy1001      1H  IN AAAA     2620:0:861:103:10:64:32:16
-d-i-test        1H  IN A        10.64.32.201
+d-i-test        1H  IN A        10.64.32.201 ; VM on ganeti01.svc.eqiad.wmnet
 druid1001       1H  IN A        10.64.5.101
 druid1001       1H  IN AAAA     2620:0:861:104:10:64:5:101
 druid1002       1H  IN A        10.64.36.102
@@ -564,13 +564,13 @@ es1016          1H  IN A        10.64.32.185
 es1017          1H  IN A        10.64.32.65
 es1018          1H  IN A        10.64.48.115
 es1019          1H  IN A        10.64.48.116
-etcd1001        1H  IN A        10.64.32.213
-etcd1002        1H  IN A        10.64.0.41
-etcd1003        1H  IN A        10.64.0.42
-etcd1004        1H  IN A        10.64.0.43
-etcd1005        1H  IN A        10.64.0.44
-etcd1006        1H  IN A        10.64.32.218
-etherpad1001    1H  IN A        10.64.32.177 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+etcd1001        1H  IN A        10.64.32.213 ; VM on ganeti01.svc.eqiad.wmnet
+etcd1002        1H  IN A        10.64.0.41 ; VM on ganeti01.svc.eqiad.wmnet
+etcd1003        1H  IN A        10.64.0.42 ; VM on ganeti01.svc.eqiad.wmnet
+etcd1004        1H  IN A        10.64.0.43 ; VM on ganeti01.svc.eqiad.wmnet
+etcd1005        1H  IN A        10.64.0.44 ; VM on ganeti01.svc.eqiad.wmnet
+etcd1006        1H  IN A        10.64.32.218 ; VM on ganeti01.svc.eqiad.wmnet
+etherpad1001    1H  IN A        10.64.32.177 ; VM on ganeti01.svc.eqiad.wmnet
 eventlog1002    1H  IN A        10.64.48.95
 eventlog1002    1H  IN AAAA     2620:0:861:107:10:64:48:95
 flerovium       1H  IN A        10.64.48.112
@@ -583,8 +583,8 @@ ganeti1005      1H  IN A        10.64.0.245
 ganeti1006      1H  IN A        10.64.0.246
 ganeti1007      1H  IN A        10.64.0.248
 ganeti1008      1H  IN A        10.64.0.249
-grafana1001     1H  IN A        10.64.32.183 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-hassium         1H  IN A        10.64.0.53
+grafana1001     1H  IN A        10.64.32.183 ; VM on ganeti01.svc.eqiad.wmnet
+hassium         1H  IN A        10.64.0.53 ; VM on ganeti01.svc.eqiad.wmnet
 helium          1H  IN A        10.64.0.179
 kafka1001           1H  IN A         10.64.0.11
                     1H  IN AAAA      2620:0:861:101:10:64:0:11
@@ -616,18 +616,18 @@ kafka-jumbo1005     1H  IN A         10.64.32.160
                     1H  IN AAAA      2620:0:861:103:10:64:32:160
 kafka-jumbo1006     1H  IN A         10.64.48.117
                     1H  IN AAAA      2620:0:861:107:10:64:48:117
-kafkamon1001    1H  IN A        10.64.0.129
-kafkamon1001    1H  IN AAAA     2620:0:861:101:10:64:0:129
-krypton         1H  IN A        10.64.32.182
+kafkamon1001    1H  IN A        10.64.0.129 ; VM on ganeti01.svc.eqiad.wmnet
+kafkamon1001    1H  IN AAAA     2620:0:861:101:10:64:0:129 ; VM on ganeti01.svc.eqiad.wmnet
+krypton         1H  IN A        10.64.32.182 ; VM on ganeti01.svc.eqiad.wmnet
 kubestage1001   1H  IN A        10.64.0.247
 kubestage1001   1H  IN AAAA     2620:0:861:101:10:64:0:247
 kubestage1002   1H  IN A        10.64.16.92
 kubestage1002   1H  IN AAAA     2620:0:861:102:10:64:16:92
-kubestagetcd1001 1H IN A        10.64.32.235
+kubestagetcd1001 1H IN A        10.64.32.235 ; VM on ganeti01.svc.eqiad.wmnet
 kubestagetcd1001 1H IN AAAA     2620:0:861:103:10:64:32:235 ; VM on ganeti01.svc.eqiad.wmnet
-kubestagetcd1002 1H IN A        10.64.0.48
+kubestagetcd1002 1H IN A        10.64.0.48 ; VM on ganeti01.svc.eqiad.wmnet
 kubestagetcd1002 1H IN AAAA     2620:0:861:101:10:64:0:48 ; VM on ganeti01.svc.eqiad.wmnet
-kubestagetcd1003 1H IN A        10.64.0.49
+kubestagetcd1003 1H IN A        10.64.0.49 ; VM on ganeti01.svc.eqiad.wmnet
 kubestagetcd1003 1H IN AAAA     2620:0:861:101:10:64:0:49 ; VM on ganeti01.svc.eqiad.wmnet
 kubernetes1001  1H  IN A        10.64.0.121
 kubernetes1001  1H  IN AAAA     2620:0:861:101:10:64:0:121
@@ -700,7 +700,7 @@ mc1033          1H  IN A        10.64.48.155
 mc1034          1H  IN A        10.64.48.156
 mc1035          1H  IN A        10.64.48.157
 mc1036          1H  IN A        10.64.48.158
-mendelevium     1H  IN A        10.64.32.174 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+mendelevium     1H  IN A        10.64.32.174 ; VM on ganeti01.svc.eqiad.wmnet
 ms-be1013       1H  IN A        10.64.48.30
 ms-be1014       1H  IN A        10.64.48.31
 ms-be1015       1H  IN A        10.64.48.32
@@ -732,7 +732,7 @@ ms-be1040       1H  IN A        10.64.0.5
 ms-be1041       1H  IN A        10.64.16.9
 ms-be1042       1H  IN A        10.64.32.10
 ms-be1043       1H  IN A        10.64.48.33
-ms-fe           1H  IN A        10.2.2.27   ;LVS address for ms-fe100*
+ms-fe           1H  IN A        10.2.2.27 ; LVS address for ms-fe100*
 ms-fe1005       1H  IN A        10.64.0.38
 ms-fe1006       1H  IN A        10.64.0.39
 ms-fe1007       1H  IN A        10.64.32.220
@@ -860,8 +860,8 @@ mw1345          1H  IN A        10.64.32.57
 mw1346          1H  IN A        10.64.32.58
 mw1347          1H  IN A        10.64.32.59
 mw1348          1H  IN A        10.64.32.60
-mwdebug1001     1H  IN A        10.64.32.123 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-mwdebug1002     1H  IN A        10.64.0.46 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+mwdebug1001     1H  IN A        10.64.32.123 ; VM on ganeti01.svc.eqiad.wmnet
+mwdebug1002     1H  IN A        10.64.0.46 ; VM on ganeti01.svc.eqiad.wmnet
 mwmaint1002     1H  IN A        10.64.16.77
 mwmaint1002     1H  IN AAAA     2620:0:861:102:10:64:16:77
 neodymium       1H  IN A        10.64.32.20
@@ -879,8 +879,8 @@ ores1006        1H  IN A        10.64.32.15
 ores1007        1H  IN A        10.64.48.16
 ores1008        1H  IN A        10.64.48.27
 ores1009        1H  IN A        10.64.48.28
-orespoolcounter1001 1H IN A     10.64.0.87
-orespoolcounter1002 1H IN A     10.64.32.13
+orespoolcounter1001 1H IN A     10.64.0.87 ; VM on ganeti01.svc.eqiad.wmnet
+orespoolcounter1002 1H IN A     10.64.32.13 ; VM on ganeti01.svc.eqiad.wmnet
 oresrdb1001     1H  IN A        10.64.48.129
 oresrdb1002     1H  IN A        10.64.0.10
 oxygen          1H  IN A        10.64.0.222
@@ -893,22 +893,22 @@ pc1006          1H  IN A        10.64.48.128
 pc1008          1H  IN A        10.64.16.20
 pc1009          1H  IN A        10.64.32.29
 pc1010          1H  IN A        10.64.48.174
-people1001      1H  IN A        10.64.0.136
-people1001      1H  IN AAAA     2620:0:861:101:10:64:0:136
+people1001      1H  IN A        10.64.0.136 ; VM on ganeti01.svc.eqiad.wmnet
+people1001      1H  IN AAAA     2620:0:861:101:10:64:0:136 ; VM on ganeti01.svc.eqiad.wmnet
 ping1001        1H  IN A        10.64.32.31
-planet1001      1H  IN A        10.64.0.50
-planet1001      1H  IN AAAA     2620:0:861:101:10:64:0:50
-poolcounter1001 1H  IN A        10.64.32.126 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-poolcounter1003 1H  IN A        10.64.0.19 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+planet1001      1H  IN A        10.64.0.50 ; VM on ganeti01.svc.eqiad.wmnet
+planet1001      1H  IN AAAA     2620:0:861:101:10:64:0:50 ; VM on ganeti01.svc.eqiad.wmnet
+poolcounter1001 1H  IN A        10.64.32.126 ; VM on ganeti01.svc.eqiad.wmnet
+poolcounter1003 1H  IN A        10.64.0.19 ; VM on ganeti01.svc.eqiad.wmnet
 prometheus1003  1H  IN A        10.64.0.123
 prometheus1003  1H  IN AAAA     2620:0:861:101:10:64:0:123
 prometheus1004  1H  IN A        10.64.16.38
 prometheus1004  1H  IN AAAA     2620:0:861:102:10:64:16:38
 promethium      1H  IN A        10.64.20.12
-proton1001      1H  IN A        10.64.0.20 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-proton1002      1H  IN A        10.64.32.61 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-puppetdb1001    1H  IN A        10.64.32.214 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-puppetboard1001 1H  IN A        10.64.32.17 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+proton1001      1H  IN A        10.64.0.20 ; VM on ganeti01.svc.eqiad.wmnet
+proton1002      1H  IN A        10.64.32.61 ; VM on ganeti01.svc.eqiad.wmnet
+puppetdb1001    1H  IN A        10.64.32.214 ; VM on ganeti01.svc.eqiad.wmnet
+puppetboard1001 1H  IN A        10.64.32.17 ; VM on ganeti01.svc.eqiad.wmnet
 puppetmaster1001 1H IN A        10.64.16.73
 puppetmaster1001 1H IN AAAA     2620:0:861:102:10:64:16:73
 puppetmaster1002 1H IN A        10.64.48.45
@@ -923,8 +923,8 @@ rdb1007         1H  IN A        10.64.32.18
 rdb1008         1H  IN A        10.64.32.19
 rdb1009         1H  IN A        10.64.16.76
 rdb1010         1H  IN A        10.64.48.38
-releases1001    1H  IN A        10.64.0.88 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-releases1001    1H  IN AAAA     2620:0:861:101:10:64:0:88
+releases1001    1H  IN A        10.64.0.88 ; VM on ganeti01.svc.eqiad.wmnet
+releases1001    1H  IN AAAA     2620:0:861:101:10:64:0:88 ; VM on ganeti01.svc.eqiad.wmnet
 relforge1001    1H  IN A        10.64.4.13
 relforge1002    1H  IN A        10.64.37.21
 restbase1007    1H  IN A        10.64.0.223
@@ -985,11 +985,11 @@ restbase-dev1006    1H IN A     10.64.48.10
 restbase-dev1006-a  1H IN A     10.64.48.168
 restbase-dev1006-b  1H IN A     10.64.48.169
 rhodium         1H  IN A        10.64.16.184
-roentgenium     1H  IN A        10.64.32.24 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+roentgenium     1H  IN A        10.64.32.24 ; VM on ganeti01.svc.eqiad.wmnet
 ruthenium       1H  IN A        10.64.16.151
 scandium        1H  IN A        10.64.48.94
-sca1003         1H  IN A        10.64.32.28 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-sca1004         1H  IN A        10.64.0.47 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+sca1003         1H  IN A        10.64.32.28 ; VM on ganeti01.svc.eqiad.wmnet
+sca1004         1H  IN A        10.64.0.47 ; VM on ganeti01.svc.eqiad.wmnet
 scb1001         1H  IN A        10.64.0.16
 scb1002         1H  IN A        10.64.16.21
 scb1003         1H  IN A        10.64.32.153
@@ -1007,8 +1007,8 @@ stat1006        1H  IN A        10.64.53.31
 stat1006        1H  IN AAAA     2620:0:861:108:10:64:53:31
 stat1007        1H  IN A        10.64.21.118
 stat1007        1H  IN AAAA     2620:0:861:105:10:64:21:118
-bromine         1H  IN A        10.64.32.181 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-bromine         1H  IN AAAA     2620:0:861:103:10:64:32:181
+bromine         1H  IN A        10.64.32.181 ; VM on ganeti01.svc.eqiad.wmnet
+bromine         1H  IN AAAA     2620:0:861:103:10:64:32:181 ; VM on ganeti01.svc.eqiad.wmnet
 phab1001        1H  IN A        10.64.16.8
 phab1001        1H  IN AAAA     2620:0:861:102:10:64:16:8
 phab1001-aphlict 1H IN CNAME    phab1001 ; CNAME here due to varnish puppetization woes
@@ -1020,7 +1020,7 @@ phab1002-aphlict 1H IN CNAME    phab1002 ; CNAME here due to varnish puppetizati
 phab1002-vcs    1H  IN A        10.64.48.22
 phab1002-vcs    1H  IN AAAA     2620:0:861:107:10:64:48:22
 puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-technetium      1H  IN A        10.64.32.188
+technetium      1H  IN A        10.64.32.188 ; VM on ganeti01.svc.eqiad.wmnet
 thorium         1H  IN A        10.64.53.26
 thorium         1H  IN AAAA     2620:0:861:108:10:64:53:26
 thumbor1001     1H  IN A        10.64.16.56
@@ -1032,9 +1032,9 @@ lithium         1H  IN A        10.64.32.154
 logstash1004    1H  IN A        10.64.0.162
 logstash1005    1H  IN A        10.64.16.185
 logstash1006    1H  IN A        10.64.48.109
-logstash1007    1H  IN A        10.64.0.37
-logstash1008    1H  IN A        10.64.0.90
-logstash1009    1H  IN A        10.64.32.27
+logstash1007    1H  IN A        10.64.0.37 ; VM on ganeti01.svc.eqiad.wmnet
+logstash1008    1H  IN A        10.64.0.90 ; VM on ganeti01.svc.eqiad.wmnet
+logstash1009    1H  IN A        10.64.32.27 ; VM on ganeti01.svc.eqiad.wmnet
 labvirt1009     1H  IN A        10.64.20.15
 labvirt1007     1H  IN A        10.64.20.16
 labvirt1008     1H  IN A        10.64.20.17
@@ -1048,10 +1048,10 @@ cloudvirt1016   1H  IN A        10.64.20.32
 cloudvirt1017   1H  IN A        10.64.20.33
 cloudvirt1018   1H  IN A        10.64.20.34
 weblog1001       1H IN A         10.64.0.120
-webperf1001     5M  IN A        10.64.0.215 ; VM ganeti01.svc.eqiad.wmnet
-webperf1001     5M  IN AAAA     2620:0:861:101:10:64:0:215 ; VM ganeti01.svc.eqiad.wmnet
-webperf1002     1H  IN A        10.64.0.216 ; VM ganeti01.svc.eqiad.wmnet
-webperf1002     1H  IN AAAA     2620:0:861:101:10:64:0:216 ; VM ganeti01.svc.eqiad.wmnet
+webperf1001     5M  IN A        10.64.0.215 ; VM on ganeti01.svc.eqiad.wmnet
+webperf1001     5M  IN AAAA     2620:0:861:101:10:64:0:215 ; VM on ganeti01.svc.eqiad.wmnet
+webperf1002     1H  IN A        10.64.0.216 ; VM on ganeti01.svc.eqiad.wmnet
+webperf1002     1H  IN AAAA     2620:0:861:101:10:64:0:216 ; VM on ganeti01.svc.eqiad.wmnet
 wdqs1003        1H  IN A        10.64.0.14
 wdqs1004        1H  IN A        10.64.0.17
 wdqs1005        1H  IN A        10.64.48.46
@@ -2729,13 +2729,13 @@ _etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 kubetcd2003.codfw.wmnet.
 ; Servers - listed alphabetically
 
 acrab           1H  IN A    10.192.16.26 ; VM on ganeti01.svc.codfw.wmnet
-acrab           1H  IN AAAA 2620:0:860:102:10:192:16:26
-acrux           1H  IN A    10.192.0.93  ; VM on ganeti01.svc.codfw.wmnet
-acrux           1H  IN AAAA 2620:0:860:101:10:192:0:93
+acrab           1H  IN AAAA 2620:0:860:102:10:192:16:26 ; VM on ganeti01.svc.codfw.wmnet
+acrux           1H  IN A    10.192.0.93 ; VM on ganeti01.svc.codfw.wmnet
+acrux           1H  IN AAAA 2620:0:860:101:10:192:0:93 ; VM on ganeti01.svc.codfw.wmnet
 auth2001        1H  IN A    10.192.0.138
 backup2001      1H  IN A    10.192.48.116
-certcentral2001 1H  IN A    10.192.0.103  ; VM on ganeti01.svc.codfw.wmnet
-certcentral2001 1H  IN AAAA 2620:0:860:101:10:192:0:103
+certcentral2001 1H  IN A    10.192.0.103 ; VM on ganeti01.svc.codfw.wmnet
+certcentral2001 1H  IN AAAA 2620:0:860:101:10:192:0:103 ; VM on ganeti01.svc.codfw.wmnet
 conf2001        1H  IN A    10.192.0.143
 conf2002        1H  IN A    10.192.32.141
 conf2003        1H  IN A    10.192.48.52
@@ -2793,7 +2793,7 @@ cp2026          1H  IN A    10.192.48.30
                 1H  IN AAAA 2620:0:860:104:10:192:48:30
 cumin2001       1H  IN A    10.192.48.16
                 1H  IN AAAA 2620:0:860:104:10:192:48:16
-cygnus          1H  IN A    10.192.16.168
+cygnus          1H  IN A    10.192.16.168 ; VM on ganeti01.svc.codfw.wmnet
 db2013          1H  IN A    10.192.0.16
 db2014          1H  IN A    10.192.0.17
 db2020          1H  IN A    10.192.16.8
@@ -2867,7 +2867,7 @@ db2095          1H  IN A    10.192.32.6
 db2096          1H  IN A    10.192.16.34
 dbstore2001     1H  IN A    10.192.0.32
 dbstore2002     1H  IN A    10.192.32.19
-debmonitor2001  1H  IN A    10.192.0.14 ; VM on the ganeti01.svc.codfw.wmnet cluster
+debmonitor2001  1H  IN A    10.192.0.14 ; VM on ganeti01.svc.codfw.wmnet
 deploy2001      1H  IN A    10.192.32.24
 deploy2001      1H  IN AAAA 2620:0:860:103:10:192:32:24
 elastic2025     1H  IN A    10.192.0.77
@@ -2900,7 +2900,7 @@ elastic2051     1H  IN A    10.192.48.127
 elastic2052     1H  IN A    10.192.48.128
 elastic2053     1H  IN A    10.192.48.129
 elastic2054     1H  IN A    10.192.48.130
-elnath          1H  IN A    10.192.16.182 ; VM on the ganeti01.svc.codfw.wmnet cluster
+elnath          1H  IN A    10.192.16.182 ; VM on ganeti01.svc.codfw.wmnet
 es2001          1H  IN A    10.192.0.25
 es2002          1H  IN A    10.192.0.26
 es2003          1H  IN A    10.192.16.27
@@ -2915,9 +2915,9 @@ es2017          1H  IN A    10.192.0.142
 es2018          1H  IN A    10.192.16.172
 es2019          1H  IN A    10.192.48.42
 furud           1H  IN A    10.192.16.65
-kubetcd2001     1H  IN A    10.192.0.94
-kubetcd2002     1H  IN A    10.192.0.95
-kubetcd2003     1H  IN A    10.192.16.30
+kubetcd2001     1H  IN A    10.192.0.94 ; VM on ganeti01.svc.codfw.wmnet
+kubetcd2002     1H  IN A    10.192.0.95 ; VM on ganeti01.svc.codfw.wmnet
+kubetcd2003     1H  IN A    10.192.16.30 ; VM on ganeti01.svc.codfw.wmnet
 ganeti2001      1H  IN A    10.192.16.125
 ganeti2002      1H  IN A    10.192.16.126
 ganeti2003      1H  IN A    10.192.16.127
@@ -2929,7 +2929,7 @@ ganeti2008      1H  IN A    10.192.0.38
 graphite2001    1H  IN A    10.192.16.33
 graphite2002    1H  IN A    10.192.32.140
 graphite2003    1H  IN A    10.192.0.102
-hassaleh        1H  IN A    10.192.16.173
+hassaleh        1H  IN A    10.192.16.173 ; VM on ganeti01.svc.codfw.wmnet
 heze            1H  IN A    10.192.0.31
 kafka2001       1H  IN A    10.192.0.139
                 1H  IN AAAA 2620:0:860:101:10:192:0:139
@@ -2937,8 +2937,8 @@ kafka2002       1H  IN A    10.192.16.169
                 1H  IN AAAA 2620:0:860:102:10:192:16:169
 kafka2003       1H  IN A    10.192.32.150
                 1H  IN AAAA 2620:0:860:103:10:192:32:150
-kafkamon2001    1H  IN A    10.192.0.97
-kafkamon2001    1H  IN AAAA 2620:0:860:101:10:192:0:97
+kafkamon2001    1H  IN A    10.192.0.97 ; VM on ganeti01.svc.codfw.wmnet
+kafkamon2001    1H  IN AAAA 2620:0:860:101:10:192:0:97 ; VM on ganeti01.svc.codfw.wmnet
 kubernetes2001  1H  IN A    10.192.0.11
 kubernetes2001  1H  IN AAAA 2620:0:860:101:10:192:0:11
 kubernetes2002  1H  IN A    10.192.16.42
@@ -3193,8 +3193,8 @@ mw2287          1H  IN A    10.192.48.109
 mw2288          1H  IN A    10.192.48.110
 mw2289          1H  IN A    10.192.48.111
 mw2290          1H  IN A    10.192.48.112
-mwdebug2001     1H  IN A    10.192.0.98 ; VM on the ganeti01.svc.codfw.wmnet cluster
-mwdebug2002     1H  IN A    10.192.16.66 ; VM on the ganeti01.svc.codfw.wmnet cluster
+mwdebug2001     1H  IN A    10.192.0.98 ; VM on ganeti01.svc.codfw.wmnet
+mwdebug2002     1H  IN A    10.192.16.66 ; VM on ganeti01.svc.codfw.wmnet
 mwmaint2001     1H  IN A    10.192.48.45
 mwmaint2001     1H  IN AAAA 2620:0:860:104:10:192:48:45
 mwlog2001       1H  IN A    10.192.32.131
@@ -3207,12 +3207,12 @@ ores2006        1H  IN A    10.192.32.174
 ores2007        1H  IN A    10.192.48.88
 ores2008        1H  IN A    10.192.48.89
 ores2009        1H  IN A    10.192.48.90
-orespoolcounter2001 1H IN A 10.192.0.56
-orespoolcounter2002 1H IN A 10.192.16.76
-oresrdb2001     1H  IN A    10.192.16.31 ; VM on the ganeti01.svc.codfw.wmnet cluster
+orespoolcounter2001 1H IN A 10.192.0.56 ; VM on ganeti01.svc.codfw.wmnet
+orespoolcounter2002 1H IN A 10.192.16.76 ; VM on ganeti01.svc.codfw.wmnet
+oresrdb2001     1H  IN A    10.192.16.31 ; VM on ganeti01.svc.codfw.wmnet
 oresrdb2002     1H  IN A    10.192.32.21
-planet2001      1H  IN A    10.192.0.92
-planet2001      1H  IN AAAA 2620:0:860:101:10:192:0:92
+planet2001      1H  IN A    10.192.0.92 ; VM on ganeti01.svc.codfw.wmnet
+planet2001      1H  IN AAAA 2620:0:860:101:10:192:0:92 ; VM on ganeti01.svc.codfw.wmnet
 pc2007          1H  IN A    10.192.0.104
 pc2008          1H  IN A    10.192.16.35
 pc2009          1H  IN A    10.192.32.10
@@ -3229,20 +3229,20 @@ prometheus2003   1H IN A    10.192.0.145
 prometheus2003   1H IN AAAA 2620:0:860:101:10:192:0:145
 prometheus2004   1H IN A    10.192.16.189
 prometheus2004   1H IN AAAA 2620:0:860:102:10:192:16:189
-proton2001       1H IN A    10.192.0.21  ; VM on the ganeti01.svc.codfw.wmnet cluster
-proton2002       1H IN A    10.192.16.75  ; VM on the ganeti01.svc.codfw.wmnet cluster
-puppetboard2001  1H IN A    10.192.16.23 ; VM on the ganeti01.svc.codfw.wmnet cluster
-puppetdb2001     1H IN A    10.192.16.183 ; VM on the ganeti01.svc.codfw.wmnet cluster
+proton2001       1H IN A    10.192.0.21  ; VM on ganeti01.svc.codfw.wmnet
+proton2002       1H IN A    10.192.16.75  ; VM on ganeti01.svc.codfw.wmnet
+puppetboard2001  1H IN A    10.192.16.23 ; VM on ganeti01.svc.codfw.wmnet
+puppetdb2001     1H IN A    10.192.16.183 ; VM on ganeti01.svc.codfw.wmnet
 puppetmaster2001 1H IN A    10.192.0.27
 puppetmaster2001 1H IN AAAA 2620:0:860:101:10:192:0:27
 puppetmaster2002 1H IN A    10.192.48.66
 puppetmaster2002 1H IN AAAA 2620:0:860:104:10:192:48:66
-pybal-test2001  1H  IN A    10.192.16.139 ; VM on the ganeti01.svc.codfw.wmnet cluster
-pybal-test2001  1H  IN AAAA 2620:0:860:102:10:192:16:139
-pybal-test2002  1H  IN A    10.192.16.140 ; VM on the ganeti01.svc.codfw.wmnet cluster
-pybal-test2002  1H  IN AAAA 2620:0:860:102:10:192:16:140
-pybal-test2003  1H  IN A    10.192.16.141 ; VM on the ganeti01.svc.codfw.wmnet cluster
-pybal-test2003  1H  IN AAAA 2620:0:860:102:10:192:16:141
+pybal-test2001  1H  IN A    10.192.16.139 ; VM on ganeti01.svc.codfw.wmnet
+pybal-test2001  1H  IN AAAA 2620:0:860:102:10:192:16:139 ; VM on ganeti01.svc.codfw.wmnet
+pybal-test2002  1H  IN A    10.192.16.140 ; VM on ganeti01.svc.codfw.wmnet
+pybal-test2002  1H  IN AAAA 2620:0:860:102:10:192:16:140 ; VM on ganeti01.svc.codfw.wmnet
+pybal-test2003  1H  IN A    10.192.16.141 ; VM on ganeti01.svc.codfw.wmnet
+pybal-test2003  1H  IN AAAA 2620:0:860:102:10:192:16:141 ; VM on ganeti01.svc.codfw.wmnet
 pybal-testsvc   1H  IN A    10.192.16.142 ; service IP
 rdb2001         1H  IN A    10.192.0.119
 rdb2002         1H  IN A    10.192.0.120
@@ -3250,8 +3250,8 @@ rdb2003         1H  IN A    10.192.16.122
 rdb2004         1H  IN A    10.192.16.123
 rdb2005         1H  IN A    10.192.32.133
 rdb2006         1H  IN A    10.192.48.44
-releases2001    1H  IN A        10.192.16.174 ; VM on the ganeti01.svc.codfw.wmnet cluster
-releases2001    1H  IN AAAA     2620:0:860:102:10:192:16:174
+releases2001    1H  IN A        10.192.16.174 ; VM on ganeti01.svc.codfw.wmnet
+releases2001    1H  IN AAAA     2620:0:860:102:10:192:16:174 ; VM on ganeti01.svc.codfw.wmnet
 restbase2001    1H  IN A    10.192.16.152
 restbase2001-a  1H  IN A    10.192.16.162 ; cassandra instance
 restbase2001-b  1H  IN A    10.192.16.163 ; cassandra instance
@@ -3326,8 +3326,8 @@ restbase2018-b  1H  IN A    10.192.48.125 ; cassandra instance
 restbase2018-c  1H  IN A    10.192.48.126 ; cassandra instance
 sarin           1H  IN A    10.192.0.140
 sarin           1H  IN AAAA 2620:0:860:101:10:192:0:140
-sca2003         1H  IN A    10.192.16.29 ; VM on the ganeti01.svc.codfw.wmnet cluster
-sca2004         1H  IN A    10.192.0.91 ; VM on the ganeti01.svc.codfw.wmnet cluster
+sca2003         1H  IN A    10.192.16.29 ; VM on ganeti01.svc.codfw.wmnet
+sca2004         1H  IN A    10.192.0.91 ; VM on ganeti01.svc.codfw.wmnet
 scb2001         1H  IN A    10.192.32.132
 scb2002         1H  IN A    10.192.48.43
 scb2003         1H  IN A    10.192.0.33
@@ -3341,14 +3341,14 @@ thumbor2001     1H  IN A    10.192.32.36
 thumbor2002     1H  IN A    10.192.32.37
 thumbor2003     1H  IN A    10.192.16.58
 thumbor2004     1H  IN A    10.192.16.59
-tureis          1H  IN A    10.192.16.25 ; VM on the ganeti01.svc.codfw.wmnet cluster
-vega            1H  IN A    10.192.16.121 ; VM on the ganeti01.svc.codfw.wmnet cluster
-vega            1H  IN AAAA 2620:0:860:102:10:192:16:121
+tureis          1H  IN A    10.192.16.25 ; VM on ganeti01.svc.codfw.wmnet
+vega            1H  IN A    10.192.16.121 ; VM on ganeti01.svc.codfw.wmnet
+vega            1H  IN AAAA 2620:0:860:102:10:192:16:121 ; VM on ganeti01.svc.codfw.wmnet
 wezen           1H  IN A    10.192.48.64
-webperf2001     5M  IN A    10.192.0.96   ; VM ganeti01.svc.codfw.wmnet
-webperf2001     5M  IN AAAA 2620:0:860:101:10:192:0:96   ; VM ganeti01.svc.codfw.wmnet
-webperf2002     1H  IN A    10.192.0.100  ; VM ganeti01.svc.codfw.wmnet
-webperf2002     1H  IN AAAA 2620:0:860:101:10:192:0:100 ; VM ganeti01.svc.codfw.wmnet
+webperf2001     5M  IN A    10.192.0.96 ; VM on ganeti01.svc.codfw.wmnet
+webperf2001     5M  IN AAAA 2620:0:860:101:10:192:0:96 ; VM on ganeti01.svc.codfw.wmnet
+webperf2002     1H  IN A    10.192.0.100 ; VM on ganeti01.svc.codfw.wmnet
+webperf2002     1H  IN AAAA 2620:0:860:101:10:192:0:100 ; VM on ganeti01.svc.codfw.wmnet
 wtp2001         1H  IN A    10.192.16.43
 wtp2002         1H  IN A    10.192.16.44
 wtp2003         1H  IN A    10.192.16.45

@@ -256,8 +256,8 @@ $ORIGIN 0.64.{{ zonename }}.
 16  1H IN PTR   scb1001.eqiad.wmnet.
 17  1H IN PTR   wdqs1004.eqiad.wmnet.
 18  1H IN PTR   conf1001.eqiad.wmnet.
-19  1H IN PTR   poolcounter1003.eqiad.wmnet.
-20  1H IN PTR   proton1001.eqiad.wmnet.
+19  1H IN PTR   poolcounter1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+20  1H IN PTR   proton1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 21  1H IN PTR   ms-be1028.eqiad.wmnet.
 22  1H IN PTR   tungsten.eqiad.wmnet.
 23  1H IN PTR   conf1004.eqiad.wmnet.
@@ -273,24 +273,24 @@ $ORIGIN 0.64.{{ zonename }}.
 33  1H IN PTR   restbase1016-b.eqiad.wmnet.
 34  1H IN PTR   restbase1016-c.eqiad.wmnet.
 35  1H IN PTR   druid1004.eqiad.wmnet.
-36  1H IN PTR   boron.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-37  1H IN PTR   logstash1007.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+36  1H IN PTR   boron.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+37  1H IN PTR   logstash1007.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 38  1H IN PTR   ms-fe1005.eqiad.wmnet.
 39  1H IN PTR   ms-fe1006.eqiad.wmnet.
 40  1H IN PTR   neon.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-41  1H IN PTR   etcd1002.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-42  1H IN PTR   etcd1003.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-43  1H IN PTR   etcd1004.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-44  1H IN PTR   etcd1005.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-45  1H IN PTR   chlorine.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-46  1H IN PTR   mwdebug1002.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-47  1H IN PTR   sca1004.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+41  1H IN PTR   etcd1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+42  1H IN PTR   etcd1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+43  1H IN PTR   etcd1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+44  1H IN PTR   etcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+45  1H IN PTR   chlorine.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+46  1H IN PTR   mwdebug1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+47  1H IN PTR   sca1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 48  1H IN PTR   kubestagetcd1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 49  1H IN PTR   kubestagetcd1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-50  1H IN PTR   planet1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+50  1H IN PTR   planet1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 51  1H IN PTR   ores1001.eqiad.wmnet.
 52  1H IN PTR   ores1002.eqiad.wmnet.
-53  1H IN PTR   hassium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+53  1H IN PTR   hassium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 56  1H IN PTR   mw1261.eqiad.wmnet.
 57  1H IN PTR   mw1262.eqiad.wmnet.
 58  1H IN PTR   mw1263.eqiad.wmnet.
@@ -322,10 +322,10 @@ $ORIGIN 0.64.{{ zonename }}.
 84  1H IN PTR   mc1023.eqiad.wmnet.
 85  1H IN PTR   elastic1044.eqiad.wmnet.
 86  1H IN PTR   elastic1045.eqiad.wmnet.
-87  1H IN PTR   orespoolcounter1001.eqiad.wmnet.
-88  1H IN PTR   releases1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+87  1H IN PTR   orespoolcounter1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+88  1H IN PTR   releases1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 89  1H IN PTR   restbase-dev1004.eqiad.wmnet.
-90  1H IN PTR   logstash1008.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+90  1H IN PTR   logstash1008.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 91  1H IN PTR   db1079.eqiad.wmnet.
 92  1H IN PTR   db1080.eqiad.wmnet.
 93  1H IN PTR   db1081.eqiad.wmnet.
@@ -346,7 +346,7 @@ $ORIGIN 0.64.{{ zonename }}.
 108 1H IN PTR   db1069.eqiad.wmnet.
 109 1H IN PTR   wdqs1006.eqiad.wmnet.
 110 1H IN PTR   db1066.eqiad.wmnet.
-111 1H IN PTR   matomo1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+111 1H IN PTR   matomo1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 112 1H IN PTR   restbase1010.eqiad.wmnet.
 113 1H IN PTR   restbase1011.eqiad.wmnet.
 114 1H IN PTR   restbase1010-a.eqiad.wmnet.
@@ -364,14 +364,14 @@ $ORIGIN 0.64.{{ zonename }}.
 126 1H IN PTR   aqs1004-a.eqiad.wmnet. ; cassandra instance
 127 1H IN PTR   aqs1004-b.eqiad.wmnet. ; cassandra instance
 128 1H IN PTR   db1111.eqiad.wmnet.
-129 1H IN PTR   kafkamon1001.eqiad.wmnet. ; VM ganeti01.svc.eqiad.wmnet
+129 1H IN PTR   kafkamon1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 130 1H IN PTR   cp1075.eqiad.wmnet.
 131 1H IN PTR   cp1076.eqiad.wmnet.
 132 1H IN PTR   cp1077.eqiad.wmnet.
 133 1H IN PTR   cp1078.eqiad.wmnet.
 134 1H IN PTR   dbproxy1012.eqiad.wmnet.
 135 1H IN PTR   dbproxy1013.eqiad.wmnet.
-136 1H IN PTR   people1001.eqiad.wmnet. ; VM ganeti01.svc.eqiad.wmnet
+136 1H IN PTR   people1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 137 1H IN PTR   dbstore1003.eqiad.wmnet.
 
 162 1H IN PTR   logstash1004.eqiad.wmnet.
@@ -401,8 +401,8 @@ $ORIGIN 0.64.{{ zonename }}.
 
 213 1H IN PTR   aqs1007-a.eqiad.wmnet. ; cassandra instance
 214 1H IN PTR   db1107.eqiad.wmnet.
-215 1H IN PTR   webperf1001.eqiad.wmnet. ; VM ganeti01.svc.eqiad.wmnet
-216 1H IN PTR   webperf1002.eqiad.wmnet. ; VM ganeti01.svc.eqiad.wmnet
+215 1H IN PTR   webperf1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+216 1H IN PTR   webperf1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 222 1H IN PTR   oxygen.eqiad.wmnet.
 223 1H IN PTR   restbase1007.eqiad.wmnet.
@@ -740,22 +740,22 @@ $ORIGIN 32.64.{{ zonename }}.
 10      1H IN PTR       ms-be1042.eqiad.wmnet.
 11      1H IN PTR       db1120.eqiad.wmnet.
 12      1H IN PTR       db1121.eqiad.wmnet.
-13      1H IN PTR       orespoolcounter1002.eqiad.wmnet.
+13      1H IN PTR       orespoolcounter1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 14      1H IN PTR       ores1005.eqiad.wmnet.
 15      1H IN PTR       ores1006.eqiad.wmnet.
 16      1H IN PTR       deploy1001.eqiad.wmnet.
-17      1H IN PTR       puppetboard1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+17      1H IN PTR       puppetboard1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 18      1H IN PTR       rdb1007.eqiad.wmnet.
 19      1H IN PTR       rdb1008.eqiad.wmnet.
 20      1H IN PTR       neodymium.eqiad.wmnet.
 21      1H IN PTR       elastic1051.eqiad.wmnet.
 22      1H IN PTR       elastic1052.eqiad.wmnet.
 23      1H IN PTR       kubernetes1003.eqiad.wmnet.
-24      1H IN PTR       roentgenium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+24      1H IN PTR       roentgenium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 25      1H IN PTR       cumin1001.eqiad.wmnet.
-26      1H IN PTR       certcentral1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-27      1H IN PTR       logstash1009.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-28      1H IN PTR       sca1003.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+26      1H IN PTR       certcentral1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+27      1H IN PTR       logstash1009.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+28      1H IN PTR       sca1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 29      1H IN PTR       pc1009.eqiad.wmnet.
 30      1H IN PTR       dbstore1005.eqiad.wmnet.
 31      1H IN PTR       ping1001.eqiad.wmnet.
@@ -788,8 +788,8 @@ $ORIGIN 32.64.{{ zonename }}.
 58      1H IN PTR       mw1346.eqiad.wmnet.
 59      1H IN PTR       mw1347.eqiad.wmnet.
 60      1H IN PTR       mw1348.eqiad.wmnet.
-61      1H IN PTR       proton1002.eqiad.wmnet.
-62      1H IN PTR       debmonitor1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+61      1H IN PTR       proton1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+62      1H IN PTR       debmonitor1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 63      1H IN PTR       wdqs1010.eqiad.wmnet.
 64      1H IN PTR       db1067.eqiad.wmnet.
 65      1H IN PTR       es1017.eqiad.wmnet.
@@ -836,16 +836,16 @@ $ORIGIN 32.64.{{ zonename }}.
 
 121     1H IN PTR       elastic1022.eqiad.wmnet.
 122     1H IN PTR       elastic1029.eqiad.wmnet.
-123     1H IN PTR       mwdebug1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+123     1H IN PTR       mwdebug1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
-126     1H IN PTR       poolcounter1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+126     1H IN PTR       poolcounter1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 127     1H IN PTR       kafka1003.eqiad.wmnet.
 128     1H IN PTR       db1095.eqiad.wmnet.
 129     1H IN PTR       restbase1017.eqiad.wmnet.
 130     1H IN PTR       restbase1017-a.eqiad.wmnet.
 131     1H IN PTR       restbase1017-b.eqiad.wmnet.
 132     1H IN PTR       restbase1017-c.eqiad.wmnet.
-133     1H IN PTR       argon.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+133     1H IN PTR       argon.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 136     1H IN PTR       db1078.eqiad.wmnet.
 
@@ -868,28 +868,28 @@ $ORIGIN 32.64.{{ zonename }}.
 171     1H IN PTR       ganeti1003.eqiad.wmnet.
 172     1H IN PTR       ganeti1004.eqiad.wmnet.
 173     1H IN PTR       ganeti01.svc.eqiad.wmnet.
-174     1H IN PTR       mendelevium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+174     1H IN PTR       mendelevium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 175     1H IN PTR       mwlog1001.eqiad.wmnet.
 
-177     1H IN PTR       etherpad1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+177     1H IN PTR       etherpad1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 178     1H IN PTR       restbase1008.eqiad.wmnet.
 
 180     1H IN PTR       conf1002.eqiad.wmnet.
-181     1H IN PTR       bromine.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-182     1H IN PTR       krypton.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-183     1H IN PTR       grafana1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+181     1H IN PTR       bromine.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+182     1H IN PTR       krypton.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+183     1H IN PTR       grafana1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 184     1H IN PTR       es1015.eqiad.wmnet.
 185     1H IN PTR       es1016.eqiad.wmnet.
 187     1H IN PTR       restbase1008-a.eqiad.wmnet.
-188     1H IN PTR       technetium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+188     1H IN PTR       technetium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 189     1H IN PTR       aqs1005-a.eqiad.wmnet. ; cassandra instance
 190     1H IN PTR       aqs1005-b.eqiad.wmnet. ; cassandra instance
 195     1H IN PTR       restbase1008-b.eqiad.wmnet.
 196     1H IN PTR       restbase1008-c.eqiad.wmnet.
 197     1H IN PTR       db1100.eqiad.wmnet.
 198     1H IN PTR       db1101.eqiad.wmnet.
-200     1H IN PTR       darmstadtium.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-201     1H IN PTR       d-i-test.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+200     1H IN PTR       darmstadtium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+201     1H IN PTR       d-i-test.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 202     1H IN PTR       restbase1012-a.eqiad.wmnet.
 203     1H IN PTR       restbase1012-b.eqiad.wmnet.
 204     1H IN PTR       restbase1012-c.eqiad.wmnet.
@@ -901,10 +901,10 @@ $ORIGIN 32.64.{{ zonename }}.
 210     1H IN PTR       mc1030.eqiad.wmnet.
 211     1H IN PTR       mc1031.eqiad.wmnet.
 212     1H IN PTR       mc1032.eqiad.wmnet.
-213     1H IN PTR       etcd1001.eqiad.wmnet.  ; VM on the ganeti01.svc.eqiad.wmnet cluster
-214     1H IN PTR       puppetdb1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+213     1H IN PTR       etcd1001.eqiad.wmnet.  ; VM on ganeti01.svc.eqiad.wmnet
+214     1H IN PTR       puppetdb1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
-218     1H IN PTR       etcd1006.eqiad.wmnet.   ; VM on the ganeti01.svc.eqiad.wmnet cluster
+218     1H IN PTR       etcd1006.eqiad.wmnet.   ; VM on ganeti01.svc.eqiad.wmnet
 
 220     1H IN PTR       ms-fe1007.eqiad.wmnet.
 221     1H IN PTR       ms-fe1008.eqiad.wmnet.
@@ -957,9 +957,9 @@ $ORIGIN 36.64.{{ zonename }}.
 107     1H IN PTR       notebook1004.eqiad.wmnet.
 108     1H IN PTR       analytics1074.eqiad.wmnet.
 109     1H IN PTR       analytics1075.eqiad.wmnet.
-110     1H IN PTR       analytics-tool1001.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-111     1H IN PTR       analytics-tool1002.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
-112     1H IN PTR       analytics-tool1003.eqiad.wmnet. ; VM on the ganeti01.svc.eqiad.wmnet cluster
+110     1H IN PTR       analytics-tool1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+111     1H IN PTR       analytics-tool1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+112     1H IN PTR       analytics-tool1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 113     1H IN PTR       an-worker1090.eqiad.wmnet.
 114     1H IN PTR       kafka1014.eqiad.wmnet.
 115     1H IN PTR       an-worker1091.eqiad.wmnet.
@@ -3021,15 +3021,15 @@ $ORIGIN 0.192.{{ zonename }}.
 11  1H IN PTR   kubernetes2001.codfw.wmnet.
 12  1H IN PTR   ores2001.codfw.wmnet.
 13  1H IN PTR   db2010.codfw.wmnet.
-14  1H IN PTR   debmonitor2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet cluster
+14  1H IN PTR   debmonitor2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 15  1H IN PTR   ms-be2040.codfw.wmnet.
 16  1H IN PTR   db2013.codfw.wmnet.
 17  1H IN PTR   db2014.codfw.wmnet.
 18  1H IN PTR   ores2002.codfw.wmnet.
 19  1H IN PTR   poolcounter2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 20  1H IN PTR   wdqs2004.codfw.wmnet.
-21  1H IN PTR   proton2001.codfw.wmnet.
-22  1H IN PTR   ping2001.codfw.wmnet.
+21  1H IN PTR   proton2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+22  1H IN PTR   ping2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 25  1H IN PTR   es2001.codfw.wmnet.
 26  1H IN PTR   es2002.codfw.wmnet.
 27  1H IN PTR   puppetmaster2001.codfw.wmnet.
@@ -3061,7 +3061,7 @@ $ORIGIN 0.192.{{ zonename }}.
 53  1H IN PTR   mw2228.codfw.wmnet.
 54  1H IN PTR   mw2229.codfw.wmnet.
 55  1H IN PTR   mw2230.codfw.wmnet.
-56  1H IN PTR   orespoolcounter2001.codfw.wmnet.
+56  1H IN PTR   orespoolcounter2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 57  1H IN PTR   mw2231.codfw.wmnet.
 58  1H IN PTR   mw2232.codfw.wmnet.
 59  1H IN PTR   mw2233.codfw.wmnet.
@@ -3096,19 +3096,19 @@ $ORIGIN 0.192.{{ zonename }}.
 88  1H IN PTR   ms-be2028.codfw.wmnet.
 89  1H IN PTR   ms-be2029.codfw.wmnet.
 90  1H IN PTR   ms-be2030.codfw.wmnet.
-91  1H IN PTR   sca2004.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
-92  1H IN PTR   planet2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
-93  1H IN PTR   acrux.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
-94  1H IN PTR   kubetcd2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
-95  1H IN PTR   kubetcd2002.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
-96  1H IN PTR   webperf2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
-97  1H IN PTR   kafkamon2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
-98  1H IN PTR   mwdebug2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
+91  1H IN PTR   sca2004.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+92  1H IN PTR   planet2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+93  1H IN PTR   acrux.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+94  1H IN PTR   kubetcd2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+95  1H IN PTR   kubetcd2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+96  1H IN PTR   webperf2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+97  1H IN PTR   kafkamon2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+98  1H IN PTR   mwdebug2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 99  1H IN PTR   db2048.codfw.wmnet.
-100 1H IN PTR   webperf2002.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
+100 1H IN PTR   webperf2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 101 1H IN PTR   db2094.codfw.wmnet.
 102 1H IN PTR   graphite2003.codfw.wmnet.
-103 1H IN PTR   certcentral2001.codfw.wmnet. ; VM ganeti01.svc.codfw.wmnet
+103 1H IN PTR   certcentral2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 104 1H IN PTR   pc2007.codfw.wmnet.
 105 1H IN PTR   ms-be2044.codfw.wmnet.
 106 1H IN PTR   ms-be2045.codfw.wmnet.
@@ -3116,7 +3116,7 @@ $ORIGIN 0.192.{{ zonename }}.
 108 1H IN PTR   elastic2038.codfw.wmnet.
 109 1H IN PTR   elastic2039.codfw.wmnet.
 110 1H IN PTR   elastic2040.codfw.wmnet.
-111 1H IN PTR   logstash2004.codfw.wmnet.    ; VM ganeti01.svc.codfw.wmnet
+111 1H IN PTR   logstash2004.codfw.wmnet.    ; VM on ganeti01.svc.codfw.wmnet
 112 1H IN PTR   logstash2001.codfw.wmnet.
 
 119 1H IN PTR   rdb2001.codfw.wmnet.
@@ -3185,13 +3185,13 @@ $ORIGIN 16.192.{{ zonename }}.
 21  1H IN PTR   poolcounter2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 22  1H IN PTR   db2051.codfw.wmnet.
 23  1H IN PTR   puppetboard2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-25  1H IN PTR   tureis.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
-26  1H IN PTR   acrab.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+25  1H IN PTR   tureis.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+26  1H IN PTR   acrab.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 27  1H IN PTR   es2003.codfw.wmnet.
 28  1H IN PTR   es2004.codfw.wmnet.
-29  1H IN PTR   sca2003.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+29  1H IN PTR   sca2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 30  1H IN PTR   kubetcd2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-31  1H IN PTR   oresrdb2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+31  1H IN PTR   oresrdb2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 32  1H IN PTR   ms-be2014.codfw.wmnet.
 33  1H IN PTR   graphite2001.codfw.wmnet.
 34  1H IN PTR   db2096.codfw.wmnet.
@@ -3235,8 +3235,8 @@ $ORIGIN 16.192.{{ zonename }}.
 72  1H IN PTR   ms-be2041.codfw.wmnet.
 73  1H IN PTR   db2035.codfw.wmnet.
 74  1H IN PTR   db2045.codfw.wmnet.
-75  1H IN PTR   proton2002.codfw.wmnet.
-76  1H IN PTR   orespoolcounter2002.codfw.wmnet.
+75  1H IN PTR   proton2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+76  1H IN PTR   orespoolcounter2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 77  1H IN PTR   ms-be2046.codfw.wmnet.
 78  1H IN PTR   ms-be2047.codfw.wmnet.
 79  1H IN PTR   sessionstore2001.codfw.wmnet.
@@ -3268,7 +3268,7 @@ $ORIGIN 16.192.{{ zonename }}.
 118 1H IN PTR   mw2145.codfw.wmnet.
 119 1H IN PTR   mw2146.codfw.wmnet.
 120 1H IN PTR   mw2147.codfw.wmnet.
-121 1H IN PTR   vega.codfw.wmnet.
+121 1H IN PTR   vega.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 122 1H IN PTR   rdb2003.codfw.wmnet.
 123 1H IN PTR   rdb2004.codfw.wmnet.
 
@@ -3285,9 +3285,9 @@ $ORIGIN 16.192.{{ zonename }}.
 136 1H IN PTR   cp2010.codfw.wmnet.
 137 1H IN PTR   cp2011.codfw.wmnet.
 138 1H IN PTR   cp2012.codfw.wmnet.
-139 1H IN PTR   pybal-test2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
-140 1H IN PTR   pybal-test2002.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
-141 1H IN PTR   pybal-test2003.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+139 1H IN PTR   pybal-test2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+140 1H IN PTR   pybal-test2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+141 1H IN PTR   pybal-test2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 142 1H IN PTR   pybal-testsvc.codfw.wmnet.  ; service IP
 
 152 1H IN PTR   restbase2001.codfw.wmnet.
@@ -3300,21 +3300,21 @@ $ORIGIN 16.192.{{ zonename }}.
 165 1H IN PTR   restbase2002-a.codfw.wmnet.
 166 1H IN PTR   restbase2002-b.codfw.wmnet.
 167 1H IN PTR   restbase2002-c.codfw.wmnet.
-168 1H IN PTR   cygnus.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+168 1H IN PTR   cygnus.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 169 1H IN PTR   kafka2002.codfw.wmnet.
 170 1H IN PTR   pc2004.codfw.wmnet.
 171 1H IN PTR   es2011.codfw.wmnet.
 172 1H IN PTR   es2018.codfw.wmnet.
-173 1H IN PTR   hassaleh.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
-174 1H IN PTR   releases2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+173 1H IN PTR   hassaleh.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+174 1H IN PTR   releases2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 175 1H IN PTR   restbase2007.codfw.wmnet.
 176 1H IN PTR   restbase2007-a.codfw.wmnet.
 177 1H IN PTR   restbase2007-b.codfw.wmnet.
 178 1H IN PTR   restbase2007-c.codfw.wmnet.
 179 1H IN PTR   maps2002.codfw.wmnet.
 
-182 1H IN PTR   elnath.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
-183 1H IN PTR   puppetdb2001.codfw.wmnet. ; VM on the ganeti01.svc.codfw.wmnet cluster
+182 1H IN PTR   elnath.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+183 1H IN PTR   puppetdb2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 185 1H IN PTR   restbase2010.codfw.wmnet.
 186 1H IN PTR   restbase2010-a.codfw.wmnet.
 187 1H IN PTR   restbase2010-b.codfw.wmnet.

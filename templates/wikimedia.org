@@ -124,16 +124,16 @@ acamar          1H  IN A    208.80.153.12
 acamar          1H  IN AAAA 2620:0:860:1:208:80:153:12
 achernar        1H  IN A    208.80.153.42
 achernar        1H  IN AAAA 2620:0:860:2:208:80:153:42
-actinium        1H  IN A    208.80.154.49
-actinium        1H  IN AAAA 2620:0:861:1:208:80:154:49
-alcyone         1H  IN A    208.80.153.16
-alcyone         1H  IN AAAA 2620:0:860:1:208:80:153:16
-alsafi          1H  IN A    208.80.153.50
-alsafi          1H  IN AAAA 2620:0:860:2:208:80:153:50
-aluminium       1H  IN A    208.80.154.80 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-aluminium       1H  IN AAAA 2620:0:861:3:208:80:154:80
-archiva1001     1H  IN A    208.80.154.16 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-archiva1001     1H  IN AAAA 2620:0:861:1:208:80:154:16
+actinium        1H  IN A    208.80.154.49 ; VM on ganeti01.svc.eqiad.wmnet
+actinium        1H  IN AAAA 2620:0:861:1:208:80:154:49 ; VM on ganeti01.svc.eqiad.wmnet
+alcyone         1H  IN A    208.80.153.16 ; VM on ganeti01.svc.codfw.wmnet
+alcyone         1H  IN AAAA 2620:0:860:1:208:80:153:16 ; VM on ganeti01.svc.codfw.wmnet
+alsafi          1H  IN A    208.80.153.50 ; VM on ganeti01.svc.codfw.wmnet
+alsafi          1H  IN AAAA 2620:0:860:2:208:80:153:50 ; VM on ganeti01.svc.codfw.wmnet
+aluminium       1H  IN A    208.80.154.80 ; VM on ganeti01.svc.eqiad.wmnet
+aluminium       1H  IN AAAA 2620:0:861:3:208:80:154:80 ; VM on ganeti01.svc.eqiad.wmnet
+archiva1001     1H  IN A    208.80.154.16 ; VM on ganeti01.svc.eqiad.wmnet
+archiva1001     1H  IN AAAA 2620:0:861:1:208:80:154:16 ; VM on ganeti01.svc.eqiad.wmnet
 astatine        1H  IN A    208.80.155.110
 authdns1001     1H  IN A    208.80.154.134
 authdns1001     1H  IN AAAA 2620:0:861:2:208:80:154:134
@@ -180,14 +180,14 @@ dns5001         1H  IN A    103.102.166.8
 dns5001         1H  IN AAAA 2001:df2:e500:1:103:102:166:8
 dns5002         1H  IN A    103.102.166.9
 dns5002         1H  IN AAAA 2001:df2:e500:1:103:102:166:9
-dubnium         1H  IN A    208.80.154.13
+dubnium         1H  IN A    208.80.154.13 ; VM on ganeti01.svc.eqiad.wmnet
 cp1008          1H  IN A    208.80.154.42
 eeden           1H  IN A    91.198.174.121
 eeden           1H  IN AAAA 2620:0:862:1:91:198:174:121
 einsteinium     1H  IN A    208.80.155.119
 einsteinium     1H  IN AAAA 2620:0:861:4:208:80:155:119
-fermium         1H  IN A    208.80.154.14 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-fermium         1H  IN AAAA 2620:0:861:1:208:80:154:14 ; VM on the ganeti01.svc.eqiad.wmnet cluster
+fermium         1H  IN A    208.80.154.14 ; VM on ganeti01.svc.eqiad.wmnet
+fermium         1H  IN AAAA 2620:0:861:1:208:80:154:14 ; VM on ganeti01.svc.eqiad.wmnet
 frbast-eqiad    1H  IN A    208.80.155.8
 frbast-codfw    1H  IN A    208.80.152.231
 frdata-eqiad    1H  IN A    208.80.155.10
@@ -200,14 +200,14 @@ icinga1001      1H  IN A    208.80.154.84
 icinga1001      1H  IN AAAA 2620:0:861:3:208:80:154:84
 icinga2001      1H  IN A    208.80.153.74
 icinga2001      1H  IN AAAA 2620:0:860:3:208:80:153:74
-install1002     1H  IN A    208.80.154.22
-install1002     1H  IN AAAA 2620:0:861:1:208:80:154:22
-install2002     1H  IN A    208.80.153.53
-install2002     1H  IN AAAA 2620:0:860:2:208:80:153:53
+install1002     1H  IN A    208.80.154.22 ; VM on ganeti01.svc.eqiad.wmnet
+install1002     1H  IN AAAA 2620:0:861:1:208:80:154:22 ; VM on ganeti01.svc.eqiad.wmnet
+install2002     1H  IN A    208.80.153.53 ; VM on ganeti01.svc.codfw.wmnet
+install2002     1H  IN AAAA 2620:0:860:2:208:80:153:53 ; VM on ganeti01.svc.codfw.wmnet
 iron            1H  IN A    208.80.154.151
 iron            1H  IN AAAA 2620:0:861:2:208:80:154:151
-kraz            1H  IN A    208.80.153.44
-kraz            1H  IN AAAA 2620:0:860:2:208:80:153:44
+kraz            1H  IN A    208.80.153.44 ; VM on ganeti01.svc.codfw.wmnet
+kraz            1H  IN AAAA 2620:0:860:2:208:80:153:44 ; VM on ganeti01.svc.codfw.wmnet
 labcontrol1001      1H  IN A    208.80.154.92
 labcontrol1001      1H  IN AAAA 2620:0:861:3:208:80:154:92
 labcontrol1002      1H  IN A    208.80.154.95
@@ -273,21 +273,21 @@ sodium          1H  IN A    208.80.154.15
 sodium          1H  IN AAAA 2620:0:861:1:208:80:154:15
 multatuli       1H  IN A    91.198.174.114
 multatuli       1H  IN AAAA 2620:0:862:1:91:198:174:114
-mx1001          1H  IN A    208.80.154.76 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-mx1001          1H  IN AAAA 2620:0:861:3:208:80:154:76
-mx2001          1H  IN A    208.80.153.45 ; VM on the ganeti01.svc.codfw.wmnet cluster
-mx2001          1H  IN AAAA 2620:0:860:2:208:80:153:45
+mx1001          1H  IN A    208.80.154.76 ; VM on ganeti01.svc.eqiad.wmnet
+mx1001          1H  IN AAAA 2620:0:861:3:208:80:154:76 ; VM on ganeti01.svc.eqiad.wmnet
+mx2001          1H  IN A    208.80.153.45 ; VM on ganeti01.svc.codfw.wmnet
+mx2001          1H  IN AAAA 2620:0:860:2:208:80:153:45 ; VM on ganeti01.svc.codfw.wmnet
 nescio          1H  IN A    91.198.174.106
 nescio          1H  IN AAAA 2620:0:862:1:91:198:174:106
 netmon1002      1H  IN A    208.80.154.5
 netmon1002      1H  IN AAAA 2620:0:861:1:208:80:154:5
-netmon1003      1H  IN A    208.80.154.6
-netmon1003      1H  IN AAAA 2620:0:861:1:208:80:154:6
+netmon1003      1H  IN A    208.80.154.6 ; VM on ganeti01.svc.eqiad.wmnet
+netmon1003      1H  IN AAAA 2620:0:861:1:208:80:154:6 ; VM on ganeti01.svc.eqiad.wmnet
 netmon2001      1H  IN A    208.80.153.110
 netmon2001      1H  IN AAAA 2620:0:860:4:208:80:153:110
 pay-lvs1001     1H  IN A    208.80.155.2
 pay-lvs1002     1H  IN A    208.80.155.3
-pollux          1H  IN A    208.80.153.43 ; VM on the ganeti01.svc.codfw.wmnet cluster
+pollux          1H  IN A    208.80.153.43 ; VM on ganeti01.svc.codfw.wmnet
 procyon         1H  IN A    208.80.152.245
 radon           1H  IN A    208.80.154.93
 radon           1H  IN AAAA 2620:0:861:3:208:80:154:93
@@ -302,8 +302,8 @@ ripe-atlas-ulsfo 1H IN A    198.35.26.244
 ripe-atlas-ulsfo 1H IN AAAA 2620:0:863:201:198:35:26:244
 ripe-atlas-eqsin 1H IN A    103.102.166.20
 ripe-atlas-eqsin 1H IN AAAA 2001:df2:e500:201:103:102:166:20
-seaborgium      1H  IN A    208.80.154.79 ; VM on the ganeti01.svc.eqiad.wmnet cluster
-serpens         1H  IN A    208.80.153.49 ; VM on the ganeti01.svc.codfw.wmnet cluster
+seaborgium      1H  IN A    208.80.154.79 ; VM on ganeti01.svc.eqiad.wmnet
+serpens         1H  IN A    208.80.153.49 ; VM on ganeti01.svc.codfw.wmnet
 torrelay1001    1H  IN A    208.80.154.9
 torrelay1001    1H  IN AAAA 2620:0:861:1:208:80:154:9
 ununpentium     1H  IN A    208.80.154.19 ; VM on ganeti01.svc.eqiad.wmnet
@@ -586,10 +586,10 @@ dash.frdev      1H  IN CNAME    frdev-eqiad
 
 design          600 IN DYNA     geoip!text-addrs
 
-dbmonitor1001   600 IN A        208.80.154.82
-dbmonitor1001   600 IN AAAA     2620:0:861:3:208:80:154:82
-dbmonitor2001   600 IN A        208.80.153.52
-dbmonitor2001   600 IN AAAA     2620:0:860:2:208:80:153:52
+dbmonitor1001   600 IN A        208.80.154.82 ; VM on ganeti01.svc.eqiad.wmnet
+dbmonitor1001   600 IN AAAA     2620:0:861:3:208:80:154:82 ; VM on ganeti01.svc.eqiad.wmnet
+dbmonitor2001   600 IN A        208.80.153.52 ; VM on ganeti01.svc.codfw.wmnet
+dbmonitor2001   600 IN AAAA     2620:0:860:2:208:80:153:52 ; VM on ganeti01.svc.codfw.wmnet
 dbtree          600 IN DYNA     geoip!text-addrs
 
 debmonitor      600 IN DYNA     geoip!text-addrs
