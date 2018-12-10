@@ -1,0 +1,27 @@
+options => {
+    $include{config-options},
+}
+
+service_types => {
+   $include{discovery-states}
+}
+
+plugins => {
+    geoip => {
+        maps => {
+            $include{geo-maps},
+            $include{discovery-map},
+        },
+        resources => {
+            $include{geo-resources},
+            $include{discovery-geo-resources},
+        },
+    },
+    metafo => {
+        resources => {
+            $include{discovery-metafo-resources},
+        },
+    },
+    static => { }, # this is necessary for failoid's static service_type!
+    reflect => { }, # needs no config, but must be loaded first :)
+}
