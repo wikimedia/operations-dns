@@ -2298,6 +2298,7 @@ $ORIGIN 4.65.{{ zonename }}.
 106 1H  IN PTR      analytics1068.mgmt.eqiad.wmnet.
 106 1H  IN PTR      wmf7081.mgmt.eqiad.wmnet.
 107 1H  IN PTR      analytics1069.mgmt.eqiad.wmnet.
+107 1H  IN PTR      wmf7100.mgmt.eqiad.wmnet.
 108 1H  IN PTR      wmf7104.mgmt.eqiad.wmnet.
 108 1H  IN PTR      ores1001.mgmt.eqiad.wmnet.
 109 1H  IN PTR      wmf7105.mgmt.eqiad.wmnet.
