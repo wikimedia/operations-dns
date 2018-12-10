@@ -464,7 +464,6 @@ $ORIGIN 5.64.{{ zonename }}.
 2   1H IN PTR   ae1-1030.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae1-1030.cr2-eqiad.wikimedia.org.
 
-10  1H IN PTR   analytics1009.eqiad.wmnet.
 12  1H IN PTR   kafka1012.eqiad.wmnet.
 13  1H IN PTR   kafka1013.eqiad.wmnet.
 14  1H IN PTR   kafka1023.eqiad.wmnet.
