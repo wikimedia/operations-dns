@@ -1,0 +1,18 @@
+The authdns_gen_zones.py file here is used by our production "authdns-update"
+and related infrastructure to generate the final, deployed zonefiles.
+
+There are also two tests here which must be executed from the repo root:
+
+1) zones_validator.py
+
+This validates zone data according to some WMF-specific policy rules, and
+requires Python 3.5+.
+
+2) check-gdnsd.sh
+
+This validates that the configuration and zone data load with gdnsd itself.
+It uses the same authdns-gen-zones.py that production deployment uses, but
+targeted at a temporary directory, and fleshes out the parts of the config
+that would normally be supplied by puppet using data from the mock_etc/
+subdirectory.  It requires an installed copy of the gdnsd package, as well as
+Python and the jinja2 module for the execution of authdns-gen-zones.py.
