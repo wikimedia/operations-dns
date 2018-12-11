@@ -431,7 +431,7 @@ class PrintList(list):
 class DNSRecord:
     """A DNS Record object, immutable."""
     # Specify the fields that can be set, also optimizing them.
-    __slots__ = ['name', 'type', 'value', 'file', 'line', 'comment']
+    __slots__ = ['name', 'type', 'value', 'file', 'line', 'comment', 'is_ganeti']
 
     def __init__(self, name, record_type, value, file, line, comment=''):
         """Constructor of as DNSRecord object."""
@@ -442,6 +442,7 @@ class DNSRecord:
         object.__setattr__(self, 'file', file)
         object.__setattr__(self, 'line', line)
         object.__setattr__(self, 'comment', comment)
+        object.__setattr__(self, 'is_ganeti', 'VM on ganeti' in comment)
 
     def __setattr__(self, *args):
         """Do not allow to modify existing attributes."""
@@ -599,7 +600,7 @@ class ZonesValidator:
             comment = comments[0].strip() if comments else ''
             record = DNSRecord(fqdn, record_type, ip, self.zone, lineno, comment=comment)
 
-            self.unique_records[record].append(record)
+            self.unique_records[fqdn].append(record)
             self.names['IP'][self.origin][ip].append(record)
             self.ips[self.origin][fqdn].append(record)
             if self._is_mgmt(self.origin):
@@ -620,7 +621,7 @@ class ZonesValidator:
             comment = comments[0].strip() if comments else ''
             record = DNSRecord(ptr, record_type, fqdn, self.zone, lineno, comment=comment)
 
-            self.unique_records[record].append(record)
+            self.unique_records[fqdn].append(record)
             self.names['PTR'][self.origin][ptr].append(record)
             self.ptrs[self.origin][fqdn].append(record)
             if '.mgmt.' in fqdn:
@@ -628,9 +629,8 @@ class ZonesValidator:
 
     def _validate(self):
         """Validate all the parsed records."""
-        duplicates = [records for records in self.unique_records.values() if len(records) > 1]
-        for duplicate_records in duplicates:
-            self.reporter.e_global_duplicate(duplicate_records)
+        self._find_duplicates()
+        self._validate_ganeti_comments()
 
         for origin in sorted(self.origins):
             is_mgmt = self._is_mgmt(origin)
@@ -638,6 +638,22 @@ class ZonesValidator:
             self._validate_origin_names(origin, is_mgmt)
             self._validate_origin_ips(origin, is_mgmt)
             self._validate_origin_ptrs(origin, is_mgmt)
+
+    def _find_duplicates(self):
+        """Find all global duplicate records."""
+        for records in self.unique_records.values():
+            duplicates = [record for record in records if records.count(record) > 1]
+            for duplicate in duplicates:
+                self.reporter.e_global_duplicate(duplicates)
+
+    def _validate_ganeti_comments(self):
+        """Check if any Ganeti comments are missing."""
+        for name, records in self.unique_records.items():
+            missing = PrintList(record for record in records if not record.is_ganeti)
+            if missing == records or not missing:  # Either not a Ganeti instance or all comments are there
+                continue
+
+            self.reporter.w_missing_ganeti_comment(name, missing)
 
     def _validate_origin_names(self, origin, is_mgmt):
         """Validate IPs and PTRs in the given origin."""
@@ -763,7 +779,7 @@ class ZonesValidator:
         if name.split('.')[0] + '.mgmt' in self.fqdn_mgmt_prefixes:
             return
 
-        ganeti = [record for record in records if 'ganeti' in record.comment.lower()]
+        ganeti = [record for record in records if record.is_ganeti]
         if not ganeti:
             self.reporter.w_missing_mgmt_for_name(name, records)
 
