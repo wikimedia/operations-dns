@@ -2598,7 +2598,12 @@ $ORIGIN 6.65.{{ zonename }}.
 9       1H IN PTR       auth1002.mgmt.eqiad.wmnet.
 9       1H IN PTR       wmf7392.mgmt.eqiad.wmnet.
 10      1H IN PTR       wmf7043.mgmt.eqiad.wmnet.
-
+11      1H IN PTR       sessionstore1001.mgmt.eqiad.wmnet.
+11      1H IN PTR       wmf7475.mgmt.eqiad.wmnet.
+12      1H IN PTR       sessionstore1002.mgmt.eqiad.wmnet.
+12      1H IN PTR       wmf7476.mgmt.eqiad.wmnet.
+13      1H IN PTR       sessionstore1003.mgmt.eqiad.wmnet.
+13      1H IN PTR       wmf7477.mgmt.eqiad.wmnet.
 14      1H IN PTR       tungsten.mgmt.eqiad.wmnet.
 14      1H IN PTR       wmf3077.mgmt.eqiad.wmnet.
 15      1H IN PTR       cloudvirtan1001.mgmt.eqiad.wmnet.

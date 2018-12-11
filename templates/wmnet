@@ -2362,6 +2362,12 @@ scb1002     1H  IN A    10.65.3.178
 wmf5843     1H  IN A    10.65.3.179
 scb1001     1H  IN A    10.65.3.179
 wmf3568     1H  IN A    10.65.3.141
+sessionstore1001 1H  IN A    10.65.6.11
+wmf7475          1H  IN A    10.65.6.11
+sessionstore1002 1H  IN A    10.65.6.12
+wmf7476          1H  IN A    10.65.6.12
+sessionstore1003 1H  IN A    10.65.6.13
+wmf7477          1H  IN A    10.65.6.13
 neodymium        1H  IN A    10.65.3.141
 wmf3570          1H  IN A    10.65.3.143
 wmf3571          1H  IN A    10.65.3.144
