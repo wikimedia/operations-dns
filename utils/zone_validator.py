@@ -50,7 +50,7 @@ following ORIGIN-specific validations:
       - ignore if record start with one of the NO_ASSET_TAG_PREFIXES
     - 2 found
       - no asset tag is found [Warning.MISSING_ASSET_TAG]
-      - multiple asset tags found [Warning.MULTIPLE_ASSET_TAGS]
+      - multiple asset tags found [Error.MULTIPLE_ASSET_TAGS]
   - expect 1 IP for each record name [Error.MULTIPLE_IPS_FOR_NAME]
 
 - Regular ORIGIN
@@ -62,7 +62,7 @@ following ORIGIN-specific validations:
     - unless is a 4th level name (i.e. foo.$host.$dc.wmnet)
     - unless is a Ganeti VMs (detected via the comment)
       - expect all Ganeti records have the comment
-        [Warning.MISSING_GANETI_COMMENT]
+        [Error.MISSING_GANETI_COMMENT]
   - expect 1 record per name unless dual stack [Error.MULTIPLE_IPS_FOR_NAME]
     - if 2 records, expect dual stack (v4 + v6)
       [Warning.MISSING_DUAL_STACK_FOR_NAME]
@@ -155,6 +155,8 @@ class Error(ViolationBase):
     MULTIPLE_IPS_FOR_NAME = 'E101'
     TOO_MANY_MGMT_NAMES = 'E102'
     TOO_MANY_NAMES = 'E103'
+    MULTIPLE_ASSET_TAGS = 'E104'
+    MISSING_GANETI_COMMENT = 'E105'
 
     @property
     def level(self):
@@ -176,12 +178,10 @@ class Warning(ViolationBase):
     MISSING_PTR_FOR_NAME_AND_IP = 'W002'
     # Codes in the W101-W999 range are WMF-specific warnings
     MISSING_ASSET_TAG = 'W101'
-    MULTIPLE_ASSET_TAGS = 'W102'
-    MISSING_DUAL_STACK_FOR_NAME = 'W103'
-    MISSING_MGMT_FOR_NAME = 'W104'
-    MISSING_GANETI_COMMENT = 'W105'
-    TOO_FEW_MGMT_NAMES = 'W106'
-    TOO_MANY_PUBLIC_NAMES = 'W107'
+    MISSING_DUAL_STACK_FOR_NAME = 'W102'
+    MISSING_MGMT_FOR_NAME = 'W103'
+    TOO_FEW_MGMT_NAMES = 'W104'
+    TOO_MANY_PUBLIC_NAMES = 'W105'
 
     @property
     def level(self):
@@ -380,6 +380,12 @@ class ViolationsReporter:
         self._err(records, "Found %d name(s) for %s '%s', expected 1: %s",
                   len(records), label, value, records)
 
+    def e_multiple_asset_tags(self, label, value, records):
+        self._err(records, "Multiple asset tags found for %s '%s': %s", label, value, records)
+
+    def e_missing_ganeti_comment(self, name, records):
+        self._err(records, "Missing ganeti comment for name '%s' in record(s): %s", name, records)
+
     # WARNINGS
 
     def w_missing_ip_for_name_and_ptr(self, record):
@@ -395,18 +401,12 @@ class ViolationsReporter:
         names = ' '.join(record.get_name() for record in records)
         self._warn(records, "Missing asset tag for %s '%s' and name(s) '%s'", label, value, names)
 
-    def w_multiple_asset_tags(self, label, value, records):
-        self._warn(records, "Multiple asset tags found for %s '%s': %s", label, value, records)
-
     def w_missing_dual_stack_for_name(self, name, records):
         self._warn(records, "Found %d IP(s) for name '%s' but expected dual stack (IPv4 + IPv6): %s",
                    len(records), name, records)
 
     def w_missing_mgmt_for_name(self, name, records):
         self._warn(records, "Missing mgmt record for name '%s' and record(s): %s", name, records)
-
-    def w_missing_ganeti_comment(self, name, records):
-        self._warn(records, "Missing ganeti comment for name '%s' in record(s): %s", name, records)
 
     def w_too_few_mgmt_names(self, label, value, records):
         self._warn(records, "Found %d name(s) for %s '%s', expected 2 (hostname, wmfNNNN): %s",
@@ -653,7 +653,7 @@ class ZonesValidator:
             if missing == records or not missing:  # Either not a Ganeti instance or all comments are there
                 continue
 
-            self.reporter.w_missing_ganeti_comment(name, missing)
+            self.reporter.e_missing_ganeti_comment(name, missing)
 
     def _validate_origin_names(self, origin, is_mgmt):
         """Validate IPs and PTRs in the given origin."""
@@ -686,7 +686,7 @@ class ZonesValidator:
         if all(match is None for match in matches):
             self.reporter.w_missing_asset_tag(label, ip, records)
         elif sum(match is not None for match in matches) > 1:
-            self.reporter.w_multiple_asset_tags(label, ip, records)
+            self.reporter.e_multiple_asset_tags(label, ip, records)
 
     def _validate_names(self, value, records, label):
         """Validate record names for all the given IP/PTR, only one record expected."""
@@ -785,7 +785,7 @@ class ZonesValidator:
 
         elif len(ganeti) < len(records):
             missing = PrintList([record for record in records if record not in ganeti])
-            self.reporter.w_missing_ganeti_comment(name, missing)
+            self.reporter.e_missing_ganeti_comment(name, missing)
 
     def _is_mgmt(self, origin):
         """Return True if the given origin is a management one."""
