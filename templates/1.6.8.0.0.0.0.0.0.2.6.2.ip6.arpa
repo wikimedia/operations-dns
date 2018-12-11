@@ -420,9 +420,6 @@ $ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 1.0.0.0 1H IN PTR   text-lb.eqiad.wikimedia.org.
 
-; wrong subnet, but not important...
-e.0.0.0 1H IN PTR   ns0.wikimedia.org.
-
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 ; - 2620:0:861:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS high-traffic2 (Multimedia & Misc)

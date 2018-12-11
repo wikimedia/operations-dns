@@ -82,9 +82,6 @@ $ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 1.0.0.0                         1H IN PTR   text-lb.esams.wikimedia.org.
 
-; wrong subnet, but unimportant...
-e.0.0.0                         1H IN PTR   ns2.wikimedia.org.
-
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
 
 ; - 2620:0:862:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS high-traffic2 Multimedia & Misc
