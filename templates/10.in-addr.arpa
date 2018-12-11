@@ -4748,12 +4748,7 @@ $ORIGIN 2.193.{{ zonename }}.
 229 1H IN PTR  wmf6368.mgmt.codfw.wmnet.
 230 1H IN PTR  scb2002.mgmt.codfw.wmnet.
 230 1H IN PTR  wmf6384.mgmt.codfw.wmnet.
-231 1H IN PTR  pc2004.mgmt.codfw.wmnet.
-231 1H IN PTR  wmf6387.mgmt.codfw.wmnet.
-232 1H IN PTR  pc2005.mgmt.codfw.wmnet.
-232 1H IN PTR  wmf6388.mgmt.codfw.wmnet.
-233 1H IN PTR  pc2006.mgmt.codfw.wmnet.
-233 1H IN PTR  wmf6389.mgmt.codfw.wmnet.
+
 234 1H IN PTR  sarin.mgmt.codfw.wmnet.
 234 1H IN PTR  wmf5851.mgmt.codfw.wmnet.
 235 1H IN PTR  es2011.mgmt.codfw.wmnet.
