@@ -3307,7 +3307,7 @@ $ORIGIN 16.192.{{ zonename }}.
 167 1H IN PTR   restbase2002-c.codfw.wmnet.
 168 1H IN PTR   cygnus.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 169 1H IN PTR   kafka2002.codfw.wmnet.
-170 1H IN PTR   pc2004.codfw.wmnet.
+
 171 1H IN PTR   es2011.codfw.wmnet.
 172 1H IN PTR   es2018.codfw.wmnet.
 173 1H IN PTR   hassaleh.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
