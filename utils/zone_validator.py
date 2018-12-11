@@ -14,6 +14,8 @@ Parsing will fail in any of the following cases:
 - all A/AAAA/PTR records must be relative to their $ORIGIN, fully qualified
   records are not supported.
 - unable to reverse a PTR record.
+- unable to instantiate the IP for A/AAAA records
+- wrong IP version for A/AAAA records (IPv4 for AAAA or IPv6 for A)
 
 While parsing the following records are skipped:
 - all records that are not A, AAAA or PTR.
@@ -360,9 +362,8 @@ class ViolationsReporter:
         self._err(records, 'Global duplicate records found: %s', records)
 
     def e_missing_or_wrong_ip_for_name_and_ptr(self, record, ips):
-        ip = record.get_ip()
         self._err([record], "Missing IPv%d '%s' for name '%s' and PTR '%s'. Current IPs are: %s",
-                  ip.version, ip, record.value, record.name, ips)
+                  record.ip.version, record.ip, record.name, record.key, ips)
 
     def e_missing_or_wrong_ptr_for_name_and_ip(self, ptr, name, ip, ptrs, records):
         self._err(records, "Missing PTR '%s' for name '%s' and IP '%s', PTRs are: %s",
@@ -389,16 +390,15 @@ class ViolationsReporter:
     # WARNINGS
 
     def w_missing_ip_for_name_and_ptr(self, record):
-        ip = record.get_ip()
         self._warn([record], "Missing IPv%d '%s' for name '%s' and PTR '%s'. No current IP set.",
-                   ip.version, ip, record.value, record.name)
+                   record.ip.version, record.ip, record.name, record.key)
 
     def w_missing_ptr_for_name_and_ip(self, ptr, name, ip, ptrs, records):
         self._warn(records, "Missing PTR '%s' for name '%s' and IP '%s', PTRs are: %s",
                    ptr, name, ip, ptrs)
 
     def w_missing_asset_tag(self, label, value, records):
-        names = ' '.join(record.get_name() for record in records)
+        names = ' '.join(record.name for record in records)
         self._warn(records, "Missing asset tag for %s '%s' and name(s) '%s'", label, value, names)
 
     def w_missing_dual_stack_for_name(self, name, records):
@@ -431,17 +431,41 @@ class PrintList(list):
 class DNSRecord:
     """A DNS Record object, immutable."""
     # Specify the fields that can be set, also optimizing them.
-    __slots__ = ['name', 'type', 'value', 'file', 'line', 'comment', 'is_ganeti']
+    __slots__ = ['key', 'type', 'value', 'file', 'line', 'comment', 'name', 'ip', 'is_ganeti']
 
-    def __init__(self, name, record_type, value, file, line, comment=''):
+    def __init__(self, key, record_type, value, file, line, comment=''):
         """Constructor of as DNSRecord object."""
+        if record_type in ('A', 'AAAA'):
+            name = key
+            ip = ipaddress.ip_address(value)
+            if (record_type == 'A' and ip.version != 4) or (record_type == 'AAAA' and ip.version != 6):
+                raise ValueError("Invalid IPv{ver} value '{ip}' for record {type}: {name}".format(
+                    ver=ip.version, ip=ip, type=record_type, name=name))
+
+        elif record_type == 'PTR':
+            name = value
+            # Reverse the PTR back to IP
+            reverse = key.split('.')[:-3][::-1]
+            if key.endswith(IPV6_REVERSE_DOMAIN):
+                addr = ':'.join(''.join(reverse[i:i+4]) for i in range(0, 32, 4))
+            elif key.endswith(IPV4_REVERSE_DOMAIN):
+                addr = '.'.join(reverse)
+            else:
+                raise ValueError('Unknown PTR type: {pointer}'.format(pointer=key))
+
+            ip = ipaddress.ip_address(addr)
+        else:
+            raise ValueError('Unrecognized record type: {type}', type=record_type)
+
         # Use object's __setattr__ to bypass the its own __setattr__.
-        object.__setattr__(self, 'name', name)
+        object.__setattr__(self, 'key', key)
         object.__setattr__(self, 'type', record_type)
         object.__setattr__(self, 'value', value)
         object.__setattr__(self, 'file', file)
         object.__setattr__(self, 'line', line)
         object.__setattr__(self, 'comment', comment)
+        object.__setattr__(self, 'name', name)
+        object.__setattr__(self, 'ip', ip)
         object.__setattr__(self, 'is_ganeti', 'VM on ganeti' in comment)
 
     def __setattr__(self, *args):
@@ -454,47 +478,22 @@ class DNSRecord:
 
     def __repr__(self):
         """Representation of the object."""
-        return '<DNSRecord {o.name} {o.type} {o.value} ({o.file}:{o.line}) {o.comment}>'.format(o=self)
+        return '<DNSRecord {o.key} {o.type} {o.value} ({o.file}:{o.line}) {o.comment}>'.format(o=self)
 
     def __str__(self):
         """String representation of the object."""
-        return '{o.file}:{o.line} {o.name} {o.type} {o.value} {o.comment}'.format(o=self)
+        return '{o.file}:{o.line} {o.key} {o.type} {o.value} {o.comment}'.format(o=self)
 
     def __hash__(self):
         """Make the class hashable based only on the DNS-meaningful part of the data."""
-        return hash((self.name, self.type, self.value))
+        return hash((self.key, self.type, self.value))
 
     def __eq__(self, other):
         """Equality comparison operator, required to use instances as dictionary keys."""
         if type(other) != DNSRecord:
             return False
 
-        return self.name == other.name and self.type == other.type and self.value == other.value
-
-    def get_name(self):
-        """Return the record's name, raise ValueError if unable."""
-        if self.type in ('A', 'AAAA'):
-            return self.name
-        elif self.type == 'PTR':
-            return self.value
-        else:
-            raise ValueError('Unrecognized record type: %s', self.type)
-
-    def get_ip(self):
-        """Return the record's IP, raise ValueError if unable."""
-        if self.type in ('A', 'AAAA'):
-            return ipaddress.ip_address(self.value)
-
-        elif self.type == 'PTR':  # Reverse the PTR back to IP
-            reverse = self.name.split('.')[:-3][::-1]
-            if self.name.endswith(IPV6_REVERSE_DOMAIN):
-                addr = ':'.join(''.join(reverse[i:i+4]) for i in range(0, 32, 4))
-            elif self.name.endswith(IPV4_REVERSE_DOMAIN):
-                addr = '.'.join(reverse)
-            else:
-                raise ValueError('Unknown PTR type: {addr}'.format(addr=self.name))
-
-            return ipaddress.ip_address(addr)
+        return self.key == other.key and self.type == other.type and self.value == other.value
 
 
 class ZonesValidator:
@@ -667,7 +666,7 @@ class ZonesValidator:
     def _validate_mgmt_names(self, origin, ip, records, label):
         """Validate all the mgmt names for the given IP/PTR, expecting two entries."""
         if len(records) == 1:  # Check if for this item it's ok to have only one entry.
-            name = records[0].get_name()
+            name = records[0].name
             if ZonesValidator.is_mgmt_subhost(name):
                 logger.debug('Ignoring 5th level mgmt record: %s', records[0])
                 return
@@ -682,7 +681,7 @@ class ZonesValidator:
                 self.reporter.w_too_few_mgmt_names(label, ip, records)
 
         # Check that there is one and only one WMF asset tag set for this name.
-        matches = [ASSET_TAG_PATTERN.match(record.get_name()) for record in records]
+        matches = [ASSET_TAG_PATTERN.match(record.name) for record in records]
         if all(match is None for match in matches):
             self.reporter.w_missing_asset_tag(label, ip, records)
         elif sum(match is not None for match in matches) > 1:
@@ -691,7 +690,7 @@ class ZonesValidator:
     def _validate_names(self, value, records, label):
         """Validate record names for all the given IP/PTR, only one record expected."""
         if len(records) != 1:
-            if any(record.get_ip().is_private for record in records):
+            if any(record.ip.is_private for record in records):
                 self.reporter.e_too_many_names(label, value, records)
             else:
                 self.reporter.w_too_many_public_names(label, value, records)
@@ -720,7 +719,7 @@ class ZonesValidator:
     def _validate_ips(self, origin, name, records, is_mgmt):
         """Validate the IPs for the given record name."""
         if len(records) == 2 and not is_mgmt:  # Two records, must be one IPv4 and one IPv6
-            if sum(ipaddress.ip_address(record.value).version for record in records) != 10:
+            if sum(record.ip.version for record in records) != 10:
                 self.reporter.w_missing_dual_stack_for_name(name, records)
         elif len(records) != 1:
             self.reporter.e_multiple_ips_for_name(name, records)
@@ -734,10 +733,10 @@ class ZonesValidator:
         ptrs = []
         for orig in self.origins:
             if name in self.ptrs[orig]:
-                ptrs += [record.name for record in self.ptrs[orig][name]]
+                ptrs += [record.key for record in self.ptrs[orig][name]]
 
         for record in records:
-            ptr = ipaddress.ip_address(record.value).reverse_pointer + '.'
+            ptr = record.ip.reverse_pointer + '.'
             if ptrs:
                 if ptr not in ptrs:
                     self.reporter.e_missing_or_wrong_ptr_for_name_and_ip(ptr, name, record.value, ptrs, records)
@@ -757,8 +756,7 @@ class ZonesValidator:
 
         for record in records:
             try:
-                ip = record.get_ip()
-                if str(ip) not in ips:
+                if str(record.ip) not in ips:
                     if ips:
                         self.reporter.e_missing_or_wrong_ip_for_name_and_ptr(record, ips)
                     else:
