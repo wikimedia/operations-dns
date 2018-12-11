@@ -11,6 +11,7 @@
             1D  IN NS       ns1.wikimedia.org.
             1D  IN NS       ns2.wikimedia.org.
 
+; random good edit
 
 ; CROSS-COLO FUNDRAISING SERVICE ALIASES
 fundraisingdb-write 5M  IN CNAME    frdb1001.frack.eqiad.wmnet.
