@@ -622,6 +622,7 @@ grafana         600 IN DYNA     geoip!text-addrs
 grafana-beta         600 IN DYNA     geoip!text-addrs
 grafana-labs         600 IN DYNA     geoip!text-addrs
 grafana-labs-admin   600 IN DYNA     geoip!text-addrs
+grafana-old          600 IN DYNA     geoip!text-addrs
 parsoid-rt-tests     600 IN DYNA     geoip!text-addrs
 parsoid-vd-tests     600 IN DYNA     geoip!text-addrs
 performance     600 IN DYNA     geoip!text-addrs
