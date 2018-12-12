@@ -46,4 +46,4 @@ for mockf in config-options discovery-map discovery-geo-resources discovery-meta
 done
 cp -f utils/mock_etc/geoip/GeoIP2-City.mmdb $TESTDIR/geoip/
 
-gdnsd -sSc $TESTDIR checkconf
+gdnsd -Sc $TESTDIR checkconf
