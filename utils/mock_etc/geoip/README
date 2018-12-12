@@ -1,0 +1,49 @@
+#!/usr/bin/perl -w
+
+# The 261-byte binary database in this directory is copied
+# directly from the upstream gdnsd project repo, where it has a
+# different filename "FakeCountry.mmdb", and this README file is
+# also copied from there verbatim explaining its generation (with
+# only this comment block you're reading now added vs upstream).
+# cf:
+# https://github.com/gdnsd/gdnsd/tree/64f1f43c05f01dc317dca5a358bfd4387cc1c0d7/t/014geoip
+
+use strict;
+
+# The included binary data file "FakeCountry.mmdb" is a minimal MaxMind
+# GeoIP2 database.  It was generated using this short perl script, but
+# we're storing the (very small) binary in the git repo directly because
+# the Perl dependency hell for the writer module below is huge.
+
+use MaxMind::DB::Writer::Tree;
+
+my %types = (
+    continent => 'map',
+    code => 'utf8_string',
+    country => 'map',
+    iso_code => 'utf8_string',
+);
+
+my $tree = MaxMind::DB::Writer::Tree->new(
+    database_type => 'X',
+    languages     => ['en'],
+    description   => { en => 'X', },
+    ip_version    => 4,
+    record_size   => 24,
+    remove_reserved_networks => 0,
+    map_key_type_callback => sub { $types{ $_[0] } },
+);
+
+$tree->insert_network('0.0.0.0/1', {
+    'continent' => { 'code' => 'NA' },
+    'country' => { 'iso_code' => 'US' },
+});
+
+$tree->insert_network('128.0.0.0/1', {
+    'continent' => { 'code' => 'EU' },
+    'country' => { 'iso_code' => 'FR' },
+});
+
+# Write the database to disk.
+open my $fh, '>:raw', 'FakeCountry.mmdb';
+$tree->write_tree( $fh );
