@@ -36,6 +36,14 @@
 67  1H IN PTR   ae2-1202.cr2-eqiad.wikimedia.org.
 69  1H IN PTR   ripe-atlas-eqiad.wikimedia.org.
 
+; 208.80.155.80/29 Unused
+
+; 208.80.155.88/29 cloud-instance-transport1-b-eqiad
+89  1H  IN PTR  vrrp-gw-1120.wikimedia.org.
+90  1H  IN PTR  ae2-1120.cr1-eqiad.wikimedia.org.
+91  1H  IN PTR  ae2-1120.cr2-eqiad.wikimedia.org.
+92  1H  IN PTR  vip-gw-cloudnet.wikimedia.org.
+
 ; 208.80.155.96/27 public1-d-eqiad subnet
 
 97  1H IN PTR   vrrp-gw-1004.wikimedia.org.
