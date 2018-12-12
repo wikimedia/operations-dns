@@ -69,5 +69,3 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
-# Disable codfw for row B recabling - T210456
-geoip/generic-map/codfw => DOWN
