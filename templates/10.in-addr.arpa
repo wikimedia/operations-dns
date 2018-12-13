@@ -42,7 +42,7 @@ $ORIGIN 1.2.{{ zonename }}.
 30  1H  IN PTR  search.svc.codfw.wmnet.
 
 32  1H  IN PTR  wdqs.svc.codfw.wmnet.
-; 33 reserved for kibana
+33  1H  IN PTR  kibana.svc.codfw.wmnet.
 34  1H  IN PTR  eventstreams.svc.codfw.wmnet.
 35  1H  IN PTR  pdfrender.svc.codfw.wmnet.
 ; 36 reserved for logstash
