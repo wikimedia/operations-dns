@@ -1,5 +1,12 @@
 options => {
     $include{config-options},
+
+    # Put options here if they're more about the zone data than the server's
+    # runtime config.  The "config-options" file above comes from the puppet
+    # repo for the runtime-specific configuration data.
+
+    zones_strict_data = true,
+    zones_default_ttl = 3600,
 }
 
 service_types => {
