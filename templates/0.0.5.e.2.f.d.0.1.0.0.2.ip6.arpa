@@ -18,7 +18,7 @@
 
 ; 2001:df2:e500:0::/56 - eqsin public subnets
 ; 2001:df2:e500:1::/64 - public1-eqsin
-$ORIGIN 1.0.0.0.{{ zonename }}.
+$ORIGIN 1.0.0.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-510.cr1-eqsin.wikimedia.org.
 
 
@@ -28,7 +28,7 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 
 ; 2001:df2:e500:100::/56 - eqsin private subnets
 ; 2001:df2:e500:101::/64 - private1-eqsin
-$ORIGIN 1.0.1.0.{{ zonename }}.
+$ORIGIN 1.0.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-520.cr1-eqsin.wikimedia.org.
 
 1.1.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   lvs5001.eqsin.wmnet.
@@ -50,7 +50,7 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 
 ; 2001:df2:e500:200::/56 - eqsin sandbox subnets
 ; 2001:df2:e500:201::/64 - sandbox1-eqsin
-$ORIGIN 1.0.2.0.{{ zonename }}.
+$ORIGIN 1.0.2.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-530.cr1-eqsin.wikimedia.org.
 
 0.2.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   ripe-atlas-eqsin.wikimedia.org.
@@ -58,44 +58,44 @@ $ORIGIN 1.0.2.0.{{ zonename }}.
 ; 2001:df2:e500:ed1a::/64 - LVS Public Service IPs (allocated)
 ; - 2001:df2:e500:ed1a::0:0/110 (::0:0 - ::3:ffff -- LVS Public Service IPs (in use)
 ; -- 2001:df2:e500:ed1a::0:0/111 (::0:0 - ::1:ffff --- LVS high-traffic1 (Text)
-$ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 1.0.0.0                         1H IN PTR   text-lb.eqsin.wikimedia.org.
 
-$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 ; -- 2001:df2:e500:ed1a::2:0/111 (::2:0 - ::3:ffff --- LVS high-traffic2 (Multimedia & Misc)
-$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 b.0.0.0                         1H IN PTR   upload-lb.eqsin.wikimedia.org.
 
-$ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 e.f.0.0                         1H IN PTR   dns-rec-lb.eqsin.wikimedia.org.
 
 ; 2001:df2:e500:fe00::/56 - Infrastructure IPs
 
 ; 2001:df2:e500:fe00::/64 - PCCW peering
-$ORIGIN 0.0.e.f.{{ zonename }}.
+$ORIGIN 0.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-2-0-2.cr1-eqsin.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   pccw-peering.cr1-eqsin.wikimedia.org.
 
 ; 2001:df2:e500:fe01::/64 -  cr4-ulsfo <--> cr1-eqsin (NTT tunnel)
-$ORIGIN 1.0.e.f.{{ zonename }}.
+$ORIGIN 1.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr1-eqsin.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr4-ulsfo.wikimedia.org.
 
 ; 2001:df2:e500:fe02::/64 -  cr1-codfw <--> cr1-eqsin (Telia EVPN)
-$ORIGIN 2.0.e.f.{{ zonename }}.
+$ORIGIN 2.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-0.cr1-eqsin.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-1-2.cr1-codfw.wikimedia.org.
 
 ; 2001:df2:e500:fe03::/64 -  mr1-eqsin <--> cr1-eqsin
-$ORIGIN 3.0.e.f.{{ zonename }}.
+$ORIGIN 3.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-401.cr1-eqsin.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ge-0-0-4-401.mr1-eqsin.wikimedia.org.
 
 ; 2001:df2:e500:ffff::/56 - Loopback IPs
-$ORIGIN f.f.f.f.{{ zonename }}.
+$ORIGIN f.f.f.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mr1-eqsin.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-eqsin.wikimedia.org.

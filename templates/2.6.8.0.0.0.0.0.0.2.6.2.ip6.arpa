@@ -19,7 +19,7 @@
 ; esams public subnets (2620:0:862:0::/56)
 
 ; public1-esams 2620:0:862:1::/64
-$ORIGIN 1.0.0.0.{{ zonename }}.
+$ORIGIN 1.0.0.0.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-100.esams.wikimedia.org.
 
@@ -37,7 +37,7 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 ; esams private subnets (2620:0:862:100::/56)
 
 ; private1-esams subnet 2620:0:862:102::/64
-$ORIGIN 2.0.1.0.{{ zonename }}.
+$ORIGIN 2.0.1.0.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-103.esams.wikimedia.org.
 
@@ -78,26 +78,26 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 
 ; - 2620:0:862:ed1a::0:0/111 (::0:0 - ::1:ffff) LVS high-traffic1 (Text)
 
-$ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 1.0.0.0                         1H IN PTR   text-lb.esams.wikimedia.org.
 
-$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 ; - 2620:0:862:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS high-traffic2 Multimedia & Misc
 
-$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 b.0.0.0                         1H IN PTR   upload-lb.esams.wikimedia.org.
 
-$ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 e.f.0.0                         1H IN PTR   dns-rec-lb.esams.wikimedia.org.
 
 ; esams sandbox subnets (2620:0:862:200::/56)
 
 ; sandbox1-esams (2620:0:862:201::/64)
-$ORIGIN 1.0.2.0.{{ zonename }}.
+$ORIGIN 1.0.2.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-102.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-102.cr1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-102.cr2-esams.wikimedia.org.
@@ -105,60 +105,60 @@ $ORIGIN 1.0.2.0.{{ zonename }}.
 
 ; unused (2620:0:862:fe00::/64)
 
-$ORIGIN 0.0.e.f.{{ zonename }}.
+$ORIGIN 0.0.e.f.@Z
 
 ; cr1-esams <--> cr2-knams (2620:0:862:fe01::/64)
 
-$ORIGIN 1.0.e.f.{{ zonename }}.
+$ORIGIN 1.0.e.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-401.cr1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-401.cr2-knams.wikimedia.org.
 
 ; cr2-esams <--> cr1-esams (2620:0:862:fe02::/64)
 
-$ORIGIN 2.0.e.f.{{ zonename }}.
+$ORIGIN 2.0.e.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-402.cr2-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-402.cr1-esams.wikimedia.org.
 
 ; cr2-esams <--> cr2-knams (2620:0:862:fe03::/64)
 
-$ORIGIN 3.0.e.f.{{ zonename }}.
+$ORIGIN 3.0.e.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-403.cr2-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-403.cr2-knams.wikimedia.org.
 
 ; cr1-esams <--> mr1-esams (2620:0:862:fe04::/64)
 
-$ORIGIN 4.0.e.f.{{ zonename }}.
+$ORIGIN 4.0.e.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  ae1-404.cr1-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  ge-0-0-1-404.mr1-esams.wikimedia.org.
 
 ; cr2-knams <--> mr1-esams (2620:0:862:fe05::/64)
 
-$ORIGIN 5.0.e.f.{{ zonename }}.
+$ORIGIN 5.0.e.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  ae1-405.cr2-knams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  ge-0-0-1-405.mr1-esams.wikimedia.org.
 
 ; cr1-eqiad <--> cr2-knams (2620:0:862:fe06::/64)
 
-$ORIGIN 6.0.e.f.{{ zonename }}.
+$ORIGIN 6.0.e.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-2.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-1-1-0.cr2-knams.wikimedia.org.
 
 ; cr2-eqiad <--> cr2-esams (2620:0:862:fe07::/64)
 
-$ORIGIN 7.0.e.f.{{ zonename }}.
+$ORIGIN 7.0.e.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-1-3.cr2-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-3.cr2-esams.wikimedia.org.
 
 ; Loopback IPs
 
-$ORIGIN f.f.f.f.{{ zonename }}.
+$ORIGIN f.f.f.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mr1-esams.wikimedia.org.
 

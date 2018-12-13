@@ -588,7 +588,7 @@ class ZonesValidator:
             return  # Empty line or comment
 
         elif line.startswith('$ORIGIN '):
-            self.origin = line.replace('{{ zonename }}', self.zone).split()[1]
+            self.origin = line.replace('@Z', self.zone + '.').split()[1]
             if self.origin[-1] != '.':
                 raise ValueError(
                     'Unsupported not fully qualified $ORIGIN: {file}:{lineno} {line}'.format(

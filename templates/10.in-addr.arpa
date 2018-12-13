@@ -14,7 +14,7 @@
             1D  IN NS       ns2.wikimedia.org.
 
 ; 10.2.1.0/24 - codfw LVS low-traffic (internal) services
-$ORIGIN 1.2.{{ zonename }}.
+$ORIGIN 1.2.@Z
 
 1   1H  IN PTR  appservers.svc.codfw.wmnet.
 5   1H  IN PTR  videoscaler.svc.codfw.wmnet.
@@ -54,7 +54,7 @@ $ORIGIN 1.2.{{ zonename }}.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
-$ORIGIN 2.2.{{ zonename }}.
+$ORIGIN 2.2.@Z
 
 1   1H  IN PTR  appservers.svc.eqiad.wmnet.
 3   1H  IN PTR  hhvm-api.svc.eqiad.wmnet.
@@ -96,19 +96,19 @@ $ORIGIN 2.2.{{ zonename }}.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
-$ORIGIN 3.2.{{ zonename }}.
+$ORIGIN 3.2.@Z
 
 ; 10.2.4.0/24 - ulsfo LVS low-traffic (internal) services
 
-$ORIGIN 4.2.{{ zonename }}.
+$ORIGIN 4.2.@Z
 
 ; 10.2.5.0/24 - eqsin LVS low-traffic (internal) services
 
-$ORIGIN 5.2.{{ zonename }}.
+$ORIGIN 5.2.@Z
 
 ; 10.3.0.0/24 - Internal anycast services
 
-$ORIGIN 0.3.{{ zonename }}.
+$ORIGIN 0.3.@Z
 
 1  1H  IN PTR  recdns.anycast.wmnet.
 
@@ -118,7 +118,7 @@ $ORIGIN 0.3.{{ zonename }}.
 
 ; private1-esams (10.20.0.0/24)
 
-$ORIGIN 0.20.{{ zonename }}.
+$ORIGIN 0.20.@Z
 1   1H  IN PTR  vrrp-gw-103.esams.wikimedia.org.
 2   1H  IN PTR  ae1-103.cr1-esams.wikimedia.org.
 3   1H  IN PTR  ae1-103.cr2-esams.wikimedia.org.
@@ -154,7 +154,7 @@ $ORIGIN 0.20.{{ zonename }}.
 
 ; Management
 
-$ORIGIN 0.21.{{ zonename }}.
+$ORIGIN 0.21.@Z
 
 1   1H  IN PTR  mr1-esams.mgmt.esams.wmnet.
 2   1H  IN PTR  ms-be3001.mgmt.esams.wmnet.
@@ -236,7 +236,7 @@ $ORIGIN 0.21.{{ zonename }}.
 ;
 
 ; 10.64.0.0/22 - private1-a-eqiad
-$ORIGIN 0.64.{{ zonename }}.
+$ORIGIN 0.64.@Z
 
 1   1H IN PTR   vrrp-gw-1017.eqiad.wmnet.
 2   1H IN PTR   ae1-1017.cr1-eqiad.wikimedia.org.
@@ -432,7 +432,7 @@ $ORIGIN 0.64.{{ zonename }}.
 248 1H IN PTR   ganeti1007.eqiad.wmnet.
 249 1H IN PTR   ganeti1008.eqiad.wmnet.
 
-$ORIGIN 1.64.{{ zonename }}.
+$ORIGIN 1.64.@Z
 
 1   1H IN PTR   vl1017-eth0.lvs1001.wikimedia.org.
 2   1H IN PTR   vl1017-eth0.lvs1002.wikimedia.org.
@@ -452,7 +452,7 @@ $ORIGIN 1.64.{{ zonename }}.
 16  1H IN PTR   vl1017-eth1.lvs1016.eqiad.wmnet.
 
 ; 10.64.4.0/24 - labs-support1-a-eqiad
-$ORIGIN 4.64.{{ zonename }}.
+$ORIGIN 4.64.@Z
 
 1   1H IN PTR   vrrp-gw-1117.eqiad.wmnet.
 2   1H IN PTR   ae1-1117.cr1-eqiad.wikimedia.org.
@@ -464,7 +464,7 @@ $ORIGIN 4.64.{{ zonename }}.
 15  1H IN PTR   labmon1002.eqiad.wmnet.
 
 ; 10.64.5.0/24 - analytics1-a-eqiad
-$ORIGIN 5.64.{{ zonename }}.
+$ORIGIN 5.64.@Z
 1   1H IN PTR   vrrp-gw-1030.eqiad.wmnet.
 2   1H IN PTR   ae1-1030.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae1-1030.cr2-eqiad.wikimedia.org.
@@ -496,7 +496,7 @@ $ORIGIN 5.64.{{ zonename }}.
 
 
 ; 10.64.16.0/22 - private1-b-eqiad
-$ORIGIN 16.64.{{ zonename }}.
+$ORIGIN 16.64.@Z
 
 1   1H IN PTR   vrrp-gw-1018.eqiad.wmnet.
 2   1H IN PTR   ae2-1018.cr1-eqiad.wikimedia.org.
@@ -636,7 +636,7 @@ $ORIGIN 16.64.{{ zonename }}.
 198 1H IN PTR   mw1317.eqiad.wmnet.
 199 1H IN PTR   mw1318.eqiad.wmnet.
 
-$ORIGIN 17.64.{{ zonename }}.
+$ORIGIN 17.64.@Z
 
 1   1H IN PTR   vl1018-eth1.lvs1001.wikimedia.org.
 2   1H IN PTR   vl1018-eth1.lvs1002.wikimedia.org.
@@ -656,7 +656,7 @@ $ORIGIN 17.64.{{ zonename }}.
 16  1H IN PTR   vl1018-eth2.lvs1016.eqiad.wmnet.
 
 ; 10.64.20.0/24 - labs-hosts1-b-eqiad
-$ORIGIN 20.64.{{ zonename }}.
+$ORIGIN 20.64.@Z
 
 1   1H IN PTR   vrrp-gw-1118.eqiad.wmnet.
 2   1H IN PTR   ae2-1118.cr1-eqiad.wikimedia.org.
@@ -701,7 +701,7 @@ $ORIGIN 20.64.{{ zonename }}.
 48  1H  IN PTR  cloudvirtan1005.eqiad.wmnet.
 
 ; 10.64.21.0/24 - analytics1-b-eqiad
-$ORIGIN 21.64.{{ zonename }}.
+$ORIGIN 21.64.@Z
 
 1   1H IN PTR   vrrp-gw-1021.eqiad.wmnet.
 2   1H IN PTR   ae2-1021.cr1-eqiad.wikimedia.org.
@@ -729,14 +729,14 @@ $ORIGIN 21.64.{{ zonename }}.
 123 1H IN PTR   an-worker1087.eqiad.wmnet.
 
 ; 10.64.22.0/24 - cloud-instance-transport1-b-eqiad
-$ORIGIN 22.64.{{ zonename }}.
+$ORIGIN 22.64.@Z
 1   1H IN PTR   vrrp-gw-1120.eqiad.wmnet.
 2   1H IN PTR   ae2-1120.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae2-1120.cr2-eqiad.wikimedia.org.
 4   1H IN PTR   vip-gw-cloudnet.eqiad.wmnet.
 
 ; 10.64.32.0/22 - private1-c-eqiad
-$ORIGIN 32.64.{{ zonename }}.
+$ORIGIN 32.64.@Z
 
 1       1H IN PTR   vrrp-gw-1019.eqiad.wmnet.
 2       1H IN PTR       ae3-1019.cr1-eqiad.wikimedia.org.
@@ -929,7 +929,7 @@ $ORIGIN 32.64.{{ zonename }}.
 234     1H IN PTR       wtp1042.eqiad.wmnet.
 235     1H IN PTR       kubestagetcd1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
-$ORIGIN 33.64.{{ zonename }}.
+$ORIGIN 33.64.@Z
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
 2       1H IN PTR       vl1019-eth2.lvs1002.wikimedia.org.
 3       1H IN PTR       vl1019-eth2.lvs1003.wikimedia.org.
@@ -948,7 +948,7 @@ $ORIGIN 33.64.{{ zonename }}.
 16      1H IN PTR       vl1019-eth3.lvs1016.eqiad.wmnet.
 
 ; 10.64.36.0/24 - analytics1-c-eqiad
-$ORIGIN 36.64.{{ zonename }}.
+$ORIGIN 36.64.@Z
 
 1       1H IN PTR       vrrp-gw-1022.eqiad.wmnet.
 2       1H IN PTR       ae3-1022.cr1-eqiad.wikimedia.org.
@@ -983,7 +983,7 @@ $ORIGIN 36.64.{{ zonename }}.
 134     1H IN PTR       analytics1034.eqiad.wmnet.
 
 ; 10.64.37.0/24 - labs-support1-c-eqiad
-$ORIGIN 37.64.{{ zonename }}.
+$ORIGIN 37.64.@Z
 
 1       1H IN PTR       vrrp-gw-1119.eqiad.wmnet.
 2       1H IN PTR       ae3-1119.cr1-eqiad.wikimedia.org.
@@ -1014,7 +1014,7 @@ $ORIGIN 37.64.{{ zonename }}.
 
 
 ; 10.64.40.0/23 - frack.eqiad subnets
-$ORIGIN 40.64.{{ zonename }}.
+$ORIGIN 40.64.@Z
 
 ; 10.64.40.0/27 - frack-payments1-c-eqiad
 1   1H IN PTR   reth0-1132.pfw3-eqiad.frack.eqiad.wmnet.
@@ -1090,7 +1090,7 @@ $ORIGIN 40.64.{{ zonename }}.
 218 1H IN PTR   frpig1001.mgmt.frack.eqiad.wmnet.
 
 ; 10.64.48.0/22 - private1-d-eqiad
-$ORIGIN 48.64.{{ zonename }}.
+$ORIGIN 48.64.@Z
 
 1   1H IN PTR   vrrp-gw-1020.eqiad.wmnet.
 2   1H IN PTR   ae4-1020.cr1-eqiad.wikimedia.org.
@@ -1254,7 +1254,7 @@ $ORIGIN 48.64.{{ zonename }}.
 175     1H IN PTR       sessionstore1003.eqiad.wmnet.
 176     1H IN PTR       ms-be1048.eqiad.wmnet.
 
-$ORIGIN 49.64.{{ zonename }}.
+$ORIGIN 49.64.@Z
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
 2       1H IN PTR       vl1020-eth3.lvs1002.wikimedia.org.
 3       1H IN PTR       vl1020-eth3.lvs1003.wikimedia.org.
@@ -1273,7 +1273,7 @@ $ORIGIN 49.64.{{ zonename }}.
 16      1H IN PTR       lvs1016.eqiad.wmnet.
 
 ; 10.64.53.0/24 - analytics1-d-eqiad
-$ORIGIN 53.64.{{ zonename }}.
+$ORIGIN 53.64.@Z
 
 1       1H IN PTR       vrrp-gw-1023.eqiad.wmnet.
 2       1H IN PTR       ae4-1023.cr1-eqiad.wikimedia.org.
@@ -1309,34 +1309,34 @@ $ORIGIN 53.64.{{ zonename }}.
 
 ; 10.64.64.0/21 - kubernetes eqiad pod IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN 64.64.{{ zonename }}.
-$ORIGIN 65.64.{{ zonename }}.
-$ORIGIN 66.64.{{ zonename }}.
-$ORIGIN 67.64.{{ zonename }}.
-$ORIGIN 68.64.{{ zonename }}.
-$ORIGIN 69.64.{{ zonename }}.
-$ORIGIN 70.64.{{ zonename }}.
-$ORIGIN 71.64.{{ zonename }}.
+$ORIGIN 64.64.@Z
+$ORIGIN 65.64.@Z
+$ORIGIN 66.64.@Z
+$ORIGIN 67.64.@Z
+$ORIGIN 68.64.@Z
+$ORIGIN 69.64.@Z
+$ORIGIN 70.64.@Z
+$ORIGIN 71.64.@Z
 
 ; 10.64.72.0/24 - kubernetes eqiad service IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN 72.64.{{ zonename }}.
+$ORIGIN 72.64.@Z
 
 ; 10.64.75.0/24 - kubernetes staging (eqiad) pod IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN 75.64.{{ zonename }}.
+$ORIGIN 75.64.@Z
 
 ; 10.64.76.0/24 - kubernetes staging (eqiad) service IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN 76.64.{{ zonename }}.
+$ORIGIN 76.64.@Z
 
 ; 10.65.0.0/16 is eqiad management network
 
-$ORIGIN 65.{{ zonename }}.
+$ORIGIN 65.@Z
 
 ; Management network infrastructure
 
-$ORIGIN 0.65.{{ zonename }}.
+$ORIGIN 0.65.@Z
 
 
 1   1H IN PTR   mr1-eqiad.mgmt.eqiad.wmnet.
@@ -1396,7 +1396,7 @@ $ORIGIN 0.65.{{ zonename }}.
 62  1H IN PTR   ps1-d7-eqiad.mgmt.eqiad.wmnet.
 63  1H IN PTR   ps1-d8-eqiad.mgmt.eqiad.wmnet.
 
-$ORIGIN 1.65.{{ zonename }}.
+$ORIGIN 1.65.@Z
 
 1   1H  IN PTR      db1116.mgmt.eqiad.wmnet.
 1   1H  IN PTR      wmf7359.mgmt.eqiad.wmnet.
@@ -1632,7 +1632,7 @@ $ORIGIN 1.65.{{ zonename }}.
 119 1H  IN PTR      mw1348.mgmt.eqiad.wmnet.
 119 1H  IN PTR      wmf7310.mgmt.eqiad.wmnet.
 
-$ORIGIN 2.65.{{ zonename }}.
+$ORIGIN 2.65.@Z
 
 1   1H  IN PTR      wmf3134.mgmt.eqiad.wmnet.
 1   1H  IN PTR      radium.mgmt.eqiad.wmnet.
@@ -1887,7 +1887,7 @@ $ORIGIN 2.65.{{ zonename }}.
 172 1H  IN PTR      pc1010.mgmt.eqiad.wmnet.
 172 1H  IN PTR      wmf7458.mgmt.eqiad.wmnet.
 
-$ORIGIN 3.65.{{ zonename }}.
+$ORIGIN 3.65.@Z
 
 4   1H  IN PTR      wmf3147.mgmt.eqiad.wmnet.
 5   1H  IN PTR      frpm1001.mgmt.eqiad.wmnet.
@@ -2135,7 +2135,7 @@ $ORIGIN 3.65.{{ zonename }}.
 240     1H      IN PTR          wmf4745.mgmt.eqiad.wmnet.
 240     1H      IN PTR          snapshot1007.mgmt.eqiad.wmnet.
 
-$ORIGIN 4.65.{{ zonename }}.
+$ORIGIN 4.65.@Z
 
 11  1H  IN PTR      logstash1004.mgmt.eqiad.wmnet.
 11  1H  IN PTR      wmf4675.mgmt.eqiad.wmnet.
@@ -2373,7 +2373,7 @@ $ORIGIN 4.65.{{ zonename }}.
 139 1H  IN PTR      wmf7371.mgmt.eqiad.wmnet.
 139 1H  IN PTR      snapshot1008.mgmt.eqiad.wmnet.
 
-$ORIGIN 5.65.{{ zonename }}.
+$ORIGIN 5.65.@Z
 
 2   1H  IN PTR      labstore1003.mgmt.eqiad.wmnet.
 2   1H  IN PTR      wmf3249.mgmt.eqiad.wmnet.
@@ -2589,7 +2589,7 @@ $ORIGIN 5.65.{{ zonename }}.
 208 1H  IN PTR      wmf4578.mgmt.eqiad.wmnet.
 208 1H  IN PTR      oresrdb1002.mgmt.eqiad.wmnet.
 
-$ORIGIN 6.65.{{ zonename }}.
+$ORIGIN 6.65.@Z
 
 2       1H IN PTR       wmf3089.mgmt.eqiad.wmnet.
 3       1H IN PTR       wmf3088.mgmt.eqiad.wmnet.
@@ -2696,7 +2696,7 @@ $ORIGIN 6.65.{{ zonename }}.
 101     1H IN PTR       restbase-dev1006.mgmt.eqiad.wmnet.
 101     1H IN PTR       wmf7103.mgmt.eqiad.wmnet.
 
-$ORIGIN 7.65.{{ zonename }}.
+$ORIGIN 7.65.@Z
 
 1   1H  IN PTR      elastic1032.mgmt.eqiad.wmnet.
 1   1H  IN PTR      wmf4752.mgmt.eqiad.wmnet.
@@ -2817,7 +2817,7 @@ $ORIGIN 7.65.{{ zonename }}.
 93      1H      IN PTR     rdb1010.mgmt.eqiad.wmnet.
 93      1H      IN PTR     wmf7381.mgmt.eqiad.wmnet.
 
-$ORIGIN 8.65.{{ zonename }}.
+$ORIGIN 8.65.@Z
 
 19  1H  IN PTR      mc1019.mgmt.eqiad.wmnet.
 19  1H  IN PTR      wmf6952.mgmt.eqiad.wmnet.
@@ -2859,29 +2859,29 @@ $ORIGIN 8.65.{{ zonename }}.
 ; Small assignments
 
 ; eqiad wifi subnet
-$ORIGIN 0.66.{{ zonename }}.
+$ORIGIN 0.66.@Z
 1   1H  IN PTR      fe-0-0-2.mr1-eqiad.mgmt.eqiad.wmnet.
 
 ; eqiad labs realm
 
 ; 10.68.0.0/24 - labs-instances1-a-eqiad
-$ORIGIN 0.68.{{ zonename }}.
+$ORIGIN 0.68.@Z
 
 ; 10.68.16.0/21 - labs-instances1-b-eqiad
-$ORIGIN 16.68.{{ zonename }}.
+$ORIGIN 16.68.@Z
 1   1H IN PTR   eth4-1102.labnet1001.eqiad.wmnet.
 2   1H IN PTR   eth3-1102.labnet1002.eqiad.wmnet.
 
 ; 10.68.32.0/24 - labs-instances1-c-eqiad
-$ORIGIN 32.68.{{ zonename }}.
+$ORIGIN 32.68.@Z
 
 ; 10.68.48.0/24 - labs-instances1-d-eqiad
-$ORIGIN 48.68.{{ zonename }}.
+$ORIGIN 48.68.@Z
 
 ; 10.128.0.0/16 - ulsfo
 
 ; 10.128.128.0/17 - ulsfo mgmt
-$ORIGIN 128.128.{{ zonename }}.
+$ORIGIN 128.128.@Z
 1   1H  IN PTR      mr1-ulsfo.mgmt.ulsfo.wmnet.
 4   1H  IN PTR      cr3-ulsfo.mgmt.ulsfo.wmnet.
 5   1H  IN PTR      cr4-ulsfo.mgmt.ulsfo.wmnet.
@@ -2891,7 +2891,7 @@ $ORIGIN 128.128.{{ zonename }}.
 12  1H  IN PTR      ps-102.02.22-ulsfo.mgmt.ulsfo.wmnet.
 13  1H  IN PTR      ps-102.02.23-ulsfo.mgmt.ulsfo.wmnet.
 
-$ORIGIN 129.128.{{ zonename }}.
+$ORIGIN 129.128.@Z
 5   1H  IN PTR      lvs4005.mgmt.ulsfo.wmnet.
 5   1H  IN PTR      WMF7213.mgmt.ulsfo.wmnet.
 6   1H  IN PTR      lvs4006.mgmt.ulsfo.wmnet.
@@ -2936,7 +2936,7 @@ $ORIGIN 129.128.{{ zonename }}.
 132 1H  IN PTR      WMF5814.mgmt.ulsfo.wmnet.
 
 ; 10.128.0.0/24 - private1-ulsfo
-$ORIGIN 0.128.{{ zonename }}.
+$ORIGIN 0.128.@Z
 15  1H  IN PTR      lvs4005.ulsfo.wmnet.
 16  1H  IN PTR      lvs4006.ulsfo.wmnet.
 17  1H  IN PTR      lvs4007.ulsfo.wmnet.
@@ -2966,7 +2966,7 @@ $ORIGIN 0.128.{{ zonename }}.
 ; 10.132.0.0/16 - eqsin
 ; 10.132.0.0/17 - eqsin private
 ; 10.132.0.0/24 - private1-eqsin
-$ORIGIN 0.132.{{ zonename }}.
+$ORIGIN 0.132.@Z
 1   1H  IN PTR      ae1-520.cr1-eqsin.wikimedia.org.
 
 11  1H  IN PTR      lvs5001.eqsin.wmnet.
@@ -2987,13 +2987,13 @@ $ORIGIN 0.132.{{ zonename }}.
 112 1H  IN PTR      cp5012.eqsin.wmnet.
 
 ; 10.132.128.0/17 - eqsin mgmt
-$ORIGIN 128.132.{{ zonename }}.
+$ORIGIN 128.132.@Z
 1   1H  IN PTR      mr1-eqsin.mgmt.eqsin.wmnet.
 2   1H  IN PTR      cr1-eqsin.mgmt.eqsin.wmnet.
 4   1H  IN PTR      asw1-eqsin.mgmt.eqsin.wmnet.
 5   1H  IN PTR      scs-eqsin.mgmt.eqsin.wmnet.
 
-$ORIGIN 129.132.{{ zonename }}.
+$ORIGIN 129.132.@Z
 7   1H  IN PTR      bast5001.mgmt.eqsin.wmnet.
 8   1H  IN PTR      dns5001.mgmt.eqsin.wmnet.
 9   1H  IN PTR      dns5002.mgmt.eqsin.wmnet.
@@ -3021,7 +3021,7 @@ $ORIGIN 129.132.{{ zonename }}.
 
 
 ; 10.192.0.0/22 - private1-a-codfw
-$ORIGIN 0.192.{{ zonename }}.
+$ORIGIN 0.192.@Z
 
 1   1H IN PTR   vrrp-gw-2017.codfw.wmnet.
 2   1H IN PTR   ae1-2017.cr1-codfw.wikimedia.org.
@@ -3155,7 +3155,7 @@ $ORIGIN 0.192.{{ zonename }}.
 144 1H IN PTR   maps2001.codfw.wmnet.
 145 1H IN PTR   prometheus2003.codfw.wmnet.
 
-$ORIGIN 1.192.{{ zonename }}.
+$ORIGIN 1.192.@Z
 1   1H IN PTR   lvs2001.codfw.wmnet.
 2   1H IN PTR   lvs2002.codfw.wmnet.
 3   1H IN PTR   lvs2003.codfw.wmnet.
@@ -3169,13 +3169,13 @@ $ORIGIN 1.192.{{ zonename }}.
 
 
 ; 10.192.4.0/24 - labs-hosts1-a-codfw - RESERVED
-$ORIGIN 4.192.{{ zonename }}.
+$ORIGIN 4.192.@Z
 
 ; 10.192.5.0/24 - labs-support1-a-codfw - RESERVED
-$ORIGIN 5.192.{{ zonename }}.
+$ORIGIN 5.192.@Z
 
 ; 10.192.16.0/22 - private1-b-codfw
-$ORIGIN 16.192.{{ zonename }}.
+$ORIGIN 16.192.@Z
 
 1   1H IN PTR   vrrp-gw-2018.codfw.wmnet.
 2   1H IN PTR   ae2-2018.cr1-codfw.wikimedia.org.
@@ -3342,7 +3342,7 @@ $ORIGIN 16.192.{{ zonename }}.
 194 1H IN PTR   mc2026.codfw.wmnet.
 195 1H IN PTR   db2062.codfw.wmnet.
 
-$ORIGIN 17.192.{{ zonename }}.
+$ORIGIN 17.192.@Z
 1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
 2   1H IN PTR   vl2018-eth1.lvs2002.codfw.wmnet.
 3   1H IN PTR   vl2018-eth1.lvs2003.codfw.wmnet.
@@ -3355,7 +3355,7 @@ $ORIGIN 17.192.{{ zonename }}.
 10  1H IN PTR   vl2018-enp175s0f0.lvs2010.codfw.wmnet.
 
 ; 10.192.20.0/24 - labs-hosts1-b-codfw
-$ORIGIN 20.192.{{ zonename }}.
+$ORIGIN 20.192.@Z
 1   1H IN PTR   vrrp-gw-2118.codfw.wmnet.
 2   1H IN PTR   ae2-2118.cr1-codfw.wikimedia.org.
 3   1H IN PTR   ae2-2118.cr2-codfw.wikimedia.org.
@@ -3370,7 +3370,7 @@ $ORIGIN 20.192.{{ zonename }}.
 12  1H IN PTR   labtestnet2003.codfw.wmnet.
 
 ; 10.192.21.0/24 - labs-support1-b-codfw
-$ORIGIN 21.192.{{ zonename }}.
+$ORIGIN 21.192.@Z
 1   1H IN PTR   vrrp-gw-2122.codfw.wmnet.
 2   1H IN PTR   ae2-2122.cr1-codfw.wikimedia.org.
 3   1H IN PTR   ae2-2122.cr2-codfw.wikimedia.org.
@@ -3381,7 +3381,7 @@ $ORIGIN 21.192.{{ zonename }}.
 8   1H IN PTR   labstore2004.codfw.wmnet.
 
 ; 10.192.32.0/22 - private1-c-codfw
-$ORIGIN 32.192.{{ zonename }}.
+$ORIGIN 32.192.@Z
 
 1   1H IN PTR   vrrp-gw-2019.codfw.wmnet.
 2   1H IN PTR   ae3-2019.cr1-codfw.wikimedia.org.
@@ -3559,7 +3559,7 @@ $ORIGIN 32.192.{{ zonename }}.
 179 1H IN PTR   elastic2049.codfw.wmnet.
 180 1H IN PTR   logstash2002.codfw.wmnet.
 
-$ORIGIN 33.192.{{ zonename }}.
+$ORIGIN 33.192.@Z
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
 2   1H IN PTR   vl2019-eth2.lvs2002.codfw.wmnet.
 3   1H IN PTR   vl2019-eth2.lvs2003.codfw.wmnet.
@@ -3572,13 +3572,13 @@ $ORIGIN 33.192.{{ zonename }}.
 10  1H IN PTR   vl2019-enp175s0f1d1.lvs2010.codfw.wmnet.
 
 ; 10.192.36.0/24 - labs-hosts1-c-codfw - RESERVED
-$ORIGIN 36.192.{{ zonename }}.
+$ORIGIN 36.192.@Z
 
 ; 10.192.37.0/24 - labs-support1-c-codfw - RESERVED
-$ORIGIN 37.192.{{ zonename }}.
+$ORIGIN 37.192.@Z
 
 ; 10.192.48.0/22 - private1-d-codfw
-$ORIGIN 48.192.{{ zonename }}.
+$ORIGIN 48.192.@Z
 
 1   1H IN PTR   vrrp-gw-2020.codfw.wmnet.
 2   1H IN PTR   ae4-2020.cr1-codfw.wikimedia.org.
@@ -3706,7 +3706,7 @@ $ORIGIN 48.192.{{ zonename }}.
 130 1H IN PTR   elastic2054.codfw.wmnet.
 131 1H IN PTR   logstash2003.codfw.wmnet.
 
-$ORIGIN 49.192.{{ zonename }}.
+$ORIGIN 49.192.@Z
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
 2   1H IN PTR   vl2020-eth3.lvs2002.codfw.wmnet.
 3   1H IN PTR   vl2020-eth3.lvs2003.codfw.wmnet.
@@ -3719,28 +3719,28 @@ $ORIGIN 49.192.{{ zonename }}.
 10  1H IN PTR   vl2020-enp175s0f1d1.lvs2009.codfw.wmnet.
 
 ; 10.192.52.0/24 - labs-hosts1-d-codfw - RESERVED
-$ORIGIN 52.192.{{ zonename }}.
+$ORIGIN 52.192.@Z
 
 ; 10.192.53.0/24 - labs-support1-d-codfw - RESERVED
-$ORIGIN 53.192.{{ zonename }}.
+$ORIGIN 53.192.@Z
 
 ; 10.192.64.0/21 - kubernetes codfw pod IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN 64.192.{{ zonename }}.
-$ORIGIN 65.192.{{ zonename }}.
-$ORIGIN 66.192.{{ zonename }}.
-$ORIGIN 67.192.{{ zonename }}.
-$ORIGIN 68.192.{{ zonename }}.
-$ORIGIN 69.192.{{ zonename }}.
-$ORIGIN 70.192.{{ zonename }}.
-$ORIGIN 71.192.{{ zonename }}.
+$ORIGIN 64.192.@Z
+$ORIGIN 65.192.@Z
+$ORIGIN 66.192.@Z
+$ORIGIN 67.192.@Z
+$ORIGIN 68.192.@Z
+$ORIGIN 69.192.@Z
+$ORIGIN 70.192.@Z
+$ORIGIN 71.192.@Z
 
 ; 10.192.72.0/24 - kubernetes codfw service IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN 72.192.{{ zonename }}.
+$ORIGIN 72.192.@Z
 
 
-$ORIGIN 0.193.{{ zonename }}.
+$ORIGIN 0.193.@Z
 
 ; 10.193.0.0/16 - mgmt-codfw
 
@@ -3797,7 +3797,7 @@ $ORIGIN 0.193.{{ zonename }}.
 57  1H IN PTR  fasw-c-codfw.mgmt.codfw.wmnet.
 
 
-$ORIGIN 1.193.{{ zonename }}.
+$ORIGIN 1.193.@Z
 
 ; 10.193.1.0 - mgmt-codfw servers
 ; please list with hostname entry (when available) preceding the asset tag entry
@@ -4295,7 +4295,7 @@ $ORIGIN 1.193.{{ zonename }}.
 254 1H IN PTR  dbstore2002.mgmt.codfw.wmnet.
 254 1H IN PTR  wmf6159.mgmt.codfw.wmnet.
 
-$ORIGIN 2.193.{{ zonename }}.
+$ORIGIN 2.193.@Z
 
 ; 10.193.2.0 - mgmt-codfw servers
 ; please list with hostname entry (when available) preceding the asset tag entry
@@ -4804,7 +4804,7 @@ $ORIGIN 2.193.{{ zonename }}.
 
 
 ;10.193.3.0 - mgmt-codfw servers
-$ORIGIN 3.193.{{ zonename }}.
+$ORIGIN 3.193.@Z
 
 1   1H IN PTR  gerrit2001.mgmt.codfw.wmnet.
 1   1H IN PTR  wmf6408.mgmt.codfw.wmnet.
@@ -4931,7 +4931,7 @@ $ORIGIN 3.193.{{ zonename }}.
 63  1H IN PTR  wmf6699.mgmt.codfw.wmnet.
 
 ; 10.195.0.0/24 - frack.codfw subnets
-$ORIGIN 0.195.{{ zonename }}.
+$ORIGIN 0.195.@Z
 
 ; 10.195.0.0/27 - frack-payments-codfw
 1  1H IN PTR  reth0-2132.pfw3-codfw.frack.codfw.wmnet.
@@ -4998,26 +4998,26 @@ $ORIGIN 0.195.{{ zonename }}.
 ; codfw labs realm
 
 ; 10.196.0.0/24 - labs-instances1-a-codfw
-$ORIGIN 0.196.{{ zonename }}.
+$ORIGIN 0.196.@Z
 
 ; 10.196.16.0/21 - labs-instances1-b-codfw
-$ORIGIN 16.196.{{ zonename }}.
-$ORIGIN 17.196.{{ zonename }}.
-$ORIGIN 18.196.{{ zonename }}.
-$ORIGIN 19.196.{{ zonename }}.
-$ORIGIN 20.196.{{ zonename }}.
-$ORIGIN 21.196.{{ zonename }}.
-$ORIGIN 22.196.{{ zonename }}.
-$ORIGIN 23.196.{{ zonename }}.
+$ORIGIN 16.196.@Z
+$ORIGIN 17.196.@Z
+$ORIGIN 18.196.@Z
+$ORIGIN 19.196.@Z
+$ORIGIN 20.196.@Z
+$ORIGIN 21.196.@Z
+$ORIGIN 22.196.@Z
+$ORIGIN 23.196.@Z
 
 ; 10.196.32.0/24 - labs-instances1-c-codfw
-$ORIGIN 32.196.{{ zonename }}.
+$ORIGIN 32.196.@Z
 
 ; 10.196.48.0/24 - labs-instances1-d-codfw
-$ORIGIN 48.196.{{ zonename }}.
+$ORIGIN 48.196.@Z
 
 ; LEGACY
 
-$ORIGIN 1.230.{{ zonename }}.
+$ORIGIN 1.230.@Z
 
-$ORIGIN 1.252.{{ zonename }}.
+$ORIGIN 1.252.@Z

@@ -16,7 +16,7 @@
 ; eqiad public subnets (2620:0:861:0::/56)
 
 ; public1-a-eqiad (2620:0:861:1::/64)
-$ORIGIN 1.0.0.0.{{ zonename }}.
+$ORIGIN 1.0.0.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1001.wikimedia.org.
 
 ; (in-subnet) service IPs
@@ -50,7 +50,7 @@ $ORIGIN 1.0.0.0.{{ zonename }}.
 6.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudstore1009.wikimedia.org.
 
 ; public1-b-eqiad (2620:0:861:2::/64)
-$ORIGIN 2.0.0.0.{{ zonename }}.
+$ORIGIN 2.0.0.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1002.wikimedia.org.
 
 7.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   californium.wikimedia.org.
@@ -70,7 +70,7 @@ $ORIGIN 2.0.0.0.{{ zonename }}.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1002.cr2-eqiad.wikimedia.org.
 
 ; public1-c-eqiad (2620:0:861:3::/64)
-$ORIGIN 3.0.0.0.{{ zonename }}.
+$ORIGIN 3.0.0.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1003.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1003.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1003.cr2-eqiad.wikimedia.org.
@@ -89,7 +89,7 @@ $ORIGIN 3.0.0.0.{{ zonename }}.
 5.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labcontrol1002.wikimedia.org.
 
 ; public1-d-eqiad (2620:0:861:4::/64)
-$ORIGIN 4.0.0.0.{{ zonename }}.
+$ORIGIN 4.0.0.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1004.wikimedia.org.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1004.cr1-eqiad.wikimedia.org.
@@ -108,7 +108,7 @@ $ORIGIN 4.0.0.0.{{ zonename }}.
 ; eqiad private subnets (2620:0:861:100::/56)
 
 ; private1-a-eqiad (2620:0:861:101::/64)
-$ORIGIN 1.0.1.0.{{ zonename }}.
+$ORIGIN 1.0.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1017.eqiad.wmnet.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1017.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1017.cr2-eqiad.wikimedia.org.
@@ -162,7 +162,7 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 2.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   doc1001.eqiad.wmnet.    ; VM on ganeti01.svc.eqiad.wmnet
 
 ; private1-b-eqiad (2620:0:861:102::/64)
-$ORIGIN 2.0.1.0.{{ zonename }}.
+$ORIGIN 2.0.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1018.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1018.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1018.cr2-eqiad.wikimedia.org.
@@ -190,7 +190,7 @@ $ORIGIN 2.0.1.0.{{ zonename }}.
 4.1.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1008.eqiad.wmnet.
 
 ; private1-c-eqiad (2620:0:861:103::/64)
-$ORIGIN 3.0.1.0.{{ zonename }}.
+$ORIGIN 3.0.1.0.@Z
 
 3.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   argon.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 0.2.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   neodymium.eqiad.wmnet.
@@ -225,7 +225,7 @@ $ORIGIN 3.0.1.0.{{ zonename }}.
 8.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1005.eqiad.wmnet.
 
 ; analytics1-a-eqiad (2620:0:861:104::/64)
-$ORIGIN 4.0.1.0.{{ zonename }}.
+$ORIGIN 4.0.1.0.@Z
 4.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1023.eqiad.wmnet.
 2.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1012.eqiad.wmnet.
 3.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1013.eqiad.wmnet.
@@ -245,7 +245,7 @@ $ORIGIN 4.0.1.0.{{ zonename }}.
 6.2.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-master1001.eqiad.wmnet.
 
 ; analytics1-b-eqiad (2620:0:861:105::/64)
-$ORIGIN 5.0.1.0.{{ zonename }}.
+$ORIGIN 5.0.1.0.@Z
 5.0.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1046.eqiad.wmnet.
 6.0.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1047.eqiad.wmnet.
 7.0.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1048.eqiad.wmnet.
@@ -261,7 +261,7 @@ $ORIGIN 5.0.1.0.{{ zonename }}.
 8.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   stat1007.eqiad.wmnet.
 
 ; analytics1-c-eqiad (2620:0:861:106::/64)
-$ORIGIN 6.0.1.0.{{ zonename }}.
+$ORIGIN 6.0.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1022.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1022.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1022.cr2-eqiad.wikimedia.org.
@@ -287,7 +287,7 @@ $ORIGIN 6.0.1.0.{{ zonename }}.
 2.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics-tool1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 ; private1-d-eqiad (2620:0:861:107::/64)
-$ORIGIN 7.0.1.0.{{ zonename }}.
+$ORIGIN 7.0.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1020.eqiad.wmnet.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1020.cr1-eqiad.wikimedia.org.
@@ -318,7 +318,7 @@ $ORIGIN 7.0.1.0.{{ zonename }}.
 9.1.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1009.eqiad.wmnet.
 
 ; analytics1-d-eqiad (2620:0:861:108::/64)
-$ORIGIN 8.0.1.0.{{ zonename }}.
+$ORIGIN 8.0.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1023.eqiad.wmnet.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1023.cr1-eqiad.wikimedia.org.
@@ -351,14 +351,14 @@ $ORIGIN 8.0.1.0.{{ zonename }}.
 6.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   thorium.eqiad.wmnet.
 
 ; labs-support1-a-eqiad (2620:0:861:117::/64)
-$ORIGIN 7.1.1.0.{{ zonename }}.
+$ORIGIN 7.1.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1117.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1117.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1117.cr2-eqiad.wikimedia.org.
 5.1.0.0.4.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   labmon1002.eqiad.wmnet.
 
 ; labs-hosts1-b-eqiad (2620:0:861:118::/64)
-$ORIGIN 8.1.1.0.{{ zonename }}.
+$ORIGIN 8.1.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1118.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1118.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1118.cr2-eqiad.wikimedia.org.
@@ -373,7 +373,7 @@ $ORIGIN 8.1.1.0.{{ zonename }}.
 8.4.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirtan1005.eqiad.wmnet.
 
 ; labs-support1-c-eqiad (2620:0:861:119::/64)
-$ORIGIN 9.1.1.0.{{ zonename }}.
+$ORIGIN 9.1.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1119.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1119.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1119.cr2-eqiad.wikimedia.org.
@@ -382,65 +382,65 @@ $ORIGIN 9.1.1.0.{{ zonename }}.
 ; eqiad sandbox subnets (2620:0:861:200::/56)
 
 ; sandbox1-a-eqiad (2620:0:861:201::/64)
-$ORIGIN 1.0.2.0.{{ zonename }}.
+$ORIGIN 1.0.2.0.@Z
 
 ; sandbox1-b-eqiad (2620:0:861:202::/64)
-$ORIGIN 2.0.2.0.{{ zonename }}.
+$ORIGIN 2.0.2.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1202.eqiad.wmnet.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1202.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1202.cr2-eqiad.wikimedia.org.
 9.6.0.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ripe-atlas-eqiad.wikimedia.org.
 
 ; sandbox1-c-eqiad (2620:0:861:203::/64)
-$ORIGIN 3.0.2.0.{{ zonename }}.
+$ORIGIN 3.0.2.0.@Z
 
 ; sandbox1-d-eqiad (2620:0:861:204::/64)
-$ORIGIN 4.0.2.0.{{ zonename }}.
+$ORIGIN 4.0.2.0.@Z
 
 ; kubernetes eqiad pod IPs reservation (2620:0:861:cabe::/64)
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN e.b.a.c.{{ zonename }}.
+$ORIGIN e.b.a.c.@Z
 
 ; kubernetes eqiad service IPs reservation (2620:0:861:cabf::/64)
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN f.b.a.c.{{ zonename }}.
+$ORIGIN f.b.a.c.@Z
 
 ; kubernetes staging (eqiad) pod IPs reservation (2620:0:861:babe::/64)
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN e.b.a.b.{{ zonename }}.
+$ORIGIN e.b.a.b.@Z
 
 ; kubernetes staging (eqiad) service IPs reservation (2620:0:861:babf::/64)
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN f.b.a.b.{{ zonename }}.
+$ORIGIN f.b.a.b.@Z
 
 ; 2620:0:861:ed1a::0:0/110 (::0:0 - ::3:ffff) LVS Service IPs
 
 ; - 2620:0:861:ed1a::0:0/111 (::0:0 - ::1:ffff) LVS high-traffic1 (Text)
 
-$ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 1.0.0.0 1H IN PTR   text-lb.eqiad.wikimedia.org.
 
-$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 ; - 2620:0:861:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS high-traffic2 (Multimedia & Misc)
 
-$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 b.0.0.0                         1H IN PTR   upload-lb.eqiad.wikimedia.org.
 
-$ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.{{ zonename }}.
+$ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 6.1.0.0                         1H IN PTR   git-ssh.eqiad.wikimedia.org.
 e.f.0.0                         1H IN PTR   dns-rec-lb.eqiad.wikimedia.org.
 
 ; Neighbor blocks
 
-$ORIGIN e.f.{{ zonename }}.
+$ORIGIN e.f.@Z
 
 ; cr1-eqiad <--> cr2-eqiad (2620:0:861:fe00::/64)
 
-$ORIGIN 0.0.e.f.{{ zonename }}.
+$ORIGIN 0.0.e.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr2-eqiad.wikimedia.org.
@@ -449,31 +449,31 @@ $ORIGIN 0.0.e.f.{{ zonename }}.
 
 ; cr2-eqiad <--> cr2-eqord (2620:0:861:fe02::/64)
 
-$ORIGIN 2.0.e.f.{{ zonename }}.
+$ORIGIN 2.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-0.cr2-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-5.cr2-eqord.wikimedia.org.
 
 ; cr2-eqiad:gr-4/3/0.1 <--> cr2-esams:gr-0/1/0.1 (2620:0:861:fe03::/64)
 
-$ORIGIN 3.0.e.f.{{ zonename }}.
+$ORIGIN 3.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-4-3-0-1.cr2-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-1-0-1.cr2-esams.wikimedia.org.
 
 ; cr1-eqiad <--> mr1-eqiad (2620:0:861:fe04::/64)
 
-$ORIGIN 4.0.e.f.{{ zonename }}.
+$ORIGIN 4.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-401.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ge-0-0-1-401.mr1-eqiad.wikimedia.org.
 
 ; cr2-eqiad <--> mr1-eqiad (2620:0:861:fe05::/64)
 
-$ORIGIN 5.0.e.f.{{ zonename }}.
+$ORIGIN 5.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-402.cr2-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ge-0-0-1-402.mr1-eqiad.wikimedia.org.
 
 ; Loopback IPs
 
-$ORIGIN f.f.f.f.{{ zonename }}.
+$ORIGIN f.f.f.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-eqiad.wikimedia.org.

@@ -64,7 +64,6 @@ def main():
     for filename in zones:
         templatepath = os.path.join(args.templatedir, filename)
         zonepath = os.path.join(args.zonedir, filename)
-        context['zonename'] = filename
 
         # only process regular files and symlinks
         if not os.path.isfile(templatepath) or filename.startswith('.'):
