@@ -64,7 +64,7 @@ wikimedia.org.  5M  IN CAA 0 issue "globalsign.com"
 wikimedia.org.  5M  IN CAA 0 issue "letsencrypt.org"
 wikimedia.org.  5M  IN CAA 0 issuewild "digicert.com"
 wikimedia.org.  5M  IN CAA 0 issuewild "globalsign.com"
-wikimedia.org.  5M  IN CAA 0 iodef "mailto:dns-admin.org"
+wikimedia.org.  5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 ; CAA for policy.wikimedia.org
 ; policy is operated by a third party which uses Namecheap/Comodo to issue DV certs on our behalf
@@ -76,7 +76,7 @@ policy          5M  IN CAA 0 issue "comodoca.com"
 policy          5M  IN CAA 0 issue "namecheap.com"
 policy          5M  IN CAA 0 issuewild "digicert.com"
 policy          5M  IN CAA 0 issuewild "globalsign.com"
-policy          5M  IN CAA 0 iodef "mailto:dns-admin.org"
+policy          5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 dumps           1H  IN CNAME labstore1006
 

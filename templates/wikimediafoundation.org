@@ -33,7 +33,7 @@ fundraising._domainkey  1H  IN TXT  "v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb
 @           600 IN CAA 0 issue "digicert.com"
 @           600 IN CAA 0 issue "globalsign.com"
 @           600 IN CAA 0 issue "letsencrypt.org"
-@           600 IN CAA 0 iodef "mailto:dns-admin.org"
+@           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 ; Servers (alphabetic order)
 
