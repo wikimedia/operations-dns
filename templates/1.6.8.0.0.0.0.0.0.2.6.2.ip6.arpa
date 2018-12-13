@@ -160,6 +160,8 @@ $ORIGIN 1.0.1.0.{{ zonename }}.
 
 6.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   people1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
+0.2.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   weblog1001.eqiad.wmnet.
+
 ; private1-b-eqiad (2620:0:861:102::/64)
 $ORIGIN 2.0.1.0.{{ zonename }}.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1018.wikimedia.org.
