@@ -3317,16 +3317,9 @@ $ORIGIN 16.192.@Z
 141 1H IN PTR   pybal-test2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 142 1H IN PTR   pybal-testsvc.codfw.wmnet.  ; service IP
 
-152 1H IN PTR   restbase2001.codfw.wmnet.
-153 1H IN PTR   restbase2002.codfw.wmnet.
 160 1H IN PTR   ms-be2018.codfw.wmnet.
 161 1H IN PTR   ms-be2019.codfw.wmnet.
-162 1H IN PTR   restbase2001-a.codfw.wmnet.
-163 1H IN PTR   restbase2001-b.codfw.wmnet.
-164 1H IN PTR   restbase2001-c.codfw.wmnet.
-165 1H IN PTR   restbase2002-a.codfw.wmnet.
-166 1H IN PTR   restbase2002-b.codfw.wmnet.
-167 1H IN PTR   restbase2002-c.codfw.wmnet.
+
 168 1H IN PTR   cygnus.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 169 1H IN PTR   kafka2002.codfw.wmnet.
 
@@ -3513,8 +3506,6 @@ $ORIGIN 32.192.@Z
 116 1H IN PTR   cp2017.codfw.wmnet.
 117 1H IN PTR   cp2018.codfw.wmnet.
 
-124 1H IN PTR   restbase2003.codfw.wmnet.
-125 1H IN PTR   restbase2004.codfw.wmnet.
 126 1H IN PTR   ms-be2020.codfw.wmnet.
 127 1H IN PTR   ms-be2021.codfw.wmnet.
 128 1H IN PTR   elastic2045.codfw.wmnet.
@@ -3523,12 +3514,7 @@ $ORIGIN 32.192.@Z
 131 1H IN PTR   mwlog2001.codfw.wmnet.
 132 1H IN PTR   scb2001.codfw.wmnet.
 133 1H IN PTR   rdb2005.codfw.wmnet.
-134 1H IN PTR   restbase2003-a.codfw.wmnet.
-135 1H IN PTR   restbase2003-b.codfw.wmnet.
-136 1H IN PTR   restbase2003-c.codfw.wmnet.
-137 1H IN PTR   restbase2004-a.codfw.wmnet.
-138 1H IN PTR   restbase2004-b.codfw.wmnet.
-139 1H IN PTR   restbase2004-c.codfw.wmnet.
+
 140 1H IN PTR   graphite2002.codfw.wmnet.
 141 1H IN PTR   conf2002.codfw.wmnet.
 142 1H IN PTR   restbase2008.codfw.wmnet.
@@ -3622,8 +3608,6 @@ $ORIGIN 48.192.@Z
 29  1H IN PTR   cp2025.codfw.wmnet.
 30  1H IN PTR   cp2026.codfw.wmnet.
 
-37  1H IN PTR   restbase2005.codfw.wmnet.
-38  1H IN PTR   restbase2006.codfw.wmnet.
 39  1H IN PTR   elastic2050.codfw.wmnet.
 40  1H IN PTR   es2013.codfw.wmnet.
 41  1H IN PTR   es2016.codfw.wmnet.
@@ -3631,12 +3615,7 @@ $ORIGIN 48.192.@Z
 43  1H IN PTR   scb2002.codfw.wmnet.
 44  1H IN PTR   rdb2006.codfw.wmnet.
 45  1H IN PTR   mwmaint2001.codfw.wmnet.
-46  1H IN PTR   restbase2005-a.codfw.wmnet.
-47  1H IN PTR   restbase2005-b.codfw.wmnet.
-48  1H IN PTR   restbase2005-c.codfw.wmnet.
-49  1H IN PTR   restbase2006-a.codfw.wmnet.
-50  1H IN PTR   restbase2006-b.codfw.wmnet.
-51  1H IN PTR   restbase2006-c.codfw.wmnet.
+
 52  1H IN PTR   conf2003.codfw.wmnet.
 53  1H IN PTR   restbase2009.codfw.wmnet.
 54  1H IN PTR   restbase2009-a.codfw.wmnet.
