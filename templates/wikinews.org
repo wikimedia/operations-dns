@@ -1,5 +1,4 @@
 ; vim: set expandtab:smarttab
-{% from "helpers/langlist.tmpl" import geolanglist with context -%}
 @           1D  IN SOA  ns0.wikimedia.org.  hostmaster.wikimedia.org.   (
                     {{ serial }}    ; serial
                     12H     ; refresh
@@ -40,7 +39,7 @@
 www         600 IN DYNA     geoip!text-addrs
 
 ; All languages will automatically be included here.
-{{ geolanglist() }}
+{% include "helpers/langlist.tmpl" %}
 
 ; Mobile
 m           600 IN DYNA     geoip!text-addrs
