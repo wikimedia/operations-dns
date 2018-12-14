@@ -668,7 +668,7 @@ $ORIGIN 20.64.{{ zonename }}.
 15  1H IN PTR   labvirt1009.eqiad.wmnet.
 16  1H IN PTR   labvirt1007.eqiad.wmnet.
 17  1H IN PTR   labvirt1008.eqiad.wmnet.
-18  1H IN PTR   labnodepool1001.eqiad.wmnet.
+
 19  1H IN PTR   labvirt1001.eqiad.wmnet.
 20  1H IN PTR   labvirt1002.eqiad.wmnet.
 21  1H IN PTR   labvirt1003.eqiad.wmnet.

@@ -648,7 +648,6 @@ labmon1002      1H  IN AAAA     2620:0:861:117:10:64:4:15
 labnet1001      1H  IN A        10.64.20.13
 labnet1002      1H  IN A        10.64.20.25
 cloudnet1004    1H  IN A        10.64.20.36
-labnodepool1001 1H  IN A        10.64.20.18
 labstore1001    1H  IN A        10.64.37.6
 labstore1002    1H  IN A        10.64.37.7
 labstore1003    1H  IN A        10.64.4.10
