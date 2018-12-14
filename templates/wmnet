@@ -1790,6 +1790,7 @@ icinga1001      1H  IN A    10.65.1.21
 wmf7431         1H  IN A    10.65.1.21
 scandium        1H  IN A    10.65.1.22
 wmf7432         1H  IN A    10.65.1.22
+bohrium         1H  IN A    10.65.1.23
 wmf7433         1H  IN A    10.65.1.23
 dumpsdata1001   1H  IN A    10.65.5.64
 wmf7090         1H  IN A    10.65.5.65

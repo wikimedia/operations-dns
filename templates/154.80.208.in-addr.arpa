@@ -38,6 +38,7 @@
 24  1H  IN PTR  labs-recursor3.wikimedia.org.
 25  1H  IN PTR  cloudstore1008.wikimedia.org.
 26  1H  IN PTR  cloudstore1009.wikimedia.org.
+27  1H  IN PTR  bohrium.wikimedia.org.
 
 42  1H  IN PTR  cp1008.wikimedia.org.
 43  1H  IN PTR  vl1001-eth0.lvs1007.eqiad.wmnet.
