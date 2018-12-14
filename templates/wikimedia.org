@@ -169,8 +169,6 @@ dubnium         1H  IN A    208.80.154.13 ; VM on ganeti01.svc.eqiad.wmnet
 cp1008          1H  IN A    208.80.154.42
 eeden           1H  IN A    91.198.174.121
 eeden           1H  IN AAAA 2620:0:862:1:91:198:174:121
-einsteinium     1H  IN A    208.80.155.119
-einsteinium     1H  IN AAAA 2620:0:861:4:208:80:155:119
 fermium         1H  IN A    208.80.154.14 ; VM on ganeti01.svc.eqiad.wmnet
 fermium         1H  IN AAAA 2620:0:861:1:208:80:154:14 ; VM on ganeti01.svc.eqiad.wmnet
 frbast-eqiad    1H  IN A    208.80.155.8
