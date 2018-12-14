@@ -1,6 +1,6 @@
 ; vim: set expandtab:smarttab
 @   1D  IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
-                {{ serial }}    ; serial
+                {{ serial }}
                 12H             ; refresh
                 2H              ; retry
                 2W              ; expiry
