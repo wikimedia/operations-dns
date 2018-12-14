@@ -36,7 +36,7 @@ mkdir -p "$TESTDIR/geoip"
 mkdir -p "$TESTDIR/state"
 
 echo "Generating zonefiles from zone templates"
-utils/authdns-gen-zones.py templates "$TESTDIR/zones"
+utils/gen-zones.py "$TESTDIR/zones"
 
 if [ "$(find "$TESTDIR/zones" | wc -l)" -le 10 ]; then
     die "less than 10 zones, something's probably wrong, aborting";
