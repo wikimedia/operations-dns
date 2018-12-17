@@ -14,7 +14,7 @@ die() { echo >&2 "E: $*"; exit 1; }
 
 cleanup() {
    if [ "$CLEANUP" = "yes" ] && [ -d "$TESTDIR" ]; then
-       rm -rf $TESTDIR
+       rm -rf "$TESTDIR"
    fi
 }
 trap cleanup EXIT
@@ -31,19 +31,29 @@ if [ -z "$TESTDIR" ]; then
 fi
 
 echo "Using $TESTDIR as the output working directory (gdnsd etc)"
-mkdir -p $TESTDIR/zones
-mkdir -p $TESTDIR/geoip
+mkdir -p "$TESTDIR/zones"
+mkdir -p "$TESTDIR/geoip"
+mkdir -p "$TESTDIR/state"
 
 echo "Generating zonefiles from zone templates"
-utils/authdns-gen-zones.py templates $TESTDIR/zones
+utils/authdns-gen-zones.py templates "$TESTDIR/zones"
+
+if [ "$(find "$TESTDIR/zones" | wc -l)" -le 10 ]; then
+    die "less than 10 zones, something's probably wrong, aborting";
+fi
 
 echo "Generating gdnsd config"
 for realf in config geo-maps geo-resources; do
-    cp -f $realf $TESTDIR/
+    cp -f $realf "$TESTDIR/"
 done
-for mockf in config-options discovery-map discovery-geo-resources discovery-metafo-resources discovery-states; do
-    cp -f utils/mock_etc/$mockf $TESTDIR/
+for mockf in discovery-map discovery-geo-resources discovery-metafo-resources discovery-states; do
+    cp -f utils/mock_etc/$mockf "$TESTDIR/"
 done
-cp -f utils/mock_etc/geoip/GeoIP2-City.mmdb $TESTDIR/geoip/
+cp -f utils/mock_etc/geoip/GeoIP2-City.mmdb "$TESTDIR/geoip/"
+cp -f admin_state "$TESTDIR/state/"
 
-gdnsd -Sc $TESTDIR checkconf
+# The mock variant of config-options is used to set the state_dir so that we
+# can test parsing of admin_state
+echo "state_dir = \"$TESTDIR/state\"" >"$TESTDIR/config-options"
+
+gdnsd -c "$TESTDIR" checkconf
