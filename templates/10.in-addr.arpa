@@ -377,6 +377,7 @@ $ORIGIN 0.64.{{ zonename }}.
 139 1H IN PTR   ms-be1045.eqiad.wmnet.
 140 1H IN PTR   ms-be1046.eqiad.wmnet.
 141 1H IN PTR   sessionstore1001.eqiad.wmnet.
+142 1H IN PTR   doc1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 162 1H IN PTR   logstash1004.eqiad.wmnet.
 163 1H IN PTR   db1096.eqiad.wmnet.
