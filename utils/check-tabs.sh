@@ -1,10 +1,11 @@
 #!/bin/sh
 
-echo "Looking for tabulations:"
-if [ ! -e templates/wikimedia.org ]; then
-    echo "ERROR: Run this from the repo root"
+if ! grep -q operations/dns .gitreview 2>/dev/null; then
+    echo "ERROR: must be executed from the DNS repo root"
     exit 2
 fi
+
+echo "Looking for tabulations:"
 (git grep -P '\t') && HAS_TAB=1 || HAS_TAB=0
 if [ $HAS_TAB -eq 1 ]; then
     echo "ERROR: Tabs found"

@@ -19,7 +19,7 @@ cleanup() {
 }
 trap cleanup EXIT
 
-if [ ! -e templates/wikimedia.org ]; then
+if ! grep -q operations/dns .gitreview 2>/dev/null; then
     die "must be executed from the DNS repo root"
 fi
 

@@ -3,8 +3,8 @@
 if [ -n "$1" ]; then
     cd "$1" ||:
 fi
-if [ ! -e templates/wikimedia.org ]; then
-    echo "ERROR: Run this from the repo root or specify the repo root path as the only argument"
+if ! grep -q operations/dns .gitreview 2>/dev/null; then
+    echo "ERROR: must be executed from the DNS repo root or have the repo root as first argument"
     exit 2
 fi
 
