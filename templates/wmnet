@@ -4870,8 +4870,8 @@ cr4-ulsfo       1H      IN A    10.128.128.5
 asw-ulsfo       1H      IN A    10.128.128.6
 asw2-ulsfo      1H      IN A    10.128.128.7
 scs-ulsfo       1H      IN A    10.128.128.11
-ps-102.02.22-ulsfo  1H  IN A    10.128.128.12
-ps-102.02.23-ulsfo  1H  IN A    10.128.128.13
+ps1-22-ulsfo    1H      IN A    10.128.128.12
+ps1-23-ulsfo    1H      IN A    10.128.128.13
 
 ; Servers listed sequentially
 lvs4005         1H      IN A    10.128.129.5
