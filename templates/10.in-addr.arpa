@@ -2888,7 +2888,8 @@ $ORIGIN 128.128.{{ zonename }}.
 6   1H  IN PTR      asw-ulsfo.mgmt.ulsfo.wmnet.
 7   1H  IN PTR      asw2-ulsfo.mgmt.ulsfo.wmnet.
 11  1H  IN PTR      scs-ulsfo.mgmt.ulsfo.wmnet.
-
+12  1H  IN PTR      ps-102.02.22-ulsfo.mgmt.ulsfo.wmnet.
+13  1H  IN PTR      ps-102.02.23-ulsfo.mgmt.ulsfo.wmnet.
 
 $ORIGIN 129.128.{{ zonename }}.
 5   1H  IN PTR      lvs4005.mgmt.ulsfo.wmnet.
