@@ -69,5 +69,3 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
-# Depool codfw for row A recabling - T210447
-geoip/generic-map/codfw => DOWN
