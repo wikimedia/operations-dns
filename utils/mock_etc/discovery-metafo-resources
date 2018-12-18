@@ -1,3 +1,8 @@
+# WARNING:----------------------------------------------------------------
+# Do not add anything to this file unless you've *first* made the
+# corresponding edit to hieradata/common/discovery.yaml , merged that, and
+# deployed it to all authdns servers via the puppet agent!
+# ------------------------------------------------------------------------
 # mock active-passive entries by copying here and changing name
 disc-appservers-rw  => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-api-rw         => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
