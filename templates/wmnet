@@ -5255,6 +5255,7 @@ recommendation-api 300/10 IN DYNA geoip!disc-recommendation-api
 wdqs           300/10 IN DYNA geoip!disc-wdqs
 wdqs-internal  300/10 IN DYNA geoip!disc-wdqs-internal
 zotero         300/10 IN DYNA geoip!disc-zotero
+blubberoid     300/10 IN DYNA geoip!disc-blubberoid
 ; Will become a proper discovery endpoint once we add more registries
 debmonitor      300 IN CNAME debmonitor1001.eqiad.wmnet.
 docker-registry 300 IN CNAME darmstadtium.eqiad.wmnet.
