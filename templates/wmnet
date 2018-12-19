@@ -930,6 +930,8 @@ rdb1007         1H  IN A        10.64.32.18
 rdb1008         1H  IN A        10.64.32.19
 rdb1009         1H  IN A        10.64.16.76
 rdb1010         1H  IN A        10.64.48.38
+registry1001    1H  IN A        10.64.0.143 ;VM on ganeti01.svc.eqiad.wmnet docker registry instance
+registry1002    1H  IN A        10.64.32.139 ;VM on ganeti01.svc.eqiad.wmnet docker registry instance
 releases1001    1H  IN A        10.64.0.88 ; VM on ganeti01.svc.eqiad.wmnet
 releases1001    1H  IN AAAA     2620:0:861:101:10:64:0:88 ; VM on ganeti01.svc.eqiad.wmnet
 relforge1001    1H  IN A        10.64.4.13
@@ -3268,6 +3270,8 @@ rdb2003         1H  IN A    10.192.16.122
 rdb2004         1H  IN A    10.192.16.123
 rdb2005         1H  IN A    10.192.32.133
 rdb2006         1H  IN A    10.192.48.44
+registry2001    1H  IN A    10.192.0.113 ; VM on ganeti01.svc.codfw.wmnet docker registry
+registry2002    1H  IN A    10.192.16.94 ; VM on ganeti01.svc.codfw.wmnet docker registry
 releases2001    1H  IN A        10.192.16.174 ; VM on ganeti01.svc.codfw.wmnet
 releases2001    1H  IN AAAA     2620:0:860:102:10:192:16:174 ; VM on ganeti01.svc.codfw.wmnet
 restbase2001    1H  IN A    10.192.16.152
