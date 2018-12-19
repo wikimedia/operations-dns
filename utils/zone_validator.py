@@ -633,6 +633,10 @@ class ZonesValidator:
                 raise ValueError('Unsupported fully qualified PTR: {file}:{lineno} {line}'.format(
                     file=self.zone, lineno=lineno, line=line))
 
+            if fqdn[-1] != '.':
+                raise ValueError('Unsupported not fully qualified PTR pointer: {file}:{lineno} {line}'.format(
+                    file=self.zone, lineno=lineno, line=line))
+
             ptr = '.'.join([ip, self.origin])
             comment = comments[0].strip() if comments else ''
             record = DNSRecord(ptr, record_type, fqdn, self.zone, lineno, comment=comment)
