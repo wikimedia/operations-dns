@@ -1,0 +1,8 @@
+# In production we puppetize nsid_ascii to the (unqualified) hostname of the
+# authdns server, and technically in edge cases the length of the hostname here
+# could affect whether very large records are accepted or rejected by gdnsd at
+# checkconf/start time (e.g. a TXT RR-set with close to 16KB of data).  To
+# avoid edge cases passing CI and then failing on the real hosts, we define a
+# 64-byte arbitrary nsid_ascii value here so that CI will always fail before
+# real hosts do (the longest possible unqualified legal hostname is 63 bytes).
+nsid_ascii = fb860c14b83c15c3cbec43fe647195cb07bd1eda27b53132965e262d8b1e21fa
