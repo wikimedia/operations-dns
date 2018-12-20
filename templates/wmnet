@@ -16,6 +16,7 @@
 fundraisingdb-write 5M  IN CNAME    frdb1001.frack.eqiad.wmnet.
 fundraisingdb-read  5M  IN CNAME    frdb1002.frack.eqiad.wmnet.
 
+; TESTME
 ;
 ; EQIAD
 ;
