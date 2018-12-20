@@ -699,6 +699,12 @@ $ORIGIN 20.64.@Z
 46  1H  IN PTR  cloudvirtan1003.eqiad.wmnet.
 47  1H  IN PTR  cloudvirtan1004.eqiad.wmnet.
 48  1H  IN PTR  cloudvirtan1005.eqiad.wmnet.
+49  1H  IN PTR  cloudvirt1025.eqiad.wmnet.
+50  1H  IN PTR  cloudvirt1026.eqiad.wmnet.
+51  1H  IN PTR  cloudvirt1027.eqiad.wmnet.
+52  1H  IN PTR  cloudvirt1028.eqiad.wmnet.
+53  1H  IN PTR  cloudvirt1029.eqiad.wmnet.
+54  1H  IN PTR  cloudvirt1030.eqiad.wmnet.
 
 ; 10.64.21.0/24 - analytics1-b-eqiad
 $ORIGIN 21.64.@Z
