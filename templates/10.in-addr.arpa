@@ -679,7 +679,7 @@ $ORIGIN 20.64.@Z
 26  1H IN PTR   labvirt1010.eqiad.wmnet.
 27  1H IN PTR   labvirt1011.eqiad.wmnet.
 28  1H IN PTR   labvirt1012.eqiad.wmnet.
-29  1H IN PTR   labvirt1013.eqiad.wmnet.
+29  1H IN PTR   cloudvirt1013.eqiad.wmnet.
 30  1H IN PTR   cloudvirt1014.eqiad.wmnet.
 31  1H IN PTR   cloudvirt1015.eqiad.wmnet.
 32  1H IN PTR   cloudvirt1016.eqiad.wmnet.
@@ -2224,7 +2224,7 @@ $ORIGIN 4.65.@Z
 61  1H  IN PTR      wmf4799.mgmt.eqiad.wmnet.
 62  1H  IN PTR      labvirt1012.mgmt.eqiad.wmnet.
 62  1H  IN PTR      wmf6976.mgmt.eqiad.wmnet.
-63  1H  IN PTR      labvirt1013.mgmt.eqiad.wmnet.
+63  1H  IN PTR      cloudvirt1013.mgmt.eqiad.wmnet.
 63  1H  IN PTR      wmf6977.mgmt.eqiad.wmnet.
 64  1H  IN PTR      cloudvirt1014.mgmt.eqiad.wmnet.
 64  1H  IN PTR      wmf6978.mgmt.eqiad.wmnet.
