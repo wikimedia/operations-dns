@@ -7,7 +7,9 @@ The script parses the following zones in the templates/ directory:
 - *.in-addr.arpa
 - *.ip6.arpa
 
-Violations will be reported to stdout, logging to stderr.
+Violations are reported to stdout, logging to stderr. Parse failures are
+logged.
+
 
 Parsing will fail in any of the following cases:
 - all $ORIGINs must be fully qualified, relative ORIGINs are not supported.
@@ -96,6 +98,15 @@ ASSET_TAG_PATTERN = re.compile(r'^wmf[0-9]{4}\.mgmt\.', re.I)
 NO_ASSET_TAG_PREFIXES = []
 IPV4_REVERSE_DOMAIN = 'in-addr.arpa.'
 IPV6_REVERSE_DOMAIN = 'ip6.arpa.'
+
+
+class ZoneParseError(Exception):
+    """Custom exception class for errors while parsing the zone files."""
+
+    def __init__(self, message, zonefile, lineno, line):
+        """Initialize the parent exception with the compiled message."""
+        super().__init__('{msg}:\n    {file}:{lineno} {line}'.format(
+            msg=message, file=zonefile, lineno=lineno, line=line.strip()))
 
 
 class ViolationBase(Enum):
@@ -222,7 +233,7 @@ class ViolationFactory:
         elif name.startswith('W_'):
             return getattr(Warning, name[2:])
         else:
-            raise ValueError('Unrecognized validation name {name}'.format(name=name))
+            raise ValueError('Unrecognized violation name {name}'.format(name=name))
 
     @staticmethod
     def find(name):
@@ -348,7 +359,7 @@ class ViolationsReporter:
         if all(violation.ignore(record.comment) for record in records):
             for record in records:
                 self.ignored_lines += 1
-                logger.warning('Ignoring violation %s in %s:%d', violation.name, record.file, record.line)
+                logger.warning('Ignoring violation %s in %s:%d', violation.name, record.file, record.lineno)
             return
 
         self.counters[violation] += 1
@@ -359,7 +370,7 @@ class ViolationsReporter:
             source_files = ''
             source = '%s'
         else:
-            source_files = ' '.join('{file}:{line}'.format(file=record.file, line=record.line) for record in records)
+            source_files = ' '.join('{file}:{line}'.format(file=record.file, line=record.lineno) for record in records)
             source = ' (defined in %s)'
         self.logger.log(level, '%s ' + message + source, violation, *args, source_files)
 
@@ -449,16 +460,20 @@ class PrintList(list):
 class DNSRecord:
     """A DNS Record object, immutable."""
     # Specify the fields that can be set, also optimizing them.
-    __slots__ = ['key', 'type', 'value', 'file', 'line', 'comment', 'name', 'ip', 'is_ganeti', 'is_k8s']
+    __slots__ = ['key', 'type', 'value', 'file', 'lineno', 'line', 'comment', 'name', 'ip', 'is_ganeti', 'is_k8s']
 
-    def __init__(self, key, record_type, value, file, line, comment=''):
+    def __init__(self, key, record_type, value, file, lineno, line, comment=''):
         """Constructor of as DNSRecord object."""
         if record_type in ('A', 'AAAA'):
             name = key
-            ip = ipaddress.ip_address(value)
+            try:
+                ip = ipaddress.ip_address(value)
+            except ValueError as e:
+                raise ZoneParseError('Failed to initialize IP ({e})'.format(e=e), file, lineno, line) from e
+
             if (record_type == 'A' and ip.version != 4) or (record_type == 'AAAA' and ip.version != 6):
-                raise ValueError("Invalid IPv{ver} value '{ip}' for record {type}: {name}".format(
-                    ver=ip.version, ip=ip, type=record_type, name=name))
+                raise ZoneParseError('Invalid IPv{ver} value for record {type}'.format(
+                    ver=ip.version, type=record_type), file, lineno, line)
 
         elif record_type == 'PTR':
             name = value
@@ -469,17 +484,22 @@ class DNSRecord:
             elif key.endswith(IPV4_REVERSE_DOMAIN):
                 addr = '.'.join(reverse)
             else:
-                raise ValueError('Unknown PTR type: {pointer}'.format(pointer=key))
+                raise ZoneParseError('Unknown PTR type', file, lineno, line)
 
-            ip = ipaddress.ip_address(addr)
+            try:
+                ip = ipaddress.ip_address(addr)
+            except ValueError as e:
+                raise ZoneParseError('Failed to convert PTR back to IP ({e})'.format(e=e), file, lineno, line) from e
+
         else:
-            raise ValueError('Unrecognized record type: {type}', type=record_type)
+            raise ZoneParseError('Unrecognized record type {type}'.format(type=record_type), file, lineno, line)
 
         # Use object's __setattr__ to bypass the its own __setattr__.
         object.__setattr__(self, 'key', key)
         object.__setattr__(self, 'type', record_type)
         object.__setattr__(self, 'value', value)
         object.__setattr__(self, 'file', file)
+        object.__setattr__(self, 'lineno', lineno)
         object.__setattr__(self, 'line', line)
         object.__setattr__(self, 'comment', comment)
         object.__setattr__(self, 'name', name)
@@ -497,11 +517,11 @@ class DNSRecord:
 
     def __repr__(self):
         """Representation of the object."""
-        return '<DNSRecord {o.key} {o.type} {o.value} ({o.file}:{o.line}) {o.comment}>'.format(o=self)
+        return '<DNSRecord {o.key} {o.type} {o.value} ({o.file}:{o.lineno}) {o.comment}>'.format(o=self)
 
     def __str__(self):
         """String representation of the object."""
-        return '{o.file}:{o.line} {o.key} {o.type} {o.value} {o.comment}'.format(o=self)
+        return '{o.file}:{o.lineno} {o.key} {o.type} {o.value} {o.comment}'.format(o=self)
 
     def __hash__(self):
         """Make the class hashable based only on the DNS-meaningful part of the data."""
@@ -592,9 +612,7 @@ class ZonesValidator:
         elif line.startswith('$ORIGIN '):
             self.origin = line.replace('@Z', self.zone + '.').split()[1]
             if self.origin[-1] != '.':
-                raise ValueError(
-                    'Unsupported not fully qualified $ORIGIN: {file}:{lineno} {line}'.format(
-                        file=self.zone, lineno=lineno, line=line))
+                raise ZoneParseError('Unsupported not fully qualified $ORIGIN', self.zone, lineno, line)
 
             self.origins.add(self.origin)
 
@@ -611,12 +629,11 @@ class ZonesValidator:
                 name, _, _, record_type, ip, *comments = line.split(None, 5)
 
             if name[-1] == '.':
-                raise ValueError('Unsupported fully qualified name: {file}:{lineno} {line}'.format(
-                    file=self.zone, lineno=lineno, line=line))
+                raise ZoneParseError('Unsupported fully qualified name', self.zone, lineno, line)
 
             fqdn = '.'.join([name, self.origin])
             comment = comments[0].strip() if comments else ''
-            record = DNSRecord(fqdn, record_type, ip, self.zone, lineno, comment=comment)
+            record = DNSRecord(fqdn, record_type, ip, self.zone, lineno, line, comment=comment)
 
             self.unique_records[fqdn].append(record)
             self.names['IP'][self.origin][ip].append(record)
@@ -632,16 +649,14 @@ class ZonesValidator:
                 return
 
             if ip[-1] == '.':
-                raise ValueError('Unsupported fully qualified PTR: {file}:{lineno} {line}'.format(
-                    file=self.zone, lineno=lineno, line=line))
+                raise ZoneParseError('Unsupported fully qualified PTR', self.zone, lineno, line)
 
             if fqdn[-1] != '.':
-                raise ValueError('Unsupported not fully qualified PTR pointer: {file}:{lineno} {line}'.format(
-                    file=self.zone, lineno=lineno, line=line))
+                raise ZoneParseError('Unsupported not fully qualified PTR pointer', self.zone, lineno, line)
 
             ptr = '.'.join([ip, self.origin])
             comment = comments[0].strip() if comments else ''
-            record = DNSRecord(ptr, record_type, fqdn, self.zone, lineno, comment=comment)
+            record = DNSRecord(ptr, record_type, fqdn, self.zone, lineno, line, comment=comment)
 
             self.unique_records[fqdn].append(record)
             self.names['PTR'][self.origin][ptr].append(record)
@@ -778,14 +793,11 @@ class ZonesValidator:
                 ips += [record.value for record in self.ips[orig][name]]
 
         for record in records:
-            try:
-                if str(record.ip) not in ips:
-                    if ips:
-                        self.reporter.e_missing_or_wrong_ip_for_name_and_ptr(record, ips)
-                    else:
-                        self.reporter.w_missing_ip_for_name_and_ptr(record)
-            except ValueError as e:
-                raise ValueError("Unable to reverse PTR to IP for record %s: %s", record, e)
+            if str(record.ip) not in ips:
+                if ips:
+                    self.reporter.e_missing_or_wrong_ip_for_name_and_ptr(record, ips)
+                else:
+                    self.reporter.w_missing_ip_for_name_and_ptr(record)
 
     def _validate_mgmt_exists(self, name, records, is_mgmt):
         """Validate that the mgmt interface exists if not Ganeti VMs or k8s pods."""
@@ -914,7 +926,13 @@ def main():
 
     reporter = ViolationsReporter(level, ignores=args.ignores, shows=args.show_only)
     validator = ZonesValidator(zonefiles, reporter)
-    validator.validate()
+
+    try:
+        validator.validate()
+    except ZoneParseError as e:
+        logger.critical('\x1b[31;1mPARSE ERROR\x1b[31;0m | %s', e)
+        return 2
+
     violations = reporter.log_results()
 
     if args.save:
