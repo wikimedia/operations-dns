@@ -420,6 +420,7 @@ se.m                600 IN DYNA     geoip!text-addrs
 species.m           600 IN DYNA     geoip!text-addrs
 steward.m           600 IN DYNA     geoip!text-addrs
 strategy.m          600 IN DYNA     geoip!text-addrs
+test-commons.m      600 IN DYNA     geoip!text-addrs
 tr.m                600 IN DYNA     geoip!text-addrs
 ua.m                600 IN DYNA     geoip!text-addrs
 usability.m         600 IN DYNA     geoip!text-addrs
@@ -760,6 +761,7 @@ species          600 IN DYNA     geoip!text-addrs
 steward          600 IN DYNA     geoip!text-addrs
 strategy         600 IN DYNA     geoip!text-addrs
 techconduct      600 IN DYNA     geoip!text-addrs
+test-commons     600 IN DYNA     geoip!text-addrs
 tr               600 IN DYNA     geoip!text-addrs
 transitionteam   600 IN DYNA     geoip!text-addrs
 ua               600 IN DYNA     geoip!text-addrs
