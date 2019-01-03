@@ -4068,12 +4068,6 @@ rdb2003         1H  IN A    10.193.2.161
 rdb2004         1H  IN A    10.193.2.162
 rdb2005         1H  IN A    10.193.2.247
 rdb2006         1H  IN A    10.193.2.248
-restbase2001    1H  IN A    10.193.2.224
-restbase2002    1H  IN A    10.193.2.225
-restbase2003    1H  IN A    10.193.2.226
-restbase2004    1H  IN A    10.193.2.227
-restbase2005    1H  IN A    10.193.2.228
-restbase2006    1H  IN A    10.193.2.229
 restbase2007    1H  IN A    10.193.3.5
 restbase2008    1H  IN A    10.193.3.6
 restbase2009    1H  IN A    10.193.3.7
@@ -4362,12 +4356,6 @@ wmf6323         1H  IN A    10.193.2.194
 wmf6324         1H  IN A    10.193.2.195
 wmf6325         1H  IN A    10.193.2.196
 wmf6326         1H  IN A    10.193.2.197
-wmf6363         1H  IN A    10.193.2.224
-wmf6364         1H  IN A    10.193.2.225
-wmf6365         1H  IN A    10.193.2.226
-wmf6366         1H  IN A    10.193.2.227
-wmf6367         1H  IN A    10.193.2.228
-wmf6368         1H  IN A    10.193.2.229
 wmf6370         1H  IN A    10.193.1.12
 wmf6371         1H  IN A    10.193.1.13
 wmf6372         1H  IN A    10.193.1.14
