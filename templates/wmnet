@@ -290,7 +290,6 @@ certcentral1001  1H IN A         10.64.32.26 ; VM on ganeti01.svc.eqiad.wmnet
 certcentral1001  1H IN AAAA      2620:0:861:103:10:64:32:26 ; VM on ganeti01.svc.eqiad.wmnet
 chlorine         1H IN A         10.64.0.45 ; VM on ganeti01.svc.eqiad.wmnet
 chlorine         1H IN AAAA      2620:0:861:101:10:64:0:45 ; VM on ganeti01.svc.eqiad.wmnet
-vip-gw-cloudnet  1H IN A         10.64.22.4
 cloudnet1003     1H IN A         10.64.20.35
 cloudvirt1019    1H IN A         10.64.20.38
 cloudvirt1019    1H IN AAAA      2620:0:861:118:10:64:20:38
@@ -1059,7 +1058,7 @@ labvirt1008     1H  IN A        10.64.20.17
 labvirt1010     1H  IN A        10.64.20.26
 labvirt1011     1H  IN A        10.64.20.27
 labvirt1012     1H  IN A        10.64.20.28
-cloudvirt1013   1H  IN A        10.64.20.29
+labvirt1013     1H  IN A        10.64.20.29
 cloudvirt1014   1H  IN A        10.64.20.30
 cloudvirt1015   1H  IN A        10.64.20.31
 cloudvirt1016   1H  IN A        10.64.20.32
@@ -1314,7 +1313,7 @@ wmf4714         1H  IN A    10.65.3.237
 labvirt1011     1H  IN A    10.65.3.237
 labvirt1012     1H  IN A    10.65.4.62
 wmf6976         1H  IN A    10.65.4.62
-cloudvirt1013   1H  IN A    10.65.4.63
+labvirt1013     1H  IN A    10.65.4.63
 wmf6977         1H  IN A    10.65.4.63
 cloudvirt1014   1H  IN A    10.65.4.64
 wmf6978         1H  IN A    10.65.4.64
@@ -3710,6 +3709,30 @@ dbstore2002     1H  IN A    10.193.1.254
 deploy2001      1H  IN A    10.193.2.253
 dns2001         1H  IN A    10.193.1.197
 dns2002         1H  IN A    10.193.1.198
+elastic2001     1H  IN A    10.193.2.198
+elastic2002     1H  IN A    10.193.2.199
+elastic2003     1H  IN A    10.193.2.200
+elastic2004     1H  IN A    10.193.2.201
+elastic2005     1H  IN A    10.193.2.202
+elastic2006     1H  IN A    10.193.2.203
+elastic2007     1H  IN A    10.193.2.204
+elastic2008     1H  IN A    10.193.2.205
+elastic2009     1H  IN A    10.193.2.206
+elastic2010     1H  IN A    10.193.2.207
+elastic2011     1H  IN A    10.193.2.208
+elastic2012     1H  IN A    10.193.2.209
+elastic2013     1H  IN A    10.193.2.210
+elastic2014     1H  IN A    10.193.2.211
+elastic2015     1H  IN A    10.193.2.212
+elastic2016     1H  IN A    10.193.2.213
+elastic2017     1H  IN A    10.193.2.214
+elastic2018     1H  IN A    10.193.2.215
+elastic2019     1H  IN A    10.193.2.216
+elastic2020     1H  IN A    10.193.2.217
+elastic2021     1H  IN A    10.193.2.218
+elastic2022     1H  IN A    10.193.2.219
+elastic2023     1H  IN A    10.193.2.220
+elastic2024     1H  IN A    10.193.2.221
 elastic2025     1H  IN A    10.193.1.163
 elastic2026     1H  IN A    10.193.1.164
 elastic2027     1H  IN A    10.193.1.165
@@ -4363,6 +4386,30 @@ wmf6323         1H  IN A    10.193.2.194
 wmf6324         1H  IN A    10.193.2.195
 wmf6325         1H  IN A    10.193.2.196
 wmf6326         1H  IN A    10.193.2.197
+wmf6339         1H  IN A    10.193.2.198
+wmf6340         1H  IN A    10.193.2.199
+wmf6341         1H  IN A    10.193.2.200
+wmf6342         1H  IN A    10.193.2.201
+wmf6343         1H  IN A    10.193.2.202
+wmf6344         1H  IN A    10.193.2.203
+wmf6345         1H  IN A    10.193.2.204
+wmf6346         1H  IN A    10.193.2.205
+wmf6347         1H  IN A    10.193.2.206
+wmf6348         1H  IN A    10.193.2.207
+wmf6349         1H  IN A    10.193.2.208
+wmf6350         1H  IN A    10.193.2.209
+wmf6351         1H  IN A    10.193.2.210
+wmf6352         1H  IN A    10.193.2.211
+wmf6353         1H  IN A    10.193.2.212
+wmf6354         1H  IN A    10.193.2.213
+wmf6355         1H  IN A    10.193.2.214
+wmf6356         1H  IN A    10.193.2.215
+wmf6357         1H  IN A    10.193.2.216
+wmf6358         1H  IN A    10.193.2.217
+wmf6359         1H  IN A    10.193.2.218
+wmf6360         1H  IN A    10.193.2.219
+wmf6361         1H  IN A    10.193.2.220
+wmf6362         1H  IN A    10.193.2.221
 wmf6363         1H  IN A    10.193.2.224
 wmf6364         1H  IN A    10.193.2.225
 wmf6365         1H  IN A    10.193.2.226

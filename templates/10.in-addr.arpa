@@ -734,13 +734,6 @@ $ORIGIN 21.64.@Z
 122 1H IN PTR   an-worker1086.eqiad.wmnet.
 123 1H IN PTR   an-worker1087.eqiad.wmnet.
 
-; 10.64.22.0/24 - cloud-instance-transport1-b-eqiad
-$ORIGIN 22.64.@Z
-1   1H IN PTR   vrrp-gw-1120.eqiad.wmnet.
-2   1H IN PTR   ae2-1120.cr1-eqiad.wikimedia.org.
-3   1H IN PTR   ae2-1120.cr2-eqiad.wikimedia.org.
-4   1H IN PTR   vip-gw-cloudnet.eqiad.wmnet.
-
 ; 10.64.32.0/22 - private1-c-eqiad
 $ORIGIN 32.64.@Z
 
