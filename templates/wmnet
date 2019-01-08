@@ -5055,7 +5055,6 @@ kartotherian 1H IN A        10.2.2.13
 mobileapps  1H  IN A        10.2.2.14
 graphoid    1H  IN A        10.2.2.15
 zotero      1H  IN A        10.2.2.16
-zoterov2    1H  IN A        10.2.2.29
 restbase    1H  IN A        10.2.2.17
 restbase-async 1H  IN A     10.2.2.17
 cxserver    1H  IN A        10.2.2.18
@@ -5125,7 +5124,6 @@ kartotherian    1H  IN A        10.2.1.13
 mobileapps      1H  IN A        10.2.1.14
 graphoid        1H  IN A        10.2.1.15
 zotero          1H  IN A        10.2.1.16
-zoterov2        1H  IN A        10.2.1.29
 restbase        1H  IN A        10.2.1.17
 restbase-async  1H  IN A        10.2.1.17
 cxserver        1H  IN A        10.2.1.18
