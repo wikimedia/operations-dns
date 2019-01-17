@@ -53,11 +53,21 @@
 
 216 1H IN PTR   dns-rec-lb.esams.wikimedia.org. ; not actually public!
 
-; 91.198.174.224/28 (224-239) out-of-subnet LVS service IPs
+; 91.198.174.224/31 - cr2-knams <--> mr1-esams
+224     1H  IN PTR  ae1-405.cr2-knams.wikimedia.org.
+225     1H  IN PTR  ge-0-0-1-405.mr1-esams.wikimedia.org.
+
+; 91.198.174.226/31 (226-227) unused
+
+; 91.198.174.228/30 (228-231) unused
+
+; 91.198.174.232/29 (232-239) out-of-subnet LVS service IPs
 
 239 1D IN PTR   ns2.wikimedia.org.
 
-; unused 91.198.174.240/31
+; 91.198.174.240/31 - cr1-esams <--> mr1-esams
+240     1H  IN PTR  ae1-404.cr1-esams.wikimedia.org.
+241     1H  IN PTR  ge-0-0-1-404.mr1-esams.wikimedia.org.
 
 ; Neighbor block between cr1-esams and cr2-knams (91.198.174.242/31)
 
