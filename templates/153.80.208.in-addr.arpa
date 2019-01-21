@@ -115,7 +115,6 @@
 185  1H  IN PTR  vrrp-gw-2120.wikimedia.org.
 186  1H  IN PTR  ae2-2120.cr1-codfw.wikimedia.org.
 187  1H  IN PTR  ae2-2120.cr2-codfw.wikimedia.org.
-189  1H  IN PTR  eth1-2120.labtestneutron2002.codfw.wmnet.
 
 ; Neighbor blocks & loopbacks (208.80.153.192/27)
 
