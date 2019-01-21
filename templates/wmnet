@@ -3766,8 +3766,7 @@ labtestpuppetmaster2001    1H  IN A    10.193.1.36
 cloudnet2001-dev      1H  IN A    10.193.1.20
 labtestnet2002        1H  IN A    10.193.1.34
 labtestnet2003        1H  IN A    10.193.1.152
-labtestneutron2002    1H  IN A    10.193.1.35 ; vvv duplicated on purpose
-cloudnet2002-dev      1H  IN A    10.193.1.35 ; ^^^ duplicated on purpose
+cloudnet2002-dev      1H  IN A    10.193.1.35
 labtestservices2001   1H  IN A    10.193.1.21
 labtestservices2002   1H  IN A    10.193.1.39
 labtestservices2003   1H  IN A    10.193.1.38
