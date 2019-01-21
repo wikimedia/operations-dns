@@ -3827,8 +3827,7 @@ $ORIGIN 1.193.@Z
 18  1H IN PTR  wmf3810.mgmt.codfw.wmnet.
 19  1H IN PTR  labtestvirt2001.mgmt.codfw.wmnet.
 19  1H IN PTR  wmf5850.mgmt.codfw.wmnet.
-20  1H IN PTR  labtestneutron2001.mgmt.codfw.wmnet. ;vvv duplicated while renaming
-20  1H IN PTR  cloudnet2001-dev.mgmt.codfw.wmnet.   ;^^^ duplicated while renaming
+20  1H IN PTR  cloudnet2001-dev.mgmt.codfw.wmnet.
 20  1H IN PTR  wmf3763.mgmt.codfw.wmnet.
 21  1H IN PTR  labtestservices2001.mgmt.codfw.wmnet.
 21  1H IN PTR  wmf3644.mgmt.codfw.wmnet.
