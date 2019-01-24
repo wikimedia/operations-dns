@@ -3584,6 +3584,10 @@ backup2001      1H  IN A    10.193.1.80
 baham           1H  IN A    10.193.1.32
 bast2001        1H  IN A    10.193.1.11
 bast2002        1H  IN A    10.193.1.207
+cloudcontrol2001-dev        1H  IN A    10.193.2.198
+cloudvirt2001-dev           1H  IN A    10.193.2.199
+cloudvirt2002-dev           1H  IN A    10.193.2.200
+cloudvirt2003-dev           1H  IN A    10.193.2.201
 conf2001        1H  IN A    10.193.3.2
 conf2002        1H  IN A    10.193.3.3
 conf2003        1H  IN A    10.193.3.4
@@ -4636,6 +4640,10 @@ wmf6696         1H  IN A    10.193.3.60
 wmf6697         1H  IN A    10.193.3.61
 wmf6698         1H  IN A    10.193.3.62
 wmf6699         1H  IN A    10.193.3.63
+wmf6700         1H  IN A    10.193.2.198
+wmf6701         1H  IN A    10.193.2.199
+wmf6702         1H  IN A    10.193.2.200
+wmf6703         1H  IN A    10.193.2.201
 
 ;
 ; ESAMS

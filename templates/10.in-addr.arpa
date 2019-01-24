@@ -4684,6 +4684,14 @@ $ORIGIN 2.193.@Z
 196 1H IN PTR  wmf6325.mgmt.codfw.wmnet.
 197 1H IN PTR  cp2026.mgmt.codfw.wmnet.
 197 1H IN PTR  wmf6326.mgmt.codfw.wmnet.
+198 1H IN PTR  cloudcontrol2001-dev.mgmt.codfw.wmnet.
+198 1H IN PTR  wmf6700.mgmt.codfw.wmnet.
+199 1H IN PTR  cloudvirt2001-dev.mgmt.codfw.wmnet.
+199 1H IN PTR  wmf6701.mgmt.codfw.wmnet.
+200 1H IN PTR  cloudvirt2002-dev.mgmt.codfw.wmnet.
+200 1H IN PTR  wmf6702.mgmt.codfw.wmnet.
+201 1H IN PTR  cloudvirt2003-dev.mgmt.codfw.wmnet.
+201 1H IN PTR  wmf6703.mgmt.codfw.wmnet.
 
 222 1H IN PTR  elastic2047.mgmt.codfw.wmnet.
 222 1H IN PTR  wmf6689.mgmt.codfw.wmnet.
