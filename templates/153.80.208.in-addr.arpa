@@ -25,7 +25,7 @@
 10  1H  IN PTR  vl2001-eth1.lvs2005.codfw.wmnet.
 11  1H  IN PTR  vl2001-eth1.lvs2006.codfw.wmnet.
 12  1H  IN PTR  acamar.wikimedia.org.
-13  1H  IN PTR  baham.wikimedia.org.
+
 14  1H  IN PTR  labtestweb2001.wikimedia.org.
 15  1H  IN PTR  contint2001.wikimedia.org.
 16  1H  IN PTR  alcyone.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet

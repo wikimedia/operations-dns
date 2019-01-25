@@ -123,8 +123,6 @@ authdns1001     1H  IN A    208.80.154.134
 authdns1001     1H  IN AAAA 2620:0:861:2:208:80:154:134
 authdns2001     1H  IN A    208.80.153.17
 authdns2001     1H  IN AAAA 2620:0:860:1:208:80:153:17
-baham           1H  IN A    208.80.153.13
-baham           1H  IN AAAA 2620:0:860:1:208:80:153:13
 bast1002        1H  IN A    208.80.154.86
 bast1002        1H  IN AAAA 2620:0:861:3:208:80:154:86
 bast2001        1H  IN A    208.80.153.5
