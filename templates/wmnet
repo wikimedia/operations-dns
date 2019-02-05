@@ -3353,6 +3353,7 @@ scb2006         1H  IN A    10.192.32.20
 sessionstore2001         1H  IN A    10.192.16.79
 sessionstore2002         1H  IN A    10.192.32.15
 sessionstore2003         1H  IN A    10.192.48.118
+theemin         1H  IN A    10.192.48.31
 thumbor2001     1H  IN A    10.192.32.36
 thumbor2002     1H  IN A    10.192.32.37
 thumbor2003     1H  IN A    10.192.16.58
@@ -4072,6 +4073,7 @@ sessionstore2001 1H  IN A    10.193.1.219
 sessionstore2002 1H  IN A    10.193.1.220
 sessionstore2003 1H  IN A    10.193.1.221
 stat2001        1H  IN A    10.193.2.13
+theemin         1H  IN A    10.193.1.201
 thumbor2001     1H  IN A    10.193.2.48
 thumbor2002     1H  IN A    10.193.2.49
 thumbor2003     1H  IN A    10.193.3.14

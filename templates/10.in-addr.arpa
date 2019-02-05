@@ -3608,6 +3608,7 @@ $ORIGIN 48.192.@Z
 28  1H IN PTR   cp2024.codfw.wmnet.
 29  1H IN PTR   cp2025.codfw.wmnet.
 30  1H IN PTR   cp2026.codfw.wmnet.
+31  1H IN PTR   theemin.codfw.wmnet.
 
 39  1H IN PTR   elastic2050.codfw.wmnet.
 40  1H IN PTR   es2013.codfw.wmnet.
@@ -4181,6 +4182,7 @@ $ORIGIN 1.193.@Z
 198 1H IN PTR  wmf6645.mgmt.codfw.wmnet.
 199 1H IN PTR  authdns2001.mgmt.codfw.wmnet.
 199 1H IN PTR  wmf6650.mgmt.codfw.wmnet.
+201 1H IN PTR  theemin.mgmt.codfw.wmnet.
 201 1H IN PTR  wmf6653.mgmt.codfw.wmnet.
 202 1H IN PTR  lvs2007.mgmt.codfw.wmnet.
 202 1H IN PTR  wmf6640.mgmt.codfw.wmnet.
