@@ -61,14 +61,15 @@ pc2-master      5M  IN CNAME    pc1005.eqiad.wmnet.
 pc3-master      5M  IN CNAME    pc1006.eqiad.wmnet.
 tendril-backend 5M  IN CNAME    db1115.eqiad.wmnet.
 
-s1-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
-s2-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
-s3-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
-s4-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
-s5-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
-s6-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
-s7-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
-x1-analytics-slave  5M  IN CNAME    dbstore1002.eqiad.wmnet.
+s1-analytics-replica  5M  IN CNAME    dbstore1003.eqiad.wmnet.
+s2-analytics-replica  5M  IN CNAME    dbstore1004.eqiad.wmnet.
+s3-analytics-replica  5M  IN CNAME    dbstore1004.eqiad.wmnet.
+s4-analytics-replica  5M  IN CNAME    dbstore1004.eqiad.wmnet.
+s5-analytics-replica  5M  IN CNAME    dbstore1003.eqiad.wmnet.
+s6-analytics-replica  5M  IN CNAME    dbstore1005.eqiad.wmnet.
+s7-analytics-replica  5M  IN CNAME    dbstore1003.eqiad.wmnet.
+s8-analytics-replica  5M  IN CNAME    dbstore1005.eqiad.wmnet.
+x1-analytics-replica  5M  IN CNAME    dbstore1005.eqiad.wmnet.
 analytics-slave     5M  IN CNAME    db1108.eqiad.wmnet.
 analytics-store     5M  IN CNAME    dbstore1002.eqiad.wmnet.
 osmdb               5M  IN CNAME    labsdb1006.eqiad.wmnet.
