@@ -36,8 +36,7 @@
 22  1H  IN PTR  install1002.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 23  1H  IN PTR  cloudcontrol1003.wikimedia.org.
 24  1H  IN PTR  labs-recursor3.wikimedia.org.
-25  1H  IN PTR  cloudstore1008.wikimedia.org.
-26  1H  IN PTR  cloudstore1009.wikimedia.org.
+
 27  1H  IN PTR  bohrium.wikimedia.org.
 
 42  1H  IN PTR  cp1008.wikimedia.org.
