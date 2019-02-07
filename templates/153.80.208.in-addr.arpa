@@ -63,7 +63,7 @@
 56  1H  IN PTR  vl2002-enp59s0f0.lvs2008.codfw.wmnet.
 57  1H  IN PTR  vl2002-enp175s0f0.lvs2009.codfw.wmnet.
 58  1H  IN PTR  vl2002-enp175s0f0.lvs2010.codfw.wmnet.
-59  1H  IN PTR  cloudcontrol2001-dev.codfw.wmnet.
+59  1H  IN PTR  cloudcontrol2001-dev.wikimedia.org.
 
 
 ; 208.80.153.64/27 (public1-c-codfw)
