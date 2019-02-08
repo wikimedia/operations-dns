@@ -80,6 +80,18 @@ labsdb-web          5M  IN CNAME    dbproxy1011.eqiad.wmnet.
 wikireplica-analytics    5M  IN CNAME    dbproxy1010.eqiad.wmnet.
 wikireplica-web          5M  IN CNAME    dbproxy1011.eqiad.wmnet.
 
+; analytics dbstore records
+_s1-analytics._tcp       5M  IN SRV      0 1 3311 dbstore1003.eqiad.wmnet.
+_s2-analytics._tcp       5M  IN SRV      0 1 3312 dbstore1004.eqiad.wmnet.
+_s3-analytics._tcp       5M  IN SRV      0 1 3313 dbstore1004.eqiad.wmnet.
+_s4-analytics._tcp       5M  IN SRV      0 1 3314 dbstore1004.eqiad.wmnet.
+_s5-analytics._tcp       5M  IN SRV      0 1 3315 dbstore1003.eqiad.wmnet.
+_s6-analytics._tcp       5M  IN SRV      0 1 3316 dbstore1005.eqiad.wmnet.
+_s7-analytics._tcp       5M  IN SRV      0 1 3317 dbstore1003.eqiad.wmnet.
+_s8-analytics._tcp       5M  IN SRV      0 1 3318 dbstore1005.eqiad.wmnet.
+_x1-analytics._tcp       5M  IN SRV      0 1 3320 dbstore1005.eqiad.wmnet.
+_staging-analytics._tcp  5M  IN SRV      0 1 3340 dbstore1003.eqiad.wmnet.
+
 ; etcd records
 ; etcd new cluster (v3) servers
 _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1004.eqiad.wmnet.
