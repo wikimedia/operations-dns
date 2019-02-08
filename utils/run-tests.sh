@@ -21,7 +21,7 @@ run_test() {
 }
 
 run_test utils/check-tabs.sh
-run_test utils/zone_validator.py -e
+run_test utils/zone_validator.py -e -z ./templates
 run_test utils/deploy-check.py
 
 if [ $FAIL -eq 0 ]; then
