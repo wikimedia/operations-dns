@@ -1,5 +1,16 @@
 #!/bin/sh
 
+# Usage:
+# utils/run_tests.sh [-n] [repodir]
+#   -n -> Assume no gdnsd installed, cannot run "gdnsd checkconf" test
+#   repodir -> ops/dns repo root directory, if not running from it as PWD
+
+DCARGS=
+if [ "x${1}" = "x-n" ]; then
+   DCARGS=-n
+   shift;
+fi
+
 if [ -n "$1" ]; then
     cd "$1" ||:
 fi
@@ -20,9 +31,7 @@ run_test() {
     fi
 }
 
-run_test utils/check-tabs.sh
-run_test utils/zone_validator.py -e -z ./templates
-run_test utils/deploy-check.py
+run_test utils/deploy-check.py $DCARGS
 
 if [ $FAIL -eq 0 ]; then
     echo "== OK: All CI tests successful =="
