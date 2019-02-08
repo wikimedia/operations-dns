@@ -1312,14 +1312,12 @@ $ORIGIN 53.64.@Z
 
 ; 10.64.64.0/21 - kubernetes eqiad pod IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN 64.64.@Z
-$ORIGIN 65.64.@Z
-$ORIGIN 66.64.@Z
-$ORIGIN 67.64.@Z
-$ORIGIN 68.64.@Z
-$ORIGIN 69.64.@Z
-$ORIGIN 70.64.@Z
-$ORIGIN 71.64.@Z
+{% for z in range(64,72) -%}
+$ORIGIN {{ z }}.64.@Z
+{% for i in range(256) -%}
+{{ i }} 1H IN PTR       kubernetes-pod-10-64-{{ z }}-{{ i }}.eqiad.wmnet.
+{% endfor %}
+{% endfor %}
 
 ; 10.64.72.0/24 - kubernetes eqiad service IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
@@ -1328,6 +1326,9 @@ $ORIGIN 72.64.@Z
 ; 10.64.75.0/24 - kubernetes staging (eqiad) pod IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
 $ORIGIN 75.64.@Z
+{% for i in range(256) -%}
+{{ i }} 1H IN PTR       kubernetes-pod-10-64-75-{{ i }}.eqiad.wmnet.
+{% endfor %}
 
 ; 10.64.76.0/24 - kubernetes staging (eqiad) service IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
@@ -3756,14 +3757,12 @@ $ORIGIN 53.192.@Z
 
 ; 10.192.64.0/21 - kubernetes codfw pod IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN 64.192.@Z
-$ORIGIN 65.192.@Z
-$ORIGIN 66.192.@Z
-$ORIGIN 67.192.@Z
-$ORIGIN 68.192.@Z
-$ORIGIN 69.192.@Z
-$ORIGIN 70.192.@Z
-$ORIGIN 71.192.@Z
+{% for z in range(64,72) %}
+$ORIGIN {{ z }}.192.@Z
+{% for i in range(256) %}
+{{ i }} 1H IN PTR       kubernetes-pod-10-192-{{ z }}-{{ i }}.codfw.wmnet.
+{% endfor %}
+{% endfor %}
 
 ; 10.192.72.0/24 - kubernetes codfw service IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
