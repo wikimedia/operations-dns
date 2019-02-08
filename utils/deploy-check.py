@@ -60,8 +60,8 @@ def parse_args():
                         help='Validate and deploy on a real authdns server',
                         action='store_true',
                         default=0)
-    parser.add_argument('-i', '--initial',
-                        help='Deploy without gdnsd itself for check or reload',
+    parser.add_argument('-n', '--no-gdnsd',
+                        help='No gdnsd installed (no checkconf/reload)',
                         action='store_true',
                         default=0)
     parser.add_argument('-s', '--skip-reload',
@@ -169,7 +169,7 @@ def setup_tdir(deploy, tdir, tdir_zones, tdir_state):
     return srcdir
 
 
-def deploy_check(deploy, initial, skip_reload, tdir):
+def deploy_check(deploy, skip_reload, no_gdnsd, tdir):
     """Does the core work of the script"""
 
     print('Assembling and testing data in %s' % tdir)
@@ -177,9 +177,17 @@ def deploy_check(deploy, initial, skip_reload, tdir):
     tdir_state = tdir / 'state'
     srcdir = setup_tdir(deploy, tdir, tdir_zones, tdir_state)
 
+    # Check for tabs, which we disallow
+    print(' -- Checking for illegal tabs in zonefiles')
+    safe_cmd(['./utils/check-tabs.sh'])
+
+    # Validate processed zone output data using WMF rules
+    print(' -- Running zone_validator to check WMF rules')
+    safe_cmd(['./utils/zone_validator.py', '-e', '-z', str(tdir_zones)])
+
     # Checkconf, unless we shouldn't
-    if initial:
-        print(' -- Skipping checkconf on initial deploy')
+    if no_gdnsd:
+        print(' -- Skipping checkconf due to --no-gdnsd')
     else:
         print(' -- Running %s checkconf on %s' % (GDNSD_BIN, tdir), flush=True)
         safe_cmd([GDNSD_BIN, '-c', str(tdir), 'checkconf'])
@@ -201,10 +209,10 @@ def deploy_check(deploy, initial, skip_reload, tdir):
     # Maybe take action!
     if not need_replace and not need_reload:
         print('No action needed, zones and config files unchanged')
-    elif initial:
-        print('Initial deploy (no check or reload)')
+    elif no_gdnsd:
+        print('Skipping reload/replace due to --no-gdnsd')
     elif skip_reload:
-        print('Skipping reload/replace as requested')
+        print('Skipping reload/replace due to --skip-reload')
     elif need_replace:
         print('Replacing gdnsd to update config and zones', flush=True)
         subprocess.run([GDNSDCTL_BIN, 'replace'], check=True)
@@ -217,11 +225,6 @@ def deploy_check(deploy, initial, skip_reload, tdir):
 def main():
     """main"""
     args = parse_args()
-    if not args.deploy:
-        if args.initial:
-            raise Exception('--initial should only be used with --deploy')
-        if args.skip_reload:
-            raise Exception('--skip-reload should only be used with --deploy')
 
     # Sanity check we're executing in our repo root
     gitr = Path('.gitreview')
@@ -231,7 +234,7 @@ def main():
     # Execute the core deploy_check with a Path object for the temp dir which
     # is automatically cleaned up via context:
     with TemporaryDirectory(prefix='dns-check.') as tdir:
-        deploy_check(args.deploy, args.initial, args.skip_reload, Path(tdir))
+        deploy_check(args.deploy, args.skip_reload, args.no_gdnsd, Path(tdir))
 
 
 if __name__ == '__main__':
