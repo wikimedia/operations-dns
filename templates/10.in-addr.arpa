@@ -2373,6 +2373,12 @@ $ORIGIN 4.65.@Z
 138 1H  IN PTR      ms-be1043.mgmt.eqiad.wmnet.
 139 1H  IN PTR      wmf7371.mgmt.eqiad.wmnet.
 139 1H  IN PTR      snapshot1008.mgmt.eqiad.wmnet.
+140 1H  IN PTR      wmf7497.mgmt.eqiad.wmnet.
+140 1H  IN PTR      logstash1010.mgmt.eqiad.wmnet.
+141 1H  IN PTR      wmf7498.mgmt.eqiad.wmnet.
+141 1H  IN PTR      logstash1011.mgmt.eqiad.wmnet.
+142 1H  IN PTR      wmf7499.mgmt.eqiad.wmnet.
+142 1H  IN PTR      logstash1012.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.@Z
 
