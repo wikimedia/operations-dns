@@ -70,7 +70,7 @@ s6-analytics-replica  5M  IN CNAME    dbstore1005.eqiad.wmnet.
 s7-analytics-replica  5M  IN CNAME    dbstore1003.eqiad.wmnet.
 s8-analytics-replica  5M  IN CNAME    dbstore1005.eqiad.wmnet.
 x1-analytics-replica  5M  IN CNAME    dbstore1005.eqiad.wmnet.
-staging-db-analytics  5M  IN CNAME    dbstore1003.eqiad.wmnet.
+staging-db-analytics  5M  IN CNAME    dbstore1005.eqiad.wmnet.
 analytics-slave     5M  IN CNAME    db1108.eqiad.wmnet.
 analytics-store     5M  IN CNAME    dbstore1002.eqiad.wmnet.
 osmdb               5M  IN CNAME    labsdb1006.eqiad.wmnet.
@@ -90,7 +90,7 @@ _s6-analytics._tcp       5M  IN SRV      0 1 3316 dbstore1005.eqiad.wmnet.
 _s7-analytics._tcp       5M  IN SRV      0 1 3317 dbstore1003.eqiad.wmnet.
 _s8-analytics._tcp       5M  IN SRV      0 1 3318 dbstore1005.eqiad.wmnet.
 _x1-analytics._tcp       5M  IN SRV      0 1 3320 dbstore1005.eqiad.wmnet.
-_staging-analytics._tcp  5M  IN SRV      0 1 3340 dbstore1003.eqiad.wmnet.
+_staging-analytics._tcp  5M  IN SRV      0 1 3340 dbstore1005.eqiad.wmnet.
 
 ; etcd records
 ; etcd new cluster (v3) servers
