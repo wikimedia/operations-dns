@@ -618,7 +618,7 @@ performance     600 IN DYNA     geoip!text-addrs
 horizon         600 IN DYNA     geoip!text-addrs
 wikitech        600 IN DYNA     geoip!text-addrs
 
-icinga          5M  IN CNAME    icinga1001
+icinga          5M  IN CNAME    icinga2001
 
 integration     600 IN DYNA     geoip!text-addrs
 irc             1H  IN CNAME    kraz
