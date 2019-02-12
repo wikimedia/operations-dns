@@ -3889,8 +3889,7 @@ $ORIGIN 1.193.@Z
 30  1H IN PTR  wmf5822.mgmt.codfw.wmnet.
 31  1H IN PTR  achernar.mgmt.codfw.wmnet.
 31  1H IN PTR  wmf5819.mgmt.codfw.wmnet.
-32  1H IN PTR  baham.mgmt.codfw.wmnet.
-32  1H IN PTR  wmf5820.mgmt.codfw.wmnet.
+
 33  1H IN PTR  labtestvirt2003.mgmt.codfw.wmnet.
 33  1H IN PTR  wmf6571.mgmt.codfw.wmnet.
 34  1H IN PTR  labtestnet2002.mgmt.codfw.wmnet.
