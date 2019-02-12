@@ -1632,6 +1632,32 @@ $ORIGIN 1.65.@Z
 118 1H  IN PTR      wmf7309.mgmt.eqiad.wmnet.
 119 1H  IN PTR      mw1348.mgmt.eqiad.wmnet.
 119 1H  IN PTR      wmf7310.mgmt.eqiad.wmnet.
+120 1H  IN PTR      db1126.mgmt.eqiad.wmnet.
+120 1H  IN PTR      wmf7478.mgmt.eqiad.wmnet.
+121 1H  IN PTR      db1127.mgmt.eqiad.wmnet.
+121 1H  IN PTR      wmf7479.mgmt.eqiad.wmnet.
+122 1H  IN PTR      db1128.mgmt.eqiad.wmnet.
+122 1H  IN PTR      wmf7480.mgmt.eqiad.wmnet.
+123 1H  IN PTR      db1129.mgmt.eqiad.wmnet.
+123 1H  IN PTR      wmf7481.mgmt.eqiad.wmnet.
+124 1H  IN PTR      db1130.mgmt.eqiad.wmnet.
+124 1H  IN PTR      wmf7482.mgmt.eqiad.wmnet.
+125 1H  IN PTR      db1131.mgmt.eqiad.wmnet.
+125 1H  IN PTR      wmf7483.mgmt.eqiad.wmnet.
+126 1H  IN PTR      db1132.mgmt.eqiad.wmnet.
+126 1H  IN PTR      wmf7484.mgmt.eqiad.wmnet.
+127 1H  IN PTR      db1133.mgmt.eqiad.wmnet.
+127 1H  IN PTR      wmf7485.mgmt.eqiad.wmnet.
+128 1H  IN PTR      db1134.mgmt.eqiad.wmnet.
+128 1H  IN PTR      wmf7486.mgmt.eqiad.wmnet.
+129 1H  IN PTR      db1135.mgmt.eqiad.wmnet.
+129 1H  IN PTR      wmf7487.mgmt.eqiad.wmnet.
+130 1H  IN PTR      db1136.mgmt.eqiad.wmnet.
+130 1H  IN PTR      wmf7488.mgmt.eqiad.wmnet.
+131 1H  IN PTR      db1137.mgmt.eqiad.wmnet.
+131 1H  IN PTR      wmf7489.mgmt.eqiad.wmnet.
+132 1H  IN PTR      db1138.mgmt.eqiad.wmnet.
+132 1H  IN PTR      wmf7490.mgmt.eqiad.wmnet.
 
 $ORIGIN 2.65.@Z
 
