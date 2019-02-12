@@ -396,6 +396,7 @@ $ORIGIN 0.64.@Z
 176 1H IN PTR   kafka-jumbo1002.eqiad.wmnet.
 179 1H IN PTR   helium.eqiad.wmnet.
 180 1H IN PTR   pc1007.eqiad.wmnet.
+181 1H IN PTR   logstash1010.eqiad.wmnet.
 
 198 1H IN PTR   dbproxy1003.eqiad.wmnet.
 199 1H IN PTR   aqs1007.eqiad.wmnet.
@@ -526,6 +527,7 @@ $ORIGIN 16.64.@Z
 27  1H IN PTR   cloudvirt1024b.eqiad.wmnet.
 28  1H IN PTR   ms-be1047.eqiad.wmnet.
 29  1H IN PTR   conf1005.eqiad.wmnet.
+30  1H IN PTR   logstash1011.eqiad.wmnet.
 
 38  1H IN PTR   prometheus1004.eqiad.wmnet.
 39  1H IN PTR   db1072.eqiad.wmnet.
@@ -1254,6 +1256,7 @@ $ORIGIN 48.64.@Z
 174     1H IN PTR       pc1010.eqiad.wmnet.
 175     1H IN PTR       sessionstore1003.eqiad.wmnet.
 176     1H IN PTR       ms-be1048.eqiad.wmnet.
+177     1H IN PTR       logstash1012.eqiad.wmnet.
 
 $ORIGIN 49.64.@Z
 1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.

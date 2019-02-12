@@ -1069,6 +1069,9 @@ logstash1006    1H  IN A        10.64.48.109
 logstash1007    1H  IN A        10.64.0.37 ; VM on ganeti01.svc.eqiad.wmnet
 logstash1008    1H  IN A        10.64.0.90 ; VM on ganeti01.svc.eqiad.wmnet
 logstash1009    1H  IN A        10.64.32.27 ; VM on ganeti01.svc.eqiad.wmnet
+logstash1010    1H  IN A        10.64.0.181
+logstash1011    1H  IN A        10.64.16.30
+logstash1012    1H  IN A        10.64.48.177
 labvirt1009     1H  IN A        10.64.20.15
 labvirt1007     1H  IN A        10.64.20.16
 labvirt1008     1H  IN A        10.64.20.17
