@@ -270,7 +270,6 @@ $ORIGIN 6.0.1.0.@Z
 4.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1014.eqiad.wmnet.
 2.2.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1022.eqiad.wmnet.
 8.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1001.eqiad.wmnet.
-6.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1003.eqiad.wmnet.
 8.2.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1028.eqiad.wmnet.
 9.2.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1029.eqiad.wmnet.
 0.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1030.eqiad.wmnet.
