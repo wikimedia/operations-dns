@@ -2146,7 +2146,6 @@ $ORIGIN 3.65.@Z
 226     1H      IN PTR          wmf4570.mgmt.eqiad.wmnet.
 226     1H      IN PTR          bismuth.mgmt.eqiad.wmnet.
 227     1H      IN PTR          cloudvirt1009.mgmt.eqiad.wmnet.
-227     1H      IN PTR          labvirt1009.mgmt.eqiad.wmnet.
 228     1H      IN PTR          labvirt1007.mgmt.eqiad.wmnet.
 229     1H      IN PTR          labvirt1008.mgmt.eqiad.wmnet.
 230     1H      IN PTR          labvirt1001.mgmt.eqiad.wmnet.
