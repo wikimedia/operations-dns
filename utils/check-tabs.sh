@@ -5,7 +5,7 @@ if ! grep -q operations/dns .gitreview 2>/dev/null; then
     exit 2
 fi
 
-(git grep -P '\t') && HAS_TAB=1 || HAS_TAB=0
+(git --no-pager grep -P '\t') && HAS_TAB=1 || HAS_TAB=0
 if [ $HAS_TAB -eq 1 ]; then
     echo "ERROR: Tabs found"
 else

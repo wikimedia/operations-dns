@@ -1,8 +1,8 @@
 General Notes
 =============
 
-* Most scripts here expect to be run from the root directory of a clone this
-  repository (the operations/dns repo).
+* Most scripts here expect to be run from the root directory of a clone of
+  this repository (the operations/dns repo).
 
 * All of the python scripts require Python3 3.5+ (e.g. stretch python3)
 
@@ -10,11 +10,11 @@ TL;DR:
 ======
 
 * Partial local CI:
-** install the "git" and "jinja2" python3 modules and run:
-** ./utils/run-tests.sh -n
+** install the "tox" python module and run:
+** tox -- -n
 * Complete local CI:
 ** also install the latest WMF debian packaging of gdnsd to your laptop, run:
-** ./utils/run-tests.sh
+** tox
 
 mock_etc
 ========
@@ -93,10 +93,3 @@ gdnsd reload/replace commands.  Only useful with --deploy.
 In typical scenarios, puppet's authdns-local-update will be what invokes this
 in --deploy mode, but it is possible to use it directly in case of emergencies
 making puppet, dns, and/or ssh unavailable.
-
-utils/run-tests.sh
-==================
-
-Abstraction for CI infra integration, is what gets run for jenkins jobs.
-Currently it optionally handles changing directories to the repo root, and
-invokes deploy-check.py with -n if it was given -n.
