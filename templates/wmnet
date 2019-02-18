@@ -655,6 +655,7 @@ kubernetes1003  1H  IN A        10.64.32.23
 kubernetes1003  1H  IN AAAA     2620:0:861:103:10:64:32:23
 kubernetes1004  1H  IN A        10.64.48.52
 kubernetes1004  1H  IN AAAA     2620:0:861:107:10:64:48:52
+kerberos1001    1H  IN A        10.64.0.182  ; VM on ganeti01.svc.eqiad.wmnet
 labmon1001      1H  IN A        10.64.37.13
 labmon1001      1H  IN AAAA     2620:0:861:119:10:64:37:13
 prometheus-labmon 1H      IN CNAME  labmon1001

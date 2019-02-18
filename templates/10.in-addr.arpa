@@ -397,7 +397,7 @@ $ORIGIN 0.64.@Z
 179 1H IN PTR   helium.eqiad.wmnet.
 180 1H IN PTR   pc1007.eqiad.wmnet.
 181 1H IN PTR   logstash1010.eqiad.wmnet.
-
+182 1H IN PTR   kerberos1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 198 1H IN PTR   dbproxy1003.eqiad.wmnet.
 199 1H IN PTR   aqs1007.eqiad.wmnet.
 
