@@ -5146,6 +5146,7 @@ druid-public-broker    1H  IN A     10.2.2.38
 druid-public-overlord  1H  IN A     10.2.2.39
 labweb  1H  IN A     10.2.2.40
 wdqs-internal 1H  IN A        10.2.2.41
+eventgate-analytics 1H  IN A    10.2.2.42
 
 ganeti01    1H  IN A        10.64.32.173
 labstore    1H  IN A        10.64.37.10
@@ -5212,6 +5213,7 @@ pdfrender       1H  IN A        10.2.1.35
 ; 36 reserved for logstash
 recommendation-api  1H  IN A        10.2.1.37
 wdqs-internal   1H  IN A        10.2.1.41
+eventgate-analytics 1H  IN A    10.2.1.42
 ganeti01        1H  IN A        10.192.16.131
 labstore        1H  IN A        10.192.21.7
 oresrdb         5M  IN A        10.192.16.31
@@ -5254,6 +5256,9 @@ wdqs           300/10 IN DYNA geoip!disc-wdqs
 wdqs-internal  300/10 IN DYNA geoip!disc-wdqs-internal
 zotero         300/10 IN DYNA geoip!disc-zotero
 blubberoid     300/10 IN DYNA geoip!disc-blubberoid
+; TODO:
+; eventgate-analytics 300/10 IN DYNA geoip!disc-eventgate-analytics
+
 ; Will become a proper discovery endpoint once we add more registries
 debmonitor      300 IN CNAME debmonitor1001.eqiad.wmnet.
 docker-registry 300 IN CNAME darmstadtium.eqiad.wmnet.
