@@ -69,6 +69,3 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
-# Disable eqsin for cr2-eqsin setup - T213121
-geoip/generic-map/eqsin => DOWN
-
