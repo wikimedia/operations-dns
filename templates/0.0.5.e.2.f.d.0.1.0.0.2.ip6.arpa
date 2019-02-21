@@ -19,8 +19,9 @@
 ; 2001:df2:e500:0::/56 - eqsin public subnets
 ; 2001:df2:e500:1::/64 - public1-eqsin
 $ORIGIN 1.0.0.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-510.cr1-eqsin.wikimedia.org.
-
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-510.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-510.cr1-eqsin.wikimedia.org.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-510.cr2-eqsin.wikimedia.org.
 
 7.0.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   bast5001.wikimedia.org.
 8.0.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   dns5001.wikimedia.org.
@@ -29,7 +30,9 @@ $ORIGIN 1.0.0.0.@Z
 ; 2001:df2:e500:100::/56 - eqsin private subnets
 ; 2001:df2:e500:101::/64 - private1-eqsin
 $ORIGIN 1.0.1.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-520.cr1-eqsin.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-520.eqsin.wmnet.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-520.cr1-eqsin.eqsin.wmnet.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-520.cr2-eqsin.eqsin.wmnet.
 
 1.1.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   lvs5001.eqsin.wmnet.
 2.1.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   lvs5002.eqsin.wmnet.
@@ -51,7 +54,9 @@ $ORIGIN 1.0.1.0.@Z
 ; 2001:df2:e500:200::/56 - eqsin sandbox subnets
 ; 2001:df2:e500:201::/64 - sandbox1-eqsin
 $ORIGIN 1.0.2.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-530.cr1-eqsin.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-530.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-530.cr1-eqsin.wikimedia.org.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-530.cr2-eqsin.wikimedia.org.
 
 0.2.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   ripe-atlas-eqsin.wikimedia.org.
 
@@ -95,7 +100,18 @@ $ORIGIN 3.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-401.cr1-eqsin.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ge-0-0-4-401.mr1-eqsin.wikimedia.org.
 
+; 2001:df2:e500:fe04::/64 -  mr1-eqsin <--> cr2-eqsin
+$ORIGIN 4.0.e.f.@Z
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-402.cr2-eqsin.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ge-0-0-4-401.mr1-eqsin.wikimedia.org.
+
+; 2001:df2:e500:fe05::/64 -  cr1-eqsin <--> cr2-eqsin
+$ORIGIN 5.0.e.f.@Z
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr1-eqsin.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr2-eqsin.wikimedia.org.
+
 ; 2001:df2:e500:ffff::/56 - Loopback IPs
 $ORIGIN f.f.f.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mr1-eqsin.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-eqsin.wikimedia.org.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-eqsin.wikimedia.org.

@@ -17,7 +17,9 @@
 ; APNIC space, reserved for eqsin
 
 ; 103.102.166.0/28 (0-15) - public1-eqsin
-1  1H IN PTR   ae1-510.cr1-eqsin.wikimedia.org.
+1  1H IN PTR   vrrp-gw-510.wikimedia.org.
+2  1H IN PTR   ae1-510.cr1-eqsin.wikimedia.org.
+3  1H IN PTR   ae1-510.cr2-eqsin.wikimedia.org.
 
 7  1H IN PTR   bast5001.wikimedia.org.
 8  1H IN PTR   dns5001.wikimedia.org.
@@ -27,7 +29,10 @@
 12 1H IN PTR   vl510-eth0.lvs5003.eqsin.wmnet.
 
 ; 103.102.166.16/28 (16-31) - sandbox1-eqsin
-17 1H IN PTR   ae1-530.cr1-eqsin.wikimedia.org.
+17 1H IN PTR   vrrp-gw-530.wikimedia.org.
+18 1H IN PTR   ae1-530.cr1-eqsin.wikimedia.org.
+19 1H IN PTR   ae1-530.cr2-eqsin.wikimedia.org.
+
 
 20 1H IN PTR   ripe-atlas-eqsin.wikimedia.org.
 
@@ -38,6 +43,7 @@
 ; 103.102.166.128/30 (128-131) - Router's loopbacks
 128 1H IN PTR   mr1-eqsin.wikimedia.org.
 129 1H IN PTR   cr1-eqsin.wikimedia.org.
+130 1H IN PTR   cr2-eqsin.wikimedia.org.
 
 ; 103.102.166.132/31 -- cr1-eqsin <--> mr1-eqsin
 132 1H IN PTR   ae1-401.cr1-eqsin.wikimedia.org.
@@ -55,7 +61,16 @@
 138 1H IN PTR   xe-0-1-0.cr1-eqsin.wikimedia.org.
 139 1H IN PTR   xe-5-1-2.cr1-codfw.wikimedia.org.
 
+; 103.102.166.140/31 -- cr1-eqsin <--> cr2-eqsin
+140 1H IN PTR   ae0.cr1-eqsin.wikimedia.org.
+141 1H IN PTR   ae0.cr2-eqsin.wikimedia.org.
+
+; 103.102.166.142/31 -- cr2-eqsin <--> mr1-eqsin
+142 1H IN PTR   ae1-402.cr2-eqsin.wikimedia.org.
+143 1H IN PTR   ge-0-0-4-402.mr1-eqsin.wikimedia.org.
+
 ; 103.102.166.160/27 (160-191) - unused
+
 ; 103.102.166.192/27 (192-223) - unused
 ; 103.102.166.224/27 (224-255) - LVS Service IPs
 ; - 103.102.166.224/28 (224-239) -- LVS high-traffic1 (Text)

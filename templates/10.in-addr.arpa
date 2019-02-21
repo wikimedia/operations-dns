@@ -3015,7 +3015,9 @@ $ORIGIN 0.128.@Z
 ; 10.132.0.0/17 - eqsin private
 ; 10.132.0.0/24 - private1-eqsin
 $ORIGIN 0.132.@Z
-1   1H  IN PTR      ae1-520.cr1-eqsin.wikimedia.org.
+1   1H  IN PTR      vrrp-gw-520.eqsin.wmnet.
+2   1H  IN PTR      ae1-520.cr1-eqsin.eqsin.wmnet.
+3   1H  IN PTR      ae1-520.cr2-eqsin.eqsin.wmnet.
 
 11  1H  IN PTR      lvs5001.eqsin.wmnet.
 12  1H  IN PTR      lvs5002.eqsin.wmnet.
@@ -3040,6 +3042,7 @@ $ORIGIN 128.132.@Z
 2   1H  IN PTR      cr1-eqsin.mgmt.eqsin.wmnet.
 4   1H  IN PTR      asw1-eqsin.mgmt.eqsin.wmnet.
 5   1H  IN PTR      scs-eqsin.mgmt.eqsin.wmnet.
+6   1H  IN PTR      cr2-eqsin.mgmt.eqsin.wmnet.
 
 $ORIGIN 129.132.@Z
 7   1H  IN PTR      bast5001.mgmt.eqsin.wmnet.
