@@ -1860,6 +1860,8 @@ labsdb1010      1H  IN A    10.65.4.60
 wmf4798         1H  IN A    10.65.4.60
 labsdb1011      1H  IN A    10.65.4.61
 wmf4799         1H  IN A    10.65.4.61
+labsdb1012      1H  IN A    10.65.4.143
+wmf5158         1H  IN A    10.65.4.143
 maps1001        1H  IN A    10.65.4.55
 wmf4792         1H  IN A    10.65.4.55
 maps1002        1H  IN A    10.65.4.56

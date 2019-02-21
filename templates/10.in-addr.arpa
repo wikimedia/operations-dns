@@ -2408,6 +2408,8 @@ $ORIGIN 4.65.@Z
 141 1H  IN PTR      logstash1011.mgmt.eqiad.wmnet.
 142 1H  IN PTR      wmf7499.mgmt.eqiad.wmnet.
 142 1H  IN PTR      logstash1012.mgmt.eqiad.wmnet.
+143 1H  IN PTR      wmf5158.mgmt.eqiad.wmnet.
+143 1H  IN PTR      labsdb1012.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.@Z
 
