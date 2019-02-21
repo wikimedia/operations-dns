@@ -50,11 +50,11 @@
 133 1H IN PTR   ge-0-0-4-401.mr1-eqsin.wikimedia.org.
 
 ; 103.102.166.134/31  -- PCCW peering
-134 1H IN PTR   xe-2-0-2.cr1-eqsin.wikimedia.org.
-135 1H IN PTR   pccw-peering.cr1-eqsin.wikimedia.org.
+134 1H IN PTR   xe-0-1-2.cr2-eqsin.wikimedia.org.
+135 1H IN PTR   pccw-peering.cr2-eqsin.wikimedia.org.
 
-; 103.102.166.136/31  -- cr4-ulsfo <--> cr1-eqsin (Telia tunnel)
-136 1H IN PTR   gr-0-0-0-1.cr1-eqsin.wikimedia.org.
+; 103.102.166.136/31  -- cr4-ulsfo <--> cr2-eqsin (NTT tunnel)
+136 1H IN PTR   gr-0-0-0-1.cr2-eqsin.wikimedia.org.
 137 1H IN PTR   gr-0-0-0-1.cr4-ulsfo.wikimedia.org.
 
 ; 103.102.166.138/31  -- cr1-codfw <--> cr1-eqsin (Telia evpn)

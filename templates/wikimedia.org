@@ -493,6 +493,8 @@ mr1-ulsfo.oob   1H  IN AAAA 2607:fb58:9000:7::2
 
 cr1-eqsin       1H  IN A    103.102.166.129
                 1H  IN AAAA 2001:df2:e500:ffff::2
+cr2-eqsin       1H  IN A    103.102.166.130
+                1H  IN AAAA 2001:df2:e500:ffff::3
 mr1-eqsin       1H  IN A    103.102.166.128
                 1H  IN AAAA 2001:df2:e500:ffff::1
 mr1-eqsin.oob   1H  IN A    27.111.227.106
