@@ -802,10 +802,6 @@ class ZonesValidator:
         if not ganeti:
             self.reporter.w_missing_mgmt_for_name(name, records)
 
-        elif len(ganeti) < len(records):
-            missing = PrintList([record for record in records if record not in ganeti])
-            self.reporter.e_missing_ganeti_comment(name, missing)
-
     def _is_mgmt(self, origin):
         """Return True if the given origin is a management one."""
         if origin.startswith('mgmt.'):
