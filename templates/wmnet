@@ -1193,6 +1193,16 @@ vl1004-eth3.lvs1014 1H IN A 208.80.155.122
 vl1004-eth3.lvs1015 1H IN A 208.80.155.123
 vl1004-eth0.lvs1016 1H IN A 208.80.155.124
 
+; Kubernetes pod records for eqiad
+{% for z in range(64,72) -%}
+{% for i in range(256) -%}
+kubernetes-pod-10-64-{{ z }}-{{ i }} 1H IN A 10.64.{{ z }}.{{ i }}
+{% endfor %}
+{% endfor %}
+
+{% for i in range(256) -%}
+kubernetes-pod-10-64-75-{{ i }} 1H IN A 10.64.75.{{ i }}
+{% endfor %}
 
 ; Management
 
@@ -3526,6 +3536,13 @@ vl2020-enp175s0f1d1.lvs2009 1H  IN A    10.192.49.10
 ; codfw VRRP addresses
 vrrp-gw-2122        1H  IN A    10.192.21.1
 vrrp-gw-2122        1H  IN AAAA 2620:0:860:122::1
+
+; Kubernetes pod records for codfw
+{% for z in range(64,72) -%}
+{% for i in range(256) -%}
+kubernetes-pod-10-192-{{ z }}-{{ i }} 1H IN A 10.192.{{ z }}.{{ i }}
+{% endfor %}
+{% endfor %}
 
 ; CODFW fundraising/payments
 $ORIGIN frack.codfw.wmnet.

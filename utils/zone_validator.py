@@ -62,6 +62,7 @@ following ORIGIN-specific validations:
   - expect a management record [Warning.MISSING_MGMT_FOR_NAME]
     - unless is IPv6 (management network is v4)
     - unless is a 4th level name (i.e. foo.$host.$dc.wmnet)
+    - unless is a k8s pod (detected by name matching ^kubuernetes-pod-)
     - unless is a Ganeti VMs (detected via the comment)
       - expect all Ganeti records have the comment
         [Error.MISSING_GANETI_COMMENT]
@@ -448,7 +449,7 @@ class PrintList(list):
 class DNSRecord:
     """A DNS Record object, immutable."""
     # Specify the fields that can be set, also optimizing them.
-    __slots__ = ['key', 'type', 'value', 'file', 'line', 'comment', 'name', 'ip', 'is_ganeti']
+    __slots__ = ['key', 'type', 'value', 'file', 'line', 'comment', 'name', 'ip', 'is_ganeti', 'is_k8s']
 
     def __init__(self, key, record_type, value, file, line, comment=''):
         """Constructor of as DNSRecord object."""
@@ -484,6 +485,7 @@ class DNSRecord:
         object.__setattr__(self, 'name', name)
         object.__setattr__(self, 'ip', ip)
         object.__setattr__(self, 'is_ganeti', 'VM on ganeti' in comment)
+        object.__setattr__(self, 'is_k8s', name.startswith('kubernetes-pod-'))
 
     def __setattr__(self, *args):
         """Do not allow to modify existing attributes."""
@@ -786,7 +788,7 @@ class ZonesValidator:
                 raise ValueError("Unable to reverse PTR to IP for record %s: %s", record, e)
 
     def _validate_mgmt_exists(self, name, records, is_mgmt):
-        """Validate that the mgmt interface exists if not Ganeti VMs."""
+        """Validate that the mgmt interface exists if not Ganeti VMs or k8s pods."""
         if is_mgmt:
             return
 
@@ -798,8 +800,8 @@ class ZonesValidator:
         if name.split('.')[0] + '.mgmt' in self.fqdn_mgmt_prefixes:
             return
 
-        ganeti = [record for record in records if record.is_ganeti]
-        if not ganeti:
+        virtual = [record for record in records if record.is_ganeti or record.is_k8s]
+        if not virtual:
             self.reporter.w_missing_mgmt_for_name(name, records)
 
     def _is_mgmt(self, origin):
