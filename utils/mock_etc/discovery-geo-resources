@@ -28,5 +28,4 @@ disc-wdqs               => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-wdqs-internal      => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-zotero             => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-blubberoid         => { map => mock, dcmap => { mock => 192.0.2.1 } }
-# TODO:
-# disc-eventgate-analytics => { map => mock, dcmap => { mock => 192.0.2.1 } }
+disc-eventgate-analytics => { map => mock, dcmap => { mock => 192.0.2.1 } }
