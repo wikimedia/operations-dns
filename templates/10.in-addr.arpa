@@ -466,6 +466,7 @@ $ORIGIN 4.64.@Z
 13  1H IN PTR   relforge1001.eqiad.wmnet.
 14  1H IN PTR   labsdb1009.eqiad.wmnet.
 15  1H IN PTR   labmon1002.eqiad.wmnet.
+16  1H IN PTR   labsdb1012.eqiad.wmnet.
 
 ; 10.64.5.0/24 - analytics1-a-eqiad
 $ORIGIN 5.64.@Z
