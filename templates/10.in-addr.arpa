@@ -2075,7 +2075,7 @@ $ORIGIN 3.65.@Z
 123 1H  IN PTR      cloudstore1008.mgmt.eqiad.wmnet.
 123 1H  IN PTR      wmf7369.mgmt.eqiad.wmnet.
 124 1H  IN PTR      cloudstore1009.mgmt.eqiad.wmnet.
-124 1H  IN PTR      wmf7370.mgmt.eqiad.wmnwt.
+124 1H  IN PTR      wmf7370.mgmt.eqiad.wmnet.
 
 128 1H  IN PTR      wmf4083.mgmt.eqiad.wmnet.
 
