@@ -823,17 +823,6 @@ $ORIGIN 32.64.@Z
 83      1H IN PTR       cam2-c-eqiad.eqiad.wmnet.
 84      1H IN PTR       acmechief1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
-97      1H IN PTR       cp1045.eqiad.wmnet.
-98      1H IN PTR       cp1046.eqiad.wmnet.
-99      1H IN PTR       cp1047.eqiad.wmnet.
-100     1H IN PTR       cp1048.eqiad.wmnet.
-101     1H IN PTR       cp1049.eqiad.wmnet.
-102     1H IN PTR       cp1050.eqiad.wmnet.
-103     1H IN PTR       cp1051.eqiad.wmnet.
-104     1H IN PTR       cp1052.eqiad.wmnet.
-105     1H IN PTR       cp1053.eqiad.wmnet.
-106     1H IN PTR       cp1054.eqiad.wmnet.
-107     1H IN PTR       cp1055.eqiad.wmnet.
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
 110     1H IN PTR       elastic1042.eqiad.wmnet.
