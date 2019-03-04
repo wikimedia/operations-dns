@@ -78,7 +78,7 @@ policy          5M  IN CAA 0 issuewild "digicert.com"
 policy          5M  IN CAA 0 issuewild "globalsign.com"
 policy          5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
-dumps           5M  IN CNAME labstore1006
+dumps           1H  IN CNAME labstore1007
 
 lists           5M  IN A    208.80.154.21
 lists           5M  IN AAAA 2620:0:861:1:208:80:154:21
