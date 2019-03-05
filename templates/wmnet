@@ -270,6 +270,8 @@ analytics-tool1002 1H IN A           10.64.36.111 ; VM on ganeti01.svc.eqiad.wmn
 analytics-tool1002 1H IN AAAA        2620:0:861:106:10:64:36:111 ; VM on ganeti01.svc.eqiad.wmnet
 analytics-tool1003 1H IN A           10.64.36.112 ; VM on ganeti01.svc.eqiad.wmnet
 analytics-tool1003 1H IN AAAA        2620:0:861:106:10:64:36:112 ; VM on ganeti01.svc.eqiad.wmnet
+analytics-tool1004 1H IN A           10.64.36.116 ; VM on ganeti01.svc.eqiad.wmnet
+analytics-tool1004 1H IN AAAA        2620:0:861:106:10:64:36:116 ; VM on ganeti01.svc.eqiad.wmnet
 aqs1004          1H IN A             10.64.0.107
 aqs1004          1H IN AAAA          2620:0:861:101:10:64:0:107
 aqs1004-a        1H IN A             10.64.0.126 ; cassandra instance

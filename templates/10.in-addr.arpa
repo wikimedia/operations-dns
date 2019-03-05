@@ -964,6 +964,7 @@ $ORIGIN 36.64.@Z
 113     1H IN PTR       an-worker1090.eqiad.wmnet.
 114     1H IN PTR       kafka1014.eqiad.wmnet.
 115     1H IN PTR       an-worker1091.eqiad.wmnet.
+116     1H IN PTR       analytics-tool1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 118     1H IN PTR       analytics1001.eqiad.wmnet.
 122     1H IN PTR       kafka1022.eqiad.wmnet.
