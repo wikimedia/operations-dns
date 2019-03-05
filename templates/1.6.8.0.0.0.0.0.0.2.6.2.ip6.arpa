@@ -117,17 +117,6 @@ $ORIGIN 1.0.1.0.@Z
 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cam-unknown.eqiad.wmnet.
 
 5.4.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   chlorine.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-5.9.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1058.eqiad.wmnet.
-6.9.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1059.eqiad.wmnet.
-7.9.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1060.eqiad.wmnet.
-8.9.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1061.eqiad.wmnet.
-9.9.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1062.eqiad.wmnet.
-0.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1063.eqiad.wmnet.
-1.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1064.eqiad.wmnet.
-2.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1065.eqiad.wmnet.
-3.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1066.eqiad.wmnet.
-4.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1067.eqiad.wmnet.
-5.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1068.eqiad.wmnet.
 0.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1075.eqiad.wmnet.
 1.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1076.eqiad.wmnet.
 2.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1077.eqiad.wmnet.

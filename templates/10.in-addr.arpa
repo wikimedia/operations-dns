@@ -332,17 +332,6 @@ $ORIGIN 0.64.@Z
 92  1H IN PTR   db1080.eqiad.wmnet.
 93  1H IN PTR   db1081.eqiad.wmnet.
 94  1H IN PTR   db1082.eqiad.wmnet.
-95  1H IN PTR   cp1058.eqiad.wmnet.
-96  1H IN PTR   cp1059.eqiad.wmnet.
-97  1H IN PTR   cp1060.eqiad.wmnet.
-98  1H IN PTR   cp1061.eqiad.wmnet.
-99  1H IN PTR   cp1062.eqiad.wmnet.
-100 1H IN PTR   cp1063.eqiad.wmnet.
-101 1H IN PTR   cp1064.eqiad.wmnet.
-102 1H IN PTR   cp1065.eqiad.wmnet.
-103 1H IN PTR   cp1066.eqiad.wmnet.
-104 1H IN PTR   cp1067.eqiad.wmnet.
-105 1H IN PTR   cp1068.eqiad.wmnet.
 
 107 1H IN PTR   aqs1004.eqiad.wmnet.
 108 1H IN PTR   db1069.eqiad.wmnet.
