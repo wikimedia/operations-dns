@@ -919,3 +919,9 @@ spop2048._domainkey              1H IN TXT  "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAA
 _github-challenge-wikimedia       1H IN TXT "373abc3cc8"
 ; Profile URL https://www.wikimedia.org/
 _github-challenge-wikimedia.www   1H IN TXT "992c2700d4"
+
+; Mailgun domain verification to send emails from wikitech-static host (T217599)
+
+wikitech-static                  1H IN TXT "v=spf1 include:mailgun.org -all"
+mailo._domainkey.wikitech-static 1H IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD2aCVkhofbsQzu3DT0c6r4cZGTGT49ueyC7P7Bq6kzqC0q121Z6Xzocb6DclVVcCbir56LL/y2OVDIrWRlnoK8c/4fT/gfeH1EY8/URCqqD1dMOiPdEkZ4MVIJ/9X3O5bFb1Hxy50SAn6FF/pYg2PZcS1IY20xhZpDsq69+Wk56wIDAQAB"
+
