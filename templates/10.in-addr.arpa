@@ -600,8 +600,6 @@ $ORIGIN 16.64.@Z
 148 1H IN PTR   dbproxy1004.eqiad.wmnet.
 149 1H IN PTR   graphite1004.eqiad.wmnet.
 
-151 1H IN PTR   ruthenium.eqiad.wmnet.
-
 155 1H IN PTR   dbproxy1005.eqiad.wmnet.
 156 1H IN PTR   pc1001.eqiad.wmnet.
 157 1H IN PTR   pc1002.eqiad.wmnet.
