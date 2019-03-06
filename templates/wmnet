@@ -473,7 +473,6 @@ dbproxy1015     1H  IN A        10.64.16.19
 dbproxy1016     1H  IN A        10.64.48.42
 dbproxy1017     1H  IN A        10.64.48.43
 dbstore1001     1H  IN A        10.64.48.17
-dbstore1002     1H  IN A        10.64.48.18
 dbstore1003     1H  IN A        10.64.0.137
 dbstore1004     1H  IN A        10.64.16.26
 dbstore1005     1H  IN A        10.64.32.30
