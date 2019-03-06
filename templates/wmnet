@@ -867,7 +867,6 @@ orespoolcounter1001 1H IN A     10.64.0.87 ; VM on ganeti01.svc.eqiad.wmnet
 orespoolcounter1002 1H IN A     10.64.32.13 ; VM on ganeti01.svc.eqiad.wmnet
 oresrdb1001     1H  IN A        10.64.48.129
 oresrdb1002     1H  IN A        10.64.0.10
-oxygen          1H  IN A        10.64.0.222
 pc1001          1H  IN A        10.64.16.156
 pc1002          1H  IN A        10.64.16.157
 pc1003          1H  IN A        10.64.16.158

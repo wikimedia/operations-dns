@@ -402,7 +402,6 @@ $ORIGIN 0.64.@Z
 215 1H IN PTR   webperf1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 216 1H IN PTR   webperf1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
-222 1H IN PTR   oxygen.eqiad.wmnet.
 223 1H IN PTR   restbase1007.eqiad.wmnet.
 230 1H IN PTR   restbase1007-a.eqiad.wmnet.
 231 1H IN PTR   restbase1007-b.eqiad.wmnet.
