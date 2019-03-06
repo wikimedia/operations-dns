@@ -135,10 +135,6 @@ cam-unknown         1H  IN AAAA     2620:0:861:101::4
 
 acmechief1001       1H  IN A         10.64.32.84 ; VM on ganeti01.svc.eqiad.wmnet
 acmechief1001       1H  IN AAAA      2620:0:861:103:10:64:32:84 ; VM on ganeti01.svc.eqiad.wmnet
-analytics1001       1H  IN A         10.64.36.118
-analytics1001       1H  IN AAAA      2620:0:861:106:10:64:36:118
-analytics1002       1H  IN A         10.64.53.21
-analytics1002       1H  IN AAAA      2620:0:861:108:10:64:53:21
 auth1001            1H  IN A         10.64.48.121
 auth1002            1H  IN A         10.64.48.96
 an-coord1001     1H IN A             10.64.21.104
@@ -2740,11 +2736,6 @@ frlog1001       1H  IN A    10.64.40.214
 
 
 ; EQIAD analytics cluster
-
-$ORIGIN analytics.eqiad.wmnet.
-namenode        1H      IN CNAME  analytics1001.eqiad.wmnet.
-resourcemanager 1H      IN CNAME  analytics1001.eqiad.wmnet.
-
 
 ;
 ; CODFW
