@@ -331,9 +331,6 @@ cloudvirt1027    1H IN A         10.64.20.51
 cloudvirt1028    1H IN A         10.64.20.52
 cloudvirt1029    1H IN A         10.64.20.53
 cloudvirt1030    1H IN A         10.64.20.54
-conf1001         1H IN A         10.64.0.18
-conf1002         1H IN A         10.64.32.180
-conf1003         1H IN A         10.64.48.111
 conf1004         1H IN A         10.64.0.23
 conf1004         1H IN AAAA      2620:0:861:101:10:64:0:23
 conf1005         1H IN A         10.64.16.29
