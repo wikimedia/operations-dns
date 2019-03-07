@@ -1004,9 +1004,6 @@ thumbor1003     1H  IN A        10.64.48.71
 thumbor1004     1H  IN A        10.64.48.72
 tungsten        1H  IN A        10.64.0.22
 lithium         1H  IN A        10.64.32.154
-logstash1004    1H  IN A        10.64.0.162
-logstash1005    1H  IN A        10.64.16.185
-logstash1006    1H  IN A        10.64.48.109
 logstash1007    1H  IN A        10.64.0.37 ; VM on ganeti01.svc.eqiad.wmnet
 logstash1008    1H  IN A        10.64.0.90 ; VM on ganeti01.svc.eqiad.wmnet
 logstash1009    1H  IN A        10.64.32.27 ; VM on ganeti01.svc.eqiad.wmnet
