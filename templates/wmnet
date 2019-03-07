@@ -3310,6 +3310,8 @@ restbase2018    1H  IN A    10.192.48.120
 restbase2018-a  1H  IN A    10.192.48.124 ; cassandra instance
 restbase2018-b  1H  IN A    10.192.48.125 ; cassandra instance
 restbase2018-c  1H  IN A    10.192.48.126 ; cassandra instance
+restbase2019    1H  IN A    10.192.0.128
+restbase2020    1H  IN A    10.192.0.129
 sarin           1H  IN A    10.192.0.140
 sarin           1H  IN AAAA 2620:0:860:101:10:192:0:140
 sca2003         1H  IN A    10.192.16.29 ; VM on ganeti01.svc.codfw.wmnet
@@ -4037,6 +4039,8 @@ restbase2015    1H  IN A    10.193.1.224
 restbase2016    1H  IN A    10.193.1.225
 restbase2017    1H  IN A    10.193.1.226
 restbase2018    1H  IN A    10.193.1.227
+restbase2019    1H  IN A    10.193.1.32
+restbase2020    1H  IN A    10.193.2.113
 sarin           1H  IN A    10.193.2.234
 scb2001         1H  IN A    10.193.1.28
 scb2002         1H  IN A    10.193.2.230
@@ -4619,6 +4623,8 @@ wmf6700         1H  IN A    10.193.2.198
 wmf6701         1H  IN A    10.193.2.199
 wmf6702         1H  IN A    10.193.2.200
 wmf6703         1H  IN A    10.193.2.201
+wmf6704         1H  IN A    10.193.1.32
+wmf6705         1H  IN A    10.193.2.113
 
 ;
 ; ESAMS

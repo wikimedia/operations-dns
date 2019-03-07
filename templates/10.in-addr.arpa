@@ -3150,6 +3150,8 @@ $ORIGIN 0.192.@Z
 125 1H IN PTR   cp2004.codfw.wmnet.
 126 1H IN PTR   cp2005.codfw.wmnet.
 127 1H IN PTR   cp2006.codfw.wmnet.
+128 1H IN PTR   restbase2019.codfw.wmnet.
+129 1H IN PTR   restbase2020.codfw.wmnet.
 
 136 1H IN PTR   ms-be2016.codfw.wmnet.
 137 1H IN PTR   ms-be2017.codfw.wmnet.
@@ -3846,7 +3848,8 @@ $ORIGIN 1.193.@Z
 30  1H IN PTR  wmf5822.mgmt.codfw.wmnet.
 31  1H IN PTR  achernar.mgmt.codfw.wmnet.
 31  1H IN PTR  wmf5819.mgmt.codfw.wmnet.
-
+32  1H IN PTR  restbase2019.mgmt.codfw.wmnet.
+32  1H IN PTR  wmf6704.mgmt.codfw.wmnet.
 33  1H IN PTR  labtestvirt2003.mgmt.codfw.wmnet.
 33  1H IN PTR  wmf6571.mgmt.codfw.wmnet.
 34  1H IN PTR  labtestnet2002.mgmt.codfw.wmnet.
@@ -4513,7 +4516,8 @@ $ORIGIN 2.193.@Z
 111 1H IN PTR  wmf6258.mgmt.codfw.wmnet.
 112 1H IN PTR  mw2212.mgmt.codfw.wmnet.
 112 1H IN PTR  wmf6259.mgmt.codfw.wmnet.
-
+113 1H IN PTR  restbase2020.mgmt.codfw.wmnet.
+113 1H IN PTR  wmf6705.mgmt.codfw.wmnet.
 114 1H IN PTR  mw2214.mgmt.codfw.wmnet.
 114 1H IN PTR  wmf6261.mgmt.codfw.wmnet.
 116 1H IN PTR  wmf5849.mgmt.codfw.wmnet.
