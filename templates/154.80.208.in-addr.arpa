@@ -40,12 +40,7 @@
 27  1H  IN PTR  bohrium.wikimedia.org.
 
 42  1H  IN PTR  cp1008.wikimedia.org.
-43  1H  IN PTR  vl1001-eth0.lvs1007.eqiad.wmnet.
-44  1H  IN PTR  vl1001-eth0.lvs1008.eqiad.wmnet.
-45  1H  IN PTR  vl1001-eth0.lvs1009.eqiad.wmnet.
-46  1H  IN PTR  vl1001-eth1.lvs1010.eqiad.wmnet.
-47  1H  IN PTR  vl1001-eth1.lvs1011.eqiad.wmnet.
-48  1H  IN PTR  vl1001-eth1.lvs1012.eqiad.wmnet.
+
 49  1H  IN PTR  actinium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
 51  1H  IN PTR  vl1001-eth0.lvs1013.eqiad.wmnet.
@@ -89,12 +84,7 @@
 93  1H  IN PTR  radon.wikimedia.org.
 
 95  1H  IN PTR  labcontrol1002.wikimedia.org.
-96  1H  IN PTR  vl1003-eth1.lvs1007.eqiad.wmnet.
-97  1H  IN PTR  vl1003-eth1.lvs1008.eqiad.wmnet.
-98  1H  IN PTR  vl1003-eth1.lvs1009.eqiad.wmnet.
-99  1H  IN PTR  vl1003-eth0.lvs1010.eqiad.wmnet.
-100 1H  IN PTR  vl1003-eth0.lvs1011.eqiad.wmnet.
-101 1H  IN PTR  vl1003-eth0.lvs1012.eqiad.wmnet.
+
 102 1H  IN PTR  vl1003-eth2.lvs1013.eqiad.wmnet.
 103 1H  IN PTR  vl1003-eth2.lvs1014.eqiad.wmnet.
 104 1H  IN PTR  vl1003-eth0.lvs1015.eqiad.wmnet.
@@ -125,12 +115,7 @@
 158 1H  IN PTR  labpuppetmaster1001.wikimedia.org.
 
 160 1H  IN PTR  labweb1001.wikimedia.org.
-161 1H  IN PTR  vl1002-eth2.lvs1007.eqiad.wmnet.
-162 1H  IN PTR  vl1002-eth2.lvs1008.eqiad.wmnet.
-163 1H  IN PTR  vl1002-eth2.lvs1009.eqiad.wmnet.
-164 1H  IN PTR  vl1002-eth2.lvs1010.eqiad.wmnet.
-165 1H  IN PTR  vl1002-eth2.lvs1011.eqiad.wmnet.
-166 1H  IN PTR  vl1002-eth2.lvs1012.eqiad.wmnet.
+
 167 1H  IN PTR  vl1002-eth1.lvs1013.eqiad.wmnet.
 168 1H  IN PTR  vl1002-eth0.lvs1014.eqiad.wmnet.
 169 1H  IN PTR  vl1002-eth2.lvs1015.eqiad.wmnet.

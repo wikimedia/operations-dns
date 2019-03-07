@@ -60,12 +60,7 @@
 108 1H IN PTR   dns1002.wikimedia.org.
 109 1H IN PTR   labweb1002.wikimedia.org.
 110 1H IN PTR   astatine.wikimedia.org.
-111 1H IN PTR   vl1004-eth3.lvs1007.eqiad.wmnet.
-112 1H IN PTR   vl1004-eth3.lvs1008.eqiad.wmnet.
-113 1H IN PTR   vl1004-eth3.lvs1009.eqiad.wmnet.
-114 1H IN PTR   vl1004-eth3.lvs1010.eqiad.wmnet.
-115 1H IN PTR   vl1004-eth3.lvs1011.eqiad.wmnet.
-116 1H IN PTR   vl1004-eth3.lvs1012.eqiad.wmnet.
+
 117 1H IN PTR   labservices1001.wikimedia.org.
 118 1H IN PTR   labs-recursor0.wikimedia.org.
 
