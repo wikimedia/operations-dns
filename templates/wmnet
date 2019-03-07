@@ -3249,8 +3249,6 @@ pybal-test2002  1H  IN AAAA 2620:0:860:102:10:192:16:140 ; VM on ganeti01.svc.co
 pybal-test2003  1H  IN A    10.192.16.141 ; VM on ganeti01.svc.codfw.wmnet
 pybal-test2003  1H  IN AAAA 2620:0:860:102:10:192:16:141 ; VM on ganeti01.svc.codfw.wmnet
 pybal-testsvc   1H  IN A    10.192.16.142 ; service IP
-rdb2001         1H  IN A    10.192.0.119
-rdb2002         1H  IN A    10.192.0.120
 rdb2003         1H  IN A    10.192.16.122
 rdb2004         1H  IN A    10.192.16.123
 rdb2005         1H  IN A    10.192.32.133
