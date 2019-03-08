@@ -884,14 +884,8 @@ puppetmaster1001 1H IN A        10.64.16.73
 puppetmaster1001 1H IN AAAA     2620:0:861:102:10:64:16:73
 puppetmaster1002 1H IN A        10.64.48.45
 puppetmaster1002 1H IN AAAA     2620:0:861:107:10:64:48:45
-rdb1001         1H  IN A        10.64.32.76
-rdb1002         1H  IN A        10.64.32.77
-rdb1003         1H  IN A        10.64.0.201
-rdb1004         1H  IN A        10.64.16.183
 rdb1005         1H  IN A        10.64.0.24
 rdb1006         1H  IN A        10.64.48.55
-rdb1007         1H  IN A        10.64.32.18
-rdb1008         1H  IN A        10.64.32.19
 rdb1009         1H  IN A        10.64.16.76
 rdb1010         1H  IN A        10.64.48.38
 registry1001    1H  IN A        10.64.0.143 ;VM on ganeti01.svc.eqiad.wmnet docker registry instance
