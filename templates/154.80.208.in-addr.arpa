@@ -185,4 +185,6 @@
 
 250 1H  IN PTR  git-ssh.eqiad.wikimedia.org.
 
+252 1H  IN PTR  ldap-ro.eqiad.wikimedia.org.
+
 254 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org. ; not actually public!

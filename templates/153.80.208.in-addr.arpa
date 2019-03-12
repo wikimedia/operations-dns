@@ -194,4 +194,6 @@
 
 250  1H  IN PTR git-ssh.codfw.wikimedia.org.
 
+252 1H  IN PTR  ldap-ro.codfw.wikimedia.org.
+
 254  1H  IN PTR dns-rec-lb.codfw.wikimedia.org. ; not actually public!

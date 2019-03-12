@@ -337,6 +337,8 @@ git-ssh.eqiad       1H  IN AAAA 2620:0:861:ed1a::3:16
 git-ssh             600 IN A    208.80.154.250
 git-ssh             600 IN AAAA 2620:0:861:ed1a::3:16
 
+ldap-ro.eqiad       1H  IN A    208.80.154.252
+
 ;;; ulsfo
 text-lb.ulsfo       600 IN DYNA geoip!text-addrs/ulsfo
 upload-lb.ulsfo     600 IN DYNA geoip!upload-addrs/ulsfo
@@ -363,6 +365,8 @@ donate-lb.codfw     600 IN DYNA geoip!text-addrs/codfw
 
 git-ssh.codfw       1H  IN A    208.80.153.250
 git-ssh.codfw       1H  IN AAAA 2620:0:860:ed1a::3:fa
+
+ldap-ro.codfw       1H  IN A    208.80.153.252
 
 ;;; esams
 text-lb.esams       600 IN DYNA geoip!text-addrs/esams
