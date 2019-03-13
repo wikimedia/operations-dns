@@ -370,7 +370,6 @@ $ORIGIN 0.64.@Z
 141 1H IN PTR   sessionstore1001.eqiad.wmnet.
 142 1H IN PTR   doc1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 143 1H IN PTR   registry1001.eqiad.wmnet.   ; VM on ganeti01.svc.eqiad.wmnet
-144 1H IN PTR   ldap-replica01.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 163 1H IN PTR   db1096.eqiad.wmnet.
 164 1H IN PTR   db1103.eqiad.wmnet.
@@ -824,9 +823,6 @@ $ORIGIN 32.64.@Z
 
 138     1H IN PTR       aqs1005.eqiad.wmnet.
 139     1H IN PTR       registry1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
-144     1H IN PTR       ldap-replica02.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
 149     1H IN PTR       snapshot1006.eqiad.wmnet.
 
 153     1H IN PTR       scb1003.eqiad.wmnet.
