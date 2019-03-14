@@ -4604,9 +4604,7 @@ $ORIGIN 2.193.@Z
 157 1H IN PTR  wmf6293.mgmt.codfw.wmnet.
 158 1H IN PTR  db2070.mgmt.codfw.wmnet.
 158 1H IN PTR  wmf6294.mgmt.codfw.wmnet.
-159 1H IN PTR  rdb2001.mgmt.codfw.wmnet.
 159 1H IN PTR  wmf6271.mgmt.codfw.wmnet.
-160 1H IN PTR  rdb2002.mgmt.codfw.wmnet.
 160 1H IN PTR  wmf6272.mgmt.codfw.wmnet.
 161 1H IN PTR  rdb2003.mgmt.codfw.wmnet.
 161 1H IN PTR  wmf6273.mgmt.codfw.wmnet.

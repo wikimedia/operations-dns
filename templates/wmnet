@@ -4013,8 +4013,6 @@ prometheus2003  1H  IN A    10.193.1.156
 prometheus2004  1H  IN A    10.193.1.157
 puppetmaster2001         1H  IN A    10.193.1.147
 puppetmaster2002         1H  IN A    10.193.1.148
-rdb2001         1H  IN A    10.193.2.159
-rdb2002         1H  IN A    10.193.2.160
 rdb2003         1H  IN A    10.193.2.161
 rdb2004         1H  IN A    10.193.2.162
 rdb2005         1H  IN A    10.193.2.247
