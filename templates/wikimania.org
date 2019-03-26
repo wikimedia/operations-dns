@@ -18,6 +18,9 @@
             1H  IN MX   10  mx1001.wikimedia.org.
             1H  IN MX   50  mx2001.wikimedia.org.
 
+; CAA records
+@           600 IN CAA 0 issue "letsencrypt.org"
+@           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 ; Canonical names
             600 IN DYNA geoip!text-addrs

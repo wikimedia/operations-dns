@@ -18,6 +18,10 @@
             1H  IN MX   10  mh3.elkdata.ee.
             1H  IN MX   20  mh5.elkdata.ee.
 
+; CAA records
+@           600 IN CAA 0 issue "letsencrypt.org"
+@           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
+
 ; Canonical names
             600 IN DYNA geoip!text-addrs
 

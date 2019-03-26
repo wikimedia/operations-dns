@@ -17,3 +17,7 @@
 ; SPF txt and rr records
 ; No email for parked domains (T193408)
             600 IN TXT  "v=spf1 -all"
+
+; CAA records
+@           600 IN CAA 0 issue "letsencrypt.org"
+@           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
