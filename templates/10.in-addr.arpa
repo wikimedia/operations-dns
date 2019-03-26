@@ -3363,8 +3363,7 @@ $ORIGIN 20.192.@Z
 3   1H IN PTR   ae2-2118.cr2-codfw.wikimedia.org.
 4   1H IN PTR   cloudnet2001-dev.codfw.wmnet.
 5   1H IN PTR   cloudvirt2001-dev.codfw.wmnet.
-6   1H IN PTR   labtestvirt2001.codfw.wmnet.
-7   1H IN PTR   labtestvirt2002.codfw.wmnet.
+
 8   1H IN PTR   labtestvirt2003.codfw.wmnet.
 9   1H IN PTR   labtestnet2002.codfw.wmnet.
 10  1H IN PTR   cloudnet2002-dev.codfw.wmnet.
