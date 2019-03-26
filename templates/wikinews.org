@@ -28,6 +28,7 @@
 ; CAA records
 @           600 IN CAA 0 issue "globalsign.com"
 @           600 IN CAA 0 issue "digicert.com"
+@           600 IN CAA 0 issue "letsencrypt.org"
 @           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 ; Servers (alphabetic order)
