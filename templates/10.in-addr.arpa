@@ -3138,7 +3138,7 @@ $ORIGIN 0.192.@Z
 111 1H IN PTR   logstash2004.codfw.wmnet.    ; VM on ganeti01.svc.codfw.wmnet
 112 1H IN PTR   logstash2001.codfw.wmnet.
 113 1H IN PTR   registry2001.codfw.wmnet.    ; VM on ganeti01.svc.codfw.wmnet
-114 1H IN PTR   dprov2001.codfw.wmnet.
+114 1H IN PTR   dbprov2001.codfw.wmnet.
 
 121 1H IN PTR   acmechief2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 122 1H IN PTR   cp2001.codfw.wmnet.
@@ -3277,7 +3277,7 @@ $ORIGIN 16.192.@Z
 93  1H IN PTR   logstash2006.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 94  1H IN PTR   registry2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 95  1H IN PTR   sessionstore2001-a.codfw.wmnet.
-96 1H IN PTR   dprov2002.codfw.wmnet.
+96 1H IN PTR    dbprov2002.codfw.wmnet.
 
 108 1H IN PTR   mw2135.codfw.wmnet.
 109 1H IN PTR   mw2136.codfw.wmnet.
