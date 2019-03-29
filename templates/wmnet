@@ -72,7 +72,7 @@ s8-analytics-replica  5M  IN CNAME    dbstore1005.eqiad.wmnet.
 x1-analytics-replica  5M  IN CNAME    dbstore1005.eqiad.wmnet.
 staging-db-analytics  5M  IN CNAME    dbstore1005.eqiad.wmnet.
 analytics-slave     5M  IN CNAME    db1108.eqiad.wmnet.
-osmdb               5M  IN CNAME    labsdb1006.eqiad.wmnet.
+osmdb               5M  IN CNAME    osm.db.svc.eqiad.wmflabs.
 labsdb-analytics    5M  IN CNAME    dbproxy1010.eqiad.wmnet.
 labsdb-web          5M  IN CNAME    dbproxy1011.eqiad.wmnet.
 wikireplica-analytics    5M  IN CNAME    dbproxy1010.eqiad.wmnet.
