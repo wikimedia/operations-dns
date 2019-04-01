@@ -3361,7 +3361,7 @@ $ORIGIN 20.192.@Z
 1   1H IN PTR   vrrp-gw-2118.codfw.wmnet.
 2   1H IN PTR   ae2-2118.cr1-codfw.wikimedia.org.
 3   1H IN PTR   ae2-2118.cr2-codfw.wikimedia.org.
-4   1H IN PTR   cloudnet2001-dev.codfw.wmnet.
+
 5   1H IN PTR   cloudvirt2001-dev.codfw.wmnet.
 
 8   1H IN PTR   labtestvirt2003.codfw.wmnet.
@@ -3821,9 +3821,6 @@ $ORIGIN 1.193.@Z
 16  1H IN PTR  wmf6374.mgmt.codfw.wmnet.
 17  1H IN PTR  ms-be2021.mgmt.codfw.wmnet.
 17  1H IN PTR  wmf6375.mgmt.codfw.wmnet.
-
-20  1H IN PTR  cloudnet2001-dev.mgmt.codfw.wmnet.
-20  1H IN PTR  wmf3763.mgmt.codfw.wmnet.
 21  1H IN PTR  labtestservices2001.mgmt.codfw.wmnet.
 21  1H IN PTR  wmf3644.mgmt.codfw.wmnet.
 22  1H IN PTR  auth2001.mgmt.codfw.wmnet.
