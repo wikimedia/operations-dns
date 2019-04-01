@@ -2956,7 +2956,7 @@ labtestmetal2001      1H  IN A    10.192.20.11
 cloudnet2001-dev      1H  IN A    10.192.20.4
 cloudnet2002-dev      1H  IN A    10.192.20.10
 labtestnet2002          1H  IN A    10.192.20.9
-cloudnetnet2003-dev     1H  IN A    10.192.20.12
+cloudnet2003-dev     1H  IN A    10.192.20.12
 labtestvirt2003         1H  IN A    10.192.20.8
 logstash2001    1H  IN A    10.192.0.112
 logstash2002    1H  IN A    10.192.32.180
