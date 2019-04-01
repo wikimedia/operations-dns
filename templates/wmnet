@@ -2956,7 +2956,7 @@ labtestmetal2001      1H  IN A    10.192.20.11
 cloudnet2001-dev      1H  IN A    10.192.20.4
 cloudnet2002-dev      1H  IN A    10.192.20.10
 labtestnet2002          1H  IN A    10.192.20.9
-labtestnet2003          1H  IN A    10.192.20.12
+cloudnetnet2003-dev     1H  IN A    10.192.20.12
 labtestvirt2003         1H  IN A    10.192.20.8
 logstash2001    1H  IN A    10.192.0.112
 logstash2002    1H  IN A    10.192.32.180
@@ -3741,7 +3741,8 @@ labtestmetal2001      1H  IN A    10.193.1.37
 labtestpuppetmaster2001    1H  IN A    10.193.1.36
 cloudnet2001-dev      1H  IN A    10.193.1.20
 labtestnet2002        1H  IN A    10.193.1.34
-labtestnet2003        1H  IN A    10.193.1.152
+labtestnet2003        1H  IN A    10.193.1.152 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+cloudnet2003-dev      1H  IN A    10.193.1.152 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
 cloudnet2002-dev      1H  IN A    10.193.1.35
 labtestservices2001   1H  IN A    10.193.1.21
 labtestservices2002   1H  IN A    10.193.1.39
@@ -4401,7 +4402,7 @@ wmf6465         1H  IN A    10.193.1.148
 wmf6466         1H  IN A    10.193.1.149
 wmf6467         1H  IN A    10.193.1.150
 wmf6468         1H  IN A    10.193.1.151
-wmf6469         1H  IN A    10.193.1.152
+wmf6469         1H  IN A    10.193.1.152 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
 wmf6470         1H  IN A    10.193.1.153
 wmf6471         1H  IN A    10.193.1.154
 wmf6472         1H  IN A    10.193.1.155
