@@ -3368,7 +3368,7 @@ $ORIGIN 20.192.@Z
 9   1H IN PTR   labtestnet2002.codfw.wmnet.
 10  1H IN PTR   cloudnet2002-dev.codfw.wmnet.
 11  1H IN PTR   labtestmetal2001.codfw.wmnet.
-12  1H IN PTR   labtestnet2003.codfw.wmnet.
+12  1H IN PTR   cloudnet2003-dev.codfw.wmnet.
 13  1H IN PTR   cloudvirt2002-dev.codfw.wmnet.
 14  1H IN PTR   cloudvirt2003-dev.codfw.wmnet.
 
@@ -4083,7 +4083,8 @@ $ORIGIN 1.193.@Z
 150 1H IN PTR  wmf6467.mgmt.codfw.wmnet.
 151 1H IN PTR  scb2006.mgmt.codfw.wmnet.
 151 1H IN PTR  wmf6468.mgmt.codfw.wmnet.
-152 1H IN PTR  labtestnet2003.mgmt.codfw.wmnet.
+152 1H IN PTR  labtestnet2003.mgmt.codfw.wmnet.   ; vvv duplicated on purpose
+152 1H IN PTR  cloudnet2003-dev.mgmt.codfw.wmnet. ; ^^^ duplicated on purpose
 152 1H IN PTR  wmf6469.mgmt.codfw.wmnet.
 153 1H IN PTR  restbase2010.mgmt.codfw.wmnet.
 153 1H IN PTR  wmf6470.mgmt.codfw.wmnet.
