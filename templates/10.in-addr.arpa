@@ -3821,10 +3821,7 @@ $ORIGIN 1.193.@Z
 16  1H IN PTR  wmf6374.mgmt.codfw.wmnet.
 17  1H IN PTR  ms-be2021.mgmt.codfw.wmnet.
 17  1H IN PTR  wmf6375.mgmt.codfw.wmnet.
-18  1H IN PTR  labtestvirt2002.mgmt.codfw.wmnet.
-18  1H IN PTR  wmf3810.mgmt.codfw.wmnet.
-19  1H IN PTR  labtestvirt2001.mgmt.codfw.wmnet.
-19  1H IN PTR  wmf5850.mgmt.codfw.wmnet.
+
 20  1H IN PTR  cloudnet2001-dev.mgmt.codfw.wmnet.
 20  1H IN PTR  wmf3763.mgmt.codfw.wmnet.
 21  1H IN PTR  labtestservices2001.mgmt.codfw.wmnet.

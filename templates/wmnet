@@ -3736,7 +3736,6 @@ labstore2003    1H  IN A    10.193.2.244
 labstore2004    1H  IN A    10.193.2.245
 labtestcontrol2001    1H  IN A    10.193.2.1
 labtestcontrol2003    1H  IN A    10.193.1.40
-labtestvirt2002       1H  IN A    10.193.1.18
 labtestmetal2001      1H  IN A    10.193.1.37
 labtestpuppetmaster2001    1H  IN A    10.193.1.36
 cloudnet2001-dev      1H  IN A    10.193.1.20
@@ -3746,7 +3745,6 @@ cloudnet2003-dev      1H  IN A    10.193.1.152
 labtestservices2001   1H  IN A    10.193.1.21
 labtestservices2002   1H  IN A    10.193.1.39
 labtestservices2003   1H  IN A    10.193.1.38
-labtestvirt2001       1H  IN A    10.193.1.19
 labtestvirt2003       1H  IN A    10.193.1.33
 logstash2001    1H  IN A    10.193.3.61
 logstash2002    1H  IN A    10.193.3.62
@@ -4103,7 +4101,6 @@ wmf3734         1H  IN A    10.193.2.12
 wmf3742         1H  IN A    10.193.1.70
 wmf3762         1H  IN A    10.195.0.111
 wmf3763         1H  IN A    10.193.1.20
-wmf3810         1H  IN A    10.193.1.18
 wmf3903         1H  IN A    10.193.2.13
 wmf5716         1H  IN A    10.193.1.71
 wmf5717         1H  IN A    10.193.1.72
@@ -4120,7 +4117,6 @@ wmf5837         1H  IN A    10.193.2.137
 wmf5838         1H  IN A    10.193.2.138
 wmf5847         1H  IN A    10.193.1.49
 wmf5849         1H  IN A    10.193.2.116
-wmf5850         1H  IN A    10.193.1.19
 wmf5851         1H  IN A    10.193.2.234
 wmf6117         1H  IN A    10.193.1.83
 wmf6118         1H  IN A    10.193.1.84
