@@ -69,3 +69,5 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+# Telia outage on the eqsin-codfw link
+geoip/generic-map/eqsin => DOWN
