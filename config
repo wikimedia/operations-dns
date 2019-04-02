@@ -7,6 +7,13 @@ options => {
 
     zones_strict_data = true,
     zones_default_ttl = 3600,
+
+    # Experimental non-chaining CNAME outputs.  These have been tested with a
+    # ton of public/major recursors, but there's a fear there may be
+    # ancient/oudated recursors in live use that may break on these.  None of
+    # our high-traffic public domains rely on zone-local CNAME chains anyways,
+    # so this is fairly soft test initially...
+    experimental_no_chain => true
 }
 
 service_types => {
