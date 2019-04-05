@@ -9,26 +9,26 @@
 
 ; Name servers
 
-            1D  IN NS   ns0
-            1D  IN NS   ns1
-            1D  IN NS   ns2
+@           1D  IN NS   ns0
+@           1D  IN NS   ns1
+@           1D  IN NS   ns2
 
 ; Mail exchangers
 
-            1H  IN MX   10  mx1001
-            1H  IN MX   50  mx2001
+@           1H  IN MX   10  mx1001
+@           1H  IN MX   50  mx2001
 
 ; Canonical names
-            600 IN DYNA geoip!text-addrs
+@           600 IN DYNA geoip!text-addrs
 
 ; Google Webmaster Tools verification record for search management
-            600 IN TXT  "google-site-verification=APNaeC69s87mS4z-sfYqFYONgimBx4Bw22eCIaYEd_g"
+@           600 IN TXT  "google-site-verification=APNaeC69s87mS4z-sfYqFYONgimBx4Bw22eCIaYEd_g"
 
 ; Delegations
 
 ; Corporate office name server delegation
 corp        1D  IN NS   ns1.corp
-            1D  IN NS   ns2.corp
+corp        1D  IN NS   ns2.corp
 ns1.corp    1H  IN A    198.73.209.15
 ns2.corp    1H  IN A    198.73.209.16
 
@@ -97,8 +97,8 @@ upload      600 DYNA geoip!upload-addrs
 maps        600 DYNA geoip!upload-addrs
 m           600 DYNA geoip!text-addrs
 donate      600 DYNA geoip!text-addrs
-                1H  IN MX       10 mx1001
-                1H  IN MX       50 mx2001
+donate          1H  IN MX       10 mx1001
+donate          1H  IN MX       50 mx2001
 
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
 
@@ -312,11 +312,11 @@ ntp.eqsin           1H  IN CNAME dns5001
 text-lb.eqiad       600 IN DYNA geoip!text-addrs/eqiad
 upload-lb.eqiad     600 IN DYNA geoip!upload-addrs/eqiad
 donate-lb.eqiad     600 IN DYNA geoip!text-addrs/eqiad
-                IN MX 10 mx1001
-                IN MX 50 mx2001
-;;; ns0                 208.80.154.238
+donate-lb.eqiad     IN MX 10 mx1001
+donate-lb.eqiad     IN MX 50 mx2001
+
 dns-rec-lb.eqiad    1H  IN A    208.80.154.254
-                    1H  IN AAAA 2620:0:861:ed1a::3:fe
+dns-rec-lb.eqiad    1H  IN AAAA 2620:0:861:ed1a::3:fe
 
 ; These legacy entries should eventually move to RESTBase
 cxserver            600 IN DYNA geoip!text-addrs
@@ -338,25 +338,29 @@ ldap-ro.eqiad       1H  IN A    208.80.154.252
 text-lb.ulsfo       600 IN DYNA geoip!text-addrs/ulsfo
 upload-lb.ulsfo     600 IN DYNA geoip!upload-addrs/ulsfo
 donate-lb.ulsfo     600 IN DYNA geoip!text-addrs/ulsfo
-            1H  IN MX 10    mx1001
-            1H  IN MX 50    mx2001
+donate-lb.ulsfo     1H  IN MX 10    mx1001
+donate-lb.ulsfo     1H  IN MX 50    mx2001
+
 dns-rec-lb.ulsfo    1H  IN A    198.35.26.127
-                    1H  IN AAAA 2620:0:863:ed1a::3:fe
+dns-rec-lb.ulsfo    1H  IN AAAA 2620:0:863:ed1a::3:fe
 
 ;;; eqsin
 text-lb.eqsin       600 IN DYNA geoip!text-addrs/eqsin
 upload-lb.eqsin     600 IN DYNA geoip!upload-addrs/eqsin
 donate-lb.eqsin     600 IN DYNA geoip!text-addrs/eqsin
-            1H  IN MX 10    mx1001
-            1H  IN MX 50    mx2001
+donate-lb.eqsin     1H  IN MX 10    mx1001
+donate-lb.eqsin     1H  IN MX 50    mx2001
+
 dns-rec-lb.eqsin    1H  IN A    103.102.166.254
-                    1H  IN AAAA 2001:df2:e500:ed1a::3:fe
+dns-rec-lb.eqsin    1H  IN AAAA 2001:df2:e500:ed1a::3:fe
+
 ;;; codfw
-dns-rec-lb.codfw    1H  IN A    208.80.153.254
-                    1H  IN AAAA 2620:0:860:ed1a::3:fe
 text-lb.codfw       600 IN DYNA geoip!text-addrs/codfw
 upload-lb.codfw     600 IN DYNA geoip!upload-addrs/codfw
 donate-lb.codfw     600 IN DYNA geoip!text-addrs/codfw
+
+dns-rec-lb.codfw    1H  IN A    208.80.153.254
+dns-rec-lb.codfw    1H  IN AAAA 2620:0:860:ed1a::3:fe
 
 git-ssh.codfw       1H  IN A    208.80.153.250
 git-ssh.codfw       1H  IN AAAA 2620:0:860:ed1a::3:fa
@@ -367,10 +371,11 @@ ldap-ro.codfw       1H  IN A    208.80.153.252
 text-lb.esams       600 IN DYNA geoip!text-addrs/esams
 upload-lb.esams     600 IN DYNA geoip!upload-addrs/esams
 donate-lb.esams     600 IN DYNA geoip!text-addrs/esams
-              1H  IN MX 10    mx1001
-              1H  IN MX 50    mx2001
+donate-lb.esams     1H  IN MX 10    mx1001
+donate-lb.esams     1H  IN MX 50    mx2001
+
 dns-rec-lb.esams    1H  IN A    91.198.174.216
-              1H  IN AAAA 2620:0:862:ed1a::3:fe
+dns-rec-lb.esams    1H  IN AAAA 2620:0:862:ed1a::3:fe
 
 ; Mobile
 
@@ -453,52 +458,52 @@ za.m                600 IN DYNA     geoip!text-addrs
 
 ; Networking
 cr1-eqiad       1H  IN A    208.80.154.196
-                1H  IN AAAA 2620:0:861:ffff::1
+cr1-eqiad       1H  IN AAAA 2620:0:861:ffff::1
 cr2-eqiad       1H  IN A    208.80.154.197
-                1H  IN AAAA 2620:0:861:ffff::2
+cr2-eqiad       1H  IN AAAA 2620:0:861:ffff::2
 cr2-eqord       1H  IN A    208.80.154.198
-                1H  IN AAAA 2620:0:861:ffff::5
+cr2-eqord       1H  IN AAAA 2620:0:861:ffff::5
 mr1-eqiad       1H  IN A    208.80.154.199
-                1H  IN AAAA 2620:0:861:ffff::6
+mr1-eqiad       1H  IN AAAA 2620:0:861:ffff::6
 mr1-eqiad.oob   1H  IN A    198.32.107.153
-                1H  IN AAAA 2607:f6f0:205::153
+mr1-eqiad.oob   1H  IN AAAA 2607:f6f0:205::153
 
 cr1-codfw       1H  IN A    208.80.153.192
-                1H  IN AAAA 2620:0:860:ffff::1
+cr1-codfw       1H  IN AAAA 2620:0:860:ffff::1
 cr2-codfw       1H  IN A    208.80.153.193
-                1H  IN AAAA 2620:0:860:ffff::2
+cr2-codfw       1H  IN AAAA 2620:0:860:ffff::2
 mr1-codfw       1H  IN A    208.80.153.196
-                1H  IN AAAA 2620:0:860:ffff::6
+mr1-codfw       1H  IN AAAA 2620:0:860:ffff::6
 mr1-codfw.oob   1H  IN A    216.117.46.36
 cr2-eqdfw       1H  IN A    208.80.153.198
-                1H  IN AAAA 2620:0:860:ffff::5
+cr2-eqdfw       1H  IN AAAA 2620:0:860:ffff::5
 
 cr1-esams       1H  IN A    91.198.174.245
-                1H  IN AAAA 2620:0:862:ffff::5
+cr1-esams       1H  IN AAAA 2620:0:862:ffff::5
 cr2-esams       1H  IN A    91.198.174.244
-                1H  IN AAAA 2620:0:862:ffff::3
+cr2-esams       1H  IN AAAA 2620:0:862:ffff::3
 cr2-knams       1H  IN A    91.198.174.246
-                1H  IN AAAA 2620:0:862:ffff::4
+cr2-knams       1H  IN AAAA 2620:0:862:ffff::4
 mr1-esams       1H  IN A    91.198.174.247
-                1H  IN AAAA 2620:0:862:ffff::1
+mr1-esams       1H  IN AAAA 2620:0:862:ffff::1
 mr1-esams.oob   1H  IN A    164.138.24.90
 mr1-esams.oob   1H  IN AAAA 2a02:2770:c011::2
 
 cr3-ulsfo       1H  IN A    198.35.26.192
-                1H  IN AAAA 2620:0:863:ffff::1
+cr3-ulsfo       1H  IN AAAA 2620:0:863:ffff::1
 cr4-ulsfo       1H  IN A    198.35.26.193
-                1H  IN AAAA 2620:0:863:ffff::2
+cr4-ulsfo       1H  IN AAAA 2620:0:863:ffff::2
 mr1-ulsfo       1H  IN A    198.35.26.194
-                1H  IN AAAA 2620:0:863:ffff::6
+mr1-ulsfo       1H  IN AAAA 2620:0:863:ffff::6
 mr1-ulsfo.oob   1H  IN A    198.24.47.102
 mr1-ulsfo.oob   1H  IN AAAA 2607:fb58:9000:7::2
 
 cr1-eqsin       1H  IN A    103.102.166.129
-                1H  IN AAAA 2001:df2:e500:ffff::2
+cr1-eqsin       1H  IN AAAA 2001:df2:e500:ffff::2
 cr2-eqsin       1H  IN A    103.102.166.130
-                1H  IN AAAA 2001:df2:e500:ffff::3
+cr2-eqsin       1H  IN AAAA 2001:df2:e500:ffff::3
 mr1-eqsin       1H  IN A    103.102.166.128
-                1H  IN AAAA 2001:df2:e500:ffff::1
+mr1-eqsin       1H  IN AAAA 2001:df2:e500:ffff::1
 mr1-eqsin.oob   1H  IN A    27.111.227.106
 mr1-eqsin.oob   1H  IN AAAA 2403:b100:3001:9::2
 
@@ -563,9 +568,9 @@ apt             300  IN CNAME   install1002
 archiva         5M  IN CNAME    archiva1001
 
 benefactors     600 IN DYNA     geoip!text-addrs
-                1H  IN MX       10 mx1001
-                1H  IN MX       50 mx2001
-                1H  IN TXT      "v=spf1 include:wikimedia.org include:spf.mandrillapp.com -all"
+benefactors     1H  IN MX       10 mx1001
+benefactors     1H  IN MX       50 mx2001
+benefactors     1H  IN TXT      "v=spf1 include:wikimedia.org include:spf.mandrillapp.com -all"
 mandrill._domainkey.benefactors 1H IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;"
 
 
@@ -682,9 +687,9 @@ svn             600 IN DYNA     geoip!text-addrs
 toolsadmin      600 IN DYNA     geoip!text-addrs
 
 wiki-mail-eqiad 1H  IN A        208.80.154.91
-                1H  IN AAAA     2620:0:861:3:208:80:154:91
+wiki-mail-eqiad 1H  IN AAAA     2620:0:861:3:208:80:154:91
 wiki-mail-codfw 1H  IN A        208.80.153.46
-                1H  IN AAAA     2620:0:860:2:208:80:153:46
+wiki-mail-codfw 1H  IN AAAA     2620:0:860:2:208:80:153:46
 
 url-downloader.eqiad  1H  IN A          208.80.154.49 ; actinium
 url-downloader.codfw  1H  IN A          208.80.153.50 ; alsafi
@@ -906,7 +911,7 @@ labtesttoolsadmin 600 IN DYNA     geoip!text-addrs
 
 ; SNI testing hostname
 pinkunicorn      600 A 208.80.154.42
-                 600 AAAA 2620:0:861:1:208:80:154:42
+pinkunicorn      600 AAAA 2620:0:861:1:208:80:154:42
 
 ; Misc
 
