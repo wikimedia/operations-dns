@@ -36,27 +36,17 @@ ns2.corp    1H  IN A    198.73.209.16
 _domainkey              1H  IN TXT  "o=~; r=postmaster@wikimedia.org;"
 _adsp._domainkey        1H  IN TXT  "dkim=unknown;"
 
-_domainkey.lists        1H  IN TXT  "o=~; r=postmaster@wikimedia.org;"
-_adsp._domainkey.lists  1H  IN TXT  "dkim=unknown;"
-
 ; DKIM selector keys
 fundraising._domainkey  1H  IN TXT  "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC61rCxt6xGKmVoId8fqGM1UTnBugf5chUdQfoCDpsgXqQVF1tOacwj3bF9fQdnqVhWeoGwiWOhfB13k/cfPKELgsJKKXEyk7cyBTV4BQ2JqmbPS4m0dD+imISrviPKjNG4uHA4FrjzYiVuv8EzZQw7tUtJuMC26BXZYqi/5YIpFQIDAQAB"
 wikimedia._domainkey    1H  IN TXT  "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC49AATZHm1B+6V90esy7TkZnitTupAOlPisTyJSbIF5G1iXVzYljo8ZHdeYdXpgfOp79avTxz23YQXJRNWv7QqO8RuTrS8DSQhYMjwIkJkZ+VA4O2NI2bueaUVM67JylpxzIi3LajjII+CEspMBKHwqTygTQAr8uRXIGYfTcb+4wIDAQAB"
 wiki-mail._domainkey    1H  IN TXT  "v=DKIM1; k=rsa; g=wiki*; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDOZG4udzEAJiq1D0TG+5BYil0vuh8/iuBmsrmAZQcWYaMcBIlthxg0a/5xktMpE4A6w135mgl/q61dbDnT6d3Y3veWMOy0xI0q/wS9DCmRqU2VIb7L/Asjp9evwzEJywODigjOohkk4+/aIbppU1/GLGCoc6b9h7m0iandPkKTXwIDAQAB"
 google._domainkey       1H  IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwyTx0t/PibozaSBs+TcKL6G5lK0CMzwYzX46GUIkbIU1SfAwvwdsbq3JaSRmO+WAt9Tv3zQIJvXAV++tVq3VWsc4mKdtJCz4piY8LrDAor+kvyUMyZlYfO6YPkDNUCLbKBCMp7Fyd3gGvI9cjAmFSFrbLmXnMDQQocFYDfoXD2wIDAQAB"
-wikimedia._domainkey.lists  1H  IN TXT  "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7iVvYIGUbjtvFcLTUuN9Lsc1w17f8QHc01BxIr6jHJUMAMyxHSchdU6Il/hX1Or3JyOfdBi35SGqotI3G86xxQE7PZD7u+EediP5uhRTn+opv+nX5hEuxlnty8mPXem0DHhfSL0+3Ciu5WD0mNATb4NwC9jQjy2FzaLHn9D44PwIDAQAB"
 
 ; DMARC records http://dmarc.org/ -- policy none (monitor), for now
 _dmarc          1H  IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
-_dmarc.lists    1H  IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
-_dmarc.donate   1H  IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc@donate.wikimedia.org; ruf=mailto:dmarc@donate.wikimedia.org;"
 
 ; SPF txt and rr records
 @               600 IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
-
-donate          5M  IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
-
-gh-mail         1H  IN TXT  "v=spf1 include:mg-spf.greenhouse.io ~all"
 
 ; CAA records for wikimedia.org - all types for globalsign and digicert and LE
 @               5M  IN CAA 0 issue "digicert.com"
@@ -64,24 +54,16 @@ gh-mail         1H  IN TXT  "v=spf1 include:mg-spf.greenhouse.io ~all"
 @               5M  IN CAA 0 issue "letsencrypt.org"
 @               5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
-; CAA for policy.wikimedia.org
-; policy is operated by a third party which uses Namecheap/Comodo to issue DV certs on our behalf
-; we're also keeping all the base domain records here, as a Just In Case of any confusion on policy or wildcards/subdomains.
-policy          5M  IN CAA 0 issue "digicert.com"
-policy          5M  IN CAA 0 issue "globalsign.com"
-policy          5M  IN CAA 0 issue "letsencrypt.org"
-policy          5M  IN CAA 0 issue "comodoca.com"
-policy          5M  IN CAA 0 issue "namecheap.com"
-policy          5M  IN CAA 0 issuewild "digicert.com"
-policy          5M  IN CAA 0 issuewild "globalsign.com"
-policy          5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
-
 dumps           5M  IN CNAME labstore1007
 
 lists           5M  IN A    208.80.154.21
 lists           5M  IN AAAA 2620:0:861:1:208:80:154:21
 lists           1H  IN MX   10 lists
 lists           1H  IN TXT  "v=spf1 mx a:mx1001.wikimedia.org a:mx2001.wikimedia.org ~all"
+_dmarc.lists    1H  IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
+_domainkey.lists        1H  IN TXT  "o=~; r=postmaster@wikimedia.org;"
+_adsp._domainkey.lists  1H  IN TXT  "dkim=unknown;"
+wikimedia._domainkey.lists  1H  IN TXT  "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC7iVvYIGUbjtvFcLTUuN9Lsc1w17f8QHc01BxIr6jHJUMAMyxHSchdU6Il/hX1Or3JyOfdBi35SGqotI3G86xxQE7PZD7u+EediP5uhRTn+opv+nX5hEuxlnty8mPXem0DHhfSL0+3Ciu5WD0mNATb4NwC9jQjy2FzaLHn9D44PwIDAQAB"
 
 ns0         1H  IN A    208.80.154.238
 ns1         1H  IN A    208.80.153.231
@@ -99,6 +81,8 @@ m           600 DYNA geoip!text-addrs
 donate      600 DYNA geoip!text-addrs
 donate          1H  IN MX       10 mx1001
 donate          1H  IN MX       50 mx2001
+donate          5M  IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
+_dmarc.donate   1H  IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc@donate.wikimedia.org; ruf=mailto:dmarc@donate.wikimedia.org;"
 
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
 
@@ -662,6 +646,17 @@ piwik           600 IN DYNA     geoip!text-addrs ; T103577
 
 ; policy.wikimedia.org goes to wordpress cluster T110203
 policy          5M  IN A        192.0.66.2
+; CAA for policy.wikimedia.org
+; policy is operated by a third party which uses Namecheap/Comodo to issue DV certs on our behalf
+; we're also keeping all the base domain records here, as a Just In Case of any confusion on policy or wildcards/subdomains.
+policy          5M  IN CAA 0 issue "digicert.com"
+policy          5M  IN CAA 0 issue "globalsign.com"
+policy          5M  IN CAA 0 issue "letsencrypt.org"
+policy          5M  IN CAA 0 issue "comodoca.com"
+policy          5M  IN CAA 0 issue "namecheap.com"
+policy          5M  IN CAA 0 issuewild "digicert.com"
+policy          5M  IN CAA 0 issuewild "globalsign.com"
+policy          5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 puppetboard      600 IN DYNA     geoip!text-addrs
 
@@ -817,6 +812,7 @@ bug-attachment   600 IN DYNA     geoip!text-addrs
 careers          600 IN DYNA     geoip!text-addrs
 gh-mail          1H  IN MX       10 mxa.mailgun.org.
 gh-mail          1H  IN MX       10 mxb.mailgun.org.
+gh-mail          1H  IN TXT  "v=spf1 include:mg-spf.greenhouse.io ~all"
 civicrm          1H  IN A        208.80.155.11
 civicrm          1H  IN MX       10 mx1001
 civicrm          1H  IN MX       50 mx2001
@@ -901,10 +897,14 @@ tor-eqiad-1      5M  IN CNAME    torrelay1001
 mirrors          1H  IN CNAME    sodium
 yarn             600 IN DYNA     geoip!text-addrs
 turnilo          600 IN DYNA     geoip!text-addrs
+
 wikitech-static-iad  5M  IN A        162.209.126.221
 wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
 wikitech-static      5M  IN A        192.237.162.200
 wikitech-static      5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
+wikitech-static                  1H IN TXT "v=spf1 include:mailgun.org -all"
+mailo._domainkey.wikitech-static 1H IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD2aCVkhofbsQzu3DT0c6r4cZGTGT49ueyC7P7Bq6kzqC0q121Z6Xzocb6DclVVcCbir56LL/y2OVDIrWRlnoK8c/4fT/gfeH1EY8/URCqqD1dMOiPdEkZ4MVIJ/9X3O5bFb1Hxy50SAn6FF/pYg2PZcS1IY20xhZpDsq69+Wk56wIDAQAB"
+
 labtestwikitech   600 IN DYNA     geoip!text-addrs
 labtesthorizon    600 IN DYNA     geoip!text-addrs
 labtesttoolsadmin 600 IN DYNA     geoip!text-addrs
@@ -927,9 +927,3 @@ spop2048._domainkey              1H IN TXT  "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAA
 _github-challenge-wikimedia       1H IN TXT "373abc3cc8"
 ; Profile URL https://www.wikimedia.org/
 _github-challenge-wikimedia.www   1H IN TXT "992c2700d4"
-
-; Mailgun domain verification to send emails from wikitech-static host (T217599)
-
-wikitech-static                  1H IN TXT "v=spf1 include:mailgun.org -all"
-mailo._domainkey.wikitech-static 1H IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD2aCVkhofbsQzu3DT0c6r4cZGTGT49ueyC7P7Bq6kzqC0q121Z6Xzocb6DclVVcCbir56LL/y2OVDIrWRlnoK8c/4fT/gfeH1EY8/URCqqD1dMOiPdEkZ4MVIJ/9X3O5bFb1Hxy50SAn6FF/pYg2PZcS1IY20xhZpDsq69+Wk56wIDAQAB"
-
