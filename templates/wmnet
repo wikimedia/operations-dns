@@ -3297,8 +3297,8 @@ restbase2018    1H  IN A    10.192.48.120
 restbase2018-a  1H  IN A    10.192.48.124 ; cassandra instance
 restbase2018-b  1H  IN A    10.192.48.125 ; cassandra instance
 restbase2018-c  1H  IN A    10.192.48.126 ; cassandra instance
-restbase2019    1H  IN A    10.192.0.128
-restbase2020    1H  IN A    10.192.0.129
+restbase2019    1H  IN A    10.192.16.97
+restbase2020    1H  IN A    10.192.32.118
 sarin           1H  IN A    10.192.0.140
 sarin           1H  IN AAAA 2620:0:860:101:10:192:0:140
 sca2003         1H  IN A    10.192.16.29 ; VM on ganeti01.svc.codfw.wmnet

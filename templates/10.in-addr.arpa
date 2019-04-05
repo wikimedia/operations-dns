@@ -3147,8 +3147,6 @@ $ORIGIN 0.192.@Z
 125 1H IN PTR   cp2004.codfw.wmnet.
 126 1H IN PTR   cp2005.codfw.wmnet.
 127 1H IN PTR   cp2006.codfw.wmnet.
-128 1H IN PTR   restbase2019.codfw.wmnet.
-129 1H IN PTR   restbase2020.codfw.wmnet.
 
 136 1H IN PTR   ms-be2016.codfw.wmnet.
 137 1H IN PTR   ms-be2017.codfw.wmnet.
@@ -3278,6 +3276,8 @@ $ORIGIN 16.192.@Z
 94  1H IN PTR   registry2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 95  1H IN PTR   sessionstore2001-a.codfw.wmnet.
 96 1H IN PTR    dbprov2002.codfw.wmnet.
+97  1H IN PTR   restbase2019.codfw.wmnet.
+
 
 108 1H IN PTR   mw2135.codfw.wmnet.
 109 1H IN PTR   mw2136.codfw.wmnet.
@@ -3487,7 +3487,6 @@ $ORIGIN 32.192.@Z
 99  1H IN PTR   mw2211.codfw.wmnet.
 100 1H IN PTR   mw2212.codfw.wmnet.
 101 1H IN PTR   sessionstore2002-a.codfw.wmnet.
-
 102 1H IN PTR   mw2214.codfw.wmnet.
 103 1H IN PTR   db2043.codfw.wmnet.
 104 1H IN PTR   db2044.codfw.wmnet.
@@ -3504,6 +3503,7 @@ $ORIGIN 32.192.@Z
 115 1H IN PTR   cp2016.codfw.wmnet.
 116 1H IN PTR   cp2017.codfw.wmnet.
 117 1H IN PTR   cp2018.codfw.wmnet.
+118 1H IN PTR   restbase2020.codfw.wmnet.
 
 126 1H IN PTR   ms-be2020.codfw.wmnet.
 127 1H IN PTR   ms-be2021.codfw.wmnet.
