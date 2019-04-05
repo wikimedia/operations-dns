@@ -55,7 +55,7 @@
 48  1H  IN PTR  labtestservices2001.wikimedia.org.
 49  1H  IN PTR  serpens.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 50  1H  IN PTR  alsafi.wikimedia.org.  ; VM on ganeti01.svc.codfw.wmnet
-51  1H  IN PTR  labtest-recursor0.wikimedia.org. ; additional IP on labtestservices2001
+51  1H  IN PTR  codfw1dev-recursor0.wikimedia.org. ; additional IP for cloudservices200X-dev
 52  1H  IN PTR  dbmonitor2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 53  1H  IN PTR  install2002.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 54  1H  IN PTR  bast2002.wikimedia.org.
