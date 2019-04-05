@@ -211,6 +211,8 @@ cloudelastic1004    1H  IN A    208.80.155.107
 cloudelastic1004    1H  IN AAAA 2620:0:861:4:208:80:155:107
 cloudservices1003   1H  IN A    208.80.154.135
 cloudservices1003   1H  IN AAAA 2620:0:861:2:208:80:154:135
+cloudservices2002-dev 1H  IN A    208.80.153.76
+cloudservices2002-dev 1H  IN AAAA 2620:0:860:3:208:80:153:76
 cloudstore1008      1H  IN A    208.80.155.125
 cloudstore1008      1H  IN AAAA 2620:0:861:4:208:80:155:125
 cloudstore1009      1H  IN A    208.80.155.126
@@ -235,8 +237,6 @@ labtestpuppetmaster2001 1H IN A 208.80.153.108
 labtestpuppetmaster2001 1H IN AAAA 2620:0:860:4:208:80:153:108
 labtestservices2001 1H  IN A    208.80.153.48
 labtestservices2001 1H  IN AAAA 2620:0:860:2:208:80:153:48
-labtestservices2002 1H  IN A    208.80.153.76
-labtestservices2002 1H  IN AAAA 2620:0:860:3:208:80:153:76
 labtestservices2003 1H  IN A    208.80.153.109
 labtestservices2003 1H  IN AAAA 2620:0:860:4:208:80:153:109
 labtestweb2001      1H  IN A    208.80.153.14

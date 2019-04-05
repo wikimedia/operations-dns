@@ -56,7 +56,7 @@ $ORIGIN 3.0.0.0.@Z
 
 4.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   icinga2001.wikimedia.org.
 5.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestcontrol2003.wikimedia.org.
-6.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestservices2002.wikimedia.org.
+6.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudservices2002-dev.wikimedia.org.
 7.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dns2001.wikimedia.org.
 
 ; public1-d-codfw (2620:0:860:4::/64)

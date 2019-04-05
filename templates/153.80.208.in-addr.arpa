@@ -78,9 +78,9 @@
 73  1H  IN PTR  vl2003-eth2.lvs2006.codfw.wmnet.
 74  1H  IN PTR  icinga2001.wikimedia.org.
 75  1H  IN PTR  labtestcontrol2003.wikimedia.org.
-76  1H  IN PTR  labtestservices2002.wikimedia.org.
+76  1H  IN PTR  cloudservices2002-dev.wikimedia.org.
 77  1H  IN PTR  dns2001.wikimedia.org.
-78  1H  IN PTR  labtest-recursor1.wikimedia.org. ; additional IP on labtestservices2002
+78  1H  IN PTR  codfw1dev-recursor1.wikimedia.org. ; additional IP on cloudservices2002-dev
 79  1H  IN PTR  vl2003-enp175s0f0.lvs2007.codfw.wmnet.
 80  1H  IN PTR  vl2003-enp175s0f0.lvs2008.codfw.wmnet.
 81  1H  IN PTR  vl2003-enp59s0f0.lvs2009.codfw.wmnet.
