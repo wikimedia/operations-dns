@@ -301,14 +301,16 @@ ntp.eqsin           1H  IN CNAME dns5001
 ; Round Robin LVS Service records
 
 ;;; eqiad
-text-lb.eqiad       600 IN DYNA geoip!text-addrs/eqiad
-upload-lb.eqiad     600 IN DYNA geoip!upload-addrs/eqiad
-donate-lb.eqiad     600 IN DYNA geoip!text-addrs/eqiad
-donate-lb.eqiad     IN MX 10 mx1001
-donate-lb.eqiad     IN MX 50 mx2001
-
-dns-rec-lb.eqiad    1H  IN A    208.80.154.254
-dns-rec-lb.eqiad    1H  IN AAAA 2620:0:861:ed1a::3:fe
+text-lb.eqiad       1H IN A 208.80.154.224
+text-lb.eqiad       1H IN AAAA 2620:0:861:ed1a::1
+donate-lb.eqiad     1H IN A 208.80.154.224
+donate-lb.eqiad     1H IN AAAA 2620:0:861:ed1a::1
+donate-lb.eqiad     1H IN MX 10 mx1001
+donate-lb.eqiad     1H IN MX 50 mx2001
+upload-lb.eqiad     1H IN A 208.80.154.240
+upload-lb.eqiad     1H IN AAAA 2620:0:861:ed1a::2:b
+dns-rec-lb.eqiad    1H IN A    208.80.154.254
+dns-rec-lb.eqiad    1H IN AAAA 2620:0:861:ed1a::3:fe
 
 ; These legacy entries should eventually move to RESTBase
 cxserver            600 IN DYNA geoip!text-addrs
@@ -327,32 +329,38 @@ git-ssh             600 IN AAAA 2620:0:861:ed1a::3:16
 ldap-ro.eqiad       1H  IN A    208.80.154.252
 
 ;;; ulsfo
-text-lb.ulsfo       600 IN DYNA geoip!text-addrs/ulsfo
-upload-lb.ulsfo     600 IN DYNA geoip!upload-addrs/ulsfo
-donate-lb.ulsfo     600 IN DYNA geoip!text-addrs/ulsfo
-donate-lb.ulsfo     1H  IN MX 10    mx1001
-donate-lb.ulsfo     1H  IN MX 50    mx2001
-
-dns-rec-lb.ulsfo    1H  IN A    198.35.26.127
-dns-rec-lb.ulsfo    1H  IN AAAA 2620:0:863:ed1a::3:fe
+text-lb.ulsfo       1H IN A 198.35.26.96
+text-lb.ulsfo       1H IN AAAA 2620:0:863:ed1a::1
+donate-lb.ulsfo     1H IN A 198.35.26.96
+donate-lb.ulsfo     1H IN AAAA 2620:0:863:ed1a::1
+donate-lb.ulsfo     1H IN MX 10    mx1001
+donate-lb.ulsfo     1H IN MX 50    mx2001
+upload-lb.ulsfo     1H IN A 198.35.26.112
+upload-lb.ulsfo     1H IN AAAA 2620:0:863:ed1a::2:b
+dns-rec-lb.ulsfo    1H IN A    198.35.26.127
+dns-rec-lb.ulsfo    1H IN AAAA 2620:0:863:ed1a::3:fe
 
 ;;; eqsin
-text-lb.eqsin       600 IN DYNA geoip!text-addrs/eqsin
-upload-lb.eqsin     600 IN DYNA geoip!upload-addrs/eqsin
-donate-lb.eqsin     600 IN DYNA geoip!text-addrs/eqsin
-donate-lb.eqsin     1H  IN MX 10    mx1001
-donate-lb.eqsin     1H  IN MX 50    mx2001
-
-dns-rec-lb.eqsin    1H  IN A    103.102.166.254
-dns-rec-lb.eqsin    1H  IN AAAA 2001:df2:e500:ed1a::3:fe
+text-lb.eqsin       1H IN A 103.102.166.224
+text-lb.eqsin       1H IN AAAA 2001:df2:e500:ed1a::1
+donate-lb.eqsin     1H IN A 103.102.166.224
+donate-lb.eqsin     1H IN AAAA 2001:df2:e500:ed1a::1
+donate-lb.eqsin     1H IN MX 10    mx1001
+donate-lb.eqsin     1H IN MX 50    mx2001
+upload-lb.eqsin     1H IN A 103.102.166.240
+upload-lb.eqsin     1H IN AAAA 2001:df2:e500:ed1a::2:b
+dns-rec-lb.eqsin    1H IN A    103.102.166.254
+dns-rec-lb.eqsin    1H IN AAAA 2001:df2:e500:ed1a::3:fe
 
 ;;; codfw
-text-lb.codfw       600 IN DYNA geoip!text-addrs/codfw
-upload-lb.codfw     600 IN DYNA geoip!upload-addrs/codfw
-donate-lb.codfw     600 IN DYNA geoip!text-addrs/codfw
-
-dns-rec-lb.codfw    1H  IN A    208.80.153.254
-dns-rec-lb.codfw    1H  IN AAAA 2620:0:860:ed1a::3:fe
+text-lb.codfw       1H IN A 208.80.153.224
+text-lb.codfw       1H IN AAAA 2620:0:860:ed1a::1
+donate-lb.codfw     1H IN A 208.80.153.224
+donate-lb.codfw     1H IN AAAA 2620:0:860:ed1a::1
+upload-lb.codfw     1H IN A 208.80.153.240
+upload-lb.codfw     1H IN AAAA 2620:0:860:ed1a::2:b
+dns-rec-lb.codfw    1H IN A    208.80.153.254
+dns-rec-lb.codfw    1H IN AAAA 2620:0:860:ed1a::3:fe
 
 git-ssh.codfw       1H  IN A    208.80.153.250
 git-ssh.codfw       1H  IN AAAA 2620:0:860:ed1a::3:fa
@@ -360,14 +368,16 @@ git-ssh.codfw       1H  IN AAAA 2620:0:860:ed1a::3:fa
 ldap-ro.codfw       1H  IN A    208.80.153.252
 
 ;;; esams
-text-lb.esams       600 IN DYNA geoip!text-addrs/esams
-upload-lb.esams     600 IN DYNA geoip!upload-addrs/esams
-donate-lb.esams     600 IN DYNA geoip!text-addrs/esams
-donate-lb.esams     1H  IN MX 10    mx1001
-donate-lb.esams     1H  IN MX 50    mx2001
-
-dns-rec-lb.esams    1H  IN A    91.198.174.216
-dns-rec-lb.esams    1H  IN AAAA 2620:0:862:ed1a::3:fe
+text-lb.esams       1H IN A 91.198.174.192
+text-lb.esams       1H IN AAAA 2620:0:862:ed1a::1
+donate-lb.esams     1H IN A 91.198.174.192
+donate-lb.esams     1H IN AAAA 2620:0:862:ed1a::1
+donate-lb.esams     1H IN MX 10    mx1001
+donate-lb.esams     1H IN MX 50    mx2001
+upload-lb.esams     1H IN A 91.198.174.208
+upload-lb.esams     1H IN AAAA 2620:0:862:ed1a::2:b
+dns-rec-lb.esams    1H IN A    91.198.174.216
+dns-rec-lb.esams    1H IN AAAA 2620:0:862:ed1a::3:fe
 
 ; Mobile
 
