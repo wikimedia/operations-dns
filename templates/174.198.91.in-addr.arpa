@@ -55,7 +55,7 @@
 
 ; 91.198.174.224/28 (224-239) out-of-subnet LVS service IPs
 
-239 1H IN PTR   ns2.wikimedia.org.
+239 1D IN PTR   ns2.wikimedia.org.
 
 ; unused 91.198.174.240/31
 

@@ -184,7 +184,7 @@
 224 1H  IN PTR  text-lb.codfw.wikimedia.org.
 
 ; wrong subnet, but not important...
-231 1H  IN PTR  ns1.wikimedia.org.
+231 1D  IN PTR  ns1.wikimedia.org.
 
 ; - 208.80.153.240/28 (240-255) LVS high-traffic2 (Multimedia & Misc)
 
