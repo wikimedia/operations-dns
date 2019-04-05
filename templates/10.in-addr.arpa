@@ -3279,7 +3279,9 @@ $ORIGIN 16.192.@Z
 95  1H IN PTR   sessionstore2001-a.codfw.wmnet.
 96 1H IN PTR    dbprov2002.codfw.wmnet.
 97  1H IN PTR   restbase2019.codfw.wmnet.
-
+98  1H IN PTR   restbase2019-a.codfw.wmnet. ; cassandra instance
+99  1H IN PTR   restbase2019-b.codfw.wmnet. ; cassandra instance
+100 1H IN PTR   restbase2019-c.codfw.wmnet. ; cassandra instance
 
 108 1H IN PTR   mw2135.codfw.wmnet.
 109 1H IN PTR   mw2136.codfw.wmnet.
@@ -3506,6 +3508,9 @@ $ORIGIN 32.192.@Z
 116 1H IN PTR   cp2017.codfw.wmnet.
 117 1H IN PTR   cp2018.codfw.wmnet.
 118 1H IN PTR   restbase2020.codfw.wmnet.
+119 1H IN PTR   restbase2020-a.codfw.wmnet. ; cassandra instance
+120 1H IN PTR   restbase2020-b.codfw.wmnet. ; cassandra instance
+121 1H IN PTR   restbase2020-c.codfw.wmnet. ; cassandra instance
 
 126 1H IN PTR   ms-be2020.codfw.wmnet.
 127 1H IN PTR   ms-be2021.codfw.wmnet.
