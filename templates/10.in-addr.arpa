@@ -3859,9 +3859,8 @@ $ORIGIN 1.193.@Z
 35  1H IN PTR  wmf6574.mgmt.codfw.wmnet.
 36  1H IN PTR  labtestpuppetmaster2001.mgmt.codfw.wmnet.
 36  1H IN PTR  wmf6572.mgmt.codfw.wmnet.
-37  1H IN PTR  labtestmetal2001.mgmt.codfw.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-37  1H IN PTR  clouddb2001-dev.mgmt.codfw.wmnet.  ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-37  1H IN PTR  wmf6578.mgmt.codfw.wmnet.          ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+37  1H IN PTR  clouddb2001-dev.mgmt.codfw.wmnet.
+37  1H IN PTR  wmf6578.mgmt.codfw.wmnet.
 38  1H IN PTR  labtestservices2003.mgmt.codfw.wmnet.
 38  1H IN PTR  wmf6579.mgmt.codfw.wmnet.
 39  1H IN PTR  cloudservices2002-dev.mgmt.codfw.wmnet.

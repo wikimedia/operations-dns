@@ -3747,8 +3747,7 @@ labstore2003    1H  IN A    10.193.2.244
 labstore2004    1H  IN A    10.193.2.245
 labtestcontrol2001    1H  IN A    10.193.2.1
 labtestcontrol2003    1H  IN A    10.193.1.40
-labtestmetal2001      1H  IN A    10.193.1.37 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-clouddb2001-dev       1H  IN A    10.193.1.37 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+clouddb2001-dev       1H  IN A    10.193.1.37
 labtestpuppetmaster2001    1H  IN A    10.193.1.36
 labtestnet2002        1H  IN A    10.193.1.34
 cloudnet2002-dev      1H  IN A    10.193.1.35
@@ -4514,7 +4513,7 @@ wmf6574         1H  IN A    10.193.1.35
 wmf6575         1H  IN A    10.193.3.31
 wmf6576         1H  IN A    10.193.3.32
 wmf6577         1H  IN A    10.193.3.33
-wmf6578         1H  IN A    10.193.1.37 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+wmf6578         1H  IN A    10.193.1.37
 wmf6579         1H  IN A    10.193.1.38
 wmf6580         1H  IN A    10.193.1.39
 wmf6581         1H  IN A    10.193.1.40
