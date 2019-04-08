@@ -134,6 +134,8 @@ cam-unknown         1H  IN AAAA     2620:0:861:101::4
 
 acmechief1001       1H  IN A         10.64.32.84 ; VM on ganeti01.svc.eqiad.wmnet
 acmechief1001       1H  IN AAAA      2620:0:861:103:10:64:32:84 ; VM on ganeti01.svc.eqiad.wmnet
+acmechief-test1001  1H  IN A         10.64.32.86 ; VM on ganeti01.svc.eqiad.wmnet
+acmechief-test1001  1H  IN AAAA      2620:0:861:103:10:64:32:86 ; VM on ganeti01.svc.eqiad.wmnet
 auth1001            1H  IN A         10.64.48.121
 auth1002            1H  IN A         10.64.48.96
 an-coord1001     1H IN A             10.64.21.104
@@ -2724,6 +2726,8 @@ _etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 kubetcd2003.codfw.wmnet.
 
 acmechief2001   1H  IN A    10.192.0.121 ; VM on ganeti01.svc.codfw.wmnet
 acmechief2001   1H  IN AAAA 2620:0:860:101:10:192:0:121 ; VM on ganeti01.svc.codfw.wmnet
+acmechief-test2001  1H  IN A    10.192.0.115 ; VM on ganeti01.svc.codfw.wmnet
+acmechief-test2001  1H  IN AAAA 2620:0:860:101:10:192:0:115 ; VM on ganeti01.svc.codfw.wmnet
 acrab           1H  IN A    10.192.16.26 ; VM on ganeti01.svc.codfw.wmnet
 acrab           1H  IN AAAA 2620:0:860:102:10:192:16:26 ; VM on ganeti01.svc.codfw.wmnet
 acrux           1H  IN A    10.192.0.93 ; VM on ganeti01.svc.codfw.wmnet

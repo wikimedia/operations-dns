@@ -795,6 +795,7 @@ $ORIGIN 32.64.@Z
 83      1H IN PTR       cam2-c-eqiad.eqiad.wmnet.
 84      1H IN PTR       acmechief1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 85      1H IN PTR       sessionstore1002-a.eqiad.wmnet.
+86      1H IN PTR       acmechief-test1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
@@ -3139,6 +3140,7 @@ $ORIGIN 0.192.@Z
 112 1H IN PTR   logstash2001.codfw.wmnet.
 113 1H IN PTR   registry2001.codfw.wmnet.    ; VM on ganeti01.svc.codfw.wmnet
 114 1H IN PTR   dbprov2001.codfw.wmnet.
+115 1H IN PTR   acmechief-test2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 121 1H IN PTR   acmechief2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 122 1H IN PTR   cp2001.codfw.wmnet.
