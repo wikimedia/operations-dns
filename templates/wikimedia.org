@@ -645,7 +645,7 @@ netbox          1H  IN CNAME    netmon1002
 
 servermon       600 IN DYNA     geoip!text-addrs
 
-payments        5M  IN CNAME    payments-eqiad
+payments        5M  IN CNAME    payments-codfw
 payments.frdev  5M  IN CNAME    payments-codfw
 payments-eqiad  1H  IN A        208.80.155.5
 payments-codfw  1H  IN A        208.80.152.228
