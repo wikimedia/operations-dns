@@ -6,6 +6,7 @@
 # mock active-active entries by copying here and changing name
 disc-appservers-ro      => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-api-ro             => { map => mock, dcmap => { mock => 192.0.2.1 } }
+disc-swift              => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-swift-ro           => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-parsoid            => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-restbase           => { map => mock, dcmap => { mock => 192.0.2.1 } }
