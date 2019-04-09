@@ -18,6 +18,8 @@
             1H  IN MX   10  mx1001.wikimedia.org.
             1H  IN MX   50  mx2001.wikimedia.org.
 
+; SPF records
+@           600 IN TXT  "v=spf1 include:wikimedia.org ~all"
 
 ; Canonical names
             600  IN A    192.0.66.2
