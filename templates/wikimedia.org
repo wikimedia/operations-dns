@@ -143,6 +143,7 @@ cloudcontrol2001-dev 1H  IN A    208.80.153.59
 cloudcontrol2001-dev 1H  IN AAAA 2620:0:860:2:208:80:153:59
 cloudservices1004 1H  IN A    208.80.154.11
 cloudservices1004 1H  IN AAAA 2620:0:861:1:208:80:154:11
+cloudweb2001-dev  1H  IN A    208.80.153.60
 cobalt          1H  IN A    208.80.154.81
 cobalt          1H  IN AAAA 2620:0:861:3:208:80:154:81
 contint1001     1H  IN A    208.80.154.17
