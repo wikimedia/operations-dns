@@ -186,6 +186,8 @@ $ORIGIN 8.1.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2118.codfw.wmnet.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2118.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2118.cr2-codfw.wikimedia.org.
+1.1.0.0.0.2.0.0.2.9.1.0.0.1.0.0 1H IN PTR   clouddb2001-dev.codfw.wmnet.
+
 
 ; labs-support1-b-codfw (2620:0:860:122::/64)
 $ORIGIN 2.2.1.0.@Z
