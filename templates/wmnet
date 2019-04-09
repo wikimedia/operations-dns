@@ -300,8 +300,6 @@ argon            1H IN AAAA      2620:0:861:103:10:64:32:133 ; VM on ganeti01.sv
 backup1001       1H IN A         10.64.48.36
 boron            1H IN A         10.64.0.36 ; VM on ganeti01.svc.eqiad.wmnet
 centrallog1001   1H IN A         10.64.48.113
-certcentral1001  1H IN A         10.64.32.26 ; VM on ganeti01.svc.eqiad.wmnet
-certcentral1001  1H IN AAAA      2620:0:861:103:10:64:32:26 ; VM on ganeti01.svc.eqiad.wmnet
 chlorine         1H IN A         10.64.0.45 ; VM on ganeti01.svc.eqiad.wmnet
 chlorine         1H IN AAAA      2620:0:861:101:10:64:0:45 ; VM on ganeti01.svc.eqiad.wmnet
 cloudnet1003     1H IN A         10.64.20.35
@@ -2734,8 +2732,6 @@ acrux           1H  IN A    10.192.0.93 ; VM on ganeti01.svc.codfw.wmnet
 acrux           1H  IN AAAA 2620:0:860:101:10:192:0:93 ; VM on ganeti01.svc.codfw.wmnet
 auth2001        1H  IN A    10.192.0.138
 backup2001      1H  IN A    10.192.48.116
-certcentral2001 1H  IN A    10.192.0.103 ; VM on ganeti01.svc.codfw.wmnet
-certcentral2001 1H  IN AAAA 2620:0:860:101:10:192:0:103 ; VM on ganeti01.svc.codfw.wmnet
 cloudvirt2001-dev   1H  IN A    10.192.20.5
 cloudvirt2002-dev   1H  IN A    10.192.20.13
 cloudvirt2003-dev   1H  IN A    10.192.20.14
