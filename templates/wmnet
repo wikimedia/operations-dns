@@ -5165,7 +5165,7 @@ api-rw         300/10 IN DYNA metafo!disc-api-rw
 jobrunner      300/10 IN DYNA metafo!disc-jobrunner
 videoscaler    300/10 IN DYNA metafo!disc-videoscaler
 swift-ro       300/10 IN DYNA geoip!disc-swift-ro
-swift-rw       300/10 IN DYNA metafo!disc-swift-rw
+swift-rw       300/10 IN DYNA geoip!disc-swift-rw
 ; Main services
 parsoid        300/10 IN DYNA geoip!disc-parsoid
 restbase       300/10 IN DYNA geoip!disc-restbase
