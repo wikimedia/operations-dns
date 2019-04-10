@@ -959,6 +959,8 @@ scb1001         1H  IN A        10.64.0.16
 scb1002         1H  IN A        10.64.16.21
 scb1003         1H  IN A        10.64.32.153
 scb1004         1H  IN A        10.64.48.29
+schema1001      1H  IN A        10.64.0.18 ; VM on ganeti01.svc.eqiad.wmnet
+schema1002      1H  IN A        10.64.32.87 ; VM on ganeti01.svc.eqiad.wmnet
 sessionstore1001    1H IN A     10.64.0.141
 sessionstore1001-a  1H IN A     10.64.0.144
 sessionstore1002    1H IN A     10.64.32.78
@@ -3322,6 +3324,8 @@ scb2003         1H  IN A    10.192.0.33
 scb2004         1H  IN A    10.192.16.36
 scb2005         1H  IN A    10.192.0.34
 scb2006         1H  IN A    10.192.32.20
+schema2001      1H  IN A    10.192.0.135 ; VM on ganeti01.svc.codfw.wmnet
+schema2002      1H  IN A    10.192.16.107 ; VM on ganeti01.svc.codfw.wmnet
 sessionstore2001         1H  IN A    10.192.16.79
 sessionstore2001-a       1H  IN A    10.192.16.95
 sessionstore2002         1H  IN A    10.192.32.15
