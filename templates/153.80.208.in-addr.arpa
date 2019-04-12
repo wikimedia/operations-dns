@@ -51,7 +51,6 @@
 44  1H  IN PTR  kraz.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 45  1H  IN PTR  mx2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 46  1H  IN PTR  wiki-mail-codfw.wikimedia.org.
-47  1H  IN PTR  labtestcontrol2001.wikimedia.org.
 48  1H  IN PTR  labtestservices2001.wikimedia.org.
 49  1H  IN PTR  serpens.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 50  1H  IN PTR  alsafi.wikimedia.org.  ; VM on ganeti01.svc.codfw.wmnet
