@@ -633,8 +633,8 @@ labvirt1001     1H  IN A        10.64.20.19
 labvirt1002     1H  IN A        10.64.20.20
 labvirt1003     1H  IN A        10.64.20.21
 labvirt1004     1H  IN A        10.64.20.22
-labvirt1005     1H  IN A        10.64.20.23
-labvirt1006     1H  IN A        10.64.20.24
+cloudvirt1005   1H  IN A        10.64.20.23
+cloudvirt1006   1H  IN A        10.64.20.24
 lvs1013         1H  IN A        10.64.1.13
 lvs1014         1H  IN A        10.64.17.14
 lvs1015         1H  IN A        10.64.33.15
@@ -1009,7 +1009,7 @@ logstash1010    1H  IN A        10.64.0.181
 logstash1011    1H  IN A        10.64.16.30
 logstash1012    1H  IN A        10.64.48.177
 cloudvirt1009   1H  IN A        10.64.20.15
-labvirt1007     1H  IN A        10.64.20.16
+cloudvirt1007   1H  IN A        10.64.20.16
 cloudvirt1008   1H  IN A        10.64.20.17
 labvirt1010     1H  IN A        10.64.20.26
 labvirt1011     1H  IN A        10.64.20.27
@@ -1303,10 +1303,10 @@ labvirt1001     1H  IN A    10.65.3.230
 labvirt1002     1H  IN A    10.65.3.231
 labvirt1003     1H  IN A    10.65.3.232
 labvirt1004     1H  IN A    10.65.3.233
-labvirt1005     1H  IN A    10.65.3.234
-labvirt1006     1H  IN A    10.65.3.235
+cloudvirt1005   1H  IN A    10.65.3.234
+cloudvirt1006   1H  IN A    10.65.3.235
 cloudvirt1009   1H  IN A    10.65.3.227
-labvirt1007     1H  IN A    10.65.3.228
+cloudvirt1007   1H  IN A    10.65.3.228
 cloudvirt1008   1H  IN A    10.65.3.229
 wmf4713         1H  IN A    10.65.3.236
 labvirt1010     1H  IN A    10.65.3.236
