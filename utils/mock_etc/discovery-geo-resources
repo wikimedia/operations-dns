@@ -7,7 +7,6 @@
 disc-appservers-ro      => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-api-ro             => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-swift-ro           => { map => mock, dcmap => { mock => 192.0.2.1 } }
-disc-swift-rw           => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-parsoid            => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-restbase           => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-restbase-async     => { map => mock, dcmap => { mock => 192.0.2.1 } }
