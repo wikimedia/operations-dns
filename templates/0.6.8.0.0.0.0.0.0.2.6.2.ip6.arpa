@@ -46,6 +46,7 @@ $ORIGIN 2.0.0.0.@Z
 8.4.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestservices2001.wikimedia.org.
 7.4.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestcontrol2001.wikimedia.org.
 9.5.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcontrol2001-dev.wikimedia.org.
+0.6.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudweb2001-dev.wikimedia.org.
 
 ; public1-c-codfw (2620:0:860:3::/64)
 $ORIGIN 3.0.0.0.@Z
