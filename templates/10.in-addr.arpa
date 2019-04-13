@@ -652,10 +652,10 @@ $ORIGIN 20.64.@Z
 16  1H IN PTR   cloudvirt1007.eqiad.wmnet.
 17  1H IN PTR   cloudvirt1008.eqiad.wmnet.
 
-19  1H IN PTR   labvirt1001.eqiad.wmnet.
-20  1H IN PTR   labvirt1002.eqiad.wmnet.
-21  1H IN PTR   labvirt1003.eqiad.wmnet.
-22  1H IN PTR   labvirt1004.eqiad.wmnet.
+19  1H IN PTR   cloudvirt1001.eqiad.wmnet.
+20  1H IN PTR   cloudvirt1002.eqiad.wmnet.
+21  1H IN PTR   cloudvirt1003.eqiad.wmnet.
+22  1H IN PTR   cloudvirt1004.eqiad.wmnet.
 23  1H IN PTR   cloudvirt1005.eqiad.wmnet.
 24  1H IN PTR   cloudvirt1006.eqiad.wmnet.
 25  1H IN PTR   labnet1002.eqiad.wmnet.
@@ -2119,12 +2119,12 @@ $ORIGIN 3.65.@Z
 227     1H      IN PTR          cloudvirt1009.mgmt.eqiad.wmnet.
 228     1H      IN PTR          cloudvirt1007.mgmt.eqiad.wmnet.
 229     1H      IN PTR          cloudvirt1008.mgmt.eqiad.wmnet.
-230     1H      IN PTR          labvirt1001.mgmt.eqiad.wmnet.
-231     1H      IN PTR          labvirt1002.mgmt.eqiad.wmnet.
-232     1H      IN PTR          labvirt1003.mgmt.eqiad.wmnet.
-233     1H      IN PTR          labvirt1004.mgmt.eqiad.wmnet.
-234     1H      IN PTR          labvirt1005.mgmt.eqiad.wmnet.
-235     1H      IN PTR          labvirt1006.mgmt.eqiad.wmnet.
+230     1H      IN PTR          cloudvirt1001.mgmt.eqiad.wmnet.
+231     1H      IN PTR          cloudvirt1002.mgmt.eqiad.wmnet.
+232     1H      IN PTR          cloudvirt1003.mgmt.eqiad.wmnet.
+233     1H      IN PTR          cloudvirt1004.mgmt.eqiad.wmnet.
+234     1H      IN PTR          cloudvirt1005.mgmt.eqiad.wmnet.
+235     1H      IN PTR          cloudvirt1006.mgmt.eqiad.wmnet.
 236     1H      IN PTR          wmf4713.mgmt.eqiad.wmnet.
 236     1H      IN PTR          labvirt1010.mgmt.eqiad.wmnet.
 237     1H      IN PTR          wmf4714.mgmt.eqiad.wmnet.
