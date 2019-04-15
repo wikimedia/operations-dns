@@ -17,7 +17,7 @@
 1   1H  IN PTR  vrrp-gw-2001.wikimedia.org.
 2   1H  IN PTR  ae1-2001.cr1-codfw.wikimedia.org.
 3   1H  IN PTR  ae1-2001.cr2-codfw.wikimedia.org.
-5   1H  IN PTR  bast2001.wikimedia.org.
+
 6   1H  IN PTR  vl2001-eth0.lvs2001.codfw.wmnet.
 7   1H  IN PTR  vl2001-eth0.lvs2002.codfw.wmnet.
 8   1H  IN PTR  vl2001-eth0.lvs2003.codfw.wmnet.
