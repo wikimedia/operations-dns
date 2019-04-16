@@ -1624,6 +1624,10 @@ $ORIGIN 1.65.@Z
 131 1H  IN PTR      wmf7489.mgmt.eqiad.wmnet.
 132 1H  IN PTR      db1138.mgmt.eqiad.wmnet.
 132 1H  IN PTR      wmf7490.mgmt.eqiad.wmnet.
+133 1H  IN PTR      db1139.mgmt.eqiad.wmnet.
+133 1H  IN PTR      wmf5161.mgmt.eqiad.wmnet.
+134 1H  IN PTR      db1140.mgmt.eqiad.wmnet.
+134 1H  IN PTR      wmf5162.mgmt.eqiad.wmnet.
 
 $ORIGIN 2.65.@Z
 
