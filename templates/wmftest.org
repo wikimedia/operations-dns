@@ -21,6 +21,8 @@
             1H  IN MX   40      ASPMX2.GOOGLEMAIL.COM.
             1H  IN MX   50      ASPMX3.GOOGLEMAIL.COM.
 
+; SPF records
+@           600 IN TXT  "v=spf1 include:wikimedia.org ~all"
 
 ; Canonical names
 
