@@ -1051,7 +1051,7 @@ $ORIGIN 40.64.@Z
 210 1H IN PTR   payments1003.mgmt.frack.eqiad.wmnet.
 211 1H IN PTR   payments1004.mgmt.frack.eqiad.wmnet.
 
-213 1H IN PTR   thulium.mgmt.frack.eqiad.wmnet.
+213 1H IN PTR   frav1002.mgmt.frack.eqiad.wmnet.
 214 1H IN PTR   frlog1001.mgmt.frack.eqiad.wmnet.
 215 1H IN PTR   frmon1001.mgmt.frack.eqiad.wmnet.
 216 1H IN PTR   frbast1001.mgmt.frack.eqiad.wmnet.
