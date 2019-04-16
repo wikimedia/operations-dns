@@ -18,6 +18,9 @@
             1H  IN MX   10  mx00.udag.de.
             1H  IN MX   20  mx01.udag.de.
 
+; SPF records
+@           600 IN TXT  "v=spf1 mx include:wikimedia.org ~all"
+
 ; CAA records
 @           600 IN CAA 0 issue "globalsign.com"
 @           600 IN CAA 0 issue "digicert.com"
