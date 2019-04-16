@@ -371,6 +371,7 @@ $ORIGIN 0.64.@Z
 142 1H IN PTR   doc1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 143 1H IN PTR   registry1001.eqiad.wmnet.   ; VM on ganeti01.svc.eqiad.wmnet
 144 1H IN PTR   sessionstore1001-a.eqiad.wmnet.
+145 1H IN PTR   kubernetes1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 163 1H IN PTR   db1096.eqiad.wmnet.
 164 1H IN PTR   db1103.eqiad.wmnet.
@@ -729,6 +730,7 @@ $ORIGIN 32.64.@Z
 15      1H IN PTR       ores1006.eqiad.wmnet.
 16      1H IN PTR       deploy1001.eqiad.wmnet.
 17      1H IN PTR       puppetboard1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+18      1H IN PTR       kubernetes1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 20      1H IN PTR       neodymium.eqiad.wmnet.
 21      1H IN PTR       elastic1051.eqiad.wmnet.
@@ -3142,6 +3144,7 @@ $ORIGIN 0.192.@Z
 114 1H IN PTR   dbprov2001.codfw.wmnet.
 115 1H IN PTR   acmechief-test2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 116 1H IN PTR   db2097.codfw.wmnet.
+117 1H IN PTR   kubernetes2005.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 121 1H IN PTR   acmechief2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 122 1H IN PTR   cp2001.codfw.wmnet.
@@ -3285,6 +3288,7 @@ $ORIGIN 16.192.@Z
 99  1H IN PTR   restbase2019-b.codfw.wmnet. ; cassandra instance
 100 1H IN PTR   restbase2019-c.codfw.wmnet. ; cassandra instance
 101 1H IN PTR   db2098.codfw.wmnet.
+102 1H IN PTR   kubernetes2006.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 107 1H IN PTR   schema2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 108 1H IN PTR   mw2135.codfw.wmnet.

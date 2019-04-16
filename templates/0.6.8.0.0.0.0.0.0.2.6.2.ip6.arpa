@@ -102,6 +102,7 @@ $ORIGIN 1.0.1.0.@Z
 7.9.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kafkamon2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 1.1.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2001.codfw.wmnet.
+7.1.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2005.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 5.1.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   acmechief-test2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 1.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   acmechief2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 9.3.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kafka2001.codfw.wmnet.
@@ -124,6 +125,7 @@ $ORIGIN 2.0.1.0.@Z
 8.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2012.codfw.wmnet.
 
 2.4.0.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2002.codfw.wmnet.
+2.0.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2006.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 4.7.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   releases2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 9.8.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   prometheus2004.codfw.wmnet.
 9.6.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kafka2002.codfw.wmnet.
