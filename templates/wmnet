@@ -447,6 +447,8 @@ db1122          1H  IN A        10.64.48.34
 db1123          1H  IN A        10.64.48.35
 db1124          1H  IN A        10.64.16.17
 db1125          1H  IN A        10.64.48.14
+dbprov1001      1H  IN A        10.64.0.95
+dbprov1002      1H  IN A        10.64.16.31
 dbproxy1001     1H  IN A        10.64.0.165
 dbproxy1002     1H  IN A        10.64.0.166
 dbproxy1003     1H  IN A        10.64.0.198
@@ -1170,6 +1172,10 @@ ps1-d8-eqiad        1H  IN A        10.65.0.63
 
 wmf3134             1H  IN A    10.65.2.1
 radium              1H  IN A    10.65.2.1
+dbprov1001          1H  IN A    10.65.3.17
+wmf5159             1H  IN A    10.65.3.17
+dbrpov1002          1H  IN A    10.65.3.18
+wmf5160             1H  IN A    10.65.3.18
 wmf3132             1H  IN A    10.65.2.3
 dbproxy1002         1H  IN A    10.65.2.3
 wmf3131             1H  IN A    10.65.2.4

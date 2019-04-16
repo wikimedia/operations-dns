@@ -332,6 +332,7 @@ $ORIGIN 0.64.@Z
 92  1H IN PTR   db1080.eqiad.wmnet.
 93  1H IN PTR   db1081.eqiad.wmnet.
 94  1H IN PTR   db1082.eqiad.wmnet.
+95  1H IN PTR   dbprov1001.eqiad.wmnet.
 
 107 1H IN PTR   aqs1004.eqiad.wmnet.
 108 1H IN PTR   db1069.eqiad.wmnet.
@@ -514,6 +515,7 @@ $ORIGIN 16.64.@Z
 28  1H IN PTR   ms-be1047.eqiad.wmnet.
 29  1H IN PTR   conf1005.eqiad.wmnet.
 30  1H IN PTR   logstash1011.eqiad.wmnet.
+31  1H IN PTR   dbprov1002.eqiad.wmnet.
 
 38  1H IN PTR   prometheus1004.eqiad.wmnet.
 39  1H IN PTR   db1072.eqiad.wmnet.
@@ -1901,6 +1903,10 @@ $ORIGIN 3.65.@Z
 
 16  1H  IN PTR      carbon.mgmt.eqiad.wmnet.
 16  1H  IN PTR      wmf3135.mgmt.eqiad.wmnet.
+17  1H  IN PTR      dbprov1001.mgmt.eqiad.wmnet.
+17  1H  IN PTR      wmf5159.mgmt.eqiad.wmnet.
+18  1H  IN PTR      dbprov1002.mgmt.eqiad.wmnet.
+18  1H  IN PTR      wmf5160.mgmt.eqiad.wmnet.
 19  1H  IN PTR      wmf3300.mgmt.eqiad.wmnet.
 20  1H  IN PTR      dbstore1003.mgmt.eqiad.wmnet.
 20  1H  IN PTR      wmf7467.mgmt.eqiad.wmnet.
