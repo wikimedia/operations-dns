@@ -4316,8 +4316,6 @@ $ORIGIN 2.193.@Z
 ; please list with hostname entry (when available) preceding the asset tag entry
 ; The 10.193.1. range is full, new additional mgmt range
 
-1   1H IN PTR  labtestcontrol2001.mgmt.codfw.wmnet.
-1   1H IN PTR  wmf5834.mgmt.codfw.wmnet.
 2   1H IN PTR  elastic2044.mgmt.codfw.wmnet.
 2   1H IN PTR  wmf6686.mgmt.codfw.wmnet.
 3   1H IN PTR  maps-test2001.mgmt.codfw.wmnet.

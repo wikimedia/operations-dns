@@ -3776,7 +3776,6 @@ labstore2001    1H  IN A    10.193.1.248
 labstore2002    1H  IN A    10.193.1.249
 labstore2003    1H  IN A    10.193.2.244
 labstore2004    1H  IN A    10.193.2.245
-labtestcontrol2001    1H  IN A    10.193.2.1
 clouddb2001-dev       1H  IN A    10.193.1.37
 labtestpuppetmaster2001    1H  IN A    10.193.1.36
 cloudweb2001-dev      1H  IN A    10.193.1.34
@@ -4149,7 +4148,6 @@ wmf5819         1H  IN A    10.193.1.31
 wmf5821         1H  IN A    10.193.1.11
 wmf5822         1H  IN A    10.193.1.30
 wmf5833         1H  IN A    10.193.1.252
-wmf5834         1H  IN A    10.193.2.1
 wmf5836         1H  IN A    10.193.1.250
 wmf5837         1H  IN A    10.193.2.137
 wmf5838         1H  IN A    10.193.2.138
