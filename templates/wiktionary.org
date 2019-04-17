@@ -40,8 +40,10 @@
 
 ; Wikis (alphabetic order)
 
-; www, m, and all language subdomains CNAME back to zone root (but still 600 TTLs on everything)
-; This is to test zone-local CNAME scenario with a broader mix of real-world clients for a real-world project domain.
-www         300 IN CNAME @Z
-m           300 IN CNAME @Z
-{% include "helpers/langlist-c.tmpl" %}
+www         600 IN DYNA     geoip!text-addrs
+
+; All languages will automatically be included here.
+{% include "helpers/langlist.tmpl" %}
+
+; Mobile
+m           600 IN DYNA     geoip!text-addrs
