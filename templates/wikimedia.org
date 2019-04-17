@@ -393,6 +393,7 @@ ee.m                600 IN DYNA     geoip!text-addrs
 electcom.m          600 IN DYNA     geoip!text-addrs
 et.m                600 IN DYNA     geoip!text-addrs
 id.m                600 IN DYNA     geoip!text-addrs
+initiatives.m       600 IN DYNA     geoip!text-addrs
 id-internal.m       600 IN DYNA     geoip!text-addrs
 incubator.m         600 IN DYNA     geoip!text-addrs
 fdc.m               600 IN DYNA     geoip!text-addrs
@@ -733,6 +734,7 @@ id-internal      600 IN DYNA     geoip!text-addrs
 iegcom           600 IN DYNA     geoip!text-addrs
 il               600 IN DYNA     geoip!text-addrs
 incubator        600 IN DYNA     geoip!text-addrs
+initiatives      600 IN DYNA     geoip!text-addrs
 internal         600 IN DYNA     geoip!text-addrs
 it               600 IN DYNA     geoip!text-addrs
 kr               600 IN DYNA     geoip!text-addrs
