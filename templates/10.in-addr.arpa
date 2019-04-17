@@ -1007,7 +1007,8 @@ $ORIGIN 40.64.@Z
 70  1H IN PTR   frpm1001.frack.eqiad.wmnet.
 71  1H IN PTR   frav1001.frack.eqiad.wmnet.
 72  1H IN PTR   frlog1001.frack.eqiad.wmnet.
-73 1H IN PTR   frmon1001.frack.eqiad.wmnet.
+73  1H IN PTR   frmon1001.frack.eqiad.wmnet.
+74  1H IN PTR   frav1002.frack.eqiad.wmnet.
 
 ; 10.64.40.96/27 - frack-fundraising1-c-eqiad
 97  1H IN PTR   reth0-1135.pfw3-eqiad.frack.eqiad.wmnet.
