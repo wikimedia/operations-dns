@@ -3490,7 +3490,6 @@ alnitak             1H  IN A    10.195.0.38
 rigel               1H  IN A    10.195.0.66
 heka                1H  IN A    10.195.0.74
 bellatrix           1H  IN A    10.195.0.75
-betelgeuse          1H  IN A    10.195.0.76
 frpig2001           1H  IN A    10.195.0.82
 saiph               1H  IN CNAME frpig2001
 frpig2001-fundraising 1H  IN A    10.195.0.83
