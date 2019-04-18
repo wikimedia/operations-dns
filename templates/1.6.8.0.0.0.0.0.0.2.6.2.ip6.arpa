@@ -274,8 +274,8 @@ $ORIGIN 7.0.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1020.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1020.cr2-eqiad.wikimedia.org.
 
-1.2.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   phab1002.eqiad.wmnet.
-2.2.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   phab1002-vcs.eqiad.wmnet.
+1.2.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   phab1003.eqiad.wmnet.
+2.2.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   phab1003-vcs.eqiad.wmnet.
 
 5.4.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1002.eqiad.wmnet.
 1.0.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1087.eqiad.wmnet.
