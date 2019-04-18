@@ -1834,6 +1834,7 @@ centrallog1001  1H  IN A    10.65.1.14
 wmf7420         1H  IN A    10.65.1.14
 cloudservices1004 1H IN A   10.65.1.15
 wmf7425         1H  IN A    10.65.1.15
+phab1003        1H  IN A    10.65.1.16
 wmf7426         1H  IN A    10.65.1.16
 puppetmaster1003  1H IN A   10.65.1.17
 wmf7427         1H  IN A    10.65.1.17

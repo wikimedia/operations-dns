@@ -1396,6 +1396,7 @@ $ORIGIN 1.65.@Z
 15  1H  IN PTR      cloudservices1004.mgmt.eqiad.wmnet.
 15  1H  IN PTR      wmf7425.mgmt.eqiad.wmnet.
 16  1H  IN PTR      wmf7426.mgmt.eqiad.wmnet.
+16  1H  IN PTR      phab1003.mgmt.eqiad.wmnet.
 17  1H  IN PTR      puppetmaster1003.mgmt.eqiad.wmnet.
 17  1H  IN PTR      wmf7427.mgmt.eqiad.wmnet.
 18  1H  IN PTR      mwmaint1002.mgmt.eqiad.wmnet.
