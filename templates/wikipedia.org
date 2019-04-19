@@ -38,53 +38,53 @@ _dmarc                  600     IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dm
 
 ; Wikis (alphabetic order)
 
-arbcom-cs               600     IN CNAME @Z
-arbcom-cs.m             600     IN CNAME @Z
-arbcom-de               600     IN CNAME @Z
-arbcom-de.m             600     IN CNAME @Z
-arbcom-en               600     IN CNAME @Z
-arbcom-en.m             600     IN CNAME @Z
-arbcom-fi               600     IN CNAME @Z
-arbcom-fi.m             600     IN CNAME @Z
-arbcom-nl               600     IN CNAME @Z
-arbcom-nl.m             600     IN CNAME @Z
-commons                 600     IN CNAME @Z
-meta                    600     IN CNAME @Z
-nostalgia               600     IN CNAME @Z
-quote                   600     IN CNAME @Z
-quality                 600     IN CNAME @Z
-quality.m               600     IN CNAME @Z
-sep11                   600     IN CNAME @Z
-sources                 600     IN CNAME @Z
-species                 600     IN CNAME @Z
-ten                     600     IN CNAME @Z
-ten.m                   600     IN CNAME @Z
-test                    600     IN CNAME @Z
-test2                   600     IN CNAME @Z
-test.m                  600     IN CNAME @Z
-test2.m                 600     IN CNAME @Z
-textbook                600     IN CNAME @Z
-wg-en                   600     IN CNAME @Z
-www                     600     IN CNAME @Z
-zh-tw                   600     IN CNAME @Z
+arbcom-cs               4H      IN CNAME @Z
+arbcom-cs.m             4H      IN CNAME @Z
+arbcom-de               4H      IN CNAME @Z
+arbcom-de.m             4H      IN CNAME @Z
+arbcom-en               4H      IN CNAME @Z
+arbcom-en.m             4H      IN CNAME @Z
+arbcom-fi               4H      IN CNAME @Z
+arbcom-fi.m             4H      IN CNAME @Z
+arbcom-nl               4H      IN CNAME @Z
+arbcom-nl.m             4H      IN CNAME @Z
+commons                 4H      IN CNAME @Z
+meta                    4H      IN CNAME @Z
+nostalgia               4H      IN CNAME @Z
+quote                   4H      IN CNAME @Z
+quality                 4H      IN CNAME @Z
+quality.m               4H      IN CNAME @Z
+sep11                   4H      IN CNAME @Z
+sources                 4H      IN CNAME @Z
+species                 4H      IN CNAME @Z
+ten                     4H      IN CNAME @Z
+ten.m                   4H      IN CNAME @Z
+test                    4H      IN CNAME @Z
+test2                   4H      IN CNAME @Z
+test.m                  4H      IN CNAME @Z
+test2.m                 4H      IN CNAME @Z
+textbook                4H      IN CNAME @Z
+wg-en                   4H      IN CNAME @Z
+www                     4H      IN CNAME @Z
+zh-tw                   4H      IN CNAME @Z
 
 ; All languages will automatically be included here.
 {% include "helpers/langlist-c.tmpl" %}
 
 ; Other websites
 
-15              600 IN CNAME @Z
-bugzilla        600 IN CNAME @Z
-careers         600 IN CNAME @Z
-donate          600 IN CNAME @Z
-download        600 IN CNAME @Z
-jobs            600 IN CNAME @Z
-m               600 IN CNAME @Z
-mail            600 IN CNAME @Z
-shop            600 IN CNAME @Z
+15              4H  IN CNAME @Z
+bugzilla        4H  IN CNAME @Z
+careers         4H  IN CNAME @Z
+donate          4H  IN CNAME @Z
+download        4H  IN CNAME @Z
+jobs            4H  IN CNAME @Z
+m               4H  IN CNAME @Z
+mail            4H  IN CNAME @Z
+shop            4H  IN CNAME @Z
 stats           1H  IN CNAME    stats.wikimedia.org.
-store           600 IN CNAME @Z
-zero            600 IN CNAME @Z
+store           4H  IN CNAME @Z
+zero            4H  IN CNAME @Z
 
 ; TLS testing, "temporary"
 pinkunicorn     600 IN A        208.80.154.42
