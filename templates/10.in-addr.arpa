@@ -52,6 +52,7 @@ $ORIGIN 1.2.@Z
 ; 40 reserved for labweb
 41  1H  IN PTR  wdqs-internal.svc.codfw.wmnet.
 42  1H  IN PTR  eventgate-analytics.svc.codfw.wmnet.
+43  1H  IN PTR  schema.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -94,7 +95,7 @@ $ORIGIN 2.2.@Z
 40  1H  IN PTR  labweb.svc.eqiad.wmnet.
 41  1H  IN PTR  wdqs-internal.svc.eqiad.wmnet.
 42  1H  IN PTR  eventgate-analytics.svc.eqiad.wmnet.
-
+43  1H  IN PTR  schema.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
