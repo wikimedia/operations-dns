@@ -237,8 +237,6 @@ labtestpuppetmaster2001 1H IN A 208.80.153.108
 labtestpuppetmaster2001 1H IN AAAA 2620:0:860:4:208:80:153:108
 labtestservices2003 1H  IN A    208.80.153.109
 labtestservices2003 1H  IN AAAA 2620:0:860:4:208:80:153:109
-labtestweb2001      1H  IN A    208.80.153.14
-labtestweb2001      1H  IN AAAA 2620:0:860:1:208:80:153:14
 labweb1001      1H  IN A    208.80.154.160
 labweb1001      1H  IN AAAA 2620:0:861:2:208:80:154:160
 labweb1002      1H  IN A    208.80.155.109
