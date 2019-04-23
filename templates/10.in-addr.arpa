@@ -3349,10 +3349,7 @@ $ORIGIN 16.192.@Z
 172 1H IN PTR   es2018.codfw.wmnet.
 173 1H IN PTR   hassaleh.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 174 1H IN PTR   releases2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-175 1H IN PTR   restbase2007.codfw.wmnet.
-176 1H IN PTR   restbase2007-a.codfw.wmnet.
-177 1H IN PTR   restbase2007-b.codfw.wmnet.
-178 1H IN PTR   restbase2007-c.codfw.wmnet.
+
 179 1H IN PTR   maps2002.codfw.wmnet.
 
 182 1H IN PTR   elnath.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
@@ -3547,10 +3544,7 @@ $ORIGIN 32.192.@Z
 
 140 1H IN PTR   graphite2002.codfw.wmnet.
 141 1H IN PTR   conf2002.codfw.wmnet.
-142 1H IN PTR   restbase2008.codfw.wmnet.
-143 1H IN PTR   restbase2008-a.codfw.wmnet.
-144 1H IN PTR   restbase2008-b.codfw.wmnet.
-145 1H IN PTR   restbase2008-c.codfw.wmnet.
+
 146 1H IN PTR   maps2003.codfw.wmnet.
 147 1H IN PTR   phab2001.codfw.wmnet.
 148 1H IN PTR   wdqs2001.codfw.wmnet.

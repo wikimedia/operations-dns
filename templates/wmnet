@@ -3277,14 +3277,6 @@ registry2001    1H  IN A    10.192.0.113 ; VM on ganeti01.svc.codfw.wmnet docker
 registry2002    1H  IN A    10.192.16.94 ; VM on ganeti01.svc.codfw.wmnet docker registry
 releases2001    1H  IN A        10.192.16.174 ; VM on ganeti01.svc.codfw.wmnet
 releases2001    1H  IN AAAA     2620:0:860:102:10:192:16:174 ; VM on ganeti01.svc.codfw.wmnet
-restbase2007    1H  IN A    10.192.16.175
-restbase2007-a  1H  IN A    10.192.16.176 ; cassandra instance
-restbase2007-b  1H  IN A    10.192.16.177 ; cassandra instance
-restbase2007-c  1H  IN A    10.192.16.178 ; cassandra instance
-restbase2008    1H  IN A    10.192.32.142
-restbase2008-a  1H  IN A    10.192.32.143 ; cassandra instance
-restbase2008-b  1H  IN A    10.192.32.144 ; cassandra instance
-restbase2008-c  1H  IN A    10.192.32.145 ; cassandra instance
 restbase2009    1H  IN A    10.192.48.53
 restbase2009-a  1H  IN A    10.192.48.54 ; cassandra instance
 restbase2009-b  1H  IN A    10.192.48.55 ; cassandra instance
