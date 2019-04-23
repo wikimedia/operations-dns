@@ -3410,7 +3410,7 @@ $ORIGIN 32.192.@Z
 1   1H IN PTR   vrrp-gw-2019.codfw.wmnet.
 2   1H IN PTR   ae3-2019.cr1-codfw.wikimedia.org.
 3   1H IN PTR   ae3-2019.cr2-codfw.wikimedia.org.
-4   1H IN PTR   db2033.codfw.wmnet.
+
 5   1H IN PTR   db2070.codfw.wmnet.
 6   1H IN PTR   db2095.codfw.wmnet.
 7   1H IN PTR   db2036.codfw.wmnet.
