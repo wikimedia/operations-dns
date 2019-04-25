@@ -3480,7 +3480,6 @@ frdb2001            1H  IN A    10.195.0.34
 alnilam             1H  IN A    10.195.0.35
 mintaka             1H  IN A    10.195.0.36
 alnitak             1H  IN A    10.195.0.38
-rigel               1H  IN A    10.195.0.66
 heka                1H  IN A    10.195.0.74
 bellatrix           1H  IN A    10.195.0.75
 frpig2001           1H  IN A    10.195.0.82
@@ -3506,7 +3505,6 @@ pay-lvs2002         1H  IN A    10.195.0.102
 payments2001        1H  IN A    10.195.0.98
 payments2002        1H  IN A    10.195.0.99
 payments2003        1H  IN A    10.195.0.100
-rigel               1H  IN A    10.195.0.106
 frpig2001           1H  IN A    10.195.0.104
 saiph               1H  IN CNAME frpig2001
 

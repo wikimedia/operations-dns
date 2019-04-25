@@ -4946,7 +4946,6 @@ $ORIGIN 0.195.@Z
 103 1H IN PTR  heka.mgmt.frack.codfw.wmnet.
 104 1H IN PTR  frpig2001.mgmt.frack.codfw.wmnet.
 105 1H IN PTR  alnilam.mgmt.frack.codfw.wmnet.
-106 1H IN PTR  rigel.mgmt.frack.codfw.wmnet.
 107 1H IN PTR  mintaka.mgmt.frack.codfw.wmnet.
 108 1H IN PTR  alnitak.mgmt.frack.codfw.wmnet.
 109 1H IN PTR  bellatrix.mgmt.frack.codfw.wmnet.
