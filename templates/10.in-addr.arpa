@@ -650,7 +650,7 @@ $ORIGIN 20.64.@Z
 3   1H IN PTR   ae2-1118.cr2-eqiad.wikimedia.org.
 
 12  1H IN PTR   promethium.eqiad.wmnet.
-13  1H IN PTR   labnet1001.eqiad.wmnet.
+
 14  1H IN PTR   virt1009.eqiad.wmnet.
 15  1H IN PTR   cloudvirt1009.eqiad.wmnet.
 16  1H IN PTR   cloudvirt1007.eqiad.wmnet.
@@ -662,7 +662,7 @@ $ORIGIN 20.64.@Z
 22  1H IN PTR   cloudvirt1004.eqiad.wmnet.
 23  1H IN PTR   cloudvirt1005.eqiad.wmnet.
 24  1H IN PTR   cloudvirt1006.eqiad.wmnet.
-25  1H IN PTR   labnet1002.eqiad.wmnet.
+
 26  1H IN PTR   labvirt1010.eqiad.wmnet.
 27  1H IN PTR   labvirt1011.eqiad.wmnet.
 28  1H IN PTR   cloudvirt1012.eqiad.wmnet.
@@ -2890,8 +2890,6 @@ $ORIGIN 0.68.@Z
 
 ; 10.68.16.0/21 - labs-instances1-b-eqiad
 $ORIGIN 16.68.@Z
-1   1H IN PTR   eth4-1102.labnet1001.eqiad.wmnet.
-2   1H IN PTR   eth3-1102.labnet1002.eqiad.wmnet.
 
 ; 10.68.32.0/24 - labs-instances1-c-eqiad
 $ORIGIN 32.68.@Z
