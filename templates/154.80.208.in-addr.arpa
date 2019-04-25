@@ -83,10 +83,8 @@
 87  1H  IN PTR  sulfur.wikimedia.org.
 
 91  1H  IN PTR  wiki-mail-eqiad.wikimedia.org.
-92  1H  IN PTR  labcontrol1001.wikimedia.org.
-93  1H  IN PTR  radon.wikimedia.org.
 
-95  1H  IN PTR  labcontrol1002.wikimedia.org.
+93  1H  IN PTR  radon.wikimedia.org.
 
 102 1H  IN PTR  vl1003-eth2.lvs1013.eqiad.wmnet.
 103 1H  IN PTR  vl1003-eth2.lvs1014.eqiad.wmnet.
