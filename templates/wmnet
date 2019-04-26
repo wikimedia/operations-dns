@@ -3468,6 +3468,7 @@ pay-lvs2002         1H  IN A    10.195.0.21
 frauth2001          1H  IN A    10.195.0.78
 frbast2001          1H  IN A    10.195.0.130
 frdb2001            1H  IN A    10.195.0.34
+frmon2001           1H  IN A    10.195.0.66
 alnilam             1H  IN A    10.195.0.35
 mintaka             1H  IN A    10.195.0.36
 alnitak             1H  IN A    10.195.0.38

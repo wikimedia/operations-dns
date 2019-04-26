@@ -4919,6 +4919,7 @@ $ORIGIN 0.195.@Z
 
 ; 10.195.0.64/28 - frack-administration-codfw
 65 1H IN PTR  reth0-2134.pfw3-codfw.frack.codfw.wmnet.
+66 1H IN PTR  frmon2001.frack.codfw.wmnet.
 
 74 1H IN PTR  heka.frack.codfw.wmnet.
 75 1H IN PTR  bellatrix.frack.codfw.wmnet.

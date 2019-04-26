@@ -21,6 +21,7 @@
 232 1H IN PTR   civicrm-codfw.wikimedia.org.
 233 1H IN PTR   payments-listener-codfw.wikimedia.org.
 234 1H IN PTR   fundraising-codfw.wikimedia.org.
+235 1H IN PTR   frmon-codfw.frdev.wikimedia.org.
 
 ; 208.80.152.240/28 sandbox1-a-codfw (208.80.152.240 - 208.80.152.255)
 241 1H IN PTR   vrrp-gw-2201.wikimedia.org.
