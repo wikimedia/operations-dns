@@ -3831,8 +3831,6 @@ $ORIGIN 1.193.@Z
 7   1H IN PTR  papaul-laptop.mgmt.codfw.wmnet.
 10  1H IN PTR  install2001.mgmt.codfw.wmnet.
 10  1H IN PTR  wmf5815.mgmt.codfw.wmnet.
-11  1H IN PTR  bast2001.mgmt.codfw.wmnet.
-11  1H IN PTR  wmf5821.mgmt.codfw.wmnet.
 12  1H IN PTR  ms-be2016.mgmt.codfw.wmnet.
 12  1H IN PTR  wmf6370.mgmt.codfw.wmnet.
 13  1H IN PTR  ms-be2017.mgmt.codfw.wmnet.

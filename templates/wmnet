@@ -3565,7 +3565,6 @@ fasw-c-codfw    1H  IN A    10.193.0.57
 auth2001        1H  IN A    10.193.1.22
 authdns2001     1H  IN A    10.193.1.199
 backup2001      1H  IN A    10.193.1.80
-bast2001        1H  IN A    10.193.1.11
 bast2002        1H  IN A    10.193.1.207
 cloudcontrol2001-dev        1H  IN A    10.193.2.198
 cloudcontrol2003-dev        1H  IN A    10.193.1.40
