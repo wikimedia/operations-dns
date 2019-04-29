@@ -3862,10 +3862,7 @@ $ORIGIN 1.193.@Z
 28  1H IN PTR  scb2001.mgmt.codfw.wmnet.
 28  1H IN PTR  wmf6382.mgmt.codfw.wmnet.
 29  1H IN PTR  wmf6383.mgmt.codfw.wmnet.
-30  1H IN PTR  acamar.mgmt.codfw.wmnet.
-30  1H IN PTR  wmf5822.mgmt.codfw.wmnet.
-31  1H IN PTR  achernar.mgmt.codfw.wmnet.
-31  1H IN PTR  wmf5819.mgmt.codfw.wmnet.
+
 32  1H IN PTR  restbase2019.mgmt.codfw.wmnet.
 32  1H IN PTR  wmf6704.mgmt.codfw.wmnet.
 33  1H IN PTR  labtestvirt2003.mgmt.codfw.wmnet.

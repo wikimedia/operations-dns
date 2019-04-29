@@ -3562,8 +3562,6 @@ fasw-c-codfw    1H  IN A    10.193.0.57
 
 ; Servers MGMT - Alphabetical by hostname
 
-acamar          1H  IN A    10.193.1.30
-achernar        1H  IN A    10.193.1.31
 auth2001        1H  IN A    10.193.1.22
 authdns2001     1H  IN A    10.193.1.199
 backup2001      1H  IN A    10.193.1.80
@@ -4124,9 +4122,7 @@ wmf5717         1H  IN A    10.193.1.72
 wmf5719         1H  IN A    10.193.1.74
 wmf5755         1H  IN A    10.193.1.81
 wmf5815         1H  IN A    10.193.1.10
-wmf5819         1H  IN A    10.193.1.31
 wmf5821         1H  IN A    10.193.1.11
-wmf5822         1H  IN A    10.193.1.30
 wmf5833         1H  IN A    10.193.1.252
 wmf5836         1H  IN A    10.193.1.250
 wmf5837         1H  IN A    10.193.2.137
