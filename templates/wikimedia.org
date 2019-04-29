@@ -45,9 +45,20 @@ fundraising._domainkey  1H  IN TXT  "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA
 wikimedia._domainkey    1H  IN TXT  "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC49AATZHm1B+6V90esy7TkZnitTupAOlPisTyJSbIF5G1iXVzYljo8ZHdeYdXpgfOp79avTxz23YQXJRNWv7QqO8RuTrS8DSQhYMjwIkJkZ+VA4O2NI2bueaUVM67JylpxzIi3LajjII+CEspMBKHwqTygTQAr8uRXIGYfTcb+4wIDAQAB"
 wiki-mail._domainkey    1H  IN TXT  "v=DKIM1; k=rsa; g=wiki*; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDOZG4udzEAJiq1D0TG+5BYil0vuh8/iuBmsrmAZQcWYaMcBIlthxg0a/5xktMpE4A6w135mgl/q61dbDnT6d3Y3veWMOy0xI0q/wS9DCmRqU2VIb7L/Asjp9evwzEJywODigjOohkk4+/aIbppU1/GLGCoc6b9h7m0iandPkKTXwIDAQAB"
 google._domainkey       1H  IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwyTx0t/PibozaSBs+TcKL6G5lK0CMzwYzX46GUIkbIU1SfAwvwdsbq3JaSRmO+WAt9Tv3zQIJvXAV++tVq3VWsc4mKdtJCz4piY8LrDAor+kvyUMyZlYfO6YPkDNUCLbKBCMp7Fyd3gGvI9cjAmFSFrbLmXnMDQQocFYDfoXD2wIDAQAB"
+; Silverpop - mass-email contractor for fundraising (T130414, T210445)
+spop2048._domainkey     1H IN TXT  "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4Z2VWoyhd44UxaCnnaohFF3rFTYgad2onWyv9k4Jot/wNLR6GRSOV2MeZ84ypFP0xtMrzxVCTYSARdgMggoNSBP1TT4orhaOmJc9vbPsKUzJmYV6LHIxWP4QYcQJ26MLgQz6Cmj0l/E5wrxiIJIbPSHejQtZasDSsg+tsHjPL8jvUll29KF5rBdMKAd0nZvq1K1dp+FeoBh3J6eNoJiV4OdSTmMf3hXIrk6AwVE57eYz155SKpaDRYSO0d1CJnl0qoh38yG3saV6Hl0y+5HprsQ1rSTK4PNbWe3v1wCz1Aa8m5s1cbo1iK06v2F49jOIn0/HKAUZMaP9LXeapab2yQIDAQAB"
 
 ; DMARC records http://dmarc.org/ -- policy none (monitor), for now
 _dmarc          1H  IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
+
+; Google apps
+googlef3fe6c2a164e9650  1H  IN CNAME    google.com.
+
+; Github domain verification (T207364)
+; @wikimedia.org email addresses
+_github-challenge-wikimedia       1H IN TXT "373abc3cc8"
+; Profile URL https://www.wikimedia.org/
+_github-challenge-wikimedia.www   1H IN TXT "992c2700d4"
 
 ; Corporate office name server delegation
 corp        1D  IN NS   ns1.corp
@@ -909,18 +920,3 @@ labtesttoolsadmin 600 IN DYNA     geoip!text-addrs
 ; SNI testing hostname
 pinkunicorn      600 A 208.80.154.42
 pinkunicorn      600 AAAA 2620:0:861:1:208:80:154:42
-
-; Misc
-
-; Google apps
-googlef3fe6c2a164e9650  1H  IN CNAME    google.com.
-
-; Silverpop - mass-email contractor for fundraising (T130414, T210445)
-spop2048._domainkey              1H IN TXT  "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4Z2VWoyhd44UxaCnnaohFF3rFTYgad2onWyv9k4Jot/wNLR6GRSOV2MeZ84ypFP0xtMrzxVCTYSARdgMggoNSBP1TT4orhaOmJc9vbPsKUzJmYV6LHIxWP4QYcQJ26MLgQz6Cmj0l/E5wrxiIJIbPSHejQtZasDSsg+tsHjPL8jvUll29KF5rBdMKAd0nZvq1K1dp+FeoBh3J6eNoJiV4OdSTmMf3hXIrk6AwVE57eYz155SKpaDRYSO0d1CJnl0qoh38yG3saV6Hl0y+5HprsQ1rSTK4PNbWe3v1wCz1Aa8m5s1cbo1iK06v2F49jOIn0/HKAUZMaP9LXeapab2yQIDAQAB"
-
-; Github domain verification (T207364)
-
-; @wikimedia.org email addresses
-_github-challenge-wikimedia       1H IN TXT "373abc3cc8"
-; Profile URL https://www.wikimedia.org/
-_github-challenge-wikimedia.www   1H IN TXT "992c2700d4"
