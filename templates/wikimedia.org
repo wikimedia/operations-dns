@@ -674,6 +674,7 @@ policy          5M  IN CAA 0 issue "comodoca.com"
 policy          5M  IN CAA 0 issue "namecheap.com"
 policy          5M  IN CAA 0 issuewild "digicert.com"
 policy          5M  IN CAA 0 issuewild "globalsign.com"
+policy          5M  IN CAA 0 issuewild "letsencrypt.org"
 policy          5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 puppetboard      600 IN DYNA     geoip!text-addrs
