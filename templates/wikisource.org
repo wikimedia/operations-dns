@@ -40,12 +40,12 @@
 
 ; Wikis (alphabetic order)
 
-mul         600 IN DYNA     geoip!text-addrs
-www         600 IN DYNA     geoip!text-addrs
+mul         1H IN CNAME www.wikipedia.org.
+www         1H IN CNAME www.wikipedia.org.
 
 ; All languages will automatically be included here.
 {% include "helpers/langlist.tmpl" %}
 
 ; Mobile
-m           600 IN DYNA     geoip!text-addrs
-mul.m       600 in DYNA     geoip!text-addrs
+m           1H IN CNAME www.wikipedia.org.
+mul.m       1H IN CNAME www.wikipedia.org.

@@ -30,5 +30,5 @@
 
 ; Service aliases
 
-www         600 IN DYNA     geoip!text-addrs
+www         1H IN CNAME www.wikipedia.org.
 

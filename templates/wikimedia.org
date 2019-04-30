@@ -82,10 +82,10 @@ recursor1       1H  IN A    91.198.174.216  ; esams LVS (dns-rec-lb)
 
 ; Geodynamic records
 reflect      10 IN DYNA reflect ; GeoDNS debugging
-text-lb     600 IN DYNA geoip!text-addrs
+text-lb     1H IN CNAME www.wikipedia.org.
 upload      600 IN DYNA geoip!upload-addrs
-maps        600 IN DYNA geoip!upload-addrs
-m           600 IN DYNA geoip!text-addrs
+maps        1H IN CNAME upload.wikimedia.org.
+m           1H IN CNAME www.wikipedia.org.
 donate      600 IN DYNA geoip!text-addrs
 donate          1H  IN MX       10 mx1001
 donate          1H  IN MX       50 mx2001
@@ -309,13 +309,13 @@ dns-rec-lb.eqiad    1H IN A    208.80.154.254
 dns-rec-lb.eqiad    1H IN AAAA 2620:0:861:ed1a::3:fe
 
 ; These legacy entries should eventually move to RESTBase
-cxserver            600 IN DYNA geoip!text-addrs
+cxserver            1H IN CNAME www.wikipedia.org.
 
 ; ORES
-ores                600 IN DYNA geoip!text-addrs
+ores                1H IN CNAME www.wikipedia.org.
 
 ; blubberoid
-blubberoid          600 IN DYNA geoip!text-addrs
+blubberoid          1H IN CNAME www.wikipedia.org.
 
 git-ssh.eqiad       1H  IN A    208.80.154.250
 git-ssh.eqiad       1H  IN AAAA 2620:0:861:ed1a::3:16
@@ -377,82 +377,82 @@ dns-rec-lb.esams    1H IN AAAA 2620:0:862:ed1a::3:fe
 
 ; Mobile
 
-advisory.m          600 IN DYNA     geoip!text-addrs
-am.m                600 IN DYNA     geoip!text-addrs
-ar.m                600 IN DYNA     geoip!text-addrs
-bd.m                600 IN DYNA     geoip!text-addrs
-be.m                600 IN DYNA     geoip!text-addrs
-br.m                600 IN DYNA     geoip!text-addrs
-ca.m                600 IN DYNA     geoip!text-addrs
-chapcom.m           600 IN DYNA     geoip!text-addrs
-checkuser.m         600 IN DYNA     geoip!text-addrs
-cn.m                600 IN DYNA     geoip!text-addrs
-co.m                600 IN DYNA     geoip!text-addrs
-commons.m           600 IN DYNA     geoip!text-addrs
-dk.m                600 IN DYNA     geoip!text-addrs
-ec.m                600 IN DYNA     geoip!text-addrs
-ee.m                600 IN DYNA     geoip!text-addrs
-electcom.m          600 IN DYNA     geoip!text-addrs
-et.m                600 IN DYNA     geoip!text-addrs
-id.m                600 IN DYNA     geoip!text-addrs
-initiatives.m       600 IN DYNA     geoip!text-addrs
-id-internal.m       600 IN DYNA     geoip!text-addrs
-incubator.m         600 IN DYNA     geoip!text-addrs
-fdc.m               600 IN DYNA     geoip!text-addrs
-fixcopyright.m      600 IN DYNA     geoip!text-addrs
-foundation.m        600 IN DYNA     geoip!text-addrs
-fi.m                600 IN DYNA     geoip!text-addrs
-hi.m                600 IN DYNA     geoip!text-addrs
-legalteam.m         600 IN DYNA     geoip!text-addrs
-mai.m               600 IN DYNA     geoip!text-addrs
-meta.m              600 IN DYNA     geoip!text-addrs
-mk.m                600 IN DYNA     geoip!text-addrs
-mx.m                600 IN DYNA     geoip!text-addrs
-nl.m                600 IN DYNA     geoip!text-addrs
-no.m                600 IN DYNA     geoip!text-addrs
-nostalgia.m         600 IN DYNA     geoip!text-addrs
-nyc.m               600 IN DYNA     geoip!text-addrs
-nz.m                600 IN DYNA     geoip!text-addrs
-office.m            600 IN DYNA     geoip!text-addrs
-otrs-wiki.m         600 IN DYNA     geoip!text-addrs
-outreach.m          600 IN DYNA     geoip!text-addrs
-quality.m           600 IN DYNA     geoip!text-addrs
-pa-us.m             600 IN DYNA     geoip!text-addrs
-pl.m                600 IN DYNA     geoip!text-addrs
-pt.m                600 IN DYNA     geoip!text-addrs
-punjabi.m           600 IN DYNA     geoip!text-addrs
-rs.m                600 IN DYNA     geoip!text-addrs
-romd.m              600 IN DYNA     geoip!text-addrs
-ru.m                600 IN DYNA     geoip!text-addrs
-se.m                600 IN DYNA     geoip!text-addrs
-species.m           600 IN DYNA     geoip!text-addrs
-steward.m           600 IN DYNA     geoip!text-addrs
-strategy.m          600 IN DYNA     geoip!text-addrs
-test-commons.m      600 IN DYNA     geoip!text-addrs
-tr.m                600 IN DYNA     geoip!text-addrs
-ua.m                600 IN DYNA     geoip!text-addrs
-usability.m         600 IN DYNA     geoip!text-addrs
-ve.m                600 IN DYNA     geoip!text-addrs
-vote.m              600 IN DYNA     geoip!text-addrs
-wb.m                600 IN DYNA     geoip!text-addrs
-wikimania.m         600 IN DYNA     geoip!text-addrs
-wikimania2005.m     600 IN DYNA     geoip!text-addrs
-wikimania2006.m     600 IN DYNA     geoip!text-addrs
-wikimania2007.m     600 IN DYNA     geoip!text-addrs
-wikimania2008.m     600 IN DYNA     geoip!text-addrs
-wikimania2009.m     600 IN DYNA     geoip!text-addrs
-wikimania2010.m     600 IN DYNA     geoip!text-addrs
-wikimania2011.m     600 IN DYNA     geoip!text-addrs
-wikimania2012.m     600 IN DYNA     geoip!text-addrs
-wikimania2013.m     600 IN DYNA     geoip!text-addrs
-wikimania2014.m     600 IN DYNA     geoip!text-addrs
-wikimania2015.m     600 IN DYNA     geoip!text-addrs
-wikimania2016.m     600 IN DYNA     geoip!text-addrs
-wikimania2017.m     600 IN DYNA     geoip!text-addrs
-wikimania2018.m     600 IN DYNA     geoip!text-addrs
-wikimania2019.m     600 IN DYNA     geoip!text-addrs
-wikimaniateam.m     600 IN DYNA     geoip!text-addrs
-za.m                600 IN DYNA     geoip!text-addrs
+advisory.m          1H IN CNAME www.wikipedia.org.
+am.m                1H IN CNAME www.wikipedia.org.
+ar.m                1H IN CNAME www.wikipedia.org.
+bd.m                1H IN CNAME www.wikipedia.org.
+be.m                1H IN CNAME www.wikipedia.org.
+br.m                1H IN CNAME www.wikipedia.org.
+ca.m                1H IN CNAME www.wikipedia.org.
+chapcom.m           1H IN CNAME www.wikipedia.org.
+checkuser.m         1H IN CNAME www.wikipedia.org.
+cn.m                1H IN CNAME www.wikipedia.org.
+co.m                1H IN CNAME www.wikipedia.org.
+commons.m           1H IN CNAME www.wikipedia.org.
+dk.m                1H IN CNAME www.wikipedia.org.
+ec.m                1H IN CNAME www.wikipedia.org.
+ee.m                1H IN CNAME www.wikipedia.org.
+electcom.m          1H IN CNAME www.wikipedia.org.
+et.m                1H IN CNAME www.wikipedia.org.
+id.m                1H IN CNAME www.wikipedia.org.
+initiatives.m       1H IN CNAME www.wikipedia.org.
+id-internal.m       1H IN CNAME www.wikipedia.org.
+incubator.m         1H IN CNAME www.wikipedia.org.
+fdc.m               1H IN CNAME www.wikipedia.org.
+fixcopyright.m      1H IN CNAME www.wikipedia.org.
+foundation.m        1H IN CNAME www.wikipedia.org.
+fi.m                1H IN CNAME www.wikipedia.org.
+hi.m                1H IN CNAME www.wikipedia.org.
+legalteam.m         1H IN CNAME www.wikipedia.org.
+mai.m               1H IN CNAME www.wikipedia.org.
+meta.m              1H IN CNAME www.wikipedia.org.
+mk.m                1H IN CNAME www.wikipedia.org.
+mx.m                1H IN CNAME www.wikipedia.org.
+nl.m                1H IN CNAME www.wikipedia.org.
+no.m                1H IN CNAME www.wikipedia.org.
+nostalgia.m         1H IN CNAME www.wikipedia.org.
+nyc.m               1H IN CNAME www.wikipedia.org.
+nz.m                1H IN CNAME www.wikipedia.org.
+office.m            1H IN CNAME www.wikipedia.org.
+otrs-wiki.m         1H IN CNAME www.wikipedia.org.
+outreach.m          1H IN CNAME www.wikipedia.org.
+quality.m           1H IN CNAME www.wikipedia.org.
+pa-us.m             1H IN CNAME www.wikipedia.org.
+pl.m                1H IN CNAME www.wikipedia.org.
+pt.m                1H IN CNAME www.wikipedia.org.
+punjabi.m           1H IN CNAME www.wikipedia.org.
+rs.m                1H IN CNAME www.wikipedia.org.
+romd.m              1H IN CNAME www.wikipedia.org.
+ru.m                1H IN CNAME www.wikipedia.org.
+se.m                1H IN CNAME www.wikipedia.org.
+species.m           1H IN CNAME www.wikipedia.org.
+steward.m           1H IN CNAME www.wikipedia.org.
+strategy.m          1H IN CNAME www.wikipedia.org.
+test-commons.m      1H IN CNAME www.wikipedia.org.
+tr.m                1H IN CNAME www.wikipedia.org.
+ua.m                1H IN CNAME www.wikipedia.org.
+usability.m         1H IN CNAME www.wikipedia.org.
+ve.m                1H IN CNAME www.wikipedia.org.
+vote.m              1H IN CNAME www.wikipedia.org.
+wb.m                1H IN CNAME www.wikipedia.org.
+wikimania.m         1H IN CNAME www.wikipedia.org.
+wikimania2005.m     1H IN CNAME www.wikipedia.org.
+wikimania2006.m     1H IN CNAME www.wikipedia.org.
+wikimania2007.m     1H IN CNAME www.wikipedia.org.
+wikimania2008.m     1H IN CNAME www.wikipedia.org.
+wikimania2009.m     1H IN CNAME www.wikipedia.org.
+wikimania2010.m     1H IN CNAME www.wikipedia.org.
+wikimania2011.m     1H IN CNAME www.wikipedia.org.
+wikimania2012.m     1H IN CNAME www.wikipedia.org.
+wikimania2013.m     1H IN CNAME www.wikipedia.org.
+wikimania2014.m     1H IN CNAME www.wikipedia.org.
+wikimania2015.m     1H IN CNAME www.wikipedia.org.
+wikimania2016.m     1H IN CNAME www.wikipedia.org.
+wikimania2017.m     1H IN CNAME www.wikipedia.org.
+wikimania2018.m     1H IN CNAME www.wikipedia.org.
+wikimania2019.m     1H IN CNAME www.wikipedia.org.
+wikimaniateam.m     1H IN CNAME www.wikipedia.org.
+za.m                1H IN CNAME www.wikipedia.org.
 
 ; Networking
 cr1-eqiad       1H  IN A    208.80.154.196
@@ -559,7 +559,7 @@ pfw3-codfw      1H  IN A     208.80.153.197
 
 ; Service aliases (alphabetical order)
 
-annual          600 IN DYNA     geoip!text-addrs
+annual          1H IN CNAME www.wikipedia.org.
 
 apt             300  IN CNAME   install1002
 
@@ -573,28 +573,28 @@ mandrill._domainkey.benefactors 1H IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQE
 
 
 ; Mexico Awareness Campaign (T207816)
-bienvenida      600 IN DYNA     geoip!text-addrs
+bienvenida      1H IN CNAME www.wikipedia.org.
 
-cache           600 IN DYNA     geoip!text-addrs
+cache           1H IN CNAME www.wikipedia.org.
 
-config-master   600 IN DYNA     geoip!text-addrs
+config-master   1H IN CNAME www.wikipedia.org.
 
 dash.frdev      1H  IN CNAME    frdev-eqiad
 
-design          600 IN DYNA     geoip!text-addrs
+design          1H IN CNAME www.wikipedia.org.
 
 dbmonitor1001   600 IN A        208.80.154.82 ; VM on ganeti01.svc.eqiad.wmnet
 dbmonitor1001   600 IN AAAA     2620:0:861:3:208:80:154:82 ; VM on ganeti01.svc.eqiad.wmnet
 dbmonitor2001   600 IN A        208.80.153.52 ; VM on ganeti01.svc.codfw.wmnet
 dbmonitor2001   600 IN AAAA     2620:0:860:2:208:80:153:52 ; VM on ganeti01.svc.codfw.wmnet
-dbtree          600 IN DYNA     geoip!text-addrs
+dbtree          1H IN CNAME www.wikipedia.org.
 
-debmonitor      600 IN DYNA     geoip!text-addrs
+debmonitor      1H IN CNAME www.wikipedia.org.
 
-dev             600 IN DYNA     geoip!text-addrs
-doc             600 IN DYNA     geoip!text-addrs
-docker-registry 600 IN DYNA     geoip!text-addrs
-docs            600 IN DYNA     geoip!text-addrs
+dev             1H IN CNAME www.wikipedia.org.
+doc             1H IN CNAME www.wikipedia.org.
+docker-registry 1H IN CNAME www.wikipedia.org.
+docs            1H IN CNAME www.wikipedia.org.
 
 ldap-corp.eqiad 1H  IN CNAME    dubnium
 ldap-corp.codfw 1H  IN CNAME    pollux
@@ -612,22 +612,22 @@ gerrit          600 IN A        208.80.154.85
 gerrit          600 IN AAAA     2620:0:861:3:208:80:154:85
 gerrit-slave    600 IN A        208.80.153.107
 gerrit-slave    600 IN AAAA     2620:0:860:4:208:80:153:107
-git             600 IN DYNA     geoip!text-addrs
-graphite        600 IN DYNA     geoip!text-addrs
-graphite-labs   600 IN DYNA     geoip!text-addrs
-grafana         600 IN DYNA     geoip!text-addrs
-grafana-beta         600 IN DYNA     geoip!text-addrs
-grafana-labs         600 IN DYNA     geoip!text-addrs
-grafana-labs-admin   600 IN DYNA     geoip!text-addrs
-parsoid-rt-tests     600 IN DYNA     geoip!text-addrs
-parsoid-vd-tests     600 IN DYNA     geoip!text-addrs
-performance     600 IN DYNA     geoip!text-addrs
-horizon         600 IN DYNA     geoip!text-addrs
-wikitech        600 IN DYNA     geoip!text-addrs
+git             1H IN CNAME www.wikipedia.org.
+graphite        1H IN CNAME www.wikipedia.org.
+graphite-labs   1H IN CNAME www.wikipedia.org.
+grafana         1H IN CNAME www.wikipedia.org.
+grafana-beta         1H IN CNAME www.wikipedia.org.
+grafana-labs         1H IN CNAME www.wikipedia.org.
+grafana-labs-admin   1H IN CNAME www.wikipedia.org.
+parsoid-rt-tests     1H IN CNAME www.wikipedia.org.
+parsoid-vd-tests     1H IN CNAME www.wikipedia.org.
+performance     1H IN CNAME www.wikipedia.org.
+horizon         1H IN CNAME www.wikipedia.org.
+wikitech        1H IN CNAME www.wikipedia.org.
 
 icinga          5M  IN CNAME    icinga1001
 
-integration     600 IN DYNA     geoip!text-addrs
+integration     1H IN CNAME www.wikipedia.org.
 irc             1H  IN CNAME    kraz
 
 ldap-eqiad      1H  IN CNAME    seaborgium
@@ -638,12 +638,12 @@ phabricator     1H  IN MX       10 mx1001
 phabricator     1H  IN MX       50 mx2001
 phabricator     1H  IN TXT      "v=spf1 mx ip6:2620:0:861:102:10:64:16:8 ip6:2620:0:860:103:10:192:32:147 -all"
 
-login           600 IN DYNA     geoip!text-addrs
+login           1H IN CNAME www.wikipedia.org.
 
 librenms        1H  IN CNAME    netmon1002
 netbox          1H  IN CNAME    netmon1002
 
-servermon       600 IN DYNA     geoip!text-addrs
+servermon       1H IN CNAME www.wikipedia.org.
 
 payments        5M  IN CNAME    payments-codfw
 payments.frdev  5M  IN CNAME    payments-codfw
@@ -654,9 +654,9 @@ payments-listener-eqiad 1H  IN A    208.80.155.12
 payments-listener-codfw 1H  IN A    208.80.152.233
 payments-listener       5M  IN CNAME        payments-listener-eqiad
 
-people          600 IN DYNA     geoip!text-addrs
+people          1H IN CNAME www.wikipedia.org.
 
-piwik           600 IN DYNA     geoip!text-addrs ; T103577
+piwik           1H IN CNAME www.wikipedia.org.
 
 ; policy.wikimedia.org goes to wordpress cluster T110203
 policy          5M  IN A        192.0.66.2
@@ -673,12 +673,12 @@ policy          5M  IN CAA 0 issuewild "globalsign.com"
 policy          5M  IN CAA 0 issuewild "letsencrypt.org"
 policy          5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
-puppetboard      600 IN DYNA     geoip!text-addrs
+puppetboard      1H IN CNAME www.wikipedia.org.
 
-releases         600 IN DYNA     geoip!text-addrs
-releases-jenkins 600 IN DYNA     geoip!text-addrs
+releases         1H IN CNAME www.wikipedia.org.
+releases-jenkins 1H IN CNAME www.wikipedia.org.
 
-research         600 IN DYNA     geoip!text-addrs
+research         1H IN CNAME www.wikipedia.org.
 
 reports.frdev   1H  IN CNAME    frdev-eqiad
 
@@ -686,15 +686,15 @@ rt              600 IN DYNA     geoip!text-addrs
 rt              1H  IN MX       10 mx1001
 rt              1H  IN MX       50 mx2001
 
-secure          600 IN DYNA     geoip!text-addrs
+secure          1H IN CNAME www.wikipedia.org.
 
-sitemaps        600 IN DYNA     geoip!text-addrs
+sitemaps        1H IN CNAME www.wikipedia.org.
 
-stream          600 IN DYNA     geoip!text-addrs
+stream          1H IN CNAME www.wikipedia.org.
 
-svn             600 IN DYNA     geoip!text-addrs
+svn             1H IN CNAME www.wikipedia.org.
 
-toolsadmin      600 IN DYNA     geoip!text-addrs
+toolsadmin      1H IN CNAME www.wikipedia.org.
 
 wiki-mail-eqiad 1H  IN A        208.80.154.91
 wiki-mail-eqiad 1H  IN AAAA     2620:0:861:3:208:80:154:91
@@ -707,124 +707,124 @@ url-downloader        1H  IN CNAME      url-downloader.eqiad
 
 ; Wikis (alphabetic order)
 
-advisors         600 IN DYNA     geoip!text-addrs
-advisory         600 IN DYNA     geoip!text-addrs
-affcom           600 IN DYNA     geoip!text-addrs
-am               600 IN DYNA     geoip!text-addrs
-auditcom         600 IN DYNA     geoip!text-addrs
-ar               600 IN DYNA     geoip!text-addrs
-bd               600 IN DYNA     geoip!text-addrs
-be               600 IN DYNA     geoip!text-addrs
-board            600 IN DYNA     geoip!text-addrs
-boardgovcom      600 IN DYNA     geoip!text-addrs
-bookshelf        600 IN DYNA     geoip!text-addrs
-br               600 IN DYNA     geoip!text-addrs
-ca               600 IN DYNA     geoip!text-addrs
-ch               600 IN DYNA     geoip!text-addrs
-chair            600 IN DYNA     geoip!text-addrs
-chapcom          600 IN DYNA     geoip!text-addrs
-checkuser        600 IN DYNA     geoip!text-addrs
-cn               600 IN DYNA     geoip!text-addrs
-co               600 IN DYNA     geoip!text-addrs
-collab           600 IN DYNA     geoip!text-addrs
-comcom           600 IN DYNA     geoip!text-addrs
-commons          600 IN DYNA     geoip!text-addrs
-dk               600 IN DYNA     geoip!text-addrs
-ec               600 IN DYNA     geoip!text-addrs
-educacao         600 IN DYNA     geoip!text-addrs
-education        600 IN DYNA     geoip!text-addrs
-ee               600 IN DYNA     geoip!text-addrs
-electcom         600 IN DYNA     geoip!text-addrs
-et               600 IN DYNA     geoip!text-addrs
-exec             600 IN DYNA     geoip!text-addrs
-fdc              600 IN DYNA     geoip!text-addrs
-fi               600 IN DYNA     geoip!text-addrs
-fixcopyright     600 IN DYNA     geoip!text-addrs
-foundation       600 IN DYNA     geoip!text-addrs
-grants           600 IN DYNA     geoip!text-addrs
-hi               600 IN DYNA     geoip!text-addrs
-hu               600 IN DYNA     geoip!text-addrs
-id               600 IN DYNA     geoip!text-addrs
-id-internal      600 IN DYNA     geoip!text-addrs
-iegcom           600 IN DYNA     geoip!text-addrs
-il               600 IN DYNA     geoip!text-addrs
-incubator        600 IN DYNA     geoip!text-addrs
-initiatives      600 IN DYNA     geoip!text-addrs
-internal         600 IN DYNA     geoip!text-addrs
-it               600 IN DYNA     geoip!text-addrs
-kr               600 IN DYNA     geoip!text-addrs
-langcom          600 IN DYNA     geoip!text-addrs
-legalteam        600 IN DYNA     geoip!text-addrs
-mai              600 IN DYNA     geoip!text-addrs
-meta             600 IN DYNA     geoip!text-addrs
-mk               600 IN DYNA     geoip!text-addrs
-movementroles    600 IN DYNA     geoip!text-addrs
-mx               600 IN DYNA     geoip!text-addrs
-nl               600 IN DYNA     geoip!text-addrs
-no               600 IN DYNA     geoip!text-addrs
-noboard-chapters 600 IN DYNA     geoip!text-addrs
-nostalgia        600 IN DYNA     geoip!text-addrs
-nz               600 IN DYNA     geoip!text-addrs
-office           600 IN DYNA     geoip!text-addrs
-ombudsmen        600 IN DYNA     geoip!text-addrs
-otrs-wiki        600 IN DYNA     geoip!text-addrs
-outreach         600 IN DYNA     geoip!text-addrs
-pa-us            600 IN DYNA     geoip!text-addrs
-pt               600 IN DYNA     geoip!text-addrs
-punjabi          600 IN DYNA     geoip!text-addrs
-pk               600 IN DYNA     geoip!text-addrs
-pl               600 IN DYNA     geoip!text-addrs
-projectcom       600 IN DYNA     geoip!text-addrs
-quality          600 IN DYNA     geoip!text-addrs
-romd             600 IN DYNA     geoip!text-addrs
-rs               600 IN DYNA     geoip!text-addrs
-ru               600 IN DYNA     geoip!text-addrs
-se               600 IN DYNA     geoip!text-addrs
-searchcom        600 IN DYNA     geoip!text-addrs
-spcom            600 IN DYNA     geoip!text-addrs
-species          600 IN DYNA     geoip!text-addrs
-steward          600 IN DYNA     geoip!text-addrs
-strategy         600 IN DYNA     geoip!text-addrs
-techconduct      600 IN DYNA     geoip!text-addrs
-test-commons     600 IN DYNA     geoip!text-addrs
-tr               600 IN DYNA     geoip!text-addrs
-transitionteam   600 IN DYNA     geoip!text-addrs
-ua               600 IN DYNA     geoip!text-addrs
-uk               600 IN DYNA     geoip!text-addrs
-usability        600 IN DYNA     geoip!text-addrs
-ve               600 IN DYNA     geoip!text-addrs
-vote             600 IN DYNA     geoip!text-addrs
-wb               600 IN DYNA     geoip!text-addrs
-wikimania        600 IN DYNA     geoip!text-addrs
-wikimania2005    600 IN DYNA     geoip!text-addrs
-wikimania2006    600 IN DYNA     geoip!text-addrs
-wikimania2007    600 IN DYNA     geoip!text-addrs
-wikimania2008    600 IN DYNA     geoip!text-addrs
-wikimania2009    600 IN DYNA     geoip!text-addrs
-wikimania2010    600 IN DYNA     geoip!text-addrs
-wikimania2011    600 IN DYNA     geoip!text-addrs
-wikimania2012    600 IN DYNA     geoip!text-addrs
-wikimania2013    600 IN DYNA     geoip!text-addrs
-wikimania2014    600 IN DYNA     geoip!text-addrs
-wikimania2015    600 IN DYNA     geoip!text-addrs
-wikimania2016    600 IN DYNA     geoip!text-addrs
-wikimania2017    600 IN DYNA     geoip!text-addrs
-wikimania2018    600 IN DYNA     geoip!text-addrs
-wikimania2019    600 IN DYNA     geoip!text-addrs
-wikimaniateam    600 IN DYNA     geoip!text-addrs
+advisors         1H IN CNAME www.wikipedia.org.
+advisory         1H IN CNAME www.wikipedia.org.
+affcom           1H IN CNAME www.wikipedia.org.
+am               1H IN CNAME www.wikipedia.org.
+auditcom         1H IN CNAME www.wikipedia.org.
+ar               1H IN CNAME www.wikipedia.org.
+bd               1H IN CNAME www.wikipedia.org.
+be               1H IN CNAME www.wikipedia.org.
+board            1H IN CNAME www.wikipedia.org.
+boardgovcom      1H IN CNAME www.wikipedia.org.
+bookshelf        1H IN CNAME www.wikipedia.org.
+br               1H IN CNAME www.wikipedia.org.
+ca               1H IN CNAME www.wikipedia.org.
+ch               1H IN CNAME www.wikipedia.org.
+chair            1H IN CNAME www.wikipedia.org.
+chapcom          1H IN CNAME www.wikipedia.org.
+checkuser        1H IN CNAME www.wikipedia.org.
+cn               1H IN CNAME www.wikipedia.org.
+co               1H IN CNAME www.wikipedia.org.
+collab           1H IN CNAME www.wikipedia.org.
+comcom           1H IN CNAME www.wikipedia.org.
+commons          1H IN CNAME www.wikipedia.org.
+dk               1H IN CNAME www.wikipedia.org.
+ec               1H IN CNAME www.wikipedia.org.
+educacao         1H IN CNAME www.wikipedia.org.
+education        1H IN CNAME www.wikipedia.org.
+ee               1H IN CNAME www.wikipedia.org.
+electcom         1H IN CNAME www.wikipedia.org.
+et               1H IN CNAME www.wikipedia.org.
+exec             1H IN CNAME www.wikipedia.org.
+fdc              1H IN CNAME www.wikipedia.org.
+fi               1H IN CNAME www.wikipedia.org.
+fixcopyright     1H IN CNAME www.wikipedia.org.
+foundation       1H IN CNAME www.wikipedia.org.
+grants           1H IN CNAME www.wikipedia.org.
+hi               1H IN CNAME www.wikipedia.org.
+hu               1H IN CNAME www.wikipedia.org.
+id               1H IN CNAME www.wikipedia.org.
+id-internal      1H IN CNAME www.wikipedia.org.
+iegcom           1H IN CNAME www.wikipedia.org.
+il               1H IN CNAME www.wikipedia.org.
+incubator        1H IN CNAME www.wikipedia.org.
+initiatives      1H IN CNAME www.wikipedia.org.
+internal         1H IN CNAME www.wikipedia.org.
+it               1H IN CNAME www.wikipedia.org.
+kr               1H IN CNAME www.wikipedia.org.
+langcom          1H IN CNAME www.wikipedia.org.
+legalteam        1H IN CNAME www.wikipedia.org.
+mai              1H IN CNAME www.wikipedia.org.
+meta             1H IN CNAME www.wikipedia.org.
+mk               1H IN CNAME www.wikipedia.org.
+movementroles    1H IN CNAME www.wikipedia.org.
+mx               1H IN CNAME www.wikipedia.org.
+nl               1H IN CNAME www.wikipedia.org.
+no               1H IN CNAME www.wikipedia.org.
+noboard-chapters 1H IN CNAME www.wikipedia.org.
+nostalgia        1H IN CNAME www.wikipedia.org.
+nz               1H IN CNAME www.wikipedia.org.
+office           1H IN CNAME www.wikipedia.org.
+ombudsmen        1H IN CNAME www.wikipedia.org.
+otrs-wiki        1H IN CNAME www.wikipedia.org.
+outreach         1H IN CNAME www.wikipedia.org.
+pa-us            1H IN CNAME www.wikipedia.org.
+pt               1H IN CNAME www.wikipedia.org.
+punjabi          1H IN CNAME www.wikipedia.org.
+pk               1H IN CNAME www.wikipedia.org.
+pl               1H IN CNAME www.wikipedia.org.
+projectcom       1H IN CNAME www.wikipedia.org.
+quality          1H IN CNAME www.wikipedia.org.
+romd             1H IN CNAME www.wikipedia.org.
+rs               1H IN CNAME www.wikipedia.org.
+ru               1H IN CNAME www.wikipedia.org.
+se               1H IN CNAME www.wikipedia.org.
+searchcom        1H IN CNAME www.wikipedia.org.
+spcom            1H IN CNAME www.wikipedia.org.
+species          1H IN CNAME www.wikipedia.org.
+steward          1H IN CNAME www.wikipedia.org.
+strategy         1H IN CNAME www.wikipedia.org.
+techconduct      1H IN CNAME www.wikipedia.org.
+test-commons     1H IN CNAME www.wikipedia.org.
+tr               1H IN CNAME www.wikipedia.org.
+transitionteam   1H IN CNAME www.wikipedia.org.
+ua               1H IN CNAME www.wikipedia.org.
+uk               1H IN CNAME www.wikipedia.org.
+usability        1H IN CNAME www.wikipedia.org.
+ve               1H IN CNAME www.wikipedia.org.
+vote             1H IN CNAME www.wikipedia.org.
+wb               1H IN CNAME www.wikipedia.org.
+wikimania        1H IN CNAME www.wikipedia.org.
+wikimania2005    1H IN CNAME www.wikipedia.org.
+wikimania2006    1H IN CNAME www.wikipedia.org.
+wikimania2007    1H IN CNAME www.wikipedia.org.
+wikimania2008    1H IN CNAME www.wikipedia.org.
+wikimania2009    1H IN CNAME www.wikipedia.org.
+wikimania2010    1H IN CNAME www.wikipedia.org.
+wikimania2011    1H IN CNAME www.wikipedia.org.
+wikimania2012    1H IN CNAME www.wikipedia.org.
+wikimania2013    1H IN CNAME www.wikipedia.org.
+wikimania2014    1H IN CNAME www.wikipedia.org.
+wikimania2015    1H IN CNAME www.wikipedia.org.
+wikimania2016    1H IN CNAME www.wikipedia.org.
+wikimania2017    1H IN CNAME www.wikipedia.org.
+wikimania2018    1H IN CNAME www.wikipedia.org.
+wikimania2019    1H IN CNAME www.wikipedia.org.
+wikimaniateam    1H IN CNAME www.wikipedia.org.
 
-www              600 IN DYNA     geoip!text-addrs
-za               600 IN DYNA     geoip!text-addrs
-zero             600 IN DYNA     geoip!text-addrs
+www              1H IN CNAME www.wikipedia.org.
+za               1H IN CNAME www.wikipedia.org.
+zero             1H IN CNAME www.wikipedia.org.
 
 ; Other websites (NO wikis!)
-2030             600 IN DYNA     geoip!text-addrs
-analytics        600 IN DYNA     geoip!text-addrs
+2030             1H IN CNAME www.wikipedia.org.
+analytics        1H IN CNAME www.wikipedia.org.
 blog             1H  IN CNAME    wikimediablog.wordpress.com.
-bugs             600 IN DYNA     geoip!text-addrs
-bugzilla         600 IN DYNA     geoip!text-addrs
-bug-attachment   600 IN DYNA     geoip!text-addrs
-careers          600 IN DYNA     geoip!text-addrs
+bugs             1H IN CNAME www.wikipedia.org.
+bugzilla         1H IN CNAME www.wikipedia.org.
+bug-attachment   1H IN CNAME www.wikipedia.org.
+careers          1H IN CNAME www.wikipedia.org.
 gh-mail          1H  IN MX       10 mxa.mailgun.org.
 gh-mail          1H  IN MX       10 mxb.mailgun.org.
 gh-mail          1H  IN TXT  "v=spf1 include:mg-spf.greenhouse.io ~all"
@@ -833,18 +833,18 @@ civicrm          1H  IN MX       10 mx1001
 civicrm          1H  IN MX       50 mx2001
 civicrm.frdev    1H  IN CNAME    frdev-eqiad
 civicrm-codfw    1H  IN A        208.80.152.232
-coffee           600 IN DYNA     geoip!text-addrs
-cs               600 IN DYNA     geoip!text-addrs
-cz               600 IN DYNA     geoip!text-addrs
-datasets         600 IN DYNA     geoip!text-addrs
-download         600 IN DYNA     geoip!text-addrs
-etherpad         600 IN DYNA     geoip!text-addrs
+coffee           1H IN CNAME www.wikipedia.org.
+cs               1H IN CNAME www.wikipedia.org.
+cz               1H IN CNAME www.wikipedia.org.
+datasets         1H IN CNAME www.wikipedia.org.
+download         1H IN CNAME www.wikipedia.org.
+etherpad         1H IN CNAME www.wikipedia.org.
 fundraising      1H  IN CNAME    fundraising-eqiad
-hue              600 IN DYNA     geoip!text-addrs
-iegreview        600 IN DYNA     geoip!text-addrs
+hue              1H IN CNAME www.wikipedia.org.
+iegreview        1H IN CNAME www.wikipedia.org.
 tendril          5M  IN CNAME    dbmonitor1001
-jobs             600 IN DYNA     geoip!text-addrs
-labs             600 IN DYNA     geoip!text-addrs
+jobs             1H IN CNAME www.wikipedia.org.
+labs             1H IN CNAME www.wikipedia.org.
 labs-ns0         1H  IN A        208.80.155.117
 labs-ns1         1H  IN A        208.80.154.12
 labs-ns2         1H  IN A        208.80.154.135
@@ -858,60 +858,60 @@ labs-recursor3   1H  IN A        208.80.154.24
 codfw1dev-recursor0 1H IN A        208.80.153.51
 codfw1dev-recursor1 1H IN A        208.80.153.78
 ; deprecated but kept for compatibility, see RT #6769
-labsconsole      600 IN DYNA     geoip!text-addrs
-logstash         600 IN DYNA     geoip!text-addrs
-metrics          600 IN DYNA     geoip!text-addrs
-moon             600 IN DYNA     geoip!text-addrs
-noc              600 IN DYNA     geoip!text-addrs
-nyc              600 IN DYNA     geoip!text-addrs
-old-bugzilla     600 IN DYNA     geoip!text-addrs
-planet           600 IN DYNA     geoip!text-addrs
-ar.planet        600 IN DYNA     geoip!text-addrs
-bg.planet        600 IN DYNA     geoip!text-addrs
-cs.planet        600 IN DYNA     geoip!text-addrs
-da.planet        600 IN DYNA     geoip!text-addrs
-de.planet        600 IN DYNA     geoip!text-addrs
-el.planet        600 IN DYNA     geoip!text-addrs
-en.planet        600 IN DYNA     geoip!text-addrs
-es.planet        600 IN DYNA     geoip!text-addrs
-fo.planet        600 IN DYNA     geoip!text-addrs
-fr.planet        600 IN DYNA     geoip!text-addrs
-gmq.planet       600 IN DYNA     geoip!text-addrs
-id.planet        600 IN DYNA     geoip!text-addrs
-is.planet        600 IN DYNA     geoip!text-addrs
-it.planet        600 IN DYNA     geoip!text-addrs
-nb.planet        600 IN DYNA     geoip!text-addrs
-nn.planet        600 IN DYNA     geoip!text-addrs
-no.planet        600 IN DYNA     geoip!text-addrs
-pl.planet        600 IN DYNA     geoip!text-addrs
-pt.planet        600 IN DYNA     geoip!text-addrs
-ro.planet        600 IN DYNA     geoip!text-addrs
-ru.planet        600 IN DYNA     geoip!text-addrs
-sq.planet        600 IN DYNA     geoip!text-addrs
-sv.planet        600 IN DYNA     geoip!text-addrs
-uk.planet        600 IN DYNA     geoip!text-addrs
-zh.planet        600 IN DYNA     geoip!text-addrs
+labsconsole      1H IN CNAME www.wikipedia.org.
+logstash         1H IN CNAME www.wikipedia.org.
+metrics          1H IN CNAME www.wikipedia.org.
+moon             1H IN CNAME www.wikipedia.org.
+noc              1H IN CNAME www.wikipedia.org.
+nyc              1H IN CNAME www.wikipedia.org.
+old-bugzilla     1H IN CNAME www.wikipedia.org.
+planet           1H IN CNAME www.wikipedia.org.
+ar.planet        1H IN CNAME www.wikipedia.org.
+bg.planet        1H IN CNAME www.wikipedia.org.
+cs.planet        1H IN CNAME www.wikipedia.org.
+da.planet        1H IN CNAME www.wikipedia.org.
+de.planet        1H IN CNAME www.wikipedia.org.
+el.planet        1H IN CNAME www.wikipedia.org.
+en.planet        1H IN CNAME www.wikipedia.org.
+es.planet        1H IN CNAME www.wikipedia.org.
+fo.planet        1H IN CNAME www.wikipedia.org.
+fr.planet        1H IN CNAME www.wikipedia.org.
+gmq.planet       1H IN CNAME www.wikipedia.org.
+id.planet        1H IN CNAME www.wikipedia.org.
+is.planet        1H IN CNAME www.wikipedia.org.
+it.planet        1H IN CNAME www.wikipedia.org.
+nb.planet        1H IN CNAME www.wikipedia.org.
+nn.planet        1H IN CNAME www.wikipedia.org.
+no.planet        1H IN CNAME www.wikipedia.org.
+pl.planet        1H IN CNAME www.wikipedia.org.
+pt.planet        1H IN CNAME www.wikipedia.org.
+ro.planet        1H IN CNAME www.wikipedia.org.
+ru.planet        1H IN CNAME www.wikipedia.org.
+sq.planet        1H IN CNAME www.wikipedia.org.
+sv.planet        1H IN CNAME www.wikipedia.org.
+uk.planet        1H IN CNAME www.wikipedia.org.
+zh.planet        1H IN CNAME www.wikipedia.org.
 puppet           5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-pivot            600 IN DYNA     geoip!text-addrs
-superset         600 IN DYNA     geoip!text-addrs
-racktables       600 IN DYNA     geoip!text-addrs
-scholarships     600 IN DYNA     geoip!text-addrs
-transparency     600 IN DYNA     geoip!text-addrs
-transparency-private 600 IN DYNA     geoip!text-addrs
-search           600 IN DYNA     geoip!text-addrs
-shop             600 IN DYNA     geoip!text-addrs
-smokeping        600 IN DYNA     geoip!text-addrs
+pivot            1H IN CNAME www.wikipedia.org.
+superset         1H IN CNAME www.wikipedia.org.
+racktables       1H IN CNAME www.wikipedia.org.
+scholarships     1H IN CNAME www.wikipedia.org.
+transparency     1H IN CNAME www.wikipedia.org.
+transparency-private 1H IN CNAME www.wikipedia.org.
+search           1H IN CNAME www.wikipedia.org.
+shop             1H IN CNAME www.wikipedia.org.
+smokeping        1H IN CNAME www.wikipedia.org.
 store            1H  IN CNAME    c.ssl.shopify.com.
-static-bugzilla  600 IN DYNA     geoip!text-addrs
-stats            600 IN DYNA     geoip!text-addrs
+static-bugzilla  1H IN CNAME www.wikipedia.org.
+stats            1H IN CNAME www.wikipedia.org.
 status           5M  IN A        192.237.162.200
 status           5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
-techblog         600 IN DYNA     geoip!text-addrs
-ticket           600 IN DYNA     geoip!text-addrs
+techblog         1H IN CNAME www.wikipedia.org.
+ticket           1H IN CNAME www.wikipedia.org.
 tor-eqiad-1      5M  IN CNAME    torrelay1001
 mirrors          1H  IN CNAME    sodium
-yarn             600 IN DYNA     geoip!text-addrs
-turnilo          600 IN DYNA     geoip!text-addrs
+yarn             1H IN CNAME www.wikipedia.org.
+turnilo          1H IN CNAME www.wikipedia.org.
 
 wikitech-static-iad  5M  IN A        162.209.126.221
 wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
@@ -920,9 +920,9 @@ wikitech-static      5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
 wikitech-static                  1H IN TXT "v=spf1 include:mailgun.org -all"
 mailo._domainkey.wikitech-static 1H IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD2aCVkhofbsQzu3DT0c6r4cZGTGT49ueyC7P7Bq6kzqC0q121Z6Xzocb6DclVVcCbir56LL/y2OVDIrWRlnoK8c/4fT/gfeH1EY8/URCqqD1dMOiPdEkZ4MVIJ/9X3O5bFb1Hxy50SAn6FF/pYg2PZcS1IY20xhZpDsq69+Wk56wIDAQAB"
 
-labtestwikitech   600 IN DYNA     geoip!text-addrs
-labtesthorizon    600 IN DYNA     geoip!text-addrs
-labtesttoolsadmin 600 IN DYNA     geoip!text-addrs
+labtestwikitech   1H IN CNAME www.wikipedia.org.
+labtesthorizon    1H IN CNAME www.wikipedia.org.
+labtesttoolsadmin 1H IN CNAME www.wikipedia.org.
 
 ; SNI testing hostname
 pinkunicorn      600 A 208.80.154.42

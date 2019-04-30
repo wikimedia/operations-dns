@@ -40,17 +40,17 @@
 
 ; Wikis (alphabetic order)
 
-www             600 IN DYNA     geoip!text-addrs
-wiki            600 IN DYNA     geoip!text-addrs
-bugzilla        600 IN DYNA     geoip!text-addrs
-bugs            600 IN DYNA     geoip!text-addrs
+www             1H IN CNAME www.wikipedia.org.
+wiki            1H IN CNAME www.wikipedia.org.
+bugzilla        1H IN CNAME www.wikipedia.org.
+bugs            1H IN CNAME www.wikipedia.org.
 
 ; Other websites
-doc             600 IN DYNA     geoip!text-addrs
-docs            600 IN DYNA     geoip!text-addrs
-download        600 IN DYNA     geoip!text-addrs
-integration     600 IN DYNA     geoip!text-addrs
-svn             600 IN DYNA     geoip!text-addrs
+doc             1H IN CNAME www.wikipedia.org.
+docs            1H IN CNAME www.wikipedia.org.
+download        1H IN CNAME www.wikipedia.org.
+integration     1H IN CNAME www.wikipedia.org.
+svn             1H IN CNAME www.wikipedia.org.
 
 ; Mobile
-m               600 IN DYNA     geoip!text-addrs
+m               1H IN CNAME www.wikipedia.org.

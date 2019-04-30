@@ -34,7 +34,7 @@
 
 ; Wikis (alphabetic order)
 
-www         600 IN DYNA     geoip!text-addrs
+www         1H IN CNAME www.wikipedia.org.
 
 ; All languages will automatically be included here
 {% include "helpers/langlist.tmpl" %}

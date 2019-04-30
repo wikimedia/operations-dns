@@ -37,13 +37,13 @@
 ; Servers (alphabetic order)
 
 ; Service aliases
-query       600 IN DYNA     geoip!text-addrs
+query       1H IN CNAME www.wikipedia.org.
 
 ; Wikis (alphabetic order)
 
-test        600 IN DYNA     geoip!text-addrs
-www         600 IN DYNA     geoip!text-addrs
+test        1H IN CNAME www.wikipedia.org.
+www         1H IN CNAME www.wikipedia.org.
 
 ; Mobile
-m           600 IN DYNA     geoip!text-addrs
-test.m      600 IN DYNA     geoip!text-addrs
+m           1H IN CNAME www.wikipedia.org.
+test.m      1H IN CNAME www.wikipedia.org.

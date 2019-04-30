@@ -317,6 +317,6 @@
         'zu',
 ] -%}
 {% for lang in langs -%}
-{{ lang }}              600 IN DYNA    geoip!text-addrs
-{{ lang }}.m            600 IN DYNA    geoip!text-addrs
+{{ lang }}   1H IN CNAME www.wikipedia.org.
+{{ lang }}.m 1H IN CNAME www.wikipedia.org.
 {% endfor -%}

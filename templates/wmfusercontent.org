@@ -28,6 +28,6 @@
 @           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 ; Servers (alphabetic order)
-gerrit      600 IN DYNA geoip!text-addrs
-phab        600 IN DYNA geoip!text-addrs
+gerrit      1H IN CNAME www.wikipedia.org.
+phab        1H IN CNAME www.wikipedia.org.
 
