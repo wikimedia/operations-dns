@@ -81,12 +81,12 @@ recursor0       1H  IN A    208.80.154.254  ; eqiad LVS (dns-rec-lb)
 recursor1       1H  IN A    91.198.174.216  ; esams LVS (dns-rec-lb)
 
 ; Geodynamic records
-reflect      10 DYNA reflect ; GeoDNS debugging
-text-lb     600 DYNA geoip!text-addrs
-upload      600 DYNA geoip!upload-addrs
-maps        600 DYNA geoip!upload-addrs
-m           600 DYNA geoip!text-addrs
-donate      600 DYNA geoip!text-addrs
+reflect      10 IN DYNA reflect ; GeoDNS debugging
+text-lb     600 IN DYNA geoip!text-addrs
+upload      600 IN DYNA geoip!upload-addrs
+maps        600 IN DYNA geoip!upload-addrs
+m           600 IN DYNA geoip!text-addrs
+donate      600 IN DYNA geoip!text-addrs
 donate          1H  IN MX       10 mx1001
 donate          1H  IN MX       50 mx2001
 donate          5M  IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
