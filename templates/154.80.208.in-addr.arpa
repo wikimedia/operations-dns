@@ -24,7 +24,7 @@
 9   1H  IN PTR  torrelay1001.wikimedia.org.
 10  1H  IN PTR  dns1001.wikimedia.org.
 11  1H  IN PTR  cloudservices1004.wikimedia.org.
-12  1H  IN PTR  labservices1002.wikimedia.org.
+
 13  1H  IN PTR  dubnium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 14  1H  IN PTR  fermium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 15  1H  IN PTR  sodium.wikimedia.org.

@@ -44,7 +44,6 @@ $ORIGIN 1.0.0.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1001.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1001.cr2-eqiad.wikimedia.org.
 
-2.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labservices1002.wikimedia.org.
 3.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcontrol1003.wikimedia.org.
 
 ; public1-b-eqiad (2620:0:861:2::/64)
@@ -95,9 +94,6 @@ $ORIGIN 4.0.0.0.@Z
 9.1.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   nfs-maps.wikimedia.org.
 5.2.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudstore1008.wikimedia.org.
 6.2.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudstore1009.wikimedia.org.
-
-
-7.1.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labservices1001.wikimedia.org.
 
 9.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labweb1002.wikimedia.org.
 
