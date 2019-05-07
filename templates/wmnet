@@ -957,6 +957,43 @@ restbase1018    1H  IN A        10.64.48.97
 restbase1018-a  1H  IN A        10.64.48.98  ; cassandra instance
 restbase1018-b  1H  IN A        10.64.48.99  ; cassandra instance
 restbase1018-c  1H  IN A        10.64.48.100 ; cassandra instance
+restbase1019    1H  IN A        10.64.0.100
+restbase1019-a  1H  IN A        10.64.0.101  ; cassandra instance
+restbase1019-b  1H  IN A        10.64.0.102  ; cassandra instance
+restbase1019-c  1H  IN A        10.64.0.103  ; cassandra instance
+restbase1020    1H  IN A        10.64.0.104
+restbase1020-a  1H  IN A        10.64.0.105  ; cassandra instance
+restbase1020-b  1H  IN A        10.64.0.106  ; cassandra instance
+restbase1020-c  1H  IN A        10.64.0.146  ; cassandra instance
+restbase1021    1H  IN A        10.64.0.147
+restbase1021-a  1H  IN A        10.64.0.148  ; cassandra instance
+restbase1021-b  1H  IN A        10.64.0.149  ; cassandra instance
+restbase1021-c  1H  IN A        10.64.0.150  ; cassandra instance
+restbase1022    1H  IN A        10.64.16.113
+restbase1022-a  1H  IN A        10.64.16.114  ; cassandra instance
+restbase1022-b  1H  IN A        10.64.16.115  ; cassandra instance
+restbase1022-c  1H  IN A        10.64.16.116  ; cassandra instance
+restbase1023    1H  IN A        10.64.16.117
+restbase1023-a  1H  IN A        10.64.16.118  ; cassandra instance
+restbase1023-b  1H  IN A        10.64.16.119  ; cassandra instance
+restbase1023-c  1H  IN A        10.64.16.120  ; cassandra instance
+restbase1024    1H  IN A        10.64.16.121
+restbase1024-a  1H  IN A        10.64.16.122  ; cassandra instance
+restbase1024-b  1H  IN A        10.64.16.123  ; cassandra instance
+restbase1024-c  1H  IN A        10.64.16.124  ; cassandra instance
+restbase1025    1H  IN A        10.64.48.125
+restbase1025-a  1H  IN A        10.64.48.126  ; cassandra instance
+restbase1025-b  1H  IN A        10.64.48.127  ; cassandra instance
+restbase1025-c  1H  IN A        10.64.48.128  ; cassandra instance
+restbase1026    1H  IN A        10.64.48.179
+restbase1026-a  1H  IN A        10.64.48.180  ; cassandra instance
+restbase1026-b  1H  IN A        10.64.48.181  ; cassandra instance
+restbase1026-c  1H  IN A        10.64.48.182  ; cassandra instance
+restbase1027    1H  IN A        10.64.48.183
+restbase1027-a  1H  IN A        10.64.48.184  ; cassandra instance
+restbase1027-b  1H  IN A        10.64.48.185  ; cassandra instance
+restbase1027-c  1H  IN A        10.64.48.186  ; cassandra instance
+
 restbase-dev1004    1H IN A     10.64.0.89
 restbase-dev1004-a  1H IN A     10.64.0.167
 restbase-dev1004-b  1H IN A     10.64.0.168
