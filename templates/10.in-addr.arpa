@@ -2019,6 +2019,24 @@ $ORIGIN 3.65.@Z
 82  1H  IN PTR      wmf7298.mgmt.eqiad.wmnet.
 83  1H  IN PTR      notebook1004.mgmt.eqiad.wmnet.
 83  1H  IN PTR      wmf7299.mgmt.eqiad.wmnet.
+84  1H  IN PTR      restbase1019.mgmt.eqiad.wmnet.
+84  1H  IN PTR      wmf5164.mgmt.eqiad.wmnet.
+85  1H  IN PTR      restbase1020.mgmt.eqiad.wmnet.
+85  1H  IN PTR      wmf5165.mgmt.eqiad.wmnet.
+86  1H  IN PTR      restbase1021.mgmt.eqiad.wmnet.
+86  1H  IN PTR      wmf5166.mgmt.eqiad.wmnet.
+87  1H  IN PTR      restbase1022.mgmt.eqiad.wmnet.
+87  1H  IN PTR      wmf5167.mgmt.eqiad.wmnet.
+88  1H  IN PTR      restbase1023.mgmt.eqiad.wmnet.
+88  1H  IN PTR      wmf5168.mgmt.eqiad.wmnet.
+89  1H  IN PTR      restbase1024.mgmt.eqiad.wmnet.
+89  1H  IN PTR      wmf5169.mgmt.eqiad.wmnet.
+90  1H  IN PTR      restbase1025.mgmt.eqiad.wmnet.
+90  1H  IN PTR      wmf5170.mgmt.eqiad.wmnet.
+91  1H  IN PTR      restbase1026.mgmt.eqiad.wmnet.
+91  1H  IN PTR      wmf5171.mgmt.eqiad.wmnet.
+92  1H  IN PTR      restbase1027.mgmt.eqiad.wmnet.
+92  1H  IN PTR      wmf5172.mgmt.eqiad.wmnet.
 
 95  1H  IN PTR      kafka1012.mgmt.eqiad.wmnet.
 96  1H  IN PTR      kafka1013.mgmt.eqiad.wmnet.
