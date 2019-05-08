@@ -1212,10 +1212,10 @@ $ORIGIN 48.64.@Z
 122     1H  IN PTR      aqs1009-a.eqiad.wmnet. ; cassandra instance
 123     1H  IN PTR      aqs1009-b.eqiad.wmnet. ; cassandra instance
 124     1H  IN PTR      db1138.eqiad.wmnet.
-125     1H  IN PTR      restbase10125.eqiad.wmnet.
-126     1H  IN PTR      restbase10125-a.eqiad.wmnet. ; cassandra instance
-127     1H  IN PTR      restbase10125-b.eqiad.wmnet. ; cassandra instance
-128     1H  IN PTR      restbase10125-c.eqiad.wmnet. ; cassandra instance
+125     1H  IN PTR      restbase1025.eqiad.wmnet.
+126     1H  IN PTR      restbase1025-a.eqiad.wmnet. ; cassandra instance
+127     1H  IN PTR      restbase1025-b.eqiad.wmnet. ; cassandra instance
+128     1H  IN PTR      restbase1025-c.eqiad.wmnet. ; cassandra instance
 129     1H  IN PTR      oresrdb1001.eqiad.wmnet.
 130     1H  IN PTR      restbase1009-b.eqiad.wmnet.
 131     1H  IN PTR      restbase1009-c.eqiad.wmnet.
@@ -1263,14 +1263,14 @@ $ORIGIN 48.64.@Z
 176     1H IN PTR       ms-be1048.eqiad.wmnet.
 177     1H IN PTR       logstash1012.eqiad.wmnet.
 178     1H IN PTR       sessionstore1003-a.eqiad.wmnet.
-179     1H  IN PTR      restbase10126.eqiad.wmnet.
-180     1H  IN PTR      restbase10126-a.eqiad.wmnet. ; cassandra instance
-181     1H  IN PTR      restbase10126-b.eqiad.wmnet. ; cassandra instance
-182     1H  IN PTR      restbase10126-c.eqiad.wmnet. ; cassandra instance
-183     1H  IN PTR      restbase10127.eqiad.wmnet.
-184     1H  IN PTR      restbase10127-a.eqiad.wmnet. ; cassandra instance
-185     1H  IN PTR      restbase10127-b.eqiad.wmnet. ; cassandra instance
-186     1H  IN PTR      restbase10127-c.eqiad.wmnet. ; cassandra instance
+179     1H  IN PTR      restbase1026.eqiad.wmnet.
+180     1H  IN PTR      restbase1026-a.eqiad.wmnet. ; cassandra instance
+181     1H  IN PTR      restbase1026-b.eqiad.wmnet. ; cassandra instance
+182     1H  IN PTR      restbase1026-c.eqiad.wmnet. ; cassandra instance
+183     1H  IN PTR      restbase1027.eqiad.wmnet.
+184     1H  IN PTR      restbase1027-a.eqiad.wmnet. ; cassandra instance
+185     1H  IN PTR      restbase1027-b.eqiad.wmnet. ; cassandra instance
+186     1H  IN PTR      restbase1027-c.eqiad.wmnet. ; cassandra instance
 
 
 $ORIGIN 49.64.@Z
