@@ -4380,18 +4380,7 @@ $ORIGIN 2.193.@Z
 5   1H IN PTR  wmf3723.mgmt.codfw.wmnet.
 6   1H IN PTR  maps-test2004.mgmt.codfw.wmnet.
 6   1H IN PTR  wmf3726.mgmt.codfw.wmnet.
-7   1H IN PTR  osm-db2001.mgmt.codfw.wmnet.
-7   1H IN PTR  wmf3725.mgmt.codfw.wmnet.
-8   1H IN PTR  osm-db2002.mgmt.codfw.wmnet.
-8   1H IN PTR  wmf3727.mgmt.codfw.wmnet.
-9   1H IN PTR  osm-web2001.mgmt.codfw.wmnet.
-9   1H IN PTR  wmf3731.mgmt.codfw.wmnet.
-10  1H IN PTR  osm-web2002.mgmt.codfw.wmnet.
-10  1H IN PTR  wmf3732.mgmt.codfw.wmnet.
-11  1H IN PTR  osm-web2003.mgmt.codfw.wmnet.
-11  1H IN PTR  wmf3733.mgmt.codfw.wmnet.
-12  1H IN PTR  osm-web2004.mgmt.codfw.wmnet.
-12  1H IN PTR  wmf3734.mgmt.codfw.wmnet.
+
 13  1H IN PTR  stat2001.mgmt.codfw.wmnet.
 13  1H IN PTR  wmf3903.mgmt.codfw.wmnet.
 14  1H IN PTR  graphite2001.mgmt.codfw.wmnet.
