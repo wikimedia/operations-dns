@@ -4372,14 +4372,6 @@ $ORIGIN 2.193.@Z
 
 2   1H IN PTR  elastic2044.mgmt.codfw.wmnet.
 2   1H IN PTR  wmf6686.mgmt.codfw.wmnet.
-3   1H IN PTR  maps-test2001.mgmt.codfw.wmnet.
-3   1H IN PTR  wmf3722.mgmt.codfw.wmnet.
-4   1H IN PTR  maps-test2002.mgmt.codfw.wmnet.
-4   1H IN PTR  wmf3724.mgmt.codfw.wmnet.
-5   1H IN PTR  maps-test2003.mgmt.codfw.wmnet.
-5   1H IN PTR  wmf3723.mgmt.codfw.wmnet.
-6   1H IN PTR  maps-test2004.mgmt.codfw.wmnet.
-6   1H IN PTR  wmf3726.mgmt.codfw.wmnet.
 
 13  1H IN PTR  stat2001.mgmt.codfw.wmnet.
 13  1H IN PTR  wmf3903.mgmt.codfw.wmnet.

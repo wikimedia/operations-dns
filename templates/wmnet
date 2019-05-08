@@ -4090,10 +4090,6 @@ maps2001        1H  IN A    10.193.3.8
 maps2002        1H  IN A    10.193.3.9
 maps2003        1H  IN A    10.193.3.10
 maps2004        1H  IN A    10.193.3.11
-maps-test2001   1H  IN A    10.193.2.3
-maps-test2002   1H  IN A    10.193.2.4
-maps-test2003   1H  IN A    10.193.2.5
-maps-test2004   1H  IN A    10.193.2.6
 netmon2001      1H  IN A    10.193.1.41
 ores2001        1H  IN A    10.193.1.190
 ores2002        1H  IN A    10.193.1.191
@@ -4191,10 +4187,6 @@ wmf3657         1H  IN A    10.193.1.63
 wmf3654         1H  IN A    10.193.2.244
 wmf3656         1H  IN A    10.193.2.245
 wmf3662         1H  IN A    10.192.1.12
-wmf3722         1H  IN A    10.193.2.3
-wmf3723         1H  IN A    10.193.2.5
-wmf3724         1H  IN A    10.193.2.4
-wmf3726         1H  IN A    10.193.2.6
 wmf3762         1H  IN A    10.195.0.111
 wmf3903         1H  IN A    10.193.2.13
 wmf5716         1H  IN A    10.193.1.71
