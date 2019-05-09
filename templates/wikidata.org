@@ -37,13 +37,13 @@
 ; Servers (alphabetic order)
 
 ; Service aliases
-query       1H IN CNAME www.wikipedia.org.
+query       1H IN CNAME dyna.wikimedia.org.
 
 ; Wikis (alphabetic order)
 
-test        1H IN CNAME www.wikipedia.org.
-www         1H IN CNAME www.wikipedia.org.
+test        1H IN CNAME dyna.wikimedia.org.
+www         1H IN CNAME dyna.wikimedia.org.
 
 ; Mobile
-m           1H IN CNAME www.wikipedia.org.
-test.m      1H IN CNAME www.wikipedia.org.
+m           1H IN CNAME dyna.wikimedia.org.
+test.m      1H IN CNAME dyna.wikimedia.org.

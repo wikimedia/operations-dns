@@ -40,10 +40,10 @@
 
 ; Wikis (alphabetic order)
 
-www         1H IN CNAME www.wikipedia.org.
+www         1H IN CNAME dyna.wikimedia.org.
 
 ; All languages will automatically be included here
 {% include "helpers/langlist.tmpl" %}
 
 ; Mobile
-m           1H IN CNAME www.wikipedia.org.
+m           1H IN CNAME dyna.wikimedia.org.
