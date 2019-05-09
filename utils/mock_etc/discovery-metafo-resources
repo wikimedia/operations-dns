@@ -4,8 +4,9 @@
 # deployed it to all authdns servers via the puppet agent!
 # ------------------------------------------------------------------------
 # mock active-passive entries by copying here and changing name
-disc-appservers-rw  => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
-disc-api-rw         => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
-disc-jobrunner      => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
-disc-videoscaler    => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
-disc-swift-rw       => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
+disc-appservers-rw       => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
+disc-api-rw              => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
+disc-jobrunner           => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
+disc-videoscaler         => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
+disc-swift-rw            => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
+disc-docker-registry     => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }

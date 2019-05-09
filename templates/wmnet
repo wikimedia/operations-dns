@@ -5277,10 +5277,9 @@ wdqs-internal  300/10 IN DYNA geoip!disc-wdqs-internal
 zotero         300/10 IN DYNA geoip!disc-zotero
 blubberoid     300/10 IN DYNA geoip!disc-blubberoid
 eventgate-analytics 300/10 IN DYNA geoip!disc-eventgate-analytics
+docker-registry 300/10 IN DYNA metafo!disc-docker-registry
 
 debmonitor      300 IN CNAME debmonitor1001.eqiad.wmnet.
-; Will become a proper discovery endpoint once we add more registries
-docker-registry 300 IN CNAME darmstadtium.eqiad.wmnet.
 
 ; Internal Anycast addresses (10.3.0.0/24)
 
