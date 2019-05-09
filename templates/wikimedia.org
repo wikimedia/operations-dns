@@ -66,6 +66,17 @@ corp        1D  IN NS   ns2.corp
 ns1.corp    1H  IN A    198.73.209.15
 ns2.corp    1H  IN A    198.73.209.16
 
+; "dyna.wikimedia.org." is the focal point of CNAMEs across all our zones for
+; most cases that ultimately map to text-addrs.  By using longer-TTL CNAMEs
+; pointing to the dynamic short-TTL entry here, we increase DNS cache hitrates
+; in the general case across all languages/projects, especially when
+; considering edns client subnet fragmentation.  Some exceptions still need
+; their own DYNA record rather than a CNAME, such as zone root entries and any
+; name which has other metadata alongside its addresses (e.g. MX, SPF, DMARC).
+; (www.wikipedia.org was a better/previous choice, but it was moved here due to
+; interactions with selective CN censorhsip at the DNS level)
+dyna            600 IN DYNA geoip!text-addrs
+
 dumps           5M  IN CNAME labstore1007
 
 lists           5M  IN A    208.80.154.21
