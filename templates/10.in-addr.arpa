@@ -54,6 +54,7 @@ $ORIGIN 1.2.@Z
 42  1H  IN PTR  eventgate-analytics.svc.codfw.wmnet.
 43  1H  IN PTR  schema.svc.codfw.wmnet.
 44  1H  IN PTR  docker-registry.svc.codfw.wmnet.
+45  1H  IN PTR  eventgate-main.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -98,6 +99,7 @@ $ORIGIN 2.2.@Z
 42  1H  IN PTR  eventgate-analytics.svc.eqiad.wmnet.
 43  1H  IN PTR  schema.svc.eqiad.wmnet.
 44  1H  IN PTR  docker-registry.svc.eqiad.wmnet.
+45  1H  IN PTR  eventgate-main.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
