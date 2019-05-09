@@ -36,15 +36,6 @@ _dmarc                  600     IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dm
 @                       600     IN CAA 0 issue "letsencrypt.org"
 @                       600     IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
-; "www.wikipedia.org." is the focal point of CNAMEs across all our zones for
-; most cases that ultimately map to text-addrs.  By using longer-TTL CNAMEs
-; pointing to the dynamic short-TTL entry here, we increase DNS cache hitrates
-; in the general case across all languages/projects, especially when
-; considering edns client subnet fragmentation.  Some exceptions still need
-; their own DYNA record rather than a CNAME, such as zone root entries and any
-; name which has other metadata alongside its addresses (e.g. MX, SPF, DMARC).
-www                     600 IN DYNA geoip!text-addrs
-
 ; Wikis (alphabetic order), which are not covered by langlist.tmpl
 
 arbcom-cs               1H IN CNAME dyna.wikimedia.org.
@@ -74,6 +65,7 @@ test.m                  1H IN CNAME dyna.wikimedia.org.
 test2.m                 1H IN CNAME dyna.wikimedia.org.
 textbook                1H IN CNAME dyna.wikimedia.org.
 wg-en                   1H IN CNAME dyna.wikimedia.org.
+www                     1H IN CNAME dyna.wikimedia.org.
 zh-tw                   1H IN CNAME dyna.wikimedia.org.
 
 ; All languages will automatically be included here.
