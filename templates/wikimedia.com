@@ -34,7 +34,7 @@
 
 ; Wikis (alphabetic order)
 
-www         1H IN CNAME dyna.wikimedia.org.
+www         1D IN CNAME dyna.wikimedia.org.
 
 ; All languages will automatically be included here
 {% include "helpers/langlist.tmpl" %}

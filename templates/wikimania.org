@@ -30,5 +30,5 @@
 
 ; Service aliases
 
-www         1H IN CNAME dyna.wikimedia.org.
+www         1D IN CNAME dyna.wikimedia.org.
 

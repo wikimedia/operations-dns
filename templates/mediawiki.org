@@ -40,17 +40,17 @@
 
 ; Wikis (alphabetic order)
 
-www             1H IN CNAME dyna.wikimedia.org.
-wiki            1H IN CNAME dyna.wikimedia.org.
-bugzilla        1H IN CNAME dyna.wikimedia.org.
-bugs            1H IN CNAME dyna.wikimedia.org.
+www             1D IN CNAME dyna.wikimedia.org.
+wiki            1D IN CNAME dyna.wikimedia.org.
+bugzilla        1D IN CNAME dyna.wikimedia.org.
+bugs            1D IN CNAME dyna.wikimedia.org.
 
 ; Other websites
-doc             1H IN CNAME dyna.wikimedia.org.
-docs            1H IN CNAME dyna.wikimedia.org.
-download        1H IN CNAME dyna.wikimedia.org.
-integration     1H IN CNAME dyna.wikimedia.org.
-svn             1H IN CNAME dyna.wikimedia.org.
+doc             1D IN CNAME dyna.wikimedia.org.
+docs            1D IN CNAME dyna.wikimedia.org.
+download        1D IN CNAME dyna.wikimedia.org.
+integration     1D IN CNAME dyna.wikimedia.org.
+svn             1D IN CNAME dyna.wikimedia.org.
 
 ; Mobile
-m               1H IN CNAME dyna.wikimedia.org.
+m               1D IN CNAME dyna.wikimedia.org.

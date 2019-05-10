@@ -40,12 +40,12 @@
 
 ; Wikis (alphabetic order)
 
-beta        1H IN CNAME dyna.wikimedia.org.
-beta.m      1H IN CNAME dyna.wikimedia.org.
-www         1H IN CNAME dyna.wikimedia.org.
+beta        1D IN CNAME dyna.wikimedia.org.
+beta.m      1D IN CNAME dyna.wikimedia.org.
+www         1D IN CNAME dyna.wikimedia.org.
 
 ; All languages will automatically be included here.
 {% include "helpers/langlist.tmpl" %}
 
 ; Mobile
-m           1H IN CNAME dyna.wikimedia.org.
+m           1D IN CNAME dyna.wikimedia.org.

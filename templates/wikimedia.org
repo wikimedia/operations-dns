@@ -93,10 +93,10 @@ recursor1       1H  IN A    91.198.174.216  ; esams LVS (dns-rec-lb)
 
 ; Geodynamic records
 reflect      10 IN DYNA reflect ; GeoDNS debugging
-text-lb     1H IN CNAME dyna.wikimedia.org.
+text-lb     1D IN CNAME dyna.wikimedia.org.
 upload      600 IN DYNA geoip!upload-addrs
-maps        1H IN CNAME upload.wikimedia.org.
-m           1H IN CNAME dyna.wikimedia.org.
+maps        1D IN CNAME upload.wikimedia.org.
+m           1D IN CNAME dyna.wikimedia.org.
 donate      600 IN DYNA geoip!text-addrs
 donate          1H  IN MX       10 mx1001
 donate          1H  IN MX       50 mx2001
@@ -320,13 +320,13 @@ dns-rec-lb.eqiad    1H IN A    208.80.154.254
 dns-rec-lb.eqiad    1H IN AAAA 2620:0:861:ed1a::3:fe
 
 ; These legacy entries should eventually move to RESTBase
-cxserver            1H IN CNAME dyna.wikimedia.org.
+cxserver            1D IN CNAME dyna.wikimedia.org.
 
 ; ORES
-ores                1H IN CNAME dyna.wikimedia.org.
+ores                1D IN CNAME dyna.wikimedia.org.
 
 ; blubberoid
-blubberoid          1H IN CNAME dyna.wikimedia.org.
+blubberoid          1D IN CNAME dyna.wikimedia.org.
 
 git-ssh.eqiad       1H  IN A    208.80.154.250
 git-ssh.eqiad       1H  IN AAAA 2620:0:861:ed1a::3:16
@@ -388,82 +388,82 @@ dns-rec-lb.esams    1H IN AAAA 2620:0:862:ed1a::3:fe
 
 ; Mobile
 
-advisory.m          1H IN CNAME dyna.wikimedia.org.
-am.m                1H IN CNAME dyna.wikimedia.org.
-ar.m                1H IN CNAME dyna.wikimedia.org.
-bd.m                1H IN CNAME dyna.wikimedia.org.
-be.m                1H IN CNAME dyna.wikimedia.org.
-br.m                1H IN CNAME dyna.wikimedia.org.
-ca.m                1H IN CNAME dyna.wikimedia.org.
-chapcom.m           1H IN CNAME dyna.wikimedia.org.
-checkuser.m         1H IN CNAME dyna.wikimedia.org.
-cn.m                1H IN CNAME dyna.wikimedia.org.
-co.m                1H IN CNAME dyna.wikimedia.org.
-commons.m           1H IN CNAME dyna.wikimedia.org.
-dk.m                1H IN CNAME dyna.wikimedia.org.
-ec.m                1H IN CNAME dyna.wikimedia.org.
-ee.m                1H IN CNAME dyna.wikimedia.org.
-electcom.m          1H IN CNAME dyna.wikimedia.org.
-et.m                1H IN CNAME dyna.wikimedia.org.
-id.m                1H IN CNAME dyna.wikimedia.org.
-initiatives.m       1H IN CNAME dyna.wikimedia.org.
-id-internal.m       1H IN CNAME dyna.wikimedia.org.
-incubator.m         1H IN CNAME dyna.wikimedia.org.
-fdc.m               1H IN CNAME dyna.wikimedia.org.
-fixcopyright.m      1H IN CNAME dyna.wikimedia.org.
-foundation.m        1H IN CNAME dyna.wikimedia.org.
-fi.m                1H IN CNAME dyna.wikimedia.org.
-hi.m                1H IN CNAME dyna.wikimedia.org.
-legalteam.m         1H IN CNAME dyna.wikimedia.org.
-mai.m               1H IN CNAME dyna.wikimedia.org.
-meta.m              1H IN CNAME dyna.wikimedia.org.
-mk.m                1H IN CNAME dyna.wikimedia.org.
-mx.m                1H IN CNAME dyna.wikimedia.org.
-nl.m                1H IN CNAME dyna.wikimedia.org.
-no.m                1H IN CNAME dyna.wikimedia.org.
-nostalgia.m         1H IN CNAME dyna.wikimedia.org.
-nyc.m               1H IN CNAME dyna.wikimedia.org.
-nz.m                1H IN CNAME dyna.wikimedia.org.
-office.m            1H IN CNAME dyna.wikimedia.org.
-otrs-wiki.m         1H IN CNAME dyna.wikimedia.org.
-outreach.m          1H IN CNAME dyna.wikimedia.org.
-quality.m           1H IN CNAME dyna.wikimedia.org.
-pa-us.m             1H IN CNAME dyna.wikimedia.org.
-pl.m                1H IN CNAME dyna.wikimedia.org.
-pt.m                1H IN CNAME dyna.wikimedia.org.
-punjabi.m           1H IN CNAME dyna.wikimedia.org.
-rs.m                1H IN CNAME dyna.wikimedia.org.
-romd.m              1H IN CNAME dyna.wikimedia.org.
-ru.m                1H IN CNAME dyna.wikimedia.org.
-se.m                1H IN CNAME dyna.wikimedia.org.
-species.m           1H IN CNAME dyna.wikimedia.org.
-steward.m           1H IN CNAME dyna.wikimedia.org.
-strategy.m          1H IN CNAME dyna.wikimedia.org.
-test-commons.m      1H IN CNAME dyna.wikimedia.org.
-tr.m                1H IN CNAME dyna.wikimedia.org.
-ua.m                1H IN CNAME dyna.wikimedia.org.
-usability.m         1H IN CNAME dyna.wikimedia.org.
-ve.m                1H IN CNAME dyna.wikimedia.org.
-vote.m              1H IN CNAME dyna.wikimedia.org.
-wb.m                1H IN CNAME dyna.wikimedia.org.
-wikimania.m         1H IN CNAME dyna.wikimedia.org.
-wikimania2005.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2006.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2007.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2008.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2009.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2010.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2011.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2012.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2013.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2014.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2015.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2016.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2017.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2018.m     1H IN CNAME dyna.wikimedia.org.
-wikimania2019.m     1H IN CNAME dyna.wikimedia.org.
-wikimaniateam.m     1H IN CNAME dyna.wikimedia.org.
-za.m                1H IN CNAME dyna.wikimedia.org.
+advisory.m          1D IN CNAME dyna.wikimedia.org.
+am.m                1D IN CNAME dyna.wikimedia.org.
+ar.m                1D IN CNAME dyna.wikimedia.org.
+bd.m                1D IN CNAME dyna.wikimedia.org.
+be.m                1D IN CNAME dyna.wikimedia.org.
+br.m                1D IN CNAME dyna.wikimedia.org.
+ca.m                1D IN CNAME dyna.wikimedia.org.
+chapcom.m           1D IN CNAME dyna.wikimedia.org.
+checkuser.m         1D IN CNAME dyna.wikimedia.org.
+cn.m                1D IN CNAME dyna.wikimedia.org.
+co.m                1D IN CNAME dyna.wikimedia.org.
+commons.m           1D IN CNAME dyna.wikimedia.org.
+dk.m                1D IN CNAME dyna.wikimedia.org.
+ec.m                1D IN CNAME dyna.wikimedia.org.
+ee.m                1D IN CNAME dyna.wikimedia.org.
+electcom.m          1D IN CNAME dyna.wikimedia.org.
+et.m                1D IN CNAME dyna.wikimedia.org.
+id.m                1D IN CNAME dyna.wikimedia.org.
+initiatives.m       1D IN CNAME dyna.wikimedia.org.
+id-internal.m       1D IN CNAME dyna.wikimedia.org.
+incubator.m         1D IN CNAME dyna.wikimedia.org.
+fdc.m               1D IN CNAME dyna.wikimedia.org.
+fixcopyright.m      1D IN CNAME dyna.wikimedia.org.
+foundation.m        1D IN CNAME dyna.wikimedia.org.
+fi.m                1D IN CNAME dyna.wikimedia.org.
+hi.m                1D IN CNAME dyna.wikimedia.org.
+legalteam.m         1D IN CNAME dyna.wikimedia.org.
+mai.m               1D IN CNAME dyna.wikimedia.org.
+meta.m              1D IN CNAME dyna.wikimedia.org.
+mk.m                1D IN CNAME dyna.wikimedia.org.
+mx.m                1D IN CNAME dyna.wikimedia.org.
+nl.m                1D IN CNAME dyna.wikimedia.org.
+no.m                1D IN CNAME dyna.wikimedia.org.
+nostalgia.m         1D IN CNAME dyna.wikimedia.org.
+nyc.m               1D IN CNAME dyna.wikimedia.org.
+nz.m                1D IN CNAME dyna.wikimedia.org.
+office.m            1D IN CNAME dyna.wikimedia.org.
+otrs-wiki.m         1D IN CNAME dyna.wikimedia.org.
+outreach.m          1D IN CNAME dyna.wikimedia.org.
+quality.m           1D IN CNAME dyna.wikimedia.org.
+pa-us.m             1D IN CNAME dyna.wikimedia.org.
+pl.m                1D IN CNAME dyna.wikimedia.org.
+pt.m                1D IN CNAME dyna.wikimedia.org.
+punjabi.m           1D IN CNAME dyna.wikimedia.org.
+rs.m                1D IN CNAME dyna.wikimedia.org.
+romd.m              1D IN CNAME dyna.wikimedia.org.
+ru.m                1D IN CNAME dyna.wikimedia.org.
+se.m                1D IN CNAME dyna.wikimedia.org.
+species.m           1D IN CNAME dyna.wikimedia.org.
+steward.m           1D IN CNAME dyna.wikimedia.org.
+strategy.m          1D IN CNAME dyna.wikimedia.org.
+test-commons.m      1D IN CNAME dyna.wikimedia.org.
+tr.m                1D IN CNAME dyna.wikimedia.org.
+ua.m                1D IN CNAME dyna.wikimedia.org.
+usability.m         1D IN CNAME dyna.wikimedia.org.
+ve.m                1D IN CNAME dyna.wikimedia.org.
+vote.m              1D IN CNAME dyna.wikimedia.org.
+wb.m                1D IN CNAME dyna.wikimedia.org.
+wikimania.m         1D IN CNAME dyna.wikimedia.org.
+wikimania2005.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2006.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2007.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2008.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2009.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2010.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2011.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2012.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2013.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2014.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2015.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2016.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2017.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2018.m     1D IN CNAME dyna.wikimedia.org.
+wikimania2019.m     1D IN CNAME dyna.wikimedia.org.
+wikimaniateam.m     1D IN CNAME dyna.wikimedia.org.
+za.m                1D IN CNAME dyna.wikimedia.org.
 
 ; Networking
 cr1-eqiad       1H  IN A    208.80.154.196
@@ -570,7 +570,7 @@ pfw3-codfw      1H  IN A     208.80.153.197
 
 ; Service aliases (alphabetical order)
 
-annual          1H IN CNAME dyna.wikimedia.org.
+annual          1D IN CNAME dyna.wikimedia.org.
 
 apt             300  IN CNAME   install1002
 
@@ -584,28 +584,28 @@ mandrill._domainkey.benefactors 1H IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQE
 
 
 ; Mexico Awareness Campaign (T207816)
-bienvenida      1H IN CNAME dyna.wikimedia.org.
+bienvenida      1D IN CNAME dyna.wikimedia.org.
 
-cache           1H IN CNAME dyna.wikimedia.org.
+cache           1D IN CNAME dyna.wikimedia.org.
 
-config-master   1H IN CNAME dyna.wikimedia.org.
+config-master   1D IN CNAME dyna.wikimedia.org.
 
 dash.frdev      1H  IN CNAME    frdev-eqiad
 
-design          1H IN CNAME dyna.wikimedia.org.
+design          1D IN CNAME dyna.wikimedia.org.
 
 dbmonitor1001   600 IN A        208.80.154.82 ; VM on ganeti01.svc.eqiad.wmnet
 dbmonitor1001   600 IN AAAA     2620:0:861:3:208:80:154:82 ; VM on ganeti01.svc.eqiad.wmnet
 dbmonitor2001   600 IN A        208.80.153.52 ; VM on ganeti01.svc.codfw.wmnet
 dbmonitor2001   600 IN AAAA     2620:0:860:2:208:80:153:52 ; VM on ganeti01.svc.codfw.wmnet
-dbtree          1H IN CNAME dyna.wikimedia.org.
+dbtree          1D IN CNAME dyna.wikimedia.org.
 
-debmonitor      1H IN CNAME dyna.wikimedia.org.
+debmonitor      1D IN CNAME dyna.wikimedia.org.
 
-dev             1H IN CNAME dyna.wikimedia.org.
-doc             1H IN CNAME dyna.wikimedia.org.
-docker-registry 1H IN CNAME dyna.wikimedia.org.
-docs            1H IN CNAME dyna.wikimedia.org.
+dev             1D IN CNAME dyna.wikimedia.org.
+doc             1D IN CNAME dyna.wikimedia.org.
+docker-registry 1D IN CNAME dyna.wikimedia.org.
+docs            1D IN CNAME dyna.wikimedia.org.
 
 ldap-corp.eqiad 1H  IN CNAME    dubnium
 ldap-corp.codfw 1H  IN CNAME    pollux
@@ -623,22 +623,22 @@ gerrit          600 IN A        208.80.154.85
 gerrit          600 IN AAAA     2620:0:861:3:208:80:154:85
 gerrit-slave    600 IN A        208.80.153.107
 gerrit-slave    600 IN AAAA     2620:0:860:4:208:80:153:107
-git             1H IN CNAME dyna.wikimedia.org.
-graphite        1H IN CNAME dyna.wikimedia.org.
-graphite-labs   1H IN CNAME dyna.wikimedia.org.
-grafana         1H IN CNAME dyna.wikimedia.org.
-grafana-beta         1H IN CNAME dyna.wikimedia.org.
-grafana-labs         1H IN CNAME dyna.wikimedia.org.
-grafana-labs-admin   1H IN CNAME dyna.wikimedia.org.
-parsoid-rt-tests     1H IN CNAME dyna.wikimedia.org.
-parsoid-vd-tests     1H IN CNAME dyna.wikimedia.org.
-performance     1H IN CNAME dyna.wikimedia.org.
-horizon         1H IN CNAME dyna.wikimedia.org.
-wikitech        1H IN CNAME dyna.wikimedia.org.
+git             1D IN CNAME dyna.wikimedia.org.
+graphite        1D IN CNAME dyna.wikimedia.org.
+graphite-labs   1D IN CNAME dyna.wikimedia.org.
+grafana         1D IN CNAME dyna.wikimedia.org.
+grafana-beta         1D IN CNAME dyna.wikimedia.org.
+grafana-labs         1D IN CNAME dyna.wikimedia.org.
+grafana-labs-admin   1D IN CNAME dyna.wikimedia.org.
+parsoid-rt-tests     1D IN CNAME dyna.wikimedia.org.
+parsoid-vd-tests     1D IN CNAME dyna.wikimedia.org.
+performance     1D IN CNAME dyna.wikimedia.org.
+horizon         1D IN CNAME dyna.wikimedia.org.
+wikitech        1D IN CNAME dyna.wikimedia.org.
 
 icinga          5M  IN CNAME    icinga1001
 
-integration     1H IN CNAME dyna.wikimedia.org.
+integration     1D IN CNAME dyna.wikimedia.org.
 irc             1H  IN CNAME    kraz
 
 ldap-eqiad      1H  IN CNAME    seaborgium
@@ -649,12 +649,12 @@ phabricator     1H  IN MX       10 mx1001
 phabricator     1H  IN MX       50 mx2001
 phabricator     1H  IN TXT      "v=spf1 mx ip6:2620:0:861:102:10:64:16:8 ip6:2620:0:860:103:10:192:32:147 -all"
 
-login           1H IN CNAME dyna.wikimedia.org.
+login           1D IN CNAME dyna.wikimedia.org.
 
 librenms        1H  IN CNAME    netmon1002
 netbox          1H  IN CNAME    netmon1002
 
-servermon       1H IN CNAME dyna.wikimedia.org.
+servermon       1D IN CNAME dyna.wikimedia.org.
 
 payments        5M  IN CNAME    payments-codfw
 payments.frdev  5M  IN CNAME    payments-codfw
@@ -665,9 +665,9 @@ payments-listener-eqiad 1H  IN A    208.80.155.12
 payments-listener-codfw 1H  IN A    208.80.152.233
 payments-listener       5M  IN CNAME        payments-listener-eqiad
 
-people          1H IN CNAME dyna.wikimedia.org.
+people          1D IN CNAME dyna.wikimedia.org.
 
-piwik           1H IN CNAME dyna.wikimedia.org.
+piwik           1D IN CNAME dyna.wikimedia.org.
 
 ; policy.wikimedia.org goes to wordpress cluster T110203
 policy          5M  IN A        192.0.66.2
@@ -684,12 +684,12 @@ policy          5M  IN CAA 0 issuewild "globalsign.com"
 policy          5M  IN CAA 0 issuewild "letsencrypt.org"
 policy          5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
-puppetboard      1H IN CNAME dyna.wikimedia.org.
+puppetboard      1D IN CNAME dyna.wikimedia.org.
 
-releases         1H IN CNAME dyna.wikimedia.org.
-releases-jenkins 1H IN CNAME dyna.wikimedia.org.
+releases         1D IN CNAME dyna.wikimedia.org.
+releases-jenkins 1D IN CNAME dyna.wikimedia.org.
 
-research         1H IN CNAME dyna.wikimedia.org.
+research         1D IN CNAME dyna.wikimedia.org.
 
 reports.frdev   1H  IN CNAME    frdev-eqiad
 
@@ -697,15 +697,15 @@ rt              600 IN DYNA     geoip!text-addrs
 rt              1H  IN MX       10 mx1001
 rt              1H  IN MX       50 mx2001
 
-secure          1H IN CNAME dyna.wikimedia.org.
+secure          1D IN CNAME dyna.wikimedia.org.
 
-sitemaps        1H IN CNAME dyna.wikimedia.org.
+sitemaps        1D IN CNAME dyna.wikimedia.org.
 
-stream          1H IN CNAME dyna.wikimedia.org.
+stream          1D IN CNAME dyna.wikimedia.org.
 
-svn             1H IN CNAME dyna.wikimedia.org.
+svn             1D IN CNAME dyna.wikimedia.org.
 
-toolsadmin      1H IN CNAME dyna.wikimedia.org.
+toolsadmin      1D IN CNAME dyna.wikimedia.org.
 
 wiki-mail-eqiad 1H  IN A        208.80.154.91
 wiki-mail-eqiad 1H  IN AAAA     2620:0:861:3:208:80:154:91
@@ -718,124 +718,124 @@ url-downloader        1H  IN CNAME      url-downloader.eqiad
 
 ; Wikis (alphabetic order)
 
-advisors         1H IN CNAME dyna.wikimedia.org.
-advisory         1H IN CNAME dyna.wikimedia.org.
-affcom           1H IN CNAME dyna.wikimedia.org.
-am               1H IN CNAME dyna.wikimedia.org.
-auditcom         1H IN CNAME dyna.wikimedia.org.
-ar               1H IN CNAME dyna.wikimedia.org.
-bd               1H IN CNAME dyna.wikimedia.org.
-be               1H IN CNAME dyna.wikimedia.org.
-board            1H IN CNAME dyna.wikimedia.org.
-boardgovcom      1H IN CNAME dyna.wikimedia.org.
-bookshelf        1H IN CNAME dyna.wikimedia.org.
-br               1H IN CNAME dyna.wikimedia.org.
-ca               1H IN CNAME dyna.wikimedia.org.
-ch               1H IN CNAME dyna.wikimedia.org.
-chair            1H IN CNAME dyna.wikimedia.org.
-chapcom          1H IN CNAME dyna.wikimedia.org.
-checkuser        1H IN CNAME dyna.wikimedia.org.
-cn               1H IN CNAME dyna.wikimedia.org.
-co               1H IN CNAME dyna.wikimedia.org.
-collab           1H IN CNAME dyna.wikimedia.org.
-comcom           1H IN CNAME dyna.wikimedia.org.
-commons          1H IN CNAME dyna.wikimedia.org.
-dk               1H IN CNAME dyna.wikimedia.org.
-ec               1H IN CNAME dyna.wikimedia.org.
-educacao         1H IN CNAME dyna.wikimedia.org.
-education        1H IN CNAME dyna.wikimedia.org.
-ee               1H IN CNAME dyna.wikimedia.org.
-electcom         1H IN CNAME dyna.wikimedia.org.
-et               1H IN CNAME dyna.wikimedia.org.
-exec             1H IN CNAME dyna.wikimedia.org.
-fdc              1H IN CNAME dyna.wikimedia.org.
-fi               1H IN CNAME dyna.wikimedia.org.
-fixcopyright     1H IN CNAME dyna.wikimedia.org.
-foundation       1H IN CNAME dyna.wikimedia.org.
-grants           1H IN CNAME dyna.wikimedia.org.
-hi               1H IN CNAME dyna.wikimedia.org.
-hu               1H IN CNAME dyna.wikimedia.org.
-id               1H IN CNAME dyna.wikimedia.org.
-id-internal      1H IN CNAME dyna.wikimedia.org.
-iegcom           1H IN CNAME dyna.wikimedia.org.
-il               1H IN CNAME dyna.wikimedia.org.
-incubator        1H IN CNAME dyna.wikimedia.org.
-initiatives      1H IN CNAME dyna.wikimedia.org.
-internal         1H IN CNAME dyna.wikimedia.org.
-it               1H IN CNAME dyna.wikimedia.org.
-kr               1H IN CNAME dyna.wikimedia.org.
-langcom          1H IN CNAME dyna.wikimedia.org.
-legalteam        1H IN CNAME dyna.wikimedia.org.
-mai              1H IN CNAME dyna.wikimedia.org.
-meta             1H IN CNAME dyna.wikimedia.org.
-mk               1H IN CNAME dyna.wikimedia.org.
-movementroles    1H IN CNAME dyna.wikimedia.org.
-mx               1H IN CNAME dyna.wikimedia.org.
-nl               1H IN CNAME dyna.wikimedia.org.
-no               1H IN CNAME dyna.wikimedia.org.
-noboard-chapters 1H IN CNAME dyna.wikimedia.org.
-nostalgia        1H IN CNAME dyna.wikimedia.org.
-nz               1H IN CNAME dyna.wikimedia.org.
-office           1H IN CNAME dyna.wikimedia.org.
-ombudsmen        1H IN CNAME dyna.wikimedia.org.
-otrs-wiki        1H IN CNAME dyna.wikimedia.org.
-outreach         1H IN CNAME dyna.wikimedia.org.
-pa-us            1H IN CNAME dyna.wikimedia.org.
-pt               1H IN CNAME dyna.wikimedia.org.
-punjabi          1H IN CNAME dyna.wikimedia.org.
-pk               1H IN CNAME dyna.wikimedia.org.
-pl               1H IN CNAME dyna.wikimedia.org.
-projectcom       1H IN CNAME dyna.wikimedia.org.
-quality          1H IN CNAME dyna.wikimedia.org.
-romd             1H IN CNAME dyna.wikimedia.org.
-rs               1H IN CNAME dyna.wikimedia.org.
-ru               1H IN CNAME dyna.wikimedia.org.
-se               1H IN CNAME dyna.wikimedia.org.
-searchcom        1H IN CNAME dyna.wikimedia.org.
-spcom            1H IN CNAME dyna.wikimedia.org.
-species          1H IN CNAME dyna.wikimedia.org.
-steward          1H IN CNAME dyna.wikimedia.org.
-strategy         1H IN CNAME dyna.wikimedia.org.
-techconduct      1H IN CNAME dyna.wikimedia.org.
-test-commons     1H IN CNAME dyna.wikimedia.org.
-tr               1H IN CNAME dyna.wikimedia.org.
-transitionteam   1H IN CNAME dyna.wikimedia.org.
-ua               1H IN CNAME dyna.wikimedia.org.
-uk               1H IN CNAME dyna.wikimedia.org.
-usability        1H IN CNAME dyna.wikimedia.org.
-ve               1H IN CNAME dyna.wikimedia.org.
-vote             1H IN CNAME dyna.wikimedia.org.
-wb               1H IN CNAME dyna.wikimedia.org.
-wikimania        1H IN CNAME dyna.wikimedia.org.
-wikimania2005    1H IN CNAME dyna.wikimedia.org.
-wikimania2006    1H IN CNAME dyna.wikimedia.org.
-wikimania2007    1H IN CNAME dyna.wikimedia.org.
-wikimania2008    1H IN CNAME dyna.wikimedia.org.
-wikimania2009    1H IN CNAME dyna.wikimedia.org.
-wikimania2010    1H IN CNAME dyna.wikimedia.org.
-wikimania2011    1H IN CNAME dyna.wikimedia.org.
-wikimania2012    1H IN CNAME dyna.wikimedia.org.
-wikimania2013    1H IN CNAME dyna.wikimedia.org.
-wikimania2014    1H IN CNAME dyna.wikimedia.org.
-wikimania2015    1H IN CNAME dyna.wikimedia.org.
-wikimania2016    1H IN CNAME dyna.wikimedia.org.
-wikimania2017    1H IN CNAME dyna.wikimedia.org.
-wikimania2018    1H IN CNAME dyna.wikimedia.org.
-wikimania2019    1H IN CNAME dyna.wikimedia.org.
-wikimaniateam    1H IN CNAME dyna.wikimedia.org.
+advisors         1D IN CNAME dyna.wikimedia.org.
+advisory         1D IN CNAME dyna.wikimedia.org.
+affcom           1D IN CNAME dyna.wikimedia.org.
+am               1D IN CNAME dyna.wikimedia.org.
+auditcom         1D IN CNAME dyna.wikimedia.org.
+ar               1D IN CNAME dyna.wikimedia.org.
+bd               1D IN CNAME dyna.wikimedia.org.
+be               1D IN CNAME dyna.wikimedia.org.
+board            1D IN CNAME dyna.wikimedia.org.
+boardgovcom      1D IN CNAME dyna.wikimedia.org.
+bookshelf        1D IN CNAME dyna.wikimedia.org.
+br               1D IN CNAME dyna.wikimedia.org.
+ca               1D IN CNAME dyna.wikimedia.org.
+ch               1D IN CNAME dyna.wikimedia.org.
+chair            1D IN CNAME dyna.wikimedia.org.
+chapcom          1D IN CNAME dyna.wikimedia.org.
+checkuser        1D IN CNAME dyna.wikimedia.org.
+cn               1D IN CNAME dyna.wikimedia.org.
+co               1D IN CNAME dyna.wikimedia.org.
+collab           1D IN CNAME dyna.wikimedia.org.
+comcom           1D IN CNAME dyna.wikimedia.org.
+commons          1D IN CNAME dyna.wikimedia.org.
+dk               1D IN CNAME dyna.wikimedia.org.
+ec               1D IN CNAME dyna.wikimedia.org.
+educacao         1D IN CNAME dyna.wikimedia.org.
+education        1D IN CNAME dyna.wikimedia.org.
+ee               1D IN CNAME dyna.wikimedia.org.
+electcom         1D IN CNAME dyna.wikimedia.org.
+et               1D IN CNAME dyna.wikimedia.org.
+exec             1D IN CNAME dyna.wikimedia.org.
+fdc              1D IN CNAME dyna.wikimedia.org.
+fi               1D IN CNAME dyna.wikimedia.org.
+fixcopyright     1D IN CNAME dyna.wikimedia.org.
+foundation       1D IN CNAME dyna.wikimedia.org.
+grants           1D IN CNAME dyna.wikimedia.org.
+hi               1D IN CNAME dyna.wikimedia.org.
+hu               1D IN CNAME dyna.wikimedia.org.
+id               1D IN CNAME dyna.wikimedia.org.
+id-internal      1D IN CNAME dyna.wikimedia.org.
+iegcom           1D IN CNAME dyna.wikimedia.org.
+il               1D IN CNAME dyna.wikimedia.org.
+incubator        1D IN CNAME dyna.wikimedia.org.
+initiatives      1D IN CNAME dyna.wikimedia.org.
+internal         1D IN CNAME dyna.wikimedia.org.
+it               1D IN CNAME dyna.wikimedia.org.
+kr               1D IN CNAME dyna.wikimedia.org.
+langcom          1D IN CNAME dyna.wikimedia.org.
+legalteam        1D IN CNAME dyna.wikimedia.org.
+mai              1D IN CNAME dyna.wikimedia.org.
+meta             1D IN CNAME dyna.wikimedia.org.
+mk               1D IN CNAME dyna.wikimedia.org.
+movementroles    1D IN CNAME dyna.wikimedia.org.
+mx               1D IN CNAME dyna.wikimedia.org.
+nl               1D IN CNAME dyna.wikimedia.org.
+no               1D IN CNAME dyna.wikimedia.org.
+noboard-chapters 1D IN CNAME dyna.wikimedia.org.
+nostalgia        1D IN CNAME dyna.wikimedia.org.
+nz               1D IN CNAME dyna.wikimedia.org.
+office           1D IN CNAME dyna.wikimedia.org.
+ombudsmen        1D IN CNAME dyna.wikimedia.org.
+otrs-wiki        1D IN CNAME dyna.wikimedia.org.
+outreach         1D IN CNAME dyna.wikimedia.org.
+pa-us            1D IN CNAME dyna.wikimedia.org.
+pt               1D IN CNAME dyna.wikimedia.org.
+punjabi          1D IN CNAME dyna.wikimedia.org.
+pk               1D IN CNAME dyna.wikimedia.org.
+pl               1D IN CNAME dyna.wikimedia.org.
+projectcom       1D IN CNAME dyna.wikimedia.org.
+quality          1D IN CNAME dyna.wikimedia.org.
+romd             1D IN CNAME dyna.wikimedia.org.
+rs               1D IN CNAME dyna.wikimedia.org.
+ru               1D IN CNAME dyna.wikimedia.org.
+se               1D IN CNAME dyna.wikimedia.org.
+searchcom        1D IN CNAME dyna.wikimedia.org.
+spcom            1D IN CNAME dyna.wikimedia.org.
+species          1D IN CNAME dyna.wikimedia.org.
+steward          1D IN CNAME dyna.wikimedia.org.
+strategy         1D IN CNAME dyna.wikimedia.org.
+techconduct      1D IN CNAME dyna.wikimedia.org.
+test-commons     1D IN CNAME dyna.wikimedia.org.
+tr               1D IN CNAME dyna.wikimedia.org.
+transitionteam   1D IN CNAME dyna.wikimedia.org.
+ua               1D IN CNAME dyna.wikimedia.org.
+uk               1D IN CNAME dyna.wikimedia.org.
+usability        1D IN CNAME dyna.wikimedia.org.
+ve               1D IN CNAME dyna.wikimedia.org.
+vote             1D IN CNAME dyna.wikimedia.org.
+wb               1D IN CNAME dyna.wikimedia.org.
+wikimania        1D IN CNAME dyna.wikimedia.org.
+wikimania2005    1D IN CNAME dyna.wikimedia.org.
+wikimania2006    1D IN CNAME dyna.wikimedia.org.
+wikimania2007    1D IN CNAME dyna.wikimedia.org.
+wikimania2008    1D IN CNAME dyna.wikimedia.org.
+wikimania2009    1D IN CNAME dyna.wikimedia.org.
+wikimania2010    1D IN CNAME dyna.wikimedia.org.
+wikimania2011    1D IN CNAME dyna.wikimedia.org.
+wikimania2012    1D IN CNAME dyna.wikimedia.org.
+wikimania2013    1D IN CNAME dyna.wikimedia.org.
+wikimania2014    1D IN CNAME dyna.wikimedia.org.
+wikimania2015    1D IN CNAME dyna.wikimedia.org.
+wikimania2016    1D IN CNAME dyna.wikimedia.org.
+wikimania2017    1D IN CNAME dyna.wikimedia.org.
+wikimania2018    1D IN CNAME dyna.wikimedia.org.
+wikimania2019    1D IN CNAME dyna.wikimedia.org.
+wikimaniateam    1D IN CNAME dyna.wikimedia.org.
 
-www              1H IN CNAME dyna.wikimedia.org.
-za               1H IN CNAME dyna.wikimedia.org.
-zero             1H IN CNAME dyna.wikimedia.org.
+www              1D IN CNAME dyna.wikimedia.org.
+za               1D IN CNAME dyna.wikimedia.org.
+zero             1D IN CNAME dyna.wikimedia.org.
 
 ; Other websites (NO wikis!)
-2030             1H IN CNAME dyna.wikimedia.org.
-analytics        1H IN CNAME dyna.wikimedia.org.
+2030             1D IN CNAME dyna.wikimedia.org.
+analytics        1D IN CNAME dyna.wikimedia.org.
 blog             1H  IN CNAME    wikimediablog.wordpress.com.
-bugs             1H IN CNAME dyna.wikimedia.org.
-bugzilla         1H IN CNAME dyna.wikimedia.org.
-bug-attachment   1H IN CNAME dyna.wikimedia.org.
-careers          1H IN CNAME dyna.wikimedia.org.
+bugs             1D IN CNAME dyna.wikimedia.org.
+bugzilla         1D IN CNAME dyna.wikimedia.org.
+bug-attachment   1D IN CNAME dyna.wikimedia.org.
+careers          1D IN CNAME dyna.wikimedia.org.
 gh-mail          1H  IN MX       10 mxa.mailgun.org.
 gh-mail          1H  IN MX       10 mxb.mailgun.org.
 gh-mail          1H  IN TXT  "v=spf1 include:mg-spf.greenhouse.io ~all"
@@ -844,77 +844,77 @@ civicrm          1H  IN MX       10 mx1001
 civicrm          1H  IN MX       50 mx2001
 civicrm.frdev    1H  IN CNAME    frdev-eqiad
 civicrm-codfw    1H  IN A        208.80.152.232
-coffee           1H IN CNAME dyna.wikimedia.org.
-cs               1H IN CNAME dyna.wikimedia.org.
-cz               1H IN CNAME dyna.wikimedia.org.
-datasets         1H IN CNAME dyna.wikimedia.org.
-download         1H IN CNAME dyna.wikimedia.org.
-etherpad         1H IN CNAME dyna.wikimedia.org.
+coffee           1D IN CNAME dyna.wikimedia.org.
+cs               1D IN CNAME dyna.wikimedia.org.
+cz               1D IN CNAME dyna.wikimedia.org.
+datasets         1D IN CNAME dyna.wikimedia.org.
+download         1D IN CNAME dyna.wikimedia.org.
+etherpad         1D IN CNAME dyna.wikimedia.org.
 fundraising      1H  IN CNAME    fundraising-eqiad
-hue              1H IN CNAME dyna.wikimedia.org.
-iegreview        1H IN CNAME dyna.wikimedia.org.
+hue              1D IN CNAME dyna.wikimedia.org.
+iegreview        1D IN CNAME dyna.wikimedia.org.
 tendril          5M  IN CNAME    dbmonitor1001
-jobs             1H IN CNAME dyna.wikimedia.org.
-labs             1H IN CNAME dyna.wikimedia.org.
+jobs             1D IN CNAME dyna.wikimedia.org.
+labs             1D IN CNAME dyna.wikimedia.org.
 codfw1dev-ns0    1H  IN A        208.80.153.48
 codfw1dev-ns1    1H  IN A        208.80.153.76
 codfw1dev-recursor0 1H IN A        208.80.153.51
 codfw1dev-recursor1 1H IN A        208.80.153.78
 ; deprecated but kept for compatibility, see RT #6769
-labsconsole      1H IN CNAME dyna.wikimedia.org.
-logstash         1H IN CNAME dyna.wikimedia.org.
-metrics          1H IN CNAME dyna.wikimedia.org.
-moon             1H IN CNAME dyna.wikimedia.org.
-noc              1H IN CNAME dyna.wikimedia.org.
-nyc              1H IN CNAME dyna.wikimedia.org.
-old-bugzilla     1H IN CNAME dyna.wikimedia.org.
-planet           1H IN CNAME dyna.wikimedia.org.
-ar.planet        1H IN CNAME dyna.wikimedia.org.
-bg.planet        1H IN CNAME dyna.wikimedia.org.
-cs.planet        1H IN CNAME dyna.wikimedia.org.
-da.planet        1H IN CNAME dyna.wikimedia.org.
-de.planet        1H IN CNAME dyna.wikimedia.org.
-el.planet        1H IN CNAME dyna.wikimedia.org.
-en.planet        1H IN CNAME dyna.wikimedia.org.
-es.planet        1H IN CNAME dyna.wikimedia.org.
-fo.planet        1H IN CNAME dyna.wikimedia.org.
-fr.planet        1H IN CNAME dyna.wikimedia.org.
-gmq.planet       1H IN CNAME dyna.wikimedia.org.
-id.planet        1H IN CNAME dyna.wikimedia.org.
-is.planet        1H IN CNAME dyna.wikimedia.org.
-it.planet        1H IN CNAME dyna.wikimedia.org.
-nb.planet        1H IN CNAME dyna.wikimedia.org.
-nn.planet        1H IN CNAME dyna.wikimedia.org.
-no.planet        1H IN CNAME dyna.wikimedia.org.
-pl.planet        1H IN CNAME dyna.wikimedia.org.
-pt.planet        1H IN CNAME dyna.wikimedia.org.
-ro.planet        1H IN CNAME dyna.wikimedia.org.
-ru.planet        1H IN CNAME dyna.wikimedia.org.
-sq.planet        1H IN CNAME dyna.wikimedia.org.
-sv.planet        1H IN CNAME dyna.wikimedia.org.
-uk.planet        1H IN CNAME dyna.wikimedia.org.
-zh.planet        1H IN CNAME dyna.wikimedia.org.
+labsconsole      1D IN CNAME dyna.wikimedia.org.
+logstash         1D IN CNAME dyna.wikimedia.org.
+metrics          1D IN CNAME dyna.wikimedia.org.
+moon             1D IN CNAME dyna.wikimedia.org.
+noc              1D IN CNAME dyna.wikimedia.org.
+nyc              1D IN CNAME dyna.wikimedia.org.
+old-bugzilla     1D IN CNAME dyna.wikimedia.org.
+planet           1D IN CNAME dyna.wikimedia.org.
+ar.planet        1D IN CNAME dyna.wikimedia.org.
+bg.planet        1D IN CNAME dyna.wikimedia.org.
+cs.planet        1D IN CNAME dyna.wikimedia.org.
+da.planet        1D IN CNAME dyna.wikimedia.org.
+de.planet        1D IN CNAME dyna.wikimedia.org.
+el.planet        1D IN CNAME dyna.wikimedia.org.
+en.planet        1D IN CNAME dyna.wikimedia.org.
+es.planet        1D IN CNAME dyna.wikimedia.org.
+fo.planet        1D IN CNAME dyna.wikimedia.org.
+fr.planet        1D IN CNAME dyna.wikimedia.org.
+gmq.planet       1D IN CNAME dyna.wikimedia.org.
+id.planet        1D IN CNAME dyna.wikimedia.org.
+is.planet        1D IN CNAME dyna.wikimedia.org.
+it.planet        1D IN CNAME dyna.wikimedia.org.
+nb.planet        1D IN CNAME dyna.wikimedia.org.
+nn.planet        1D IN CNAME dyna.wikimedia.org.
+no.planet        1D IN CNAME dyna.wikimedia.org.
+pl.planet        1D IN CNAME dyna.wikimedia.org.
+pt.planet        1D IN CNAME dyna.wikimedia.org.
+ro.planet        1D IN CNAME dyna.wikimedia.org.
+ru.planet        1D IN CNAME dyna.wikimedia.org.
+sq.planet        1D IN CNAME dyna.wikimedia.org.
+sv.planet        1D IN CNAME dyna.wikimedia.org.
+uk.planet        1D IN CNAME dyna.wikimedia.org.
+zh.planet        1D IN CNAME dyna.wikimedia.org.
 puppet           5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-pivot            1H IN CNAME dyna.wikimedia.org.
-superset         1H IN CNAME dyna.wikimedia.org.
-racktables       1H IN CNAME dyna.wikimedia.org.
-scholarships     1H IN CNAME dyna.wikimedia.org.
-transparency     1H IN CNAME dyna.wikimedia.org.
-transparency-private 1H IN CNAME dyna.wikimedia.org.
-search           1H IN CNAME dyna.wikimedia.org.
-shop             1H IN CNAME dyna.wikimedia.org.
-smokeping        1H IN CNAME dyna.wikimedia.org.
+pivot            1D IN CNAME dyna.wikimedia.org.
+superset         1D IN CNAME dyna.wikimedia.org.
+racktables       1D IN CNAME dyna.wikimedia.org.
+scholarships     1D IN CNAME dyna.wikimedia.org.
+transparency     1D IN CNAME dyna.wikimedia.org.
+transparency-private 1D IN CNAME dyna.wikimedia.org.
+search           1D IN CNAME dyna.wikimedia.org.
+shop             1D IN CNAME dyna.wikimedia.org.
+smokeping        1D IN CNAME dyna.wikimedia.org.
 store            1H  IN CNAME    c.ssl.shopify.com.
-static-bugzilla  1H IN CNAME dyna.wikimedia.org.
-stats            1H IN CNAME dyna.wikimedia.org.
+static-bugzilla  1D IN CNAME dyna.wikimedia.org.
+stats            1D IN CNAME dyna.wikimedia.org.
 status           5M  IN A        192.237.162.200
 status           5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
-techblog         1H IN CNAME dyna.wikimedia.org.
-ticket           1H IN CNAME dyna.wikimedia.org.
+techblog         1D IN CNAME dyna.wikimedia.org.
+ticket           1D IN CNAME dyna.wikimedia.org.
 tor-eqiad-1      5M  IN CNAME    torrelay1001
 mirrors          1H  IN CNAME    sodium
-yarn             1H IN CNAME dyna.wikimedia.org.
-turnilo          1H IN CNAME dyna.wikimedia.org.
+yarn             1D IN CNAME dyna.wikimedia.org.
+turnilo          1D IN CNAME dyna.wikimedia.org.
 
 wikitech-static-iad  5M  IN A        162.209.126.221
 wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
@@ -923,9 +923,9 @@ wikitech-static      5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
 wikitech-static                  1H IN TXT "v=spf1 include:mailgun.org -all"
 mailo._domainkey.wikitech-static 1H IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD2aCVkhofbsQzu3DT0c6r4cZGTGT49ueyC7P7Bq6kzqC0q121Z6Xzocb6DclVVcCbir56LL/y2OVDIrWRlnoK8c/4fT/gfeH1EY8/URCqqD1dMOiPdEkZ4MVIJ/9X3O5bFb1Hxy50SAn6FF/pYg2PZcS1IY20xhZpDsq69+Wk56wIDAQAB"
 
-labtestwikitech   1H IN CNAME dyna.wikimedia.org.
-labtesthorizon    1H IN CNAME dyna.wikimedia.org.
-labtesttoolsadmin 1H IN CNAME dyna.wikimedia.org.
+labtestwikitech   1D IN CNAME dyna.wikimedia.org.
+labtesthorizon    1D IN CNAME dyna.wikimedia.org.
+labtesttoolsadmin 1D IN CNAME dyna.wikimedia.org.
 
 ; SNI testing hostname
 pinkunicorn      600 A 208.80.154.42
