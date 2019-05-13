@@ -5280,8 +5280,7 @@ zotero         300/10 IN DYNA geoip!disc-zotero
 blubberoid     300/10 IN DYNA geoip!disc-blubberoid
 eventgate-analytics 300/10 IN DYNA geoip!disc-eventgate-analytics
 docker-registry 300/10 IN DYNA metafo!disc-docker-registry
-; TODO: add discovery once LVS svc is in place - T222899
-;eventgate-main 300/10 IN DYNA geoip!disc-eventgate-main
+eventgate-main 300/10 IN DYNA geoip!disc-eventgate-main
 
 
 debmonitor      300 IN CNAME debmonitor1001.eqiad.wmnet.
