@@ -3843,7 +3843,6 @@ kubernetes2001  1H  IN A    10.193.2.131
 kubernetes2002  1H  IN A    10.193.2.132
 kubernetes2003  1H  IN A    10.193.2.133
 kubernetes2004  1H  IN A    10.193.2.134
-labtestweb2001  1H  IN A    10.193.1.49
 labstore2001    1H  IN A    10.193.1.248
 labstore2002    1H  IN A    10.193.1.249
 labstore2003    1H  IN A    10.193.2.244
@@ -4198,7 +4197,6 @@ wmf5833         1H  IN A    10.193.1.252
 wmf5836         1H  IN A    10.193.1.250
 wmf5837         1H  IN A    10.193.2.137
 wmf5838         1H  IN A    10.193.2.138
-wmf5847         1H  IN A    10.193.1.49
 wmf5849         1H  IN A    10.193.2.116
 wmf5851         1H  IN A    10.193.2.234
 wmf6118         1H  IN A    10.193.1.84
