@@ -3852,7 +3852,6 @@ labtestpuppetmaster2001    1H  IN A    10.193.1.36
 cloudweb2001-dev      1H  IN A    10.193.1.34
 cloudnet2002-dev      1H  IN A    10.193.1.35
 cloudnet2003-dev      1H  IN A    10.193.1.152
-labtestservices2001   1H  IN A    10.193.1.21
 labtestservices2003   1H  IN A    10.193.1.38
 labtestvirt2003       1H  IN A    10.193.1.33
 logstash2001    1H  IN A    10.193.3.61
@@ -4179,7 +4178,6 @@ wmf3612         1H  IN A    10.193.1.235
 wmf3613         1H  IN A    10.193.1.236
 wmf3627         1H  IN A    10.193.1.237
 wmf3641         1H  IN A    10.193.1.50
-wmf3644         1H  IN A    10.193.1.21
 wmf3649         1H  IN A    10.193.1.248
 wmf3651         1H  IN A    10.193.1.249
 wmf3657         1H  IN A    10.193.1.63

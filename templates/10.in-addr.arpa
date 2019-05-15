@@ -3914,8 +3914,7 @@ $ORIGIN 1.193.@Z
 16  1H IN PTR  wmf6374.mgmt.codfw.wmnet.
 17  1H IN PTR  ms-be2021.mgmt.codfw.wmnet.
 17  1H IN PTR  wmf6375.mgmt.codfw.wmnet.
-21  1H IN PTR  labtestservices2001.mgmt.codfw.wmnet.
-21  1H IN PTR  wmf3644.mgmt.codfw.wmnet.
+
 22  1H IN PTR  auth2001.mgmt.codfw.wmnet.
 22  1H IN PTR  wmf6376.mgmt.codfw.wmnet.
 23  1H IN PTR  kafka2001.mgmt.codfw.wmnet.
