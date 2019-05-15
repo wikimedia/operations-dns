@@ -7,6 +7,7 @@ text-addrs => {
         esams => { addrs_v4 => 91.198.174.192, addrs_v6 => 2620:0:862:ed1a::1 }
         ulsfo => { addrs_v4 => 198.35.26.96,   addrs_v6 => 2620:0:863:ed1a::1 }
         eqsin => { addrs_v4 => 103.102.166.224, addrs_v6 => 2001:df2:e500:ed1a::1 }
+        bh    => { addrs_v4 => 127.0.0.1, addrs_v6 => ::1 }
     }
 }
 upload-addrs => {
@@ -18,5 +19,6 @@ upload-addrs => {
         esams => { addrs_v4 => 91.198.174.208, addrs_v6 => 2620:0:862:ed1a::2:b }
         ulsfo => { addrs_v4 => 198.35.26.112,  addrs_v6 => 2620:0:863:ed1a::2:b }
         eqsin => { addrs_v4 => 103.102.166.240, addrs_v6 => 2001:df2:e500:ed1a::2:b }
+        bh    => { addrs_v4 => 127.0.0.1, addrs_v6 => ::1 }
     }
 }

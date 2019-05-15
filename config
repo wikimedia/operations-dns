@@ -22,6 +22,7 @@ service_types => {
 
 plugins => {
     geoip => {
+        undefined_datacenters_ok = true,
         maps => {
             $include{geo-maps},
             $include{discovery-map},
