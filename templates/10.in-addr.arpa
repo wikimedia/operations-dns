@@ -4857,9 +4857,7 @@ $ORIGIN 3.193.@Z
 3   1H IN PTR  wmf6410.mgmt.codfw.wmnet.
 4   1H IN PTR  conf2003.mgmt.codfw.wmnet.
 4   1H IN PTR  wmf6411.mgmt.codfw.wmnet.
-5   1H IN PTR  restbase2007.mgmt.codfw.wmnet.
 5   1H IN PTR  wmf6414.mgmt.codfw.wmnet.
-6   1H IN PTR  restbase2008.mgmt.codfw.wmnet.
 6   1H IN PTR  wmf6413.mgmt.codfw.wmnet.
 7   1H IN PTR  restbase2009.mgmt.codfw.wmnet.
 7   1H IN PTR  wmf6412.mgmt.codfw.wmnet.
