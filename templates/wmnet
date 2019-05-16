@@ -2648,6 +2648,10 @@ wmf5171         1H      IN A            10.65.3.91
 restbase1026    1H      IN A            10.65.3.91
 wmf5172         1H      IN A            10.65.3.92
 restbase1027    1H      IN A            10.65.3.92
+wmf5173         1H      IN A            10.65.3.99
+wmf5174         1H      IN A            10.65.3.100
+wmf5175         1H      IN A            10.65.3.101
+wmf5176         1H      IN A            10.65.3.102
 wmf4720         1H      IN A            10.65.2.122
 kafka1001       1H      IN A            10.65.2.122
 wmf4721         1H      IN A            10.65.2.123

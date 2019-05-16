@@ -2079,7 +2079,10 @@ $ORIGIN 3.65.@Z
 96  1H  IN PTR      kafka1013.mgmt.eqiad.wmnet.
 97  1H  IN PTR      kafka1014.mgmt.eqiad.wmnet.
 98  1H  IN PTR      flerovium.mgmt.eqiad.wmnet.
-
+99  1H  IN PTR      wmf5173.mgmt.eqiad.wmnet.
+100 1H  IN PTR      wmf5174.mgmt.eqiad.wmnet.
+101 1H  IN PTR      wmf5175.mgmt.eqiad.wmnet.
+102 1H  IN PTR      wmf5176.mgmt.eqiad.wmnet.
 103 1H  IN PTR      kafka1020.mgmt.eqiad.wmnet.
 104 1H  IN PTR      kafka1023.mgmt.eqiad.wmnet.
 105 1H  IN PTR      kafka1022.mgmt.eqiad.wmnet.
