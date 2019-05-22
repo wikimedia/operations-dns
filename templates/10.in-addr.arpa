@@ -3119,7 +3119,7 @@ $ORIGIN 0.192.@Z
 14  1H IN PTR   debmonitor2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 15  1H IN PTR   ms-be2040.codfw.wmnet.
 16  1H IN PTR   db2013.codfw.wmnet.
-
+17  1H IN PTR   kafka-main2001.codfw.wmnet.
 18  1H IN PTR   ores2002.codfw.wmnet.
 19  1H IN PTR   poolcounter2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 20  1H IN PTR   wdqs2004.codfw.wmnet.
@@ -3270,6 +3270,7 @@ $ORIGIN 16.192.@Z
 5   1H IN PTR   mw2259.codfw.wmnet.
 6   1H IN PTR   mw2260.codfw.wmnet.
 7   1H IN PTR   mw2261.codfw.wmnet.
+8   1H IN PTR   kafka-main2002.codfw.wmnet.
 
 11  1H IN PTR   mw2262.codfw.wmnet.
 
@@ -3605,6 +3606,7 @@ $ORIGIN 32.192.@Z
 133 1H IN PTR   rdb2005.codfw.wmnet.
 134 1H IN PTR   db2115.codfw.wmnet.
 135 1H IN PTR   db2116.codfw.wmnet.
+136 1H IN PTR   kafka-main2003.codfw.wmnet.
 
 140 1H IN PTR   graphite2002.codfw.wmnet.
 141 1H IN PTR   conf2002.codfw.wmnet.
@@ -3702,7 +3704,7 @@ $ORIGIN 48.192.@Z
 35  1H IN PTR   db2118.codfw.wmnet.
 36  1H IN PTR   db2119.codfw.wmnet.
 37  1H IN PTR   db2120.codfw.wmnet.
-
+38  1H IN PTR   kafka-main2004.codfw.wmnet.
 39  1H IN PTR   elastic2050.codfw.wmnet.
 40  1H IN PTR   es2013.codfw.wmnet.
 41  1H IN PTR   es2016.codfw.wmnet.
@@ -3710,6 +3712,7 @@ $ORIGIN 48.192.@Z
 43  1H IN PTR   scb2002.codfw.wmnet.
 44  1H IN PTR   rdb2006.codfw.wmnet.
 45  1H IN PTR   mwmaint2001.codfw.wmnet.
+46  1H IN PTR   kafka-main2005.codfw.wmnet.
 
 52  1H IN PTR   conf2003.codfw.wmnet.
 53  1H IN PTR   restbase2009.codfw.wmnet.
@@ -3914,7 +3917,14 @@ $ORIGIN 1.193.@Z
 16  1H IN PTR  wmf6374.mgmt.codfw.wmnet.
 17  1H IN PTR  ms-be2021.mgmt.codfw.wmnet.
 17  1H IN PTR  wmf6375.mgmt.codfw.wmnet.
-
+18  1H IN PTR  kafka-main2001.mgmt.codfw.wmnet.
+18  1H IN PTR  wmf6732.mgmt.codfw.wmnet.
+19  1H IN PTR  kafka-main2002.mgmt.codfw.wmnet.
+19  1H IN PTR  wmf6733.mgmt.codfw.wmnet.
+20  1H IN PTR  kafka-main2003.mgmt.codfw.wmnet.
+20  1H IN PTR  wmf6734.mgmt.codfw.wmnet.
+21  1H IN PTR  kafka-main2004.mgmt.codfw.wmnet.
+21  1H IN PTR  wmf6735.mgmt.codfw.wmnet.
 22  1H IN PTR  auth2001.mgmt.codfw.wmnet.
 22  1H IN PTR  wmf6376.mgmt.codfw.wmnet.
 23  1H IN PTR  kafka2001.mgmt.codfw.wmnet.
@@ -3968,7 +3978,8 @@ $ORIGIN 1.193.@Z
 47  1H IN PTR  wmf6599.mgmt.codfw.wmnet.
 48  1H IN PTR  mw2260.mgmt.codfw.wmnet.
 48  1H IN PTR  wmf6600.mgmt.codfw.wmnet.
-
+49  1H IN PTR  kafka-main2005.mgmt.codfw.wmnet.
+49  1H IN PTR  wmf6736.mgmt.codfw.wmnet.
 50  1H IN PTR  wmf3641.mgmt.codfw.wmnet.
 51  1H IN PTR  db2071.mgmt.codfw.wmnet.
 51  1H IN PTR  wmf6533.mgmt.codfw.wmnet.

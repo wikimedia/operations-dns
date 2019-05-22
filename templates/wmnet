@@ -3032,6 +3032,11 @@ kafka2003       1H  IN A    10.192.32.150
                 1H  IN AAAA 2620:0:860:103:10:192:32:150
 kafkamon2001    1H  IN A    10.192.0.97 ; VM on ganeti01.svc.codfw.wmnet
 kafkamon2001    1H  IN AAAA 2620:0:860:101:10:192:0:97 ; VM on ganeti01.svc.codfw.wmnet
+kafka-main2001  1H  IN A    10.192.0.17
+kafka-main2002  1H  IN A    10.192.16.8
+kafka-main2003  1H  IN A    10.192.32.136
+kafka-main2004  1H  IN A    10.192.48.38
+kafka-main2005  1H  IN A    10.192.48.46
 kubernetes2001  1H  IN A    10.192.0.11
 kubernetes2001  1H  IN AAAA 2620:0:860:101:10:192:0:11
 kubernetes2002  1H  IN A    10.192.16.42
@@ -3837,6 +3842,11 @@ install2001     1H  IN A    10.193.1.10
 kafka2001       1H  IN A    10.193.1.23
 kafka2002       1H  IN A    10.193.1.25
 kafka2003       1H  IN A    10.193.1.150
+kafka-main2001  1H  IN A    10.193.1.18
+kafka-main2002  1H  IN A    10.193.1.19
+kafka-main2003  1H  IN A    10.193.1.20
+kafka-main2004  1H  IN A    10.193.1.21
+kafka-main2005  1H  IN A    10.193.1.49
 kubernetes2001  1H  IN A    10.193.2.131
 kubernetes2002  1H  IN A    10.193.2.132
 kubernetes2003  1H  IN A    10.193.2.133
@@ -4712,6 +4722,11 @@ wmf6728         1H  IN A    10.193.2.224
 wmf6729         1H  IN A    10.193.2.225
 wmf6730         1H  IN A    10.193.2.226
 wmf6731         1H  IN A    10.193.2.227
+wmf6732         1H  IN A    10.193.1.18
+wmf6733         1H  IN A    10.193.1.19
+wmf6734         1H  IN A    10.193.1.20
+wmf6735         1H  IN A    10.193.1.21
+wmf6736         1H  IN A    10.193.1.49
 
 ;
 ; ESAMS
