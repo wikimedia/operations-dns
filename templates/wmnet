@@ -1003,6 +1003,8 @@ restbase-dev1006-a  1H IN A     10.64.48.168
 restbase-dev1006-b  1H IN A     10.64.48.169
 rhodium         1H  IN A        10.64.16.184
 roentgenium     1H  IN A        10.64.32.24 ; VM on ganeti01.svc.eqiad.wmnet
+rpki1001        1H  IN A        10.64.32.19 ; VM on ganeti01.svc.eqiad.wmnet
+rpki2001        1H  IN A        10.192.0.103 ; VM on ganeti01.svc.codfw.wmnet
 scandium        1H  IN A        10.64.48.94
 sca1003         1H  IN A        10.64.32.28 ; VM on ganeti01.svc.eqiad.wmnet
 sca1004         1H  IN A        10.64.0.47 ; VM on ganeti01.svc.eqiad.wmnet
