@@ -1004,7 +1004,6 @@ restbase-dev1006-b  1H IN A     10.64.48.169
 rhodium         1H  IN A        10.64.16.184
 roentgenium     1H  IN A        10.64.32.24 ; VM on ganeti01.svc.eqiad.wmnet
 rpki1001        1H  IN A        10.64.32.19 ; VM on ganeti01.svc.eqiad.wmnet
-rpki2001        1H  IN A        10.192.0.103 ; VM on ganeti01.svc.codfw.wmnet
 scandium        1H  IN A        10.64.48.94
 sca1003         1H  IN A        10.64.32.28 ; VM on ganeti01.svc.eqiad.wmnet
 sca1004         1H  IN A        10.64.0.47 ; VM on ganeti01.svc.eqiad.wmnet
@@ -3400,6 +3399,8 @@ restbase2020    1H  IN A    10.192.32.118
 restbase2020-a  1H  IN A    10.192.32.119 ; cassandra instance
 restbase2020-b  1H  IN A    10.192.32.120 ; cassandra instance
 restbase2020-c  1H  IN A    10.192.32.121 ; cassandra instance
+rpki2001        1H  IN A    10.192.0.103 ; VM on ganeti01.svc.codfw.wmnet
+
 
 sarin           1H  IN A    10.192.0.140
 sarin           1H  IN AAAA 2620:0:860:101:10:192:0:140
