@@ -167,6 +167,8 @@
 
 240 1H  IN PTR  upload-lb.eqiad.wikimedia.org.
 
+241 1H  IN PTR  cloudelastic.wikimedia.org.
+
 250 1H  IN PTR  git-ssh.eqiad.wikimedia.org.
 
 252 1H  IN PTR  ldap-ro.eqiad.wikimedia.org.

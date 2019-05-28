@@ -40,6 +40,7 @@ $ORIGIN 1.0.0.0.@Z
 
 7.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labstore1006.wikimedia.org.
 8.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1001.wikimedia.org.
+1.4.2.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic.wikimedia.org.
 0.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dns1001.wikimedia.org.
 1.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudservices1004.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1001.cr1-eqiad.wikimedia.org.
