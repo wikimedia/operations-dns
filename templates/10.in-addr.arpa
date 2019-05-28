@@ -3229,6 +3229,7 @@ $ORIGIN 0.192.@Z
 126 1H IN PTR   cp2005.codfw.wmnet.
 127 1H IN PTR   cp2006.codfw.wmnet.
 128 1H IN PTR   db2106.codfw.wmnet.
+129 1H IN PTR   dbproxy2001.codfw.wmnet.
 
 135 1H IN PTR   schema2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 136 1H IN PTR   ms-be2016.codfw.wmnet.
@@ -3272,6 +3273,7 @@ $ORIGIN 16.192.@Z
 6   1H IN PTR   mw2260.codfw.wmnet.
 7   1H IN PTR   mw2261.codfw.wmnet.
 8   1H IN PTR   kafka-main2002.codfw.wmnet.
+9   1H IN PTR   dbproxy2002.codfw.wmnet.
 
 11  1H IN PTR   mw2262.codfw.wmnet.
 
@@ -3608,6 +3610,7 @@ $ORIGIN 32.192.@Z
 134 1H IN PTR   db2115.codfw.wmnet.
 135 1H IN PTR   db2116.codfw.wmnet.
 136 1H IN PTR   kafka-main2003.codfw.wmnet.
+137 1H IN PTR   dbproxy2003.codfw.wmnet.
 
 140 1H IN PTR   graphite2002.codfw.wmnet.
 141 1H IN PTR   conf2002.codfw.wmnet.
@@ -3714,6 +3717,7 @@ $ORIGIN 48.192.@Z
 44  1H IN PTR   rdb2006.codfw.wmnet.
 45  1H IN PTR   mwmaint2001.codfw.wmnet.
 46  1H IN PTR   kafka-main2005.codfw.wmnet.
+47  1H IN PTR   dbproxy2004.codfw.wmnet.
 
 52  1H IN PTR   conf2003.codfw.wmnet.
 53  1H IN PTR   restbase2009.codfw.wmnet.
@@ -4017,7 +4021,8 @@ $ORIGIN 1.193.@Z
 68  1H IN PTR  wmf6604.mgmt.codfw.wmnet.
 69  1H IN PTR  mw2265.mgmt.codfw.wmnet.
 69  1H IN PTR  wmf6605.mgmt.codfw.wmnet.
-
+70  1H IN PTR  dbproxy2001.mgmt.codfw.wmnet.
+70  1H IN PTR  wmf6737.mgmt.codfw.wmnet.
 71  1H IN PTR  wmf5716.mgmt.codfw.wmnet.
 72  1H IN PTR  wmf5717.mgmt.codfw.wmnet.
 73  1H IN PTR  mw2266.mgmt.codfw.wmnet.
@@ -4034,7 +4039,8 @@ $ORIGIN 1.193.@Z
 79  1H IN PTR  wmf6608.mgmt.codfw.wmnet.
 80  1H IN PTR  backup2001.mgmt.codfw.wmnet.
 80  1H IN PTR  wmf6639.mgmt.codfw.wmnet.
-
+81  1H IN PTR  dbproxy2002.mgmt.codfw.wmnet.
+81  1H IN PTR  wmf6738.mgmt.codfw.wmnet.
 82  1H IN PTR  db2083.mgmt.codfw.wmnet.
 82  1H IN PTR  wmf6545.mgmt.codfw.wmnet.
 84  1H IN PTR  db2034.mgmt.codfw.wmnet.
@@ -4384,6 +4390,8 @@ $ORIGIN 2.193.@Z
 
 2   1H IN PTR  elastic2044.mgmt.codfw.wmnet.
 2   1H IN PTR  wmf6686.mgmt.codfw.wmnet.
+3   1H IN PTR  dbproxy2003.mgmt.codfw.wmnet.
+3   1H IN PTR  wmf6739.mgmt.codfw.wmnet.
 
 13  1H IN PTR  stat2001.mgmt.codfw.wmnet.
 13  1H IN PTR  wmf3903.mgmt.codfw.wmnet.
@@ -4810,6 +4818,9 @@ $ORIGIN 2.193.@Z
 226 1H IN PTR  wmf6730.mgmt.codfw.wmnet.
 227 1H IN PTR  db2120.mgmt.codfw.wmnet.
 227 1H IN PTR  wmf6731.mgmt.codfw.wmnet.
+228 1H IN PTR  dbproxy2004.mgmt.codfw.wmnet.
+228 1H IN PTR  wmf6740.mgmt.codfw.wmnet.
+
 
 230 1H IN PTR  scb2002.mgmt.codfw.wmnet.
 230 1H IN PTR  wmf6384.mgmt.codfw.wmnet.
