@@ -5176,6 +5176,7 @@ ms-fe       1H  IN A        10.2.2.27
 swift       1H  IN CNAME    ms-fe.svc.eqiad.wmnet.
 ms-fe-thumbs 1H IN A        10.2.2.27
 parsoid     1H  IN A        10.2.2.28
+sessionstore 1H IN A        10.2.2.29
 search      1H  IN A        10.2.2.30
 blubberoid  1H  IN A        10.2.2.31
 wdqs        1H  IN A        10.2.2.32
@@ -5250,6 +5251,7 @@ ms-fe           1H  IN A        10.2.1.27
 swift           1H  IN CNAME    ms-fe.svc.codfw.wmnet.
 ms-fe-thumbs    1H  IN A        10.2.1.27
 parsoid         1H  IN A        10.2.1.28
+sessionstore    1H  IN A        10.2.1.29
 search          1H  IN A        10.2.1.30
 blubberoid      1H  IN A        10.2.1.31
 wdqs            1H  IN A        10.2.1.32
@@ -5310,6 +5312,8 @@ blubberoid     300/10 IN DYNA geoip!disc-blubberoid
 eventgate-analytics 300/10 IN DYNA geoip!disc-eventgate-analytics
 docker-registry 300/10 IN DYNA metafo!disc-docker-registry
 eventgate-main 300/10 IN DYNA geoip!disc-eventgate-main
+; TODO: add discovery once LVS svc is in place
+;sessionstore 300/10 IN DYNA geoip!disc-sessionstore
 
 
 debmonitor      300 IN CNAME debmonitor1001.eqiad.wmnet.
