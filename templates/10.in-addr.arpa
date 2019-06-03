@@ -904,7 +904,6 @@ $ORIGIN 32.64.@Z
 196     1H IN PTR       restbase1008-c.eqiad.wmnet.
 197     1H IN PTR       db1100.eqiad.wmnet.
 198     1H IN PTR       db1101.eqiad.wmnet.
-200     1H IN PTR       darmstadtium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 201     1H IN PTR       d-i-test.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 202     1H IN PTR       restbase1012-a.eqiad.wmnet.
 203     1H IN PTR       restbase1012-b.eqiad.wmnet.
