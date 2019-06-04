@@ -465,7 +465,6 @@ $ORIGIN 4.64.@Z
 1   1H IN PTR   vrrp-gw-1117.eqiad.wmnet.
 2   1H IN PTR   ae1-1117.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae1-1117.cr2-eqiad.wikimedia.org.
-10  1H IN PTR   labstore1003.eqiad.wmnet.
 
 13  1H IN PTR   relforge1001.eqiad.wmnet.
 14  1H IN PTR   labsdb1009.eqiad.wmnet.
@@ -994,9 +993,6 @@ $ORIGIN 37.64.@Z
 2       1H IN PTR       ae3-1119.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae3-1119.cr2-eqiad.wikimedia.org.
 4       1H IN PTR       labsdb1002.eqiad.wmnet.
-
-6       1H IN PTR       labstore1001.eqiad.wmnet.
-7       1H IN PTR       labstore1002.eqiad.wmnet.
 
 10      1H IN PTR       labstore.svc.eqiad.wmnet.
 11      1H IN PTR       labsdb1006.eqiad.wmnet.
