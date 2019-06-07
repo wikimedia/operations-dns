@@ -5197,6 +5197,7 @@ eventgate-analytics 1H  IN A    10.2.2.42
 schema          1H  IN A    10.2.2.43
 docker-registry 1H  IN A        10.2.2.44
 eventgate-main  1H  IN A        10.2.2.45
+termbox         1H  IN A        10.2.2.46
 
 
 ganeti01    1H  IN A        10.64.32.173
@@ -5269,6 +5270,7 @@ eventgate-analytics 1H  IN A    10.2.1.42
 schema          1H  IN A        10.2.1.43
 docker-registry 1H  IN A        10.2.1.44
 eventgate-main  1H  IN A        10.2.1.45
+termbox         1H  IN A        10.2.2.46
 
 ganeti01        1H  IN A        10.192.16.131
 labstore        1H  IN A        10.192.21.7
@@ -5317,6 +5319,8 @@ eventgate-analytics 300/10 IN DYNA geoip!disc-eventgate-analytics
 docker-registry 300/10 IN DYNA metafo!disc-docker-registry
 eventgate-main 300/10 IN DYNA geoip!disc-eventgate-main
 sessionstore   300/10 IN DYNA geoip!disc-sessionstore
+; TODO: add discovery once LVS svc is in place
+;termbox        300/10 IN DYNA geoip!disc-sessionstore
 
 
 debmonitor      300 IN CNAME debmonitor1001.eqiad.wmnet.
