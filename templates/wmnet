@@ -3039,6 +3039,16 @@ ganeti2005      1H  IN A    10.192.0.35
 ganeti2006      1H  IN A    10.192.0.36
 ganeti2007      1H  IN A    10.192.0.37
 ganeti2008      1H  IN A    10.192.0.38
+ganeti2009      1H  IN A    10.192.32.138
+ganeti2010      1H  IN A    10.192.32.139
+ganeti2011      1H  IN A    10.192.32.142
+ganeti2012      1H  IN A    10.192.32.143
+ganeti2013      1H  IN A    10.192.32.144
+ganeti2014      1H  IN A    10.192.32.145
+ganeti2015      1H  IN A    10.192.48.48
+ganeti2016      1H  IN A    10.192.48.49
+ganeti2017      1H  IN A    10.192.48.50
+ganeti2018      1H  IN A    10.192.48.51
 graphite2001    1H  IN A    10.192.16.33
 graphite2002    1H  IN A    10.192.32.140
 graphite2003    1H  IN A    10.192.0.102
@@ -3860,6 +3870,16 @@ ganeti2005      1H  IN A    10.193.2.169
 ganeti2006      1H  IN A    10.193.2.170
 ganeti2007      1H  IN A    10.193.2.129
 ganeti2008      1H  IN A    10.193.2.130
+ganeti2009      1H  IN A    10.193.2.4
+ganeti2010      1H  IN A    10.193.2.5
+ganeti2011      1H  IN A    10.193.2.6
+ganeti2012      1H  IN A    10.193.2.7
+ganeti2013      1H  IN A    10.193.2.8
+ganeti2014      1H  IN A    10.193.2.9
+ganeti2015      1H  IN A    10.193.2.10
+ganeti2016      1H  IN A    10.193.2.11
+ganeti2017      1H  IN A    10.193.2.12
+ganeti2018      1H  IN A    10.193.2.229
 gerrit2001      1H  IN A    10.193.3.1
 graphite2001    1H  IN A    10.193.2.14
 graphite2002    1H  IN A    10.193.2.251
@@ -4757,6 +4777,16 @@ wmf6737         1H  IN A    10.193.1.70
 wmf6738         1H  IN A    10.193.1.81
 wmf6739         1H  IN A    10.193.2.3
 wmf6740         1H  IN A    10.193.2.228
+wmf6742         1H  IN A    10.193.2.4
+wmf6743         1H  IN A    10.193.2.5
+wmf6744         1H  IN A    10.193.2.6
+wmf6745         1H  IN A    10.193.2.7
+wmf6746         1H  IN A    10.193.2.8
+wmf6747         1H  IN A    10.193.2.9
+wmf6748         1H  IN A    10.193.2.10
+wmf6749         1H  IN A    10.193.2.11
+wmf6750         1H  IN A    10.193.2.12
+wmf6751         1H  IN A    10.193.2.229
 
 ;
 ; ESAMS
