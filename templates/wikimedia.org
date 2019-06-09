@@ -63,9 +63,6 @@ _github-challenge-wikimedia.www   1H IN TXT "992c2700d4"
 ; Google Site Verification for gsuite-test.wikimedia.org
 gsuite-test 600 IN TXT  "google-site-verification=TI8r5YSBh1J5ztVl_neyqh5Sqp-3XeOQC8Yvm516w9I"
 
-; Matrix IDs domain authorization, temporary evaluation (T223835)
-_matrix._tcp 1H IN SRV 0 1 443 wikimedia.modular.im.
-
 ; Corporate office name server delegation
 corp        1D  IN NS   ns1.corp
 corp        1D  IN NS   ns2.corp
