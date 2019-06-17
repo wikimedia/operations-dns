@@ -2299,6 +2299,14 @@ dbproxy1016     1H  IN A    10.65.2.167
 wmf7400         1H  IN A    10.65.2.167
 dbproxy1017     1H  IN A    10.65.2.168
 wmf7401         1H  IN A    10.65.2.168
+dbproxy1018     1H  IN A    10.65.2.173
+wmf5179         1H  IN A    10.65.2.173
+dbproxy1019     1H  IN A    10.65.2.174
+wmf5180         1H  IN A    10.65.2.174
+dbproxy1020     1H  IN A    10.65.2.175
+wmf5181         1H  IN A    10.65.2.175
+dbproxy1021     1H  IN A    10.65.2.176
+wmf5182         1H  IN A    10.65.2.176
 helium          1H  IN A    10.65.3.14
 wmf3137         1H  IN A    10.65.3.14
 pay-lvs1001     1H  IN A    10.65.4.72
