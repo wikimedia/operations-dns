@@ -423,7 +423,11 @@ $ORIGIN 0.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr2-eqiad.wikimedia.org.
 
-; unassigned (2620:0:861:fe01::/64)
+; cr1-eqiad:gr-4/3/0.1 <--> cr2-eqord:gr-0/0/0.1 (2620:0:861:fe01::/64)
+
+$ORIGIN 1.0.e.f.@Z
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-4-3-0-1.cr1-eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr2-eqord.wikimedia.org.
 
 ; cr2-eqiad <--> cr2-eqord (2620:0:861:fe02::/64)
 
