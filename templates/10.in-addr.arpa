@@ -838,8 +838,6 @@ $ORIGIN 32.64.@Z
 85      1H IN PTR       sessionstore1002-a.eqiad.wmnet.
 86      1H IN PTR       acmechief-test1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 87      1H IN PTR       schema1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-88      1H IN PTR       dbproxy1018.eqiad.wmnet.
-89      1H IN PTR       dbproxy1019.eqiad.wmnet.
 
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
@@ -1014,7 +1012,8 @@ $ORIGIN 37.64.@Z
 24      1H IN PTR       labsdb1011.eqiad.wmnet.
 25      1H IN PTR       eth1.labstore1004.eqiad.wmnet.
 26      1H IN PTR       eth1.labstore1005.eqiad.wmnet.
-
+27      1H IN PTR       dbproxy1018.eqiad.wmnet.
+28      1H IN PTR       dbproxy1019.eqiad.wmnet.
 
 ; 10.64.40.0/23 - frack.eqiad subnets
 $ORIGIN 40.64.@Z
