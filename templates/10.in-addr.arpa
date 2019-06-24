@@ -3042,6 +3042,9 @@ $ORIGIN 0.128.@Z
 17  1H  IN PTR      lvs4007.ulsfo.wmnet.
 
 20  1H  IN PTR      frbackup4001.ulsfo.wmnet.
+21  1H  IN PTR      ganeti4001.ulsfo.wmnet.
+22  1H  IN PTR      ganeti4002.ulsfo.wmnet.
+23  1H  IN PTR      ganeti4003.ulsfo.wmnet.
 
 121 1H  IN PTR      cp4021.ulsfo.wmnet.
 122 1H  IN PTR      cp4022.ulsfo.wmnet.

@@ -5048,6 +5048,9 @@ cp4031          1H      IN A    10.128.0.131
                 1H      IN AAAA 2620:0:863:101:10:128:0:131
 cp4032          1H      IN A    10.128.0.132
                 1H      IN AAAA 2620:0:863:101:10:128:0:132
+ganeti4001      1H      IN A    10.128.0.21
+ganeti4002      1H      IN A    10.128.0.22
+ganeti4003      1H      IN A    10.128.0.23
 
 ; ulsfo LVS cross-vlan
 vl1201-eth0.lvs4005  1H IN A 198.35.26.9
