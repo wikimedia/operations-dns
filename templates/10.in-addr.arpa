@@ -2993,7 +2993,6 @@ $ORIGIN 129.128.@Z
 7   1H  IN PTR      lvs4007.mgmt.ulsfo.wmnet.
 7   1H  IN PTR      WMF7217.mgmt.ulsfo.wmnet.
 
-11  1H  IN PTR      frbackup4001.mgmt.ulsfo.wmnet.
 12  1H  IN PTR      WMF7218.mgmt.ulsfo.wmnet.
 12  1H  IN PTR      bast4002.mgmt.ulsfo.wmnet.
 
@@ -3040,7 +3039,6 @@ $ORIGIN 0.128.@Z
 16  1H  IN PTR      lvs4006.ulsfo.wmnet.
 17  1H  IN PTR      lvs4007.ulsfo.wmnet.
 
-20  1H  IN PTR      frbackup4001.ulsfo.wmnet.
 21  1H  IN PTR      ganeti4001.ulsfo.wmnet.
 22  1H  IN PTR      ganeti4002.ulsfo.wmnet.
 23  1H  IN PTR      ganeti4003.ulsfo.wmnet.
