@@ -838,6 +838,7 @@ $ORIGIN 32.64.@Z
 85      1H IN PTR       sessionstore1002-a.eqiad.wmnet.
 86      1H IN PTR       acmechief-test1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 87      1H IN PTR       schema1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+88      1H IN PTR       netflow1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
