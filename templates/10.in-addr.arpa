@@ -499,6 +499,7 @@ $ORIGIN 5.64.@Z
 29  1H IN PTR   an-worker1080.eqiad.wmnet.
 30  1H IN PTR   an-worker1081.eqiad.wmnet.
 31  1H IN PTR   an-worker1082.eqiad.wmnet.
+32  1H IN PTR   an-tool1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 101 1H IN PTR   druid1001.eqiad.wmnet.
 
