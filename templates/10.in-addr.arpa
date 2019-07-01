@@ -3249,6 +3249,7 @@ $ORIGIN 0.192.@Z
 127 1H IN PTR   cp2006.codfw.wmnet.
 128 1H IN PTR   db2106.codfw.wmnet.
 129 1H IN PTR   dbproxy2001.codfw.wmnet.
+130 1H IN PTR   cloudbackup2001.codfw.wmnet.
 
 135 1H IN PTR   schema2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 136 1H IN PTR   ms-be2016.codfw.wmnet.
@@ -3293,7 +3294,7 @@ $ORIGIN 16.192.@Z
 7   1H IN PTR   mw2261.codfw.wmnet.
 8   1H IN PTR   kafka-main2002.codfw.wmnet.
 9   1H IN PTR   dbproxy2002.codfw.wmnet.
-
+10  1H IN PTR   cloudbackup2002.codfw.wmnet.
 11  1H IN PTR   mw2262.codfw.wmnet.
 
 13  1H IN PTR   ms-be2031.codfw.wmnet.
@@ -4867,6 +4868,10 @@ $ORIGIN 2.193.@Z
 229 1H IN PTR  wmf6751.mgmt.codfw.wmnet.
 230 1H IN PTR  scb2002.mgmt.codfw.wmnet.
 230 1H IN PTR  wmf6384.mgmt.codfw.wmnet.
+231 1H IN PTR  cloudbackup2001.mgmt.codfw.wmnet.
+231 1H IN PTR  wmf6754.mgmt.codfw.wmnet.
+232 1H IN PTR  cloudbackup2002.mgmt.codfw.wmnet.
+232 1H IN PTR  wmf6755.mgmt.codfw.wmnet.
 
 234 1H IN PTR  sarin.mgmt.codfw.wmnet.
 234 1H IN PTR  wmf5851.mgmt.codfw.wmnet.

@@ -2827,6 +2827,8 @@ acrux           1H  IN A    10.192.0.93 ; VM on ganeti01.svc.codfw.wmnet
 acrux           1H  IN AAAA 2620:0:860:101:10:192:0:93 ; VM on ganeti01.svc.codfw.wmnet
 auth2001        1H  IN A    10.192.0.138
 backup2001      1H  IN A    10.192.48.116
+cloudbackup2001 1H  IN A    10.192.0.130
+cloudbackup2002 1H  IN A    10.192.16.10
 cloudvirt2001-dev   1H  IN A    10.192.20.5
 cloudvirt2002-dev   1H  IN A    10.192.20.13
 cloudvirt2003-dev   1H  IN A    10.192.20.14
@@ -3686,6 +3688,8 @@ auth2001        1H  IN A    10.193.1.22
 authdns2001     1H  IN A    10.193.1.199
 backup2001      1H  IN A    10.193.1.80
 bast2002        1H  IN A    10.193.1.207
+cloudbackup2001 1H  IN A    10.193.2.231
+cloudbackup2002 1H  IN A    10.193.2.232
 cloudcontrol2001-dev        1H  IN A    10.193.2.198
 cloudcontrol2003-dev        1H  IN A    10.193.1.40
 cloudservices2002-dev       1H  IN A    10.193.1.39
@@ -4790,6 +4794,8 @@ wmf6748         1H  IN A    10.193.2.10
 wmf6749         1H  IN A    10.193.2.11
 wmf6750         1H  IN A    10.193.2.12
 wmf6751         1H  IN A    10.193.2.229
+wmf6754         1H  IN A    10.193.2.231
+wmf6755         1H  IN A    10.193.2.232
 
 ;
 ; ESAMS
