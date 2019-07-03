@@ -2122,6 +2122,16 @@ $ORIGIN 3.65.@Z
 124 1H  IN PTR      wmf7370.mgmt.eqiad.wmnet.
 
 128 1H  IN PTR      wmf4083.mgmt.eqiad.wmnet.
+129 1H  IN PTR      kafka-main1001.mgmt.eqiad.wmnet.
+129 1H  IN PTR      wmf5185.mgmt.eqiad.wmnet.
+130 1H  IN PTR      kafka-main1002.mgmt.eqiad.wmnet.
+130 1H  IN PTR      wmf5186.mgmt.eqiad.wmnet.
+131 1H  IN PTR      kafka-main1003.mgmt.eqiad.wmnet.
+131 1H  IN PTR      wmf5187.mgmt.eqiad.wmnet.
+132 1H  IN PTR      kafka-main1004.mgmt.eqiad.wmnet.
+132 1H  IN PTR      wmf5188.mgmt.eqiad.wmnet.
+133 1H  IN PTR      kafka-main1005.mgmt.eqiad.wmnet.
+133 1H  IN PTR      wmf5189.mgmt.eqiad.wmnet.
 
 141     1H      IN PTR          wmf3568.mgmt.eqiad.wmnet.
 141     1H      IN PTR          neodymium.mgmt.eqiad.wmnet.
