@@ -119,6 +119,7 @@ $ORIGIN 5.2.@Z
 
 $ORIGIN 0.3.@Z
 
+; 10.3.0.0/30 (0-3) - Reserved for recdns (backup static route)
 1  1H  IN PTR  recdns.anycast.wmnet.
 
 ;
