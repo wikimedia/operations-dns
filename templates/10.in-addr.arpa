@@ -1121,9 +1121,7 @@ $ORIGIN 48.64.@Z
 27      1H IN PTR       ores1008.eqiad.wmnet.
 28      1H IN PTR       ores1009.eqiad.wmnet.
 29      1H IN PTR       scb1004.eqiad.wmnet.
-30      1H IN PTR       ms-be1013.eqiad.wmnet.
-31      1H IN PTR       ms-be1014.eqiad.wmnet.
-32      1H IN PTR       ms-be1015.eqiad.wmnet.
+
 33      1H IN PTR       ms-be1043.eqiad.wmnet.
 34      1H IN PTR       db1122.eqiad.wmnet.
 35      1H IN PTR       db1123.eqiad.wmnet.
