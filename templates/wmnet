@@ -1441,7 +1441,7 @@ kafka-jumbo1005 1H  IN A    10.65.1.76
 wmf7130         1H  IN A    10.65.1.76
 kafka-jumbo1006 1H  IN A    10.65.1.77
 wmf7131         1H  IN A    10.65.1.77
-kafaka-main1001 1H  IN A    10.65.3.129
+kafka-main1001  1H  IN A    10.65.3.129
 wmf5185         1H  IN A    10.65.3.129
 kafka-main1002  1H  IN A    10.65.3.130
 wmf5186         1H  IN A    10.65.3.130
