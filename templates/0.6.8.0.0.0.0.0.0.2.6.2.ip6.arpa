@@ -101,6 +101,7 @@ $ORIGIN 1.0.1.0.@Z
 7.1.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2005.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 5.1.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   acmechief-test2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 1.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   acmechief2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+1.3.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   ncredir2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 9.3.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kafka2001.codfw.wmnet.
 
 

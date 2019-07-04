@@ -841,6 +841,7 @@ $ORIGIN 32.64.@Z
 86      1H IN PTR       acmechief-test1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 87      1H IN PTR       schema1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 88      1H IN PTR       netflow1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+89      1H IN PTR       ncredir1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
@@ -3259,6 +3260,7 @@ $ORIGIN 0.192.@Z
 128 1H IN PTR   db2106.codfw.wmnet.
 129 1H IN PTR   dbproxy2001.codfw.wmnet.
 130 1H IN PTR   cloudbackup2001.codfw.wmnet.
+131 1H IN PTR   ncredir2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 135 1H IN PTR   schema2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 136 1H IN PTR   ms-be2016.codfw.wmnet.
