@@ -396,6 +396,7 @@ $ORIGIN 0.64.@Z
 148 1H IN PTR   restbase1021-a.eqiad.wmnet. ; cassandra instance
 149 1H IN PTR   restbase1021-b.eqiad.wmnet. ; cassandra instance
 150 1H IN PTR   restbase1021-c.eqiad.wmnet. ; cassandra instance
+151 1H IN PTR   poolcounter1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 163 1H IN PTR   db1096.eqiad.wmnet.
 164 1H IN PTR   db1103.eqiad.wmnet.
@@ -941,6 +942,7 @@ $ORIGIN 32.64.@Z
 233     1H IN PTR       wtp1041.eqiad.wmnet.
 234     1H IN PTR       wtp1042.eqiad.wmnet.
 235     1H IN PTR       kubestagetcd1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+236     1H IN PTR       poolcounter1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 $ORIGIN 33.64.@Z
 1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
@@ -3261,6 +3263,7 @@ $ORIGIN 0.192.@Z
 129 1H IN PTR   dbproxy2001.codfw.wmnet.
 130 1H IN PTR   cloudbackup2001.codfw.wmnet.
 131 1H IN PTR   ncredir2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+132 1H IN PTR   poolcounter2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 135 1H IN PTR   schema2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 136 1H IN PTR   ms-be2016.codfw.wmnet.
@@ -3423,6 +3426,7 @@ $ORIGIN 16.192.@Z
 126 1H IN PTR   ganeti2002.codfw.wmnet.
 127 1H IN PTR   ganeti2003.codfw.wmnet.
 128 1H IN PTR   ganeti2004.codfw.wmnet.
+129 1H IN PTR   poolcounter2004.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 131 1H IN PTR   ganeti01.svc.codfw.wmnet.
 
