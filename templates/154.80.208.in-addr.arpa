@@ -176,6 +176,8 @@
 
 224 1H  IN PTR  text-lb.eqiad.wikimedia.org.
 
+232 1H  IN PTR  ncredir-lb.eqiad.wikimedia.org.
+
 ; wrong subnet? but not important...
 238 1D  IN PTR  ns0.wikimedia.org.
 

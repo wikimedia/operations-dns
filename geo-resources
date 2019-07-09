@@ -22,3 +22,12 @@ upload-addrs => {
         bh    => { addrs_v4 => 127.0.0.1, addrs_v6 => ::1 }
     }
 }
+ncredir-addrs => {
+    map => generic-map
+    service_types => up
+    dcmap => {
+        eqiad => { addrs_v4 => 208.80.154.232, addrs_v6 => 2620:0:861:ed1a::9 }
+        codfw => { addrs_v4 => 208.80.153.232, addrs_v6 => 2620:0:860:ed1a::9 }
+        bh    => { addrs_v4 => 127.0.0.1, addrs_v6 => ::1 }
+    }
+}

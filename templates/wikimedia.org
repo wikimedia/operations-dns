@@ -97,6 +97,7 @@ recursor1       1H  IN A    91.198.174.216  ; esams LVS (dns-rec-lb)
 ; Geodynamic records
 reflect      10 IN DYNA reflect ; GeoDNS debugging
 text-lb     1D IN CNAME dyna.wikimedia.org.
+ncredir-lb  600 IN DYNA geoip!ncredir-addrs
 upload      600 IN DYNA geoip!upload-addrs
 maps        1D IN CNAME upload.wikimedia.org.
 m           1D IN CNAME dyna.wikimedia.org.
@@ -317,6 +318,8 @@ donate-lb.eqiad     1H IN A 208.80.154.224
 donate-lb.eqiad     1H IN AAAA 2620:0:861:ed1a::1
 donate-lb.eqiad     1H IN MX 10 mx1001
 donate-lb.eqiad     1H IN MX 50 mx2001
+ncredir-lb.eqiad    1H IN A 208.80.154.232
+ncredir-lb.eqiad    1H IN AAAA 2620:0:861:ed1a::9
 upload-lb.eqiad     1H IN A 208.80.154.240
 upload-lb.eqiad     1H IN AAAA 2620:0:861:ed1a::2:b
 dns-rec-lb.eqiad    1H IN A    208.80.154.254
@@ -367,6 +370,8 @@ text-lb.codfw       1H IN A 208.80.153.224
 text-lb.codfw       1H IN AAAA 2620:0:860:ed1a::1
 donate-lb.codfw     1H IN A 208.80.153.224
 donate-lb.codfw     1H IN AAAA 2620:0:860:ed1a::1
+ncredir-lb.codfw    1H IN A 208.80.153.232
+ncredir-lb.codfw    1H IN AAAA 2620:0:860:ed1a::9
 upload-lb.codfw     1H IN A 208.80.153.240
 upload-lb.codfw     1H IN AAAA 2620:0:860:ed1a::2:b
 dns-rec-lb.codfw    1H IN A    208.80.153.254

@@ -400,6 +400,7 @@ $ORIGIN f.b.a.b.@Z
 $ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 1.0.0.0 1H IN PTR   text-lb.eqiad.wikimedia.org.
+9.0.0.0 1H IN PTR   ncredir-lb.eqiad.wikimedia.org.
 
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 

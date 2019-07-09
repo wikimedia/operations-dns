@@ -188,6 +188,8 @@
 ; wrong subnet, but not important...
 231 1D  IN PTR  ns1.wikimedia.org.
 
+232 1H  IN PTR  ncredir-lb.codfw.wikimedia.org.
+
 ; - 208.80.153.240/28 (240-255) LVS high-traffic2 (Multimedia & Misc)
 
 240 1H  IN PTR  upload-lb.codfw.wikimedia.org.
