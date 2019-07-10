@@ -832,7 +832,6 @@ wikimaniateam    1D IN CNAME dyna.wikimedia.org.
 
 www              1D IN CNAME dyna.wikimedia.org.
 za               1D IN CNAME dyna.wikimedia.org.
-zero             1D IN CNAME dyna.wikimedia.org.
 
 ; Other websites (NO wikis!)
 2030             1D IN CNAME dyna.wikimedia.org.
