@@ -220,6 +220,8 @@ iron            1H  IN A    208.80.154.151
 iron            1H  IN AAAA 2620:0:861:2:208:80:154:151
 kraz            1H  IN A    208.80.153.44 ; VM on ganeti01.svc.codfw.wmnet
 kraz            1H  IN AAAA 2620:0:860:2:208:80:153:44 ; VM on ganeti01.svc.codfw.wmnet
+ldap-codfw-replica01 1H IN A    208.80.153.22 ; VM on ganeti01.svc.codfw.wmnet
+ldap-codfw-replica02 1H IN A    208.80.153.47 ; VM on ganeti01.svc.codfw.wmnet
 ldap-eqiad-replica01 1H IN A    208.80.154.25 ; VM on ganeti01.svc.eqiad.wmnet
 ldap-eqiad-replica02 1H IN A    208.80.154.77 ; VM on ganeti01.svc.eqiad.wmnet
 labpuppetmaster1001 1H  IN A    208.80.154.158
