@@ -132,6 +132,8 @@ $ORIGIN 2.0.1.0.@Z
 0.4.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   pybal-test2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 1.4.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   pybal-test2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
+3.4.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   ncredir2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+
 ; private1-c-codfw (2620:0:860:103::/64)
 $ORIGIN 3.0.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2019.codfw.wmnet.
