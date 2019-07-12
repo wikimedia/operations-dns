@@ -32,7 +32,7 @@
 19  1H  IN PTR  vl2001-enp59s0f1d1.lvs2008.codfw.wmnet.
 20  1H  IN PTR  vl2001-enp59s0f1d1.lvs2009.codfw.wmnet.
 21  1H  IN PTR  vl2001-enp59s0f1d1.lvs2010.codfw.wmnet.
-22  1H  IN PTR  ldap-codfw-replica01.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
+22  1H  IN PTR  ldap-replica2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 
 
 ; 208.80.153.32/27 (public1-b-codfw)
@@ -50,7 +50,7 @@
 44  1H  IN PTR  kraz.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 45  1H  IN PTR  mx2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 46  1H  IN PTR  wiki-mail-codfw.wikimedia.org.
-47  1H  IN PTR  ldap-codfw-replica02.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
+47  1H  IN PTR  ldap-replica2002.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 
 49  1H  IN PTR  serpens.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 50  1H  IN PTR  alsafi.wikimedia.org.  ; VM on ganeti01.svc.codfw.wmnet
