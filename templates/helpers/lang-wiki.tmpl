@@ -1,0 +1,5 @@
+{% from "helpers/langlist.tmpl" import langs %}
+{% for lang in langs -%}
+{{ lang }}   1D IN CNAME dyna.wikimedia.org.
+{{ lang }}.m 1D IN CNAME dyna.wikimedia.org.
+{% endfor -%}

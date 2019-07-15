@@ -34,6 +34,6 @@
 www         1D IN CNAME dyna.wikimedia.org.
 
 ; All languages will automatically be included here
-{% include "helpers/langlist.tmpl" %}
+{% include "helpers/lang-wiki.tmpl" %}
 
 ; Other websites
