@@ -3832,7 +3832,6 @@ $ORIGIN 48.192.@Z
 112 1H IN PTR   mw2290.codfw.wmnet.
 113 1H IN PTR   ms-be2043.codfw.wmnet.
 
-115 1H IN PTR   db2042.codfw.wmnet.
 116 1H IN PTR   backup2001.codfw.wmnet.
 117 1H IN PTR   ms-be2050.codfw.wmnet.
 118 1H IN PTR   sessionstore2003.codfw.wmnet.
