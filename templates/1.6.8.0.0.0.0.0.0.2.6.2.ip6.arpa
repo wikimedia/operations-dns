@@ -162,6 +162,7 @@ $ORIGIN 2.0.1.0.@Z
 2.9.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestage1002.eqiad.wmnet.
 9.9.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1003.eqiad.wmnet.
 1.4.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1002.eqiad.wmnet.
+6.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1003.eqiad.wmnet.
 8.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   prometheus1004.eqiad.wmnet.
 
 3.7.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1001.eqiad.wmnet.
