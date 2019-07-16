@@ -662,8 +662,6 @@ login           1D IN CNAME dyna.wikimedia.org.
 librenms        1H  IN CNAME    netmon1002
 netbox          1H  IN CNAME    netmon1002
 
-servermon       1D IN CNAME dyna.wikimedia.org.
-
 payments        5M  IN CNAME    payments-eqiad
 payments.frdev  5M  IN CNAME    payments-codfw
 payments-eqiad  1H  IN A        208.80.155.5
