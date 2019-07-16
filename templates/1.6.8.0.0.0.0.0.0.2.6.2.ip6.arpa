@@ -25,7 +25,6 @@ $ORIGIN 1.0.0.0.@Z
 6.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   archiva1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
 5.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   netmon1002.wikimedia.org.
-6.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   netmon1003.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
 7.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   contint1001.wikimedia.org.
 
