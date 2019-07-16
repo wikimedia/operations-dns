@@ -134,6 +134,7 @@ $ORIGIN 1.0.1.0.@Z
 
 3.2.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   conf1004.eqiad.wmnet.
 
+0.0.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1001.eqiad.wmnet.
 5.1.2.0.0.0.0.0.4.6.0.0.0.1.0.0 5M IN PTR   webperf1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 6.1.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   webperf1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
@@ -163,6 +164,7 @@ $ORIGIN 2.0.1.0.@Z
 9.9.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1003.eqiad.wmnet.
 1.4.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1002.eqiad.wmnet.
 6.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1003.eqiad.wmnet.
+7.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1002.eqiad.wmnet.
 8.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   prometheus1004.eqiad.wmnet.
 
 3.7.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1001.eqiad.wmnet.
@@ -195,7 +197,7 @@ $ORIGIN 3.0.1.0.@Z
 6.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   acmechief-test1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 8.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   netflow1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 9.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   ncredir1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
+0.9.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1003.eqiad.wmnet.
 
 9.5.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1004.eqiad.wmnet.
 0.6.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1005.eqiad.wmnet.
@@ -293,6 +295,9 @@ $ORIGIN 7.0.1.0.@Z
 
 1.2.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   phab1003.eqiad.wmnet.
 2.2.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   phab1003-vcs.eqiad.wmnet.
+
+0.3.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1004.eqiad.wmnet.
+1.3.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1005.eqiad.wmnet.
 
 5.4.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1002.eqiad.wmnet.
 1.0.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1087.eqiad.wmnet.
