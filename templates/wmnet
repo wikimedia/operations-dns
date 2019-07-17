@@ -23,7 +23,8 @@ fundraisingdb-read  5M  IN CNAME    frdb1002.frack.eqiad.wmnet.
 $ORIGIN eqiad.wmnet.
 
 ; Service aliases
-syslog          1H  IN CNAME    lithium.eqiad.wmnet.
+; Used by syslog over UDP (e.g. network devices, PDUs)
+syslog          1H  IN CNAME    centrallog1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install1002.wikimedia.org.
 graphite        5M  IN CNAME    graphite1004.eqiad.wmnet.
 graphite-in     5M  IN CNAME    graphite1004.eqiad.wmnet.
@@ -2837,6 +2838,7 @@ deployment      5M  IN CNAME    deploy1001.eqiad.wmnet.
 m2-master       5M  IN CNAME    db2044.codfw.wmnet.
 m2-slave        5M  IN CNAME    db2044.codfw.wmnet.
 statsd          1H  IN CNAME    graphite2001.codfw.wmnet.
+; Used by syslog over UDP (e.g. network devices, PDUs)
 syslog          1H  IN CNAME    wezen.codfw.wmnet.
 udplog          1H  IN CNAME    mwlog1001.eqiad.wmnet.
 
