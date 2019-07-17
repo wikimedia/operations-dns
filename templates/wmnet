@@ -5465,3 +5465,5 @@ debmonitor      300 IN CNAME debmonitor1001.eqiad.wmnet.
 $ORIGIN anycast.wmnet.
 
 recdns        1H  IN A        10.3.0.1
+
+syslog        1H  IN A        10.3.0.4
