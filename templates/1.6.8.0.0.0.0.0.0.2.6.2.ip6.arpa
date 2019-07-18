@@ -32,6 +32,8 @@ $ORIGIN 1.0.0.0.@Z
 1.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   lists.wikimedia.org. ; service IP for lists on fermium
 2.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   install1002.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
+6.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   idp1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
+
 9.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   torrelay1001.wikimedia.org.
 
 5.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   sodium.wikimedia.org.
