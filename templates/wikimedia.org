@@ -80,7 +80,7 @@ ns2.corp    1H  IN A    198.73.209.16
 ; interactions with selective CN censorhsip at the DNS level)
 dyna            600 IN DYNA geoip!text-addrs
 
-dumps           5M  IN CNAME labstore1007
+dumps           5M  IN CNAME labstore1006
 
 lists           5M  IN A    208.80.154.21
 lists           5M  IN AAAA 2620:0:861:1:208:80:154:21
