@@ -5306,6 +5306,15 @@ nfs-tools-home       1H  IN A        10.64.37.17
 nfs-tools-project    1H  IN A        10.64.37.18
 oresrdb     5M  IN A        10.64.48.129
 
+; K8S EQIAD STAGING SERVICES
+
+staging         1H  IN A        10.64.0.247 ; kubestage1001
+staging         1H  IN A        10.64.16.92 ; kubestage1002
+
+$ORIGIN staging.svc.eqiad.wmnet.
+
+termbox-test    1H  IN CNAME    staging.svc.eqiad.wmnet.
+
 ; ESAMS SERVICES
 
 $ORIGIN svc.esams.wmnet.
