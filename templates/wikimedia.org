@@ -244,12 +244,6 @@ labweb1001      1H  IN AAAA 2620:0:861:2:208:80:154:160
 labweb1002      1H  IN A    208.80.155.109
 labweb1002      1H  IN AAAA 2620:0:861:4:208:80:155:109
 
-lvs1001         1H  IN A    208.80.154.55
-lvs1002         1H  IN A    208.80.154.56
-lvs1003         1H  IN A    208.80.154.57
-lvs1004         1H  IN A    208.80.154.137
-lvs1005         1H  IN A    208.80.154.138
-lvs1006         1H  IN A    208.80.154.139
 maerlant        1H  IN A    91.198.174.122
 maerlant        1H  IN AAAA 2620:0:862:1:91:198:174:122
 sodium          1H  IN A    208.80.154.15
@@ -524,50 +518,6 @@ mr1-eqsin.oob   1H  IN A    27.111.227.106
 mr1-eqsin.oob   1H  IN AAAA 2403:b100:3001:9::2
 
 vip-gw-cloudnet 1H  IN A    208.80.155.92
-
-vl1001-eth1.lvs1004 1H  IN A    208.80.154.58
-vl1001-eth1.lvs1005 1H  IN A    208.80.154.59
-vl1001-eth1.lvs1006 1H  IN A    208.80.154.60
-vl1002-eth1.lvs1001 1H  IN A    208.80.154.140
-vl1002-eth1.lvs1002 1H  IN A    208.80.154.141
-vl1002-eth1.lvs1003 1H  IN A    208.80.154.142
-vl1003-eth2.lvs1001 1H  IN A    208.80.154.78
-vl1003-eth2.lvs1002 1H  IN A    208.80.154.68
-vl1003-eth2.lvs1003 1H  IN A    208.80.154.69
-vl1003-eth2.lvs1004 1H  IN A    208.80.154.70
-vl1003-eth2.lvs1005 1H  IN A    208.80.154.71
-vl1003-eth2.lvs1006 1H  IN A    208.80.154.72
-vl1004-eth3.lvs1001 1H  IN A    208.80.155.100
-vl1004-eth3.lvs1002 1H  IN A    208.80.155.101
-vl1004-eth3.lvs1003 1H  IN A    208.80.155.102
-vl1004-eth3.lvs1004 1H  IN A    208.80.155.103
-vl1004-eth3.lvs1005 1H  IN A    208.80.155.104
-vl1004-eth3.lvs1006 1H  IN A    208.80.155.105
-
-vl1017-eth0.lvs1001 1H  IN A    10.64.1.1
-vl1017-eth0.lvs1002 1H  IN A    10.64.1.2
-vl1017-eth0.lvs1003 1H  IN A    10.64.1.3
-vl1017-eth1.lvs1004 1H  IN A    10.64.1.4
-vl1017-eth1.lvs1005 1H  IN A    10.64.1.5
-vl1017-eth1.lvs1006 1H  IN A    10.64.1.6
-vl1018-eth1.lvs1001 1H  IN A    10.64.17.1
-vl1018-eth1.lvs1002 1H  IN A    10.64.17.2
-vl1018-eth1.lvs1003 1H  IN A    10.64.17.3
-vl1018-eth0.lvs1004 1H  IN A    10.64.17.4
-vl1018-eth0.lvs1005 1H  IN A    10.64.17.5
-vl1018-eth0.lvs1006 1H  IN A    10.64.17.6
-vl1019-eth2.lvs1001 1H  IN A    10.64.33.1
-vl1019-eth2.lvs1002 1H  IN A    10.64.33.2
-vl1019-eth2.lvs1003 1H  IN A    10.64.33.3
-vl1019-eth2.lvs1004 1H  IN A    10.64.33.4
-vl1019-eth2.lvs1005 1H  IN A    10.64.33.5
-vl1019-eth2.lvs1006 1H  IN A    10.64.33.6
-vl1020-eth3.lvs1001 1H  IN A    10.64.49.1
-vl1020-eth3.lvs1002 1H  IN A    10.64.49.2
-vl1020-eth3.lvs1003 1H  IN A    10.64.49.3
-vl1020-eth3.lvs1004 1H  IN A    10.64.49.4
-vl1020-eth3.lvs1005 1H  IN A    10.64.49.5
-vl1020-eth3.lvs1006 1H  IN A    10.64.49.6
 
 pfw3-eqiad      1H  IN A     208.80.154.219
 

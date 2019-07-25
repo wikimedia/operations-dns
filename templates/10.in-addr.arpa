@@ -443,13 +443,6 @@ $ORIGIN 0.64.@Z
 
 $ORIGIN 1.64.@Z
 
-1   1H IN PTR   vl1017-eth0.lvs1001.wikimedia.org.
-2   1H IN PTR   vl1017-eth0.lvs1002.wikimedia.org.
-3   1H IN PTR   vl1017-eth0.lvs1003.wikimedia.org.
-4   1H IN PTR   vl1017-eth1.lvs1004.wikimedia.org.
-5   1H IN PTR   vl1017-eth1.lvs1005.wikimedia.org.
-6   1H IN PTR   vl1017-eth1.lvs1006.wikimedia.org.
-
 13  1H IN PTR   lvs1013.eqiad.wmnet.
 14  1H IN PTR   vl1017-eth1.lvs1014.eqiad.wmnet.
 15  1H IN PTR   vl1017-eth1.lvs1015.eqiad.wmnet.
@@ -658,13 +651,6 @@ $ORIGIN 16.64.@Z
 199 1H IN PTR   mw1318.eqiad.wmnet.
 
 $ORIGIN 17.64.@Z
-
-1   1H IN PTR   vl1018-eth1.lvs1001.wikimedia.org.
-2   1H IN PTR   vl1018-eth1.lvs1002.wikimedia.org.
-3   1H IN PTR   vl1018-eth1.lvs1003.wikimedia.org.
-4   1H IN PTR   vl1018-eth0.lvs1004.wikimedia.org.
-5   1H IN PTR   vl1018-eth0.lvs1005.wikimedia.org.
-6   1H IN PTR   vl1018-eth0.lvs1006.wikimedia.org.
 
 13  1H IN PTR   vl1018-eth1.lvs1013.eqiad.wmnet.
 14  1H IN PTR   lvs1014.eqiad.wmnet.
@@ -932,13 +918,6 @@ $ORIGIN 32.64.@Z
 237     1H IN PTR       orespoolcounter1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 $ORIGIN 33.64.@Z
-1       1H IN PTR       vl1019-eth2.lvs1001.wikimedia.org.
-2       1H IN PTR       vl1019-eth2.lvs1002.wikimedia.org.
-3       1H IN PTR       vl1019-eth2.lvs1003.wikimedia.org.
-4       1H IN PTR       vl1019-eth2.lvs1004.wikimedia.org.
-5       1H IN PTR       vl1019-eth2.lvs1005.wikimedia.org.
-6       1H IN PTR       vl1019-eth2.lvs1006.wikimedia.org.
-
 
 13      1H IN PTR       vl1019-eth2.lvs1013.eqiad.wmnet.
 14      1H IN PTR       vl1019-eth2.lvs1014.eqiad.wmnet.
@@ -1254,12 +1233,6 @@ $ORIGIN 48.64.@Z
 
 
 $ORIGIN 49.64.@Z
-1       1H IN PTR       vl1020-eth3.lvs1001.wikimedia.org.
-2       1H IN PTR       vl1020-eth3.lvs1002.wikimedia.org.
-3       1H IN PTR       vl1020-eth3.lvs1003.wikimedia.org.
-4       1H IN PTR       vl1020-eth3.lvs1004.wikimedia.org.
-5       1H IN PTR       vl1020-eth3.lvs1005.wikimedia.org.
-6       1H IN PTR       vl1020-eth3.lvs1006.wikimedia.org.
 
 13      1H IN PTR       vl1020-eth3.lvs1013.eqiad.wmnet.
 14      1H IN PTR       vl1020-eth3.lvs1014.eqiad.wmnet.

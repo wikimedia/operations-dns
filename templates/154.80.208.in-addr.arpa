@@ -47,12 +47,7 @@
 
 53  1H  IN PTR  vl1001-eth1.lvs1014.eqiad.wmnet.
 54  1H  IN PTR  vl1001-eth1.lvs1015.eqiad.wmnet.
-55  1H  IN PTR  lvs1001.wikimedia.org.
-56  1H  IN PTR  lvs1002.wikimedia.org.
-57  1H  IN PTR  lvs1003.wikimedia.org.
-58  1H  IN PTR  vl1001-eth1.lvs1004.wikimedia.org.
-59  1H  IN PTR  vl1001-eth1.lvs1005.wikimedia.org.
-60  1H  IN PTR  vl1001-eth1.lvs1006.wikimedia.org.
+
 61  1H  IN PTR  vl1001-eth1.lvs1016.eqiad.wmnet.
 
 ; 208.80.154.64/26 (public1-c-eqiad) (.64 - .127)
@@ -60,17 +55,11 @@
 65  1H  IN PTR  vrrp-gw-1003.wikimedia.org.
 66  1H  IN PTR  ae3-1003.cr1-eqiad.wikimedia.org.
 67  1H  IN PTR  ae3-1003.cr2-eqiad.wikimedia.org.
-68  1H  IN PTR  vl1003-eth2.lvs1002.wikimedia.org.
-69  1H  IN PTR  vl1003-eth2.lvs1003.wikimedia.org.
-70  1H  IN PTR  vl1003-eth2.lvs1004.wikimedia.org.
-71  1H  IN PTR  vl1003-eth2.lvs1005.wikimedia.org.
-72  1H  IN PTR  vl1003-eth2.lvs1006.wikimedia.org.
 
 76  1H  IN PTR  mx1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
 77  1H  IN PTR  ldap-eqiad-replica02.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
-78  1H  IN PTR  vl1003-eth2.lvs1001.wikimedia.org.
 79  1H  IN PTR  seaborgium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 80  1H  IN PTR  aluminium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 81  1H  IN PTR  cobalt.wikimedia.org.
@@ -100,12 +89,6 @@
 134 1H  IN PTR  authdns1001.wikimedia.org.
 135 1H  IN PTR  cloudservices1003.wikimedia.org.
 
-137 1H  IN PTR  lvs1004.wikimedia.org.
-138 1H  IN PTR  lvs1005.wikimedia.org.
-139 1H  IN PTR  lvs1006.wikimedia.org.
-140 1H  IN PTR  vl1002-eth1.lvs1001.wikimedia.org.
-141 1H  IN PTR  vl1002-eth1.lvs1002.wikimedia.org.
-142 1H  IN PTR  vl1002-eth1.lvs1003.wikimedia.org.
 143 1H  IN PTR  cloud-recursor0.wikimedia.org.
 144 1H  IN PTR  molybdenum.wikimedia.org.
 147 1H  IN PTR  californium.wikimedia.org.
