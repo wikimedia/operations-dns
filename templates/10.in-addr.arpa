@@ -641,7 +641,6 @@ $ORIGIN 16.64.@Z
 127 1H IN PTR   restbase1017-b.eqiad.wmnet. ; cassandra instance
 128 1H IN PTR   restbase1017-c.eqiad.wmnet. ; cassandra instance
 
-148 1H IN PTR   dbproxy1004.eqiad.wmnet.
 149 1H IN PTR   graphite1004.eqiad.wmnet.
 
 155 1H IN PTR   dbproxy1005.eqiad.wmnet.
@@ -886,7 +885,7 @@ $ORIGIN 32.64.@Z
 
 156     1H IN PTR       dbproxy1007.eqiad.wmnet.
 157     1H IN PTR       dbproxy1008.eqiad.wmnet.
-158     1H IN PTR       dbproxy1009.eqiad.wmnet.
+
 159     1H IN PTR       kafka-jumbo1004.eqiad.wmnet.
 160     1H IN PTR       kafka-jumbo1005.eqiad.wmnet.
 
