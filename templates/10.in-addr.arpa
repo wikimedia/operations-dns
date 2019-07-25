@@ -1122,7 +1122,7 @@ $ORIGIN 48.64.@Z
 17      1H IN PTR       dbstore1001.eqiad.wmnet.
 18      1H IN PTR       db1140.eqiad.wmnet.
 19      1H IN PTR       db1064.eqiad.wmnet.
-20      1H IN PTR       db1065.eqiad.wmnet.
+
 21      1H IN PTR       phab1003.eqiad.wmnet.
 22      1H IN PTR       phab1003-vcs.eqiad.wmnet.
 23      1H IN PTR       db1068.eqiad.wmnet.
