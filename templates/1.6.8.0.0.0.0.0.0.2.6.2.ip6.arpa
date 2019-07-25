@@ -211,9 +211,6 @@ $ORIGIN 3.0.1.0.@Z
 
 ; analytics1-a-eqiad (2620:0:861:104::/64)
 $ORIGIN 4.0.1.0.@Z
-4.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1023.eqiad.wmnet.
-2.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1012.eqiad.wmnet.
-3.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1013.eqiad.wmnet.
 5.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1052.eqiad.wmnet.
 6.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1053.eqiad.wmnet.
 7.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1054.eqiad.wmnet.
@@ -263,8 +260,6 @@ $ORIGIN 6.0.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1022.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1022.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1022.cr2-eqiad.wikimedia.org.
-4.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1014.eqiad.wmnet.
-2.2.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1022.eqiad.wmnet.
 8.2.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1028.eqiad.wmnet.
 9.2.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1029.eqiad.wmnet.
 0.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1030.eqiad.wmnet.
@@ -327,7 +322,6 @@ $ORIGIN 8.0.1.0.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1023.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1023.cr2-eqiad.wikimedia.org.
-2.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka1020.eqiad.wmnet.
 
 4.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1035.eqiad.wmnet.
 5.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1036.eqiad.wmnet.

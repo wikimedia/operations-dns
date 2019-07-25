@@ -484,9 +484,6 @@ $ORIGIN 5.64.@Z
 2   1H IN PTR   ae1-1030.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae1-1030.cr2-eqiad.wikimedia.org.
 
-12  1H IN PTR   kafka1012.eqiad.wmnet.
-13  1H IN PTR   kafka1013.eqiad.wmnet.
-14  1H IN PTR   kafka1023.eqiad.wmnet.
 15  1H IN PTR   analytics1052.eqiad.wmnet.
 16  1H IN PTR   analytics1053.eqiad.wmnet.
 17  1H IN PTR   analytics1054.eqiad.wmnet.
@@ -985,12 +982,10 @@ $ORIGIN 36.64.@Z
 111     1H IN PTR       analytics-tool1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 113     1H IN PTR       an-worker1090.eqiad.wmnet.
-114     1H IN PTR       kafka1014.eqiad.wmnet.
+
 115     1H IN PTR       an-worker1091.eqiad.wmnet.
 116     1H IN PTR       analytics-tool1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 117     1H IN PTR       an-tool1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
-122     1H IN PTR       kafka1022.eqiad.wmnet.
 
 128     1H IN PTR       analytics1028.eqiad.wmnet.
 129     1H IN PTR       analytics1029.eqiad.wmnet.
@@ -1306,7 +1301,6 @@ $ORIGIN 53.64.@Z
 2       1H IN PTR       ae4-1023.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae4-1023.cr2-eqiad.wikimedia.org.
 
-12      1H IN PTR       kafka1020.eqiad.wmnet.
 14      1H IN PTR       analytics1035.eqiad.wmnet.
 15      1H IN PTR       analytics1036.eqiad.wmnet.
 16      1H IN PTR       analytics1037.eqiad.wmnet.
