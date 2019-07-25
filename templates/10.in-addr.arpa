@@ -1004,8 +1004,7 @@ $ORIGIN 37.64.@Z
 4       1H IN PTR       labsdb1002.eqiad.wmnet.
 
 10      1H IN PTR       labstore.svc.eqiad.wmnet.
-11      1H IN PTR       labsdb1006.eqiad.wmnet.
-12      1H IN PTR       labsdb1007.eqiad.wmnet.
+
 13      1H IN PTR       labmon1001.eqiad.wmnet.
 14      1H IN PTR       dbproxy1010.eqiad.wmnet.
 15      1H IN PTR       dbproxy1011.eqiad.wmnet.
