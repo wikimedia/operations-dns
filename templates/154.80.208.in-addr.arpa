@@ -44,7 +44,7 @@
 49  1H  IN PTR  actinium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
 51  1H  IN PTR  vl1001-eth0.lvs1013.eqiad.wmnet.
-52  1H  IN PTR  rhenium.wikimedia.org.
+
 53  1H  IN PTR  vl1001-eth1.lvs1014.eqiad.wmnet.
 54  1H  IN PTR  vl1001-eth1.lvs1015.eqiad.wmnet.
 55  1H  IN PTR  lvs1001.wikimedia.org.
