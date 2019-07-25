@@ -901,7 +901,8 @@ $ORIGIN 32.64.@Z
 
 177     1H IN PTR       etherpad1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 178     1H IN PTR       restbase1008.eqiad.wmnet.
-
+179     1H IN PTR       dbproxy1020.eqiad.wmnet.
+180     1H IN PTR       dbproxy1021.eqiad.wmnet.
 181     1H IN PTR       bromine.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 182     1H IN PTR       krypton.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 183     1H IN PTR       grafana1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
@@ -1283,8 +1284,7 @@ $ORIGIN 48.64.@Z
 184     1H  IN PTR      restbase1027-a.eqiad.wmnet. ; cassandra instance
 185     1H  IN PTR      restbase1027-b.eqiad.wmnet. ; cassandra instance
 186     1H  IN PTR      restbase1027-c.eqiad.wmnet. ; cassandra instance
-187     1H  IN PTR      dbproxy1020.eqiad.wmnet.
-188     1H  IN PTR      dbproxy1021.eqiad.wmnet.
+
 
 
 $ORIGIN 49.64.@Z
