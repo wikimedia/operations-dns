@@ -54,7 +54,6 @@ m4-slave        5M  IN CNAME    db1108.eqiad.wmnet.
 m5-master       5M  IN CNAME    db1073.eqiad.wmnet.
 m5-slave        5M  IN CNAME    db1117.eqiad.wmnet.
 x1-master       5M  IN CNAME    db1120.eqiad.wmnet.
-x1-slave        5M  IN CNAME    db1064.eqiad.wmnet.
 es2-master      5M  IN CNAME    es1015.eqiad.wmnet.
 es3-master      5M  IN CNAME    es1017.eqiad.wmnet.
 pc1-master      5M  IN CNAME    pc1007.eqiad.wmnet.
@@ -404,7 +403,6 @@ graphite1004    1H  IN A        10.64.16.149
 db1061          1H  IN A        10.64.32.227
 db1062          1H  IN A        10.64.48.15
 db1063          1H  IN A        10.64.32.228
-db1064          1H  IN A        10.64.48.19
 db1066          1H  IN A        10.64.0.110
 db1067          1H  IN A        10.64.32.64
 db1069          1H  IN A        10.64.0.108
