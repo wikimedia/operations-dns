@@ -354,7 +354,7 @@ $ORIGIN 0.64.@Z
 105 1H IN PTR   restbase1020-a.eqiad.wmnet. ; cassandra instance
 106 1H IN PTR   restbase1020-b.eqiad.wmnet. ; cassandra instance
 107 1H IN PTR   aqs1004.eqiad.wmnet.
-108 1H IN PTR   db1069.eqiad.wmnet.
+
 109 1H IN PTR   wdqs1006.eqiad.wmnet.
 110 1H IN PTR   db1066.eqiad.wmnet.
 111 1H IN PTR   matomo1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
