@@ -85,6 +85,3 @@ shop            1D IN CNAME dyna.wikimedia.org.
 stats           1D IN CNAME dyna.wikimedia.org.
 store           1D IN CNAME dyna.wikimedia.org.
 zero            1D IN CNAME dyna.wikimedia.org.
-
-; TLS testing, "temporary"
-pinkunicorn     600 IN A        208.80.154.42

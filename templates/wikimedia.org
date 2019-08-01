@@ -882,7 +882,3 @@ mailo._domainkey.wikitech-static 1H IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4G
 labtestwikitech   1D IN CNAME dyna.wikimedia.org.
 labtesthorizon    1D IN CNAME dyna.wikimedia.org.
 labtesttoolsadmin 1D IN CNAME dyna.wikimedia.org.
-
-; SNI testing hostname
-pinkunicorn      600 A 208.80.154.42
-pinkunicorn      600 AAAA 2620:0:861:1:208:80:154:42
