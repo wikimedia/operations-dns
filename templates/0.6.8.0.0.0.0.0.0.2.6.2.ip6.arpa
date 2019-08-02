@@ -63,6 +63,7 @@ $ORIGIN 4.0.0.0.@Z
 
 6.0.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit2001.wikimedia.org.
 7.0.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit-slave.wikimedia.org.
+7.0.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit-replica.wikimedia.org.
 
 8.0.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestpuppetmaster2001.wikimedia.org.
 9.0.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labtestservices2003.wikimedia.org.

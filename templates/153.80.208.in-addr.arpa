@@ -97,6 +97,7 @@
 104 1H  IN PTR  vl2004-eth3.lvs2005.codfw.wmnet.
 105 1H  IN PTR  vl2004-eth3.lvs2006.codfw.wmnet.
 106 1H  IN PTR  gerrit2001.wikimedia.org.
+107 1H  IN PTR  gerrit-replica.wikimedia.org.
 107 1H  IN PTR  gerrit-slave.wikimedia.org.
 108 1H  IN PTR  labtestpuppetmaster2001.wikimedia.org.
 109 1H  IN PTR  labtestservices2003.wikimedia.org.
