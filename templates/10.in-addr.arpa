@@ -3801,6 +3801,7 @@ $ORIGIN 48.192.@Z
 131 1H IN PTR   logstash2003.codfw.wmnet.
 132 1H IN PTR   sessionstore2003-a.codfw.wmnet.
 133 1H IN PTR   db2130.codfw.wmnet.
+134 1H IN PTR   db2131.codfw.wmnet.
 
 $ORIGIN 49.192.@Z
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
@@ -5028,6 +5029,9 @@ $ORIGIN 3.193.@Z
 69  1H IN PTR  wmf6764.mgmt.codfw.wmnet.
 70  1H IN PTR  db2130.mgmt.codfw.wmnet.
 70  1H IN PTR  wmf6765.mgmt.codfw.wmnet.
+71  1H IN PTR  db2131.mgmt.codfw.wmnet.
+71  1H IN PTR  wmf6766.mgmt.codfw.wmnet.
+
 
 ; 10.195.0.0/24 - frack.codfw subnets
 $ORIGIN 0.195.@Z
