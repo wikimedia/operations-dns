@@ -5141,6 +5141,9 @@ cp5010          1H      IN A    10.132.129.110
 cp5011          1H      IN A    10.132.129.111
 cp5012          1H      IN A    10.132.129.112
 
+ganeti5001      1H      IN A    10.132.129.113
+ganeti5002      1H      IN A    10.132.129.114
+ganeti5003      1H      IN A    10.132.129.115
 
 ; Asset tags listed in order
 WMF7168         1H      IN A    10.132.129.102

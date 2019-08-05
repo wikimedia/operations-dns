@@ -3072,6 +3072,9 @@ $ORIGIN 129.132.@Z
 110 1H  IN PTR      cp5010.mgmt.eqsin.wmnet.
 111 1H  IN PTR      cp5011.mgmt.eqsin.wmnet.
 112 1H  IN PTR      cp5012.mgmt.eqsin.wmnet.
+113 1H  IN PTR      ganeti5001.mgmt.eqsin.wmnet.
+114 1H  IN PTR      ganeti5002.mgmt.eqsin.wmnet.
+115 1H  IN PTR      ganeti5003.mgmt.eqsin.wmnet.
 
 ;
 ; CODFW (10.192.0.0/12)
