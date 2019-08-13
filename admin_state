@@ -69,5 +69,3 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
-# cr2-eqsin software upgrade
-geoip/generic-map/eqsin => DOWN
