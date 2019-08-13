@@ -2782,6 +2782,8 @@ m1-master       5M  IN CNAME    dbproxy2001.codfw.wmnet.
 m1-slave        5M  IN CNAME    db2078.codfw.wmnet.
 m2-master       5M  IN CNAME    dbproxy2002.codfw.wmnet.
 m2-slave        5M  IN CNAME    db2078.codfw.wmnet.
+m3-master       5M  IN CNAME    dbproxy2003.codfw.wmnet.
+m3-slave        5M  IN CNAME    db2078.codfw.wmnet.
 statsd          1H  IN CNAME    graphite2001.codfw.wmnet.
 ; Used by syslog over UDP (e.g. network devices, PDUs)
 syslog          1H  IN CNAME    syslog.anycast.wmnet.
