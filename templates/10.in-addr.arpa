@@ -2627,6 +2627,12 @@ $ORIGIN 5.65.@Z
 116 1H  IN PTR      wmf5236.mgmt.eqiad.wmnet.
 117 1H  IN PTR      ganeti1022.mgmt.eqiad.wmnet.
 117 1H  IN PTR      wmf5237.mgmt.eqiad.wmnet.
+118 1H  IN PTR      an-conf1001.mgmt.eqiad.wmnet.
+118 1H  IN PTR      wmf5200.mgmt.eqiad.wmnet.
+119 1H  IN PTR      an-conf1002.mgmt.eqiad.wmnet.
+119 1H  IN PTR      wmf5201.mgmt.eqiad.wmnet.
+120 1H  IN PTR      an-conf1003.mgmt.eqiad.wmnet.
+120 1H  IN PTR      wmf5202.mgmt.eqiad.wmnet.
 
 180 1H  IN PTR      wmf4540.mgmt.eqiad.wmnet.
 180 1H  IN PTR      analytics1001.mgmt.eqiad.wmnet.
