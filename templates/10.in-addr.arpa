@@ -1885,6 +1885,12 @@ $ORIGIN 2.65.@Z
 175 1H  IN PTR      wmf5181.mgmt.eqiad.wmnet.
 176 1H  IN PTR      dbproxy1021.mgmt.eqiad.wmnet.
 176 1H  IN PTR      wmf5182.mgmt.eqiad.wmnet.
+177 1H  IN PTR      cloudcephosd1001.mgmt.eqiad.wmnet.
+177 1H  IN PTR      wmf5238.mgmt.eqiad.wmnet.
+178 1H  IN PTR      cloudcephosd1002.mgmt.eqiad.wmnet.
+178 1H  IN PTR      wmf5239.mgmt.eqiad.wmnet.
+179 1H  IN PTR      cloudcephosd1003.mgmt.eqiad.wmnet.
+179 1H  IN PTR      wmf5240.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.@Z
 
