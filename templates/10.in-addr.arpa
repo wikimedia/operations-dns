@@ -810,7 +810,7 @@ $ORIGIN 32.64.@Z
 76      1H IN PTR       db1134.eqiad.wmnet.
 77      1H IN PTR       db1135.eqiad.wmnet.
 78      1H IN PTR       sessionstore1002.eqiad.wmnet.
-
+79      1H IN PTR       failoid1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 81      1H IN PTR       cp1099.eqiad.wmnet.
 82      1H IN PTR       cam1-c-eqiad.eqiad.wmnet.
@@ -3431,6 +3431,7 @@ $ORIGIN 16.192.@Z
 141 1H IN PTR   pybal-test2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 142 1H IN PTR   pybal-testsvc.codfw.wmnet.  ; service IP
 143 1H IN PTR   ncredir2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+144 1H IN PTR   failoid2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 160 1H IN PTR   ms-be2018.codfw.wmnet.
 161 1H IN PTR   ms-be2019.codfw.wmnet.

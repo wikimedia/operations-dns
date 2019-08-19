@@ -578,6 +578,7 @@ etcd1006        1H  IN A        10.64.32.218 ; VM on ganeti01.svc.eqiad.wmnet
 etherpad1001    1H  IN A        10.64.32.177 ; VM on ganeti01.svc.eqiad.wmnet
 eventlog1002    1H  IN A        10.64.48.95
 eventlog1002    1H  IN AAAA     2620:0:861:107:10:64:48:95
+failoid1001     1H  IN A        10.64.32.79 ; VM on ganeti01.svc.eqiad.wmnet
 flerovium       1H  IN A        10.64.48.112
 francium        1H  IN A        10.64.32.168
 ganeti1001      1H  IN A        10.64.32.169
@@ -3083,6 +3084,7 @@ es2016          1H  IN A    10.192.48.41
 es2017          1H  IN A    10.192.0.142
 es2018          1H  IN A    10.192.16.172
 es2019          1H  IN A    10.192.48.42
+failoid2001     1H  IN A    10.192.16.144 ; VM on ganeti01.svc.codfw.wmnet
 furud           1H  IN A    10.192.16.65
 kubetcd2001     1H  IN A    10.192.0.94 ; VM on ganeti01.svc.codfw.wmnet
 kubetcd2002     1H  IN A    10.192.0.95 ; VM on ganeti01.svc.codfw.wmnet
