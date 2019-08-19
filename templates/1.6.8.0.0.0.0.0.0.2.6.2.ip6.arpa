@@ -277,6 +277,7 @@ $ORIGIN 6.0.1.0.@Z
 1.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics-tool1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 6.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics-tool1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 7.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-tool1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+8.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-tool1007.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 0.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1088.eqiad.wmnet.
 3.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1089.eqiad.wmnet.
 3.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1090.eqiad.wmnet.
