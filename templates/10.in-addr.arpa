@@ -260,7 +260,7 @@ $ORIGIN 0.64.@Z
 9   1H IN PTR   snapshot1005.eqiad.wmnet.
 10  1H IN PTR   oresrdb1002.eqiad.wmnet.
 11  1H IN PTR   kafka1001.eqiad.wmnet.
-
+12  1H IN PTR   puppetdb1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 13  1H IN PTR   db1116.eqiad.wmnet.
 14  1H IN PTR   wdqs1003.eqiad.wmnet.
 15  1H IN PTR   db1117.eqiad.wmnet.
@@ -3266,6 +3266,7 @@ $ORIGIN 0.192.@Z
 144 1H IN PTR   maps2001.codfw.wmnet.
 145 1H IN PTR   prometheus2003.codfw.wmnet.
 146 1H IN PTR   db2122.codfw.wmnet.
+147 1H IN PTR   puppetdb2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 $ORIGIN 1.192.@Z
 1   1H IN PTR   lvs2001.codfw.wmnet.
