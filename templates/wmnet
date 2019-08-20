@@ -1237,8 +1237,6 @@ wmf7394             1H  IN A    10.65.2.15
 dns1001             1H  IN A    10.65.2.15
 wmf7395             1H  IN A    10.65.2.16
 dns1002             1H  IN A    10.65.2.16
-wmf3114             1H  IN A    10.65.2.21
-californium         1H  IN A    10.65.2.21
 wmf3113             1H  IN A    10.65.2.22
 dbproxy1011         1H  IN A    10.65.2.22
 wmf3112             1H  IN A    10.65.2.23

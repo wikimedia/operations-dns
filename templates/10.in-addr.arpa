@@ -1662,8 +1662,7 @@ $ORIGIN 2.65.@Z
 
 20  1H  IN PTR      rdb1005.mgmt.eqiad.wmnet.
 20  1H  IN PTR      wmf4718.mgmt.eqiad.wmnet.
-21  1H  IN PTR      californium.mgmt.eqiad.wmnet.
-21  1H  IN PTR      wmf3114.mgmt.eqiad.wmnet.
+
 22  1H  IN PTR      dbproxy1011.mgmt.eqiad.wmnet.
 22  1H  IN PTR      wmf3113.mgmt.eqiad.wmnet.
 23  1H  IN PTR      dbproxy1010.mgmt.eqiad.wmnet.
