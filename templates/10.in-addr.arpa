@@ -260,7 +260,6 @@ $ORIGIN 0.64.@Z
 9   1H IN PTR   snapshot1005.eqiad.wmnet.
 10  1H IN PTR   oresrdb1002.eqiad.wmnet.
 11  1H IN PTR   kafka1001.eqiad.wmnet.
-12  1H IN PTR   puppetdb1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 13  1H IN PTR   db1116.eqiad.wmnet.
 14  1H IN PTR   wdqs1003.eqiad.wmnet.
 15  1H IN PTR   db1117.eqiad.wmnet.
@@ -811,7 +810,7 @@ $ORIGIN 32.64.@Z
 77      1H IN PTR       db1135.eqiad.wmnet.
 78      1H IN PTR       sessionstore1002.eqiad.wmnet.
 79      1H IN PTR       failoid1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
+80      1H IN PTR       puppetdb1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 81      1H IN PTR       cp1099.eqiad.wmnet.
 82      1H IN PTR       cam1-c-eqiad.eqiad.wmnet.
 83      1H IN PTR       cam2-c-eqiad.eqiad.wmnet.
