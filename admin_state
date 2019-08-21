@@ -69,3 +69,6 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+# codfw router routing engines replacements
+geoip/generic-map/codfw => DOWN
+geoip/generic-map/eqsin => DOWN
