@@ -254,6 +254,7 @@ $ORIGIN 5.0.1.0.@Z
 1.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1085.eqiad.wmnet.
 2.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1086.eqiad.wmnet.
 3.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1087.eqiad.wmnet.
+4.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-conf1001.eqiad.wmnet.
 
 ; analytics1-c-eqiad (2620:0:861:106::/64)
 $ORIGIN 6.0.1.0.@Z
@@ -282,6 +283,7 @@ $ORIGIN 6.0.1.0.@Z
 3.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1089.eqiad.wmnet.
 3.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1090.eqiad.wmnet.
 5.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1091.eqiad.wmnet.
+5.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-conf1002.eqiad.wmnet.
 
 ; private1-d-eqiad (2620:0:861:107::/64)
 $ORIGIN 7.0.1.0.@Z
@@ -344,6 +346,7 @@ $ORIGIN 8.0.1.0.@Z
 5.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1093.eqiad.wmnet.
 6.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1094.eqiad.wmnet.
 7.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1095.eqiad.wmnet.
+8.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-conf1003.eqiad.wmnet.
 
 3.0.1.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1003.eqiad.wmnet.
 
