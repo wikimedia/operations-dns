@@ -87,6 +87,7 @@
 133 1H  IN PTR  cloudelastic1002.wikimedia.org.
 134 1H  IN PTR  authdns1001.wikimedia.org.
 135 1H  IN PTR  cloudservices1003.wikimedia.org.
+136 1H  IN PTR  gerrit1001.wikimedia.org.
 
 143 1H  IN PTR  cloud-recursor0.wikimedia.org.
 144 1H  IN PTR  molybdenum.wikimedia.org.
