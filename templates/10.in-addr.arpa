@@ -2046,6 +2046,7 @@ $ORIGIN 3.65.@Z
 99  1H  IN PTR      wmf5173.mgmt.eqiad.wmnet.
 100 1H  IN PTR      wmf5174.mgmt.eqiad.wmnet.
 101 1H  IN PTR      wmf5175.mgmt.eqiad.wmnet.
+102 1H  IN PTR      gerrit1001.mgmt.eqiad.wmnet.
 102 1H  IN PTR      wmf5176.mgmt.eqiad.wmnet.
 103 1H  IN PTR      kafka1020.mgmt.eqiad.wmnet.
 104 1H  IN PTR      kafka1023.mgmt.eqiad.wmnet.
