@@ -939,7 +939,7 @@ $ORIGIN 36.64.@Z
 108     1H IN PTR       analytics1074.eqiad.wmnet.
 109     1H IN PTR       analytics1075.eqiad.wmnet.
 110     1H IN PTR       analytics-tool1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-111     1H IN PTR       analytics-tool1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
 
 113     1H IN PTR       an-worker1090.eqiad.wmnet.
 
