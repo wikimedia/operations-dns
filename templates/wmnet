@@ -655,8 +655,6 @@ labmon1001      1H  IN AAAA     2620:0:861:119:10:64:37:13
 prometheus-labmon 1H      IN CNAME  labmon1001
 labmon1002      1H  IN A        10.64.4.15
 labmon1002      1H  IN AAAA     2620:0:861:117:10:64:4:15
-labnet1001      1H  IN A        10.64.20.13
-labnet1002      1H  IN A        10.64.20.25
 cloudnet1004    1H  IN A        10.64.20.36
 labstore1004    1H  IN A        10.64.37.19
 labstore1005    1H  IN A        10.64.37.20
@@ -2517,10 +2515,6 @@ rdb1005          1H  IN A    10.65.2.20
 wmf4718          1H  IN A    10.65.2.20
 rdb1006          1H  IN A    10.65.2.25
 wmf4719          1H  IN A    10.65.2.25
-labnet1002       1H  IN A    10.65.3.170
-wmf3642          1H  IN A    10.65.3.170
-labnet1001       1H  IN A    10.65.3.171
-wmf3643          1H  IN A    10.65.3.171
 cloudelastic1001 1H  IN A    10.65.3.148
 wmf7384          1H  IN A    10.65.3.148
 cloudelastic1002 1H  IN A    10.65.3.149
