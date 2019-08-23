@@ -3353,7 +3353,7 @@ $ORIGIN 16.192.@Z
 71  1H IN PTR   mw2270.codfw.wmnet.
 72  1H IN PTR   ms-be2041.codfw.wmnet.
 73  1H IN PTR   db2035.codfw.wmnet.
-74  1H IN PTR   db2045.codfw.wmnet.
+
 75  1H IN PTR   proton2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 76  1H IN PTR   orespoolcounter2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 77  1H IN PTR   ms-be2046.codfw.wmnet.
