@@ -3198,7 +3198,7 @@ $ORIGIN 0.192.@Z
 84  1H IN PTR   mc2020.codfw.wmnet.
 85  1H IN PTR   mc2021.codfw.wmnet.
 86  1H IN PTR   mc2022.codfw.wmnet.
-87  1H IN PTR   db2034.codfw.wmnet.
+
 88  1H IN PTR   ms-be2028.codfw.wmnet.
 89  1H IN PTR   ms-be2029.codfw.wmnet.
 90  1H IN PTR   ms-be2030.codfw.wmnet.
