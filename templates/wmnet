@@ -3100,7 +3100,6 @@ ganeti2016      1H  IN A    10.192.48.49
 ganeti2017      1H  IN A    10.192.48.50
 ganeti2018      1H  IN A    10.192.48.51
 graphite2001    1H  IN A    10.192.16.33
-graphite2002    1H  IN A    10.192.32.140
 graphite2003    1H  IN A    10.192.0.102
 hassaleh        1H  IN A    10.192.16.173 ; VM on ganeti01.svc.codfw.wmnet
 heze            1H  IN A    10.192.0.31
@@ -3950,7 +3949,6 @@ ganeti2017      1H  IN A    10.193.2.12
 ganeti2018      1H  IN A    10.193.2.229
 gerrit2001      1H  IN A    10.193.3.1
 graphite2001    1H  IN A    10.193.2.14
-graphite2002    1H  IN A    10.193.2.251
 graphite2003    1H  IN A    10.193.1.206
 heze            1H  IN A    10.193.1.250
 icinga2001      1H  IN A    10.193.1.27
