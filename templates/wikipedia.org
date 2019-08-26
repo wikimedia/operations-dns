@@ -27,6 +27,9 @@
 ; DMARC records http://dmarc.org/ -- policy none (monitor), for now
 _dmarc                  600     IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
 
+; Temporary verification for brave.com
+@                       600     IN TXT  "brave-ledger-verification=db801384c9b1762a8b593631d076d5e6dbea1f190e69ef4dc1d96ee793064fc2"
+
 ; SPF records
 @                       600     IN TXT  "v=spf1 include:wikimedia.org ~all"
 
