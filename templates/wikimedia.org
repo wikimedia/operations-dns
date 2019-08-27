@@ -259,6 +259,10 @@ mx2001          1H  IN A    208.80.153.45 ; VM on ganeti01.svc.codfw.wmnet
 mx2001          1H  IN AAAA 2620:0:860:2:208:80:153:45 ; VM on ganeti01.svc.codfw.wmnet
 nescio          1H  IN A    91.198.174.106
 nescio          1H  IN AAAA 2620:0:862:1:91:198:174:106
+netbox1001      1H  IN A    208.80.154.12               ; VM on ganeti01.svc.eqiad.wmnet
+netbox1001      1H  IN AAAA 2620:0:861:1:208:80:154:12 ; VM on ganeti01.svc.eqiad.wmnet
+netbox2001      1H  IN A    208.80.153.12               ; VM on ganeti01.svc.codfw.wmnet
+netbox2001      1H  IN AAAA 2620:0:860:1:208:80:153:12 ; VM on ganeti01.svc.codfw.wmnet
 netmon1002      1H  IN A    208.80.154.5
 netmon1002      1H  IN AAAA 2620:0:861:1:208:80:154:5
 netmon2001      1H  IN A    208.80.153.110

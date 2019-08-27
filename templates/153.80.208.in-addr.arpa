@@ -24,7 +24,7 @@
 9   1H  IN PTR  vl2001-eth1.lvs2004.codfw.wmnet.
 10  1H  IN PTR  vl2001-eth1.lvs2005.codfw.wmnet.
 11  1H  IN PTR  vl2001-eth1.lvs2006.codfw.wmnet.
-
+12  1H  IN PTR  netbox2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 15  1H  IN PTR  contint2001.wikimedia.org.
 16  1H  IN PTR  alcyone.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 17  1H  IN PTR  authdns2001.wikimedia.org.
@@ -33,6 +33,7 @@
 20  1H  IN PTR  vl2001-enp59s0f1d1.lvs2009.codfw.wmnet.
 21  1H  IN PTR  vl2001-enp59s0f1d1.lvs2010.codfw.wmnet.
 22  1H  IN PTR  ldap-replica2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
+
 
 
 ; 208.80.153.32/27 (public1-b-codfw)

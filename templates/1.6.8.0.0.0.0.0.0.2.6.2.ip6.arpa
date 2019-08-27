@@ -26,6 +26,8 @@ $ORIGIN 1.0.0.0.@Z
 
 5.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   netmon1002.wikimedia.org.
 
+2.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   netbox1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
+
 7.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   contint1001.wikimedia.org.
 
 4.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   fermium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
@@ -143,6 +145,8 @@ $ORIGIN 1.0.1.0.@Z
 5.3.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1004.eqiad.wmnet.
 
 7.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1004.eqiad.wmnet.
+8.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   netboxdb1001.eqiad.wmnet.  ; VM on ganeti01.svc.eqiad.wmnet
+
 9.9.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1007.eqiad.wmnet.
 
 1.1.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   matomo1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
