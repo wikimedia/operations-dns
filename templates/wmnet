@@ -5447,6 +5447,7 @@ termbox        300/10 IN DYNA geoip!disc-termbox
 
 debmonitor      300 IN CNAME debmonitor1001.eqiad.wmnet.
 webserver-misc-static      300 IN CNAME bromine.eqiad.wmnet.
+webserver-misc-apps        300 IN CNAME miscweb1001.eqiad.wmnet.
 phabricator     300 IN CNAME phab1003.eqiad.wmnet.
 
 ; Internal Anycast addresses (10.3.0.0/24)
