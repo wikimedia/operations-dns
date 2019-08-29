@@ -160,6 +160,10 @@ cloudservices1004 1H  IN A    208.80.154.11
 cloudservices1004 1H  IN AAAA 2620:0:861:1:208:80:154:11
 cloudservices2002-dev 1H  IN A    208.80.153.76
 cloudservices2002-dev 1H  IN AAAA 2620:0:860:3:208:80:153:76
+codfw1dev-ns0         1H  IN A    208.80.153.76
+codfw1dev-ns0         1H  IN AAAA 2620:0:860:3:208:80:153:76
+codfw1dev-recursor0 1H IN A       208.80.153.78
+codfw1dev-recursor0 1H IN AAAA  2620:0:860:3:208:80:153:78
 cloudstore1008      1H  IN A    208.80.155.125
 cloudstore1008      1H  IN AAAA 2620:0:861:4:208:80:155:125
 cloudstore1009      1H  IN A    208.80.155.126
@@ -170,6 +174,7 @@ cloud-ns0         1H  IN A    208.80.154.135
 cloud-ns0         1H  IN AAAA 2620:0:861:2:208:80:154:135
 cloud-ns1         1H  IN A    208.80.154.11
 cloud-ns1         1H  IN AAAA 2620:0:861:1:208:80:154:11
+
 cloud-recursor0   1H  IN A    208.80.154.143
 cloud-recursor1   1H  IN A    208.80.154.24
 cobalt          1H  IN A    208.80.154.81
@@ -821,10 +826,6 @@ iegreview        1D IN CNAME dyna.wikimedia.org.
 tendril          5M  IN CNAME    dbmonitor1001
 jobs             1D IN CNAME dyna.wikimedia.org.
 labs             1D IN CNAME dyna.wikimedia.org.
-codfw1dev-ns0    1H  IN A        208.80.153.48
-codfw1dev-ns1    1H  IN A        208.80.153.76
-codfw1dev-recursor0 1H IN A        208.80.153.51
-codfw1dev-recursor1 1H IN A        208.80.153.78
 ; deprecated but kept for compatibility, see RT #6769
 labsconsole      1D IN CNAME dyna.wikimedia.org.
 logstash         1D IN CNAME dyna.wikimedia.org.

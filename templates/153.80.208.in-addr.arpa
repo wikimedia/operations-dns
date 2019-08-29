@@ -55,7 +55,6 @@
 
 49  1H  IN PTR  serpens.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 50  1H  IN PTR  alsafi.wikimedia.org.  ; VM on ganeti01.svc.codfw.wmnet
-51  1H  IN PTR  codfw1dev-recursor0.wikimedia.org. ; additional IP for cloudservices200X-dev
 52  1H  IN PTR  dbmonitor2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 53  1H  IN PTR  install2002.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 54  1H  IN PTR  bast2002.wikimedia.org.
@@ -81,7 +80,7 @@
 75  1H  IN PTR  cloudcontrol2003-dev.wikimedia.org.
 76  1H  IN PTR  cloudservices2002-dev.wikimedia.org.
 77  1H  IN PTR  dns2001.wikimedia.org.
-78  1H  IN PTR  codfw1dev-recursor1.wikimedia.org. ; additional IP on cloudservices2002-dev
+78  1H  IN PTR  codfw1dev-recursor0.wikimedia.org. ; additional IP for cloudservices200X-dev
 79  1H  IN PTR  vl2003-enp175s0f0.lvs2007.codfw.wmnet.
 80  1H  IN PTR  vl2003-enp175s0f0.lvs2008.codfw.wmnet.
 81  1H  IN PTR  vl2003-enp59s0f0.lvs2009.codfw.wmnet.
