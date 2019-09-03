@@ -996,7 +996,6 @@ restbase-dev1006    1H IN A     10.64.48.10
 restbase-dev1006-a  1H IN A     10.64.48.168
 restbase-dev1006-b  1H IN A     10.64.48.169
 rhodium         1H  IN A        10.64.16.184
-roentgenium     1H  IN A        10.64.32.24 ; VM on ganeti01.svc.eqiad.wmnet
 rpki1001        1H  IN A        10.64.32.19 ; VM on ganeti01.svc.eqiad.wmnet
 rpki1001        1H  IN AAAA     2620:0:861:103:10:64:32:19 ; VM on ganeti01.svc.eqiad.wmnet
 scandium        1H  IN A        10.64.48.94
@@ -3526,7 +3525,6 @@ thumbor2001     1H  IN A    10.192.32.36
 thumbor2002     1H  IN A    10.192.32.37
 thumbor2003     1H  IN A    10.192.16.58
 thumbor2004     1H  IN A    10.192.16.59
-tureis          1H  IN A    10.192.16.25 ; VM on ganeti01.svc.codfw.wmnet
 vega            1H  IN A    10.192.16.121 ; VM on ganeti01.svc.codfw.wmnet
 vega            1H  IN AAAA 2620:0:860:102:10:192:16:121 ; VM on ganeti01.svc.codfw.wmnet
 wezen           1H  IN A    10.192.48.64

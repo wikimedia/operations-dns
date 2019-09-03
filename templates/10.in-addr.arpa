@@ -760,7 +760,6 @@ $ORIGIN 32.64.@Z
 21      1H IN PTR       elastic1051.eqiad.wmnet.
 22      1H IN PTR       elastic1052.eqiad.wmnet.
 23      1H IN PTR       kubernetes1003.eqiad.wmnet.
-24      1H IN PTR       roentgenium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 25      1H IN PTR       cumin1001.eqiad.wmnet.
 27      1H IN PTR       logstash1009.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 28      1H IN PTR       sca1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
@@ -3321,7 +3320,6 @@ $ORIGIN 16.192.@Z
 20  1H IN PTR   db2032.codfw.wmnet.
 22  1H IN PTR   db2051.codfw.wmnet.
 23  1H IN PTR   puppetboard2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-25  1H IN PTR   tureis.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 26  1H IN PTR   acrab.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 27  1H IN PTR   es2003.codfw.wmnet.
 28  1H IN PTR   es2004.codfw.wmnet.
