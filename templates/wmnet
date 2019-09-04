@@ -5455,6 +5455,7 @@ peopleweb       300 IN CNAME people1001.eqiad.wmnet.
 phabricator     300 IN CNAME phab1003.eqiad.wmnet.
 planet          300 IN CNAME planet1001.eqiad.wmnet.
 webperf         300 IN CNAME webperf1001.eqiad.wmnet.
+releases        300 IN CNAME releases1001.eqiad.wmnet.
 
 ; Internal Anycast addresses (10.3.0.0/24)
 
