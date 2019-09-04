@@ -2079,7 +2079,12 @@ $ORIGIN 3.65.@Z
 123 1H  IN PTR      wmf7369.mgmt.eqiad.wmnet.
 124 1H  IN PTR      cloudstore1009.mgmt.eqiad.wmnet.
 124 1H  IN PTR      wmf7370.mgmt.eqiad.wmnet.
-
+125 1H  IN PTR      cloudcephmon1001.mgmt.eqiad.wmnet.
+125 1H  IN PTR      wmf5241.mgmt.eqiad.wmnet.
+126 1H  IN PTR      cloudcephmon1002.mgmt.eqiad.wmnet.
+126 1H  IN PTR      wmf5242.mgmt.eqiad.wmnet.
+127 1H  IN PTR      cloudcephmon1003.mgmt.eqiad.wmnet.
+127 1H  IN PTR      wmf5243.mgmt.eqiad.wmnet.
 128 1H  IN PTR      wmf4083.mgmt.eqiad.wmnet.
 129 1H  IN PTR      kafka-main1001.mgmt.eqiad.wmnet.
 129 1H  IN PTR      wmf5185.mgmt.eqiad.wmnet.
