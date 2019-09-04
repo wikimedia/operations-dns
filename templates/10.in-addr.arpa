@@ -3317,7 +3317,6 @@ $ORIGIN 16.192.@Z
 30  1H IN PTR   kubetcd2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 31  1H IN PTR   oresrdb2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 32  1H IN PTR   ms-be2014.codfw.wmnet.
-33  1H IN PTR   graphite2001.codfw.wmnet.
 34  1H IN PTR   db2096.codfw.wmnet.
 35  1H IN PTR   pc2008.codfw.wmnet.
 36  1H IN PTR   scb2004.codfw.wmnet.
@@ -4441,8 +4440,6 @@ $ORIGIN 2.193.@Z
 12  1H IN PTR  wmf6750.mgmt.codfw.wmnet.
 13  1H IN PTR  stat2001.mgmt.codfw.wmnet.
 13  1H IN PTR  wmf3903.mgmt.codfw.wmnet.
-14  1H IN PTR  graphite2001.mgmt.codfw.wmnet.
-14  1H IN PTR  wmf6160.mgmt.codfw.wmnet.
 15  1H IN PTR  wtp2001.mgmt.codfw.wmnet.
 15  1H IN PTR  wmf6162.mgmt.codfw.wmnet.
 16  1H IN PTR  wtp2002.mgmt.codfw.wmnet.
