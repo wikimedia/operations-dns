@@ -251,7 +251,8 @@ labweb1001      1H  IN A    208.80.154.160
 labweb1001      1H  IN AAAA 2620:0:861:2:208:80:154:160
 labweb1002      1H  IN A    208.80.155.109
 labweb1002      1H  IN AAAA 2620:0:861:4:208:80:155:109
-
+ldap-corp1001   1H  IN A    208.80.154.28 ; VM on ganeti01.svc.eqiad.wmnet
+ldap-corp2001   1H  IN A    208.80.153.48 ; VM on ganeti01.svc.codfw.wmnet
 maerlant        1H  IN A    91.198.174.122
 maerlant        1H  IN AAAA 2620:0:862:1:91:198:174:122
 sodium          1H  IN A    208.80.154.15

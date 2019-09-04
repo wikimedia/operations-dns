@@ -52,7 +52,7 @@
 45  1H  IN PTR  mx2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 46  1H  IN PTR  wiki-mail-codfw.wikimedia.org.
 47  1H  IN PTR  ldap-replica2002.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
-
+48  1H  IN PTR  ldap-corp2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 49  1H  IN PTR  serpens.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 50  1H  IN PTR  alsafi.wikimedia.org.  ; VM on ganeti01.svc.codfw.wmnet
 52  1H  IN PTR  dbmonitor2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
