@@ -604,8 +604,6 @@ grafana         1D IN CNAME dyna.wikimedia.org.
 grafana-beta         1D IN CNAME dyna.wikimedia.org.
 grafana-labs         1D IN CNAME dyna.wikimedia.org.
 grafana-labs-admin   1D IN CNAME dyna.wikimedia.org.
-parsoid-rt-tests     1D IN CNAME dyna.wikimedia.org.
-parsoid-vd-tests     1D IN CNAME dyna.wikimedia.org.
 performance     1D IN CNAME dyna.wikimedia.org.
 horizon         1D IN CNAME dyna.wikimedia.org.
 wikitech        1D IN CNAME dyna.wikimedia.org.
