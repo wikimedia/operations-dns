@@ -700,6 +700,7 @@ mc1035          1H  IN A        10.64.48.157
 mc1036          1H  IN A        10.64.48.158
 mendelevium     1H  IN A        10.64.32.174 ; VM on ganeti01.svc.eqiad.wmnet
 miscweb1001     1H  IN A        10.64.32.186 ; VM on ganeti01.svc.eqiad.wmnet
+moscovium       1H  IN A        10.64.0.54 ; VM on ganeti01.svc.eqiad.wmnet
 ms-be1016       1H  IN A        10.64.16.163
 ms-be1017       1H  IN A        10.64.16.164
 ms-be1018       1H  IN A        10.64.16.165

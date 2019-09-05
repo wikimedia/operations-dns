@@ -300,6 +300,7 @@ $ORIGIN 0.64.@Z
 51  1H IN PTR   ores1001.eqiad.wmnet.
 52  1H IN PTR   ores1002.eqiad.wmnet.
 53  1H IN PTR   hassium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+54  1H IN PTR   moscovium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 56  1H IN PTR   mw1261.eqiad.wmnet.
 57  1H IN PTR   mw1262.eqiad.wmnet.
 58  1H IN PTR   mw1263.eqiad.wmnet.
