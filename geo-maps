@@ -1,6 +1,6 @@
 generic-map => {
     geoip2_db => GeoIP2-City.mmdb
-    datacenters => [eqiad, codfw, ulsfo, esams, eqsin, bh]
+    datacenters => [eqiad, codfw, ulsfo, esams, eqsin, bh, ref]
     map => {
         # use ISO 3166-2 official names
         AF => [esams, eqiad, codfw, ulsfo, eqsin],
