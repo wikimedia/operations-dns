@@ -483,10 +483,14 @@ $ORIGIN 5.64.@Z
 30  1H IN PTR   an-worker1081.eqiad.wmnet.
 31  1H IN PTR   an-worker1082.eqiad.wmnet.
 32  1H IN PTR   an-tool1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+33  1H IN PTR   an-presto1002.eqiad.wmnet.
+34  1H IN PTR   an-presto1005.eqiad.wmnet.
+
 
 101 1H IN PTR   druid1001.eqiad.wmnet.
 
 104 1H IN PTR   stat1004.eqiad.wmnet.
+
 
 
 ; 10.64.16.0/22 - private1-b-eqiad
@@ -695,11 +699,7 @@ $ORIGIN 20.64.@Z
 41  1H IN PTR   cloudvirt1022.eqiad.wmnet.
 42  1H IN PTR   cloudvirt1023.eqiad.wmnet.
 43  1H IN PTR   cloudvirt1024.eqiad.wmnet.
-44  1H  IN PTR  cloudvirtan1001.eqiad.wmnet.
-45  1H  IN PTR  cloudvirtan1002.eqiad.wmnet.
-46  1H  IN PTR  cloudvirtan1003.eqiad.wmnet.
-47  1H  IN PTR  cloudvirtan1004.eqiad.wmnet.
-48  1H  IN PTR  cloudvirtan1005.eqiad.wmnet.
+
 49  1H  IN PTR  cloudvirt1025.eqiad.wmnet.
 50  1H  IN PTR  cloudvirt1026.eqiad.wmnet.
 51  1H  IN PTR  cloudvirt1027.eqiad.wmnet.
@@ -735,6 +735,9 @@ $ORIGIN 21.64.@Z
 122 1H IN PTR   an-worker1086.eqiad.wmnet.
 123 1H IN PTR   an-worker1087.eqiad.wmnet.
 124 1H IN PTR   an-conf1001.eqiad.wmnet.
+125 1H IN PTR   an-presto1004.eqiad.wmnet.
+
+
 
 ; 10.64.32.0/22 - private1-c-eqiad
 $ORIGIN 32.64.@Z
@@ -1273,6 +1276,9 @@ $ORIGIN 53.64.@Z
 36      1H IN PTR       an-worker1094.eqiad.wmnet.
 37      1H IN PTR       an-worker1095.eqiad.wmnet.
 38      1H IN PTR       an-conf1003.eqiad.wmnet.
+39      1H IN PTR       an-presto1001.eqiad.wmnet.
+40      1H IN PTR       an-presto1003.eqiad.wmnet.
+
 
 103     1H  IN PTR      druid1003.eqiad.wmnet.
 
@@ -2705,16 +2711,21 @@ $ORIGIN 6.65.@Z
 13      1H IN PTR       wmf7477.mgmt.eqiad.wmnet.
 14      1H IN PTR       tungsten.mgmt.eqiad.wmnet.
 14      1H IN PTR       wmf3077.mgmt.eqiad.wmnet.
-15      1H IN PTR       cloudvirtan1001.mgmt.eqiad.wmnet.
-15      1H IN PTR       wmf7470.mgmt.eqiad.wmnet.
-16      1H IN PTR       cloudvirtan1002.mgmt.eqiad.wmnet.
-16      1H IN PTR       wmf7471.mgmt.eqiad.wmnet.
-17      1H IN PTR       cloudvirtan1003.mgmt.eqiad.wmnet.
-17      1H IN PTR       wmf7472.mgmt.eqiad.wmnet.
-18      1H IN PTR       cloudvirtan1004.mgmt.eqiad.wmnet.
-18      1H IN PTR       wmf7473.mgmt.eqiad.wmnet.
-19      1H IN PTR       cloudvirtan1005.mgmt.eqiad.wmnet.
-19      1H IN PTR       wmf7474.mgmt.eqiad.wmnet.
+15      1H IN PTR       an-presto1001.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+15      1H IN PTR       cloudvirtan1001.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+15      1H IN PTR       wmf7470.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+16      1H IN PTR       an-presto1002.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+16      1H IN PTR       cloudvirtan1002.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+16      1H IN PTR       wmf7471.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+17      1H IN PTR       an-presto1003.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+17      1H IN PTR       cloudvirtan1003.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+17      1H IN PTR       wmf7472.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+18      1H IN PTR       an-presto1004.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+18      1H IN PTR       cloudvirtan1004.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+18      1H IN PTR       wmf7473.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+19      1H IN PTR       an-presto1005.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+19      1H IN PTR       cloudvirtan1005.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+19      1H IN PTR       wmf7474.mgmt.eqiad.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
 
 27      1H IN PTR       wmf3259.mgmt.eqiad.wmnet.
 

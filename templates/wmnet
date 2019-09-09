@@ -146,6 +146,16 @@ an-conf1002      1H IN A             10.64.36.135
 an-conf1002      1H IN AAAA          2620:0:861:106:10:64:36:135
 an-conf1003      1H IN A             10.64.53.38
 an-conf1003      1H IN AAAA          2620:0:861:108:10:64:53:38
+an-presto1001    1H IN A             10.64.53.39
+an-presto1001    1H IN AAAA          2620:0:861:108:10:64:53:39
+an-presto1002    1H IN A             10.64.5.33
+an-presto1002    1H IN AAAA          2620:0:861:104:10:64:5:33
+an-presto1003    1H IN A             10.64.53.40
+an-presto1003    1H IN AAAA          2620:0:861:108:10:64:53:40
+an-presto1004    1H IN A             10.64.21.125
+an-presto1004    1H IN AAAA          2620:0:861:105:10:64:21:125
+an-presto1005    1H IN A             10.64.5.34
+an-presto1005    1H IN AAAA          2620:0:861:104:10:64:5:34
 an-master1001    1H IN A             10.64.5.26
 an-master1001    1H IN AAAA          2620:0:861:104:10:64:5:26
 an-master1002    1H IN A             10.64.21.110
@@ -339,16 +349,6 @@ cloudvirt1022    1H IN AAAA      2620:0:861:118:10:64:20:41
 cloudvirt1023    1H IN A         10.64.20.42
 cloudvirt1024    1H IN A         10.64.20.43
 cloudvirt1024b   1H IN A         10.64.16.27
-cloudvirtan1001  1H IN A         10.64.20.44
-cloudvirtan1001  1H IN AAAA      2620:0:861:118:10:64:20:44
-cloudvirtan1002  1H IN A         10.64.20.45
-cloudvirtan1002  1H IN AAAA      2620:0:861:118:10:64:20:45
-cloudvirtan1003  1H IN A         10.64.20.46
-cloudvirtan1003  1H IN AAAA      2620:0:861:118:10:64:20:46
-cloudvirtan1004  1H IN A         10.64.20.47
-cloudvirtan1004  1H IN AAAA      2620:0:861:118:10:64:20:47
-cloudvirtan1005  1H IN A         10.64.20.48
-cloudvirtan1005  1H IN AAAA      2620:0:861:118:10:64:20:48
 cloudvirt1025    1H IN A         10.64.20.49
 cloudvirt1026    1H IN A         10.64.20.50
 cloudvirt1027    1H IN A         10.64.20.51
@@ -1411,16 +1411,21 @@ cloudvirt1029   1H  IN A    10.65.5.102
 wmf7495         1H  IN A    10.65.5.102
 cloudvirt1030   1H  IN A    10.65.5.103
 wmf7496         1H  IN A    10.65.5.103
-cloudvirtan1001 1H  IN A    10.65.6.15
-wmf7470         1H  IN A    10.65.6.15
-cloudvirtan1002 1H  IN A    10.65.6.16
-wmf7471         1H  IN A    10.65.6.16
-cloudvirtan1003 1H  IN A    10.65.6.17
-wmf7472         1H  IN A    10.65.6.17
-cloudvirtan1004 1H  IN A    10.65.6.18
-wmf7473         1H  IN A    10.65.6.18
-cloudvirtan1005 1H  IN A    10.65.6.19
-wmf7474         1H  IN A    10.65.6.19
+an-presto1001   1H  IN A    10.65.6.15 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+cloudvirtan1001 1H  IN A    10.65.6.15 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+wmf7470         1H  IN A    10.65.6.15 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+an-presto1002   1H  IN A    10.65.6.16 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+cloudvirtan1002 1H  IN A    10.65.6.16 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+wmf7471         1H  IN A    10.65.6.16 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+an-presto1003   1H  IN A    10.65.6.17 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+cloudvirtan1003 1H  IN A    10.65.6.17 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+wmf7472         1H  IN A    10.65.6.17 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+an-presto1004   1H  IN A    10.65.6.18 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+cloudvirtan1004 1H  IN A    10.65.6.18 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+wmf7473         1H  IN A    10.65.6.18 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+an-presto1005   1H  IN A    10.65.6.19 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+cloudvirtan1005 1H  IN A    10.65.6.19 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+wmf7474         1H  IN A    10.65.6.19 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
 labweb1001      1H  IN A    10.65.4.121
 wmf7096         1H  IN A    10.65.4.121
 labweb1002      1H  IN A    10.65.4.122
