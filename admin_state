@@ -69,3 +69,5 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+# ulsfo power maintenance
+geoip/generic-map/ulsfo => DOWN
