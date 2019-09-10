@@ -31,3 +31,4 @@ disc-eventgate-analytics => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-eventgate-main      => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-sessionstore        => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-termbox             => { map => mock, dcmap => { mock => 192.0.2.1 } }
+disc-wikifeeds           => { map => mock, dcmap => { mock => 192.0.2.1 } }

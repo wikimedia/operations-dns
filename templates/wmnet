@@ -5472,6 +5472,7 @@ docker-registry 300/10 IN DYNA metafo!disc-docker-registry
 eventgate-main 300/10 IN DYNA geoip!disc-eventgate-main
 sessionstore   300/10 IN DYNA geoip!disc-sessionstore
 termbox        300/10 IN DYNA geoip!disc-termbox
+wikifeeds      300/10 IN DYNA geoip!disc-wikifeeds
 
 
 debmonitor      300 IN CNAME debmonitor1001.eqiad.wmnet.
