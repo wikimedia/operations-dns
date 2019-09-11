@@ -15,7 +15,6 @@ disc-search              => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-apertium            => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-citoid              => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-cxserver            => { map => mock, dcmap => { mock => 192.0.2.1 } }
-disc-eventbus            => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-eventstreams        => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-graphoid            => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-kartotherian        => { map => mock, dcmap => { mock => 192.0.2.1 } }

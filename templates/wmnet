@@ -5432,7 +5432,6 @@ search         300/10 IN DYNA geoip!disc-search
 apertium       300/10 IN DYNA geoip!disc-apertium
 citoid         300/10 IN DYNA geoip!disc-citoid
 cxserver       300/10 IN DYNA geoip!disc-cxserver
-eventbus       300/10 IN DYNA geoip!disc-eventbus
 eventstreams   300/10 IN DYNA geoip!disc-eventstreams
 graphoid       300/10 IN DYNA geoip!disc-graphoid
 kartotherian   300/10 IN DYNA geoip!disc-kartotherian
