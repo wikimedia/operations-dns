@@ -51,6 +51,14 @@ spop2048._domainkey     1H IN TXT  "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMII
 ; DMARC records http://dmarc.org/ -- policy none (monitor), for now
 _dmarc          1H  IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
 
+; Mail records for pr.wikimedia.org
+pr   1H IN MX 10 mx1001
+pr   1H IN MX 50 mx2001
+pr   1H IN TXT "amazonses:QeZasSSTVw5sDiCQmdzG4z4UuLgkRtceplXtv2SI2BY="
+lecokkzzn6akfzusmban7ufr6xw2g5ye._domainkey.pr  1H IN CNAME lecokkzzn6akfzusmban7ufr6xw2g5ye.dkim.amazonses.com.
+kilujm6hbzryz5wrq5l3dkb5la5rrxgc._domainkey.pr  1H IN CNAME kilujm6hbzryz5wrq5l3dkb5la5rrxgc.dkim.amazonses.com.
+4njdxtpft2kiksyew6qbqcxnxip4cjer._domainkey.pr  1H IN CNAME 4njdxtpft2kiksyew6qbqcxnxip4cjer.dkim.amazonses.com.
+
 ; Google apps
 googlef3fe6c2a164e9650  1H  IN CNAME    google.com.
 
