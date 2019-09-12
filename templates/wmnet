@@ -880,6 +880,8 @@ netboxdb1001    1H  IN AAAA     2620:0:861:101:10:64:0:108  ; VM on ganeti01.svc
 netboxdb1001    1H  IN A        10.64.0.108 ; VM on ganeti01.svc.eqiad.wmnet
 netflow1001     1H  IN A        10.64.32.88 ; VM on ganeti01.svc.eqiad.wmnet
 netflow1001     1H  IN AAAA     2620:0:861:103:10:64:32:88 ; VM on ganeti01.svc.eqiad.wmnet
+netflow2001     1H  IN A        10.192.0.148 ; VM on ganeti01.svc.codfw.wmnet
+netflow2001     1H  IN AAAA     2620:0:860:101:10:192:0:148 ; VM on ganeti01.svc.codfw.wmnet
 notebook1003        1H  IN A         10.64.21.109
 notebook1004        1H  IN A         10.64.36.107
 ores1001        1H  IN A        10.64.0.51
