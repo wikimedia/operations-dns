@@ -2054,6 +2054,25 @@ wmf5156     1H  IN A    10.65.5.8
 ms-be1049   1H  IN A    10.65.5.8
 wmf5157     1H  IN A    10.65.5.9
 ms-be1050   1H  IN A    10.65.5.9
+wmf5244     1H  IN A    10.65.5.10
+ms-be1051   1H  IN A    10.65.5.10
+wmf5245     1H  IN A    10.65.5.11
+ms-be1052   1H  IN A    10.65.5.11
+wmf5246     1H  IN A    10.65.5.12
+ms-be1053   1H  IN A    10.65.5.12
+wmf5247     1H  IN A    10.65.5.13
+ms-be1054   1H  IN A    10.65.5.13
+wmf5248     1H  IN A    10.65.5.14
+ms-be1055   1H  IN A    10.65.5.14
+wmf5249     1H  IN A    10.65.5.15
+ms-be1056   1H  IN A    10.65.5.15
+wmf5250     1H  IN A    10.65.5.16
+ms-be1057   1H  IN A    10.65.5.16
+wmf5251     1H  IN A    10.65.5.17
+ms-be1058   1H  IN A    10.65.5.17
+wmf5252     1H  IN A    10.65.5.18
+ms-be1059   1H  IN A    10.65.5.18
+
 ms-fe1005   1H  IN A    10.65.5.32
 wmf7006     1H  IN A    10.65.5.32
 ms-fe1006   1H  IN A    10.65.5.33

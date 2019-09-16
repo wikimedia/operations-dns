@@ -2447,6 +2447,24 @@ $ORIGIN 5.65.@Z
 8   1H  IN PTR      wmf5156.mgmt.eqiad.wmnet.
 9   1H  IN PTR      ms-be1050.mgmt.eqiad.wmnet.
 9   1H  IN PTR      wmf5157.mgmt.eqiad.wmnet.
+10  1H  IN PTR      ms-be1051.mgmt.eqiad.wmnet.
+10  1H  IN PTR      wmf5244.mgmt.eqiad.wmnet.
+11  1H  IN PTR      ms-be1052.mgmt.eqiad.wmnet.
+11  1H  IN PTR      wmf5245.mgmt.eqiad.wmnet.
+12  1H  IN PTR      ms-be1053.mgmt.eqiad.wmnet.
+12  1H  IN PTR      wmf5246.mgmt.eqiad.wmnet.
+13  1H  IN PTR      ms-be1054.mgmt.eqiad.wmnet.
+13  1H  IN PTR      wmf5247.mgmt.eqiad.wmnet.
+14  1H  IN PTR      ms-be1055.mgmt.eqiad.wmnet.
+14  1H  IN PTR      wmf5248.mgmt.eqiad.wmnet.
+15  1H  IN PTR      ms-be1056.mgmt.eqiad.wmnet.
+15  1H  IN PTR      wmf5249.mgmt.eqiad.wmnet.
+16  1H  IN PTR      ms-be1057.mgmt.eqiad.wmnet.
+16  1H  IN PTR      wmf5250.mgmt.eqiad.wmnet.
+17  1H  IN PTR      ms-be1058.mgmt.eqiad.wmnet.
+17  1H  IN PTR      wmf5251.mgmt.eqiad.wmnet.
+18  1H  IN PTR      ms-be1059.mgmt.eqiad.wmnet.
+18  1H  IN PTR      wmf5252.mgmt.eqiad.wmnet.
 
 21  1H  IN PTR      wmf3534.mgmt.eqiad.wmnet.
 21  1H  IN PTR      ms-be1013.mgmt.eqiad.wmnet.
