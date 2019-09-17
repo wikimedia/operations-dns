@@ -3094,6 +3094,7 @@ elastic2052     1H  IN A    10.192.48.128
 elastic2053     1H  IN A    10.192.48.129
 elastic2054     1H  IN A    10.192.48.130
 elnath          1H  IN A    10.192.16.182 ; VM on ganeti01.svc.codfw.wmnet
+elnath          1H  IN AAAA 2620:0:860:102:10:192:16:182 ; VM on ganeti01.svc.codfw.wmnet
 es2001          1H  IN A    10.192.0.25
 es2002          1H  IN A    10.192.0.26
 es2003          1H  IN A    10.192.16.27
