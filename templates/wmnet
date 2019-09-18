@@ -1409,21 +1409,16 @@ cloudvirt1029   1H  IN A    10.65.5.102
 wmf7495         1H  IN A    10.65.5.102
 cloudvirt1030   1H  IN A    10.65.5.103
 wmf7496         1H  IN A    10.65.5.103
-an-presto1001   1H  IN A    10.65.6.15 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-cloudvirtan1001 1H  IN A    10.65.6.15 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-wmf7470         1H  IN A    10.65.6.15 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-an-presto1002   1H  IN A    10.65.6.16 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-cloudvirtan1002 1H  IN A    10.65.6.16 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-wmf7471         1H  IN A    10.65.6.16 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-an-presto1003   1H  IN A    10.65.6.17 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-cloudvirtan1003 1H  IN A    10.65.6.17 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-wmf7472         1H  IN A    10.65.6.17 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-an-presto1004   1H  IN A    10.65.6.18 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-cloudvirtan1004 1H  IN A    10.65.6.18 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-wmf7473         1H  IN A    10.65.6.18 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-an-presto1005   1H  IN A    10.65.6.19 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-cloudvirtan1005 1H  IN A    10.65.6.19 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-wmf7474         1H  IN A    10.65.6.19 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+an-presto1001   1H  IN A    10.65.6.15
+wmf7470         1H  IN A    10.65.6.15
+an-presto1002   1H  IN A    10.65.6.16
+wmf7471         1H  IN A    10.65.6.16
+an-presto1003   1H  IN A    10.65.6.17
+wmf7472         1H  IN A    10.65.6.17
+an-presto1004   1H  IN A    10.65.6.18
+wmf7473         1H  IN A    10.65.6.18
+an-presto1005   1H  IN A    10.65.6.19
+wmf7474         1H  IN A    10.65.6.19
 labweb1001      1H  IN A    10.65.4.121
 wmf7096         1H  IN A    10.65.4.121
 labweb1002      1H  IN A    10.65.4.122
