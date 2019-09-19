@@ -856,7 +856,6 @@ $ORIGIN 32.64.@Z
 149     1H IN PTR       snapshot1006.eqiad.wmnet.
 
 153     1H IN PTR       scb1003.eqiad.wmnet.
-154     1H IN PTR       lithium.eqiad.wmnet.
 
 156     1H IN PTR       dbproxy1007.eqiad.wmnet.
 157     1H IN PTR       dbproxy1008.eqiad.wmnet.
