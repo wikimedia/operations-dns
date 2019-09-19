@@ -2489,8 +2489,6 @@ payments1003    1H  IN A    10.65.3.54
 wmf6949         1H  IN A    10.65.3.54
 payments1004    1H  IN A    10.65.3.46
 wmf6948         1H  IN A    10.65.3.46
-wmf4075     1H  IN A    10.65.3.120
-labservices1002 1H  IN A    10.65.3.120
 wmf4083     1H  IN A    10.65.3.128
 wtp1025     1H  IN A    10.65.5.38
 wmf7044     1H  IN A    10.65.5.38
@@ -2655,8 +2653,6 @@ wmf4573         1H      IN A            10.65.5.203
 lithium         1H      IN A            10.65.5.203
 wmf4574         1H      IN A            10.65.5.204
 astatine        1H      IN A            10.65.5.204
-wmf4575         1H      IN A            10.65.5.205
-labservices1001 1H      IN A            10.65.5.205
 wmf4576         1H      IN A            10.65.5.206
 auth1001        1H      IN A            10.65.5.206
 wmf7104         1H      IN A            10.65.4.108

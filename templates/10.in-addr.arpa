@@ -2076,8 +2076,7 @@ $ORIGIN 3.65.@Z
 118 1H  IN PTR      wmf5178.mgmt.eqiad.wmnet.
 119 1H  IN PTR      wmf7095.mgmt.eqiad.wmnet.
 119 1H  IN PTR      conf1006.mgmt.eqiad.wmnet.
-120 1H  IN PTR      labservices1002.mgmt.eqiad.wmnet.
-120 1H  IN PTR      wmf4075.mgmt.eqiad.wmnet.
+
 121 1H  IN PTR      labstore1006.mgmt.eqiad.wmnet.
 121 1H  IN PTR      wmf7123.mgmt.eqiad.wmnet.
 122 1H  IN PTR      labstore1007.mgmt.eqiad.wmnet.
@@ -2695,8 +2694,7 @@ $ORIGIN 5.65.@Z
 203 1H  IN PTR      lithium.mgmt.eqiad.wmnet.
 204 1H  IN PTR      wmf4574.mgmt.eqiad.wmnet.
 204 1H  IN PTR      astatine.mgmt.eqiad.wmnet.
-205 1H  IN PTR      wmf4575.mgmt.eqiad.wmnet.
-205 1H  IN PTR      labservices1001.mgmt.eqiad.wmnet.
+
 206 1H  IN PTR      wmf4576.mgmt.eqiad.wmnet.
 206 1H  IN PTR      auth1001.mgmt.eqiad.wmnet.
 207 1H  IN PTR      wmf4577.mgmt.eqiad.wmnet.
