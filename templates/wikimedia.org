@@ -599,6 +599,8 @@ frmon.frdev     1H  IN CNAME    frmon-eqiad.frdev
 
 gerrit          600 IN A        208.80.154.85
 gerrit          600 IN AAAA     2620:0:861:3:208:80:154:85
+gerrit-new        600 IN A        208.80.154.87
+gerrit-new        600 IN AAAA     2620:0:861:3:208:80:154:87
 gerrit-replica    600 IN A        208.80.153.107
 gerrit-replica    600 IN AAAA     2620:0:860:4:208:80:153:107
 gerrit-slave    600 IN A        208.80.153.107

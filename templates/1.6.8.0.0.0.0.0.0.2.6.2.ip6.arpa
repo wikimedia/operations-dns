@@ -83,6 +83,7 @@ $ORIGIN 3.0.0.0.@Z
 2.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dbmonitor1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 5.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit.wikimedia.org.
 6.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   bast1002.wikimedia.org.
+7.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit-new.wikimedia.org.
 0.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   aluminium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 4.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   icinga1001.wikimedia.org.
 
