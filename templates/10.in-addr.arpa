@@ -2935,6 +2935,36 @@ $ORIGIN 7.65.@Z
 92      1H      IN PTR     wmf7380.mgmt.eqiad.wmnet.
 93      1H      IN PTR     rdb1010.mgmt.eqiad.wmnet.
 93      1H      IN PTR     wmf7381.mgmt.eqiad.wmnet.
+94      1H      IN PTR     elastic1053.mgmt.eqiad.wmnet.
+94      1H      IN PTR     wmf5254.mgmt.eqiad.wmnet.
+95      1H      IN PTR     elastic1054.mgmt.eqiad.wmnet.
+95      1H      IN PTR     wmf5255.mgmt.eqiad.wmnet.
+96      1H      IN PTR     elastic1055.mgmt.eqiad.wmnet.
+96      1H      IN PTR     wmf5256.mgmt.eqiad.wmnet.
+97      1H      IN PTR     elastic1056.mgmt.eqiad.wmnet.
+97      1H      IN PTR     wmf5257.mgmt.eqiad.wmnet.
+98      1H      IN PTR     elastic1057.mgmt.eqiad.wmnet.
+98      1H      IN PTR     wmf5258.mgmt.eqiad.wmnet.
+99      1H      IN PTR     elastic1058.mgmt.eqiad.wmnet.
+99      1H      IN PTR     wmf5259.mgmt.eqiad.wmnet.
+100     1H      IN PTR     elastic1059.mgmt.eqiad.wmnet.
+100     1H      IN PTR     wmf5260.mgmt.eqiad.wmnet.
+101     1H      IN PTR     elastic1060.mgmt.eqiad.wmnet.
+101     1H      IN PTR     wmf5261.mgmt.eqiad.wmnet.
+102     1H      IN PTR     elastic1061.mgmt.eqiad.wmnet.
+102     1H      IN PTR     wmf5262.mgmt.eqiad.wmnet.
+103     1H      IN PTR     elastic1062.mgmt.eqiad.wmnet.
+103     1H      IN PTR     wmf5263.mgmt.eqiad.wmnet.
+104     1H      IN PTR     elastic1063.mgmt.eqiad.wmnet.
+104     1H      IN PTR     wmf5264.mgmt.eqiad.wmnet.
+105     1H      IN PTR     elastic1064.mgmt.eqiad.wmnet.
+105     1H      IN PTR     wmf5265.mgmt.eqiad.wmnet.
+106     1H      IN PTR     elastic1065.mgmt.eqiad.wmnet.
+106     1H      IN PTR     wmf5266.mgmt.eqiad.wmnet.
+107     1H      IN PTR     elastic1066.mgmt.eqiad.wmnet.
+107     1H      IN PTR     wmf5267.mgmt.eqiad.wmnet.
+108     1H      IN PTR     elastic1067.mgmt.eqiad.wmnet.
+108     1H      IN PTR     wmf5268.mgmt.eqiad.wmnet.
 
 $ORIGIN 8.65.@Z
 
