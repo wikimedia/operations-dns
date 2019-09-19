@@ -2465,10 +2465,6 @@ $ORIGIN 5.65.@Z
 18  1H  IN PTR      ms-be1059.mgmt.eqiad.wmnet.
 18  1H  IN PTR      wmf5252.mgmt.eqiad.wmnet.
 
-21  1H  IN PTR      wmf3534.mgmt.eqiad.wmnet.
-21  1H  IN PTR      ms-be1013.mgmt.eqiad.wmnet.
-22  1H  IN PTR      ms-be1014.mgmt.eqiad.wmnet.
-23  1H  IN PTR      ms-be1015.mgmt.eqiad.wmnet.
 24  1H  IN PTR      ms-be1016.mgmt.eqiad.wmnet.
 24  1H  IN PTR      wmf4662.mgmt.eqiad.wmnet.
 25  1H  IN PTR      ms-be1017.mgmt.eqiad.wmnet.
