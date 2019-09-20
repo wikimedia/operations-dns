@@ -93,7 +93,6 @@ $ORIGIN 1.0.1.0.@Z
 5.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2004.codfw.wmnet.
 6.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2005.codfw.wmnet.
 7.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2006.codfw.wmnet.
-0.4.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   sarin.codfw.wmnet.
 3.4.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   conf2001.codfw.wmnet.
 5.4.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   prometheus2003.codfw.wmnet.
 2.9.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   planet2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet

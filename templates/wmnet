@@ -871,8 +871,6 @@ ncredir1001     1H  IN A        10.64.32.89 ; VM on ganeti01.svc.eqiad.wmnet
 ncredir1001     1H  IN AAAA     2620:0:861:103:10:64:32:89 ; VM on ganeti01.svc.eqiad.wmnet
 ncredir1002     1H  IN A        10.64.0.153 ; VM on ganeti01.svc.eqiad.wmnet
 ncredir1002     1H  IN AAAA     2620:0:861:101:10:64:0:153 ; VM on ganeti01.svc.eqiad.wmnet
-neodymium       1H  IN A        10.64.32.20
-neodymium       1H  IN AAAA     2620:0:861:103:10:64:32:20
 neon            1H  IN A        10.64.0.40 ; VM on ganeti01.svc.eqiad.wmnet
 neon            1H  IN AAAA     2620:0:861:101:10:64:0:40 ; VM on ganeti01.svc.eqiad.wmnet
 netboxdb1001    1H  IN AAAA     2620:0:861:101:10:64:0:108  ; VM on ganeti01.svc.eqiad.wmnet
@@ -3538,8 +3536,6 @@ rpki2001        1H  IN A    10.192.0.103 ; VM on ganeti01.svc.codfw.wmnet
 rpki2001        1H  IN AAAA 2620:0:860:101:10:192:0:103 ; VM on ganeti01.svc.eqiad.wmnet
 
 
-sarin           1H  IN A    10.192.0.140
-sarin           1H  IN AAAA 2620:0:860:101:10:192:0:140
 sca2003         1H  IN A    10.192.16.29 ; VM on ganeti01.svc.codfw.wmnet
 sca2004         1H  IN A    10.192.0.91 ; VM on ganeti01.svc.codfw.wmnet
 scb2001         1H  IN A    10.192.32.132
