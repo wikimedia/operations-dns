@@ -3206,7 +3206,6 @@ $ORIGIN 0.192.@Z
 36  1H IN PTR   ganeti2006.codfw.wmnet.
 37  1H IN PTR   ganeti2007.codfw.wmnet.
 38  1H IN PTR   ganeti2008.codfw.wmnet.
-39  1H IN PTR   db2040.codfw.wmnet.
 40  1H IN PTR   mw2215.codfw.wmnet.
 41  1H IN PTR   mw2216.codfw.wmnet.
 42  1H IN PTR   mw2217.codfw.wmnet.
@@ -3553,11 +3552,8 @@ $ORIGIN 32.192.@Z
 4   1H IN PTR   db2112.codfw.wmnet.
 5   1H IN PTR   db2070.codfw.wmnet.
 6   1H IN PTR   db2095.codfw.wmnet.
-8   1H IN PTR   db2037.codfw.wmnet.
-9   1H IN PTR   db2038.codfw.wmnet.
 10  1H IN PTR   pc2009.codfw.wmnet.
 11  1H IN PTR   ms-be2048.codfw.wmnet.
-12  1H IN PTR   db2041.codfw.wmnet.
 13  1H IN PTR   ms-be2049.codfw.wmnet.
 14  1H IN PTR   ms-be2042.codfw.wmnet.
 15  1H IN PTR   sessionstore2002.codfw.wmnet.
