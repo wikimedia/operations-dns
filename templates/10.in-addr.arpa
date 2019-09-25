@@ -535,7 +535,6 @@ $ORIGIN 16.64.@Z
 36  1H IN PTR   puppetmaster1003.eqiad.wmnet.
 37  1H IN PTR   kafka-main1002.eqiad.wmnet.
 38  1H IN PTR   prometheus1004.eqiad.wmnet.
-39  1H IN PTR   db1072.eqiad.wmnet.
 40  1H IN PTR   ms-be1020.eqiad.wmnet.
 41  1H IN PTR   kafka1002.eqiad.wmnet.
 42  1H IN PTR   maps1002.eqiad.wmnet.
