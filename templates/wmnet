@@ -3212,9 +3212,6 @@ mc2034          1H  IN A    10.192.48.78
 mc2035          1H  IN A    10.192.48.79
 mc2036          1H  IN A    10.192.48.80
 miscweb2001     1H  IN A    10.192.16.180 ; VM on ganeti01.svc.codfw.wmnet
-ms-be2013       1H  IN A    10.192.0.30
-ms-be2014       1H  IN A    10.192.16.32
-ms-be2015       1H  IN A    10.192.32.18
 ms-be2016       1H  IN A    10.192.0.136
 ms-be2017       1H  IN A    10.192.0.137
 ms-be2018       1H  IN A    10.192.16.160
