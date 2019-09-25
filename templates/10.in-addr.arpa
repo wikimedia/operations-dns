@@ -104,7 +104,7 @@ $ORIGIN 2.2.@Z
 45  1H  IN PTR  eventgate-main.svc.eqiad.wmnet.
 46  1H  IN PTR  termbox.svc.eqiad.wmnet.
 47  1H  IN PTR  wikifeeds.svc.eqiad.wmnet.
-48  1H  IN PTR  restrouter.svc.codfw.wmnet.
+48  1H  IN PTR  restrouter.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
