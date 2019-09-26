@@ -359,7 +359,6 @@ $ORIGIN 0.64.@Z
 107 1H IN PTR   aqs1004.eqiad.wmnet.
 108 1H IN PTR   netboxdb1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 109 1H IN PTR   wdqs1006.eqiad.wmnet.
-110 1H IN PTR   db1066.eqiad.wmnet.
 111 1H IN PTR   matomo1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 112 1H IN PTR   krb1001.eqiad.wmnet.
 
