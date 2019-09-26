@@ -3312,6 +3312,8 @@ $ORIGIN 0.192.@Z
 146 1H IN PTR   db2122.codfw.wmnet.
 147 1H IN PTR   puppetdb2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 148 1H IN PTR   netflow2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+149 1H IN PTR   ms-be2051.codfw.wmnet.
+150 1H IN PTR   ms-be2052.codfw.wmnet.
 
 $ORIGIN 1.192.@Z
 1   1H IN PTR   lvs2001.codfw.wmnet.
@@ -3401,6 +3403,7 @@ $ORIGIN 16.192.@Z
 70  1H IN PTR   mw2269.codfw.wmnet.
 71  1H IN PTR   mw2270.codfw.wmnet.
 72  1H IN PTR   ms-be2041.codfw.wmnet.
+73  1H IN PTR   ms-be2053.codfw.wmnet.
 
 75  1H IN PTR   proton2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 76  1H IN PTR   orespoolcounter2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
@@ -3716,6 +3719,7 @@ $ORIGIN 32.192.@Z
 181 1H IN PTR   db2125.codfw.wmnet.
 182 1H IN PTR   db2126.codfw.wmnet.
 183 1H IN PTR   db2127.codfw.wmnet.
+184 1H IN PTR   ms-be2054.codfw.wmnet.
 
 $ORIGIN 33.192.@Z
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
@@ -3872,6 +3876,8 @@ $ORIGIN 48.192.@Z
 133 1H IN PTR   db2130.codfw.wmnet.
 134 1H IN PTR   db2131.codfw.wmnet.
 135 1H IN PTR   krb2001.codfw.wmnet.
+136 1H IN PTR   ms-be2055.codfw.wmnet.
+137 1H IN PTR   ms-be2056.codfw.wmnet.
 
 $ORIGIN 49.192.@Z
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
@@ -5094,7 +5100,18 @@ $ORIGIN 3.193.@Z
 70  1H IN PTR  wmf6765.mgmt.codfw.wmnet.
 71  1H IN PTR  db2131.mgmt.codfw.wmnet.
 71  1H IN PTR  wmf6766.mgmt.codfw.wmnet.
-
+72  1H IN PTR  ms-be2051.mgmt.codfw.wmnet.
+72  1H IN PTR  wmf6769.mgmt.codfw.wmnet.
+73  1H IN PTR  ms-be2052.mgmt.codfw.wmnet.
+73  1H IN PTR  wmf6770.mgmt.codfw.wmnet.
+74  1H IN PTR  ms-be2053.mgmt.codfw.wmnet.
+74  1H IN PTR  wmf6771.mgmt.codfw.wmnet.
+75  1H IN PTR  ms-be2054.mgmt.codfw.wmnet.
+75  1H IN PTR  wmf6772.mgmt.codfw.wmnet.
+76  1H IN PTR  ms-be2055.mgmt.codfw.wmnet.
+76  1H IN PTR  wmf6773.mgmt.codfw.wmnet.
+77  1H IN PTR  ms-be2056.mgmt.codfw.wmnet.
+77  1H IN PTR  wmf6774.mgmt.codfw.wmnet.
 
 ; 10.195.0.0/24 - frack.codfw subnets
 $ORIGIN 0.195.@Z
