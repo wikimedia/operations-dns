@@ -5500,6 +5500,7 @@ restrouter     300/10 IN DYNA geoip!disc-restrouter
 debmonitor      300 IN CNAME debmonitor1001.eqiad.wmnet.
 webserver-misc-static      300 IN CNAME bromine.eqiad.wmnet.
 webserver-misc-apps        300 IN CNAME miscweb1001.eqiad.wmnet.
+maintenance     300 IN CNAME mwmaint1002.eqiad.wmnet.
 peopleweb       300 IN CNAME people1001.eqiad.wmnet.
 performance     300 IN CNAME webperf1001.eqiad.wmnet.
 phabricator     300 IN CNAME phab1003.eqiad.wmnet.
