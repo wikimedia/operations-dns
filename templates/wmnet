@@ -3148,6 +3148,7 @@ kafka-main2003  1H  IN A    10.192.32.136
 kafka-main2004  1H  IN A    10.192.48.38
 kafka-main2005  1H  IN A    10.192.48.46
 krb2001         1h  IN A    10.192.48.135
+krb2001         1H  IN AAAA 2620:0:860:104:10:192:48:135
 kubernetes2001  1H  IN A    10.192.0.11
 kubernetes2001  1H  IN AAAA 2620:0:860:101:10:192:0:11
 kubernetes2002  1H  IN A    10.192.16.42
