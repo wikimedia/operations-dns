@@ -2971,7 +2971,6 @@ cumin2001       1H  IN A    10.192.48.16
 cygnus          1H  IN A    10.192.16.168 ; VM on ganeti01.svc.codfw.wmnet
 db2013          1H  IN A    10.192.0.16
 db2032          1H  IN A    10.192.16.20
-db2047          1H  IN A    10.192.32.107
 db2048          1H  IN A    10.192.0.99
 db2050          1H  IN A    10.192.32.110
 db2051          1H  IN A    10.192.16.22
