@@ -362,6 +362,7 @@ $ORIGIN 0.64.@Z
 111 1H IN PTR   matomo1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 112 1H IN PTR   krb1001.eqiad.wmnet.
 
+119 1H IN PTR   grafana1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 120 1H IN PTR   weblog1001.eqiad.wmnet.
 121 1H IN PTR   kubernetes1001.eqiad.wmnet.
 122 1H IN PTR   db1115.eqiad.wmnet.
