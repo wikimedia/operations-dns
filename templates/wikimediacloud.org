@@ -1,0 +1,35 @@
+; vim: set expandtab:smarttab
+@           1D  IN SOA  ns0.wikimedia.org.  hostmaster.wikimedia.org.   (
+                    {{ serial }}
+                    12H     ; refresh
+                    2H      ; retry
+                    2W      ; expiry
+                    1H      ; negative cache TTL
+                    )
+
+; Name servers
+            1D  IN NS   ns0.wikimedia.org.
+            1D  IN NS   ns1.wikimedia.org.
+            1D  IN NS   ns2.wikimedia.org.
+
+;
+; CODFW
+; codfw1dev openstack region
+;
+
+$ORIGIN codfw1dev.wikimediacloud.org.
+
+; Service aliases
+; Primary openstack endpoint API used by openstack clients and endpoint catalog
+openstack  5M  IN CNAME  cloudcontrol2001-dev.wikimedia.org.
+
+;
+; EQIAD
+; eqiad1 openstack region
+;
+
+$ORIGIN eqiad1.wikimediacloud.org.
+
+; Service aliases
+; Primary openstack endpoint API used by openstack clients and endpoint catalog
+openstack  5M  IN CNAME  cloudcontrol1003.wikimedia.org.
