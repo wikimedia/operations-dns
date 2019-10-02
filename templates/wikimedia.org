@@ -868,7 +868,7 @@ sq.planet        1D IN CNAME dyna.wikimedia.org.
 sv.planet        1D IN CNAME dyna.wikimedia.org.
 uk.planet        1D IN CNAME dyna.wikimedia.org.
 zh.planet        1D IN CNAME dyna.wikimedia.org.
-puppet           5M IN CNAME puppetmaster2001.codfw.wmnet.
+puppet           5M IN CNAME puppetmaster1001.eqiad.wmnet.
 pivot            1D IN CNAME dyna.wikimedia.org.
 superset         1D IN CNAME dyna.wikimedia.org.
 racktables       1D IN CNAME dyna.wikimedia.org.
