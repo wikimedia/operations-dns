@@ -58,7 +58,6 @@ $ORIGIN 2.0.0.0.@Z
 3.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1002.wikimedia.org.
 4.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   authdns1001.wikimedia.org.
 5.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudservices1003.wikimedia.org.
-6.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit1001.wikimedia.org.
 
 8.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labpuppetmaster1001.wikimedia.org.
 
@@ -86,6 +85,7 @@ $ORIGIN 3.0.0.0.@Z
 7.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit-new.wikimedia.org.
 0.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   aluminium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 4.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   icinga1001.wikimedia.org.
+6.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit1001.wikimedia.org.
 
 ; public1-d-eqiad (2620:0:861:4::/64)
 $ORIGIN 4.0.0.0.@Z
