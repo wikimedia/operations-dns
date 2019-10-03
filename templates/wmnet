@@ -2968,7 +2968,6 @@ cygnus          1H  IN A    10.192.16.168 ; VM on ganeti01.svc.codfw.wmnet
 db2013          1H  IN A    10.192.0.16
 db2032          1H  IN A    10.192.16.20
 db2048          1H  IN A    10.192.0.99
-db2050          1H  IN A    10.192.32.110
 db2051          1H  IN A    10.192.16.22
 db2052          1H  IN A    10.192.48.4
 db2053          1H  IN A    10.192.48.5
