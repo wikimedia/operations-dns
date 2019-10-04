@@ -4405,12 +4405,7 @@ $ORIGIN 1.193.@Z
 243 1H IN PTR  wmf6484.mgmt.codfw.wmnet.
 244 1H IN PTR  mw2256.mgmt.codfw.wmnet.
 244 1H IN PTR  wmf6485.mgmt.codfw.wmnet.
-245 1H IN PTR  ms-be2013.mgmt.codfw.wmnet.
-245 1H IN PTR  wmf6138.mgmt.codfw.wmnet.
-246 1H IN PTR  ms-be2014.mgmt.codfw.wmnet.
-246 1H IN PTR  wmf6139.mgmt.codfw.wmnet.
-247 1H IN PTR  ms-be2015.mgmt.codfw.wmnet.
-247 1H IN PTR  wmf6140.mgmt.codfw.wmnet.
+
 248 1H IN PTR  labstore2001.mgmt.codfw.wmnet.
 248 1H IN PTR  wmf3649.mgmt.codfw.wmnet.
 249 1H IN PTR  labstore2002.mgmt.codfw.wmnet.
