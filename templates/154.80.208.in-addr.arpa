@@ -68,7 +68,6 @@
 82  1H  IN PTR  dbmonitor1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 83  1H  IN PTR  cloudelastic1003.wikimedia.org.
 84  1H  IN PTR  icinga1001.wikimedia.org.
-85  1H  IN PTR  gerrit.wikimedia.org.
 86  1H  IN PTR  bast1002.wikimedia.org.
 
 91  1H  IN PTR  wiki-mail-eqiad.wikimedia.org.
@@ -90,7 +89,7 @@
 134 1H  IN PTR  authdns1001.wikimedia.org.
 135 1H  IN PTR  cloudservices1003.wikimedia.org.
 136 1H  IN PTR  gerrit1001.wikimedia.org.
-137 1H  IN PTR  gerrit-new.wikimedia.org.
+137 1H  IN PTR  gerrit.wikimedia.org.
 
 143 1H  IN PTR  cloud-recursor0.wikimedia.org.
 144 1H  IN PTR  molybdenum.wikimedia.org.
