@@ -5401,6 +5401,7 @@ sessionstore   300/10 IN DYNA geoip!disc-sessionstore
 termbox        300/10 IN DYNA geoip!disc-termbox
 wikifeeds      300/10 IN DYNA geoip!disc-wikifeeds
 restrouter     300/10 IN DYNA geoip!disc-restrouter
+echostore      300/10 IN DYNA geoip!disc-echostore
 
 ; misc web services with multiple backends but without geoip
 debmonitor            300 IN CNAME debmonitor1001.eqiad.wmnet.
