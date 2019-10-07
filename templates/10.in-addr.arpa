@@ -263,7 +263,7 @@ $ORIGIN 0.64.@Z
 8   1H IN PTR   ms-be1019.eqiad.wmnet.
 9   1H IN PTR   snapshot1005.eqiad.wmnet.
 10  1H IN PTR   oresrdb1002.eqiad.wmnet.
-11  1H IN PTR   kafka1001.eqiad.wmnet.
+11  1H IN PTR   logstash1020.eqiad.wmnet.
 13  1H IN PTR   db1116.eqiad.wmnet.
 14  1H IN PTR   wdqs1003.eqiad.wmnet.
 15  1H IN PTR   db1117.eqiad.wmnet.
@@ -538,7 +538,7 @@ $ORIGIN 16.64.@Z
 37  1H IN PTR   kafka-main1002.eqiad.wmnet.
 38  1H IN PTR   prometheus1004.eqiad.wmnet.
 40  1H IN PTR   ms-be1020.eqiad.wmnet.
-41  1H IN PTR   kafka1002.eqiad.wmnet.
+41  1H IN PTR   logstash1021.eqiad.wmnet.
 42  1H IN PTR   maps1002.eqiad.wmnet.
 43  1H IN PTR   cam1-b-c-eqiad.eqiad.wmnet.
 44  1H IN PTR   cam2-b-c-eqiad.eqiad.wmnet.
@@ -843,7 +843,7 @@ $ORIGIN 32.64.@Z
 122     1H IN PTR       elastic1029.eqiad.wmnet.
 123     1H IN PTR       mwdebug1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
-127     1H IN PTR       kafka1003.eqiad.wmnet.
+127     1H IN PTR       logstash1022.eqiad.wmnet.
 128     1H IN PTR       db1095.eqiad.wmnet.
 
 133     1H IN PTR       argon.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
@@ -1781,13 +1781,13 @@ $ORIGIN 2.65.@Z
 120 1H  IN PTR      restbase1008.mgmt.eqiad.wmnet.
 121 1H  IN PTR      restbase1009.mgmt.eqiad.wmnet.
 122 1H  IN PTR      wmf4720.mgmt.eqiad.wmnet.
-122 1H  IN PTR      kafka1001.mgmt.eqiad.wmnet.
+122 1H  IN PTR      logstash1020.mgmt.eqiad.wmnet.
 123 1H  IN PTR      wmf4721.mgmt.eqiad.wmnet.
 123 1H  IN PTR      stat1004.mgmt.eqiad.wmnet.
 124 1H  IN PTR      wmf4722.mgmt.eqiad.wmnet.
-124 1H  IN PTR      kafka1002.mgmt.eqiad.wmnet.
+124 1H  IN PTR      logstash1021.mgmt.eqiad.wmnet.
 125 1H  IN PTR      wmf4723.mgmt.eqiad.wmnet.
-125 1H  IN PTR      kafka1003.mgmt.eqiad.wmnet.
+125 1H  IN PTR      logstash1022.mgmt.eqiad.wmnet.
 126 1H  IN PTR      wmf4724.mgmt.eqiad.wmnet.
 126 1H  IN PTR      mwlog1001.mgmt.eqiad.wmnet.
 127 1H  IN PTR      wmf4725.mgmt.eqiad.wmnet.
@@ -3299,7 +3299,7 @@ $ORIGIN 0.192.@Z
 136 1H IN PTR   ms-be2016.codfw.wmnet.
 137 1H IN PTR   ms-be2017.codfw.wmnet.
 138 1H IN PTR   auth2001.codfw.wmnet.
-139 1H IN PTR   kafka2001.codfw.wmnet.
+139 1H IN PTR   logstash2020.codfw.wmnet.
 141 1H IN PTR   es2014.codfw.wmnet.
 142 1H IN PTR   es2017.codfw.wmnet.
 143 1H IN PTR   conf2001.codfw.wmnet.
@@ -3477,7 +3477,7 @@ $ORIGIN 16.192.@Z
 161 1H IN PTR   ms-be2019.codfw.wmnet.
 
 168 1H IN PTR   cygnus.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-169 1H IN PTR   kafka2002.codfw.wmnet.
+169 1H IN PTR   logstash2021.codfw.wmnet.
 
 171 1H IN PTR   es2011.codfw.wmnet.
 172 1H IN PTR   es2018.codfw.wmnet.
@@ -3679,7 +3679,7 @@ $ORIGIN 32.192.@Z
 147 1H IN PTR   phab2001.codfw.wmnet.
 148 1H IN PTR   wdqs2001.codfw.wmnet.
 149 1H IN PTR   phab2001-vcs.codfw.wmnet.
-150 1H IN PTR   kafka2003.codfw.wmnet.
+150 1H IN PTR   logstash2022.codfw.wmnet.
 151 1H IN PTR   restbase2011.codfw.wmnet.
 152 1H IN PTR   restbase2011-a.codfw.wmnet.
 153 1H IN PTR   restbase2011-b.codfw.wmnet.
@@ -4002,11 +4002,11 @@ $ORIGIN 1.193.@Z
 21  1H IN PTR  wmf6735.mgmt.codfw.wmnet.
 22  1H IN PTR  auth2001.mgmt.codfw.wmnet.
 22  1H IN PTR  wmf6376.mgmt.codfw.wmnet.
-23  1H IN PTR  kafka2001.mgmt.codfw.wmnet.
+23  1H IN PTR  logstash2020.mgmt.codfw.wmnet.
 23  1H IN PTR  wmf6377.mgmt.codfw.wmnet.
 24  1H IN PTR  scb2003.mgmt.codfw.wmnet.
 24  1H IN PTR  wmf6378.mgmt.codfw.wmnet.
-25  1H IN PTR  kafka2002.mgmt.codfw.wmnet.
+25  1H IN PTR  logstash2021.mgmt.codfw.wmnet.
 25  1H IN PTR  wmf6379.mgmt.codfw.wmnet.
 26  1H IN PTR  scb2004.mgmt.codfw.wmnet.
 26  1H IN PTR  wmf6380.mgmt.codfw.wmnet.
@@ -4217,7 +4217,7 @@ $ORIGIN 1.193.@Z
 148 1H IN PTR  wmf6465.mgmt.codfw.wmnet.
 149 1H IN PTR  scb2005.mgmt.codfw.wmnet.
 149 1H IN PTR  wmf6466.mgmt.codfw.wmnet.
-150 1H IN PTR  kafka2003.mgmt.codfw.wmnet.
+150 1H IN PTR  logstash2022.mgmt.codfw.wmnet.
 150 1H IN PTR  wmf6467.mgmt.codfw.wmnet.
 151 1H IN PTR  scb2006.mgmt.codfw.wmnet.
 151 1H IN PTR  wmf6468.mgmt.codfw.wmnet.

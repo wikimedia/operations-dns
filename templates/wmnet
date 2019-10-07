@@ -588,11 +588,11 @@ grafana1001     1H  IN A        10.64.32.183 ; VM on ganeti01.svc.eqiad.wmnet
 grafana1002     1H  IN A        10.64.0.119 ; VM on ganeti01.svc.eqiad.wmnet
 hassium         1H  IN A        10.64.0.53 ; VM on ganeti01.svc.eqiad.wmnet
 helium          1H  IN A        10.64.0.179
-kafka1001           1H  IN A         10.64.0.11
+logstash1020        1H  IN A         10.64.0.11
                     1H  IN AAAA      2620:0:861:101:10:64:0:11
-kafka1002           1H  IN A         10.64.16.41
+logstash1021        1H  IN A         10.64.16.41
                     1H  IN AAAA      2620:0:861:102:10:64:16:41
-kafka1003           1H  IN A         10.64.32.127
+logstash1022        1H  IN A         10.64.32.127
                     1H  IN AAAA      2620:0:861:103:10:64:32:127
 kafka-jumbo1001     1H  IN A         10.64.0.175
                     1H  IN AAAA      2620:0:861:101:10:64:0:175
@@ -2733,7 +2733,7 @@ wmf5176         1H      IN A            10.65.3.102
 wmf5177         1H      IN A            10.65.3.117
 wmf5178         1H      IN A            10.65.3.118
 wmf4720         1H      IN A            10.65.2.122
-kafka1001       1H      IN A            10.65.2.122
+logstash1020    1H      IN A            10.65.2.122
 wmf4721         1H      IN A            10.65.2.123
 stat1004        1H      IN A            10.65.2.123
 wmf7092         1H      IN A            10.65.5.62
@@ -2743,9 +2743,9 @@ stat1006        1H      IN A            10.65.5.63
 wmf4722         1H      IN A            10.65.2.124
 stat1007        1H      IN A            10.65.2.2
 wmf7436         1H      IN A            10.65.2.2
-kafka1002       1H      IN A            10.65.2.124
+logstash1021    1H      IN A            10.65.2.124
 wmf4723         1H      IN A            10.65.2.125
-kafka1003       1H      IN A            10.65.2.125
+logstash1022    1H      IN A            10.65.2.125
 wmf4724         1H      IN A            10.65.2.126
 mwlog1001       1H      IN A            10.65.2.126
 wmf4725         1H      IN A            10.65.2.127
@@ -3126,11 +3126,11 @@ ganeti2018      1H  IN A    10.192.48.51
 graphite2003    1H  IN A    10.192.0.102
 hassaleh        1H  IN A    10.192.16.173 ; VM on ganeti01.svc.codfw.wmnet
 heze            1H  IN A    10.192.0.31
-kafka2001       1H  IN A    10.192.0.139
+logstash2020    1H  IN A    10.192.0.139
                 1H  IN AAAA 2620:0:860:101:10:192:0:139
-kafka2002       1H  IN A    10.192.16.169
+logstash2021    1H  IN A    10.192.16.169
                 1H  IN AAAA 2620:0:860:102:10:192:16:169
-kafka2003       1H  IN A    10.192.32.150
+logstash2022    1H  IN A    10.192.32.150
                 1H  IN AAAA 2620:0:860:103:10:192:32:150
 kafkamon2001    1H  IN A    10.192.0.97 ; VM on ganeti01.svc.codfw.wmnet
 kafkamon2001    1H  IN AAAA 2620:0:860:101:10:192:0:97 ; VM on ganeti01.svc.codfw.wmnet
@@ -3971,9 +3971,9 @@ graphite2003    1H  IN A    10.193.1.206
 heze            1H  IN A    10.193.1.250
 icinga2001      1H  IN A    10.193.1.27
 install2001     1H  IN A    10.193.1.10
-kafka2001       1H  IN A    10.193.1.23
-kafka2002       1H  IN A    10.193.1.25
-kafka2003       1H  IN A    10.193.1.150
+logstash2020    1H  IN A    10.193.1.23
+logstash2021    1H  IN A    10.193.1.25
+logstash2022    1H  IN A    10.193.1.150
 kafka-main2001  1H  IN A    10.193.1.18
 kafka-main2002  1H  IN A    10.193.1.19
 kafka-main2003  1H  IN A    10.193.1.20
