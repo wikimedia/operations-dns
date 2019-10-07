@@ -57,6 +57,7 @@ $ORIGIN 1.2.@Z
 46  1H  IN PTR  termbox.svc.codfw.wmnet.
 47  1H  IN PTR  wikifeeds.svc.codfw.wmnet.
 48  1H  IN PTR  restrouter.svc.codfw.wmnet.
+49  1H  IN PTR  echostore.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -105,6 +106,7 @@ $ORIGIN 2.2.@Z
 46  1H  IN PTR  termbox.svc.eqiad.wmnet.
 47  1H  IN PTR  wikifeeds.svc.eqiad.wmnet.
 48  1H  IN PTR  restrouter.svc.eqiad.wmnet.
+49  1H  IN PTR  echostore.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
