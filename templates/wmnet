@@ -2792,6 +2792,7 @@ bismuth         1H      IN A    10.64.40.69
 frav1001        1H      IN A    10.64.40.71
 frav1002        1H      IN A    10.64.40.74
 frauth1001      1H      IN A    10.64.40.68
+frban1001       1H      IN A    10.64.40.112
 frbast1001      1H      IN A    10.64.40.35
 frdata1001      1H      IN A    10.64.40.131
 frdb1001        1H      IN A    10.64.40.114
@@ -2799,6 +2800,7 @@ frdb1002        1H      IN A    10.64.40.99
 frdev1001       1H      IN A    10.64.40.117
 frlog1001       1H      IN A    10.64.40.72
 frmon1001       1H      IN A    10.64.40.73
+frnetmon1001    1H      IN A    10.64.40.67
 frpig1001       1H      IN A    10.64.40.164
 frpig1001-fundraising 1H      IN A    10.64.40.165
 frpm1001        1H      IN A    10.64.40.70
@@ -2818,6 +2820,7 @@ pfw3-eqiad      1H  IN A    10.64.40.193
 pay-lvs1001     1H  IN A    10.64.40.194
 pay-lvs1002     1H  IN A    10.64.40.195
 frauth1001      1H  IN A    10.64.40.196
+frban1001       1H  IN A    10.64.40.212
 frbast1001      1H  IN A    10.64.40.216
 frdata1001      1H  IN A    10.64.40.217
 frdb1001        1H  IN A    10.64.40.197
@@ -2825,6 +2828,7 @@ frdb1002        1H  IN A    10.64.40.198
 frav1001        1H  IN A    10.64.40.199
 frdev1001       1H  IN A    10.64.40.200
 civi1001        1H  IN A    10.64.40.201
+frnetmon1001    1H  IN A    10.64.40.207
 frmon1001       1H  IN A    10.64.40.215
 frpig1001       1H  IN A    10.64.40.218
 frpm1001        1H  IN A    10.64.40.202
@@ -3695,7 +3699,7 @@ frban2001           1H  IN A    10.195.0.117
 frbast2001          1H  IN A    10.195.0.113
 frdb2001            1H  IN A    10.195.0.110
 frmon2001           1H  IN A    10.195.0.114
-frqueue2001           1H  IN A    10.195.0.116
+frqueue2001         1H  IN A    10.195.0.116
 heka                1H  IN A    10.195.0.103
 mintaka             1H  IN A    10.195.0.107
 pay-lvs2001         1H  IN A    10.195.0.101
