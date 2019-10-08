@@ -361,6 +361,7 @@ $ORIGIN 0.64.@Z
 109 1H IN PTR   wdqs1006.eqiad.wmnet.
 111 1H IN PTR   matomo1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 112 1H IN PTR   krb1001.eqiad.wmnet.
+113 1H IN PTR   ms-be1051.eqiad.wmnet.
 
 119 1H IN PTR   grafana1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 120 1H IN PTR   weblog1001.eqiad.wmnet.
@@ -625,6 +626,8 @@ $ORIGIN 16.64.@Z
 126 1H IN PTR   restbase1017-a.eqiad.wmnet. ; cassandra instance
 127 1H IN PTR   restbase1017-b.eqiad.wmnet. ; cassandra instance
 128 1H IN PTR   restbase1017-c.eqiad.wmnet. ; cassandra instance
+129 1H IN PTR   ms-be1052.eqiad.wmnet.
+130 1H IN PTR   ms-be1053.eqiad.wmnet.
 
 149 1H IN PTR   graphite1004.eqiad.wmnet.
 
@@ -826,6 +829,7 @@ $ORIGIN 32.64.@Z
 88      1H IN PTR       netflow1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 89      1H IN PTR       ncredir1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 90      1H IN PTR       kafka-main1003.eqiad.wmnet.
+91      1H IN PTR       ms-be1054.eqiad.wmnet.
 
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
@@ -1083,7 +1087,8 @@ $ORIGIN 48.64.@Z
 16      1H IN PTR       ores1007.eqiad.wmnet.
 17      1H IN PTR       dbstore1001.eqiad.wmnet.
 18      1H IN PTR       db1140.eqiad.wmnet.
-
+19      1H IN PTR       ms-be1055.eqiad.wmnet.
+20      1H IN PTR       ms-be1056.eqiad.wmnet.
 21      1H IN PTR       phab1003.eqiad.wmnet.
 22      1H IN PTR       phab1003-vcs.eqiad.wmnet.
 
