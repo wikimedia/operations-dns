@@ -42,7 +42,7 @@
 89  1H  IN PTR  vrrp-gw-1120.wikimedia.org.
 90  1H  IN PTR  ae2-1120.cr1-eqiad.wikimedia.org.
 91  1H  IN PTR  ae2-1120.cr2-eqiad.wikimedia.org.
-92  1H  IN PTR  vip-gw-cloudnet.wikimedia.org.
+92  1H  IN PTR  cloudinstances2b-gw.openstack.eqiad1.wikimediacloud.org.
 
 ; 208.80.155.96/27 public1-d-eqiad subnet
 

@@ -539,8 +539,6 @@ mr1-eqsin       1H  IN AAAA 2001:df2:e500:ffff::1
 mr1-eqsin.oob   1H  IN A    27.111.227.106
 mr1-eqsin.oob   1H  IN AAAA 2403:b100:3001:9::2
 
-vip-gw-cloudnet 1H  IN A    208.80.155.92
-
 pfw3-eqiad      1H  IN A     208.80.154.219
 
 pfw3-codfw      1H  IN A     208.80.153.197
