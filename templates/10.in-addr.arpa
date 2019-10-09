@@ -1948,9 +1948,6 @@ $ORIGIN 3.65.@Z
 29  1H  IN PTR      titanium.mgmt.eqiad.wmnet.
 29  1H  IN PTR      wmf3290.mgmt.eqiad.wmnet.
 
-34  1H  IN PTR      rhenium.mgmt.eqiad.wmnet.
-34  1H  IN PTR      wmf3408.mgmt.eqiad.wmnet.
-
 38  1H  IN PTR      stat1001.mgmt.eqiad.wmnet.
 38  1H  IN PTR      wmf3412.mgmt.eqiad.wmnet.
 39  1H  IN PTR      lvs1001.mgmt.eqiad.wmnet.
@@ -2693,8 +2690,6 @@ $ORIGIN 5.65.@Z
 201 1H  IN PTR      polonium.mgmt.eqiad.wmnet.
 202 1H  IN PTR      wmf4572.mgmt.eqiad.wmnet.
 202 1H  IN PTR      francium.mgmt.eqiad.wmnet.
-203 1H  IN PTR      wmf4573.mgmt.eqiad.wmnet.
-203 1H  IN PTR      lithium.mgmt.eqiad.wmnet.
 204 1H  IN PTR      wmf4574.mgmt.eqiad.wmnet.
 204 1H  IN PTR      astatine.mgmt.eqiad.wmnet.
 
