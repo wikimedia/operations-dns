@@ -1184,7 +1184,6 @@ $ORIGIN 48.64.@Z
 117     1H  IN PTR      kafka-jumbo1006.eqiad.wmnet.
 119     1H  IN PTR      aqs1009.eqiad.wmnet.
 
-121     1H  IN PTR      auth1001.eqiad.wmnet.
 122     1H  IN PTR      aqs1009-a.eqiad.wmnet. ; cassandra instance
 123     1H  IN PTR      aqs1009-b.eqiad.wmnet. ; cassandra instance
 124     1H  IN PTR      db1138.eqiad.wmnet.
