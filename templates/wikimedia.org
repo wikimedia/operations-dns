@@ -29,6 +29,7 @@ ns2         1D  IN A    91.198.174.239
 
 ; SPF txt and rr records
 @               600 IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
+@               600 IN TXT  "FC0MOB7SKLHj0AsevTnJvE0W0YYQkPVYOX3UMrINOSk="
 
 ; CAA records for wikimedia.org - all types for globalsign and digicert and LE
 @               5M  IN CAA 0 issue "digicert.com"
