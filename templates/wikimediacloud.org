@@ -23,6 +23,11 @@ $ORIGIN codfw1dev.wikimediacloud.org.
 ; Primary openstack endpoint API used by openstack clients and endpoint catalog
 openstack  5M  IN CNAME  cloudcontrol2001-dev.wikimedia.org.
 
+$ORIGIN openstack.codfw1dev.wikimediacloud.org.
+
+; neutron virtual router cloudinstances2b-gw
+cloudinstances2b-gw 5M  IN A      208.80.153.190
+
 ;
 ; EQIAD
 ; eqiad1 openstack region
