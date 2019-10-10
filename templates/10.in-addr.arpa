@@ -4701,8 +4701,7 @@ $ORIGIN 2.193.@Z
 144 1H IN PTR  wmf6280.mgmt.codfw.wmnet.
 145 1H IN PTR  db2057.mgmt.codfw.wmnet.
 145 1H IN PTR  wmf6281.mgmt.codfw.wmnet.
-146 1H IN PTR  db2058.mgmt.codfw.wmnet.
-146 1H IN PTR  wmf6282.mgmt.codfw.wmnet.
+
 147 1H IN PTR  db2059.mgmt.codfw.wmnet.
 147 1H IN PTR  wmf6283.mgmt.codfw.wmnet.
 148 1H IN PTR  db2060.mgmt.codfw.wmnet.
@@ -4723,8 +4722,7 @@ $ORIGIN 2.193.@Z
 155 1H IN PTR  wmf6291.mgmt.codfw.wmnet.
 156 1H IN PTR  db2068.mgmt.codfw.wmnet.
 156 1H IN PTR  wmf6292.mgmt.codfw.wmnet.
-157 1H IN PTR  db2069.mgmt.codfw.wmnet.
-157 1H IN PTR  wmf6293.mgmt.codfw.wmnet.
+
 158 1H IN PTR  db2070.mgmt.codfw.wmnet.
 158 1H IN PTR  wmf6294.mgmt.codfw.wmnet.
 159 1H IN PTR  db2121.mgmt.codfw.wmnet.
