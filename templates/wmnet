@@ -479,11 +479,9 @@ dbprov1002      1H  IN A        10.64.16.31
 dbproxy1001     1H  IN A        10.64.0.165
 dbproxy1002     1H  IN A        10.64.0.166
 dbproxy1003     1H  IN A        10.64.0.198
-dbproxy1004     1H  IN A        10.64.16.148
 dbproxy1006     1H  IN A        10.64.16.159
 dbproxy1007     1H  IN A        10.64.32.156
 dbproxy1008     1H  IN A        10.64.32.157
-dbproxy1009     1H  IN A        10.64.32.158
 dbproxy1010     1H  IN A        10.64.37.14
 dbproxy1011     1H  IN A        10.64.37.15
 dbproxy1012     1H  IN A        10.64.0.134
@@ -1235,8 +1233,6 @@ wmf3112             1H  IN A    10.65.2.23
 dbproxy1010         1H  IN A    10.65.2.23
 wmf3111             1H  IN A    10.65.2.24
 dbproxy1007         1H  IN A    10.65.2.24
-wmf3109             1H  IN A    10.65.2.26
-dbproxy1009         1H  IN A    10.65.2.26
 wmf3108     1H  IN A    10.65.2.27
 wmf3107     1H  IN A    10.65.2.28
 wmf3106     1H  IN A    10.65.2.29
@@ -1258,8 +1254,6 @@ wmf7113     1H  IN A    10.65.4.117
 labpuppetmaster1002 1H IN A    10.65.4.118
 wmf7114     1H  IN A    10.65.4.118
 dbproxy1005 1H  IN A    10.65.2.41
-wmf3093     1H  IN A    10.65.2.42
-dbproxy1004 1H  IN A    10.65.2.42
 cp1045      1H  IN A    10.65.2.45
 cp1046      1H  IN A    10.65.2.46
 cp1047      1H  IN A    10.65.2.47
