@@ -1937,8 +1937,7 @@ $ORIGIN 3.65.@Z
 22  1H  IN PTR      wmf7469.mgmt.eqiad.wmnet.
 23  1H  IN PTR      frqueue1001.mgmt.eqiad.wmnet.
 24  1H  IN PTR      frqueue1002.mgmt.eqiad.wmnet.
-25  1H  IN PTR      iron.mgmt.eqiad.wmnet.
-25  1H  IN PTR      wmf3294.mgmt.eqiad.wmnet.
+
 26  1H  IN PTR      frdev1001.mgmt.eqiad.wmnet.
 26  1H  IN PTR      wmf7028.mgmt.eqiad.wmnet.
 
