@@ -25,6 +25,7 @@ $ORIGIN 1.0.0.0.@Z
 6.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   alcyone.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 5.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   contint2001.wikimedia.org.
 7.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   authdns2001.wikimedia.org.
+3.2.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   idp2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 
 ; public1-b-codfw (2620:0:860:2::/64)
 $ORIGIN 2.0.0.0.@Z
