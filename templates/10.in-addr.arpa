@@ -2045,8 +2045,7 @@ $ORIGIN 3.65.@Z
 105 1H  IN PTR      kafka1022.mgmt.eqiad.wmnet.
 106 1H  IN PTR      labstore1001.mgmt.eqiad.wmnet.
 107 1H  IN PTR      labstore1002.mgmt.eqiad.wmnet.
-108 1H  IN PTR      labsdb1004.mgmt.eqiad.wmnet.
-109 1H  IN PTR      labsdb1005.mgmt.eqiad.wmnet.
+
 110 1H  IN PTR      labsdb1006.mgmt.eqiad.wmnet.
 111 1H  IN PTR      labsdb1007.mgmt.eqiad.wmnet.
 112 1H  IN PTR      conf1001.mgmt.eqiad.wmnet.
