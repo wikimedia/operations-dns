@@ -330,6 +330,7 @@ aqs1009-b        1H IN A             10.64.48.123 ; cassandra instance
 argon            1H IN A         10.64.32.133 ; VM on ganeti01.svc.eqiad.wmnet
 argon            1H IN AAAA      2620:0:861:103:10:64:32:133 ; VM on ganeti01.svc.eqiad.wmnet
 backup1001       1H IN A         10.64.48.36
+                 1H IN AAAA      2620:0:861:107:10:64:48:36
 boron            1H IN A         10.64.0.36 ; VM on ganeti01.svc.eqiad.wmnet
 centrallog1001   1H IN A         10.64.48.113
 chlorine         1H IN A         10.64.0.45 ; VM on ganeti01.svc.eqiad.wmnet
@@ -585,6 +586,7 @@ grafana1001     1H  IN A        10.64.32.183 ; VM on ganeti01.svc.eqiad.wmnet
 grafana1002     1H  IN A        10.64.0.119 ; VM on ganeti01.svc.eqiad.wmnet
 hassium         1H  IN A        10.64.0.53 ; VM on ganeti01.svc.eqiad.wmnet
 helium          1H  IN A        10.64.0.179
+                1H  IN AAAA     2620:0:861:101:10:64:0:179
 logstash1020        1H  IN A         10.64.0.11
                     1H  IN AAAA      2620:0:861:101:10:64:0:11
 logstash1021        1H  IN A         10.64.16.41
@@ -2875,6 +2877,7 @@ acrux           1H  IN A    10.192.0.93 ; VM on ganeti01.svc.codfw.wmnet
 acrux           1H  IN AAAA 2620:0:860:101:10:192:0:93 ; VM on ganeti01.svc.codfw.wmnet
 auth2001        1H  IN A    10.192.0.138
 backup2001      1H  IN A    10.192.48.116
+                1H  IN AAAA 2620:0:860:104:10:192:48:116
 cloudbackup2001 1H  IN A    10.192.0.130
 cloudbackup2002 1H  IN A    10.192.16.10
 cloudvirt2001-dev   1H  IN A    10.192.20.5
