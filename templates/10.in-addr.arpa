@@ -1950,8 +1950,7 @@ $ORIGIN 3.65.@Z
 46  1H  IN PTR      wmf6948.mgmt.eqiad.wmnet.
 47  1H  IN PTR      payments1002.mgmt.eqiad.wmnet.
 47  1H  IN PTR      wmf6950.mgmt.eqiad.wmnet.
-48  1H  IN PTR      labcontrol1002.mgmt.eqiad.wmnet.
-48  1H  IN PTR      wmf3423.mgmt.eqiad.wmnet.
+
 49  1H  IN PTR      rubidium.mgmt.eqiad.wmnet.
 49  1H  IN PTR      wmf3424.mgmt.eqiad.wmnet.
 50  1H  IN PTR      frdb1002.mgmt.eqiad.wmnet.
@@ -2836,8 +2835,6 @@ $ORIGIN 7.65.@Z
 22  1H  IN PTR      rdb1008.mgmt.eqiad.wmnet.
 23  1H  IN PTR      wmf3153.mgmt.eqiad.wmnet.
 23  1H  IN PTR      rdb1007.mgmt.eqiad.wmnet.
-24  1H  IN PTR      labcontrol1001.mgmt.eqiad.wmnet.
-24  1H  IN PTR      wmf3152.mgmt.eqiad.wmnet.
 
 28      1H      IN PTR     wmf7002.mgmt.eqiad.wmnet.
 28      1H      IN PTR     wdqs1003.mgmt.eqiad.wmnet.

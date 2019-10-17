@@ -1328,8 +1328,6 @@ wmf3417     1H  IN A    10.65.3.42
 wmf3418     1H  IN A    10.65.3.43
 wmf3419     1H  IN A    10.65.3.44
 wmf3427     1H  IN A    10.65.3.52
-wmf3423     1H  IN A    10.65.3.48
-labcontrol1002  1H  IN A    10.65.3.48
 cloudcontrol1003 1H  IN A    10.65.4.119
 wmf7098         1H  IN A    10.65.4.119
 cloudcontrol1004 1H  IN A    10.65.4.120
@@ -2312,9 +2310,6 @@ rdb1009     1H  IN A    10.65.7.92
 wmf7380     1H  IN A    10.65.7.92
 rdb1010     1H  IN A    10.65.7.93
 wmf7381     1H  IN A    10.65.7.93
-labcontrol1001  1H  IN A    10.65.7.24
-wmf3152     1H  IN A    10.65.7.24
-
 wmf7002     1H  IN A    10.65.7.28
 wdqs1003    1H  IN A    10.65.7.28
 wmf7117     1H  IN A    10.65.7.81
