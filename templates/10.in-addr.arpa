@@ -643,8 +643,6 @@ $ORIGIN 16.64.@Z
 
 172 1H IN PTR   druid1005.eqiad.wmnet.
 
-184 1H IN PTR   rhodium.eqiad.wmnet.
-
 186 1H IN PTR   es1013.eqiad.wmnet.
 187 1H IN PTR   es1014.eqiad.wmnet.
 
