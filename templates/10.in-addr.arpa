@@ -636,7 +636,6 @@ $ORIGIN 16.64.@Z
 156 1H IN PTR   pc1001.eqiad.wmnet.
 157 1H IN PTR   pc1002.eqiad.wmnet.
 158 1H IN PTR   pc1003.eqiad.wmnet.
-159 1H IN PTR   dbproxy1006.eqiad.wmnet.
 
 163 1H IN PTR   ms-be1016.eqiad.wmnet.
 164 1H IN PTR   ms-be1017.eqiad.wmnet.
