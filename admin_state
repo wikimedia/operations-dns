@@ -69,3 +69,5 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+# Depool esams to test lvs1014 traffic scenario
+geoip/generic-map/esams => DOWN
