@@ -18,7 +18,6 @@ disc-cxserver            => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-eventstreams        => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-graphoid            => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-kartotherian        => { map => mock, dcmap => { mock => 192.0.2.1 } }
-disc-kibana              => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-mathoid             => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-mobileapps          => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-ores                => { map => mock, dcmap => { mock => 192.0.2.1 } }
