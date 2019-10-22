@@ -2679,6 +2679,8 @@ $ORIGIN 5.65.@Z
 180 1H  IN PTR      analytics1001.mgmt.eqiad.wmnet.
 181 1H  IN PTR      wmf4541.mgmt.eqiad.wmnet.
 181 1H  IN PTR      analytics1003.mgmt.eqiad.wmnet.
+182 1H  IN PTR      dumpsdata1003.mgmt.eqiad.wmnet.
+182 1H  IN PTR      wmf5269.mgmt.eqiad.wmnet.
 
 184 1H  IN PTR      wmf4544.mgmt.eqiad.wmnet.
 184 1H  IN PTR      analytics1002.mgmt.eqiad.wmnet.

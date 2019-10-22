@@ -1931,6 +1931,8 @@ wmf7433         1H  IN A    10.65.1.23
 dumpsdata1001   1H  IN A    10.65.5.64
 wmf7090         1H  IN A    10.65.5.65
 dumpsdata1002   1H  IN A    10.65.5.65
+wmf5269         1H  IN A    10.65.5.182
+dumpsdata1003   1H  IN A    10.65.5.182
 labsdb1009      1H  IN A    10.65.4.59
 wmf4797         1H  IN A    10.65.4.59
 labsdb1010      1H  IN A    10.65.4.60
