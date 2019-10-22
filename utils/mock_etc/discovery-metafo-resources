@@ -10,3 +10,4 @@ disc-jobrunner           => { datacenters => mock, dcmap => { mock => 192.0.2.1 
 disc-videoscaler         => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-swift-rw            => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-docker-registry     => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
+disc-kibana              => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
