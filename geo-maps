@@ -1,6 +1,6 @@
 generic-map => {
     geoip2_db => GeoIP2-City.mmdb
-    datacenters => [eqiad, codfw, ulsfo, esams, eqsin, bh, ref]
+    datacenters => [codfw, eqiad, ulsfo, esams, eqsin, bh, ref]
     map => {
         # use ISO 3166-2 official names
         AF => [esams, eqiad, codfw, ulsfo, eqsin],
@@ -217,7 +217,7 @@ generic-map => {
             WF => [ulsfo, eqsin, codfw, eqiad, esams], # Wallis and Futuna
             WS => [ulsfo, eqsin, codfw, eqiad, esams], # Samoa
         },
-        default => [eqiad, codfw, ulsfo, esams, eqsin],
+        default => [codfw, eqiad, ulsfo, esams, eqsin],
     },
     nets = {
         # Wikimedia address space
