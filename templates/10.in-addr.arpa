@@ -3534,7 +3534,6 @@ $ORIGIN 32.192.@Z
 15  1H IN PTR   sessionstore2002.codfw.wmnet.
 16  1H IN PTR   restbase2015.codfw.wmnet.
 17  1H IN PTR   restbase2016.codfw.wmnet.
-19  1H IN PTR   dbstore2002.codfw.wmnet.
 20  1H IN PTR   scb2006.codfw.wmnet.
 21  1H IN PTR   oresrdb2002.codfw.wmnet.
 22  1H IN PTR   restbase2015-a.codfw.wmnet.
