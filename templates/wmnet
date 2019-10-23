@@ -4896,6 +4896,7 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 $ORIGIN mgmt.esams.wmnet.
 
+asw2-esams     1H  IN A        10.21.0.8
 cr1-esams      1H  IN A        10.21.0.116
 asw-esams      1H  IN A        10.21.0.104
 csw2-esams     1H  IN A        10.21.0.105
@@ -4923,6 +4924,7 @@ re0.cr2-esams  1H  IN A        10.21.0.117
 re1.cr2-esams  1H  IN A        10.21.0.118
 re0.cr3-esams  1H  IN A        10.21.0.119
 re1.cr3-esams  1H  IN A        10.21.0.120
+scs-oe16-esams 1H  IN A        10.21.0.9
 
 cp3001      1H  IN A        10.21.0.125
 cp3002      1H  IN A        10.21.0.126

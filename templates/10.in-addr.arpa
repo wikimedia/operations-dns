@@ -180,6 +180,8 @@ $ORIGIN 0.21.@Z
 5   1H  IN PTR  ms-be3004.mgmt.esams.wmnet.
 6   1H  IN PTR  ms-fe3001.mgmt.esams.wmnet.
 7   1H  IN PTR  ms-fe3002.mgmt.esams.wmnet.
+8   1H  IN PTR  asw2-esams.mgmt.esams.wmnet.
+9   1H  IN PTR  scs-oe16-esams.mgmt.esams.wmnet.
 
 16  1H  IN PTR  ps1-oe14-esams.mgmt.esams.wmnet.
 17  1H  IN PTR  ps1-oe15-esams.mgmt.esams.wmnet.
