@@ -144,6 +144,30 @@ $ORIGIN 0.20.@Z
 12  1H  IN PTR      lvs3002.esams.wmnet.
 13  1H  IN PTR      lvs3003.esams.wmnet.
 14  1H  IN PTR      lvs3004.esams.wmnet.
+15  1H  IN PTR      lvs3005.esams.wmnet.
+16  1H  IN PTR      lvs3006.esams.wmnet.
+17  1H  IN PTR      lvs3007.esams.wmnet.
+
+31  1H  IN PTR      ganeti3001.esams.wmnet.
+32  1H  IN PTR      ganeti3002.esams.wmnet.
+33  1H  IN PTR      ganeti3003.esams.wmnet.
+
+50  1H  IN PTR      cp3050.esams.wmnet.
+51  1H  IN PTR      cp3051.esams.wmnet.
+52  1H  IN PTR      cp3052.esams.wmnet.
+53  1H  IN PTR      cp3053.esams.wmnet.
+54  1H  IN PTR      cp3054.esams.wmnet.
+55  1H  IN PTR      cp3055.esams.wmnet.
+56  1H  IN PTR      cp3056.esams.wmnet.
+57  1H  IN PTR      cp3057.esams.wmnet.
+58  1H  IN PTR      cp3058.esams.wmnet.
+59  1H  IN PTR      cp3059.esams.wmnet.
+60  1H  IN PTR      cp3060.esams.wmnet.
+61  1H  IN PTR      cp3061.esams.wmnet.
+62  1H  IN PTR      cp3062.esams.wmnet.
+63  1H  IN PTR      cp3063.esams.wmnet.
+64  1H  IN PTR      cp3064.esams.wmnet.
+65  1H  IN PTR      cp3065.esams.wmnet.
 
 107 1H  IN PTR      cp3007.esams.wmnet.
 108 1H  IN PTR      cp3008.esams.wmnet.

@@ -23,6 +23,10 @@
 13  1H IN PTR   vl100-eth0.lvs3003.esams.wmnet.
 14  1H IN PTR   vl100-eth0.lvs3004.esams.wmnet.
 
+60  1H IN PTR   bast3004.wikimedia.org.
+61  1H IN PTR   dns3001.wikimedia.org.
+62  1H IN PTR   dns3002.wikimedia.org.
+
 106 1H IN PTR   nescio.wikimedia.org.
 
 113 1H IN PTR   bast3002.wikimedia.org.
