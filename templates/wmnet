@@ -4966,6 +4966,16 @@ lvs3001     1H  IN A        10.21.0.147
 lvs3002     1H  IN A        10.21.0.148
 lvs3003     1H  IN A        10.21.0.149
 lvs3004     1H  IN A        10.21.0.150
+
+lvs3006     1H  IN A        10.21.0.180
+ganeti3002  1H  IN A        10.21.0.181
+dns3002     1H  IN A        10.21.0.182
+cp3055      1H  IN A        10.21.0.183
+cp3056      1H  IN A        10.21.0.184
+cp3057      1H  IN A        10.21.0.185
+cp3058      1H  IN A        10.21.0.186
+cp3059      1H  IN A        10.21.0.187
+cp3060      1H  IN A        10.21.0.188
 scs-oe11-esams  1H  IN A        10.21.0.210
 msw-oe12-esams  1H  IN A        10.21.0.249
 schleifenbauer  1H  IN A        10.21.0.253
