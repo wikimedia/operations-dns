@@ -137,7 +137,7 @@ $ORIGIN 0.3.@Z
 
 $ORIGIN 0.20.@Z
 1   1H  IN PTR  vrrp-gw-103.esams.wikimedia.org.
-2   1H  IN PTR  ae1-103.cr1-esams.wikimedia.org.
+2   1H  IN PTR  ae1-103.cr3-esams.wikimedia.org.
 3   1H  IN PTR  ae1-103.cr2-esams.wikimedia.org.
 
 11  1H  IN PTR      lvs3001.esams.wmnet.
@@ -201,7 +201,6 @@ $ORIGIN 0.21.@Z
 113 1H  IN PTR  multatuli.mgmt.esams.wmnet.
 114 1H  IN PTR  maerlant.mgmt.esams.wmnet.
 115 1H  IN PTR  bast3001.mgmt.esams.wmnet.
-116 1H  IN PTR  cr1-esams.mgmt.esams.wmnet.
 117 1H  IN PTR  re0.cr2-esams.mgmt.esams.wmnet.
 118 1H  IN PTR  re1.cr2-esams.mgmt.esams.wmnet.
 119 1H  IN PTR  re0.cr3-esams.mgmt.esams.wmnet.

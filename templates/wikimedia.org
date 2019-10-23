@@ -505,8 +505,8 @@ mr1-codfw.oob   1H  IN A    216.117.46.36
 cr2-eqdfw       1H  IN A    208.80.153.198
 cr2-eqdfw       1H  IN AAAA 2620:0:860:ffff::5
 
-cr1-esams       1H  IN A    91.198.174.245
-cr1-esams       1H  IN AAAA 2620:0:862:ffff::5
+cr3-esams       1H  IN A    91.198.174.245
+cr3-esams       1H  IN AAAA 2620:0:862:ffff::5
 cr2-esams       1H  IN A    91.198.174.244
 cr2-esams       1H  IN AAAA 2620:0:862:ffff::3
 cr2-knams       1H  IN A    91.198.174.246
