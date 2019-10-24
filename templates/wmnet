@@ -5470,6 +5470,8 @@ peopleweb             300 IN CNAME people1001.eqiad.wmnet.
 performance           300 IN CNAME webperf1001.eqiad.wmnet.
 phabricator           300 IN CNAME phab1003.eqiad.wmnet.
 planet                300 IN CNAME planet1001.eqiad.wmnet.
+puppetboard           300 IN CNAME puppetboard1001.eqiad.wmnet.
+;puppetboard           300 IN CNAME puppetboard2001.codfw.wmnet.
 releases              300 IN CNAME releases1001.eqiad.wmnet.
 webserver-misc-static 300 IN CNAME bromine.eqiad.wmnet.
 webserver-misc-apps   300 IN CNAME miscweb1001.eqiad.wmnet.
