@@ -5027,6 +5027,15 @@ cp3057      1H  IN A        10.21.0.185
 cp3058      1H  IN A        10.21.0.186
 cp3059      1H  IN A        10.21.0.187
 cp3060      1H  IN A        10.21.0.188
+lvs3007     1H  IN A        10.21.0.189
+ganeti3003  1H  IN A        10.21.0.190
+bast3004    1H  IN A        10.21.0.191
+cp3061      1H  IN A        10.21.0.192
+cp3062      1H  IN A        10.21.0.193
+cp3063      1H  IN A        10.21.0.194
+cp3064      1H  IN A        10.21.0.195
+cp3065      1H  IN A        10.21.0.196
+
 scs-oe11-esams  1H  IN A        10.21.0.210
 msw-oe12-esams  1H  IN A        10.21.0.249
 schleifenbauer  1H  IN A        10.21.0.253
