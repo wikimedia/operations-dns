@@ -433,7 +433,6 @@ id.m                1D IN CNAME dyna.wikimedia.org.
 initiatives.m       1D IN CNAME dyna.wikimedia.org.
 id-internal.m       1D IN CNAME dyna.wikimedia.org.
 incubator.m         1D IN CNAME dyna.wikimedia.org.
-ka.m                1D IN CNAME dyna.wikimedia.org.
 fdc.m               1D IN CNAME dyna.wikimedia.org.
 fixcopyright.m      1D IN CNAME dyna.wikimedia.org.
 foundation.m        1D IN CNAME dyna.wikimedia.org.
@@ -738,7 +737,6 @@ incubator        1D IN CNAME dyna.wikimedia.org.
 initiatives      1D IN CNAME dyna.wikimedia.org.
 internal         1D IN CNAME dyna.wikimedia.org.
 it               1D IN CNAME dyna.wikimedia.org.
-ka               1D IN CNAME dyna.wikimedia.org.
 kr               1D IN CNAME dyna.wikimedia.org.
 langcom          1D IN CNAME dyna.wikimedia.org.
 legalteam        1D IN CNAME dyna.wikimedia.org.
