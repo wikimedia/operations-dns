@@ -162,12 +162,12 @@ $ORIGIN 4.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  ae1-404.cr3-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  ge-0-0-1-404.mr1-esams.wikimedia.org.
 
-; cr2-knams <--> mr1-esams (2620:0:862:fe05::/64)
+; cr2-knams <--> cr2-esams (2620:0:862:fe05::/64)
 
 $ORIGIN 5.0.e.f.@Z
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  ae1-405.cr2-knams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  ge-0-0-1-405.mr1-esams.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  xe-0-0-0.cr2-knams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  xe-0-1-8.cr2-esams.wikimedia.org.
 
 ; cr1-eqiad <--> cr2-knams (2620:0:862:fe06::/64)
 
@@ -182,6 +182,13 @@ $ORIGIN 7.0.e.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-1-3.cr2-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-3.cr2-esams.wikimedia.org.
+
+; cr2-knams <--> cr3-esams (2620:0:862:fe08::/64)
+
+$ORIGIN 8.0.e.f.@Z
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  xe-0-0-0.cr2-knams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  xe-0-0-4.cr3-esams.wikimedia.org.
 
 ; Loopback IPs
 
