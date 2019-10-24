@@ -272,6 +272,14 @@ $ORIGIN 0.21.@Z
 169 1H  IN PTR  cp3048.mgmt.esams.wmnet.
 170 1H  IN PTR  cp3049.mgmt.esams.wmnet.
 
+171 1H  IN PTR  lvs3005.mgmt.esams.wmnet.
+172 1H  IN PTR  ganeti3001.mgmt.esams.wmnet.
+173 1H  IN PTR  dns3001.mgmt.esams.wmnet.
+174 1H  IN PTR  cp3050.mgmt.esams.wmnet.
+175 1H  IN PTR  cp3051.mgmt.esams.wmnet.
+176 1H  IN PTR  cp3052.mgmt.esams.wmnet.
+177 1H  IN PTR  cp3053.mgmt.esams.wmnet.
+178 1H  IN PTR  cp3054.mgmt.esams.wmnet.
 180 1H  IN PTR  lvs3006.mgmt.esams.wmnet.
 181 1H  IN PTR  ganeti3002.mgmt.esams.wmnet.
 182 1H  IN PTR  dns3002.mgmt.esams.wmnet.
