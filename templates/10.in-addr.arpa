@@ -868,6 +868,7 @@ $ORIGIN 32.64.@Z
 89      1H IN PTR       ncredir1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 90      1H IN PTR       kafka-main1003.eqiad.wmnet.
 91      1H IN PTR       ms-be1054.eqiad.wmnet.
+92      1H IN PTR       dumpsdata1003.eqiad.wmnet.
 
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
