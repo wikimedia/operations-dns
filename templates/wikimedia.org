@@ -261,8 +261,6 @@ ldap-corp1001   1H  IN A    208.80.154.28 ; VM on ganeti01.svc.eqiad.wmnet
 ldap-corp2001   1H  IN A    208.80.153.48 ; VM on ganeti01.svc.codfw.wmnet
 sodium          1H  IN A    208.80.154.15
 sodium          1H  IN AAAA 2620:0:861:1:208:80:154:15
-multatuli       1H  IN A    91.198.174.114
-multatuli       1H  IN AAAA 2620:0:862:1:91:198:174:114
 mx1001          1H  IN A    208.80.154.76 ; VM on ganeti01.svc.eqiad.wmnet
 mx1001          1H  IN AAAA 2620:0:861:3:208:80:154:76 ; VM on ganeti01.svc.eqiad.wmnet
 mx2001          1H  IN A    208.80.153.45 ; VM on ganeti01.svc.codfw.wmnet
