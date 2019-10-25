@@ -165,10 +165,6 @@ $ORIGIN 0.20.@Z
 64  1H  IN PTR      cp3064.esams.wmnet.
 65  1H  IN PTR      cp3065.esams.wmnet.
 
-107 1H  IN PTR      cp3007.esams.wmnet.
-108 1H  IN PTR      cp3008.esams.wmnet.
-110 1H  IN PTR      cp3010.esams.wmnet.
-
 ; Management
 
 $ORIGIN 0.21.@Z

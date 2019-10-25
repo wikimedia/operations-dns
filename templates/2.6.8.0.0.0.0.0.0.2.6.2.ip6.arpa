@@ -70,10 +70,6 @@ $ORIGIN 2.0.1.0.@Z
 4.6.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3064.esams.wmnet.
 5.6.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3065.esams.wmnet.
 
-7.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3007.esams.wmnet.
-8.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3008.esams.wmnet.
-0.1.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3010.esams.wmnet.
-
 ; 2620:0:862:ed1a::0:0/110 (::0:0 - ::3:ffff) LVS Service IPs
 
 ; - 2620:0:862:ed1a::0:0/111 (::0:0 - ::1:ffff) LVS high-traffic1 (Text)
