@@ -5311,7 +5311,7 @@ termbox-test    1H  IN CNAME    staging.svc.eqiad.wmnet.
 $ORIGIN svc.esams.wmnet.
 
 ; Used for consistency with eqiad/codfw
-prometheus  1H  IN CNAME    bast3002.wikimedia.org.
+prometheus  1H  IN CNAME    bast3004.wikimedia.org.
 
 ; ULSFO SERVICES
 
