@@ -47,10 +47,6 @@ $ORIGIN 2.0.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-103.cr3-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-103.cr2-esams.wikimedia.org.
 
-1.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3001.esams.wmnet.
-2.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3002.esams.wmnet.
-3.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3003.esams.wmnet.
-4.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3004.esams.wmnet.
 5.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3005.esams.wmnet.
 6.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3006.esams.wmnet.
 7.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3007.esams.wmnet.

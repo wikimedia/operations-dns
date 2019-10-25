@@ -18,10 +18,6 @@
 2   1H IN PTR   ae1-100.cr3-esams.wikimedia.org.
 3   1H IN PTR   ae1-100.cr2-esams.wikimedia.org.
 
-11  1H IN PTR   vl100-eth0.lvs3001.esams.wmnet.
-12  1H IN PTR   vl100-eth0.lvs3002.esams.wmnet.
-13  1H IN PTR   vl100-eth0.lvs3003.esams.wmnet.
-14  1H IN PTR   vl100-eth0.lvs3004.esams.wmnet.
 15  1H IN PTR   vl100-enp175s0f0.lvs3005.esams.wmnet.
 16  1H IN PTR   vl100-enp175s0f0.lvs3006.esams.wmnet.
 17  1H IN PTR   vl100-enp175s0f0.lvs3007.esams.wmnet.

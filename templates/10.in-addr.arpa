@@ -140,10 +140,6 @@ $ORIGIN 0.20.@Z
 2   1H  IN PTR  ae1-103.cr3-esams.wikimedia.org.
 3   1H  IN PTR  ae1-103.cr2-esams.wikimedia.org.
 
-11  1H  IN PTR      lvs3001.esams.wmnet.
-12  1H  IN PTR      lvs3002.esams.wmnet.
-13  1H  IN PTR      lvs3003.esams.wmnet.
-14  1H  IN PTR      lvs3004.esams.wmnet.
 15  1H  IN PTR      lvs3005.esams.wmnet.
 16  1H  IN PTR      lvs3006.esams.wmnet.
 17  1H  IN PTR      lvs3007.esams.wmnet.
