@@ -59,20 +59,23 @@
 226     1H  IN PTR  xe-tbd.cr2-knams.wikimedia.org.
 227     1H  IN PTR  xe-0-0-4.cr3-esams.wikimedia.org.
 
-; 91.198.174.228/30 (228-231) unused
+; 91.198.174.228/31 - cr3-esams <--> cr2-knams
+228     1H  IN PTR  ae1-401.cr3-esams.wikimedia.org.
+229     1H  IN PTR  ae2-401.cr2-knams.wikimedia.org.
+
+; 91.198.174.230/31 (230-231) UNUSED
 
 ; 91.198.174.232/29 (232-239) out-of-subnet LVS service IPs
 
 239 1D IN PTR   ns2.wikimedia.org.
 
 ; 91.198.174.240/31 - cr3-esams <--> mr1-esams
-240     1H  IN PTR  ae1-404.cr3-esams.wikimedia.org.
-241     1H  IN PTR  ge-0-0-1-404.mr1-esams.wikimedia.org.
+240     1H  IN PTR  ae1-402.cr3-esams.wikimedia.org.
+241     1H  IN PTR  ge-0-0-1-402.mr1-esams.wikimedia.org.
 
-; 91.198.174.242/31 - cr3-esams <--> cr2-knams
-
-242 1H IN PTR   ae1-401.cr3-esams.wikimedia.org.
-243 1H IN PTR   ae2-401.cr2-knams.wikimedia.org.
+; 91.198.174.242/31 - cr2-esams <--> mr1-esams
+242     1H  IN PTR  ae1-404.cr2-esams.wikimedia.org.
+243     1H  IN PTR  ge-0-0-1-404.mr1-esams.wikimedia.org.
 
 ; Loopback IPs
 
