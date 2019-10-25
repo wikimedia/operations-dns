@@ -108,7 +108,7 @@ $ORIGIN 0.0.e.f.@Z
 $ORIGIN 1.0.e.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-401.cr3-esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-401.cr2-knams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-1-0-0-401.cr2-knams.wikimedia.org.
 
 ; cr2-esams <--> cr3-esams (2620:0:862:fe02::/64)
 
@@ -122,7 +122,7 @@ $ORIGIN 2.0.e.f.@Z
 $ORIGIN 3.0.e.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-403.cr2-esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-403.cr2-knams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-1-0-0-403.cr2-knams.wikimedia.org.
 
 ; cr3-esams <--> mr1-esams (2620:0:862:fe04::/64)
 
@@ -156,7 +156,7 @@ $ORIGIN 7.0.e.f.@Z
 
 $ORIGIN 8.0.e.f.@Z
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  xe-0-0-0.cr2-knams.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  xe-0-0-3.cr2-knams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  xe-0-0-4.cr3-esams.wikimedia.org.
 
 ; cr2-knams <--> cr2-esams (2620:0:862:fe09::/64)
