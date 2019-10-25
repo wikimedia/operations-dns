@@ -169,26 +169,6 @@ $ORIGIN 0.20.@Z
 108 1H  IN PTR      cp3008.esams.wmnet.
 110 1H  IN PTR      cp3010.esams.wmnet.
 
-165 1H  IN PTR      cp3030.esams.wmnet.
-166 1H  IN PTR      cp3031.esams.wmnet.
-167 1H  IN PTR      cp3032.esams.wmnet.
-168 1H  IN PTR      cp3033.esams.wmnet.
-169 1H  IN PTR      cp3034.esams.wmnet.
-170 1H  IN PTR      cp3035.esams.wmnet.
-171 1H  IN PTR      cp3036.esams.wmnet.
-172 1H  IN PTR      cp3037.esams.wmnet.
-173 1H  IN PTR      cp3038.esams.wmnet.
-174 1H  IN PTR      cp3039.esams.wmnet.
-175 1H  IN PTR      cp3040.esams.wmnet.
-176 1H  IN PTR      cp3041.esams.wmnet.
-177 1H  IN PTR      cp3042.esams.wmnet.
-178 1H  IN PTR      cp3043.esams.wmnet.
-179 1H  IN PTR      cp3044.esams.wmnet.
-180 1H  IN PTR      cp3045.esams.wmnet.
-181 1H  IN PTR      cp3046.esams.wmnet.
-182 1H  IN PTR      cp3047.esams.wmnet.
-184 1H  IN PTR      cp3049.esams.wmnet.
-
 ; Management
 
 $ORIGIN 0.21.@Z
