@@ -261,8 +261,6 @@ labweb1002      1H  IN A    208.80.155.109
 labweb1002      1H  IN AAAA 2620:0:861:4:208:80:155:109
 ldap-corp1001   1H  IN A    208.80.154.28 ; VM on ganeti01.svc.eqiad.wmnet
 ldap-corp2001   1H  IN A    208.80.153.48 ; VM on ganeti01.svc.codfw.wmnet
-maerlant        1H  IN A    91.198.174.122
-maerlant        1H  IN AAAA 2620:0:862:1:91:198:174:122
 sodium          1H  IN A    208.80.154.15
 sodium          1H  IN AAAA 2620:0:861:1:208:80:154:15
 multatuli       1H  IN A    91.198.174.114
@@ -271,8 +269,6 @@ mx1001          1H  IN A    208.80.154.76 ; VM on ganeti01.svc.eqiad.wmnet
 mx1001          1H  IN AAAA 2620:0:861:3:208:80:154:76 ; VM on ganeti01.svc.eqiad.wmnet
 mx2001          1H  IN A    208.80.153.45 ; VM on ganeti01.svc.codfw.wmnet
 mx2001          1H  IN AAAA 2620:0:860:2:208:80:153:45 ; VM on ganeti01.svc.codfw.wmnet
-nescio          1H  IN A    91.198.174.106
-nescio          1H  IN AAAA 2620:0:862:1:91:198:174:106
 netbox1001      1H  IN A    208.80.154.12               ; VM on ganeti01.svc.eqiad.wmnet
 netbox1001      1H  IN AAAA 2620:0:861:1:208:80:154:12 ; VM on ganeti01.svc.eqiad.wmnet
 netbox2001      1H  IN A    208.80.153.12               ; VM on ganeti01.svc.codfw.wmnet
@@ -317,7 +313,7 @@ ntp.ulsfo           1H  IN CNAME dns4001
 ntp.codfw           1H  IN CNAME dns2001
 
 ;;; esams
-ntp.esams           1H  IN CNAME maerlant
+ntp.esams           1H  IN CNAME dns3001
 
 ;;; eqsin
 ntp.eqsin           1H  IN CNAME dns5001
