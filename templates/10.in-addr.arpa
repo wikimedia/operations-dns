@@ -194,7 +194,6 @@ $ORIGIN 0.21.@Z
 
 112 1H  IN PTR  eeden.mgmt.esams.wmnet.
 
-115 1H  IN PTR  bast3001.mgmt.esams.wmnet.
 117 1H  IN PTR  re0.cr2-esams.mgmt.esams.wmnet.
 118 1H  IN PTR  re1.cr2-esams.mgmt.esams.wmnet.
 119 1H  IN PTR  re0.cr3-esams.mgmt.esams.wmnet.
