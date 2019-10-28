@@ -934,7 +934,7 @@ $ORIGIN 36.64.@Z
 116     1H IN PTR       analytics-tool1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 117     1H IN PTR       an-tool1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 118     1H IN PTR       an-tool1007.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
+119     1H IN PTR       an-airflow1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 128     1H IN PTR       analytics1028.eqiad.wmnet.
 129     1H IN PTR       analytics1029.eqiad.wmnet.
 130     1H IN PTR       analytics1030.eqiad.wmnet.
