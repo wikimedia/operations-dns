@@ -3728,7 +3728,7 @@ $ORIGIN 48.192.@Z
 61  1H IN PTR   ms-be2025.codfw.wmnet.
 62  1H IN PTR   ms-be2026.codfw.wmnet.
 63  1H IN PTR   ms-be2027.codfw.wmnet.
-64  1H IN PTR   wezen.codfw.wmnet.
+64  1H IN PTR   centrallog2001.codfw.wmnet.
 65  1H IN PTR   wdqs2002.codfw.wmnet.
 66  1H IN PTR   puppetmaster2002.codfw.wmnet.
 67  1H IN PTR   restbase2012.codfw.wmnet.
@@ -4142,8 +4142,9 @@ $ORIGIN 1.193.@Z
 142 1H IN PTR  wmf6459.mgmt.codfw.wmnet.
 143 1H IN PTR  ms-be2027.mgmt.codfw.wmnet.
 143 1H IN PTR  wmf6460.mgmt.codfw.wmnet.
-144 1H IN PTR  wezen.mgmt.codfw.wmnet.
-144 1H IN PTR  wmf6461.mgmt.codfw.wmnet.
+144 1H IN PTR  wezen.mgmt.codfw.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+144 1H IN PTR  centrallog2001.mgmt.codfw.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+144 1H IN PTR  wmf6461.mgmt.codfw.wmnet. ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
 145 1H IN PTR  wdqs2001.mgmt.codfw.wmnet.
 145 1H IN PTR  wmf6462.mgmt.codfw.wmnet.
 146 1H IN PTR  wdqs2002.mgmt.codfw.wmnet.

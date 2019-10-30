@@ -3496,7 +3496,7 @@ thumbor2003     1H  IN A    10.192.16.58
 thumbor2004     1H  IN A    10.192.16.59
 vega            1H  IN A    10.192.16.121 ; VM on ganeti01.svc.codfw.wmnet
 vega            1H  IN AAAA 2620:0:860:102:10:192:16:121 ; VM on ganeti01.svc.codfw.wmnet
-wezen           1H  IN A    10.192.48.64
+centrallog2001  1H  IN A    10.192.48.64
 webperf2001     5M  IN A    10.192.0.96 ; VM on ganeti01.svc.codfw.wmnet
 webperf2001     5M  IN AAAA 2620:0:860:101:10:192:0:96 ; VM on ganeti01.svc.codfw.wmnet
 webperf2002     1H  IN A    10.192.0.100 ; VM on ganeti01.svc.codfw.wmnet
