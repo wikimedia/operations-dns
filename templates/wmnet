@@ -4889,7 +4889,6 @@ $ORIGIN mgmt.esams.wmnet.
 asw2-esams     1H  IN A        10.21.0.8
 asw-esams      1H  IN A        10.21.0.104
 csw2-esams     1H  IN A        10.21.0.105
-bast3003       1H  IN A        10.21.0.109
 mr1-esams      1H  IN A        10.21.0.1
 ps1-oe14-esams 1H  IN A        10.21.0.16
 ps1-oe15-esams 1H  IN A        10.21.0.17
