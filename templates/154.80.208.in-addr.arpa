@@ -58,7 +58,7 @@
 
 79  1H  IN PTR  seaborgium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 80  1H  IN PTR  aluminium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-81  1H  IN PTR  cobalt.wikimedia.org.
+
 82  1H  IN PTR  dbmonitor1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 83  1H  IN PTR  cloudelastic1003.wikimedia.org.
 84  1H  IN PTR  icinga1001.wikimedia.org.
