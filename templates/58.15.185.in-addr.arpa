@@ -1,11 +1,6 @@
 ; vim: set expandtab:smarttab
-@                       1D      IN SOA  ns0.wikimedia.org.       hostmaster.wikimedia.org.        (
-                                        {{ serial }}
-                                        12H             ; refresh
-                                        2H              ; retry
-                                        2W              ; expiry
-                                        1H              ; negative cache TTL
-                                        )
+; {{ serial_comment }}
+@ 1D IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. {{ serial_num }} 12H 2H 2W 1H
 
 ; Name servers
 

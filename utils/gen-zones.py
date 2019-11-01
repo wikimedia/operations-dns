@@ -56,18 +56,21 @@ def make_serial(repo, template_env, tmpl_name, zname):
     try:
         commit = next(repo.iter_commits(max_count=1, paths=flist_prefixed))
         sernum = time.strftime('%Y%m%d%H', time.gmtime(commit.committed_date))
-        return '%s ; %s %s' % (sernum,
-                               str(commit)[:8],
-                               str(commit.message).splitlines()[0])
+        return sernum, '%s %s %s' % (sernum,
+                                     str(commit)[:8],
+                                     str(commit.message).splitlines()[0])
     except StopIteration:
-        return '12345 ; Unknown/uncommitted'
+        return 12345, 'Unknown/uncommitted'
 
 
 def process_tmpl(zname, template_path, repo, template_env, zone_dir):
     """Process a template file from the templates directory"""
     template = template_env.get_template(template_path.name)
+    serial_num, serial_comment = make_serial(repo, template_env,
+                                             template_path.name, zname)
     output = template.render({
-        "serial": make_serial(repo, template_env, template_path.name, zname)
+        "serial_num": serial_num,
+        "serial_comment": serial_comment,
     })
     if zone_dir:
         Path(zone_dir, zname).write_text(HEADER + output + "\n")
