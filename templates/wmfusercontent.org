@@ -16,10 +16,10 @@
 ; Mail exchangers
 
 ; SPF txt and rr records (no email)
-            600 IN TXT  "v=spf1 -all"
+@           600 IN TXT  "v=spf1 -all"
 
 ; Canonical names
-            600 IN DYNA geoip!text-addrs
+@           600 IN DYNA geoip!text-addrs
 
 ; CAA records
 @           600 IN CAA 0 issue "globalsign.com"

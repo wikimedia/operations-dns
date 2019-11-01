@@ -15,15 +15,15 @@
 
 ; Mail exchangers
 
-            1H  IN MX   10  mx1001.wikimedia.org.
-            1H  IN MX   50  mx2001.wikimedia.org.
+@           1H  IN MX   10  mx1001.wikimedia.org.
+@           1H  IN MX   50  mx2001.wikimedia.org.
 
 
 ; Canonical names
-            600 IN DYNA geoip!text-addrs
+@           600 IN DYNA geoip!text-addrs
 
 ; Google Webmaster Tools verification record for search management
-            600 IN TXT  "google-site-verification=Y0vY1BF6Bd2LYYcu-Tr3oCZVCdqVJoEX2Eyz4g2VKCw"
+@           600 IN TXT  "google-site-verification=Y0vY1BF6Bd2LYYcu-Tr3oCZVCdqVJoEX2Eyz4g2VKCw"
 
 ; SPF records
 @           600 IN TXT  "v=spf1 include:wikimedia.org ~all"
