@@ -545,7 +545,6 @@ class ZonesValidator:
         # Parsing temprorary variables
         self.origin = None
         self.zone = None
-        self.previous_full_line = None
 
         # Data structures to save parsed data
         self.names = {'IP': defaultdict(lambda: defaultdict(PrintList)),
@@ -600,11 +599,12 @@ class ZonesValidator:
             with open(zonefile, 'r') as f:
                 for lineno, line in enumerate(f.readlines(), start=1):
                     self._process_line(line, lineno)
-                    if not line.startswith(' '):
-                        self.previous_full_line = line
 
     def _process_line(self, line, lineno):
         """Process a zone file line."""
+        if line.startswith(' '):
+            raise ZoneParseError('Illegal leading whitespace', self.zone, lineno, line)
+
         stripped_line = line.strip()
         if not line or not stripped_line or line[0] == ';' or stripped_line[0] == ';':
             return  # Empty line or comment
@@ -622,12 +622,7 @@ class ZonesValidator:
             return
 
         elif ' IN A ' in line or ' IN AAAA ' in line:
-            if line.startswith(' '):
-                name = self.previous_full_line.split()[0]  # Name from previous_full_line
-                _, _, record_type, ip, *comments = line.split(None, 4)
-            else:
-                name, _, _, record_type, ip, *comments = line.split(None, 5)
-
+            name, _, _, record_type, ip, *comments = line.split(None, 5)
             if name[-1] == '.':
                 raise ZoneParseError('Unsupported fully qualified name', self.zone, lineno, line)
 
