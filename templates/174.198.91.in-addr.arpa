@@ -9,9 +9,9 @@
 
 ; Name servers
 
-                        1D      IN NS   ns0.wikimedia.org.
-                        1D      IN NS   ns1.wikimedia.org.
-                        1D      IN NS   ns2.wikimedia.org.
+@                       1D      IN NS   ns0.wikimedia.org.
+@                       1D      IN NS   ns1.wikimedia.org.
+@                       1D      IN NS   ns2.wikimedia.org.
 
 ; 91.198.174.0/25 public1-esams (91.198.174.0 - 91.198.174.127)
 1   1H IN PTR   vrrp-gw-100.esams.wikimedia.org.

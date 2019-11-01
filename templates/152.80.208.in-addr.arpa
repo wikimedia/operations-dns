@@ -9,9 +9,9 @@
 
 ; Name servers
 
-                        1D      IN NS   ns0.wikimedia.org.
-                        1D      IN NS   ns1.wikimedia.org.
-                        1D      IN NS   ns2.wikimedia.org.
+@                       1D      IN NS   ns0.wikimedia.org.
+@                       1D      IN NS   ns1.wikimedia.org.
+@                       1D      IN NS   ns2.wikimedia.org.
 
 ; 208.80.152.224/28 frack-codfw (208.80.152.224 - 208.80.152.239)
 228 1H IN PTR   payments-codfw.wikimedia.org.

@@ -9,9 +9,9 @@
 
 ; Name servers
 
-                        1D      IN NS   ns0.wikimedia.org.
-                        1D      IN NS   ns1.wikimedia.org.
-                        1D      IN NS   ns2.wikimedia.org.
+@                       1D      IN NS   ns0.wikimedia.org.
+@                       1D      IN NS   ns1.wikimedia.org.
+@                       1D      IN NS   ns2.wikimedia.org.
 
 ; codfw public subnets (2620:0:860:0::/56)
 

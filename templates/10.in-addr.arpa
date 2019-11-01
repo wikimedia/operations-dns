@@ -9,9 +9,9 @@
 
 
 ; Nameservers
-            1D  IN NS       ns0.wikimedia.org.
-            1D  IN NS       ns1.wikimedia.org.
-            1D  IN NS       ns2.wikimedia.org.
+@           1D  IN NS       ns0.wikimedia.org.
+@           1D  IN NS       ns1.wikimedia.org.
+@           1D  IN NS       ns2.wikimedia.org.
 
 ; 10.2.1.0/24 - codfw LVS low-traffic (internal) services
 $ORIGIN 1.2.@Z

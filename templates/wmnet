@@ -7,9 +7,9 @@
                                         1H              ; negative cache TTL
                                         )
 
-            1D  IN NS       ns0.wikimedia.org.
-            1D  IN NS       ns1.wikimedia.org.
-            1D  IN NS       ns2.wikimedia.org.
+@           1D  IN NS       ns0.wikimedia.org.
+@           1D  IN NS       ns1.wikimedia.org.
+@           1D  IN NS       ns2.wikimedia.org.
 
 
 ; CROSS-COLO FUNDRAISING SERVICE ALIASES

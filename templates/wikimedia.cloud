@@ -7,21 +7,19 @@
                     )
 
 ; Name servers
-            1D  IN NS   ns0.wikimedia.org.
-            1D  IN NS   ns1.wikimedia.org.
-            1D  IN NS   ns2.wikimedia.org.
+@           1D  IN NS   ns0.wikimedia.org.
+@           1D  IN NS   ns1.wikimedia.org.
+@           1D  IN NS   ns2.wikimedia.org.
 
 ;
 ; delegation to designate in openstack eqiad1 region
 ;
-$ORIGIN eqiad1.wikimedia.cloud.
-@           1D  IN NS   cloud-ns0.wikimedia.org.
-            1D  IN NS   cloud-ns1.wikimedia.org.
+eqiad1      1D  IN NS   cloud-ns0.wikimedia.org.
+eqiad1      1D  IN NS   cloud-ns1.wikimedia.org.
 
 ;
 ; delegation to designate in openstack codfw1dev region
 ;
 ; TODO desginate in codfw1dev doesn't have public IP yet?
-;$ORIGIN codfw1dev.wikimedia.cloud.
-;@           1D  IN NS   cloud-ns0.wikimedia.org.
-;            1D  IN NS   cloud-ns1.wikimedia.org.
+;codfw1dev  1D  IN NS   cloud-ns0.wikimedia.org.
+;codfw1dev  1D  IN NS   cloud-ns1.wikimedia.org.
