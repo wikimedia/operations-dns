@@ -3281,7 +3281,6 @@ $ORIGIN 16.192.@Z
 7   1H IN PTR   mw2261.codfw.wmnet.
 8   1H IN PTR   kafka-main2002.codfw.wmnet.
 9   1H IN PTR   dbproxy2002.codfw.wmnet.
-10  1H IN PTR   cloudbackup2002.codfw.wmnet.
 11  1H IN PTR   mw2262.codfw.wmnet.
 12  1H IN PTR   db2123.codfw.wmnet.
 13  1H IN PTR   ms-be2031.codfw.wmnet.
@@ -3653,6 +3652,7 @@ $ORIGIN 32.192.@Z
 183 1H IN PTR   db2127.codfw.wmnet.
 184 1H IN PTR   ms-be2054.codfw.wmnet.
 185 1H IN PTR   ms-be2055.codfw.wmnet.
+186 1H IN PTR   cloudbackup2002.codfw.wmnet.
 
 $ORIGIN 33.192.@Z
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
