@@ -363,14 +363,14 @@ $ORIGIN 8.0.1.0.@Z
 6.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   thorium.eqiad.wmnet.
 
 
-; labs-support1-a-eqiad (2620:0:861:117::/64)
+; cloud-support1-a-eqiad (2620:0:861:117::/64)
 $ORIGIN 7.1.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1117.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1117.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1117.cr2-eqiad.wikimedia.org.
 5.1.0.0.4.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   labmon1002.eqiad.wmnet.
 
-; labs-hosts1-b-eqiad (2620:0:861:118::/64)
+; cloud-hosts1-b-eqiad (2620:0:861:118::/64)
 $ORIGIN 8.1.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1118.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1118.cr1-eqiad.wikimedia.org.
@@ -380,7 +380,7 @@ $ORIGIN 8.1.1.0.@Z
 0.4.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirt1021.eqiad.wmnet.
 1.4.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirt1022.eqiad.wmnet.
 
-; labs-support1-c-eqiad (2620:0:861:119::/64)
+; cloud-support1-c-eqiad (2620:0:861:119::/64)
 $ORIGIN 9.1.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1119.wikimedia.org.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1119.cr1-eqiad.wikimedia.org.

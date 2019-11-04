@@ -180,13 +180,13 @@ $ORIGIN 4.0.1.0.@Z
 5.3.1.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   krb2001.codfw.wmnet.
 6.1.1.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   backup2001.codfw.wmnet.
 
-; labs-hosts1-a-codfw (2620:0:860:117::/64) - RESERVED
+; cloud-hosts1-a-codfw (2620:0:860:117::/64) - RESERVED
 $ORIGIN 7.1.1.0.@Z
 
-; labs-support1-a-codfw (2620:0:860:121::/64) - RESERVED
+; cloud-support1-a-codfw (2620:0:860:121::/64) - RESERVED
 $ORIGIN 1.2.1.0.@Z
 
-; labs-hosts1-b-codfw (2620:0:860:118::/64)
+; cloud-hosts1-b-codfw (2620:0:860:118::/64)
 $ORIGIN 8.1.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2118.codfw.wmnet.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2118.cr1-codfw.wikimedia.org.
@@ -194,22 +194,22 @@ $ORIGIN 8.1.1.0.@Z
 1.1.0.0.0.2.0.0.2.9.1.0.0.1.0.0 1H IN PTR   clouddb2001-dev.codfw.wmnet.
 
 
-; labs-support1-b-codfw (2620:0:860:122::/64)
+; cloud-support1-b-codfw (2620:0:860:122::/64)
 $ORIGIN 2.2.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-2122.codfw.wmnet.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2122.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2122.cr2-codfw.wikimedia.org.
 
-; labs-hosts1-c-codfw (2620:0:860:119::/64) - RESERVED
+; cloud-hosts1-c-codfw (2620:0:860:119::/64) - RESERVED
 $ORIGIN 9.1.1.0.@Z
 
-; labs-support1-c-codfw (2620:0:860:123::/64) - RESERVED
+; cloud-support1-c-codfw (2620:0:860:123::/64) - RESERVED
 $ORIGIN 3.2.1.0.@Z
 
-; labs-hosts1-c-codfw (2620:0:860:120::/64) - RESERVED
+; cloud-hosts1-c-codfw (2620:0:860:120::/64) - RESERVED
 $ORIGIN 0.2.1.0.@Z
 
-; labs-support1-a-codfw (2620:0:860:124::/64) - RESERVED
+; cloud-support1-a-codfw (2620:0:860:124::/64) - RESERVED
 $ORIGIN 4.2.1.0.@Z
 
 ; codfw sandbox subnets (2620:0:860:200::/56)
