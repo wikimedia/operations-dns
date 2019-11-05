@@ -2676,20 +2676,17 @@ $ORIGIN 6.65.@Z
 61      1H IN PTR       db1061.mgmt.eqiad.wmnet.
 62      1H IN PTR       wmf4530.mgmt.eqiad.wmnet.
 62      1H IN PTR       db1062.mgmt.eqiad.wmnet.
-63      1H IN PTR       wmf4531.mgmt.eqiad.wmnet.
-63      1H IN PTR       db1063.mgmt.eqiad.wmnet.
+
 64      1H IN PTR       wmf4532.mgmt.eqiad.wmnet.
 64      1H IN PTR       dbstore1001.mgmt.eqiad.wmnet.
 65      1H IN PTR       wmf4533.mgmt.eqiad.wmnet.
 65      1H IN PTR       dbstore1002.mgmt.eqiad.wmnet.
-66      1H IN PTR       db1064.mgmt.eqiad.wmnet.
-67      1H IN PTR       db1065.mgmt.eqiad.wmnet.
+
 68      1H IN PTR       db1066.mgmt.eqiad.wmnet.
 69      1H IN PTR       db1067.mgmt.eqiad.wmnet.
-70      1H IN PTR       db1068.mgmt.eqiad.wmnet.
+
 71      1H IN PTR       db1069.mgmt.eqiad.wmnet.
-72      1H IN PTR       db1070.mgmt.eqiad.wmnet.
-73      1H IN PTR       db1071.mgmt.eqiad.wmnet.
+
 74      1H IN PTR       db1072.mgmt.eqiad.wmnet.
 75      1H IN PTR       db1073.mgmt.eqiad.wmnet.
 77      1H IN PTR       wmf4737.mgmt.eqiad.wmnet.
