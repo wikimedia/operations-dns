@@ -1726,8 +1726,7 @@ $ORIGIN 2.65.@Z
 106 1H  IN PTR      mw1256.mgmt.eqiad.wmnet.
 107 1H  IN PTR      mw1257.mgmt.eqiad.wmnet.
 108 1H  IN PTR      mw1258.mgmt.eqiad.wmnet.
-109 1H  IN PTR      wmf4656.mgmt.eqiad.wmnet.
-109 1H  IN PTR      graphite1003.mgmt.eqiad.wmnet.
+
 110 1H  IN PTR      wmf4657.mgmt.eqiad.wmnet.
 110 1H  IN PTR      relforge1001.mgmt.eqiad.wmnet.
 111 1H  IN PTR      wmf4658.mgmt.eqiad.wmnet.
@@ -2695,8 +2694,6 @@ $ORIGIN 6.65.@Z
 73      1H IN PTR       db1071.mgmt.eqiad.wmnet.
 74      1H IN PTR       db1072.mgmt.eqiad.wmnet.
 75      1H IN PTR       db1073.mgmt.eqiad.wmnet.
-76      1H IN PTR       graphite1001.mgmt.eqiad.wmnet.
-76      1H IN PTR       wmf4654.mgmt.eqiad.wmnet.
 77      1H IN PTR       wmf4737.mgmt.eqiad.wmnet.
 77      1H IN PTR       db1074.mgmt.eqiad.wmnet.
 78      1H IN PTR       wmf4738.mgmt.eqiad.wmnet.
