@@ -2627,8 +2627,6 @@ $ORIGIN 5.65.@Z
 197 1H  IN PTR      einsteinium.mgmt.eqiad.wmnet.
 198 1H  IN PTR      wmf4568.mgmt.eqiad.wmnet.
 198 1H  IN PTR      lead.mgmt.eqiad.wmnet.
-199 1H  IN PTR      wmf4569.mgmt.eqiad.wmnet.
-199 1H  IN PTR      radon.mgmt.eqiad.wmnet.
 201 1H  IN PTR      wmf4571.mgmt.eqiad.wmnet.
 201 1H  IN PTR      polonium.mgmt.eqiad.wmnet.
 202 1H  IN PTR      wmf4572.mgmt.eqiad.wmnet.
