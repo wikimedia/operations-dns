@@ -870,6 +870,7 @@ tor-eqiad-1      5M  IN CNAME    torrelay1001
 mirrors          1H  IN CNAME    sodium
 yarn             1D IN CNAME dyna.wikimedia.org.
 turnilo          1D IN CNAME dyna.wikimedia.org.
+schema           1D IN CNAME dyna.wikimedia.org.
 
 wikitech-static-iad  5M  IN A        162.209.126.221
 wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
