@@ -34,3 +34,4 @@ disc-termbox             => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-wikifeeds           => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-restrouter          => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-echostore           => { map => mock, dcmap => { mock => 192.0.2.1 } }
+disc-schema              => { map => mock, dcmap => { mock => 192.0.2.1 } }
