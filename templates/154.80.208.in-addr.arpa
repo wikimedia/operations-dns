@@ -89,6 +89,13 @@
 144 1H  IN PTR  molybdenum.wikimedia.org.
 147 1H  IN PTR  californium.wikimedia.org.
 
+148 1H  IN PTR  cloudcephmon01.wikimedia.org.
+149 1H  IN PTR  cloudcephmon02.wikimedia.org.
+150 1H  IN PTR  cloudcephmon03.wikimedia.org.
+151 1H  IN PTR  cloudcephosd01.wikimedia.org.
+152 1H  IN PTR  cloudcephosd02.wikimedia.org.
+153 1H  IN PTR  cloudcephosd03.wikimedia.org.
+
 160 1H  IN PTR  labweb1001.wikimedia.org.
 
 167 1H  IN PTR  vl1002-eth1.lvs1013.eqiad.wmnet.
