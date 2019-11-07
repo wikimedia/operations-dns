@@ -181,6 +181,7 @@
 ; - 208.80.153.224/28 (224-239) LVS high-traffic1 (Text)
 
 224 1H  IN PTR  text-lb.codfw.wikimedia.org.
+225 1H  IN PTR  test-lb.codfw.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
 
 ; wrong subnet, but not important...
 231 1D  IN PTR  ns1.wikimedia.org.

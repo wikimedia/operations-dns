@@ -157,6 +157,7 @@
 ; - 208.80.154.224/28 (224-239) LVS high-traffic1 (Text)
 
 224 1H  IN PTR  text-lb.eqiad.wikimedia.org.
+225 1H  IN PTR  test-lb.eqiad.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
 
 232 1H  IN PTR  ncredir-lb.eqiad.wikimedia.org.
 

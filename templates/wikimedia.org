@@ -323,6 +323,8 @@ ntp.eqsin           1H  IN CNAME dns5001
 ;;; eqiad
 text-lb.eqiad       1H IN A 208.80.154.224
 text-lb.eqiad       1H IN AAAA 2620:0:861:ed1a::1
+test-lb.eqiad       1H IN A 208.80.154.225 ; Temporary for limited testing in T237492 - Do not use!
+test-lb.eqiad       1H IN AAAA 2620:0:861:ed1a::2 ; Temporary for limited testing in T237492 - Do not use!
 donate-lb.eqiad     1H IN A 208.80.154.224
 donate-lb.eqiad     1H IN AAAA 2620:0:861:ed1a::1
 donate-lb.eqiad     1H IN MX 10 mx1001
@@ -356,6 +358,8 @@ cloudelastic        1H  IN AAAA 2620:0:861:ed1a::3:241
 ;;; ulsfo
 text-lb.ulsfo       1H IN A 198.35.26.96
 text-lb.ulsfo       1H IN AAAA 2620:0:863:ed1a::1
+test-lb.ulsfo       1H IN A 198.35.26.97 ; Temporary for limited testing in T237492 - Do not use!
+test-lb.ulsfo       1H IN AAAA 2620:0:863:ed1a::2 ; Temporary for limited testing in T237492 - Do not use!
 donate-lb.ulsfo     1H IN A 198.35.26.96
 donate-lb.ulsfo     1H IN AAAA 2620:0:863:ed1a::1
 donate-lb.ulsfo     1H IN MX 10    mx1001
@@ -368,6 +372,8 @@ dns-rec-lb.ulsfo    1H IN AAAA 2620:0:863:ed1a::3:fe
 ;;; eqsin
 text-lb.eqsin       1H IN A 103.102.166.224
 text-lb.eqsin       1H IN AAAA 2001:df2:e500:ed1a::1
+test-lb.eqsin       1H IN A 103.102.166.225 ; Temporary for limited testing in T237492 - Do not use!
+test-lb.eqsin       1H IN AAAA 2001:df2:e500:ed1a::2 ; Temporary for limited testing in T237492 - Do not use!
 donate-lb.eqsin     1H IN A 103.102.166.224
 donate-lb.eqsin     1H IN AAAA 2001:df2:e500:ed1a::1
 donate-lb.eqsin     1H IN MX 10    mx1001
@@ -380,6 +386,8 @@ dns-rec-lb.eqsin    1H IN AAAA 2001:df2:e500:ed1a::3:fe
 ;;; codfw
 text-lb.codfw       1H IN A 208.80.153.224
 text-lb.codfw       1H IN AAAA 2620:0:860:ed1a::1
+test-lb.codfw       1H IN A 208.80.153.225 ; Temporary for limited testing in T237492 - Do not use!
+test-lb.codfw       1H IN AAAA 2620:0:860:ed1a::2 ; Temporary for limited testing in T237492 - Do not use!
 donate-lb.codfw     1H IN A 208.80.153.224
 donate-lb.codfw     1H IN AAAA 2620:0:860:ed1a::1
 ncredir-lb.codfw    1H IN A 208.80.153.232
@@ -397,6 +405,8 @@ ldap-ro.codfw       1H  IN A    208.80.153.252
 ;;; esams
 text-lb.esams       1H IN A 91.198.174.192
 text-lb.esams       1H IN AAAA 2620:0:862:ed1a::1
+test-lb.esams       1H IN A 91.198.174.193 ; Temporary for limited testing in T237492 - Do not use!
+test-lb.esams       1H IN AAAA 2620:0:862:ed1a::2 ; Temporary for limited testing in T237492 - Do not use!
 donate-lb.esams     1H IN A 91.198.174.192
 donate-lb.esams     1H IN AAAA 2620:0:862:ed1a::1
 donate-lb.esams     1H IN MX 10    mx1001

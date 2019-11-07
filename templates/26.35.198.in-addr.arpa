@@ -33,6 +33,7 @@
 ; - 198.35.26.96/28 (96-111) -- LVS high-traffic1 (Text)
 
 96  1H IN PTR   text-lb.ulsfo.wikimedia.org.
+97  1H IN PTR   test-lb.ulsfo.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
 
 ; - 198.35.26.112/28 (112-127) -- LVS high-traffic2 (Multimedia & Misc)
 
