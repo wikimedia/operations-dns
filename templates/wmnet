@@ -1664,8 +1664,6 @@ wmf4791         1H      IN A    10.65.6.98
 db1094          1H      IN A    10.65.6.98
 wmf4532         1H      IN A    10.65.6.64
 dbstore1001     1H      IN A    10.65.6.64
-wmf4533         1H      IN A    10.65.6.65
-dbstore1002     1H      IN A    10.65.6.65
 wmf7467         1H      IN A    10.65.3.20
 dbstore1003     1H      IN A    10.65.3.20
 wmf7468         1H      IN A    10.65.3.21
@@ -2011,7 +2009,6 @@ ms-be1025   1H  IN A    10.65.4.68
 wmf6973     1H  IN A    10.65.4.68
 ms-be1026   1H  IN A    10.65.4.69
 wmf6974     1H  IN A    10.65.4.69
-ms-be1027   1H  IN A    10.65.4.70
 wmf7016     1H  IN A    10.65.4.84
 ms-be1028   1H  IN A    10.65.4.84
 wmf7017     1H  IN A    10.65.4.85
@@ -2036,7 +2033,6 @@ wmf7026     1H  IN A    10.65.4.94
 ms-be1038   1H  IN A    10.65.4.94
 wmf7027     1H  IN A    10.65.4.95
 ms-be1039   1H  IN A    10.65.4.95
-wmf6975     1H  IN A    10.65.4.70
 ms-be1040   1H  IN A    10.65.4.135
 wmf7355     1H  IN A    10.65.4.135
 ms-be1041   1H  IN A    10.65.4.136
@@ -2565,8 +2561,6 @@ logstash1012     1H  IN A    10.65.4.142
 wmf7499          1H  IN A    10.65.4.142
 wmf4540          1H  IN A    10.65.5.180
 analytics1001    1H  IN A    10.65.5.180
-wmf4541          1H  IN A    10.65.5.181
-analytics1003    1H  IN A    10.65.5.181
 wmf4544          1H  IN A    10.65.5.184
 analytics1002    1H  IN A        10.65.5.184
 wmf4545     1H  IN A        10.65.5.185

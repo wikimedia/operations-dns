@@ -2234,8 +2234,6 @@ $ORIGIN 4.65.@Z
 68  1H  IN PTR      wmf6973.mgmt.eqiad.wmnet.
 69  1H  IN PTR      ms-be1026.mgmt.eqiad.wmnet.
 69  1H  IN PTR      wmf6974.mgmt.eqiad.wmnet.
-70  1H  IN PTR      ms-be1027.mgmt.eqiad.wmnet.
-70  1H  IN PTR      wmf6975.mgmt.eqiad.wmnet.
 71  1H  IN PTR      sodium.mgmt.eqiad.wmnet.
 71  1H  IN PTR      wmf6979.mgmt.eqiad.wmnet.
 72  1H  IN PTR      pay-lvs1001.mgmt.eqiad.wmnet.
@@ -2617,8 +2615,7 @@ $ORIGIN 5.65.@Z
 
 180 1H  IN PTR      wmf4540.mgmt.eqiad.wmnet.
 180 1H  IN PTR      analytics1001.mgmt.eqiad.wmnet.
-181 1H  IN PTR      wmf4541.mgmt.eqiad.wmnet.
-181 1H  IN PTR      analytics1003.mgmt.eqiad.wmnet.
+
 182 1H  IN PTR      dumpsdata1003.mgmt.eqiad.wmnet.
 182 1H  IN PTR      wmf5269.mgmt.eqiad.wmnet.
 
@@ -2692,8 +2689,6 @@ $ORIGIN 6.65.@Z
 
 64      1H IN PTR       wmf4532.mgmt.eqiad.wmnet.
 64      1H IN PTR       dbstore1001.mgmt.eqiad.wmnet.
-65      1H IN PTR       wmf4533.mgmt.eqiad.wmnet.
-65      1H IN PTR       dbstore1002.mgmt.eqiad.wmnet.
 
 68      1H IN PTR       db1066.mgmt.eqiad.wmnet.
 69      1H IN PTR       db1067.mgmt.eqiad.wmnet.
