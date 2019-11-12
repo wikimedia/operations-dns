@@ -3199,7 +3199,6 @@ $ORIGIN 0.192.@Z
 96  1H IN PTR   webperf2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 97  1H IN PTR   kafkamon2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 98  1H IN PTR   mwdebug2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-99  1H IN PTR   db2048.codfw.wmnet.
 100 1H IN PTR   webperf2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 101 1H IN PTR   db2094.codfw.wmnet.
 102 1H IN PTR   graphite2003.codfw.wmnet.
