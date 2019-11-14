@@ -5370,6 +5370,7 @@ wikifeeds      300/10 IN DYNA geoip!disc-wikifeeds
 restrouter     300/10 IN DYNA geoip!disc-restrouter
 echostore      300/10 IN DYNA geoip!disc-echostore
 schema         300/10 IN DYNA geoip!disc-schema
+eventgate-logging-external 300/10 IN DYNA geoip!disc-eventgate-logging-external
 
 
 ; misc web services with multiple backends but without geoip
