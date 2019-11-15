@@ -742,6 +742,9 @@ ms-be1053       1H  IN A        10.64.16.130
 ms-be1054       1H  IN A        10.64.32.91
 ms-be1055       1H  IN A        10.64.48.19
 ms-be1056       1H  IN A        10.64.48.20
+ms-be1057       1H  IN A        10.64.0.116
+ms-be1058       1H  IN A        10.64.16.133
+ms-be1059       1H  IN A        10.64.48.23
 ms-fe           1H  IN A        10.2.2.27 ; LVS address for ms-fe100*
 ms-fe1005       1H  IN A        10.64.0.38
 ms-fe1006       1H  IN A        10.64.0.39
