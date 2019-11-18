@@ -330,7 +330,6 @@ backup1001       1H IN A         10.64.48.36
 backup1001       1H IN AAAA      2620:0:861:107:10:64:48:36
 boron            1H IN A         10.64.0.36 ; VM on ganeti01.svc.eqiad.wmnet
 centrallog1001   1H IN A         10.64.48.113
-centrallog2001   1H IN A         10.193.1.144
 chlorine         1H IN A         10.64.0.45 ; VM on ganeti01.svc.eqiad.wmnet
 chlorine         1H IN AAAA      2620:0:861:101:10:64:0:45 ; VM on ganeti01.svc.eqiad.wmnet
 cloudnet1003     1H IN A         10.64.20.35
@@ -3723,6 +3722,7 @@ auth2001        1H  IN A    10.193.1.22
 authdns2001     1H  IN A    10.193.1.199
 backup2001      1H  IN A    10.193.1.80
 bast2002        1H  IN A    10.193.1.207
+centrallog2001  1H  IN A    10.193.1.144
 cloudbackup2001 1H  IN A    10.193.2.231
 cloudbackup2002 1H  IN A    10.193.2.232
 cloudcontrol2001-dev        1H  IN A    10.193.2.198
