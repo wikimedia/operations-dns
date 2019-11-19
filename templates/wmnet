@@ -1109,6 +1109,7 @@ wtp1045         1H  IN A        10.64.48.163
 wtp1046         1H  IN A        10.64.48.164
 wtp1047         1H  IN A        10.64.48.165
 wtp1048         1H  IN A        10.64.48.166
+xhgui1001       1H  IN A        10.64.0.182 ; VM on ganeti01.svc.eqiad.wmnet
 
 
 ; eqiad LVS cross-vlan addresses
@@ -3527,7 +3528,7 @@ wdqs2003        1H  IN A    10.192.0.29
 wdqs2004        1H  IN A    10.192.0.20
 wdqs2005        1H  IN A    10.192.16.4
 wdqs2006        1H  IN A    10.192.48.92
-
+xhgui2001       1H  IN A    10.192.0.19 ; VM on ganeti01.svc.codfw.wmnet
 
 ; codfw LVS cross-vlan addresses
 vl2001-eth0.lvs2001         1H  IN A    208.80.153.6

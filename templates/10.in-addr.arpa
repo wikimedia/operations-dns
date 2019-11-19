@@ -385,6 +385,7 @@ $ORIGIN 0.64.@Z
 179 1H IN PTR   helium.eqiad.wmnet.
 180 1H IN PTR   pc1007.eqiad.wmnet.
 181 1H IN PTR   logstash1010.eqiad.wmnet.
+182 1H IN PTR   xhgui1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 198 1H IN PTR   dbproxy1003.eqiad.wmnet.
 199 1H IN PTR   aqs1007.eqiad.wmnet.
@@ -3126,6 +3127,7 @@ $ORIGIN 0.192.@Z
 16  1H IN PTR   db2013.codfw.wmnet.
 17  1H IN PTR   kafka-main2001.codfw.wmnet.
 18  1H IN PTR   ores2002.codfw.wmnet.
+19  1H IN PTR   xhgui2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 20  1H IN PTR   wdqs2004.codfw.wmnet.
 21  1H IN PTR   proton2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 22  1H IN PTR   ping2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
