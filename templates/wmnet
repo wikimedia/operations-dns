@@ -5387,6 +5387,7 @@ releases              300 IN CNAME releases1001.eqiad.wmnet.
 webserver-misc-static 300 IN CNAME bromine.eqiad.wmnet.
 webserver-misc-apps   300 IN CNAME miscweb1001.eqiad.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
+analytics-web         300 IN CNAME thorium.eqiad.wmnet.
 
 ; Internal Anycast addresses (10.3.0.0/24)
 
