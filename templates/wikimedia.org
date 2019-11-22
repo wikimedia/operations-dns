@@ -666,6 +666,7 @@ policy          5M  IN CAA 0 issuewild "letsencrypt.org"
 policy          5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 puppetboard      1D IN CNAME dyna.wikimedia.org.
+cas-puppetboard  1D IN CNAME dyna.wikimedia.org.
 
 releases         1D IN CNAME dyna.wikimedia.org.
 releases-jenkins 1D IN CNAME dyna.wikimedia.org.
