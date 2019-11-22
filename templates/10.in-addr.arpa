@@ -388,6 +388,8 @@ $ORIGIN 0.64.@Z
 180 1H IN PTR   pc1007.eqiad.wmnet.
 181 1H IN PTR   logstash1010.eqiad.wmnet.
 182 1H IN PTR   xhgui1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+183 1H IN PTR   logstash1023.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+184 1H IN PTR   logstash1024.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 198 1H IN PTR   dbproxy1003.eqiad.wmnet.
 199 1H IN PTR   aqs1007.eqiad.wmnet.
@@ -807,6 +809,7 @@ $ORIGIN 32.64.@Z
 93      1H IN PTR       elastic1057.eqiad.wmnet.
 94      1H IN PTR       elastic1058.eqiad.wmnet.
 95      1H IN PTR       elastic1059.eqiad.wmnet.
+96      1H IN PTR       logstash1025.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
@@ -3256,6 +3259,7 @@ $ORIGIN 0.192.@Z
 150 1H IN PTR   ms-be2052.codfw.wmnet.
 151 1H IN PTR   db2132.codfw.wmnet.
 152 1H IN PTR   db2133.codfw.wmnet.
+153 1H IN PTR   logstash2023.codfw.wmnet.    ; VM on ganeti01.svc.codfw.wmnet
 
 
 $ORIGIN 1.192.@Z
@@ -3417,6 +3421,8 @@ $ORIGIN 16.192.@Z
 142 1H IN PTR   pybal-testsvc.codfw.wmnet.  ; service IP
 143 1H IN PTR   ncredir2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 144 1H IN PTR   failoid2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+145 1H IN PTR   logstash2024.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+146 1H IN PTR   logstash2025.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 160 1H IN PTR   ms-be2018.codfw.wmnet.
 161 1H IN PTR   ms-be2019.codfw.wmnet.
