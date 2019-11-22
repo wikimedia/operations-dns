@@ -154,6 +154,7 @@ $ORIGIN 1.0.1.0.@Z
 6.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   people1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 2.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   doc1001.eqiad.wmnet.    ; VM on ganeti01.svc.eqiad.wmnet
 9.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   helium.eqiad.wmnet.
+2.8.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   xhgui1001.eqiad.wmnet.  ; VM on ganeti01.svc.eqiad.wmnet
 
 ; private1-b-eqiad (2620:0:861:102::/64)
 $ORIGIN 2.0.1.0.@Z
