@@ -777,7 +777,6 @@ $ORIGIN 32.64.@Z
 61      1H IN PTR       proton1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 62      1H IN PTR       debmonitor1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 63      1H IN PTR       wdqs1010.eqiad.wmnet.
-64      1H IN PTR       db1067.eqiad.wmnet.
 65      1H IN PTR       es1017.eqiad.wmnet.
 66      1H IN PTR       mw1329.eqiad.wmnet.
 67      1H IN PTR       cp1083.eqiad.wmnet.
