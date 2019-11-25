@@ -2801,6 +2801,7 @@ frbast1001      1H  IN A    10.64.40.216
 frdata1001      1H  IN A    10.64.40.217
 frdb1001        1H  IN A    10.64.40.197
 frdb1002        1H  IN A    10.64.40.198
+frdb1003        1H  IN A    10.64.40.219
 frdev1001       1H  IN A    10.64.40.200
 civi1001        1H  IN A    10.64.40.201
 frnetmon1001    1H  IN A    10.64.40.207
