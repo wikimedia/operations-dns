@@ -1012,6 +1012,7 @@ $ORIGIN 40.64.@Z
 97  1H IN PTR   reth0-1135.pfw3-eqiad.frack.eqiad.wmnet.
 
 99  1H IN PTR   frdb1002.frack.eqiad.wmnet.
+100 1H IN PTR   frdb1003.frack.eqiad.wmnet.
 
 109 1H IN PTR   civi1001.frack.eqiad.wmnet.
 
