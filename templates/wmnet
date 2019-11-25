@@ -591,6 +591,20 @@ ganeti1005      1H  IN A        10.64.0.245
 ganeti1006      1H  IN A        10.64.0.246
 ganeti1007      1H  IN A        10.64.0.248
 ganeti1008      1H  IN A        10.64.0.249
+ganeti1009      1H  IN A        10.64.32.97
+ganeti1010      1H  IN A        10.64.32.98
+ganeti1011      1H  IN A        10.64.32.99
+ganeti1012      1H  IN A        10.64.32.100
+ganeti1013      1H  IN A        10.64.16.134
+ganeti1014      1H  IN A        10.64.16.135
+ganeti1015      1H  IN A        10.64.16.136
+ganeti1016      1H  IN A        10.64.16.137
+ganeti1017      1H  IN A        10.64.16.138
+ganeti1018      1H  IN A        10.64.16.139
+ganeti1019      1H  IN A        10.64.48.187
+ganeti1020      1H  IN A        10.64.48.188
+ganeti1021      1H  IN A        10.64.48.189
+ganeti1022      1H  IN A        10.64.48.190
 grafana1001     1H  IN A        10.64.32.183 ; VM on ganeti01.svc.eqiad.wmnet
 grafana1002     1H  IN A        10.64.0.119 ; VM on ganeti01.svc.eqiad.wmnet
 hassium         1H  IN A        10.64.0.53 ; VM on ganeti01.svc.eqiad.wmnet
