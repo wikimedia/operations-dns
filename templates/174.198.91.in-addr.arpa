@@ -44,17 +44,11 @@
 
 216 1H IN PTR   dns-rec-lb.esams.wikimedia.org. ; not actually public!
 
-; 91.198.174.224/31 - cr2-knams <--> cr2-esams
-224     1H  IN PTR  xe-0-0-0.cr2-knams.wikimedia.org.
-225     1H  IN PTR  xe-0-1-8.cr2-esams.wikimedia.org.
-
-; 91.198.174.226/31 - cr2-knams <--> cr3-esams
-226     1H  IN PTR  xe-0-0-3.cr2-knams.wikimedia.org.
-227     1H  IN PTR  xe-0-0-4.cr3-esams.wikimedia.org.
+; 91.198.174.224/30 - UNUSED
 
 ; 91.198.174.228/31 - cr3-esams <--> cr2-knams (via asw)
 228     1H  IN PTR  ae1-401.cr3-esams.wikimedia.org.
-229     1H  IN PTR  xe-1-0-0-401.cr2-knams.wikimedia.org.
+229     1H  IN PTR  ae0-401.cr2-knams.wikimedia.org.
 
 ; 91.198.174.230/31 (230-231) UNUSED
 
@@ -95,4 +89,4 @@
 ; 91.198.174.254/31 - cr2-esams <--> cr2-knams (via asw)
 
 254 1H IN PTR   ae1-403.cr2-esams.wikimedia.org.
-255 1H IN PTR   xe-1-0-0-403.cr2-knams.wikimedia.org.
+255 1H IN PTR   ae0-403.cr2-knams.wikimedia.org.
