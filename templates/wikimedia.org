@@ -522,8 +522,8 @@ cr3-esams       1H  IN A    91.198.174.245
 cr3-esams       1H  IN AAAA 2620:0:862:ffff::5
 cr2-esams       1H  IN A    91.198.174.244
 cr2-esams       1H  IN AAAA 2620:0:862:ffff::3
-cr2-knams       1H  IN A    91.198.174.246
-cr2-knams       1H  IN AAAA 2620:0:862:ffff::4
+cr3-knams       1H  IN A    91.198.174.246
+cr3-knams       1H  IN AAAA 2620:0:862:ffff::4
 mr1-esams       1H  IN A    91.198.174.247
 mr1-esams       1H  IN AAAA 2620:0:862:ffff::1
 mr1-esams.oob   1H  IN A    164.138.24.90

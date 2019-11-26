@@ -323,10 +323,10 @@ $ORIGIN 8.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-2-12.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-3-12.cr2-eqdfw.wikimedia.org.
 
-; cr2-knams <--> cr2-eqdfw (2620:0:860:fe09::/64)
+; cr3-knams <--> cr2-eqdfw (2620:0:860:fe09::/64)
 
 $ORIGIN 9.0.e.f.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-1-1-0-23.cr2-knams.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-5-23.cr3-knams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-3-23.cr2-eqdfw.wikimedia.org.
 
 ; Loopback IPs
