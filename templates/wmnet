@@ -5376,7 +5376,7 @@ schema         300/10 IN DYNA geoip!disc-schema
 debmonitor            300 IN CNAME debmonitor1001.eqiad.wmnet.
 graphite              300 IN CNAME graphite1004.eqiad.wmnet.
 ;graphite              300 IN CNAME graphite2003.codfw.wmnet.
-maintenance           300 IN CNAME mwmaint1002.eqiad.wmnet.
+mwmaint               300 IN CNAME mwmaint1002.eqiad.wmnet.
 peopleweb             300 IN CNAME people1001.eqiad.wmnet.
 performance           300 IN CNAME webperf1001.eqiad.wmnet.
 phabricator           300 IN CNAME phab1003.eqiad.wmnet.
