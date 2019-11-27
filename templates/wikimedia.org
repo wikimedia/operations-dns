@@ -595,7 +595,7 @@ docker-registry 1D IN CNAME dyna.wikimedia.org.
 docs            1D IN CNAME dyna.wikimedia.org.
 
 ldap-corp.eqiad 1H  IN CNAME    dubnium
-ldap-corp.codfw 1H  IN CNAME    pollux
+ldap-corp.codfw 1H  IN CNAME    ldap-corp2001
 ldap-labs.eqiad 1H  IN CNAME    seaborgium
 ldap-labs.codfw 1H  IN CNAME    serpens
 
