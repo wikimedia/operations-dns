@@ -54,6 +54,7 @@ $ORIGIN 2.0.0.0.@Z
 4.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   authdns1001.wikimedia.org.
 5.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudservices1003.wikimedia.org.
 6.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit1001.wikimedia.org.
+8.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit1002.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
 8.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephmon1001.wikimedia.org.
 9.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephmon1002.wikimedia.org.
@@ -70,6 +71,7 @@ $ORIGIN 2.0.0.0.@Z
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1002.cr2-eqiad.wikimedia.org.
 
 7.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit.wikimedia.org.
+9.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit-test.wikimedia.org.
 
 ; public1-c-eqiad (2620:0:861:3::/64)
 $ORIGIN 3.0.0.0.@Z

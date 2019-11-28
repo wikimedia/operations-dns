@@ -229,6 +229,8 @@ frmon-codfw.frdev 1H  IN A    208.80.152.235
 fundraising-eqiad 1H  IN A    208.80.155.14
 gerrit1001      1H  IN A    208.80.154.136
 gerrit1001      1H  IN AAAA 2620:0:861:2:208:80:154:136
+gerrit1002      1H  IN A    208.80.154.138 ; VM on ganeti01.svc.codfw.wmnet
+gerrit1002      1H  IN AAAA 2620:0:861:2:208:80:154:138 ; VM on ganeti01.svc.eqiad.wmnet
 gerrit2001      1H  IN A    208.80.153.106
 gerrit2001      1H  IN AAAA 2620:0:860:4:208:80:153:106
 icinga1001      1H  IN A    208.80.154.84
@@ -607,6 +609,8 @@ gerrit        600 IN A        208.80.154.137
 gerrit        600 IN AAAA     2620:0:861:2:208:80:154:137
 gerrit-replica    600 IN A        208.80.153.107
 gerrit-replica    600 IN AAAA     2620:0:860:4:208:80:153:107
+gerrit-test       600 IN A        208.80.154.139
+gerrit-test       600 IN AAAA     2620:0:861:2:208:80:154:139
 git             1D IN CNAME dyna.wikimedia.org.
 graphite        1D IN CNAME dyna.wikimedia.org.
 graphite-labs   1D IN CNAME dyna.wikimedia.org.
