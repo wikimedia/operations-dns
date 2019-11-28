@@ -437,7 +437,7 @@ $ORIGIN 4.64.@Z
 
 13  1H IN PTR   relforge1001.eqiad.wmnet.
 14  1H IN PTR   labsdb1009.eqiad.wmnet.
-15  1H IN PTR   labmon1002.eqiad.wmnet.
+15  1H IN PTR   cloudmetrics1002.eqiad.wmnet.
 16  1H IN PTR   labsdb1012.eqiad.wmnet.
 
 ; 10.64.5.0/24 - analytics1-a-eqiad
@@ -2868,8 +2868,9 @@ $ORIGIN 7.65.@Z
 83      1H      IN PTR     wmf7119.mgmt.eqiad.wmnet.
 84      1H      IN PTR     druid1005.mgmt.eqiad.wmnet.
 84      1H      IN PTR     wmf7120.mgmt.eqiad.wmnet.
-85      1H      IN PTR     labmon1002.mgmt.eqiad.wmnet.
-85      1H      IN PTR     wmf7126.mgmt.eqiad.wmnet.
+85      1H      IN PTR     labmon1002.mgmt.eqiad.wmnet.        ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+85      1H      IN PTR     cloudmetrics1002.mgmt.eqiad.wmnet.  ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+85      1H      IN PTR     wmf7126.mgmt.eqiad.wmnet.           ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
 86      1H      IN PTR     druid1006.mgmt.eqiad.wmnet.
 86      1H      IN PTR     wmf7121.mgmt.eqiad.wmnet.
 87      1H      IN PTR     wdqs1006.mgmt.eqiad.wmnet.
