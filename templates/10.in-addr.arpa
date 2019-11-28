@@ -900,7 +900,6 @@ $ORIGIN 32.64.@Z
 224     1H IN PTR       ms-be1035.eqiad.wmnet.
 225     1H IN PTR       ms-be1036.eqiad.wmnet.
 
-227     1H IN PTR       db1061.eqiad.wmnet.
 229     1H IN PTR       wtp1037.eqiad.wmnet.
 230     1H IN PTR       wtp1038.eqiad.wmnet.
 231     1H IN PTR       wtp1039.eqiad.wmnet.
