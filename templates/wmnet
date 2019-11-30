@@ -1642,7 +1642,6 @@ wmf3087     1H  IN A    10.65.6.4
 wmf3086     1H  IN A    10.65.6.5
 wmf3085     1H  IN A    10.65.6.6
 wmf3084     1H  IN A    10.65.6.7
-wmf7043     1H  IN A    10.65.6.10
 auth1002    1H  IN A    10.65.6.9
 wmf7392     1H  IN A    10.65.6.9
 tungsten    1H  IN A    10.65.6.14
@@ -2389,30 +2388,9 @@ dbproxy1021     1H  IN A    10.65.2.176
 wmf5182         1H  IN A    10.65.2.176
 helium          1H  IN A    10.65.3.14
 wmf3137         1H  IN A    10.65.3.14
-pay-lvs1001     1H  IN A    10.65.4.72
-wmf6988         1H  IN A    10.65.4.72
-pay-lvs1002     1H  IN A    10.65.4.73
-wmf6989         1H  IN A    10.65.4.73
-frauth1001      1H  IN A    10.65.4.74
-wmf6990         1H  IN A    10.65.4.74
-frdb1001        1H  IN A    10.65.3.10
-frdb1002        1H  IN A    10.65.3.50
-wmf7029         1H  IN A    10.65.3.50
-frdev1001       1H  IN A    10.65.3.26
-wmf7028         1H  IN A    10.65.3.26
-civi1001        1H  IN A    10.65.5.36
-wmf7010         1H  IN A    10.65.5.36
-frpm1001        1H  IN A    10.65.3.5
-wmf7041         1H  IN A    10.65.3.5
-frqueue1001     1H  IN A    10.65.3.23
-frqueue1002     1H  IN A    10.65.3.24
 wmf3139         1H  IN A    10.65.3.12
 oxygen          1H  IN A    10.65.3.9
 wmf3142         1H  IN A    10.65.3.9
-americium       1H  IN A    10.65.3.225
-wmf4594         1H  IN A    10.65.3.225
-bismuth         1H  IN A    10.65.3.226
-wmf4570         1H  IN A    10.65.3.226
 wmf3147         1H  IN A    10.65.3.4
 authdns1001     1H  IN A    10.65.3.6
 wmf7390         1H  IN A    10.65.3.6
@@ -2492,14 +2470,6 @@ ruthenium       1H  IN A    10.65.3.56
 wmf3431         1H  IN A    10.65.3.56
 rhodium         1H  IN A    10.65.3.57
 wmf3432         1H  IN A    10.65.3.57
-payments1001    1H  IN A    10.65.3.55
-wmf6951         1H  IN A    10.65.3.55
-payments1002    1H  IN A    10.65.3.47
-wmf6950         1H  IN A    10.65.3.47
-payments1003    1H  IN A    10.65.3.54
-wmf6949         1H  IN A    10.65.3.54
-payments1004    1H  IN A    10.65.3.46
-wmf6948         1H  IN A    10.65.3.46
 wmf4083     1H  IN A    10.65.3.128
 wtp1025     1H  IN A    10.65.5.38
 wmf7044     1H  IN A    10.65.5.38
@@ -2811,31 +2781,53 @@ payments1005    1H      IN A    10.64.40.9
 $ORIGIN mgmt.frack.eqiad.wmnet.
 pfw3-eqiad      1H  IN A    10.64.40.193
 pay-lvs1001     1H  IN A    10.64.40.194
+wmf6988         1H  IN A    10.64.40.194
 pay-lvs1002     1H  IN A    10.64.40.195
+wmf6989         1H  IN A    10.64.40.195
 frauth1001      1H  IN A    10.64.40.196
+wmf6990         1H  IN A    10.64.40.196
 frban1001       1H  IN A    10.64.40.212
 frbast1001      1H  IN A    10.64.40.216
+wmf7291         1H  IN A    10.64.40.216
 frdata1001      1H  IN A    10.64.40.217
+wmf7292         1H  IN A    10.64.40.217
 frdb1001        1H  IN A    10.64.40.197
+wmf4796         1H  IN A    10.64.40.197
 frdb1002        1H  IN A    10.64.40.198
+wmf7029         1H  IN A    10.64.40.198
 frdb1003        1H  IN A    10.64.40.219
 frdev1001       1H  IN A    10.64.40.200
+wmf7028         1H  IN A    10.64.40.200
 civi1001        1H  IN A    10.64.40.201
+wmf7010         1H  IN A    10.64.40.201
 frnetmon1001    1H  IN A    10.64.40.207
 frmon1001       1H  IN A    10.64.40.215
+wmf7311         1H  IN A    10.64.40.215
 frpig1001       1H  IN A    10.64.40.218
+wmf7293         1H  IN A    10.64.40.218
 frpm1001        1H  IN A    10.64.40.202
+wmf7041         1H  IN A    10.64.40.202
 frqueue1001     1H  IN A    10.64.40.203
+wmf6946         1H  IN A    10.64.40.203
 frqueue1002     1H  IN A    10.64.40.204
+wmf6947         1H  IN A    10.64.40.204
 americium       1H  IN A    10.64.40.205
+wmf4594         1H  IN A    10.64.40.205
 bismuth         1H  IN A    10.64.40.206
+wmf4570         1H  IN A    10.64.40.206
 payments1001    1H  IN A    10.64.40.208
+wmf6951         1H  IN A    10.64.40.208
 payments1002    1H  IN A    10.64.40.209
+wmf6950         1H  IN A    10.64.40.209
 payments1003    1H  IN A    10.64.40.210
+wmf6949         1H  IN A    10.64.40.210
 payments1004    1H  IN A    10.64.40.211
+wmf6948         1H  IN A    10.64.40.211
 frav1002        1H  IN A    10.64.40.213
+wmf5163         1H  IN A    10.64.40.213
 frlog1001       1H  IN A    10.64.40.214
-
+wmf3083         1H  IN A    10.64.40.199
+wmf7043         1H  IN A    10.64.40.214
 
 ; EQIAD analytics cluster
 
@@ -3684,23 +3676,38 @@ rkhunter.heka       1H  IN CNAME heka
 ; CODFW fundraising/payments management
 $ORIGIN mgmt.frack.codfw.wmnet.
 alnitak             1H  IN A    10.195.0.108
+wmf6151             1H  IN A    10.195.0.108
 bellatrix           1H  IN A    10.195.0.109
+wmf6152             1H  IN A    10.195.0.109
 frauth2001          1H  IN A    10.195.0.115
+wmf6652             1H  IN A    10.195.0.115
 frbackup2001        1H  IN A    10.195.0.112
+wmf6555             1H  IN A    10.195.0.112
 frban2001           1H  IN A    10.195.0.117
 frbast2001          1H  IN A    10.195.0.113
+wmf6637             1H  IN A    10.195.0.113
 frdb2001            1H  IN A    10.195.0.110
+wmf6117             1H  IN A    10.195.0.110
 frdb2002            1H  IN A    10.195.0.105
 frmon2001           1H  IN A    10.195.0.114
+wmf6638             1H  IN A    10.195.0.114
 frqueue2001         1H  IN A    10.195.0.116
 heka                1H  IN A    10.195.0.103
+wmf6146             1H  IN A    10.195.0.103
 mintaka             1H  IN A    10.195.0.107
+wmf6150             1H  IN A    10.195.0.107
 pay-lvs2001         1H  IN A    10.195.0.101
+wmf6144             1H  IN A    10.195.0.101
 pay-lvs2002         1H  IN A    10.195.0.102
+wmf6149             1H  IN A    10.195.0.102
 payments2001        1H  IN A    10.195.0.98
+wmf6141             1H  IN A    10.195.0.98
 payments2002        1H  IN A    10.195.0.99
+wmf6143             1H  IN A    10.195.0.99
 payments2003        1H  IN A    10.195.0.100
+wmf6142             1H  IN A    10.195.0.100
 frpig2001           1H  IN A    10.195.0.104
+wmf6147             1H  IN A    10.195.0.104
 saiph               1H  IN CNAME frpig2001
 
 ; CODFW management
