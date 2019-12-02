@@ -18,7 +18,7 @@ fundraisingdb-read  5M  IN CNAME    frdb1001.frack.eqiad.wmnet.
 $ORIGIN eqiad.wmnet.
 
 ; Service aliases
-; Used by syslog over UDP (e.g. network devices, PDUs)
+; Used by syslog over UDP (eg network devices, PDUs)
 syslog          1H  IN CNAME    syslog.anycast.wmnet.
 webproxy        5M  IN CNAME    install1002.wikimedia.org.
 graphite        5M  IN CNAME    graphite1004.eqiad.wmnet.
