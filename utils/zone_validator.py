@@ -820,7 +820,7 @@ class ZonesValidator:
             return False
 
         # Detect if it's a mgmt reverse ORIGIN by checking if there is any mgmt item
-        if any(name.split('.')[-4] == 'mgmt' for name in self.ptrs[origin].keys()):
+        if any('mgmt' in name.split('.') for name in self.ptrs[origin].keys()):
             return True
 
         return False
