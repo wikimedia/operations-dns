@@ -390,6 +390,10 @@ $ORIGIN 0.64.@Z
 182 1H IN PTR   xhgui1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 183 1H IN PTR   logstash1023.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 184 1H IN PTR   logstash1024.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+185 1H IN PTR   kubetcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+186 1H IN PTR   kubetcd1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+187 1H IN PTR   kubestagetcd1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+188 1H IN PTR   kubestagetcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 198 1H IN PTR   dbproxy1003.eqiad.wmnet.
 199 1H IN PTR   aqs1007.eqiad.wmnet.
@@ -890,6 +894,7 @@ $ORIGIN 32.64.@Z
 212     1H IN PTR       mc1032.eqiad.wmnet.
 213     1H IN PTR       etcd1001.eqiad.wmnet.  ; VM on ganeti01.svc.eqiad.wmnet
 214     1H IN PTR       puppetdb1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+215     1H IN PTR       kubetcd1004.eqiad.wmnet.  ; VM on ganeti01.svc.eqiad.wmnet
 
 218     1H IN PTR       etcd1006.eqiad.wmnet.   ; VM on ganeti01.svc.eqiad.wmnet
 
@@ -899,6 +904,7 @@ $ORIGIN 32.64.@Z
 223     1H IN PTR       ms-be1034.eqiad.wmnet.
 224     1H IN PTR       ms-be1035.eqiad.wmnet.
 225     1H IN PTR       ms-be1036.eqiad.wmnet.
+226     1H IN PTR       kubestagetcd1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 229     1H IN PTR       wtp1037.eqiad.wmnet.
 230     1H IN PTR       wtp1038.eqiad.wmnet.
@@ -3268,6 +3274,8 @@ $ORIGIN 0.192.@Z
 151 1H IN PTR   db2132.codfw.wmnet.
 152 1H IN PTR   db2133.codfw.wmnet.
 153 1H IN PTR   logstash2023.codfw.wmnet.    ; VM on ganeti01.svc.codfw.wmnet
+154 1H IN PTR   kubetcd2004.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+155 1H IN PTR   kubetcd2005.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 
 $ORIGIN 1.192.@Z
@@ -3414,9 +3422,8 @@ $ORIGIN 16.192.@Z
 128 1H IN PTR   ganeti2004.codfw.wmnet.
 129 1H IN PTR   poolcounter2004.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 130 1H IN PTR   orespoolcounter2004.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-
 131 1H IN PTR   ganeti01.svc.codfw.wmnet.
-
+132 1H IN PTR   kubetcd2006.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 133 1H IN PTR   cp2007.codfw.wmnet.
 134 1H IN PTR   cp2008.codfw.wmnet.
 135 1H IN PTR   cp2009.codfw.wmnet.
