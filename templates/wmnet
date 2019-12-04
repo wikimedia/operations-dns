@@ -3642,6 +3642,7 @@ frauth2001          1H  IN A    10.195.0.78
 frban2001           1H  IN A    10.195.0.40
 frbast2001          1H  IN A    10.195.0.130
 frdb2001            1H  IN A    10.195.0.34
+frdb2002            1H  IN A    10.195.0.41
 frmon2001           1H  IN A    10.195.0.66
 mintaka             1H  IN A    10.195.0.36
 alnitak             1H  IN A    10.195.0.38
@@ -3663,6 +3664,7 @@ frbackup2001        1H  IN A    10.195.0.112
 frban2001           1H  IN A    10.195.0.117
 frbast2001          1H  IN A    10.195.0.113
 frdb2001            1H  IN A    10.195.0.110
+frdb2002            1H  IN A    10.195.0.105
 frmon2001           1H  IN A    10.195.0.114
 frqueue2001         1H  IN A    10.195.0.116
 heka                1H  IN A    10.195.0.103

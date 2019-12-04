@@ -5021,6 +5021,7 @@ $ORIGIN 0.195.@Z
 38 1H IN PTR  alnitak.frack.codfw.wmnet.
 39 1H IN PTR  frqueue2001.frack.codfw.wmnet.
 40 1H IN PTR  frban2001.frack.codfw.wmnet.
+41 1H IN PTR  frdb2002.frack.codfw.wmnet.
 
 ; 10.195.0.64/28 - frack-administration-codfw
 65 1H IN PTR  reth0-2134.pfw3-codfw.frack.codfw.wmnet.
@@ -5046,6 +5047,7 @@ $ORIGIN 0.195.@Z
 102 1H IN PTR  pay-lvs2002.mgmt.frack.codfw.wmnet.
 103 1H IN PTR  heka.mgmt.frack.codfw.wmnet.
 104 1H IN PTR  frpig2001.mgmt.frack.codfw.wmnet.
+105 1H IN PTR  frdb2002.mgmt.frack.codfw.wmnet.
 
 107 1H IN PTR  mintaka.mgmt.frack.codfw.wmnet.
 108 1H IN PTR  alnitak.mgmt.frack.codfw.wmnet.
