@@ -175,4 +175,4 @@
 
 252 1H  IN PTR  ldap-ro.eqiad.wikimedia.org.
 
-254 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org. ; not actually public!
+;254 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org. ; To be removed in T239993

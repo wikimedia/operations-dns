@@ -72,7 +72,7 @@ b.0.0.0                         1H IN PTR   upload-lb.eqsin.wikimedia.org.
 
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
-e.f.0.0                         1H IN PTR   dns-rec-lb.eqsin.wikimedia.org.
+;e.f.0.0                         1H IN PTR   dns-rec-lb.eqsin.wikimedia.org. ; To be removed in T239993
 
 ; 2001:df2:e500:fe00::/56 - Infrastructure IPs
 

@@ -130,4 +130,4 @@ b.0.0.0                         1H IN PTR   upload-lb.ulsfo.wikimedia.org.
 
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
-e.f.0.0                         1H IN PTR   dns-rec-lb.ulsfo.wikimedia.org.
+;e.f.0.0                         1H IN PTR   dns-rec-lb.ulsfo.wikimedia.org. ; To be removed in T239993

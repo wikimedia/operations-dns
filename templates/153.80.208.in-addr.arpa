@@ -196,4 +196,4 @@
 
 252 1H  IN PTR  ldap-ro.codfw.wikimedia.org.
 
-254  1H  IN PTR dns-rec-lb.codfw.wikimedia.org. ; not actually public!
+;254  1H  IN PTR dns-rec-lb.codfw.wikimedia.org. ; To be removed in T239993
