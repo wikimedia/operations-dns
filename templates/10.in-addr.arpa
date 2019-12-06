@@ -1640,8 +1640,6 @@ $ORIGIN 1.65.@Z
 
 $ORIGIN 2.65.@Z
 
-1   1H  IN PTR      wmf3134.mgmt.eqiad.wmnet.
-1   1H  IN PTR      radium.mgmt.eqiad.wmnet.
 2   1H  IN PTR      wmf7436.mgmt.eqiad.wmnet.
 2   1H  IN PTR      stat1007.mgmt.eqiad.wmnet.
 3   1H  IN PTR      wmf3132.mgmt.eqiad.wmnet.
@@ -2713,10 +2711,6 @@ $ORIGIN 6.65.@Z
 68      1H IN PTR       db1066.mgmt.eqiad.wmnet.
 69      1H IN PTR       db1067.mgmt.eqiad.wmnet.
 
-71      1H IN PTR       db1069.mgmt.eqiad.wmnet.
-
-74      1H IN PTR       db1072.mgmt.eqiad.wmnet.
-75      1H IN PTR       db1073.mgmt.eqiad.wmnet.
 77      1H IN PTR       wmf4737.mgmt.eqiad.wmnet.
 77      1H IN PTR       db1074.mgmt.eqiad.wmnet.
 78      1H IN PTR       wmf4738.mgmt.eqiad.wmnet.
