@@ -674,8 +674,8 @@ kubernetes1005  1H  IN A        10.64.0.145 ; VM on ganeti01.svc.eqiad.wmnet
 kubernetes1005  1H  IN AAAA     2620:0:861:101:10:64:0:145 ; VM on ganeti01.svc.eqiad.wmnet
 kubernetes1006  1H  IN A        10.64.32.18 ; VM on ganeti01.svc.eqiad.wmnet
 kubernetes1006  1H  IN AAAA     2620:0:861:103:10:64:32:18 ; VM on ganeti01.svc.eqiad.wmnet
-labmon1001      1H  IN A        10.64.37.13
-labmon1001      1H  IN AAAA     2620:0:861:119:10:64:37:13
+cloudmetrics1001      1H  IN A        10.64.37.13
+cloudmetrics1001      1H  IN AAAA     2620:0:861:119:10:64:37:13
 prometheus-labmon 1H      IN CNAME  cloudmetrics1002
 cloudmetrics1002 1H  IN A        10.64.4.15
 cloudmetrics1002 1H  IN AAAA     2620:0:861:117:10:64:4:15
@@ -2639,10 +2639,11 @@ wmf4579         1H      IN A            10.65.3.209
 wmf4657         1H      IN A            10.65.2.110
 relforge1001    1H      IN A            10.65.2.110
 wmf4658         1H      IN A            10.65.2.111
-wmf4659         1H      IN A            10.65.2.112
-labmon1001      1H      IN A            10.65.2.112
-wmf7126          1H      IN A            10.65.7.85
-cloudmetrics1002 1H      IN A            10.65.7.85
+wmf4659          1H     IN A            10.65.2.112 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+labmon1001       1H     IN A            10.65.2.112 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+cloudmetrics1001 1H     IN A            10.65.2.112 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+wmf7126          1H     IN A            10.65.7.85
+cloudmetrics1002 1H     IN A            10.65.7.85
 wmf7000         1H      IN A            10.65.2.139
 prometheus1003  1H      IN A            10.65.2.139
 wmf7001         1H      IN A            10.65.2.140
