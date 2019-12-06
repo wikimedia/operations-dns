@@ -81,7 +81,6 @@ b.0.0.0                         1H IN PTR   upload-lb.esams.wikimedia.org.
 
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
-;e.f.0.0                         1H IN PTR   dns-rec-lb.esams.wikimedia.org. ; To be removed in T239993
 
 ; esams sandbox subnets (2620:0:862:200::/56)
 

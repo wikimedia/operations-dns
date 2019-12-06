@@ -459,7 +459,6 @@ $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 1.4.2.0                         1H IN PTR   cloudelastic.wikimedia.org.
 6.1.0.0                         1H IN PTR   git-ssh.eqiad.wikimedia.org.
-;e.f.0.0                         1H IN PTR   dns-rec-lb.eqiad.wikimedia.org. ; To be removed in T239993
 
 ; Neighbor blocks
 

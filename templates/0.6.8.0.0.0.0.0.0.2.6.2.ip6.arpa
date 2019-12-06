@@ -265,7 +265,6 @@ b.0.0.0                         1H IN PTR   upload-lb.codfw.wikimedia.org.
 $ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 a.f.0.0 1H IN PTR  git-ssh.codfw.wikimedia.org.
-;e.f.0.0 1H IN PTR  dns-rec-lb.codfw.wikimedia.org. ; To be removed in T239993
 
 ; Neighbor blocks
 

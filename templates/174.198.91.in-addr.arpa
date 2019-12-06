@@ -42,7 +42,6 @@
 
 208 1H IN PTR   upload-lb.esams.wikimedia.org.
 
-;216 1H IN PTR   dns-rec-lb.esams.wikimedia.org. ; To be removed in T239993
 
 ; 91.198.174.224/30 - UNUSED
 
