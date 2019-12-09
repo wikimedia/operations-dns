@@ -5226,9 +5226,6 @@ restrouter      1H  IN A        10.2.2.48
 echostore       1H  IN A        10.2.2.49
 eventgate-logging-external 1H  IN A    10.2.2.50
 
-kibana-next     1H  IN A        10.2.2.51
-logstash-next   1H  IN A        10.2.2.52
-
 ganeti01    1H  IN A        10.64.32.173
 labstore    1H  IN A        10.64.37.10
 nfs-scratch          1H  IN A        10.64.37.16
@@ -5315,8 +5312,6 @@ ganeti01        1H  IN A        10.192.16.131
 labstore        1H  IN A        10.192.21.7
 oresrdb         5M  IN A        10.192.16.31
 eventgate-logging-external 1H  IN A    10.2.1.50
-kibana-next     1H  IN A        10.2.1.51
-logstash-next   1H  IN A        10.2.1.52
 
 ; DISCOVERY SERVICES
 
@@ -5348,7 +5343,6 @@ eventstreams   300/10 IN DYNA geoip!disc-eventstreams
 graphoid       300/10 IN DYNA geoip!disc-graphoid
 kartotherian   300/10 IN DYNA geoip!disc-kartotherian
 kibana         300/10 IN DYNA metafo!disc-kibana
-kibana-next    300/10 IN DYNA metafo!disc-kibana-next
 mathoid        300/10 IN DYNA geoip!disc-mathoid
 mobileapps     300/10 IN DYNA geoip!disc-mobileapps
 ores           300/10 IN DYNA geoip!disc-ores
