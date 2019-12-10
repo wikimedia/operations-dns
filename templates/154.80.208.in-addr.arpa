@@ -54,5 +54,3 @@ $INCLUDE netbox/192-27.154.80.208.in-addr.arpa
 ; - 208.80.154.240/28 (240-255) LVS high-traffic2 (Multimedia & Misc)
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/224-27.154.80.208.in-addr.arpa
-
-;254 1H  IN PTR  dns-rec-lb.eqiad.wikimedia.org. ; To be removed in T239993
