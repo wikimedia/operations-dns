@@ -2958,7 +2958,6 @@ cumin2001       1H  IN AAAA 2620:0:860:104:10:192:48:16
 cygnus          1H  IN A    10.192.16.168 ; VM on ganeti01.svc.codfw.wmnet
 db2013          1H  IN A    10.192.0.16
 db2032          1H  IN A    10.192.16.20
-db2070          1H  IN A    10.192.32.5
 db2071          1H  IN A    10.192.0.4
 db2072          1H  IN A    10.192.16.37
 db2073          1H  IN A    10.192.32.167
