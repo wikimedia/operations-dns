@@ -112,12 +112,12 @@ _etcd-server._tcp.k8s-staging 5M  IN SRV      0 1 2380 kubestagetcd1002.eqiad.wm
 _etcd-server._tcp.k8s-staging 5M  IN SRV      0 1 2380 kubestagetcd1003.eqiad.wmnet.
 
 ; kubernetes-related records (etcdv3)
-_etcd-server._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1004.eqiad.wmnet.
-_etcd-server._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1005.eqiad.wmnet.
-_etcd-server._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1006.eqiad.wmnet.
-_etcd-server._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd1004.eqiad.wmnet.
-_etcd-server._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd1005.eqiad.wmnet.
-_etcd-server._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd1006.eqiad.wmnet.
+_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1004.eqiad.wmnet.
+_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1005.eqiad.wmnet.
+_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1006.eqiad.wmnet.
+_etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd1004.eqiad.wmnet.
+_etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd1005.eqiad.wmnet.
+_etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd1006.eqiad.wmnet.
 
 
 
@@ -2874,9 +2874,9 @@ _etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 kubetcd2002.codfw.wmnet.
 _etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 kubetcd2003.codfw.wmnet.
 
 ; kubernetes-related records (etcdv3)
-_etcd-server._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2004.codfw.wmnet.
-_etcd-server._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2005.codfw.wmnet.
-_etcd-server._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2006.codfw.wmnet.
+_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2004.codfw.wmnet.
+_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2005.codfw.wmnet.
+_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2006.codfw.wmnet.
 
 ; Servers - listed alphabetically
 
