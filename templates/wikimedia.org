@@ -440,6 +440,7 @@ mai.m               1D IN CNAME dyna.wikimedia.org.
 meta.m              1D IN CNAME dyna.wikimedia.org.
 mk.m                1D IN CNAME dyna.wikimedia.org.
 mx.m                1D IN CNAME dyna.wikimedia.org.
+ng.m                1D IN CNAME dyna.wikimedia.org.
 nl.m                1D IN CNAME dyna.wikimedia.org.
 no.m                1D IN CNAME dyna.wikimedia.org.
 nostalgia.m         1D IN CNAME dyna.wikimedia.org.
@@ -749,6 +750,7 @@ meta             1D IN CNAME dyna.wikimedia.org.
 mk               1D IN CNAME dyna.wikimedia.org.
 movementroles    1D IN CNAME dyna.wikimedia.org.
 mx               1D IN CNAME dyna.wikimedia.org.
+ng               1D IN CNAME dyna.wikimedia.org.
 nl               1D IN CNAME dyna.wikimedia.org.
 no               1D IN CNAME dyna.wikimedia.org.
 noboard-chapters 1D IN CNAME dyna.wikimedia.org.
