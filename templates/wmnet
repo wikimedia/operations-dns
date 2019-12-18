@@ -5051,6 +5051,8 @@ ganeti4001      1H      IN A    10.128.0.21
 ganeti4002      1H      IN A    10.128.0.22
 ganeti4003      1H      IN A    10.128.0.23
 
+netflow4001     1H      IN A    10.128.0.31
+
 ; ulsfo LVS cross-vlan
 vl1201-eth0.lvs4005  1H IN A 198.35.26.9
 vl1201-eth0.lvs4006  1H IN A 198.35.26.10
