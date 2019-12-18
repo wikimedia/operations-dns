@@ -2947,20 +2947,6 @@ $ORIGIN 8.65.@Z
 $ORIGIN 0.66.@Z
 1   1H  IN PTR      fe-0-0-2.mr1-eqiad.mgmt.eqiad.wmnet.
 
-; eqiad labs realm
-
-; 10.68.0.0/24 - labs-instances1-a-eqiad
-$ORIGIN 0.68.@Z
-
-; 10.68.16.0/21 - labs-instances1-b-eqiad
-$ORIGIN 16.68.@Z
-
-; 10.68.32.0/24 - labs-instances1-c-eqiad
-$ORIGIN 32.68.@Z
-
-; 10.68.48.0/24 - labs-instances1-d-eqiad
-$ORIGIN 48.68.@Z
-
 ; 10.128.0.0/16 - ulsfo
 
 ; 10.128.128.0/17 - ulsfo mgmt
@@ -5066,28 +5052,6 @@ $ORIGIN 0.195.@Z
 ; 10.195.0.248/31 (pfw3-eqiad:st0 <--> pfw3-codfw:st0)
 248 1H  IN PTR  st0.pfw3-codfw.frack.codfw.wmnet.
 249 1H  IN PTR  st0.pfw3-codfw.frack.codfw.wmnet.
-
-
-; codfw labs realm
-
-; 10.196.0.0/24 - labs-instances1-a-codfw
-$ORIGIN 0.196.@Z
-
-; 10.196.16.0/21 - labs-instances1-b-codfw
-$ORIGIN 16.196.@Z
-$ORIGIN 17.196.@Z
-$ORIGIN 18.196.@Z
-$ORIGIN 19.196.@Z
-$ORIGIN 20.196.@Z
-$ORIGIN 21.196.@Z
-$ORIGIN 22.196.@Z
-$ORIGIN 23.196.@Z
-
-; 10.196.32.0/24 - labs-instances1-c-codfw
-$ORIGIN 32.196.@Z
-
-; 10.196.48.0/24 - labs-instances1-d-codfw
-$ORIGIN 48.196.@Z
 
 ; LEGACY
 
