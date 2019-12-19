@@ -141,6 +141,7 @@ $ORIGIN 0.20.@Z
 16  1H  IN PTR      lvs3006.esams.wmnet.
 17  1H  IN PTR      lvs3007.esams.wmnet.
 
+30  1H  IN PTR      ganeti01.svc.esams.wmnet.
 31  1H  IN PTR      ganeti3001.esams.wmnet.
 32  1H  IN PTR      ganeti3002.esams.wmnet.
 33  1H  IN PTR      ganeti3003.esams.wmnet.

@@ -5271,6 +5271,7 @@ $ORIGIN svc.esams.wmnet.
 
 ; Used for consistency with eqiad/codfw
 prometheus  1H  IN CNAME    bast3004.wikimedia.org.
+ganeti01    1H  IN A        10.20.0.30
 
 ; ULSFO SERVICES
 
