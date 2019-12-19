@@ -1445,9 +1445,6 @@ labweb1001      1H  IN A    10.65.4.121
 wmf7096         1H  IN A    10.65.4.121
 labweb1002      1H  IN A    10.65.4.122
 wmf7097         1H  IN A    10.65.4.122
-kafka1012       1H  IN A    10.65.3.95
-kafka1013       1H  IN A    10.65.3.96
-kafka1014       1H  IN A    10.65.3.97
 notebook1003    1H  IN A    10.65.3.82
 wmf7298         1H  IN A    10.65.3.82
 notebook1004    1H  IN A    10.65.3.83
@@ -1492,9 +1489,6 @@ aqs1008         1H  IN A    10.65.4.82
 wmf7004         1H  IN A    10.65.4.82
 aqs1009         1H  IN A    10.65.4.83
 wmf7005         1H  IN A    10.65.4.83
-kafka1020       1H  IN A    10.65.3.103
-kafka1023       1H  IN A    10.65.3.104
-kafka1022       1H  IN A    10.65.3.105
 kubernetes1001  1H  IN A    10.65.4.77
 wmf6993         1H  IN A    10.65.4.77
 kubernetes1002  1H  IN A    10.65.4.78

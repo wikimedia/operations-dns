@@ -2023,9 +2023,6 @@ $ORIGIN 3.65.@Z
 92  1H  IN PTR      restbase1027.mgmt.eqiad.wmnet.
 92  1H  IN PTR      wmf5172.mgmt.eqiad.wmnet.
 
-95  1H  IN PTR      kafka1012.mgmt.eqiad.wmnet.
-96  1H  IN PTR      kafka1013.mgmt.eqiad.wmnet.
-97  1H  IN PTR      kafka1014.mgmt.eqiad.wmnet.
 98  1H  IN PTR      flerovium.mgmt.eqiad.wmnet.
 99  1H  IN PTR      wmf5173.mgmt.eqiad.wmnet.
 99  1H  IN PTR      krb1001.mgmt.eqiad.wmnet.
@@ -2034,9 +2031,7 @@ $ORIGIN 3.65.@Z
 101 1H  IN PTR      wmf5175.mgmt.eqiad.wmnet.
 102 1H  IN PTR      gerrit1001.mgmt.eqiad.wmnet.
 102 1H  IN PTR      wmf5176.mgmt.eqiad.wmnet.
-103 1H  IN PTR      kafka1020.mgmt.eqiad.wmnet.
-104 1H  IN PTR      kafka1023.mgmt.eqiad.wmnet.
-105 1H  IN PTR      kafka1022.mgmt.eqiad.wmnet.
+
 106 1H  IN PTR      labstore1001.mgmt.eqiad.wmnet.
 107 1H  IN PTR      labstore1002.mgmt.eqiad.wmnet.
 
