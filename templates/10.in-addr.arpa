@@ -1782,9 +1782,8 @@ $ORIGIN 2.65.@Z
 110 1H  IN PTR      wmf4657.mgmt.eqiad.wmnet.
 110 1H  IN PTR      relforge1001.mgmt.eqiad.wmnet.
 111 1H  IN PTR      wmf4658.mgmt.eqiad.wmnet.
-112 1H  IN PTR      wmf4659.mgmt.eqiad.wmnet.           ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-112 1H  IN PTR      labmon1001.mgmt.eqiad.wmnet.        ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-112 1H  IN PTR      cloudmetrics1001.mgmt.eqiad.wmnet.  ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+112 1H  IN PTR      wmf4659.mgmt.eqiad.wmnet.
+112 1H  IN PTR      cloudmetrics1001.mgmt.eqiad.wmnet.
 113 1H  IN PTR      wmf4660.mgmt.eqiad.wmnet.
 114 1H  IN PTR      wmf4661.mgmt.eqiad.wmnet.
 114 1H  IN PTR      relforge1002.mgmt.eqiad.wmnet.

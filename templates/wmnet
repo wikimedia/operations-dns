@@ -2639,9 +2639,8 @@ wmf4579         1H      IN A            10.65.3.209
 wmf4657         1H      IN A            10.65.2.110
 relforge1001    1H      IN A            10.65.2.110
 wmf4658         1H      IN A            10.65.2.111
-wmf4659          1H     IN A            10.65.2.112 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-labmon1001       1H     IN A            10.65.2.112 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
-cloudmetrics1001 1H     IN A            10.65.2.112 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
+wmf4659          1H     IN A            10.65.2.112
+cloudmetrics1001 1H     IN A            10.65.2.112
 wmf7126          1H     IN A            10.65.7.85
 cloudmetrics1002 1H     IN A            10.65.7.85
 wmf7000         1H      IN A            10.65.2.139
