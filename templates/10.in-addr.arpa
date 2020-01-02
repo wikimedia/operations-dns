@@ -1097,6 +1097,7 @@ $ORIGIN 40.64.@Z
 206 1H IN PTR   bismuth.mgmt.frack.eqiad.wmnet.
 206 1H IN PTR   wmf4570.mgmt.frack.eqiad.wmnet.
 207 1H IN PTR   frnetmon1001.mgmt.frack.eqiad.wmnet.
+207 1H IN PTR   wmf5253.mgmt.frack.eqiad.wmnet.
 208 1H IN PTR   payments1001.mgmt.frack.eqiad.wmnet.
 208 1H IN PTR   wmf6951.mgmt.frack.eqiad.wmnet.
 209 1H IN PTR   payments1002.mgmt.frack.eqiad.wmnet.
@@ -1106,6 +1107,7 @@ $ORIGIN 40.64.@Z
 211 1H IN PTR   payments1004.mgmt.frack.eqiad.wmnet.
 211 1H IN PTR   wmf6948.mgmt.frack.eqiad.wmnet.
 212 1H IN PTR   frban1001.mgmt.frack.eqiad.wmnet.
+212 1H IN PTR   wmf5271.mgmt.frack.eqiad.wmnet.
 213 1H IN PTR   frav1002.mgmt.frack.eqiad.wmnet.
 213 1H IN PTR   wmf5163.mgmt.frack.eqiad.wmnet.
 214 1H IN PTR   frlog1001.mgmt.frack.eqiad.wmnet.
@@ -1119,6 +1121,7 @@ $ORIGIN 40.64.@Z
 218 1H IN PTR   frpig1001.mgmt.frack.eqiad.wmnet.
 218 1H IN PTR   wmf7293.mgmt.frack.eqiad.wmnet.
 219 1H IN PTR   frdb1003.mgmt.frack.eqiad.wmnet.
+219 1H IN PTR   wmf5280.mgmt.frack.eqiad.wmnet.
 
 ; 10.64.48.0/22 - private1-d-eqiad
 $ORIGIN 48.64.@Z
@@ -5131,6 +5134,7 @@ $ORIGIN 0.195.@Z
 104 1H IN PTR  frpig2001.mgmt.frack.codfw.wmnet.
 104 1H IN PTR  wmf6147.mgmt.frack.codfw.wmnet.
 105 1H IN PTR  frdb2002.mgmt.frack.codfw.wmnet.
+105 1H IN PTR  wmf6781.mgmt.frack.codfw.wmnet.
 
 107 1H IN PTR  mintaka.mgmt.frack.codfw.wmnet.
 107 1H IN PTR  wmf6150.mgmt.frack.codfw.wmnet.
@@ -5150,7 +5154,9 @@ $ORIGIN 0.195.@Z
 115 1H IN PTR  frauth2001.mgmt.frack.codfw.wmnet.
 115 1H IN PTR  wmf6652.mgmt.frack.codfw.wmnet.
 116 1H IN PTR  frqueue2001.mgmt.frack.codfw.wmnet.
+116 1H IN PTR  wmf6767.mgmt.frack.codfw.wmnet.
 117 1H IN PTR  frban2001.mgmt.frack.codfw.wmnet.
+117 1H IN PTR  wmf6776.mgmt.frack.codfw.wmnet.
 
 ; 10.195.0.128/29 - frack-bastion-codfw
 129 1H IN PTR  reth0-2133.pfw3-codfw.frack.codfw.wmnet.
