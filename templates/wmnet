@@ -5004,6 +5004,34 @@ scs-oe11-esams  1H  IN A        10.21.0.210
 msw-oe12-esams  1H  IN A        10.21.0.249
 schleifenbauer  1H  IN A        10.21.0.253
 
+; Asset tags listed in order
+
+wmf4431     1H  IN A        10.21.0.171
+wmf4432     1H  IN A        10.21.0.172
+wmf4433     1H  IN A        10.21.0.173
+wmf4434     1H  IN A        10.21.0.174
+wmf4435     1H  IN A        10.21.0.175
+wmf4436     1H  IN A        10.21.0.176
+wmf4437     1H  IN A        10.21.0.177
+wmf4438     1H  IN A        10.21.0.178
+wmf4439     1H  IN A        10.21.0.180
+wmf4440     1H  IN A        10.21.0.181
+wmf4441     1H  IN A        10.21.0.182
+wmf4442     1H  IN A        10.21.0.183
+wmf4443     1H  IN A        10.21.0.184
+wmf4444     1H  IN A        10.21.0.185
+wmf4445     1H  IN A        10.21.0.186
+wmf4446     1H  IN A        10.21.0.187
+wmf4447     1H  IN A        10.21.0.188
+wmf4448     1H  IN A        10.21.0.189
+wmf4449     1H  IN A        10.21.0.190
+wmf4450     1H  IN A        10.21.0.191
+wmf4451     1H  IN A        10.21.0.192
+wmf4452     1H  IN A        10.21.0.193
+wmf4453     1H  IN A        10.21.0.194
+wmf4454     1H  IN A        10.21.0.195
+wmf4455     1H  IN A        10.21.0.196
+
 ;
 ; ULSFO MGMT
 ;
