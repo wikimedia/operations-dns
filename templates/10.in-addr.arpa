@@ -2063,7 +2063,7 @@ $ORIGIN 3.65.@Z
 121 1H  IN PTR      labstore1006.mgmt.eqiad.wmnet.
 121 1H  IN PTR      wmf7123.mgmt.eqiad.wmnet.
 122 1H  IN PTR      labstore1007.mgmt.eqiad.wmnet.
-122 1H  IN PTR      wmf7124.mgmt.eqiad.wmnet.
+122 1H  IN PTR      wmf7125.mgmt.eqiad.wmnet.
 123 1H  IN PTR      cloudstore1008.mgmt.eqiad.wmnet.
 123 1H  IN PTR      wmf7369.mgmt.eqiad.wmnet.
 124 1H  IN PTR      cloudstore1009.mgmt.eqiad.wmnet.
@@ -2360,13 +2360,13 @@ $ORIGIN 4.65.@Z
 121 1H  IN PTR      labweb1001.mgmt.eqiad.wmnet.
 122 1H  IN PTR      wmf7097.mgmt.eqiad.wmnet.
 122 1H  IN PTR      labweb1002.mgmt.eqiad.wmnet.
-123 1H  IN PTR      wmf7311.mgmt.eqiad.wmnet.
+123 1H  IN PTR      wmf7340.mgmt.eqiad.wmnet.
 123 1H  IN PTR      lvs1013.mgmt.eqiad.wmnet.
-124 1H  IN PTR      wmf7312.mgmt.eqiad.wmnet.
+124 1H  IN PTR      wmf7341.mgmt.eqiad.wmnet.
 124 1H  IN PTR      lvs1014.mgmt.eqiad.wmnet.
-125 1H  IN PTR      wmf7313.mgmt.eqiad.wmnet.
+125 1H  IN PTR      wmf7342.mgmt.eqiad.wmnet.
 125 1H  IN PTR      lvs1015.mgmt.eqiad.wmnet.
-126 1H  IN PTR      wmf7314.mgmt.eqiad.wmnet.
+126 1H  IN PTR      wmf7343.mgmt.eqiad.wmnet.
 126 1H  IN PTR      lvs1016.mgmt.eqiad.wmnet.
 127 1H  IN PTR      wmf7344.mgmt.eqiad.wmnet.
 127 1H  IN PTR      analytics1070.mgmt.eqiad.wmnet.

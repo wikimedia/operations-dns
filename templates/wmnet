@@ -1745,7 +1745,7 @@ wmf4769     1H  IN A    10.65.5.31
 labstore1006 1H IN A    10.65.3.121
 wmf7123      1H IN A    10.65.3.121
 labstore1007 1H IN A    10.65.3.122
-wmf7124      1H IN A    10.65.3.122
+wmf7125      1H IN A    10.65.3.122
 cloudstore1008 1H IN A    10.65.3.123
 wmf7369      1H IN A    10.65.3.123
 cloudstore1009 1H IN A    10.65.3.124
@@ -2372,13 +2372,13 @@ wmf7454         1H IN A    10.65.3.78
 backup1001      1H  IN A    10.65.2.161
 wmf7374         1H  IN A    10.65.2.161
 lvs1013         1H  IN A    10.65.4.123
-wmf7311         1H  IN A    10.65.4.123
+wmf7340         1H  IN A    10.65.4.123
 lvs1014         1H  IN A    10.65.4.124
-wmf7312         1H  IN A    10.65.4.124
+wmf7341         1H  IN A    10.65.4.124
 lvs1015         1H  IN A    10.65.4.125
-wmf7313         1H  IN A    10.65.4.125
+wmf7342         1H  IN A    10.65.4.125
 lvs1016         1H  IN A    10.65.4.126
-wmf7314         1H  IN A    10.65.4.126
+wmf7343         1H  IN A    10.65.4.126
 wmf3431         1H  IN A    10.65.3.56
 wmf3432         1H  IN A    10.65.3.57
 wtp1025     1H  IN A    10.65.5.38
