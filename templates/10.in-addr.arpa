@@ -4569,9 +4569,7 @@ $ORIGIN 2.193.@Z
 
 152 1H IN PTR  elastic2046.mgmt.codfw.wmnet.
 152 1H IN PTR  wmf6688.mgmt.codfw.wmnet.
-153 1H IN PTR  wmf6289.mgmt.codfw.wmnet.
 
-158 1H IN PTR  wmf6294.mgmt.codfw.wmnet.
 159 1H IN PTR  db2121.mgmt.codfw.wmnet.
 159 1H IN PTR  wmf6756.mgmt.codfw.wmnet.
 160 1H IN PTR  db2122.mgmt.codfw.wmnet.
