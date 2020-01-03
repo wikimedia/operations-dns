@@ -1184,7 +1184,7 @@ kubernetes-pod-10-64-75-{{ i }} 1H IN A 10.64.75.{{ i }}
 $ORIGIN mgmt.eqiad.wmnet.
 
 mr1-eqiad           1H  IN A        10.65.0.1
-fe-0-0-2.mr1-eqiad  1H  IN A        10.66.0.1
+ge-0-0-2.mr1-eqiad  1H  IN A        10.66.0.1
 msw1-eqiad          1H  IN A        10.65.0.10
 scs-a8-eqiad        1H  IN A        10.65.0.11
 re0.cr1-eqiad       1H  IN A        10.65.0.12
@@ -1192,7 +1192,6 @@ re1.cr1-eqiad       1H  IN A        10.65.0.13
 re0.cr2-eqiad       1H  IN A        10.65.0.14
 re1.cr2-eqiad       1H  IN A        10.65.0.15
 asw-a-eqiad         1H  IN A        10.65.0.17
-
 asw2-a-eqiad        1H  IN A        10.65.0.21
 scs-c1-eqiad        1H  IN A        10.65.0.22
 asw-c-eqiad         1H  IN A        10.65.0.23
@@ -5081,7 +5080,8 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 $ORIGIN mgmt.eqsin.wmnet.
 
 mr1-eqsin       1H      IN A    10.132.128.1
-cr1-eqsin       1H      IN A    10.132.128.2
+re0.cr1-eqsin   1H      IN A    10.132.128.2
+re1.cr1-eqsin   1H      IN A    10.132.128.3
 asw1-eqsin      1H      IN A    10.132.128.4
 scs-eqsin       1H      IN A    10.132.128.5
 cr2-eqsin       1H      IN A    10.132.128.6

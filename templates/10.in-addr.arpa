@@ -2918,7 +2918,7 @@ $ORIGIN 8.65.@Z
 
 ; eqiad wifi subnet
 $ORIGIN 0.66.@Z
-1   1H  IN PTR      fe-0-0-2.mr1-eqiad.mgmt.eqiad.wmnet.
+1   1H  IN PTR      ge-0-0-2.mr1-eqiad.mgmt.eqiad.wmnet.
 
 ; 10.128.0.0/16 - ulsfo
 
@@ -3047,7 +3047,8 @@ $ORIGIN 0.132.@Z
 ; 10.132.128.0/17 - eqsin mgmt
 $ORIGIN 128.132.@Z
 1   1H  IN PTR      mr1-eqsin.mgmt.eqsin.wmnet.
-2   1H  IN PTR      cr1-eqsin.mgmt.eqsin.wmnet.
+2   1H  IN PTR      re0.cr1-eqsin.mgmt.eqsin.wmnet.
+3   1H  IN PTR      re1.cr1-eqsin.mgmt.eqsin.wmnet.
 4   1H  IN PTR      asw1-eqsin.mgmt.eqsin.wmnet.
 5   1H  IN PTR      scs-eqsin.mgmt.eqsin.wmnet.
 6   1H  IN PTR      cr2-eqsin.mgmt.eqsin.wmnet.
