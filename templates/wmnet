@@ -2634,6 +2634,42 @@ wmf6991          1H     IN A            10.65.4.75
 puppetmaster1002 1H     IN A            10.65.4.76
 wmf6992          1H     IN A            10.65.4.76
 
+wmf3094          1H     IN A            10.65.2.41
+wmf3497          1H     IN A            10.65.3.110
+wmf3498          1H     IN A            10.65.3.111
+wmf3524          1H     IN A            10.65.3.106
+wmf3526          1H     IN A            10.65.3.107
+wmf4053          1H     IN A            10.65.3.112
+wmf4054          1H     IN A            10.65.3.113
+wmf4055          1H     IN A            10.65.3.114
+wmf4171          1H     IN A            10.65.2.45
+wmf4172          1H     IN A            10.65.2.46
+wmf4173          1H     IN A            10.65.2.47
+wmf4174          1H     IN A            10.65.2.48
+wmf4175          1H     IN A            10.65.2.49
+wmf4176          1H     IN A            10.65.2.50
+wmf4177          1H     IN A            10.65.2.51
+wmf4178          1H     IN A            10.65.2.52
+wmf4179          1H     IN A            10.65.2.53
+wmf4180          1H     IN A            10.65.2.54
+wmf4181          1H     IN A            10.65.2.55
+wmf4184          1H     IN A            10.65.2.58
+wmf4185          1H     IN A            10.65.2.59
+wmf4186          1H     IN A            10.65.2.60
+wmf4187          1H     IN A            10.65.2.61
+wmf4188          1H     IN A            10.65.2.62
+wmf4189          1H     IN A            10.65.2.63
+wmf4190          1H     IN A            10.65.2.64
+wmf4191          1H     IN A            10.65.2.65
+wmf4192          1H     IN A            10.65.2.66
+wmf4193          1H     IN A            10.65.2.67
+wmf4194          1H     IN A            10.65.2.68
+wmf4686          1H     IN A            10.65.4.18
+wmf4687          1H     IN A            10.65.4.19
+wmf4688          1H     IN A            10.65.4.20
+wmf4689          1H     IN A            10.65.4.21
+wmf4690          1H     IN A            10.65.4.22
+wmf4691          1H     IN A            10.65.4.23
 
 ; EQIAD fundraising/payments
 $ORIGIN frack.eqiad.wmnet.
