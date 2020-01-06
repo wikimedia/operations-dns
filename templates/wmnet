@@ -5092,6 +5092,13 @@ cp5011          1H      IN AAAA 2001:df2:e500:101:10:132:0:111
 cp5012          1H      IN A    10.132.0.112
 cp5012          1H      IN AAAA 2001:df2:e500:101:10:132:0:112
 
+ganeti5001      1H      IN A    10.132.0.21
+ganeti5001      1H      IN AAAA 2001:df2:e500:101:10:132:0:21
+ganeti5002      1H      IN A    10.132.0.22
+ganeti5002      1H      IN AAAA 2001:df2:e500:101:10:132:0:22
+ganeti5003      1H      IN A    10.132.0.23
+ganeti5003      1H      IN AAAA 2001:df2:e500:101:10:132:0:23
+
 ; eqsin LVS cross-vlan
 vl510-eth0.lvs5001 1H   IN A 103.102.166.10
 vl510-eth0.lvs5002 1H   IN A 103.102.166.11
