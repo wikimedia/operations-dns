@@ -21,6 +21,7 @@ $ORIGIN 1.0.0.0.@Z
 5.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   contint2001.wikimedia.org.
 7.1.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   authdns2001.wikimedia.org.
 3.2.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   idp2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
+4.2.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   urldownloader2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 
 ; public1-b-codfw (2620:0:860:2::/64)
 $ORIGIN 2.0.0.0.@Z
@@ -37,6 +38,7 @@ $ORIGIN 2.0.0.0.@Z
 4.5.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   bast2002.wikimedia.org.
 9.5.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcontrol2001-dev.wikimedia.org.
 0.6.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudweb2001-dev.wikimedia.org.
+1.6.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   urldownloader2002.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 
 ; public1-c-codfw (2620:0:860:3::/64)
 $ORIGIN 3.0.0.0.@Z
