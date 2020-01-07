@@ -89,6 +89,7 @@ $ORIGIN 3.0.0.0.@Z
 0.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   aluminium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 1.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   urldownloader1002.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 4.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   icinga1001.wikimedia.org.
+8.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit-test.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
 ; public1-d-eqiad (2620:0:861:4::/64)
 $ORIGIN 4.0.0.0.@Z
