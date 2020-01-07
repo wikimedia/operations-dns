@@ -5211,6 +5211,7 @@ ganeti01    1H  IN A        10.128.0.30
 $ORIGIN svc.eqsin.wmnet.
 ; Used for consistency with eqiad/codfw
 prometheus  1H  IN CNAME    bast5001.wikimedia.org.
+ganeti01    1H  IN A        10.132.0.20
 
 ; CODFW SERVICES
 
