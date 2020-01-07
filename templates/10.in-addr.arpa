@@ -2982,7 +2982,7 @@ $ORIGIN 0.132.@Z
 12  1H  IN PTR      lvs5002.eqsin.wmnet.
 13  1H  IN PTR      lvs5003.eqsin.wmnet.
 
-20  1H  IN PTR      gantei01.svc.eqsin.wmnet.
+20  1H  IN PTR      ganeti01.svc.eqsin.wmnet.
 21  1H  IN PTR      ganeti5001.eqsin.wmnet.
 22  1H  IN PTR      ganeti5002.eqsin.wmnet.
 23  1H  IN PTR      ganeti5003.eqsin.wmnet.
