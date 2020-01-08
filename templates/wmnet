@@ -5004,6 +5004,9 @@ asw1-eqsin      1H      IN A    10.132.128.4
 scs-eqsin       1H      IN A    10.132.128.5
 cr2-eqsin       1H      IN A    10.132.128.6
 
+ps1-603-eqsin   1H      IN A    10.132.128.10
+ps1-604-eqsin   1H      IN A    10.132.128.11
+
 ; Servers listed sequentially
 bast5001        1H      IN A    10.132.129.7
 dns5001         1H      IN A    10.132.129.8

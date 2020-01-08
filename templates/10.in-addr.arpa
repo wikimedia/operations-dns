@@ -3010,6 +3010,9 @@ $ORIGIN 128.132.@Z
 5   1H  IN PTR      scs-eqsin.mgmt.eqsin.wmnet.
 6   1H  IN PTR      cr2-eqsin.mgmt.eqsin.wmnet.
 
+10  1H  IN PTR      ps1-603-eqsin.mgmt.eqsin.wmnet.
+11  1H  IN PTR      ps1-604-eqsin.mgmt.eqsin.wmnet.
+
 $ORIGIN 129.132.@Z
 7   1H  IN PTR      bast5001.mgmt.eqsin.wmnet.
 7   1H  IN PTR      wmf7183.mgmt.eqsin.wmnet.
