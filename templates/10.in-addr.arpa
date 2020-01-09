@@ -3214,7 +3214,7 @@ $ORIGIN 0.192.@Z
 153 1H IN PTR   logstash2023.codfw.wmnet.    ; VM on ganeti01.svc.codfw.wmnet
 154 1H IN PTR   kubetcd2004.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 155 1H IN PTR   kubetcd2005.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-
+156 1H IN PTR   mc-gp2001.codfw.wmnet.
 
 $ORIGIN 1.192.@Z
 1   1H IN PTR   lvs2001.codfw.wmnet.
@@ -3376,6 +3376,7 @@ $ORIGIN 16.192.@Z
 144 1H IN PTR   failoid2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 145 1H IN PTR   logstash2024.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 146 1H IN PTR   logstash2025.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+147 1H IN PTR   mc-gp2002.codfw.wmnet.
 
 160 1H IN PTR   ms-be2018.codfw.wmnet.
 161 1H IN PTR   ms-be2019.codfw.wmnet.
@@ -3759,6 +3760,7 @@ $ORIGIN 48.192.@Z
 134 1H IN PTR   db2131.codfw.wmnet.
 135 1H IN PTR   krb2001.codfw.wmnet.
 137 1H IN PTR   ms-be2056.codfw.wmnet.
+138 1H IN PTR   mc-gp2003.codfw.wmnet.
 
 $ORIGIN 49.192.@Z
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
@@ -3942,7 +3944,8 @@ $ORIGIN 1.193.@Z
 48  1H IN PTR  wmf6600.mgmt.codfw.wmnet.
 49  1H IN PTR  kafka-main2005.mgmt.codfw.wmnet.
 49  1H IN PTR  wmf6736.mgmt.codfw.wmnet.
-
+50  1H IN PTR  mc-gp2001.mgmt.codfw.wmnet.
+50  1H IN PTR  wmf6795.mgmt.codfw.wmnet.
 51  1H IN PTR  db2071.mgmt.codfw.wmnet.
 51  1H IN PTR  wmf6533.mgmt.codfw.wmnet.
 52  1H IN PTR  db2072.mgmt.codfw.wmnet.
@@ -3967,7 +3970,10 @@ $ORIGIN 1.193.@Z
 61  1H IN PTR  wmf6635.mgmt.codfw.wmnet.
 62  1H IN PTR  db2095.mgmt.codfw.wmnet.
 62  1H IN PTR  wmf6636.mgmt.codfw.wmnet.
-
+63  1H IN PTR  mc-gp2002.mgmt.codfw.wmnet.
+63  1H IN PTR  wmf6796.mgmt.codfw.wmnet.
+64  1H IN PTR  mc-gp2003.mgmt.codfw.wmnet.
+64  1H IN PTR  wmf6797.mgmt.codfw.wmnet.
 65  1H IN PTR  oresrdb2002.mgmt.codfw.wmnet.
 65  1H IN PTR  wmf6532.mgmt.codfw.wmnet.
 66  1H IN PTR  mw2262.mgmt.codfw.wmnet.
