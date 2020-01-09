@@ -165,6 +165,8 @@ $ORIGIN 0.20.@Z
 65  1H  IN PTR      cp3065.esams.wmnet.
 
 100 1H  IN PTR      netflow3001.esams.wmnet.
+101 1H  IN PTR      ncredir3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
+102 1H  IN PTR      ncredir3002.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
 
 ; Management
 
