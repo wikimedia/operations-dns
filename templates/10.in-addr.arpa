@@ -2956,6 +2956,8 @@ $ORIGIN 0.128.@Z
 
 30  1H  IN PTR      ganeti01.svc.ulsfo.wmnet.
 31  1H  IN PTR      netflow4001.ulsfo.wmnet.
+32  1H  IN PTR      ncredir4001.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
+33  1H  IN PTR      ncredir4002.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
 
 121 1H  IN PTR      cp4021.ulsfo.wmnet.
 122 1H  IN PTR      cp4022.ulsfo.wmnet.

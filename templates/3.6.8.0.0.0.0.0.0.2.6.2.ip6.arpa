@@ -30,6 +30,9 @@ $ORIGIN 1.0.1.0.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1211.wikimedia.org.
 
+2.3.0.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   ncredir4001.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
+3.3.0.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   ncredir4002.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
+
 1.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4021.ulsfo.wmnet.
 2.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4022.ulsfo.wmnet.
 3.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4023.ulsfo.wmnet.

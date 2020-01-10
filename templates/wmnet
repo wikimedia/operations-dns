@@ -4996,6 +4996,10 @@ ganeti4002      1H      IN A    10.128.0.22
 ganeti4003      1H      IN A    10.128.0.23
 
 netflow4001     1H      IN A    10.128.0.31
+ncredir4001     1H      IN A    10.128.0.32 ; VM on ganeti01.svc.ulsfo.wmnet
+ncredir4001     1H      IN AAAA 2620:0:863:101:10:128:0:32 ; VM on ganeti01.svc.ulsfo.wmnet
+ncredir4002     1H      IN A    10.128.0.33 ; VM on ganeti01.svc.ulsfo.wmnet
+ncredir4002     1H      IN AAAA 2620:0:863:101:10:128:0:33 ; VM on ganeti01.svc.ulsfo.wmnet
 
 ; ulsfo LVS cross-vlan
 vl1201-eth0.lvs4005  1H IN A 198.35.26.9
