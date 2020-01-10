@@ -3217,6 +3217,8 @@ $ORIGIN 0.192.@Z
 154 1H IN PTR   kubetcd2004.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 155 1H IN PTR   kubetcd2005.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 156 1H IN PTR   mc-gp2001.codfw.wmnet.
+157 1H IN PTR   es2020.codfw.wmnet.
+158 1H IN PTR   es2024.codfw.wmnet.
 
 $ORIGIN 1.192.@Z
 1   1H IN PTR   lvs2001.codfw.wmnet.
@@ -3379,6 +3381,8 @@ $ORIGIN 16.192.@Z
 145 1H IN PTR   logstash2024.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 146 1H IN PTR   logstash2025.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 147 1H IN PTR   mc-gp2002.codfw.wmnet.
+148 1H IN PTR   es2021.codfw.wmnet.
+149 1H IN PTR   es2025.codfw.wmnet.
 
 160 1H IN PTR   ms-be2018.codfw.wmnet.
 161 1H IN PTR   ms-be2019.codfw.wmnet.
@@ -3621,6 +3625,7 @@ $ORIGIN 32.192.@Z
 185 1H IN PTR   ms-be2055.codfw.wmnet.
 186 1H IN PTR   cloudbackup2002.codfw.wmnet.
 187 1H IN PTR   db2135.codfw.wmnet.
+188 1H IN PTR   es2022.codfw.wmnet.
 
 $ORIGIN 33.192.@Z
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
@@ -3763,6 +3768,7 @@ $ORIGIN 48.192.@Z
 135 1H IN PTR   krb2001.codfw.wmnet.
 137 1H IN PTR   ms-be2056.codfw.wmnet.
 138 1H IN PTR   mc-gp2003.codfw.wmnet.
+139 1H IN PTR   es2023.codfw.wmnet.
 
 $ORIGIN 49.192.@Z
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
@@ -3988,7 +3994,10 @@ $ORIGIN 1.193.@Z
 69  1H IN PTR  wmf6605.mgmt.codfw.wmnet.
 70  1H IN PTR  dbproxy2001.mgmt.codfw.wmnet.
 70  1H IN PTR  wmf6737.mgmt.codfw.wmnet.
-
+71  1H IN PTR  es2020.mgmt.codfw.wmnet.
+71  1H IN PTR  wmf6782.mgmt.codfw.wmnet.
+72  1H IN PTR  es2021.mgmt.codfw.wmnet.
+72  1H IN PTR  wmf6783.mgmt.codfw.wmnet.
 73  1H IN PTR  mw2266.mgmt.codfw.wmnet.
 73  1H IN PTR  wmf6606.mgmt.codfw.wmnet.
 75  1H IN PTR  db2080.mgmt.codfw.wmnet.
@@ -4015,6 +4024,14 @@ $ORIGIN 1.193.@Z
 85  1H IN PTR  wmf6779.mgmt.codfw.wmnet.
 86  1H IN PTR  db2135.mgmt.codfw.wmnet.
 86  1H IN PTR  wmf6780.mgmt.codfw.wmnet.
+87  1H IN PTR  es2022.mgmt.codfw.wmnet.
+87  1H IN PTR  wmf6784.mgmt.codfw.wmnet.
+88  1H IN PTR  es2023.mgmt.codfw.wmnet.
+88  1H IN PTR  wmf6785.mgmt.codfw.wmnet.
+89  1H IN PTR  es2024.mgmt.codfw.wmnet.
+89  1H IN PTR  wmf6786.mgmt.codfw.wmnet.
+90  1H IN PTR  es2025.mgmt.codfw.wmnet.
+90  1H IN PTR  wmf6787.mgmt.codfw.wmnet.
 
 101 1H IN PTR  mw2215.mgmt.codfw.wmnet.
 101 1H IN PTR  wmf6419.mgmt.codfw.wmnet.
