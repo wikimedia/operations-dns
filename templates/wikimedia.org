@@ -893,7 +893,7 @@ transparency-archive 1D IN CNAME dyna.wikimedia.org.
 transparency-private 1D IN CNAME dyna.wikimedia.org.
 search           1D IN CNAME dyna.wikimedia.org.
 shop             1D IN CNAME dyna.wikimedia.org.
-smokeping        1D IN CNAME dyna.wikimedia.org.
+smokeping        1H IN CNAME netmon1002
 store            1H  IN CNAME    c.ssl.shopify.com.
 static-bugzilla  1D IN CNAME dyna.wikimedia.org.
 stats            1D IN CNAME dyna.wikimedia.org.
