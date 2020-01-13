@@ -122,6 +122,7 @@ $ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
 1.0.0.0                         1H IN PTR   text-lb.ulsfo.wikimedia.org.
 2.0.0.0                         1H IN PTR   test-lb.ulsfo.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
+3.0.0.0                         1H IN PTR   ncredir-lb.ulsfo.wikimedia.org.
 
 $ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
