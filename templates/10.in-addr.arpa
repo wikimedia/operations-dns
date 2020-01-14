@@ -3387,6 +3387,7 @@ $ORIGIN 16.192.@Z
 148 1H IN PTR   es2021.codfw.wmnet.
 149 1H IN PTR   es2025.codfw.wmnet.
 150 1H IN PTR   logstash2027.codfw.wmnet.
+151 1H IN PTR   puppetmaster2003.codfw.wmnet.
 
 160 1H IN PTR   ms-be2018.codfw.wmnet.
 161 1H IN PTR   ms-be2019.codfw.wmnet.
@@ -4046,6 +4047,8 @@ $ORIGIN 1.193.@Z
 93  1H IN PTR  wmf6790.mgmt.codfw.wmnet.
 94  1H IN PTR  logstash2029.mgmt.codfw.wmnet.
 94  1H IN PTR  wmf6791.mgmt.codfw.wmnet.
+95  1H IN PTR  puppetmaster2003.mgmt.codfw.wmnet.
+95  1H IN PTR  wmf6792.mgmt.codfw.wmnet.
 
 101 1H IN PTR  mw2215.mgmt.codfw.wmnet.
 101 1H IN PTR  wmf6419.mgmt.codfw.wmnet.
