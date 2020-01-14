@@ -637,7 +637,7 @@ $ORIGIN 16.64.@Z
 137 1H IN PTR   ganeti1016.eqiad.wmnet.
 138 1H IN PTR   ganeti1017.eqiad.wmnet.
 139 1H IN PTR   ganeti1018.eqiad.wmnet.
-140 1H IN PTR   censorship1001.eqiad.wmnet.
+140 1H IN PTR   cescout1001.eqiad.wmnet.
 141 1H IN PTR   cloudcephmon1001-eth1.eqiad.wmnet.
 142 1H IN PTR   cloudcephmon1002-eth1.eqiad.wmnet.
 143 1H IN PTR   cloudcephmon1003-eth1.eqiad.wmnet.
@@ -2015,7 +2015,7 @@ $ORIGIN 3.65.@Z
 99  1H  IN PTR      wmf5173.mgmt.eqiad.wmnet.
 99  1H  IN PTR      krb1001.mgmt.eqiad.wmnet.
 100 1H  IN PTR      wmf5174.mgmt.eqiad.wmnet.
-100 1H  IN PTR      censorship1001.mgmt.eqiad.wmnet.
+100 1H  IN PTR      cescout1001.mgmt.eqiad.wmnet.
 101 1H  IN PTR      wmf5175.mgmt.eqiad.wmnet.
 102 1H  IN PTR      gerrit1001.mgmt.eqiad.wmnet.
 102 1H  IN PTR      wmf5176.mgmt.eqiad.wmnet.
