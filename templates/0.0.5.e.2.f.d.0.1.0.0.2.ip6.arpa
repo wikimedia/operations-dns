@@ -37,6 +37,9 @@ $ORIGIN 1.0.1.0.@Z
 2.2.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   ganeti5002.eqsin.wmnet.
 3.2.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   ganeti5003.eqsin.wmnet.
 
+1.3.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   ncredir5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
+2.3.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   ncredir5002.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
+
 1.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5001.eqsin.wmnet.
 2.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5002.eqsin.wmnet.
 3.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5003.eqsin.wmnet.

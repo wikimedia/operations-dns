@@ -5149,6 +5149,10 @@ ganeti5003      1H      IN A    10.132.0.23
 ganeti5003      1H      IN AAAA 2001:df2:e500:101:10:132:0:23
 
 netflow5001     1H      IN A    10.132.0.30
+ncredir5001     1H      IN A    10.132.0.31 ; VM on ganeti01.svc.eqsin.wmnet
+ncredir5001     1H      IN AAAA 2001:df2:e500:101:10:132:0:31 ; VM on ganeti01.svc.eqsin.wmnet
+ncredir5002     1H      IN A    10.132.0.32 ; VM on ganeti01.svc.eqsin.wmnet
+ncredir5002     1H      IN AAAA 2001:df2:e500:101:10:132:0:32 ; VM on ganeti01.svc.eqsin.wmnet
 
 ; eqsin LVS cross-vlan
 vl510-eth0.lvs5001 1H   IN A 103.102.166.10
