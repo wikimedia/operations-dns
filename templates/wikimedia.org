@@ -887,6 +887,7 @@ superset         1D IN CNAME dyna.wikimedia.org.
 racktables       1D IN CNAME dyna.wikimedia.org.
 scholarships     1D IN CNAME dyna.wikimedia.org.
 transparency     1D IN CNAME dyna.wikimedia.org.
+transparency-archive 1D IN CNAME dyna.wikimedia.org.
 transparency-private 1D IN CNAME dyna.wikimedia.org.
 search           1D IN CNAME dyna.wikimedia.org.
 shop             1D IN CNAME dyna.wikimedia.org.
