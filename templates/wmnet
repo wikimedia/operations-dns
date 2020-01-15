@@ -4813,12 +4813,14 @@ cp3064      1H      IN AAAA 2620:0:862:102:10:20:0:64
 cp3065      1H      IN A    10.20.0.65
 cp3065      1H      IN AAAA 2620:0:862:102:10:20:0:65
 
-netflow3001 1H      IN A    10.20.0.100
+netflow3001 1H      IN A    10.20.0.100 ; VM on ganeti01.svc.esams.wmnet
 
 ncredir3001 1H      IN A    10.20.0.101 ; VM on ganeti01.svc.esams.wmnet
 ncredir3001 1H      IN AAAA 2620:0:862:102:10:20:0:101 ; VM on ganeti01.svc.esams.wmnet
 ncredir3002 1H      IN A    10.20.0.102 ; VM on ganeti01.svc.esams.wmnet
 ncredir3002 1H      IN AAAA 2620:0:862:102:10:20:0:102 ; VM on ganeti01.svc.esams.wmnet
+
+ping3001    1H      IN A    10.20.0.103 ; VM on ganeti01.svc.esams.wmnet
 
 ;
 ; SERVICES
