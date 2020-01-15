@@ -298,7 +298,7 @@ $ORIGIN 0.64.@Z
 50  1H IN PTR   planet1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 51  1H IN PTR   ores1001.eqiad.wmnet.
 52  1H IN PTR   ores1002.eqiad.wmnet.
-
+53  1H IN PTR   mc-gp1001.eqiad.wmnet.
 54  1H IN PTR   moscovium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 56  1H IN PTR   mw1261.eqiad.wmnet.
 57  1H IN PTR   mw1262.eqiad.wmnet.
@@ -850,6 +850,7 @@ $ORIGIN 32.64.@Z
 98      1H IN PTR       ganeti1010.eqiad.wmnet.
 99      1H IN PTR       ganeti1011.eqiad.wmnet.
 100     1H IN PTR       ganeti1012.eqiad.wmnet.
+101     1H IN PTR       mc-gp1002.eqiad.wmnet.
 
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
@@ -1140,7 +1141,7 @@ $ORIGIN 48.64.@Z
 29      1H IN PTR       scb1004.eqiad.wmnet.
 30      1H IN PTR       kafka-main1004.eqiad.wmnet.
 31      1H IN PTR       kafka-main1005.eqiad.wmnet.
-
+32      1H IN PTR       mc-gp1003.eqiad.wmnet.
 33      1H IN PTR       ms-be1043.eqiad.wmnet.
 34      1H IN PTR       db1122.eqiad.wmnet.
 35      1H IN PTR       db1123.eqiad.wmnet.
@@ -2877,6 +2878,12 @@ $ORIGIN 7.65.@Z
 
 $ORIGIN 8.65.@Z
 
+16  1H  IN PTR      mc-gp1001.mgmt.eqiad.wmnet.
+16  1H  IN PTR      wmf5342.mgmt.eqiad.wmnet.
+17  1H  IN PTR      mc-gp1002.mgmt.eqiad.wmnet.
+17  1H  IN PTR      wmf5343.mgmt.eqiad.wmnet.
+18  1H  IN PTR      mc-gp1003.mgmt.eqiad.wmnet.
+18  1H  IN PTR      wmf5344.mgmt.eqiad.wmnet.
 19  1H  IN PTR      mc1019.mgmt.eqiad.wmnet.
 19  1H  IN PTR      wmf6952.mgmt.eqiad.wmnet.
 20  1H  IN PTR      mc1020.mgmt.eqiad.wmnet.

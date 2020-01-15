@@ -727,6 +727,9 @@ mc1033          1H  IN A        10.64.48.155
 mc1034          1H  IN A        10.64.48.156
 mc1035          1H  IN A        10.64.48.157
 mc1036          1H  IN A        10.64.48.158
+mc-gp1001       1H  IN A        10.64.0.53
+mc-gp1002       1H  IN A        10.64.32.101
+mc-gp1003       1H  IN A        10.64.48.32
 mendelevium     1H  IN A        10.64.32.174 ; VM on ganeti01.svc.eqiad.wmnet
 miscweb1001     1H  IN A        10.64.32.186 ; VM on ganeti01.svc.eqiad.wmnet
 moscovium       1H  IN A        10.64.0.54 ; VM on ganeti01.svc.eqiad.wmnet
@@ -1926,6 +1929,12 @@ mc1035      1H  IN A    10.65.8.35
 wmf6968     1H  IN A    10.65.8.35
 mc1036      1H  IN A    10.65.8.36
 wmf6969     1H  IN A    10.65.8.36
+mc-gp1001   1H  IN A    10.65.8.16
+wmf5342     1H  IN A    10.65.8.16
+mc-gp1002   1H  IN A    10.65.8.17
+wmf5343     1H  IN A    10.65.8.17
+mc-gp1003   1H  IN A    10.65.8.18
+wmf5344     1H  IN A    10.65.8.18
 ms-be1016   1H  IN A    10.65.5.24
 wmf4662     1H  IN A    10.65.5.24
 ms-be1017   1H  IN A    10.65.5.25
