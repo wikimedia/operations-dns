@@ -3428,6 +3428,7 @@ $ORIGIN 16.192.@Z
 149 1H IN PTR   es2025.codfw.wmnet.
 150 1H IN PTR   logstash2027.codfw.wmnet.
 151 1H IN PTR   puppetmaster2003.codfw.wmnet.
+152 1H IN PTR   restbase2021.codfw.wmnet.
 
 160 1H IN PTR   ms-be2018.codfw.wmnet.
 161 1H IN PTR   ms-be2019.codfw.wmnet.
@@ -3672,6 +3673,7 @@ $ORIGIN 32.192.@Z
 187 1H IN PTR   db2135.codfw.wmnet.
 188 1H IN PTR   es2022.codfw.wmnet.
 189 1H IN PTR   logstash2028.codfw.wmnet.
+190 1H IN PTR   restbase2022.codfw.wmnet.
 
 $ORIGIN 33.192.@Z
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
@@ -3816,6 +3818,7 @@ $ORIGIN 48.192.@Z
 138 1H IN PTR   mc-gp2003.codfw.wmnet.
 139 1H IN PTR   es2023.codfw.wmnet.
 140 1H IN PTR   logstash2029.codfw.wmnet.
+141 1H IN PTR   restbase2023.codfw.wmnet.
 
 $ORIGIN 49.192.@Z
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
@@ -4089,6 +4092,12 @@ $ORIGIN 1.193.@Z
 94  1H IN PTR  wmf6791.mgmt.codfw.wmnet.
 95  1H IN PTR  puppetmaster2003.mgmt.codfw.wmnet.
 95  1H IN PTR  wmf6792.mgmt.codfw.wmnet.
+96  1H IN PTR  restbase2021.mgmt.codfw.wmnet.
+96  1H IN PTR  wmf6798.mgmt.codfw.wmnet.
+97  1H IN PTR  restbase2022.mgmt.codfw.wmnet.
+97  1H IN PTR  wmf6799.mgmt.codfw.wmnet.
+98  1H IN PTR  restbase2023.mgmt.codfw.wmnet.
+98  1H IN PTR  wmf6800.mgmt.codfw.wmnet.
 
 101 1H IN PTR  mw2215.mgmt.codfw.wmnet.
 101 1H IN PTR  wmf6419.mgmt.codfw.wmnet.

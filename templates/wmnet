@@ -3443,6 +3443,9 @@ restbase2020    1H  IN A    10.192.32.118
 restbase2020-a  1H  IN A    10.192.32.119 ; cassandra instance
 restbase2020-b  1H  IN A    10.192.32.120 ; cassandra instance
 restbase2020-c  1H  IN A    10.192.32.121 ; cassandra instance
+restbase2021    1H  IN A    10.192.16.152
+restbase2022    1H  IN A    10.192.32.190
+restbase2023    1H  IN A    10.192.48.141
 rpki2001        1H  IN A    10.192.0.103 ; VM on ganeti01.svc.codfw.wmnet
 rpki2001        1H  IN AAAA 2620:0:860:101:10:192:0:103 ; VM on ganeti01.svc.eqiad.wmnet
 
@@ -4208,6 +4211,9 @@ restbase2017    1H  IN A    10.193.1.226
 restbase2018    1H  IN A    10.193.1.227
 restbase2019    1H  IN A    10.193.1.32
 restbase2020    1H  IN A    10.193.2.113
+restbase2021    1H  IN A    10.193.1.96
+restbase2022    1H  IN A    10.193.1.97
+restbase2023    1H  IN A    10.193.1.98
 scb2001         1H  IN A    10.193.1.28
 scb2002         1H  IN A    10.193.2.230
 scb2003         1H  IN A    10.193.1.24
@@ -4790,6 +4796,9 @@ wmf6792         1H  IN A    10.193.1.95
 wmf6795         1H  IN A    10.193.1.50
 wmf6796         1H  IN A    10.193.1.63
 wmf6797         1H  IN A    10.193.1.64
+wmf6798         1H  IN A    10.193.1.96
+wmf6799         1H  IN A    10.193.1.97
+wmf6800         1H  IN A    10.193.1.98
 
 ;
 ; ESAMS
