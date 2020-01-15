@@ -384,6 +384,8 @@ donate-lb.eqsin     1H IN A 103.102.166.224
 donate-lb.eqsin     1H IN AAAA 2001:df2:e500:ed1a::1
 donate-lb.eqsin     1H IN MX 10    mx1001
 donate-lb.eqsin     1H IN MX 50    mx2001
+ncredir-lb.eqsin    1H IN A 103.102.166.226
+ncredir-lb.eqsin    1H IN AAAA 2001:df2:e500:ed1a::3
 upload-lb.eqsin     1H IN A 103.102.166.240
 upload-lb.eqsin     1H IN AAAA 2001:df2:e500:ed1a::2:b
 
