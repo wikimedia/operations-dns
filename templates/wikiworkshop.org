@@ -10,5 +10,9 @@
 
 ; Hosts
 
+; CAA records for wikiworkshop.org - LE
+@           5M  IN CAA 0 issue "letsencrypt.org"
+@           5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
+
 @           1H  IN A 171.64.75.80
 www         1H  IN A 171.64.75.80
