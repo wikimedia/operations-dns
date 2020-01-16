@@ -32,6 +32,7 @@ ncredir-addrs => {
         codfw => { addrs_v4 => 208.80.153.232, addrs_v6 => 2620:0:860:ed1a::9 }
         esams => { addrs_v4 => 91.198.174.194, addrs_v6 => 2620:0:862:ed1a::3 }
         ulsfo => { addrs_v4 => 198.35.26.98, addrs_v6 => 2620:0:863:ed1a::3 }
+        eqsin => { addrs_v4 => 103.102.166.226, addrs_v6 => 2001:df2:e500:ed1a::3 }
         bh    => { addrs_v4 => 127.0.0.1, addrs_v6 => ::1 }
         ref   => %reflect!dns
     }
