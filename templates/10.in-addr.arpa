@@ -3436,6 +3436,9 @@ $ORIGIN 16.192.@Z
 150 1H IN PTR   logstash2027.codfw.wmnet.
 151 1H IN PTR   puppetmaster2003.codfw.wmnet.
 152 1H IN PTR   restbase2021.codfw.wmnet.
+153 1H IN PTR   restbase2021-a.codfw.wmnet. ; cassandra instance
+154 1H IN PTR   restbase2021-b.codfw.wmnet. ; cassandra instance
+155 1H IN PTR   restbase2021-c.codfw.wmnet. ; cassandra instance
 
 160 1H IN PTR   ms-be2018.codfw.wmnet.
 161 1H IN PTR   ms-be2019.codfw.wmnet.
@@ -3681,6 +3684,9 @@ $ORIGIN 32.192.@Z
 188 1H IN PTR   es2022.codfw.wmnet.
 189 1H IN PTR   logstash2028.codfw.wmnet.
 190 1H IN PTR   restbase2022.codfw.wmnet.
+191 1H IN PTR   restbase2022-a.codfw.wmnet. ; cassandra instance
+192 1H IN PTR   restbase2022-b.codfw.wmnet. ; cassandra instance
+193 1H IN PTR   restbase2022-c.codfw.wmnet. ; cassandra instance
 
 $ORIGIN 33.192.@Z
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
@@ -3826,6 +3832,9 @@ $ORIGIN 48.192.@Z
 139 1H IN PTR   es2023.codfw.wmnet.
 140 1H IN PTR   logstash2029.codfw.wmnet.
 141 1H IN PTR   restbase2023.codfw.wmnet.
+142 1H IN PTR   restbase2023-a.codfw.wmnet. ; cassandra instance
+143 1H IN PTR   restbase2023-b.codfw.wmnet. ; cassandra instance
+144 1H IN PTR   restbase2023-c.codfw.wmnet. ; cassandra instance
 
 $ORIGIN 49.192.@Z
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
