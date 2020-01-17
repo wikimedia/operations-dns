@@ -3083,8 +3083,6 @@ kubernetes2005  1H  IN A    10.192.0.117 ; VM on ganeti01.svc.codfw.wmnet
 kubernetes2005  1H  IN AAAA 2620:0:860:101:10:192:0:117 ; VM on ganeti01.svc.codfw.wmnet
 kubernetes2006  1H  IN A    10.192.16.102 ; VM on ganeti01.svc.codfw.wmnet
 kubernetes2006  1H  IN AAAA 2620:0:860:102:10:192:16:102 ; VM on ganeti01.svc.codfw.wmnet
-labstore2001    1H  IN A    10.192.21.4
-labstore2002    1H  IN A    10.192.21.5
 clouddb2001-dev       1H  IN A    10.192.20.11
 clouddb2001-dev       1H  IN AAAA 2620:0:860:118:10:192:20:11
 cloudnet2002-dev      1H  IN A    10.192.20.10
@@ -3939,8 +3937,6 @@ kubernetes2001  1H  IN A    10.193.2.131
 kubernetes2002  1H  IN A    10.193.2.132
 kubernetes2003  1H  IN A    10.193.2.133
 kubernetes2004  1H  IN A    10.193.2.134
-labstore2001    1H  IN A    10.193.1.248
-labstore2002    1H  IN A    10.193.1.249
 clouddb2001-dev       1H  IN A    10.193.1.37
 labtestpuppetmaster2001    1H  IN A    10.193.1.36
 cloudweb2001-dev      1H  IN A    10.193.1.34
@@ -5375,7 +5371,6 @@ wikifeeds       1H  IN A        10.2.1.47
 restrouter      1H  IN A        10.2.1.48
 echostore       1H  IN A        10.2.1.49
 ganeti01        1H  IN A        10.192.16.131
-labstore        1H  IN A        10.192.21.7
 oresrdb         5M  IN A        10.192.16.31
 eventgate-logging-external 1H  IN A    10.2.1.50
 
