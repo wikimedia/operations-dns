@@ -3500,9 +3500,7 @@ $ORIGIN 21.192.@Z
 3   1H IN PTR   ae2-2122.cr2-codfw.wikimedia.org.
 4   1H IN PTR   labstore2001.codfw.wmnet.
 5   1H IN PTR   labstore2002.codfw.wmnet.
-6   1H IN PTR   labstore2003.codfw.wmnet.
 7   1H IN PTR   labstore.svc.codfw.wmnet.
-8   1H IN PTR   labstore2004.codfw.wmnet.
 
 ; 10.192.32.0/22 - private1-c-codfw
 $ORIGIN 32.192.@Z
@@ -4851,9 +4849,7 @@ $ORIGIN 2.193.@Z
 242 1H IN PTR  wmf6397.mgmt.codfw.wmnet.
 243 1H IN PTR  es2019.mgmt.codfw.wmnet.
 243 1H IN PTR  wmf6398.mgmt.codfw.wmnet.
-244 1H IN PTR  labstore2003.mgmt.codfw.wmnet.
 244 1H IN PTR  wmf3654.mgmt.codfw.wmnet.
-245 1H IN PTR  labstore2004.mgmt.codfw.wmnet.
 245 1H IN PTR  wmf3656.mgmt.codfw.wmnet.
 246 1H IN PTR  mwlog2001.mgmt.codfw.wmnet.
 246 1H IN PTR  wmf6399.mgmt.codfw.wmnet.

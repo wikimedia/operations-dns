@@ -3085,8 +3085,6 @@ kubernetes2006  1H  IN A    10.192.16.102 ; VM on ganeti01.svc.codfw.wmnet
 kubernetes2006  1H  IN AAAA 2620:0:860:102:10:192:16:102 ; VM on ganeti01.svc.codfw.wmnet
 labstore2001    1H  IN A    10.192.21.4
 labstore2002    1H  IN A    10.192.21.5
-labstore2003    1H  IN A    10.192.21.6
-labstore2004    1H  IN A    10.192.21.8
 clouddb2001-dev       1H  IN A    10.192.20.11
 clouddb2001-dev       1H  IN AAAA 2620:0:860:118:10:192:20:11
 cloudnet2002-dev      1H  IN A    10.192.20.10
@@ -3943,8 +3941,6 @@ kubernetes2003  1H  IN A    10.193.2.133
 kubernetes2004  1H  IN A    10.193.2.134
 labstore2001    1H  IN A    10.193.1.248
 labstore2002    1H  IN A    10.193.1.249
-labstore2003    1H  IN A    10.193.2.244
-labstore2004    1H  IN A    10.193.2.245
 clouddb2001-dev       1H  IN A    10.193.1.37
 labtestpuppetmaster2001    1H  IN A    10.193.1.36
 cloudweb2001-dev      1H  IN A    10.193.1.34
