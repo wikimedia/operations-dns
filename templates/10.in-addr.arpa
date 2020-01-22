@@ -4108,7 +4108,10 @@ $ORIGIN 1.193.@Z
 97  1H IN PTR  wmf6799.mgmt.codfw.wmnet.
 98  1H IN PTR  restbase2023.mgmt.codfw.wmnet.
 98  1H IN PTR  wmf6800.mgmt.codfw.wmnet.
-
+99  1H IN PTR  elastic2055.mgmt.codfw.wmnet.
+99  1H IN PTR  wmf6801.mgmt.codfw.wmnet.
+100 1H IN PTR  elastic2056.mgmt.codfw.wmnet.
+100 1H IN PTR  wmf6802.mgmt.codfw.wmnet.
 101 1H IN PTR  mw2215.mgmt.codfw.wmnet.
 101 1H IN PTR  wmf6419.mgmt.codfw.wmnet.
 102 1H IN PTR  mw2216.mgmt.codfw.wmnet.
@@ -4395,7 +4398,12 @@ $ORIGIN 1.193.@Z
 243 1H IN PTR  wmf6484.mgmt.codfw.wmnet.
 244 1H IN PTR  mw2256.mgmt.codfw.wmnet.
 244 1H IN PTR  wmf6485.mgmt.codfw.wmnet.
-
+245 1H IN PTR  elastic2057.mgmt.codfw.wmnet.
+245 1H IN PTR  wmf6803.mgmt.codfw.wmnet.
+246 1H IN PTR  elastic2058.mgmt.codfw.wmnet.
+246 1H IN PTR  wmf6804.mgmt.codfw.wmnet.
+247 1H IN PTR  elastic2059.mgmt.codfw.wmnet.
+247 1H IN PTR  wmf6805.mgmt.codfw.wmnet.
 248 1H IN PTR  wmf3649.mgmt.codfw.wmnet.
 249 1H IN PTR  wmf3651.mgmt.codfw.wmnet.
 250 1H IN PTR  heze.mgmt.codfw.wmnet.
@@ -4431,6 +4439,8 @@ $ORIGIN 2.193.@Z
 11  1H IN PTR  wmf6749.mgmt.codfw.wmnet.
 12  1H IN PTR  ganeti2017.mgmt.codfw.wmnet.
 12  1H IN PTR  wmf6750.mgmt.codfw.wmnet.
+13  1H IN PTR  elastic2060.mgmt.codfw.wmnet.
+13  1H IN PTR  wmf6806.mgmt.codfw.wmnet.
 
 15  1H IN PTR  wtp2001.mgmt.codfw.wmnet.
 15  1H IN PTR  wmf6162.mgmt.codfw.wmnet.

@@ -3878,6 +3878,12 @@ elastic2051     1H  IN A    10.193.3.57
 elastic2052     1H  IN A    10.193.3.58
 elastic2053     1H  IN A    10.193.3.59
 elastic2054     1H  IN A    10.193.3.60
+elastic2055     1H  IN A    10.193.1.99
+elastic2056     1H  IN A    10.193.1.100
+elastic2057     1H  IN A    10.193.1.245
+elastic2058     1H  IN A    10.193.1.246
+elastic2059     1H  IN A    10.193.1.247
+elastic2060     1H  IN A    10.193.2.13
 es2001          1H  IN A    10.193.1.235
 es2002          1H  IN A    10.193.1.236
 es2003          1H  IN A    10.193.1.237
@@ -4809,6 +4815,12 @@ wmf6797         1H  IN A    10.193.1.64
 wmf6798         1H  IN A    10.193.1.96
 wmf6799         1H  IN A    10.193.1.97
 wmf6800         1H  IN A    10.193.1.98
+wmf6801         1H  IN A    10.193.1.99
+wmf6802         1H  IN A    10.193.1.100
+wmf6803         1H  IN A    10.193.1.245
+wmf6804         1H  IN A    10.193.1.246
+wmf6805         1H  IN A    10.193.1.247
+wmf6806         1H  IN A    10.193.2.13
 
 ;
 ; ESAMS
