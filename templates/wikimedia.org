@@ -290,8 +290,6 @@ ripe-atlas-eqsin 1H IN A    103.102.166.20
 ripe-atlas-eqsin 1H IN AAAA 2001:df2:e500:201:103:102:166:20
 seaborgium      1H  IN A    208.80.154.79 ; VM on ganeti01.svc.eqiad.wmnet
 serpens         1H  IN A    208.80.153.49 ; VM on ganeti01.svc.codfw.wmnet
-torrelay1001    1H  IN A    208.80.154.9
-torrelay1001    1H  IN AAAA 2620:0:861:1:208:80:154:9
 urldownloader1001 1H  IN A    208.80.154.29 ; VM on ganeti01.svc.eqiad.wmnet
 urldownloader1001 1H  IN AAAA 2620:0:861:1:208:80:154:29 ; VM on ganeti01.svc.eqiad.wmnet
 urldownloader1002 1H  IN A    208.80.154.81 ; VM on ganeti01.svc.eqiad.wmnet
@@ -893,7 +891,6 @@ status           5M  IN A        192.237.162.200
 status           5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
 techblog         1D IN CNAME dyna.wikimedia.org.
 ticket           1D IN CNAME dyna.wikimedia.org.
-tor-eqiad-1      5M  IN CNAME    torrelay1001
 mirrors          1H  IN CNAME    sodium
 yarn             1D IN CNAME dyna.wikimedia.org.
 turnilo          1D IN CNAME dyna.wikimedia.org.
