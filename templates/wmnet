@@ -95,9 +95,9 @@ _etcd._tcp          5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
 ; Conftool (RW)
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2001.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2002.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 
 ; kubernetes-related records (etcd)
@@ -2794,9 +2794,9 @@ _etcd._tcp      5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 ; Conftool (RW)
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2001.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2002.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 ; etcd server discovery
 _etcd-server._tcp   5M  IN SRV      0 1 2380 conf2001.codfw.wmnet.
@@ -4902,9 +4902,9 @@ _etcd._tcp      5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
 
 ; Conftool (RW)
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2001.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2002.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 
 $ORIGIN mgmt.esams.wmnet.
@@ -5101,9 +5101,9 @@ _etcd._tcp      5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 ; Conftool (RW)
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2001.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2002.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 ;
 ; EQSIN MGMT
@@ -5240,9 +5240,9 @@ _etcd._tcp      5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 ; Conftool (RW)
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2002.codfw.wmnet.
-_etcd._tcp.conftool 5M  IN SRV      0 1 2379 conf2003.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2001.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2002.codfw.wmnet.
+_etcd._tcp.conftool 10  IN SRV      0 1 2379 conf2003.codfw.wmnet.
 
 ; EQIAD SERVICES
 
