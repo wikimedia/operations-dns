@@ -579,6 +579,7 @@ etcd1004        1H  IN A        10.64.0.43 ; VM on ganeti01.svc.eqiad.wmnet
 etcd1005        1H  IN A        10.64.0.44 ; VM on ganeti01.svc.eqiad.wmnet
 etcd1006        1H  IN A        10.64.32.218 ; VM on ganeti01.svc.eqiad.wmnet
 etherpad1001    1H  IN A        10.64.32.177 ; VM on ganeti01.svc.eqiad.wmnet
+etherpad1002    1H  IN A        10.64.32.178 ; VM on ganeti01.svc.eqiad.wmnet
 eventlog1002    1H  IN A        10.64.48.95
 eventlog1002    1H  IN AAAA     2620:0:861:107:10:64:48:95
 failoid1001     1H  IN A        10.64.32.79 ; VM on ganeti01.svc.eqiad.wmnet
