@@ -834,6 +834,7 @@ cz               1D IN CNAME dyna.wikimedia.org.
 datasets         1D IN CNAME dyna.wikimedia.org.
 download         1D IN CNAME dyna.wikimedia.org.
 etherpad         1D IN CNAME dyna.wikimedia.org.
+etherpad-new     1D IN CNAME dyna.wikimedia.org.
 fundraising      1H  IN CNAME    fundraising-eqiad
 hue              1D IN CNAME dyna.wikimedia.org.
 iegreview        1D IN CNAME dyna.wikimedia.org.
