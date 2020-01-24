@@ -3449,6 +3449,7 @@ $ORIGIN 16.192.@Z
 153 1H IN PTR   restbase2021-a.codfw.wmnet. ; cassandra instance
 154 1H IN PTR   restbase2021-b.codfw.wmnet. ; cassandra instance
 155 1H IN PTR   restbase2021-c.codfw.wmnet. ; cassandra instance
+156 1H IN PTR   wdqs2007.codfw.wmnet.
 
 160 1H IN PTR   ms-be2018.codfw.wmnet.
 161 1H IN PTR   ms-be2019.codfw.wmnet.
@@ -3692,6 +3693,7 @@ $ORIGIN 32.192.@Z
 191 1H IN PTR   restbase2022-a.codfw.wmnet. ; cassandra instance
 192 1H IN PTR   restbase2022-b.codfw.wmnet. ; cassandra instance
 193 1H IN PTR   restbase2022-c.codfw.wmnet. ; cassandra instance
+194 1H IN PTR   wdqs2008.codfw.wmnet.
 
 $ORIGIN 33.192.@Z
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
@@ -4452,7 +4454,8 @@ $ORIGIN 2.193.@Z
 12  1H IN PTR  wmf6750.mgmt.codfw.wmnet.
 13  1H IN PTR  elastic2060.mgmt.codfw.wmnet.
 13  1H IN PTR  wmf6806.mgmt.codfw.wmnet.
-
+14  1H IN PTR  wdqs2007.mgmt.codfw.wmnet.
+14  1H IN PTR  wmf6793.mgmt.codfw.wmnet.
 15  1H IN PTR  wtp2001.mgmt.codfw.wmnet.
 15  1H IN PTR  wmf6162.mgmt.codfw.wmnet.
 16  1H IN PTR  wtp2002.mgmt.codfw.wmnet.
@@ -4693,6 +4696,8 @@ $ORIGIN 2.193.@Z
 135 1H IN PTR  wmf6569.mgmt.codfw.wmnet.
 136 1H IN PTR  ores2009.mgmt.codfw.wmnet.
 136 1H IN PTR  wmf6570.mgmt.codfw.wmnet.
+137 1H IN PTR  wdqs2008.mgmt.codfw.wmnet.
+137 1H IN PTR  wmf6794.mgmt.codfw.wmnet.
 
 152 1H IN PTR  elastic2046.mgmt.codfw.wmnet.
 152 1H IN PTR  wmf6688.mgmt.codfw.wmnet.
