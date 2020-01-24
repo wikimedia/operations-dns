@@ -894,7 +894,6 @@ $ORIGIN 32.64.@Z
 174     1H IN PTR       mendelevium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 175     1H IN PTR       mwlog1001.eqiad.wmnet.
 
-177     1H IN PTR       etherpad1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 178     1H IN PTR       etherpad1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 179     1H IN PTR       dbproxy1020.eqiad.wmnet.
 180     1H IN PTR       dbproxy1021.eqiad.wmnet.
