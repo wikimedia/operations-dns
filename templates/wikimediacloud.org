@@ -26,9 +26,11 @@ cloudinstances2b-gw 5M  IN A      208.80.153.190
 ; general outgoing/egress NAT address (routing_source_ip)
 nat                 5M  IN A      185.15.57.1
 
-; this is an additional IPv4 on cloudservices2002-dev.wikimedia.org, Designate
-ns0                 5M  IN A      208.80.153.78
-ns1                 5M  IN A      208.80.153.78
+; this is the same as cloudservices2002-dev.wikimedia.org, Designate.
+ns0                 5M  IN A      208.80.153.76
+ns0                 5M  IN AAAA   2620:0:860:3:208:80:153:76
+ns1                 5M  IN A      208.80.153.76
+ns1                 5M  IN AAAA   2620:0:860:3:208:80:153:76
 
 ;
 ; EQIAD
