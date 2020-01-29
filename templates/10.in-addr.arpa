@@ -2401,6 +2401,18 @@ $ORIGIN 4.65.@Z
 142 1H  IN PTR      logstash1012.mgmt.eqiad.wmnet.
 143 1H  IN PTR      wmf5158.mgmt.eqiad.wmnet.
 143 1H  IN PTR      labsdb1012.mgmt.eqiad.wmnet.
+144 1H  IN PTR      es1020.mgmt.eqiad.wmnet.
+144 1H  IN PTR      wmf5327.mgmt.eqiad.wmnet.
+145 1H  IN PTR      es1021.mgmt.eqiad.wmnet.
+145 1H  IN PTR      wmf5328.mgmt.eqiad.wmnet.
+146 1H  IN PTR      es1022.mgmt.eqiad.wmnet.
+146 1H  IN PTR      wmf5329.mgmt.eqiad.wmnet.
+147 1H  IN PTR      es1023.mgmt.eqiad.wmnet.
+147 1H  IN PTR      wmf5330.mgmt.eqiad.wmnet.
+148 1H  IN PTR      es1024.mgmt.eqiad.wmnet.
+148 1H  IN PTR      wmf5331.mgmt.eqiad.wmnet.
+149 1H  IN PTR      es1025.mgmt.eqiad.wmnet.
+149 1H  IN PTR      wmf5332.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.@Z
 
