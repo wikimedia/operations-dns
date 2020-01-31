@@ -56,6 +56,7 @@ generic-map => {
             TJ => [esams, eqiad, codfw, ulsfo, eqsin], # Tajikistan
             TL => [eqsin, ulsfo, codfw, eqiad, esams], # Timor-Leste
             TM => [esams, eqiad, codfw, ulsfo, eqsin], # Turkmenistan
+            TR => [esams, eqiad, codfw, ulsfo, eqsin], # Turkey
             TW => [eqsin, ulsfo, codfw, eqiad, esams], # Taiwan
             UZ => [esams, eqiad, codfw, ulsfo, eqsin], # Uzbekistan
             VN => [eqsin, ulsfo, codfw, eqiad, esams], # Viet Nam
@@ -113,7 +114,6 @@ generic-map => {
             SJ => [esams, eqiad, codfw, ulsfo, eqsin], # Svalbard and Jan Mayen Islands
             SK => [esams, eqiad, codfw, ulsfo, eqsin], # Slovakia
             SM => [esams, eqiad, codfw, ulsfo, eqsin], # San Marino
-            TR => [esams, eqiad, codfw, ulsfo, eqsin], # Turkey
             UA => [esams, eqiad, codfw, ulsfo, eqsin], # Ukraine
             VA => [esams, eqiad, codfw, ulsfo, eqsin], # Holy See (Vatican City State)
         },
