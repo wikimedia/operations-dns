@@ -20,7 +20,7 @@ $ORIGIN eqiad.wmnet.
 ; Service aliases
 ; Used by syslog over UDP (eg network devices, PDUs)
 syslog          1H  IN CNAME    syslog.anycast.wmnet.
-webproxy        5M  IN CNAME    install1002.wikimedia.org.
+webproxy        5M  IN CNAME    install1003.wikimedia.org.
 graphite        5M  IN CNAME    graphite1004.eqiad.wmnet.
 graphite-in     5M  IN CNAME    graphite1004.eqiad.wmnet.
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
@@ -3030,7 +3030,7 @@ $ORIGIN codfw.wmnet.
 ; Service aliases
 config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
-webproxy        5M  IN CNAME    install2002.wikimedia.org.
+webproxy        5M  IN CNAME    install2003.wikimedia.org.
 deployment      5M  IN CNAME    deploy1001.eqiad.wmnet.
 m1-master       5M  IN CNAME    dbproxy2001.codfw.wmnet.
 m1-slave        5M  IN CNAME    db2078.codfw.wmnet.
@@ -5383,7 +5383,7 @@ ping3001    1H      IN A    10.20.0.103 ; VM on ganeti01.svc.esams.wmnet
 ;
 config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
-webproxy        5M  IN CNAME    install1002.wikimedia.org.
+webproxy        5M  IN CNAME    install1003.wikimedia.org.
 
 ; etcd client discovery (RO)
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
@@ -5582,7 +5582,7 @@ vl1201-eth0.lvs4007  1H IN A 198.35.26.11
 ;
 config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
-webproxy        5M  IN CNAME    install2002.wikimedia.org.
+webproxy        5M  IN CNAME    install2003.wikimedia.org.
 
 ; etcd client discovery (RO)
 _etcd._tcp      5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
@@ -5721,7 +5721,7 @@ vl510-eth0.lvs5003 1H   IN A 103.102.166.12
 ;
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-webproxy        5M  IN CNAME    install2002.wikimedia.org.
+webproxy        5M  IN CNAME    install2003.wikimedia.org.
 
 ; etcd client discovery (RO)
 _etcd._tcp      5M  IN SRV      0 1 2379 conf2001.codfw.wmnet.
