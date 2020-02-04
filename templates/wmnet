@@ -3642,8 +3642,6 @@ rkhunter.heka       1H  IN CNAME heka
 
 ; CODFW fundraising/payments management
 $ORIGIN mgmt.frack.codfw.wmnet.
-alnitak             1H  IN A    10.195.0.108
-wmf6151             1H  IN A    10.195.0.108
 bellatrix           1H  IN A    10.195.0.109
 wmf6152             1H  IN A    10.195.0.109
 frauth2001          1H  IN A    10.195.0.115
@@ -3654,8 +3652,6 @@ frban2001           1H  IN A    10.195.0.117
 wmf6776             1H  IN A    10.195.0.117
 frbast2001          1H  IN A    10.195.0.113
 wmf6637             1H  IN A    10.195.0.113
-frdb2001            1H  IN A    10.195.0.110
-wmf6117             1H  IN A    10.195.0.110
 frdb2002            1H  IN A    10.195.0.105
 wmf6781             1H  IN A    10.195.0.105
 frlog2001           1H  IN A    10.195.0.106

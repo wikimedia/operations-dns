@@ -5099,12 +5099,9 @@ $ORIGIN 0.195.@Z
 106 1H IN PTR  wmf6807.mgmt.frack.codfw.wmnet.
 107 1H IN PTR  mintaka.mgmt.frack.codfw.wmnet.
 107 1H IN PTR  wmf6150.mgmt.frack.codfw.wmnet.
-108 1H IN PTR  alnitak.mgmt.frack.codfw.wmnet.
-108 1H IN PTR  wmf6151.mgmt.frack.codfw.wmnet.
+
 109 1H IN PTR  bellatrix.mgmt.frack.codfw.wmnet.
 109 1H IN PTR  wmf6152.mgmt.frack.codfw.wmnet.
-110 1H IN PTR  frdb2001.mgmt.frack.codfw.wmnet.
-110 1H IN PTR  wmf6117.mgmt.frack.codfw.wmnet.
 
 112 1H IN PTR  frbackup2001.mgmt.frack.codfw.wmnet.
 112 1H IN PTR  wmf6555.mgmt.frack.codfw.wmnet.
