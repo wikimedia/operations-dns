@@ -1381,6 +1381,12 @@ cloudvirt1029   1H  IN A    10.65.5.102
 wmf7495         1H  IN A    10.65.5.102
 cloudvirt1030   1H  IN A    10.65.5.103
 wmf7496         1H  IN A    10.65.5.103
+cloudvirt-wdqs1001 1H  IN A 10.65.3.152
+wmf5274         1H  IN A    10.65.3.152
+cloudvirt-wdqs1002 1H  IN A 10.65.3.153
+wmf5273         1H  IN A    10.65.3.153
+cloudvirt-wdqs1003 1H  IN A 10.65.3.154
+wmf5272         1H  IN A    10.65.3.154
 an-presto1001   1H  IN A    10.65.6.15
 wmf7470         1H  IN A    10.65.6.15
 an-presto1002   1H  IN A    10.65.6.16

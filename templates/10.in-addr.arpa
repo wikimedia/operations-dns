@@ -2098,6 +2098,12 @@ $ORIGIN 3.65.@Z
 150     1H      IN PTR          cloudelastic1003.mgmt.eqiad.wmnet.
 151     1H      IN PTR          wmf7387.mgmt.eqiad.wmnet.
 151     1H      IN PTR          cloudelastic1004.mgmt.eqiad.wmnet.
+152     1H      IN PTR          cloudvirt-wdqs1001.mgmt.eqiad.wmnet.
+152     1H      IN PTR          wmf5274.mgmt.eqiad.wmnet.
+153     1H      IN PTR          cloudvirt-wdqs1002.mgmt.eqiad.wmnet.
+153     1H      IN PTR          wmf5273.mgmt.eqiad.wmnet.
+154     1H      IN PTR          cloudvirt-wdqs1003.mgmt.eqiad.wmnet.
+154     1H      IN PTR          wmf5272.mgmt.eqiad.wmnet.
 
 178     1H      IN PTR          wmf5842.mgmt.eqiad.wmnet.
 178     1H      IN PTR          scb1002.mgmt.eqiad.wmnet.
