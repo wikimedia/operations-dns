@@ -863,6 +863,7 @@ $ORIGIN 32.64.@Z
 117     1H IN PTR       maps1003.eqiad.wmnet.
 118     1H IN PTR       ms-be1024.eqiad.wmnet.
 119     1H IN PTR       ms-be1025.eqiad.wmnet.
+120     1H IN PTR       install1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 123     1H IN PTR       mwdebug1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
@@ -3266,6 +3267,7 @@ $ORIGIN 0.192.@Z
 137 1H IN PTR   ms-be2017.codfw.wmnet.
 138 1H IN PTR   auth2001.codfw.wmnet.
 139 1H IN PTR   logstash2020.codfw.wmnet.
+140 1h IN PTR   install2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 141 1H IN PTR   es2014.codfw.wmnet.
 142 1H IN PTR   es2017.codfw.wmnet.
 143 1H IN PTR   conf2001.codfw.wmnet.
