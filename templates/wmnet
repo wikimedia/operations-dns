@@ -3067,6 +3067,7 @@ ganeti2015      1H  IN A    10.192.48.48
 ganeti2016      1H  IN A    10.192.48.49
 ganeti2017      1H  IN A    10.192.48.50
 ganeti2018      1H  IN A    10.192.48.51
+grafana2001     1H  IN A    10.192.0.160 ; VM on ganeti01.svc.codfw.wmnet
 graphite2003    1H  IN A    10.192.0.102
 heze            1H  IN A    10.192.0.31
 install2003     1H  IN A    10.192.0.140 ; VM on ganeti01.svc.codfw.wmnet

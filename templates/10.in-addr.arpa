@@ -3287,6 +3287,7 @@ $ORIGIN 0.192.@Z
 157 1H IN PTR   es2020.codfw.wmnet.
 158 1H IN PTR   es2024.codfw.wmnet.
 159 1H IN PTR   logstash2026.codfw.wmnet.
+160 1H IN PTR   grafana2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 $ORIGIN 1.192.@Z
 1   1H IN PTR   lvs2001.codfw.wmnet.
