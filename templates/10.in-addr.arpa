@@ -5145,7 +5145,6 @@ $ORIGIN 0.195.@Z
 66 1H IN PTR  frmon2001.frack.codfw.wmnet.
 
 74 1H IN PTR  heka.frack.codfw.wmnet.
-75 1H IN PTR  bellatrix.frack.codfw.wmnet.
 76 1H IN PTR  frlog2001.frack.codfw.wmnet.
 77 1H IN PTR  frbackup2001.frack.codfw.wmnet.
 78 1H IN PTR  frauth2001.frack.codfw.wmnet.
