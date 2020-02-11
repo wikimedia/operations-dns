@@ -73,5 +73,3 @@
 # Don't use this file, instead edit the file "config" and switch the geo-maps part there!
 # cr1-eqsin upgrade - T243080
 geoip/generic-map/eqsin => DOWN
-
-geoip/generic-map/eqiad => DOWN
