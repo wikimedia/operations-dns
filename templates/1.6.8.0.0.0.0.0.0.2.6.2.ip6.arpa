@@ -308,6 +308,7 @@ $ORIGIN 6.0.1.0.@Z
 3.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1089.eqiad.wmnet.
 3.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1090.eqiad.wmnet.
 5.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1091.eqiad.wmnet.
+2.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-launcher1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 5.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-conf1002.eqiad.wmnet.
 
 ; private1-d-eqiad (2620:0:861:107::/64)
