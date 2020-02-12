@@ -30,7 +30,6 @@
 24  1H  IN PTR  cloud-recursor1.wikimedia.org.
 25  1H  IN PTR  ldap-eqiad-replica01.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 26  1H  IN PTR  idp1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-27  1H  IN PTR  bohrium.wikimedia.org.
 28  1H  IN PTR  ldap-corp1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 29  1H  IN PTR  urldownloader1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
