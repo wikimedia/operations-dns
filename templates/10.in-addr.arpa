@@ -1280,7 +1280,42 @@ $ORIGIN 48.64.@Z
 188     1H  IN PTR      ganeti1020.eqiad.wmnet.
 189     1H  IN PTR      ganeti1021.eqiad.wmnet.
 190     1H  IN PTR      ganeti1022.eqiad.wmnet.
-
+191     1H  IN PTR      mw1349.eqiad.wmnet.
+192     1H  IN PTR      mw1350.eqiad.wmnet.
+193     1H  IN PTR      mw1351.eqiad.wmnet.
+194     1H  IN PTR      mw1352.eqiad.wmnet.
+195     1H  IN PTR      mw1353.eqiad.wmnet.
+196     1H  IN PTR      mw1354.eqiad.wmnet.
+197     1H  IN PTR      mw1355.eqiad.wmnet.
+198     1H  IN PTR      mw1356.eqiad.wmnet.
+199     1H  IN PTR      mw1357.eqiad.wmnet.
+200     1H  IN PTR      mw1358.eqiad.wmnet.
+201     1H  IN PTR      mw1359.eqiad.wmnet.
+202     1H  IN PTR      mw1360.eqiad.wmnet.
+203     1H  IN PTR      mw1361.eqiad.wmnet.
+204     1H  IN PTR      mw1362.eqiad.wmnet.
+205     1H  IN PTR      mw1363.eqiad.wmnet.
+206     1H  IN PTR      mw1364.eqiad.wmnet.
+207     1H  IN PTR      mw1365.eqiad.wmnet.
+208     1H  IN PTR      mw1366.eqiad.wmnet.
+209     1H  IN PTR      mw1367.eqiad.wmnet.
+210     1H  IN PTR      mw1368.eqiad.wmnet.
+211     1H  IN PTR      mw1369.eqiad.wmnet.
+212     1H  IN PTR      mw1370.eqiad.wmnet.
+213     1H  IN PTR      mw1371.eqiad.wmnet.
+214     1H  IN PTR      mw1372.eqiad.wmnet.
+215     1H  IN PTR      mw1373.eqiad.wmnet.
+216     1H  IN PTR      mw1374.eqiad.wmnet.
+217     1H  IN PTR      mw1375.eqiad.wmnet.
+218     1H  IN PTR      mw1376.eqiad.wmnet.
+219     1H  IN PTR      mw1377.eqiad.wmnet.
+220     1H  IN PTR      mw1378.eqiad.wmnet.
+221     1H  IN PTR      mw1379.eqiad.wmnet.
+222     1H  IN PTR      mw1380.eqiad.wmnet.
+223     1H  IN PTR      mw1381.eqiad.wmnet.
+224     1H  IN PTR      mw1382.eqiad.wmnet.
+225     1H  IN PTR      mw1383.eqiad.wmnet.
+226     1H  IN PTR      mw1384.eqiad.wmnet.
 
 $ORIGIN 49.64.@Z
 
