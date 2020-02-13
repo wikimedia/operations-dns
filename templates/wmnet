@@ -2807,7 +2807,6 @@ wmf4691          1H     IN A            10.65.4.23
 
 ; EQIAD fundraising/payments
 $ORIGIN frack.eqiad.wmnet.
-americium       1H      IN A    10.64.40.113
 civi1001        1H      IN A    10.64.40.109
 bismuth         1H      IN A    10.64.40.69
 frav1002        1H      IN A    10.64.40.74
