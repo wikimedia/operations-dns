@@ -644,6 +644,7 @@ $ORIGIN 16.64.@Z
 144 1H IN PTR   cloudcephosd1001-eth1.eqiad.wmnet.
 145 1H IN PTR   cloudcephosd1002-eth1.eqiad.wmnet.
 146 1H IN PTR   cloudcephosd1003-eth1.eqiad.wmnet.
+147 1H IN PTR   snapshot1010.eqiad.wmnet.
 
 149 1H IN PTR   graphite1004.eqiad.wmnet.
 
