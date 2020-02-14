@@ -111,6 +111,8 @@ _dmarc.donate   1H  IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc@donate.w
 
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
 
+apt1001         1H  IN A    208.80.154.30 ; VM on ganeti01.svc.eqiad.wmnet
+apt1001         1H  IN AAAA 2620:0:861:1:208:80:154:30 ; VM on ganeti01.svc.eqiad.wmnet
 archiva1001     1H  IN A    208.80.154.16 ; VM on ganeti01.svc.eqiad.wmnet
 archiva1001     1H  IN AAAA 2620:0:861:1:208:80:154:16 ; VM on ganeti01.svc.eqiad.wmnet
 authdns1001     1H  IN A    208.80.154.134
