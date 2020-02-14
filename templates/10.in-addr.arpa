@@ -1782,7 +1782,8 @@ $ORIGIN 2.65.@Z
 42  1H  IN PTR      wmf5305.mgmt.eqiad.wmnet.
 43  1H  IN PTR      cloudservices1003.mgmt.eqiad.wmnet.
 43  1H  IN PTR      wmf7225.mgmt.eqiad.wmnet.
-
+44  1H  IN PTR      snapshot1010.mgmt.eqiad.wmnet.
+44  1H  IN PTR      wmf5345.mgmt.eqiad.wmnet.
 45  1H  IN PTR      wmf4171.mgmt.eqiad.wmnet.
 46  1H  IN PTR      wmf4172.mgmt.eqiad.wmnet.
 47  1H  IN PTR      wmf4173.mgmt.eqiad.wmnet.

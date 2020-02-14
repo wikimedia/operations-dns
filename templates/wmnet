@@ -2436,6 +2436,8 @@ snapshot1008    1H  IN A    10.65.4.139
 wmf7371         1H  IN A    10.65.4.139
 snapshot1009    1H  IN A    10.65.2.162
 wmf7375         1H  IN A    10.65.2.162
+snapshot1010    1H  IN A    10.65.2.44
+wmf5345         1H  IN A    10.65.2.44
 dbproxy1012     1H  IN A    10.65.2.163
 wmf7396         1H  IN A    10.65.2.163
 dbproxy1013     1H  IN A    10.65.2.164
