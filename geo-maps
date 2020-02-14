@@ -183,7 +183,7 @@ generic-map => {
                 ON => [eqiad, codfw, ulsfo, esams, eqsin], # Ontario
                 PE => [eqiad, codfw, ulsfo, esams, eqsin], # Prince Edward Island
                 QC => [eqiad, codfw, ulsfo, esams, eqsin], # Quebec
-                SK => [eqiad, codfw, ulsfo, esams, eqsin], # Saskatchewan
+                SK => [ulsfo, codfw, eqiad, esams, eqsin], # Saskatchewan
                 YT => [ulsfo, codfw, eqiad, esams, eqsin], # Yukon Territory
             },
             MX => [codfw, eqiad, ulsfo, esams, eqsin], # Mexico
