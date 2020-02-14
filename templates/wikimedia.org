@@ -101,7 +101,7 @@ reflect      10 IN DYNA reflect ; GeoDNS debugging
 text-lb     1D IN CNAME dyna.wikimedia.org.
 ncredir-lb  600 IN DYNA geoip!ncredir-addrs
 upload      600 IN DYNA geoip!upload-addrs
-maps        1D IN CNAME upload.wikimedia.org.
+maps        600 IN CNAME upload.wikimedia.org.
 m           1D IN CNAME dyna.wikimedia.org.
 donate      600 IN DYNA geoip!text-addrs
 donate          1H  IN MX       10 mx1001
