@@ -5728,6 +5728,7 @@ analytics-web         300 IN CNAME thorium.eqiad.wmnet.
 ticket                300 IN CNAME mendelevium.eqiad.wmnet.
 doc                   300 IN CNAME doc1001.eqiad.wmnet.
 grafana-labs          300 IN CNAME cloudmetrics1002.eqiad.wmnet.
+graphite-labs         300 IN CNAME cloudmetrics1002.eqiad.wmnet.
 
 ; Internal Anycast addresses (10.3.0.0/24)
 
