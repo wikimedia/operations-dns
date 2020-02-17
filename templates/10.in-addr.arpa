@@ -855,6 +855,7 @@ $ORIGIN 32.64.@Z
 100     1H IN PTR       ganeti1012.eqiad.wmnet.
 101     1H IN PTR       mc-gp1002.eqiad.wmnet.
 102     1H IN PTR       es1022.eqiad.wmnet.
+103     1H IN PTR       flowspec1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
