@@ -27,8 +27,8 @@ plugins => {
             ## Choose just one of the two "geo-maps" below, and comment out the
             ## other, used as a special operational case for depooling esams
             ## without overloading eqiad:
-            #$include{geo-maps}, # default
-            $include{geo-maps-esams-offline}, # esams depool + US shift towards codfw
+            $include{geo-maps}, # default
+            # $include{geo-maps-esams-offline}, # esams depool + US shift towards codfw
 
             ## DNS Discovery map, unrelated to the above:
             $include{discovery-map},
