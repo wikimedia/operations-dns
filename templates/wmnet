@@ -3823,6 +3823,8 @@ frban2001           1H  IN A    10.195.0.117
 wmf6776             1H  IN A    10.195.0.117
 frbast2001          1H  IN A    10.195.0.113
 wmf6637             1H  IN A    10.195.0.113
+frdb2001            1H  IN A    10.195.0.109
+wmf5573             1H  IN A    10.195.0.109
 frdb2002            1H  IN A    10.195.0.105
 wmf6781             1H  IN A    10.195.0.105
 frlog2001           1H  IN A    10.195.0.106
@@ -3845,6 +3847,12 @@ payments2002        1H  IN A    10.195.0.99
 wmf6143             1H  IN A    10.195.0.99
 payments2003        1H  IN A    10.195.0.100
 wmf6142             1H  IN A    10.195.0.100
+payments2001-a      1H  IN A    10.195.0.108
+wmf6870             1H  IN A    10.195.0.108
+payments2002-a      1H  IN A    10.195.0.110
+wmf6871             1H  IN A    10.195.0.110
+payments2003-a      1H  IN A    10.195.0.111
+wmf6872             1H  IN A    10.195.0.111
 frpig2001           1H  IN A    10.195.0.104
 wmf6147             1H  IN A    10.195.0.104
 saiph               1H  IN CNAME frpig2001
