@@ -5723,6 +5723,8 @@ kibana-next     1H  IN A        10.2.2.48
 echostore       1H  IN A        10.2.2.49
 eventgate-logging-external 1H  IN A    10.2.2.50
 cloudceph       1H  IN A        10.2.2.51
+eventgate-analytics-external 1H  IN A    10.2.2.52
+
 
 ganeti01    1H  IN A        10.64.32.173
 labstore    1H  IN A        10.64.37.10
@@ -5812,6 +5814,8 @@ echostore       1H  IN A        10.2.1.49
 ganeti01        1H  IN A        10.192.16.131
 oresrdb         5M  IN A        10.192.16.31
 eventgate-logging-external 1H  IN A    10.2.1.50
+
+eventgate-analytics-external 1H  IN A    10.2.1.52
 
 ; DISCOVERY SERVICES
 
