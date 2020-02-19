@@ -5862,6 +5862,7 @@ wikifeeds      300/10 IN DYNA geoip!disc-wikifeeds
 echostore      300/10 IN DYNA geoip!disc-echostore
 schema         300/10 IN DYNA geoip!disc-schema
 eventgate-logging-external 300/10 IN DYNA geoip!disc-eventgate-logging-external
+eventgate-analytics-external 300/10 IN DYNA geoip!disc-eventgate-analytics-external
 
 
 ; misc web services with multiple backends but without geoip
