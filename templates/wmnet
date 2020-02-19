@@ -5565,7 +5565,7 @@ docker-registry 1H  IN A        10.2.2.44
 eventgate-main  1H  IN A        10.2.2.45
 termbox         1H  IN A        10.2.2.46
 wikifeeds       1H  IN A        10.2.2.47
-restrouter      1H  IN A        10.2.2.48
+
 echostore       1H  IN A        10.2.2.49
 eventgate-logging-external 1H  IN A    10.2.2.50
 cloudceph       1H  IN A        10.2.2.51
@@ -5653,7 +5653,7 @@ docker-registry 1H  IN A        10.2.1.44
 eventgate-main  1H  IN A        10.2.1.45
 termbox         1H  IN A        10.2.1.46
 wikifeeds       1H  IN A        10.2.1.47
-restrouter      1H  IN A        10.2.1.48
+
 echostore       1H  IN A        10.2.1.49
 ganeti01        1H  IN A        10.192.16.131
 oresrdb         5M  IN A        10.192.16.31
@@ -5704,7 +5704,6 @@ eventgate-main 300/10 IN DYNA geoip!disc-eventgate-main
 sessionstore   300/10 IN DYNA geoip!disc-sessionstore
 termbox        300/10 IN DYNA geoip!disc-termbox
 wikifeeds      300/10 IN DYNA geoip!disc-wikifeeds
-restrouter     300/10 IN DYNA geoip!disc-restrouter
 echostore      300/10 IN DYNA geoip!disc-echostore
 schema         300/10 IN DYNA geoip!disc-schema
 eventgate-logging-external 300/10 IN DYNA geoip!disc-eventgate-logging-external
