@@ -261,6 +261,8 @@ labweb1002      1H  IN A    208.80.155.109
 labweb1002      1H  IN AAAA 2620:0:861:4:208:80:155:109
 ldap-corp1001   1H  IN A    208.80.154.28 ; VM on ganeti01.svc.eqiad.wmnet
 ldap-corp2001   1H  IN A    208.80.153.48 ; VM on ganeti01.svc.codfw.wmnet
+lists1001       1H  IN A    208.80.154.31 ; VM on ganeti01.svc.eqiad.wmnet
+lists1001       1H  IN AAAA 2620:0:861:1:208:80:154:31 ; VM on ganeti01.svc.eqiad.wmnet
 sodium          1H  IN A    208.80.154.15
 sodium          1H  IN AAAA 2620:0:861:1:208:80:154:15
 mx1001          1H  IN A    208.80.154.76 ; VM on ganeti01.svc.eqiad.wmnet
