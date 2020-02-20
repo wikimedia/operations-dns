@@ -71,3 +71,5 @@
 ##############################################################################
 # TO DEPOOL ESAMS:
 # Don't use this file, instead edit the file "config" and switch the geo-maps part there!
+geoip/generic-map/ulsfo => DOWN
+geoip/generic-map/codfw => DOWN
