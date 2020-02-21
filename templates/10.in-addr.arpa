@@ -5392,6 +5392,7 @@ $ORIGIN 0.195.@Z
 33 1H IN PTR  reth0-2135.pfw3-codfw.frack.codfw.wmnet.
 34 1H IN PTR  frdb2001.frack.codfw.wmnet.
 36 1H IN PTR  mintaka.frack.codfw.wmnet.
+37 1H IN PTR  civi2001.frack.codfw.wmnet.
 39 1H IN PTR  frqueue2001.frack.codfw.wmnet.
 40 1H IN PTR  frban2001.frack.codfw.wmnet.
 41 1H IN PTR  frdb2002.frack.codfw.wmnet.
@@ -5401,6 +5402,7 @@ $ORIGIN 0.195.@Z
 66 1H IN PTR  frmon2001.frack.codfw.wmnet.
 
 74 1H IN PTR  heka.frack.codfw.wmnet.
+75 1H IN PTR  frpm2001.frack.codfw.wmnet.
 76 1H IN PTR  frlog2001.frack.codfw.wmnet.
 77 1H IN PTR  frbackup2001.frack.codfw.wmnet.
 78 1H IN PTR  frauth2001.frack.codfw.wmnet.
