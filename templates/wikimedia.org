@@ -445,6 +445,7 @@ fixcopyright.m      1D IN CNAME dyna.wikimedia.org.
 foundation.m        1D IN CNAME dyna.wikimedia.org.
 fi.m                1D IN CNAME dyna.wikimedia.org.
 ge.m                1D IN CNAME dyna.wikimedia.org.
+gr.m                1D IN CNAME dyna.wikimedia.org.
 hi.m                1D IN CNAME dyna.wikimedia.org.
 legalteam.m         1D IN CNAME dyna.wikimedia.org.
 mai.m               1D IN CNAME dyna.wikimedia.org.
@@ -744,6 +745,7 @@ fi               1D IN CNAME dyna.wikimedia.org.
 fixcopyright     1D IN CNAME dyna.wikimedia.org.
 foundation       1D IN CNAME dyna.wikimedia.org.
 ge               1D IN CNAME dyna.wikimedia.org.
+gr               1D IN CNAME dyna.wikimedia.org.
 grants           1D IN CNAME dyna.wikimedia.org.
 hi               1D IN CNAME dyna.wikimedia.org.
 hu               1D IN CNAME dyna.wikimedia.org.
