@@ -3558,6 +3558,26 @@ orespoolcounter2003 1H IN A 10.192.0.133 ; VM on ganeti01.svc.codfw.wmnet
 orespoolcounter2004 1H IN A 10.192.16.130 ; VM on ganeti01.svc.codfw.wmnet
 oresrdb2001     1H  IN A    10.192.16.31 ; VM on ganeti01.svc.codfw.wmnet
 oresrdb2002     1H  IN A    10.192.32.21
+parse2001      1H  IN A    10.192.0.182
+parse2002      1H  IN A    10.192.0.183
+parse2003      1H  IN A    10.192.0.184
+parse2004      1H  IN A    10.192.0.185
+parse2005      1H  IN A    10.192.0.186
+parse2006      1H  IN A    10.192.16.21
+parse2007      1H  IN A    10.192.16.22
+parse2008      1H  IN A    10.192.16.24
+parse2009      1H  IN A    10.192.16.25
+parse2010      1H  IN A    10.192.16.206
+parse2011      1H  IN A    10.192.32.195
+parse2012      1H  IN A    10.192.32.196
+parse2013      1H  IN A    10.192.32.197
+parse2014      1H  IN A    10.192.32.198
+parse2015      1H  IN A    10.192.32.199
+parse2016      1H  IN A    10.192.48.149
+parse2017      1H  IN A    10.192.48.150
+parse2018      1H  IN A    10.192.48.151
+parse2019      1H  IN A    10.192.48.152
+parse2020      1H  IN A    10.192.48.153
 planet2001      1H  IN A    10.192.0.92 ; VM on ganeti01.svc.codfw.wmnet
 planet2001      1H  IN AAAA 2620:0:860:101:10:192:0:92 ; VM on ganeti01.svc.codfw.wmnet
 pc2007          1H  IN A    10.192.0.104
@@ -4460,6 +4480,26 @@ ores2007        1H  IN A    10.193.1.196
 ores2008        1H  IN A    10.193.2.135
 ores2009        1H  IN A    10.193.2.136
 oresrdb2002     1H  IN A    10.193.1.65
+parse2001       1H  IN A    10.193.3.108
+parse2002       1H  IN A    10.193.3.109
+parse2003       1H  IN A    10.193.3.110
+parse2004       1H  IN A    10.193.3.111
+parse2005       1H  IN A    10.193.3.112
+parse2006       1H  IN A    10.193.3.113
+parse2007       1H  IN A    10.193.3.114
+parse2008       1H  IN A    10.193.3.115
+parse2009       1H  IN A    10.193.3.116
+parse2010       1H  IN A    10.193.3.117
+parse2011       1H  IN A    10.193.3.118
+parse2012       1H  IN A    10.193.3.119
+parse2013       1H  IN A    10.193.3.120
+parse2014       1H  IN A    10.193.3.121
+parse2015       1H  IN A    10.193.3.122
+parse2016       1H  IN A    10.193.3.123
+parse2017       1H  IN A    10.193.3.124
+parse2018       1H  IN A    10.193.3.125
+parse2019       1H  IN A    10.193.3.126
+parse2020       1H  IN A    10.193.3.127
 papaul-laptop   1H  IN A    10.193.1.7
 pc2007          1H  IN A    10.193.1.208
 pc2008          1H  IN A    10.193.1.209
@@ -4544,6 +4584,9 @@ wmf3649         1H  IN A    10.193.1.248
 wmf3651         1H  IN A    10.193.1.249
 wmf3654         1H  IN A    10.193.2.244
 wmf3656         1H  IN A    10.193.2.245
+wmf5570         1H  IN A    10.193.3.115
+wmf5571         1H  IN A    10.193.3.116
+wmf5572         1H  IN A    10.193.3.117
 wmf5836         1H  IN A    10.193.1.250
 wmf6132         1H  IN A    10.193.1.1
 wmf6133         1H  IN A    10.193.1.2
@@ -5130,6 +5173,13 @@ wmf6848         1H  IN A    10.193.2.154
 wmf6849         1H  IN A    10.193.2.155
 wmf6850         1H  IN A    10.193.2.156
 wmf6851         1H  IN A    10.193.2.157
+wmf6852         1H  IN A    10.193.3.108
+wmf6853         1H  IN A    10.193.3.109
+wmf6854         1H  IN A    10.193.3.110
+wmf6855         1H  IN A    10.193.3.111
+wmf6856         1H  IN A    10.193.3.112
+wmf6857         1H  IN A    10.193.3.113
+wmf6858         1H  IN A    10.193.3.114
 wmf6859         1H  IN A    10.193.1.8
 wmf6860         1H  IN A    10.193.1.9
 wmf6861         1H  IN A    10.193.1.10
@@ -5141,6 +5191,16 @@ wmf6866         1H  IN A    10.193.3.104
 wmf6867         1H  IN A    10.193.3.105
 wmf6868         1H  IN A    10.193.3.106
 wmf6869         1H  IN A    10.193.3.107
+wmf6889         1H  IN A    10.193.3.118
+wmf6890         1H  IN A    10.193.3.119
+wmf6891         1H  IN A    10.193.3.120
+wmf6892         1H  IN A    10.193.3.121
+wmf6893         1H  IN A    10.193.3.122
+wmf6894         1H  IN A    10.193.3.123
+wmf6895         1H  IN A    10.193.3.124
+wmf6896         1H  IN A    10.193.3.125
+wmf6897         1H  IN A    10.193.3.126
+wmf6898         1H  IN A    10.193.3.127
 
 ;
 ; ESAMS
