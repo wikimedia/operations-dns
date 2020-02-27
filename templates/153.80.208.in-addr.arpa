@@ -18,7 +18,6 @@
 8   1H  IN PTR  vl2001-eth0.lvs2003.codfw.wmnet.
 9   1H  IN PTR  vl2001-eth1.lvs2004.codfw.wmnet.
 10  1H  IN PTR  vl2001-eth1.lvs2005.codfw.wmnet.
-11  1H  IN PTR  vl2001-eth1.lvs2006.codfw.wmnet.
 12  1H  IN PTR  netbox2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 15  1H  IN PTR  contint2001.wikimedia.org.
 17  1H  IN PTR  authdns2001.wikimedia.org.
@@ -38,7 +37,6 @@
 35  1H  IN PTR  ae2-2002.cr2-codfw.wikimedia.org.
 36  1H  IN PTR  vl2002-eth0.lvs2004.codfw.wmnet.
 37  1H  IN PTR  vl2002-eth0.lvs2005.codfw.wmnet.
-38  1H  IN PTR  vl2002-eth0.lvs2006.codfw.wmnet.
 39  1H  IN PTR  vl2002-eth1.lvs2001.codfw.wmnet.
 40  1H  IN PTR  vl2002-eth1.lvs2002.codfw.wmnet.
 41  1H  IN PTR  vl2002-eth1.lvs2003.codfw.wmnet.
@@ -72,7 +70,6 @@
 70  1H  IN PTR  vl2003-eth2.lvs2003.codfw.wmnet.
 71  1H  IN PTR  vl2003-eth2.lvs2004.codfw.wmnet.
 72  1H  IN PTR  vl2003-eth2.lvs2005.codfw.wmnet.
-73  1H  IN PTR  vl2003-eth2.lvs2006.codfw.wmnet.
 74  1H  IN PTR  icinga2001.wikimedia.org.
 75  1H  IN PTR  cloudcontrol2003-dev.wikimedia.org.
 76  1H  IN PTR  cloudservices2002-dev.wikimedia.org.
@@ -92,7 +89,6 @@
 102 1H  IN PTR  vl2004-eth3.lvs2003.codfw.wmnet.
 103 1H  IN PTR  vl2004-eth3.lvs2004.codfw.wmnet.
 104 1H  IN PTR  vl2004-eth3.lvs2005.codfw.wmnet.
-105 1H  IN PTR  vl2004-eth3.lvs2006.codfw.wmnet.
 106 1H  IN PTR  gerrit2001.wikimedia.org.
 107 1H  IN PTR  gerrit-replica.wikimedia.org.
 108 1H  IN PTR  labtestpuppetmaster2001.wikimedia.org.
