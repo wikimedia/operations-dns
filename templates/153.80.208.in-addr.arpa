@@ -15,7 +15,6 @@
 
 6   1H  IN PTR  vl2001-eth0.lvs2001.codfw.wmnet.
 7   1H  IN PTR  vl2001-eth0.lvs2002.codfw.wmnet.
-8   1H  IN PTR  vl2001-eth0.lvs2003.codfw.wmnet.
 9   1H  IN PTR  vl2001-eth1.lvs2004.codfw.wmnet.
 10  1H  IN PTR  vl2001-eth1.lvs2005.codfw.wmnet.
 12  1H  IN PTR  netbox2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
@@ -39,7 +38,6 @@
 37  1H  IN PTR  vl2002-eth0.lvs2005.codfw.wmnet.
 39  1H  IN PTR  vl2002-eth1.lvs2001.codfw.wmnet.
 40  1H  IN PTR  vl2002-eth1.lvs2002.codfw.wmnet.
-41  1H  IN PTR  vl2002-eth1.lvs2003.codfw.wmnet.
 
 43  1H  IN PTR  pollux.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 44  1H  IN PTR  kraz.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
@@ -67,7 +65,6 @@
 67  1H  IN PTR  ae3-2003.cr2-codfw.wikimedia.org.
 68  1H  IN PTR  vl2003-eth2.lvs2001.codfw.wmnet.
 69  1H  IN PTR  vl2003-eth2.lvs2002.codfw.wmnet.
-70  1H  IN PTR  vl2003-eth2.lvs2003.codfw.wmnet.
 71  1H  IN PTR  vl2003-eth2.lvs2004.codfw.wmnet.
 72  1H  IN PTR  vl2003-eth2.lvs2005.codfw.wmnet.
 74  1H  IN PTR  icinga2001.wikimedia.org.
@@ -86,7 +83,6 @@
 99  1H  IN PTR  ae4-2004.cr2-codfw.wikimedia.org.
 100 1H  IN PTR  vl2004-eth3.lvs2001.codfw.wmnet.
 101 1H  IN PTR  vl2004-eth3.lvs2002.codfw.wmnet.
-102 1H  IN PTR  vl2004-eth3.lvs2003.codfw.wmnet.
 103 1H  IN PTR  vl2004-eth3.lvs2004.codfw.wmnet.
 104 1H  IN PTR  vl2004-eth3.lvs2005.codfw.wmnet.
 106 1H  IN PTR  gerrit2001.wikimedia.org.
