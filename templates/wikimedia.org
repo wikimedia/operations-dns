@@ -563,7 +563,7 @@ pfw3-codfw      1H  IN A     208.80.153.197
 
 annual          1D IN CNAME dyna.wikimedia.org.
 
-apt             300  IN CNAME   install1002
+apt             300  IN CNAME   apt1001
 
 archiva         5M  IN CNAME    archiva1001
 
