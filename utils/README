@@ -90,6 +90,13 @@ The argument -s/--skip-reload expects gdnsd to be installed and does run the
 "checkconf" validation before deploying, but does not execute any post-deploy
 gdnsd reload/replace commands.  Only useful with --deploy.
 
+The -g/--generated-include argument takes a path to a checkout of the
+automated (generated) DNS from Netbox. This is copied into the output
+tree that gen-zones creates in order to support $INCLUDE directives
+which include contents from it. If this is not specified, a fresh
+checkout from the Netbox server will be created in a temporary
+directory and copied in.
+
 In typical scenarios, puppet's authdns-local-update will be what invokes this
 in --deploy mode, but it is possible to use it directly in case of emergencies
 making puppet, dns, and/or ssh unavailable.

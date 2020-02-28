@@ -24,6 +24,7 @@
 # "reload-zones" is triggered as appropriate.
 
 import argparse
+import os
 import subprocess
 import shutil
 from pathlib import Path
@@ -53,6 +54,9 @@ GEOIP_DB = 'GeoIP2-City.mmdb'
 GDNSD_BIN = '/usr/sbin/gdnsd'
 GDNSDCTL_BIN = '/usr/bin/gdnsdctl'
 
+# Git repository which contains generated DNS
+GEN_DNS_GIT = 'https://netbox-exports.wikimedia.org/dns.git'
+
 
 def parse_args():
     """Sets up argument parser and its arguments, returns args"""
@@ -69,6 +73,7 @@ def parse_args():
                         help='Deploy with checking, but without reload',
                         action='store_true',
                         default=0)
+    parser.add_argument('-g', '--generated-include', help='Specify path to generated include files', default='')
     return parser.parse_args()
 
 
@@ -128,7 +133,15 @@ def deploy_state(tdir_state):
         shutil.copy(str(src), str(dst))
 
 
-def setup_tdir(deploy, tdir, tdir_zones, tdir_state):
+def setup_gen_repo(gen_dns_git):
+    """Make a checkout of the generated DNS git repository in a temporary place."""
+    path = TemporaryDirectory(prefix='dns-check-generated.')
+    print("Checking out generated DNS to", path.name)
+    safe_cmd(('git', 'clone', gen_dns_git, path.name))
+    return path
+
+
+def setup_tdir(deploy, tdir, tdir_zones, tdir_state, gdir):
     """Setup all contents of the test directory, return srcdir"""
 
     # Create subdirs in tdir:
@@ -141,7 +154,8 @@ def setup_tdir(deploy, tdir, tdir_zones, tdir_state):
     subprocess.run(['utils/gen-zones.py', str(tdir_zones)], check=True)
     if len(list(tdir_zones.iterdir())) < 10:
         raise Exception('Less than 10 zones generated, something is wrong')
-
+    print(' -- Copying automatically generated zone files under target tree')
+    shutil.copytree(str(gdir), os.path.join(str(tdir), 'zones', 'netbox'), ignore=lambda x, y: ['.git'])
     print(' -- Copying repo-driven real config files and admin_state')
     for realcf in DNS_CFG:
         shutil.copy(str(realcf), str(tdir))
@@ -170,13 +184,13 @@ def setup_tdir(deploy, tdir, tdir_zones, tdir_state):
     return srcdir
 
 
-def deploy_check(deploy, skip_reload, no_gdnsd, tdir):
+def deploy_check(deploy, skip_reload, no_gdnsd, tdir, gdir):
     """Does the core work of the script"""
 
     print('Assembling and testing data in %s' % tdir)
     tdir_zones = tdir / 'zones'
     tdir_state = tdir / 'state'
-    srcdir = setup_tdir(deploy, tdir, tdir_zones, tdir_state)
+    srcdir = setup_tdir(deploy, tdir, tdir_zones, tdir_state, gdir)
 
     # Check for tabs, which we disallow
     print(' -- Checking for illegal tabs in zonefiles')
@@ -232,10 +246,24 @@ def main():
     if not gitr.is_file() or 'operations/dns' not in gitr.read_text():
         raise Exception('Execute in root of an operations/dns repo clone')
 
-    # Execute the core deploy_check with a Path object for the temp dir which
-    # is automatically cleaned up via context:
-    with TemporaryDirectory(prefix='dns-check.') as tdir:
-        deploy_check(args.deploy, args.skip_reload, args.no_gdnsd, Path(tdir))
+    if not args.generated_include:
+        # do a checkout of the generated DNS repository into a temporary for testing purposes.
+        gtmpdir = setup_gen_repo(GEN_DNS_GIT)
+        gdir = gtmpdir.name
+    else:
+        # assume the environment variable is correct.
+        gtmpdir = None
+        gdir = args.generated_include
+
+    try:
+        # Execute the core deploy_check with a Path object for the temp dir which
+        # is automatically cleaned up via context:
+        with TemporaryDirectory(prefix='dns-check.') as tdir:
+            deploy_check(args.deploy, args.skip_reload, args.no_gdnsd, Path(tdir), gdir)
+    finally:
+        # clean up gen dns checkout if necessary
+        if gtmpdir is not None:
+            gtmpdir.cleanup()
 
 
 if __name__ == '__main__':
