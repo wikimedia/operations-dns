@@ -415,6 +415,14 @@ $ORIGIN 0.64.@Z
 186 1H IN PTR   kubetcd1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 187 1H IN PTR   kubestagetcd1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 188 1H IN PTR   kubestagetcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+189 1H IN PTR   mw1385.eqiad.wmnet.
+190 1H IN PTR   mw1386.eqiad.wmnet.
+191 1H IN PTR   mw1387.eqiad.wmnet.
+192 1H IN PTR   mw1388.eqiad.wmnet.
+193 1H IN PTR   mw1389.eqiad.wmnet.
+194 1H IN PTR   mw1390.eqiad.wmnet.
+195 1H IN PTR   mw1391.eqiad.wmnet.
+196 1H IN PTR   mw1392.eqiad.wmnet.
 
 198 1H IN PTR   dbproxy1003.eqiad.wmnet.
 199 1H IN PTR   aqs1007.eqiad.wmnet.
@@ -649,14 +657,24 @@ $ORIGIN 16.64.@Z
 148 1H IN PTR   es1021.eqiad.wmnet.
 149 1H IN PTR   graphite1004.eqiad.wmnet.
 150 1H IN PTR   es1025.eqiad.wmnet.
-
+151 1H IN PTR   mw1393.eqiad.wmnet.
+152 1H IN PTR   mw1394.eqiad.wmnet.
+153 1H IN PTR   mw1395.eqiad.wmnet.
+154 1H IN PTR   mw1396.eqiad.wmnet.
+155 1H IN PTR   mw1397.eqiad.wmnet.
 156 1H IN PTR   pc1001.eqiad.wmnet.
 157 1H IN PTR   pc1002.eqiad.wmnet.
 158 1H IN PTR   pc1003.eqiad.wmnet.
-
+159 1H IN PTR   mw1398.eqiad.wmnet.
+160 1H IN PTR   mw1399.eqiad.wmnet.
+161 1H IN PTR   mw1400.eqiad.wmnet.
+162 1H IN PTR   mw1401.eqiad.wmnet.
 163 1H IN PTR   ms-be1016.eqiad.wmnet.
 164 1H IN PTR   ms-be1017.eqiad.wmnet.
 165 1H IN PTR   ms-be1018.eqiad.wmnet.
+166 1H IN PTR   mw1402.eqiad.wmnet.
+167 1H IN PTR   mw1403.eqiad.wmnet.
+168 1H IN PTR   mw1404.eqiad.wmnet.
 
 172 1H IN PTR   druid1005.eqiad.wmnet.
 
@@ -871,12 +889,18 @@ $ORIGIN 32.64.@Z
 118     1H IN PTR       ms-be1024.eqiad.wmnet.
 119     1H IN PTR       ms-be1025.eqiad.wmnet.
 120     1H IN PTR       install1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
+121     1H IN PTR       mw1405.eqiad.wmnet.
+122     1H IN PTR       mw1406.eqiad.wmnet.
 123     1H IN PTR       mwdebug1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
+124     1H IN PTR       mw1407.eqiad.wmnet.
+125     1H IN PTR       mw1408.eqiad.wmnet.
+126     1H IN PTR       mw1409.eqiad.wmnet.
 127     1H IN PTR       logstash1022.eqiad.wmnet.
 128     1H IN PTR       db1095.eqiad.wmnet.
-
+129     1H IN PTR       mw1410.eqiad.wmnet.
+130     1H IN PTR       mw1411.eqiad.wmnet.
+131     1H IN PTR       mw1412.eqiad.wmnet.
+132     1H IN PTR       mw1413.eqiad.wmnet.
 133     1H IN PTR       argon.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 136     1H IN PTR       db1078.eqiad.wmnet.
