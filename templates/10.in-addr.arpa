@@ -3486,7 +3486,6 @@ $ORIGIN 1.192.@Z
 1   1H IN PTR   lvs2001.codfw.wmnet.
 2   1H IN PTR   lvs2002.codfw.wmnet.
 4   1H IN PTR   vl2017-eth1.lvs2004.codfw.wmnet.
-5   1H IN PTR   vl2017-eth1.lvs2005.codfw.wmnet.
 7   1H IN PTR   lvs2007.codfw.wmnet.
 8   1H IN PTR   vl2017-enp59s0f1d1.lvs2008.codfw.wmnet.
 9   1H IN PTR   vl2017-enp59s0f1d1.lvs2009.codfw.wmnet.
@@ -3708,7 +3707,6 @@ $ORIGIN 17.192.@Z
 1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
 2   1H IN PTR   vl2018-eth1.lvs2002.codfw.wmnet.
 4   1H IN PTR   lvs2004.codfw.wmnet.
-5   1H IN PTR   lvs2005.codfw.wmnet.
 7   1H IN PTR   lvs2008.codfw.wmnet.
 8   1H IN PTR   vl2018-enp59s0f1d1.lvs2007.codfw.wmnet.
 9   1H IN PTR   vl2018-enp175s0f0.lvs2009.codfw.wmnet.
@@ -3929,7 +3927,6 @@ $ORIGIN 33.192.@Z
 1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
 2   1H IN PTR   vl2019-eth2.lvs2002.codfw.wmnet.
 4   1H IN PTR   vl2019-eth2.lvs2004.codfw.wmnet.
-5   1H IN PTR   vl2019-eth2.lvs2005.codfw.wmnet.
 7   1H IN PTR   lvs2009.codfw.wmnet.
 8   1H IN PTR   vl2019-enp175s0f0.lvs2007.codfw.wmnet.
 9   1H IN PTR   vl2019-enp175s0f0.lvs2008.codfw.wmnet.
@@ -4092,7 +4089,6 @@ $ORIGIN 49.192.@Z
 1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
 2   1H IN PTR   vl2020-eth3.lvs2002.codfw.wmnet.
 4   1H IN PTR   vl2020-eth3.lvs2004.codfw.wmnet.
-5   1H IN PTR   vl2020-eth3.lvs2005.codfw.wmnet.
 7   1H IN PTR   lvs2010.codfw.wmnet.
 8   1H IN PTR   vl2020-enp175s0f1d1.lvs2007.codfw.wmnet.
 9   1H IN PTR   vl2020-enp175s0f1d1.lvs2008.codfw.wmnet.
@@ -4187,7 +4183,6 @@ $ORIGIN 1.193.@Z
 3   1H IN PTR  wmf6134.mgmt.codfw.wmnet.
 4   1H IN PTR  lvs2004.mgmt.codfw.wmnet.
 4   1H IN PTR  wmf6135.mgmt.codfw.wmnet.
-5   1H IN PTR  lvs2005.mgmt.codfw.wmnet.
 5   1H IN PTR  wmf6136.mgmt.codfw.wmnet.
 6   1H IN PTR  wmf6137.mgmt.codfw.wmnet.
 7   1H IN PTR  papaul-laptop.mgmt.codfw.wmnet.
