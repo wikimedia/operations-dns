@@ -94,6 +94,8 @@
 185  1H  IN PTR  vrrp-gw-2120.wikimedia.org.
 186  1H  IN PTR  ae2-2120.cr1-codfw.wikimedia.org.
 187  1H  IN PTR  ae2-2120.cr2-codfw.wikimedia.org.
+188  1H  IN PTR  eno2-2120.cloudnet2002-dev.wikimedia.org.
+189  1H  IN PTR  eno2-2120.cloudnet2003-dev.wikimedia.org.
 190  1H  IN PTR  cloudinstances2b-gw.openstack.codfw1dev.wikimediacloud.org.
 
 ; Neighbor blocks & loopbacks (208.80.153.192/27)
