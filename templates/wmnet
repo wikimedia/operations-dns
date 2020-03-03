@@ -3920,6 +3920,10 @@ heka                1H  IN A    10.195.0.103
 wmf6146             1H  IN A    10.195.0.103
 mintaka             1H  IN A    10.195.0.107
 wmf6150             1H  IN A    10.195.0.107
+pay-lvs2001-a       1H  IN A    10.195.0.120
+wmf5568             1H  IN A    10.195.0.120
+pay-lvs2002-a       1H  IN A    10.195.0.121
+wmf5569             1H  IN A    10.195.0.121
 pay-lvs2001         1H  IN A    10.195.0.101
 wmf6144             1H  IN A    10.195.0.101
 pay-lvs2002         1H  IN A    10.195.0.102
