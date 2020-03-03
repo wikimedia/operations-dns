@@ -3509,7 +3509,6 @@ $ORIGIN 0.192.@Z
 186 1H IN PTR   parse2005.codfw.wmnet.
 
 $ORIGIN 1.192.@Z
-1   1H IN PTR   lvs2001.codfw.wmnet.
 7   1H IN PTR   lvs2007.codfw.wmnet.
 8   1H IN PTR   vl2017-enp59s0f1d1.lvs2008.codfw.wmnet.
 9   1H IN PTR   vl2017-enp59s0f1d1.lvs2009.codfw.wmnet.
@@ -3728,7 +3727,6 @@ $ORIGIN 16.192.@Z
 206 1H IN PTR   parse2010.codfw.wmnet.
 
 $ORIGIN 17.192.@Z
-1   1H IN PTR   vl2018-eth1.lvs2001.codfw.wmnet.
 7   1H IN PTR   lvs2008.codfw.wmnet.
 8   1H IN PTR   vl2018-enp59s0f1d1.lvs2007.codfw.wmnet.
 9   1H IN PTR   vl2018-enp175s0f0.lvs2009.codfw.wmnet.
@@ -3946,7 +3944,6 @@ $ORIGIN 32.192.@Z
 199 1H IN PTR   parse2015.codfw.wmnet.
 
 $ORIGIN 33.192.@Z
-1   1H IN PTR   vl2019-eth2.lvs2001.codfw.wmnet.
 7   1H IN PTR   lvs2009.codfw.wmnet.
 8   1H IN PTR   vl2019-enp175s0f0.lvs2007.codfw.wmnet.
 9   1H IN PTR   vl2019-enp175s0f0.lvs2008.codfw.wmnet.
@@ -4106,7 +4103,6 @@ $ORIGIN 48.192.@Z
 153 1H IN PTR   parse2020.codfw.wmnet.
 
 $ORIGIN 49.192.@Z
-1   1H IN PTR   vl2020-eth3.lvs2001.codfw.wmnet.
 7   1H IN PTR   lvs2010.codfw.wmnet.
 8   1H IN PTR   vl2020-enp175s0f1d1.lvs2007.codfw.wmnet.
 9   1H IN PTR   vl2020-enp175s0f1d1.lvs2008.codfw.wmnet.
@@ -4194,7 +4190,6 @@ $ORIGIN 1.193.@Z
 ; 10.193.1.0 - mgmt-codfw servers
 ; please list with hostname entry (when available) preceding the asset tag entry
 
-1   1H IN PTR  lvs2001.mgmt.codfw.wmnet.
 1   1H IN PTR  wmf6132.mgmt.codfw.wmnet.
 2   1H IN PTR  wmf6133.mgmt.codfw.wmnet.
 3   1H IN PTR  wmf6134.mgmt.codfw.wmnet.
