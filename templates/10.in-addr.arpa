@@ -3948,6 +3948,22 @@ $ORIGIN 32.192.@Z
 197 1H IN PTR   parse2013.codfw.wmnet.
 198 1H IN PTR   parse2014.codfw.wmnet.
 199 1H IN PTR   parse2015.codfw.wmnet.
+200 1H IN PTR   mw2350.codfw.wmnet.
+201 1H IN PTR   mw2351.codfw.wmnet.
+202 1H IN PTR   mw2352.codfw.wmnet.
+203 1H IN PTR   mw2353.codfw.wmnet.
+204 1H IN PTR   mw2354.codfw.wmnet.
+205 1H IN PTR   mw2355.codfw.wmnet.
+206 1H IN PTR   mw2356.codfw.wmnet.
+207 1H IN PTR   mw2357.codfw.wmnet.
+208 1H IN PTR   mw2358.codfw.wmnet.
+209 1H IN PTR   mw2359.codfw.wmnet.
+210 1H IN PTR   mw2360.codfw.wmnet.
+211 1H IN PTR   mw2361.codfw.wmnet.
+212 1H IN PTR   mw2362.codfw.wmnet.
+213 1H IN PTR   mw2363.codfw.wmnet.
+214 1H IN PTR   mw2364.codfw.wmnet.
+215 1H IN PTR   mw2365.codfw.wmnet.
 
 $ORIGIN 33.192.@Z
 7   1H IN PTR   lvs2009.codfw.wmnet.
@@ -5405,7 +5421,6 @@ $ORIGIN 3.193.@Z
 106 1H IN PTR  wmf6868.mgmt.codfw.wmnet.
 107 1H IN PTR  mw2376.mgmt.codfw.wmnet.
 107 1H IN PTR  wmf6869.mgmt.codfw.wmnet.
-
 108 1H IN PTR  parse2001.mgmt.codfw.wmnet.
 108 1H IN PTR  wmf6852.mgmt.codfw.wmnet.
 109 1H IN PTR  parse2002.mgmt.codfw.wmnet.
@@ -5446,6 +5461,38 @@ $ORIGIN 3.193.@Z
 126 1H IN PTR  wmf6897.mgmt.codfw.wmnet.
 127 1H IN PTR  parse2020.mgmt.codfw.wmnet.
 127 1H IN PTR  wmf6898.mgmt.codfw.wmnet.
+128 1H IN PTR  mw2350.mgmt.codfw.wmnet.
+128 1H IN PTR  wmf6873.mgmt.codfw.wmnet.
+129 1H IN PTR  mw2351.mgmt.codfw.wmnet.
+129 1H IN PTR  wmf6874.mgmt.codfw.wmnet.
+130 1H IN PTR  mw2352.mgmt.codfw.wmnet.
+130 1H IN PTR  wmf6875.mgmt.codfw.wmnet.
+131 1H IN PTR  mw2353.mgmt.codfw.wmnet.
+131 1H IN PTR  wmf6876.mgmt.codfw.wmnet.
+132 1H IN PTR  mw2354.mgmt.codfw.wmnet.
+132 1H IN PTR  wmf6877.mgmt.codfw.wmnet.
+133 1H IN PTR  mw2355.mgmt.codfw.wmnet.
+133 1H IN PTR  wmf6878.mgmt.codfw.wmnet.
+134 1H IN PTR  mw2356.mgmt.codfw.wmnet.
+134 1H IN PTR  wmf6879.mgmt.codfw.wmnet.
+135 1H IN PTR  mw2357.mgmt.codfw.wmnet.
+135 1H IN PTR  wmf6880.mgmt.codfw.wmnet.
+136 1H IN PTR  mw2358.mgmt.codfw.wmnet.
+136 1H IN PTR  wmf6881.mgmt.codfw.wmnet.
+137 1H IN PTR  mw2359.mgmt.codfw.wmnet.
+137 1H IN PTR  wmf6882.mgmt.codfw.wmnet.
+138 1H IN PTR  mw2360.mgmt.codfw.wmnet.
+138 1H IN PTR  wmf6883.mgmt.codfw.wmnet.
+139 1H IN PTR  mw2361.mgmt.codfw.wmnet.
+139 1H IN PTR  wmf6884.mgmt.codfw.wmnet.
+140 1H IN PTR  mw2362.mgmt.codfw.wmnet.
+140 1H IN PTR  wmf6885.mgmt.codfw.wmnet.
+141 1H IN PTR  mw2363.mgmt.codfw.wmnet.
+141 1H IN PTR  wmf6886.mgmt.codfw.wmnet.
+142 1H IN PTR  mw2364.mgmt.codfw.wmnet.
+142 1H IN PTR  wmf6887.mgmt.codfw.wmnet.
+143 1H IN PTR  mw2365.mgmt.codfw.wmnet.
+143 1H IN PTR  wmf6888.mgmt.codfw.wmnet.
 
 ; 10.195.0.0/24 - frack.codfw subnets
 $ORIGIN 0.195.@Z
