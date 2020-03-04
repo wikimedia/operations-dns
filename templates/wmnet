@@ -2838,6 +2838,14 @@ logstash1021    1H      IN A            10.65.2.124
 wmf4723         1H      IN A            10.65.2.125
 logstash1022    1H      IN A            10.65.2.125
 wmf4724         1H      IN A            10.65.2.126
+wmf5333         1H      IN A            10.65.4.179
+logstash1026    1H      IN A            10.65.4.179
+wmf5334         1H      IN A            10.65.4.180
+logstash1027    1H      IN A            10.65.4.180
+wmf5335         1H      IN A            10.65.4.181
+logstash1028    1H      IN A            10.65.4.181
+wmf5336         1H      IN A            10.65.4.182
+logstash1029    1H      IN A            10.65.4.182
 mwlog1001       1H      IN A            10.65.2.126
 wmf4725         1H      IN A            10.65.2.127
 wmf4726         1H      IN A            10.65.2.128
