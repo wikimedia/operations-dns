@@ -618,8 +618,6 @@ grafana1001     1H  IN A        10.64.32.183 ; VM on ganeti01.svc.eqiad.wmnet
 grafana1002     1H  IN A        10.64.0.119 ; VM on ganeti01.svc.eqiad.wmnet
 helium          1H  IN A        10.64.0.179
 helium          1H  IN AAAA     2620:0:861:101:10:64:0:179
-install1003     1H  IN A        10.64.32.120 ; VM on ganeti01.svc.eqiad.wmnet
-install1003     1H  IN AAAA     2620:0:861:103:10:64:32:120 ; VM on ganeti01.svc.eqiad.wmnet
 logstash1020        1H  IN A         10.64.0.11
 logstash1020        1H  IN AAAA      2620:0:861:101:10:64:0:11
 logstash1021        1H  IN A         10.64.16.41
@@ -3294,8 +3292,6 @@ ganeti2018      1H  IN A    10.192.48.51
 grafana2001     1H  IN A    10.192.0.160 ; VM on ganeti01.svc.codfw.wmnet
 graphite2003    1H  IN A    10.192.0.102
 heze            1H  IN A    10.192.0.31
-install2003     1H  IN A    10.192.0.140 ; VM on ganeti01.svc.codfw.wmnet
-install2003     1H  IN AAAA 2620:0:860:101:10:192:0:140 ; VM on ganeti01.svc.codfw.wmnet
 logstash2020    1H  IN A    10.192.0.139
 logstash2020    1H  IN AAAA 2620:0:860:101:10:192:0:139
 logstash2021    1H  IN A    10.192.16.169
