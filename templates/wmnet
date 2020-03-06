@@ -3952,12 +3952,6 @@ pay-lvs2001         1H  IN A    10.195.0.101
 wmf6144             1H  IN A    10.195.0.101
 pay-lvs2002         1H  IN A    10.195.0.102
 wmf6149             1H  IN A    10.195.0.102
-payments2001        1H  IN A    10.195.0.98
-wmf6141             1H  IN A    10.195.0.98
-payments2002        1H  IN A    10.195.0.99
-wmf6143             1H  IN A    10.195.0.99
-payments2003        1H  IN A    10.195.0.100
-wmf6142             1H  IN A    10.195.0.100
 payments2001-a      1H  IN A    10.195.0.108
 wmf6870             1H  IN A    10.195.0.108
 payments2002-a      1H  IN A    10.195.0.110
