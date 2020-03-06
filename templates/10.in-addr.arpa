@@ -4697,8 +4697,6 @@ $ORIGIN 1.193.@Z
 246 1H IN PTR  wmf6804.mgmt.codfw.wmnet.
 247 1H IN PTR  elastic2059.mgmt.codfw.wmnet.
 247 1H IN PTR  wmf6805.mgmt.codfw.wmnet.
-248 1H IN PTR  wmf3649.mgmt.codfw.wmnet.
-249 1H IN PTR  wmf3651.mgmt.codfw.wmnet.
 250 1H IN PTR  heze.mgmt.codfw.wmnet.
 250 1H IN PTR  wmf5836.mgmt.codfw.wmnet.
 251 1H IN PTR  mw2269.mgmt.codfw.wmnet.
@@ -5191,8 +5189,7 @@ $ORIGIN 2.193.@Z
 242 1H IN PTR  wmf6397.mgmt.codfw.wmnet.
 243 1H IN PTR  es2019.mgmt.codfw.wmnet.
 243 1H IN PTR  wmf6398.mgmt.codfw.wmnet.
-244 1H IN PTR  wmf3654.mgmt.codfw.wmnet.
-245 1H IN PTR  wmf3656.mgmt.codfw.wmnet.
+
 246 1H IN PTR  mwlog2001.mgmt.codfw.wmnet.
 246 1H IN PTR  wmf6399.mgmt.codfw.wmnet.
 247 1H IN PTR  rdb2005.mgmt.codfw.wmnet.
