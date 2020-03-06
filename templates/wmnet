@@ -2527,6 +2527,12 @@ wdqs1009    1H  IN A    10.65.7.90
 wmf7367     1H  IN A    10.65.7.90
 wdqs1010    1H  IN A    10.65.7.91
 wmf7368     1H  IN A    10.65.7.91
+wdqs1011    1H  IN A    10.65.4.183
+wmf5340     1H  IN A    10.65.4.183
+wdqs1012    1H  IN A    10.65.4.184
+wmf5339     1H  IN A    10.65.4.184
+wdqs1013    1H  IN A    10.65.4.185
+wmf5341     1H  IN A    10.65.4.185
 snapshot1005    1H  IN A    10.65.3.238
 wmf4743         1H  IN A    10.65.3.238
 snapshot1006    1H  IN A    10.65.3.239
