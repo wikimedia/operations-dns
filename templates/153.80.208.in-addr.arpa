@@ -39,6 +39,7 @@
 47  1H  IN PTR  ldap-replica2002.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 48  1H  IN PTR  ldap-corp2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 49  1H  IN PTR  serpens.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
+51  1H  IN PTR  install2003.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 52  1H  IN PTR  dbmonitor2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 53  1H  IN PTR  install2002.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 54  1H  IN PTR  bast2002.wikimedia.org.
