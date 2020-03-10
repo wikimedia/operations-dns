@@ -1950,6 +1950,7 @@ wmf7391         1H  IN A    10.65.1.11
 wmf7621         1H  IN A    10.65.1.12
 an-coord1001    1H  IN A    10.65.1.12
 wmf7622         1H  IN A    10.65.1.13
+sretest1001     1H  IN A    10.65.1.13
 centrallog1001  1H  IN A    10.65.1.14
 wmf7420         1H  IN A    10.65.1.14
 cloudservices1004 1H IN A   10.65.1.15
@@ -2833,6 +2834,7 @@ krb1001         1H      IN A            10.65.3.99
 wmf5174         1H      IN A            10.65.3.100
 cescout1001     1H      IN A            10.65.3.100
 wmf5175         1H      IN A            10.65.3.101
+sretest1002     1H      IN A            10.65.3.101
 gerrit1001      1H      IN A            10.65.3.102
 wmf5176         1H      IN A            10.65.3.102
 wmf5177         1H      IN A            10.65.3.117

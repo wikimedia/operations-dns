@@ -1515,6 +1515,7 @@ $ORIGIN 1.65.@Z
 11  1H  IN PTR      wmf7391.mgmt.eqiad.wmnet.
 12  1H  IN PTR      wmf7621.mgmt.eqiad.wmnet.
 12  1H  IN PTR      an-coord1001.mgmt.eqiad.wmnet.
+13  1H  IN PTR      sretest1001.mgmt.eqiad.wmnet.
 13  1H  IN PTR      wmf7622.mgmt.eqiad.wmnet.
 14  1H  IN PTR      centrallog1001.mgmt.eqiad.wmnet.
 14  1H  IN PTR      wmf7420.mgmt.eqiad.wmnet.
@@ -2181,6 +2182,7 @@ $ORIGIN 3.65.@Z
 99  1H  IN PTR      krb1001.mgmt.eqiad.wmnet.
 100 1H  IN PTR      wmf5174.mgmt.eqiad.wmnet.
 100 1H  IN PTR      cescout1001.mgmt.eqiad.wmnet.
+101 1H  IN PTR      sretest1002.mgmt.eqiad.wmnet.
 101 1H  IN PTR      wmf5175.mgmt.eqiad.wmnet.
 102 1H  IN PTR      gerrit1001.mgmt.eqiad.wmnet.
 102 1H  IN PTR      wmf5176.mgmt.eqiad.wmnet.
