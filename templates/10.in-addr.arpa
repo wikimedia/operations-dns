@@ -2635,6 +2635,8 @@ $ORIGIN 4.65.@Z
 185 1H  IN PTR      wmf5341.mgmt.eqiad.wmnet.
 186 1H  IN PTR      stat1008.mgmt.eqiad.wmnet.
 186 1H  IN PTR      wmf5387.mgmt.eqiad.wmnet.
+187 1H  IN PTR      htmldumper1001.mgmt.eqiad.wmnet.
+187 1H  IN PTR      wmf5389.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.@Z
 

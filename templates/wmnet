@@ -2571,6 +2571,8 @@ dbproxy1021     1H  IN A    10.65.2.176
 wmf5182         1H  IN A    10.65.2.176
 helium          1H  IN A    10.65.3.14
 wmf3137         1H  IN A    10.65.3.14
+htmldumper1001  1H  IN A    10.65.4.187
+wmf5389         1H  IN A    10.65.4.187
 authdns1001     1H  IN A    10.65.3.6
 wmf7390         1H  IN A    10.65.3.6
 graphite1004    1H  IN A    10.65.3.7
