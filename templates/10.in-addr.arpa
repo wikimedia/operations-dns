@@ -503,7 +503,7 @@ $ORIGIN 5.64.@Z
 32  1H IN PTR   an-tool1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 33  1H IN PTR   an-presto1002.eqiad.wmnet.
 34  1H IN PTR   an-presto1005.eqiad.wmnet.
-
+35  1H IN PTR   stat1008.eqiad.wmnet.
 
 101 1H IN PTR   druid1001.eqiad.wmnet.
 
@@ -2631,6 +2631,8 @@ $ORIGIN 4.65.@Z
 184 1H  IN PTR      wmf5339.mgmt.eqiad.wmnet.
 185 1H  IN PTR      wdqs1013.mgmt.eqiad.wmnet.
 185 1H  IN PTR      wmf5341.mgmt.eqiad.wmnet.
+186 1H  IN PTR      stat1008.mgmt.eqiad.wmnet.
+186 1H  IN PTR      wmf5387.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.@Z
 
