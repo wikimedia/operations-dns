@@ -431,7 +431,7 @@ $ORIGIN 0.64.@Z
 200 1H IN PTR   kafka-main1001.eqiad.wmnet.
 201 1H IN PTR   es1020.eqiad.wmnet.
 202 1H IN PTR   es1024.eqiad.wmnet.
-
+203 1H IN PTR   wdqs1011.eqiad.wmnet.
 204 1H IN PTR   db1074.eqiad.wmnet.
 205 1H IN PTR   db1075.eqiad.wmnet.
 
@@ -678,6 +678,7 @@ $ORIGIN 16.64.@Z
 167 1H IN PTR   mw1403.eqiad.wmnet.
 168 1H IN PTR   mw1404.eqiad.wmnet.
 169 1H IN PTR   logstash1027.eqiad.wmnet.
+170 1H IN PTR   wdqs1012.eqiad.wmnet.
 
 172 1H IN PTR   druid1005.eqiad.wmnet.
 
@@ -880,6 +881,7 @@ $ORIGIN 32.64.@Z
 102     1H IN PTR       es1022.eqiad.wmnet.
 103     1H IN PTR       flowspec1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 104     1H IN PTR       logstash1028.eqiad.wmnet.
+105     1H IN PTR       wdqs1013.eqiad.wmnet.
 
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
