@@ -614,7 +614,6 @@ ganeti1019      1H  IN A        10.64.48.187
 ganeti1020      1H  IN A        10.64.48.188
 ganeti1021      1H  IN A        10.64.48.189
 ganeti1022      1H  IN A        10.64.48.190
-grafana1001     1H  IN A        10.64.32.183 ; VM on ganeti01.svc.eqiad.wmnet
 grafana1002     1H  IN A        10.64.0.119 ; VM on ganeti01.svc.eqiad.wmnet
 helium          1H  IN A        10.64.0.179
 helium          1H  IN AAAA     2620:0:861:101:10:64:0:179
