@@ -1272,6 +1272,8 @@ $ORIGIN 48.64.@Z
 135     1H  IN PTR      elastic1065.eqiad.wmnet.
 136     1H  IN PTR      elastic1066.eqiad.wmnet.
 137     1H  IN PTR      elastic1067.eqiad.wmnet.
+138     1H  IN PTR      sretest1001.eqiad.wmnet.
+139     1H  IN PTR      sretest1002.eqiad.wmnet.
 
 141     1H  IN PTR      snapshot1007.eqiad.wmnet.
 142     1H  IN PTR      ms-be1037.eqiad.wmnet.
