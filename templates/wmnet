@@ -3301,6 +3301,12 @@ ganeti2015      1H  IN A    10.192.48.48
 ganeti2016      1H  IN A    10.192.48.49
 ganeti2017      1H  IN A    10.192.48.50
 ganeti2018      1H  IN A    10.192.48.51
+ganeti2019      1H  IN A    10.192.16.207
+ganeti2020      1H  IN A    10.192.16.208
+ganeti2021      1H  IN A    10.192.16.209
+ganeti2022      1H  IN A    10.192.16.210
+ganeti2023      1H  IN A    10.192.0.187
+ganeti2024      1H  IN A    10.192.0.188
 grafana2001     1H  IN A    10.192.0.160 ; VM on ganeti01.svc.codfw.wmnet
 graphite2003    1H  IN A    10.192.0.102
 heze            1H  IN A    10.192.0.31
@@ -4228,6 +4234,12 @@ ganeti2015      1H  IN A    10.193.2.10
 ganeti2016      1H  IN A    10.193.2.11
 ganeti2017      1H  IN A    10.193.2.12
 ganeti2018      1H  IN A    10.193.2.229
+ganeti2019      1H  IN A    10.193.3.144
+ganeti2020      1H  IN A    10.193.3.145
+ganeti2021      1H  IN A    10.193.3.146
+ganeti2022      1H  IN A    10.193.3.147
+ganeti2023      1H  IN A    10.193.3.148
+ganeti2024      1H  IN A    10.193.3.149
 gerrit2001      1H  IN A    10.193.3.1
 graphite2003    1H  IN A    10.193.1.206
 heze            1H  IN A    10.193.1.250
@@ -4673,6 +4685,12 @@ wmf3627         1H  IN A    10.193.1.237
 wmf5570         1H  IN A    10.193.3.115
 wmf5571         1H  IN A    10.193.3.116
 wmf5572         1H  IN A    10.193.3.117
+wmf5574         1H  IN A    10.193.3.144
+wmf5575         1H  IN A    10.193.3.145
+wmf5576         1H  IN A    10.193.3.146
+wmf5577         1H  IN A    10.193.3.147
+wmf5578         1H  IN A    10.193.3.148
+wmf5579         1H  IN A    10.193.3.149
 wmf5836         1H  IN A    10.193.1.250
 wmf6132         1H  IN A    10.193.1.1
 wmf6133         1H  IN A    10.193.1.2

@@ -3530,6 +3530,8 @@ $ORIGIN 0.192.@Z
 184 1H IN PTR   parse2003.codfw.wmnet.
 185 1H IN PTR   parse2004.codfw.wmnet.
 186 1H IN PTR   parse2005.codfw.wmnet.
+187 1H IN PTR   ganeti2023.codfw.wmnet.
+188 1H IN PTR   ganeti2024.codfw.wmnet.
 
 $ORIGIN 1.192.@Z
 7   1H IN PTR   lvs2007.codfw.wmnet.
@@ -3748,6 +3750,10 @@ $ORIGIN 16.192.@Z
 204 1H IN PTR   elastic2057.codfw.wmnet.
 205 1H IN PTR   elastic2058.codfw.wmnet.
 206 1H IN PTR   parse2010.codfw.wmnet.
+207 1H IN PTR   ganeti2019.codfw.wmnet.
+208 1H IN PTR   ganeti2020.codfw.wmnet.
+209 1H IN PTR   ganeti2021.codfw.wmnet.
+210 1H IN PTR   ganeti2022.codfw.wmnet.
 
 $ORIGIN 17.192.@Z
 7   1H IN PTR   lvs2008.codfw.wmnet.
@@ -5507,6 +5513,18 @@ $ORIGIN 3.193.@Z
 142 1H IN PTR  wmf6887.mgmt.codfw.wmnet.
 143 1H IN PTR  mw2365.mgmt.codfw.wmnet.
 143 1H IN PTR  wmf6888.mgmt.codfw.wmnet.
+144 1H IN PTR  ganeti2019.mgmt.codfw.wmnet.
+144 1H IN PTR  wmf5574.mgmt.codfw.wmnet.
+145 1H IN PTR  ganeti2020.mgmt.codfw.wmnet.
+145 1H IN PTR  wmf5575.mgmt.codfw.wmnet.
+146 1H IN PTR  ganeti2021.mgmt.codfw.wmnet.
+146 1H IN PTR  wmf5576.mgmt.codfw.wmnet.
+147 1H IN PTR  ganeti2022.mgmt.codfw.wmnet.
+147 1H IN PTR  wmf5577.mgmt.codfw.wmnet.
+148 1H IN PTR  ganeti2023.mgmt.codfw.wmnet.
+148 1H IN PTR  wmf5578.mgmt.codfw.wmnet.
+149 1H IN PTR  ganeti2024.mgmt.codfw.wmnet.
+149 1H IN PTR  wmf5579.mgmt.codfw.wmnet.
 
 ; 10.195.0.0/24 - frack.codfw subnets
 $ORIGIN 0.195.@Z
