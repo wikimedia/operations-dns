@@ -1152,7 +1152,7 @@ $ORIGIN 40.64.@Z
 219 1H IN PTR   frdb1003.mgmt.frack.eqiad.wmnet.
 219 1H IN PTR   wmf5280.mgmt.frack.eqiad.wmnet.
 220 1H IN PTR   fran1001.mgmt.frack.eqiad.wmnet.
-220 1H IN PTR   wmf5388.mgmt.frack.eqiad.wmnet.
+220 1H IN PTR   wmf5389.mgmt.frack.eqiad.wmnet.
 
 ; 10.64.48.0/22 - private1-d-eqiad
 $ORIGIN 48.64.@Z
@@ -2636,7 +2636,7 @@ $ORIGIN 4.65.@Z
 186 1H  IN PTR      stat1008.mgmt.eqiad.wmnet.
 186 1H  IN PTR      wmf5387.mgmt.eqiad.wmnet.
 187 1H  IN PTR      htmldumper1001.mgmt.eqiad.wmnet.
-187 1H  IN PTR      wmf5389.mgmt.eqiad.wmnet.
+187 1H  IN PTR      wmf5388.mgmt.eqiad.wmnet.
 
 $ORIGIN 5.65.@Z
 

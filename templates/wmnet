@@ -2567,7 +2567,7 @@ wmf5182         1H  IN A    10.65.2.176
 helium          1H  IN A    10.65.3.14
 wmf3137         1H  IN A    10.65.3.14
 htmldumper1001  1H  IN A    10.65.4.187
-wmf5389         1H  IN A    10.65.4.187
+wmf5388         1H  IN A    10.65.4.187
 authdns1001     1H  IN A    10.65.3.6
 wmf7390         1H  IN A    10.65.3.6
 graphite1004    1H  IN A    10.65.3.7
@@ -2962,7 +2962,7 @@ wmf6988         1H  IN A    10.64.40.194
 pay-lvs1002     1H  IN A    10.64.40.195
 wmf6989         1H  IN A    10.64.40.195
 fran1001        1H  IN A    10.64.40.220
-wmf5388         1H  IN A    10.64.40.220
+wmf5389         1H  IN A    10.64.40.220
 frauth1001      1H  IN A    10.64.40.196
 wmf6990         1H  IN A    10.64.40.196
 frban1001       1H  IN A    10.64.40.212
