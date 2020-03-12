@@ -883,6 +883,7 @@ $ORIGIN 32.64.@Z
 103     1H IN PTR       flowspec1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 104     1H IN PTR       logstash1028.eqiad.wmnet.
 105     1H IN PTR       wdqs1013.eqiad.wmnet.
+106     1H IN PTR       kafka-jumbo1007.eqiad.wmnet.
 
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
@@ -1250,7 +1251,7 @@ $ORIGIN 48.64.@Z
 117     1H  IN PTR      kafka-jumbo1006.eqiad.wmnet.
 119     1H  IN PTR      aqs1009.eqiad.wmnet.
 120     1H  IN PTR      logstash1029.eqiad.wmnet.
-
+121     1H  IN PTR      kafak-jumbo1008.eqiad.wmnet.
 122     1H  IN PTR      aqs1009-a.eqiad.wmnet. ; cassandra instance
 123     1H  IN PTR      aqs1009-b.eqiad.wmnet. ; cassandra instance
 124     1H  IN PTR      db1138.eqiad.wmnet.
@@ -1269,7 +1270,7 @@ $ORIGIN 48.64.@Z
 137     1H  IN PTR      elastic1067.eqiad.wmnet.
 138     1H  IN PTR      sretest1001.eqiad.wmnet.
 139     1H  IN PTR      sretest1002.eqiad.wmnet.
-
+140     1H  IN PTR      kafka-jumbo1009.eqiad.wmnet.
 141     1H  IN PTR      snapshot1007.eqiad.wmnet.
 142     1H  IN PTR      ms-be1037.eqiad.wmnet.
 143     1H  IN PTR      ms-be1038.eqiad.wmnet.
@@ -2065,6 +2066,12 @@ $ORIGIN 2.65.@Z
 178 1H  IN PTR      wmf5239.mgmt.eqiad.wmnet.
 179 1H  IN PTR      cloudcephosd1003.mgmt.eqiad.wmnet.
 179 1H  IN PTR      wmf5240.mgmt.eqiad.wmnet.
+180 1H  IN PTR      kafka-jumbo1007.mgmt.eqiad.wmnet.
+180 1H  IN PTR      wmf5348.mgmt.eqiad.wmnet.
+181 1H  IN PTR      kafka-jumbo1008.mgmt.eqiad.wmnet.
+181 1H  IN PTR      wmf5347.mgmt.eqiad.wment.
+182 1H  IN PTR      kafka-jumbo1009.mgmt.eqiad.wmnet.
+182 1H  IN PTR      wmf5346.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.@Z
 
