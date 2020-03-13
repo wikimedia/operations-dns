@@ -4242,12 +4242,6 @@ $ORIGIN 1.193.@Z
 ; 10.193.1.0 - mgmt-codfw servers
 ; please list with hostname entry (when available) preceding the asset tag entry
 
-1   1H IN PTR  wmf6132.mgmt.codfw.wmnet.
-2   1H IN PTR  wmf6133.mgmt.codfw.wmnet.
-3   1H IN PTR  wmf6134.mgmt.codfw.wmnet.
-4   1H IN PTR  wmf6135.mgmt.codfw.wmnet.
-5   1H IN PTR  wmf6136.mgmt.codfw.wmnet.
-6   1H IN PTR  wmf6137.mgmt.codfw.wmnet.
 7   1H IN PTR  papaul-laptop.mgmt.codfw.wmnet.
 8   1H IN PTR  mw2366.mgmt.codfw.wmnet.
 8   1H IN PTR  wmf6859.mgmt.codfw.wmnet.
