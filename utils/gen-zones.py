@@ -46,6 +46,18 @@ def get_template_files(template_env, tmpl_name):
     return list(included) + [tmpl_name]
 
 
+def ascii_transliterate(text):
+    """Transliterate an arbitrary text to printable ASCII using '?' as a replacement character."""
+    chars = []
+    for c in text:
+        if 19 < ord(c) < 128:
+            chars.append(c)
+        else:
+            chars.append('?')
+
+    return ''.join(chars)
+
+
 def make_serial(repo, template_env, tmpl_name, zname):
     """Make serial from git metadata"""
     flist = get_template_files(template_env, tmpl_name)
@@ -58,7 +70,7 @@ def make_serial(repo, template_env, tmpl_name, zname):
         sernum = time.strftime('%Y%m%d%H', time.gmtime(commit.committed_date))
         return sernum, '%s %s %s' % (sernum,
                                      str(commit)[:8],
-                                     str(commit.message).splitlines()[0])
+                                     ascii_transliterate(str(commit.message).splitlines()[0]))
     except StopIteration:
         return 12345, 'Unknown/uncommitted'
 
