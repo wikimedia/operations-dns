@@ -5559,6 +5559,7 @@ $ORIGIN 0.195.@Z
 
 ; 10.195.0.80/29 - frack-listenerdmz-codfw
 81 1H IN PTR  reth0-2137.pfw3-codfw.frack.codfw.wmnet.
+82 1H IN PTR  frpig2001.frack.codfw.wmnet.
 83 1H IN PTR  frpig2001-fundraising.frack.codfw.wmnet.
 
 ; 10.195.0.96/27 - frack-management-codfw

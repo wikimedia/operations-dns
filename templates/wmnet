@@ -3936,6 +3936,7 @@ mintaka             1H  IN A    10.195.0.36
 civi2001            1H  IN A    10.195.0.37
 frpm2001            1H  IN A    10.195.0.73
 heka                1H  IN A    10.195.0.74
+frpig2001           1H  IN A    10.195.0.82
 frpig2001-fundraising 1H  IN A    10.195.0.83
 frbackup2001        1H  IN A    10.195.0.77
 frqueue2001         1H  IN A    10.195.0.39
