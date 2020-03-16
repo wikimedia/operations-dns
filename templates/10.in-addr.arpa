@@ -1192,12 +1192,6 @@ $ORIGIN 48.64.@Z
 52      1H IN PTR       kubernetes1004.eqiad.wmnet.
 54      1H IN PTR       ms-be1021.eqiad.wmnet.
 55      1H IN PTR       rdb1006.eqiad.wmnet.
-56      1H  IN PTR      mw1221.eqiad.wmnet.
-57      1H  IN PTR      mw1222.eqiad.wmnet.
-58      1H  IN PTR      mw1223.eqiad.wmnet.
-59      1H  IN PTR      mw1224.eqiad.wmnet.
-60      1H  IN PTR      mw1225.eqiad.wmnet.
-61      1H  IN PTR      mw1226.eqiad.wmnet.
 62      1H  IN PTR      mw1227.eqiad.wmnet.
 63      1H  IN PTR      mw1228.eqiad.wmnet.
 64      1H  IN PTR      mw1229.eqiad.wmnet.
