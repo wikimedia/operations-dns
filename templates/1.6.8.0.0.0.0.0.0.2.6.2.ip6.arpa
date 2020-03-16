@@ -213,7 +213,6 @@ $ORIGIN 3.0.1.0.@Z
 8.6.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1084.eqiad.wmnet.
 9.6.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1085.eqiad.wmnet.
 0.7.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1086.eqiad.wmnet.
-1.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1099.eqiad.wmnet.
 4.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   acmechief1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 6.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   acmechief-test1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 8.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   netflow1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
