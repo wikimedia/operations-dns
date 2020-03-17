@@ -93,7 +93,13 @@ def deploy_zones(srcdir, dstdir):
     need_reload = False
     for zfile in srcdir.iterdir():
         dst = dstdir / zfile.name
-        if not dst.exists():
+        if zfile.is_dir():
+            print(" -- Descending to subdirectory: " + zfile.name)
+            if not dst.exists():
+                dst.mkdir()
+            deploy_zones(Path(srcdir, str(zfile.name)), dst)
+            print(" -- Done with subdir: " + zfile.name)
+        elif not dst.exists():
             print(" -- Zone added: " + zfile.name)
             need_reload = True
             shutil.copy(str(zfile), str(dst))
