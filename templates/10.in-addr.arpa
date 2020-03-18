@@ -2057,7 +2057,7 @@ $ORIGIN 2.65.@Z
 180 1H  IN PTR      kafka-jumbo1007.mgmt.eqiad.wmnet.
 180 1H  IN PTR      wmf5348.mgmt.eqiad.wmnet.
 181 1H  IN PTR      kafka-jumbo1008.mgmt.eqiad.wmnet.
-181 1H  IN PTR      wmf5347.mgmt.eqiad.wment.
+181 1H  IN PTR      wmf5347.mgmt.eqiad.wmnet.
 182 1H  IN PTR      kafka-jumbo1009.mgmt.eqiad.wmnet.
 182 1H  IN PTR      wmf5346.mgmt.eqiad.wmnet.
 
@@ -2601,7 +2601,7 @@ $ORIGIN 4.65.@Z
 171 1H  IN PTR      mw1406.mgmt.eqiad.wmnet.
 171 1H  IN PTR      wmf5371.mgmt.eqiad.wmnet.
 172 1H  IN PTR      mw1407.mgmt.eqiad.wmnet.
-172 1H  IN PTR      wmf5372mgmt.eqiad.wmnet.
+172 1H  IN PTR      wmf5372.mgmt.eqiad.wmnet.
 173 1H  IN PTR      mw1408.mgmt.eqiad.wmnet.
 173 1H  IN PTR      wmf5373.mgmt.eqiad.wmnet.
 174 1H  IN PTR      mw1409.mgmt.eqiad.wmnet.
