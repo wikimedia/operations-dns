@@ -3657,7 +3657,7 @@ $ORIGIN 16.192.@Z
 179 1H IN PTR   maps2002.codfw.wmnet.
 180 1H IN PTR   miscweb2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 181 1H IN PTR   mw2325.codfw.wmnet.
-182 1H IN PTR   elnath.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+
 183 1H IN PTR   puppetdb2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 185 1H IN PTR   restbase2010.codfw.wmnet.
 186 1H IN PTR   restbase2010-a.codfw.wmnet.
