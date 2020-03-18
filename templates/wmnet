@@ -1310,8 +1310,6 @@ dbprov1002          1H  IN A    10.65.3.18
 wmf5160             1H  IN A    10.65.3.18
 wmf3132             1H  IN A    10.65.2.3
 wmf3131             1H  IN A    10.65.2.4
-wmf3127             1H  IN A    10.65.2.8
-cp1008              1H  IN A    10.65.2.8
 wmf3122             1H  IN A    10.65.2.13
 dbproxy1003         1H  IN A    10.65.2.13
 wmf7394             1H  IN A    10.65.2.15
@@ -1323,10 +1321,8 @@ dbproxy1011         1H  IN A    10.65.2.22
 wmf3112             1H  IN A    10.65.2.23
 dbproxy1010         1H  IN A    10.65.2.23
 wmf3111             1H  IN A    10.65.2.24
-wmf3099     1H  IN A    10.65.2.36
 dbproxy1008 1H  IN A    10.65.2.38
 wmf3097     1H  IN A    10.65.2.38
-wmf3095     1H  IN A    10.65.2.40
 wmf7225     1H  IN A    10.65.2.43
 cloudservices1003 1H  IN A    10.65.2.43
 wmf7113     1H  IN A    10.65.4.117
@@ -1334,13 +1330,6 @@ wmf7114     1H  IN A    10.65.4.118
 wmf4182     1H  IN A    10.65.2.56
 wmf4183     1H  IN A    10.65.2.57
 
-wmf4665     1H  IN A    10.65.2.115
-cp1071      1H  IN A    10.65.2.115
-wmf4666     1H  IN A    10.65.2.116
-wmf4667     1H  IN A    10.65.2.117
-cp1073      1H  IN A    10.65.2.117
-wmf4668     1H  IN A    10.65.2.118
-cp1074      1H  IN A    10.65.2.118
 wmf7404     1H  IN A    10.65.5.80
 cp1075      1H  IN A    10.65.5.80
 wmf7405     1H  IN A    10.65.5.81
@@ -1645,10 +1634,6 @@ tungsten    1H  IN A    10.65.6.14
 wmf3077     1H  IN A    10.65.6.14
 netmon1002  1H  IN A    10.65.5.37
 wmf7042     1H  IN A    10.65.5.37
-wmf4529         1H      IN A    10.65.6.61
-wmf4530         1H      IN A    10.65.6.62
-wmf4560         1H      IN A    10.65.6.68
-wmf4561         1H      IN A    10.65.6.69
 wmf4737         1H      IN A    10.65.6.77
 db1074          1H      IN A    10.65.6.77
 wmf4738         1H      IN A    10.65.6.78
@@ -1691,15 +1676,12 @@ wmf4790         1H      IN A    10.65.6.97
 db1093          1H      IN A    10.65.6.97
 wmf4791         1H      IN A    10.65.6.98
 db1094          1H      IN A    10.65.6.98
-wmf4532         1H      IN A    10.65.6.64
 wmf7467         1H      IN A    10.65.3.20
 dbstore1003     1H      IN A    10.65.3.20
 wmf7468         1H      IN A    10.65.3.21
 dbstore1004     1H      IN A    10.65.3.21
 wmf7469         1H      IN A    10.65.3.22
 dbstore1005     1H      IN A    10.65.3.22
-cp1099          1H      IN A    10.65.3.147
-wmf4148         1H      IN A    10.65.3.147
 druid1001       1H      IN A    10.65.4.48
 wmf4770         1H      IN A    10.65.4.48
 druid1002       1H      IN A    10.65.4.49
@@ -2656,7 +2638,6 @@ wmf5842     1H  IN A    10.65.3.178
 scb1002     1H  IN A    10.65.3.178
 wmf5843     1H  IN A    10.65.3.179
 scb1001     1H  IN A    10.65.3.179
-wmf3568     1H  IN A    10.65.3.141
 sessionstore1001 1H  IN A    10.65.6.11
 wmf7475          1H  IN A    10.65.6.11
 sessionstore1002 1H  IN A    10.65.6.12
@@ -2741,7 +2722,6 @@ wmf7164         1H      IN A            10.65.3.98
 flerovium       1H      IN A            10.65.3.98
 wmf4572         1H      IN A            10.65.5.202
 francium        1H      IN A            10.65.5.202
-wmf4576         1H      IN A            10.65.5.206
 wmf7104         1H      IN A            10.65.4.108
 ores1001        1H      IN A            10.65.4.108
 wmf7105         1H      IN A            10.65.4.109
@@ -2867,7 +2847,6 @@ wmf6991          1H     IN A            10.65.4.75
 puppetmaster1002 1H     IN A            10.65.4.76
 wmf6992          1H     IN A            10.65.4.76
 
-wmf3094          1H     IN A            10.65.2.41
 wmf3497          1H     IN A            10.65.3.110
 wmf3498          1H     IN A            10.65.3.111
 wmf3524          1H     IN A            10.65.3.106
@@ -2875,28 +2854,6 @@ wmf3526          1H     IN A            10.65.3.107
 wmf4053          1H     IN A            10.65.3.112
 wmf4054          1H     IN A            10.65.3.113
 wmf4055          1H     IN A            10.65.3.114
-wmf4171          1H     IN A            10.65.2.45
-wmf4172          1H     IN A            10.65.2.46
-wmf4173          1H     IN A            10.65.2.47
-wmf4174          1H     IN A            10.65.2.48
-wmf4175          1H     IN A            10.65.2.49
-wmf4176          1H     IN A            10.65.2.50
-wmf4177          1H     IN A            10.65.2.51
-wmf4178          1H     IN A            10.65.2.52
-wmf4179          1H     IN A            10.65.2.53
-wmf4180          1H     IN A            10.65.2.54
-wmf4181          1H     IN A            10.65.2.55
-wmf4184          1H     IN A            10.65.2.58
-wmf4185          1H     IN A            10.65.2.59
-wmf4186          1H     IN A            10.65.2.60
-wmf4187          1H     IN A            10.65.2.61
-wmf4188          1H     IN A            10.65.2.62
-wmf4189          1H     IN A            10.65.2.63
-wmf4190          1H     IN A            10.65.2.64
-wmf4191          1H     IN A            10.65.2.65
-wmf4192          1H     IN A            10.65.2.66
-wmf4193          1H     IN A            10.65.2.67
-wmf4194          1H     IN A            10.65.2.68
 wmf4686          1H     IN A            10.65.4.18
 wmf4687          1H     IN A            10.65.4.19
 wmf4688          1H     IN A            10.65.4.20
@@ -2988,7 +2945,6 @@ wmf6948         1H  IN A    10.64.40.211
 frav1002        1H  IN A    10.64.40.213
 wmf5163         1H  IN A    10.64.40.213
 frlog1001       1H  IN A    10.64.40.214
-wmf3083         1H  IN A    10.64.40.199
 wmf7043         1H  IN A    10.64.40.214
 
 ; EQIAD analytics cluster
