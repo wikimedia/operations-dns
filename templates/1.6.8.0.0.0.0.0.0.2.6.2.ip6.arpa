@@ -197,6 +197,8 @@ $ORIGIN 2.0.1.0.@Z
 
 4.1.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1008.eqiad.wmnet.
 
+0.4.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cescout1001.eqiad.wmnet.
+
 ; private1-c-eqiad (2620:0:861:103::/64)
 $ORIGIN 3.0.1.0.@Z
 
