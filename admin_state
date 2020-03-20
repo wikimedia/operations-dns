@@ -22,7 +22,7 @@
 # To disable all services at a given cache datacenter:
 # ----------------------------------------------------
 #     geoip/generic-map/DCNAME => DOWN
-#     (where DCNAME is one of 'ulsfo' or 'esams')
+#     (where DCNAME is one of 'ulsfo' or 'eqiad', but NOT esams; see below)
 #
 # To disable individual services at given cache datacenter:
 # ---------------------------------------------------------
@@ -47,11 +47,14 @@
 # ------------------------------------------------------------
 #
 #     # Disable all traffic to esams:
-#     geoip/generic-map/esams => DOWN
+#     # Don't do that here! See note at end of file.
 #
-#     # Disable just text-addrs, text-addrs-v4, and mobile-addrs in esams:
-#     geoip/text*/esams => DOWN
-#     geoip/mobile-addrs/esams => DOWN
+#     # Disable all traffic to eqiad:
+#     geoip/generic-map/eqiad => DOWN
+#
+#     # Disable just text-addrs, text-addrs-v4, and mobile-addrs in codfw:
+#     geoip/text*/codfw => DOWN
+#     geoip/mobile-addrs/codfw => DOWN
 #
 #     # Disable all services except text-addrs + text-addrs-v4 in ulsfo,
 #     #   regardless of the order of these lines:
