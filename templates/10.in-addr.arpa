@@ -941,7 +941,7 @@ $ORIGIN 32.64.@Z
 184     1H IN PTR       es1015.eqiad.wmnet.
 185     1H IN PTR       es1016.eqiad.wmnet.
 186     1H IN PTR       miscweb1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
+187     1H IN PTR       miscweb1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 188     1H IN PTR       technetium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 189     1H IN PTR       aqs1005-a.eqiad.wmnet. ; cassandra instance
 190     1H IN PTR       aqs1005-b.eqiad.wmnet. ; cassandra instance
