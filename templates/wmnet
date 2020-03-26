@@ -2878,7 +2878,6 @@ wmf4691          1H     IN A            10.65.4.23
 ; EQIAD fundraising/payments
 $ORIGIN frack.eqiad.wmnet.
 civi1001        1H      IN A    10.64.40.109
-bismuth         1H      IN A    10.64.40.69
 frav1002        1H      IN A    10.64.40.74
 fran1001        1H      IN A    10.64.40.110
 frauth1001      1H      IN A    10.64.40.68
@@ -3907,12 +3906,10 @@ frmon2001           1H  IN A    10.195.0.66
 mintaka             1H  IN A    10.195.0.36
 civi2001            1H  IN A    10.195.0.37
 frpm2001            1H  IN A    10.195.0.73
-heka                1H  IN A    10.195.0.74
 frpig2001           1H  IN A    10.195.0.82
 frpig2001-fundraising 1H  IN A    10.195.0.83
 frbackup2001        1H  IN A    10.195.0.77
 frqueue2001         1H  IN A    10.195.0.39
-rkhunter.heka       1H  IN CNAME heka
 
 ; CODFW fundraising/payments management
 $ORIGIN mgmt.frack.codfw.wmnet.

@@ -1072,7 +1072,6 @@ $ORIGIN 40.64.@Z
 65  1H IN PTR   reth0-1134.pfw3-eqiad.frack.eqiad.wmnet.
 67  1H IN PTR   frnetmon1001.frack.eqiad.wmnet.
 68  1H IN PTR   frauth1001.frack.eqiad.wmnet.
-69  1H IN PTR   bismuth.frack.eqiad.wmnet.
 70  1H IN PTR   frpm1001.frack.eqiad.wmnet.
 72  1H IN PTR   frlog1001.frack.eqiad.wmnet.
 73  1H IN PTR   frmon1001.frack.eqiad.wmnet.
@@ -5536,7 +5535,6 @@ $ORIGIN 0.195.@Z
 66 1H IN PTR  frmon2001.frack.codfw.wmnet.
 
 73 1H IN PTR  frpm2001.frack.codfw.wmnet.
-74 1H IN PTR  heka.frack.codfw.wmnet.
 76 1H IN PTR  frlog2001.frack.codfw.wmnet.
 77 1H IN PTR  frbackup2001.frack.codfw.wmnet.
 78 1H IN PTR  frauth2001.frack.codfw.wmnet.
