@@ -505,6 +505,7 @@ $ORIGIN 5.64.@Z
 33  1H IN PTR   an-presto1002.eqiad.wmnet.
 34  1H IN PTR   an-presto1005.eqiad.wmnet.
 35  1H IN PTR   stat1008.eqiad.wmnet.
+36  1H IN PTR   an-druid1001.eqiad.wmnet.
 
 101 1H IN PTR   druid1001.eqiad.wmnet.
 
@@ -680,7 +681,7 @@ $ORIGIN 16.64.@Z
 168 1H IN PTR   mw1404.eqiad.wmnet.
 169 1H IN PTR   logstash1027.eqiad.wmnet.
 170 1H IN PTR   wdqs1012.eqiad.wmnet.
-
+171 1H IN PTR   druid1007.eqiad.wmnet.
 172 1H IN PTR   druid1005.eqiad.wmnet.
 
 186 1H IN PTR   es1013.eqiad.wmnet.
@@ -994,6 +995,7 @@ $ORIGIN 36.64.@Z
 3       1H IN PTR       ae3-1022.cr2-eqiad.wikimedia.org.
 
 100     1H IN PTR       an-worker1088.eqiad.wmnet.
+101     1H IN PTR       an-druid1002.eqiad.wmnet.
 102     1H IN PTR       druid1002.eqiad.wmnet.
 103     1H IN PTR       an-worker1089.eqiad.wmnet.
 104     1H IN PTR       analytics1064.eqiad.wmnet.
@@ -1343,6 +1345,7 @@ $ORIGIN 48.64.@Z
 224     1H  IN PTR      mw1382.eqiad.wmnet.
 225     1H  IN PTR      mw1383.eqiad.wmnet.
 226     1H  IN PTR      mw1384.eqiad.wmnet.
+227     1H  IN PTR      druid1008.eqiad.wmnet.
 
 $ORIGIN 49.64.@Z
 
