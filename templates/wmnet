@@ -1442,6 +1442,10 @@ cloudvirt-wdqs1002 1H  IN A 10.65.3.153
 wmf5273         1H  IN A    10.65.3.153
 cloudvirt-wdqs1003 1H  IN A 10.65.3.154
 wmf5272         1H  IN A    10.65.3.154
+an-druid1001    1H  IN A    10.65.2.183
+wmf5390         1H  IN A    10.65.2.183
+an-druid1002    1H  IN A    10.65.2.185
+wmf5392         1H  IN A    10.65.2.185
 an-presto1001   1H  IN A    10.65.6.15
 wmf7470         1H  IN A    10.65.6.15
 an-presto1002   1H  IN A    10.65.6.16
@@ -1696,6 +1700,10 @@ druid1005       1H      IN A    10.65.7.84
 wmf7120         1H      IN A    10.65.7.84
 druid1006       1H      IN A    10.65.7.86
 wmf7121         1H      IN A    10.65.7.86
+druid1007       1H    IN A    10.65.2.184
+wmf5391         1H    IN A    10.65.2.184
+druid1008       1H    IN A    10.65.2.186
+wmf5393         1H    IN A    10.65.2.186
 wmf4596         1H    IN A    10.65.7.60
 wmf4597         1H    IN A    10.65.7.61
 wmf4598         1H    IN A    10.65.7.62

@@ -2009,6 +2009,14 @@ $ORIGIN 2.65.@Z
 181 1H  IN PTR      wmf5347.mgmt.eqiad.wmnet.
 182 1H  IN PTR      kafka-jumbo1009.mgmt.eqiad.wmnet.
 182 1H  IN PTR      wmf5346.mgmt.eqiad.wmnet.
+183 1H  IN PTR      an-druid1001.mgmt.eqiad.wmnet.
+183 1H  IN PTR      wmf5390.mgmt.eqiad.wmnet.
+184 1H  IN PTR      druid1007.mgmt.eqiad.wmnet.
+184 1H  IN PTR      wmf5391.mgmt.eqiad.wmnet.
+185 1H  IN PTR      an-druid1002.mgmt.eqiad.wmnet.
+185 1H  IN PTR      wmf5392.mgmt.eqiad.wmnet.
+186 1H  IN PTR      druid1008.mgmt.eqiad.wmnet.
+186 1H  IN PTR      wmf5393.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.@Z
 
