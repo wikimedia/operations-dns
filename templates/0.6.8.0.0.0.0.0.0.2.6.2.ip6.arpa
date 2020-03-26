@@ -82,6 +82,10 @@ $ORIGIN 1.0.1.0.@Z
 
 7.2.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   puppetmaster2001.codfw.wmnet.
 
+3.2.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2027.codfw.wmnet.
+4.2.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2028.codfw.wmnet.
+0.3.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2029.codfw.wmnet.
+2.3.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2030.codfw.wmnet.
 
 6.9.0.0.0.0.0.0.2.9.1.0.0.1.0.0 5M IN PTR   webperf2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 0.0.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   webperf2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
@@ -117,6 +121,9 @@ $ORIGIN 2.0.1.0.@Z
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-2018.cr2-codfw.wikimedia.org.
 6.2.0.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   acrab.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
+2.3.0.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2031.codfw.wmnet.
+3.3.0.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2032.codfw.wmnet.
+
 1.2.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   vega.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 3.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2007.codfw.wmnet.
@@ -125,6 +132,9 @@ $ORIGIN 2.0.1.0.@Z
 6.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2010.codfw.wmnet.
 7.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2011.codfw.wmnet.
 8.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2012.codfw.wmnet.
+
+2.8.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2033.codfw.wmnet.
+4.8.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2034.codfw.wmnet.
 
 2.4.0.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2002.codfw.wmnet.
 2.0.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2006.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
@@ -145,6 +155,12 @@ $ORIGIN 3.0.1.0.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-2019.cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-2019.cr2-codfw.wikimedia.org.
+
+8.1.0.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2035.codfw.wmnet.
+9.1.0.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2036.codfw.wmnet.
+
+3.0.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2037.codfw.wmnet.
+4.0.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2038.codfw.wmnet.
 
 2.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2013.codfw.wmnet.
 3.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2014.codfw.wmnet.
@@ -185,6 +201,11 @@ $ORIGIN 4.0.1.0.@Z
 
 5.3.1.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   krb2001.codfw.wmnet.
 6.1.1.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   backup2001.codfw.wmnet.
+
+4.5.1.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2039.codfw.wmnet.
+5.5.1.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2040.codfw.wmnet.
+6.5.1.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2041.codfw.wmnet.
+7.5.1.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2042.codfw.wmnet.
 
 ; cloud-hosts1-a-codfw (2620:0:860:117::/64) - RESERVED
 $ORIGIN 7.1.1.0.@Z
