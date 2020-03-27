@@ -231,6 +231,8 @@ $ORIGIN 3.0.1.0.@Z
 
 8.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1005.eqiad.wmnet.
 
+7.8.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   miscweb1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
 ; analytics1-a-eqiad (2620:0:861:104::/64)
 $ORIGIN 4.0.1.0.@Z
 5.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1052.eqiad.wmnet.
