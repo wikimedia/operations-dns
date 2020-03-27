@@ -3362,6 +3362,7 @@ mc-gp2001       1H  IN A    10.192.0.156
 mc-gp2002       1H  IN A    10.192.16.147
 mc-gp2003       1H  IN A    10.192.48.138
 miscweb2001     1H  IN A    10.192.16.180 ; VM on ganeti01.svc.codfw.wmnet
+miscweb2002     1H  IN A    10.192.16.211 ; VM on ganeti01.svc.codfw.wmnet
 ms-be2016       1H  IN A    10.192.0.136
 ms-be2017       1H  IN A    10.192.0.137
 ms-be2018       1H  IN A    10.192.16.160

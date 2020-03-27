@@ -3702,6 +3702,7 @@ $ORIGIN 16.192.@Z
 208 1H IN PTR   ganeti2020.codfw.wmnet.
 209 1H IN PTR   ganeti2021.codfw.wmnet.
 210 1H IN PTR   ganeti2022.codfw.wmnet.
+211 1H IN PTR   miscweb2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 $ORIGIN 17.192.@Z
 7   1H IN PTR   lvs2008.codfw.wmnet.
