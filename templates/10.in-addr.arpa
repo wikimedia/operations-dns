@@ -3621,7 +3621,6 @@ $ORIGIN 16.192.@Z
 131 1H IN PTR   ganeti01.svc.codfw.wmnet.
 132 1H IN PTR   kubetcd2006.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 133 1H IN PTR   cp2007.codfw.wmnet.
-134 1H IN PTR   cp2008.codfw.wmnet.
 135 1H IN PTR   cp2009.codfw.wmnet.
 136 1H IN PTR   cp2010.codfw.wmnet.
 137 1H IN PTR   cp2011.codfw.wmnet.
@@ -5023,7 +5022,6 @@ $ORIGIN 2.193.@Z
 177 1H IN PTR  wmf6306.mgmt.codfw.wmnet.
 178 1H IN PTR  cp2007.mgmt.codfw.wmnet.
 178 1H IN PTR  wmf6307.mgmt.codfw.wmnet.
-179 1H IN PTR  cp2008.mgmt.codfw.wmnet.
 179 1H IN PTR  wmf6308.mgmt.codfw.wmnet.
 180 1H IN PTR  cp2009.mgmt.codfw.wmnet.
 180 1H IN PTR  wmf6309.mgmt.codfw.wmnet.

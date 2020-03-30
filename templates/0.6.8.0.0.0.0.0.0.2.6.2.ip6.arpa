@@ -122,7 +122,6 @@ $ORIGIN 2.0.1.0.@Z
 1.2.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   vega.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 3.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2007.codfw.wmnet.
-4.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2008.codfw.wmnet.
 5.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2009.codfw.wmnet.
 6.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2010.codfw.wmnet.
 7.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2011.codfw.wmnet.
