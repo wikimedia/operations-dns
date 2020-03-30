@@ -5886,7 +5886,7 @@ puppetboard           300 IN CNAME puppetboard1001.eqiad.wmnet.
 ;puppetboard           300 IN CNAME puppetboard2001.codfw.wmnet.
 releases              300 IN CNAME releases1001.eqiad.wmnet.
 webserver-misc-static 300 IN CNAME bromine.eqiad.wmnet.
-webserver-misc-apps   300 IN CNAME miscweb1001.eqiad.wmnet.
+webserver-misc-apps   300 IN CNAME miscweb1002.eqiad.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
 analytics-web         300 IN CNAME thorium.eqiad.wmnet.
 ticket                300 IN CNAME mendelevium.eqiad.wmnet.
