@@ -3620,7 +3620,6 @@ $ORIGIN 16.192.@Z
 130 1H IN PTR   orespoolcounter2004.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 131 1H IN PTR   ganeti01.svc.codfw.wmnet.
 132 1H IN PTR   kubetcd2006.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-133 1H IN PTR   cp2007.codfw.wmnet.
 135 1H IN PTR   cp2009.codfw.wmnet.
 136 1H IN PTR   cp2010.codfw.wmnet.
 137 1H IN PTR   cp2011.codfw.wmnet.
@@ -5020,7 +5019,6 @@ $ORIGIN 2.193.@Z
 175 1H IN PTR  wmf6304.mgmt.codfw.wmnet.
 176 1H IN PTR  wmf6305.mgmt.codfw.wmnet.
 177 1H IN PTR  wmf6306.mgmt.codfw.wmnet.
-178 1H IN PTR  cp2007.mgmt.codfw.wmnet.
 178 1H IN PTR  wmf6307.mgmt.codfw.wmnet.
 179 1H IN PTR  wmf6308.mgmt.codfw.wmnet.
 180 1H IN PTR  cp2009.mgmt.codfw.wmnet.
