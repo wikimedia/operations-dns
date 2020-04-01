@@ -82,7 +82,6 @@ $ORIGIN 1.0.1.0.@Z
 
 7.2.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   puppetmaster2001.codfw.wmnet.
 
-3.2.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2027.codfw.wmnet.
 4.2.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2028.codfw.wmnet.
 0.3.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2029.codfw.wmnet.
 2.3.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2030.codfw.wmnet.
@@ -154,7 +153,6 @@ $ORIGIN 3.0.1.0.@Z
 4.0.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2038.codfw.wmnet.
 
 4.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2015.codfw.wmnet.
-5.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2016.codfw.wmnet.
 
 3.2.0.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2003.codfw.wmnet.
 4.2.0.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   deploy2001.codfw.wmnet.
@@ -172,9 +170,7 @@ $ORIGIN 4.0.1.0.@Z
 
 6.1.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cumin2001.codfw.wmnet.
 
-3.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2019.codfw.wmnet.
 5.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2021.codfw.wmnet.
-7.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2023.codfw.wmnet.
 
 1.7.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2004.codfw.wmnet.
 5.4.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   mwmaint2001.codfw.wmnet.

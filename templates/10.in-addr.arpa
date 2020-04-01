@@ -3314,7 +3314,6 @@ $ORIGIN 0.192.@Z
 20  1H IN PTR   wdqs2004.codfw.wmnet.
 21  1H IN PTR   proton2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 22  1H IN PTR   ping2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-23  1H IN PTR   cp2027.codfw.wmnet.
 24  1H IN PTR   cp2028.codfw.wmnet.
 25  1H IN PTR   es2001.codfw.wmnet.
 26  1H IN PTR   es2002.codfw.wmnet.
@@ -3830,7 +3829,6 @@ $ORIGIN 32.192.@Z
 108 1H IN PTR   restbase2016-a.codfw.wmnet.
 111 1H IN PTR   restbase2016-b.codfw.wmnet.
 114 1H IN PTR   cp2015.codfw.wmnet.
-115 1H IN PTR   cp2016.codfw.wmnet.
 118 1H IN PTR   restbase2020.codfw.wmnet.
 119 1H IN PTR   restbase2020-a.codfw.wmnet. ; cassandra instance
 120 1H IN PTR   restbase2020-b.codfw.wmnet. ; cassandra instance
@@ -3957,9 +3955,7 @@ $ORIGIN 48.192.@Z
 20  1H IN PTR   mw2370.codfw.wmnet.
 21  1H IN PTR   mw2371.codfw.wmnet.
 22  1H IN PTR   mw2372.codfw.wmnet.
-23  1H IN PTR   cp2019.codfw.wmnet.
 25  1H IN PTR   cp2021.codfw.wmnet.
-27  1H IN PTR   cp2023.codfw.wmnet.
 31  1H IN PTR   theemin.codfw.wmnet.
 32  1H IN PTR   db2100.codfw.wmnet.
 33  1H IN PTR   db2101.codfw.wmnet.
@@ -5019,17 +5015,14 @@ $ORIGIN 2.193.@Z
 185 1H IN PTR  wmf6314.mgmt.codfw.wmnet.
 186 1H IN PTR  cp2015.mgmt.codfw.wmnet.
 186 1H IN PTR  wmf6315.mgmt.codfw.wmnet.
-187 1H IN PTR  cp2016.mgmt.codfw.wmnet.
 187 1H IN PTR  wmf6316.mgmt.codfw.wmnet.
 188 1H IN PTR  wmf6317.mgmt.codfw.wmnet.
 189 1H IN PTR  wmf6318.mgmt.codfw.wmnet.
-190 1H IN PTR  cp2019.mgmt.codfw.wmnet.
 190 1H IN PTR  wmf6319.mgmt.codfw.wmnet.
 191 1H IN PTR  wmf6320.mgmt.codfw.wmnet.
 192 1H IN PTR  cp2021.mgmt.codfw.wmnet.
 192 1H IN PTR  wmf6321.mgmt.codfw.wmnet.
 193 1H IN PTR  wmf6322.mgmt.codfw.wmnet.
-194 1H IN PTR  cp2023.mgmt.codfw.wmnet.
 194 1H IN PTR  wmf6323.mgmt.codfw.wmnet.
 195 1H IN PTR  wmf6324.mgmt.codfw.wmnet.
 196 1H IN PTR  wmf6325.mgmt.codfw.wmnet.
@@ -5440,7 +5433,6 @@ $ORIGIN 3.193.@Z
 148 1H IN PTR  wmf5578.mgmt.codfw.wmnet.
 149 1H IN PTR  ganeti2024.mgmt.codfw.wmnet.
 149 1H IN PTR  wmf5579.mgmt.codfw.wmnet.
-150 1H IN PTR  cp2027.mgmt.codfw.wmnet.
 150 1H IN PTR  wmf5580.mgmt.codfw.wmnet.
 151 1H IN PTR  cp2028.mgmt.codfw.wmnet.
 151 1H IN PTR  wmf5581.mgmt.codfw.wmnet.
