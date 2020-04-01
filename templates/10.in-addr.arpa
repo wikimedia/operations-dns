@@ -3829,7 +3829,6 @@ $ORIGIN 32.192.@Z
 105 1H IN PTR   restbase2015-c.codfw.wmnet.
 108 1H IN PTR   restbase2016-a.codfw.wmnet.
 111 1H IN PTR   restbase2016-b.codfw.wmnet.
-112 1H IN PTR   cp2013.codfw.wmnet.
 114 1H IN PTR   cp2015.codfw.wmnet.
 115 1H IN PTR   cp2016.codfw.wmnet.
 117 1H IN PTR   cp2018.codfw.wmnet.
@@ -5022,7 +5021,6 @@ $ORIGIN 2.193.@Z
 181 1H IN PTR  wmf6310.mgmt.codfw.wmnet.
 182 1H IN PTR  wmf6311.mgmt.codfw.wmnet.
 183 1H IN PTR  wmf6312.mgmt.codfw.wmnet.
-184 1H IN PTR  cp2013.mgmt.codfw.wmnet.
 184 1H IN PTR  wmf6313.mgmt.codfw.wmnet.
 185 1H IN PTR  wmf6314.mgmt.codfw.wmnet.
 186 1H IN PTR  cp2015.mgmt.codfw.wmnet.
