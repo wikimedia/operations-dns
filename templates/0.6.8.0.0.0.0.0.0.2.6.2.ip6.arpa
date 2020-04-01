@@ -82,6 +82,7 @@ $ORIGIN 1.0.1.0.@Z
 
 7.2.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   puppetmaster2001.codfw.wmnet.
 
+3.2.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2027.codfw.wmnet.
 4.2.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2028.codfw.wmnet.
 0.3.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2029.codfw.wmnet.
 2.3.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2030.codfw.wmnet.
