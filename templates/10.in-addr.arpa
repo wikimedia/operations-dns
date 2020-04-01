@@ -3832,7 +3832,6 @@ $ORIGIN 32.192.@Z
 112 1H IN PTR   cp2013.codfw.wmnet.
 114 1H IN PTR   cp2015.codfw.wmnet.
 115 1H IN PTR   cp2016.codfw.wmnet.
-116 1H IN PTR   cp2017.codfw.wmnet.
 117 1H IN PTR   cp2018.codfw.wmnet.
 118 1H IN PTR   restbase2020.codfw.wmnet.
 119 1H IN PTR   restbase2020-a.codfw.wmnet. ; cassandra instance
@@ -5030,7 +5029,6 @@ $ORIGIN 2.193.@Z
 186 1H IN PTR  wmf6315.mgmt.codfw.wmnet.
 187 1H IN PTR  cp2016.mgmt.codfw.wmnet.
 187 1H IN PTR  wmf6316.mgmt.codfw.wmnet.
-188 1H IN PTR  cp2017.mgmt.codfw.wmnet.
 188 1H IN PTR  wmf6317.mgmt.codfw.wmnet.
 189 1H IN PTR  cp2018.mgmt.codfw.wmnet.
 189 1H IN PTR  wmf6318.mgmt.codfw.wmnet.
