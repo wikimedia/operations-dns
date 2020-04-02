@@ -5421,65 +5421,8 @@ wmf4455     1H  IN A        10.21.0.196
 ;
 
 $ORIGIN mgmt.ulsfo.wmnet.
-
-mr1-ulsfo       1H      IN A    10.128.128.1
-cr3-ulsfo       1H      IN A    10.128.128.4
-cr4-ulsfo       1H      IN A    10.128.128.5
-asw2-ulsfo      1H      IN A    10.128.128.7
-scs-ulsfo       1H      IN A    10.128.128.11
-ps1-22-ulsfo    1H      IN A    10.128.128.12
-ps1-23-ulsfo    1H      IN A    10.128.128.13
-
-; Servers listed sequentially
-lvs4005         1H      IN A    10.128.129.5
-lvs4006         1H      IN A    10.128.129.6
-lvs4007         1H      IN A    10.128.129.7
-
-bast4002        1H      IN A    10.128.129.12
-
-cp4021          1H      IN A    10.128.129.121
-cp4022          1H      IN A    10.128.129.122
-cp4023          1H      IN A    10.128.129.123
-cp4024          1H      IN A    10.128.129.124
-cp4025          1H      IN A    10.128.129.125
-cp4026          1H      IN A    10.128.129.126
-cp4027          1H      IN A    10.128.129.127
-cp4028          1H      IN A    10.128.129.128
-cp4029          1H      IN A    10.128.129.129
-cp4030          1H      IN A    10.128.129.130
-cp4031          1H      IN A    10.128.129.131
-cp4032          1H      IN A    10.128.129.132
-dns4001         1H      IN A    10.128.129.15
-dns4002         1H      IN A    10.128.129.16
-ganeti4001      1H      IN A    10.128.129.17
-ganeti4002      1H      IN A    10.128.129.18
-ganeti4003      1H      IN A    10.128.129.19
-
-
-; Asset tags listed in order
-
-WMF5803          1H      IN A    10.128.129.121
-WMF5804          1H      IN A    10.128.129.122
-WMF5805          1H      IN A    10.128.129.123
-WMF5806          1H      IN A    10.128.129.124
-WMF5807          1H      IN A    10.128.129.125
-WMF5808          1H      IN A    10.128.129.126
-WMF5809          1H      IN A    10.128.129.127
-WMF5810          1H      IN A    10.128.129.128
-WMF5811          1H      IN A    10.128.129.129
-WMF5812          1H      IN A    10.128.129.130
-WMF5813          1H      IN A    10.128.129.131
-WMF5814          1H      IN A    10.128.129.132
-WMF7213          1H      IN A    10.128.129.5
-WMF7214          1H      IN A    10.128.129.6
-WMF7215          1H      IN A    10.128.129.15
-WMF7216          1H      IN A    10.128.129.16
-WMF7217          1H      IN A    10.128.129.7
-WMF7218          1H      IN A    10.128.129.12
-WMF7232          1H      IN A    10.128.129.17
-WMF7233          1H      IN A    10.128.129.18
-WMF7234          1H      IN A    10.128.129.19
-
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/mgmt.ulsfo.wmnet
 
 ;
 ; ULSFO private1

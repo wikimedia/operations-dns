@@ -3085,62 +3085,12 @@ $ORIGIN 0.66.@Z
 
 ; 10.128.128.0/17 - ulsfo mgmt
 $ORIGIN 128.128.@Z
-1   1H  IN PTR      mr1-ulsfo.mgmt.ulsfo.wmnet.
-4   1H  IN PTR      cr3-ulsfo.mgmt.ulsfo.wmnet.
-5   1H  IN PTR      cr4-ulsfo.mgmt.ulsfo.wmnet.
-
-7   1H  IN PTR      asw2-ulsfo.mgmt.ulsfo.wmnet.
-11  1H  IN PTR      scs-ulsfo.mgmt.ulsfo.wmnet.
-12  1H  IN PTR      ps1-22-ulsfo.mgmt.ulsfo.wmnet.
-13  1H  IN PTR      ps1-23-ulsfo.mgmt.ulsfo.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/128.128.10.in-addr.arpa
 
 $ORIGIN 129.128.@Z
-5   1H  IN PTR      lvs4005.mgmt.ulsfo.wmnet.
-5   1H  IN PTR      WMF7213.mgmt.ulsfo.wmnet.
-6   1H  IN PTR      lvs4006.mgmt.ulsfo.wmnet.
-6   1H  IN PTR      WMF7214.mgmt.ulsfo.wmnet.
-7   1H  IN PTR      lvs4007.mgmt.ulsfo.wmnet.
-7   1H  IN PTR      WMF7217.mgmt.ulsfo.wmnet.
-
-12  1H  IN PTR      WMF7218.mgmt.ulsfo.wmnet.
-12  1H  IN PTR      bast4002.mgmt.ulsfo.wmnet.
-
-15  1H  IN PTR      dns4001.mgmt.ulsfo.wmnet.
-15  1H  IN PTR      WMF7215.mgmt.ulsfo.wmnet.
-16  1H  IN PTR      dns4002.mgmt.ulsfo.wmnet.
-16  1H  IN PTR      WMF7216.mgmt.ulsfo.wmnet.
-17  1H  IN PTR      ganeti4001.mgmt.ulsfo.wmnet.
-17  1H  IN PTR      WMF7232.mgmt.ulsfo.wmnet.
-18  1H  IN PTR      ganeti4002.mgmt.ulsfo.wmnet.
-18  1H  IN PTR      WMF7233.mgmt.ulsfo.wmnet.
-19  1H  IN PTR      ganeti4003.mgmt.ulsfo.wmnet.
-19  1H  IN PTR      WMF7234.mgmt.ulsfo.wmnet.
-
-
-121 1H  IN PTR      cp4021.mgmt.ulsfo.wmnet.
-121 1H  IN PTR      WMF5803.mgmt.ulsfo.wmnet.
-122 1H  IN PTR      cp4022.mgmt.ulsfo.wmnet.
-122 1H  IN PTR      WMF5804.mgmt.ulsfo.wmnet.
-123 1H  IN PTR      cp4023.mgmt.ulsfo.wmnet.
-123 1H  IN PTR      WMF5805.mgmt.ulsfo.wmnet.
-124 1H  IN PTR      cp4024.mgmt.ulsfo.wmnet.
-124 1H  IN PTR      WMF5806.mgmt.ulsfo.wmnet.
-125 1H  IN PTR      cp4025.mgmt.ulsfo.wmnet.
-125 1H  IN PTR      WMF5807.mgmt.ulsfo.wmnet.
-126 1H  IN PTR      cp4026.mgmt.ulsfo.wmnet.
-126 1H  IN PTR      WMF5808.mgmt.ulsfo.wmnet.
-127 1H  IN PTR      cp4027.mgmt.ulsfo.wmnet.
-127 1H  IN PTR      WMF5809.mgmt.ulsfo.wmnet.
-128 1H  IN PTR      cp4028.mgmt.ulsfo.wmnet.
-128 1H  IN PTR      WMF5810.mgmt.ulsfo.wmnet.
-129 1H  IN PTR      cp4029.mgmt.ulsfo.wmnet.
-129 1H  IN PTR      WMF5811.mgmt.ulsfo.wmnet.
-130 1H  IN PTR      cp4030.mgmt.ulsfo.wmnet.
-130 1H  IN PTR      WMF5812.mgmt.ulsfo.wmnet.
-131 1H  IN PTR      cp4031.mgmt.ulsfo.wmnet.
-131 1H  IN PTR      WMF5813.mgmt.ulsfo.wmnet.
-132 1H  IN PTR      cp4032.mgmt.ulsfo.wmnet.
-132 1H  IN PTR      WMF5814.mgmt.ulsfo.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/129.128.10.in-addr.arpa
 
 ; 10.128.0.0/24 - private1-ulsfo
 $ORIGIN 0.128.@Z
