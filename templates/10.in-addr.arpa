@@ -3473,6 +3473,7 @@ $ORIGIN 0.192.@Z
 187 1H IN PTR   ganeti2023.codfw.wmnet.
 188 1H IN PTR   ganeti2024.codfw.wmnet.
 189 1H IN PTR   planet2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+190 1H IN PTR   backup2002.codfw.wmnet.
 
 $ORIGIN 1.192.@Z
 7   1H IN PTR   lvs2007.codfw.wmnet.
@@ -5465,6 +5466,9 @@ $ORIGIN 3.193.@Z
 164 1H IN PTR  wmf5594.mgmt.codfw.wmnet.
 165 1H IN PTR  cp2042.mgmt.codfw.wmnet.
 165 1H IN PTR  wmf5595.mgmt.codfw.wmnet.
+
+180 1H IN PTR  backup2002.mgmt.codfw.wmnet.
+180 1H IN PTR  wmf5597.mgmt.codfw.wmnet.
 
 ; 10.195.0.0/24 - frack.codfw subnets
 $ORIGIN 0.195.@Z

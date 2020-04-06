@@ -3022,6 +3022,7 @@ acrux           1H  IN AAAA 2620:0:860:101:10:192:0:93 ; VM on ganeti01.svc.codf
 auth2001        1H  IN A    10.192.0.138
 backup2001      1H  IN A    10.192.48.116
 backup2001      1H  IN AAAA 2620:0:860:104:10:192:48:116
+backup2002      1H  IN A    10.192.0.190
 cloudbackup2001 1H  IN A    10.192.0.130
 cloudbackup2002 1H  IN A    10.192.32.186
 cloudvirt2001-dev   1H  IN A    10.192.20.5
@@ -3975,6 +3976,7 @@ fasw-c-codfw    1H  IN A    10.193.0.57
 auth2001        1H  IN A    10.193.1.22
 authdns2001     1H  IN A    10.193.1.199
 backup2001      1H  IN A    10.193.1.80
+backup2002      1H  IN A    10.193.3.180
 bast2002        1H  IN A    10.193.1.207
 centrallog2001  1H  IN A    10.193.1.144
 cloudbackup2001 1H  IN A    10.193.2.231
@@ -4631,6 +4633,7 @@ wmf5592         1H  IN A    10.193.3.162
 wmf5593         1H  IN A    10.193.3.163
 wmf5594         1H  IN A    10.193.3.164
 wmf5595         1H  IN A    10.193.3.165
+wmf5597         1H  IN A    10.193.3.180
 wmf5836         1H  IN A    10.193.1.250
 wmf6161         1H  IN A    10.193.2.117
 wmf6162         1H  IN A    10.193.2.15
