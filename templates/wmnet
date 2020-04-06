@@ -1370,6 +1370,8 @@ cloudcontrol1003 1H  IN A    10.65.4.119
 wmf7098         1H  IN A    10.65.4.119
 cloudcontrol1004 1H  IN A    10.65.4.120
 wmf7099         1H  IN A    10.65.4.120
+cloudcontrol1005 1H  IN A   10.65.4.188
+wmf5349          1H  IN A   10.65.4.188
 cloudcephmon1001 1H  IN A   10.65.3.125
 wmf5241          1H  IN A   10.65.3.125
 cloudcephmon1002 1H  IN A   10.65.3.126
