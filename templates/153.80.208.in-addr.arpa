@@ -23,7 +23,7 @@
 22  1H  IN PTR  ldap-replica2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 23  1H  IN PTR  idp2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 24  1H  IN PTR  urldownloader2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
-
+25  1H  IN PTR  idp-test2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 
 
 ; 208.80.153.32/27 (public1-b-codfw)
