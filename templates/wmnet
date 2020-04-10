@@ -3892,8 +3892,6 @@ frmon2001           1H  IN A    10.195.0.114
 wmf6638             1H  IN A    10.195.0.114
 frqueue2001         1H  IN A    10.195.0.116
 wmf6767             1H  IN A    10.195.0.116
-heka                1H  IN A    10.195.0.103
-wmf6146             1H  IN A    10.195.0.103
 mintaka             1H  IN A    10.195.0.107
 wmf6150             1H  IN A    10.195.0.107
 pay-lvs2001         1H  IN A    10.195.0.120

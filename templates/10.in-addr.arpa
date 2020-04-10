@@ -5496,8 +5496,6 @@ $ORIGIN 0.195.@Z
 ; 10.195.0.96/27 - frack-management-codfw
 97  1H IN PTR  reth0-2140.pfw3-codfw.frack.codfw.wmnet.
 
-103 1H IN PTR  heka.mgmt.frack.codfw.wmnet.
-103 1H IN PTR  wmf6146.mgmt.frack.codfw.wmnet.
 104 1H IN PTR  frpig2001.mgmt.frack.codfw.wmnet.
 104 1H IN PTR  wmf5565.mgmt.frack.codfw.wmnet.
 105 1H IN PTR  frdb2002.mgmt.frack.codfw.wmnet.
