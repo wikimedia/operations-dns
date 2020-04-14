@@ -85,6 +85,7 @@ $ORIGIN 3.0.0.0.@Z
 3.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   radon.wikimedia.org.
 6.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   mx1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 2.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dbmonitor1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
+5.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcontrol1005.wikimedia.org.
 6.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   bast1002.wikimedia.org.
 1.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   urldownloader1002.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 4.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   icinga1001.wikimedia.org.
