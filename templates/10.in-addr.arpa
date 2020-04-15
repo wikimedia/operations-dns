@@ -2588,6 +2588,23 @@ $ORIGIN 4.65.@Z
 188 1H  IN PTR      cloudcontrol1005.mgmt.eqiad.wmnet.
 188 1H  IN PTR      wmf5349.mgmt.eqiad.wmnet.
 
+189 1H  IN PTR      kubernetes1007.mgmt.eqiad.wmnet.
+189 1H  IN PTR      wmf5379.mgmt.eqiad.wmnet.
+190 1H  IN PTR      kubernetes1008.mgmt.eqiad.wmnet.
+190 1H  IN PTR      wmf5380.mgmt.eqiad.wmnet.
+191 1H  IN PTR      kubernetes1009.mgmt.eqiad.wmnet.
+191 1H  IN PTR      wmf5381.mgmt.eqiad.wmnet.
+192 1H  IN PTR      kubernetes1010.mgmt.eqiad.wmnet.
+192 1H  IN PTR      wmf5382.mgmt.eqiad.wmnet.
+193 1H  IN PTR      kubernetes1011.mgmt.eqiad.wmnet.
+193 1H  IN PTR      wmf5383.mgmt.eqiad.wmnet.
+194 1H  IN PTR      kubernetes1012.mgmt.eqiad.wmnet.
+194 1H  IN PTR      wmf5384.mgmt.eqiad.wmnet.
+195 1H  IN PTR      kubernetes1013.mgmt.eqiad.wmnet.
+195 1H  IN PTR      wmf5385.mgmt.eqiad.wmnet.
+196 1H  IN PTR      kubernetes1014.mgmt.eqiad.wmnet.
+196 1H  IN PTR      wmf5386.mgmt.eqiad.wmnet.
+
 $ORIGIN 5.65.@Z
 
 3   1H  IN PTR      ms-be1044.mgmt.eqiad.wmnet.
