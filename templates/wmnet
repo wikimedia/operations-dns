@@ -484,7 +484,6 @@ dbprov1001      1H  IN A        10.64.0.95
 dbprov1002      1H  IN A        10.64.16.31
 dbproxy1003     1H  IN A        10.64.0.198
 dbproxy1008     1H  IN A        10.64.32.157
-dbproxy1011     1H  IN A        10.64.37.15
 dbproxy1012     1H  IN A        10.64.0.134
 dbproxy1013     1H  IN A        10.64.0.135
 dbproxy1014     1H  IN A        10.64.16.18
