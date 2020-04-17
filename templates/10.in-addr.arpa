@@ -2124,6 +2124,12 @@ $ORIGIN 3.65.@Z
 91  1H  IN PTR      wmf5171.mgmt.eqiad.wmnet.
 92  1H  IN PTR      restbase1027.mgmt.eqiad.wmnet.
 92  1H  IN PTR      wmf5172.mgmt.eqiad.wmnet.
+93  1H  IN PTR      restbase1028.mgmt.eqiad.wmnet.
+93  1H  IN PTR      wmf4802.mgmt.eqiad.wmnet.
+94  1H  IN PTR      restbase1029.mgmt.eqiad.wmnet.
+94  1H  IN PTR      wmf4803.mgmt.eqiad.wmnet.
+95  1H  IN PTR      restbase1030.mgmt.eqiad.wmnet.
+95  1H  IN PTR      wmf4804.mgmt.eqiad.wmnet.
 
 98  1H  IN PTR      wmf7164.mgmt.eqiad.wmnet.
 98  1H  IN PTR      flerovium.mgmt.eqiad.wmnet.
