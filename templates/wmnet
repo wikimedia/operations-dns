@@ -3996,6 +3996,7 @@ cloudbackup2001 1H  IN A    10.193.2.231
 cloudbackup2002 1H  IN A    10.193.2.232
 cloudcontrol2001-dev        1H  IN A    10.193.2.198
 cloudcontrol2003-dev        1H  IN A    10.193.1.40
+cloudcontrol2004-dev        1H  IN A    10.193.2.115
 cloudservices2002-dev       1H  IN A    10.193.1.39
 cloudvirt2001-dev           1H  IN A    10.193.2.199
 cloudvirt2002-dev           1H  IN A    10.193.2.200
@@ -4647,6 +4648,7 @@ wmf5593         1H  IN A    10.193.3.163
 wmf5594         1H  IN A    10.193.3.164
 wmf5595         1H  IN A    10.193.3.165
 wmf5597         1H  IN A    10.193.3.180
+wmf5598         1H  IN A    10.193.2.115
 wmf5836         1H  IN A    10.193.1.250
 wmf6161         1H  IN A    10.193.2.117
 wmf6162         1H  IN A    10.193.2.15
