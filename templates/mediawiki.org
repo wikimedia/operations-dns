@@ -44,7 +44,6 @@ bugs            1D IN CNAME dyna.wikimedia.org.
 doc             1D IN CNAME dyna.wikimedia.org.
 docs            1D IN CNAME dyna.wikimedia.org.
 download        1D IN CNAME dyna.wikimedia.org.
-integration     1D IN CNAME dyna.wikimedia.org.
 svn             1D IN CNAME dyna.wikimedia.org.
 
 ; Mobile
