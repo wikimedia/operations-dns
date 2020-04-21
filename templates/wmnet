@@ -2605,6 +2605,8 @@ an-worker1095   1H IN A    10.65.3.78
 wmf7454         1H IN A    10.65.3.78
 backup1001      1H  IN A    10.65.2.161
 wmf7374         1H  IN A    10.65.2.161
+backup1002      1H  IN A    10.65.3.136
+wmf4805         1H  IN A    10.65.3.136
 lvs1013         1H  IN A    10.65.4.123
 wmf7340         1H  IN A    10.65.4.123
 lvs1014         1H  IN A    10.65.4.124

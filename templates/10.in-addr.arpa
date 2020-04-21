@@ -2186,6 +2186,8 @@ $ORIGIN 3.65.@Z
 134 1H  IN PTR      wmf5337.mgmt.eqiad.wmnet.
 135 1H  IN PTR      cloudelastic1006.mgmt.eqiad.wmnet.
 135 1H  IN PTR      wmf5338.mgmt.eqiad.wmnet.
+136 1H  IN PTR      backup1002.mgmt.eqiad.wmnet.
+136 1H  IN PTR      wmf4805.mgmt.eqiad.wmnet.
 
 143     1H      IN PTR          wmf3570.mgmt.eqiad.wmnet.
 
