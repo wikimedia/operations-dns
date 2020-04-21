@@ -2687,6 +2687,10 @@ wmf7386          1H  IN A    10.65.3.150
 cloudelastic1004 1H  IN A    10.65.3.151
 wmf7387          1H  IN A    10.65.3.151
 cloudnet1003     1H  IN A    10.65.3.180
+cloudelastic1005 1H  IN A    10.65.3.134
+wmf5337          1H  IN A    10.65.3.134
+cloudelastic1006 1H  IN A    10.65.3.135
+wmf5338          1H  IN A    10.65.3.135
 wmf7115          1H  IN A    10.65.3.180
 cloudnet1004     1H  IN A    10.65.3.181
 wmf7116          1H  IN A    10.65.3.181
