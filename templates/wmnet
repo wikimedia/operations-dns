@@ -1313,8 +1313,6 @@ wmf5159             1H  IN A    10.65.3.17
 dbprov1002          1H  IN A    10.65.3.18
 wmf5160             1H  IN A    10.65.3.18
 wmf3132             1H  IN A    10.65.2.3
-wmf3131             1H  IN A    10.65.2.4
-wmf3122             1H  IN A    10.65.2.13
 dbproxy1003         1H  IN A    10.65.2.13
 wmf7394             1H  IN A    10.65.2.15
 dns1001             1H  IN A    10.65.2.15

@@ -1748,8 +1748,6 @@ $ORIGIN 2.65.@Z
 
 2   1H  IN PTR      wmf7436.mgmt.eqiad.wmnet.
 2   1H  IN PTR      stat1007.mgmt.eqiad.wmnet.
-3   1H  IN PTR      wmf3132.mgmt.eqiad.wmnet.
-4   1H  IN PTR      wmf3131.mgmt.eqiad.wmnet.
 
 6   1H  IN PTR      mw1351.mgmt.eqiad.wmnet.
 6   1H  IN PTR      wmf5293.mgmt.eqiad.wmnet.
