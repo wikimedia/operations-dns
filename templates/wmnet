@@ -1086,7 +1086,9 @@ restbase1027    1H  IN A        10.64.48.183
 restbase1027-a  1H  IN A        10.64.48.184  ; cassandra instance
 restbase1027-b  1H  IN A        10.64.48.185  ; cassandra instance
 restbase1027-c  1H  IN A        10.64.48.186  ; cassandra instance
-
+restbase1028    1H  IN A        10.64.0.208
+restbase1029    1H  IN A        10.64.16.173
+restbase1030    1H  IN A        10.64.48.228
 restbase-dev1004    1H IN A     10.64.0.89
 restbase-dev1004-a  1H IN A     10.64.0.167
 restbase-dev1004-b  1H IN A     10.64.0.168

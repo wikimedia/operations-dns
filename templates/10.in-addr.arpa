@@ -436,7 +436,7 @@ $ORIGIN 0.64.@Z
 205 1H IN PTR   db1075.eqiad.wmnet.
 206 1H IN PTR   htmldumper1001.eqiad.wmnet.
 207 1H IN PTR   people1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
+208 1H IN PTR   restbase1028.eqiad.wmnet.
 213 1H IN PTR   aqs1007-a.eqiad.wmnet. ; cassandra instance
 214 1H IN PTR   db1107.eqiad.wmnet.
 215 1H IN PTR   webperf1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
@@ -684,6 +684,7 @@ $ORIGIN 16.64.@Z
 170 1H IN PTR   wdqs1012.eqiad.wmnet.
 171 1H IN PTR   druid1007.eqiad.wmnet.
 172 1H IN PTR   druid1005.eqiad.wmnet.
+173 1H IN PTR   restbase1029.eqiad.wmnet.
 
 186 1H IN PTR   es1013.eqiad.wmnet.
 187 1H IN PTR   es1014.eqiad.wmnet.
@@ -1342,6 +1343,7 @@ $ORIGIN 48.64.@Z
 225     1H  IN PTR      mw1383.eqiad.wmnet.
 226     1H  IN PTR      mw1384.eqiad.wmnet.
 227     1H  IN PTR      druid1008.eqiad.wmnet.
+228     1H  IN PTR      restbase1030.eqiad.wmnet.
 
 $ORIGIN 49.64.@Z
 
