@@ -3342,8 +3342,6 @@ $ORIGIN 0.192.@Z
 22  1H IN PTR   ping2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 23  1H IN PTR   cp2027.codfw.wmnet.
 24  1H IN PTR   cp2028.codfw.wmnet.
-25  1H IN PTR   es2001.codfw.wmnet.
-26  1H IN PTR   es2002.codfw.wmnet.
 27  1H IN PTR   puppetmaster2001.codfw.wmnet.
 28  1H IN PTR   ms-fe2005.codfw.wmnet.
 29  1H IN PTR   wdqs2003.codfw.wmnet.
@@ -3542,8 +3540,6 @@ $ORIGIN 16.192.@Z
 24  1H IN PTR   parse2008.codfw.wmnet.
 25  1H IN PTR   parse2009.codfw.wmnet.
 26  1H IN PTR   acrab.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-27  1H IN PTR   es2003.codfw.wmnet.
-28  1H IN PTR   es2004.codfw.wmnet.
 29  1H IN PTR   sca2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 30  1H IN PTR   kubetcd2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 31  1H IN PTR   oresrdb2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
@@ -4648,13 +4644,9 @@ $ORIGIN 1.193.@Z
 233 1H IN PTR  wmf6684.mgmt.codfw.wmnet.
 234 1H IN PTR  elastic2043.mgmt.codfw.wmnet.
 234 1H IN PTR  wmf6685.mgmt.codfw.wmnet.
-235 1H IN PTR  es2001.mgmt.codfw.wmnet.
 235 1H IN PTR  wmf3612.mgmt.codfw.wmnet.
-236 1H IN PTR  es2002.mgmt.codfw.wmnet.
 236 1H IN PTR  wmf3613.mgmt.codfw.wmnet.
-237 1H IN PTR  es2003.mgmt.codfw.wmnet.
 237 1H IN PTR  wmf3627.mgmt.codfw.wmnet.
-238 1H IN PTR  es2004.mgmt.codfw.wmnet.
 238 1H IN PTR  wmf3626.mgmt.codfw.wmnet.
 239 1H IN PTR  mw2251.mgmt.codfw.wmnet.
 239 1H IN PTR  wmf6480.mgmt.codfw.wmnet.
