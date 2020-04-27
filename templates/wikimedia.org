@@ -166,6 +166,10 @@ cloudelastic1003    1H  IN A    208.80.154.83
 cloudelastic1003    1H  IN AAAA 2620:0:861:3:208:80:154:83
 cloudelastic1004    1H  IN A    208.80.155.107
 cloudelastic1004    1H  IN AAAA 2620:0:861:4:208:80:155:107
+cloudelastic1005    1H  IN A    208.80.154.9
+cloudelastic1005    1H  IN AAAA 2620:0:861:1:208:80:154:9
+cloudelastic1006    1H  IN A    208.80.154.138
+cloudelastic1006    1H  IN AAAA 2620:0:861:2:208:80:154:138
 cloudservices1003   1H  IN A    208.80.154.135
 cloudservices1003   1H  IN AAAA 2620:0:861:2:208:80:154:135
 cloudservices1004 1H  IN A    208.80.154.11
