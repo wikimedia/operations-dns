@@ -31,7 +31,6 @@ $ORIGIN 1.0.0.0.@Z
 2.3.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   install1003.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 4.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ns-recursor1.openstack.eqiad1.wikimediacloud.org.
 6.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   idp1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-3.3.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   idp-test1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
 5.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   sodium.wikimedia.org.
 
@@ -92,6 +91,7 @@ $ORIGIN 3.0.0.0.@Z
 4.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   icinga1001.wikimedia.org.
 5.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit1002.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 8.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit-test.wikimedia.org.
+7.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   idp-test1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
 
 ; public1-d-eqiad (2620:0:861:4::/64)
