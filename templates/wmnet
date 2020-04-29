@@ -4622,10 +4622,6 @@ wdqs2008        1H  IN A    10.193.2.137
 
 ; Servers MGMT - Alphabetical by asset tag
 
-wmf3612         1H  IN A    10.193.1.235
-wmf3613         1H  IN A    10.193.1.236
-wmf3626         1H  IN A    10.193.1.238
-wmf3627         1H  IN A    10.193.1.237
 wmf5570         1H  IN A    10.193.3.115
 wmf5571         1H  IN A    10.193.3.116
 wmf5572         1H  IN A    10.193.3.117
