@@ -938,7 +938,6 @@ $ORIGIN 32.64.@Z
 178     1H IN PTR       etherpad1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 179     1H IN PTR       dbproxy1020.eqiad.wmnet.
 180     1H IN PTR       dbproxy1021.eqiad.wmnet.
-181     1H IN PTR       bromine.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 184     1H IN PTR       es1015.eqiad.wmnet.
 185     1H IN PTR       es1016.eqiad.wmnet.
@@ -3634,7 +3633,6 @@ $ORIGIN 16.192.@Z
 118 1H IN PTR   mw2145.codfw.wmnet.
 119 1H IN PTR   mw2146.codfw.wmnet.
 120 1H IN PTR   mw2147.codfw.wmnet.
-121 1H IN PTR   vega.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 122 1H IN PTR   rdb2003.codfw.wmnet.
 123 1H IN PTR   rdb2004.codfw.wmnet.
 124 1H IN PTR   db2111.codfw.wmnet.

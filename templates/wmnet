@@ -1134,8 +1134,6 @@ stat1006        1H  IN AAAA     2620:0:861:108:10:64:53:31
 stat1007        1H  IN A        10.64.21.118
 stat1007        1H  IN AAAA     2620:0:861:105:10:64:21:118
 stat1008        1H  IN A        10.64.5.35
-bromine         1H  IN A        10.64.32.181 ; VM on ganeti01.svc.eqiad.wmnet
-bromine         1H  IN AAAA     2620:0:861:103:10:64:32:181 ; VM on ganeti01.svc.eqiad.wmnet
 phab1001        1H  IN A        10.64.16.8
 phab1001        1H  IN AAAA     2620:0:861:102:10:64:16:8
 phab1001-aphlict 1H IN CNAME    phab1001 ; CNAME here due to varnish puppetization woes
@@ -3794,8 +3792,6 @@ thumbor2001     1H  IN A    10.192.32.36
 thumbor2002     1H  IN A    10.192.32.37
 thumbor2003     1H  IN A    10.192.16.58
 thumbor2004     1H  IN A    10.192.16.59
-vega            1H  IN A    10.192.16.121 ; VM on ganeti01.svc.codfw.wmnet
-vega            1H  IN AAAA 2620:0:860:102:10:192:16:121 ; VM on ganeti01.svc.codfw.wmnet
 centrallog2001  1H  IN A    10.192.48.64
 webperf2001     5M  IN A    10.192.0.96 ; VM on ganeti01.svc.codfw.wmnet
 webperf2001     5M  IN AAAA 2620:0:860:101:10:192:0:96 ; VM on ganeti01.svc.codfw.wmnet
@@ -5885,7 +5881,6 @@ planet                300 IN CNAME planet1002.eqiad.wmnet.
 puppetboard           300 IN CNAME puppetboard1001.eqiad.wmnet.
 ;puppetboard           300 IN CNAME puppetboard2001.codfw.wmnet.
 releases              300 IN CNAME releases1001.eqiad.wmnet.
-webserver-misc-static 300 IN CNAME bromine.eqiad.wmnet.
 webserver-misc-apps   300 IN CNAME miscweb1002.eqiad.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
 analytics-web         300 IN CNAME thorium.eqiad.wmnet.
