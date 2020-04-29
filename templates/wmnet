@@ -4210,7 +4210,7 @@ labtestpuppetmaster2001    1H  IN A    10.193.1.36
 cloudweb2001-dev      1H  IN A    10.193.1.34
 cloudnet2002-dev      1H  IN A    10.193.1.35
 cloudnet2003-dev      1H  IN A    10.193.1.152
-labtestservices2003   1H  IN A    10.193.1.38
+cloudservices2003-dev 1H  IN A    10.193.1.38 ; wmf-zone-validator-ignore=TOO_MANY_MGMT_NAMES
 labtestvirt2003       1H  IN A    10.193.1.33
 logstash2001    1H  IN A    10.193.3.61
 logstash2002    1H  IN A    10.193.3.62
