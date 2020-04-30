@@ -886,7 +886,7 @@ $ORIGIN 32.64.@Z
 104     1H IN PTR       logstash1028.eqiad.wmnet.
 105     1H IN PTR       wdqs1013.eqiad.wmnet.
 106     1H IN PTR       kafka-jumbo1007.eqiad.wmnet.
-
+107     1H IN PTR       backup1002.eqiad.wmnet.
 108     1H IN PTR       elastic1040.eqiad.wmnet.
 109     1H IN PTR       elastic1041.eqiad.wmnet.
 110     1H IN PTR       elastic1042.eqiad.wmnet.
