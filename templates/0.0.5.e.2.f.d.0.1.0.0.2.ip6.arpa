@@ -113,6 +113,11 @@ $ORIGIN 5.0.e.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr1-eqsin.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr2-eqsin.wikimedia.org.
 
+; 2001:df2:e500:fe06::/64 - SingTel peering
+$ORIGIN 6.0.e.f.@Z
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-2-0-2.cr1-eqsin.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   singtel-peering.cr1-eqsin.wikimedia.org.
+
 ; 2001:df2:e500:ffff::/56 - Loopback IPs
 $ORIGIN f.f.f.f.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mr1-eqsin.wikimedia.org.

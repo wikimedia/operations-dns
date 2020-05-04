@@ -64,6 +64,10 @@
 142 1H IN PTR   ae1-402.cr2-eqsin.wikimedia.org.
 143 1H IN PTR   ge-0-0-4-402.mr1-eqsin.wikimedia.org.
 
+; 103.102.166.144/31  -- SingTel peering
+144 1H IN PTR   xe-2-0-2.cr1-eqsin.wikimedia.org.
+145 1H IN PTR   singtel-peering.cr1-eqsin.wikimedia.org.
+
 ; 103.102.166.160/27 (160-191) - unused
 
 ; 103.102.166.192/27 (192-223) - unused
