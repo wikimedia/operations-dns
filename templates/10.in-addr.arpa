@@ -441,6 +441,8 @@ $ORIGIN 0.64.@Z
 214 1H IN PTR   db1107.eqiad.wmnet.
 215 1H IN PTR   webperf1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 216 1H IN PTR   webperf1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+217 1H IN PTR   kubernetes1007.eqiad.wmnet.
+218 1H IN PTR   kubernetes1008.eqiad.wmnet.
 
 233 1H IN PTR   elastic1032.eqiad.wmnet.
 234 1H IN PTR   elastic1033.eqiad.wmnet.
@@ -688,7 +690,8 @@ $ORIGIN 16.64.@Z
 
 186 1H IN PTR   es1013.eqiad.wmnet.
 187 1H IN PTR   es1014.eqiad.wmnet.
-
+188 1H IN PTR   kubernetes1009.eqiad.wmnet.
+189 1H IN PTR   kubernetes1010.eqiad.wmnet.
 190 1H IN PTR   db1076.eqiad.wmnet.
 191 1H IN PTR   db1077.eqiad.wmnet.
 192 1H IN PTR   ms-be1022.eqiad.wmnet.
@@ -911,7 +914,8 @@ $ORIGIN 32.64.@Z
 131     1H IN PTR       mw1412.eqiad.wmnet.
 132     1H IN PTR       mw1413.eqiad.wmnet.
 133     1H IN PTR       argon.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
+134     1H IN PTR       kubernetes1011.eqiad.wmnet.
+135     1H IN PTR       kubernetes1012.eqiad.wmnet.
 136     1H IN PTR       db1078.eqiad.wmnet.
 
 138     1H IN PTR       aqs1005.eqiad.wmnet.
@@ -1343,6 +1347,8 @@ $ORIGIN 48.64.@Z
 226     1H  IN PTR      mw1384.eqiad.wmnet.
 227     1H  IN PTR      druid1008.eqiad.wmnet.
 228     1H  IN PTR      restbase1030.eqiad.wmnet.
+229     1H  IN PTR      kubernetes1013.eqiad.wmnet.
+230     1H  IN PTR      kubernetes1014.eqiad.wmnet.
 
 $ORIGIN 49.64.@Z
 

@@ -689,6 +689,14 @@ kubernetes1005  1H  IN A        10.64.0.145 ; VM on ganeti01.svc.eqiad.wmnet
 kubernetes1005  1H  IN AAAA     2620:0:861:101:10:64:0:145 ; VM on ganeti01.svc.eqiad.wmnet
 kubernetes1006  1H  IN A        10.64.32.18 ; VM on ganeti01.svc.eqiad.wmnet
 kubernetes1006  1H  IN AAAA     2620:0:861:103:10:64:32:18 ; VM on ganeti01.svc.eqiad.wmnet
+kubernetes1007  1H  IN A        10.64.0.217
+kubernetes1008  1H  IN A        10.64.0.218
+kubernetes1009  1H  IN A        10.64.16.188
+kubernetes1010  1H  IN A        10.64.16.189
+kubernetes1011  1H  IN A        10.64.32.134
+kubernetes1012  1H  IN A        10.64.32.135
+kubernetes1013  1H  IN A        10.64.48.229
+kubernetes1014  1H  IN A        10.64.48.230
 cloudmetrics1001      1H  IN A        10.64.37.13
 cloudmetrics1001      1H  IN AAAA     2620:0:861:119:10:64:37:13
 prometheus-labmon 1H      IN CNAME  cloudmetrics1002
