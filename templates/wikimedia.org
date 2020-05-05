@@ -915,6 +915,7 @@ shop             1D IN CNAME dyna.wikimedia.org.
 smokeping        1H IN CNAME netmon1002
 store            1H  IN CNAME    c.ssl.shopify.com.
 static-bugzilla  1D IN CNAME dyna.wikimedia.org.
+static-codereview  1D IN CNAME dyna.wikimedia.org.
 stats            1D IN CNAME dyna.wikimedia.org.
 status           5M  IN A        192.237.162.200
 status           5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
