@@ -843,7 +843,7 @@ za               1D IN CNAME dyna.wikimedia.org.
 2030             1D IN CNAME dyna.wikimedia.org.
 analytics        1D IN CNAME dyna.wikimedia.org.
 analytics.frdev  1D IN A     208.80.155.4
-blog             1H  IN CNAME    wikimediablog.wordpress.com.
+blog             1H IN CNAME blog-wikimedia-org.go-vip.net.
 bugs             1D IN CNAME dyna.wikimedia.org.
 bugzilla         1D IN CNAME dyna.wikimedia.org.
 bug-attachment   1D IN CNAME dyna.wikimedia.org.
