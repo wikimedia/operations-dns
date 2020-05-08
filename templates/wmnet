@@ -4010,6 +4010,9 @@ bast2002        1H  IN A    10.193.1.207
 centrallog2001  1H  IN A    10.193.1.144
 cloudbackup2001 1H  IN A    10.193.2.231
 cloudbackup2002 1H  IN A    10.193.2.232
+cloudceph2001-dev           1H  IN A    10.193.2.175
+cloudceph2002-dev           1H  IN A    10.193.2.176
+cloudceph2003-dev           1H  IN A    10.193.2.177
 cloudcontrol2001-dev        1H  IN A    10.193.2.198
 cloudcontrol2003-dev        1H  IN A    10.193.1.40
 cloudcontrol2004-dev        1H  IN A    10.193.2.115
@@ -4663,6 +4666,9 @@ wmf5598         1H  IN A    10.193.2.115
 wmf5599         1H  IN A    10.193.2.158
 wmf5600         1H  IN A    10.193.2.172
 wmf5601         1H  IN A    10.193.2.173
+wmf5602         1H  IN A    10.193.2.175
+wmf5603         1H  IN A    10.193.2.176
+wmf5604         1H  IN A    10.193.2.177
 wmf5836         1H  IN A    10.193.1.250
 wmf6161         1H  IN A    10.193.2.117
 wmf6162         1H  IN A    10.193.2.15

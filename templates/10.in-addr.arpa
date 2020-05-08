@@ -5032,6 +5032,13 @@ $ORIGIN 2.193.@Z
 174 1H IN PTR  cp2003.mgmt.codfw.wmnet.
 174 1H IN PTR  wmf6303.mgmt.codfw.wmnet.
 
+175 1H IN PTR  cloudceph2001-dev.mgmt.codfw.wmnet.
+175 1H IN PTR  wmf5602.mgmt.codfw.wmnet.
+176 1H IN PTR  cloudceph2002-dev.mgmt.codfw.wmnet.
+176 1H IN PTR  wmf5603.mgmt.codfw.wmnet.
+177 1H IN PTR  cloudceph2003-dev.mgmt.codfw.wmnet.
+177 1H IN PTR  wmf5604.mgmt.codfw.wmnet.
+
 180 1H IN PTR  cp2009.mgmt.codfw.wmnet.
 180 1H IN PTR  wmf6309.mgmt.codfw.wmnet.
 
