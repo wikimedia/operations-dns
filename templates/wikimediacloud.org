@@ -44,7 +44,7 @@ $ORIGIN eqiad1.wikimediacloud.org.
 
 ; Service aliases
 ; Primary openstack endpoint API used by openstack clients and endpoint catalog
-openstack  5M  IN CNAME  cloudcontrol1003.wikimedia.org.
+openstack  5M  IN CNAME  cloudcontrol1005.wikimedia.org.
 
 $ORIGIN openstack.eqiad1.wikimediacloud.org.
 
