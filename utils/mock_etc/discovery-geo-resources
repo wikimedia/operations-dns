@@ -36,3 +36,4 @@ disc-echostore           => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-schema              => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-eventgate-logging-external => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-eventgate-analytics-external => { map => mock, dcmap => { mock => 192.0.2.1 } }
+disc-thanos-query        => { map => mock, dcmap => { mock => 192.0.2.1 } }
