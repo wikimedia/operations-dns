@@ -1201,11 +1201,6 @@ $ORIGIN 48.64.@Z
 55      1H IN PTR       rdb1006.eqiad.wmnet.
 71      1H  IN PTR      thumbor1003.eqiad.wmnet.
 72      1H  IN PTR      thumbor1004.eqiad.wmnet.
-89      1H  IN PTR      mw1254.eqiad.wmnet.
-90      1H  IN PTR      mw1255.eqiad.wmnet.
-91      1H  IN PTR      mw1256.eqiad.wmnet.
-92      1H  IN PTR      mw1257.eqiad.wmnet.
-93      1H  IN PTR      mw1258.eqiad.wmnet.
 94      1H  IN PTR      scandium.eqiad.wmnet.
 95      1H  IN PTR      eventlog1002.eqiad.wmnet.
 96      1H  IN PTR      auth1002.eqiad.wmnet.
@@ -1852,15 +1847,10 @@ $ORIGIN 2.65.@Z
 101 1H  IN PTR      wmf4641.mgmt.eqiad.wmnet.
 102 1H  IN PTR      wmf4642.mgmt.eqiad.wmnet.
 103 1H  IN PTR      wmf4643.mgmt.eqiad.wmnet.
-104 1H  IN PTR      mw1254.mgmt.eqiad.wmnet.
 104 1H  IN PTR      wmf4644.mgmt.eqiad.wmnet.
-105 1H  IN PTR      mw1255.mgmt.eqiad.wmnet.
 105 1H  IN PTR      wmf4645.mgmt.eqiad.wmnet.
-106 1H  IN PTR      mw1256.mgmt.eqiad.wmnet.
 106 1H  IN PTR      wmf4646.mgmt.eqiad.wmnet.
-107 1H  IN PTR      mw1257.mgmt.eqiad.wmnet.
 107 1H  IN PTR      wmf4647.mgmt.eqiad.wmnet.
-108 1H  IN PTR      mw1258.mgmt.eqiad.wmnet.
 108 1H  IN PTR      wmf4648.mgmt.eqiad.wmnet.
 109 1H  IN PTR      mw1366.mgmt.eqiad.wmnet.
 109 1H  IN PTR      wmf5308.mgmt.eqiad.wmnet.
