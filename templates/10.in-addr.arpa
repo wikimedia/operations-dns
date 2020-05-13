@@ -1036,7 +1036,6 @@ $ORIGIN 37.64.@Z
 1       1H IN PTR       vrrp-gw-1119.eqiad.wmnet.
 2       1H IN PTR       ae3-1119.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae3-1119.cr2-eqiad.wikimedia.org.
-4       1H IN PTR       labsdb1002.eqiad.wmnet.
 
 10      1H IN PTR       labstore.svc.eqiad.wmnet.
 
