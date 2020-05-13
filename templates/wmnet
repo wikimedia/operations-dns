@@ -1204,9 +1204,6 @@ xhgui1001       1H  IN A        10.64.0.182 ; VM on ganeti01.svc.eqiad.wmnet
 xhgui1001       1H  IN AAAA     2620:0:861:101:10:64:0:182 ; VM on ganeti01.svc.eqiad.wmnet
 
 ; eqiad LVS cross-vlan addresses
-vl1017-eth1.lvs1010 1H IN A 10.64.1.10
-vl1017-eth1.lvs1011 1H IN A 10.64.1.11
-vl1017-eth1.lvs1012 1H IN A 10.64.1.12
 vl1017-eth1.lvs1014 1H IN A 10.64.1.14
 vl1017-eth1.lvs1015 1H IN A 10.64.1.15
 vl1017-eth1.lvs1016 1H IN A 10.64.1.16
