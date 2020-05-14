@@ -3481,6 +3481,7 @@ $ORIGIN 0.192.@Z
 191 1H IN PTR   people2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 192 1H IN PTR   thanos-fe2001.codfw.wmnet.
 193 1H IN PTR   db2136.codfw.wmnet.
+194 1H IN PTR   thanos-be2001.codfw.wmnet.
 
 $ORIGIN 1.192.@Z
 7   1H IN PTR   lvs2007.codfw.wmnet.
@@ -3628,6 +3629,7 @@ $ORIGIN 16.192.@Z
 133 1H IN PTR   thanos-fe2002.codfw.wmnet.
 134 1H IN PTR   db2137.codfw.wmnet.
 135 1H IN PTR   cp2009.codfw.wmnet.
+136 1H IN PTR   thanos-be2002.codfw.wmnet.
 
 139 1H IN PTR   pybal-test2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 140 1H IN PTR   pybal-test2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
@@ -3834,8 +3836,9 @@ $ORIGIN 32.192.@Z
 104 1H IN PTR   cp2038.codfw.wmnet.
 105 1H IN PTR   restbase2015-c.codfw.wmnet.
 106 1H IN PTR   db2138.codfw.wmnet.
-
+107 1H IN PTR   thanos-be2003.codfw.wmnet.
 108 1H IN PTR   restbase2016-a.codfw.wmnet.
+
 111 1H IN PTR   restbase2016-b.codfw.wmnet.
 114 1H IN PTR   cp2015.codfw.wmnet.
 118 1H IN PTR   restbase2020.codfw.wmnet.
@@ -3968,6 +3971,7 @@ $ORIGIN 48.192.@Z
 24  1H IN PTR   db2139.codfw.wmnet.
 25  1H IN PTR   cp2021.codfw.wmnet.
 26  1H IN PTR   db2140.codfw.wmnet.
+27  1H IN PTR   thanos-be2004.codfw.wmnet.
 
 31  1H IN PTR   theemin.codfw.wmnet.
 32  1H IN PTR   db2100.codfw.wmnet.
@@ -5029,9 +5033,17 @@ $ORIGIN 2.193.@Z
 182 1H IN PTR  wmf5608.mgmt.codfw.wmnet.
 183 1H IN PTR  db2140.mgmt.codfw.wmnet.
 183 1H IN PTR  wmf5609.mgmt.codfw.wmnet.
-
+184 1H IN PTR  thanos-be2001.mgmt.codfw.wmnet.
+184 1H IN PTR  wmf5610.mgmt.codfw.wmnet.
+185 1H IN PTR  thanos-be2002.mgmt.codfw.wmnet.
+185 1H IN PTR  wmf5611.mgmt.codfw.wmnet.
 186 1H IN PTR  cp2015.mgmt.codfw.wmnet.
 186 1H IN PTR  wmf6315.mgmt.codfw.wmnet.
+187 1H IN PTR  thanos-be2003.mgmt.codfw.wmnet.
+187 1H IN PTR  wmf5612.mgmt.codfw.wmnet.
+188 1H IN PTR  thanos-be2004.mgmt.codfw.wmnet.
+188 1H IN PTR  wmf5613.mgmt.codfw.wmnet.
+
 192 1H IN PTR  cp2021.mgmt.codfw.wmnet.
 192 1H IN PTR  wmf6321.mgmt.codfw.wmnet.
 198 1H IN PTR  cloudcontrol2001-dev.mgmt.codfw.wmnet.

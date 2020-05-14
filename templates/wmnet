@@ -3772,6 +3772,10 @@ sessionstore2002         1H  IN A    10.192.32.15
 sessionstore2002-a       1H  IN A    10.192.32.101
 sessionstore2003         1H  IN A    10.192.48.118
 sessionstore2003-a       1H  IN A    10.192.48.132
+thanos-be2001   1H  IN A    10.192.0.194
+thanos-be2002   1H  IN A    10.192.16.136
+thanos-be2003   1H  IN A    10.192.32.107
+thanos-be2004   1H  IN A    10.192.48.27
 thanos-fe2001   1H  IN A    10.192.0.192
 thanos-fe2002   1H  IN A    10.192.16.133
 thanos-fe2003   1H  IN A    10.192.48.23
@@ -4580,6 +4584,10 @@ scb2006         1H  IN A    10.193.1.151
 sessionstore2001 1H  IN A    10.193.1.219
 sessionstore2002 1H  IN A    10.193.1.220
 sessionstore2003 1H  IN A    10.193.1.221
+thanos-be2001    1H  IN A    10.193.2.184
+thanos-be2002    1H  IN A    10.193.2.185
+thanos-be2003    1H  IN A    10.193.2.187
+thanos-be2004    1H  IN A    10.193.2.188
 thanos-fe2001    1H  IN A    10.193.2.158
 thanos-fe2002    1H  IN A    10.193.2.172
 thanos-fe2003    1H  IN A    10.193.2.173
@@ -4657,6 +4665,10 @@ wmf5606         1H  IN A    10.193.2.179
 wmf5607         1H  IN A    10.193.2.181
 wmf5608         1H  IN A    10.193.2.182
 wmf5609         1H  IN A    10.193.2.183
+wmf5610         1H  IN A    10.193.2.184
+wmf5611         1H  IN A    10.193.2.185
+wmf5612         1H  IN A    10.193.2.187
+wmf5613         1H  IN A    10.193.2.188
 wmf5836         1H  IN A    10.193.1.250
 wmf6161         1H  IN A    10.193.2.117
 wmf6162         1H  IN A    10.193.2.15
