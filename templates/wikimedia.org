@@ -227,7 +227,6 @@ dns5001         1H  IN A    103.102.166.8
 dns5001         1H  IN AAAA 2001:df2:e500:1:103:102:166:8
 dns5002         1H  IN A    103.102.166.9
 dns5002         1H  IN AAAA 2001:df2:e500:1:103:102:166:9
-dubnium         1H  IN A    208.80.154.13 ; VM on ganeti01.svc.eqiad.wmnet
 fermium         1H  IN A    208.80.154.14 ; VM on ganeti01.svc.eqiad.wmnet
 fermium         1H  IN AAAA 2620:0:861:1:208:80:154:14 ; VM on ganeti01.svc.eqiad.wmnet
 frbast-eqiad    1H  IN A    208.80.155.8
@@ -303,7 +302,6 @@ nfs-maps        1H  IN A    208.80.155.119
 nfs-maps        1H  IN AAAA 2620:0:861:4:208:80:155:119
 pay-lvs1001     1H  IN A    208.80.155.2
 pay-lvs1002     1H  IN A    208.80.155.3
-pollux          1H  IN A    208.80.153.43 ; VM on ganeti01.svc.codfw.wmnet
 procyon         1H  IN A    208.80.152.245
 radon           1H  IN A    208.80.154.93
 radon           1H  IN AAAA 2620:0:861:3:208:80:154:93
