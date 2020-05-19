@@ -8,4 +8,6 @@
 @                       1D      IN NS   ns1.wikimedia.org.
 @                       1D      IN NS   ns2.wikimedia.org.
 
-; NOTE - Planning to reserve this whole /24 for Anycast - T98006
+; This whole /24 is for public anycast - T98006
+
+27  1H IN PTR nsa.wikimedia.org. ; anycast authdns
