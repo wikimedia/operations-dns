@@ -221,7 +221,7 @@ $ORIGIN 3.0.1.0.@Z
 8.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   netflow1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 9.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   ncredir1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 0.9.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1003.eqiad.wmnet.
-
+7.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   matomo1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 3.0.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   flowspec1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 7.0.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   backup1002.eqiad.wmnet.
 9.5.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1004.eqiad.wmnet.
