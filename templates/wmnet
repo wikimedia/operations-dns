@@ -3301,6 +3301,8 @@ lvs2007         1H  IN A    10.192.1.7
 lvs2008         1H  IN A    10.192.17.7
 lvs2009         1H  IN A    10.192.33.7
 lvs2010         1H  IN A    10.192.49.7
+malmok          1H  IN A    10.192.0.25 ; VM on ganeti01.svc.codfw.wmnet
+malmok          1H  IN AAAA 2620:0:860:101:10:192:0:25 ; VM on ganeti01.svc.codfw.wmnet
 maps2001        1H  IN A    10.192.0.144
 maps2002        1H  IN A    10.192.16.179
 maps2003        1H  IN A    10.192.32.146

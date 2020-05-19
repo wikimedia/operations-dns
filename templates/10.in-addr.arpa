@@ -3319,6 +3319,7 @@ $ORIGIN 0.192.@Z
 22  1H IN PTR   ping2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 23  1H IN PTR   cp2027.codfw.wmnet.
 24  1H IN PTR   cp2028.codfw.wmnet.
+25  1H IN PTR   malmok.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 27  1H IN PTR   puppetmaster2001.codfw.wmnet.
 28  1H IN PTR   ms-fe2005.codfw.wmnet.
 29  1H IN PTR   wdqs2003.codfw.wmnet.
