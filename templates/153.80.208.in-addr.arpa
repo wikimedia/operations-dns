@@ -35,6 +35,7 @@
 40  1H  IN PTR  cloudceph2002-dev.wikimedia.org.
 41  1H  IN PTR  cloudceph2003-dev.wikimedia.org.
 42  1H  IN PTR  apt2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
+43  1H  IN PTR  malmok.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 44  1H  IN PTR  kraz.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 45  1H  IN PTR  mx2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 46  1H  IN PTR  wiki-mail-codfw.wikimedia.org.
