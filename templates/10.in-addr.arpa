@@ -3479,6 +3479,9 @@ $ORIGIN 0.192.@Z
 192 1H IN PTR   thanos-fe2001.codfw.wmnet.
 193 1H IN PTR   db2136.codfw.wmnet.
 194 1H IN PTR   thanos-be2001.codfw.wmnet.
+195 1H IN PTR   kubestage2001.codfw.wmnet.
+196 1H IN PTR   kubernetes2007.codfw.wmnet.
+197 1H IN PTR   kubernetes2008.codfw.wmnet.
 
 $ORIGIN 1.192.@Z
 7   1H IN PTR   lvs2007.codfw.wmnet.
@@ -3627,7 +3630,8 @@ $ORIGIN 16.192.@Z
 134 1H IN PTR   db2137.codfw.wmnet.
 135 1H IN PTR   cp2009.codfw.wmnet.
 136 1H IN PTR   thanos-be2002.codfw.wmnet.
-
+137 1H IN PTR   kubestage2002.codfw.wmnet.
+138 1H IN PTR   kubernetes2009.codfw.wmnet.
 139 1H IN PTR   pybal-test2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 140 1H IN PTR   pybal-test2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 141 1H IN PTR   pybal-test2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
@@ -3700,6 +3704,7 @@ $ORIGIN 16.192.@Z
 209 1H IN PTR   ganeti2021.codfw.wmnet.
 210 1H IN PTR   ganeti2022.codfw.wmnet.
 211 1H IN PTR   miscweb2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+212 1H IN PTR   kubernetes2010.codfw.wmnet.
 
 $ORIGIN 17.192.@Z
 7   1H IN PTR   lvs2008.codfw.wmnet.
@@ -3835,9 +3840,12 @@ $ORIGIN 32.192.@Z
 106 1H IN PTR   db2138.codfw.wmnet.
 107 1H IN PTR   thanos-be2003.codfw.wmnet.
 108 1H IN PTR   restbase2016-a.codfw.wmnet.
-
+109 1H IN PTR   kubernetes2011.codfw.wmnet.
+110 1H IN PTR   kubernetes2012.codfw.wmnet.
 111 1H IN PTR   restbase2016-b.codfw.wmnet.
+
 114 1H IN PTR   cp2015.codfw.wmnet.
+
 118 1H IN PTR   restbase2020.codfw.wmnet.
 119 1H IN PTR   restbase2020-a.codfw.wmnet. ; cassandra instance
 120 1H IN PTR   restbase2020-b.codfw.wmnet. ; cassandra instance
@@ -3969,6 +3977,8 @@ $ORIGIN 48.192.@Z
 25  1H IN PTR   cp2021.codfw.wmnet.
 26  1H IN PTR   db2140.codfw.wmnet.
 27  1H IN PTR   thanos-be2004.codfw.wmnet.
+28  1H IN PTR   kubernetes2013.codfw.wmnet.
+29  1H IN PTR   kubernetes2014.codfw.wmnet.
 
 31  1H IN PTR   theemin.codfw.wmnet.
 32  1H IN PTR   db2100.codfw.wmnet.
@@ -5481,6 +5491,26 @@ $ORIGIN 3.193.@Z
 164 1H IN PTR  wmf5594.mgmt.codfw.wmnet.
 165 1H IN PTR  cp2042.mgmt.codfw.wmnet.
 165 1H IN PTR  wmf5595.mgmt.codfw.wmnet.
+166 1H IN PTR  kubestage2001.mgmt.codfw.wmnet.
+166 1H IN PTR  wmf5550.mgmt.codfw.wmnet.
+167 1H IN PTR  kubestage2002.mgmt.codfw.wmnet.
+167 1H IN PTR  wmf5551.mgmt.codfw.wmnet.
+168 1H IN PTR  kubernetes2007.mgmt.codfw.wmnet.
+168 1H IN PTR  wmf5552.mgmt.codfw.wmnet.
+169 1H IN PTR  kubernetes2008.mgmt.codfw.wmnet.
+169 1H IN PTR  wmf5553.mgmt.codfw.wmnet.
+170 1H IN PTR  kubernetes2009.mgmt.codfw.wmnet.
+170 1H IN PTR  wmf5554.mgmt.codfw.wmnet.
+171 1H IN PTR  kubernetes2010.mgmt.codfw.wmnet.
+171 1H IN PTR  wmf5555.mgmt.codfw.wmnet.
+172 1H IN PTR  kubernetes2011.mgmt.codfw.wmnet.
+172 1H IN PTR  wmf5556.mgmt.codfw.wmnet.
+173 1H IN PTR  kubernetes2012.mgmt.codfw.wmnet.
+173 1H IN PTR  wmf5557.mgmt.codfw.wmnet.
+174 1H IN PTR  kubernetes2013.mgmt.codfw.wmnet.
+174 1H IN PTR  wmf5558.mgmt.codfw.wmnet.
+175 1H IN PTR  kubernetes2014.mgmt.codfw.wmnet.
+175 1H IN PTR  wmf5559.mgmt.codfw.wmnet.
 
 180 1H IN PTR  backup2002.mgmt.codfw.wmnet.
 180 1H IN PTR  wmf5597.mgmt.codfw.wmnet.
