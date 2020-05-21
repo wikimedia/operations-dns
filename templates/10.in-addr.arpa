@@ -2970,16 +2970,6 @@ $ORIGIN 7.65.@Z
 28      1H      IN PTR     wmf7002.mgmt.eqiad.wmnet.
 28      1H      IN PTR     wdqs1003.mgmt.eqiad.wmnet.
 
-65      1H      IN PTR     wmf4601.mgmt.eqiad.wmnet.
-66      1H      IN PTR     wmf4602.mgmt.eqiad.wmnet.
-67      1H      IN PTR     wmf4603.mgmt.eqiad.wmnet.
-68      1H      IN PTR     wmf4604.mgmt.eqiad.wmnet.
-69      1H      IN PTR     wmf4605.mgmt.eqiad.wmnet.
-70      1H      IN PTR     wmf4606.mgmt.eqiad.wmnet.
-71      1H      IN PTR     wmf4607.mgmt.eqiad.wmnet.
-72      1H      IN PTR     wmf4608.mgmt.eqiad.wmnet.
-73      1H      IN PTR     wmf4609.mgmt.eqiad.wmnet.
-74      1H      IN PTR     wmf4610.mgmt.eqiad.wmnet.
 75      1H      IN PTR     contint1001.mgmt.eqiad.wmnet.
 75      1H      IN PTR     wmf4746.mgmt.eqiad.wmnet.
 76      1H      IN PTR     phab1001.mgmt.eqiad.wmnet.
