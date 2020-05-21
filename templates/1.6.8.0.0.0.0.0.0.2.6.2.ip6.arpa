@@ -196,6 +196,7 @@ $ORIGIN 2.0.1.0.@Z
 
 9.2.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   conf1005.eqiad.wmnet.
 
+1.7.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1007.eqiad.wmnet.
 2.7.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1005.eqiad.wmnet.
 
 4.1.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1008.eqiad.wmnet.
@@ -345,6 +346,8 @@ $ORIGIN 7.0.1.0.@Z
 6.4.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1006.eqiad.wmnet.
 9.1.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1009.eqiad.wmnet.
 6.3.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   backup1001.eqiad.wmnet.
+
+7.2.2.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1008.eqiad.wmnet.
 
 ; analytics1-d-eqiad (2620:0:861:108::/64)
 $ORIGIN 8.0.1.0.@Z
