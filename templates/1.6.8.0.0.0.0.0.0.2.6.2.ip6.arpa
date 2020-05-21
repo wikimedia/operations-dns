@@ -260,7 +260,8 @@ $ORIGIN 4.0.1.0.@Z
 
 3.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-presto1002.eqiad.wmnet.
 4.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-presto1005.eqiad.wmnet.
-
+5.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   stat1008.eqiad.wmnet.
+6.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-druid1001.eqiad.wmnet.
 
 ; analytics1-b-eqiad (2620:0:861:105::/64)
 $ORIGIN 5.0.1.0.@Z
@@ -310,6 +311,7 @@ $ORIGIN 6.0.1.0.@Z
 8.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-tool1007.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 9.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-airflow1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 0.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1088.eqiad.wmnet.
+1.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-druid1002.eqiad.wmnet.
 3.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1089.eqiad.wmnet.
 3.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1090.eqiad.wmnet.
 5.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1091.eqiad.wmnet.

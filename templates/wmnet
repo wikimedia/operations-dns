@@ -148,7 +148,9 @@ an-conf1002      1H IN AAAA          2620:0:861:106:10:64:36:135
 an-conf1003      1H IN A             10.64.53.38
 an-conf1003      1H IN AAAA          2620:0:861:108:10:64:53:38
 an-druid1001     1H IN A             10.64.5.36
+an-druid1001     1H IN AAAA          2620:0:861:104:10:64:5:36
 an-druid1002     1H IN A             10.64.36.101
+an-druid1002     1H IN AAAA          2620:0:861:106:10:64:36:101
 an-presto1001    1H IN A             10.64.53.39
 an-presto1001    1H IN AAAA          2620:0:861:108:10:64:53:39
 an-presto1002    1H IN A             10.64.5.33
@@ -1128,6 +1130,7 @@ stat1006        1H  IN AAAA     2620:0:861:108:10:64:53:31
 stat1007        1H  IN A        10.64.21.118
 stat1007        1H  IN AAAA     2620:0:861:105:10:64:21:118
 stat1008        1H  IN A        10.64.5.35
+stat1008        1H  IN AAAA     2620:0:861:104:10:64:5:35
 phab1001        1H  IN A        10.64.16.8
 phab1001        1H  IN AAAA     2620:0:861:102:10:64:16:8
 phab1001-aphlict 1H IN CNAME    phab1001 ; CNAME here due to varnish puppetization woes
