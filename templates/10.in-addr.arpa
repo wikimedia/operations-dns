@@ -2119,8 +2119,7 @@ $ORIGIN 3.65.@Z
 
 106 1H  IN PTR      wmf3524.mgmt.eqiad.wmnet.
 107 1H  IN PTR      wmf3526.mgmt.eqiad.wmnet.
-110 1H  IN PTR      wmf3497.mgmt.eqiad.wmnet.
-111 1H  IN PTR      wmf3498.mgmt.eqiad.wmnet.
+
 112 1H  IN PTR      wmf4053.mgmt.eqiad.wmnet.
 113 1H  IN PTR      wmf4054.mgmt.eqiad.wmnet.
 114 1H  IN PTR      wmf4055.mgmt.eqiad.wmnet.
