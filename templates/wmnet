@@ -5920,6 +5920,7 @@ schema         300/10 IN DYNA geoip!disc-schema
 eventgate-logging-external 300/10 IN DYNA geoip!disc-eventgate-logging-external
 eventgate-analytics-external 300/10 IN DYNA geoip!disc-eventgate-analytics-external
 thanos-query   300/10 IN DYNA geoip!disc-thanos-query
+thanos-swift   300/10 IN DYNA geoip!disc-thanos-swift
 
 
 ; misc web services with multiple backends but without geoip
