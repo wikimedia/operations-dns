@@ -5774,6 +5774,7 @@ eventgate-logging-external 1H  IN A    10.2.2.50
 cloudceph       1H  IN A        10.2.2.51
 eventgate-analytics-external 1H  IN A    10.2.2.52
 thanos-query    1H  IN A    10.2.2.53
+thanos-swift    1H  IN A    10.2.2.54
 
 
 ganeti01    1H  IN A        10.64.32.173
@@ -5867,6 +5868,7 @@ eventgate-logging-external 1H  IN A    10.2.1.50
 
 eventgate-analytics-external 1H  IN A    10.2.1.52
 thanos-query    1H  IN A    10.2.1.53
+thanos-swift    1H  IN A    10.2.1.54
 
 ; DISCOVERY SERVICES
 
