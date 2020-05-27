@@ -3628,6 +3628,7 @@ parse2019      1H  IN A    10.192.48.152
 parse2020      1H  IN A    10.192.48.153
 peek2001        1H  IN A    10.192.0.92 ; VM on ganeti01.svc.codfw.wmnet
 people2001      1H  IN A    10.192.0.191 ; VM on ganeti01.svc.codfw.wmnet
+people2001      1H  IN AAAA 2620:0:860:101:10:192:0:191 ; VM on ganeti01.svc.codfw.wmnet
 planet2002      1H  IN A    10.192.0.189 ; VM on ganeti01.svc.codfw.wmnet
 planet2002      1H  IN AAAA 2620:0:860:101:10:192:0:189 ; VM on ganeti01.svc.codfw.wmnet
 pc2007          1H  IN A    10.192.0.104
