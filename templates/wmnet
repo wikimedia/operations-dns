@@ -3693,6 +3693,8 @@ rdb2003         1H  IN A    10.192.16.122
 rdb2004         1H  IN A    10.192.16.123
 rdb2005         1H  IN A    10.192.32.133
 rdb2006         1H  IN A    10.192.48.44
+rdb2007         1H  IN A    10.192.0.198
+rdb2008         1H  IN A    10.192.16.213
 registry2001    1H  IN A    10.192.0.113 ; VM on ganeti01.svc.codfw.wmnet docker registry
 registry2002    1H  IN A    10.192.16.94 ; VM on ganeti01.svc.codfw.wmnet docker registry
 releases2001    1H  IN A        10.192.16.174 ; VM on ganeti01.svc.codfw.wmnet
@@ -4573,6 +4575,8 @@ rdb2003         1H  IN A    10.193.2.161
 rdb2004         1H  IN A    10.193.2.162
 rdb2005         1H  IN A    10.193.2.247
 rdb2006         1H  IN A    10.193.2.248
+rdb2007         1H  IN A    10.193.2.189
+rdb2008         1H  IN A    10.193.2.190
 restbase2009    1H  IN A    10.193.3.7
 restbase2010    1H  IN A    10.193.1.153
 restbase2011    1H  IN A    10.193.1.154
@@ -4692,6 +4696,8 @@ wmf5610         1H  IN A    10.193.2.184
 wmf5611         1H  IN A    10.193.2.185
 wmf5612         1H  IN A    10.193.2.187
 wmf5613         1H  IN A    10.193.2.188
+wmf5615         1H  IN A    10.193.2.189
+wmf5616         1H  IN A    10.193.2.190
 wmf5836         1H  IN A    10.193.1.250
 wmf6161         1H  IN A    10.193.2.117
 wmf6162         1H  IN A    10.193.2.15

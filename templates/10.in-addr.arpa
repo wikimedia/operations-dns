@@ -3478,6 +3478,7 @@ $ORIGIN 0.192.@Z
 195 1H IN PTR   kubestage2001.codfw.wmnet.
 196 1H IN PTR   kubernetes2007.codfw.wmnet.
 197 1H IN PTR   kubernetes2008.codfw.wmnet.
+198 1H IN PTR   rdb2007.codfw.wmnet.
 
 $ORIGIN 1.192.@Z
 7   1H IN PTR   lvs2007.codfw.wmnet.
@@ -3701,6 +3702,7 @@ $ORIGIN 16.192.@Z
 210 1H IN PTR   ganeti2022.codfw.wmnet.
 211 1H IN PTR   miscweb2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 212 1H IN PTR   kubernetes2010.codfw.wmnet.
+213 1H IN PTR   rdb2008.codfw.wmnet.
 
 $ORIGIN 17.192.@Z
 7   1H IN PTR   lvs2008.codfw.wmnet.
@@ -5046,6 +5048,10 @@ $ORIGIN 2.193.@Z
 187 1H IN PTR  wmf5612.mgmt.codfw.wmnet.
 188 1H IN PTR  thanos-be2004.mgmt.codfw.wmnet.
 188 1H IN PTR  wmf5613.mgmt.codfw.wmnet.
+189 1H IN PTR  rdb2007.mgmt.codfw.wmnet.
+189 1H IN PTR  wmf5615.mgmt.codfw.wmnet.
+190 1H IN PTR  rdb2008.mgmt.codfw.wmnet.
+190 1H IN PTR  wmf5616.mgmt.codfw.wmnet.
 
 192 1H IN PTR  cp2021.mgmt.codfw.wmnet.
 192 1H IN PTR  wmf6321.mgmt.codfw.wmnet.
