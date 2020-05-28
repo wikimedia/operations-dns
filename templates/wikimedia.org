@@ -428,6 +428,7 @@ upload-lb.esams     1H IN AAAA 2620:0:862:ed1a::2:b
 
 advisory.m          1D IN CNAME dyna.wikimedia.org.
 am.m                1D IN CNAME dyna.wikimedia.org.
+api.m               1D IN CNAME dyna.wikimedia.org.
 ar.m                1D IN CNAME dyna.wikimedia.org.
 bd.m                1D IN CNAME dyna.wikimedia.org.
 be.m                1D IN CNAME dyna.wikimedia.org.
@@ -725,6 +726,7 @@ advisors         1D IN CNAME dyna.wikimedia.org.
 advisory         1D IN CNAME dyna.wikimedia.org.
 affcom           1D IN CNAME dyna.wikimedia.org.
 am               1D IN CNAME dyna.wikimedia.org.
+api              1D IN CNAME dyna.wikimedia.org.
 auditcom         1D IN CNAME dyna.wikimedia.org.
 ar               1D IN CNAME dyna.wikimedia.org.
 bd               1D IN CNAME dyna.wikimedia.org.
