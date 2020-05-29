@@ -1128,8 +1128,6 @@ $ORIGIN 40.64.@Z
 203 1H IN PTR   wmf6946.mgmt.frack.eqiad.wmnet.
 204 1H IN PTR   frqueue1002.mgmt.frack.eqiad.wmnet.
 204 1H IN PTR   wmf6947.mgmt.frack.eqiad.wmnet.
-205 1H IN PTR   americium.mgmt.frack.eqiad.wmnet.
-205 1H IN PTR   wmf4594.mgmt.frack.eqiad.wmnet.
 
 207 1H IN PTR   frnetmon1001.mgmt.frack.eqiad.wmnet.
 207 1H IN PTR   wmf5253.mgmt.frack.eqiad.wmnet.
