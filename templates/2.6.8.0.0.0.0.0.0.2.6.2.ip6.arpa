@@ -23,6 +23,7 @@ $ORIGIN 1.0.0.0.@Z
 0.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   bast3004.wikimedia.org.
 1.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   dns3001.wikimedia.org.
 2.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   dns3002.wikimedia.org.
+3.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   install3001.wikimedia.org. ; VM on ganeti01.svc.esams.wmnet
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-100.cr3-esams.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-100.cr2-esams.wikimedia.org.

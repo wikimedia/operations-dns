@@ -20,7 +20,7 @@ $ORIGIN 1.0.0.0.@Z
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   et-1-0-1-1201.cr4-ulsfo.wikimedia.org.
 7.0.0.0.6.2.0.0.5.3.0.0.8.9.1.0 1H IN PTR   dns4001.wikimedia.org.
 8.0.0.0.6.2.0.0.5.3.0.0.8.9.1.0 1H IN PTR   dns4002.wikimedia.org.
-
+2.1.0.0.6.2.0.0.5.3.0.0.8.9.1.0 1H IN PTR   install4001.wikimedia.org. ; VM on ganeti01.svc.ulsfo.wmnet
 
 
 ; ulsfo private subnets (2620:0:863:100::/56)

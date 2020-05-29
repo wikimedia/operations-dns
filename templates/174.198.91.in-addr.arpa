@@ -20,6 +20,7 @@
 60  1H IN PTR   bast3004.wikimedia.org.
 61  1H IN PTR   dns3001.wikimedia.org.
 62  1H IN PTR   dns3002.wikimedia.org.
+63  1H IN PTR   install3001.wikimedia.org. ; VM on ganeti01.svc.esams.wmnet
 
 ; 91.198.174.128/28 sandbox1-esams (91.198.174.128 - 91.198.174.143)
 129 1H IN PTR   vrrp-gw-102.esams.wikimedia.org.

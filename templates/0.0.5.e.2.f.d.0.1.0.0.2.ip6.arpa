@@ -21,6 +21,7 @@ $ORIGIN 1.0.0.0.@Z
 7.0.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   bast5001.wikimedia.org.
 8.0.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   dns5001.wikimedia.org.
 9.0.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   dns5002.wikimedia.org.
+3.1.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   install5001.wikimedia.org. ; VM on ganeti01.svc.eqsin.wmnet
 
 ; 2001:df2:e500:100::/56 - eqsin private subnets
 ; 2001:df2:e500:101::/64 - private1-eqsin
