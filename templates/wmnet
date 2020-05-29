@@ -1120,7 +1120,9 @@ snapshot1008    1H  IN A        10.64.16.16
 snapshot1009    1H  IN A        10.64.48.37
 snapshot1010    1H  IN A        10.64.16.147
 sretest1001     1H  IN A        10.64.48.138
+sretest1001     1H  IN AAAA     2620:0:861:107:10:64:48:138
 sretest1002     1H  IN A        10.64.48.139
+sretest1002     1H  IN AAAA     2620:0:861:107:10:64:48:139
 stat1004        1H  IN A        10.64.5.104
 stat1004        1H  IN AAAA     2620:0:861:104:10:64:5:104
 stat1005        1H  IN A        10.64.53.30
