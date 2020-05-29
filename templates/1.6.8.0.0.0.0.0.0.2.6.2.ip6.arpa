@@ -323,7 +323,6 @@ $ORIGIN 7.0.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1020.eqiad.wmnet.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1020.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1020.cr2-eqiad.wikimedia.org.
-
 0.3.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1004.eqiad.wmnet.
 1.3.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1005.eqiad.wmnet.
 
@@ -338,6 +337,7 @@ $ORIGIN 7.0.1.0.@Z
 2.5.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1004.eqiad.wmnet.
 5.9.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   eventlog1002.eqiad.wmnet.
 
+2.1.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   flerovium.eqiad.wmnet.
 7.1.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1006.eqiad.wmnet.
 
 7.6.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   conf1006.eqiad.wmnet.
