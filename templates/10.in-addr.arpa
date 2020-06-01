@@ -3177,61 +3177,12 @@ $ORIGIN 0.132.@Z
 
 ; 10.132.128.0/17 - eqsin mgmt
 $ORIGIN 128.132.@Z
-1   1H  IN PTR      mr1-eqsin.mgmt.eqsin.wmnet.
-2   1H  IN PTR      re0.cr1-eqsin.mgmt.eqsin.wmnet.
-3   1H  IN PTR      re1.cr1-eqsin.mgmt.eqsin.wmnet.
-4   1H  IN PTR      asw1-eqsin.mgmt.eqsin.wmnet.
-5   1H  IN PTR      scs-eqsin.mgmt.eqsin.wmnet.
-6   1H  IN PTR      cr2-eqsin.mgmt.eqsin.wmnet.
-
-10  1H  IN PTR      ps1-603-eqsin.mgmt.eqsin.wmnet.
-11  1H  IN PTR      ps1-604-eqsin.mgmt.eqsin.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/128.132.10.in-addr.arpa
 
 $ORIGIN 129.132.@Z
-7   1H  IN PTR      bast5001.mgmt.eqsin.wmnet.
-7   1H  IN PTR      wmf7183.mgmt.eqsin.wmnet.
-8   1H  IN PTR      dns5001.mgmt.eqsin.wmnet.
-8   1H  IN PTR      wmf7185.mgmt.eqsin.wmnet.
-9   1H  IN PTR      dns5002.mgmt.eqsin.wmnet.
-9   1H  IN PTR      wmf7180.mgmt.eqsin.wmnet.
-
-11  1H  IN PTR      lvs5001.mgmt.eqsin.wmnet.
-11  1H  IN PTR      wmf7184.mgmt.eqsin.wmnet.
-12  1H  IN PTR      lvs5002.mgmt.eqsin.wmnet.
-12  1H  IN PTR      wmf7181.mgmt.eqsin.wmnet.
-13  1H  IN PTR      lvs5003.mgmt.eqsin.wmnet.
-13  1H  IN PTR      wmf7182.mgmt.eqsin.wmnet.
-
-101 1H  IN PTR      cp5001.mgmt.eqsin.wmnet.
-101 1H  IN PTR      wmf7174.mgmt.eqsin.wmnet.
-102 1H  IN PTR      cp5002.mgmt.eqsin.wmnet.
-102 1H  IN PTR      wmf7168.mgmt.eqsin.wmnet.
-103 1H  IN PTR      cp5003.mgmt.eqsin.wmnet.
-103 1H  IN PTR      wmf7175.mgmt.eqsin.wmnet.
-104 1H  IN PTR      cp5004.mgmt.eqsin.wmnet.
-104 1H  IN PTR      wmf7169.mgmt.eqsin.wmnet.
-105 1H  IN PTR      cp5005.mgmt.eqsin.wmnet.
-105 1H  IN PTR      wmf7176.mgmt.eqsin.wmnet.
-106 1H  IN PTR      cp5006.mgmt.eqsin.wmnet.
-106 1H  IN PTR      wmf7170.mgmt.eqsin.wmnet.
-107 1H  IN PTR      cp5007.mgmt.eqsin.wmnet.
-107 1H  IN PTR      wmf7177.mgmt.eqsin.wmnet.
-108 1H  IN PTR      cp5008.mgmt.eqsin.wmnet.
-108 1H  IN PTR      wmf7171.mgmt.eqsin.wmnet.
-109 1H  IN PTR      cp5009.mgmt.eqsin.wmnet.
-109 1H  IN PTR      wmf7178.mgmt.eqsin.wmnet.
-110 1H  IN PTR      cp5010.mgmt.eqsin.wmnet.
-110 1H  IN PTR      wmf7172.mgmt.eqsin.wmnet.
-111 1H  IN PTR      cp5011.mgmt.eqsin.wmnet.
-111 1H  IN PTR      wmf7179.mgmt.eqsin.wmnet.
-112 1H  IN PTR      cp5012.mgmt.eqsin.wmnet.
-112 1H  IN PTR      wmf7173.mgmt.eqsin.wmnet.
-113 1H  IN PTR      ganeti5001.mgmt.eqsin.wmnet.
-113 1H  IN PTR      wmf7193.mgmt.eqsin.wmnet.
-114 1H  IN PTR      ganeti5002.mgmt.eqsin.wmnet.
-114 1H  IN PTR      wmf7194.mgmt.eqsin.wmnet.
-115 1H  IN PTR      ganeti5003.mgmt.eqsin.wmnet.
-115 1H  IN PTR      wmf7195.mgmt.eqsin.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/129.132.10.in-addr.arpa
 
 ;
 ; CODFW (10.192.0.0/12)

@@ -5509,65 +5509,8 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
 ;
 
 $ORIGIN mgmt.eqsin.wmnet.
-
-mr1-eqsin       1H      IN A    10.132.128.1
-re0.cr1-eqsin   1H      IN A    10.132.128.2
-re1.cr1-eqsin   1H      IN A    10.132.128.3
-asw1-eqsin      1H      IN A    10.132.128.4
-scs-eqsin       1H      IN A    10.132.128.5
-cr2-eqsin       1H      IN A    10.132.128.6
-
-ps1-603-eqsin   1H      IN A    10.132.128.10
-ps1-604-eqsin   1H      IN A    10.132.128.11
-
-; Servers listed sequentially
-bast5001        1H      IN A    10.132.129.7
-dns5001         1H      IN A    10.132.129.8
-dns5002         1H      IN A    10.132.129.9
-
-lvs5001         1H      IN A    10.132.129.11
-lvs5002         1H      IN A    10.132.129.12
-lvs5003         1H      IN A    10.132.129.13
-
-cp5001          1H      IN A    10.132.129.101
-cp5002          1H      IN A    10.132.129.102
-cp5003          1H      IN A    10.132.129.103
-cp5004          1H      IN A    10.132.129.104
-cp5005          1H      IN A    10.132.129.105
-cp5006          1H      IN A    10.132.129.106
-cp5007          1H      IN A    10.132.129.107
-cp5008          1H      IN A    10.132.129.108
-cp5009          1H      IN A    10.132.129.109
-cp5010          1H      IN A    10.132.129.110
-cp5011          1H      IN A    10.132.129.111
-cp5012          1H      IN A    10.132.129.112
-
-ganeti5001      1H      IN A    10.132.129.113
-ganeti5002      1H      IN A    10.132.129.114
-ganeti5003      1H      IN A    10.132.129.115
-
-; Asset tags listed in order
-wmf7168         1H      IN A    10.132.129.102
-wmf7169         1H      IN A    10.132.129.104
-wmf7170         1H      IN A    10.132.129.106
-wmf7171         1H      IN A    10.132.129.108
-wmf7172         1H      IN A    10.132.129.110
-wmf7173         1H      IN A    10.132.129.112
-wmf7174         1H      IN A    10.132.129.101
-wmf7175         1H      IN A    10.132.129.103
-wmf7176         1H      IN A    10.132.129.105
-wmf7177         1H      IN A    10.132.129.107
-wmf7178         1H      IN A    10.132.129.109
-wmf7179         1H      IN A    10.132.129.111
-wmf7180         1H      IN A    10.132.129.9
-wmf7181         1H      IN A    10.132.129.12
-wmf7182         1H      IN A    10.132.129.13
-wmf7183         1H      IN A    10.132.129.7
-wmf7184         1H      IN A    10.132.129.11
-wmf7185         1H      IN A    10.132.129.8
-wmf7193         1H      IN A    10.132.129.113
-wmf7194         1H      IN A    10.132.129.114
-wmf7195         1H      IN A    10.132.129.115
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/mgmt.eqsin.wmnet
 
 ;
 ; EQSIN private1
