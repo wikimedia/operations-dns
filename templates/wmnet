@@ -600,6 +600,7 @@ flerovium       1H  IN AAAA     2620:0:861:107:10:64:48:112
 flowspec1001    1H  IN A        10.64.32.103 ; VM on ganeti01.svc.eqiad.wmnet
 flowspec1001    1H  IN AAAA     2620:0:861:103:10:64:32:103 ; VM on ganeti01.svc.eqiad.wmnet
 francium        1H  IN A        10.64.32.168
+francium        1H  IN AAAA     2620:0:861:103:10:64:32:168
 ganeti1001      1H  IN A        10.64.32.169
 ganeti1002      1H  IN A        10.64.32.170
 ganeti1003      1H  IN A        10.64.32.171
@@ -625,7 +626,8 @@ ganeti1022      1H  IN A        10.64.48.190
 grafana1002     1H  IN A        10.64.0.119 ; VM on ganeti01.svc.eqiad.wmnet
 helium          1H  IN A        10.64.0.179
 helium          1H  IN AAAA     2620:0:861:101:10:64:0:179
-htmldumper1001  1H  IN A             10.64.0.206
+htmldumper1001  1H  IN A        10.64.0.206
+htmldumper1001  1H  IN AAAA     2620:0:861:101:10:64:0:206
 logstash1020        1H  IN A         10.64.0.11
 logstash1020        1H  IN AAAA      2620:0:861:101:10:64:0:11
 logstash1021        1H  IN A         10.64.16.41

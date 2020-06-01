@@ -120,7 +120,6 @@ $ORIGIN 1.0.1.0.@Z
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1017.cr2-eqiad.wikimedia.org.
 
 4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cam-unknown.eqiad.wmnet.
-
 5.4.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   chlorine.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 0.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1075.eqiad.wmnet.
 1.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1076.eqiad.wmnet.
@@ -151,6 +150,9 @@ $ORIGIN 1.0.1.0.@Z
 3.2.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   conf1004.eqiad.wmnet.
 
 0.0.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1001.eqiad.wmnet.
+
+6.0.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   htmldumper1001.eqiad.wmnet.
+
 5.1.2.0.0.0.0.0.4.6.0.0.0.1.0.0 5M IN PTR   webperf1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 6.1.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   webperf1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
@@ -209,6 +211,9 @@ $ORIGIN 3.0.1.0.@Z
 5.2.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cumin1001.eqiad.wmnet.
 6.1.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   deploy1001.eqiad.wmnet.
 9.1.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   rpki1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
+8.6.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   francium.eqiad.wmnet.
+
 5.3.2.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestagetcd1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 6.2.2.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestagetcd1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 5.1.2.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubetcd1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
