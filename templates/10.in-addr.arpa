@@ -676,9 +676,6 @@ $ORIGIN 16.64.@Z
 160 1H IN PTR   mw1399.eqiad.wmnet.
 161 1H IN PTR   mw1400.eqiad.wmnet.
 162 1H IN PTR   mw1401.eqiad.wmnet.
-163 1H IN PTR   ms-be1016.eqiad.wmnet.
-164 1H IN PTR   ms-be1017.eqiad.wmnet.
-165 1H IN PTR   ms-be1018.eqiad.wmnet.
 166 1H IN PTR   mw1402.eqiad.wmnet.
 167 1H IN PTR   mw1403.eqiad.wmnet.
 168 1H IN PTR   mw1404.eqiad.wmnet.
@@ -2622,11 +2619,8 @@ $ORIGIN 5.65.@Z
 18  1H  IN PTR      ms-be1059.mgmt.eqiad.wmnet.
 18  1H  IN PTR      wmf5252.mgmt.eqiad.wmnet.
 
-24  1H  IN PTR      ms-be1016.mgmt.eqiad.wmnet.
 24  1H  IN PTR      wmf4662.mgmt.eqiad.wmnet.
-25  1H  IN PTR      ms-be1017.mgmt.eqiad.wmnet.
 25  1H  IN PTR      wmf4663.mgmt.eqiad.wmnet.
-26  1H  IN PTR      ms-be1018.mgmt.eqiad.wmnet.
 26  1H  IN PTR      wmf4664.mgmt.eqiad.wmnet.
 27  1H  IN PTR      ms-be1019.mgmt.eqiad.wmnet.
 27  1H  IN PTR      wmf4715.mgmt.eqiad.wmnet.

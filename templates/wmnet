@@ -766,9 +766,6 @@ mendelevium     1H  IN A        10.64.32.174 ; VM on ganeti01.svc.eqiad.wmnet
 miscweb1002     1H  IN A        10.64.32.187 ; VM on ganeti01.svc.eqiad.wmnet
 miscweb1002     1H  IN AAAA     2620:0:861:103:10:64:32:187 ; VM on ganeti01.svc.eqiad.wmnet
 moscovium       1H  IN A        10.64.0.54 ; VM on ganeti01.svc.eqiad.wmnet
-ms-be1016       1H  IN A        10.64.16.163
-ms-be1017       1H  IN A        10.64.16.164
-ms-be1018       1H  IN A        10.64.16.165
 ms-be1019       1H  IN A        10.64.0.8
 ms-be1020       1H  IN A        10.64.16.40
 ms-be1021       1H  IN A        10.64.48.54
@@ -2027,11 +2024,8 @@ mc-gp1002   1H  IN A    10.65.8.17
 wmf5343     1H  IN A    10.65.8.17
 mc-gp1003   1H  IN A    10.65.8.18
 wmf5344     1H  IN A    10.65.8.18
-ms-be1016   1H  IN A    10.65.5.24
 wmf4662     1H  IN A    10.65.5.24
-ms-be1017   1H  IN A    10.65.5.25
 wmf4663     1H  IN A    10.65.5.25
-ms-be1018   1H  IN A    10.65.5.26
 wmf4664     1H  IN A    10.65.5.26
 ms-be1019   1H  IN A    10.65.5.27
 wmf4715     1H  IN A    10.65.5.27
