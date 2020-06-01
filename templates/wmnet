@@ -1036,6 +1036,8 @@ releases1001    1H  IN A        10.64.0.88 ; VM on ganeti01.svc.eqiad.wmnet
 releases1001    1H  IN AAAA     2620:0:861:101:10:64:0:88 ; VM on ganeti01.svc.eqiad.wmnet
 relforge1001    1H  IN A        10.64.4.13
 relforge1002    1H  IN A        10.64.37.21
+relforge1003    1H  IN A        10.64.5.37
+relforge1004    1H  IN A        10.64.21.126
 restbase1016    1H  IN A        10.64.0.31
 restbase1016-a  1H  IN A        10.64.0.32 ; cassandra instance
 restbase1016-b  1H  IN A        10.64.0.33 ; cassandra instance
@@ -2756,9 +2758,12 @@ wmf7000         1H      IN A            10.65.2.139
 prometheus1003  1H      IN A            10.65.2.139
 wmf7001         1H      IN A            10.65.2.140
 prometheus1004  1H      IN A            10.65.2.140
-wmf4660         1H      IN A            10.65.2.113
 wmf4661         1H      IN A            10.65.2.114
 relforge1002    1H      IN A            10.65.2.114
+wmf4800         1H      IN A            10.65.2.187
+relforge1003    1H      IN A            10.65.2.187
+wmf4801         1H      IN A            10.65.2.188
+relforge1004    1H      IN A            10.65.2.188
 wmf6997         1H      IN A            10.65.2.136
 restbase1016    1H      IN A            10.65.2.136
 wmf6998         1H      IN A            10.65.2.137

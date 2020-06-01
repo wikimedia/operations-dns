@@ -509,6 +509,7 @@ $ORIGIN 5.64.@Z
 34  1H IN PTR   an-presto1005.eqiad.wmnet.
 35  1H IN PTR   stat1008.eqiad.wmnet.
 36  1H IN PTR   an-druid1001.eqiad.wmnet.
+37  1H IN PTR   relforge1003.eqiad.wmnet.
 
 101 1H IN PTR   druid1001.eqiad.wmnet.
 
@@ -786,8 +787,7 @@ $ORIGIN 21.64.@Z
 123 1H IN PTR   an-worker1087.eqiad.wmnet.
 124 1H IN PTR   an-conf1001.eqiad.wmnet.
 125 1H IN PTR   an-presto1004.eqiad.wmnet.
-
-
+126 1H IN PTR   relforge1004.eqiad.wmnet.
 
 ; 10.64.32.0/22 - private1-c-eqiad
 $ORIGIN 32.64.@Z
@@ -1848,7 +1848,6 @@ $ORIGIN 2.65.@Z
 
 112 1H  IN PTR      wmf4659.mgmt.eqiad.wmnet.
 112 1H  IN PTR      cloudmetrics1001.mgmt.eqiad.wmnet.
-113 1H  IN PTR      wmf4660.mgmt.eqiad.wmnet.
 114 1H  IN PTR      wmf4661.mgmt.eqiad.wmnet.
 114 1H  IN PTR      relforge1002.mgmt.eqiad.wmnet.
 119 1H  IN PTR      mw1367.mgmt.eqiad.wmnet.
@@ -1986,6 +1985,10 @@ $ORIGIN 2.65.@Z
 185 1H  IN PTR      wmf5392.mgmt.eqiad.wmnet.
 186 1H  IN PTR      druid1008.mgmt.eqiad.wmnet.
 186 1H  IN PTR      wmf5393.mgmt.eqiad.wmnet.
+187 1H  IN PTR      relforge1003.mgmt.eqiad.wmnet.
+187 1H  IN PTR      wmf4800.mgmt.eqiad.wmnet.
+188 1H  IN PTR      relforge1004.mgmt.eqiad.wmnet.
+188 1H  IN PTR      wmf4801.mgmt.eqiad.wmnet.
 
 $ORIGIN 3.65.@Z
 
