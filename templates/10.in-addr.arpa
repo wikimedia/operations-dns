@@ -320,7 +320,7 @@ $ORIGIN 0.64.@Z
 72  1H IN PTR   mw1277.eqiad.wmnet.
 73  1H IN PTR   mw1278.eqiad.wmnet.
 74  1H IN PTR   mw1279.eqiad.wmnet.
-
+75  1H IN PTR   thanos-be1001.eqiad.wmnet.
 76  1H IN PTR   mw1281.eqiad.wmnet.
 77  1H IN PTR   mw1282.eqiad.wmnet.
 78  1H IN PTR   mw1283.eqiad.wmnet.
@@ -922,13 +922,14 @@ $ORIGIN 32.64.@Z
 139     1H IN PTR       registry1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 149     1H IN PTR       snapshot1006.eqiad.wmnet.
 150     1H IN PTR       thanos-fe1003.eqiad.wmnet.
-
+151     1H IN PTR       thanos-be1002.eqiad.wmnet.
+152     1H IN PTR       thanos-be1003.eqiad.wmnet.
 153     1H IN PTR       scb1003.eqiad.wmnet.
 154     1H IN PTR       db1145.eqiad.wmnet.
 155     1H IN PTR       db1146.eqiad.wmnet.
 156     1H IN PTR       db1147.eqiad.wmnet.
 157     1H IN PTR       dbproxy1008.eqiad.wmnet.
-
+158     1H IN PTR       thanos-be1004.eqiad.wmnet.
 159     1H IN PTR       kafka-jumbo1004.eqiad.wmnet.
 160     1H IN PTR       kafka-jumbo1005.eqiad.wmnet.
 
@@ -2123,7 +2124,14 @@ $ORIGIN 3.65.@Z
 105 1H  IN PTR      wmf5102.mgmt.eqiad.wmnet.
 106 1H  IN PTR      wmf3524.mgmt.eqiad.wmnet.
 107 1H  IN PTR      wmf3526.mgmt.eqiad.wmnet.
-
+108 1H  IN PTR      thanos-be1001.mgmt.eqiad.wmnet.
+108 1H  IN PTR      wmf4821.mgmt.eqiad.wmnet.
+109 1H  IN PTR      thanos-be1002.mgmt.eqiad.wmnet.
+109 1H  IN PTR      wmf4820.mgmt.eqiad.wmnet.
+110 1H  IN PTR      thanos-be1003.mgmt.eqiad.wmnet.
+110 1H  IN PTR      wmf4819.mgmt.eqiad.wmnet.
+111 1H  IN PTR      thanos-be1004.mgmt.eqiad.wmnet.
+111 1H  IN PTR      wmf4818.mgmt.eqiad.wmnet.
 112 1H  IN PTR      wmf4053.mgmt.eqiad.wmnet.
 113 1H  IN PTR      wmf4054.mgmt.eqiad.wmnet.
 114 1H  IN PTR      wmf4055.mgmt.eqiad.wmnet.
