@@ -74,5 +74,3 @@
 ##############################################################################
 # TO DEPOOL ESAMS:
 # Don't use this file, instead edit the file "config" and switch the geo-maps part there!
-# codfw depool for network work - T254216
-geoip/generic-map/codfw => DOWN
