@@ -1869,7 +1869,7 @@ $ORIGIN 2.65.@Z
 125 1H  IN PTR      logstash1022.mgmt.eqiad.wmnet.
 126 1H  IN PTR      wmf4724.mgmt.eqiad.wmnet.
 126 1H  IN PTR      mwlog1001.mgmt.eqiad.wmnet.
-127 1H  IN PTR      wmf4725.mgmt.eqiad.wmnet.
+
 128 1H  IN PTR      wmf4726.mgmt.eqiad.wmnet.
 128 1H  IN PTR      thorium.mgmt.eqiad.wmnet.
 129 1H  IN PTR      mw1370.mgmt.eqiad.wmnet.

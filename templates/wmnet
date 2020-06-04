@@ -2837,7 +2837,6 @@ logstash1028    1H      IN A            10.65.4.181
 wmf5336         1H      IN A            10.65.4.182
 logstash1029    1H      IN A            10.65.4.182
 mwlog1001       1H      IN A            10.65.2.126
-wmf4725         1H      IN A            10.65.2.127
 thanos-be1001   1H      IN A            10.65.3.108
 wmf4821         1H      IN A            10.65.3.108
 thanos-be1002   1H      IN A            10.65.3.109
