@@ -688,6 +688,7 @@ $ORIGIN 16.64.@Z
 174 1H IN PTR   db1143.eqiad.wmnet.
 175 1H IN PTR   db1144.eqiad.wmnet.
 176 1H IN PTR   thanos-fe1002.eqiad.wmnet.
+177 1H IN PTR   thanos-be1002.eqiad.wmnet.
 
 186 1H IN PTR   es1013.eqiad.wmnet.
 187 1H IN PTR   es1014.eqiad.wmnet.
@@ -922,14 +923,14 @@ $ORIGIN 32.64.@Z
 139     1H IN PTR       registry1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 149     1H IN PTR       snapshot1006.eqiad.wmnet.
 150     1H IN PTR       thanos-fe1003.eqiad.wmnet.
-151     1H IN PTR       thanos-be1002.eqiad.wmnet.
+
 152     1H IN PTR       thanos-be1003.eqiad.wmnet.
 153     1H IN PTR       scb1003.eqiad.wmnet.
 154     1H IN PTR       db1145.eqiad.wmnet.
 155     1H IN PTR       db1146.eqiad.wmnet.
 156     1H IN PTR       db1147.eqiad.wmnet.
 157     1H IN PTR       dbproxy1008.eqiad.wmnet.
-158     1H IN PTR       thanos-be1004.eqiad.wmnet.
+
 159     1H IN PTR       kafka-jumbo1004.eqiad.wmnet.
 160     1H IN PTR       kafka-jumbo1005.eqiad.wmnet.
 
@@ -1327,6 +1328,7 @@ $ORIGIN 48.64.@Z
 230     1H  IN PTR      kubernetes1014.eqiad.wmnet.
 231     1H  IN PTR      db1148.eqiad.wmnet.
 232     1H  IN PTR      db1149.eqiad.wmnet.
+233     1H  IN PTR      thanos-be1004.eqiad.wmnet.
 
 $ORIGIN 49.64.@Z
 
