@@ -178,74 +178,8 @@ $ORIGIN 0.20.@Z
 ; Management
 
 $ORIGIN 0.21.@Z
-
-1   1H  IN PTR  mr1-esams.mgmt.esams.wmnet.
-
-8   1H  IN PTR  asw2-esams.mgmt.esams.wmnet.
-9   1H  IN PTR  scs-oe16-esams.mgmt.esams.wmnet.
-
-16  1H  IN PTR  ps1-oe14-esams.mgmt.esams.wmnet.
-17  1H  IN PTR  ps1-oe15-esams.mgmt.esams.wmnet.
-18  1H  IN PTR  ps1-oe16-esams.mgmt.esams.wmnet.
-
-; 46-50 are used by TS
-
-117 1H  IN PTR  re0.cr2-esams.mgmt.esams.wmnet.
-118 1H  IN PTR  re1.cr2-esams.mgmt.esams.wmnet.
-119 1H  IN PTR  re0.cr3-esams.mgmt.esams.wmnet.
-120 1H  IN PTR  re1.cr3-esams.mgmt.esams.wmnet.
-
-171 1H  IN PTR  lvs3005.mgmt.esams.wmnet.
-171 1H  IN PTR  wmf4431.mgmt.esams.wmnet.
-172 1H  IN PTR  ganeti3001.mgmt.esams.wmnet.
-172 1H  IN PTR  wmf4432.mgmt.esams.wmnet.
-173 1H  IN PTR  dns3001.mgmt.esams.wmnet.
-173 1H  IN PTR  wmf4433.mgmt.esams.wmnet.
-174 1H  IN PTR  cp3050.mgmt.esams.wmnet.
-174 1H  IN PTR  wmf4434.mgmt.esams.wmnet.
-175 1H  IN PTR  cp3051.mgmt.esams.wmnet.
-175 1H  IN PTR  wmf4435.mgmt.esams.wmnet.
-176 1H  IN PTR  cp3052.mgmt.esams.wmnet.
-176 1H  IN PTR  wmf4436.mgmt.esams.wmnet.
-177 1H  IN PTR  cp3053.mgmt.esams.wmnet.
-177 1H  IN PTR  wmf4437.mgmt.esams.wmnet.
-178 1H  IN PTR  cp3054.mgmt.esams.wmnet.
-178 1H  IN PTR  wmf4438.mgmt.esams.wmnet.
-
-180 1H  IN PTR  lvs3006.mgmt.esams.wmnet.
-180 1H  IN PTR  wmf4439.mgmt.esams.wmnet.
-181 1H  IN PTR  ganeti3002.mgmt.esams.wmnet.
-181 1H  IN PTR  wmf4440.mgmt.esams.wmnet.
-182 1H  IN PTR  dns3002.mgmt.esams.wmnet.
-182 1H  IN PTR  wmf4441.mgmt.esams.wmnet.
-183 1H  IN PTR  cp3055.mgmt.esams.wmnet.
-183 1H  IN PTR  wmf4442.mgmt.esams.wmnet.
-184 1H  IN PTR  cp3056.mgmt.esams.wmnet.
-184 1H  IN PTR  wmf4443.mgmt.esams.wmnet.
-185 1H  IN PTR  cp3057.mgmt.esams.wmnet.
-185 1H  IN PTR  wmf4444.mgmt.esams.wmnet.
-186 1H  IN PTR  cp3058.mgmt.esams.wmnet.
-186 1H  IN PTR  wmf4445.mgmt.esams.wmnet.
-187 1H  IN PTR  cp3059.mgmt.esams.wmnet.
-187 1H  IN PTR  wmf4446.mgmt.esams.wmnet.
-188 1H  IN PTR  cp3060.mgmt.esams.wmnet.
-188 1H  IN PTR  wmf4447.mgmt.esams.wmnet.
-189 1H  IN PTR  lvs3007.mgmt.esams.wmnet.
-189 1H  IN PTR  wmf4448.mgmt.esams.wmnet.
-190 1H  IN PTR  ganeti3003.mgmt.esams.wmnet.
-190 1H  IN PTR  wmf4449.mgmt.esams.wmnet.
-191 1H  IN PTR  bast3004.mgmt.esams.wmnet.
-191 1H  IN PTR  wmf4450.mgmt.esams.wmnet.
-192 1H  IN PTR  cp3061.mgmt.esams.wmnet.
-192 1H  IN PTR  wmf4451.mgmt.esams.wmnet.
-193 1H  IN PTR  cp3062.mgmt.esams.wmnet.
-193 1H  IN PTR  wmf4452.mgmt.esams.wmnet.
-194 1H  IN PTR  cp3063.mgmt.esams.wmnet.
-194 1H  IN PTR  wmf4453.mgmt.esams.wmnet.
-195 1H  IN PTR  cp3064.mgmt.esams.wmnet.
-195 1H  IN PTR  wmf4454.mgmt.esams.wmnet.
-196 1H  IN PTR  cp3065.mgmt.esams.wmnet.
-196 1H  IN PTR  wmf4455.mgmt.esams.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/0.21.10.in-addr.arpa
 
 ;
 ; EQIAD (10.64.0.0/12)

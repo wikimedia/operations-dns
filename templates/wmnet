@@ -5250,72 +5250,13 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
 
+;
+; ESAMS MGMT
+;
 
 $ORIGIN mgmt.esams.wmnet.
-
-asw2-esams     1H  IN A        10.21.0.8
-mr1-esams      1H  IN A        10.21.0.1
-ps1-oe14-esams 1H  IN A        10.21.0.16
-ps1-oe15-esams 1H  IN A        10.21.0.17
-ps1-oe16-esams 1H  IN A        10.21.0.18
-re0.cr2-esams  1H  IN A        10.21.0.117
-re1.cr2-esams  1H  IN A        10.21.0.118
-re0.cr3-esams  1H  IN A        10.21.0.119
-re1.cr3-esams  1H  IN A        10.21.0.120
-scs-oe16-esams 1H  IN A        10.21.0.9
-lvs3005     1H  IN A        10.21.0.171
-ganeti3001  1H  IN A        10.21.0.172
-dns3001     1H  IN A        10.21.0.173
-cp3050      1H  IN A        10.21.0.174
-cp3051      1H  IN A        10.21.0.175
-cp3052      1H  IN A        10.21.0.176
-cp3053      1H  IN A        10.21.0.177
-cp3054      1H  IN A        10.21.0.178
-lvs3006     1H  IN A        10.21.0.180
-ganeti3002  1H  IN A        10.21.0.181
-dns3002     1H  IN A        10.21.0.182
-cp3055      1H  IN A        10.21.0.183
-cp3056      1H  IN A        10.21.0.184
-cp3057      1H  IN A        10.21.0.185
-cp3058      1H  IN A        10.21.0.186
-cp3059      1H  IN A        10.21.0.187
-cp3060      1H  IN A        10.21.0.188
-lvs3007     1H  IN A        10.21.0.189
-ganeti3003  1H  IN A        10.21.0.190
-bast3004    1H  IN A        10.21.0.191
-cp3061      1H  IN A        10.21.0.192
-cp3062      1H  IN A        10.21.0.193
-cp3063      1H  IN A        10.21.0.194
-cp3064      1H  IN A        10.21.0.195
-cp3065      1H  IN A        10.21.0.196
-
-; Asset tags listed in order
-
-wmf4431     1H  IN A        10.21.0.171
-wmf4432     1H  IN A        10.21.0.172
-wmf4433     1H  IN A        10.21.0.173
-wmf4434     1H  IN A        10.21.0.174
-wmf4435     1H  IN A        10.21.0.175
-wmf4436     1H  IN A        10.21.0.176
-wmf4437     1H  IN A        10.21.0.177
-wmf4438     1H  IN A        10.21.0.178
-wmf4439     1H  IN A        10.21.0.180
-wmf4440     1H  IN A        10.21.0.181
-wmf4441     1H  IN A        10.21.0.182
-wmf4442     1H  IN A        10.21.0.183
-wmf4443     1H  IN A        10.21.0.184
-wmf4444     1H  IN A        10.21.0.185
-wmf4445     1H  IN A        10.21.0.186
-wmf4446     1H  IN A        10.21.0.187
-wmf4447     1H  IN A        10.21.0.188
-wmf4448     1H  IN A        10.21.0.189
-wmf4449     1H  IN A        10.21.0.190
-wmf4450     1H  IN A        10.21.0.191
-wmf4451     1H  IN A        10.21.0.192
-wmf4452     1H  IN A        10.21.0.193
-wmf4453     1H  IN A        10.21.0.194
-wmf4454     1H  IN A        10.21.0.195
-wmf4455     1H  IN A        10.21.0.196
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/mgmt.esams.wmnet
 
 ;
 ; ULSFO MGMT
