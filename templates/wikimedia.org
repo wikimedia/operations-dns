@@ -118,6 +118,8 @@ apt2001         1H  IN A    208.80.153.42 ; VM on ganeti01.svc.codfw.wmnet
 apt2001         1H  IN AAAA 2620:0:860:2:208:80:153:42 ; VM on ganeti01.svc.codfw.wmnet
 archiva1001     1H  IN A    208.80.154.16 ; VM on ganeti01.svc.eqiad.wmnet
 archiva1001     1H  IN AAAA 2620:0:861:1:208:80:154:16 ; VM on ganeti01.svc.eqiad.wmnet
+archiva1002     1H  IN A    208.80.154.33 ; VM on ganeti01.svc.eqiad.wmnet
+archiva1002     1H  IN AAAA 2620:0:861:1:208:80:154:33 ; VM on ganeti01.svc.eqiad.wmnet
 authdns1001     1H  IN A    208.80.154.134
 authdns1001     1H  IN AAAA 2620:0:861:2:208:80:154:134
 authdns2001     1H  IN A    208.80.153.17
