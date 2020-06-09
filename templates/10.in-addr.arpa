@@ -461,7 +461,6 @@ $ORIGIN 0.64.@Z
 247 1H IN PTR   kubestage1001.eqiad.wmnet.
 248 1H IN PTR   ganeti1007.eqiad.wmnet.
 249 1H IN PTR   ganeti1008.eqiad.wmnet.
-250 1H IN PTR   thanos-fe1002.eqiad.wmnet.
 
 $ORIGIN 1.64.@Z
 
@@ -688,6 +687,7 @@ $ORIGIN 16.64.@Z
 173 1H IN PTR   restbase1029.eqiad.wmnet.
 174 1H IN PTR   db1143.eqiad.wmnet.
 175 1H IN PTR   db1144.eqiad.wmnet.
+176 1H IN PTR   thanos-fe1002.eqiad.wmnet.
 
 186 1H IN PTR   es1013.eqiad.wmnet.
 187 1H IN PTR   es1014.eqiad.wmnet.
