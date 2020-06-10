@@ -3706,9 +3706,12 @@ $ORIGIN 32.192.@Z
 109 1H IN PTR   kubernetes2011.codfw.wmnet.
 110 1H IN PTR   kubernetes2012.codfw.wmnet.
 111 1H IN PTR   restbase2016-b.codfw.wmnet.
-
+112 1H IN PTR   mw2335.codfw.wmnet.
+113 1H IN PTR   mw2336.codfw.wmnet.
 114 1H IN PTR   cp2015.codfw.wmnet.
-
+115 1H IN PTR   mw2337.codfw.wmnet.
+116 1H IN PTR   mw2338.codfw.wmnet.
+117 1H IN PTR   mw2339.codfw.wmnet.
 118 1H IN PTR   restbase2020.codfw.wmnet.
 119 1H IN PTR   restbase2020-a.codfw.wmnet. ; cassandra instance
 120 1H IN PTR   restbase2020-b.codfw.wmnet. ; cassandra instance
@@ -4843,9 +4846,19 @@ $ORIGIN 2.193.@Z
 189 1H IN PTR  wmf5615.mgmt.codfw.wmnet.
 190 1H IN PTR  rdb2008.mgmt.codfw.wmnet.
 190 1H IN PTR  wmf5616.mgmt.codfw.wmnet.
-
+191 1H IN PTR  mw2335.mgmt.codfw.wmnet.
+191 1H IN PTR  wmf5560.mgmt.codfw.wmnet.
 192 1H IN PTR  cp2021.mgmt.codfw.wmnet.
 192 1H IN PTR  wmf6321.mgmt.codfw.wmnet.
+193 1H IN PTR  mw2336.mgmt.codfw.wmnet.
+193 1H IN PTR  wmf5561.mgmt.codfw.wmnet.
+194 1H IN PTR  mw2337.mgmt.codfw.wmnet.
+194 1H IN PTR  wmf5562.mgmt.codfw.wmnet.
+195 1H IN PTR  mw2338.mgmt.codfw.wmnet.
+195 1H IN PTR  wmf5563.mgmt.codfw.wmnet.
+196 1H IN PTR  mw2339.mgmt.codfw.wmnet.
+196 1H IN PTR  wmf5564.mgmt.codfw.wmnet.
+
 198 1H IN PTR  cloudcontrol2001-dev.mgmt.codfw.wmnet.
 198 1H IN PTR  wmf6700.mgmt.codfw.wmnet.
 199 1H IN PTR  cloudvirt2001-dev.mgmt.codfw.wmnet.
@@ -5304,7 +5317,6 @@ $ORIGIN 3.193.@Z
 174 1H IN PTR  wmf5558.mgmt.codfw.wmnet.
 175 1H IN PTR  kubernetes2014.mgmt.codfw.wmnet.
 175 1H IN PTR  wmf5559.mgmt.codfw.wmnet.
-
 180 1H IN PTR  backup2002.mgmt.codfw.wmnet.
 180 1H IN PTR  wmf5597.mgmt.codfw.wmnet.
 
