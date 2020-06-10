@@ -413,9 +413,9 @@ $ORIGIN 0.64.@Z
 183 1H IN PTR   logstash1023.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 184 1H IN PTR   logstash1024.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 185 1H IN PTR   kubetcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-186 1H IN PTR   kubetcd1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
 187 1H IN PTR   kubestagetcd1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-188 1H IN PTR   kubestagetcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
 189 1H IN PTR   mw1385.eqiad.wmnet.
 190 1H IN PTR   mw1386.eqiad.wmnet.
 191 1H IN PTR   mw1387.eqiad.wmnet.
@@ -689,6 +689,8 @@ $ORIGIN 16.64.@Z
 175 1H IN PTR   db1144.eqiad.wmnet.
 176 1H IN PTR   thanos-fe1002.eqiad.wmnet.
 177 1H IN PTR   thanos-be1002.eqiad.wmnet.
+178 1H IN PTR   kubetcd1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+179 1H IN PTR   kubestagetcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 186 1H IN PTR   es1013.eqiad.wmnet.
 187 1H IN PTR   es1014.eqiad.wmnet.
@@ -3337,7 +3339,7 @@ $ORIGIN 0.192.@Z
 152 1H IN PTR   db2133.codfw.wmnet.
 153 1H IN PTR   logstash2023.codfw.wmnet.    ; VM on ganeti01.svc.codfw.wmnet
 154 1H IN PTR   kubetcd2004.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-155 1H IN PTR   kubetcd2005.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+
 156 1H IN PTR   mc-gp2001.codfw.wmnet.
 157 1H IN PTR   es2020.codfw.wmnet.
 158 1H IN PTR   es2024.codfw.wmnet.
@@ -3669,6 +3671,8 @@ $ORIGIN 32.192.@Z
 35  1H IN PTR   wtp2020.codfw.wmnet.
 36  1H IN PTR   thumbor2001.codfw.wmnet.
 37  1H IN PTR   thumbor2002.codfw.wmnet.
+38  1H IN PTR   kubetcd2005.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+
 75  1H IN PTR   mw2187.codfw.wmnet.
 76  1H IN PTR   mw2188.codfw.wmnet.
 77  1H IN PTR   mw2189.codfw.wmnet.

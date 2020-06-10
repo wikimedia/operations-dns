@@ -136,9 +136,7 @@ $ORIGIN 1.0.1.0.@Z
 8.4.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestagetcd1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 9.4.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestagetcd1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 5.8.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubetcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-6.8.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubetcd1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 7.8.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestagetcd1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-8.8.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestagetcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 0.4.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   neon.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 5.5.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   planet1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
@@ -190,6 +188,8 @@ $ORIGIN 2.0.1.0.@Z
 6.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1003.eqiad.wmnet.
 7.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1002.eqiad.wmnet.
 8.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   prometheus1004.eqiad.wmnet.
+8.7.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubetcd1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+9.7.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestagetcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 3.7.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1001.eqiad.wmnet.
 
