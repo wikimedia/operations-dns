@@ -102,12 +102,6 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
 _etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 etcd1001.eqiad.wmnet.
 _etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 etcd1002.eqiad.wmnet.
 _etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 etcd1003.eqiad.wmnet.
-_etcd-server._tcp.net.k8s 5M  IN SRV      0 1 2380 etcd1004.eqiad.wmnet.
-_etcd-server._tcp.net.k8s 5M  IN SRV      0 1 2380 etcd1005.eqiad.wmnet.
-_etcd-server._tcp.net.k8s 5M  IN SRV      0 1 2380 etcd1006.eqiad.wmnet.
-_etcd-server._tcp.k8s-staging 5M  IN SRV      0 1 2380 kubestagetcd1001.eqiad.wmnet.
-_etcd-server._tcp.k8s-staging 5M  IN SRV      0 1 2380 kubestagetcd1002.eqiad.wmnet.
-_etcd-server._tcp.k8s-staging 5M  IN SRV      0 1 2380 kubestagetcd1003.eqiad.wmnet.
 
 ; kubernetes-related records (etcdv3)
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1004.eqiad.wmnet.
@@ -588,9 +582,6 @@ es1025          1H  IN A        10.64.16.150
 etcd1001        1H  IN A        10.64.32.213 ; VM on ganeti01.svc.eqiad.wmnet
 etcd1002        1H  IN A        10.64.0.41 ; VM on ganeti01.svc.eqiad.wmnet
 etcd1003        1H  IN A        10.64.0.42 ; VM on ganeti01.svc.eqiad.wmnet
-etcd1004        1H  IN A        10.64.0.43 ; VM on ganeti01.svc.eqiad.wmnet
-etcd1005        1H  IN A        10.64.0.44 ; VM on ganeti01.svc.eqiad.wmnet
-etcd1006        1H  IN A        10.64.32.218 ; VM on ganeti01.svc.eqiad.wmnet
 etherpad1002    1H  IN A        10.64.32.178 ; VM on ganeti01.svc.eqiad.wmnet
 eventlog1002    1H  IN A        10.64.48.95
 eventlog1002    1H  IN AAAA     2620:0:861:107:10:64:48:95
@@ -674,12 +665,6 @@ kubestage1001   1H  IN A        10.64.0.247
 kubestage1001   1H  IN AAAA     2620:0:861:101:10:64:0:247
 kubestage1002   1H  IN A        10.64.16.92
 kubestage1002   1H  IN AAAA     2620:0:861:102:10:64:16:92
-kubestagetcd1001 1H IN A        10.64.32.235 ; VM on ganeti01.svc.eqiad.wmnet
-kubestagetcd1001 1H IN AAAA     2620:0:861:103:10:64:32:235 ; VM on ganeti01.svc.eqiad.wmnet
-kubestagetcd1002 1H IN A        10.64.0.48 ; VM on ganeti01.svc.eqiad.wmnet
-kubestagetcd1002 1H IN AAAA     2620:0:861:101:10:64:0:48 ; VM on ganeti01.svc.eqiad.wmnet
-kubestagetcd1003 1H IN A        10.64.0.49 ; VM on ganeti01.svc.eqiad.wmnet
-kubestagetcd1003 1H IN AAAA     2620:0:861:101:10:64:0:49 ; VM on ganeti01.svc.eqiad.wmnet
 kubestagetcd1004 1H IN A        10.64.0.187 ; VM on ganeti01.svc.eqiad.wmnet
 kubestagetcd1004 1H IN AAAA     2620:0:861:101:10:64:0:187 ; VM on ganeti01.svc.eqiad.wmnet
 kubestagetcd1005 1H IN A        10.64.16.179 ; VM on ganeti01.svc.eqiad.wmnet
@@ -1101,8 +1086,6 @@ restbase-dev1006-b  1H IN A     10.64.48.169
 rpki1001        1H  IN A        10.64.32.19 ; VM on ganeti01.svc.eqiad.wmnet
 rpki1001        1H  IN AAAA     2620:0:861:103:10:64:32:19 ; VM on ganeti01.svc.eqiad.wmnet
 scandium        1H  IN A        10.64.48.94
-sca1003         1H  IN A        10.64.32.28 ; VM on ganeti01.svc.eqiad.wmnet
-sca1004         1H  IN A        10.64.0.47 ; VM on ganeti01.svc.eqiad.wmnet
 scb1001         1H  IN A        10.64.0.16
 scb1002         1H  IN A        10.64.16.21
 scb1003         1H  IN A        10.64.32.153
@@ -3747,8 +3730,6 @@ restbase2023-b  1H  IN A    10.192.48.143 ; cassandra instance
 restbase2023-c  1H  IN A    10.192.48.144 ; cassandra instance
 rpki2001        1H  IN A    10.192.0.103 ; VM on ganeti01.svc.codfw.wmnet
 rpki2001        1H  IN AAAA 2620:0:860:101:10:192:0:103 ; VM on ganeti01.svc.eqiad.wmnet
-sca2003         1H  IN A    10.192.16.29 ; VM on ganeti01.svc.codfw.wmnet
-sca2004         1H  IN A    10.192.0.91 ; VM on ganeti01.svc.codfw.wmnet
 scb2001         1H  IN A    10.192.32.132
 scb2002         1H  IN A    10.192.48.43
 scb2003         1H  IN A    10.192.0.33
