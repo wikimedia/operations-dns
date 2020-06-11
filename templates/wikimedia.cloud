@@ -9,8 +9,6 @@
 ;
 ; delegation to designate in openstack eqiad1 region
 ;
-eqiad1      1D  IN NS   cloud-ns0.wikimedia.org.
-eqiad1      1D  IN NS   cloud-ns1.wikimedia.org.
 eqiad1      1D  IN NS   ns0.openstack.eqiad1.wikimediacloud.org.
 eqiad1      1D  IN NS   ns1.openstack.eqiad1.wikimediacloud.org.
 
