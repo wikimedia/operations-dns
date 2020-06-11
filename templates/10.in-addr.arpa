@@ -4859,7 +4859,8 @@ $ORIGIN 2.193.@Z
 195 1H IN PTR  wmf5563.mgmt.codfw.wmnet.
 196 1H IN PTR  mw2339.mgmt.codfw.wmnet.
 196 1H IN PTR  wmf5564.mgmt.codfw.wmnet.
-
+197 1H IN PTR  alert2001.mgmt.codfw.wmnet.
+197 1H IN PTR  wmf5620.mgmt.codfw.wmnet.
 198 1H IN PTR  cloudcontrol2001-dev.mgmt.codfw.wmnet.
 198 1H IN PTR  wmf6700.mgmt.codfw.wmnet.
 199 1H IN PTR  cloudvirt2001-dev.mgmt.codfw.wmnet.

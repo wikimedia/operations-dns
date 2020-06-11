@@ -68,6 +68,7 @@
 81  1H  IN PTR  vl2003-enp59s0f0.lvs2009.codfw.wmnet.
 82  1H  IN PTR  vl2003-enp175s0f1d1.lvs2010.codfw.wmnet.
 83  1H  IN PTR  ns-recursor1.openstack.codfw1dev.wikimediacloud.org. ; additional IP for cloudservices2003-dev
+84  1H  IN PTR  alert2001.wikimedia.org.
 
 ; 208.80.153.96/27 (public1-d-codfw)
 97  1H  IN PTR  vrrp-gw-2004.wikimedia.org.
