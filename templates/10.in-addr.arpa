@@ -55,6 +55,8 @@ $ORIGIN 1.2.@Z
 49  1H  IN PTR  echostore.svc.codfw.wmnet.
 50  1H  IN PTR  eventgate-logging-external.svc.codfw.wmnet.
 52  1H  IN PTR  eventgate-analytics-external.svc.codfw.wmnet.
+53  1H  IN PTR  thanos-query.svc.codfw.wmnet.
+54  1H  IN PTR  thanos-swift.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -107,6 +109,8 @@ $ORIGIN 2.2.@Z
 50  1H  IN PTR  eventgate-logging-external.svc.eqiad.wmnet.
 51  1H  IN PTR  cloudceph.svc.eqiad.wmnet.
 52  1H  IN PTR  eventgate-analytics-external.svc.eqiad.wmnet.
+53  1H  IN PTR  thanos-query.svc.eqiad.wmnet.
+54  1H  IN PTR  thanos-swift.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
