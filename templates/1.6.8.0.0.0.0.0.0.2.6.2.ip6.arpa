@@ -231,6 +231,7 @@ $ORIGIN 3.0.1.0.@Z
 7.0.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   backup1002.eqiad.wmnet.
 9.5.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1004.eqiad.wmnet.
 0.6.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1005.eqiad.wmnet.
+6.0.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1007.eqiad.wmnet.
 7.2.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   logstash1022.eqiad.wmnet.
 3.2.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1003.eqiad.wmnet.
 8.1.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
@@ -345,6 +346,8 @@ $ORIGIN 7.0.1.0.@Z
 
 2.1.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   flerovium.eqiad.wmnet.
 7.1.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1006.eqiad.wmnet.
+1.2.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1008.eqiad.wmnet.
+0.4.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1009.eqiad.wmnet.
 
 7.6.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   conf1006.eqiad.wmnet.
 
