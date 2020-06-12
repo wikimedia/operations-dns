@@ -1028,6 +1028,8 @@ registry1001    1H  IN A        10.64.0.143 ;VM on ganeti01.svc.eqiad.wmnet dock
 registry1002    1H  IN A        10.64.32.139 ;VM on ganeti01.svc.eqiad.wmnet docker registry instance
 releases1001    1H  IN A        10.64.0.88 ; VM on ganeti01.svc.eqiad.wmnet
 releases1001    1H  IN AAAA     2620:0:861:101:10:64:0:88 ; VM on ganeti01.svc.eqiad.wmnet
+releases1002    1H  IN A        10.64.0.110 ; VM on ganeti01.svc.eqiad.wmnet
+releases1002    1H  IN AAAA     2620:0:861:101:10:64:0:110 ; VM on ganeti01.svc.eqiad.wmnet
 relforge1001    1H  IN A        10.64.4.13
 relforge1002    1H  IN A        10.64.37.21
 relforge1003    1H  IN A        10.64.5.37
@@ -3643,8 +3645,10 @@ rdb2007         1H  IN A    10.192.0.198
 rdb2008         1H  IN A    10.192.16.213
 registry2001    1H  IN A    10.192.0.113 ; VM on ganeti01.svc.codfw.wmnet docker registry
 registry2002    1H  IN A    10.192.16.94 ; VM on ganeti01.svc.codfw.wmnet docker registry
-releases2001    1H  IN A        10.192.16.174 ; VM on ganeti01.svc.codfw.wmnet
-releases2001    1H  IN AAAA     2620:0:860:102:10:192:16:174 ; VM on ganeti01.svc.codfw.wmnet
+releases2001    1H  IN A    10.192.16.174 ; VM on ganeti01.svc.codfw.wmnet
+releases2001    1H  IN AAAA 2620:0:860:102:10:192:16:174 ; VM on ganeti01.svc.codfw.wmnet
+releases2002    1H  IN A    10.192.16.180 ; VM on ganeti01.svc.codfw.wmnet
+releases2002    1H  IN AAAA 2620:0:860:102:10:192:16:180 ; VM on ganeti01.svc.codfw.wmnet
 restbase2009    1H  IN A    10.192.48.53
 restbase2009-a  1H  IN A    10.192.48.54 ; cassandra instance
 restbase2009-b  1H  IN A    10.192.48.55 ; cassandra instance

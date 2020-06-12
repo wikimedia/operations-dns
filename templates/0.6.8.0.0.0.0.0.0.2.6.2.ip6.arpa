@@ -143,6 +143,7 @@ $ORIGIN 2.0.1.0.@Z
 8.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2009.codfw.wmnet.
 2.1.2.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2010.codfw.wmnet.
 4.7.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   releases2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+0.8.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   releases2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 9.8.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   prometheus2004.codfw.wmnet.
 9.6.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   logstash2021.codfw.wmnet.
 2.3.1.0.6.1.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubetcd2006.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
