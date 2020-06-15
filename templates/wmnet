@@ -3706,9 +3706,13 @@ sessionstore2002-a       1H  IN A    10.192.32.101
 sessionstore2003         1H  IN A    10.192.48.118
 sessionstore2003-a       1H  IN A    10.192.48.132
 thanos-be2001   1H  IN A    10.192.0.194
+thanos-be2001   1H  IN AAAA 2620:0:860:101:10:192:0:194
 thanos-be2002   1H  IN A    10.192.16.136
+thanos-be2002   1H  IN AAAA 2620:0:860:102:10:192:16:136
 thanos-be2003   1H  IN A    10.192.32.107
+thanos-be2003   1H  IN AAAA 2620:0:860:103:10:192:32:107
 thanos-be2004   1H  IN A    10.192.48.27
+thanos-be2004   1H  IN AAAA 2620:0:860:104:10:192:48:27
 thanos-fe2001   1H  IN A    10.192.0.192
 thanos-fe2002   1H  IN A    10.192.16.133
 thanos-fe2003   1H  IN A    10.192.48.23
