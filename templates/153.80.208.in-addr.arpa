@@ -84,7 +84,8 @@
 113 1H  IN PTR  vl2004-enp175s0f1d1.lvs2008.codfw.wmnet.
 114 1H  IN PTR  vl2004-enp175s0f1d1.lvs2009.codfw.wmnet.
 115 1H  IN PTR  vl2004-enp59s0f0.lvs2010.codfw.wmnet.
-116  1H  IN PTR  cloudcontrol2004-dev.wikimedia.org.
+116 1H  IN PTR  cloudcontrol2004-dev.wikimedia.org.
+117 1H  IN PTR  netbox-dev2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
 
 ; 208.80.153.128/27 labtest codfw public IPs (pool used by openstack)
 

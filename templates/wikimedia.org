@@ -287,6 +287,8 @@ netbox1001      1H  IN A    208.80.154.12               ; VM on ganeti01.svc.eqi
 netbox1001      1H  IN AAAA 2620:0:861:1:208:80:154:12 ; VM on ganeti01.svc.eqiad.wmnet
 netbox2001      1H  IN A    208.80.153.12               ; VM on ganeti01.svc.codfw.wmnet
 netbox2001      1H  IN AAAA 2620:0:860:1:208:80:153:12 ; VM on ganeti01.svc.codfw.wmnet
+netbox-dev2001  1H  IN A    208.80.153.117              ; VM on ganeti01.svc.codfw.wmnet
+netbox-dev2001  1H  IN AAAA 2620:0:860:4:208:80:153:117 ; VM on ganeti01.svc.codfw.wmnet
 netmon1002      1H  IN A    208.80.154.5
 netmon1002      1H  IN AAAA 2620:0:861:1:208:80:154:5
 netmon2001      1H  IN A    208.80.153.110
@@ -662,6 +664,7 @@ login           1D IN CNAME dyna.wikimedia.org.
 librenms        1H  IN CNAME    netmon1002
 netbox          1H  IN CNAME    netbox1001
 netbox-exports  1H  IN CNAME    netbox1001
+netbox-next     1H  IN CNAME    netbox-dev2001
 
 payments        5M  IN CNAME    payments-eqiad
 payments.frdev  5M  IN CNAME    payments-codfw

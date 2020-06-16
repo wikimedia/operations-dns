@@ -77,6 +77,8 @@ $ORIGIN 4.0.0.0.@Z
 0.1.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   netmon2001.wikimedia.org.
 1.1.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dns2002.wikimedia.org.
 
+7.1.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   netbox-dev2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
+
 ; codfw private subnets (2620:0:860:100::/56)
 
 ; private1-a-codfw (2620:0:860:101::/64)
