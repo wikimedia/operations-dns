@@ -693,13 +693,21 @@ kubernetes1005  1H  IN AAAA     2620:0:861:101:10:64:0:145 ; VM on ganeti01.svc.
 kubernetes1006  1H  IN A        10.64.32.18 ; VM on ganeti01.svc.eqiad.wmnet
 kubernetes1006  1H  IN AAAA     2620:0:861:103:10:64:32:18 ; VM on ganeti01.svc.eqiad.wmnet
 kubernetes1007  1H  IN A        10.64.0.217
+kubernetes1007  1H  IN AAAA     2620:0:861:101:10:64:0:217
 kubernetes1008  1H  IN A        10.64.0.218
+kubernetes1008  1H  IN AAAA     2620:0:861:101:10:64:0:218
 kubernetes1009  1H  IN A        10.64.16.188
+kubernetes1009  1H  IN AAAA     2620:0:861:102:10:64:16:188
 kubernetes1010  1H  IN A        10.64.16.189
+kubernetes1010  1H  IN AAAA     2620:0:861:102:10:64:16:189
 kubernetes1011  1H  IN A        10.64.32.134
+kubernetes1011  1H  IN AAAA     2620:0:861:103:10:64:32:134
 kubernetes1012  1H  IN A        10.64.32.135
+kubernetes1012  1H  IN AAAA     2620:0:861:103:10:64:32:135
 kubernetes1013  1H  IN A        10.64.48.229
+kubernetes1013  1H  IN AAAA     2620:0:861:107:10:64:48:229
 kubernetes1014  1H  IN A        10.64.48.230
+kubernetes1014  1H  IN AAAA     2620:0:861:107:10:64:48:230
 cloudmetrics1001      1H  IN A        10.64.37.13
 cloudmetrics1001      1H  IN AAAA     2620:0:861:119:10:64:37:13
 prometheus-labmon 1H      IN CNAME  cloudmetrics1002
@@ -3247,13 +3255,21 @@ kubernetes2005  1H  IN AAAA 2620:0:860:101:10:192:0:117 ; VM on ganeti01.svc.cod
 kubernetes2006  1H  IN A    10.192.16.102 ; VM on ganeti01.svc.codfw.wmnet
 kubernetes2006  1H  IN AAAA 2620:0:860:102:10:192:16:102 ; VM on ganeti01.svc.codfw.wmnet
 kubernetes2007  1H  IN A    10.192.0.196
+kubernetes2007  1H  IN AAAA 2620:0:860:101:10:192:0:196
 kubernetes2008  1H  IN A    10.192.0.197
+kubernetes2008  1H  IN AAAA 2620:0:860:101:10:192:0:197
 kubernetes2009  1H  IN A    10.192.16.138
+kubernetes2009  1H  IN AAAA 2620:0:860:102:10:192:16:138
 kubernetes2010  1H  IN A    10.192.16.212
+kubernetes2010  1H  IN AAAA 2620:0:860:102:10:192:16:212
 kubernetes2011  1H  IN A    10.192.32.109
+kubernetes2011  1H  IN AAAA 2620:0:860:103:10:192:32:109
 kubernetes2012  1H  IN A    10.192.32.110
+kubernetes2012  1H  IN AAAA 2620:0:860:103:10:192:32:110
 kubernetes2013  1H  IN A    10.192.48.28
+kubernetes2013  1H  IN AAAA 2620:0:860:104:10:192:48:28
 kubernetes2014  1H  IN A    10.192.48.29
+kubernetes2014  1H  IN AAAA 2620:0:860:104:10:192:48:29
 clouddb2001-dev       1H  IN A    10.192.20.11
 clouddb2001-dev       1H  IN AAAA 2620:0:860:118:10:192:20:11
 cloudnet2002-dev      1H  IN A    10.192.20.10
