@@ -4065,8 +4065,7 @@ $ORIGIN 1.193.@Z
 63  1H IN PTR  wmf6796.mgmt.codfw.wmnet.
 64  1H IN PTR  mc-gp2003.mgmt.codfw.wmnet.
 64  1H IN PTR  wmf6797.mgmt.codfw.wmnet.
-65  1H IN PTR  oresrdb2002.mgmt.codfw.wmnet.
-65  1H IN PTR  wmf6532.mgmt.codfw.wmnet.
+
 66  1H IN PTR  mw2262.mgmt.codfw.wmnet.
 66  1H IN PTR  wmf6602.mgmt.codfw.wmnet.
 67  1H IN PTR  mw2263.mgmt.codfw.wmnet.
