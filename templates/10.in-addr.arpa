@@ -874,10 +874,7 @@ $ORIGIN 32.64.@Z
 160     1H IN PTR       kafka-jumbo1005.eqiad.wmnet.
 
 168     1H IN PTR       francium.eqiad.wmnet.
-169     1H IN PTR       ganeti1001.eqiad.wmnet.
-170     1H IN PTR       ganeti1002.eqiad.wmnet.
-171     1H IN PTR       ganeti1003.eqiad.wmnet.
-172     1H IN PTR       ganeti1004.eqiad.wmnet.
+
 173     1H IN PTR       ganeti01.svc.eqiad.wmnet.
 174     1H IN PTR       mendelevium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 175     1H IN PTR       mwlog1001.eqiad.wmnet.
@@ -2738,13 +2735,9 @@ $ORIGIN 5.65.@Z
 184 1H  IN PTR      wmf4544.mgmt.eqiad.wmnet.
 
 188 1H  IN PTR      wmf4548.mgmt.eqiad.wmnet.
-188 1H  IN PTR      ganeti1001.mgmt.eqiad.wmnet.
 189 1H  IN PTR      wmf4549.mgmt.eqiad.wmnet.
-189 1H  IN PTR      ganeti1002.mgmt.eqiad.wmnet.
 190 1H  IN PTR      wmf4550.mgmt.eqiad.wmnet.
-190 1H  IN PTR      ganeti1003.mgmt.eqiad.wmnet.
 191 1H  IN PTR      wmf4551.mgmt.eqiad.wmnet.
-191 1H  IN PTR      ganeti1004.mgmt.eqiad.wmnet.
 193 1H  IN PTR      wmf4553.mgmt.eqiad.wmnet.
 193 1H  IN PTR      scb1003.mgmt.eqiad.wmnet.
 196 1H  IN PTR      wmf4556.mgmt.eqiad.wmnet.
@@ -3122,8 +3115,7 @@ $ORIGIN 0.192.@Z
 32  1H IN PTR   cp2030.codfw.wmnet.
 33  1H IN PTR   scb2003.codfw.wmnet.
 34  1H IN PTR   scb2005.codfw.wmnet.
-35  1H IN PTR   ganeti2005.codfw.wmnet.
-36  1H IN PTR   ganeti2006.codfw.wmnet.
+
 37  1H IN PTR   ganeti2007.codfw.wmnet.
 38  1H IN PTR   ganeti2008.codfw.wmnet.
 40  1H IN PTR   mw2215.codfw.wmnet.
@@ -3415,10 +3407,7 @@ $ORIGIN 16.192.@Z
 122 1H IN PTR   rdb2003.codfw.wmnet.
 123 1H IN PTR   rdb2004.codfw.wmnet.
 124 1H IN PTR   db2111.codfw.wmnet.
-125 1H IN PTR   ganeti2001.codfw.wmnet.
-126 1H IN PTR   ganeti2002.codfw.wmnet.
-127 1H IN PTR   ganeti2003.codfw.wmnet.
-128 1H IN PTR   ganeti2004.codfw.wmnet.
+
 129 1H IN PTR   poolcounter2004.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 130 1H IN PTR   orespoolcounter2004.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 131 1H IN PTR   ganeti01.svc.codfw.wmnet.
@@ -4695,17 +4684,11 @@ $ORIGIN 2.193.@Z
 163 1H IN PTR  wmf6611.mgmt.codfw.wmnet.
 164 1H IN PTR  mw2272.mgmt.codfw.wmnet.
 164 1H IN PTR  wmf6612.mgmt.codfw.wmnet.
-165 1H IN PTR  ganeti2001.mgmt.codfw.wmnet.
 165 1H IN PTR  wmf6295.mgmt.codfw.wmnet.
-166 1H IN PTR  ganeti2002.mgmt.codfw.wmnet.
 166 1H IN PTR  wmf6296.mgmt.codfw.wmnet.
-167 1H IN PTR  ganeti2003.mgmt.codfw.wmnet.
 167 1H IN PTR  wmf6297.mgmt.codfw.wmnet.
-168 1H IN PTR  ganeti2004.mgmt.codfw.wmnet.
 168 1H IN PTR  wmf6298.mgmt.codfw.wmnet.
-169 1H IN PTR  ganeti2005.mgmt.codfw.wmnet.
 169 1H IN PTR  wmf6299.mgmt.codfw.wmnet.
-170 1H IN PTR  ganeti2006.mgmt.codfw.wmnet.
 170 1H IN PTR  wmf6300.mgmt.codfw.wmnet.
 171 1H IN PTR  mw2273.mgmt.codfw.wmnet.
 171 1H IN PTR  wmf6613.mgmt.codfw.wmnet.

@@ -592,10 +592,6 @@ flowspec1001    1H  IN A        10.64.32.103 ; VM on ganeti01.svc.eqiad.wmnet
 flowspec1001    1H  IN AAAA     2620:0:861:103:10:64:32:103 ; VM on ganeti01.svc.eqiad.wmnet
 francium        1H  IN A        10.64.32.168
 francium        1H  IN AAAA     2620:0:861:103:10:64:32:168
-ganeti1001      1H  IN A        10.64.32.169
-ganeti1002      1H  IN A        10.64.32.170
-ganeti1003      1H  IN A        10.64.32.171
-ganeti1004      1H  IN A        10.64.32.172
 ganeti1005      1H  IN A        10.64.0.245
 ganeti1006      1H  IN A        10.64.0.246
 ganeti1007      1H  IN A        10.64.0.248
@@ -2641,13 +2637,9 @@ wmf7499          1H  IN A    10.65.4.142
 wmf4540          1H  IN A    10.65.5.180
 wmf4544          1H  IN A    10.65.5.184
 wmf4548     1H  IN A        10.65.5.188
-ganeti1001  1H  IN A        10.65.5.188
 wmf4549     1H  IN A        10.65.5.189
-ganeti1002  1H  IN A        10.65.5.189
 wmf4550     1H  IN A        10.65.5.190
-ganeti1003  1H  IN A        10.65.5.190
 wmf4551     1H  IN A        10.65.5.191
-ganeti1004  1H  IN A        10.65.5.191
 ganeti1005  1H  IN A        10.65.5.72
 wmf7068     1H  IN A        10.65.5.72
 ganeti1006  1H  IN A        10.65.5.73
@@ -3193,12 +3185,6 @@ kubetcd2005     1H  IN A    10.192.32.38 ; VM on ganeti01.svc.codfw.wmnet
 kubetcd2005     1H  IN AAAA 2620:0:860:103:10:192:32:38 ; VM on ganeti01.svc.codfw.wmnet
 kubetcd2006     1H  IN A    10.192.16.132 ; VM on ganeti01.svc.codfw.wmnet
 kubetcd2006     1H  IN AAAA 2620:0:860:102:10:192:16:132 ; VM on ganeti01.svc.codfw.wmnet
-ganeti2001      1H  IN A    10.192.16.125
-ganeti2002      1H  IN A    10.192.16.126
-ganeti2003      1H  IN A    10.192.16.127
-ganeti2004      1H  IN A    10.192.16.128
-ganeti2005      1H  IN A    10.192.0.35
-ganeti2006      1H  IN A    10.192.0.36
 ganeti2007      1H  IN A    10.192.0.37
 ganeti2008      1H  IN A    10.192.0.38
 ganeti2009      1H  IN A    10.192.32.138
@@ -4117,12 +4103,6 @@ es2023          1H  IN A    10.193.1.88
 es2024          1H  IN A    10.193.1.89
 es2025          1H  IN A    10.193.1.90
 furud           1H  IN A    10.193.1.42
-ganeti2001      1H  IN A    10.193.2.165
-ganeti2002      1H  IN A    10.193.2.166
-ganeti2003      1H  IN A    10.193.2.167
-ganeti2004      1H  IN A    10.193.2.168
-ganeti2005      1H  IN A    10.193.2.169
-ganeti2006      1H  IN A    10.193.2.170
 ganeti2007      1H  IN A    10.193.2.129
 ganeti2008      1H  IN A    10.193.2.130
 ganeti2009      1H  IN A    10.193.2.4
