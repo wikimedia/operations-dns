@@ -39,6 +39,7 @@
 128 1H IN PTR   mr1-eqsin.wikimedia.org.
 129 1H IN PTR   cr1-eqsin.wikimedia.org.
 130 1H IN PTR   cr2-eqsin.wikimedia.org.
+131 1H IN PTR   cr3-eqsin.wikimedia.org.
 
 ; 103.102.166.132/31 -- cr1-eqsin <--> mr1-eqsin
 132 1H IN PTR   ae1-401.cr1-eqsin.wikimedia.org.
