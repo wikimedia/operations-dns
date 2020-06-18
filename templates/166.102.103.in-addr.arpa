@@ -13,7 +13,7 @@
 
 ; 103.102.166.0/28 (0-15) - public1-eqsin
 1  1H IN PTR   vrrp-gw-510.wikimedia.org.
-2  1H IN PTR   ae1-510.cr1-eqsin.wikimedia.org.
+2  1H IN PTR   ae1-510.cr3-eqsin.wikimedia.org.
 3  1H IN PTR   ae1-510.cr2-eqsin.wikimedia.org.
 
 7  1H IN PTR   bast5001.wikimedia.org.
@@ -26,7 +26,7 @@
 
 ; 103.102.166.16/28 (16-31) - sandbox1-eqsin
 17 1H IN PTR   vrrp-gw-530.wikimedia.org.
-18 1H IN PTR   ae1-530.cr1-eqsin.wikimedia.org.
+18 1H IN PTR   ae1-530.cr3-eqsin.wikimedia.org.
 19 1H IN PTR   ae1-530.cr2-eqsin.wikimedia.org.
 
 
@@ -38,12 +38,11 @@
 
 ; 103.102.166.128/30 (128-131) - Router's loopbacks
 128 1H IN PTR   mr1-eqsin.wikimedia.org.
-129 1H IN PTR   cr1-eqsin.wikimedia.org.
 130 1H IN PTR   cr2-eqsin.wikimedia.org.
 131 1H IN PTR   cr3-eqsin.wikimedia.org.
 
-; 103.102.166.132/31 -- cr1-eqsin <--> mr1-eqsin
-132 1H IN PTR   ae1-401.cr1-eqsin.wikimedia.org.
+; 103.102.166.132/31 -- cr3-eqsin <--> mr1-eqsin
+132 1H IN PTR   ae1-401.cr3-eqsin.wikimedia.org.
 133 1H IN PTR   ge-0-0-4-401.mr1-eqsin.wikimedia.org.
 
 ; 103.102.166.134/31  -- PCCW peering
@@ -54,12 +53,12 @@
 136 1H IN PTR   gr-0-0-0-1.cr2-eqsin.wikimedia.org.
 137 1H IN PTR   gr-0-0-0-1.cr4-ulsfo.wikimedia.org.
 
-; 103.102.166.138/31  -- cr1-codfw <--> cr1-eqsin (Telia evpn)
-138 1H IN PTR   xe-0-1-0.cr1-eqsin.wikimedia.org.
+; 103.102.166.138/31  -- cr1-codfw <--> cr3-eqsin (Telia evpn)
+138 1H IN PTR   xe-0-1-0.cr3-eqsin.wikimedia.org.
 139 1H IN PTR   xe-5-1-2.cr1-codfw.wikimedia.org.
 
-; 103.102.166.140/31 -- cr1-eqsin <--> cr2-eqsin
-140 1H IN PTR   ae0.cr1-eqsin.wikimedia.org.
+; 103.102.166.140/31 -- cr3-eqsin <--> cr2-eqsin
+140 1H IN PTR   ae0.cr3-eqsin.wikimedia.org.
 141 1H IN PTR   ae0.cr2-eqsin.wikimedia.org.
 
 ; 103.102.166.142/31 -- cr2-eqsin <--> mr1-eqsin
@@ -67,8 +66,8 @@
 143 1H IN PTR   ge-0-0-4-402.mr1-eqsin.wikimedia.org.
 
 ; 103.102.166.144/31  -- SingTel peering
-144 1H IN PTR   xe-2-0-2.cr1-eqsin.wikimedia.org.
-145 1H IN PTR   singtel-peering.cr1-eqsin.wikimedia.org.
+144 1H IN PTR   xe-0-1-4.cr3-eqsin.wikimedia.org.
+145 1H IN PTR   singtel-peering.cr3-eqsin.wikimedia.org.
 
 ; 103.102.166.160/27 (160-191) - unused
 

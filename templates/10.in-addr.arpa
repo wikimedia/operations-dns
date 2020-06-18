@@ -3054,7 +3054,7 @@ $ORIGIN 0.128.@Z
 ; 10.132.0.0/24 - private1-eqsin
 $ORIGIN 0.132.@Z
 1   1H  IN PTR      vrrp-gw-520.eqsin.wmnet.
-2   1H  IN PTR      ae1-520.cr1-eqsin.eqsin.wmnet.
+2   1H  IN PTR      ae1-520.cr3-eqsin.eqsin.wmnet.
 3   1H  IN PTR      ae1-520.cr2-eqsin.eqsin.wmnet.
 
 11  1H  IN PTR      lvs5001.eqsin.wmnet.
