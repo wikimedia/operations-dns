@@ -97,7 +97,7 @@ def deploy_zones(srcdir, dstdir):
             print(" -- Descending to subdirectory: " + zfile.name)
             if not dst.exists():
                 dst.mkdir()
-            deploy_zones(Path(srcdir, str(zfile.name)), dst)
+            need_reload |= deploy_zones(Path(srcdir, str(zfile.name)), dst)
             print(" -- Done with subdir: " + zfile.name)
         elif not dst.exists():
             print(" -- Zone added: " + zfile.name)
