@@ -58,7 +58,6 @@ $ORIGIN 3.0.0.0.@Z
 6.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudservices2002-dev.wikimedia.org.
 7.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dns2001.wikimedia.org.
 8.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ns-recursor0.openstack.codfw1dev.wikimediacloud.org.
-3.8.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ns-recursor1.openstack.codfw1dev.wikimediacloud.org.
 
 ; public1-d-codfw (2620:0:860:4::/64)
 $ORIGIN 4.0.0.0.@Z
@@ -78,6 +77,7 @@ $ORIGIN 4.0.0.0.@Z
 1.1.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dns2002.wikimedia.org.
 
 7.1.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   netbox-dev2001.wikimedia.org. ; VM on ganeti01.svc.codfw.wmnet
+8.1.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ns-recursor1.openstack.codfw1dev.wikimediacloud.org.
 
 ; codfw private subnets (2620:0:860:100::/56)
 
