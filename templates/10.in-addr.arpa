@@ -290,7 +290,6 @@ $ORIGIN 0.64.@Z
 107 1H IN PTR   aqs1004.eqiad.wmnet.
 108 1H IN PTR   netboxdb1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 109 1H IN PTR   wdqs1006.eqiad.wmnet.
-110 1H IN PTR   releases1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 112 1H IN PTR   krb1001.eqiad.wmnet.
 113 1H IN PTR   ms-be1051.eqiad.wmnet.
@@ -1106,6 +1105,7 @@ $ORIGIN 48.64.@Z
 14      1H IN PTR       db1125.eqiad.wmnet.
 15      1H IN PTR       xhgui1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 16      1H IN PTR       ores1007.eqiad.wmnet.
+17      1H IN PTR       releases1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 18      1H IN PTR       db1140.eqiad.wmnet.
 19      1H IN PTR       ms-be1055.eqiad.wmnet.
 20      1H IN PTR       ms-be1056.eqiad.wmnet.

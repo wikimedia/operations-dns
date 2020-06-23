@@ -1024,8 +1024,8 @@ registry1001    1H  IN A        10.64.0.143 ;VM on ganeti01.svc.eqiad.wmnet dock
 registry1002    1H  IN A        10.64.32.139 ;VM on ganeti01.svc.eqiad.wmnet docker registry instance
 releases1001    1H  IN A        10.64.0.88 ; VM on ganeti01.svc.eqiad.wmnet
 releases1001    1H  IN AAAA     2620:0:861:101:10:64:0:88 ; VM on ganeti01.svc.eqiad.wmnet
-releases1002    1H  IN A        10.64.0.110 ; VM on ganeti01.svc.eqiad.wmnet
-releases1002    1H  IN AAAA     2620:0:861:101:10:64:0:110 ; VM on ganeti01.svc.eqiad.wmnet
+releases1002    1H  IN A        10.64.48.17 ; VM on ganeti01.svc.eqiad.wmnet
+releases1002    1H  IN AAAA     2620:0:861:107:10:64:48:17 ; VM on ganeti01.svc.eqiad.wmnet
 relforge1001    1H  IN A        10.64.4.13
 relforge1002    1H  IN A        10.64.37.21
 relforge1003    1H  IN A        10.64.5.37
