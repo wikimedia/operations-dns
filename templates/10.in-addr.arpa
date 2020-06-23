@@ -4684,12 +4684,7 @@ $ORIGIN 2.193.@Z
 163 1H IN PTR  wmf6611.mgmt.codfw.wmnet.
 164 1H IN PTR  mw2272.mgmt.codfw.wmnet.
 164 1H IN PTR  wmf6612.mgmt.codfw.wmnet.
-165 1H IN PTR  wmf6295.mgmt.codfw.wmnet.
-166 1H IN PTR  wmf6296.mgmt.codfw.wmnet.
-167 1H IN PTR  wmf6297.mgmt.codfw.wmnet.
-168 1H IN PTR  wmf6298.mgmt.codfw.wmnet.
-169 1H IN PTR  wmf6299.mgmt.codfw.wmnet.
-170 1H IN PTR  wmf6300.mgmt.codfw.wmnet.
+
 171 1H IN PTR  mw2273.mgmt.codfw.wmnet.
 171 1H IN PTR  wmf6613.mgmt.codfw.wmnet.
 172 1H IN PTR  thanos-fe2002.mgmt.codfw.wmnet.
