@@ -345,7 +345,7 @@ $ORIGIN 0.64.@Z
 179 1H IN PTR   helium.eqiad.wmnet.
 180 1H IN PTR   pc1007.eqiad.wmnet.
 181 1H IN PTR   logstash1010.eqiad.wmnet.
-182 1H IN PTR   xhgui1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
 183 1H IN PTR   logstash1023.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 184 1H IN PTR   logstash1024.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 185 1H IN PTR   kubetcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
@@ -1104,6 +1104,7 @@ $ORIGIN 48.64.@Z
 12      1H IN PTR       db1102.eqiad.wmnet.
 13      1H IN PTR       db1106.eqiad.wmnet.
 14      1H IN PTR       db1125.eqiad.wmnet.
+15      1H IN PTR       xhgui1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 16      1H IN PTR       ores1007.eqiad.wmnet.
 18      1H IN PTR       db1140.eqiad.wmnet.
 19      1H IN PTR       ms-be1055.eqiad.wmnet.

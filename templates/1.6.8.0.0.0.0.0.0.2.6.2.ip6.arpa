@@ -168,7 +168,6 @@ $ORIGIN 1.0.1.0.@Z
 7.0.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   people1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 2.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   doc1001.eqiad.wmnet.    ; VM on ganeti01.svc.eqiad.wmnet
 9.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   helium.eqiad.wmnet.
-2.8.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   xhgui1001.eqiad.wmnet.  ; VM on ganeti01.svc.eqiad.wmnet
 5.7.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   thanos-be1001.eqiad.wmnet.
 
 ; private1-b-eqiad (2620:0:861:102::/64)
@@ -367,6 +366,7 @@ $ORIGIN 7.0.1.0.@Z
 
 7.2.2.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1008.eqiad.wmnet.
 3.3.2.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   thanos-be1004.eqiad.wmnet.
+5.1.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   xhgui1001.eqiad.wmnet.  ; VM on ganeti01.svc.eqiad.wmnet
 
 ; analytics1-d-eqiad (2620:0:861:108::/64)
 $ORIGIN 8.0.1.0.@Z
