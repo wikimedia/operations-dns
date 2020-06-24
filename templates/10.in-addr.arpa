@@ -867,7 +867,6 @@ $ORIGIN 32.64.@Z
 154     1H IN PTR       db1145.eqiad.wmnet.
 155     1H IN PTR       db1146.eqiad.wmnet.
 156     1H IN PTR       db1147.eqiad.wmnet.
-157     1H IN PTR       dbproxy1008.eqiad.wmnet.
 
 159     1H IN PTR       kafka-jumbo1004.eqiad.wmnet.
 160     1H IN PTR       kafka-jumbo1005.eqiad.wmnet.
