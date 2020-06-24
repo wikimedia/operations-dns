@@ -5254,44 +5254,7 @@ $ORIGIN 0.195.@Z
 83 1H IN PTR  frpig2001-fundraising.frack.codfw.wmnet.
 
 ; 10.195.0.96/27 - frack-management-codfw
-97  1H IN PTR  reth0-2140.pfw3-codfw.frack.codfw.wmnet.
-
-104 1H IN PTR  frpig2001.mgmt.frack.codfw.wmnet.
-104 1H IN PTR  wmf5565.mgmt.frack.codfw.wmnet.
-105 1H IN PTR  frdb2002.mgmt.frack.codfw.wmnet.
-105 1H IN PTR  wmf6781.mgmt.frack.codfw.wmnet.
-106 1H IN PTR  frlog2001.mgmt.frack.codfw.wmnet.
-106 1H IN PTR  wmf6807.mgmt.frack.codfw.wmnet.
-107 1H IN PTR  mintaka.mgmt.frack.codfw.wmnet.
-107 1H IN PTR  wmf6150.mgmt.frack.codfw.wmnet.
-108 1H IN PTR  payments2001.mgmt.frack.codfw.wmnet.
-108 1H IN PTR  wmf6870.mgmt.frack.codfw.wmnet.
-109 1H IN PTR  frdb2001.mgmt.frack.codfw.wmnet.
-109 1H IN PTR  wmf5573.mgmt.frack.codfw.wmnet.
-110 1H IN PTR  payments2002.mgmt.frack.codfw.wmnet.
-110 1H IN PTR  wmf6871.mgmt.frack.codfw.wmnet.
-111 1H IN PTR  payments2003-a.mgmt.frack.codfw.wmnet.
-111 1H IN PTR  wmf6872.mgmt.frack.codfw.wmnet.
-112 1H IN PTR  frbackup2001.mgmt.frack.codfw.wmnet.
-112 1H IN PTR  wmf6555.mgmt.frack.codfw.wmnet.
-113 1H IN PTR  frbast2001.mgmt.frack.codfw.wmnet.
-113 1H IN PTR  wmf6637.mgmt.frack.codfw.wmnet.
-114 1H IN PTR  frmon2001.mgmt.frack.codfw.wmnet.
-114 1H IN PTR  wmf6638.mgmt.frack.codfw.wmnet.
-115 1H IN PTR  frauth2001.mgmt.frack.codfw.wmnet.
-115 1H IN PTR  wmf6652.mgmt.frack.codfw.wmnet.
-116 1H IN PTR  frqueue2001.mgmt.frack.codfw.wmnet.
-116 1H IN PTR  wmf6767.mgmt.frack.codfw.wmnet.
-117 1H IN PTR  frban2001.mgmt.frack.codfw.wmnet.
-117 1H IN PTR  wmf6776.mgmt.frack.codfw.wmnet.
-118 1H IN PTR  frpm2001.mgmt.frack.codfw.wmnet.
-118 1H IN PTR  wmf5566.mgmt.frack.codfw.wmnet.
-119 1H IN PTR  civi2001.mgmt.frack.codfw.wmnet.
-119 1H IN PTR  wmf5567.mgmt.frack.codfw.wmnet.
-120 1H IN PTR  pay-lvs2001.mgmt.frack.codfw.wmnet.
-120 1H IN PTR  wmf5568.mgmt.frack.codfw.wmnet.
-121 1H IN PTR  pay-lvs2002.mgmt.frack.codfw.wmnet.
-121 1H IN PTR  wmf5569.mgmt.frack.codfw.wmnet.
+$INCLUDE netbox/96-27.0.195.10.in-addr.arpa
 
 ; 10.195.0.128/29 - frack-bastion-codfw
 129 1H IN PTR  reth0-2133.pfw3-codfw.frack.codfw.wmnet.
