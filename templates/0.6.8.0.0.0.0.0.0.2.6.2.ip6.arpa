@@ -177,6 +177,7 @@ $ORIGIN 3.0.1.0.@Z
 3.2.0.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2003.codfw.wmnet.
 9.0.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2011.codfw.wmnet.
 0.1.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2012.codfw.wmnet.
+1.2.0.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2015.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 4.2.0.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   deploy2001.codfw.wmnet.
 1.4.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   conf2002.codfw.wmnet.
 7.4.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   phab2001.codfw.wmnet.
@@ -201,6 +202,7 @@ $ORIGIN 4.0.1.0.@Z
 1.7.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2004.codfw.wmnet.
 8.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2013.codfw.wmnet.
 9.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2014.codfw.wmnet.
+0.3.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubernetes2016.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 5.4.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   mwmaint2001.codfw.wmnet.
 2.5.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   conf2003.codfw.wmnet.
 6.6.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   puppetmaster2002.codfw.wmnet.

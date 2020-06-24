@@ -524,12 +524,14 @@ $ORIGIN 16.64.@Z
 69  1H IN PTR   mw1304.eqiad.wmnet.
 70  1H IN PTR   elastic1046.eqiad.wmnet.
 71  1H IN PTR   elastic1047.eqiad.wmnet.
+
 73  1H IN PTR   puppetmaster1001.eqiad.wmnet.
 74  1H IN PTR   aqs1008-a.eqiad.wmnet. ; cassandra instance
 75  1H IN PTR   kubernetes1002.eqiad.wmnet.
 76  1H IN PTR   rdb1009.eqiad.wmnet.
 77  1H IN PTR   mwmaint1002.eqiad.wmnet.
 78  1H IN PTR   aqs1008-b.eqiad.wmnet. ; cassandra instance
+79  1H IN PTR   kubernetes1015.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 80  1H IN PTR   ms-be1031.eqiad.wmnet.
 81  1H IN PTR   ms-be1032.eqiad.wmnet.
 82  1H IN PTR   ms-be1033.eqiad.wmnet.
@@ -613,6 +615,7 @@ $ORIGIN 16.64.@Z
 160 1H IN PTR   mw1399.eqiad.wmnet.
 161 1H IN PTR   mw1400.eqiad.wmnet.
 162 1H IN PTR   mw1401.eqiad.wmnet.
+
 166 1H IN PTR   mw1402.eqiad.wmnet.
 167 1H IN PTR   mw1403.eqiad.wmnet.
 168 1H IN PTR   mw1404.eqiad.wmnet.
@@ -1108,6 +1111,8 @@ $ORIGIN 48.64.@Z
 18      1H IN PTR       db1140.eqiad.wmnet.
 19      1H IN PTR       ms-be1055.eqiad.wmnet.
 20      1H IN PTR       ms-be1056.eqiad.wmnet.
+21      1H IN PTR       kubernetes1016.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
 23      1H IN PTR       ms-be1059.eqiad.wmnet.
 24      1H IN PTR       wdqs1008.eqiad.wmnet.
 27      1H IN PTR       ores1008.eqiad.wmnet.
@@ -1122,15 +1127,22 @@ $ORIGIN 48.64.@Z
 36      1H IN PTR       backup1001.eqiad.wmnet.
 37      1H IN PTR       snapshot1009.eqiad.wmnet.
 38      1H IN PTR       rdb1010.eqiad.wmnet.
+
 42      1H IN PTR       dbproxy1016.eqiad.wmnet.
 43      1H IN PTR       dbproxy1017.eqiad.wmnet.
+
 45      1H IN PTR       puppetmaster1002.eqiad.wmnet.
 46      1H IN PTR       wdqs1005.eqiad.wmnet.
+
 52      1H IN PTR       kubernetes1004.eqiad.wmnet.
+
 54      1H IN PTR       ms-be1021.eqiad.wmnet.
+
 55      1H IN PTR       rdb1006.eqiad.wmnet.
+
 71      1H  IN PTR      thumbor1003.eqiad.wmnet.
 72      1H  IN PTR      thumbor1004.eqiad.wmnet.
+
 94      1H  IN PTR      scandium.eqiad.wmnet.
 95      1H  IN PTR      eventlog1002.eqiad.wmnet.
 96      1H  IN PTR      auth1002.eqiad.wmnet.
@@ -1142,6 +1154,7 @@ $ORIGIN 48.64.@Z
 102     1H  IN PTR      cp1088.eqiad.wmnet.
 103     1H  IN PTR      cp1089.eqiad.wmnet.
 104     1H  IN PTR      cp1090.eqiad.wmnet.
+
 109     1H  IN PTR      db1136.eqiad.wmnet.
 110     1H  IN PTR      es1023.eqiad.wmnet.
 111     1H  IN PTR      db1137.eqiad.wmnet.
@@ -1197,16 +1210,16 @@ $ORIGIN 48.64.@Z
 165     1H  IN PTR      wtp1047.eqiad.wmnet.
 166     1H  IN PTR      wtp1048.eqiad.wmnet.
 167     1H  IN PTR      conf1006.eqiad.wmnet.
-168     1H IN PTR       restbase-dev1006-a.eqiad.wmnet. ; cassandra instance
-169     1H IN PTR       restbase-dev1006-b.eqiad.wmnet. ; cassandra instance
-171     1H IN PTR       druid1006.eqiad.wmnet.
-172     1H IN PTR       db1109.eqiad.wmnet.
-173     1H IN PTR       db1114.eqiad.wmnet.
-174     1H IN PTR       pc1010.eqiad.wmnet.
-175     1H IN PTR       sessionstore1003.eqiad.wmnet.
-176     1H IN PTR       ms-be1048.eqiad.wmnet.
-177     1H IN PTR       logstash1012.eqiad.wmnet.
-178     1H IN PTR       sessionstore1003-a.eqiad.wmnet.
+168     1H  IN PTR       restbase-dev1006-a.eqiad.wmnet. ; cassandra instance
+169     1H  IN PTR       restbase-dev1006-b.eqiad.wmnet. ; cassandra instance
+171     1H  IN PTR       druid1006.eqiad.wmnet.
+172     1H  IN PTR       db1109.eqiad.wmnet.
+173     1H  IN PTR       db1114.eqiad.wmnet.
+174     1H  IN PTR       pc1010.eqiad.wmnet.
+175     1H  IN PTR       sessionstore1003.eqiad.wmnet.
+176     1H  IN PTR       ms-be1048.eqiad.wmnet.
+177     1H  IN PTR       logstash1012.eqiad.wmnet.
+178     1H  IN PTR       sessionstore1003-a.eqiad.wmnet.
 179     1H  IN PTR      restbase1026.eqiad.wmnet.
 180     1H  IN PTR      restbase1026-a.eqiad.wmnet. ; cassandra instance
 181     1H  IN PTR      restbase1026-b.eqiad.wmnet. ; cassandra instance
@@ -3540,7 +3553,7 @@ $ORIGIN 32.192.@Z
 18  1H IN PTR   cp2035.codfw.wmnet.
 19  1H IN PTR   cp2036.codfw.wmnet.
 20  1H IN PTR   scb2006.codfw.wmnet.
-
+21  1H IN PTR   kubernetes2015.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 22  1H IN PTR   restbase2015-a.codfw.wmnet.
 23  1H IN PTR   kubernetes2003.codfw.wmnet.
 24  1H IN PTR   deploy2001.codfw.wmnet.
@@ -3735,7 +3748,7 @@ $ORIGIN 48.192.@Z
 27  1H IN PTR   thanos-be2004.codfw.wmnet.
 28  1H IN PTR   kubernetes2013.codfw.wmnet.
 29  1H IN PTR   kubernetes2014.codfw.wmnet.
-
+30  1H IN PTR   kubernetes2016.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 31  1H IN PTR   theemin.codfw.wmnet.
 32  1H IN PTR   db2100.codfw.wmnet.
 33  1H IN PTR   db2101.codfw.wmnet.

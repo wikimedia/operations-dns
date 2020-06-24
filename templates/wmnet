@@ -704,6 +704,10 @@ kubernetes1013  1H  IN A        10.64.48.229
 kubernetes1013  1H  IN AAAA     2620:0:861:107:10:64:48:229
 kubernetes1014  1H  IN A        10.64.48.230
 kubernetes1014  1H  IN AAAA     2620:0:861:107:10:64:48:230
+kubernetes1015  1H  IN A        10.64.16.79 ; VM on ganeti01.svc.eqiad.wmnet
+kubernetes1015  1H  IN AAAA     2620:0:861:102:10:64:16:79 ; VM on ganeti01.svc.eqiad.wmnet
+kubernetes1016  1H  IN A        10.64.48.21 ; VM on ganeti01.svc.eqiad.wmnet
+kubernetes1016  1H  IN AAAA     2620:0:861:107:10:64:48:21 ; VM on ganeti01.svc.eqiad.wmnet
 cloudmetrics1001      1H  IN A        10.64.37.13
 cloudmetrics1001      1H  IN AAAA     2620:0:861:119:10:64:37:13
 prometheus-labmon 1H      IN CNAME  cloudmetrics1002
@@ -3256,6 +3260,10 @@ kubernetes2013  1H  IN A    10.192.48.28
 kubernetes2013  1H  IN AAAA 2620:0:860:104:10:192:48:28
 kubernetes2014  1H  IN A    10.192.48.29
 kubernetes2014  1H  IN AAAA 2620:0:860:104:10:192:48:29
+kubernetes2015  1H  IN A    10.192.32.21 ; VM on ganeti01.svc.codfw.wmnet
+kubernetes2015  1H  IN AAAA 2620:0:860:103:10:192:32:21 ; VM on ganeti01.svc.codfw.wmnet
+kubernetes2016  1H  IN A    10.192.48.30 ; VM on ganeti01.svc.codfw.wmnet
+kubernetes2016  1H  IN AAAA 2620:0:860:104:10:192:48:30 ; VM on ganeti01.svc.codfw.wmnet
 clouddb2001-dev       1H  IN A    10.192.20.11
 clouddb2001-dev       1H  IN AAAA 2620:0:860:118:10:192:20:11
 cloudnet2002-dev      1H  IN A    10.192.20.10
