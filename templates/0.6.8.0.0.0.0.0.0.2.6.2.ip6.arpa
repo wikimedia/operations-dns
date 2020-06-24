@@ -216,6 +216,9 @@ $ORIGIN 4.0.1.0.@Z
 7.5.1.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2042.codfw.wmnet.
 7.2.0.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   thanos-be2004.codfw.wmnet.
 
+6.3.1.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   logstash2030.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+8.5.1.0.8.4.0.0.2.9.1.0.0.1.0.0 1H IN PTR   logstash2031.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+
 ; cloud-hosts1-a-codfw (2620:0:860:117::/64) - RESERVED
 $ORIGIN 7.1.1.0.@Z
 
