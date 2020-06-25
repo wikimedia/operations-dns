@@ -288,6 +288,7 @@ $ORIGIN 5.0.1.0.@Z
 5.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1063.eqiad.wmnet.
 6.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1072.eqiad.wmnet.
 7.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1073.eqiad.wmnet.
+9.0.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-launcher1002.eqiad.wmnet.
 0.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-master1002.eqiad.wmnet.
 8.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   stat1007.eqiad.wmnet.
 4.0.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-coord1001.eqiad.wmnet.
