@@ -306,6 +306,7 @@ an-tool1007      1H IN A             10.64.36.118 ; VM on ganeti01.svc.eqiad.wmn
 an-tool1007      1H IN AAAA          2620:0:861:106:10:64:36:118 ; VM on ganeti01.svc.eqiad.wmnet
 an-launcher1001  1H IN A             10.64.36.132 ; VM on ganeti01.svc.eqiad.wmnet
 an-launcher1001  1H IN AAAA          2620:0:861:106:10:64:36:132 ; VM on ganeti01.svc.eqiad.wmnet
+an-launcher1002  1H  IN A            10.64.21.109
 an-airflow1001   1H IN A             10.64.36.119 ; VM on ganeti01.svc.eqiad.wmnet
 an-airflow1001   1H IN AAAA          2620:0:861:106:10:64:36:119 ; VM on ganeti01.svc.eqiad.wmnet
 aqs1004          1H IN A             10.64.0.107
@@ -973,7 +974,6 @@ netboxdb1001    1H  IN AAAA     2620:0:861:101:10:64:0:108  ; VM on ganeti01.svc
 netboxdb1001    1H  IN A        10.64.0.108 ; VM on ganeti01.svc.eqiad.wmnet
 netflow1001     1H  IN A        10.64.32.88 ; VM on ganeti01.svc.eqiad.wmnet
 netflow1001     1H  IN AAAA     2620:0:861:103:10:64:32:88 ; VM on ganeti01.svc.eqiad.wmnet
-notebook1003        1H  IN A         10.64.21.109
 notebook1004        1H  IN A         10.64.36.107
 ores1001        1H  IN A        10.64.0.51
 ores1002        1H  IN A        10.64.0.52
@@ -1460,7 +1460,7 @@ labweb1001      1H  IN A    10.65.4.121
 wmf7096         1H  IN A    10.65.4.121
 labweb1002      1H  IN A    10.65.4.122
 wmf7097         1H  IN A    10.65.4.122
-notebook1003    1H  IN A    10.65.3.82
+an-launcher1002 1H  IN A    10.65.3.82
 wmf7298         1H  IN A    10.65.3.82
 notebook1004    1H  IN A    10.65.3.83
 wmf7299         1H  IN A    10.65.3.83
