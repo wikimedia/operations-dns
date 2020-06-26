@@ -1266,6 +1266,10 @@ $ORIGIN mgmt.eqiad.wmnet.
 
 mr1-eqiad           1H  IN A        10.65.0.1
 ge-0-0-2.mr1-eqiad  1H  IN A        10.66.0.1
+
+cloudsw1-d5-eqiad   1H  IN A        10.65.0.6
+cloudsw1-c8-eqiad   1H  IN A        10.65.0.7
+
 msw1-eqiad          1H  IN A        10.65.0.10
 scs-a8-eqiad        1H  IN A        10.65.0.11
 re0.cr1-eqiad       1H  IN A        10.65.0.12

@@ -1358,6 +1358,9 @@ $ORIGIN 0.65.@Z
 
 1   1H IN PTR   mr1-eqiad.mgmt.eqiad.wmnet.
 
+6   1H IN PTR   cloudsw1-d5-eqiad.mgmt.eqiad.wmnet.
+7   1H IN PTR   cloudsw1-c8-eqiad.mgmt.eqiad.wmnet.
+
 10  1H IN PTR   msw1-eqiad.mgmt.eqiad.wmnet.
 11  1H IN PTR   scs-a8-eqiad.mgmt.eqiad.wmnet.
 12  1H IN PTR   re0.cr1-eqiad.mgmt.eqiad.wmnet.
