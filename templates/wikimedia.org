@@ -651,6 +651,7 @@ horizon         1D IN CNAME dyna.wikimedia.org.
 wikitech        1D IN CNAME dyna.wikimedia.org.
 
 icinga          5M  IN CNAME    icinga1001
+ldap-icinga     5M  IN CNAME    icinga1001
 cas-icinga      5M  IN CNAME    icinga1001
 icinga-extmon   5M  IN CNAME    icinga1001
 
