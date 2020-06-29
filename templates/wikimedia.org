@@ -585,9 +585,9 @@ annual          1D IN CNAME dyna.wikimedia.org.
 
 apt             300  IN CNAME   apt1001
 
-archiva         5M  IN CNAME    archiva1001
+archiva-old     5M  IN CNAME    archiva1001
 
-archiva-new     5M  IN CNAME    archiva1002
+archiva         5M  IN CNAME    archiva1002
 
 benefactors     600 IN DYNA     geoip!text-addrs
 benefactors     1H  IN MX       10 mx1001
