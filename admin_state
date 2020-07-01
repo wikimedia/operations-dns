@@ -74,5 +74,3 @@
 ##############################################################################
 # TO DEPOOL ESAMS:
 # Don't use this file, instead edit the file "config" and switch the geo-maps part there!
-# Depool eqsin for cr3-eqsin setup
-geoip/generic-map/eqsin => DOWN
