@@ -160,6 +160,7 @@ an-master1001    1H IN A             10.64.5.26
 an-master1001    1H IN AAAA          2620:0:861:104:10:64:5:26
 an-master1002    1H IN A             10.64.21.110
 an-master1002    1H IN AAAA          2620:0:861:105:10:64:21:110
+an-scheduler1001 1H  IN A            10.64.36.107
 an-worker1078       1H IN A         10.64.5.27
 an-worker1078       1H IN AAAA      2620:0:861:104:10:64:5:27
 an-worker1079       1H IN A         10.64.5.28
@@ -979,7 +980,6 @@ netboxdb1001    1H  IN AAAA     2620:0:861:101:10:64:0:108  ; VM on ganeti01.svc
 netboxdb1001    1H  IN A        10.64.0.108 ; VM on ganeti01.svc.eqiad.wmnet
 netflow1001     1H  IN A        10.64.32.88 ; VM on ganeti01.svc.eqiad.wmnet
 netflow1001     1H  IN AAAA     2620:0:861:103:10:64:32:88 ; VM on ganeti01.svc.eqiad.wmnet
-notebook1004        1H  IN A         10.64.36.107
 ores1001        1H  IN A        10.64.0.51
 ores1002        1H  IN A        10.64.0.52
 ores1003        1H  IN A        10.64.16.94
@@ -1471,7 +1471,7 @@ labweb1002      1H  IN A    10.65.4.122
 wmf7097         1H  IN A    10.65.4.122
 an-launcher1002 1H  IN A    10.65.3.82
 wmf7298         1H  IN A    10.65.3.82
-notebook1004    1H  IN A    10.65.3.83
+an-scheduler1001  1H  IN A  10.65.3.83
 wmf7299         1H  IN A    10.65.3.83
 kafka-jumbo1001 1H  IN A    10.65.1.72
 wmf7127         1H  IN A    10.65.1.72

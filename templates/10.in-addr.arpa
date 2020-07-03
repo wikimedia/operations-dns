@@ -943,7 +943,7 @@ $ORIGIN 36.64.@Z
 104     1H IN PTR       analytics1064.eqiad.wmnet.
 105     1H IN PTR       analytics1065.eqiad.wmnet.
 106     1H IN PTR       analytics1066.eqiad.wmnet.
-107     1H IN PTR       notebook1004.eqiad.wmnet.
+107     1H IN PTR       an-scheduler1001.eqiad.wmnet.
 108     1H IN PTR       analytics1074.eqiad.wmnet.
 109     1H IN PTR       analytics1075.eqiad.wmnet.
 110     1H IN PTR       analytics-tool1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
@@ -1996,7 +1996,7 @@ $ORIGIN 3.65.@Z
 78  1H  IN PTR      wmf7454.mgmt.eqiad.wmnet.
 82  1H  IN PTR      an-launcher1002.mgmt.eqiad.wmnet.
 82  1H  IN PTR      wmf7298.mgmt.eqiad.wmnet.
-83  1H  IN PTR      notebook1004.mgmt.eqiad.wmnet.
+83  1H  IN PTR      an-scheduler1001.mgmt.eqiad.wmnet.
 83  1H  IN PTR      wmf7299.mgmt.eqiad.wmnet.
 84  1H  IN PTR      restbase1019.mgmt.eqiad.wmnet.
 84  1H  IN PTR      wmf5164.mgmt.eqiad.wmnet.
