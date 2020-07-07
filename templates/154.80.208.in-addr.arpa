@@ -48,7 +48,6 @@
 66  1H  IN PTR  ae3-1003.cr1-eqiad.wikimedia.org.
 67  1H  IN PTR  ae3-1003.cr2-eqiad.wikimedia.org.
 
-75  1H  IN PTR  gerrit1002.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 76  1H  IN PTR  mx1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 77  1H  IN PTR  ldap-eqiad-replica02.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 
