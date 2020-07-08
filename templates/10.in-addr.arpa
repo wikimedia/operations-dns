@@ -360,7 +360,6 @@ $ORIGIN 0.64.@Z
 195 1H IN PTR   mw1391.eqiad.wmnet.
 196 1H IN PTR   mw1392.eqiad.wmnet.
 197 1H IN PTR   logstash1026.eqiad.wmnet.
-198 1H IN PTR   dbproxy1003.eqiad.wmnet.
 199 1H IN PTR   aqs1007.eqiad.wmnet.
 200 1H IN PTR   kafka-main1001.eqiad.wmnet.
 201 1H IN PTR   es1020.eqiad.wmnet.
