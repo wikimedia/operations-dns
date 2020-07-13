@@ -706,6 +706,8 @@ rt              1H  IN MX       50 mx2001
 
 secure          1D IN CNAME dyna.wikimedia.org.
 
+security        1D IN CNAME dyna.wikimedia.org.
+
 sitemaps        1D IN CNAME dyna.wikimedia.org.
 
 stream          1D IN CNAME dyna.wikimedia.org.
