@@ -1099,7 +1099,6 @@ $ORIGIN 48.64.@Z
 3   1H IN PTR   ae4-1020.cr2-eqiad.wikimedia.org.
 
 10      1H IN PTR       restbase-dev1006.eqiad.wmnet.
-11      1H IN PTR       db1097.eqiad.wmnet.
 12      1H IN PTR       db1102.eqiad.wmnet.
 13      1H IN PTR       db1106.eqiad.wmnet.
 14      1H IN PTR       db1125.eqiad.wmnet.
