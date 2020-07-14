@@ -2891,55 +2891,7 @@ payments1005    1H      IN A    10.64.40.9
 
 ; EQIAD fundraising/payments management
 $ORIGIN mgmt.frack.eqiad.wmnet.
-pfw3-eqiad      1H  IN A    10.64.40.193
-pay-lvs1001     1H  IN A    10.64.40.194
-wmf6988         1H  IN A    10.64.40.194
-pay-lvs1002     1H  IN A    10.64.40.195
-wmf6989         1H  IN A    10.64.40.195
-fran1001        1H  IN A    10.64.40.220
-wmf5389         1H  IN A    10.64.40.220
-frauth1001      1H  IN A    10.64.40.196
-wmf6990         1H  IN A    10.64.40.196
-frban1001       1H  IN A    10.64.40.212
-wmf5271         1H  IN A    10.64.40.212
-frbast1001      1H  IN A    10.64.40.216
-wmf7291         1H  IN A    10.64.40.216
-frdata1001      1H  IN A    10.64.40.217
-wmf7292         1H  IN A    10.64.40.217
-frdb1001        1H  IN A    10.64.40.197
-wmf4796         1H  IN A    10.64.40.197
-frdb1002        1H  IN A    10.64.40.198
-wmf7029         1H  IN A    10.64.40.198
-frdb1003        1H  IN A    10.64.40.219
-wmf5280         1H  IN A    10.64.40.219
-frdev1001       1H  IN A    10.64.40.200
-wmf7028         1H  IN A    10.64.40.200
-civi1001        1H  IN A    10.64.40.201
-wmf7010         1H  IN A    10.64.40.201
-frnetmon1001    1H  IN A    10.64.40.207
-wmf5253         1H  IN A    10.64.40.207
-frmon1001       1H  IN A    10.64.40.215
-wmf7311         1H  IN A    10.64.40.215
-frpig1001       1H  IN A    10.64.40.218
-wmf7293         1H  IN A    10.64.40.218
-frpm1001        1H  IN A    10.64.40.202
-wmf7041         1H  IN A    10.64.40.202
-frqueue1001     1H  IN A    10.64.40.203
-wmf6946         1H  IN A    10.64.40.203
-frqueue1002     1H  IN A    10.64.40.204
-wmf6947         1H  IN A    10.64.40.204
-payments1001    1H  IN A    10.64.40.208
-wmf6951         1H  IN A    10.64.40.208
-payments1002    1H  IN A    10.64.40.209
-wmf6950         1H  IN A    10.64.40.209
-payments1003    1H  IN A    10.64.40.210
-wmf6949         1H  IN A    10.64.40.210
-payments1004    1H  IN A    10.64.40.211
-wmf6948         1H  IN A    10.64.40.211
-frav1002        1H  IN A    10.64.40.213
-wmf5163         1H  IN A    10.64.40.213
-frlog1001       1H  IN A    10.64.40.214
-wmf7043         1H  IN A    10.64.40.214
+$INCLUDE netbox/mgmt.frack.eqiad.wmnet
 
 ; EQIAD analytics cluster
 

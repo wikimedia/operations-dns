@@ -1041,57 +1041,7 @@ $ORIGIN 40.64.@Z
 165 1H IN PTR   frpig1001-fundraising.frack.eqiad.wmnet.
 
 ; 10.64.40.192/26 - frack-management1-c-eqiad
-193 1H IN PTR   pfw3-eqiad.mgmt.frack.eqiad.wmnet.
-194 1H IN PTR   pay-lvs1001.mgmt.frack.eqiad.wmnet.
-194 1H IN PTR   wmf6988.mgmt.frack.eqiad.wmnet.
-195 1H IN PTR   pay-lvs1002.mgmt.frack.eqiad.wmnet.
-195 1H IN PTR   wmf6989.mgmt.frack.eqiad.wmnet.
-196 1H IN PTR   frauth1001.mgmt.frack.eqiad.wmnet.
-196 1H IN PTR   wmf6990.mgmt.frack.eqiad.wmnet.
-197 1H IN PTR   frdb1001.mgmt.frack.eqiad.wmnet.
-197 1H IN PTR   wmf4796.mgmt.frack.eqiad.wmnet.
-198 1H IN PTR   wmf7029.mgmt.frack.eqiad.wmnet.
-198 1H IN PTR   frdb1002.mgmt.frack.eqiad.wmnet.
-199 1H IN PTR   wmf3083.mgmt.frack.eqiad.wmnet.
-200 1H IN PTR   frdev1001.mgmt.frack.eqiad.wmnet.
-200 1H IN PTR   wmf7028.mgmt.frack.eqiad.wmnet.
-201 1H IN PTR   civi1001.mgmt.frack.eqiad.wmnet.
-201 1H IN PTR   wmf7010.mgmt.frack.eqiad.wmnet.
-202 1H IN PTR   frpm1001.mgmt.frack.eqiad.wmnet.
-202 1H IN PTR   wmf7041.mgmt.frack.eqiad.wmnet.
-203 1H IN PTR   frqueue1001.mgmt.frack.eqiad.wmnet.
-203 1H IN PTR   wmf6946.mgmt.frack.eqiad.wmnet.
-204 1H IN PTR   frqueue1002.mgmt.frack.eqiad.wmnet.
-204 1H IN PTR   wmf6947.mgmt.frack.eqiad.wmnet.
-
-207 1H IN PTR   frnetmon1001.mgmt.frack.eqiad.wmnet.
-207 1H IN PTR   wmf5253.mgmt.frack.eqiad.wmnet.
-208 1H IN PTR   payments1001.mgmt.frack.eqiad.wmnet.
-208 1H IN PTR   wmf6951.mgmt.frack.eqiad.wmnet.
-209 1H IN PTR   payments1002.mgmt.frack.eqiad.wmnet.
-209 1H IN PTR   wmf6950.mgmt.frack.eqiad.wmnet.
-210 1H IN PTR   payments1003.mgmt.frack.eqiad.wmnet.
-210 1H IN PTR   wmf6949.mgmt.frack.eqiad.wmnet.
-211 1H IN PTR   payments1004.mgmt.frack.eqiad.wmnet.
-211 1H IN PTR   wmf6948.mgmt.frack.eqiad.wmnet.
-212 1H IN PTR   frban1001.mgmt.frack.eqiad.wmnet.
-212 1H IN PTR   wmf5271.mgmt.frack.eqiad.wmnet.
-213 1H IN PTR   frav1002.mgmt.frack.eqiad.wmnet.
-213 1H IN PTR   wmf5163.mgmt.frack.eqiad.wmnet.
-214 1H IN PTR   frlog1001.mgmt.frack.eqiad.wmnet.
-214 1H IN PTR   wmf7043.mgmt.frack.eqiad.wmnet.
-215 1H IN PTR   frmon1001.mgmt.frack.eqiad.wmnet.
-215 1H IN PTR   wmf7311.mgmt.frack.eqiad.wmnet.
-216 1H IN PTR   frbast1001.mgmt.frack.eqiad.wmnet.
-216 1H IN PTR   wmf7291.mgmt.frack.eqiad.wmnet.
-217 1H IN PTR   frdata1001.mgmt.frack.eqiad.wmnet.
-217 1H IN PTR   wmf7292.mgmt.frack.eqiad.wmnet.
-218 1H IN PTR   frpig1001.mgmt.frack.eqiad.wmnet.
-218 1H IN PTR   wmf7293.mgmt.frack.eqiad.wmnet.
-219 1H IN PTR   frdb1003.mgmt.frack.eqiad.wmnet.
-219 1H IN PTR   wmf5280.mgmt.frack.eqiad.wmnet.
-220 1H IN PTR   fran1001.mgmt.frack.eqiad.wmnet.
-220 1H IN PTR   wmf5389.mgmt.frack.eqiad.wmnet.
+$INCLUDE netbox/192-26.40.64.10.in-addr.arpa
 
 ; 10.64.48.0/22 - private1-d-eqiad
 $ORIGIN 48.64.@Z
