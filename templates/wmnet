@@ -309,6 +309,8 @@ an-launcher1002  1H IN A             10.64.21.109
 an-launcher1002  1H IN AAAA          2620:0:861:105:10:64:21:109
 an-airflow1001   1H IN A             10.64.36.119 ; VM on ganeti01.svc.eqiad.wmnet
 an-airflow1001   1H IN AAAA          2620:0:861:106:10:64:36:119 ; VM on ganeti01.svc.eqiad.wmnet
+aphlict1001      1H  IN A            10.64.48.39 ; VM on ganeti01.svc.eqiad.wmnet
+aphlict1001      1H  IN AAAA         2620:0:861:107:10:64:48:39 ; VM on ganeti01.svc.eqiad.wmnet
 aqs1004          1H IN A             10.64.0.107
 aqs1004          1H IN AAAA          2620:0:861:101:10:64:0:107
 aqs1004-a        1H IN A             10.64.0.126 ; cassandra instance
