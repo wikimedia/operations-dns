@@ -1139,6 +1139,8 @@ phab1001-vcs    1H  IN A        10.64.16.100
 phab1001-vcs    1H  IN AAAA     2620:0:861:102:10:64:16:100
 puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 technetium      1H  IN A        10.64.32.188 ; VM on ganeti01.svc.eqiad.wmnet
+testreduce1001  1H  IN A        10.64.48.40 ; VM on ganeti01.svc.eqiad.wmnet
+testreduce1001  1H  IN AAAA     2620:0:861:107:10:64:48:40 ; VM on ganeti01.svc.eqiad.wmnet
 thanos-be1001   1H  IN A        10.64.0.75
 thanos-be1001   1H  IN AAAA     2620:0:861:101:10:64:0:75
 thanos-be1002   1H  IN A        10.64.16.177
