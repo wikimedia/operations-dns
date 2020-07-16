@@ -55,6 +55,7 @@ pc1-master      5M  IN CNAME    pc1007.eqiad.wmnet.
 pc2-master      5M  IN CNAME    pc1008.eqiad.wmnet.
 pc3-master      5M  IN CNAME    pc1009.eqiad.wmnet.
 tendril-backend 5M  IN CNAME    db1115.eqiad.wmnet.
+zarcillo-master 5M  IN CNAME    db1115.eqiad.wmnet.
 
 s1-analytics-replica  5M  IN CNAME    dbstore1003.eqiad.wmnet.
 s2-analytics-replica  5M  IN CNAME    dbstore1004.eqiad.wmnet.
