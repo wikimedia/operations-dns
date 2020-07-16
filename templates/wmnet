@@ -5221,6 +5221,9 @@ ncredir3002 1H      IN AAAA 2620:0:862:102:10:20:0:102 ; VM on ganeti01.svc.esam
 
 ping3001    1H      IN A    10.20.0.103 ; VM on ganeti01.svc.esams.wmnet
 
+prometheus3001 1H      IN A    10.20.0.104 ; VM on ganeti01.svc.esams.wmnet
+prometheus3001 1H      IN AAAA 2620:0:862:102:10:20:0:104 ; VM on ganeti01.svc.esams.wmnet
+
 ;
 ; SERVICES
 ;
@@ -5298,6 +5301,8 @@ ncredir4001     1H      IN A    10.128.0.32 ; VM on ganeti01.svc.ulsfo.wmnet
 ncredir4001     1H      IN AAAA 2620:0:863:101:10:128:0:32 ; VM on ganeti01.svc.ulsfo.wmnet
 ncredir4002     1H      IN A    10.128.0.33 ; VM on ganeti01.svc.ulsfo.wmnet
 ncredir4002     1H      IN AAAA 2620:0:863:101:10:128:0:33 ; VM on ganeti01.svc.ulsfo.wmnet
+prometheus4001     1H      IN A    10.128.0.34 ; VM on ganeti01.svc.ulsfo.wmnet
+prometheus4001     1H      IN AAAA 2620:0:863:101:10:128:0:34 ; VM on ganeti01.svc.ulsfo.wmnet
 
 ; ulsfo LVS cross-vlan
 vl1201-eth0.lvs4005  1H IN A 198.35.26.9
@@ -5380,6 +5385,8 @@ ncredir5001     1H      IN A    10.132.0.31 ; VM on ganeti01.svc.eqsin.wmnet
 ncredir5001     1H      IN AAAA 2001:df2:e500:101:10:132:0:31 ; VM on ganeti01.svc.eqsin.wmnet
 ncredir5002     1H      IN A    10.132.0.32 ; VM on ganeti01.svc.eqsin.wmnet
 ncredir5002     1H      IN AAAA 2001:df2:e500:101:10:132:0:32 ; VM on ganeti01.svc.eqsin.wmnet
+prometheus5001     1H      IN A    10.132.0.33 ; VM on ganeti01.svc.eqsin.wmnet
+prometheus5001     1H      IN AAAA 2001:df2:e500:101:10:132:0:33 ; VM on ganeti01.svc.eqsin.wmnet
 
 ; eqsin LVS cross-vlan
 vl510-eth0.lvs5001 1H   IN A 103.102.166.10
