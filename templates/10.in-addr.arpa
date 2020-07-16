@@ -730,6 +730,7 @@ $ORIGIN 21.64.@Z
 124 1H IN PTR   an-conf1001.eqiad.wmnet.
 125 1H IN PTR   an-presto1004.eqiad.wmnet.
 126 1H IN PTR   relforge1004.eqiad.wmnet.
+127 1H IN PTR   an-tool1008.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 ; 10.64.32.0/22 - private1-c-eqiad
 $ORIGIN 32.64.@Z
