@@ -90,7 +90,12 @@ $ORIGIN 3.0.0.0.@Z
 1.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   urldownloader1002.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 4.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   icinga1001.wikimedia.org.
 7.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   idp-test1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-
+4.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1004.wikimedia.org.
+5.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1005.wikimedia.org.
+6.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1006.wikimedia.org.
+7.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1007.wikimedia.org.
+8.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1008.wikimedia.org.
+9.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1009.wikimedia.org.
 
 ; public1-d-eqiad (2620:0:861:4::/64)
 $ORIGIN 4.0.0.0.@Z
@@ -108,6 +113,12 @@ $ORIGIN 4.0.0.0.@Z
 6.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labstore1007.wikimedia.org.
 7.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1004.wikimedia.org.
 8.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dns1002.wikimedia.org.
+0.1.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1010.wikimedia.org.
+1.1.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1011.wikimedia.org.
+2.1.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1012.wikimedia.org.
+3.1.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1013.wikimedia.org.
+4.1.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1014.wikimedia.org.
+5.1.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1015.wikimedia.org.
 
 ; eqiad private subnets (2620:0:861:100::/56)
 
