@@ -19,6 +19,9 @@
 ; Canonical names
 @           600  IN A    192.0.66.2
 
+; Facebook verification record (T258284)
+@           600 IN TXT  "facebook-domain-verification=orjhfudqyeumf4uber3bpwan5pisu0"
+
 ; DKIM domain policy record
 _domainkey  1H  IN TXT  "o=~; r=hostmaster@wikimediafoundation.org;"
 
