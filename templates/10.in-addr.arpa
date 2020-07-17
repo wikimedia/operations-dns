@@ -1130,7 +1130,7 @@ $ORIGIN 48.64.@Z
 38      1H IN PTR       rdb1010.eqiad.wmnet.
 39      1H IN PTR       aphlict1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 40      1H IN PTR       testreduce1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
+41      1H IN PTR       search-loader1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 42      1H IN PTR       dbproxy1016.eqiad.wmnet.
 43      1H IN PTR       dbproxy1017.eqiad.wmnet.
 
@@ -3886,6 +3886,7 @@ $ORIGIN 48.192.@Z
 157 1H IN PTR   cp2042.codfw.wmnet.
 158 1H IN PTR   logstash2031.codfw.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 159 1H IN PTR   chartmuseum2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+160 1H IN PTR   search-loader2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 $ORIGIN 49.192.@Z
 7   1H IN PTR   lvs2010.codfw.wmnet.

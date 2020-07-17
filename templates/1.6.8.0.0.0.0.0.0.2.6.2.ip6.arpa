@@ -383,6 +383,7 @@ $ORIGIN 7.0.1.0.@Z
 6.2.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   chartmuseum1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 9.3.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aphlict1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 0.4.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   testreduce1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+1.4.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   search-loader1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 ; analytics1-d-eqiad (2620:0:861:108::/64)
 $ORIGIN 8.0.1.0.@Z
