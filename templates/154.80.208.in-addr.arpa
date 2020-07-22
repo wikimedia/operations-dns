@@ -63,12 +63,6 @@
 91  1H  IN PTR  wiki-mail-eqiad.wikimedia.org.
 
 93  1H  IN PTR  radon.wikimedia.org.
-94  1H  IN PTR  cloudcephosd1004.wikimedia.org.
-95  1H  IN PTR  cloudcephosd1005.wikimedia.org.
-96  1H  IN PTR  cloudcephosd1006.wikimedia.org.
-97  1H  IN PTR  cloudcephosd1007.wikimedia.org.
-98  1H  IN PTR  cloudcephosd1008.wikimedia.org.
-99  1H  IN PTR  cloudcephosd1009.wikimedia.org.
 
 102 1H  IN PTR  vl1003-eth2.lvs1013.eqiad.wmnet.
 103 1H  IN PTR  vl1003-eth2.lvs1014.eqiad.wmnet.
