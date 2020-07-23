@@ -374,7 +374,6 @@ $ORIGIN f.f.f.f.@Z
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-codfw.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-codfw.wikimedia.org.
-3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   pim-rp.wikimedia.org.
 
 5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-eqdfw.wikimedia.org.
 6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mr1-codfw.wikimedia.org.
