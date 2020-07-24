@@ -593,9 +593,6 @@ $ORIGIN 16.64.@Z
 138 1H IN PTR   ganeti1017.eqiad.wmnet.
 139 1H IN PTR   ganeti1018.eqiad.wmnet.
 140 1H IN PTR   cescout1001.eqiad.wmnet.
-141 1H IN PTR   cloudcephmon1001-eth1.eqiad.wmnet.
-142 1H IN PTR   cloudcephmon1002-eth1.eqiad.wmnet.
-143 1H IN PTR   cloudcephmon1003-eth1.eqiad.wmnet.
 144 1H IN PTR   cloudcephosd1001-eth1.eqiad.wmnet.
 145 1H IN PTR   cloudcephosd1002-eth1.eqiad.wmnet.
 146 1H IN PTR   cloudcephosd1003-eth1.eqiad.wmnet.
