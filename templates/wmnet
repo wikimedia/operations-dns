@@ -371,6 +371,9 @@ cloudcephosd1012 1H IN A         10.64.20.63
 cloudcephosd1013 1H IN A         10.64.20.64
 cloudcephosd1014 1H IN A         10.64.20.65
 cloudcephosd1015 1H IN A         10.64.20.66
+cloudcephmon1001 1H IN A         10.64.20.67
+cloudcephmon1002 1H IN A         10.64.20.68
+cloudcephmon1003 1H IN A         10.64.20.69
 cloudnet1003     1H IN A         10.64.20.35
 cloudvirt1019    1H IN A         10.64.20.38
 cloudvirt1019    1H IN AAAA      2620:0:861:118:10:64:20:38

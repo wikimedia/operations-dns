@@ -712,6 +712,9 @@ $ORIGIN 20.64.@Z
 64  1H  IN PTR  cloudcephosd1013.eqiad.wmnet.
 65  1H  IN PTR  cloudcephosd1014.eqiad.wmnet.
 66  1H  IN PTR  cloudcephosd1015.eqiad.wmnet.
+67  1H  IN PTR  cloudcephmon1001.eqiad.wmnet.
+68  1H  IN PTR  cloudcephmon1002.eqiad.wmnet.
+69  1H  IN PTR  cloudcephmon1003.eqiad.wmnet.
 
 ; 10.64.21.0/24 - analytics1-b-eqiad
 $ORIGIN 21.64.@Z
