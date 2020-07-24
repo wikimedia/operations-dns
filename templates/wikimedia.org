@@ -143,12 +143,6 @@ cloudceph2002-dev    1H  IN A    208.80.153.40
 cloudceph2002-dev    1H  IN AAAA 2620:0:860:2:208:80:153:40
 cloudceph2003-dev    1H  IN A    208.80.153.41
 cloudceph2003-dev    1H  IN AAAA 2620:0:860:2:208:80:153:41
-cloudcephmon1001    1H  IN A    208.80.154.148
-cloudcephmon1001    1H  IN AAAA 2620:0:861:2:208:80:154:148
-cloudcephmon1002    1H  IN A    208.80.154.149
-cloudcephmon1002    1H  IN AAAA 2620:0:861:2:208:80:154:149
-cloudcephmon1003    1H  IN A    208.80.154.150
-cloudcephmon1003    1H  IN AAAA 2620:0:861:2:208:80:154:150
 cloudcephosd1001    1H  IN A    208.80.154.151
 cloudcephosd1001    1H  IN AAAA 2620:0:861:2:208:80:154:151
 cloudcephosd1002    1H  IN A    208.80.154.152

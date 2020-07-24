@@ -85,9 +85,6 @@
 143 1H  IN PTR  ns-recursor0.openstack.eqiad1.wikimediacloud.org.
 144 1H  IN PTR  molybdenum.wikimedia.org.
 147 1H  IN PTR  californium.wikimedia.org.
-148 1H  IN PTR  cloudcephmon1001.wikimedia.org.
-149 1H  IN PTR  cloudcephmon1002.wikimedia.org.
-150 1H  IN PTR  cloudcephmon1003.wikimedia.org.
 151 1H  IN PTR  cloudcephosd1001.wikimedia.org.
 152 1H  IN PTR  cloudcephosd1002.wikimedia.org.
 153 1H  IN PTR  cloudcephosd1003.wikimedia.org.

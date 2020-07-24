@@ -57,9 +57,6 @@ $ORIGIN 2.0.0.0.@Z
 5.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudservices1003.wikimedia.org.
 6.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit1001.wikimedia.org.
 8.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1006.wikimedia.org.
-8.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephmon1001.wikimedia.org.
-9.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephmon1002.wikimedia.org.
-0.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephmon1003.wikimedia.org.
 1.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1001.wikimedia.org.
 2.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1002.wikimedia.org.
 3.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcephosd1003.wikimedia.org.
