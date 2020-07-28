@@ -4337,17 +4337,25 @@ helm-charts    300/10 IN DYNA geoip!disc-helm-charts
 
 aphlict               300 IN CNAME aphlict1001.eqiad.wmnet.
 debmonitor            300 IN CNAME debmonitor1001.eqiad.wmnet.
+;debmonitor            300 IN CNAME debmonitor2001.codfw.wmnet.
 graphite              300 IN CNAME graphite1004.eqiad.wmnet.
 ;graphite              300 IN CNAME graphite2003.codfw.wmnet.
 mwmaint               300 IN CNAME mwmaint1002.eqiad.wmnet.
+;mwmaint               300 IN CNAME mwmaint2001.codfw.wmnet.
 peopleweb             300 IN CNAME people1002.eqiad.wmnet.
+;peopleweb             300 IN CNAME people2001.codfw.wmnet.
 performance           300 IN CNAME webperf1001.eqiad.wmnet.
+;performance           300 IN CNAME webperf2001.codfw.wmnet.
 phabricator           300 IN CNAME phab1001.eqiad.wmnet.
+;phabricator           300 IN CNAME phab2001.codfw.wmnet.
 planet                300 IN CNAME planet1002.eqiad.wmnet.
+;planet                300 IN CNAME planet2002.codfw.wmnet.
 puppetboard           300 IN CNAME puppetboard1001.eqiad.wmnet.
 ;puppetboard           300 IN CNAME puppetboard2001.codfw.wmnet.
 releases              300 IN CNAME releases1001.eqiad.wmnet.
+;releases              300 IN CNAME releases2001.codfw.wmnet.
 webserver-misc-apps   300 IN CNAME miscweb1002.eqiad.wmnet.
+;webserver-misc-apps   300 IN CNAME miscweb2002.codfw.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
 analytics-web         300 IN CNAME thorium.eqiad.wmnet.
 ticket                300 IN CNAME mendelevium.eqiad.wmnet.
