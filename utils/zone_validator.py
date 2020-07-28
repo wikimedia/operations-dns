@@ -59,8 +59,8 @@ following ORIGIN-specific validations:
 
 - Regular ORIGIN
   - expect 1 IP only for each name
-    - any IP is private [Error.TOO_MANY_NAMES]
-    - all IP are public [Warning.TOO_MANY_PUBLIC_NAMES]
+    - any IP is private or all names are not in PUBLIC_DOMAIN [Error.TOO_MANY_NAMES]
+    - all IPs are public or all names are in PUBLIC_DOMAIN [Warning.TOO_MANY_PUBLIC_NAMES]
   - expect a management record [Warning.MISSING_MGMT_FOR_NAME]
     - unless is IPv6 (management network is v4)
     - unless is a 4th level name (i.e. foo.$host.$dc.wmnet)
@@ -98,6 +98,7 @@ ASSET_TAG_PATTERN = re.compile(r'^wmf[0-9]{4}\.mgmt\.', re.I)
 NO_ASSET_TAG_PREFIXES = []
 IPV4_REVERSE_DOMAIN = 'in-addr.arpa.'
 IPV6_REVERSE_DOMAIN = 'ip6.arpa.'
+PUBLIC_DOMAIN = 'wikimedia.org.'
 
 
 class ZoneParseError(Exception):
@@ -723,7 +724,7 @@ class ZonesValidator:
     def _validate_names(self, value, records, label):
         """Validate record names for all the given IP/PTR, only one record expected."""
         if len(records) != 1:
-            if any(record.ip.is_private for record in records):
+            if any(record.ip.is_private or not record.name.endswith(PUBLIC_DOMAIN) for record in records):
                 self.reporter.e_too_many_names(label, value, records)
             else:
                 self.reporter.w_too_many_public_names(label, value, records)
