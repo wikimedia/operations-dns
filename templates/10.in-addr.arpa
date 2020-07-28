@@ -1786,8 +1786,7 @@ $ORIGIN 2.65.@Z
 140 1H  IN PTR      prometheus1004.mgmt.eqiad.wmnet.
 141 1H  IN PTR      wmf7030.mgmt.eqiad.wmnet.
 141 1H  IN PTR      db1096.mgmt.eqiad.wmnet.
-142 1H  IN PTR      wmf7031.mgmt.eqiad.wmnet.
-142 1H  IN PTR      db1097.mgmt.eqiad.wmnet.
+
 143 1H  IN PTR      wmf7032.mgmt.eqiad.wmnet.
 143 1H  IN PTR      db1098.mgmt.eqiad.wmnet.
 144 1H  IN PTR      wmf7033.mgmt.eqiad.wmnet.
