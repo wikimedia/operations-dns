@@ -353,9 +353,6 @@ chartmuseum1001  1H IN A         10.64.48.26 ;VM on ganeti01.svc.eqiad.wmnet
 chartmuseum1001  1H IN AAAA      2620:0:861:107:10:64:48:26 ; VM on ganeti01.svc.eqiad.wmnet
 chlorine         1H IN A         10.64.0.45 ; VM on ganeti01.svc.eqiad.wmnet
 chlorine         1H IN AAAA      2620:0:861:101:10:64:0:45 ; VM on ganeti01.svc.eqiad.wmnet
-cloudcephosd1001-eth1 1H IN A         10.64.16.144
-cloudcephosd1002-eth1 1H IN A         10.64.16.145
-cloudcephosd1003-eth1 1H IN A         10.64.16.146
 cloudcephosd1004 1H IN A         10.64.20.55
 cloudcephosd1005 1H IN A         10.64.20.56
 cloudcephosd1006 1H IN A         10.64.20.57
