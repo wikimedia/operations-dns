@@ -5613,6 +5613,8 @@ helm-charts    300/10 IN DYNA geoip!disc-helm-charts
 
 
 ; misc web services with multiple backends but without geoip
+
+aphlict               300 IN CNAME aphlict1001.eqiad.wmnet.
 debmonitor            300 IN CNAME debmonitor1001.eqiad.wmnet.
 graphite              300 IN CNAME graphite1004.eqiad.wmnet.
 ;graphite              300 IN CNAME graphite2003.codfw.wmnet.
