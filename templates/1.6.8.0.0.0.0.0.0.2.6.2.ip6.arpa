@@ -234,7 +234,7 @@ $ORIGIN 3.0.1.0.@Z
 8.1.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 4.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1011.eqiad.wmnet.
 5.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1012.eqiad.wmnet.
-8.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   db1108.eqiad.wmnet.
+1.7.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   db1108.eqiad.wmnet.
 8.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1005.eqiad.wmnet.
 
 7.8.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   miscweb1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
