@@ -161,6 +161,9 @@ an-master1001    1H IN A             10.64.5.26
 an-master1001    1H IN AAAA          2620:0:861:104:10:64:5:26
 an-master1002    1H IN A             10.64.21.110
 an-master1002    1H IN AAAA          2620:0:861:105:10:64:21:110
+an-test-worker1001 1H IN A           10.64.5.38
+an-test-worker1002 1H IN A           10.64.36.111
+an-test-worker1003 1H IN A           10.64.53.21
 an-scheduler1001 1H  IN A            10.64.36.107
 an-worker1078       1H IN A         10.64.5.27
 an-worker1078       1H IN AAAA      2620:0:861:104:10:64:5:27
@@ -1511,6 +1514,12 @@ an-presto1004   1H  IN A    10.65.6.18
 wmf7473         1H  IN A    10.65.6.18
 an-presto1005   1H  IN A    10.65.6.19
 wmf7474         1H  IN A    10.65.6.19
+an-test-worker1001 1H IN A  10.65.0.68
+wmf4833         1H  IN A    10.65.0.68
+an-test-worker1002 1H IN A  10.65.0.69
+wmf4834         1H  IN A    10.65.0.69
+an-test-worker1003 1H IN A  10.65.0.70
+wmf4844         1H  IN A    10.65.0.70
 labweb1001      1H  IN A    10.65.4.121
 wmf7096         1H  IN A    10.65.4.121
 labweb1002      1H  IN A    10.65.4.122

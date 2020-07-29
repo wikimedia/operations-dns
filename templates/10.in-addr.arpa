@@ -445,6 +445,7 @@ $ORIGIN 5.64.@Z
 35  1H IN PTR   stat1008.eqiad.wmnet.
 36  1H IN PTR   an-druid1001.eqiad.wmnet.
 37  1H IN PTR   relforge1003.eqiad.wmnet.
+38  1H IN PTR   an-test-worker1001.eqiad.wmnet.
 
 101 1H IN PTR   druid1001.eqiad.wmnet.
 
@@ -961,7 +962,7 @@ $ORIGIN 36.64.@Z
 108     1H IN PTR       analytics1074.eqiad.wmnet.
 109     1H IN PTR       analytics1075.eqiad.wmnet.
 110     1H IN PTR       analytics-tool1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
+111     1H IN PTR       an-test-worker1002.eqiad.wmnet.
 
 113     1H IN PTR       an-worker1090.eqiad.wmnet.
 
@@ -1264,7 +1265,7 @@ $ORIGIN 53.64.@Z
 18      1H IN PTR       analytics1039.eqiad.wmnet.
 19      1H IN PTR       analytics1040.eqiad.wmnet.
 20      1H IN PTR       analytics1041.eqiad.wmnet.
-
+21      1H IN PTR       an-test-worker1003.eqiad.wmnet.
 22      1H IN PTR       analytics1042.eqiad.wmnet.
 23      1H IN PTR       analytics1043.eqiad.wmnet.
 24      1H IN PTR       analytics1044.eqiad.wmnet.
@@ -1385,6 +1386,12 @@ $ORIGIN 0.65.@Z
 65  1H IN PTR   cloudcephosd1013.mgmt.eqiad.wmnet.
 66  1H IN PTR   cloudcephosd1014.mgmt.eqiad.wmnet.
 67  1H IN PTR   cloudcephosd1015.mgmt.eqiad.wmnet.
+68  1H IN PTR   an-test-worker1001.mgmt.eqiad.wmnet.
+68  1H IN PTR   wmf4833.mgmt.eqiad.wmnet.
+69  1H IN PTR   an-test-worker1002.mgmt.eqiad.wmnet.
+69  1H IN PTR   wmf4834.mgmt.eqiad.wmnet.
+70  1H IN PTR   an-test-worker1003.mgmt.eqiad.wmnet.
+70  1H IN PTR   wmf4835.mgmt.eqiad.wmnet.
 
 74  1H IN PTR   alert1001.mgmt.eqiad.wmnet.
 74  1H IN PTR   wmf5405.mgmt.eqiad.wmnet.
