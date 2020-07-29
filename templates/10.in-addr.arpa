@@ -291,6 +291,7 @@ $ORIGIN 0.64.@Z
 107 1H IN PTR   aqs1004.eqiad.wmnet.
 108 1H IN PTR   netboxdb1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 109 1H IN PTR   wdqs1006.eqiad.wmnet.
+110 1H IN PTR   kafkamon1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 112 1H IN PTR   krb1001.eqiad.wmnet.
 113 1H IN PTR   ms-be1051.eqiad.wmnet.
@@ -3170,7 +3171,7 @@ $ORIGIN 0.192.@Z
 88  1H IN PTR   ms-be2028.codfw.wmnet.
 89  1H IN PTR   ms-be2029.codfw.wmnet.
 90  1H IN PTR   ms-be2030.codfw.wmnet.
-
+91  1H IN PTR   kafkamon2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 92  1H IN PTR   peek2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 93  1H IN PTR   acrux.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 94  1H IN PTR   kubetcd2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
