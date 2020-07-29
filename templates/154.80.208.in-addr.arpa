@@ -59,6 +59,7 @@
 85  1H  IN PTR  cloudcontrol1005.wikimedia.org.
 86  1H  IN PTR  bast1002.wikimedia.org.
 87  1H  IN PTR  idp-test1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
+88  1H  IN PTR  alert1001.wikimedia.org.
 
 91  1H  IN PTR  wiki-mail-eqiad.wikimedia.org.
 
