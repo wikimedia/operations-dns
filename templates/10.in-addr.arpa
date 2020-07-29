@@ -1385,6 +1385,9 @@ $ORIGIN 0.65.@Z
 66  1H IN PTR   cloudcephosd1014.mgmt.eqiad.wmnet.
 67  1H IN PTR   cloudcephosd1015.mgmt.eqiad.wmnet.
 
+74  1H IN PTR   alert1001.mgmt.eqiad.wmnet.
+74  1H IN PTR   wmf5405.mgmt.eqiad.wmnet.
+
 $ORIGIN 1.65.@Z
 
 1   1H  IN PTR      db1116.mgmt.eqiad.wmnet.
