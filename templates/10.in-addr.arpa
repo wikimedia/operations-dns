@@ -1395,6 +1395,24 @@ $ORIGIN 0.65.@Z
 
 74  1H IN PTR   alert1001.mgmt.eqiad.wmnet.
 74  1H IN PTR   wmf5405.mgmt.eqiad.wmnet.
+75  1H IN PTR   cloudvirt1031.mgmt.eqiad.wmnet.
+75  1H IN PTR   wmf4817.mgmt.eqiad.wmnet.
+76  1H IN PTR   cloudvirt1032.mgmt.eqiad.wmnet.
+76  1H IN PTR   wmf4816.mgmt.eqiad.wmnet.
+77  1H IN PTR   cloudvirt1033.mgmt.eqiad.wmnet.
+77  1H IN PTR   wmf4815.mgmt.eqiad.wmnet.
+78  1H IN PTR   cloudvirt1034.mgmt.eqiad.wmnet.
+78  1H IN PTR   wmf4814.mgmt.eqiad.wmnet.
+79  1H IN PTR   cloudvirt1035.mgmt.eqiad.wmnet.
+79  1H IN PTR   wmf4813.mgmt.eqiad.wmnet.
+80  1H IN PTR   cloudvirt1036.mgmt.eqiad.wmnet.
+80  1H IN PTR   wmf4812.mgmt.eqiad.wmnet.
+81  1H IN PTR   cloudvirt1037.mgmt.eqiad.wmnet.
+81  1H IN PTR   wmf4811.mgmt.eqiad.wmnet.
+82  1H IN PTR   cloudvirt1038.mgmt.eqiad.wmnet.
+82  1H IN PTR   wmf4810.mgmt.eqiad.wmnet.
+83  1H IN PTR   cloudvirt1039.mgmt.eqiad.wmnet.
+83  1H IN PTR   wmf4832.mgmt.eqiad.wmnet.
 
 $ORIGIN 1.65.@Z
 
