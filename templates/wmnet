@@ -392,6 +392,15 @@ cloudvirt1027    1H IN A         10.64.20.51
 cloudvirt1028    1H IN A         10.64.20.52
 cloudvirt1029    1H IN A         10.64.20.53
 cloudvirt1030    1H IN A         10.64.20.54
+cloudvirt1031    1H IN A         10.64.20.73
+cloudvirt1032    1H IN A         10.64.20.74
+cloudvirt1033    1H IN A         10.64.20.75
+cloudvirt1034    1H IN A         10.64.20.76
+cloudvirt1035    1H IN A         10.64.20.77
+cloudvirt1036    1H IN A         10.64.20.78
+cloudvirt1037    1H IN A         10.64.20.79
+cloudvirt1038    1H IN A         10.64.20.80
+cloudvirt1039    1H IN A         10.64.20.81
 cloudvirt-wdqs1001 1H IN A       10.64.20.44
 cloudvirt-wdqs1002 1H IN A       10.64.20.45
 cloudvirt-wdqs1003 1H IN A       10.64.20.46
