@@ -653,7 +653,7 @@ phabricator     1H  IN TXT      "v=spf1 mx ip6:2620:0:861:102:10:64:16:8 ip6:262
 
 login           1D IN CNAME dyna.wikimedia.org.
 
-librenms        5M  IN CNAME    netmon2001
+librenms        5M  IN CNAME    netmon1002
 netbox          1H  IN CNAME    netbox1001
 netbox-exports  1H  IN CNAME    netbox1001
 netbox-next     1H  IN CNAME    netbox-dev2001
@@ -906,7 +906,7 @@ transparency     1D IN CNAME dyna.wikimedia.org.
 transparency-archive 1D IN CNAME dyna.wikimedia.org.
 search           1D IN CNAME dyna.wikimedia.org.
 shop             1D IN CNAME dyna.wikimedia.org.
-smokeping        5M IN CNAME netmon2001
+smokeping        5M IN CNAME netmon1002
 store            1H  IN CNAME    c.ssl.shopify.com.
 static-bugzilla  1D IN CNAME dyna.wikimedia.org.
 static-codereview  1D IN CNAME dyna.wikimedia.org.
