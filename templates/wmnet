@@ -4354,6 +4354,8 @@ ticket                300 IN CNAME mendelevium.eqiad.wmnet.
 doc                   300 IN CNAME doc1001.eqiad.wmnet.
 grafana-labs          300 IN CNAME cloudmetrics1002.eqiad.wmnet.
 graphite-labs         300 IN CNAME cloudmetrics1002.eqiad.wmnet.
+; for thanos use a CNAME discovery record not the thanos-query geoip
+; record to resolve session management issues T151009#6348575
 thanos-sso            300 IN CNAME thanos-fe1001.eqiad.wmnet.
 
 ; Internal Anycast addresses (10.3.0.0/24)
