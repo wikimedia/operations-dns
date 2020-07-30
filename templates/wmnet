@@ -1202,8 +1202,6 @@ cloudvirt1015   1H  IN A        10.64.20.31
 cloudvirt1016   1H  IN A        10.64.20.32
 cloudvirt1017   1H  IN A        10.64.20.33
 cloudvirt1018   1H  IN A        10.64.20.34
-weblog1001      1H  IN A        10.64.0.120
-weblog1001      1H  IN AAAA     2620:0:861:101:10:64:0:120
 webperf1001     5M  IN A        10.64.0.215 ; VM on ganeti01.svc.eqiad.wmnet
 webperf1001     5M  IN AAAA     2620:0:861:101:10:64:0:215 ; VM on ganeti01.svc.eqiad.wmnet
 webperf1002     1H  IN A        10.64.0.216 ; VM on ganeti01.svc.eqiad.wmnet
@@ -2890,7 +2888,6 @@ deploy1001      1H      IN A            10.65.7.77
 wmf4749         1H      IN A            10.65.7.78
 bast1002        1H      IN A            10.65.7.78
 wmf4750         1H      IN A            10.65.7.79
-weblog1001      1H      IN A            10.65.7.79
 eventlog1002    1H      IN A            10.65.7.80
 wmf4751         1H      IN A            10.65.7.80
 puppetmaster1001 1H     IN A            10.65.4.75
