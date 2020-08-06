@@ -96,7 +96,7 @@ $ORIGIN 1.0.1.0.@Z
 0.3.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2029.codfw.wmnet.
 2.3.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2030.codfw.wmnet.
 
-6.9.0.0.0.0.0.0.2.9.1.0.0.1.0.0 5M IN PTR   webperf2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+6.9.0.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   webperf2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 0.0.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   webperf2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 4.2.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   cp2003.codfw.wmnet.
 3.4.1.0.0.0.0.0.2.9.1.0.0.1.0.0 1H IN PTR   conf2001.codfw.wmnet.
