@@ -480,7 +480,6 @@ $ORIGIN 16.64.@Z
 24  1H IN PTR   cp1081.eqiad.wmnet.
 25  1H IN PTR   cp1082.eqiad.wmnet.
 26  1H IN PTR   dbstore1004.eqiad.wmnet.
-27  1H IN PTR   cloudvirt1024b.eqiad.wmnet.
 28  1H IN PTR   ms-be1047.eqiad.wmnet.
 29  1H IN PTR   conf1005.eqiad.wmnet.
 30  1H IN PTR   logstash1011.eqiad.wmnet.
@@ -1007,8 +1006,6 @@ $ORIGIN 37.64.@Z
 
 23      1H IN PTR       labsdb1010.eqiad.wmnet.
 24      1H IN PTR       labsdb1011.eqiad.wmnet.
-25      1H IN PTR       eth1.labstore1004.eqiad.wmnet.
-26      1H IN PTR       eth1.labstore1005.eqiad.wmnet.
 27      1H IN PTR       dbproxy1018.eqiad.wmnet.
 28      1H IN PTR       dbproxy1019.eqiad.wmnet.
 

@@ -385,7 +385,6 @@ cloudvirt1022    1H IN A         10.64.20.41
 cloudvirt1022    1H IN AAAA      2620:0:861:118:10:64:20:41
 cloudvirt1023    1H IN A         10.64.20.42
 cloudvirt1024    1H IN A         10.64.20.43
-cloudvirt1024b   1H IN A         10.64.16.27
 cloudvirt1025    1H IN A         10.64.20.49
 cloudvirt1026    1H IN A         10.64.20.50
 cloudvirt1027    1H IN A         10.64.20.51
@@ -755,8 +754,6 @@ cloudmetrics1002 1H  IN AAAA     2620:0:861:117:10:64:4:15
 cloudnet1004    1H  IN A        10.64.20.36
 labstore1004    1H  IN A        10.64.37.19
 labstore1005    1H  IN A        10.64.37.20
-eth1.labstore1004    1H  IN A        10.64.37.25
-eth1.labstore1005    1H  IN A        10.64.37.26
 labsdb1009      1H  IN A        10.64.4.14
 labsdb1010      1H  IN A        10.64.37.23
 labsdb1011      1H  IN A        10.64.37.24
