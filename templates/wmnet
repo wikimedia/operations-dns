@@ -762,8 +762,10 @@ cloudvirt1001   1H  IN A        10.64.20.19
 cloudvirt1002   1H  IN A        10.64.20.20
 cloudvirt1003   1H  IN A        10.64.20.21
 cloudvirt1004   1H  IN A        10.64.20.22
+cloudvirt1004   1H  IN AAAA     2620:0:861:118:10:64:20:22
 cloudvirt1005   1H  IN A        10.64.20.23
 cloudvirt1006   1H  IN A        10.64.20.24
+cloudvirt1006   1H  IN AAAA     2620:0:861:118:10:64:20:24
 lvs1013         1H  IN A        10.64.1.13
 lvs1014         1H  IN A        10.64.17.14
 lvs1015         1H  IN A        10.64.33.15
