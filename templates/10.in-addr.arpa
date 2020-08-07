@@ -3918,8 +3918,6 @@ $ORIGIN 1.193.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/1.193.10.in-addr.arpa
 
-7   1H IN PTR  papaul-laptop.mgmt.codfw.wmnet.
-
 $ORIGIN 2.193.@Z
 ; 10.193.2.0/24 - mgmt-codfw servers
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox

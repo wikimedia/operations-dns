@@ -3887,8 +3887,6 @@ $ORIGIN mgmt.codfw.wmnet.
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/mgmt.codfw.wmnet
 
-papaul-laptop   1H  IN A    10.193.1.7
-
 ;
 ; ESAMS
 ;
