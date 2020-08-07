@@ -192,7 +192,7 @@ $ORIGIN 0.64.@Z
 1   1H IN PTR   vrrp-gw-1017.eqiad.wmnet.
 2   1H IN PTR   ae1-1017.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae1-1017.cr2-eqiad.wikimedia.org.
-4   1H IN PTR   cam-unknown.eqiad.wmnet.
+
 5   1H IN PTR   ms-be1040.eqiad.wmnet.
 6   1H IN PTR   es1011.eqiad.wmnet.
 7   1H IN PTR   es1012.eqiad.wmnet.
@@ -213,10 +213,7 @@ $ORIGIN 0.64.@Z
 24  1H IN PTR   rdb1005.eqiad.wmnet.
 25  1H IN PTR   ms-be1029.eqiad.wmnet.
 26  1H IN PTR   ms-be1030.eqiad.wmnet.
-27  1H IN PTR   cam1-a-eqiad.eqiad.wmnet.
-28  1H IN PTR   cam2-a-eqiad.eqiad.wmnet.
-29  1H IN PTR   cam1-a-b-eqiad.eqiad.wmnet.
-30  1H IN PTR   cam2-a-b-eqiad.eqiad.wmnet.
+
 31  1H IN PTR   restbase1016.eqiad.wmnet.
 32  1H IN PTR   restbase1016-a.eqiad.wmnet.
 33  1H IN PTR   restbase1016-b.eqiad.wmnet.
@@ -495,8 +492,7 @@ $ORIGIN 16.64.@Z
 40  1H IN PTR   ms-be1020.eqiad.wmnet.
 41  1H IN PTR   logstash1021.eqiad.wmnet.
 42  1H IN PTR   maps1002.eqiad.wmnet.
-43  1H IN PTR   cam1-b-c-eqiad.eqiad.wmnet.
-44  1H IN PTR   cam2-b-c-eqiad.eqiad.wmnet.
+
 45  1H IN PTR   elastic1036.eqiad.wmnet.
 46  1H IN PTR   elastic1037.eqiad.wmnet.
 47  1H IN PTR   elastic1038.eqiad.wmnet.
@@ -829,8 +825,7 @@ $ORIGIN 32.64.@Z
 78      1H IN PTR       sessionstore1002.eqiad.wmnet.
 79      1H IN PTR       failoid1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 80      1H IN PTR       puppetdb1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-82      1H IN PTR       cam1-c-eqiad.eqiad.wmnet.
-83      1H IN PTR       cam2-c-eqiad.eqiad.wmnet.
+
 84      1H IN PTR       acmechief1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 85      1H IN PTR       sessionstore1002-a.eqiad.wmnet.
 86      1H IN PTR       acmechief-test1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
