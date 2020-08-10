@@ -1463,6 +1463,8 @@ $ORIGIN 1.65.@Z
 21  1H  IN PTR      wmf7431.mgmt.eqiad.wmnet.
 22  1H  IN PTR      scandium.mgmt.eqiad.wmnet.
 22  1H  IN PTR      wmf7432.mgmt.eqiad.wmnet.
+23  1H  IN PTR      pki1001.mgmt.eqiad.wmnet.
+23  1H  IN PTR      wmf7433.mgmt.eqiad.wmnet.
 24  1H  IN PTR      mw1349.mgmt.eqiad.wmnet.
 24  1H  IN PTR      wmf5291.mgmt.eqiad.wmnet.
 25  1H  IN PTR      mw1350.mgmt.eqiad.wmnet.
