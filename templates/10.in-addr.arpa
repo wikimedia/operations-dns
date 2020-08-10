@@ -2755,12 +2755,6 @@ $ORIGIN 5.65.@Z
 182 1H  IN PTR      dumpsdata1003.mgmt.eqiad.wmnet.
 182 1H  IN PTR      wmf5269.mgmt.eqiad.wmnet.
 
-184 1H  IN PTR      wmf4544.mgmt.eqiad.wmnet.
-
-188 1H  IN PTR      wmf4548.mgmt.eqiad.wmnet.
-189 1H  IN PTR      wmf4549.mgmt.eqiad.wmnet.
-190 1H  IN PTR      wmf4550.mgmt.eqiad.wmnet.
-191 1H  IN PTR      wmf4551.mgmt.eqiad.wmnet.
 193 1H  IN PTR      wmf4553.mgmt.eqiad.wmnet.
 193 1H  IN PTR      scb1003.mgmt.eqiad.wmnet.
 196 1H  IN PTR      wmf4556.mgmt.eqiad.wmnet.
