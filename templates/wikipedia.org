@@ -81,4 +81,5 @@ mail            1D IN CNAME dyna.wikimedia.org.
 shop            1D IN CNAME dyna.wikimedia.org.
 stats           1D IN CNAME dyna.wikimedia.org.
 store           1D IN CNAME dyna.wikimedia.org.
+thankyou        1D IN CNAME dyna.wikimedia.org.
 zero            1D IN CNAME dyna.wikimedia.org.
