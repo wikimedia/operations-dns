@@ -1362,8 +1362,6 @@ wmf7394             1H  IN A    10.65.2.15
 dns1001             1H  IN A    10.65.2.15
 wmf7395             1H  IN A    10.65.2.16
 dns1002             1H  IN A    10.65.2.16
-dbproxy1008 1H  IN A    10.65.2.38
-wmf3097     1H  IN A    10.65.2.38
 wmf7225     1H  IN A    10.65.2.43
 cloudservices1003 1H  IN A    10.65.2.43
 wmf7113     1H  IN A    10.65.4.117

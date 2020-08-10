@@ -1747,7 +1747,6 @@ $ORIGIN 2.65.@Z
 35  1H  IN PTR      mw1362.mgmt.eqiad.wmnet.
 35  1H  IN PTR      wmf5304.mgmt.eqiad.wmnet.
 
-38  1H  IN PTR      dbproxy1008.mgmt.eqiad.wmnet.
 38  1H  IN PTR      wmf3097.mgmt.eqiad.wmnet.
 42  1H  IN PTR      mw1363.mgmt.eqiad.wmnet.
 42  1H  IN PTR      wmf5305.mgmt.eqiad.wmnet.
