@@ -1545,7 +1545,7 @@ wmf4833         1H  IN A    10.65.0.68
 an-test-worker1002 1H IN A  10.65.0.69
 wmf4834         1H  IN A    10.65.0.69
 an-test-worker1003 1H IN A  10.65.0.70
-wmf4844         1H  IN A    10.65.0.70
+wmf4835         1H  IN A    10.65.0.70
 labweb1001      1H  IN A    10.65.4.121
 wmf7096         1H  IN A    10.65.4.121
 labweb1002      1H  IN A    10.65.4.122
