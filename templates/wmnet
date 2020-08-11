@@ -2559,6 +2559,7 @@ eventgate-logging-external 1H  IN A    10.2.2.50
 eventgate-analytics-external 1H  IN A    10.2.2.52
 thanos-query    1H  IN A    10.2.2.53
 thanos-swift    1H  IN A    10.2.2.54
+api-gateway     1H  IN A    10.2.2.55
 
 
 ganeti01    1H  IN A        10.64.32.173
@@ -2655,6 +2656,7 @@ eventgate-logging-external 1H  IN A    10.2.1.50
 eventgate-analytics-external 1H  IN A    10.2.1.52
 thanos-query    1H  IN A    10.2.1.53
 thanos-swift    1H  IN A    10.2.1.54
+api-gateway     1H  IN A    10.2.1.55
 
 ; DISCOVERY SERVICES
 
@@ -2708,7 +2710,8 @@ eventgate-analytics-external 300/10 IN DYNA geoip!disc-eventgate-analytics-exter
 thanos-query   300/10 IN DYNA geoip!disc-thanos-query
 thanos-swift   300/10 IN DYNA geoip!disc-thanos-swift
 helm-charts    300/10 IN DYNA geoip!disc-helm-charts
-
+; TODO add once LVS service for api-gateway has been created
+; api-gateway    300/10 IN DYNA geoip!disc-api-gateway
 
 ; misc web services with multiple backends but without geoip
 
