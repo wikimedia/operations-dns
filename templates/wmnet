@@ -4352,8 +4352,8 @@ planet                300 IN CNAME planet1002.eqiad.wmnet.
 ;planet                300 IN CNAME planet2002.codfw.wmnet.
 puppetboard           300 IN CNAME puppetboard1001.eqiad.wmnet.
 ;puppetboard           300 IN CNAME puppetboard2001.codfw.wmnet.
-releases              300 IN CNAME releases1002.eqiad.wmnet.
-;releases              300 IN CNAME releases2002.codfw.wmnet.
+releases              300 IN CNAME releases1001.eqiad.wmnet.
+;releases              300 IN CNAME releases2001.codfw.wmnet.
 webserver-misc-apps   300 IN CNAME miscweb1002.eqiad.wmnet.
 ;webserver-misc-apps   300 IN CNAME miscweb2002.codfw.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
