@@ -198,7 +198,7 @@ $ORIGIN 0.64.@Z
 7   1H IN PTR   es1012.eqiad.wmnet.
 8   1H IN PTR   ms-be1019.eqiad.wmnet.
 9   1H IN PTR   snapshot1005.eqiad.wmnet.
-
+10  1H IN PTR   pki1001.eqiad.wmnet.
 11  1H IN PTR   logstash1020.eqiad.wmnet.
 13  1H IN PTR   db1116.eqiad.wmnet.
 14  1H IN PTR   wdqs1003.eqiad.wmnet.
