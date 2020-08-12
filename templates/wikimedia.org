@@ -564,6 +564,8 @@ pfw3-codfw      1H  IN A     208.80.153.197
 
 ; Service aliases (alphabetical order)
 
+alerts          5M  IN CNAME    alert1001
+
 annual          1D IN CNAME dyna.wikimedia.org.
 
 apt             300  IN CNAME   apt1001
