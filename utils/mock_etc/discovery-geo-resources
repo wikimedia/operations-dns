@@ -39,5 +39,4 @@ disc-eventgate-analytics-external => { map => mock, dcmap => { mock => 192.0.2.1
 disc-thanos-query        => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-thanos-swift        => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-helm-charts         => { map => mock, dcmap => { mock => 192.0.2.1 } }
-# TODO add once LVS service has been created
-# disc-api-gateway         => { map => mock, dcmap => { mock => 192.0.2.1 } }
+disc-api-gateway         => { map => mock, dcmap => { mock => 192.0.2.1 } }

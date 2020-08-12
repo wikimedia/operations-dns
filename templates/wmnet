@@ -2714,8 +2714,7 @@ eventgate-analytics-external 300/10 IN DYNA geoip!disc-eventgate-analytics-exter
 thanos-query   300/10 IN DYNA geoip!disc-thanos-query
 thanos-swift   300/10 IN DYNA geoip!disc-thanos-swift
 helm-charts    300/10 IN DYNA geoip!disc-helm-charts
-; TODO add once LVS service for api-gateway has been created
-; api-gateway    300/10 IN DYNA geoip!disc-api-gateway
+api-gateway    300/10 IN DYNA geoip!disc-api-gateway
 
 ; misc web services with multiple backends but without geoip
 
