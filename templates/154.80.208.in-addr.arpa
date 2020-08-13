@@ -20,10 +20,9 @@
 10  1H  IN PTR  dns1001.wikimedia.org.
 11  1H  IN PTR  cloudservices1004.wikimedia.org.
 12  1H  IN PTR  netbox1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-14  1H  IN PTR  fermium.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 15  1H  IN PTR  sodium.wikimedia.org.
 17  1H  IN PTR  contint1001.wikimedia.org.
-21  1H  IN PTR  lists.wikimedia.org. ; Service IP for lists on fermium
+21  1H  IN PTR  lists.wikimedia.org. ; Service IP for lists
 23  1H  IN PTR  cloudcontrol1003.wikimedia.org.
 24  1H  IN PTR  ns-recursor1.openstack.eqiad1.wikimediacloud.org.
 25  1H  IN PTR  ldap-eqiad-replica01.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
