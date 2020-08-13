@@ -494,7 +494,7 @@ $ORIGIN 16.64.@Z
 40  1H IN PTR   ms-be1020.eqiad.wmnet.
 41  1H IN PTR   logstash1021.eqiad.wmnet.
 42  1H IN PTR   maps1002.eqiad.wmnet.
-
+43  1H IN PTR   schema1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 45  1H IN PTR   elastic1036.eqiad.wmnet.
 46  1H IN PTR   elastic1037.eqiad.wmnet.
 47  1H IN PTR   elastic1038.eqiad.wmnet.
@@ -1101,7 +1101,7 @@ $ORIGIN 48.64.@Z
 41      1H IN PTR       search-loader1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 42      1H IN PTR       dbproxy1016.eqiad.wmnet.
 43      1H IN PTR       dbproxy1017.eqiad.wmnet.
-
+44      1H IN PTR       schema1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 45      1H IN PTR       puppetmaster1002.eqiad.wmnet.
 46      1H IN PTR       wdqs1005.eqiad.wmnet.
 
@@ -1933,6 +1933,7 @@ $ORIGIN 32.192.@Z
 36  1H IN PTR   thumbor2001.codfw.wmnet.
 37  1H IN PTR   thumbor2002.codfw.wmnet.
 38  1H IN PTR   kubetcd2005.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+39  1H IN PTR   schema2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 75  1H IN PTR   mw2187.codfw.wmnet.
 76  1H IN PTR   mw2188.codfw.wmnet.
@@ -2242,6 +2243,7 @@ $ORIGIN 48.192.@Z
 159 1H IN PTR   chartmuseum2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 160 1H IN PTR   search-loader2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 161 1H IN PTR   dbprov2003.codfw.wmnet.
+162 1H IN PTR   schema2004.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 $ORIGIN 49.192.@Z
 7   1H IN PTR   lvs2010.codfw.wmnet.
