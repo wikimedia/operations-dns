@@ -1934,6 +1934,7 @@ $ORIGIN 32.192.@Z
 37  1H IN PTR   thumbor2002.codfw.wmnet.
 38  1H IN PTR   kubetcd2005.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 39  1H IN PTR   schema2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+40  1H IN PTR   mc2037.codfw.wmnet.
 
 75  1H IN PTR   mw2187.codfw.wmnet.
 76  1H IN PTR   mw2188.codfw.wmnet.
