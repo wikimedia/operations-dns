@@ -1668,6 +1668,7 @@ kubernetes2015  1H  IN A    10.192.32.21 ; VM on ganeti01.svc.codfw.wmnet
 kubernetes2015  1H  IN AAAA 2620:0:860:103:10:192:32:21 ; VM on ganeti01.svc.codfw.wmnet
 kubernetes2016  1H  IN A    10.192.48.30 ; VM on ganeti01.svc.codfw.wmnet
 kubernetes2016  1H  IN AAAA 2620:0:860:104:10:192:48:30 ; VM on ganeti01.svc.codfw.wmnet
+kubernetes2017  1H  IN A    10.192.32.41
 clouddb2001-dev       1H  IN A    10.192.20.11
 clouddb2001-dev       1H  IN AAAA 2620:0:860:118:10:192:20:11
 cloudnet2002-dev      1H  IN A    10.192.20.10
