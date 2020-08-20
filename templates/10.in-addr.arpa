@@ -210,7 +210,6 @@ $ORIGIN 0.64.@Z
 18  1H IN PTR   schema1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 20  1H IN PTR   proton1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 21  1H IN PTR   ms-be1028.eqiad.wmnet.
-22  1H IN PTR   tungsten.eqiad.wmnet.
 23  1H IN PTR   conf1004.eqiad.wmnet.
 24  1H IN PTR   rdb1005.eqiad.wmnet.
 25  1H IN PTR   ms-be1029.eqiad.wmnet.
