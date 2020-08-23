@@ -773,6 +773,7 @@ $ORIGIN 32.64.@Z
 22      1H IN PTR       elastic1052.eqiad.wmnet.
 23      1H IN PTR       kubernetes1003.eqiad.wmnet.
 25      1H IN PTR       cumin1001.eqiad.wmnet.
+26      1H IN PTR       dbprov1003.eqiad.wmnet.
 27      1H IN PTR       logstash1009.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 29      1H IN PTR       pc1009.eqiad.wmnet.
