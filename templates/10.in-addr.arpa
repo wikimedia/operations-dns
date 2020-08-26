@@ -444,6 +444,7 @@ $ORIGIN 5.64.@Z
 36  1H IN PTR   an-druid1001.eqiad.wmnet.
 37  1H IN PTR   relforge1003.eqiad.wmnet.
 38  1H IN PTR   an-test-worker1001.eqiad.wmnet.
+39  1H IN PTR   an-test-master1001.eqiad.wmnet.
 
 101 1H IN PTR   druid1001.eqiad.wmnet.
 
@@ -968,7 +969,7 @@ $ORIGIN 36.64.@Z
 109     1H IN PTR       analytics1075.eqiad.wmnet.
 110     1H IN PTR       analytics-tool1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 111     1H IN PTR       an-test-worker1002.eqiad.wmnet.
-
+112     1H IN PTR       an-test-master1002.eqiad.wmnet.
 113     1H IN PTR       an-worker1090.eqiad.wmnet.
 
 115     1H IN PTR       an-worker1091.eqiad.wmnet.
@@ -1288,7 +1289,7 @@ $ORIGIN 53.64.@Z
 38      1H IN PTR       an-conf1003.eqiad.wmnet.
 39      1H IN PTR       an-presto1001.eqiad.wmnet.
 40      1H IN PTR       an-presto1003.eqiad.wmnet.
-
+41      1H IN PTR       an-test-coord1001.eqiad.wmnet.
 
 103     1H  IN PTR      druid1003.eqiad.wmnet.
 

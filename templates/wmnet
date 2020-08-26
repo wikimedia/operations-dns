@@ -146,6 +146,9 @@ an-master1001    1H IN A             10.64.5.26
 an-master1001    1H IN AAAA          2620:0:861:104:10:64:5:26
 an-master1002    1H IN A             10.64.21.110
 an-master1002    1H IN AAAA          2620:0:861:105:10:64:21:110
+an-test-coord1001  1H IN A           10.64.53.41
+an-test-master1001 1H IN A           10.64.5.39
+an-test-master1002 1H IN A           10.64.36.112
 an-test-worker1001 1H IN A           10.64.5.38
 an-test-worker1002 1H IN A           10.64.36.111
 an-test-worker1003 1H IN A           10.64.53.21
