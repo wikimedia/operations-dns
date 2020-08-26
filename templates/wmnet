@@ -2552,7 +2552,6 @@ eventstreams 1H  IN A       10.2.2.34
 logstash     1H  IN A       10.2.2.36
 recommendation-api 1H IN A      10.2.2.37
 druid-public-broker    1H  IN A     10.2.2.38
-druid-public-overlord  1H  IN A     10.2.2.39
 labweb  1H  IN A     10.2.2.40
 wdqs-internal 1H  IN A        10.2.2.41
 eventgate-analytics 1H  IN A    10.2.2.42
