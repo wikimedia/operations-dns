@@ -1711,6 +1711,7 @@ $ORIGIN 16.192.@Z
 24  1H IN PTR   parse2008.codfw.wmnet.
 25  1H IN PTR   parse2009.codfw.wmnet.
 26  1H IN PTR   acrab.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+27  1H IN PTR   ms-be2057.codfw.wmnet.
 
 30  1H IN PTR   kubetcd2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
