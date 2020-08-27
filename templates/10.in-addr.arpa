@@ -207,7 +207,7 @@ $ORIGIN 0.64.@Z
 15  1H IN PTR   db1117.eqiad.wmnet.
 16  1H IN PTR   scb1001.eqiad.wmnet.
 17  1H IN PTR   wdqs1004.eqiad.wmnet.
-18  1H IN PTR   schema1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
 20  1H IN PTR   proton1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 21  1H IN PTR   ms-be1028.eqiad.wmnet.
 23  1H IN PTR   conf1004.eqiad.wmnet.
@@ -834,7 +834,7 @@ $ORIGIN 32.64.@Z
 84      1H IN PTR       acmechief1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 85      1H IN PTR       sessionstore1002-a.eqiad.wmnet.
 86      1H IN PTR       acmechief-test1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-87      1H IN PTR       schema1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
 88      1H IN PTR       netflow1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 89      1H IN PTR       ncredir1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 90      1H IN PTR       kafka-main1003.eqiad.wmnet.
@@ -1600,7 +1600,7 @@ $ORIGIN 0.192.@Z
 132 1H IN PTR   poolcounter2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 133 1H IN PTR   orespoolcounter2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 134 1H IN PTR   db2121.codfw.wmnet.
-135 1H IN PTR   schema2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+
 136 1H IN PTR   ms-be2016.codfw.wmnet.
 137 1H IN PTR   ms-be2017.codfw.wmnet.
 138 1H IN PTR   auth2001.codfw.wmnet.
@@ -1782,7 +1782,7 @@ $ORIGIN 16.192.@Z
 104 1H IN PTR   db2108.codfw.wmnet.
 105 1H IN PTR   db2109.codfw.wmnet.
 106 1H IN PTR   db2110.codfw.wmnet.
-107 1H IN PTR   schema2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+
 108 1H IN PTR   mw2135.codfw.wmnet.
 109 1H IN PTR   mw2136.codfw.wmnet.
 110 1H IN PTR   mw2137.codfw.wmnet.
