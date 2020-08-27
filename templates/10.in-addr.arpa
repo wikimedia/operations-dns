@@ -447,6 +447,8 @@ $ORIGIN 5.64.@Z
 39  1H IN PTR   an-test-master1001.eqiad.wmnet.
 40  1H IN PTR   an-worker1102.eqiad.wmnet.
 41  1H IN PTR   an-worker1103.eqiad.wmnet.
+42  1H IN PTR   an-worker1096.eqiad.wmnet.
+
 101 1H IN PTR   druid1001.eqiad.wmnet.
 
 104 1H IN PTR   stat1004.eqiad.wmnet.
@@ -754,6 +756,8 @@ $ORIGIN 21.64.@Z
 127 1H IN PTR   an-tool1008.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 128 1H IN PTR   an-tool1009.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 129 1H IN PTR   an-worker1117.eqiad.wmnet.
+130 1H IN PTR   an-worker1097.eqiad.wmnet.
+131 1H IN PTR   an-worker1098.eqiad.wmnet.
 
 ; 10.64.32.0/22 - private1-c-eqiad
 $ORIGIN 32.64.@Z
@@ -994,6 +998,9 @@ $ORIGIN 36.64.@Z
 141     1H IN PTR       an-worker1109.eqiad.wmnet.
 142     1H IN PTR       an-worker1110.eqiad.wmnet.
 143     1H IN PTR       an-worker1111.eqiad.wmnet.
+144     1H IN PTR       an-worker1099.eqiad.wmnet.
+145     1H IN PTR       an-worker1100.eqiad.wmnet.
+146     1H IN PTR       an-worker1101.eqiad.wmnet.
 
 ; 10.64.37.0/24 - cloud-support1-c-eqiad
 $ORIGIN 37.64.@Z
