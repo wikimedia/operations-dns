@@ -525,7 +525,7 @@ $ORIGIN 16.64.@Z
 69  1H IN PTR   mw1304.eqiad.wmnet.
 70  1H IN PTR   elastic1046.eqiad.wmnet.
 71  1H IN PTR   elastic1047.eqiad.wmnet.
-
+72  1H IN PTR   debmonitor1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 73  1H IN PTR   puppetmaster1001.eqiad.wmnet.
 74  1H IN PTR   aqs1008-a.eqiad.wmnet. ; cassandra instance
 75  1H IN PTR   kubernetes1002.eqiad.wmnet.
@@ -1961,6 +1961,7 @@ $ORIGIN 32.192.@Z
 39  1H IN PTR   schema2003.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 40  1H IN PTR   mc2037.codfw.wmnet.
 41  1H IN PTR   kubernetes2017.codfw.wmnet.
+42  1H IN PTR   debmonitor2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
 75  1H IN PTR   mw2187.codfw.wmnet.
 76  1H IN PTR   mw2188.codfw.wmnet.
