@@ -1791,19 +1791,6 @@ $ORIGIN 16.192.@Z
 105 1H IN PTR   db2109.codfw.wmnet.
 106 1H IN PTR   db2110.codfw.wmnet.
 
-108 1H IN PTR   mw2135.codfw.wmnet.
-109 1H IN PTR   mw2136.codfw.wmnet.
-110 1H IN PTR   mw2137.codfw.wmnet.
-111 1H IN PTR   mw2138.codfw.wmnet.
-112 1H IN PTR   mw2139.codfw.wmnet.
-113 1H IN PTR   mw2140.codfw.wmnet.
-114 1H IN PTR   mw2141.codfw.wmnet.
-115 1H IN PTR   mw2142.codfw.wmnet.
-116 1H IN PTR   mw2143.codfw.wmnet.
-117 1H IN PTR   mw2144.codfw.wmnet.
-118 1H IN PTR   mw2145.codfw.wmnet.
-119 1H IN PTR   mw2146.codfw.wmnet.
-120 1H IN PTR   mw2147.codfw.wmnet.
 122 1H IN PTR   rdb2003.codfw.wmnet.
 123 1H IN PTR   rdb2004.codfw.wmnet.
 124 1H IN PTR   db2111.codfw.wmnet.
@@ -1963,34 +1950,8 @@ $ORIGIN 32.192.@Z
 41  1H IN PTR   kubernetes2017.codfw.wmnet.
 42  1H IN PTR   debmonitor2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 
-75  1H IN PTR   mw2187.codfw.wmnet.
-76  1H IN PTR   mw2188.codfw.wmnet.
-77  1H IN PTR   mw2189.codfw.wmnet.
-78  1H IN PTR   mw2190.codfw.wmnet.
-79  1H IN PTR   mw2191.codfw.wmnet.
-80  1H IN PTR   mw2192.codfw.wmnet.
-81  1H IN PTR   mw2193.codfw.wmnet.
-82  1H IN PTR   mw2194.codfw.wmnet.
-83  1H IN PTR   mw2195.codfw.wmnet.
-84  1H IN PTR   mw2196.codfw.wmnet.
-85  1H IN PTR   mw2197.codfw.wmnet.
-86  1H IN PTR   mw2198.codfw.wmnet.
-87  1H IN PTR   mw2199.codfw.wmnet.
-88  1H IN PTR   mw2200.codfw.wmnet.
-89  1H IN PTR   mw2201.codfw.wmnet.
-90  1H IN PTR   mw2202.codfw.wmnet.
-91  1H IN PTR   mw2203.codfw.wmnet.
-92  1H IN PTR   mw2204.codfw.wmnet.
-93  1H IN PTR   mw2205.codfw.wmnet.
-94  1H IN PTR   mw2206.codfw.wmnet.
-95  1H IN PTR   mw2207.codfw.wmnet.
-96  1H IN PTR   mw2208.codfw.wmnet.
-97  1H IN PTR   mw2209.codfw.wmnet.
-98  1H IN PTR   mw2210.codfw.wmnet.
-99  1H IN PTR   mw2211.codfw.wmnet.
-100 1H IN PTR   mw2212.codfw.wmnet.
 101 1H IN PTR   sessionstore2002-a.codfw.wmnet.
-102 1H IN PTR   mw2214.codfw.wmnet.
+
 103 1H IN PTR   cp2037.codfw.wmnet.
 104 1H IN PTR   cp2038.codfw.wmnet.
 105 1H IN PTR   restbase2015-c.codfw.wmnet.
