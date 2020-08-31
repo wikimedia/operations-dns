@@ -2689,6 +2689,7 @@ thanos-query   300/10 IN DYNA geoip!disc-thanos-query
 thanos-swift   300/10 IN DYNA geoip!disc-thanos-swift
 helm-charts    300/10 IN DYNA geoip!disc-helm-charts
 api-gateway    300/10 IN DYNA geoip!disc-api-gateway
+releases       300/10 IN DYNA geoip!disc-releases
 
 ; misc web services with multiple backends but without geoip
 
@@ -2709,8 +2710,6 @@ planet                300 IN CNAME planet1002.eqiad.wmnet.
 ;planet                300 IN CNAME planet2002.codfw.wmnet.
 puppetboard           300 IN CNAME puppetboard1001.eqiad.wmnet.
 ;puppetboard           300 IN CNAME puppetboard2001.codfw.wmnet.
-releases              300 IN CNAME releases1002.eqiad.wmnet.
-;releases              300 IN CNAME releases2002.codfw.wmnet.
 webserver-misc-apps   300 IN CNAME miscweb1002.eqiad.wmnet.
 ;webserver-misc-apps   300 IN CNAME miscweb2002.codfw.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
