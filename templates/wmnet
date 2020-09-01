@@ -2669,6 +2669,7 @@ mathoid        300/10 IN DYNA geoip!disc-mathoid
 mobileapps     300/10 IN DYNA geoip!disc-mobileapps
 ores           300/10 IN DYNA geoip!disc-ores
 proton         300/10 IN DYNA geoip!disc-proton
+push-notifications 300/10 IN DYNA geoip!disc-push-notifications
 recommendation-api 300/10 IN DYNA geoip!disc-recommendation-api
 wdqs           300/10 IN DYNA geoip!disc-wdqs
 wdqs-internal  300/10 IN DYNA geoip!disc-wdqs-internal
