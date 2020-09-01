@@ -57,6 +57,7 @@ $ORIGIN 1.2.@Z
 53  1H  IN PTR  thanos-query.svc.codfw.wmnet.
 54  1H  IN PTR  thanos-swift.svc.codfw.wmnet.
 55  1H  IN PTR  api-gateway.svc.codfw.wmnet.
+56  1H  IN PTR  push-notifications.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -111,7 +112,7 @@ $ORIGIN 2.2.@Z
 53  1H  IN PTR  thanos-query.svc.eqiad.wmnet.
 54  1H  IN PTR  thanos-swift.svc.eqiad.wmnet.
 55  1H  IN PTR  api-gateway.svc.eqiad.wmnet.
-
+56  1H  IN PTR  push-notifications.svc.eqiad.wmnet.
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
 $ORIGIN 3.2.@Z
