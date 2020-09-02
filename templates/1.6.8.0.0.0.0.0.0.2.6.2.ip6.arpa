@@ -111,6 +111,8 @@ $ORIGIN 1.0.1.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1017.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1017.cr2-eqiad.wikimedia.org.
 
+7.2.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1017.eqiad.wmnet.
+
 5.4.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   chlorine.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 0.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1075.eqiad.wmnet.
 1.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1076.eqiad.wmnet.

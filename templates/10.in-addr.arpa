@@ -213,6 +213,7 @@ $ORIGIN 0.64.@Z
 24  1H IN PTR   rdb1005.eqiad.wmnet.
 25  1H IN PTR   ms-be1029.eqiad.wmnet.
 26  1H IN PTR   ms-be1030.eqiad.wmnet.
+27  1H IN PTR   kubernetes1017.eqiad.wmnet.
 
 31  1H IN PTR   restbase1016.eqiad.wmnet.
 32  1H IN PTR   restbase1016-a.eqiad.wmnet.
