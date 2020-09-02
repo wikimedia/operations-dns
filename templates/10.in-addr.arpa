@@ -107,7 +107,7 @@ $ORIGIN 2.2.@Z
 48  1H  IN PTR  kibana-next.svc.eqiad.wmnet.
 49  1H  IN PTR  echostore.svc.eqiad.wmnet.
 50  1H  IN PTR  eventgate-logging-external.svc.eqiad.wmnet.
-51  1H  IN PTR  cloudceph.svc.eqiad.wmnet.
+
 52  1H  IN PTR  eventgate-analytics-external.svc.eqiad.wmnet.
 53  1H  IN PTR  thanos-query.svc.eqiad.wmnet.
 54  1H  IN PTR  thanos-swift.svc.eqiad.wmnet.
