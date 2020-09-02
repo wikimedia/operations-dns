@@ -2519,7 +2519,6 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
 $ORIGIN svc.eqiad.wmnet.
 
 appservers  1H  IN A        10.2.2.1
-hhvm-api    1H  IN A        10.2.2.3
 videoscaler 1H  IN A        10.2.2.5
 kubemaster  1H  IN A        10.2.2.8
 

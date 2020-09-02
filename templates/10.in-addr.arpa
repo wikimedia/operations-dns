@@ -63,7 +63,6 @@ $ORIGIN 1.2.@Z
 $ORIGIN 2.2.@Z
 
 1   1H  IN PTR  appservers.svc.eqiad.wmnet.
-3   1H  IN PTR  hhvm-api.svc.eqiad.wmnet.
 5   1H  IN PTR  videoscaler.svc.eqiad.wmnet.
 8   1H  IN PTR  kubemaster.svc.eqiad.wmnet.
 10  1H  IN PTR  ores.svc.eqiad.wmnet.
