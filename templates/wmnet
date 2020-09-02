@@ -2478,11 +2478,8 @@ cp5012          1H      IN A    10.132.0.112
 cp5012          1H      IN AAAA 2001:df2:e500:101:10:132:0:112
 
 ganeti5001      1H      IN A    10.132.0.21
-ganeti5001      1H      IN AAAA 2001:df2:e500:101:10:132:0:21
 ganeti5002      1H      IN A    10.132.0.22
-ganeti5002      1H      IN AAAA 2001:df2:e500:101:10:132:0:22
 ganeti5003      1H      IN A    10.132.0.23
-ganeti5003      1H      IN AAAA 2001:df2:e500:101:10:132:0:23
 
 netflow5001     1H      IN A    10.132.0.30
 ncredir5001     1H      IN A    10.132.0.31 ; VM on ganeti01.svc.eqsin.wmnet
