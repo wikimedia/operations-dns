@@ -999,7 +999,6 @@ $ORIGIN 36.64.@Z
 143     1H IN PTR       an-worker1111.eqiad.wmnet.
 144     1H IN PTR       an-worker1099.eqiad.wmnet.
 145     1H IN PTR       an-worker1100.eqiad.wmnet.
-146     1H IN PTR       an-worker1101.eqiad.wmnet.
 
 ; 10.64.37.0/24 - cloud-support1-c-eqiad
 $ORIGIN 37.64.@Z
@@ -1311,6 +1310,7 @@ $ORIGIN 53.64.@Z
 44      1H IN PTR       an-worker1114.eqiad.wmnet.
 45      1H IN PTR       an-worker1115.eqiad.wmnet.
 46      1H IN PTR       an-worker1116.eqiad.wmnet.
+47      1H IN PTR       an-worker1101.eqiad.wmnet.
 
 103     1H  IN PTR      druid1003.eqiad.wmnet.
 

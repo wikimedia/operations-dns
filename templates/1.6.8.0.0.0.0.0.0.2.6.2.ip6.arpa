@@ -336,7 +336,6 @@ $ORIGIN 6.0.1.0.@Z
 3.4.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1111.eqiad.wmnet.
 4.4.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1099.eqiad.wmnet.
 5.4.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1100.eqiad.wmnet.
-6.4.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1101.eqiad.wmnet.
 
 ; private1-d-eqiad (2620:0:861:107::/64)
 $ORIGIN 7.0.1.0.@Z
@@ -423,6 +422,7 @@ $ORIGIN 8.0.1.0.@Z
 4.4.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1114.eqiad.wmnet.
 5.4.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1115.eqiad.wmnet.
 6.4.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1116.eqiad.wmnet.
+7.4.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1101.eqiad.wmnet.
 
 ; cloud-support1-a-eqiad (2620:0:861:117::/64)
 $ORIGIN 7.1.1.0.@Z

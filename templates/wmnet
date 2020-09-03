@@ -199,8 +199,8 @@ an-worker1099       1H IN A         10.64.36.144
 an-worker1099       1H IN AAAA      2620:0:861:106:10:64:36:144
 an-worker1100       1H IN A         10.64.36.145
 an-worker1100       1H IN AAAA      2620:0:861:106:10:64:36:145
-an-worker1101       1H IN A         10.64.36.146
-an-worker1101       1H IN AAAA      2620:0:861:106:10:64:36:146
+an-worker1101       1H IN A         10.64.53.47
+an-worker1101       1H IN AAAA      2620:0:861:108:10:64:53:47
 an-worker1102       1H IN A         10.64.5.40
 an-worker1102       1H IN AAAA      2620:0:861:104:10:64:5:40
 an-worker1103       1H IN A         10.64.5.41
