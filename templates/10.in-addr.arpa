@@ -1513,7 +1513,7 @@ $ORIGIN 0.192.@Z
 33  1H IN PTR   scb2003.codfw.wmnet.
 34  1H IN PTR   scb2005.codfw.wmnet.
 35  1H IN PTR   pki2001.codfw.wmnet.
-
+36  1H IN PTR   es2026.codfw.wmnet.
 37  1H IN PTR   ganeti2007.codfw.wmnet.
 38  1H IN PTR   ganeti2008.codfw.wmnet.
 40  1H IN PTR   mw2215.codfw.wmnet.

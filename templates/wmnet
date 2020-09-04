@@ -1621,6 +1621,7 @@ es2022          1H  IN A    10.192.32.188
 es2023          1H  IN A    10.192.48.139
 es2024          1H  IN A    10.192.0.158
 es2025          1H  IN A    10.192.16.149
+es2026          1H  IN A    10.192.0.36
 failoid2001     1H  IN A    10.192.16.144 ; VM on ganeti01.svc.codfw.wmnet
 furud           1H  IN A    10.192.16.65
 furud           1H  IN AAAA 2620:0:860:102:10:192:16:65
