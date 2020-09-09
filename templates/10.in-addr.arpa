@@ -1948,6 +1948,7 @@ $ORIGIN 32.192.@Z
 40  1H IN PTR   mc2037.codfw.wmnet.
 41  1H IN PTR   kubernetes2017.codfw.wmnet.
 42  1H IN PTR   debmonitor2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+43  1H IN PTR   db2141.codfw.wmnet.
 
 101 1H IN PTR   sessionstore2002-a.codfw.wmnet.
 
