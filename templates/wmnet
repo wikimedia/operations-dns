@@ -99,12 +99,6 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
 
-
-; kubernetes-related records (etcd)
-_etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 etcd1001.eqiad.wmnet.
-_etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 etcd1002.eqiad.wmnet.
-_etcd-server._tcp.k8s 5M  IN SRV      0 1 2380 etcd1003.eqiad.wmnet.
-
 ; kubernetes-related records (etcdv3)
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1004.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1005.eqiad.wmnet.
@@ -644,9 +638,6 @@ es1022          1H  IN A        10.64.32.102
 es1023          1H  IN A        10.64.48.110
 es1024          1H  IN A        10.64.0.202
 es1025          1H  IN A        10.64.16.150
-etcd1001        1H  IN A        10.64.32.213 ; VM on ganeti01.svc.eqiad.wmnet
-etcd1002        1H  IN A        10.64.0.41 ; VM on ganeti01.svc.eqiad.wmnet
-etcd1003        1H  IN A        10.64.0.42 ; VM on ganeti01.svc.eqiad.wmnet
 etherpad1002    1H  IN A        10.64.32.178 ; VM on ganeti01.svc.eqiad.wmnet
 eventlog1002    1H  IN A        10.64.48.95
 eventlog1002    1H  IN AAAA     2620:0:861:107:10:64:48:95
