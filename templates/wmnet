@@ -2736,7 +2736,7 @@ webserver-misc-apps   300 IN CNAME miscweb1002.eqiad.wmnet.
 ;webserver-misc-apps   300 IN CNAME miscweb2002.codfw.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
 analytics-web         300 IN CNAME thorium.eqiad.wmnet.
-ticket                300 IN CNAME mendelevium.eqiad.wmnet.
+ticket                300 IN CNAME otrs1001.eqiad.wmnet.
 doc                   300 IN CNAME doc1001.eqiad.wmnet.
 grafana-labs          300 IN CNAME cloudmetrics1002.eqiad.wmnet.
 graphite-labs         300 IN CNAME cloudmetrics1002.eqiad.wmnet.
