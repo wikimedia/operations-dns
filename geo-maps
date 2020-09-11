@@ -224,7 +224,8 @@ generic-map => {
         208.80.152.0/23    => [codfw, eqiad, ulsfo, esams, eqsin], # codfw
         208.80.154.0/23    => [eqiad, codfw, ulsfo, esams, eqsin], # eqiad
         91.198.174.0/24    => [esams, eqiad, codfw, ulsfo, eqsin], # esams
-        185.15.56.0/22     => [esams, eqiad, codfw, ulsfo, eqsin], # esams
+        185.15.56.0/24     => [eqiad, codfw, ulsfo, esams, eqsin], # cloud-eqiad
+        185.15.57.0/29     => [codfw, eqiad, ulsfo, esams, eqsin], # cloud-codfw1dev
         198.35.26.0/23     => [ulsfo, codfw, eqiad, esams, eqsin], # ulsfo
         103.102.166.0/24   => [eqsin, codfw, eqiad, ulsfo, esams], # eqsin
         2620:0:860::/48    => [codfw, eqiad, ulsfo, esams, eqsin], # codfw
@@ -245,6 +246,9 @@ generic-map => {
         10.128.0.0/16      => [ulsfo, codfw, eqiad, esams, eqsin], # ulsfo private/mgmt
         10.132.0.0/16      => [eqsin, codfw, eqiad, ulsfo, esams], # eqsin private/mgmt
         10.192.0.0/12      => [codfw, eqiad, ulsfo, esams, eqsin], # codfw private/mgmt
+        # Wikimedia 172.16/12 private space
+        172.16.0.0/21      => [eqiad, codfw, ulsfo, esams, eqsin], # cloud-instances2-b-eqiad
+        172.16.128.0/24    => [codfw, eqiad, ulsfo, esams, eqsin], # cloud-instances2-b-codfw
         # Level3's DNS clusters
         192.221.132.0/22   => [eqiad, codfw, ulsfo, esams, eqsin], # Atlanta
         192.221.136.0/22   => [eqiad, codfw, ulsfo, esams, eqsin], # Chicago
