@@ -43,6 +43,8 @@ arbcom-fi               1D IN CNAME dyna.wikimedia.org.
 arbcom-fi.m             1D IN CNAME dyna.wikimedia.org.
 arbcom-nl               1D IN CNAME dyna.wikimedia.org.
 arbcom-nl.m             1D IN CNAME dyna.wikimedia.org.
+arbcom-ru               1D IN CNAME dyna.wikimedia.org.
+arbcom-ru.m             1D IN CNAME dyna.wikimedia.org.
 sysop-it.m              1D IN CNAME dyna.wikimedia.org.
 commons                 1D IN CNAME dyna.wikimedia.org.
 meta                    1D IN CNAME dyna.wikimedia.org.
