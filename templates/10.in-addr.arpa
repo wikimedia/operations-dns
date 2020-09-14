@@ -1409,7 +1409,7 @@ $ORIGIN 0.128.@Z
 23  1H  IN PTR      ganeti4003.ulsfo.wmnet.
 
 30  1H  IN PTR      ganeti01.svc.ulsfo.wmnet.
-31  1H  IN PTR      netflow4001.ulsfo.wmnet.
+31  1H  IN PTR      netflow4001.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
 32  1H  IN PTR      ncredir4001.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
 33  1H  IN PTR      ncredir4002.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
 34  1H  IN PTR      prometheus4001.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
@@ -1445,7 +1445,7 @@ $ORIGIN 0.132.@Z
 22  1H  IN PTR      ganeti5002.eqsin.wmnet.
 23  1H  IN PTR      ganeti5003.eqsin.wmnet.
 
-30  1H  IN PTR      netflow5001.eqsin.wmnet.
+30  1H  IN PTR      netflow5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
 31  1H  IN PTR      ncredir5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
 32  1H  IN PTR      ncredir5002.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
 33  1H  IN PTR      prometheus5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet

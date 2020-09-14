@@ -62,7 +62,7 @@ $ORIGIN 2.0.1.0.@Z
 3.6.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3063.esams.wmnet.
 4.6.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3064.esams.wmnet.
 5.6.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3065.esams.wmnet.
-
+0.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   netflow3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
 1.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   ncredir3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
 2.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   ncredir3002.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
 4.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   prometheus3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet

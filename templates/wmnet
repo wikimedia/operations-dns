@@ -2335,7 +2335,7 @@ cp3065      1H      IN A    10.20.0.65
 cp3065      1H      IN AAAA 2620:0:862:102:10:20:0:65
 
 netflow3001 1H      IN A    10.20.0.100 ; VM on ganeti01.svc.esams.wmnet
-
+netflow3001 1H      IN AAAA 2620:0:862:102:10:20:0:100 ; VM on ganeti01.svc.esams.wmnet
 ncredir3001 1H      IN A    10.20.0.101 ; VM on ganeti01.svc.esams.wmnet
 ncredir3001 1H      IN AAAA 2620:0:862:102:10:20:0:101 ; VM on ganeti01.svc.esams.wmnet
 ncredir3002 1H      IN A    10.20.0.102 ; VM on ganeti01.svc.esams.wmnet
@@ -2418,7 +2418,8 @@ ganeti4001      1H      IN A    10.128.0.21
 ganeti4002      1H      IN A    10.128.0.22
 ganeti4003      1H      IN A    10.128.0.23
 
-netflow4001     1H      IN A    10.128.0.31
+netflow4001     1H      IN A    10.128.0.31 ; VM on ganeti01.svc.ulsfo.wmnet
+netflow4001     1H      IN AAAA 2620:0:863:101:10:128:0:31 ; VM on ganeti01.svc.ulsfo.wmnet
 ncredir4001     1H      IN A    10.128.0.32 ; VM on ganeti01.svc.ulsfo.wmnet
 ncredir4001     1H      IN AAAA 2620:0:863:101:10:128:0:32 ; VM on ganeti01.svc.ulsfo.wmnet
 ncredir4002     1H      IN A    10.128.0.33 ; VM on ganeti01.svc.ulsfo.wmnet
@@ -2499,7 +2500,8 @@ ganeti5001      1H      IN A    10.132.0.21
 ganeti5002      1H      IN A    10.132.0.22
 ganeti5003      1H      IN A    10.132.0.23
 
-netflow5001     1H      IN A    10.132.0.30
+netflow5001     1H      IN A    10.132.0.30 ; VM on ganeti01.svc.eqsin.wmnet
+netflow5001     1H      IN AAAA 2001:df2:e500:101:10:132:0:30 ; VM on ganeti01.svc.eqsin.wmnet
 ncredir5001     1H      IN A    10.132.0.31 ; VM on ganeti01.svc.eqsin.wmnet
 ncredir5001     1H      IN AAAA 2001:df2:e500:101:10:132:0:31 ; VM on ganeti01.svc.eqsin.wmnet
 ncredir5002     1H      IN A    10.132.0.32 ; VM on ganeti01.svc.eqsin.wmnet
