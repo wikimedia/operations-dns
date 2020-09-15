@@ -1218,8 +1218,6 @@ logstash1012    1H  IN A        10.64.48.177
 cloudvirt1009   1H  IN A        10.64.20.15
 cloudvirt1007   1H  IN A        10.64.20.16
 cloudvirt1008   1H  IN A        10.64.20.17
-labvirt1010     1H  IN A        10.64.20.26
-labvirt1011     1H  IN A        10.64.20.27
 cloudvirt1012     1H  IN A        10.64.20.28
 cloudvirt1013   1H  IN A        10.64.20.29
 cloudvirt1014   1H  IN A        10.64.20.30
