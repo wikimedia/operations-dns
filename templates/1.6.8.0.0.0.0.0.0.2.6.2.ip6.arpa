@@ -484,28 +484,23 @@ $ORIGIN e.b.a.b.@Z
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
 $ORIGIN f.b.a.b.@Z
 
-; 2620:0:861:ed1a::0:0/110 (::0:0 - ::3:ffff) LVS Service IPs
+; 2620:0:861:ed1a::/64 - LVS Public Service IPs (allocated)
 
-; - 2620:0:861:ed1a::0:0/111 (::0:0 - ::1:ffff) LVS high-traffic1 (Text)
+$ORIGIN a.1.d.e.@Z
 
-$ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
+; - 2620:0:861:ed1a::0:0/110 (::0:0 - ::3:ffff) LVS Service IPs
+; -- 2620:0:861:ed1a::0:0/111 (::0:0 - ::1:ffff) LVS high-traffic1 (Text)
 
-1.0.0.0 1H IN PTR   text-lb.eqiad.wikimedia.org.
-2.0.0.0 1H IN PTR   test-lb.eqiad.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
-9.0.0.0 1H IN PTR   ncredir-lb.eqiad.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   text-lb.eqiad.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   test-lb.eqiad.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
+9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ncredir-lb.eqiad.wikimedia.org.
 
-$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
+; -- 2620:0:861:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS high-traffic2 (Multimedia & Misc)
 
-; - 2620:0:861:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS high-traffic2 (Multimedia & Misc)
+b.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   upload-lb.eqiad.wikimedia.org.
 
-$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
-
-b.0.0.0                         1H IN PTR   upload-lb.eqiad.wikimedia.org.
-
-$ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
-
-1.4.2.0                         1H IN PTR   cloudelastic.wikimedia.org.
-6.1.0.0                         1H IN PTR   git-ssh.eqiad.wikimedia.org.
+1.4.2.0.3.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cloudelastic.wikimedia.org.
+6.1.0.0.3.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   git-ssh.eqiad.wikimedia.org.
 
 ; Neighbor blocks
 

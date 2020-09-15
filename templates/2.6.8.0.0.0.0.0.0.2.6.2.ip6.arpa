@@ -67,26 +67,20 @@ $ORIGIN 2.0.1.0.@Z
 2.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   ncredir3002.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
 4.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   prometheus3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
 
-; 2620:0:862:ed1a::0:0/110 (::0:0 - ::3:ffff) LVS Service IPs
+; 2620:0:862:ed1a::/64 - LVS Public Service IPs (allocated)
 
-; - 2620:0:862:ed1a::0:0/111 (::0:0 - ::1:ffff) LVS high-traffic1 (Text)
+$ORIGIN a.1.d.e.@Z
 
-$ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
+; - 2620:0:862:ed1a::0:0/110 (::0:0 - ::3:ffff) LVS Service IPs
+; -- 2620:0:862:ed1a::0:0/111 (::0:0 - ::1:ffff) LVS high-traffic1 (Text)
 
-1.0.0.0                         1H IN PTR   text-lb.esams.wikimedia.org.
-2.0.0.0                         1H IN PTR   test-lb.esams.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
-3.0.0.0                         1H IN PTR   ncredir-lb.esams.wikimedia.org.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   text-lb.esams.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   test-lb.esams.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ncredir-lb.esams.wikimedia.org.
 
-$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
+; -- 2620:0:862:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS high-traffic2 Multimedia & Misc
 
-; - 2620:0:862:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS high-traffic2 Multimedia & Misc
-
-$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
-
-b.0.0.0                         1H IN PTR   upload-lb.esams.wikimedia.org.
-
-$ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
-
+b.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   upload-lb.esams.wikimedia.org.
 
 ; esams sandbox subnets (2620:0:862:200::/56)
 

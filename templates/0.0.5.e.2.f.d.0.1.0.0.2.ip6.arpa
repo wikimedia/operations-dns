@@ -62,23 +62,19 @@ $ORIGIN 1.0.2.0.@Z
 0.2.0.0.6.6.1.0.2.0.1.0.3.0.1.0 1H IN PTR   ripe-atlas-eqsin.wikimedia.org.
 
 ; 2001:df2:e500:ed1a::/64 - LVS Public Service IPs (allocated)
+
+$ORIGIN a.1.d.e.@Z
+
 ; - 2001:df2:e500:ed1a::0:0/110 (::0:0 - ::3:ffff -- LVS Public Service IPs (in use)
 ; -- 2001:df2:e500:ed1a::0:0/111 (::0:0 - ::1:ffff --- LVS high-traffic1 (Text)
-$ORIGIN 0.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
-1.0.0.0                         1H IN PTR   text-lb.eqsin.wikimedia.org.
-2.0.0.0                         1H IN PTR   test-lb.eqsin.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
-3.0.0.0                         1H IN PTR   ncredir-lb.eqsin.wikimedia.org.
-
-$ORIGIN 1.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   text-lb.eqsin.wikimedia.org.
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   test-lb.eqsin.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ncredir-lb.eqsin.wikimedia.org.
 
 ; -- 2001:df2:e500:ed1a::2:0/111 (::2:0 - ::3:ffff --- LVS high-traffic2 (Multimedia & Misc)
-$ORIGIN 2.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
 
-b.0.0.0                         1H IN PTR   upload-lb.eqsin.wikimedia.org.
-
-$ORIGIN 3.0.0.0.0.0.0.0.0.0.0.0.a.1.d.e.@Z
-
+b.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   upload-lb.eqsin.wikimedia.org.
 
 ; 2001:df2:e500:fe00::/56 - Infrastructure IPs
 
