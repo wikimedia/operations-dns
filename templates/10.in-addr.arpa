@@ -265,7 +265,6 @@ $ORIGIN 0.64.@Z
 84  1H IN PTR   mc1023.eqiad.wmnet.
 85  1H IN PTR   elastic1044.eqiad.wmnet.
 86  1H IN PTR   elastic1045.eqiad.wmnet.
-87  1H IN PTR   orespoolcounter1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 
 89  1H IN PTR   restbase-dev1004.eqiad.wmnet.
 90  1H IN PTR   logstash1008.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
@@ -768,7 +767,6 @@ $ORIGIN 32.64.@Z
 10      1H IN PTR       ms-be1042.eqiad.wmnet.
 11      1H IN PTR       db1120.eqiad.wmnet.
 12      1H IN PTR       db1121.eqiad.wmnet.
-13      1H IN PTR       orespoolcounter1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 14      1H IN PTR       ores1005.eqiad.wmnet.
 15      1H IN PTR       ores1006.eqiad.wmnet.
 16      1H IN PTR       deploy1001.eqiad.wmnet.
@@ -1530,7 +1528,6 @@ $ORIGIN 0.192.@Z
 53  1H IN PTR   mw2228.codfw.wmnet.
 54  1H IN PTR   mw2229.codfw.wmnet.
 55  1H IN PTR   mw2230.codfw.wmnet.
-56  1H IN PTR   orespoolcounter2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 57  1H IN PTR   mw2231.codfw.wmnet.
 58  1H IN PTR   mw2232.codfw.wmnet.
 59  1H IN PTR   mw2233.codfw.wmnet.
@@ -1758,7 +1755,6 @@ $ORIGIN 16.192.@Z
 73  1H IN PTR   ms-be2053.codfw.wmnet.
 74  1H IN PTR   db2134.codfw.wmnet.
 75  1H IN PTR   proton2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-76  1H IN PTR   orespoolcounter2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 77  1H IN PTR   ms-be2046.codfw.wmnet.
 78  1H IN PTR   ms-be2047.codfw.wmnet.
 79  1H IN PTR   sessionstore2001.codfw.wmnet.

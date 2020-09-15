@@ -1055,8 +1055,6 @@ ores1006        1H  IN A        10.64.32.15
 ores1007        1H  IN A        10.64.48.16
 ores1008        1H  IN A        10.64.48.27
 ores1009        1H  IN A        10.64.48.28
-orespoolcounter1001 1H IN A     10.64.0.87 ; VM on ganeti01.svc.eqiad.wmnet
-orespoolcounter1002 1H IN A     10.64.32.13 ; VM on ganeti01.svc.eqiad.wmnet
 orespoolcounter1003 1H IN A     10.64.0.152 ; VM on ganeti01.svc.eqiad.wmnet
 orespoolcounter1004 1H IN A     10.64.32.237 ; VM on ganeti01.svc.eqiad.wmnet
 otrs1001        1H  IN A        10.64.16.39 ; VM on ganeti01.svc.eqiad.wmnet
@@ -1993,8 +1991,6 @@ ores2006        1H  IN A    10.192.32.174
 ores2007        1H  IN A    10.192.48.88
 ores2008        1H  IN A    10.192.48.89
 ores2009        1H  IN A    10.192.48.90
-orespoolcounter2001 1H IN A 10.192.0.56 ; VM on ganeti01.svc.codfw.wmnet
-orespoolcounter2002 1H IN A 10.192.16.76 ; VM on ganeti01.svc.codfw.wmnet
 orespoolcounter2003 1H IN A 10.192.0.133 ; VM on ganeti01.svc.codfw.wmnet
 orespoolcounter2004 1H IN A 10.192.16.130 ; VM on ganeti01.svc.codfw.wmnet
 parse2001      1H  IN A    10.192.0.182
