@@ -1003,11 +1003,7 @@ $ORIGIN 37.64.@Z
 2       1H IN PTR       ae3-1119.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae3-1119.cr2-eqiad.wikimedia.org.
 
-10      1H IN PTR       labstore.svc.eqiad.wmnet.
-
 13      1H IN PTR       cloudmetrics1001.eqiad.wmnet.
-16      1H IN PTR       nfs-scratch.svc.eqiad.wmnet.
-17      1H IN PTR       nfs-tools-home.svc.eqiad.wmnet.
 18      1H IN PTR       nfs-tools-project.svc.eqiad.wmnet.
 19      1H IN PTR       labstore1004.eqiad.wmnet.
 20      1H IN PTR       labstore1005.eqiad.wmnet.
