@@ -924,7 +924,6 @@ $ORIGIN 32.64.@Z
 211     1H IN PTR       mc1031.eqiad.wmnet.
 212     1H IN PTR       mc1032.eqiad.wmnet.
 213     1H IN PTR       etcd1001.eqiad.wmnet.  ; VM on ganeti01.svc.eqiad.wmnet
-214     1H IN PTR       puppetdb1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 215     1H IN PTR       kubetcd1004.eqiad.wmnet.  ; VM on ganeti01.svc.eqiad.wmnet
 
 220     1H IN PTR       ms-fe1007.eqiad.wmnet.
@@ -1845,7 +1844,6 @@ $ORIGIN 16.192.@Z
 180 1H IN PTR   releases2002.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 181 1H IN PTR   mw2325.codfw.wmnet.
 182 1H IN PTR   cp2033.codfw.wmnet.
-183 1H IN PTR   puppetdb2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 184 1H IN PTR   cp2034.codfw.wmnet.
 185 1H IN PTR   restbase2010.codfw.wmnet.
 186 1H IN PTR   restbase2010-a.codfw.wmnet.
