@@ -907,7 +907,6 @@ $ORIGIN 32.64.@Z
 184     1H IN PTR       es1015.eqiad.wmnet.
 185     1H IN PTR       es1016.eqiad.wmnet.
 187     1H IN PTR       miscweb1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-188     1H IN PTR       technetium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
 189     1H IN PTR       aqs1005-a.eqiad.wmnet. ; cassandra instance
 190     1H IN PTR       aqs1005-b.eqiad.wmnet. ; cassandra instance
 
@@ -1816,7 +1815,6 @@ $ORIGIN 16.192.@Z
 165 1H IN PTR   mw2316.codfw.wmnet.
 166 1H IN PTR   mw2317.codfw.wmnet.
 167 1H IN PTR   mw2318.codfw.wmnet.
-168 1H IN PTR   cygnus.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 169 1H IN PTR   logstash2021.codfw.wmnet.
 170 1H IN PTR   mw2319.codfw.wmnet.
 171 1H IN PTR   es2011.codfw.wmnet.

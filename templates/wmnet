@@ -1199,7 +1199,6 @@ phab1001-aphlict 1H IN CNAME    phab1001 ; CNAME here due to varnish puppetizati
 phab1001-vcs    1H  IN A        10.64.16.100
 phab1001-vcs    1H  IN AAAA     2620:0:861:102:10:64:16:100
 puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-technetium      1H  IN A        10.64.32.188 ; VM on ganeti01.svc.eqiad.wmnet
 testreduce1001  1H  IN A        10.64.48.40 ; VM on ganeti01.svc.eqiad.wmnet
 testreduce1001  1H  IN AAAA     2620:0:861:107:10:64:48:40 ; VM on ganeti01.svc.eqiad.wmnet
 thanos-be1001   1H  IN A        10.64.0.75
@@ -1473,7 +1472,6 @@ cp2042          1H  IN A    10.192.48.157
 cp2042          1H  IN AAAA 2620:0:860:104:10:192:48:157
 cumin2001       1H  IN A    10.192.48.16
 cumin2001       1H  IN AAAA 2620:0:860:104:10:192:48:16
-cygnus          1H  IN A    10.192.16.168 ; VM on ganeti01.svc.codfw.wmnet
 db2071          1H  IN A    10.192.0.4
 db2072          1H  IN A    10.192.16.37
 db2073          1H  IN A    10.192.32.167

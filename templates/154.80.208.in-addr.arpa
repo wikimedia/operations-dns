@@ -62,8 +62,6 @@
 
 91  1H  IN PTR  wiki-mail-eqiad.wikimedia.org.
 
-93  1H  IN PTR  radon.wikimedia.org.
-
 102 1H  IN PTR  vl1003-eth2.lvs1013.eqiad.wmnet.
 103 1H  IN PTR  vl1003-eth2.lvs1014.eqiad.wmnet.
 104 1H  IN PTR  vl1003-eth0.lvs1015.eqiad.wmnet.
@@ -84,7 +82,6 @@
 
 143 1H  IN PTR  ns-recursor0.openstack.eqiad1.wikimediacloud.org.
 144 1H  IN PTR  molybdenum.wikimedia.org.
-147 1H  IN PTR  californium.wikimedia.org.
 
 160 1H  IN PTR  labweb1001.wikimedia.org.
 
