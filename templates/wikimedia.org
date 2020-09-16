@@ -627,6 +627,7 @@ graphite-labs   1D IN CNAME dyna.wikimedia.org.
 grafana         1D IN CNAME dyna.wikimedia.org.
 grafana-labs         1D IN CNAME dyna.wikimedia.org.
 grafana-next         1D IN CNAME dyna.wikimedia.org.    ; to replace grafana-beta which has a confusing name
+grafana-rw           1D IN CNAME dyna.wikimedia.org.
 performance     1D IN CNAME dyna.wikimedia.org.
 horizon         1D IN CNAME dyna.wikimedia.org.
 wikitech        1D IN CNAME dyna.wikimedia.org.
