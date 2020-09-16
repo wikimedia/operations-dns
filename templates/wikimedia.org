@@ -861,6 +861,7 @@ download         1D IN CNAME dyna.wikimedia.org.
 etherpad         1D IN CNAME dyna.wikimedia.org.
 fundraising      1H  IN CNAME    fundraising-eqiad
 hue              1D IN CNAME dyna.wikimedia.org.
+hue-next         5M IN CNAME dyna.wikimedia.org.
 iegreview        1D IN CNAME dyna.wikimedia.org.
 tendril          5M  IN CNAME    dbmonitor1001
 jobs             1D IN CNAME dyna.wikimedia.org.
