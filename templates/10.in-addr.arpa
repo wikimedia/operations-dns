@@ -484,7 +484,7 @@ $ORIGIN 16.64.@Z
 31  1H IN PTR   dbprov1002.eqiad.wmnet.
 32  1H IN PTR   db1139.eqiad.wmnet.
 33  1H IN PTR   db1130.eqiad.wmnet.
-34  1H IN PTR   db1131.eqiad.wmnet.
+
 35  1H IN PTR   db1132.eqiad.wmnet.
 36  1H IN PTR   puppetmaster1003.eqiad.wmnet.
 37  1H IN PTR   kafka-main1002.eqiad.wmnet.
@@ -755,6 +755,8 @@ $ORIGIN 32.64.@Z
 1       1H IN PTR   vrrp-gw-1019.eqiad.wmnet.
 2       1H IN PTR       ae3-1019.cr1-eqiad.wikimedia.org.
 3       1H IN PTR       ae3-1019.cr2-eqiad.wikimedia.org.
+
+6       1H IN PTR       db1131.eqiad.wmnet.
 
 10      1H IN PTR       ms-be1042.eqiad.wmnet.
 11      1H IN PTR       db1120.eqiad.wmnet.
