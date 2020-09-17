@@ -865,7 +865,6 @@ ms-be1056       1H  IN A        10.64.48.20
 ms-be1057       1H  IN A        10.64.0.116
 ms-be1058       1H  IN A        10.64.16.133
 ms-be1059       1H  IN A        10.64.48.23
-ms-fe           1H  IN A        10.2.2.27 ; LVS address for ms-fe100*
 ms-fe1005       1H  IN A        10.64.0.38
 ms-fe1006       1H  IN A        10.64.0.39
 ms-fe1007       1H  IN A        10.64.32.220
@@ -2364,7 +2363,6 @@ prometheus  1H  IN A        10.2.2.25
 jobrunner   1H  IN A        10.2.2.26
 ms-fe       1H  IN A        10.2.2.27
 swift       1H  IN CNAME    ms-fe.svc.eqiad.wmnet.
-ms-fe-thumbs 1H IN A        10.2.2.27
 parsoid     1H  IN A        10.2.2.28
 sessionstore 1H IN A        10.2.2.29
 search      1H  IN A        10.2.2.30
@@ -2458,7 +2456,6 @@ prometheus      1H  IN A        10.2.1.25
 jobrunner       1H  IN A        10.2.1.26
 ms-fe           1H  IN A        10.2.1.27
 swift           1H  IN CNAME    ms-fe.svc.codfw.wmnet.
-ms-fe-thumbs    1H  IN A        10.2.1.27
 parsoid         1H  IN A        10.2.1.28
 sessionstore    1H  IN A        10.2.1.29
 search          1H  IN A        10.2.1.30
