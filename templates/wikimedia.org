@@ -114,6 +114,8 @@ donate          5M  IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:
 _dmarc.donate   1H  IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc@donate.wikimedia.org; ruf=mailto:dmarc@donate.wikimedia.org;"
 
 ; Servers (alphabetic order) << WHAT PART ABOUT THIS IS SO HARD TO UNDERSTAND?
+$INCLUDE netbox/wikimedia.org-ulsfo
+
 
 alert1001       1H  IN A    208.80.154.88
 alert1001       1H  IN AAAA 2620:0:861:3:208:80:154:88
@@ -135,8 +137,6 @@ bast2002        1H  IN A    208.80.153.54
 bast2002        1H  IN AAAA 2620:0:860:2:208:80:153:54
 bast3004        1H  IN A    91.198.174.60
 bast3004        1H  IN AAAA 2620:0:862:1:91:198:174:60
-bast4002        1H  IN A    198.35.26.6
-bast4002        1H  IN AAAA 2620:0:863:1:198:35:26:6
 bast5001        1H  IN A    103.102.166.7
 bast5001        1H  IN AAAA 2001:df2:e500:1:103:102:166:7
 civi1001        1H  IN A    208.80.155.11
@@ -199,10 +199,6 @@ dns3001         1H  IN A    91.198.174.61
 dns3001         1H  IN AAAA 2620:0:862:1:91:198:174:61
 dns3002         1H  IN A    91.198.174.62
 dns3002         1H  IN AAAA 2620:0:862:1:91:198:174:62
-dns4001         1H  IN A    198.35.26.7
-dns4001         1H  IN AAAA 2620:0:863:1:198:35:26:7
-dns4002         1H  IN A    198.35.26.8
-dns4002         1H  IN AAAA 2620:0:863:1:198:35:26:8
 dns5001         1H  IN A    103.102.166.8
 dns5001         1H  IN AAAA 2001:df2:e500:1:103:102:166:8
 dns5002         1H  IN A    103.102.166.9
@@ -238,8 +234,6 @@ install2003     1H  IN A    208.80.153.51 ; VM on ganeti01.svc.codfw.wmnet
 install2003     1H  IN AAAA 2620:0:860:2:208:80:153:51 ; VM on ganeti01.svc.codfw.wmnet
 install3001     1H  IN A    91.198.174.63  ; VM on ganeti01.svc.esams.wmnet
 install3001     1H  IN AAAA 2620:0:862:1:91:198:174:63 ; VM on ganeti01.svc.esams.wmnet
-install4001     1H  IN A    198.35.26.12   ; VM on ganeti01.svc.ulsfo.wmnet
-install4001     1H  IN AAAA 2620:0:863:1:198:35:26:12  ; VM on ganeti01.svc.ulsfo.wmnet
 install5001     1H  IN A    103.102.166.13 ; VM on ganeti01.svc.eqsin.wmnet
 install5001     1H  IN AAAA 2001:df2:e500:1:103:102:166:13 ; VM on ganeti01.svc.eqsin.wmnet
 irc2001         1H  IN A    208.80.153.62 ; VM on ganeti01.svc.codfw.wmnet
@@ -295,8 +289,6 @@ ripe-atlas-codfw 1H IN A    208.80.152.244
 ripe-atlas-codfw 1H IN AAAA 2620:0:860:201:208:80:152:244
 ripe-atlas-esams 1H IN A    91.198.174.132
 ripe-atlas-esams 1H IN AAAA 2620:0:862:201:91:198:174:132
-ripe-atlas-ulsfo 1H IN A    198.35.26.244
-ripe-atlas-ulsfo 1H IN AAAA 2620:0:863:201:198:35:26:244
 ripe-atlas-eqsin 1H IN A    103.102.166.20
 ripe-atlas-eqsin 1H IN AAAA 2001:df2:e500:201:103:102:166:20
 seaborgium      1H  IN A    208.80.154.79 ; VM on ganeti01.svc.eqiad.wmnet
@@ -362,19 +354,11 @@ ldap-ro.eqiad       1H  IN A    208.80.154.252
 cloudelastic        1H  IN A    208.80.154.241
 cloudelastic        1H  IN AAAA 2620:0:861:ed1a::3:241
 
-;;; ulsfo
-text-lb.ulsfo       1H IN A 198.35.26.96
-text-lb.ulsfo       1H IN AAAA 2620:0:863:ed1a::1
-test-lb.ulsfo       1H IN A 198.35.26.97 ; Temporary for limited testing in T237492 - Do not use!
-test-lb.ulsfo       1H IN AAAA 2620:0:863:ed1a::2 ; Temporary for limited testing in T237492 - Do not use!
-donate-lb.ulsfo     1H IN A 198.35.26.96
-donate-lb.ulsfo     1H IN AAAA 2620:0:863:ed1a::1
+;;; ulsfo (only records not auto-generated from Netbox)
+donate-lb.ulsfo     1H IN A 198.35.26.96 ; same IP of text-lb
+donate-lb.ulsfo     1H IN AAAA 2620:0:863:ed1a::1 ; same IP of text-lb
 donate-lb.ulsfo     1H IN MX 10    mx1001
 donate-lb.ulsfo     1H IN MX 50    mx2001
-ncredir-lb.ulsfo    1H IN A 198.35.26.98
-ncredir-lb.ulsfo    1H IN AAAA 2620:0:863:ed1a::3
-upload-lb.ulsfo     1H IN A 198.35.26.112
-upload-lb.ulsfo     1H IN AAAA 2620:0:863:ed1a::2:b
 
 ;;; eqsin
 text-lb.eqsin       1H IN A 103.102.166.224
@@ -536,15 +520,6 @@ mr1-esams       1H  IN A    91.198.174.247
 mr1-esams       1H  IN AAAA 2620:0:862:ffff::1
 mr1-esams.oob   1H  IN A    164.138.24.90
 mr1-esams.oob   1H  IN AAAA 2a02:2770:c011::2
-
-cr3-ulsfo       1H  IN A    198.35.26.192
-cr3-ulsfo       1H  IN AAAA 2620:0:863:ffff::1
-cr4-ulsfo       1H  IN A    198.35.26.193
-cr4-ulsfo       1H  IN AAAA 2620:0:863:ffff::2
-mr1-ulsfo       1H  IN A    198.35.26.194
-mr1-ulsfo       1H  IN AAAA 2620:0:863:ffff::6
-mr1-ulsfo.oob   1H  IN A    198.24.47.102
-mr1-ulsfo.oob   1H  IN AAAA 2607:fb58:9000:7::2
 
 cr2-eqsin       1H  IN A    103.102.166.130
 cr2-eqsin       1H  IN AAAA 2001:df2:e500:ffff::3

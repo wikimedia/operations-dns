@@ -12,56 +12,23 @@
 
 ; public1-ulsfo (2620:0:863:1::/64)
 $ORIGIN 1.0.0.0.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1201.wikimedia.org.
-
-6.0.0.0.6.2.0.0.5.3.0.0.8.9.1.0 1H IN PTR   bast4002.wikimedia.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   et-1-0-1-1201.cr3-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   et-1-0-1-1201.cr4-ulsfo.wikimedia.org.
-7.0.0.0.6.2.0.0.5.3.0.0.8.9.1.0 1H IN PTR   dns4001.wikimedia.org.
-8.0.0.0.6.2.0.0.5.3.0.0.8.9.1.0 1H IN PTR   dns4002.wikimedia.org.
-2.1.0.0.6.2.0.0.5.3.0.0.8.9.1.0 1H IN PTR   install4001.wikimedia.org. ; VM on ganeti01.svc.ulsfo.wmnet
-
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.0.0.0.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; ulsfo private subnets (2620:0:863:100::/56)
 
 ; private1-ulsfo (2620:0:863:101::/64)
 $ORIGIN 1.0.1.0.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1211.wikimedia.org.
-
-1.3.0.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   netflow4001.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
-2.3.0.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   ncredir4001.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
-3.3.0.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   ncredir4002.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
-4.3.0.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   prometheus4001.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
-
-1.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4021.ulsfo.wmnet.
-2.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4022.ulsfo.wmnet.
-3.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4023.ulsfo.wmnet.
-4.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4024.ulsfo.wmnet.
-5.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4025.ulsfo.wmnet.
-6.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4026.ulsfo.wmnet.
-7.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4027.ulsfo.wmnet.
-8.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4028.ulsfo.wmnet.
-9.2.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4029.ulsfo.wmnet.
-0.3.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4030.ulsfo.wmnet.
-1.3.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4031.ulsfo.wmnet.
-2.3.1.0.0.0.0.0.8.2.1.0.0.1.0.0 1H IN PTR   cp4032.ulsfo.wmnet.
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   et-1-0-1-1211.cr3-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   et-1-0-1-1211.cr4-ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.0.1.0.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 
 ; ulsfo sandbox subnets (2620:0:863:200::/56)
 
 ; sandbox1-ulsfo (2620:0:863:201::/64)
 $ORIGIN 1.0.2.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1221.wikimedia.org.
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   et-1-0-1-1221.cr3-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   et-1-0-1-1221.cr4-ulsfo.wikimedia.org.
-
-4.4.2.0.6.2.0.0.5.3.0.0.8.9.1.0 1H IN PTR   ripe-atlas-ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.0.2.0.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 
 ; Infrastructure IPs
@@ -69,9 +36,8 @@ $ORIGIN 1.0.2.0.@Z
 ; cr3-ulsfo <--> cr4-ulsfo (2620:0:863:fe00::/64)
 
 $ORIGIN 0.0.e.f.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   et-0-0-0-2.cr3-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   et-0-0-0-2.cr4-ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/0.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; unallocated (2620:0:863:fe01::/64)
 
@@ -80,54 +46,46 @@ $ORIGIN 1.0.e.f.@Z
 ; cr3-ulsfo <--> cr2-eqord (2620:0:863:fe02::/64)
 
 $ORIGIN 2.0.e.f.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-1.cr3-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-1.cr2-eqord.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr4-ulsfo <--> cr1-codfw (2620:0:863:fe03::/64)
 
 $ORIGIN 3.0.e.f.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-2.cr4-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-5-0-2.cr1-codfw.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/3.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr4-ulsfo <--> cr2-eqdfw (2620:0:863:fe04::/64)
 
 $ORIGIN 4.0.e.f.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-2.cr4-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-0-0-1.cr2-eqdfw.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/4.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr3-ulsfo <--> mr1-ulsfo (2620:0:863:fe05::/64)
 
 $ORIGIN 5.0.e.f.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   et-1-0-1-401.cr3-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   fe-0-0-4-401.mr1-ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/5.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr4-ulsfo <--> mr1-ulsfo (2620:0:863:fe06::/64)
 
 $ORIGIN 6.0.e.f.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   et-1-0-1-402.cr4-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   fe-0-0-4-402.mr1-ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/6.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; Loopback IPs
 $ORIGIN f.f.f.f.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr3-ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr4-ulsfo.wikimedia.org.
-
-6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mr1-ulsfo.wikimedia.org.
-
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/f.f.f.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; 2620:0:863:ed1a::/64 - LVS Public Service IPs (allocated)
 
 $ORIGIN a.1.d.e.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/a.1.d.e.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; - 2620:0:863:ed1a::0:0/110 (::0:0 - ::3:ffff) LVS Service IPs
 ; -- 2620:0:863:ed1a::0:0/111 (::0:0 - ::1:ffff) LVS high-traffic1 (Text)
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   text-lb.ulsfo.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   test-lb.ulsfo.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
-3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ncredir-lb.ulsfo.wikimedia.org.
-
 ; -- 2620:0:863:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS high-traffic2 (Multimedia & Misc)
-
-b.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   upload-lb.ulsfo.wikimedia.org.
 

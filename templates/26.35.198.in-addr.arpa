@@ -12,18 +12,8 @@
 ; West Coast Discrete network
 
 ; 198.35.26.0/28 (0-15) - public1-ulsfo
-
-1   1H IN PTR   vrrp-gw-1201.wikimedia.org.
-2   1H IN PTR   et-1-0-1-1201.cr3-ulsfo.wikimedia.org.
-3   1H IN PTR   et-1-0-1-1201.cr4-ulsfo.wikimedia.org.
-
-6   1H IN PTR   bast4002.wikimedia.org.
-7   1H IN PTR   dns4001.wikimedia.org.
-8   1H IN PTR   dns4002.wikimedia.org.
-9   1H IN PTR   vl1201-eth0.lvs4005.ulsfo.wmnet.
-10  1H IN PTR   vl1201-eth0.lvs4006.ulsfo.wmnet.
-11  1H IN PTR   vl1201-eth0.lvs4007.ulsfo.wmnet.
-12  1H IN PTR   install4001.wikimedia.org. ; VM on ganeti01.svc.ulsfo.wmnet
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/0-28.26.35.198.in-addr.arpa
 
 ; 198.35.26.16/28 (16-31) - unused
 ; 198.35.26.32/27 (32-63) - unused
@@ -32,55 +22,50 @@
 ; 198.35.26.96/27 (96-127) - LVS Service IPs
 
 ; - 198.35.26.96/28 (96-111) -- LVS high-traffic1 (Text)
-
-96  1H IN PTR   text-lb.ulsfo.wikimedia.org.
-97  1H IN PTR   test-lb.ulsfo.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
-98  1H IN PTR   ncredir-lb.ulsfo.wikimedia.org.
-
 ; - 198.35.26.112/28 (112-127) -- LVS high-traffic2 (Multimedia & Misc)
-
-112 1H IN PTR   upload-lb.ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/96-27.26.35.198.in-addr.arpa
 
 ; 198.35.26.128/26 (128-191) - unused
 
 ; 198.35.26.192/27 (192-223) - Infrastructure Space
 
 ; - 198.35.26.192/30 (192-195) -- Routers
-192 1H IN PTR   cr3-ulsfo.wikimedia.org.
-193 1H IN PTR   cr4-ulsfo.wikimedia.org.
-194 1H IN PTR   mr1-ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/192-27.26.35.198.in-addr.arpa
 
 ; - 198.35.26.196/31 (196-197) -- cr3-ulsfo <--> cr4-ulsfo
-196 1H IN PTR   ae0-2.cr3-ulsfo.wikimedia.org.
-197 1H IN PTR   ae0-2.cr4-ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/196-31.26.35.198.in-addr.arpa
 
 ; - 198.35.26.198/31 (198-199) -- cr3-ulsfo <--> mr1-ulsfo
-198 1H IN PTR   et-1-0-1-401.cr3-ulsfo.wikimedia.org.
-199 1H IN PTR   fe-0-0-4-401.mr1-ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/198-31.26.35.198.in-addr.arpa
 
 ; - 198.35.26.200/31 (200-201) -- cr4-ulsfo <--> mr1-ulsfo
-200 1H IN PTR   et-1-0-1-402.cr4-ulsfo.wikimedia.org.
-201 1H IN PTR   fe-0-0-4-402.mr1-ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/200-31.26.35.198.in-addr.arpa
 
 ; - 198.35.26.202/31 (202-203) unused
 
 ; - 198.35.26.204/31 (204-205) cr4-ulsfo <--> cr2-eqdfw
-204 1H  IN PTR  gr-0-0-0-2.cr4-ulsfo.wikimedia.org.
-205 1H  IN PTR  gr-0-0-0-1.cr2-eqdfw.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/204-31.26.35.198.in-addr.arpa
 
 ; - 198.35.26.206/31 (206-207) unused
 
 ; - 198.35.26.208/31 (208-209) -- cr3-ulsfo <--> cr2-eqord
-208 1H  IN PTR  xe-0-1-1.cr3-ulsfo.wikimedia.org.
-209 1H  IN PTR  xe-0-1-1.cr2-eqord.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/208-31.26.35.198.in-addr.arpa
 
 ; - 198.35.26.210/31 (210-211) -- cr4-ulsfo <--> cr1-codfw
-210 1H  IN PTR  xe-0-1-2.cr4-ulsfo.wikimedia.org.
-211 1H  IN PTR  xe-5-0-2.cr1-codfw.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/210-31.26.35.198.in-addr.arpa
 
 ; 198.35.26.224/29 (224-231) - Office interconnect
-225 1H  IN PTR  et-0-0-1-501.cr3-ulsfo.wikimedia.org.
-226 1H  IN PTR  et-0-0-1-501.cr4-ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/224-29.26.35.198.in-addr.arpa
+
 227 1H  IN PTR  eth2.router1.corp.wikimedia.org.
 228 1H  IN PTR  eth2.router2.corp.wikimedia.org.
 
@@ -88,7 +73,5 @@
 ; 198.35.26.232/29 (232-239) - unused
 
 ; 198.35.26.240/28 (240-255) - sandbox1-ulsfo
-241 1H IN PTR   vrrp-gw-1221.wikimedia.org.
-242 1H IN PTR   et-1-0-1-1221.cr3-ulsfo.wikimedia.org.
-243 1H IN PTR   et-1-0-1-1221.cr4-ulsfo.wikimedia.org.
-244 1H IN PTR   ripe-atlas-ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/240-28.26.35.198.in-addr.arpa
