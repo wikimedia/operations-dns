@@ -648,17 +648,6 @@ $ORIGIN 20.64.@Z
 2   1H IN PTR   ae2-1118.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae2-1118.cr2-eqiad.wikimedia.org.
 
-15  1H IN PTR   cloudvirt1009.eqiad.wmnet.
-16  1H IN PTR   cloudvirt1007.eqiad.wmnet.
-17  1H IN PTR   cloudvirt1008.eqiad.wmnet.
-
-19  1H IN PTR   cloudvirt1001.eqiad.wmnet.
-20  1H IN PTR   cloudvirt1002.eqiad.wmnet.
-21  1H IN PTR   cloudvirt1003.eqiad.wmnet.
-22  1H IN PTR   cloudvirt1004.eqiad.wmnet.
-23  1H IN PTR   cloudvirt1005.eqiad.wmnet.
-24  1H IN PTR   cloudvirt1006.eqiad.wmnet.
-
 28  1H IN PTR   cloudvirt1012.eqiad.wmnet.
 29  1H IN PTR   cloudvirt1013.eqiad.wmnet.
 30  1H IN PTR   cloudvirt1014.eqiad.wmnet.

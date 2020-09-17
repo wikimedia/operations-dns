@@ -784,14 +784,6 @@ labsdb1009      1H  IN A        10.64.4.14
 labsdb1010      1H  IN A        10.64.37.23
 labsdb1011      1H  IN A        10.64.37.24
 labsdb1012      1H  IN A        10.64.4.16
-cloudvirt1001   1H  IN A        10.64.20.19
-cloudvirt1002   1H  IN A        10.64.20.20
-cloudvirt1003   1H  IN A        10.64.20.21
-cloudvirt1004   1H  IN A        10.64.20.22
-cloudvirt1004   1H  IN AAAA     2620:0:861:118:10:64:20:22
-cloudvirt1005   1H  IN A        10.64.20.23
-cloudvirt1006   1H  IN A        10.64.20.24
-cloudvirt1006   1H  IN AAAA     2620:0:861:118:10:64:20:24
 lvs1013         1H  IN A        10.64.1.13
 lvs1014         1H  IN A        10.64.17.14
 lvs1015         1H  IN A        10.64.33.15
@@ -1215,10 +1207,7 @@ logstash1009    1H  IN A        10.64.32.27 ; VM on ganeti01.svc.eqiad.wmnet
 logstash1010    1H  IN A        10.64.0.181
 logstash1011    1H  IN A        10.64.16.30
 logstash1012    1H  IN A        10.64.48.177
-cloudvirt1009   1H  IN A        10.64.20.15
-cloudvirt1007   1H  IN A        10.64.20.16
-cloudvirt1008   1H  IN A        10.64.20.17
-cloudvirt1012     1H  IN A        10.64.20.28
+cloudvirt1012   1H  IN A        10.64.20.28
 cloudvirt1013   1H  IN A        10.64.20.29
 cloudvirt1014   1H  IN A        10.64.20.30
 cloudvirt1015   1H  IN A        10.64.20.31
