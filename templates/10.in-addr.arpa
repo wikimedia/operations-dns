@@ -1373,32 +1373,8 @@ $INCLUDE netbox/129.128.10.in-addr.arpa
 
 ; 10.128.0.0/24 - private1-ulsfo
 $ORIGIN 0.128.@Z
-15  1H  IN PTR      lvs4005.ulsfo.wmnet.
-16  1H  IN PTR      lvs4006.ulsfo.wmnet.
-17  1H  IN PTR      lvs4007.ulsfo.wmnet.
-
-21  1H  IN PTR      ganeti4001.ulsfo.wmnet.
-22  1H  IN PTR      ganeti4002.ulsfo.wmnet.
-23  1H  IN PTR      ganeti4003.ulsfo.wmnet.
-
-30  1H  IN PTR      ganeti01.svc.ulsfo.wmnet.
-31  1H  IN PTR      netflow4001.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
-32  1H  IN PTR      ncredir4001.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
-33  1H  IN PTR      ncredir4002.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
-34  1H  IN PTR      prometheus4001.ulsfo.wmnet. ; VM on ganeti01.svc.ulsfo.wmnet
-
-121 1H  IN PTR      cp4021.ulsfo.wmnet.
-122 1H  IN PTR      cp4022.ulsfo.wmnet.
-123 1H  IN PTR      cp4023.ulsfo.wmnet.
-124 1H  IN PTR      cp4024.ulsfo.wmnet.
-125 1H  IN PTR      cp4025.ulsfo.wmnet.
-126 1H  IN PTR      cp4026.ulsfo.wmnet.
-127 1H  IN PTR      cp4027.ulsfo.wmnet.
-128 1H  IN PTR      cp4028.ulsfo.wmnet.
-129 1H  IN PTR      cp4029.ulsfo.wmnet.
-130 1H  IN PTR      cp4030.ulsfo.wmnet.
-131 1H  IN PTR      cp4031.ulsfo.wmnet.
-132 1H  IN PTR      cp4032.ulsfo.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/0.128.10.in-addr.arpa
 
 ; EQSIN (10.132.0.0/16)
 ; 10.132.0.0/16 - eqsin
