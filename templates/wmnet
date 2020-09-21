@@ -2567,7 +2567,7 @@ ganeti01    1H  IN A        10.20.0.30
 
 $ORIGIN svc.ulsfo.wmnet.
 ; Used for consistency with eqiad/codfw
-prometheus  1H  IN CNAME    bast4002.wikimedia.org.
+prometheus  5M  IN CNAME    prometheus4001.ulsfo.wmnet.
 ganeti01    1H  IN A        10.128.0.30
 
 ; EQSIN SERVICES
