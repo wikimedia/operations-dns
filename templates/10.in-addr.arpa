@@ -1777,7 +1777,6 @@ $ORIGIN 16.192.@Z
 169 1H IN PTR   logstash2021.codfw.wmnet.
 170 1H IN PTR   mw2319.codfw.wmnet.
 171 1H IN PTR   es2011.codfw.wmnet.
-172 1H IN PTR   es2018.codfw.wmnet.
 173 1H IN PTR   mw2320.codfw.wmnet.
 
 175 1H IN PTR   mw2321.codfw.wmnet.
