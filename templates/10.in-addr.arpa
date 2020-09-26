@@ -1394,6 +1394,8 @@ $ORIGIN 0.132.@Z
 2   1H  IN PTR      ae1-520.cr3-eqsin.eqsin.wmnet.
 3   1H  IN PTR      ae1-520.cr2-eqsin.eqsin.wmnet.
 
+6   1H  IN PTR      testvm5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
+
 11  1H  IN PTR      lvs5001.eqsin.wmnet.
 12  1H  IN PTR      lvs5002.eqsin.wmnet.
 13  1H  IN PTR      lvs5003.eqsin.wmnet.
