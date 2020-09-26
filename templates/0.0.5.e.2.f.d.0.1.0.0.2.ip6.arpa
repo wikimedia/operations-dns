@@ -37,7 +37,6 @@ $ORIGIN 1.0.1.0.@Z
 0.3.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   netflow5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
 1.3.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   ncredir5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
 2.3.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   ncredir5002.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
-4.2.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   testvm5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
 3.3.0.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   prometheus5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
 
 1.0.1.0.0.0.0.0.2.3.1.0.0.1.0.0 1H IN PTR   cp5001.eqsin.wmnet.

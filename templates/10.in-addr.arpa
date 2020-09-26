@@ -1402,7 +1402,6 @@ $ORIGIN 0.132.@Z
 21  1H  IN PTR      ganeti5001.eqsin.wmnet.
 22  1H  IN PTR      ganeti5002.eqsin.wmnet.
 23  1H  IN PTR      ganeti5003.eqsin.wmnet.
-24  1H  IN PTR      testvm5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
 
 30  1H  IN PTR      netflow5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
 31  1H  IN PTR      ncredir5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
