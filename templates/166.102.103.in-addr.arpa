@@ -12,73 +12,54 @@
 ; APNIC space, reserved for eqsin
 
 ; 103.102.166.0/28 (0-15) - public1-eqsin
-1  1H IN PTR   vrrp-gw-510.wikimedia.org.
-2  1H IN PTR   ae1-510.cr3-eqsin.wikimedia.org.
-3  1H IN PTR   ae1-510.cr2-eqsin.wikimedia.org.
-
-7  1H IN PTR   bast5001.wikimedia.org.
-8  1H IN PTR   dns5001.wikimedia.org.
-9  1H IN PTR   dns5002.wikimedia.org.
-10 1H IN PTR   vl510-eth0.lvs5001.eqsin.wmnet.
-11 1H IN PTR   vl510-eth0.lvs5002.eqsin.wmnet.
-12 1H IN PTR   vl510-eth0.lvs5003.eqsin.wmnet.
-13 1H IN PTR   install5001.wikimedia.org. ; VM on ganeti01.svc.eqsin.wmnet
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/0-28.166.102.103.in-addr.arpa
 
 ; 103.102.166.16/28 (16-31) - sandbox1-eqsin
-17 1H IN PTR   vrrp-gw-530.wikimedia.org.
-18 1H IN PTR   ae1-530.cr3-eqsin.wikimedia.org.
-19 1H IN PTR   ae1-530.cr2-eqsin.wikimedia.org.
-
-
-20 1H IN PTR   ripe-atlas-eqsin.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/16-28.166.102.103.in-addr.arpa
 
 ; 103.102.166.32/27 (32-63) - unused
 ; 103.102.166.64/26 (64-127) - unused
 ; 103.102.166.128/27 (128-159) - Infrastructure Space
 
 ; 103.102.166.128/30 (128-131) - Router's loopbacks
-128 1H IN PTR   mr1-eqsin.wikimedia.org.
-130 1H IN PTR   cr2-eqsin.wikimedia.org.
-131 1H IN PTR   cr3-eqsin.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/128-30.166.102.103.in-addr.arpa
 
 ; 103.102.166.132/31 -- cr3-eqsin <--> mr1-eqsin
-132 1H IN PTR   ae1-401.cr3-eqsin.wikimedia.org.
-133 1H IN PTR   ge-0-0-4-401.mr1-eqsin.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/132-31.166.102.103.in-addr.arpa
 
 ; 103.102.166.134/31  -- PCCW peering
-134 1H IN PTR   xe-0-1-2.cr2-eqsin.wikimedia.org.
-135 1H IN PTR   pccw-peering.cr2-eqsin.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/134-31.166.102.103.in-addr.arpa
 
 ; 103.102.166.136/31  -- cr4-ulsfo <--> cr2-eqsin (NTT tunnel)
-136 1H IN PTR   gr-0-0-0-1.cr2-eqsin.wikimedia.org.
-137 1H IN PTR   gr-0-0-0-1.cr4-ulsfo.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/136-31.166.102.103.in-addr.arpa
 
 ; 103.102.166.138/31  -- cr1-codfw <--> cr3-eqsin (Telia evpn)
-138 1H IN PTR   xe-0-1-0.cr3-eqsin.wikimedia.org.
-139 1H IN PTR   xe-5-1-2.cr1-codfw.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/138-31.166.102.103.in-addr.arpa
 
 ; 103.102.166.140/31 -- cr3-eqsin <--> cr2-eqsin
-140 1H IN PTR   ae0.cr3-eqsin.wikimedia.org.
-141 1H IN PTR   ae0.cr2-eqsin.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/140-31.166.102.103.in-addr.arpa
 
 ; 103.102.166.142/31 -- cr2-eqsin <--> mr1-eqsin
-142 1H IN PTR   ae1-402.cr2-eqsin.wikimedia.org.
-143 1H IN PTR   ge-0-0-4-402.mr1-eqsin.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/142-31.166.102.103.in-addr.arpa
 
 ; 103.102.166.144/31  -- SingTel peering
-144 1H IN PTR   xe-0-1-4.cr3-eqsin.wikimedia.org.
-145 1H IN PTR   singtel-peering.cr3-eqsin.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/144-31.166.102.103.in-addr.arpa
 
 ; 103.102.166.160/27 (160-191) - unused
 
 ; 103.102.166.192/27 (192-223) - unused
 ; 103.102.166.224/27 (224-255) - LVS Service IPs
 ; - 103.102.166.224/28 (224-239) -- LVS high-traffic1 (Text)
-
-224 1H IN PTR   text-lb.eqsin.wikimedia.org.
-225 1H IN PTR   test-lb.eqsin.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
-226 1H IN PTR   ncredir-lb.eqsin.wikimedia.org.
-
 ; - 103.102.166.240/28 (240-255) -- high-traffic2 (Multimedia & Misc)
-
-240 1H IN PTR   upload-lb.eqsin.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/224-27.166.102.103.in-addr.arpa

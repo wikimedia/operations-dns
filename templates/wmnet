@@ -2379,59 +2379,8 @@ $INCLUDE netbox/mgmt.eqsin.wmnet
 
 $ORIGIN eqsin.wmnet.
 
-; Servers listed sequentially
-lvs5001         1H      IN A    10.132.0.11
-lvs5001         1H      IN AAAA 2001:df2:e500:101:10:132:0:11
-lvs5002         1H      IN A    10.132.0.12
-lvs5002         1H      IN AAAA 2001:df2:e500:101:10:132:0:12
-lvs5003         1H      IN A    10.132.0.13
-lvs5003         1H      IN AAAA 2001:df2:e500:101:10:132:0:13
-
-cp5001          1H      IN A    10.132.0.101
-cp5001          1H      IN AAAA 2001:df2:e500:101:10:132:0:101
-cp5002          1H      IN A    10.132.0.102
-cp5002          1H      IN AAAA 2001:df2:e500:101:10:132:0:102
-cp5003          1H      IN A    10.132.0.103
-cp5003          1H      IN AAAA 2001:df2:e500:101:10:132:0:103
-cp5004          1H      IN A    10.132.0.104
-cp5004          1H      IN AAAA 2001:df2:e500:101:10:132:0:104
-cp5005          1H      IN A    10.132.0.105
-cp5005          1H      IN AAAA 2001:df2:e500:101:10:132:0:105
-cp5006          1H      IN A    10.132.0.106
-cp5006          1H      IN AAAA 2001:df2:e500:101:10:132:0:106
-cp5007          1H      IN A    10.132.0.107
-cp5007          1H      IN AAAA 2001:df2:e500:101:10:132:0:107
-cp5008          1H      IN A    10.132.0.108
-cp5008          1H      IN AAAA 2001:df2:e500:101:10:132:0:108
-cp5009          1H      IN A    10.132.0.109
-cp5009          1H      IN AAAA 2001:df2:e500:101:10:132:0:109
-cp5010          1H      IN A    10.132.0.110
-cp5010          1H      IN AAAA 2001:df2:e500:101:10:132:0:110
-cp5011          1H      IN A    10.132.0.111
-cp5011          1H      IN AAAA 2001:df2:e500:101:10:132:0:111
-cp5012          1H      IN A    10.132.0.112
-cp5012          1H      IN AAAA 2001:df2:e500:101:10:132:0:112
-
-ganeti5001      1H      IN A    10.132.0.21
-ganeti5002      1H      IN A    10.132.0.22
-ganeti5003      1H      IN A    10.132.0.23
-
-netflow5001     1H      IN A    10.132.0.30 ; VM on ganeti01.svc.eqsin.wmnet
-netflow5001     1H      IN AAAA 2001:df2:e500:101:10:132:0:30 ; VM on ganeti01.svc.eqsin.wmnet
-ncredir5001     1H      IN A    10.132.0.31 ; VM on ganeti01.svc.eqsin.wmnet
-ncredir5001     1H      IN AAAA 2001:df2:e500:101:10:132:0:31 ; VM on ganeti01.svc.eqsin.wmnet
-ncredir5002     1H      IN A    10.132.0.32 ; VM on ganeti01.svc.eqsin.wmnet
-ncredir5002     1H      IN AAAA 2001:df2:e500:101:10:132:0:32 ; VM on ganeti01.svc.eqsin.wmnet
-prometheus5001     1H      IN A    10.132.0.33 ; VM on ganeti01.svc.eqsin.wmnet
-prometheus5001     1H      IN AAAA 2001:df2:e500:101:10:132:0:33 ; VM on ganeti01.svc.eqsin.wmnet
-
-testvm5001     1H      IN A    10.132.0.6 ; VM on ganeti01.svc.eqsin.wmnet
-testvm5001     1H      IN AAAA 2001:df2:e500:101:10:132:0:6 ; VM on ganeti01.svc.eqsin.wmnet
-
-; eqsin LVS cross-vlan
-vl510-eth0.lvs5001 1H   IN A 103.102.166.10
-vl510-eth0.lvs5002 1H   IN A 103.102.166.11
-vl510-eth0.lvs5003 1H   IN A 103.102.166.12
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/eqsin.wmnet
 
 ;
 ; SERVICES
@@ -2540,8 +2489,9 @@ prometheus  5M  IN CNAME    prometheus4001.ulsfo.wmnet.
 
 $ORIGIN svc.eqsin.wmnet.
 ; Used for consistency with eqiad/codfw
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/svc.eqsin.wmnet
 prometheus  1H  IN CNAME    prometheus5001.eqsin.wmnet.
-ganeti01    1H  IN A        10.132.0.20
 
 ; CODFW SERVICES
 

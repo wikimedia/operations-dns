@@ -1393,38 +1393,8 @@ $INCLUDE netbox/0.128.10.in-addr.arpa
 ; 10.132.0.0/17 - eqsin private
 ; 10.132.0.0/24 - private1-eqsin
 $ORIGIN 0.132.@Z
-1   1H  IN PTR      vrrp-gw-520.eqsin.wmnet.
-2   1H  IN PTR      ae1-520.cr3-eqsin.eqsin.wmnet.
-3   1H  IN PTR      ae1-520.cr2-eqsin.eqsin.wmnet.
-
-6   1H  IN PTR      testvm5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
-
-11  1H  IN PTR      lvs5001.eqsin.wmnet.
-12  1H  IN PTR      lvs5002.eqsin.wmnet.
-13  1H  IN PTR      lvs5003.eqsin.wmnet.
-
-20  1H  IN PTR      ganeti01.svc.eqsin.wmnet.
-21  1H  IN PTR      ganeti5001.eqsin.wmnet.
-22  1H  IN PTR      ganeti5002.eqsin.wmnet.
-23  1H  IN PTR      ganeti5003.eqsin.wmnet.
-
-30  1H  IN PTR      netflow5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
-31  1H  IN PTR      ncredir5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
-32  1H  IN PTR      ncredir5002.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
-33  1H  IN PTR      prometheus5001.eqsin.wmnet. ; VM on ganeti01.svc.eqsin.wmnet
-
-101 1H  IN PTR      cp5001.eqsin.wmnet.
-102 1H  IN PTR      cp5002.eqsin.wmnet.
-103 1H  IN PTR      cp5003.eqsin.wmnet.
-104 1H  IN PTR      cp5004.eqsin.wmnet.
-105 1H  IN PTR      cp5005.eqsin.wmnet.
-106 1H  IN PTR      cp5006.eqsin.wmnet.
-107 1H  IN PTR      cp5007.eqsin.wmnet.
-108 1H  IN PTR      cp5008.eqsin.wmnet.
-109 1H  IN PTR      cp5009.eqsin.wmnet.
-110 1H  IN PTR      cp5010.eqsin.wmnet.
-111 1H  IN PTR      cp5011.eqsin.wmnet.
-112 1H  IN PTR      cp5012.eqsin.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/0.132.10.in-addr.arpa
 
 ; 10.132.128.0/17 - eqsin mgmt
 $ORIGIN 128.132.@Z
