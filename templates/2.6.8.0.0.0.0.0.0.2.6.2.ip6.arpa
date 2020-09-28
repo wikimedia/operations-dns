@@ -15,58 +15,15 @@
 
 ; public1-esams 2620:0:862:1::/64
 $ORIGIN 1.0.0.0.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-100.esams.wikimedia.org.
-
-; Machines
-
-0.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   bast3004.wikimedia.org.
-1.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   dns3001.wikimedia.org.
-2.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   dns3002.wikimedia.org.
-3.6.0.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   install3001.wikimedia.org. ; VM on ganeti01.svc.esams.wmnet
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-100.cr3-esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-100.cr2-esams.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.0.0.0.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; esams private subnets (2620:0:862:100::/56)
 
 ; private1-esams subnet 2620:0:862:102::/64
 $ORIGIN 2.0.1.0.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-103.esams.wikimedia.org.
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-103.cr3-esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-103.cr2-esams.wikimedia.org.
-
-5.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3005.esams.wmnet.
-6.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3006.esams.wmnet.
-7.1.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   lvs3007.esams.wmnet.
-
-1.3.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   ganeti3001.esams.wmnet.
-2.3.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   ganeti3002.esams.wmnet.
-3.3.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   ganeti3003.esams.wmnet.
-
-0.5.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3050.esams.wmnet.
-1.5.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3051.esams.wmnet.
-2.5.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3052.esams.wmnet.
-3.5.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3053.esams.wmnet.
-4.5.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3054.esams.wmnet.
-5.5.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3055.esams.wmnet.
-6.5.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3056.esams.wmnet.
-7.5.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3057.esams.wmnet.
-8.5.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3058.esams.wmnet.
-9.5.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3059.esams.wmnet.
-0.6.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3060.esams.wmnet.
-1.6.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3061.esams.wmnet.
-2.6.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3062.esams.wmnet.
-3.6.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3063.esams.wmnet.
-4.6.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3064.esams.wmnet.
-5.6.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   cp3065.esams.wmnet.
-0.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   netflow3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
-1.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   ncredir3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
-2.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   ncredir3002.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
-4.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   prometheus3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
-6.0.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   testvm3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.0.1.0.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; 2620:0:862:ed1a::/64 - LVS Public Service IPs (allocated)
 
@@ -74,23 +31,16 @@ $ORIGIN a.1.d.e.@Z
 
 ; - 2620:0:862:ed1a::0:0/110 (::0:0 - ::3:ffff) LVS Service IPs
 ; -- 2620:0:862:ed1a::0:0/111 (::0:0 - ::1:ffff) LVS high-traffic1 (Text)
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   text-lb.esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   test-lb.esams.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
-3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ncredir-lb.esams.wikimedia.org.
-
 ; -- 2620:0:862:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS high-traffic2 Multimedia & Misc
-
-b.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   upload-lb.esams.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/a.1.d.e.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; esams sandbox subnets (2620:0:862:200::/56)
 
 ; sandbox1-esams (2620:0:862:201::/64)
 $ORIGIN 1.0.2.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-102.wikimedia.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-102.cr3-esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-102.cr2-esams.wikimedia.org.
-2.3.1.0.4.7.1.0.8.9.1.0.1.9.0.0 1H IN PTR   ripe-atlas-esams.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.0.2.0.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; unused (2620:0:862:fe00::/64)
 
@@ -99,59 +49,47 @@ $ORIGIN 0.0.e.f.@Z
 ; cr3-esams <--> cr3-knams (2620:0:862:fe01::/64)
 
 $ORIGIN 1.0.e.f.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-401.cr3-esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0-401.cr3-knams.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.0.e.f.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr2-esams <--> cr3-esams (2620:0:862:fe02::/64)
 
 $ORIGIN 2.0.e.f.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr2-esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr3-esams.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.0.e.f.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr2-esams <--> cr3-knams (2620:0:862:fe03::/64)
 
 $ORIGIN 3.0.e.f.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-403.cr2-esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0-403.cr3-knams.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/3.0.e.f.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr3-esams <--> mr1-esams (2620:0:862:fe04::/64)
 
 $ORIGIN 4.0.e.f.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  ae1-402.cr3-esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  ge-0-0-1-402.mr1-esams.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/4.0.e.f.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr2-esams <--> mr1-esams (2620:0:862:fe05::/64)
 
 $ORIGIN 5.0.e.f.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  ae1-404.cr2-esams.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR  ge-0-0-1-404.mr1-esams.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/5.0.e.f.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr1-eqiad <--> cr3-knams (2620:0:862:fe06::/64)
 
 $ORIGIN 6.0.e.f.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-2.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-5-cr3-knams.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/6.0.e.f.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr2-eqiad <--> cr2-esams (2620:0:862:fe07::/64)
 
 $ORIGIN 7.0.e.f.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-1-3.cr2-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-3.cr2-esams.wikimedia.org.
-
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/7.0.e.f.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; Loopback IPs
 
 $ORIGIN f.f.f.f.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mr1-esams.wikimedia.org.
-
-3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-esams.wikimedia.org.
-4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr3-knams.wikimedia.org.
-5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr3-esams.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/f.f.f.f.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa

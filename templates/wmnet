@@ -2236,72 +2236,8 @@ $INCLUDE netbox/mgmt.codfw.wmnet
 ;
 
 $ORIGIN esams.wmnet.
-
-lvs3005     1H      IN A    10.20.0.15
-lvs3005     1H      IN AAAA 2620:0:862:102:10:20:0:15
-lvs3006     1H      IN A    10.20.0.16
-lvs3006     1H      IN AAAA 2620:0:862:102:10:20:0:16
-lvs3007     1H      IN A    10.20.0.17
-lvs3007     1H      IN AAAA 2620:0:862:102:10:20:0:17
-
-vl100-enp175s0f0.lvs3005 1H IN A 91.198.174.15
-vl100-enp175s0f0.lvs3006 1H IN A 91.198.174.16
-vl100-enp175s0f0.lvs3007 1H IN A 91.198.174.17
-
-ganeti3001  1H      IN A    10.20.0.31
-ganeti3001  1H      IN AAAA 2620:0:862:102:10:20:0:31
-ganeti3002  1H      IN A    10.20.0.32
-ganeti3002  1H      IN AAAA 2620:0:862:102:10:20:0:32
-ganeti3003  1H      IN A    10.20.0.33
-ganeti3003  1H      IN AAAA 2620:0:862:102:10:20:0:33
-
-cp3050      1H      IN A    10.20.0.50
-cp3050      1H      IN AAAA 2620:0:862:102:10:20:0:50
-cp3051      1H      IN A    10.20.0.51
-cp3051      1H      IN AAAA 2620:0:862:102:10:20:0:51
-cp3052      1H      IN A    10.20.0.52
-cp3052      1H      IN AAAA 2620:0:862:102:10:20:0:52
-cp3053      1H      IN A    10.20.0.53
-cp3053      1H      IN AAAA 2620:0:862:102:10:20:0:53
-cp3054      1H      IN A    10.20.0.54
-cp3054      1H      IN AAAA 2620:0:862:102:10:20:0:54
-cp3055      1H      IN A    10.20.0.55
-cp3055      1H      IN AAAA 2620:0:862:102:10:20:0:55
-cp3056      1H      IN A    10.20.0.56
-cp3056      1H      IN AAAA 2620:0:862:102:10:20:0:56
-cp3057      1H      IN A    10.20.0.57
-cp3057      1H      IN AAAA 2620:0:862:102:10:20:0:57
-cp3058      1H      IN A    10.20.0.58
-cp3058      1H      IN AAAA 2620:0:862:102:10:20:0:58
-cp3059      1H      IN A    10.20.0.59
-cp3059      1H      IN AAAA 2620:0:862:102:10:20:0:59
-cp3060      1H      IN A    10.20.0.60
-cp3060      1H      IN AAAA 2620:0:862:102:10:20:0:60
-cp3061      1H      IN A    10.20.0.61
-cp3061      1H      IN AAAA 2620:0:862:102:10:20:0:61
-cp3062      1H      IN A    10.20.0.62
-cp3062      1H      IN AAAA 2620:0:862:102:10:20:0:62
-cp3063      1H      IN A    10.20.0.63
-cp3063      1H      IN AAAA 2620:0:862:102:10:20:0:63
-cp3064      1H      IN A    10.20.0.64
-cp3064      1H      IN AAAA 2620:0:862:102:10:20:0:64
-cp3065      1H      IN A    10.20.0.65
-cp3065      1H      IN AAAA 2620:0:862:102:10:20:0:65
-
-netflow3001 1H      IN A    10.20.0.100 ; VM on ganeti01.svc.esams.wmnet
-netflow3001 1H      IN AAAA 2620:0:862:102:10:20:0:100 ; VM on ganeti01.svc.esams.wmnet
-ncredir3001 1H      IN A    10.20.0.101 ; VM on ganeti01.svc.esams.wmnet
-ncredir3001 1H      IN AAAA 2620:0:862:102:10:20:0:101 ; VM on ganeti01.svc.esams.wmnet
-ncredir3002 1H      IN A    10.20.0.102 ; VM on ganeti01.svc.esams.wmnet
-ncredir3002 1H      IN AAAA 2620:0:862:102:10:20:0:102 ; VM on ganeti01.svc.esams.wmnet
-
-ping3001    1H      IN A    10.20.0.103 ; VM on ganeti01.svc.esams.wmnet
-
-prometheus3001 1H      IN A    10.20.0.104 ; VM on ganeti01.svc.esams.wmnet
-prometheus3001 1H      IN AAAA 2620:0:862:102:10:20:0:104 ; VM on ganeti01.svc.esams.wmnet
-
-testvm3001 1H      IN A    10.20.0.6 ; VM on ganeti01.svc.esams.wmnet
-testvm3001 1H      IN AAAA 2620:0:862:102:10:20:0:6 ; VM on ganeti01.svc.esams.wmnet
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/esams.wmnet
 
 ;
 ; SERVICES
@@ -2469,10 +2405,10 @@ termbox-test    1H  IN CNAME    staging.svc.eqiad.wmnet.
 ; ESAMS SERVICES
 
 $ORIGIN svc.esams.wmnet.
-
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/svc.esams.wmnet
 ; Used for consistency with eqiad/codfw
 prometheus  5M  IN CNAME    prometheus3001.esams.wmnet.
-ganeti01    1H  IN A        10.20.0.30
 
 ; ULSFO SERVICES
 

@@ -12,4 +12,5 @@
 
 $ORIGIN 1.0.0.0.0.0.5.0.@Z
 
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0   1H  IN PTR  ge-2-0-0-2483.mr1-esams.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.0.0.0.0.0.5.0.0.8.c.e.2.0.a.2.ip6.arpa
