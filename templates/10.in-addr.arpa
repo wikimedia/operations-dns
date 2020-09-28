@@ -889,7 +889,7 @@ $ORIGIN 32.64.@Z
 168     1H IN PTR       francium.eqiad.wmnet.
 
 173     1H IN PTR       ganeti01.svc.eqiad.wmnet.
-174     1H IN PTR       mendelevium.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
 175     1H IN PTR       mwlog1001.eqiad.wmnet.
 
 178     1H IN PTR       etherpad1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet

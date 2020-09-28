@@ -815,7 +815,6 @@ mc1036          1H  IN A        10.64.48.158
 mc-gp1001       1H  IN A        10.64.0.53
 mc-gp1002       1H  IN A        10.64.32.101
 mc-gp1003       1H  IN A        10.64.48.32
-mendelevium     1H  IN A        10.64.32.174 ; VM on ganeti01.svc.eqiad.wmnet
 miscweb1002     1H  IN A        10.64.32.187 ; VM on ganeti01.svc.eqiad.wmnet
 miscweb1002     1H  IN AAAA     2620:0:861:103:10:64:32:187 ; VM on ganeti01.svc.eqiad.wmnet
 moscovium       1H  IN A        10.64.0.54 ; VM on ganeti01.svc.eqiad.wmnet
