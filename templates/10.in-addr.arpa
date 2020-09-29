@@ -2061,7 +2061,6 @@ $ORIGIN 48.192.@Z
 37  1H IN PTR   db2120.codfw.wmnet.
 38  1H IN PTR   kafka-main2004.codfw.wmnet.
 39  1H IN PTR   elastic2050.codfw.wmnet.
-40  1H IN PTR   es2013.codfw.wmnet.
 41  1H IN PTR   es2016.codfw.wmnet.
 42  1H IN PTR   es2019.codfw.wmnet.
 43  1H IN PTR   scb2002.codfw.wmnet.
