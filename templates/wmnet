@@ -1320,12 +1320,14 @@ frauth1001      1H      IN A    10.64.40.68
 frban1001       1H      IN A    10.64.40.112
 frbast1001      1H      IN A    10.64.40.35
 frdata1001      1H      IN A    10.64.40.131
+frdata1002      1H      IN A    10.64.40.166
 frdb1001        1H      IN A    10.64.40.114
 frdb1002        1H      IN A    10.64.40.99
 frdb1003        1H      IN A    10.64.40.118
 frdev1001       1H      IN A    10.64.40.117
 frlog1001       1H      IN A    10.64.40.72
 frmon1001       1H      IN A    10.64.40.73
+frmx1001        1H      IN A    10.64.40.167
 frnetmon1001    1H      IN A    10.64.40.67
 frpig1001       1H      IN A    10.64.40.164
 frpig1001-fundraising 1H      IN A    10.64.40.165
