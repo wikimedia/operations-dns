@@ -2306,6 +2306,9 @@ ping3001    1H      IN A    10.20.0.103 ; VM on ganeti01.svc.esams.wmnet
 prometheus3001 1H      IN A    10.20.0.104 ; VM on ganeti01.svc.esams.wmnet
 prometheus3001 1H      IN AAAA 2620:0:862:102:10:20:0:104 ; VM on ganeti01.svc.esams.wmnet
 
+testvm3001 1H      IN A    10.20.0.6 ; VM on ganeti01.svc.esams.wmnet
+testvm3001 1H      IN AAAA 2620:0:862:102:10:20:0:6 ; VM on ganeti01.svc.esams.wmnet
+
 ;
 ; SERVICES
 ;

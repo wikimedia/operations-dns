@@ -145,6 +145,8 @@ $ORIGIN 0.20.@Z
 2   1H  IN PTR  ae1-103.cr3-esams.wikimedia.org.
 3   1H  IN PTR  ae1-103.cr2-esams.wikimedia.org.
 
+6   1H  IN PTR      testvm3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
+
 15  1H  IN PTR      lvs3005.esams.wmnet.
 16  1H  IN PTR      lvs3006.esams.wmnet.
 17  1H  IN PTR      lvs3007.esams.wmnet.

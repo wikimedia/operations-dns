@@ -66,6 +66,7 @@ $ORIGIN 2.0.1.0.@Z
 1.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   ncredir3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
 2.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   ncredir3002.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
 4.0.1.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   prometheus3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
+6.0.0.0.0.0.0.0.0.2.0.0.0.1.0.0 1H IN PTR   testvm3001.esams.wmnet. ; VM on ganeti01.svc.esams.wmnet
 
 ; 2620:0:862:ed1a::/64 - LVS Public Service IPs (allocated)
 
