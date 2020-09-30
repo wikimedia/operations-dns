@@ -1052,10 +1052,10 @@ $ORIGIN 40.64.@Z
 
 ; 10.64.40.160/27 - frack-listenerdmz1-c-eqiad
 161 1H IN PTR   reth0-1137.pfw3-eqiad.frack.eqiad.wmnet.
+162 1H IN PTR   frmx1001.frack.eqiad.wmnet.
+163 1H IN PTR   frdata1002.frack.eqiad.wmnet.
 164 1H IN PTR   frpig1001.frack.eqiad.wmnet.
 165 1H IN PTR   frpig1001-fundraising.frack.eqiad.wmnet.
-166 1H IN PTR   frdata1002.frack.eqiad.wmnet.
-167 1H IN PTR   frmx1001.frack.eqiad.wmnet.
 
 ; 10.64.40.192/26 - frack-management1-c-eqiad
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
