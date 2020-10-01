@@ -168,12 +168,13 @@ $ORIGIN 0.64.@Z
 9   1H IN PTR   snapshot1005.eqiad.wmnet.
 10  1H IN PTR   pki1001.eqiad.wmnet.
 11  1H IN PTR   logstash1020.eqiad.wmnet.
+12  1H IN PTR   maps1005.eqiad.wmnet.
 13  1H IN PTR   db1116.eqiad.wmnet.
 14  1H IN PTR   wdqs1003.eqiad.wmnet.
 15  1H IN PTR   db1117.eqiad.wmnet.
 16  1H IN PTR   scb1001.eqiad.wmnet.
 17  1H IN PTR   wdqs1004.eqiad.wmnet.
-
+18  1H IN PTR   maps1006.eqiad.wmnet.
 21  1H IN PTR   ms-be1028.eqiad.wmnet.
 23  1H IN PTR   conf1004.eqiad.wmnet.
 24  1H IN PTR   rdb1005.eqiad.wmnet.
@@ -427,7 +428,7 @@ $ORIGIN 16.64.@Z
 1   1H IN PTR   vrrp-gw-1018.eqiad.wmnet.
 2   1H IN PTR   ae2-1018.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae2-1018.cr2-eqiad.wikimedia.org.
-
+6   1H IN PTR   maps1007.eqiad.wmnet.
 7   1H IN PTR   db1112.eqiad.wmnet.
 8   1H IN PTR   phab1001.eqiad.wmnet.
 9   1H IN PTR   ms-be1041.eqiad.wmnet.
@@ -448,6 +449,7 @@ $ORIGIN 16.64.@Z
 24  1H IN PTR   cp1081.eqiad.wmnet.
 25  1H IN PTR   cp1082.eqiad.wmnet.
 26  1H IN PTR   dbstore1004.eqiad.wmnet.
+27  1H IN PTR   maps1008.eqiad.wmnet.
 28  1H IN PTR   ms-be1047.eqiad.wmnet.
 29  1H IN PTR   conf1005.eqiad.wmnet.
 30  1H IN PTR   logstash1011.eqiad.wmnet.
@@ -719,6 +721,7 @@ $ORIGIN 32.64.@Z
 
 6       1H IN PTR       db1131.eqiad.wmnet.
 7       1H IN PTR       db1150.eqiad.wmnet.
+8       1H IN PTR       maps1009.eqiad.wmnet.
 
 10      1H IN PTR       ms-be1042.eqiad.wmnet.
 11      1H IN PTR       db1120.eqiad.wmnet.
@@ -1031,7 +1034,7 @@ $ORIGIN 48.64.@Z
 1   1H IN PTR   vrrp-gw-1020.eqiad.wmnet.
 2   1H IN PTR   ae4-1020.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae4-1020.cr2-eqiad.wikimedia.org.
-
+6   1H IN PTR   maps1010.eqiad.wmnet.
 10      1H IN PTR       restbase-dev1006.eqiad.wmnet.
 12      1H IN PTR       db1102.eqiad.wmnet.
 13      1H IN PTR       db1106.eqiad.wmnet.
