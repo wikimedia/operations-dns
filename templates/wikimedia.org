@@ -202,6 +202,7 @@ frdata-eqiad    1H  IN A    208.80.155.10
 frdev-eqiad     1H  IN A    208.80.155.13
 frmon-eqiad.frdev 1H  IN A    208.80.155.9
 frmon-codfw.frdev 1H  IN A    208.80.152.235
+frmx1001        1H  IN A    208.80.155.15
 frmx2001        1H  IN A    208.80.152.236
 fundraising-eqiad 1H  IN A    208.80.155.14
 gerrit1001      1H  IN A    208.80.154.136
