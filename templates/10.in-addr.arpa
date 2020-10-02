@@ -722,7 +722,7 @@ $ORIGIN 32.64.@Z
 6       1H IN PTR       db1131.eqiad.wmnet.
 7       1H IN PTR       db1150.eqiad.wmnet.
 8       1H IN PTR       maps1009.eqiad.wmnet.
-9       1H IN PTR       etherpad1003.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
 10      1H IN PTR       ms-be1042.eqiad.wmnet.
 11      1H IN PTR       db1120.eqiad.wmnet.
 12      1H IN PTR       db1121.eqiad.wmnet.
