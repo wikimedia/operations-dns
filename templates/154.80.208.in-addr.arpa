@@ -79,6 +79,7 @@
 136 1H  IN PTR  gerrit1001.wikimedia.org.
 137 1H  IN PTR  gerrit.wikimedia.org.
 138 1H  IN PTR  cloudelastic1006.wikimedia.org.
+139 1H  IN PTR  ldap-replica1001.wikimedia.org.
 
 143 1H  IN PTR  ns-recursor0.openstack.eqiad1.wikimediacloud.org.
 144 1H  IN PTR  molybdenum.wikimedia.org.
