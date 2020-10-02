@@ -73,6 +73,7 @@
 97  1H  IN PTR  vrrp-gw-2004.wikimedia.org.
 98  1H  IN PTR  ae4-2004.cr1-codfw.wikimedia.org.
 99  1H  IN PTR  ae4-2004.cr2-codfw.wikimedia.org.
+102 1H  IN PTR  ldap-replica2004.wikimedia.org.
 106 1H  IN PTR  gerrit2001.wikimedia.org.
 107 1H  IN PTR  gerrit-replica.wikimedia.org.
 108 1H  IN PTR  labtestpuppetmaster2001.wikimedia.org.
