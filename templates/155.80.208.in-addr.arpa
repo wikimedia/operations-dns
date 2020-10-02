@@ -47,6 +47,7 @@
 98  1H IN PTR   ae4-1004.cr1-eqiad.wikimedia.org.
 99  1H IN PTR   ae4-1004.cr2-eqiad.wikimedia.org.
 
+102 1H IN PTR   ldap-replica1002.wikimedia.org.
 106 1H IN PTR   labstore1007.wikimedia.org.
 107 1H IN PTR   cloudelastic1004.wikimedia.org.
 108 1H IN PTR   dns1002.wikimedia.org.

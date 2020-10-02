@@ -86,6 +86,7 @@ $ORIGIN 3.0.0.0.@Z
 ; public1-d-eqiad (2620:0:861:4::/64)
 $ORIGIN 4.0.0.0.@Z
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1004.wikimedia.org.
+2.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ldap-replica1002.wikimedia.org.
 
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1004.cr1-eqiad.wikimedia.org.
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1004.cr2-eqiad.wikimedia.org.
@@ -95,7 +96,6 @@ $ORIGIN 4.0.0.0.@Z
 6.2.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudstore1009.wikimedia.org.
 
 9.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labweb1002.wikimedia.org.
-
 6.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labstore1007.wikimedia.org.
 7.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1004.wikimedia.org.
 8.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dns1002.wikimedia.org.
