@@ -58,6 +58,7 @@
 65  1H  IN PTR  vrrp-gw-2003.wikimedia.org.
 66  1H  IN PTR  ae3-2003.cr1-codfw.wikimedia.org.
 67  1H  IN PTR  ae3-2003.cr2-codfw.wikimedia.org.
+70  1H  IN PTR  ldap-replica2003.wikimedia.org.
 74  1H  IN PTR  icinga2001.wikimedia.org.
 75  1H  IN PTR  cloudcontrol2003-dev.wikimedia.org.
 76  1H  IN PTR  cloudservices2002-dev.wikimedia.org.
