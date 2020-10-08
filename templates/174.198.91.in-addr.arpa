@@ -45,7 +45,7 @@ $INCLUDE netbox/240-31.174.198.91.in-addr.arpa
 ; 91.198.174.242/31 - cr2-esams <--> mr1-esams
 ; 91.198.174.244 loopbacks
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/174.198.91.in-addr.arpa
+$INCLUDE netbox/224-27.174.198.91.in-addr.arpa
 
 ; 91.198.174.248/31 - cr2-eqiad <--> cr2-esams
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
