@@ -1860,7 +1860,6 @@ $ORIGIN 32.192.@Z
 126 1H IN PTR   ms-be2020.codfw.wmnet.
 127 1H IN PTR   ms-be2021.codfw.wmnet.
 128 1H IN PTR   elastic2045.codfw.wmnet.
-130 1H IN PTR   es2015.codfw.wmnet.
 131 1H IN PTR   mwlog2001.codfw.wmnet.
 132 1H IN PTR   scb2001.codfw.wmnet.
 133 1H IN PTR   rdb2005.codfw.wmnet.
