@@ -29,38 +29,17 @@ $INCLUDE netbox/96-27.26.35.198.in-addr.arpa
 ; 198.35.26.128/26 (128-191) - unused
 
 ; 198.35.26.192/27 (192-223) - Infrastructure Space
-
 ; - 198.35.26.192/30 (192-195) -- Routers
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/192-27.26.35.198.in-addr.arpa
-
 ; - 198.35.26.196/31 (196-197) -- cr3-ulsfo <--> cr4-ulsfo
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/196-31.26.35.198.in-addr.arpa
-
 ; - 198.35.26.198/31 (198-199) -- cr3-ulsfo <--> mr1-ulsfo
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/198-31.26.35.198.in-addr.arpa
-
 ; - 198.35.26.200/31 (200-201) -- cr4-ulsfo <--> mr1-ulsfo
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/200-31.26.35.198.in-addr.arpa
-
 ; - 198.35.26.202/31 (202-203) unused
-
 ; - 198.35.26.204/31 (204-205) cr4-ulsfo <--> cr2-eqdfw
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/204-31.26.35.198.in-addr.arpa
-
 ; - 198.35.26.206/31 (206-207) unused
-
 ; - 198.35.26.208/31 (208-209) -- cr3-ulsfo <--> cr2-eqord
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/208-31.26.35.198.in-addr.arpa
-
 ; - 198.35.26.210/31 (210-211) -- cr4-ulsfo <--> cr1-codfw
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/210-31.26.35.198.in-addr.arpa
+$INCLUDE netbox/192-27.26.35.198.in-addr.arpa
 
 ; 198.35.26.224/29 (224-231) - Office interconnect
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox

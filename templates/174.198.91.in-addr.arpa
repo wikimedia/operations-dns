@@ -29,36 +29,18 @@ $INCLUDE netbox/192-27.174.198.91.in-addr.arpa
 
 ; 91.198.174.224/30 - UNUSED
 
-; 91.198.174.228/31 - cr3-esams <--> cr3-knams (via asw)
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/228-31.174.198.91.in-addr.arpa
-
-; 91.198.174.230/31 (230-231) UNUSED
-
-; 91.198.174.232/29 (232-239) out-of-subnet LVS service IPs
+; 91.198.174.228/27
+; - 91.198.174.228/31 - cr3-esams <--> cr3-knams (via asw)
+; - 91.198.174.230/31 (230-231) UNUSED
+; - 91.198.174.232/29 (232-239) out-of-subnet LVS service IPs
 239 1D IN PTR   ns2.wikimedia.org.
 
-; 91.198.174.240/31 - cr3-esams <--> mr1-esams
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/240-31.174.198.91.in-addr.arpa
-
-; 91.198.174.242/31 - cr2-esams <--> mr1-esams
-; 91.198.174.244 loopbacks
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/224-27.174.198.91.in-addr.arpa
-
+; - 91.198.174.240/31 - cr3-esams <--> mr1-esams
+; - 91.198.174.242/31 - cr2-esams <--> mr1-esams
+; - 91.198.174.244 loopbacks
 ; 91.198.174.248/31 - cr2-eqiad <--> cr2-esams
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/248-31.174.198.91.in-addr.arpa
-
 ; 91.198.174.250/31 - cr1-eqiad <--> cr3-knams
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/250-31.174.198.91.in-addr.arpa
-
 ; 91.198.174.252/31 - cr2-esams <--> cr3-esams
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/252-31.174.198.91.in-addr.arpa
-
 ; 91.198.174.254/31 - cr2-esams <--> cr3-knams (via asw)
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/254-31.174.198.91.in-addr.arpa
+$INCLUDE netbox/224-27.174.198.91.in-addr.arpa

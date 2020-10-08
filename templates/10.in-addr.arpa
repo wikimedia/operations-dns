@@ -144,6 +144,13 @@ $ORIGIN 0.20.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0.20.10.in-addr.arpa
 
+
+; tunnels (10.20.4.0/24)
+
+$ORIGIN 4.20.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/4.20.10.in-addr.arpa
+
 ; Management
 
 $ORIGIN 0.21.@Z
@@ -1354,6 +1361,11 @@ $INCLUDE netbox/0.128.10.in-addr.arpa
 $ORIGIN 0.132.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0.132.10.in-addr.arpa
+
+; 10.132.4.0/24 - tunnels
+$ORIGIN 4.132.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/4.132.10.in-addr.arpa
 
 ; 10.132.128.0/17 - eqsin mgmt
 $ORIGIN 128.132.@Z
