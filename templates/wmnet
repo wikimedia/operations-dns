@@ -1199,6 +1199,8 @@ cloudvirt1014   1H  IN A        10.64.20.30
 cloudvirt1016   1H  IN A        10.64.20.32
 cloudvirt1017   1H  IN A        10.64.20.33
 cloudvirt1018   1H  IN A        10.64.20.34
+testvm1001      1H  IN A        10.64.32.9 ; VM on ganeti01.svc.eqiad.wmnet
+testvm1001      1H  IN AAAA     2620:0:861:103:10:64:32:9 ; VM on ganeti01.svc.eqiad.wmnet
 webperf1001     1H  IN A        10.64.0.215 ; VM on ganeti01.svc.eqiad.wmnet
 webperf1001     1H  IN AAAA     2620:0:861:101:10:64:0:215 ; VM on ganeti01.svc.eqiad.wmnet
 webperf1002     1H  IN A        10.64.0.216 ; VM on ganeti01.svc.eqiad.wmnet
