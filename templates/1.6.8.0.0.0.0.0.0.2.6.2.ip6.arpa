@@ -310,6 +310,7 @@ $ORIGIN 6.0.1.0.@Z
 4.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1064.eqiad.wmnet.
 5.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1065.eqiad.wmnet.
 6.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1066.eqiad.wmnet.
+7.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-coord1002.eqiad.wmnet.
 8.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1074.eqiad.wmnet.
 9.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1075.eqiad.wmnet.
 2.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1002.eqiad.wmnet.
