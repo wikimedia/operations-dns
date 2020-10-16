@@ -1496,7 +1496,6 @@ $ORIGIN 0.192.@Z
 119 1H IN PTR   db2104.codfw.wmnet.
 120 1H IN PTR   db2105.codfw.wmnet.
 121 1H IN PTR   acmechief2001.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
-124 1H IN PTR   cp2003.codfw.wmnet.
 128 1H IN PTR   db2106.codfw.wmnet.
 129 1H IN PTR   dbproxy2001.codfw.wmnet.
 130 1H IN PTR   cloudbackup2001.codfw.wmnet.
@@ -1695,7 +1694,6 @@ $ORIGIN 16.192.@Z
 132 1H IN PTR   kubetcd2006.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
 133 1H IN PTR   thanos-fe2002.codfw.wmnet.
 134 1H IN PTR   db2137.codfw.wmnet.
-135 1H IN PTR   cp2009.codfw.wmnet.
 136 1H IN PTR   thanos-be2002.codfw.wmnet.
 137 1H IN PTR   kubestage2002.codfw.wmnet.
 138 1H IN PTR   kubernetes2009.codfw.wmnet.
@@ -1857,7 +1855,6 @@ $ORIGIN 32.192.@Z
 111 1H IN PTR   restbase2016-b.codfw.wmnet.
 112 1H IN PTR   mw2335.codfw.wmnet.
 113 1H IN PTR   mw2336.codfw.wmnet.
-114 1H IN PTR   cp2015.codfw.wmnet.
 115 1H IN PTR   mw2337.codfw.wmnet.
 116 1H IN PTR   mw2338.codfw.wmnet.
 117 1H IN PTR   mw2339.codfw.wmnet.
@@ -1986,7 +1983,6 @@ $ORIGIN 48.192.@Z
 22  1H IN PTR   mw2372.codfw.wmnet.
 23  1H IN PTR   thanos-fe2003.codfw.wmnet.
 24  1H IN PTR   db2139.codfw.wmnet.
-25  1H IN PTR   cp2021.codfw.wmnet.
 26  1H IN PTR   db2140.codfw.wmnet.
 27  1H IN PTR   thanos-be2004.codfw.wmnet.
 28  1H IN PTR   kubernetes2013.codfw.wmnet.
