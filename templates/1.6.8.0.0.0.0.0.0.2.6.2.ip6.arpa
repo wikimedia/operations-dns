@@ -104,355 +104,59 @@ $ORIGIN 4.0.0.0.@Z
 
 ; private1-a-eqiad (2620:0:861:101::/64)
 $ORIGIN 1.0.1.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1017.eqiad.wmnet.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1017.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1017.cr2-eqiad.wikimedia.org.
-
-7.2.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1017.eqiad.wmnet.
-
-5.4.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   chlorine.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-0.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1075.eqiad.wmnet.
-1.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1076.eqiad.wmnet.
-2.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1077.eqiad.wmnet.
-3.3.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1078.eqiad.wmnet.
-
-5.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1001.eqiad.wmnet.
-6.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1002.eqiad.wmnet.
-1.1.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   logstash1020.eqiad.wmnet.
-1.2.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1001.eqiad.wmnet.
-5.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-7.1.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1007.eqiad.wmnet.
-8.1.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1008.eqiad.wmnet.
-7.4.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestage1001.eqiad.wmnet.
-5.8.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubetcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-7.8.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestagetcd1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
-0.4.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   neon.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-5.5.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   planet1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-3.2.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   prometheus1003.eqiad.wmnet.
-9.2.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafkamon1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-0.1.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafkamon1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-2.1.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   krb1001.eqiad.wmnet.
-3.5.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   ncredir1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
-3.2.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   conf1004.eqiad.wmnet.
-
-0.0.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1001.eqiad.wmnet.
-
-6.0.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   htmldumper1001.eqiad.wmnet.
-
-5.1.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   webperf1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-6.1.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   webperf1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
-5.3.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1004.eqiad.wmnet.
-
-7.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1004.eqiad.wmnet.
-8.0.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   netboxdb1001.eqiad.wmnet.  ; VM on ganeti01.svc.eqiad.wmnet
-
-9.9.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1007.eqiad.wmnet.
-
-7.0.2.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   people1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-2.4.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   doc1001.eqiad.wmnet.    ; VM on ganeti01.svc.eqiad.wmnet
-9.7.1.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   helium.eqiad.wmnet.
-5.7.0.0.0.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   thanos-be1001.eqiad.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.0.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; private1-b-eqiad (2620:0:861:102::/64)
 $ORIGIN 2.0.1.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1018.wikimedia.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1018.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1018.cr2-eqiad.wikimedia.org.
-
-8.0.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   phab1001.eqiad.wmnet.
-2.2.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1079.eqiad.wmnet.
-3.2.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1080.eqiad.wmnet.
-4.2.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1081.eqiad.wmnet.
-5.2.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1082.eqiad.wmnet.
-2.9.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestage1002.eqiad.wmnet.
-9.9.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1003.eqiad.wmnet.
-1.4.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   logstash1021.eqiad.wmnet.
-6.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1003.eqiad.wmnet.
-7.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1002.eqiad.wmnet.
-8.3.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   prometheus1004.eqiad.wmnet.
-8.7.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubetcd1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-9.7.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestagetcd1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-
-3.7.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1001.eqiad.wmnet.
-
-0.0.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   phab1001-vcs.eqiad.wmnet.
-5.7.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1002.eqiad.wmnet.
-8.8.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1009.eqiad.wmnet.
-9.8.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1010.eqiad.wmnet.
-9.7.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1015.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-7.7.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   mwmaint1002.eqiad.wmnet.
-
-9.2.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   conf1005.eqiad.wmnet.
-
-1.7.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1007.eqiad.wmnet.
-2.7.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1005.eqiad.wmnet.
-
-4.1.0.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1008.eqiad.wmnet.
-
-0.4.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cescout1001.eqiad.wmnet.
-7.7.1.0.6.1.0.0.4.6.0.0.0.1.0.0 1H IN PTR   thanos-be1002.eqiad.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.0.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; private1-c-eqiad (2620:0:861:103::/64)
 $ORIGIN 3.0.1.0.@Z
-
-3.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   argon.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-5.2.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cumin1001.eqiad.wmnet.
-6.1.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   deploy1001.eqiad.wmnet.
-9.1.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   rpki1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-3.1.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   dborch1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-8.2.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   deploy1002.eqiad.wmnet.
-8.6.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   francium.eqiad.wmnet.
-9.0.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   testvm1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-6.2.2.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubestagetcd1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-5.1.2.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubetcd1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-7.6.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1083.eqiad.wmnet.
-8.6.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1084.eqiad.wmnet.
-9.6.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1085.eqiad.wmnet.
-0.7.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1086.eqiad.wmnet.
-4.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   acmechief1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-6.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   acmechief-test1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-8.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   netflow1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-9.8.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   ncredir1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-0.9.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1003.eqiad.wmnet.
-7.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   matomo1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-3.0.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   flowspec1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-7.0.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   backup1002.eqiad.wmnet.
-9.5.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1004.eqiad.wmnet.
-0.6.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1005.eqiad.wmnet.
-6.0.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1007.eqiad.wmnet.
-7.2.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   logstash1022.eqiad.wmnet.
-3.2.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1003.eqiad.wmnet.
-8.1.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-4.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1011.eqiad.wmnet.
-5.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1012.eqiad.wmnet.
-1.7.0.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   db1108.eqiad.wmnet.
-8.3.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1005.eqiad.wmnet.
-
-7.8.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   miscweb1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-2.5.1.0.2.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   thanos-be1003.eqiad.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/3.0.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; analytics1-a-eqiad (2620:0:861:104::/64)
 $ORIGIN 4.0.1.0.@Z
-6.0.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-test-client1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-5.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1052.eqiad.wmnet.
-6.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1053.eqiad.wmnet.
-7.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1054.eqiad.wmnet.
-8.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1055.eqiad.wmnet.
-9.1.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1056.eqiad.wmnet.
-0.2.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1057.eqiad.wmnet.
-1.2.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1058.eqiad.wmnet.
-2.2.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1059.eqiad.wmnet.
-3.2.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1060.eqiad.wmnet.
-4.2.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1070.eqiad.wmnet.
-5.2.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1071.eqiad.wmnet.
-2.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-tool1006.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-1.0.1.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1001.eqiad.wmnet.
-4.0.1.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   stat1004.eqiad.wmnet.
-6.2.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-master1001.eqiad.wmnet.
-
-7.2.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1078.eqiad.wmnet.
-8.2.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1079.eqiad.wmnet.
-9.2.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1080.eqiad.wmnet.
-0.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1081.eqiad.wmnet.
-1.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1082.eqiad.wmnet.
-
-3.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-presto1002.eqiad.wmnet.
-4.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-presto1005.eqiad.wmnet.
-5.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   stat1008.eqiad.wmnet.
-6.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-druid1001.eqiad.wmnet.
-8.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-test-worker1001.eqiad.wmnet.
-9.3.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-test-master1001.eqiad.wmnet.
-0.4.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1102.eqiad.wmnet.
-1.4.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1103.eqiad.wmnet.
-2.4.0.0.5.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1096.eqiad.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/4.0.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; analytics1-b-eqiad (2620:0:861:105::/64)
 $ORIGIN 5.0.1.0.@Z
-5.0.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1046.eqiad.wmnet.
-6.0.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1047.eqiad.wmnet.
-7.0.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1048.eqiad.wmnet.
-8.0.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1049.eqiad.wmnet.
-1.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1050.eqiad.wmnet.
-2.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1051.eqiad.wmnet.
-3.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1061.eqiad.wmnet.
-4.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1062.eqiad.wmnet.
-5.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1063.eqiad.wmnet.
-6.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1072.eqiad.wmnet.
-7.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1073.eqiad.wmnet.
-9.0.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-launcher1002.eqiad.wmnet.
-0.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-master1002.eqiad.wmnet.
-8.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   stat1007.eqiad.wmnet.
-4.0.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-coord1001.eqiad.wmnet.
-9.1.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1083.eqiad.wmnet.
-0.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1084.eqiad.wmnet.
-1.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1085.eqiad.wmnet.
-2.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1086.eqiad.wmnet.
-3.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1087.eqiad.wmnet.
-4.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-conf1001.eqiad.wmnet.
-5.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-presto1004.eqiad.wmnet.
-7.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-tool1008.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-8.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-tool1009.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-9.2.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1117.eqiad.wmnet.
-0.3.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1097.eqiad.wmnet.
-1.3.1.0.1.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1098.eqiad.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/5.0.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; analytics1-c-eqiad (2620:0:861:106::/64)
 $ORIGIN 6.0.1.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1022.wikimedia.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1022.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1022.cr2-eqiad.wikimedia.org.
-8.2.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1028.eqiad.wmnet.
-9.2.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1029.eqiad.wmnet.
-0.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1030.eqiad.wmnet.
-1.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1031.eqiad.wmnet.
-3.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1033.eqiad.wmnet.
-4.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1034.eqiad.wmnet.
-4.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1064.eqiad.wmnet.
-5.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1065.eqiad.wmnet.
-6.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1066.eqiad.wmnet.
-7.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-coord1002.eqiad.wmnet.
-8.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1074.eqiad.wmnet.
-9.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1075.eqiad.wmnet.
-2.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1002.eqiad.wmnet.
-0.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics-tool1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-6.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics-tool1004.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-7.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-tool1005.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-8.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-tool1007.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-9.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-airflow1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-0.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1088.eqiad.wmnet.
-1.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-druid1002.eqiad.wmnet.
-3.0.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1089.eqiad.wmnet.
-1.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-test-worker1002.eqiad.wmnet.
-2.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-test-master1002.eqiad.wmnet.
-3.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1090.eqiad.wmnet.
-5.1.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1091.eqiad.wmnet.
-5.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-conf1002.eqiad.wmnet.
-6.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1104.eqiad.wmnet.
-7.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1105.eqiad.wmnet.
-8.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1106.eqiad.wmnet.
-9.3.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1107.eqiad.wmnet.
-0.4.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1108.eqiad.wmnet.
-1.4.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1109.eqiad.wmnet.
-2.4.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1110.eqiad.wmnet.
-3.4.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1111.eqiad.wmnet.
-4.4.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1099.eqiad.wmnet.
-5.4.1.0.6.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1100.eqiad.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/6.0.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; private1-d-eqiad (2620:0:861:107::/64)
 $ORIGIN 7.0.1.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1020.eqiad.wmnet.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1020.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1020.cr2-eqiad.wikimedia.org.
-0.3.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1004.eqiad.wmnet.
-1.3.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-main1005.eqiad.wmnet.
-
-8.3.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   sretest1001.eqiad.wmnet.
-9.3.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   sretest1002.eqiad.wmnet.
-
-5.4.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   puppetmaster1002.eqiad.wmnet.
-1.0.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1087.eqiad.wmnet.
-2.0.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1088.eqiad.wmnet.
-3.0.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1089.eqiad.wmnet.
-4.0.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cp1090.eqiad.wmnet.
-2.5.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1004.eqiad.wmnet.
-9.2.2.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1013.eqiad.wmnet.
-0.3.2.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1014.eqiad.wmnet.
-1.2.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kubernetes1016.eqiad.wmnet. ; VM on ganeti.svc.eqiad.wmnet
-5.9.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   eventlog1002.eqiad.wmnet.
-
-2.1.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   flerovium.eqiad.wmnet.
-7.1.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1006.eqiad.wmnet.
-1.2.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1008.eqiad.wmnet.
-0.4.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   kafka-jumbo1009.eqiad.wmnet.
-
-7.6.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   conf1006.eqiad.wmnet.
-
-1.7.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1006.eqiad.wmnet.
-
-6.4.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1006.eqiad.wmnet.
-9.1.1.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aqs1009.eqiad.wmnet.
-6.3.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   backup1001.eqiad.wmnet.
-
-7.2.2.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1008.eqiad.wmnet.
-3.3.2.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   thanos-be1004.eqiad.wmnet.
-5.1.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   xhgui1001.eqiad.wmnet.  ; VM on ganeti01.svc.eqiad.wmnet
-7.1.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   releases1002.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-2.2.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   logstash1030.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-5.2.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   logstash1031.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-6.2.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   chartmuseum1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-9.3.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   aphlict1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-0.4.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   testreduce1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
-1.4.0.0.8.4.0.0.4.6.0.0.0.1.0.0 1H IN PTR   search-loader1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/7.0.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; analytics1-d-eqiad (2620:0:861:108::/64)
 $ORIGIN 8.0.1.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1023.eqiad.wmnet.
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1023.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1023.cr2-eqiad.wikimedia.org.
-
-4.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1035.eqiad.wmnet.
-5.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1036.eqiad.wmnet.
-6.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1037.eqiad.wmnet.
-7.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1038.eqiad.wmnet.
-8.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1039.eqiad.wmnet.
-9.1.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1040.eqiad.wmnet.
-0.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1041.eqiad.wmnet.
-1.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-test-worker1003.eqiad.wmnet.
-2.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1042.eqiad.wmnet.
-3.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1043.eqiad.wmnet.
-4.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1044.eqiad.wmnet.
-5.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1045.eqiad.wmnet.
-7.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1067.eqiad.wmnet.
-8.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1068.eqiad.wmnet.
-9.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1069.eqiad.wmnet.
-2.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1076.eqiad.wmnet.
-3.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   analytics1077.eqiad.wmnet.
-4.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1092.eqiad.wmnet.
-5.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1093.eqiad.wmnet.
-6.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1094.eqiad.wmnet.
-7.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1095.eqiad.wmnet.
-8.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-conf1003.eqiad.wmnet.
-9.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-presto1001.eqiad.wmnet.
-0.4.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-presto1003.eqiad.wmnet.
-1.4.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-test-coord1001.eqiad.wmnet.
-3.0.1.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   druid1003.eqiad.wmnet.
-0.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   stat1005.eqiad.wmnet.
-1.3.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   stat1006.eqiad.wmnet.
-6.2.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   thorium.eqiad.wmnet.
-2.4.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1112.eqiad.wmnet.
-3.4.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1113.eqiad.wmnet.
-4.4.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1114.eqiad.wmnet.
-5.4.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1115.eqiad.wmnet.
-6.4.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1116.eqiad.wmnet.
-7.4.0.0.3.5.0.0.4.6.0.0.0.1.0.0 1H IN PTR   an-worker1101.eqiad.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/8.0.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cloud-support1-a-eqiad (2620:0:861:117::/64)
 $ORIGIN 7.1.1.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1117.wikimedia.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1117.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1117.cr2-eqiad.wikimedia.org.
-5.1.0.0.4.0.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudmetrics1002.eqiad.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/7.1.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cloud-hosts1-b-eqiad (2620:0:861:118::/64)
 $ORIGIN 8.1.1.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1118.wikimedia.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1118.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1118.cr2-eqiad.wikimedia.org.
-8.3.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirt1019.eqiad.wmnet.
-9.3.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirt1020.eqiad.wmnet.
-0.4.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirt1021.eqiad.wmnet.
-1.4.0.0.0.2.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudvirt1022.eqiad.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/8.1.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cloud-support1-c-eqiad (2620:0:861:119::/64)
 $ORIGIN 9.1.1.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1119.wikimedia.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1119.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1119.cr2-eqiad.wikimedia.org.
-3.1.0.0.7.3.0.0.4.6.0.0.0.1.0.0 1H IN PTR   cloudmetrics1001.eqiad.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/9.1.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 
 ; eqiad sandbox subnets (2620:0:861:200::/56)
 
