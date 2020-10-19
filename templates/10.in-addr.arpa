@@ -1620,14 +1620,6 @@ $ORIGIN 16.192.@Z
 40  1H IN PTR   db2086.codfw.wmnet.
 41  1H IN PTR   db2092.codfw.wmnet.
 42  1H IN PTR   kubernetes2002.codfw.wmnet.
-43  1H IN PTR   wtp2001.codfw.wmnet.
-44  1H IN PTR   wtp2002.codfw.wmnet.
-45  1H IN PTR   wtp2003.codfw.wmnet.
-46  1H IN PTR   wtp2004.codfw.wmnet.
-48  1H IN PTR   wtp2006.codfw.wmnet.
-49  1H IN PTR   wtp2007.codfw.wmnet.
-50  1H IN PTR   wtp2008.codfw.wmnet.
-51  1H IN PTR   wtp2009.codfw.wmnet.
 52  1H IN PTR   wtp2010.codfw.wmnet.
 53  1H IN PTR   mw2254.codfw.wmnet.
 54  1H IN PTR   mw2255.codfw.wmnet.

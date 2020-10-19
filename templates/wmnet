@@ -2104,14 +2104,6 @@ webperf2001     1H  IN A    10.192.0.96 ; VM on ganeti01.svc.codfw.wmnet
 webperf2001     1H  IN AAAA 2620:0:860:101:10:192:0:96 ; VM on ganeti01.svc.codfw.wmnet
 webperf2002     1H  IN A    10.192.0.100 ; VM on ganeti01.svc.codfw.wmnet
 webperf2002     1H  IN AAAA 2620:0:860:101:10:192:0:100 ; VM on ganeti01.svc.codfw.wmnet
-wtp2001         1H  IN A    10.192.16.43
-wtp2002         1H  IN A    10.192.16.44
-wtp2003         1H  IN A    10.192.16.45
-wtp2004         1H  IN A    10.192.16.46
-wtp2006         1H  IN A    10.192.16.48
-wtp2007         1H  IN A    10.192.16.49
-wtp2008         1H  IN A    10.192.16.50
-wtp2009         1H  IN A    10.192.16.51
 wtp2010         1H  IN A    10.192.16.52
 wtp2011         1H  IN A    10.192.32.26
 wtp2012         1H  IN A    10.192.32.27
