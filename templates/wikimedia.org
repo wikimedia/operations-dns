@@ -121,81 +121,10 @@ _dmarc.donate   1H  IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc@donate.w
 $INCLUDE netbox/wikimedia.org-ulsfo
 $INCLUDE netbox/wikimedia.org-eqsin
 $INCLUDE netbox/wikimedia.org-esams
+$INCLUDE netbox/wikimedia.org-eqiad
 
-alert1001       1H  IN A    208.80.154.88
-alert1001       1H  IN AAAA 2620:0:861:3:208:80:154:88
-alert2001       1H  IN A    208.80.153.84
-alert2001       1H  IN AAAA 2620:0:860:3:208:80:153:84
-apt1001         1H  IN A    208.80.154.30 ; VM on ganeti01.svc.eqiad.wmnet
-apt1001         1H  IN AAAA 2620:0:861:1:208:80:154:30 ; VM on ganeti01.svc.eqiad.wmnet
-apt2001         1H  IN A    208.80.153.42 ; VM on ganeti01.svc.codfw.wmnet
-apt2001         1H  IN AAAA 2620:0:860:2:208:80:153:42 ; VM on ganeti01.svc.codfw.wmnet
-archiva1002     1H  IN A    208.80.154.33 ; VM on ganeti01.svc.eqiad.wmnet
-archiva1002     1H  IN AAAA 2620:0:861:1:208:80:154:33 ; VM on ganeti01.svc.eqiad.wmnet
-authdns1001     1H  IN A    208.80.154.134
-authdns1001     1H  IN AAAA 2620:0:861:2:208:80:154:134
-authdns2001     1H  IN A    208.80.153.17
-authdns2001     1H  IN AAAA 2620:0:860:1:208:80:153:17
-bast1002        1H  IN A    208.80.154.86
-bast1002        1H  IN AAAA 2620:0:861:3:208:80:154:86
-bast2002        1H  IN A    208.80.153.54
-bast2002        1H  IN AAAA 2620:0:860:2:208:80:153:54
+; Fundraising tech hosts (no automation)
 civi1001        1H  IN A    208.80.155.11
-cloudceph2001-dev    1H  IN A    208.80.153.39
-cloudceph2001-dev    1H  IN AAAA 2620:0:860:2:208:80:153:39
-cloudceph2002-dev    1H  IN A    208.80.153.40
-cloudceph2002-dev    1H  IN AAAA 2620:0:860:2:208:80:153:40
-cloudceph2003-dev    1H  IN A    208.80.153.41
-cloudceph2003-dev    1H  IN AAAA 2620:0:860:2:208:80:153:41
-cloudcontrol1003    1H  IN A    208.80.154.23
-cloudcontrol1003    1H  IN AAAA 2620:0:861:1:208:80:154:23
-cloudcontrol1004    1H  IN A    208.80.154.132
-cloudcontrol1004    1H  IN AAAA 2620:0:861:2:208:80:154:132
-cloudcontrol1005    1H  IN A    208.80.154.85
-cloudcontrol1005    1H  IN AAAA 2620:0:861:3:208:80:154:85
-cloudcontrol2001-dev 1H  IN A    208.80.153.59
-cloudcontrol2001-dev 1H  IN AAAA 2620:0:860:2:208:80:153:59
-cloudcontrol2003-dev  1H  IN A    208.80.153.75
-cloudcontrol2003-dev  1H  IN AAAA 2620:0:860:3:208:80:153:75
-cloudcontrol2004-dev  1H  IN A    208.80.153.116
-cloudcontrol2004-dev  1H  IN AAAA 2620:0:860:4:208:80:153:116
-cloudelastic1001    1H  IN A    208.80.154.8
-cloudelastic1001    1H  IN AAAA 2620:0:861:1:208:80:154:8
-cloudelastic1002    1H  IN A    208.80.154.133
-cloudelastic1002    1H  IN AAAA 2620:0:861:2:208:80:154:133
-cloudelastic1003    1H  IN A    208.80.154.83
-cloudelastic1003    1H  IN AAAA 2620:0:861:3:208:80:154:83
-cloudelastic1004    1H  IN A    208.80.155.107
-cloudelastic1004    1H  IN AAAA 2620:0:861:4:208:80:155:107
-cloudelastic1005    1H  IN A    208.80.154.9
-cloudelastic1005    1H  IN AAAA 2620:0:861:1:208:80:154:9
-cloudelastic1006    1H  IN A    208.80.154.138
-cloudelastic1006    1H  IN AAAA 2620:0:861:2:208:80:154:138
-cloudservices1003   1H  IN A    208.80.154.135
-cloudservices1003   1H  IN AAAA 2620:0:861:2:208:80:154:135
-cloudservices1004 1H  IN A    208.80.154.11
-cloudservices1004 1H  IN AAAA 2620:0:861:1:208:80:154:11
-cloudservices2002-dev 1H  IN A    208.80.153.76
-cloudservices2002-dev 1H  IN AAAA 2620:0:860:3:208:80:153:76
-cloudstore1008      1H  IN A    208.80.155.125
-cloudstore1008      1H  IN AAAA 2620:0:861:4:208:80:155:125
-cloudstore1009      1H  IN A    208.80.155.126
-cloudstore1009      1H  IN AAAA 2620:0:861:4:208:80:155:126
-cloudweb2001-dev  1H  IN A    208.80.153.60
-cloudweb2001-dev  1H  IN AAAA 2620:0:860:2:208:80:153:60
-
-contint1001     1H  IN A    208.80.154.17
-contint1001     1H  IN AAAA 2620:0:861:1:208:80:154:17
-contint2001     1H  IN A    208.80.153.15
-contint2001     1H  IN AAAA 2620:0:860:1:208:80:153:15
-dns1001         1H  IN A    208.80.154.10
-dns1001         1H  IN AAAA 2620:0:861:1:208:80:154:10
-dns1002         1H  IN A    208.80.155.108
-dns1002         1H  IN AAAA 2620:0:861:4:208:80:155:108
-dns2001         1H  IN A    208.80.153.77
-dns2001         1H  IN AAAA 2620:0:860:3:208:80:153:77
-dns2002         1H  IN A    208.80.153.111
-dns2002         1H  IN AAAA 2620:0:860:4:208:80:153:111
 frbast-eqiad    1H  IN A    208.80.155.8
 frbast-codfw    1H  IN A    208.80.152.231
 frdata-eqiad    1H  IN A    208.80.155.10
@@ -205,26 +134,52 @@ frmon-codfw.frdev 1H  IN A    208.80.152.235
 frmx1001        1H  IN A    208.80.155.15
 frmx2001        1H  IN A    208.80.152.236
 fundraising-eqiad 1H  IN A    208.80.155.14
-gerrit1001      1H  IN A    208.80.154.136
-gerrit1001      1H  IN AAAA 2620:0:861:2:208:80:154:136
+pay-lvs1001     1H  IN A    208.80.155.2
+pay-lvs1002     1H  IN A    208.80.155.3
+
+; Unmigrated data center hosts (alphabetical order)
+alert2001       1H  IN A    208.80.153.84
+alert2001       1H  IN AAAA 2620:0:860:3:208:80:153:84
+apt2001         1H  IN A    208.80.153.42 ; VM on ganeti01.svc.codfw.wmnet
+apt2001         1H  IN AAAA 2620:0:860:2:208:80:153:42 ; VM on ganeti01.svc.codfw.wmnet
+authdns2001     1H  IN A    208.80.153.17
+authdns2001     1H  IN AAAA 2620:0:860:1:208:80:153:17
+bast2002        1H  IN A    208.80.153.54
+bast2002        1H  IN AAAA 2620:0:860:2:208:80:153:54
+cloudceph2001-dev    1H  IN A    208.80.153.39
+cloudceph2001-dev    1H  IN AAAA 2620:0:860:2:208:80:153:39
+cloudceph2002-dev    1H  IN A    208.80.153.40
+cloudceph2002-dev    1H  IN AAAA 2620:0:860:2:208:80:153:40
+cloudceph2003-dev    1H  IN A    208.80.153.41
+cloudceph2003-dev    1H  IN AAAA 2620:0:860:2:208:80:153:41
+cloudcontrol2001-dev 1H  IN A    208.80.153.59
+cloudcontrol2001-dev 1H  IN AAAA 2620:0:860:2:208:80:153:59
+cloudcontrol2003-dev  1H  IN A    208.80.153.75
+cloudcontrol2003-dev  1H  IN AAAA 2620:0:860:3:208:80:153:75
+cloudcontrol2004-dev  1H  IN A    208.80.153.116
+cloudcontrol2004-dev  1H  IN AAAA 2620:0:860:4:208:80:153:116
+cloudservices2002-dev 1H  IN A    208.80.153.76
+cloudservices2002-dev 1H  IN AAAA 2620:0:860:3:208:80:153:76
+cloudweb2001-dev  1H  IN A    208.80.153.60
+cloudweb2001-dev  1H  IN AAAA 2620:0:860:2:208:80:153:60
+contint2001     1H  IN A    208.80.153.15
+contint2001     1H  IN AAAA 2620:0:860:1:208:80:153:15
+dbmonitor2001   1H IN A        208.80.153.52 ; VM on ganeti01.svc.codfw.wmnet
+dbmonitor2001   1H IN AAAA     2620:0:860:2:208:80:153:52 ; VM on ganeti01.svc.codfw.wmnet
+dns2001         1H  IN A    208.80.153.77
+dns2001         1H  IN AAAA 2620:0:860:3:208:80:153:77
+dns2002         1H  IN A    208.80.153.111
+dns2002         1H  IN AAAA 2620:0:860:4:208:80:153:111
 gerrit2001      1H  IN A    208.80.153.106
 gerrit2001      1H  IN AAAA 2620:0:860:4:208:80:153:106
-icinga1001      1H  IN A    208.80.154.84
-icinga1001      1H  IN AAAA 2620:0:861:3:208:80:154:84
 icinga2001      1H  IN A    208.80.153.74
 icinga2001      1H  IN AAAA 2620:0:860:3:208:80:153:74
-idp1001         1H  IN A    208.80.154.26 ; VM on ganeti01.svc.codfw.wmnet
-idp1001         1H  IN AAAA 2620:0:861:1:208:80:154:26 ; VM on ganeti01.svc.eqiad.wmnet
 idp2001         1H  IN A    208.80.153.23 ; VM on ganeti01.svc.codfw.wmnet
 idp2001         1H  IN AAAA 2620:0:860:1:208:80:153:23 ; VM on ganeti01.svc.codfw.wmnet
-idp-test1001    1H  IN A    208.80.154.87 ; VM on ganeti01.svc.eqiad.wmnet
-idp-test1001    1H  IN AAAA 2620:0:861:3:208:80:154:87 ; VM on ganeti01.svc.eqiad.wmnet
 idp-test2001    1H  IN A    208.80.153.25 ; VM on ganeti01.svc.codfw.wmnet
 idp-test2001    1H  IN AAAA 2620:0:860:1:208:80:153:25 ; VM on ganeti01.svc.codfw.wmnet
 idp             5M  IN CNAME idp1001.wikimedia.org.
 idp-test        5M  IN CNAME idp-test1001.wikimedia.org.
-install1003     1H  IN A    208.80.154.32 ; VM on ganeti01.svc.eqiad.wmnet
-install1003     1H  IN AAAA 2620:0:861:1:208:80:154:32 ; VM on ganeti01.svc.eqiad.wmnet
 install2003     1H  IN A    208.80.153.51 ; VM on ganeti01.svc.codfw.wmnet
 install2003     1H  IN AAAA 2620:0:860:2:208:80:153:51 ; VM on ganeti01.svc.codfw.wmnet
 irc2001         1H  IN A    208.80.153.62 ; VM on ganeti01.svc.codfw.wmnet
@@ -237,61 +192,25 @@ ldap-replica2003 1H IN A    208.80.153.70
 ldap-replica2003 1H IN AAAA 2620:0:860:3:208:80:153:70
 ldap-replica2004 1H IN A    208.80.153.102
 ldap-replica2004 1H IN AAAA 2620:0:860:4:208:80:153:102
-ldap-eqiad-replica01 1H IN A    208.80.154.25 ; VM on ganeti01.svc.eqiad.wmnet
-ldap-eqiad-replica02 1H IN A    208.80.154.77 ; VM on ganeti01.svc.eqiad.wmnet
-ldap-replica1001     1H IN A    208.80.154.139
-ldap-replica1001     1H IN AAAA 2620:0:861:2:208:80:154:139
-ldap-replica1002     1H IN A    208.80.155.102
-ldap-replica1002     1H IN AAAA 2620:0:861:4:208:80:155:102
-labstore1006        1H  IN A    208.80.154.7
-labstore1006        1H  IN AAAA 2620:0:861:1:208:80:154:7
-labstore1007        1H  IN A    208.80.155.106
-labstore1007        1H  IN AAAA 2620:0:861:4:208:80:155:106
 labtestpuppetmaster2001 1H IN A 208.80.153.108
 labtestpuppetmaster2001 1H IN AAAA 2620:0:860:4:208:80:153:108
 cloudservices2003-dev 1H  IN A    208.80.153.109
 cloudservices2003-dev 1H  IN AAAA 2620:0:860:4:208:80:153:109
-labweb1001      1H  IN A    208.80.154.160
-labweb1001      1H  IN AAAA 2620:0:861:2:208:80:154:160
-labweb1002      1H  IN A    208.80.155.109
-labweb1002      1H  IN AAAA 2620:0:861:4:208:80:155:109
-ldap-corp1001   1H  IN A    208.80.154.28 ; VM on ganeti01.svc.eqiad.wmnet
 ldap-corp2001   1H  IN A    208.80.153.48 ; VM on ganeti01.svc.codfw.wmnet
-lists1001       1H  IN A    208.80.154.31 ; VM on ganeti01.svc.eqiad.wmnet
-lists1001       1H  IN AAAA 2620:0:861:1:208:80:154:31 ; VM on ganeti01.svc.eqiad.wmnet
-sodium          1H  IN A    208.80.154.15
-sodium          1H  IN AAAA 2620:0:861:1:208:80:154:15
 malmok          1H  IN A    208.80.153.43 ; VM on ganeti01.svc.codfw.wmnet
 malmok          1H  IN AAAA 2620:0:860:2:208:80:153:43 ; VM on ganeti01.svc.codfw.wmnet
-mx1001          1H  IN A    208.80.154.76 ; VM on ganeti01.svc.eqiad.wmnet
-mx1001          1H  IN AAAA 2620:0:861:3:208:80:154:76 ; VM on ganeti01.svc.eqiad.wmnet
 mx2001          1H  IN A    208.80.153.45 ; VM on ganeti01.svc.codfw.wmnet
 mx2001          1H  IN AAAA 2620:0:860:2:208:80:153:45 ; VM on ganeti01.svc.codfw.wmnet
-netbox1001      1H  IN A    208.80.154.12               ; VM on ganeti01.svc.eqiad.wmnet
-netbox1001      1H  IN AAAA 2620:0:861:1:208:80:154:12 ; VM on ganeti01.svc.eqiad.wmnet
 netbox2001      1H  IN A    208.80.153.12               ; VM on ganeti01.svc.codfw.wmnet
 netbox2001      1H  IN AAAA 2620:0:860:1:208:80:153:12 ; VM on ganeti01.svc.codfw.wmnet
 netbox-dev2001  1H  IN A    208.80.153.117              ; VM on ganeti01.svc.codfw.wmnet
 netbox-dev2001  1H  IN AAAA 2620:0:860:4:208:80:153:117 ; VM on ganeti01.svc.codfw.wmnet
-netmon1002      1H  IN A    208.80.154.5
-netmon1002      1H  IN AAAA 2620:0:861:1:208:80:154:5
 netmon2001      1H  IN A    208.80.153.110
 netmon2001      1H  IN AAAA 2620:0:860:4:208:80:153:110
-nfs-maps        1H  IN A    208.80.155.119
-nfs-maps        1H  IN AAAA 2620:0:861:4:208:80:155:119
-pay-lvs1001     1H  IN A    208.80.155.2
-pay-lvs1002     1H  IN A    208.80.155.3
 procyon         1H  IN A    208.80.152.245
-ripe-atlas-eqiad 1H IN A    208.80.155.69
-ripe-atlas-eqiad 1H IN AAAA 2620:0:861:202:208:80:155:69
 ripe-atlas-codfw 1H IN A    208.80.152.244
 ripe-atlas-codfw 1H IN AAAA 2620:0:860:201:208:80:152:244
-seaborgium      1H  IN A    208.80.154.79 ; VM on ganeti01.svc.eqiad.wmnet
 serpens         1H  IN A    208.80.153.49 ; VM on ganeti01.svc.codfw.wmnet
-urldownloader1001 1H  IN A    208.80.154.29 ; VM on ganeti01.svc.eqiad.wmnet
-urldownloader1001 1H  IN AAAA 2620:0:861:1:208:80:154:29 ; VM on ganeti01.svc.eqiad.wmnet
-urldownloader1002 1H  IN A    208.80.154.81 ; VM on ganeti01.svc.eqiad.wmnet
-urldownloader1002 1H  IN AAAA 2620:0:861:3:208:80:154:81 ; VM on ganeti01.svc.eqiad.wmnet
 urldownloader2001 1H  IN A    208.80.153.24 ; VM on ganeti01.svc.codfw.wmnet
 urldownloader2001 1H  IN AAAA 2620:0:860:1:208:80:153:24 ; VM on ganeti01.svc.codfw.wmnet
 urldownloader2002 1H  IN A    208.80.153.61 ; VM on ganeti01.svc.codfw.wmnet
@@ -316,19 +235,11 @@ ntp.eqsin           1H  IN CNAME dns5001
 
 ; Round Robin LVS Service records
 
-;;; eqiad
-text-lb.eqiad       1H IN A 208.80.154.224
-text-lb.eqiad       1H IN AAAA 2620:0:861:ed1a::1
-test-lb.eqiad       1H IN A 208.80.154.225 ; Temporary for limited testing in T237492 - Do not use!
-test-lb.eqiad       1H IN AAAA 2620:0:861:ed1a::2 ; Temporary for limited testing in T237492 - Do not use!
-donate-lb.eqiad     1H IN A 208.80.154.224
-donate-lb.eqiad     1H IN AAAA 2620:0:861:ed1a::1
+;;; eqiad (only records not auto-generated from Netbox)
+donate-lb.eqiad     1H IN A 208.80.154.224 ; same IP of text-lb
+donate-lb.eqiad     1H IN AAAA 2620:0:861:ed1a::1 ; same IP of text-lb
 donate-lb.eqiad     1H IN MX 10 mx1001
 donate-lb.eqiad     1H IN MX 50 mx2001
-ncredir-lb.eqiad    1H IN A 208.80.154.232
-ncredir-lb.eqiad    1H IN AAAA 2620:0:861:ed1a::9
-upload-lb.eqiad     1H IN A 208.80.154.240
-upload-lb.eqiad     1H IN AAAA 2620:0:861:ed1a::2:b
 
 ; These legacy entries should eventually move to RESTBase
 cxserver            1D IN CNAME dyna.wikimedia.org.
@@ -339,15 +250,8 @@ ores                1D IN CNAME dyna.wikimedia.org.
 ; blubberoid
 blubberoid          1D IN CNAME dyna.wikimedia.org.
 
-git-ssh.eqiad       1H  IN A    208.80.154.250
-git-ssh.eqiad       1H  IN AAAA 2620:0:861:ed1a::3:16
-git-ssh             600 IN A    208.80.154.250
-git-ssh             600 IN AAAA 2620:0:861:ed1a::3:16
-
-ldap-ro.eqiad       1H  IN A    208.80.154.252
-
-cloudelastic        1H  IN A    208.80.154.241
-cloudelastic        1H  IN AAAA 2620:0:861:ed1a::3:241
+git-ssh             600 IN A    208.80.154.250 ; same IP of git-ssh.eqiad
+git-ssh             600 IN AAAA 2620:0:861:ed1a::3:16 ; same IP of git-ssh.eqiad
 
 ;;; ulsfo (only records not auto-generated from Netbox)
 donate-lb.ulsfo     1H IN A 198.35.26.96 ; same IP of text-lb
@@ -469,17 +373,6 @@ wikimaniateam.m     1D IN CNAME dyna.wikimedia.org.
 za.m                1D IN CNAME dyna.wikimedia.org.
 
 ; Networking
-cr1-eqiad       1H  IN A    208.80.154.196
-cr1-eqiad       1H  IN AAAA 2620:0:861:ffff::1
-cr2-eqiad       1H  IN A    208.80.154.197
-cr2-eqiad       1H  IN AAAA 2620:0:861:ffff::2
-cr2-eqord       1H  IN A    208.80.154.198
-cr2-eqord       1H  IN AAAA 2620:0:861:ffff::5
-mr1-eqiad       1H  IN A    208.80.154.199
-mr1-eqiad       1H  IN AAAA 2620:0:861:ffff::6
-mr1-eqiad.oob   1H  IN A    198.32.107.153
-mr1-eqiad.oob   1H  IN AAAA 2607:f6f0:205::153
-
 cr1-codfw       1H  IN A    208.80.153.192
 cr1-codfw       1H  IN AAAA 2620:0:860:ffff::1
 cr2-codfw       1H  IN A    208.80.153.193
@@ -489,8 +382,6 @@ mr1-codfw       1H  IN AAAA 2620:0:860:ffff::6
 mr1-codfw.oob   1H  IN A    216.117.46.36
 cr2-eqdfw       1H  IN A    208.80.153.198
 cr2-eqdfw       1H  IN AAAA 2620:0:860:ffff::5
-
-pfw3-eqiad      1H  IN A     208.80.154.219
 
 pfw3-codfw      1H  IN A     208.80.153.197
 
@@ -526,10 +417,6 @@ dash.frdev      1H  IN CNAME    frdev-eqiad
 
 design          1D IN CNAME dyna.wikimedia.org.
 
-dbmonitor1001   1H IN A        208.80.154.82 ; VM on ganeti01.svc.eqiad.wmnet
-dbmonitor1001   1H IN AAAA     2620:0:861:3:208:80:154:82 ; VM on ganeti01.svc.eqiad.wmnet
-dbmonitor2001   1H IN A        208.80.153.52 ; VM on ganeti01.svc.codfw.wmnet
-dbmonitor2001   1H IN AAAA     2620:0:860:2:208:80:153:52 ; VM on ganeti01.svc.codfw.wmnet
 dbtree          1D IN CNAME dyna.wikimedia.org.
 
 debmonitor      1D IN CNAME dyna.wikimedia.org.
@@ -556,6 +443,7 @@ gerrit        600 IN A        208.80.154.137
 gerrit        600 IN AAAA     2620:0:861:2:208:80:154:137
 gerrit-replica    600 IN A        208.80.153.107
 gerrit-replica    600 IN AAAA     2620:0:860:4:208:80:153:107
+
 git             1D IN CNAME dyna.wikimedia.org.
 graphite        1D IN CNAME dyna.wikimedia.org.
 graphite-labs   1D IN CNAME dyna.wikimedia.org.
@@ -646,8 +534,6 @@ svn             1D IN CNAME dyna.wikimedia.org.
 
 toolsadmin      1D IN CNAME dyna.wikimedia.org.
 
-wiki-mail-eqiad 1H  IN A        208.80.154.91
-wiki-mail-eqiad 1H  IN AAAA     2620:0:861:3:208:80:154:91
 wiki-mail-codfw 1H  IN A        208.80.153.46
 wiki-mail-codfw 1H  IN AAAA     2620:0:860:2:208:80:153:46
 

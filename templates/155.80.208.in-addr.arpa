@@ -28,35 +28,16 @@
 ; 208.80.155.32/27 Unused
 
 ;208.80.155.64/28 sandbox1-b-eqiad subnet
-65  1H IN PTR   vrrp-gw-1202.wikimedia.org.
-66  1H IN PTR   ae2-1202.cr1-eqiad.wikimedia.org.
-67  1H IN PTR   ae2-1202.cr2-eqiad.wikimedia.org.
-69  1H IN PTR   ripe-atlas-eqiad.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/64-28.155.80.208.in-addr.arpa
 
 ; 208.80.155.80/29 Unused
 
 ; 208.80.155.88/29 cloud-instance-transport1-b-eqiad
-89  1H  IN PTR  vrrp-gw-1120.wikimedia.org.
-90  1H  IN PTR  ae2-1120.cr1-eqiad.wikimedia.org.
-91  1H  IN PTR  ae2-1120.cr2-eqiad.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/88-29.155.80.208.in-addr.arpa
 92  1H  IN PTR  cloudinstances2b-gw.openstack.eqiad1.wikimediacloud.org.
 
 ; 208.80.155.96/27 public1-d-eqiad subnet
-
-97  1H IN PTR   vrrp-gw-1004.wikimedia.org.
-98  1H IN PTR   ae4-1004.cr1-eqiad.wikimedia.org.
-99  1H IN PTR   ae4-1004.cr2-eqiad.wikimedia.org.
-
-102 1H IN PTR   ldap-replica1002.wikimedia.org.
-106 1H IN PTR   labstore1007.wikimedia.org.
-107 1H IN PTR   cloudelastic1004.wikimedia.org.
-108 1H IN PTR   dns1002.wikimedia.org.
-109 1H IN PTR   labweb1002.wikimedia.org.
-
-119 1H IN PTR   nfs-maps.wikimedia.org.
-121 1H IN PTR   vl1004-eth3.lvs1013.eqiad.wmnet.
-122 1H IN PTR   vl1004-eth3.lvs1014.eqiad.wmnet.
-123 1H IN PTR   vl1004-eth3.lvs1015.eqiad.wmnet.
-124 1H IN PTR   vl1004-eth0.lvs1016.eqiad.wmnet.
-125 1H IN PTR   cloudstore1008.wikimedia.org.
-126 1H IN PTR   cloudstore1009.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/96-27.155.80.208.in-addr.arpa

@@ -12,93 +12,31 @@
 
 ; public1-a-eqiad (2620:0:861:1::/64)
 $ORIGIN 1.0.0.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1001.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.0.0.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; (in-subnet) service IPs
-
-3.3.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   archiva1002.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-
-5.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   netmon1002.wikimedia.org.
-
-2.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   netbox1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-
-7.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   contint1001.wikimedia.org.
-
+; Manual records
 1.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   lists.wikimedia.org. ; service IP for lists
-0.3.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   apt1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-1.3.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   lists1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-2.3.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   install1003.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
 4.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ns-recursor1.openstack.eqiad1.wikimediacloud.org.
-6.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   idp1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-
-5.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   sodium.wikimedia.org.
-
-9.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   urldownloader1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-
-7.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labstore1006.wikimedia.org.
-8.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1001.wikimedia.org.
-9.0.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1005.wikimedia.org.
-0.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dns1001.wikimedia.org.
-1.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudservices1004.wikimedia.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1001.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae1-1001.cr2-eqiad.wikimedia.org.
-
-3.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcontrol1003.wikimedia.org.
 
 ; public1-b-eqiad (2620:0:861:2::/64)
 $ORIGIN 2.0.0.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1002.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.0.0.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-3.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1002.wikimedia.org.
-4.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   authdns1001.wikimedia.org.
-5.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudservices1003.wikimedia.org.
-6.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit1001.wikimedia.org.
-8.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1006.wikimedia.org.
-9.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ldap-replica1001.wikimedia.org.
-
-0.6.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labweb1001.wikimedia.org.
-
-2.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcontrol1004.wikimedia.org.
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1002.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1002.cr2-eqiad.wikimedia.org.
-
+; Manual records
 7.3.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit.wikimedia.org.
 3.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ns-recursor0.openstack.eqiad1.wikimediacloud.org.
 
 ; public1-c-eqiad (2620:0:861:3::/64)
 $ORIGIN 3.0.0.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1003.wikimedia.org.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1003.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae3-1003.cr2-eqiad.wikimedia.org.
-3.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1003.wikimedia.org.
-8.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   alert1001.wikimedia.org.
-1.9.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   wiki-mail-eqiad.wikimedia.org.
-6.7.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   mx1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-2.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dbmonitor1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-5.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudcontrol1005.wikimedia.org.
-6.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   bast1002.wikimedia.org.
-1.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   urldownloader1002.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-4.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   icinga1001.wikimedia.org.
-7.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   idp-test1001.wikimedia.org. ; VM on ganeti01.svc.eqiad.wmnet
-
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/3.0.0.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; public1-d-eqiad (2620:0:861:4::/64)
 $ORIGIN 4.0.0.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1004.wikimedia.org.
-2.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ldap-replica1002.wikimedia.org.
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1004.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae4-1004.cr2-eqiad.wikimedia.org.
-
-9.1.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   nfs-maps.wikimedia.org.
-5.2.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudstore1008.wikimedia.org.
-6.2.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudstore1009.wikimedia.org.
-
-9.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labweb1002.wikimedia.org.
-6.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   labstore1007.wikimedia.org.
-7.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   cloudelastic1004.wikimedia.org.
-8.0.1.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   dns1002.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/4.0.0.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; eqiad private subnets (2620:0:861:100::/56)
 
@@ -165,10 +103,8 @@ $ORIGIN 1.0.2.0.@Z
 
 ; sandbox1-b-eqiad (2620:0:861:202::/64)
 $ORIGIN 2.0.2.0.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   vrrp-gw-1202.eqiad.wmnet.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1202.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.e.f 1H IN PTR   ae2-1202.cr2-eqiad.wikimedia.org.
-9.6.0.0.5.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ripe-atlas-eqiad.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.0.2.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; sandbox1-c-eqiad (2620:0:861:203::/64)
 $ORIGIN 3.0.2.0.@Z
@@ -195,20 +131,11 @@ $ORIGIN f.b.a.b.@Z
 ; 2620:0:861:ed1a::/64 - LVS Public Service IPs (allocated)
 
 $ORIGIN a.1.d.e.@Z
-
 ; - 2620:0:861:ed1a::0:0/110 (::0:0 - ::3:ffff) LVS Service IPs
 ; -- 2620:0:861:ed1a::0:0/111 (::0:0 - ::1:ffff) LVS high-traffic1 (Text)
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   text-lb.eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   test-lb.eqiad.wikimedia.org. ; Temporary for limited testing in T237492 - Do not use!
-9.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ncredir-lb.eqiad.wikimedia.org.
-
 ; -- 2620:0:861:ed1a::2:0/111 (::2:0 - ::3:ffff) LVS high-traffic2 (Multimedia & Misc)
-
-b.0.0.0.2.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   upload-lb.eqiad.wikimedia.org.
-
-1.4.2.0.3.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cloudelastic.wikimedia.org.
-6.1.0.0.3.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   git-ssh.eqiad.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/a.1.d.e.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; Neighbor blocks
 
@@ -217,9 +144,8 @@ $ORIGIN e.f.@Z
 ; cr1-eqiad <--> cr2-eqiad (2620:0:861:fe00::/64)
 
 $ORIGIN 0.0.e.f.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae0.cr2-eqiad.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/0.0.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr1-eqiad:gr-4/3/0.1 <--> cr2-eqord:gr-0/0/0.1 (2620:0:861:fe01::/64)
 
@@ -230,33 +156,29 @@ $ORIGIN 1.0.e.f.@Z
 ; cr2-eqiad <--> cr2-eqord (2620:0:861:fe02::/64)
 
 $ORIGIN 2.0.e.f.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-4-2-0.cr2-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   xe-0-1-5.cr2-eqord.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.0.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr2-eqiad:gr-4/3/0.1 <--> cr2-esams:gr-0/1/0.1 (2620:0:861:fe03::/64)
 
 $ORIGIN 3.0.e.f.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-4-3-0-1.cr2-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   gr-0-1-0-1.cr2-esams.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/3.0.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr1-eqiad <--> mr1-eqiad (2620:0:861:fe04::/64)
 
 $ORIGIN 4.0.e.f.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-401.cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ge-0-0-1-401.mr1-eqiad.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/4.0.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr2-eqiad <--> mr1-eqiad (2620:0:861:fe05::/64)
 
 $ORIGIN 5.0.e.f.@Z
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ae1-402.cr2-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   ge-0-0-1-402.mr1-eqiad.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/5.0.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; Loopback IPs
 
 $ORIGIN f.f.f.f.@Z
-
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr1-eqiad.wikimedia.org.
-2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-eqiad.wikimedia.org.
-
-5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   cr2-eqord.wikimedia.org.
-6.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   mr1-eqiad.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/f.f.f.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
