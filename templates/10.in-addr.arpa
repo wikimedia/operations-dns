@@ -1622,7 +1622,6 @@ $ORIGIN 16.192.@Z
 40  1H IN PTR   db2086.codfw.wmnet.
 41  1H IN PTR   db2092.codfw.wmnet.
 42  1H IN PTR   kubernetes2002.codfw.wmnet.
-52  1H IN PTR   wtp2010.codfw.wmnet.
 53  1H IN PTR   mw2254.codfw.wmnet.
 54  1H IN PTR   mw2255.codfw.wmnet.
 
@@ -1814,16 +1813,6 @@ $ORIGIN 32.192.@Z
 23  1H IN PTR   kubernetes2003.codfw.wmnet.
 24  1H IN PTR   deploy2001.codfw.wmnet.
 25  1H IN PTR   restbase2015-b.codfw.wmnet.
-26  1H IN PTR   wtp2011.codfw.wmnet.
-27  1H IN PTR   wtp2012.codfw.wmnet.
-28  1H IN PTR   wtp2013.codfw.wmnet.
-29  1H IN PTR   wtp2014.codfw.wmnet.
-30  1H IN PTR   wtp2015.codfw.wmnet.
-31  1H IN PTR   wtp2016.codfw.wmnet.
-32  1H IN PTR   wtp2017.codfw.wmnet.
-33  1H IN PTR   wtp2018.codfw.wmnet.
-34  1H IN PTR   wtp2019.codfw.wmnet.
-35  1H IN PTR   wtp2020.codfw.wmnet.
 36  1H IN PTR   thumbor2001.codfw.wmnet.
 37  1H IN PTR   thumbor2002.codfw.wmnet.
 38  1H IN PTR   kubetcd2005.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
