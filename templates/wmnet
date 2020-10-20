@@ -142,6 +142,8 @@ an-master1001    1H IN A             10.64.5.26
 an-master1001    1H IN AAAA          2620:0:861:104:10:64:5:26
 an-master1002    1H IN A             10.64.21.110
 an-master1002    1H IN AAAA          2620:0:861:105:10:64:21:110
+an-test-client1001 1H IN A 10.64.5.6 ; VM on ganeti01.svc.eqiad.wmnet
+an-test-client1001 1H IN AAAA 2620:0:861:104:10:64:5:6 ; VM on ganeti01.svc.eqiad.wmnet
 an-test-coord1001  1H IN A           10.64.53.41
 an-test-coord1001  1H IN AAAA        2620:0:861:108:10:64:53:41
 an-test-master1001 1H IN A           10.64.5.39

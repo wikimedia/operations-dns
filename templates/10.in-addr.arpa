@@ -394,6 +394,8 @@ $ORIGIN 5.64.@Z
 2   1H IN PTR   ae1-1030.cr1-eqiad.wikimedia.org.
 3   1H IN PTR   ae1-1030.cr2-eqiad.wikimedia.org.
 
+6   1H IN PTR   an-test-client1001.eqiad.wmnet. ; VM on ganeti01.svc.eqiad.wmnet
+
 15  1H IN PTR   analytics1052.eqiad.wmnet.
 16  1H IN PTR   analytics1053.eqiad.wmnet.
 17  1H IN PTR   analytics1054.eqiad.wmnet.
