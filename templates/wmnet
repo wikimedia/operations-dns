@@ -2534,6 +2534,9 @@ graphite-labs         300 IN CNAME cloudmetrics1002.eqiad.wmnet.
 ; for thanos use a CNAME discovery record not the thanos-query geoip
 ; record to resolve session management issues T151009#6348575
 thanos-sso            300 IN CNAME thanos-fe1001.eqiad.wmnet.
+; Use a discovery record for prometheus-pushgateway singleton.
+; No LVS/conftool involved in this case
+prometheus-pushgateway 300 IN CNAME prometheus1003.eqiad.wmnet.
 
 ; Internal Anycast addresses (10.3.0.0/24)
 
