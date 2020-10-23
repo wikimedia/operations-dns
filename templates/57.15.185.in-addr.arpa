@@ -21,3 +21,4 @@
 7       CNAME   7.0-29.57.15.185.in-addr.arpa.
 
 9   1H  IN PTR virt.cloudgw.codfw1dev.wikimediacloud.org.
+10  1H  IN PTR cloudinstances2b-gw.openstack.codfw1dev.wikimediacloud.org.
