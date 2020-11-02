@@ -186,8 +186,6 @@ irc2001         1H  IN A    208.80.153.62 ; VM on ganeti01.svc.codfw.wmnet
 irc2001         1H  IN AAAA 2620:0:860:2:208:80:153:62 ; VM on ganeti01.svc.codfw.wmnet
 kraz            1H  IN A    208.80.153.44 ; VM on ganeti01.svc.codfw.wmnet
 kraz            1H  IN AAAA 2620:0:860:2:208:80:153:44 ; VM on ganeti01.svc.codfw.wmnet
-ldap-replica2001 1H IN A    208.80.153.22 ; VM on ganeti01.svc.codfw.wmnet
-ldap-replica2002 1H IN A    208.80.153.47 ; VM on ganeti01.svc.codfw.wmnet
 ldap-replica2003 1H IN A    208.80.153.70
 ldap-replica2003 1H IN AAAA 2620:0:860:3:208:80:153:70
 ldap-replica2004 1H IN A    208.80.153.102
