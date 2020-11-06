@@ -478,7 +478,7 @@ netbox          1H  IN CNAME    netbox1001
 netbox-exports  1H  IN CNAME    netbox1001
 netbox-next     1H  IN CNAME    netbox-dev2001
 
-payments        5M  IN CNAME    payments-codfw
+payments        5M  IN CNAME    payments-eqiad
 payments.frdev  5M  IN CNAME    payments-codfw
 payments-eqiad  1H  IN A        208.80.155.5
 payments-codfw  1H  IN A        208.80.152.228
