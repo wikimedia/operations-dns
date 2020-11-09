@@ -356,6 +356,8 @@ debmonitor2002  1H  IN A    10.192.32.42 ; VM on ganeti01.svc.codfw.wmnet
 deneb           1H  IN A    10.192.0.99 ; VM on ganeti01.svc.codfw.wmnet
 deploy2001      1H  IN A    10.192.32.24
 deploy2001      1H  IN AAAA 2620:0:860:103:10:192:32:24
+deploy2002      1H  IN A    10.192.32.7
+deploy2002      1H  IN AAAA 2620:0:860:103:10:192:32:7
 elastic2025     1H  IN A    10.192.0.77
 elastic2026     1H  IN A    10.192.0.78
 elastic2027     1H  IN A    10.192.0.79
