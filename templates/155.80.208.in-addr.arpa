@@ -36,7 +36,6 @@ $INCLUDE netbox/64-28.155.80.208.in-addr.arpa
 ; 208.80.155.88/29 cloud-instance-transport1-b-eqiad
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/88-29.155.80.208.in-addr.arpa
-92  1H  IN PTR  cloudinstances2b-gw.openstack.eqiad1.wikimediacloud.org.
 
 ; 208.80.155.96/27 public1-d-eqiad subnet
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
