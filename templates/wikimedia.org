@@ -433,7 +433,7 @@ ldap-labs.codfw 1H  IN CNAME    serpens
 
 labtest-puppetmaster       300 IN CNAME  labtestpuppetmaster2001
 
-frbast          1H  IN CNAME    frbast-eqiad
+frbast          1H  IN CNAME    frbast-codfw
 frdata          1H  IN CNAME    frdata-eqiad
 frmon.frdev     1H  IN CNAME    frmon-eqiad.frdev
 
