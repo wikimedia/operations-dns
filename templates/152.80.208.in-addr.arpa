@@ -20,8 +20,5 @@
 236 1H IN PTR   frmx2001.wikimedia.org.
 
 ; 208.80.152.240/28 sandbox1-a-codfw (208.80.152.240 - 208.80.152.255)
-241 1H IN PTR   vrrp-gw-2201.wikimedia.org.
-242 1H IN PTR   ae1-2201.cr1-codfw.wikimedia.org.
-243 1H IN PTR   ae1-2201.cr2-codfw.wikimedia.org.
-244 1H IN PTR   ripe-atlas-codfw.wikimedia.org.
-245 1H IN PTR   procyon.wikimedia.org.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/240-28.152.80.208.in-addr.arpa
