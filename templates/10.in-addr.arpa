@@ -828,6 +828,7 @@ $ORIGIN 32.192.@Z
 5   1H IN PTR   elastic2059.codfw.wmnet.
 6   1H IN PTR   db2095.codfw.wmnet.
 7   1H IN PTR   deploy2002.codfw.wmnet.
+8   1H IN PTR   rdb2009.codfw.wmnet.
 10  1H IN PTR   pc2009.codfw.wmnet.
 11  1H IN PTR   ms-be2048.codfw.wmnet.
 13  1H IN PTR   ms-be2049.codfw.wmnet.
@@ -984,6 +985,7 @@ $ORIGIN 48.192.@Z
 1   1H IN PTR   vrrp-gw-2020.codfw.wmnet.
 2   1H IN PTR   ae4-2020.cr1-codfw.wikimedia.org.
 3   1H IN PTR   ae4-2020.cr2-codfw.wikimedia.org.
+6   1H IN PTR   rdb2010.codfw.wmnet.
 13  1H IN PTR   elastic2060.codfw.wmnet.
 14  1H IN PTR   pc2010.codfw.wmnet.
 15  1H IN PTR   mw2366.codfw.wmnet.
