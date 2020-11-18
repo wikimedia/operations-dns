@@ -387,6 +387,12 @@ pfw3-codfw      1H  IN A     208.80.153.197
 
 ; Service aliases (alphabetical order)
 
+; alertmanager API only, no UI.
+; Used by clients with no puppet-driven configuration
+am1             5M  IN CNAME    alert1001
+am2             5M  IN CNAME    alert2001
+
+; alerts dashboard/UI
 alerts          5M  IN CNAME    alert1001
 
 annual          1D IN CNAME dyna.wikimedia.org.
