@@ -830,6 +830,7 @@ $ORIGIN 32.192.@Z
 6   1H IN PTR   db2095.codfw.wmnet.
 7   1H IN PTR   deploy2002.codfw.wmnet.
 8   1H IN PTR   rdb2009.codfw.wmnet.
+9   1H IN PTR   mwlog2002.codfw.wmnet.
 10  1H IN PTR   pc2009.codfw.wmnet.
 11  1H IN PTR   ms-be2048.codfw.wmnet.
 13  1H IN PTR   ms-be2049.codfw.wmnet.

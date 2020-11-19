@@ -182,6 +182,7 @@ $ORIGIN 3.0.1.0.@Z
 9.4.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   phab2001-vcs.codfw.wmnet.
 0.5.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   logstash2022.codfw.wmnet.
 8.3.0.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   kubetcd2005.codfw.wmnet. ; VM on ganeti01.svc.codfw.wmnet
+9.0.0.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   mwlog2002.codfw.wmnet.
 7.0.1.0.2.3.0.0.2.9.1.0.0.1.0.0 1H IN PTR   thanos-be2003.codfw.wmnet.
 
 ; private1-d-codfw (2620:0:860:104::/64)
