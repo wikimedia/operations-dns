@@ -190,8 +190,6 @@ ldap-replica2003 1H IN A    208.80.153.70
 ldap-replica2003 1H IN AAAA 2620:0:860:3:208:80:153:70
 ldap-replica2004 1H IN A    208.80.153.102
 ldap-replica2004 1H IN AAAA 2620:0:860:4:208:80:153:102
-labtestpuppetmaster2001 1H IN A 208.80.153.108
-labtestpuppetmaster2001 1H IN AAAA 2620:0:860:4:208:80:153:108
 cloudservices2003-dev 1H  IN A    208.80.153.109
 cloudservices2003-dev 1H  IN AAAA 2620:0:860:4:208:80:153:109
 ldap-corp2001   1H  IN A    208.80.153.48 ; VM on ganeti01.svc.codfw.wmnet
@@ -436,8 +434,6 @@ ldap-corp.eqiad 1H  IN CNAME    ldap-corp1001
 ldap-corp.codfw 1H  IN CNAME    ldap-corp2001
 ldap-labs.eqiad 1H  IN CNAME    seaborgium
 ldap-labs.codfw 1H  IN CNAME    serpens
-
-labtest-puppetmaster       300 IN CNAME  labtestpuppetmaster2001
 
 frbast          1H  IN CNAME    frbast-eqiad
 frdata          1H  IN CNAME    frdata-eqiad
