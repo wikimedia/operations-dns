@@ -128,12 +128,11 @@ $ORIGIN 5.2.@Z
 ; 10.3.0.0/24 - Internal anycast services
 
 $ORIGIN 0.3.@Z
-
 ; 10.3.0.0/30 (0-3) - Reserved for recdns (backup static route)
-1  1H  IN PTR  recdns.anycast.wmnet.
-
 ; 10.3.0.4/30 (4-7) - Reserved for syslog (backup static route)
-4  1H  IN PTR  syslog.anycast.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/0.3.10.in-addr.arpa
+
 ;
 ; ESAMS
 ;
