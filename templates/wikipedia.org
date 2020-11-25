@@ -73,6 +73,7 @@ zh-tw                   1D IN CNAME dyna.wikimedia.org.
 ; Other websites
 
 15              1D IN CNAME dyna.wikimedia.org.
+20              1D IN CNAME dyna.wikimedia.org.
 bugzilla        1D IN CNAME dyna.wikimedia.org.
 careers         1D IN CNAME dyna.wikimedia.org.
 donate          1D IN CNAME dyna.wikimedia.org.
