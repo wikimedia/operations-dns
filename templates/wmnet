@@ -425,6 +425,7 @@ oresrdb     5M  IN A        10.64.0.24  ; rdb1005
 
 ; K8S EQIAD STAGING SERVICES
 
+kubestagemaster 1H  IN CNAME    neon.eqiad.wmnet.
 staging         1H  IN A        10.64.0.247 ; kubestage1001
 staging         1H  IN A        10.64.16.92 ; kubestage1002
 
@@ -512,6 +513,16 @@ thanos-query    1H  IN A    10.2.1.53
 thanos-swift    1H  IN A    10.2.1.54
 api-gateway     1H  IN A    10.2.1.55
 push-notifications  1H  IN A    10.2.1.56
+
+; K8S CODFW STAGING SERVICES
+
+kubestagemaster 1H  IN CNAME    kubestagemaster2001.codfw.wmnet.
+staging         1H  IN CNAME    kubestage2001.codfw.wmnet. ; TODO: Verify CNAME experiment works
+
+$ORIGIN staging.svc.codfw.wmnet.
+
+termbox-test    1H  IN CNAME    staging.svc.codfw.wmnet.
+
 
 ; DISCOVERY SERVICES
 
