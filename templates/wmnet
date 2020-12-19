@@ -583,12 +583,10 @@ api-gateway    300/10 IN DYNA geoip!disc-api-gateway
 
 ; misc web services with multiple backends but without geoip
 
-aphlict               300 IN CNAME aphlict1001.eqiad.wmnet.
 debmonitor            300 IN CNAME debmonitor1002.eqiad.wmnet.
 ;debmonitor            300 IN CNAME debmonitor2002.codfw.wmnet.
 doc                   300 IN CNAME doc1001.eqiad.wmnet.
 ;doc                   300 IN CNAME doc2001.codfw.wmnet.
-etherpad              300 IN CNAME etherpad1002.eqiad.wmnet.
 graphite              300 IN CNAME graphite1004.eqiad.wmnet.
 ;graphite              300 IN CNAME graphite2003.codfw.wmnet.
 mwmaint               300 IN CNAME mwmaint1002.eqiad.wmnet.
@@ -609,14 +607,20 @@ releases              300 IN CNAME releases1002.eqiad.wmnet.
 ;releases              300 IN CNAME releases2002.codfw.wmnet.
 webserver-misc-apps   300 IN CNAME miscweb1002.eqiad.wmnet.
 ;webserver-misc-apps   300 IN CNAME miscweb2002.codfw.wmnet.
+
+; misc services without multiple backends
+aphlict               300 IN CNAME aphlict1001.eqiad.wmnet.
+etherpad              300 IN CNAME etherpad1002.eqiad.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
 analytics-web         300 IN CNAME thorium.eqiad.wmnet.
 ticket                300 IN CNAME otrs1001.eqiad.wmnet.
 grafana-labs          300 IN CNAME cloudmetrics1002.eqiad.wmnet.
 graphite-labs         300 IN CNAME cloudmetrics1002.eqiad.wmnet.
+
 ; for thanos use a CNAME discovery record not the thanos-query geoip
 ; record to resolve session management issues T151009#6348575
 thanos-sso            300 IN CNAME thanos-fe1001.eqiad.wmnet.
+
 ; Use a discovery record for prometheus-pushgateway singleton.
 ; No LVS/conftool involved in this case
 prometheus-pushgateway 300 IN CNAME prometheus1003.eqiad.wmnet.
