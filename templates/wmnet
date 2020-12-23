@@ -59,7 +59,7 @@ tendril-backend 5M  IN CNAME    db1115.eqiad.wmnet.
 zarcillo-master 5M  IN CNAME    db1115.eqiad.wmnet.
 
 analytics-test-hive   5M  IN CNAME    an-test-coord1001.eqiad.wmnet.
-analytics-hive        5M  IN CNAME    an-coord1002.eqiad.wmnet.
+analytics-hive        5M  IN CNAME    an-coord1001.eqiad.wmnet.
 s1-analytics-replica  5M  IN CNAME    dbstore1003.eqiad.wmnet.
 s2-analytics-replica  5M  IN CNAME    dbstore1004.eqiad.wmnet.
 s3-analytics-replica  5M  IN CNAME    dbstore1004.eqiad.wmnet.
@@ -111,12 +111,12 @@ _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd1005.eqi
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd1006.eqiad.wmnet.
 
 ;Servers
-; 
+;
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/eqiad.wmnet
 puppet            5M      IN CNAME    puppetmaster1001.eqiad.wmnet.
 phab1001-aphlict  1H      IN CNAME    phab1001
-prometheus-labmon 1H      IN CNAME    cloudmetrics1002 
+prometheus-labmon 1H      IN CNAME    cloudmetrics1002
 
 ; Kubernetes pod records for eqiad
 {% for z in range(64,72) -%}
@@ -625,4 +625,3 @@ prometheus-pushgateway 300 IN CNAME prometheus1003.eqiad.wmnet.
 $ORIGIN anycast.wmnet.
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/anycast.wmnet
-
