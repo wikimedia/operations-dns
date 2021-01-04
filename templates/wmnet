@@ -253,6 +253,7 @@ frpig2001-fundraising 1H  IN A    10.195.0.83
 frmx2001            1H  IN A    10.195.0.84
 frbackup2001        1H  IN A    10.195.0.77
 frqueue2001         1H  IN A    10.195.0.39
+frqueue2002         1H  IN A    10.195.0.42
 
 ; CODFW fundraising/payments management
 $ORIGIN mgmt.frack.codfw.wmnet.
