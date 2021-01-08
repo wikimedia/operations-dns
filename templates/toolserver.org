@@ -20,6 +20,6 @@
 ;
 ; It can't just be a CNAME because of the MX RR :-(
 
-@           1H  IN A    185.15.56.23
-*           1H  IN A    185.15.56.23
+@           1H  IN A    185.15.56.245
+*           1H  IN A    185.15.56.245
 
