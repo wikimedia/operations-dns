@@ -609,7 +609,6 @@ labs             1D IN CNAME dyna.wikimedia.org.
 ; deprecated but kept for compatibility, see RT #6769
 labsconsole      1D IN CNAME dyna.wikimedia.org.
 logstash         1D IN CNAME dyna.wikimedia.org.
-logstash-next    1D IN CNAME dyna.wikimedia.org.
 cas-logstash     1D IN CNAME dyna.wikimedia.org.
 moon             1D IN CNAME dyna.wikimedia.org.
 noc              1D IN CNAME dyna.wikimedia.org.
