@@ -419,6 +419,9 @@ thanos-query    1H  IN A    10.2.2.53
 thanos-swift    1H  IN A    10.2.2.54
 api-gateway     1H  IN A    10.2.2.55
 push-notifications  1H  IN A    10.2.2.56
+linkrecommendation  1H  IN A    10.2.2.23
+linkrecommendation-external  1H  IN A    10.2.2.35
+
 ganeti01    1H  IN A        10.64.32.173
 nfs-tools-project    1H  IN A        10.64.37.18
 
@@ -516,6 +519,8 @@ thanos-query    1H  IN A    10.2.1.53
 thanos-swift    1H  IN A    10.2.1.54
 api-gateway     1H  IN A    10.2.1.55
 push-notifications  1H  IN A    10.2.1.56
+linkrecommendation  1H  IN A    10.2.1.23
+linkrecommendation-external  1H  IN A    10.2.1.35
 
 ; K8S CODFW STAGING SERVICES
 
