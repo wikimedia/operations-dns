@@ -605,6 +605,7 @@ cas-logstash     1D IN CNAME dyna.wikimedia.org.
 moon             1D IN CNAME dyna.wikimedia.org.
 noc              1D IN CNAME dyna.wikimedia.org.
 nyc              1D IN CNAME dyna.wikimedia.org.
+orchestrator     5M IN CNAME dborch1001.wikimedia.org.
 old-bugzilla     1D IN CNAME dyna.wikimedia.org.
 planet           1D IN CNAME dyna.wikimedia.org.
 ar.planet        1D IN CNAME dyna.wikimedia.org.
