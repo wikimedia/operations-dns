@@ -389,6 +389,8 @@ netbox          1H  IN CNAME    netbox1001
 netbox-exports  1H  IN CNAME    netbox1001
 netbox-next     1H  IN CNAME    netbox-dev2001
 
+orchestrator    5M  IN CNAME    dborch1001
+
 payments        5M  IN CNAME    payments-eqiad
 payments.frdev  5M  IN CNAME    payments-codfw
 payments-eqiad  1H  IN A        208.80.155.5
@@ -440,6 +442,8 @@ sitemaps        1D IN CNAME dyna.wikimedia.org.
 stream          1D IN CNAME dyna.wikimedia.org.
 
 svn             1D IN CNAME dyna.wikimedia.org.
+
+tendril         5M IN CNAME dbmonitor1001
 
 toolsadmin      1D IN CNAME dyna.wikimedia.org.
 
@@ -594,7 +598,6 @@ fundraising      1H  IN CNAME    fundraising-eqiad
 hue              1D IN CNAME dyna.wikimedia.org.
 hue-next         5M IN CNAME dyna.wikimedia.org.
 iegreview        1D IN CNAME dyna.wikimedia.org.
-tendril          5M  IN CNAME    dbmonitor1001
 jobs             1D IN CNAME dyna.wikimedia.org.
 labs             1D IN CNAME dyna.wikimedia.org.
 ; deprecated but kept for compatibility, see RT #6769
@@ -605,7 +608,6 @@ cas-logstash     1D IN CNAME dyna.wikimedia.org.
 moon             1D IN CNAME dyna.wikimedia.org.
 noc              1D IN CNAME dyna.wikimedia.org.
 nyc              1D IN CNAME dyna.wikimedia.org.
-orchestrator     5M IN CNAME dborch1001.wikimedia.org.
 old-bugzilla     1D IN CNAME dyna.wikimedia.org.
 planet           1D IN CNAME dyna.wikimedia.org.
 ar.planet        1D IN CNAME dyna.wikimedia.org.
