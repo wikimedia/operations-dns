@@ -18,6 +18,7 @@
 234 1H IN PTR   fundraising-codfw.wikimedia.org.
 235 1H IN PTR   frmon-codfw.frdev.wikimedia.org.
 236 1H IN PTR   frmx2001.wikimedia.org.
+237 1H IN PTR   frdata-codfw.wikimedia.org.
 
 ; 208.80.152.240/28 sandbox1-a-codfw (208.80.152.240 - 208.80.152.255)
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
