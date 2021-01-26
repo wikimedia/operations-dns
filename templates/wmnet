@@ -620,6 +620,7 @@ analytics-web         300 IN CNAME thorium.eqiad.wmnet.
 ticket                300 IN CNAME otrs1001.eqiad.wmnet.
 grafana-labs          300 IN CNAME cloudmetrics1002.eqiad.wmnet.
 graphite-labs         300 IN CNAME cloudmetrics1002.eqiad.wmnet.
+testreduce            300 IN CNAME testreduce1001.eqiad.wmnet.
 
 ; for thanos use a CNAME discovery record not the thanos-query geoip
 ; record to resolve session management issues T151009#6348575
