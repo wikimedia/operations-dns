@@ -584,6 +584,8 @@ thanos-query   300/10 IN DYNA geoip!disc-thanos-query
 thanos-swift   300/10 IN DYNA geoip!disc-thanos-swift
 helm-charts    300/10 IN DYNA geoip!disc-helm-charts
 api-gateway    300/10 IN DYNA geoip!disc-api-gateway
+similar-users  300/10 IN DYNA geoip!disc-similar-users
+linkrecommendation  300/10 IN DYNA geoip!disc-linkrecommendation
 
 ; misc web services with multiple backends but without geoip
 
