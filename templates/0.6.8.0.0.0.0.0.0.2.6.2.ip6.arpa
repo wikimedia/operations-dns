@@ -164,12 +164,6 @@ $ORIGIN 6.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/6.0.e.f.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; cr2-codfw <--> cr2-eqiad (2620:0:860:fe07::/64)
-
-$ORIGIN 7.0.e.f.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/7.0.e.f.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
-
 ; cr1-eqiad <--> cr2-eqdfw (2620:0:860:fe08::/64)
 
 $ORIGIN 8.0.e.f.@Z
