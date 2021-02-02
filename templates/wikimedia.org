@@ -62,8 +62,9 @@ googlef3fe6c2a164e9650  1H  IN CNAME    google.com.
 ; Github domain verification (T207364)
 ; @wikimedia.org email addresses
 _github-challenge-wikimedia       1H IN TXT "373abc3cc8"
-; Profile URL https://www.wikimedia.org/
+; Profile URL https://www.wikimedia.org/ https://doc.wikimedia.org/
 _github-challenge-wikimedia.www   1H IN TXT "992c2700d4"
+_github-challenge-wikimedia.doc   1H IN TXT "93192ca59a"
 
 ; Google Site Verification for gsuite-test.wikimedia.org
 gsuite-test 600 IN TXT  "google-site-verification=TI8r5YSBh1J5ztVl_neyqh5Sqp-3XeOQC8Yvm516w9I"
