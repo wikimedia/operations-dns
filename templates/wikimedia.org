@@ -453,8 +453,8 @@ toolsadmin      1D IN CNAME dyna.wikimedia.org.
 wiki-mail-codfw 1H  IN A        208.80.153.46
 wiki-mail-codfw 1H  IN AAAA     2620:0:860:2:208:80:153:46
 
-url-downloader.eqiad  5M  IN CNAME urldownloader1001
-url-downloader.codfw  5M  IN CNAME urldownloader2001
+url-downloader.eqiad  5M  IN CNAME urldownloader1002
+url-downloader.codfw  5M  IN CNAME urldownloader2002
 url-downloader        5M  IN CNAME url-downloader.eqiad
 
 ; Wikis (alphabetic order)
