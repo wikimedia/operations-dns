@@ -399,6 +399,7 @@ blubberoid  1H  IN A        10.2.2.31
 wdqs        1H  IN A        10.2.2.32
 kibana      1H  IN A        10.2.2.33
 eventstreams 1H  IN A       10.2.2.34
+eventstreams-internal 1H  IN A       10.2.2.35
 logstash     1H  IN A       10.2.2.36
 recommendation-api 1H IN A      10.2.2.37
 druid-public-broker    1H  IN A     10.2.2.38
@@ -497,6 +498,7 @@ blubberoid      1H  IN A        10.2.1.31
 wdqs            1H  IN A        10.2.1.32
 kibana          1H  IN A        10.2.1.33
 eventstreams    1H  IN A        10.2.1.34
+eventstreams-internal 1H  IN A       10.2.1.35
 ; 36 reserved for logstash
 recommendation-api  1H  IN A        10.2.1.37
 wdqs-internal   1H  IN A        10.2.1.41
@@ -559,6 +561,7 @@ apertium       300/10 IN DYNA geoip!disc-apertium
 citoid         300/10 IN DYNA geoip!disc-citoid
 cxserver       300/10 IN DYNA geoip!disc-cxserver
 eventstreams   300/10 IN DYNA geoip!disc-eventstreams
+eventstreams-internal   300/10 IN DYNA geoip!disc-eventstreams-internal
 graphoid       300/10 IN DYNA geoip!disc-graphoid
 kartotherian   300/10 IN DYNA geoip!disc-kartotherian
 kibana         300/10 IN DYNA metafo!disc-kibana
