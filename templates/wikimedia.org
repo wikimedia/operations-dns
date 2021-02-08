@@ -342,7 +342,7 @@ ldap-labs.eqiad 1H  IN CNAME    seaborgium
 ldap-labs.codfw 1H  IN CNAME    serpens
 
 frbast          1H  IN CNAME    frbast-eqiad
-frdata          1H  IN CNAME    frdata1001
+frdata          1H  IN CNAME    frdata-eqiad
 frmon.frdev     1H  IN CNAME    frmon-eqiad.frdev
 
 gerrit        600 IN A        208.80.154.137
