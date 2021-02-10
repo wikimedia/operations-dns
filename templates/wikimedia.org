@@ -128,7 +128,6 @@ $INCLUDE netbox/wikimedia.org-codfw
 civi1001        1H  IN A    208.80.155.11
 frbast-eqiad    1H  IN A    208.80.155.8
 frbast-codfw    1H  IN A    208.80.152.231
-frdata1001      1H  IN A    208.80.155.10
 frdata-eqiad    1H  IN A    208.80.155.16
 frdata-codfw    1H  IN A    208.80.152.237
 frdev-eqiad     1H  IN A    208.80.155.13
