@@ -389,7 +389,7 @@ apertium    1H  IN A        10.2.2.11
 aqs         1H  IN A        10.2.2.12
 kartotherian 1H IN A        10.2.2.13
 mobileapps  1H  IN A        10.2.2.14
-graphoid    1H  IN A        10.2.2.15
+
 zotero      1H  IN A        10.2.2.16
 restbase    1H  IN A        10.2.2.17
 restbase-async 1H  IN A     10.2.2.17
@@ -485,7 +485,7 @@ apertium        1H  IN A        10.2.1.11
 ; 12 reserved for aqs
 kartotherian    1H  IN A        10.2.1.13
 mobileapps      1H  IN A        10.2.1.14
-graphoid        1H  IN A        10.2.1.15
+
 zotero          1H  IN A        10.2.1.16
 restbase        1H  IN A        10.2.1.17
 restbase-async  1H  IN A        10.2.1.17
@@ -569,7 +569,7 @@ citoid         300/10 IN DYNA geoip!disc-citoid
 cxserver       300/10 IN DYNA geoip!disc-cxserver
 eventstreams   300/10 IN DYNA geoip!disc-eventstreams
 eventstreams-internal   300/10 IN DYNA geoip!disc-eventstreams-internal
-graphoid       300/10 IN DYNA geoip!disc-graphoid
+
 kartotherian   300/10 IN DYNA geoip!disc-kartotherian
 kibana         300/10 IN DYNA metafo!disc-kibana
 mathoid        300/10 IN DYNA geoip!disc-mathoid

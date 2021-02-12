@@ -19,7 +19,7 @@ $ORIGIN 1.2.@Z
 ; reserving 12 for aqs to be consistent
 13  1H  IN PTR  kartotherian.svc.codfw.wmnet.
 14  1H  IN PTR  mobileapps.svc.codfw.wmnet.
-15  1H  IN PTR  graphoid.svc.codfw.wmnet.
+;
 16  1H  IN PTR  zotero.svc.codfw.wmnet.
 17  1H  IN PTR  restbase.svc.codfw.wmnet.
 18  1H  IN PTR  cxserver.svc.codfw.wmnet.
@@ -72,7 +72,7 @@ $ORIGIN 2.2.@Z
 12  1H  IN PTR  aqs.svc.eqiad.wmnet.
 13  1H  IN PTR  kartotherian.svc.eqiad.wmnet.
 14  1H  IN PTR  mobileapps.svc.eqiad.wmnet.
-15  1H  IN PTR  graphoid.svc.eqiad.wmnet.
+;
 16  1H  IN PTR  zotero.svc.eqiad.wmnet.
 17  1H  IN PTR  restbase.svc.eqiad.wmnet.
 18  1H  IN PTR  cxserver.svc.eqiad.wmnet.
