@@ -163,6 +163,8 @@ frpig1001-fundraising 1H      IN A    10.64.40.165
 frpm1001        1H      IN A    10.64.40.70
 frqueue1001     1H      IN A    10.64.40.115
 frqueue1002     1H      IN A    10.64.40.116
+frqueue1003     1H      IN A    10.64.40.113
+frqueue1004     1H      IN A    10.64.40.114
 pay-lvs1001     1H      IN A    10.64.40.20
 pay-lvs1002     1H      IN A    10.64.40.21
 payments1001    1H      IN A    10.64.40.5
