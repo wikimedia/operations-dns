@@ -440,8 +440,8 @@ nfs-tools-project    1H  IN A        10.64.37.18
 
 ; K8S EQIAD STAGING SERVICES
 
-kubestagemaster 5M  IN CNAME    neon.eqiad.wmnet.
-staging         5M  IN CNAME    kubestage2001.codfw.wmnet. ; This is to be temporary during staging-eqiad cluster upgrade
+kubestagemaster 1H  IN CNAME    kubestagemaster1001.eqiad.wmnet.
+staging         1H  IN CNAME    kubestage2001.codfw.wmnet. ; This is to be temporary during staging-eqiad cluster upgrade
 ;staging         1H  IN A        10.64.0.247 ; kubestage1001
 ;staging         1H  IN A        10.64.16.92 ; kubestage1002
 
