@@ -441,9 +441,7 @@ nfs-tools-project    1H  IN A        10.64.37.18
 ; K8S EQIAD STAGING SERVICES
 
 kubestagemaster 1H  IN CNAME    kubestagemaster1001.eqiad.wmnet.
-staging         1H  IN CNAME    kubestage2001.codfw.wmnet. ; This is to be temporary during staging-eqiad cluster upgrade
-;staging         1H  IN A        10.64.0.247 ; kubestage1001
-;staging         1H  IN A        10.64.16.92 ; kubestage1002
+staging         1H  IN CNAME    kubestage1001.eqiad.wmnet.
 
 $ORIGIN staging.svc.eqiad.wmnet.
 
@@ -535,7 +533,7 @@ similar-users   1H  IN A    10.2.1.57
 ; K8S CODFW STAGING SERVICES
 
 kubestagemaster 1H  IN CNAME    kubestagemaster2001.codfw.wmnet.
-staging         1H  IN CNAME    kubestage2001.codfw.wmnet. ; TODO: Verify CNAME experiment works
+staging         1H  IN CNAME    kubestage2001.codfw.wmnet.
 
 $ORIGIN staging.svc.codfw.wmnet.
 
