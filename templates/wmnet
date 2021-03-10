@@ -8,8 +8,8 @@
 
 
 ; CROSS-COLO FUNDRAISING SERVICE ALIASES
-fundraisingdb-write 5M  IN CNAME    frdb1002.frack.eqiad.wmnet.
-fundraisingdb-read  5M  IN CNAME    frdb1002.frack.eqiad.wmnet.
+fundraisingdb-write 5M  IN CNAME    frdb1004.frack.eqiad.wmnet.
+fundraisingdb-read  5M  IN CNAME    frdb1004.frack.eqiad.wmnet.
 
 ;
 ; EQIAD
@@ -161,8 +161,6 @@ frnetmon1001    1H      IN A    10.64.40.67
 frpig1001       1H      IN A    10.64.40.164
 frpig1001-fundraising 1H      IN A    10.64.40.165
 frpm1001        1H      IN A    10.64.40.70
-frqueue1001     1H      IN A    10.64.40.115
-frqueue1002     1H      IN A    10.64.40.116
 frqueue1003     1H      IN A    10.64.40.113
 frqueue1004     1H      IN A    10.64.40.114
 pay-lvs1001     1H      IN A    10.64.40.20
