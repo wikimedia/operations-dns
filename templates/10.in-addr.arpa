@@ -43,6 +43,7 @@ $ORIGIN 1.2.@Z
 ; 36 reserved for logstash
 37  1H  IN PTR  recommendation-api.svc.codfw.wmnet.
 ; 38 reserved for druid-public-broker
+39  1H  IN PTR  ml-ctrl.svc.codfw.wmnet.
 ; 40 reserved for labweb
 41  1H  IN PTR  wdqs-internal.svc.codfw.wmnet.
 42  1H  IN PTR  eventgate-analytics.svc.codfw.wmnet.
@@ -96,7 +97,7 @@ $ORIGIN 2.2.@Z
 36  1H  IN PTR  logstash.svc.eqiad.wmnet.
 37  1H  IN PTR  recommendation-api.svc.eqiad.wmnet.
 38  1H  IN PTR  druid-public-broker.svc.eqiad.wmnet.
-
+39  1H  IN PTR  ml-ctrl.svc.eqiad.wmnet.
 40  1H  IN PTR  labweb.svc.eqiad.wmnet.
 41  1H  IN PTR  wdqs-internal.svc.eqiad.wmnet.
 42  1H  IN PTR  eventgate-analytics.svc.eqiad.wmnet.
