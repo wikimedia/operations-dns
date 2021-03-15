@@ -20,6 +20,9 @@
 ; Domain root (can't use CNAME here)
 @           600 IN DYNA geoip!ncredir-addrs
 
+; Wikimedia Enterprise
+enterprise  600 IN CNAME d1ih19hol8udi5.cloudfront.net.
+
 ; Wikis (alphabetic order), which are not covered by langlist.tmpl
 
 arbcom-cs               1D IN CNAME ncredir-lb.wikimedia.org.
