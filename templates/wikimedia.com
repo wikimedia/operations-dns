@@ -23,9 +23,6 @@
 ; Wikimedia Enterprise
 enterprise  600 IN CNAME d1ih19hol8udi5.cloudfront.net.
 
-; Validation for cloudfront-issued TLS certificate for the above:
-_6be3c80dc6418fd7e2c91d6c54a7f758.enterprise 600 IN CNAME _5d04049dae06818d7d7e7b83d4f68f11.nfyddsqlcy.acm-validations.aws.
-
 ; Wikis (alphabetic order), which are not covered by langlist.tmpl
 
 arbcom-cs               1D IN CNAME ncredir-lb.wikimedia.org.
