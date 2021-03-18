@@ -170,6 +170,9 @@ payments1002    1H      IN A    10.64.40.6
 payments1003    1H      IN A    10.64.40.7
 payments1004    1H      IN A    10.64.40.8
 payments1005    1H      IN A    10.64.40.9
+payments1006    1H      IN A    10.64.40.10
+payments1007    1H      IN A    10.64.40.11
+payments1008    1H      IN A    10.64.40.12
 
 ; EQIAD fundraising/payments management
 $ORIGIN mgmt.frack.eqiad.wmnet.

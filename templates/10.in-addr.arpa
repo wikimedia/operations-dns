@@ -230,6 +230,10 @@ $ORIGIN 40.64.@Z
 6   1H IN PTR   payments1002.frack.eqiad.wmnet.
 7   1H IN PTR   payments1003.frack.eqiad.wmnet.
 8   1H IN PTR   payments1004.frack.eqiad.wmnet.
+9   1H IN PTR   payments1005.frack.eqiad.wmnet.
+10  1H IN PTR   payments1006.frack.eqiad.wmnet.
+11  1H IN PTR   payments1007.frack.eqiad.wmnet.
+12  1H IN PTR   payments1008.frack.eqiad.wmnet.
 
 20  1H IN PTR   pay-lvs1001.frack.eqiad.wmnet.
 21  1H IN PTR   pay-lvs1002.frack.eqiad.wmnet.
