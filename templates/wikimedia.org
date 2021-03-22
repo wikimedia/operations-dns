@@ -28,9 +28,8 @@ nsa         1H  IN A    198.35.27.27 ; anycast authdns
 @               600 IN TXT  "FC0MOB7SKLHj0AsevTnJvE0W0YYQkPVYOX3UMrINOSk="
 @               600 IN TXT  "MS=ms70322281"
 
-; CAA records for wikimedia.org - all types for globalsign and digicert and LE
+; CAA records for wikimedia.org - all types for digicert and LE
 @               5M  IN CAA 0 issue "digicert.com"
-@               5M  IN CAA 0 issue "globalsign.com"
 @               5M  IN CAA 0 issue "letsencrypt.org"
 @               5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
@@ -424,12 +423,10 @@ policy          5M  IN A        192.0.66.2
 ; policy is operated by a third party which uses Namecheap/Comodo to issue DV certs on our behalf
 ; we're also keeping all the base domain records here, as a Just In Case of any confusion on policy or wildcards/subdomains.
 policy          5M  IN CAA 0 issue "digicert.com"
-policy          5M  IN CAA 0 issue "globalsign.com"
 policy          5M  IN CAA 0 issue "letsencrypt.org"
 policy          5M  IN CAA 0 issue "comodoca.com"
 policy          5M  IN CAA 0 issue "namecheap.com"
 policy          5M  IN CAA 0 issuewild "digicert.com"
-policy          5M  IN CAA 0 issuewild "globalsign.com"
 policy          5M  IN CAA 0 issuewild "letsencrypt.org"
 policy          5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
