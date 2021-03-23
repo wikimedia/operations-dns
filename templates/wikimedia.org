@@ -445,7 +445,7 @@ stream          1D IN CNAME dyna.wikimedia.org.
 
 svn             1D IN CNAME dyna.wikimedia.org.
 
-tendril         5M IN CNAME dbmonitor1001
+tendril         5M IN CNAME dbmonitor1002
 
 toolsadmin      1D IN CNAME dyna.wikimedia.org.
 
