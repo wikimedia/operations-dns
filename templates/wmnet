@@ -229,7 +229,6 @@ _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd2003.cod
 
 ; CODFW ML-Team etcd cluster
 _etcd-server-ssl._tcp.ml_etcd 5M  IN SRV      0 1 2380 ml-etcd2001.codfw.wmnet.
-_etcd-server-ssl._tcp.ml_etcd 5M  IN SRV      0 1 2380 ml-etcd2002.codfw.wmnet.
 _etcd-server-ssl._tcp.ml_etcd 5M  IN SRV      0 1 2380 ml-etcd2003.codfw.wmnet.
 
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
