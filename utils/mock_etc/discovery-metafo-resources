@@ -1,7 +1,22 @@
 # WARNING:----------------------------------------------------------------
-# Do not add anything to this file unless you've *first* made the
-# corresponding edit to hieradata/common/discovery.yaml , merged that, and
-# deployed it to all authdns servers via the puppet agent!
+# Do not add anything to this file unless you've *first* created the service
+# definition in the puppet repo in:
+#   hieradata/common/service.yaml
+# and moved its state all the way to 'production' (as opposed to e.g.
+# service_setup or lvs_setup), as documented in:
+#   https://wikitech.wikimedia.org/wiki/LVS#Add_a_new_load_balanced_service
+# and pushed that new puppet state everywhere (including the DNS servers).
+#--
+# Once an entry is added here, the corresponding zonefile records for the
+# service hostname can be created and will pass DNS CI - the mock entry here
+# and the zonefile record can be done in the same commit.
+#--
+# Service removal is handled in reverse order as documented in:
+#   https://wikitech.wikimedia.org/wiki/LVS#Remove_a_load_balanced_service
+# Which means one must first remove the relevant zonefile record(s) and the
+# mock_etc entries here, and push that via authdns-update, before any
+# puppet-side steps for decomming the sevice by e.g. changing its state from
+# 'production' to 'lvs_setup' or a lower state (or complete removal).
 # ------------------------------------------------------------------------
 # mock active-passive entries by copying here and changing name
 disc-appservers-rw       => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
