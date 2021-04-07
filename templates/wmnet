@@ -561,7 +561,6 @@ swift-ro       300/10 IN DYNA geoip!disc-swift-ro
 swift-rw       300/10 IN DYNA metafo!disc-swift-rw
 parsoid-php    300/10 IN DYNA metafo!disc-parsoid-php
 ; Main services
-parsoid        300/10 IN DYNA geoip!disc-parsoid
 restbase       300/10 IN DYNA geoip!disc-restbase
 restbase-async 300/10 IN DYNA geoip!disc-restbase-async
 search         300/10 IN DYNA geoip!disc-search
