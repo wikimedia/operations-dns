@@ -28,7 +28,7 @@ eventlogging    1H  IN CNAME    eventlog1003.eqiad.wmnet.
 udplog          1H  IN CNAME    mwlog1002.eqiad.wmnet.
 deployment      5M  IN CNAME    deploy1002.eqiad.wmnet.
 maintenance     5M  IN CNAME    mwmaint1002.eqiad.wmnet.
-people          5M  IN CNAME    people1002.eqiad.wmnet.
+people          5M  IN CNAME    people1003.eqiad.wmnet.
 s1-master       5M  IN CNAME    db1163.eqiad.wmnet.
 s2-master       5M  IN CNAME    db1122.eqiad.wmnet.
 s3-master       5M  IN CNAME    db1123.eqiad.wmnet.
@@ -609,7 +609,7 @@ graphite              300 IN CNAME graphite1004.eqiad.wmnet.
 ;graphite              300 IN CNAME graphite2003.codfw.wmnet.
 mwmaint               300 IN CNAME mwmaint1002.eqiad.wmnet.
 ;mwmaint               300 IN CNAME mwmaint2002.codfw.wmnet.
-peopleweb             300 IN CNAME people1002.eqiad.wmnet.
+peopleweb             300 IN CNAME people1003.eqiad.wmnet.
 ;peopleweb             300 IN CNAME people2001.codfw.wmnet.
 performance           300 IN CNAME webperf1001.eqiad.wmnet.
 ;performance           300 IN CNAME webperf2001.codfw.wmnet.
