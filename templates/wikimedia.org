@@ -271,6 +271,7 @@ usability.m         1D IN CNAME dyna.wikimedia.org.
 uz.m                1D IN CNAME dyna.wikimedia.org.
 ve.m                1D IN CNAME dyna.wikimedia.org.
 vote.m              1D IN CNAME dyna.wikimedia.org.
+vrt-wiki.m          1D IN CNAME dyna.wikimedia.org.
 wb.m                1D IN CNAME dyna.wikimedia.org.
 wikimania.m         1D IN CNAME dyna.wikimedia.org.
 wikimania2005.m     1D IN CNAME dyna.wikimedia.org.
@@ -558,6 +559,7 @@ usability        1D IN CNAME dyna.wikimedia.org.
 uz               1D IN CNAME dyna.wikimedia.org.
 ve               1D IN CNAME dyna.wikimedia.org.
 vote             1D IN CNAME dyna.wikimedia.org.
+vrt-wiki         1D IN CNAME dyna.wikimedia.org.
 wb               1D IN CNAME dyna.wikimedia.org.
 wikimania        1D IN CNAME dyna.wikimedia.org.
 wikimania2005    1D IN CNAME dyna.wikimedia.org.
