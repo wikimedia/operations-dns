@@ -47,8 +47,10 @@ $ORIGIN eqiad1.wikimediacloud.org.
 ; Primary openstack endpoint API used by openstack clients and endpoint catalog
 openstack  5M  IN CNAME  cloudcontrol1003.wikimedia.org.
 
-; the next one will be enabled once migrated, replacing cloudinstances2b-gw
+; the next ones will be enabled once migrated, replacing cloudinstances2b-gw
+; nat.cloudgw         5M  IN A      185.15.56.1
 ; wan.cloudgw         5M  IN A      185.15.56.244
+virt.cloudgw        5M  IN A      185.15.56.237
 cloudgw1001         5M  IN A      185.15.56.245
 cloudgw1002         5M  IN A      185.15.56.246
 
