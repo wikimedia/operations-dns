@@ -355,6 +355,7 @@ git             1D IN CNAME dyna.wikimedia.org.
 graphite        1D IN CNAME dyna.wikimedia.org.
 graphite-labs   1D IN CNAME dyna.wikimedia.org.
 grafana         1D IN CNAME dyna.wikimedia.org.
+grafana-cloud        1D IN CNAME dyna.wikimedia.org.
 grafana-labs         1D IN CNAME dyna.wikimedia.org.
 grafana-next         1D IN CNAME dyna.wikimedia.org.    ; to replace grafana-beta which has a confusing name
 grafana-rw           1D IN CNAME dyna.wikimedia.org.
