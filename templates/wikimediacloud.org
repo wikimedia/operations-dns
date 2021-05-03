@@ -51,6 +51,9 @@ openstack  5M  IN CNAME  cloudcontrol1003.wikimedia.org.
 ; nat.cloudgw         5M  IN A      185.15.56.1
 ; wan.cloudgw         5M  IN A      185.15.56.244
 virt.cloudgw        5M  IN A      185.15.56.237
+vrrp-gw-1120               5M IN A 185.15.56.241
+irb-1120.cloudsw1-c8-eqiad 5M IN A 185.15.56.242
+irb-1120.cloudsw1-d5-eqiad 5M IN A 185.15.56.243
 cloudgw1001         5M  IN A      185.15.56.245
 cloudgw1002         5M  IN A      185.15.56.246
 
