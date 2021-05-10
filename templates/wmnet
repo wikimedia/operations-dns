@@ -121,7 +121,7 @@ _etcd-server-ssl._tcp.ml_etcd 5M  IN SRV      0 1 2380 ml-etcd1003.eqiad.wmnet.
 $INCLUDE netbox/eqiad.wmnet
 puppet            5M      IN CNAME    puppetmaster1001.eqiad.wmnet.
 phab1001-aphlict  1H      IN CNAME    phab1001
-prometheus-labmon 1H      IN CNAME    cloudmetrics1002
+prometheus-labmon 1H      IN CNAME    cloudmetrics1001
 
 ; Kubernetes pod records for eqiad
 {% for z in range(64,72) -%}
