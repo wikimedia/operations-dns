@@ -43,7 +43,10 @@ $INCLUDE netbox/184-29.153.80.208.in-addr.arpa
 
 ; Neighbor blocks & loopbacks (208.80.153.192/27)
 
-; loopbacks
+; 208.80.153.192/29 (loopbacks)
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/192-29.153.80.208.in-addr.arpa
+
 ; neighbor blocks
 ; 208.80.153.200/31 (cr1-codfw <--> pfw3-codfw)
 ; 208.80.153.202/31 (cr2-codfw <--> pfw3-codfw)
