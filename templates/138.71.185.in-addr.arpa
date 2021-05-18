@@ -8,4 +8,6 @@
 @                       1D      IN NS   ns1.wikimedia.org.
 @                       1D      IN NS   ns2.wikimedia.org.
 
-; NOTE - Planning to reserve this whole /24 for 2nd European PoP
+; /24 used by Wikidough: T252132
+
+138 1H IN PTR   wikimedia-dns.org.

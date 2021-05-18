@@ -1,0 +1,32 @@
+; vim: set expandtab:smarttab
+; {{ serial_comment }}
+@ 1H IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. {{ serial_num }} 12H 2H 2W 1H
+
+; Name servers
+
+@           1D  IN NS   ns0.wikimedia.org.
+@           1D  IN NS   ns1.wikimedia.org.
+@           1D  IN NS   ns2.wikimedia.org.
+
+; Mail exchangers
+
+@           1H  IN MX   10  mx1001.wikimedia.org.
+@           1H  IN MX   50  mx2001.wikimedia.org.
+
+; Canonical names
+
+; SPF records
+@           600 IN TXT  "v=spf1 include:wikimedia.org ~all"
+
+; CAA records
+@           600 IN CAA 0 issue "letsencrypt.org"
+@           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
+
+; Servers (alphabetic order)
+
+; Service aliases
+
+; Wikis (alphabetic order)
+
+; Wikidough
+@           600 IN A    185.71.138.138 ; anycasted
