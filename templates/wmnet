@@ -598,6 +598,7 @@ helm-charts    300/10 IN DYNA geoip!disc-helm-charts
 api-gateway    300/10 IN DYNA geoip!disc-api-gateway
 similar-users  300/10 IN DYNA geoip!disc-similar-users
 linkrecommendation  300/10 IN DYNA geoip!disc-linkrecommendation
+puppetdb-api   300/10 IN DYNA geoip!disc-puppetdb-api
 
 ; misc web services with multiple backends but without geoip
 
