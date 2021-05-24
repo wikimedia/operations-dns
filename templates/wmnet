@@ -681,6 +681,7 @@ shellbox-timeline  300/10 IN DYNA geoip!disc-shellbox-timeline
 tegola-vector-tiles  300/10 IN DYNA geoip!disc-tegola-vector-tiles
 puppetboard           300/10 IN DYNA geoip!disc-puppetboard
 apple-search    300/10 IN DYNA geoip!disc-apple-search
+miscweb         300/10 IN DYNA geoip!disc-miscweb
 
 ; misc web services with multiple backends but without geoip
 
