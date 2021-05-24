@@ -435,6 +435,7 @@ api-gateway     1H  IN A    10.2.2.55
 push-notifications  1H  IN A    10.2.2.56
 linkrecommendation  1H  IN A    10.2.2.23
 similar-users   1H  IN A    10.2.2.57
+shellbox        1H  IN A    10.2.2.51
 
 ganeti01    1H  IN A        10.64.32.173
 nfs-tools-project    1H  IN A        10.64.37.18
@@ -523,7 +524,6 @@ kibana7         1H  IN A        10.2.1.48
 echostore       1H  IN A        10.2.1.49
 ganeti01        1H  IN A        10.192.16.131
 eventgate-logging-external 1H  IN A    10.2.1.50
-
 eventgate-analytics-external 1H  IN A    10.2.1.52
 thanos-query    1H  IN A    10.2.1.53
 thanos-swift    1H  IN A    10.2.1.54
@@ -531,6 +531,7 @@ api-gateway     1H  IN A    10.2.1.55
 push-notifications  1H  IN A    10.2.1.56
 linkrecommendation  1H  IN A    10.2.1.23
 similar-users   1H  IN A    10.2.1.57
+shellbox        1H  IN A    10.2.1.51
 
 ; K8S CODFW STAGING SERVICES
 
