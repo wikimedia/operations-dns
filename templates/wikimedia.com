@@ -1,12 +1,13 @@
 ; vim: set expandtab:smarttab
 ; {{ serial_comment }}
-@ 600 IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. {{ serial_num }} 12H 2H 2W 600
+@ 600 IN SOA ns-1579.awsdns-05.co.uk. awsdns-hostmaster.amazon.com. {{ serial_num }} 12H 2H 2W 600
 
 ; Name servers
-
-@           1H  IN NS   ns0.wikimedia.org.
-@           1H  IN NS   ns1.wikimedia.org.
-@           1H  IN NS   ns2.wikimedia.org.
+; We're in the process of moving this to non-WMF DNS hosting - T281428
+@           1H  IN NS ns-1579.awsdns-05.co.uk.
+@           1H  IN NS ns-1462.awsdns-54.org.
+@           1H  IN NS ns-917.awsdns-50.net.
+@           1H  IN NS ns-263.awsdns-32.com.
 
 
 ; SPF txt and rr records
