@@ -4,9 +4,9 @@
 
 ; Name servers
 
-@           1D  IN NS   ns0.wikimedia.org.
-@           1D  IN NS   ns1.wikimedia.org.
-@           1D  IN NS   ns2.wikimedia.org.
+@           1H  IN NS   ns0.wikimedia.org.
+@           1H  IN NS   ns1.wikimedia.org.
+@           1H  IN NS   ns2.wikimedia.org.
 
 
 ; SPF txt and rr records
