@@ -58,3 +58,4 @@ disc-api-gateway         => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-similar-users       => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-linkrecommendation  => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-puppetdb-api        => { map => mock, dcmap => { mock => 192.0.2.1 } }
+disc-shellbox            => { map => mock, dcmap => { mock => 192.0.2.1 } }
