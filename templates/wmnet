@@ -59,7 +59,7 @@ tendril-backend 5M  IN CNAME    db1115.eqiad.wmnet.
 zarcillo-master 5M  IN CNAME    db1115.eqiad.wmnet.
 
 analytics-test-hive   5M  IN CNAME    an-test-coord1001.eqiad.wmnet.
-analytics-hive        5M  IN CNAME    an-coord1001.eqiad.wmnet.
+analytics-hive        5M  IN CNAME    an-coord1002.eqiad.wmnet.
 s1-analytics-replica  5M  IN CNAME    dbstore1003.eqiad.wmnet.
 s2-analytics-replica  5M  IN CNAME    dbstore1007.eqiad.wmnet.
 s3-analytics-replica  5M  IN CNAME    dbstore1007.eqiad.wmnet.
