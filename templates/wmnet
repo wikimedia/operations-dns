@@ -435,6 +435,7 @@ similar-users   1H  IN A    10.2.2.57
 shellbox        1H  IN A    10.2.2.51
 miscweb         1H  IN A    10.2.2.58
 mwdebug         1H  IN A    10.2.2.59
+tegola-vector-tiles         1H  IN A    10.2.2.60
 
 ganeti01    1H  IN A        10.64.32.173
 nfs-tools-project    1H  IN A        10.64.37.18
@@ -533,6 +534,7 @@ similar-users   1H  IN A    10.2.1.57
 shellbox        1H  IN A    10.2.1.51
 miscweb         1H  IN A    10.2.1.58
 mwdebug         1H  IN A    10.2.1.59
+tegola-vector-tiles         1H  IN A    10.2.1.60
 
 ; K8S CODFW STAGING SERVICES
 
