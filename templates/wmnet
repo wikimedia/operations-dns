@@ -166,10 +166,6 @@ frqueue1003     1H      IN A    10.64.40.113
 frqueue1004     1H      IN A    10.64.40.114
 pay-lvs1001     1H      IN A    10.64.40.20
 pay-lvs1002     1H      IN A    10.64.40.21
-payments1001    1H      IN A    10.64.40.5
-payments1002    1H      IN A    10.64.40.6
-payments1003    1H      IN A    10.64.40.7
-payments1004    1H      IN A    10.64.40.8
 payments1005    1H      IN A    10.64.40.9
 payments1006    1H      IN A    10.64.40.10
 payments1007    1H      IN A    10.64.40.11

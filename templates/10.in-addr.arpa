@@ -229,10 +229,6 @@ $ORIGIN 40.64.@Z
 
 ; 10.64.40.0/27 - frack-payments1-c-eqiad
 1   1H IN PTR   reth0-1132.pfw3-eqiad.frack.eqiad.wmnet.
-5   1H IN PTR   payments1001.frack.eqiad.wmnet.
-6   1H IN PTR   payments1002.frack.eqiad.wmnet.
-7   1H IN PTR   payments1003.frack.eqiad.wmnet.
-8   1H IN PTR   payments1004.frack.eqiad.wmnet.
 9   1H IN PTR   payments1005.frack.eqiad.wmnet.
 10  1H IN PTR   payments1006.frack.eqiad.wmnet.
 11  1H IN PTR   payments1007.frack.eqiad.wmnet.
