@@ -601,7 +601,7 @@ datasets         1D IN CNAME dyna.wikimedia.org.
 diff             1H IN CNAME blog-wikimedia-org.go-vip.net.
 download         1D IN CNAME dyna.wikimedia.org.
 etherpad         1D IN CNAME dyna.wikimedia.org.
-fundraising      1H  IN CNAME    fundraising-eqiad
+fundraising      1H  IN CNAME    frdata-eqiad
 fundraising.frdev   1H  IN CNAME    frdata-eqiad
 hue              1D IN CNAME dyna.wikimedia.org.
 iegreview        1D IN CNAME dyna.wikimedia.org.
