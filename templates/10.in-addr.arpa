@@ -275,7 +275,6 @@ $ORIGIN 40.64.@Z
 162 1H IN PTR   frmx1001.frack.eqiad.wmnet.
 163 1H IN PTR   frdata1002.frack.eqiad.wmnet.
 164 1H IN PTR   frpig1001.frack.eqiad.wmnet.
-165 1H IN PTR   frpig1001-fundraising.frack.eqiad.wmnet.
 
 ; 10.64.40.192/26 - frack-management1-c-eqiad
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -552,7 +551,6 @@ $ORIGIN 0.195.@Z
 ; 10.195.0.80/29 - frack-listenerdmz-codfw
 81 1H IN PTR  reth0-2137.pfw3-codfw.frack.codfw.wmnet.
 82 1H IN PTR  frpig2001.frack.codfw.wmnet.
-83 1H IN PTR  frpig2001-fundraising.frack.codfw.wmnet.
 84 1H IN PTR  frmx2001.frack.codfw.wmnet.
 85 1H IN PTR  frdata2001.frack.codfw.wmnet.
 
