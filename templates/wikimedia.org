@@ -135,7 +135,6 @@ frmon-eqiad     1H  IN A    208.80.155.9
 frmon-codfw     1H  IN A    208.80.152.235
 frmx1001        1H  IN A    208.80.155.15
 frmx2001        1H  IN A    208.80.152.236
-fundraising-eqiad 1H  IN A    208.80.155.14
 pay-lvs1001     1H  IN A    208.80.155.2
 pay-lvs1002     1H  IN A    208.80.155.3
 
