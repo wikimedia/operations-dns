@@ -604,6 +604,7 @@ similar-users  300/10 IN DYNA geoip!disc-similar-users
 linkrecommendation  300/10 IN DYNA geoip!disc-linkrecommendation
 puppetdb-api   300/10 IN DYNA geoip!disc-puppetdb-api
 shellbox       300/10 IN DYNA geoip!disc-shellbox
+mwdebug        300/10 IN DYNA geoip!disc-mwdebug
 
 ; misc web services with multiple backends but without geoip
 
