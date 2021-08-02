@@ -522,6 +522,7 @@ kibana-next     1H  IN A        10.2.1.48
 kibana7         1H  IN A        10.2.1.48
 echostore       1H  IN A        10.2.1.49
 ganeti01        1H  IN A        10.192.16.131
+ganeti-test01   1H  IN A        10.192.48.44
 eventgate-logging-external 1H  IN A    10.2.1.50
 eventgate-analytics-external 1H  IN A    10.2.1.52
 thanos-query    1H  IN A    10.2.1.53
