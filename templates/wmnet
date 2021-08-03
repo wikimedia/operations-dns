@@ -37,11 +37,11 @@ s5-master       5M  IN CNAME    db2123.codfw.wmnet.
 s6-master       5M  IN CNAME    db2129.codfw.wmnet.
 s7-master       5M  IN CNAME    db2118.codfw.wmnet.
 s8-master       5M  IN CNAME    db2079.codfw.wmnet.
-m1-master       5M  IN CNAME    dbproxy1014.eqiad.wmnet.
+m1-master       5M  IN CNAME    dbproxy1012.eqiad.wmnet.
 m1-slave        5M  IN CNAME    db1117.eqiad.wmnet.
-m2-master       5M  IN CNAME    dbproxy1013.eqiad.wmnet.
+m2-master       5M  IN CNAME    dbproxy1015.eqiad.wmnet.
 m2-slave        5M  IN CNAME    db1117.eqiad.wmnet.
-m3-master       5M  IN CNAME    dbproxy1020.eqiad.wmnet.
+m3-master       5M  IN CNAME    dbproxy1016.eqiad.wmnet.
 m3-slave        5M  IN CNAME    db1117.eqiad.wmnet.
 m5-master       5M  IN CNAME    db1128.eqiad.wmnet.
 m5-slave        5M  IN CNAME    db1117.eqiad.wmnet.
