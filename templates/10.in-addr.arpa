@@ -63,6 +63,7 @@ $ORIGIN 1.2.@Z
 56  1H  IN PTR  push-notifications.svc.codfw.wmnet.
 57  1H  IN PTR  similar-users.svc.codfw.wmnet.
 58  1H  IN PTR  miscweb.svc.codfw.wmnet.
+61  1H  IN PTR  shellbox-constraints.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -119,6 +120,7 @@ $ORIGIN 2.2.@Z
 56  1H  IN PTR  push-notifications.svc.eqiad.wmnet.
 57  1H  IN PTR  similar-users.svc.eqiad.wmnet.
 58  1H  IN PTR  miscweb.svc.eqiad.wmnet.
+61  1H  IN PTR  shellbox-constraints.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
