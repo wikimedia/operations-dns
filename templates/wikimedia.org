@@ -449,6 +449,8 @@ svn             1D IN CNAME dyna.wikimedia.org.
 
 tendril         5M IN CNAME dbmonitor1002
 
+toolhub         1D IN CNAME dyna.wikimedia.org.
+
 toolsadmin      1D IN CNAME dyna.wikimedia.org.
 
 wiki-mail-codfw 1H  IN A        208.80.153.46
