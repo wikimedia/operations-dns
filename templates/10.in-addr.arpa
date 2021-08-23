@@ -536,6 +536,7 @@ $ORIGIN 0.195.@Z
 ; 10.195.0.32/27 - frack-fundraising-codfw
 33 1H IN PTR  reth0-2135.pfw3-codfw.frack.codfw.wmnet.
 34 1H IN PTR  frdb2001.frack.codfw.wmnet.
+35 1H IN PTR  frdb2003.frack.codfw.wmnet.
 36 1H IN PTR  fran2001.frack.codfw.wmnet.
 37 1H IN PTR  civi2001.frack.codfw.wmnet.
 39 1H IN PTR  frqueue2001.frack.codfw.wmnet.
