@@ -1,0 +1,20 @@
+; vim: set expandtab:smarttab
+; {{ serial_comment }}
+@ 1H IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. {{ serial_num }} 12H 2H 2W 1H
+
+; Name servers
+
+@           1D  IN NS   ns0.wikimedia.org.
+@           1D  IN NS   ns1.wikimedia.org.
+@           1D  IN NS   ns2.wikimedia.org.
+
+; CAA records - LE
+@           5M  IN CAA 0 issue "letsencrypt.org"
+@           5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
+
+
+; dev instance in AWS
+; https://phabricator.wikimedia.org/T289618
+dev         1H  IN A    52.44.207.59
+studio.dev  1H  IN A    52.44.207.59
+preview.dev 1H  IN A    52.44.207.59
