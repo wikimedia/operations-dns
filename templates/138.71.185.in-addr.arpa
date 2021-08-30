@@ -11,3 +11,9 @@
 ; /24 used by Wikidough: T252132
 
 138 1H IN PTR   wikimedia-dns.org.
+
+; durum: T289536
+
+139 1H IN PTR   check.wikimedia-dns.org.
+140 1H IN PTR   yes.check.wikimedia-dns.org.
+141 1H IN PTR   no.check.wikimedia-dns.org.

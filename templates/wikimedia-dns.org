@@ -38,3 +38,6 @@ check       600 IN A    185.71.138.139 ; anycasted
 ; browser-level caching between check queries, e.g.:
 ; https://7fbceba2-fabb-11eb-9a03-0242ac130003.check.wikimedia-dns.org/check
 *.check 5/5 IN DYNA geoip!checkdoh-addrs
+
+yes.check   600 IN A    185.71.138.140 ; anycasted
+no.check    600 IN A    185.71.138.141 ; anycasted
