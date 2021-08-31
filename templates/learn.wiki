@@ -10,6 +10,7 @@
 
 ; CAA records - LE
 @           5M  IN CAA 0 issue "letsencrypt.org"
+@           5M  IN CAA 0 issue "amazonaws.com"
 @           5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 
@@ -18,3 +19,16 @@
 dev         1H  IN A    52.44.207.59
 studio.dev  1H  IN A    52.44.207.59
 preview.dev 1H  IN A    52.44.207.59
+
+; LB DNS entries
+; https://phabricator.wikimedia.org/T290025
+stage           1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws.com.
+studio.stage    1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws.com.
+preview.stage   1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws.com.
+
+
+; CA validation
+; https://phabricator.wikimedia.org/T290025
+_61ef234b53f9d1df78fddb5179f70155.stage         5M  IN CNAME    _390499340809cea809dcad753d3c57cd.gxwgcdsjsl.acm-validations.aws.
+_3ea1d33ff340b6ba4eae76b25cbb5258.studio.stage  5M  IN CNAME    _6b229449d1e21a3e386e0ecb8269fdce.gxwgcdsjsl.acm-validations.aws.
+_bfdf84f9d4a23b8756ee575712ddd473.preview.stage 5M  IN CNAME    _501a2342f529a473e3d6b269b80141a3.gxwgcdsjsl.acm-validations.aws.
