@@ -399,6 +399,7 @@ payments        5M  IN CNAME    payments-eqiad
 payments.frdev  5M  IN CNAME    payments-codfw
 payments-eqiad  1H  IN A        208.80.155.5
 payments-codfw  1H  IN A        208.80.152.228
+payments-staging 1H  IN A        208.80.155.10
 
 payments-listener-eqiad 1H  IN A    208.80.155.12
 payments-listener-codfw 1H  IN A    208.80.152.233
