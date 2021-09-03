@@ -396,7 +396,6 @@ netbox-next     1H  IN CNAME    netbox-dev2001
 orchestrator    5M  IN CNAME    dborch1001
 
 payments        5M  IN CNAME    payments-eqiad
-payments.frdev  5M  IN CNAME    payments-codfw
 payments-eqiad  1H  IN A        208.80.155.5
 payments-codfw  1H  IN A        208.80.152.228
 payments-staging 1H  IN A        208.80.155.10
