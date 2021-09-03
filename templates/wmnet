@@ -52,9 +52,9 @@ es2-master      5M  IN CNAME    es2033.codfw.wmnet.
 es3-master      5M  IN CNAME    es2034.codfw.wmnet.
 es4-master      5M  IN CNAME    es2021.codfw.wmnet.
 es5-master      5M  IN CNAME    es2023.codfw.wmnet.
-pc1-master      5M  IN CNAME    pc2007.codfw.wmnet.
-pc2-master      5M  IN CNAME    pc2008.codfw.wmnet.
-pc3-master      5M  IN CNAME    pc2009.codfw.wmnet.
+pc1-master      5M  IN CNAME    pc2011.codfw.wmnet.
+pc2-master      5M  IN CNAME    pc2012.codfw.wmnet.
+pc3-master      5M  IN CNAME    pc2013.codfw.wmnet.
 tendril-backend 5M  IN CNAME    db1115.eqiad.wmnet.
 zarcillo-master 5M  IN CNAME    db1115.eqiad.wmnet.
 
