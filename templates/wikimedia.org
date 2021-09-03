@@ -320,6 +320,8 @@ bienvenida      1D IN CNAME dyna.wikimedia.org.
 
 cache           1D IN CNAME dyna.wikimedia.org.
 
+commons-query   1D IN CNAME dyna.wikimedia.org.
+
 config-master   1D IN CNAME dyna.wikimedia.org.
 
 contint         5M IN CNAME contint2001.wikimedia.org.
