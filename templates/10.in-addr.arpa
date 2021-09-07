@@ -123,6 +123,7 @@ $ORIGIN 2.2.@Z
 58  1H  IN PTR  miscweb.svc.eqiad.wmnet.
 61  1H  IN PTR  shellbox-constraints.svc.eqiad.wmnet.
 62  1H  IN PTR  toolhub.svc.eqiad.wmnet.
+63  1H  IN PTR  inference.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
