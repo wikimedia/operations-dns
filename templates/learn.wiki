@@ -13,6 +13,19 @@
 @           5M  IN CAA 0 issue "amazonaws.com"
 @           5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
+; MX records - Amazon SES (https://phabricator.wikimedia.org/T290974)
+@           1H  IN MX   10 inbound-smtp.us-east-1.amazonaws.com.
+
+
+; TXT records
+; Amazon SES domain verification record (https://phabricator.wikimedia.org/T290974)
+_amazonses  5M  IN TXT  VDUH3otBclfADNvl3b7igVUZk39fOGFCXTCbhOAOEtE
+
+; Amazon SES DKIM records (https://phabricator.wikimedia.org/T290974)
+k2w5gqxlbqljncvwtmljsgjszb4i4yzx._domainkey 5M  IN CNAME    k2w5gqxlbqljncvwtmljsgjszb4i4yzx.dkim.amazonses.com.
+nhosmjwhmrc45ccjktnxm2k6dleook7v._domainkey 5M  IN CNAME    nhosmjwhmrc45ccjktnxm2k6dleook7v.dkim.amazonses.com.
+tulpi7swkxlvoep2v4xdmenctf7zojbw._domainkey 5M  IN CNAME    tulpi7swkxlvoep2v4xdmenctf7zojbw.dkim.amazonses.com.
+
 
 ; dev instance in AWS
 ; https://phabricator.wikimedia.org/T289618
@@ -25,6 +38,9 @@ preview.dev 1H  IN A    52.44.207.59
 stage           1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws.com.
 studio.stage    1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws.com.
 preview.stage   1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws.com.
+; https://phabricator.wikimedia.org/T290974
+studio          1H  IN CNAME    wkm-prod-alb-30644061.us-east-1.elb.amazonaws.com.
+preview         1H  IN CNAME    wkm-prod-alb-30644061.us-east-1.elb.amazonaws.com.
 
 
 ; CA validation
@@ -32,3 +48,7 @@ preview.stage   1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws
 _61ef234b53f9d1df78fddb5179f70155.stage         5M  IN CNAME    _390499340809cea809dcad753d3c57cd.gxwgcdsjsl.acm-validations.aws.
 _3ea1d33ff340b6ba4eae76b25cbb5258.studio.stage  5M  IN CNAME    _6b229449d1e21a3e386e0ecb8269fdce.gxwgcdsjsl.acm-validations.aws.
 _bfdf84f9d4a23b8756ee575712ddd473.preview.stage 5M  IN CNAME    _501a2342f529a473e3d6b269b80141a3.gxwgcdsjsl.acm-validations.aws.
+; https://phabricator.wikimedia.org/T290974
+_e8216d92d36158dd2198ac46e3739de7               5M  IN CNAME    _58bdabc6b3bcd7a4a822c4b55d531e26.tjxrvlrcqj.acm-validations.aws.
+_256c2d7552a0581589e84c388217cf63.studio        5M  IN CNAME    _4d04201606df3b885ead3923bbc22562.tjxrvlrcqj.acm-validations.aws.
+_b12a640fb8ea864c63c53fbfaded67d9.preview       5M  IN CNAME    _dfcb2ce82ae8cde2fe4c1619ba3a98bd.tjxrvlrcqj.acm-validations.aws.
