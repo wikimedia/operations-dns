@@ -16,6 +16,10 @@
 ; MX records - Amazon SES (https://phabricator.wikimedia.org/T290974)
 @           1H  IN MX   10 inbound-smtp.us-east-1.amazonaws.com.
 
+; apex A record (https://phabricator.wikimedia.org/T291090)
+@           1H  IN A    13.248.190.88
+@           1H  IN A    76.223.57.52
+
 
 ; TXT records
 ; Amazon SES domain verification record (https://phabricator.wikimedia.org/T290974)
