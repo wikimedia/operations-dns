@@ -65,6 +65,7 @@ $ORIGIN 1.2.@Z
 58  1H  IN PTR  miscweb.svc.codfw.wmnet.
 61  1H  IN PTR  shellbox-constraints.svc.codfw.wmnet.
 62  1H  IN PTR  toolhub.svc.codfw.wmnet.
+63  1h  IN PTR  wcqs.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -124,6 +125,7 @@ $ORIGIN 2.2.@Z
 61  1H  IN PTR  shellbox-constraints.svc.eqiad.wmnet.
 62  1H  IN PTR  toolhub.svc.eqiad.wmnet.
 63  1H  IN PTR  inference.svc.eqiad.wmnet.
+64  1H  IN PTR  wcqs.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 

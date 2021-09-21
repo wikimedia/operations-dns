@@ -442,6 +442,7 @@ tegola-vector-tiles         1H  IN A    10.2.2.60
 shellbox-constraints        1H  IN A    10.2.2.61
 toolhub         1H  IN A    10.2.2.62
 inference       1H  IN A    10.2.2.63
+wcqs            1H  IN A    10.2.2.67
 ganeti01    1H  IN A        10.64.32.173
 nfs-tools-project    1H  IN A        10.64.37.18
 
@@ -543,6 +544,7 @@ mwdebug         1H  IN A    10.2.1.59
 tegola-vector-tiles         1H  IN A    10.2.1.60
 shellbox-constraints        1H  IN A    10.2.1.61
 toolhub         1H  IN A    10.2.1.62
+wcqs            1H  IN A    10.2.1.67
 
 ; K8S CODFW STAGING SERVICES
 
