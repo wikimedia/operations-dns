@@ -626,6 +626,7 @@ mwdebug        300/10 IN DYNA geoip!disc-mwdebug
 shellbox-media 300/10 IN DYNA geoip!disc-shellbox-media
 shellbox-syntaxhighlight  300/10 IN DYNA geoip!disc-shellbox-syntaxhighlight
 shellbox-timeline  300/10 IN DYNA geoip!disc-shellbox-timeline
+tegola-vector-tiles  300/10 IN DYNA geoip!disc-tegola-vector-tiles
 
 ; misc web services with multiple backends but without geoip
 
