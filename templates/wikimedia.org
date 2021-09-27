@@ -662,6 +662,7 @@ yarn             1D IN CNAME dyna.wikimedia.org.
 turnilo          1D IN CNAME dyna.wikimedia.org.
 schema           1D IN CNAME dyna.wikimedia.org.
 thanos           1D IN CNAME dyna.wikimedia.org.
+os-reports       1D IN CNAME dyna.wikimedia.org.
 
 wikitech-static-iad  5M  IN A        162.209.126.221
 wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
