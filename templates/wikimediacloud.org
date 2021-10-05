@@ -7,6 +7,10 @@
 @           1D  IN NS   ns1.wikimedia.org.
 @           1D  IN NS   ns2.wikimedia.org.
 
+; CAA records
+@           600 IN CAA 0 issue "letsencrypt.org"
+@           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
+
 ;
 ; CODFW
 ; codfw1dev openstack region
