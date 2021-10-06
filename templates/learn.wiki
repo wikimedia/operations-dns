@@ -36,6 +36,8 @@ tulpi7swkxlvoep2v4xdmenctf7zojbw._domainkey 5M  IN CNAME    tulpi7swkxlvoep2v4xd
 dev         1H  IN A    52.44.207.59
 studio.dev  1H  IN A    52.44.207.59
 preview.dev 1H  IN A    52.44.207.59
+; https://phabricator.wikimedia.org/T292537
+forum.dev   1H  IN A    52.44.207.59
 
 ; LB DNS entries
 ; https://phabricator.wikimedia.org/T290025
@@ -45,6 +47,9 @@ preview.stage   1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws
 ; https://phabricator.wikimedia.org/T290974
 studio          1H  IN CNAME    wkm-prod-alb-30644061.us-east-1.elb.amazonaws.com.
 preview         1H  IN CNAME    wkm-prod-alb-30644061.us-east-1.elb.amazonaws.com.
+; https://phabricator.wikimedia.org/T292537
+forum           1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws.com.
+forum.stage     1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws.com.
 
 
 ; CA validation
@@ -56,3 +61,6 @@ _bfdf84f9d4a23b8756ee575712ddd473.preview.stage 5M  IN CNAME    _501a2342f529a47
 _e8216d92d36158dd2198ac46e3739de7               5M  IN CNAME    _58bdabc6b3bcd7a4a822c4b55d531e26.tjxrvlrcqj.acm-validations.aws.
 _256c2d7552a0581589e84c388217cf63.studio        5M  IN CNAME    _4d04201606df3b885ead3923bbc22562.tjxrvlrcqj.acm-validations.aws.
 _b12a640fb8ea864c63c53fbfaded67d9.preview       5M  IN CNAME    _dfcb2ce82ae8cde2fe4c1619ba3a98bd.tjxrvlrcqj.acm-validations.aws.
+; https://phabricator.wikimedia.org/T292537
+_4a7584ade44564ae4ec7333e13fd3143.forum         5M  IN CNAME    _a98f7adacc036101b58734ff92b628e7.fsdcfjjflr.acm-validations.aws.
+_fbf735f01a612e98f20b40a80776eef1.forum.stage   5M  IN CNAME    _579f7247d0f2261ece062c56f884b1be.fsdcfjjflr.acm-validations.aws.
