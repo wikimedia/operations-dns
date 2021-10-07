@@ -48,7 +48,7 @@ preview.stage   1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws
 studio          1H  IN CNAME    wkm-prod-alb-30644061.us-east-1.elb.amazonaws.com.
 preview         1H  IN CNAME    wkm-prod-alb-30644061.us-east-1.elb.amazonaws.com.
 ; https://phabricator.wikimedia.org/T292537
-forum           1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws.com.
+forum           1H  IN CNAME    wkm-prod-alb-30644061.us-east-1.elb.amazonaws.com.
 forum.stage     1H  IN CNAME    wkm-stage-alb-1830818829.us-east-1.elb.amazonaws.com.
 
 
