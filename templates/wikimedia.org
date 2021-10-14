@@ -300,7 +300,7 @@ alerts          5M  IN CNAME    alert1001
 
 annual          1D IN CNAME dyna.wikimedia.org.
 
-apt             300/10 IN DYNA metafo!disc-apt
+apt             300  IN CNAME   apt1001
 
 archiva         1H  IN CNAME    archiva1002
 

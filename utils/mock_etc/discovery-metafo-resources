@@ -19,7 +19,6 @@
 # 'production' to 'lvs_setup' or a lower state (or complete removal).
 # ------------------------------------------------------------------------
 # mock active-passive entries by copying here and changing name
-disc-apt                 => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-appservers-rw       => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-api-rw              => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-jobrunner           => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
