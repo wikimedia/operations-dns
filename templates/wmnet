@@ -382,6 +382,42 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
 
+;
+; DRMRS MGMT
+;
+
+$ORIGIN mgmt.drmrs.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/mgmt.drmrs.wmnet
+
+;
+; drmrs internal
+;
+
+$ORIGIN drmrs.wmnet.
+
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/drmrs.wmnet
+
+;
+; SERVICES
+;
+config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+; Temporary until there is an install server in drmrs
+webproxy        5M  IN CNAME    install1003.wikimedia.org.
+
+; etcd client discovery (RO)
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
+
+; Conftool (RW)
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
+
+
 ; EQIAD SERVICES
 
 $ORIGIN svc.eqiad.wmnet.
@@ -486,6 +522,15 @@ $ORIGIN svc.eqsin.wmnet.
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/svc.eqsin.wmnet
 prometheus  1H  IN CNAME    prometheus5001.eqsin.wmnet.
+
+; DRMRS SERVICES
+
+$ORIGIN svc.drmrs.wmnet.
+; Used for consistency with eqiad/codfw
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+; TODO: uncomment the next lines once Ganeti and Prometheus are setup in drmrs
+;$INCLUDE netbox/svc.drmrs.wmnet
+;prometheus  1H  IN CNAME    prometheus6001.drmrs.wmnet.
 
 ; CODFW SERVICES
 
