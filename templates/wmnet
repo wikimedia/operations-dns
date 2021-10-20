@@ -366,6 +366,23 @@ $ORIGIN eqsin.wmnet.
 $INCLUDE netbox/eqsin.wmnet
 
 ;
+; DRMRS MGMT
+;
+
+$ORIGIN mgmt.drmrs.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/mgmt.drmrs.wmnet
+
+;
+; drmrs internal
+;
+
+$ORIGIN drmrs.wmnet.
+
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/drmrs.wmnet
+
+;
 ; SERVICES
 ;
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
