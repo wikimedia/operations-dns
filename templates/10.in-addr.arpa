@@ -247,6 +247,8 @@ $ORIGIN 40.64.@Z
 11  1H IN PTR   payments1007.frack.eqiad.wmnet.
 12  1H IN PTR   payments1008.frack.eqiad.wmnet.
 
+18  1H IN PTR   pay-lvs1003.frack.eqiad.wmnet.
+19  1H IN PTR   pay-lvs1004.frack.eqiad.wmnet.
 20  1H IN PTR   pay-lvs1001.frack.eqiad.wmnet.
 21  1H IN PTR   pay-lvs1002.frack.eqiad.wmnet.
 
@@ -259,7 +261,9 @@ $ORIGIN 40.64.@Z
 65  1H IN PTR   reth0-1134.pfw3-eqiad.frack.eqiad.wmnet.
 67  1H IN PTR   frnetmon1001.frack.eqiad.wmnet.
 68  1H IN PTR   frauth1001.frack.eqiad.wmnet.
+69  1H IN PTR   frauth1002.frack.eqiad.wmnet.
 70  1H IN PTR   frpm1001.frack.eqiad.wmnet.
+71  1H IN PTR   frpm1002.frack.eqiad.wmnet.
 72  1H IN PTR   frlog1001.frack.eqiad.wmnet.
 73  1H IN PTR   frmon1001.frack.eqiad.wmnet.
 74  1H IN PTR   frav1002.frack.eqiad.wmnet.

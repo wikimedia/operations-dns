@@ -148,6 +148,7 @@ civi1001        1H      IN A    10.64.40.109
 frav1002        1H      IN A    10.64.40.74
 fran1001        1H      IN A    10.64.40.110
 frauth1001      1H      IN A    10.64.40.68
+frauth1002      1H      IN A    10.64.40.69
 frban1001       1H      IN A    10.64.40.112
 frbast1001      1H      IN A    10.64.40.35
 frdata1001      1H      IN A    10.64.40.131
@@ -163,10 +164,13 @@ frmx1001        1H      IN A    10.64.40.162
 frnetmon1001    1H      IN A    10.64.40.67
 frpig1001       1H      IN A    10.64.40.164
 frpm1001        1H      IN A    10.64.40.70
+frpm1002        1H      IN A    10.64.40.71
 frqueue1003     1H      IN A    10.64.40.113
 frqueue1004     1H      IN A    10.64.40.114
 pay-lvs1001     1H      IN A    10.64.40.20
 pay-lvs1002     1H      IN A    10.64.40.21
+pay-lvs1003     1H      IN A    10.64.40.18
+pay-lvs1004     1H      IN A    10.64.40.19
 payments1005    1H      IN A    10.64.40.9
 payments1006    1H      IN A    10.64.40.10
 payments1007    1H      IN A    10.64.40.11
