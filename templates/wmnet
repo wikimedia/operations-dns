@@ -682,6 +682,7 @@ shellbox-media 300/10 IN DYNA geoip!disc-shellbox-media
 shellbox-syntaxhighlight  300/10 IN DYNA geoip!disc-shellbox-syntaxhighlight
 shellbox-timeline  300/10 IN DYNA geoip!disc-shellbox-timeline
 tegola-vector-tiles  300/10 IN DYNA geoip!disc-tegola-vector-tiles
+puppetboard           300/10 IN DYNA geoip!disc-puppetboard
 
 ; misc web services with multiple backends but without geoip
 
@@ -703,8 +704,6 @@ pki                   300 IN CNAME pki1001.eqiad.wmnet.
 ;pki                   300 IN CNAME pki2001.codfw.wmnet.
 planet                300 IN CNAME planet1002.eqiad.wmnet.
 ;planet                300 IN CNAME planet2002.codfw.wmnet.
-puppetboard           300 IN CNAME puppetboard1001.eqiad.wmnet.
-;puppetboard           300 IN CNAME puppetboard2001.codfw.wmnet.
 releases              300 IN CNAME releases1002.eqiad.wmnet.
 ;releases              300 IN CNAME releases2002.codfw.wmnet.
 webserver-misc-apps   300 IN CNAME miscweb1002.eqiad.wmnet.
