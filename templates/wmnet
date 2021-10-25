@@ -282,6 +282,14 @@ $ORIGIN mgmt.codfw.wmnet.
 $INCLUDE netbox/mgmt.codfw.wmnet
 
 ;
+; ESAMS MGMT
+;
+
+$ORIGIN mgmt.esams.wmnet.
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/mgmt.esams.wmnet
+
+;
 ; ESAMS
 ;
 
@@ -290,7 +298,7 @@ $ORIGIN esams.wmnet.
 $INCLUDE netbox/esams.wmnet
 
 ;
-; SERVICES
+; SERVICES @ esams
 ;
 config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
@@ -305,14 +313,6 @@ _etcd._tcp      5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
-
-;
-; ESAMS MGMT
-;
-
-$ORIGIN mgmt.esams.wmnet.
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/mgmt.esams.wmnet
 
 ;
 ; ULSFO MGMT
@@ -332,7 +332,7 @@ $ORIGIN ulsfo.wmnet.
 $INCLUDE netbox/ulsfo.wmnet
 
 ;
-; SERVICES
+; SERVICES @ ulsfo
 ;
 config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
@@ -366,7 +366,7 @@ $ORIGIN eqsin.wmnet.
 $INCLUDE netbox/eqsin.wmnet
 
 ;
-; SERVICES
+; SERVICES @ eqsin
 ;
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
@@ -400,7 +400,7 @@ $ORIGIN drmrs.wmnet.
 $INCLUDE netbox/drmrs.wmnet
 
 ;
-; SERVICES
+; SERVICES @ drmrs
 ;
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
