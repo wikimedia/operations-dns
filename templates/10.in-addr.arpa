@@ -429,22 +429,6 @@ $ORIGIN 129.132.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/129.132.10.in-addr.arpa
 
-; DRMRS (10.136.0.0/16)
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-; https://netbox.wikimedia.org/ipam/prefixes/405/prefixes/
-
-; 10.136.0.0/24 - private1-b12-drmrs
-$ORIGIN 0.136.@Z
-$INCLUDE netbox/0.136.10.in-addr.arpa
-
-; 10.136.1.0/24 - private1-b13-drmrs
-$ORIGIN 1.136.@Z
-$INCLUDE netbox/1.136.10.in-addr.arpa
-
-; 10.136.128.0/17 - drmrs mgmt
-$ORIGIN 128.136.@Z
-$INCLUDE netbox/128.136.10.in-addr.arpa
-
 ;
 ; CODFW (10.192.0.0/12)
 ;

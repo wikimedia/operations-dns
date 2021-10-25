@@ -14,31 +14,3 @@ $ORIGIN 1.0.0.0.0.0.5.0.@Z
 
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/1.0.0.0.0.0.5.0.0.8.c.e.2.0.a.2.ip6.arpa
-
-;
-; DRMRS - 2a02:ec80:600::/48
-;
-
-; public1-b12-drmrs - 2a02:ec80:600:1::/64
-$ORIGIN 1.0.0.0.0.0.6.0.@Z
-$INCLUDE netbox/1.0.0.0.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
-
-; public1-b13-drmrs - 2a02:ec80:600:2::/64
-$ORIGIN 2.0.0.0.0.0.6.0.@Z
-$INCLUDE netbox/2.0.0.0.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
-
-; private1-b12-drmrs - 2a02:ec80:600:101::/64
-$ORIGIN 1.0.1.0.0.0.6.0.@Z
-$INCLUDE netbox/1.0.1.0.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
-
-; private1-b13-drmrs - 2a02:ec80:600:102::/64
-$ORIGIN 2.0.1.0.0.0.6.0.@Z
-$INCLUDE netbox/2.0.1.0.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
-
-; cr1-eqiad<->drmrs - 2a02:ec80:600:fe01::/64
-$ORIGIN 1.0.e.f.0.0.6.0.@Z
-$INCLUDE netbox/1.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
-
-; loopbacks - 2a02:ec80:600:ffff::/64
-$ORIGIN f.f.f.f.0.0.6.0.@Z
-$INCLUDE netbox/f.f.f.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa

@@ -123,7 +123,6 @@ $INCLUDE netbox/wikimedia.org-eqsin
 $INCLUDE netbox/wikimedia.org-esams
 $INCLUDE netbox/wikimedia.org-eqiad
 $INCLUDE netbox/wikimedia.org-codfw
-$INCLUDE netbox/wikimedia.org-drmrs
 
 ; Fundraising tech hosts (no automation)
 civi1001        1H  IN A    208.80.155.11
