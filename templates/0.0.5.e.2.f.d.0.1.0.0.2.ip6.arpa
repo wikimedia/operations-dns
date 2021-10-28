@@ -46,10 +46,7 @@ $ORIGIN 0.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
 
-; 2001:df2:e500:fe01::/64 -  cr4-ulsfo <--> cr3-eqsin (NTT tunnel)
-$ORIGIN 1.0.e.f.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/1.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
+; 2001:df2:e500:fe01::/64 - Free
 
 ; 2001:df2:e500:fe02::/64 -  cr1-codfw <--> cr3-eqsin (Telia EVPN)
 $ORIGIN 2.0.e.f.@Z

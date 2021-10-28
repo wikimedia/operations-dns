@@ -26,7 +26,6 @@ $INCLUDE netbox/16-28.166.102.103.in-addr.arpa
 ; 103.102.166.128/30 (128-131) - Router's loopbacks
 ; 103.102.166.132/31 -- cr3-eqsin <--> mr1-eqsin
 ; 103.102.166.134/31  -- PCCW peering
-; 103.102.166.136/31  -- cr4-ulsfo <--> cr2-eqsin (NTT tunnel)
 ; 103.102.166.138/31  -- cr1-codfw <--> cr3-eqsin (Telia evpn)
 ; 103.102.166.140/31 -- cr3-eqsin <--> cr2-eqsin
 ; 103.102.166.142/31 -- cr2-eqsin <--> mr1-eqsin
