@@ -404,8 +404,12 @@ $INCLUDE netbox/drmrs.wmnet
 ;
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-; Temporary until there is an install server in drmrs
+; Temporary until there is an install server in drmrs - DRMRS-TODO
 webproxy        5M  IN CNAME    install1003.wikimedia.org.
+; Temporary "junk" IP for failoid1001, just to get past chicken-and-egg site
+; bringup hurdles cleanly (prometheus6001 should be a ganeti instance and get
+; DNS via netbox, later!) - DRMRS-TODO
+prometheus6001  5M  IN A        10.64.16.104
 
 ; etcd client discovery (RO)
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
