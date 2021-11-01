@@ -157,6 +157,9 @@ ntp.esams           1H  IN CNAME dns3001
 ;;; eqsin
 ntp.eqsin           1H  IN CNAME dns5001
 
+;;; drmrs
+ntp.drmrs           1H  IN CNAME dns1001 ; DRMRS-TODO: should be dns6001 later
+
 ; Round Robin LVS Service records
 
 ;;; eqiad (only records not auto-generated from Netbox)
