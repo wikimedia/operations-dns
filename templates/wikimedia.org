@@ -649,7 +649,6 @@ zh.planet        1D IN CNAME dyna.wikimedia.org.
 puppet           5M IN CNAME puppetmaster1001.eqiad.wmnet.
 superset         1D IN CNAME dyna.wikimedia.org.
 racktables       1D IN CNAME dyna.wikimedia.org.
-scholarships     1D IN CNAME dyna.wikimedia.org.
 transparency     1D IN CNAME dyna.wikimedia.org.
 transparency-archive 1D IN CNAME dyna.wikimedia.org.
 search           1D IN CNAME dyna.wikimedia.org.
