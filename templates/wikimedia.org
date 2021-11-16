@@ -343,6 +343,8 @@ ldap-corp.eqiad 1H  IN CNAME    ldap-corp1001
 ldap-corp.codfw 1H  IN CNAME    ldap-corp2001
 ldap-labs.eqiad 1H  IN CNAME    seaborgium
 ldap-labs.codfw 1H  IN CNAME    serpens
+ldap-rw.eqiad   1H  IN CNAME    seaborgium
+ldap-rw.codfw   1H  IN CNAME    serpens
 
 frbast          1H  IN CNAME    frbast-eqiad
 frdata          1H  IN CNAME    frdata-eqiad
