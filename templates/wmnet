@@ -532,8 +532,8 @@ prometheus  1H  IN CNAME    prometheus5001.eqsin.wmnet.
 $ORIGIN svc.drmrs.wmnet.
 ; Used for consistency with eqiad/codfw
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-; TODO: uncomment the next lines once Ganeti and Prometheus are setup in drmrs
-;$INCLUDE netbox/svc.drmrs.wmnet
+$INCLUDE netbox/svc.drmrs.wmnet
+; TODO: uncomment the next line once Prometheus is setup in drmrs
 ;prometheus  1H  IN CNAME    prometheus6001.drmrs.wmnet.
 
 ; CODFW SERVICES
