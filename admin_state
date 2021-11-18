@@ -74,3 +74,5 @@
 ##############################################################################
 # TO DEPOOL ESAMS:
 # Don't use this file, instead edit the file "config" and switch the geo-maps part there!
+# Depooling eqiad to facilitate iBGP reconfiguration between CRs at that site
+geoip/generic-map/eqiad => DOWN
