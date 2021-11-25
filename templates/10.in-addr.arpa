@@ -65,6 +65,7 @@ $ORIGIN 1.2.@Z
 58  1H  IN PTR  miscweb.svc.codfw.wmnet.
 61  1H  IN PTR  shellbox-constraints.svc.codfw.wmnet.
 62  1H  IN PTR  toolhub.svc.codfw.wmnet.
+63  1H  IN PTR  inference.svc.codfw.wmnet.
 64  1H  IN PTR  shellbox-media.svc.codfw.wmnet.
 65  1H  IN PTR  shellbox-syntaxhighlight.svc.codfw.wmnet.
 66  1H  IN PTR  shellbox-timeline.svc.codfw.wmnet.

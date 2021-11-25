@@ -602,6 +602,7 @@ mwdebug         1H  IN A    10.2.1.59
 tegola-vector-tiles         1H  IN A    10.2.1.60
 shellbox-constraints        1H  IN A    10.2.1.61
 toolhub         1H  IN A    10.2.1.62
+inference       1H  IN A    10.2.1.63
 shellbox-media  1H  IN A    10.2.1.64
 shellbox-syntaxhighlight    1H  IN A    10.2.1.65
 shellbox-timeline           1H  IN A    10.2.1.66
