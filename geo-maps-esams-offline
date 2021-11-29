@@ -287,3 +287,26 @@ generic-map => {
         2a03:2880::/32     => [codfw, eqiad, ulsfo, eqsin],
     },
 }
+checkdoh-map => {
+    # The "datacenters" list here is also the default preference ordering, so
+    # "no" will be the default result in the absence of nets overrides below:
+    datacenters => [no, yes]
+    # We have to ignore ECS so that we can see the recursor source address to
+    # determine where the query is coming from.  Since pdns-recursor doesn't
+    # allow us to add an exception to edns-subnet-whitelist (currently set to
+    # the WMF auth servers), we ignore it here instead:
+    ignore_ecs  => true
+    # The /32's below are the source IPs the wikidough recursors query from:
+    nets = {
+        208.80.154.70/32  => yes # doh1001
+        208.80.155.112/32 => yes # doh1002
+        208.80.153.6/32   => yes # doh2001
+        208.80.153.38/32  => yes # doh2002
+        91.198.174.7/32   => yes # doh3001
+        91.198.174.8/32   => yes # doh3002
+        198.35.26.14/32   => yes # doh4001
+        198.35.26.6/32    => yes # doh4002
+        103.102.166.14/32 => yes # doh5001
+        103.102.166.5/32  => yes # doh5002
+    }
+}
