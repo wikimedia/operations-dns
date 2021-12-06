@@ -15,5 +15,6 @@
 ; durum: T289536
 
 139 1H IN PTR   check.wikimedia-dns.org.
-140 1H IN PTR   yes.check.wikimedia-dns.org.
+140 1H IN PTR   yesdoh.check.wikimedia-dns.org.
 141 1H IN PTR   no.check.wikimedia-dns.org.
+142 1H IN PTR   yesdot.check.wikimedia-dns.org.

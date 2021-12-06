@@ -53,13 +53,3 @@ ncredir-addrs => {
         ref   => %reflect!dns
     }
 }
-
-checkdoh-addrs => {
-    map => checkdoh-map
-    service_types => up
-    dcmap => {
-        # These are the two service IPs that will return different "api" results:
-        yes => { addrs_v4 => 185.71.138.140 },
-        no => { addrs_v4 => 185.71.138.141 },
-    }
-}

@@ -37,7 +37,8 @@ check       600 IN A    185.71.138.139 ; anycasted
 ; This allows for UUID-based hostname lookups to defeat any client or
 ; browser-level caching between check queries, e.g.:
 ; https://7fbceba2-fabb-11eb-9a03-0242ac130003.check.wikimedia-dns.org/check
-*.check 5/5 IN DYNA geoip!checkdoh-addrs
+; This is essentially equivalent to: no.check since yes{doh,dot}.check will go through Wikidough (dnsdist)
+*.check        5   IN A    185.71.138.141 ; anycasted
 
-yes.check   600 IN A    185.71.138.140 ; anycasted
-no.check    600 IN A    185.71.138.141 ; anycasted
+yesdoh.check   600 IN A    185.71.138.140 ; anycasted
+yesdot.check   600 IN A    185.71.138.142 ; anycasted
