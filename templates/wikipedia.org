@@ -86,3 +86,4 @@ stats           1D IN CNAME dyna.wikimedia.org.
 store           1D IN CNAME dyna.wikimedia.org.
 thankyou        1D IN CNAME dyna.wikimedia.org.
 zero            1D IN CNAME dyna.wikimedia.org.
+enterprise      1D IN CNAME dyna.wikimedia.org.

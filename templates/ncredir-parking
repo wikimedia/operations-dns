@@ -69,3 +69,4 @@ shop            1D IN CNAME ncredir-lb.wikimedia.org.
 stats           1D IN CNAME ncredir-lb.wikimedia.org.
 store           1D IN CNAME ncredir-lb.wikimedia.org.
 zero            1D IN CNAME ncredir-lb.wikimedia.org.
+enterprise      1D IN CNAME ncredir-lb.wikimedia.org.
