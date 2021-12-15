@@ -123,7 +123,7 @@ _etcd-server-ssl._tcp.ml_etcd 5M  IN SRV      0 1 2380 ml-etcd1003.eqiad.wmnet.
 $INCLUDE netbox/eqiad.wmnet
 puppet            5M      IN CNAME    puppetmaster1001.eqiad.wmnet.
 phab1001-aphlict  1H      IN CNAME    phab1001
-prometheus-labmon 1H      IN CNAME    cloudmetrics1003
+prometheus-labmon 1H      IN CNAME    cloudmetrics1004
 
 ; Kubernetes pod records for eqiad
 {% for z in range(64,72) -%}
@@ -718,9 +718,9 @@ etherpad              300 IN CNAME etherpad1002.eqiad.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
 analytics-web         300 IN CNAME an-web1001.eqiad.wmnet.
 ticket                300 IN CNAME otrs1001.eqiad.wmnet.
-grafana-cloud         300 IN CNAME cloudmetrics1003.eqiad.wmnet.
-grafana-labs          300 IN CNAME cloudmetrics1003.eqiad.wmnet.
-graphite-labs         300 IN CNAME cloudmetrics1003.eqiad.wmnet.
+grafana-cloud         300 IN CNAME cloudmetrics1004.eqiad.wmnet.
+grafana-labs          300 IN CNAME cloudmetrics1004.eqiad.wmnet.
+graphite-labs         300 IN CNAME cloudmetrics1004.eqiad.wmnet.
 testreduce            300 IN CNAME testreduce1001.eqiad.wmnet.
 
 ; for thanos use a CNAME discovery record not the thanos-query geoip
