@@ -530,7 +530,7 @@ $ORIGIN svc.drmrs.wmnet.
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/svc.drmrs.wmnet
 ; TODO: uncomment the next line once Prometheus is setup in drmrs
-;prometheus  1H  IN CNAME    prometheus6001.drmrs.wmnet.
+prometheus  1H  IN CNAME    prometheus6001.drmrs.wmnet.
 
 ; CODFW SERVICES
 
