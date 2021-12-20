@@ -24,3 +24,9 @@ $INCLUDE netbox/128-27.58.15.185.in-addr.arpa
 
 ; Loopbacks - 185.15.58.128/29
 $INCLUDE netbox/128-29.58.15.185.in-addr.arpa
+
+; 185.15.58.224/27 (224-255) - LVS Service IPs
+; - 185.15.58.224/28 (224-239) -- LVS high-traffic1 (Text)
+; - 185.15.58.240/28 (240-255) -- high-traffic2 (Multimedia & Misc)
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/224-27.58.15.185.in-addr.arpa

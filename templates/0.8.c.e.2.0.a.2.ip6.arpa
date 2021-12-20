@@ -35,6 +35,13 @@ $INCLUDE netbox/1.0.1.0.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 $ORIGIN 2.0.1.0.0.0.6.0.@Z
 $INCLUDE netbox/2.0.1.0.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 
+; 2a02:ec80:600:ed1a::/64 - LVS Public Service IPs (allocated)
+; - 2a02:ec80:600:ed1a::0:0/110 (::0:0 - ::3:ffff -- LVS Public Service IPs (in use)
+; -- 2a02:ec80:600:ed1a::0:0/111 (::0:0 - ::1:ffff --- LVS high-traffic1 (Text)
+; -- 2a02:ec80:600:ed1a::2:0/111 (::2:0 - ::3:ffff --- LVS high-traffic2 (Multimedia & Misc)
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/a.1.d.e.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
+
 ; cr1-eqiad<->drmrs - 2a02:ec80:600:fe01::/64
 $ORIGIN 1.0.e.f.0.0.6.0.@Z
 $INCLUDE netbox/1.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
