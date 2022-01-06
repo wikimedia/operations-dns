@@ -493,7 +493,7 @@ nfs-tools-project    1H  IN A        10.64.37.18
 ; K8S EQIAD STAGING SERVICES
 
 kubestagemaster 1H  IN CNAME    kubestagemaster1001.eqiad.wmnet.
-staging         1H  IN CNAME    kubestage1001.eqiad.wmnet.
+staging         1H  IN CNAME    kubestage1003.eqiad.wmnet.
 
 $ORIGIN staging.svc.eqiad.wmnet.
 
