@@ -689,8 +689,8 @@ debmonitor            300 IN CNAME debmonitor1002.eqiad.wmnet.
 ;debmonitor            300 IN CNAME debmonitor2002.codfw.wmnet.
 doc                   300 IN CNAME doc1001.eqiad.wmnet.
 ;doc                   300 IN CNAME doc2001.codfw.wmnet.
-;graphite              300 IN CNAME graphite1004.eqiad.wmnet.
-graphite              300 IN CNAME graphite2003.codfw.wmnet.
+graphite              300 IN CNAME graphite1004.eqiad.wmnet.
+;graphite              300 IN CNAME graphite2003.codfw.wmnet.
 mwmaint               300 IN CNAME mwmaint1002.eqiad.wmnet.
 ;mwmaint               300 IN CNAME mwmaint2002.codfw.wmnet.
 peopleweb             300 IN CNAME people1003.eqiad.wmnet.
