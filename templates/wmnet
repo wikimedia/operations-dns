@@ -448,10 +448,8 @@ sessionstore 1H IN A        10.2.2.29
 search      1H  IN A        10.2.2.30
 blubberoid  1H  IN A        10.2.2.31
 wdqs        1H  IN A        10.2.2.32
-kibana      1H  IN A        10.2.2.33
 eventstreams 1H  IN A       10.2.2.34
 eventstreams-internal 1H  IN A       10.2.2.35
-logstash     1H  IN A       10.2.2.36
 recommendation-api 1H IN A      10.2.2.37
 druid-public-broker    1H  IN A     10.2.2.38
 ml-ctrl 1H      IN A    10.2.2.39
@@ -565,10 +563,8 @@ sessionstore    1H  IN A        10.2.1.29
 search          1H  IN A        10.2.1.30
 blubberoid      1H  IN A        10.2.1.31
 wdqs            1H  IN A        10.2.1.32
-kibana          1H  IN A        10.2.1.33
 eventstreams    1H  IN A        10.2.1.34
 eventstreams-internal 1H  IN A       10.2.1.35
-; 36 reserved for logstash
 recommendation-api  1H  IN A        10.2.1.37
 ml-ctrl 1H      IN A    10.2.1.39
 wdqs-internal   1H  IN A        10.2.1.41

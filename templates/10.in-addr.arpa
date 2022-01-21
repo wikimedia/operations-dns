@@ -37,10 +37,8 @@ $ORIGIN 1.2.@Z
 30  1H  IN PTR  search.svc.codfw.wmnet.
 31  1H  IN PTR  blubberoid.svc.eqiad.wmnet.
 32  1H  IN PTR  wdqs.svc.codfw.wmnet.
-33  1H  IN PTR  kibana.svc.codfw.wmnet.
 34  1H  IN PTR  eventstreams.svc.codfw.wmnet.
 35  1H  IN PTR  eventstreams-internal.svc.codfw.wmnet.
-; 36 reserved for logstash
 37  1H  IN PTR  recommendation-api.svc.codfw.wmnet.
 ; 38 reserved for druid-public-broker
 39  1H  IN PTR  ml-ctrl.svc.codfw.wmnet.
@@ -101,10 +99,8 @@ $ORIGIN 2.2.@Z
 30  1H  IN PTR  search.svc.eqiad.wmnet.
 31  1H  IN PTR  blubberoid.svc.eqiad.wmnet.
 32  1H  IN PTR  wdqs.svc.eqiad.wmnet.
-33  1H  IN PTR  kibana.svc.eqiad.wmnet.
 34  1H  IN PTR  eventstreams.svc.eqiad.wmnet.
 35  1H  IN PTR  eventstreams-internal.svc.eqiad.wmnet.
-36  1H  IN PTR  logstash.svc.eqiad.wmnet.
 37  1H  IN PTR  recommendation-api.svc.eqiad.wmnet.
 38  1H  IN PTR  druid-public-broker.svc.eqiad.wmnet.
 39  1H  IN PTR  ml-ctrl.svc.eqiad.wmnet.
