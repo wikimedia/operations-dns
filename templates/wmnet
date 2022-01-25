@@ -711,9 +711,9 @@ etherpad              300 IN CNAME etherpad1002.eqiad.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
 analytics-web         300 IN CNAME an-web1001.eqiad.wmnet.
 ticket                300 IN CNAME otrs1001.eqiad.wmnet.
-grafana-cloud         300 IN CNAME cloudmetrics1001.eqiad.wmnet.
-grafana-labs          300 IN CNAME cloudmetrics1001.eqiad.wmnet.
-graphite-labs         300 IN CNAME cloudmetrics1001.eqiad.wmnet.
+grafana-cloud         300 IN CNAME cloudmetrics1004.eqiad.wmnet.
+grafana-labs          300 IN CNAME cloudmetrics1004.eqiad.wmnet.
+graphite-labs         300 IN CNAME cloudmetrics1004.eqiad.wmnet.
 testreduce            300 IN CNAME testreduce1001.eqiad.wmnet.
 
 ; for thanos use a CNAME discovery record not the thanos-query geoip
