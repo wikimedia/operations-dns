@@ -674,7 +674,7 @@ schema           1D IN CNAME dyna.wikimedia.org.
 thanos           1D IN CNAME dyna.wikimedia.org.
 os-reports       1D IN CNAME dyna.wikimedia.org.
 enterprise       1D IN CNAME dyna.wikimedia.org.
-
+unseen           1D IN CNAME dyna.wikimedia.org.
 wikitech-static-iad  5M  IN A        162.209.126.221
 wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
 wikitech-static      5M  IN A        192.237.162.200
