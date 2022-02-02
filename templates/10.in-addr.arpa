@@ -69,6 +69,7 @@ $ORIGIN 1.2.@Z
 66  1H  IN PTR  shellbox-timeline.svc.codfw.wmnet.
 67  1H  IN PTR  wcqs.svc.codfw.wmnet.
 68  1H  IN PTR  apple-search.svc.codfw.wmnet.
+69  1H  IN PTR  k8s-ingress-staging.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -131,6 +132,7 @@ $ORIGIN 2.2.@Z
 66  1H  IN PTR  shellbox-timeline.svc.eqiad.wmnet.
 67  1H  IN PTR  wcqs.svc.eqiad.wmnet.
 68  1H  IN PTR  apple-search.svc.eqiad.wmnet.
+69  1H  IN PTR  k8s-ingress-staging.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 

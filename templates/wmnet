@@ -484,6 +484,7 @@ shellbox-syntaxhighlight    1H  IN A    10.2.2.65
 shellbox-timeline           1H  IN A    10.2.2.66
 wcqs            1H  IN A    10.2.2.67
 apple-search    1H  IN A    10.2.2.68
+k8s-ingress-staging 1H  IN A    10.2.2.69
 
 ganeti01    1H  IN A        10.64.32.173
 nfs-tools-project    1H  IN A        10.64.37.18
@@ -599,6 +600,7 @@ shellbox-syntaxhighlight    1H  IN A    10.2.1.65
 shellbox-timeline           1H  IN A    10.2.1.66
 wcqs            1H  IN A    10.2.1.67
 apple-search    1H  IN A    10.2.1.68
+k8s-ingress-staging 1H  IN A    10.2.1.69
 
 ; K8S CODFW STAGING SERVICES
 
