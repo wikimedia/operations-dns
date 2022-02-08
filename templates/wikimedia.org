@@ -457,8 +457,6 @@ svn             1D IN CNAME dyna.wikimedia.org.
 
 tendril         1D IN CNAME dyna.wikimedia.org.
 
-tendril-legacy  5M IN CNAME dbmonitor1002
-
 toolhub         1D IN CNAME dyna.wikimedia.org.
 
 toolsadmin      1D IN CNAME dyna.wikimedia.org.
