@@ -710,7 +710,7 @@ webserver-misc-apps   300 IN CNAME miscweb1002.eqiad.wmnet.
 
 ; misc services without multiple backends
 aphlict               300 IN CNAME aphlict1001.eqiad.wmnet.
-etherpad              300 IN CNAME etherpad1002.eqiad.wmnet.
+etherpad              300 IN CNAME etherpad1003.eqiad.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
 analytics-web         300 IN CNAME an-web1001.eqiad.wmnet.
 ticket                300 IN CNAME otrs1001.eqiad.wmnet.
