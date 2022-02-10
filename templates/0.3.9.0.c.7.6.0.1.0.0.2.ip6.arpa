@@ -1,0 +1,22 @@
+; vim: set expandtab:smarttab
+; {{ serial_comment }}
+@ 1H IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. {{ serial_num }} 12H 2H 2W 1H
+
+; Name servers
+
+@                       1D      IN NS   ns0.wikimedia.org.
+@                       1D      IN NS   ns1.wikimedia.org.
+@                       1D      IN NS   ns2.wikimedia.org.
+
+$ORIGIN 0.0.0.0.@Z
+
+; /64 used by Wikidough: T301165
+
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   wikimedia-dns.org.
+
+; durum: T289536
+
+2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   check.wikimedia-dns.org.
+3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   yesdoh.check.wikimedia-dns.org.
+4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   no.check.wikimedia-dns.org.
+5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   yesdot.check.wikimedia-dns.org.
