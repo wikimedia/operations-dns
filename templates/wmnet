@@ -737,6 +737,13 @@ thanos-sso            300 IN CNAME thanos-fe1001.eqiad.wmnet.
 ; No LVS/conftool involved in this case
 prometheus-pushgateway 300 IN CNAME prometheus1005.eqiad.wmnet.
 
+; A wildcard pointing to the ingress LVS of the currently active staging
+; cluster (which is active/passive) to make accessing services, validating
+; certificates etc. easy.
+; This prevents SREs from having to add DNS records for every service in
+; staging manually (Bug: T300740).
+*.k8s-staging          300 IN CNAME k8s-ingress-staging.discovery.wmnet.
+
 ; Internal Anycast addresses (10.3.0.0/24)
 
 $ORIGIN anycast.wmnet.
