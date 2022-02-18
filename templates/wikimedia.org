@@ -26,7 +26,7 @@ nsa         1H  IN A    198.35.27.27 ; anycast authdns
 ; SPF txt and rr records
 @               600 IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
 @               600 IN TXT  "FC0MOB7SKLHj0AsevTnJvE0W0YYQkPVYOX3UMrINOSk="
-@               600 IN TXT  "MS=08C5671F78DA43D949977C84345EC693A554C169"
+@               600 IN TXT  "MS=ms70322281"
 
 ; CAA records for wikimedia.org - all types for globalsign and digicert and LE
 @               5M  IN CAA 0 issue "digicert.com"
