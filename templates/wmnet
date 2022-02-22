@@ -145,6 +145,7 @@ $INCLUDE netbox/mgmt.eqiad.wmnet
 ; EQIAD fundraising/payments
 $ORIGIN frack.eqiad.wmnet.
 civi1001        1H      IN A    10.64.40.109
+civi1002        1H      IN A    10.64.40.115
 frav1002        1H      IN A    10.64.40.74
 fran1001        1H      IN A    10.64.40.110
 frauth1001      1H      IN A    10.64.40.68
