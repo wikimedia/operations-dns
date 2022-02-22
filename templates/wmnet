@@ -684,7 +684,8 @@ puppetboard           300/10 IN DYNA geoip!disc-puppetboard
 apple-search    300/10 IN DYNA geoip!disc-apple-search
 miscweb         300/10 IN DYNA geoip!disc-miscweb
 inference       300/10 IN DYNA geoip!disc-inference
-k8s-ingress-staging 300/10 IN DYNA metafo!disc-k8s-ingress-staging
+k8s-ingress-staging  300/10 IN DYNA metafo!disc-k8s-ingress-staging
+k8s-ingress-wikikube 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube
 
 ; misc web services with multiple backends but without geoip
 
