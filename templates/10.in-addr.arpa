@@ -250,11 +250,6 @@ $ORIGIN 132.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/132.64.10.in-addr.arpa
 
-; 10.64.133.0/24 - private1-e4-eqiad
-$ORIGIN 133.64.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/133.64.10.in-addr.arpa
-
 ; 10.64.134.0/24 - private1-f1-eqiad
 $ORIGIN 134.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -269,11 +264,6 @@ $INCLUDE netbox/135.64.10.in-addr.arpa
 $ORIGIN 136.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/136.64.10.in-addr.arpa
-
-; 10.64.137.0/24 - private1-f4-eqiad
-$ORIGIN 137.64.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/137.64.10.in-addr.arpa
 
 ; 10.64.138.0/24 - analytics1-e1-eqiad
 $ORIGIN 138.64.@Z
@@ -290,11 +280,6 @@ $ORIGIN 140.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/140.64.10.in-addr.arpa
 
-; 10.64.141.0/24 - analytics1-e4-eqiad
-$ORIGIN 141.64.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/141.64.10.in-addr.arpa
-
 ; 10.64.142.0/24 - analytics1-f1-eqiad
 $ORIGIN 142.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -309,11 +294,6 @@ $INCLUDE netbox/143.64.10.in-addr.arpa
 $ORIGIN 144.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/144.64.10.in-addr.arpa
-
-; 10.64.145.0/24 - analytics1-f4-eqiad
-$ORIGIN 145.64.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/145.64.10.in-addr.arpa
 
 ; 10.64.37.0/24 - cloud-support1-c-eqiad
 $ORIGIN 37.64.@Z
