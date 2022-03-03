@@ -295,6 +295,11 @@ $ORIGIN 144.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/144.64.10.in-addr.arpa
 
+; 10.64.146.0/24 - evpn_overlay_loopbacks_eqiad
+$ORIGIN 146.64.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/146.64.10.in-addr.arpa
+
 ; 10.64.37.0/24 - cloud-support1-c-eqiad
 $ORIGIN 37.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox

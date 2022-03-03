@@ -155,6 +155,11 @@ $ORIGIN 6.1.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/6.1.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; evpn_overlay_loopbacks_eqiad (2620:0:861:11b::/64)
+$ORIGIN b.1.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/b.1.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; cr1-eqiad_to_lsw1-e1-eqiad (2620:0:861:fe07::/64)
 $ORIGIN 7.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
