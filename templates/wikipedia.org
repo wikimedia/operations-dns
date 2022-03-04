@@ -17,7 +17,11 @@
 @           600 IN DYNA geoip!text-addrs
 
 ; Google Webmaster Tools verification record for search management
-@           600 IN TXT  "google-site-verification=AMHkgs-4ViEvIJf5znZle-BSE2EPNFqM1nDJGRyn2qk"
+@                                   600 IN TXT   "google-site-verification=AMHkgs-4ViEvIJf5znZle-BSE2EPNFqM1nDJGRyn2qk"
+; Bing Webmaster verification record. This record proves our ownership of this domain to Bing.
+57d67d15e4e75c82ea6260c959068739    600 IN CNAME verify.bing.com.
+; Yandex Webmaster verification record. This record proves our ownership of this domain to Yandex.
+@                                   600 IN TXT   "yandex-verification: 35c08d23099dc863"
 
 ; DMARC records http://dmarc.org/ -- policy none (monitor), for now
 _dmarc                  600     IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
