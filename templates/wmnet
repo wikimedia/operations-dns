@@ -487,6 +487,7 @@ wcqs            1H  IN A    10.2.2.67
 apple-search    1H  IN A    10.2.2.68
 k8s-ingress-staging  1H  IN A    10.2.2.69
 k8s-ingress-wikikube 1H  IN A    10.2.2.70
+datahubsearch   1H  IN A    10.2.2.71
 
 ganeti01    1H  IN A        10.64.32.173
 nfs-tools-project    1H  IN A        10.64.37.18
