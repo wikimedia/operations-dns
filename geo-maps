@@ -285,7 +285,5 @@ generic-map => {
         2620:0:1c00::/40   => [codfw, eqiad, ulsfo, esams, eqsin],
         2620:0:1cff::/48   => [codfw, eqiad, ulsfo, esams, eqsin],
         2a03:2880::/32     => [codfw, eqiad, ulsfo, esams, eqsin],
-        # Microsoft - T282861#7763132
-        20.64.0.0/10       => [codfw, ulsfo, eqiad, esams, eqsin],
     },
 }
