@@ -60,7 +60,6 @@ $ORIGIN 1.2.@Z
 55  1H  IN PTR  api-gateway.svc.codfw.wmnet.
 56  1H  IN PTR  push-notifications.svc.codfw.wmnet.
 57  1H  IN PTR  similar-users.svc.codfw.wmnet.
-58  1H  IN PTR  miscweb.svc.codfw.wmnet.
 61  1H  IN PTR  shellbox-constraints.svc.codfw.wmnet.
 62  1H  IN PTR  toolhub.svc.codfw.wmnet.
 63  1H  IN PTR  inference.svc.codfw.wmnet.
@@ -125,7 +124,6 @@ $ORIGIN 2.2.@Z
 55  1H  IN PTR  api-gateway.svc.eqiad.wmnet.
 56  1H  IN PTR  push-notifications.svc.eqiad.wmnet.
 57  1H  IN PTR  similar-users.svc.eqiad.wmnet.
-58  1H  IN PTR  miscweb.svc.eqiad.wmnet.
 61  1H  IN PTR  shellbox-constraints.svc.eqiad.wmnet.
 62  1H  IN PTR  toolhub.svc.eqiad.wmnet.
 63  1H  IN PTR  inference.svc.eqiad.wmnet.
