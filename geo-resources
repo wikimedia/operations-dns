@@ -2,12 +2,12 @@ text-addrs => {
     map => generic-map
     service_types => up
     dcmap => {
-        eqiad => { addrs_v4 => 208.80.154.224, addrs_v6 => 2620:0:861:ed1a::1 }
-        codfw => { addrs_v4 => 208.80.153.224, addrs_v6 => 2620:0:860:ed1a::1 }
-        esams => { addrs_v4 => 91.198.174.192, addrs_v6 => 2620:0:862:ed1a::1 }
-        ulsfo => { addrs_v4 => 198.35.26.96,   addrs_v6 => 2620:0:863:ed1a::1 }
+        eqiad => { addrs_v4 => 208.80.154.224,  addrs_v6 => 2620:0:861:ed1a::1 }
+        codfw => { addrs_v4 => 208.80.153.224,  addrs_v6 => 2620:0:860:ed1a::1 }
+        esams => { addrs_v4 => 91.198.174.192,  addrs_v6 => 2620:0:862:ed1a::1 }
+        ulsfo => { addrs_v4 => 198.35.26.96,    addrs_v6 => 2620:0:863:ed1a::1 }
         eqsin => { addrs_v4 => 103.102.166.224, addrs_v6 => 2001:df2:e500:ed1a::1 }
-        bh    => { addrs_v4 => 127.0.0.1, addrs_v6 => ::1 }
+        bh    => { addrs_v4 => 127.0.0.1,       addrs_v6 => ::1 }
         ref   => %reflect!dns
     }
 }
@@ -17,12 +17,12 @@ text-next => {  # Returns next-best choice vs text-addrs above, for NEL (T257527
     service_types => up
     skip_first => true  # This flag is new in v3.3.0
     dcmap => {
-        eqiad => { addrs_v4 => 208.80.154.224, addrs_v6 => 2620:0:861:ed1a::1 }
-        codfw => { addrs_v4 => 208.80.153.224, addrs_v6 => 2620:0:860:ed1a::1 }
-        esams => { addrs_v4 => 91.198.174.192, addrs_v6 => 2620:0:862:ed1a::1 }
-        ulsfo => { addrs_v4 => 198.35.26.96,   addrs_v6 => 2620:0:863:ed1a::1 }
+        eqiad => { addrs_v4 => 208.80.154.224,  addrs_v6 => 2620:0:861:ed1a::1 }
+        codfw => { addrs_v4 => 208.80.153.224,  addrs_v6 => 2620:0:860:ed1a::1 }
+        esams => { addrs_v4 => 91.198.174.192,  addrs_v6 => 2620:0:862:ed1a::1 }
+        ulsfo => { addrs_v4 => 198.35.26.96,    addrs_v6 => 2620:0:863:ed1a::1 }
         eqsin => { addrs_v4 => 103.102.166.224, addrs_v6 => 2001:df2:e500:ed1a::1 }
-        bh    => { addrs_v4 => 127.0.0.1, addrs_v6 => ::1 }
+        bh    => { addrs_v4 => 127.0.0.1,       addrs_v6 => ::1 }
         ref   => %reflect!dns
     }
 }
@@ -31,12 +31,12 @@ upload-addrs => {
     map => generic-map
     service_types => up
     dcmap => {
-        eqiad => { addrs_v4 => 208.80.154.240, addrs_v6 => 2620:0:861:ed1a::2:b }
-        codfw => { addrs_v4 => 208.80.153.240, addrs_v6 => 2620:0:860:ed1a::2:b }
-        esams => { addrs_v4 => 91.198.174.208, addrs_v6 => 2620:0:862:ed1a::2:b }
-        ulsfo => { addrs_v4 => 198.35.26.112,  addrs_v6 => 2620:0:863:ed1a::2:b }
+        eqiad => { addrs_v4 => 208.80.154.240,  addrs_v6 => 2620:0:861:ed1a::2:b }
+        codfw => { addrs_v4 => 208.80.153.240,  addrs_v6 => 2620:0:860:ed1a::2:b }
+        esams => { addrs_v4 => 91.198.174.208,  addrs_v6 => 2620:0:862:ed1a::2:b }
+        ulsfo => { addrs_v4 => 198.35.26.112,   addrs_v6 => 2620:0:863:ed1a::2:b }
         eqsin => { addrs_v4 => 103.102.166.240, addrs_v6 => 2001:df2:e500:ed1a::2:b }
-        bh    => { addrs_v4 => 127.0.0.1, addrs_v6 => ::1 }
+        bh    => { addrs_v4 => 127.0.0.1,       addrs_v6 => ::1 }
         ref   => %reflect!dns
     }
 }
@@ -44,12 +44,12 @@ ncredir-addrs => {
     map => generic-map
     service_types => up
     dcmap => {
-        eqiad => { addrs_v4 => 208.80.154.232, addrs_v6 => 2620:0:861:ed1a::9 }
-        codfw => { addrs_v4 => 208.80.153.232, addrs_v6 => 2620:0:860:ed1a::9 }
-        esams => { addrs_v4 => 91.198.174.194, addrs_v6 => 2620:0:862:ed1a::3 }
-        ulsfo => { addrs_v4 => 198.35.26.98, addrs_v6 => 2620:0:863:ed1a::3 }
+        eqiad => { addrs_v4 => 208.80.154.232,  addrs_v6 => 2620:0:861:ed1a::9 }
+        codfw => { addrs_v4 => 208.80.153.232,  addrs_v6 => 2620:0:860:ed1a::9 }
+        esams => { addrs_v4 => 91.198.174.194,  addrs_v6 => 2620:0:862:ed1a::3 }
+        ulsfo => { addrs_v4 => 198.35.26.98,    addrs_v6 => 2620:0:863:ed1a::3 }
         eqsin => { addrs_v4 => 103.102.166.226, addrs_v6 => 2001:df2:e500:ed1a::3 }
-        bh    => { addrs_v4 => 127.0.0.1, addrs_v6 => ::1 }
+        bh    => { addrs_v4 => 127.0.0.1,       addrs_v6 => ::1 }
         ref   => %reflect!dns
     }
 }
