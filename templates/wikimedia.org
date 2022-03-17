@@ -127,6 +127,7 @@ $INCLUDE netbox/wikimedia.org-drmrs
 
 ; Fundraising tech hosts (no automation)
 civi1001        1H  IN A    208.80.155.11
+civi1002        1H  IN A    208.80.155.17
 frbast-eqiad    1H  IN A    208.80.155.8
 frbast-codfw    1H  IN A    208.80.152.231
 frdata-eqiad    1H  IN A    208.80.155.16
