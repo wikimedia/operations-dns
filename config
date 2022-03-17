@@ -24,12 +24,8 @@ plugins => {
     geoip => {
         undefined_datacenters_ok = true,
         maps => {
-            ## Choose just one of the two "geo-maps" below, and comment out the
-            ## other, used as a special operational case for depooling esams
-            ## without overloading eqiad:
-            $include{geo-maps}, # default
-            # $include{geo-maps-esams-offline}, # esams depool + US shift towards codfw
-
+            ## Primary map for public services
+            $include{geo-maps},
             ## DNS Discovery map, unrelated to the above:
             $include{discovery-map},
         },

@@ -72,5 +72,3 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
-# TO DEPOOL ESAMS:
-# Don't use this file, instead edit the file "config" and switch the geo-maps part there!

@@ -34,7 +34,6 @@ from tempfile import TemporaryDirectory
 DNS_CFG = [
     'config',
     'geo-maps',
-    'geo-maps-esams-offline',
     'geo-resources',
 ]
 
