@@ -378,7 +378,7 @@ ldap-icinga     5M  IN CNAME    alert1001
 icinga-extmon   5M  IN CNAME    alert1001
 
 idp             5M  IN CNAME idp1001.wikimedia.org.
-idp-test        5M  IN CNAME idp-test2001.wikimedia.org.
+idp-test        5M  IN CNAME idp-test1001.wikimedia.org.
 
 intake-logging   600 IN DYNA  geoip!text-next
 intake-analytics 1D  IN CNAME dyna.wikimedia.org.
