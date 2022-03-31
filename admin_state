@@ -46,9 +46,6 @@
 # Examples:
 # ------------------------------------------------------------
 #
-#     # Disable all traffic to esams:
-#     # Don't do that here! See note at end of file.
-#
 #     # Disable all traffic to eqiad:
 #     geoip/generic-map/eqiad => DOWN
 #
