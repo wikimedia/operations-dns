@@ -22,7 +22,7 @@
 # To disable all services at a given cache datacenter:
 # ----------------------------------------------------
 #     geoip/generic-map/DCNAME => DOWN
-#     (where DCNAME is one of 'ulsfo' or 'eqiad', but NOT esams; see below)
+#     (where DCNAME is one of 'ulsfo' or 'eqiad')
 #
 # To disable individual services at given cache datacenter:
 # ---------------------------------------------------------
