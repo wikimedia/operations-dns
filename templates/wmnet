@@ -693,6 +693,10 @@ inference       300/10 IN DYNA geoip!disc-inference
 k8s-ingress-staging  300/10 IN DYNA metafo!disc-k8s-ingress-staging
 k8s-ingress-wikikube 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube
 
+; discovery services using k8s-ingress discovery via CNAME records
+; note that these are not true discovery records - See T305358 for details
+datahub-gms     300 IN CNAME k8s-ingress-wikikube.discovery.wmnet.
+
 ; misc web services with multiple backends but without geoip
 
 debmonitor            300 IN CNAME debmonitor1002.eqiad.wmnet.
