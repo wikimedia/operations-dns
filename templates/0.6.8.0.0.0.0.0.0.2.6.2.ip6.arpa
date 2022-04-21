@@ -19,13 +19,14 @@ $INCLUDE netbox/1.0.0.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 2.0.0.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/2.0.0.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+;; manual records
+7.4.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ns-recursor0.openstack.codfw1dev.wikimediacloud.org.
+0.5.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ns-recursor1.openstack.codfw1dev.wikimediacloud.org.
 
 ; public1-c-codfw (2620:0:860:3::/64)
 $ORIGIN 3.0.0.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/3.0.0.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
-;; manual records
-8.7.0.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ns-recursor0.openstack.codfw1dev.wikimediacloud.org.
 
 ; public1-d-codfw (2620:0:860:4::/64)
 $ORIGIN 4.0.0.0.@Z
@@ -33,7 +34,6 @@ $ORIGIN 4.0.0.0.@Z
 $INCLUDE netbox/4.0.0.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 ;; manual records in this block
 7.0.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit-replica.wikimedia.org.
-8.1.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ns-recursor1.openstack.codfw1dev.wikimediacloud.org.
 
 ; codfw private subnets (2620:0:860:100::/56)
 

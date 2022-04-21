@@ -15,19 +15,19 @@ $INCLUDE netbox/0-27.153.80.208.in-addr.arpa
 ; 208.80.153.32/27 (public1-b-codfw)
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/32-27.153.80.208.in-addr.arpa
+;; manual records
+47 1H  IN PTR  ns-recursor0.openstack.codfw1dev.wikimediacloud.org. ; additional IP for cloudservices2004-dev
+50 1H  IN PTR  ns-recursor1.openstack.codfw1dev.wikimediacloud.org. ; additional IP for cloudservices2005-dev
 
 ; 208.80.153.64/27 (public1-c-codfw)
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/64-27.153.80.208.in-addr.arpa
-;; manual records
-78  1H  IN PTR  ns-recursor0.openstack.codfw1dev.wikimediacloud.org. ; additional IP for cloudservices2002-dev
 
 ; 208.80.153.96/27 (public1-d-codfw)
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/96-27.153.80.208.in-addr.arpa
 ;; manually maintained records
 107 1H  IN PTR  gerrit-replica.wikimedia.org.
-118 1H  IN PTR  ns-recursor1.openstack.codfw1dev.wikimediacloud.org. ; additional IP for cloudservices2003-dev
 
 ; 208.80.153.128/27 labtest codfw public IPs (pool used by openstack)
 
