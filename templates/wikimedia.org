@@ -387,7 +387,7 @@ intake-logging   600 IN DYNA  geoip!text-next
 intake-analytics 1D  IN CNAME dyna.wikimedia.org.
 
 integration     1D IN CNAME dyna.wikimedia.org.
-irc             5M  IN CNAME    irc2001
+irc             5M  IN CNAME    irc1001
 
 klaxon          5M  IN CNAME    alert1001
 
