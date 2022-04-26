@@ -479,7 +479,7 @@ push-notifications  1H  IN A    10.2.2.56
 linkrecommendation  1H  IN A    10.2.2.23
 similar-users   1H  IN A    10.2.2.57
 shellbox        1H  IN A    10.2.2.51
-miscweb         1H  IN A    10.2.2.70
+
 mwdebug         1H  IN A    10.2.2.59
 tegola-vector-tiles         1H  IN A    10.2.2.60
 shellbox-constraints        1H  IN A    10.2.2.61
@@ -496,6 +496,11 @@ datahubsearch   1H  IN A    10.2.2.71
 
 ganeti01    1H  IN A        10.64.32.173
 nfs-tools-project    1H  IN A        10.64.37.18
+
+; services that run under Kubernetes Ingress are just CNAME
+; records to k8s-ingress-wikikube.
+; See T305358 for details
+miscweb         1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 
 ; K8S EQIAD STAGING SERVICES
 
@@ -597,7 +602,7 @@ push-notifications  1H  IN A    10.2.1.56
 linkrecommendation  1H  IN A    10.2.1.23
 similar-users   1H  IN A    10.2.1.57
 shellbox        1H  IN A    10.2.1.51
-miscweb         1H  IN A    10.2.1.70
+
 mwdebug         1H  IN A    10.2.1.59
 tegola-vector-tiles         1H  IN A    10.2.1.60
 shellbox-constraints        1H  IN A    10.2.1.61
@@ -611,6 +616,11 @@ apple-search    1H  IN A    10.2.1.68
 k8s-ingress-staging  1H  IN A    10.2.1.69
 k8s-ingress-wikikube 1H  IN A    10.2.1.70
 ml-staging-ctrl 1H  IN A    10.2.1.72
+
+; services that run under Kubernetes Ingress are just CNAME
+; records to k8s-ingress-wikikube.
+; See T305358 for details
+miscweb         1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 
 ; K8S CODFW STAGING SERVICES
 
@@ -689,14 +699,15 @@ shellbox-timeline  300/10 IN DYNA geoip!disc-shellbox-timeline
 tegola-vector-tiles  300/10 IN DYNA geoip!disc-tegola-vector-tiles
 puppetboard           300/10 IN DYNA geoip!disc-puppetboard
 apple-search    300/10 IN DYNA geoip!disc-apple-search
-miscweb         300/10 IN DYNA geoip!disc-miscweb
 inference       300/10 IN DYNA geoip!disc-inference
 k8s-ingress-staging  300/10 IN DYNA metafo!disc-k8s-ingress-staging
 k8s-ingress-wikikube 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube
 
-; discovery services using k8s-ingress discovery via CNAME records
-; note that these are not true discovery records - See T305358 for details
+; services that run under Kubernetes Ingress are just CNAME
+; records to the discovery record of k8s-ingress-wikikube.
+; See T305358 for details
 datahub-gms     300 IN CNAME k8s-ingress-wikikube.discovery.wmnet.
+miscweb         300 IN CNAME k8s-ingress-wikikube.discovery.wmnet.
 
 ; misc web services with multiple backends but without geoip
 
