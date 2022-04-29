@@ -705,11 +705,13 @@ k8s-ingress-wikikube 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube
 k8s-ingress-wikikube-ro 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube-ro
 k8s-ingress-wikikube-rw 300/10 IN DYNA metafo!disc-k8s-ingress-wikikube-rw
 
-; services that run under Kubernetes Ingress are just CNAME
+; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-wikikube.
+; active/active services should CNAME to k8s-ingress-wikikube-ro
+; active/passive services should CNAME to k8s-ingress-wikikube-rw
 ; See T305358 for details
-datahub-gms     300 IN CNAME k8s-ingress-wikikube.discovery.wmnet.
-miscweb         300 IN CNAME k8s-ingress-wikikube.discovery.wmnet.
+datahub-gms     300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
+miscweb         300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 
 ; misc web services with multiple backends but without geoip
 
