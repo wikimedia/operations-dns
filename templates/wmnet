@@ -500,8 +500,8 @@ nfs-tools-project    1H  IN A        10.64.37.18
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.
 ; See T305358 for details
-miscweb         1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
-
+miscweb          1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+image-suggestion 1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 ; K8S EQIAD STAGING SERVICES
 
 kubestagemaster 1H  IN CNAME    kubestagemaster1001.eqiad.wmnet.
@@ -620,7 +620,8 @@ ml-staging-ctrl 1H  IN A    10.2.1.72
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.
 ; See T305358 for details
-miscweb         1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+miscweb          1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+image-suggestion 1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 
 ; K8S CODFW STAGING SERVICES
 
@@ -709,9 +710,9 @@ k8s-ingress-wikikube-rw 300/10 IN DYNA metafo!disc-k8s-ingress-wikikube-rw
 ; active/active services should CNAME to k8s-ingress-wikikube-ro
 ; active/passive services should CNAME to k8s-ingress-wikikube-rw
 ; See T305358 for details
-datahub-gms     300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
-miscweb         300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
-
+datahub-gms      300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
+miscweb          300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
+image-suggestion 300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 ; misc web services with multiple backends but without geoip
 
 debmonitor            300 IN CNAME debmonitor1002.eqiad.wmnet.
