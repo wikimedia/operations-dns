@@ -404,7 +404,6 @@ login           1D IN CNAME dyna.wikimedia.org.
 librenms        5M  IN CNAME    netmon1002
 netbox          1H  IN CNAME    netbox1001
 netbox-exports  1H  IN CNAME    netbox1001
-netbox-next     1H  IN CNAME    netbox-dev2001
 
 orchestrator    5M  IN CNAME    dborch1001
 
@@ -616,6 +615,7 @@ labsconsole      1D IN CNAME dyna.wikimedia.org.
 logstash         1D IN CNAME dyna.wikimedia.org.
 cas-logstash     1D IN CNAME dyna.wikimedia.org.
 moon             1D IN CNAME dyna.wikimedia.org.
+netbox-next      1D IN CNAME dyna.wikimedia.org.
 noc              1D IN CNAME dyna.wikimedia.org.
 nyc              1D IN CNAME dyna.wikimedia.org.
 old-bugzilla     1D IN CNAME dyna.wikimedia.org.
