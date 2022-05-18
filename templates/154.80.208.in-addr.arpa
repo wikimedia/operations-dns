@@ -43,10 +43,6 @@ $INCLUDE netbox/128-26.154.80.208.in-addr.arpa
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/192-27.154.80.208.in-addr.arpa
 
-; 208.80.154.222/31 (cr1-eqiad:gr-4/3/0.1 <--> cr2-eqord:gr-0/0/0.1)
-222 1H IN PTR   gr-4-3-0-1.cr1-eqiad.wikimedia.org.
-223 1H IN PTR   gr-0-0-0-1.cr2-eqord.wikimedia.org.
-
 ; 208.80.154.224/27 (224-255) LVS Service IPs
 ; - 208.80.154.224/28 (224-239) LVS high-traffic1 (Text)
 ; wrong subnet? but not important...
