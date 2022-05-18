@@ -235,6 +235,16 @@ $ORIGIN 36.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/36.64.10.in-addr.arpa
 
+; 10.64.128.0/24 - Loopbacks EVPN Underlay Eqiad
+$ORIGIN 128.64.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/128.64.10.in-addr.arpa
+
+; 10.64.129.0/24 - Link Addressing EVPN Underlay Eqiad
+$ORIGIN 129.64.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/129.64.10.in-addr.arpa
+
 ; 10.64.130.0/24 - private1-e1-eqiad
 $ORIGIN 130.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
