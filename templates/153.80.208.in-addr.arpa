@@ -15,9 +15,6 @@ $INCLUDE netbox/0-27.153.80.208.in-addr.arpa
 ; 208.80.153.32/27 (public1-b-codfw)
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/32-27.153.80.208.in-addr.arpa
-;; manual records
-47 1H  IN PTR  ns-recursor0.openstack.codfw1dev.wikimediacloud.org. ; additional IP for cloudservices2004-dev
-50 1H  IN PTR  ns-recursor1.openstack.codfw1dev.wikimediacloud.org. ; additional IP for cloudservices2005-dev
 
 ; 208.80.153.64/27 (public1-c-codfw)
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -38,8 +35,6 @@ $INCLUDE netbox/96-27.153.80.208.in-addr.arpa
 ; 208.80.153.184/29 (184-191) cloud-instance-transport1-b-codfw
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/184-29.153.80.208.in-addr.arpa
-;; manually maintained records
-190  1H  IN PTR  wan.cloudgw.codfw1dev.wikimediacloud.org.
 
 ; Neighbor blocks & loopbacks (208.80.153.192/27)
 
