@@ -55,6 +55,10 @@ $INCLUDE netbox/2.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 $ORIGIN 3.0.e.f.0.0.6.0.@Z
 $INCLUDE netbox/3.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 
+; cr2-drmrs<->cr1-eqiad - 2a02:ec80:600:fe04::/64
+$ORIGIN 4.0.e.f.0.0.6.0.@Z
+$INCLUDE netbox/4.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
+
 ; cr1-drmrs<->cr2-drmrs - 2a02:ec80:600:fe05::/64
 $ORIGIN 5.0.e.f.0.0.6.0.@Z
 $INCLUDE netbox/5.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
