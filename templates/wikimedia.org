@@ -289,8 +289,6 @@ wikimania2019.m     1D IN CNAME dyna.wikimedia.org.
 wikimaniateam.m     1D IN CNAME dyna.wikimedia.org.
 za.m                1D IN CNAME dyna.wikimedia.org.
 
-pfw3-codfw      1H  IN A     208.80.153.197
-
 ; Cams
 
 ; Service aliases (alphabetical order)
