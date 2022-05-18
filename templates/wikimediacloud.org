@@ -38,9 +38,9 @@ ns0                 5M  IN AAAA   2620:0:860:2:208:80:153:43
 ns1                 5M  IN A      208.80.153.44
 ns1                 5M  IN AAAA   2620:0:860:2:208:80:153:44
 ns-recursor0        5M  IN A      208.80.153.47
-ns-recursor0        5M  IN AAAA   2620:0:860:3:208:80:153:47
+ns-recursor0        5M  IN AAAA   2620:0:860:2:208:80:153:47
 ns-recursor1        5M  IN A      208.80.153.50
-ns-recursor1        5M  IN AAAA   2620:0:860:3:208:80:153:50
+ns-recursor1        5M  IN AAAA   2620:0:860:2:208:80:153:50
 
 ;
 ; EQIAD
