@@ -25,9 +25,9 @@ While parsing the following records are skipped:
 - any PTR that has '.svc.' in the name.
 
 In addition any line with a comment of the form:
-    wmf-zone-validator-ignore=$NAME_OF_VIOLATION
+    wmf-zone-validator-ignore=$NAME_OF_VIOLATION,$NAME_OF_VIOLATION,...
 will be ignored for that particular violation. The comment can contain
-multiple ignore blocks.
+multiple ignores, comma-separated.
 
 It then performs the following global validations:
 - check of any duplicate record across all parsed records
@@ -159,7 +159,7 @@ class ViolationBase(Enum):
         Returns:
             bool: whether the violation should be ignored or not.
         """
-        return f'wmf-zone-validator-ignore={self.name}' in comment
+        return re.search(f'wmf-zone-validator-ignore=[^ ]*{re.escape(self.name)}', comment) is not None
 
 
 @unique
