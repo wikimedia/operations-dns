@@ -110,8 +110,7 @@ class ZoneParseError(Exception):
 
     def __init__(self, message, zonefile, lineno, line):
         """Initialize the parent exception with the compiled message."""
-        super().__init__('{msg}:\n    {file}:{lineno} {line}'.format(
-            msg=message, file=zonefile, lineno=lineno, line=line.strip()))
+        super().__init__(f'{message}:\n    {zonefile}:{lineno} {line.strip()}')
 
 
 class ViolationBase(Enum):
@@ -124,7 +123,7 @@ class ViolationBase(Enum):
         Returns:
             int: one of the logging module log level.
         """
-        raise NotImplementedError('Property level not defined in class {name}'.format(name=self.__class__.__name__))
+        raise NotImplementedError(f'Property level not defined in class {self.__class__.__name__}')
 
     @property
     def color(self):
@@ -133,7 +132,7 @@ class ViolationBase(Enum):
         Returns:
             str: the color code escape sequence for this type of validations.
         """
-        raise NotImplementedError('Property color not defined in class {name}'.format(name=self.__class__.__name__))
+        raise NotImplementedError(f'Property color not defined in class {self.__class__.__name__}')
 
     def __str__(self):
         """String representation of the instance, color coded.
@@ -141,7 +140,7 @@ class ViolationBase(Enum):
         Arguments and return value:
             According to https://docs.python.org/3/reference/datamodel.html
         """
-        return '{o.color}{o.value}|{o.name}\x1b[0m:'.format(o=self)
+        return f'{self.color}{self.value}|{self.name}\x1b[0m:'
 
     def __lt__(self, other):
         """Less than comparator for the instance.
@@ -149,7 +148,7 @@ class ViolationBase(Enum):
         Arguments and return value:
             According to https://docs.python.org/3/reference/datamodel.html
         """
-        return self.value + self.name < other.value + other.name
+        return f'{self.value}{self.name}' < f'{other.value}{other.name}'
 
     def ignore(self, comment):
         """Check if the comment include the ignore for this violation.
@@ -160,7 +159,7 @@ class ViolationBase(Enum):
         Returns:
             bool: whether the violation should be ignored or not.
         """
-        return 'wmf-zone-validator-ignore=' + self.name in comment
+        return f'wmf-zone-validator-ignore={self.name}' in comment
 
 
 @unique
@@ -238,7 +237,7 @@ class ViolationFactory:
         elif name.startswith('W_'):
             return getattr(Warning, name[2:])
         else:
-            raise ValueError('Unrecognized violation name {name}'.format(name=name))
+            raise ValueError(f'Unrecognized violation name {name}')
 
     @staticmethod
     def find(name):
@@ -260,7 +259,7 @@ class ViolationFactory:
             except AttributeError:
                 pass  # Continue searching
 
-        raise ValueError('Unable to find violation {name} in any of the ViolationBase subclasses'.format(name=name))
+        raise ValueError(f'Unable to find violation {name} in any of the ViolationBase subclasses')
 
 
 class ViolationsReporter:
@@ -307,7 +306,7 @@ class ViolationsReporter:
         violation_counts = Counter()
         violations_found = []
         for violation, count in sorted(self.counters.items()):
-            violations_found.append('{violation} {count}'.format(violation=violation, count=count))
+            violations_found.append(f'{violation} {count}')
             violation_counts[violation.level] += count
             violations['|'.join([violation.value, violation.name])] = count
 
@@ -375,9 +374,9 @@ class ViolationsReporter:
             source_files = ''
             source = '%s'
         else:
-            source_files = ' '.join('{file}:{line}'.format(file=record.file, line=record.lineno) for record in records)
+            source_files = ' '.join(f'{record.file}:{record.lineno}' for record in records)
             source = ' (defined in %s)'
-        self.logger.log(level, '%s ' + message + source, violation, *args, source_files)
+        self.logger.log(level, f'%s {message}{source}', violation, *args, source_files)
 
     def _setup_logger(self):
         """Setup the violations logger, streams to stdout."""
@@ -474,11 +473,10 @@ class DNSRecord:
             try:
                 ip = ipaddress.ip_address(value)
             except ValueError as e:
-                raise ZoneParseError('Failed to initialize IP ({e})'.format(e=e), file, lineno, line) from e
+                raise ZoneParseError(f'Failed to initialize IP ({e})', file, lineno, line) from e
 
             if (record_type == 'A' and ip.version != 4) or (record_type == 'AAAA' and ip.version != 6):
-                raise ZoneParseError('Invalid IPv{ver} value for record {type}'.format(
-                    ver=ip.version, type=record_type), file, lineno, line)
+                raise ZoneParseError(f'Invalid IPv{ip.version} value for record {record_type}', file, lineno, line)
 
         elif record_type == 'PTR':
             name = value
@@ -494,10 +492,10 @@ class DNSRecord:
             try:
                 ip = ipaddress.ip_address(addr)
             except ValueError as e:
-                raise ZoneParseError('Failed to convert PTR back to IP ({e})'.format(e=e), file, lineno, line) from e
+                raise ZoneParseError(f'Failed to convert PTR back to IP ({e})', file, lineno, line) from e
 
         else:
-            raise ZoneParseError('Unrecognized record type {type}'.format(type=record_type), file, lineno, line)
+            raise ZoneParseError(f'Unrecognized record type {record_type}', file, lineno, line)
 
         # Use object's __setattr__ to bypass the its own __setattr__.
         object.__setattr__(self, 'key', key)
@@ -522,11 +520,11 @@ class DNSRecord:
 
     def __repr__(self):
         """Representation of the object."""
-        return '<DNSRecord {o.key} {o.type} {o.value} ({o.file}:{o.lineno}) {o.comment}>'.format(o=self)
+        return f'<DNSRecord {self.key} {self.type} {self.value} ({self.file}:{self.lineno}) {self.comment}>'
 
     def __str__(self):
         """String representation of the object."""
-        return '{o.file}:{o.lineno} {o.key} {o.type} {o.value} {o.comment}'.format(o=self)
+        return f'{self.file}:{self.lineno} {self.key} {self.type} {self.value} {self.comment}'
 
     def __hash__(self):
         """Make the class hashable based only on the DNS-meaningful part of the data."""
@@ -602,7 +600,7 @@ class ZonesValidator:
             self.zone = os.path.basename(zonefile)
             zonedir = os.path.dirname(zonefile)
             # Until the first $ORIGIN line the filename itself is the $ORIGIN value
-            self.origin = self.zone + '.'
+            self.origin = f'{self.zone}.'
             self.origins.add(self.origin)
 
             with open(zonefile, 'r') as f:
@@ -629,7 +627,7 @@ class ZonesValidator:
             return  # Empty line or comment
 
         elif line.startswith('$ORIGIN '):
-            self.origin = line.replace('@Z', self.zone + '.').split()[1]
+            self.origin = line.replace('@Z', f'{self.zone}.').split()[1]
             if self.origin[-1] != '.':
                 raise ZoneParseError('Unsupported not fully qualified $ORIGIN', zonefile, lineno, line)
 
@@ -799,7 +797,7 @@ class ZonesValidator:
                 ptrs += [record.key for record in self.ptrs[orig][name]]
 
         for record in records:
-            ptr = record.ip.reverse_pointer + '.'
+            ptr = f'{record.ip.reverse_pointer}.'
             if ptrs:
                 if ptr not in ptrs:
                     self.reporter.e_missing_or_wrong_ptr_for_name_and_ip(ptr, name, record.value, ptrs, records)
@@ -834,7 +832,7 @@ class ZonesValidator:
             logger.debug('Skipping mgmt check for 4th level name: %s', name)
             return
 
-        if name.split('.')[0] + '.mgmt' in self.fqdn_mgmt_prefixes:
+        if f'{name.split(".")[0]}.mgmt' in self.fqdn_mgmt_prefixes:
             return
 
         virtual = [record for record in records if record.is_ganeti or record.is_k8s]
@@ -874,8 +872,7 @@ def parse_args():
     vgroup = parser.add_mutually_exclusive_group()
     vgroup.add_argument('-i', '--ignores',
                         help=('Comma-separated list of violations to ignore (case insensitive). Available errors: '
-                              '{errors} ---- Available warnings: {warnings}').format(
-                            errors=errors_string, warnings=warnings_string))
+                              f'{errors_string} ---- Available warnings: {warnings_string}'))
     vgroup.add_argument('-s', '--show-only', help=('Comma-separated list of violations to show (case insensitive). '
                                                    'See -i/--ignores for the available violations.'))
     sgroup = parser.add_mutually_exclusive_group()
