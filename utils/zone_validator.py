@@ -733,11 +733,19 @@ class ZonesValidator:
 
     def _validate_names(self, value, records, label):
         """Validate record names for all the given IP/PTR, only one record expected."""
-        if len(records) != 1:
-            if any(record.ip.is_private or not record.name.endswith(PUBLIC_DOMAIN) for record in records):
-                self.reporter.e_too_many_names(label, value, records)
-            else:
-                self.reporter.w_too_many_public_names(label, value, records)
+        if len(records) == 1:
+            return
+
+        if any(record.ip.is_private or not record.name.endswith(PUBLIC_DOMAIN) for record in records):
+            violation = Error.TOO_MANY_NAMES
+            reporting_func = self.reporter.e_too_many_names
+        else:
+            violation = Warning.TOO_MANY_PUBLIC_NAMES
+            reporting_func = self.reporter.w_too_many_public_names
+
+        actual_records = [record for record in records if not violation.ignore(record.comment)]
+        if len(actual_records) != 1:
+            reporting_func(label, value, records)
 
     def _validate_origin_ips(self, origin, is_mgmt):
         """Validate PTRs for all the IPs in the given origin."""
