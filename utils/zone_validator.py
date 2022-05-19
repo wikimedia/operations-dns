@@ -634,7 +634,10 @@ class ZonesValidator:
             if name[-1] == '.':
                 raise ZoneParseError('Unsupported fully qualified name', self.zone, lineno, line)
 
-            fqdn = '.'.join([name, self.origin])
+            if name == '@':
+                fqdn = self.origin
+            else:
+                fqdn = '.'.join([name, self.origin])
             comment = comments[0].strip() if comments else ''
             record = DNSRecord(fqdn, record_type, ip, self.zone, lineno, line, comment=comment)
 
