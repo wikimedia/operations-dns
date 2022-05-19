@@ -1,2 +1,3 @@
 .tox/
 *.sw*
+utils/__pycache__/
