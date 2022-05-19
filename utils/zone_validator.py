@@ -89,12 +89,11 @@ import sys
 from collections import Counter, defaultdict
 from enum import Enum, unique
 
-
 # Main logger, streams to stderr
 logging.basicConfig(level=logging.INFO, format='%(name)s[%(levelname)s] %(message)s')
 logger = logging.getLogger('zone-validator')
 # Matches asset tags names of the form wmfNNNN, case-insensitive
-ASSET_TAG_PATTERN = re.compile(r'^wmf[0-9]{4}\.mgmt\.', re.I)
+ASSET_TAG_PATTERN = re.compile(r'^wmf[0-9]{4,5}\.mgmt\.', re.I)
 # List of prefixes of mgmt records that should skip the check for asset tag records
 NO_ASSET_TAG_PREFIXES = []
 IPV4_REVERSE_DOMAIN = 'in-addr.arpa.'
