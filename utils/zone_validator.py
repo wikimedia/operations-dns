@@ -923,7 +923,9 @@ def main():
 
     # Collect all the zonefiles
     base_path = os.path.abspath(args.zones_dir)
-    zonefiles = [os.path.join(base_path, zone) for zone in ('wmnet', 'wikimedia.org')]  # Default zones
+    # Default zones
+    zonefiles = [os.path.join(base_path, zone) for zone in
+                 ('wmnet', 'wikimedia.org', 'wikimedia-dns.org', 'wikimediacloud.org')]
     zonefiles += glob.glob(os.path.join(base_path, '*.in-addr.arpa'))  # IPv4 reverse zonefiles
     zonefiles += glob.glob(os.path.join(base_path, '*.ip6.arpa'))  # IPv6 reverse zonefiles
 
