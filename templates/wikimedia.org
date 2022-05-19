@@ -594,6 +594,7 @@ civicrm          1H  IN MX       10 mx1001
 civicrm          1H  IN MX       10 mx2001
 civicrm.frdev    1H  IN CNAME    frdev-eqiad
 civicrm-codfw    1H  IN A        208.80.152.232
+civicrm-staging  1H  IN A        208.80.155.17
 coffee           1D IN CNAME dyna.wikimedia.org.
 cs               1D IN CNAME dyna.wikimedia.org.
 cz               1D IN CNAME dyna.wikimedia.org.
