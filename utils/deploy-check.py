@@ -203,7 +203,15 @@ def deploy_check(deploy, skip_reload, no_gdnsd, tdir, gdir):
 
     # Validate processed zone output data using WMF rules
     print(' -- Running zone_validator to check WMF rules')
-    safe_cmd(['python3', './utils/zone_validator.py', '-e', '-z', str(tdir_zones)])
+    safe_cmd([
+        'python3',
+        './utils/zone_validator.py',
+        '--error',
+        '--zones_dir',
+        str(tdir_zones),
+        '--ignores',
+        'MISSING_ASSET_TAG,MISSING_MGMT_FOR_NAME,TOO_FEW_MGMT_NAMES',
+    ])
 
     # Checkconf, unless we shouldn't
     if no_gdnsd:

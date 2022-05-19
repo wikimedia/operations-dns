@@ -600,18 +600,29 @@ class ZonesValidator:
         for zonefile in self.zonefiles:
             logger.debug('Parsing zonefile %s', zonefile)
             self.zone = os.path.basename(zonefile)
+            zonedir = os.path.dirname(zonefile)
             # Until the first $ORIGIN line the filename itself is the $ORIGIN value
             self.origin = self.zone + '.'
             self.origins.add(self.origin)
 
             with open(zonefile, 'r') as f:
                 for lineno, line in enumerate(f.readlines(), start=header_offset):
-                    self._process_line(line, lineno)
+                    if line.startswith('$INCLUDE '):
+                        netbox_zonefile = os.path.join(zonedir, line.split()[1])
+                        netbox_file = f'netbox/{os.path.basename(netbox_zonefile)}'
+                        with open(netbox_zonefile, 'r') as netbox_f:
+                            for netbox_lineno, netbox_line in enumerate(netbox_f.readlines(), start=1):
+                                self._process_line(netbox_line, netbox_lineno, netbox_file)
+                    else:
+                        self._process_line(line, lineno)
 
-    def _process_line(self, line, lineno):
+    def _process_line(self, line, lineno, zonefile=None):
         """Process a zone file line."""
+        if zonefile is None:
+            zonefile = self.zone
+
         if line.startswith(' '):
-            raise ZoneParseError('Illegal leading whitespace', self.zone, lineno, line)
+            raise ZoneParseError('Illegal leading whitespace', zonefile, lineno, line)
 
         stripped_line = line.strip()
         if not line or not stripped_line or line[0] == ';' or stripped_line[0] == ';':
@@ -620,7 +631,7 @@ class ZonesValidator:
         elif line.startswith('$ORIGIN '):
             self.origin = line.replace('@Z', self.zone + '.').split()[1]
             if self.origin[-1] != '.':
-                raise ZoneParseError('Unsupported not fully qualified $ORIGIN', self.zone, lineno, line)
+                raise ZoneParseError('Unsupported not fully qualified $ORIGIN', zonefile, lineno, line)
 
             self.origins.add(self.origin)
 
@@ -632,14 +643,14 @@ class ZonesValidator:
         elif ' IN A ' in line or ' IN AAAA ' in line:
             name, _, _, record_type, ip, *comments = line.split(None, 5)
             if name[-1] == '.':
-                raise ZoneParseError('Unsupported fully qualified name', self.zone, lineno, line)
+                raise ZoneParseError('Unsupported fully qualified name', zonefile, lineno, line)
 
             if name == '@':
                 fqdn = self.origin
             else:
                 fqdn = '.'.join([name, self.origin])
             comment = comments[0].strip() if comments else ''
-            record = DNSRecord(fqdn, record_type, ip, self.zone, lineno, line, comment=comment)
+            record = DNSRecord(fqdn, record_type, ip, zonefile, lineno, line, comment=comment)
 
             self.unique_records[fqdn].append(record)
             self.names['IP'][self.origin][ip].append(record)
@@ -655,14 +666,14 @@ class ZonesValidator:
                 return
 
             if ip[-1] == '.':
-                raise ZoneParseError('Unsupported fully qualified PTR', self.zone, lineno, line)
+                raise ZoneParseError('Unsupported fully qualified PTR', zonefile, lineno, line)
 
             if fqdn[-1] != '.':
-                raise ZoneParseError('Unsupported not fully qualified PTR pointer', self.zone, lineno, line)
+                raise ZoneParseError('Unsupported not fully qualified PTR pointer', zonefile, lineno, line)
 
             ptr = '.'.join([ip, self.origin])
             comment = comments[0].strip() if comments else ''
-            record = DNSRecord(ptr, record_type, fqdn, self.zone, lineno, line, comment=comment)
+            record = DNSRecord(ptr, record_type, fqdn, zonefile, lineno, line, comment=comment)
 
             self.unique_records[fqdn].append(record)
             self.names['PTR'][self.origin][ptr].append(record)
