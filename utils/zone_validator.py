@@ -393,7 +393,7 @@ class ViolationsReporter:
     # ERRORS
 
     def e_global_duplicate(self, records):
-        self._err(records, 'Global duplicate records found: %s', records)
+        self._err(records, 'Global duplicate records found: %s', PrintList(records))
 
     def e_missing_or_wrong_ip_for_name_and_ptr(self, record, ips):
         self._err([record], "Missing IPv%d '%s' for name '%s' and PTR '%s'. Current IPs are: %s",
@@ -401,7 +401,7 @@ class ViolationsReporter:
 
     def e_missing_or_wrong_ptr_for_name_and_ip(self, ptr, name, ip, ptrs, records):
         self._err(records, "Missing PTR '%s' for name '%s' and IP '%s', PTRs are: %s",
-                  ptr, name, ip, ptrs)
+                  ptr, name, ip, PrintList(ptrs))
 
     def e_multiple_ips_for_name(self, name, records):
         self._err(records, "Found %d IPs for name '%s', expected 1: %s",
