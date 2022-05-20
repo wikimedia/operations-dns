@@ -75,8 +75,8 @@ _matrix._tcp.foundation           1H IN SRV         10 5 443 wikimediafoundation
 ; Corporate office name server delegation
 corp        1D  IN NS   ns1.corp
 corp        1D  IN NS   ns2.corp
-ns1.corp    1H  IN A    198.73.209.15
-ns2.corp    1H  IN A    198.73.209.16
+ns1.corp    1H  IN A    198.73.209.15 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
+ns2.corp    1H  IN A    198.73.209.16 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
 
 ; "dyna.wikimedia.org." is the focal point of CNAMEs across all our zones for
 ; most cases that ultimately map to text-addrs.  By using longer-TTL CNAMEs
@@ -425,7 +425,7 @@ people          1D IN CNAME dyna.wikimedia.org.
 piwik           1D IN CNAME dyna.wikimedia.org.
 
 ; policy.wikimedia.org goes to wordpress cluster T110203
-policy          5M  IN A        192.0.66.2
+policy          5M  IN A        192.0.66.2 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
 
 puppetboard      1D IN CNAME dyna.wikimedia.org.
 puppetboard-idptest 1D IN CNAME dyna.wikimedia.org.
@@ -661,8 +661,8 @@ store            1H  IN CNAME    c.ssl.shopify.com.
 static-bugzilla  1D IN CNAME dyna.wikimedia.org.
 static-codereview  1D IN CNAME dyna.wikimedia.org.
 stats            1D IN CNAME dyna.wikimedia.org.
-status           5M  IN A        192.237.162.200
-status           5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
+status           5M  IN A        192.237.162.200 ; wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
+status           5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5 ; wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
 techblog         5M IN CNAME techblog-wikimedia-org.go-vip.net.
 ticket           1D IN CNAME dyna.wikimedia.org.
 mirrors          5M IN CNAME mirror1001
@@ -675,8 +675,8 @@ enterprise       1D IN CNAME dyna.wikimedia.org.
 unseen           1D IN CNAME dyna.wikimedia.org.
 wikitech-static-iad  5M  IN A        162.209.126.221
 wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
-wikitech-static      5M  IN A        192.237.162.200
-wikitech-static      5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5
+wikitech-static      5M  IN A        192.237.162.200 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
+wikitech-static      5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
 wikitech-static                  1H IN TXT "v=spf1 include:mailgun.org -all"
 mailo._domainkey.wikitech-static 1H IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQD2aCVkhofbsQzu3DT0c6r4cZGTGT49ueyC7P7Bq6kzqC0q121Z6Xzocb6DclVVcCbir56LL/y2OVDIrWRlnoK8c/4fT/gfeH1EY8/URCqqD1dMOiPdEkZ4MVIJ/9X3O5bFb1Hxy50SAn6FF/pYg2PZcS1IY20xhZpDsq69+Wk56wIDAQAB"
 
