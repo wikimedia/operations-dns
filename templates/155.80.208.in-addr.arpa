@@ -13,7 +13,7 @@
 2   1H IN PTR   pay-lvs1001.wikimedia.org.
 3   1H IN PTR   pay-lvs1002.wikimedia.org.
 4   1H IN PTR   analytics.frdev.wikimedia.org.
-5   1H IN PTR   payments.wikimedia.org.
+5   1H IN PTR   payments.wikimedia.org. ; wmf-zone-validator-ignore=MISSING_IP_FOR_NAME_AND_PTR
 6   1H IN PTR   frack-default-nat-eqiad.wikimedia.org.
 7   1H IN PTR   frack-payments-nat-eqiad.wikimedia.org.
 8   1H IN PTR   frbast-eqiad.wikimedia.org.

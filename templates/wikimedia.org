@@ -126,8 +126,8 @@ $INCLUDE netbox/wikimedia.org-codfw
 $INCLUDE netbox/wikimedia.org-drmrs
 
 ; Fundraising tech hosts (no automation)
-civi1001        1H  IN A    208.80.155.11
-civi1002        1H  IN A    208.80.155.17
+civi1001        1H  IN A    208.80.155.11 ; wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
+civi1002        1H  IN A    208.80.155.17 ; wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
 frack-default-nat-codfw     1H  IN A    208.80.152.230
 frack-default-nat-eqiad     1H  IN A    208.80.155.6
 frack-payments-nat-codfw    1H  IN A    208.80.152.229
@@ -412,7 +412,7 @@ netbox-exports  1H  IN CNAME    netbox1001
 orchestrator    5M  IN CNAME    dborch1001
 
 payments        5M  IN CNAME    payments-eqiad
-payments-eqiad  1H  IN A        208.80.155.5
+payments-eqiad  1H  IN A        208.80.155.5 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
 payments-codfw  1H  IN A        208.80.152.228
 payments-staging 1H  IN A        208.80.155.10
 
