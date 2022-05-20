@@ -250,8 +250,8 @@ ntp.magru           1H  IN CNAME ntp-a.anycast.wmnet.
 ; Round Robin LVS Service records
 
 ;;; eqiad (only records not auto-generated from Netbox)
-donate-lb.eqiad     1H IN A 208.80.154.224 ; same IP of text-lb
-donate-lb.eqiad     1H IN AAAA 2620:0:861:ed1a::1 ; same IP of text-lb
+donate-lb.eqiad     1H IN A 208.80.154.224 ; same IP of text-lb wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
+donate-lb.eqiad     1H IN AAAA 2620:0:861:ed1a::1 ; same IP of text-lb wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
 donate-lb.eqiad     1H IN MX 10 mx-in1001
 donate-lb.eqiad     1H IN MX 50 mx-in2001
 
@@ -263,24 +263,24 @@ ores                1D IN CNAME dyna.wikimedia.org.
 ores-legacy         1D IN CNAME dyna.wikimedia.org.
 
 ;;; ulsfo (only records not auto-generated from Netbox)
-donate-lb.ulsfo     1H IN A 198.35.26.96 ; same IP of text-lb
-donate-lb.ulsfo     1H IN AAAA 2620:0:863:ed1a::1 ; same IP of text-lb
+donate-lb.ulsfo     1H IN A 198.35.26.96 ; same IP of text-lb wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
+donate-lb.ulsfo     1H IN AAAA 2620:0:863:ed1a::1 ; same IP of text-lb wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
 donate-lb.ulsfo     1H IN MX 10    mx-in1001
 donate-lb.ulsfo     1H IN MX 50    mx-in2001
 
 ;;; eqsin (only records not auto-generated from Netbox)
-donate-lb.eqsin     1H IN A 103.102.166.224 ; same IP of text-lb
-donate-lb.eqsin     1H IN AAAA 2001:df2:e500:ed1a::1 ; same IP of text-lb
+donate-lb.eqsin     1H IN A 103.102.166.224 ; same IP of text-lb wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
+donate-lb.eqsin     1H IN AAAA 2001:df2:e500:ed1a::1 ; same IP of text-lb wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
 donate-lb.eqsin     1H IN MX 10    mx-in1001
 donate-lb.eqsin     1H IN MX 50    mx-in2001
 
 ;;; codfw
-donate-lb.codfw     1H IN A 208.80.153.224
-donate-lb.codfw     1H IN AAAA 2620:0:860:ed1a::1
+donate-lb.codfw     1H IN A 208.80.153.224 ; same IP of text-lb wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
+donate-lb.codfw     1H IN AAAA 2620:0:860:ed1a::1 ; same IP of text-lb wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
 
 ;;; esams (only records not auto-generated from Netbox)
-donate-lb.esams     1H IN A 185.15.59.224 ; same IP of text-lb
-donate-lb.esams     1H IN AAAA 2a02:ec80:300:ed1a::1 ; same IP of text-lb
+donate-lb.esams     1H IN A 185.15.59.224 ; same IP of text-lb wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
+donate-lb.esams     1H IN AAAA 2a02:ec80:300:ed1a::1 ; same IP of text-lb wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
 donate-lb.esams     1H IN MX 10    mx-in1001
 donate-lb.esams     1H IN MX 50    mx-in2001
 
@@ -292,7 +292,6 @@ measure-ulsfo       1D IN CNAME upload-lb.ulsfo.wikimedia.org.
 measure-eqsin       1D IN CNAME upload-lb.eqsin.wikimedia.org.
 measure-drmrs       1D IN CNAME upload-lb.drmrs.wikimedia.org.
 measure-magru       1D IN CNAME upload-lb.magru.wikimedia.org.
-
 
 ; Mobile
 
