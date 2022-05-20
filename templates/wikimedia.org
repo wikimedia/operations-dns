@@ -673,8 +673,6 @@ thanos           1D IN CNAME dyna.wikimedia.org.
 os-reports       1D IN CNAME dyna.wikimedia.org.
 enterprise       1D IN CNAME dyna.wikimedia.org.
 unseen           1D IN CNAME dyna.wikimedia.org.
-wikitech-static-iad  5M  IN A        162.209.126.221
-wikitech-static-iad  5M  IN AAAA     2001:4802:7800:1:be76:4eff:fe21:3782
 wikitech-static      5M  IN A        192.237.162.200 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
 wikitech-static      5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
 wikitech-static                  1H IN TXT "v=spf1 include:mailgun.org -all"
