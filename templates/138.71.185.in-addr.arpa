@@ -16,5 +16,5 @@
 
 139 1H IN PTR   check.wikimedia-dns.org.
 140 1H IN PTR   yesdoh.check.wikimedia-dns.org.
-141 1H IN PTR   no.check.wikimedia-dns.org.
+141 1H IN PTR   no.check.wikimedia-dns.org. ; wmf-zone-validator-ignore=MISSING_IP_FOR_NAME_AND_PTR
 142 1H IN PTR   yesdot.check.wikimedia-dns.org.

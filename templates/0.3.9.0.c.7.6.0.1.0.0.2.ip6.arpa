@@ -18,5 +18,5 @@ $ORIGIN 0.0.0.0.@Z
 
 2.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   check.wikimedia-dns.org.
 3.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   yesdoh.check.wikimedia-dns.org.
-4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   no.check.wikimedia-dns.org.
+4.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   no.check.wikimedia-dns.org. ; wmf-zone-validator-ignore=MISSING_IP_FOR_NAME_AND_PTR
 5.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H IN PTR   yesdot.check.wikimedia-dns.org.

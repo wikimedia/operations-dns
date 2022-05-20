@@ -51,5 +51,5 @@ yesdot.check    600 IN AAAA 2001:67c:930::5
 ; browser-level caching between check queries, e.g.:
 ; https://7fbceba2-fabb-11eb-9a03-0242ac130003.check.wikimedia-dns.org/check
 ; This is essentially equivalent to: no.check since yes{doh,dot}.check will go through Wikidough (dnsdist)
-*.check     5   IN A    185.71.138.141
-*.check     5   IN AAAA 2001:67c:930::4
+*.check     5   IN A    185.71.138.141 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
+*.check     5   IN AAAA 2001:67c:930::4 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
