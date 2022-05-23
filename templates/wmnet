@@ -747,6 +747,7 @@ ticket                300 IN CNAME otrs1001.eqiad.wmnet.
 grafana-cloud         300 IN CNAME cloudmetrics1003.eqiad.wmnet.
 grafana-labs          300 IN CNAME cloudmetrics1003.eqiad.wmnet.
 graphite-labs         300 IN CNAME cloudmetrics1003.eqiad.wmnet.
+netbox-next           300 IN CNAME netbox-dev2002.codfw.wmnet.
 testreduce            300 IN CNAME testreduce1001.eqiad.wmnet.
 
 ; for thanos use a CNAME discovery record not the thanos-query geoip
