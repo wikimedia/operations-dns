@@ -273,6 +273,7 @@ frpm2001            1H  IN A    10.195.0.73
 frpig2001           1H  IN A    10.195.0.82
 frmx2001            1H  IN A    10.195.0.84
 frbackup2001        1H  IN A    10.195.0.77
+frbackup2002        1H  IN A    10.195.0.75
 frqueue2001         1H  IN A    10.195.0.39
 frqueue2002         1H  IN A    10.195.0.42
 
