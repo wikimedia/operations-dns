@@ -163,7 +163,7 @@ ntp.esams           1H  IN CNAME dns3001
 ntp.eqsin           1H  IN CNAME dns5001
 
 ;;; drmrs
-ntp.drmrs           1H  IN CNAME dns1001 ; DRMRS-TODO: should be dns6001 later
+ntp.drmrs           1H  IN CNAME dns6001
 
 ; Round Robin LVS Service records
 
