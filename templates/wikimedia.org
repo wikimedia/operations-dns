@@ -365,6 +365,8 @@ gerrit-replica    600 IN A        208.80.153.107
 gerrit-replica    600 IN AAAA     2620:0:860:4:208:80:153:107
 
 git             1D IN CNAME dyna.wikimedia.org.
+gitlab 600 IN A 208.80.154.14
+gitlab 600 IN AAAA 2620:0:861:1:208:80:154:14
 gitlab-new 600 IN A 208.80.154.145
 gitlab-new 600 IN AAAA 2620:0:861:2:208:80:154:145
 gitlab-replica 600 IN A 208.80.153.105
