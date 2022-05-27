@@ -325,6 +325,16 @@ $ORIGIN 149.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/149.64.10.in-addr.arpa
 
+; 10.64.150.0/24 - cloud-hosts1-d5-eqiad
+$ORIGIN 150.64.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/150.64.10.in-addr.arpa
+
+; 10.64.151.0/24 - cloud-hosts1-c8-eqiad
+$ORIGIN 151.64.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/151.64.10.in-addr.arpa
+
 ; 10.64.37.0/24 - cloud-support1-c-eqiad
 $ORIGIN 37.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox

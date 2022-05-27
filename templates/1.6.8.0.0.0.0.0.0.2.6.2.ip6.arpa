@@ -173,6 +173,16 @@ $ORIGIN d.1.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/d.1.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; cloud-hosts1-d5-eqiad (2620:0:861:11e::/64)
+$ORIGIN e.1.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/e.1.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; cloud-hosts1-c8-eqiad (2620:0:861:11f::/64)
+$ORIGIN f.1.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/f.1.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; cr1-eqiad_to_lsw1-e1-eqiad (2620:0:861:fe07::/64)
 $ORIGIN 7.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
