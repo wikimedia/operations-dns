@@ -30,3 +30,4 @@ disc-parsoid-php         => { datacenters => mock, dcmap => { mock => 192.0.2.1 
 disc-toolhub             => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-k8s-ingress-staging => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-k8s-ingress-wikikube-rw => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
+disc-netbox              => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
