@@ -411,9 +411,8 @@ phabricator     1H  IN TXT      "v=spf1 mx ip6:2620:0:861:102:10:64:16:8 ip6:262
 login           1D IN CNAME dyna.wikimedia.org.
 
 librenms        5M  IN CNAME    netmon1002
-; TODO: Set the TTL to 1D after migration
-netbox          5M  IN CNAME    dyna.wikimedia.org.
-netbox-exports  5M  IN CNAME    dyna.wikimedia.org.
+netbox          1D  IN CNAME    dyna.wikimedia.org.
+netbox-exports  1D  IN CNAME    dyna.wikimedia.org.
 
 orchestrator    5M  IN CNAME    dborch1001
 
