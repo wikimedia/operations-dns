@@ -413,8 +413,8 @@ login           1D IN CNAME dyna.wikimedia.org.
 
 librenms        5M  IN CNAME    netmon1002
 ; TODO: Set the TTL to 1D after migration
-netbox          5M  IN CNAME    netbox1001
-netbox-exports  5M  IN CNAME    netbox1001
+netbox          5M  IN CNAME    dyna.wikimedia.org.
+netbox-exports  5M  IN CNAME    dyna.wikimedia.org.
 
 orchestrator    5M  IN CNAME    dborch1001
 
