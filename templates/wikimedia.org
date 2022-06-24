@@ -427,8 +427,8 @@ people          1D IN CNAME dyna.wikimedia.org.
 
 piwik           1D IN CNAME dyna.wikimedia.org.
 
-; policy.wikimedia.org goes to wordpress cluster T110203
-policy          5M  IN A        192.0.66.2 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
+; policy.wikimedia.org was once on wordpress cluster T110203, then came back to WMF T310738
+policy           5M IN CNAME dyna.wikimedia.org.
 
 puppetboard      1D IN CNAME dyna.wikimedia.org.
 puppetboard-idptest 1D IN CNAME dyna.wikimedia.org.
