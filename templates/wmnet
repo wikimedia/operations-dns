@@ -102,10 +102,16 @@ _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1009.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
+_etcd._tcp          5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp          5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp          5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 ; Conftool (RW)
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ; kubernetes-related records (etcdv3)
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1004.eqiad.wmnet.
@@ -228,6 +234,9 @@ _etcd._tcp      5M  IN SRV      0 1 4001 conf2006.codfw.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ; kubernetes-related records (etcdv3)
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2004.codfw.wmnet.
@@ -321,11 +330,17 @@ webproxy        5M  IN CNAME    install3001.wikimedia.org.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ; Conftool (RW)
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ;
 ; ULSFO MGMT
@@ -360,6 +375,9 @@ _etcd._tcp      5M  IN SRV      0 1 4001 conf2006.codfw.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ;
 ; EQSIN MGMT
@@ -394,6 +412,9 @@ _etcd._tcp      5M  IN SRV      0 1 4001 conf2006.codfw.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ;
 ; DRMRS MGMT
@@ -423,11 +444,17 @@ webproxy        5M  IN CNAME    install6001.wikimedia.org.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ; Conftool (RW)
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1006.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 
 ; EQIAD SERVICES
