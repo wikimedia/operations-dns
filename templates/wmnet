@@ -97,6 +97,7 @@ _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1005.eqiad.wmnet.
 _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1006.eqiad.wmnet.
 _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1007.eqiad.wmnet.
 _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1008.eqiad.wmnet.
+_etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1009.eqiad.wmnet.
 ; All read clients
 _etcd._tcp          5M  IN SRV      0 1 4001 conf1004.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 4001 conf1005.eqiad.wmnet.
