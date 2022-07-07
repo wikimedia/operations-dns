@@ -16,7 +16,6 @@ $ORIGIN 1.0.0.0.@Z
 $INCLUDE netbox/1.0.0.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; Manual records
-4.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gitlab-old.wikimedia.org. ; service IP for gitlab
 5.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gitlab-replica.wikimedia.org. ; service IP for gitlab
 1.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   lists.wikimedia.org. ; service IP for lists
 4.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   ns-recursor1.openstack.eqiad1.wikimediacloud.org.
