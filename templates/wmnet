@@ -202,13 +202,13 @@ puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install2003.wikimedia.org.
 deployment      5M  IN CNAME    deploy1002.eqiad.wmnet.
 m1-master       5M  IN CNAME    dbproxy2001.codfw.wmnet.
-m1-slave        5M  IN CNAME    db2078.codfw.wmnet.
+m1-slave        5M  IN CNAME    db2160.codfw.wmnet.
 m2-master       5M  IN CNAME    dbproxy2002.codfw.wmnet.
-m2-slave        5M  IN CNAME    db2078.codfw.wmnet.
+m2-slave        5M  IN CNAME    db2160.codfw.wmnet.
 m3-master       5M  IN CNAME    dbproxy2003.codfw.wmnet.
-m3-slave        5M  IN CNAME    db2078.codfw.wmnet.
+m3-slave        5M  IN CNAME    db2160.codfw.wmnet.
 m5-master       5M  IN CNAME    dbproxy2004.codfw.wmnet.
-m5-slave        5M  IN CNAME    db2078.codfw.wmnet.
+m5-slave        5M  IN CNAME    db2160.codfw.wmnet.
 statsd          5M  IN CNAME    statsd.eqiad.wmnet.
 ; Used by syslog over UDP (e.g. network devices, PDUs)
 syslog          1H  IN CNAME    syslog.anycast.wmnet.
