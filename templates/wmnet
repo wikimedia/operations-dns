@@ -165,6 +165,7 @@ frdb1006        1H      IN A    10.64.40.101
 frdev1001       1H      IN A    10.64.40.117
 frdev1002       1H      IN A    10.64.40.116
 frlog1001       1H      IN A    10.64.40.72
+frlog1002       1H      IN A    10.64.40.75
 frmon1001       1H      IN A    10.64.40.73
 frmx1001        1H      IN A    10.64.40.162
 frnetmon1001    1H      IN A    10.64.40.67
