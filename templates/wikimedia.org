@@ -341,6 +341,7 @@ debmonitor      1D IN CNAME dyna.wikimedia.org.
 
 dev             1D IN CNAME dyna.wikimedia.org.
 developer       1D IN CNAME dyna.wikimedia.org.
+developers      1D IN CNAME dyna.wikimedia.org.
 doc             1D IN CNAME dyna.wikimedia.org.
 docker-registry 1D IN CNAME dyna.wikimedia.org.
 docs            1D IN CNAME dyna.wikimedia.org.
