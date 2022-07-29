@@ -21,6 +21,10 @@ $ORIGIN codfw1dev.wikimediacloud.org.
 ; Service aliases
 ; Primary openstack endpoint API used by openstack clients and endpoint catalog
 openstack  5M  IN CNAME  cloudcontrol2001-dev.wikimedia.org.
+; Rabbitmq nodes
+rabbitmq01 5M  IN CNAME  cloudcontrol2001-dev.wikimedia.org.
+rabbitmq02 5M  IN CNAME  cloudcontrol2003-dev.wikimedia.org.
+rabbitmq03 5M  IN CNAME  cloudcontrol2004-dev.wikimedia.org.
 
 nat.cloudgw         5M  IN A      185.15.57.1
 cloudgw2001-dev     5M  IN A      208.80.153.188
