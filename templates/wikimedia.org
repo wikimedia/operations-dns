@@ -410,9 +410,11 @@ phabricator     1H  IN TXT      "v=spf1 mx ip6:2620:0:861:102:10:64:16:8 ip6:262
 
 login           1D IN CNAME dyna.wikimedia.org.
 
-librenms        5M  IN CNAME    netmon1002
-netbox          1D  IN CNAME    dyna.wikimedia.org.
-netbox-exports  1D  IN CNAME    dyna.wikimedia.org.
+librenms        5M  IN CNAME    netmon1003
+
+; TODO: Set the TTL to 1D after migration
+netbox          5M  IN CNAME    dyna.wikimedia.org.
+netbox-exports  5M  IN CNAME    dyna.wikimedia.org.
 
 orchestrator    5M  IN CNAME    dborch1001
 
@@ -661,8 +663,12 @@ transparency     1D IN CNAME dyna.wikimedia.org.
 transparency-archive 1D IN CNAME dyna.wikimedia.org.
 search           1D IN CNAME dyna.wikimedia.org.
 shop             1D IN CNAME dyna.wikimedia.org.
+<<<<<<< HEAD
 smokeping        5M IN CNAME netmon1002
 soundlogo        1H IN CNAME wikimediasoundlogo.go-vip.net.
+=======
+smokeping        5M IN CNAME netmon1003
+>>>>>>> 9dae41d1 (netmon: failover to netmon1003)
 store            1H  IN CNAME    c.ssl.shopify.com.
 static-bugzilla  1D IN CNAME dyna.wikimedia.org.
 static-codereview  1D IN CNAME dyna.wikimedia.org.
