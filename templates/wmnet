@@ -117,6 +117,11 @@ _etcd-server-ssl._tcp.ml_etcd 5M  IN SRV      0 1 2380 ml-etcd1001.eqiad.wmnet.
 _etcd-server-ssl._tcp.ml_etcd 5M  IN SRV      0 1 2380 ml-etcd1002.eqiad.wmnet.
 _etcd-server-ssl._tcp.ml_etcd 5M  IN SRV      0 1 2380 ml-etcd1003.eqiad.wmnet.
 
+; EQIAD dse-k8s etcd cluster
+_etcd-server-ssl._tcp.dse_k8s_etcd 5M  IN SRV      0 1 2380 dse-k8s-etcd1001.eqiad.wmnet.
+_etcd-server-ssl._tcp.dse_k8s_etcd 5M  IN SRV      0 1 2380 dse-k8s-etcd1002.eqiad.wmnet.
+_etcd-server-ssl._tcp.dse_k8s_etcd 5M  IN SRV      0 1 2380 dse-k8s-etcd1003.eqiad.wmnet.
+
 ;Servers
 ;
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
