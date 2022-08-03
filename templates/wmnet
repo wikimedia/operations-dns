@@ -96,9 +96,12 @@ _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1007.eqiad.wmnet.
 _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1008.eqiad.wmnet.
 _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf1009.eqiad.wmnet.
 ; All read clients
+; ⚠️ IF YOU EDIT THIS, YOU MUST GLOBALLY RESTART CONFD !!! T314489
+; sudo cumin 'P{R:Class = Confd}' 'systemctl restart confd'
 _etcd._tcp          5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
 _etcd._tcp          5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+; ⚠️ IF YOU EDIT THIS, YOU MUST GLOBALLY RESTART CONFD !!! T314489
 ; Conftool (RW)
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
@@ -223,9 +226,12 @@ _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf2004.codfw.wmnet.
 _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf2005.codfw.wmnet.
 _etcd-server-ssl._tcp.v3  5M  IN SRV      0 1 2380 conf2006.codfw.wmnet.
 ; All read clients
+; ⚠️ IF YOU EDIT THIS, YOU MUST GLOBALLY RESTART CONFD !!! T314489
+; sudo cumin 'P{R:Class = Confd}' 'systemctl restart confd'
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+; ⚠️ IF YOU EDIT THIS, YOU MUST GLOBALLY RESTART CONFD !!! T314489
 ; Conftool (RW)
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
@@ -320,9 +326,12 @@ puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install3001.wikimedia.org.
 
 ; etcd client discovery (RO)
+; ⚠️ IF YOU EDIT THIS, YOU MUST GLOBALLY RESTART CONFD !!! T314489
+; sudo cumin 'P{R:Class = Confd}' 'systemctl restart confd'
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+; ⚠️ IF YOU EDIT THIS, YOU MUST GLOBALLY RESTART CONFD !!! T314489
 
 ; Conftool (RW)
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
@@ -354,6 +363,8 @@ puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install4001.wikimedia.org.
 
 ; etcd client discovery (RO)
+; ⚠️ IF YOU EDIT THIS, YOU MUST GLOBALLY RESTART CONFD !!! T314489
+; sudo cumin 'P{R:Class = Confd}' 'systemctl restart confd'
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
@@ -388,6 +399,8 @@ puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install5001.wikimedia.org.
 
 ; etcd client discovery (RO)
+; ⚠️ IF YOU EDIT THIS, YOU MUST GLOBALLY RESTART CONFD !!! T314489
+; sudo cumin 'P{R:Class = Confd}' 'systemctl restart confd'
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
@@ -422,6 +435,8 @@ puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install6001.wikimedia.org.
 
 ; etcd client discovery (RO)
+; ⚠️ IF YOU EDIT THIS, YOU MUST GLOBALLY RESTART CONFD !!! T314489
+; sudo cumin 'P{R:Class = Confd}' 'systemctl restart confd'
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
