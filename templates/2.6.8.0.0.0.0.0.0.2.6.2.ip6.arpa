@@ -88,6 +88,12 @@ $ORIGIN 7.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/7.0.e.f.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; cr2-drmrs <--> cr3-esams (2620:0:862:fe08::/64)
+
+$ORIGIN 8.0.e.f.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/8.0.e.f.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; Loopback IPs
 
 $ORIGIN f.f.f.f.@Z
