@@ -3,72 +3,7 @@ generic-map => {
     datacenters => [eqiad, codfw, ulsfo, esams, eqsin, drmrs, bh, ref]
     map => {
         # use ISO 3166-2 official names
-        AF => {
-            # A number of countries in Africa do not have probes from RIPE
-            # Atlas. Sometimes the probes that do exist are low-quality data.
-            # The best we can do for now is use a lot of inference from
-            # neighboring countries.
-            #
-            # codfw and ulsfo were not measured and are there merely as
-            # placeholders on the wildest of assumptions: If Africa is
-            # connecting to the USA, then something has gone horribly wrong
-            # anyway.
-            default => [esams, drmrs, eqiad, codfw, ulsfo, eqsin],
-            AO => [esams, drmrs, eqiad, eqsin, codfw, ulsfo], # Angola
-            BF => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Burkina Faso
-            BI => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Burundi
-            BJ => [esams, drmrs, eqiad, eqsin, codfw, ulsfo], # Benin
-            BW => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Botswana
-            CD => [esams, drmrs, eqiad, eqsin, codfw, ulsfo], # Congo, Democratic Republic of the
-            CF => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Central African Republic (Inferred from Cameroon as probe #32597 was closest to border)
-            CG => [esams, drmrs, eqiad, eqsin, codfw, ulsfo], # Congo (Inferred from DR Congo as probe was close to border)
-            CI => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Côte d'Ivoire (Inferred from Ghana for closest probe)
-            CM => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Cameroon
-            CV => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Capo Verde (Inferred from Senegal)
-            DJ => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Djibouti
-            DZ => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Algeria
-            EG => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Egypt
-            EH => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Western Sahara (Inferred from Morocco)
-            ER => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Eritrea (Inferred from Sudan)
-            ET => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Ethiopia (Inferred from Sudan as probe returned 0s)
-            GA => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Gabon
-            GH => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Ghana
-            GM => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Gambia (Inferred from Senegal)
-            GN => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Guinea (Inferred from Ghana)
-            GQ => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Equatorial Guinea (Inferred from Gabon)
-            GW => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Guinea-Bissau (Inferred from Senegal)
-            KE => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Kenya
-            LR => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Liberia (Inferred from Ghana)
-            LS => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Lesotho (Inferred from South Africa)
-            LY => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Libya (Inferred from Egypt)
-            MA => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Morocco
-            MG => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Madagascar
-            ML => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Mali (Inferred from Burkina Faso)
-            MR => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Mauritania (Inferred from Senegal)
-            MU => [eqsin, esams, drmrs, eqiad, codfw, ulsfo], # Mauritius
-            MW => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Malawi
-            MZ => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Mozambique
-            NA => [esams, drmrs, eqiad, eqsin, codfw, ulsfo], # Namibia
-            NE => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Niger (Inferred from Burkina Faso)
-            NG => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Nigeria (Inferred from Cameroon)
-            RE => [eqsin, drmrs, esams, eqiad, codfw, ulsfo], # Réunion
-            RW => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Rwanda
-            SC => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Seychelles
-            SD => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Sudan
-            SL => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Sierra Leone (Inferred from Ghana)
-            SN => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Senegal
-            SO => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Somalia (Inferred from Kenya for closer/better probes)
-            SS => [esams, drmrs, eqiad, eqsin, codfw, ulsfo], # South Sudan
-            SZ => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Eswatini (Inferred from South Africa)
-            TD => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Chad (Inferred from Cameroon for closer probe)
-            TG => [esams, drmrs, eqiad, eqsin, codfw, ulsfo], # Togo
-            TN => [esams, drmrs, eqiad, eqsin, codfw, ulsfo], # Tunisia
-            TZ => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Tanzania
-            UG => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Uganda
-            ZA => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # South Africa
-            ZM => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Zambia
-            ZW => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Zimbabwe
-        },
+        AF => [esams, drmrs, eqiad, codfw, ulsfo, eqsin],
         AS => {
             default => [eqsin, ulsfo, codfw, eqiad, esams, drmrs],
             AE => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # United Arab Emirates
