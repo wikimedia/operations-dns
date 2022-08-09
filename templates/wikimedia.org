@@ -663,12 +663,8 @@ transparency     1D IN CNAME dyna.wikimedia.org.
 transparency-archive 1D IN CNAME dyna.wikimedia.org.
 search           1D IN CNAME dyna.wikimedia.org.
 shop             1D IN CNAME dyna.wikimedia.org.
-<<<<<<< HEAD
-smokeping        5M IN CNAME netmon1002
-soundlogo        1H IN CNAME wikimediasoundlogo.go-vip.net.
-=======
 smokeping        5M IN CNAME netmon1003
->>>>>>> 9dae41d1 (netmon: failover to netmon1003)
+soundlogo        1H IN CNAME wikimediasoundlogo.go-vip.net.
 store            1H  IN CNAME    c.ssl.shopify.com.
 static-bugzilla  1D IN CNAME dyna.wikimedia.org.
 static-codereview  1D IN CNAME dyna.wikimedia.org.
