@@ -71,7 +71,9 @@ $ORIGIN 1.2.@Z
 68  1H  IN PTR  apple-search.svc.codfw.wmnet.
 69  1H  IN PTR  k8s-ingress-staging.svc.codfw.wmnet.
 70  1H  IN PTR  k8s-ingress-wikikube.svc.codfw.wmnet.
-; 71 reserved for datahubsearch
+; 71 reserved for datahubsearch.svc.codfw.wmnet.
+72  1H  IN PTR  ml-staging-ctrl.svc.codfw.wmnet.
+; 73 reserved for dse-k8s-ctrl.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -137,6 +139,8 @@ $ORIGIN 2.2.@Z
 69  1H  IN PTR  k8s-ingress-staging.svc.eqiad.wmnet.
 70  1H  IN PTR  k8s-ingress-wikikube.svc.eqiad.wmnet.
 71  1H  IN PTR  datahubsearch.svc.eqiad.wmnet.
+; 72 reserved for ml-staging-ctrl.svc.eqiad.wmnet.
+73  1H  IN PTR  dse-k8s-ctrl.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
