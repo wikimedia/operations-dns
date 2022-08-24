@@ -78,6 +78,10 @@ ns0                 5M  IN A      208.80.154.135
 ns0                 5M  IN AAAA   2620:0:861:2:208:80:154:135
 ns1                 5M  IN A      208.80.154.11
 ns1                 5M  IN AAAA   2620:0:861:1:208:80:154:11
+
+; temporary entry while 1005 is being set up
+ns2                 5M  IN CNAME  cloudservices1005.wikimedia.org.
+
 ns-recursor0        5M  IN A      208.80.154.143
 ns-recursor0        5M  IN AAAA   2620:0:861:2:208:80:154:143
 ns-recursor1        5M  IN A      208.80.154.24
