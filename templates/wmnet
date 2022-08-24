@@ -53,7 +53,7 @@ es3-master      5M  IN CNAME    es1028.eqiad.wmnet.
 es4-master      5M  IN CNAME    es1021.eqiad.wmnet.
 es5-master      5M  IN CNAME    es1024.eqiad.wmnet.
 pc1-master      5M  IN CNAME    pc1011.eqiad.wmnet.
-pc2-master      5M  IN CNAME    pc1012.eqiad.wmnet.
+pc2-master      5M  IN CNAME    pc1014.eqiad.wmnet.
 pc3-master      5M  IN CNAME    pc1013.eqiad.wmnet.
 tendril-backend 5M  IN CNAME    db1115.eqiad.wmnet.
 zarcillo-master 5M  IN CNAME    db1115.eqiad.wmnet.
