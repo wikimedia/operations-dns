@@ -390,7 +390,7 @@ icinga          5M  IN CNAME    alert1001
 ldap-icinga     5M  IN CNAME    alert1001
 icinga-extmon   5M  IN CNAME    alert1001
 
-idp             5M  IN CNAME idp2002.wikimedia.org.
+idp             5M  IN CNAME idp1002.wikimedia.org.
 idp-test        5M  IN CNAME idp-test1002.wikimedia.org.
 
 intake-logging   600 IN DYNA  geoip!text-next
