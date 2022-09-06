@@ -69,3 +69,6 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+
+# Depool ulsfo for routers ugprades - T295690
+geoip/generic-map/ulsfo => DOWN
