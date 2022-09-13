@@ -49,8 +49,8 @@ spop2048._domainkey     1H IN TXT  "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMII
 _dmarc          1H  IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
 
 ; DMARC external domain verification for other WMF domains delivering to @wikimedia.org
-w.wiki._report._dmarc.wikimedia.org             1H  IN TXT "v=DMARC1;"
-wikipedia.org._report._dmarc.wikimedia.org      1H  IN TXT "v=DMARC1;"
+w.wiki._report._dmarc             1H  IN TXT "v=DMARC1;"
+wikipedia.org._report._dmarc      1H  IN TXT "v=DMARC1;"
 
 ; Mail records for pr.wikimedia.org
 pr   1H IN MX 10 mx1001
