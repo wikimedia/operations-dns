@@ -69,3 +69,5 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+# Depool codfw for router ugprades - T295690
+geoip/generic-map/codfw => DOWN
