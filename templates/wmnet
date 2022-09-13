@@ -155,10 +155,10 @@ $INCLUDE netbox/mgmt.eqiad.wmnet
 $ORIGIN frack.eqiad.wmnet.
 civi1001        1H      IN A    10.64.40.109
 civi1002        1H      IN A    10.64.40.115
-frav1002        1H      IN A    10.64.40.74
 fran1001        1H      IN A    10.64.40.110
 frauth1001      1H      IN A    10.64.40.68
 frauth1002      1H      IN A    10.64.40.69
+frav1002        1H      IN A    10.64.40.74
 frban1001       1H      IN A    10.64.40.112
 frbast1001      1H      IN A    10.64.40.35
 frdata1001      1H      IN A    10.64.40.131
@@ -170,6 +170,7 @@ frdb1005        1H      IN A    10.64.40.100
 frdb1006        1H      IN A    10.64.40.101
 frdev1001       1H      IN A    10.64.40.117
 frdev1002       1H      IN A    10.64.40.116
+frdm1001        1H      IN A    10.64.40.119
 frlog1001       1H      IN A    10.64.40.72
 frlog1002       1H      IN A    10.64.40.75
 frmon1001       1H      IN A    10.64.40.73
