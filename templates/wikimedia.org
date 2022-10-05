@@ -365,10 +365,10 @@ frdata          1H  IN CNAME    frdata-eqiad
 frmon           1H  IN CNAME    frmon-eqiad
 frmon.frdev     1H  IN CNAME    frmon-eqiad
 
-gerrit        600 IN A        208.80.154.137
-gerrit        600 IN AAAA     2620:0:861:2:208:80:154:137
-gerrit-replica    600 IN A        208.80.153.104
-gerrit-replica    600 IN AAAA     2620:0:860:4:208:80:153:104
+gerrit        300 IN A        208.80.154.137
+gerrit        300 IN AAAA     2620:0:861:2:208:80:154:137
+gerrit-replica    300 IN A        208.80.153.104
+gerrit-replica    300 IN AAAA     2620:0:860:4:208:80:153:104
 
 git             1D IN CNAME dyna.wikimedia.org.
 gitlab 300 IN A 208.80.154.145
