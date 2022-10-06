@@ -69,5 +69,3 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
-# Depool esams before cr2-esams line card reboot
-geoip/generic-map/esams => DOWN
