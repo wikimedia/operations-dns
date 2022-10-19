@@ -500,11 +500,6 @@ $ORIGIN 0.66.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0.66.10.in-addr.arpa
 
-; eqiad wifi subnet
-$ORIGIN 1.66.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/1.66.10.in-addr.arpa
-
 ; 10.128.0.0/16 - ulsfo
 
 ; 10.128.128.0/17 - ulsfo mgmt
