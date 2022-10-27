@@ -27,7 +27,7 @@ rabbitmq02 5M  IN CNAME  cloudcontrol2004-dev.wikimedia.org.
 rabbitmq03 5M  IN CNAME  cloudcontrol2005-dev.wikimedia.org.
 
 nat.cloudgw         5M  IN A      185.15.57.1
-cloudgw2001-dev     5M  IN A      208.80.153.188
+cloudgw2003-dev     5M  IN A      208.80.153.188
 cloudgw2002-dev     5M  IN A      208.80.153.189
 wan.cloudgw         5M  IN A      208.80.153.190
 virt.cloudgw        5M  IN A      185.15.57.9
