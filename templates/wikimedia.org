@@ -348,6 +348,8 @@ doc             1D IN CNAME dyna.wikimedia.org.
 docker-registry 1D IN CNAME dyna.wikimedia.org.
 docs            1D IN CNAME dyna.wikimedia.org.
 
+dispatch        5M  IN CNAME    alert1001
+
 helm-charts     1D IN CNAME dyna.wikimedia.org.
 
 ldap-corp.eqiad 1H  IN CNAME    ldap-corp1001
