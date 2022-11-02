@@ -524,7 +524,6 @@ shellbox-media  1H  IN A    10.2.2.64
 shellbox-syntaxhighlight    1H  IN A    10.2.2.65
 shellbox-timeline           1H  IN A    10.2.2.66
 wcqs            1H  IN A    10.2.2.67
-apple-search    1H  IN A    10.2.2.68
 k8s-ingress-staging  1H  IN A    10.2.2.69
 k8s-ingress-wikikube 1H  IN A    10.2.2.70
 datahubsearch   1H  IN A    10.2.2.71
@@ -654,7 +653,6 @@ shellbox-media  1H  IN A    10.2.1.64
 shellbox-syntaxhighlight    1H  IN A    10.2.1.65
 shellbox-timeline           1H  IN A    10.2.1.66
 wcqs            1H  IN A    10.2.1.67
-apple-search    1H  IN A    10.2.1.68
 k8s-ingress-staging  1H  IN A    10.2.1.69
 k8s-ingress-wikikube 1H  IN A    10.2.1.70
 ml-staging-ctrl 1H  IN A    10.2.1.72
