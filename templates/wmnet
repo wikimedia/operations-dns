@@ -136,7 +136,6 @@ _etcd-server-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2380 aux-k8s-etcd1003.eqi
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/eqiad.wmnet
 puppet            5M      IN CNAME    puppetmaster1001.eqiad.wmnet.
-phab1001-aphlict  1H      IN CNAME    phab1001
 prometheus-labmon 1H      IN CNAME    cloudmetrics1003
 
 ; Kubernetes pod records for eqiad
