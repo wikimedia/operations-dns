@@ -744,7 +744,6 @@ shellbox-syntaxhighlight  300/10 IN DYNA geoip!disc-shellbox-syntaxhighlight
 shellbox-timeline  300/10 IN DYNA geoip!disc-shellbox-timeline
 tegola-vector-tiles  300/10 IN DYNA geoip!disc-tegola-vector-tiles
 puppetboard           300/10 IN DYNA geoip!disc-puppetboard
-apple-search    300/10 IN DYNA geoip!disc-apple-search
 inference       300/10 IN DYNA geoip!disc-inference
 k8s-ingress-staging  300/10 IN DYNA metafo!disc-k8s-ingress-staging
 k8s-ingress-wikikube-ro 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube-ro
