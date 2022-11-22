@@ -61,6 +61,7 @@ $ORIGIN 1.2.@Z
 56  1H  IN PTR  push-notifications.svc.codfw.wmnet.
 57  1H  IN PTR  similar-users.svc.codfw.wmnet.
 58  1H  IN PTR  inference-staging.svc.codfw.wmnet.
+59  1H  IN PTR  mwdebug.svc.codfw.wmnet.
 61  1H  IN PTR  shellbox-constraints.svc.codfw.wmnet.
 62  1H  IN PTR  toolhub.svc.codfw.wmnet.
 63  1H  IN PTR  inference.svc.codfw.wmnet.
@@ -73,6 +74,8 @@ $ORIGIN 1.2.@Z
 ; 71 reserved for datahubsearch.svc.codfw.wmnet.
 72  1H  IN PTR  ml-staging-ctrl.svc.codfw.wmnet.
 ; 73 reserved for dse-k8s-ctrl.svc.codfw.wmnet.
+75  1H  IN PTR  mw-web.svc.codfw.wmnet.
+76  1H  IN PTR  mw-api-ext.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -127,6 +130,7 @@ $ORIGIN 2.2.@Z
 56  1H  IN PTR  push-notifications.svc.eqiad.wmnet.
 57  1H  IN PTR  similar-users.svc.eqiad.wmnet.
 58  1H  IN PTR  inference-staging.svc.eqiad.wmnet.
+59  1H  IN PTR  mwdebug.svc.eqiad.wmnet.
 61  1H  IN PTR  shellbox-constraints.svc.eqiad.wmnet.
 62  1H  IN PTR  toolhub.svc.eqiad.wmnet.
 63  1H  IN PTR  inference.svc.eqiad.wmnet.
@@ -139,6 +143,8 @@ $ORIGIN 2.2.@Z
 71  1H  IN PTR  datahubsearch.svc.eqiad.wmnet.
 ; 72 reserved for ml-staging-ctrl.svc.eqiad.wmnet.
 73  1H  IN PTR  dse-k8s-ctrl.svc.eqiad.wmnet.
+75  1H  IN PTR  mw-web.svc.eqiad.wmnet.
+76  1H  IN PTR  mw-api-ext.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 

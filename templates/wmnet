@@ -551,6 +551,8 @@ datahubsearch   1H  IN A    10.2.2.71
 ; 72 reserved for ml-staging-ctrl
 dse-k8s-ctrl    1H  IN A    10.2.2.73
 aux-k8s-ctrl    1H  IN A    10.2.2.74
+mw-web          1H  IN A    10.2.2.75
+mw-api-ext      1H  IN A    10.2.2.76
 
 ganeti01    1H  IN A        10.64.32.173
 nfs-tools-project    1H  IN A        10.64.37.18
@@ -677,6 +679,9 @@ wcqs            1H  IN A    10.2.1.67
 k8s-ingress-staging  1H  IN A    10.2.1.69
 k8s-ingress-wikikube 1H  IN A    10.2.1.70
 ml-staging-ctrl 1H  IN A    10.2.1.72
+
+mw-web          1H  IN A    10.2.2.75
+mw-api-ext      1H  IN A    10.2.2.76
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.
