@@ -806,7 +806,7 @@ peopleweb             300 IN CNAME people1003.eqiad.wmnet.
 ;peopleweb             300 IN CNAME people2001.codfw.wmnet.
 performance           300 IN CNAME webperf1003.eqiad.wmnet.
 ;performance           300 IN CNAME webperf2003.codfw.wmnet.
-phabricator           300 IN CNAME phab1001.eqiad.wmnet.
+phabricator           300 IN CNAME phab1004.eqiad.wmnet.
 ;phabricator           300 IN CNAME phab2002.codfw.wmnet.
 pki                   300 IN CNAME pki1001.eqiad.wmnet.
 ;pki                   300 IN CNAME pki2001.codfw.wmnet.
