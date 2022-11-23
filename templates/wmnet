@@ -680,8 +680,8 @@ k8s-ingress-staging  1H  IN A    10.2.1.69
 k8s-ingress-wikikube 1H  IN A    10.2.1.70
 ml-staging-ctrl 1H  IN A    10.2.1.72
 
-mw-web          1H  IN A    10.2.2.75
-mw-api-ext      1H  IN A    10.2.2.76
+mw-web          1H  IN A    10.2.1.75
+mw-api-ext      1H  IN A    10.2.1.76
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.
