@@ -62,6 +62,8 @@ disc-puppetboard         => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-shellbox            => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-shellbox-constraints => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-mwdebug             => { map => mock, dcmap => { mock => 192.0.2.1 } }
+disc-mw-web-ro           => { map => mock, dcmap => { mock => 192.0.2.1 } }
+disc-mw-api-ext-ro       => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-shellbox-media      => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-shellbox-syntaxhighlight => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-shellbox-timeline   => { map => mock, dcmap => { mock => 192.0.2.1 } }
