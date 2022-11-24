@@ -511,10 +511,6 @@ $ORIGIN 128.128.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/128.128.10.in-addr.arpa
 
-$ORIGIN 129.128.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/129.128.10.in-addr.arpa
-
 ; 10.128.0.0/24 - private1-ulsfo
 $ORIGIN 0.128.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
