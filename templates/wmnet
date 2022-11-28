@@ -529,6 +529,7 @@ eventgate-logging-external 1H  IN A    10.2.2.50
 eventgate-analytics-external 1H  IN A    10.2.2.52
 thanos-query    1H  IN A    10.2.2.53
 thanos-swift    1H  IN A    10.2.2.54
+thanos-web      1H  IN A    10.2.2.77
 api-gateway     1H  IN A    10.2.2.55
 push-notifications  1H  IN A    10.2.2.56
 linkrecommendation  1H  IN A    10.2.2.23
@@ -660,6 +661,7 @@ eventgate-logging-external 1H  IN A    10.2.1.50
 eventgate-analytics-external 1H  IN A    10.2.1.52
 thanos-query    1H  IN A    10.2.1.53
 thanos-swift    1H  IN A    10.2.1.54
+thanos-web      1H  IN A    10.2.1.77
 api-gateway     1H  IN A    10.2.1.55
 push-notifications  1H  IN A    10.2.1.56
 linkrecommendation  1H  IN A    10.2.1.23
@@ -754,6 +756,7 @@ eventgate-logging-external 300/10 IN DYNA geoip!disc-eventgate-logging-external
 eventgate-analytics-external 300/10 IN DYNA geoip!disc-eventgate-analytics-external
 thanos-query   300/10 IN DYNA geoip!disc-thanos-query
 thanos-swift   300/10 IN DYNA geoip!disc-thanos-swift
+thanos-web     300/10 IN DYNA geoip!disc-thanos-web
 helm-charts    300/10 IN DYNA geoip!disc-helm-charts
 api-gateway    300/10 IN DYNA geoip!disc-api-gateway
 similar-users  300/10 IN DYNA geoip!disc-similar-users

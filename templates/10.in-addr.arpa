@@ -76,6 +76,7 @@ $ORIGIN 1.2.@Z
 ; 73 reserved for dse-k8s-ctrl.svc.codfw.wmnet.
 75  1H  IN PTR  mw-web.svc.codfw.wmnet.
 76  1H  IN PTR  mw-api-ext.svc.codfw.wmnet.
+77  1H  IN PTR  thanos-web.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -145,6 +146,7 @@ $ORIGIN 2.2.@Z
 73  1H  IN PTR  dse-k8s-ctrl.svc.eqiad.wmnet.
 75  1H  IN PTR  mw-web.svc.eqiad.wmnet.
 76  1H  IN PTR  mw-api-ext.svc.eqiad.wmnet.
+77  1H  IN PTR  thanos-web.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
