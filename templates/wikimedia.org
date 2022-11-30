@@ -165,7 +165,7 @@ ntp.codfw           1H  IN CNAME dns2001
 ntp.esams           1H  IN CNAME dns3001
 
 ;;; eqsin
-ntp.eqsin           1H  IN CNAME dns5001
+ntp.eqsin           1H  IN CNAME dns5002
 
 ;;; drmrs
 ntp.drmrs           1H  IN CNAME dns6001
