@@ -756,6 +756,7 @@ eventgate-logging-external 300/10 IN DYNA geoip!disc-eventgate-logging-external
 eventgate-analytics-external 300/10 IN DYNA geoip!disc-eventgate-analytics-external
 thanos-query   300/10 IN DYNA geoip!disc-thanos-query
 thanos-swift   300/10 IN DYNA geoip!disc-thanos-swift
+thanos-web     300/10 IN DYNA geoip!disc-thanos-web
 helm-charts    300/10 IN DYNA geoip!disc-helm-charts
 api-gateway    300/10 IN DYNA geoip!disc-api-gateway
 similar-users  300/10 IN DYNA geoip!disc-similar-users
