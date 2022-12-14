@@ -554,6 +554,7 @@ dse-k8s-ctrl    1H  IN A    10.2.2.73
 aux-k8s-ctrl    1H  IN A    10.2.2.74
 mw-web          1H  IN A    10.2.2.75
 mw-api-ext      1H  IN A    10.2.2.76
+aux-k8s-ingress 1H  IN A    10.2.2.78
 
 ganeti01    1H  IN A        10.64.32.173
 nfs-tools-project    1H  IN A        10.64.37.18
