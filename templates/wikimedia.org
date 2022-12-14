@@ -32,6 +32,10 @@ nsa         1H  IN A    198.35.27.27 ; anycast authdns
 @               5M  IN CAA 0 issue "digicert.com"
 @               5M  IN CAA 0 issue "letsencrypt.org"
 @               5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
+; CAA records for *.email.wikimedia.org - all types for LE and Amazon
+email           5M  IN CAA 0 issue "amazon.com"
+email           5M  IN CAA 0 issue "letsencrypt.org"
+email           5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 ; DKIM policy records & ADSP (also see DMARC below); policy is "some mails /may/ be signed"
 _domainkey              1H  IN TXT  "o=~; r=postmaster@wikimedia.org;"
@@ -81,6 +85,23 @@ corp        1D  IN NS   ns1.corp
 corp        1D  IN NS   ns2.corp
 ns1.corp    1H  IN A    198.73.209.15 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
 ns2.corp    1H  IN A    198.73.209.16 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
+
+; DNS Records related to links.email.wikimedia.org - T188561
+email           1H  IN MX   10 reply.email.wikimedia.org.
+email           1H  IN MX   20 mail3880.wikimedia1.mkt4477.com.
+email           1H  IN TXT  "v=spf1 ip4:74.121.51.111 -all"
+www.email       1H  IN CNAME email.wikimedia.org.
+open.email      1H  IN CNAME open.mkt41.net.
+links.email     1H  IN CNAME recp.mkt41.net.
+bounce.email    1H  IN A    52.3.180.22
+bounce.email    1H  IN MX   5 bounce.email.wikimedia.org.
+bounce.email    1H  IN TXT  "v=spf1 a ip4:74.121.51.111 -all"
+reply.email     1H  IN A    52.3.180.22
+reply.email     1H  IN MX   5 reply.email.wikimedia.org.
+reply.email     1H  IN TXT  "v=spf1 a ip4:74.121.51.111 -all"
+
+spop1024._domainkey.email   1H IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDkkVXsWmUfiM+mhp33gqUfjpRoe92/jR/DxHOH/5UEXu1/zfy1Niu23GOsOMiAclXdyG8CDR7cuikdYHZiAYry7crqkKkTWCPrt0YvTTVgS4aIPsfcR59FsTzy3tEpmETPOs31XgRRfXKzI591XsWCxLo6cSTjeHxo0tQGJWejMQIDAQAB"
+
 
 ; "dyna.wikimedia.org." is the focal point of CNAMEs across all our zones for
 ; most cases that ultimately map to text-addrs.  By using longer-TTL CNAMEs
