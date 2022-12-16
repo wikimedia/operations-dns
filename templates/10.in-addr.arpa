@@ -537,10 +537,6 @@ $ORIGIN 128.132.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/128.132.10.in-addr.arpa
 
-$ORIGIN 129.132.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/129.132.10.in-addr.arpa
-
 ; DRMRS (10.136.0.0/16)
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 ; https://netbox.wikimedia.org/ipam/prefixes/405/prefixes/
