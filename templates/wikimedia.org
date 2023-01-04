@@ -244,6 +244,7 @@ advisory.m          1D IN CNAME dyna.wikimedia.org.
 am.m                1D IN CNAME dyna.wikimedia.org.
 api.m               1D IN CNAME dyna.wikimedia.org.
 ar.m                1D IN CNAME dyna.wikimedia.org.
+az.m                1D IN CNAME dyna.wikimedia.org.
 bd.m                1D IN CNAME dyna.wikimedia.org.
 be.m                1D IN CNAME dyna.wikimedia.org.
 br.m                1D IN CNAME dyna.wikimedia.org.
@@ -521,6 +522,7 @@ am               1D IN CNAME dyna.wikimedia.org.
 api              1D IN CNAME dyna.wikimedia.org.
 auditcom         1D IN CNAME dyna.wikimedia.org.
 ar               1D IN CNAME dyna.wikimedia.org.
+az               1D IN CNAME dyna.wikimedia.org.
 bd               1D IN CNAME dyna.wikimedia.org.
 be               1D IN CNAME dyna.wikimedia.org.
 board            1D IN CNAME dyna.wikimedia.org.
