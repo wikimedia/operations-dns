@@ -69,3 +69,5 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+# Depool esams for network maintenance - T316532
+geoip/generic-map/esams => DOWN
