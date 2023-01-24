@@ -631,7 +631,7 @@ $ORIGIN 53.192.@Z
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
 {% for z in range(64,72) %}
 $ORIGIN {{ z }}.192.@Z
-{% for i in range(256) %}
+{% for i in range(256) -%}
 {{ i }} 1H IN PTR       kubernetes-pod-10-192-{{ z }}-{{ i }}.codfw.wmnet.
 {% endfor %}
 {% endfor %}
@@ -640,6 +640,16 @@ $ORIGIN {{ z }}.192.@Z
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
 $ORIGIN 72.192.@Z
 
+; 10.192.75.0/24 - kubernetes staging codfw pod IPs reservation
+; Need to revisit whether we want reverse DNS for this and how we would populate it
+$ORIGIN 75.192.@Z
+{% for i in range(256) -%}
+{{ i }} 1H IN PTR       kubernetes-pod-10-192-75-{{ i }}.codfw.wmnet.
+{% endfor %}
+
+; 10.192.76.0/24 - kubernetes staging codfw service IPs reservation
+; Need to revisit whether we want reverse DNS for this and how we would populate it
+$ORIGIN 76.192.@Z
 
 ; 10.193.0.0/16 - mgmt-codfw
 
