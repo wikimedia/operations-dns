@@ -418,7 +418,7 @@ icinga-extmon   5M  IN CNAME    alert1001
 
 idm-test        5M  IN CNAME idm-test1001.wikimedia.org.
 
-idp             5M  IN CNAME idp1002.wikimedia.org.
+idp             5M  IN CNAME idp2002.wikimedia.org.
 idp-test        5M  IN CNAME idp-test1002.wikimedia.org.
 
 intake-logging   600 IN DYNA  geoip!text-next
