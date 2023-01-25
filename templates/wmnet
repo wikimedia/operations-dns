@@ -554,7 +554,7 @@ dse-k8s-ctrl    1H  IN A    10.2.2.73
 aux-k8s-ctrl    1H  IN A    10.2.2.74
 mw-web          1H  IN A    10.2.2.75
 mw-api-ext      1H  IN A    10.2.2.76
-aux-k8s-ingress 1H  IN A    10.2.2.78
+k8s-ingress-aux 1H  IN A    10.2.2.78
 
 ganeti01    1H  IN A        10.64.32.173
 nfs-tools-project    1H  IN A        10.64.37.18
@@ -685,6 +685,7 @@ ml-staging-ctrl 1H  IN A    10.2.1.72
 
 mw-web          1H  IN A    10.2.1.75
 mw-api-ext      1H  IN A    10.2.1.76
+; 78 reserved for k8s-ingress-aux
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.

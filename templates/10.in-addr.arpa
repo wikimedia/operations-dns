@@ -77,6 +77,7 @@ $ORIGIN 1.2.@Z
 75  1H  IN PTR  mw-web.svc.codfw.wmnet.
 76  1H  IN PTR  mw-api-ext.svc.codfw.wmnet.
 77  1H  IN PTR  thanos-web.svc.codfw.wmnet.
+;78  reserved for k8s-ingress-aux.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -147,7 +148,7 @@ $ORIGIN 2.2.@Z
 75  1H  IN PTR  mw-web.svc.eqiad.wmnet.
 76  1H  IN PTR  mw-api-ext.svc.eqiad.wmnet.
 77  1H  IN PTR  thanos-web.svc.eqiad.wmnet.
-78  1H  IN PTR  aux-k8s-ingress.svc.eqiad.wmnet.
+78  1H  IN PTR  k8s-ingress-aux.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
