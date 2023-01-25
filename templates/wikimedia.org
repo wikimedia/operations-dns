@@ -447,7 +447,7 @@ netbox-exports  1D  IN CNAME    dyna.wikimedia.org.
 
 orchestrator    5M  IN CNAME    dborch1001
 
-payments        5M  IN CNAME    payments-eqiad
+payments        5M  IN CNAME    payments-codfw
 payments-eqiad  1H  IN A        208.80.155.5 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
 payments-codfw  1H  IN A        208.80.152.228
 payments-staging 1H  IN A        208.80.155.10
