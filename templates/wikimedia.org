@@ -80,6 +80,11 @@ gsuite-test 600 IN TXT  "google-site-verification=TI8r5YSBh1J5ztVl_neyqh5Sqp-3Xe
 ; Matrix/Element domain verification for foundation.wikimedia.org T261531
 _matrix._tcp.foundation           1H IN SRV         10 5 443 wikimediafoundation.ems.host.
 
+; send v3 clients in thw wikimedia.org domain to eqiad
+_etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+
 ; Corporate office name server delegation
 corp        1D  IN NS   ns1.corp
 corp        1D  IN NS   ns2.corp
