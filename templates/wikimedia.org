@@ -380,8 +380,6 @@ dispatch        5M  IN CNAME    alert1001
 
 helm-charts     1D IN CNAME dyna.wikimedia.org.
 
-ldap-corp.eqiad 1H  IN CNAME    ldap-corp1001
-ldap-corp.codfw 1H  IN CNAME    ldap-corp2001
 ldap-labs.eqiad 1H  IN CNAME    seaborgium
 ldap-labs.codfw 1H  IN CNAME    serpens
 ldap-rw.eqiad   1H  IN CNAME    seaborgium
