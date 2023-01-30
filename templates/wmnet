@@ -571,7 +571,8 @@ developer-portal 1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 ; K8S EQIAD STAGING SERVICES
 
 kubestagemaster 1H  IN CNAME    kubestagemaster1001.eqiad.wmnet.
-staging         1H  IN CNAME    kubestage1003.eqiad.wmnet.
+;staging         1H  IN CNAME    kubestage1003.eqiad.wmnet.
+staging         5M  IN CNAME    kubestage2001.codfw.wmnet. ; Temporary change during staging-eqiad upgrade (T327664)
 
 $ORIGIN staging.svc.eqiad.wmnet.
 
