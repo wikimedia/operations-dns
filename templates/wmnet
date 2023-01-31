@@ -214,7 +214,7 @@ $ORIGIN codfw.wmnet.
 ; Service aliases
 config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
-webproxy        5M  IN CNAME    install2003.wikimedia.org.
+webproxy        5M  IN CNAME    install2004.wikimedia.org.
 deployment      5M  IN CNAME    deploy1002.eqiad.wmnet.
 m1-master       5M  IN CNAME    dbproxy2001.codfw.wmnet.
 m1-slave        5M  IN CNAME    db2160.codfw.wmnet.
