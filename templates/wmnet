@@ -19,7 +19,7 @@ $ORIGIN eqiad.wmnet.
 ; Service aliases
 ; Used by syslog over UDP (eg network devices, PDUs)
 syslog          1H  IN CNAME    syslog.anycast.wmnet.
-webproxy        5M  IN CNAME    install1003.wikimedia.org.
+webproxy        5M  IN CNAME    install1004.wikimedia.org.
 graphite        5M  IN CNAME    graphite1005.eqiad.wmnet.
 graphite-in     5M  IN CNAME    graphite1005.eqiad.wmnet.
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
