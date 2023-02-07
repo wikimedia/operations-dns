@@ -335,8 +335,8 @@ $INCLUDE netbox/esams.wmnet
 ;
 ; SERVICES @ esams
 ;
-config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
-puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
+config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install3002.wikimedia.org.
 
 ; etcd client discovery (RO)
@@ -417,8 +417,8 @@ $INCLUDE netbox/eqsin.wmnet
 ;
 ; SERVICES @ eqsin
 ;
-config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
+puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install5002.wikimedia.org.
 
 ; etcd client discovery (RO)
