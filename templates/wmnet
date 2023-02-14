@@ -265,9 +265,9 @@ _etcd-server-ssl._tcp.ml_etcd 5M  IN SRV      0 1 2380 ml-etcd2002.codfw.wmnet.
 _etcd-server-ssl._tcp.ml_etcd 5M  IN SRV      0 1 2380 ml-etcd2003.codfw.wmnet.
 
 ; CODFW ML-Team staging etcd cluster
-_etcd-server-ssl._tcp.ml_staging_etcd 5M  IN SRV      0 1 2380 ml-staging-etcd2001.codfw.wmnet.
-_etcd-server-ssl._tcp.ml_staging_etcd 5M  IN SRV      0 1 2380 ml-staging-etcd2002.codfw.wmnet.
-_etcd-server-ssl._tcp.ml_staging_etcd 5M  IN SRV      0 1 2380 ml-staging-etcd2003.codfw.wmnet.
+_etcd-server-ssl._tcp.ml-staging-etcd 5M  IN SRV      0 1 2380 ml-staging-etcd2001.codfw.wmnet.
+_etcd-server-ssl._tcp.ml-staging-etcd 5M  IN SRV      0 1 2380 ml-staging-etcd2002.codfw.wmnet.
+_etcd-server-ssl._tcp.ml-staging-etcd 5M  IN SRV      0 1 2380 ml-staging-etcd2003.codfw.wmnet.
 
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/codfw.wmnet
