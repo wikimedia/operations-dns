@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# SPDX-License-Identifier: Apache-2.0
 #
 # This script handles pre-validation of deployability as well as the actual
 # deployment itself.  This script must run from the root directory of the repo,

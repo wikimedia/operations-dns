@@ -1,4 +1,5 @@
 #!/usr/bin/perl -w
+# SPDX-License-Identifier: Apache-2.0
 
 # The 261-byte binary database in this directory is copied
 # directly from the upstream gdnsd project repo, where it has a

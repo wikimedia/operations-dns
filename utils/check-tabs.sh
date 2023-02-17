@@ -1,4 +1,5 @@
 #!/bin/sh
+# SPDX-License-Identifier: Apache-2.0
 
 if ! grep -q operations/dns .gitreview 2>/dev/null; then
     echo "ERROR: must be executed from the DNS repo root"

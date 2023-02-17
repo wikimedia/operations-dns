@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX-License-Identifier: Apache-2.0
 """Zone Validator: a WMF-specific DNS zone files consistency check validator
 
 The script parses the following zones in the templates/ directory:
