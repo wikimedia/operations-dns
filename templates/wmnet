@@ -783,7 +783,7 @@ inference       300/10 IN DYNA geoip!disc-inference
 k8s-ingress-staging  300/10 IN DYNA metafo!disc-k8s-ingress-staging
 k8s-ingress-wikikube-ro 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube-ro
 k8s-ingress-wikikube-rw 300/10 IN DYNA metafo!disc-k8s-ingress-wikikube-rw
-netbox                  300/10 IN DYNA geoip!disc-netbox
+netbox                  300/10 IN DYNA metafo!disc-netbox
 ; We don't need a separate discovery address for netbox-extra
 ; however a new cname is useful to configure an internal vhost
 netbox-exports          300 IN CNAME netbox
