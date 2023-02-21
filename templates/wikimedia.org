@@ -282,6 +282,7 @@ nostalgia.m         1D IN CNAME dyna.wikimedia.org.
 nyc.m               1D IN CNAME dyna.wikimedia.org.
 nz.m                1D IN CNAME dyna.wikimedia.org.
 office.m            1D IN CNAME dyna.wikimedia.org.
+ombuds.m            1D IN CNAME dyna.wikimedia.org.
 otrs-wiki.m         1D IN CNAME dyna.wikimedia.org.
 outreach.m          1D IN CNAME dyna.wikimedia.org.
 quality.m           1D IN CNAME dyna.wikimedia.org.
