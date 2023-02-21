@@ -12,7 +12,7 @@
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0-27.153.80.208.in-addr.arpa
 ;; manually maintained records
-8 1H  IN PTR  gitlab-replica.wikimedia.org.
+8 1H  IN PTR  gitlab-replica-old.wikimedia.org.
 
 ; 208.80.153.32/27 (public1-b-codfw)
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
