@@ -817,8 +817,8 @@ phabricator           300 IN CNAME phab1004.eqiad.wmnet.
 ;phabricator           300 IN CNAME phab2002.codfw.wmnet.
 pki                   300 IN CNAME pki1001.eqiad.wmnet.
 ;pki                   300 IN CNAME pki2001.codfw.wmnet.
-planet                300 IN CNAME planet1002.eqiad.wmnet.
-;planet                300 IN CNAME planet2002.codfw.wmnet.
+;planet                300 IN CNAME planet1002.eqiad.wmnet.
+planet                300 IN CNAME planet2002.codfw.wmnet.
 releases              300 IN CNAME releases1002.eqiad.wmnet.
 ;releases              300 IN CNAME releases2002.codfw.wmnet.
 webserver-misc-apps   300 IN CNAME miscweb1002.eqiad.wmnet.
