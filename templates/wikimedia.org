@@ -28,7 +28,7 @@ nsa         1H  IN A    198.35.27.27 ; anycast authdns
 @               600 IN TXT  "FC0MOB7SKLHj0AsevTnJvE0W0YYQkPVYOX3UMrINOSk="
 @               600 IN TXT  "MS=ms70322281"
 
-; CAA records for wikimedia.org - all types for digicert and LE
+; CAA records for wikimedia.org - all types for Digicert and LE
 @               5M  IN CAA 0 issue "digicert.com"
 @               5M  IN CAA 0 issue "letsencrypt.org"
 @               5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
