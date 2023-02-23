@@ -69,3 +69,6 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+
+# T327920 2023-02-28 Datacenter Switchover
+geoip/generic-map/eqiad => DOWN
