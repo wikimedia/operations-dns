@@ -196,7 +196,7 @@ ntp.esams           1H  IN CNAME dns3001
 ntp.eqsin           1H  IN CNAME dns5003
 
 ;;; drmrs
-ntp.drmrs           1H  IN CNAME dns6002
+ntp.drmrs           1H  IN CNAME dns6001
 
 ; Round Robin LVS Service records
 
