@@ -13,7 +13,7 @@
 $INCLUDE netbox/0-26.154.80.208.in-addr.arpa
 
 ; Manual records
-15  1H  IN PTR  gitlab-replica.wikimedia.org. ; service IP for gitlab
+15  300 IN PTR  gitlab-replica.wikimedia.org. ; service IP for gitlab
 21  1H  IN PTR  lists.wikimedia.org. ; Service IP for lists
 24  1H  IN PTR  ns-recursor1.openstack.eqiad1.wikimediacloud.org.
 
@@ -28,7 +28,7 @@ $INCLUDE netbox/128-26.154.80.208.in-addr.arpa
 ; Manual records
 137 1H  IN PTR  gerrit.wikimedia.org.
 143 1H  IN PTR  ns-recursor0.openstack.eqiad1.wikimediacloud.org.
-145 1H  IN PTR  gitlab.wikimedia.org.  ; service IP for gitlab
+145 300 IN PTR  gitlab.wikimedia.org.  ; service IP for gitlab
 
 ; Neighbor blocks (208.80.154.192/27)
 
