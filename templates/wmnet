@@ -731,6 +731,7 @@ restbase       300/10 IN DYNA geoip!disc-restbase
 restbase-async 300/10 IN DYNA geoip!disc-restbase-async
 search         300/10 IN DYNA geoip!disc-search
 ; Other services
+apt            300/10 IN DYNA metafo!disc-apt
 apertium       300/10 IN DYNA geoip!disc-apertium
 citoid         300/10 IN DYNA geoip!disc-citoid
 cxserver       300/10 IN DYNA geoip!disc-cxserver
