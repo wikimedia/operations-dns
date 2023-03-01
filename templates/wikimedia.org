@@ -181,7 +181,7 @@ pay-lvs1002     1H  IN A    208.80.155.3
 ; Service aliases
 
 ;;; eqiad
-ntp.eqiad           1H  IN CNAME dns1001
+ntp.eqiad           1H  IN CNAME dns1002
 
 ;;; ulsfo
 ntp.ulsfo           1H  IN CNAME dns4003
