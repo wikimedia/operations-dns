@@ -164,11 +164,11 @@ $ORIGIN frack.eqiad.wmnet.
 civi1001        1H      IN A    10.64.40.109
 civi1002        1H      IN A    10.64.40.115
 fran1001        1H      IN A    10.64.40.110
-frauth1001      1H      IN A    10.64.40.68
 frauth1002      1H      IN A    10.64.40.69
 frav1002        1H      IN A    10.64.40.74
 frban1001       1H      IN A    10.64.40.112
 frbast1001      1H      IN A    10.64.40.35
+frbast1002      1H      IN A    10.64.40.36
 frdata1001      1H      IN A    10.64.40.131
 frdata1002      1H      IN A    10.64.40.163
 frdb1002        1H      IN A    10.64.40.99
@@ -182,10 +182,11 @@ frdm1001        1H      IN A    10.64.40.119
 frlog1001       1H      IN A    10.64.40.72
 frlog1002       1H      IN A    10.64.40.75
 frmon1001       1H      IN A    10.64.40.73
+frmon1002       1H      IN A    10.64.40.68
 frmx1001        1H      IN A    10.64.40.162
 frnetmon1001    1H      IN A    10.64.40.67
 frpig1001       1H      IN A    10.64.40.164
-frpm1001        1H      IN A    10.64.40.70
+frpig1002       1H      IN A    10.64.40.165
 frpm1002        1H      IN A    10.64.40.71
 frqueue1003     1H      IN A    10.64.40.113
 frqueue1004     1H      IN A    10.64.40.114

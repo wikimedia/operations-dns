@@ -375,13 +375,13 @@ $ORIGIN 40.64.@Z
 33  1H IN PTR   reth0-1133.pfw3-eqiad.frack.eqiad.wmnet.
 
 35  1H IN PTR   frbast1001.frack.eqiad.wmnet.
+36  1H IN PTR   frbast1002.frack.eqiad.wmnet.
 
 ; 10.64.40.64/27 - frack-administration1-c-eqiad
 65  1H IN PTR   reth0-1134.pfw3-eqiad.frack.eqiad.wmnet.
 67  1H IN PTR   frnetmon1001.frack.eqiad.wmnet.
-68  1H IN PTR   frauth1001.frack.eqiad.wmnet.
+68  1H IN PTR   frmon1002.frack.eqiad.wmnet.
 69  1H IN PTR   frauth1002.frack.eqiad.wmnet.
-70  1H IN PTR   frpm1001.frack.eqiad.wmnet.
 71  1H IN PTR   frpm1002.frack.eqiad.wmnet.
 72  1H IN PTR   frlog1001.frack.eqiad.wmnet.
 73  1H IN PTR   frmon1001.frack.eqiad.wmnet.
@@ -416,6 +416,7 @@ $ORIGIN 40.64.@Z
 162 1H IN PTR   frmx1001.frack.eqiad.wmnet.
 163 1H IN PTR   frdata1002.frack.eqiad.wmnet.
 164 1H IN PTR   frpig1001.frack.eqiad.wmnet.
+165 1H IN PTR   frpig1002.frack.eqiad.wmnet.
 
 ; 10.64.40.192/26 - frack-management1-c-eqiad
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
