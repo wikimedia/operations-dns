@@ -32,7 +32,9 @@ $INCLUDE netbox/96-27.153.80.208.in-addr.arpa
 
 ; 208.80.153.160/28 (160-175) unused
 
-; 208.80.153.176/29 (176-183) unused
+; 208.80.153.176/29 (176-183) loopbacks and link addressing codfw
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/176-29.153.80.208.in-addr.arpa
 
 ; 208.80.153.184/29 (184-191) cloud-instance-transport1-b-codfw
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
