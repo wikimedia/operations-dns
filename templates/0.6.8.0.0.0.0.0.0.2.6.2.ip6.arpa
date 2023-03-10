@@ -72,15 +72,20 @@ $ORIGIN 2.2.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/2.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; cr1-codfw <-> cloudsw1-b1-codfw
+; cr1-codfw <-> cloudsw1-b1-codfw 2620:0:860:130::/64
 $ORIGIN 0.3.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; cr2-codfw <-> cloudsw1-b1-codfw
+; cr2-codfw <-> cloudsw1-b1-codfw 2620:0:860:131::/64
 $ORIGIN 1.3.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/1.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Codfw private network loopbacks 2620:0:860:13f::/64
+$ORIGIN f.3.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/f.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cloud-hosts1-c-codfw (2620:0:860:119::/64) - RESERVED
 $ORIGIN 9.1.1.0.@Z

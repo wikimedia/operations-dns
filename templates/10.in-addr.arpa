@@ -662,6 +662,11 @@ $ORIGIN 254.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/254.192.10.in-addr.arpa
 
+; 10.192.255.0/24 - Private Network Loopback Addressing Codfw
+$ORIGIN 255.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/255.192.10.in-addr.arpa
+
 ; 10.193.0.0/16 - mgmt-codfw
 
 $ORIGIN 0.193.@Z
