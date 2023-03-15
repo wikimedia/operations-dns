@@ -792,6 +792,7 @@ netbox                  300/10 IN DYNA metafo!disc-netbox
 ; We don't need a separate discovery address for netbox-extra
 ; however a new cname is useful to configure an internal vhost
 netbox-exports          300 IN CNAME netbox
+pki                     300 IN DYNA geoip!disc-pki
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-wikikube.
@@ -820,8 +821,6 @@ performance           300 IN CNAME webperf1003.eqiad.wmnet.
 ;performance           300 IN CNAME webperf2003.codfw.wmnet.
 phabricator           300 IN CNAME phab1004.eqiad.wmnet.
 ;phabricator           300 IN CNAME phab2002.codfw.wmnet.
-;pki                   300 IN CNAME pki1001.eqiad.wmnet.
-pki                   300 IN CNAME pki2002.codfw.wmnet.
 ;planet                300 IN CNAME planet1002.eqiad.wmnet.
 planet                300 IN CNAME planet2002.codfw.wmnet.
 releases              300 IN CNAME releases1002.eqiad.wmnet.
