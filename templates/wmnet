@@ -829,8 +829,6 @@ releases              300 IN CNAME releases1002.eqiad.wmnet.
 ;releases              300 IN CNAME releases2002.codfw.wmnet.
 webserver-misc-apps   300 IN CNAME miscweb1002.eqiad.wmnet.
 ;webserver-misc-apps   300 IN CNAME miscweb2002.codfw.wmnet.
-;webserver-misc-static  300 IN CNAME miscweb1002.eqiad.wmnet.
-webserver-misc-static 300 IN CNAME miscweb2002.codfw.wmnet.
 ;webserver-misc-sites  300 IN CNAME miscweb1003.eqiad.wmnet.
 webserver-misc-sites 300 IN CNAME miscweb2003.codfw.wmnet.
 
