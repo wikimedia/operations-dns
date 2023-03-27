@@ -20,10 +20,10 @@ $ORIGIN eqiad.wmnet.
 ; Used by syslog over UDP (eg network devices, PDUs)
 syslog          1H  IN CNAME    syslog.anycast.wmnet.
 webproxy        5M  IN CNAME    install1004.wikimedia.org.
-graphite        5M  IN CNAME    graphite1005.eqiad.wmnet.
-graphite-in     5M  IN CNAME    graphite1005.eqiad.wmnet.
+graphite        5M  IN CNAME    graphite2004.codfw.wmnet.
+graphite-in     5M  IN CNAME    graphite2004.codfw.wmnet.
+statsd          5M  IN CNAME    graphite2004.codfw.wmnet.  ; don't change this without also editing Puppet! T239862
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-statsd          5M  IN CNAME    graphite1005.eqiad.wmnet.      ; don't change this without also editing Puppet! T239862
 eventlogging    1H  IN CNAME    eventlog1003.eqiad.wmnet.
 udplog          1H  IN CNAME    mwlog1002.eqiad.wmnet.
 deployment      5M  IN CNAME    deploy2002.codfw.wmnet.
