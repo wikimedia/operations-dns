@@ -80,7 +80,6 @@ $ORIGIN 1.2.@Z
 ;78  reserved for k8s-ingress-aux.svc.codfw.wmnet.
 79  1H  IN PTR  logs-api.svc.codfw.wmnet.
 80  1H  IN PTR  device-analytics.svc.codfw.wmnet.
-81  1H  IN PTR  mw-api-int.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -154,7 +153,6 @@ $ORIGIN 2.2.@Z
 78  1H  IN PTR  k8s-ingress-aux.svc.eqiad.wmnet.
 79  1H  IN PTR  logs-api.svc.eqiad.wmnet.
 80  1H  IN PTR  device-analytics.svc.eqiad.wmnet.
-81  1H  IN PTR  mw-api-int.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
