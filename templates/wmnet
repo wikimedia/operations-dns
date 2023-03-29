@@ -780,6 +780,8 @@ mw-web         300/10 IN DYNA metafo!disc-mw-web
 mw-web-ro      300/10 IN DYNA geoip!disc-mw-web-ro
 mw-api-ext     300/10 IN DYNA metafo!disc-mw-api-ext
 mw-api-ext-ro  300/10 IN DYNA geoip!disc-mw-api-ext-ro
+mw-api-int     300/10 IN DYNA metafo!disc-mw-api-int
+mw-api-int-ro  300/10 IN DYNA geoip!disc-mw-api-int-ro
 toolhub        300/10 IN DYNA metafo!disc-toolhub
 shellbox-media 300/10 IN DYNA geoip!disc-shellbox-media
 shellbox-syntaxhighlight  300/10 IN DYNA geoip!disc-shellbox-syntaxhighlight
