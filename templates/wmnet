@@ -538,7 +538,8 @@ push-notifications  1H  IN A    10.2.2.56
 linkrecommendation  1H  IN A    10.2.2.23
 similar-users   1H  IN A    10.2.2.57
 shellbox        1H  IN A    10.2.2.51
-device-analytics    IN A    10.2.2.80
+device-analytics    1H  IN A    10.2.2.80
+rest-gateway    1H  IN A    10.2.2.82
 
 mwdebug         1H  IN A    10.2.2.59
 tegola-vector-tiles         1H  IN A    10.2.2.60
@@ -674,7 +675,8 @@ push-notifications  1H  IN A    10.2.1.56
 linkrecommendation  1H  IN A    10.2.1.23
 similar-users   1H  IN A    10.2.1.57
 shellbox        1H  IN A    10.2.1.51
-device-analytics    IN A    10.2.1.80
+device-analytics    1H  IN A    10.2.1.80
+rest-gateway    1H  IN A    10.2.1.82
 
 mwdebug         1H  IN A    10.2.1.59
 tegola-vector-tiles         1H  IN A    10.2.1.60
