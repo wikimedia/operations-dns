@@ -415,7 +415,6 @@ $ORIGIN 40.64.@Z
 
 ; 10.64.40.128/27 - frack-dmz1-c-eqiad
 129  1H IN PTR   reth0-1136.pfw3-eqiad.frack.eqiad.wmnet.
-131 1H IN PTR   frdata1001.frack.eqiad.wmnet.
 
 ; 10.64.40.160/27 - frack-listenerdmz1-c-eqiad
 161 1H IN PTR   reth0-1137.pfw3-eqiad.frack.eqiad.wmnet.
