@@ -69,3 +69,5 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+# Depool eqiad for network maintenance - T331882
+geoip/generic-map/eqiad => DOWN
