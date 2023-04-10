@@ -565,7 +565,6 @@ mw-api-int      1H  IN A    10.2.2.81
 k8s-ingress-ml-serve 1H  IN A    10.2.2.84
 
 ganeti01    1H  IN A        10.64.32.173
-nfs-tools-project    1H  IN A        10.64.37.18
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.
