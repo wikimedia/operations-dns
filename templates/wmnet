@@ -56,7 +56,7 @@ es5-master      5M  IN CNAME    es2023.codfw.wmnet.
 pc1-master      5M  IN CNAME    pc2011.codfw.wmnet.
 pc2-master      5M  IN CNAME    pc2012.codfw.wmnet.
 pc3-master      5M  IN CNAME    pc2013.codfw.wmnet.
-zarcillo-master 5M  IN CNAME    db1115.eqiad.wmnet.
+zarcillo-master 5M  IN CNAME    db1215.eqiad.wmnet.
 
 analytics-test-hive   5M  IN CNAME    an-test-coord1001.eqiad.wmnet.
 analytics-hive        5M  IN CNAME    an-coord1002.eqiad.wmnet.
