@@ -69,5 +69,3 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
-# eqiad row D switch upgrade
-geoip/generic-map/eqiad => DOWN
