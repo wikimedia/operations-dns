@@ -695,11 +695,12 @@ $ORIGIN 0.195.@Z
 ; 10.195.0.64/28 - frack-administration-codfw
 65 1H IN PTR  reth0-2134.pfw3-codfw.frack.codfw.wmnet.
 66 1H IN PTR  frmon2001.frack.codfw.wmnet.
+67 1H IN PTR  frmon2002.frack.codfw.wmnet.
 
 73 1H IN PTR  frpm2001.frack.codfw.wmnet.
 75 1H IN PTR  frbackup2002.frack.codfw.wmnet.
 76 1H IN PTR  frlog2001.frack.codfw.wmnet.
-77 1H IN PTR  frbackup2001.frack.codfw.wmnet.
+77 1H IN PTR  frauth2002.frack.codfw.wmnet.
 78 1H IN PTR  frauth2001.frack.codfw.wmnet.
 
 ; 10.195.0.80/29 - frack-listenerdmz-codfw
@@ -715,6 +716,7 @@ $INCLUDE netbox/96-27.0.195.10.in-addr.arpa
 ; 10.195.0.128/29 - frack-bastion-codfw
 129 1H IN PTR  reth0-2133.pfw3-codfw.frack.codfw.wmnet.
 130 1H IN PTR  frbast2001.frack.codfw.wmnet.
+131 1H IN PTR  frbast2002.frack.codfw.wmnet.
 
 
 ; 10.195.0.248/29 - reserved for frack infra
