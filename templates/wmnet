@@ -597,7 +597,7 @@ $ORIGIN svc.ulsfo.wmnet.
 ; Used for consistency with eqiad/codfw
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/svc.ulsfo.wmnet
-prometheus  5M  IN CNAME    prometheus4001.ulsfo.wmnet.
+prometheus  5M  IN CNAME    prometheus4002.ulsfo.wmnet.
 
 ; EQSIN SERVICES
 
