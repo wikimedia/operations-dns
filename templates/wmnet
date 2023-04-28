@@ -613,7 +613,7 @@ $ORIGIN svc.drmrs.wmnet.
 ; Used for consistency with eqiad/codfw
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/svc.drmrs.wmnet
-prometheus  1H  IN CNAME    prometheus6001.drmrs.wmnet.
+prometheus  1H  IN CNAME    prometheus6002.drmrs.wmnet.
 
 ; CODFW SERVICES
 
