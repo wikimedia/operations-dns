@@ -605,7 +605,7 @@ $ORIGIN svc.eqsin.wmnet.
 ; Used for consistency with eqiad/codfw
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/svc.eqsin.wmnet
-prometheus  1H  IN CNAME    prometheus5001.eqsin.wmnet.
+prometheus  1H  IN CNAME    prometheus5002.eqsin.wmnet.
 
 ; DRMRS SERVICES
 
