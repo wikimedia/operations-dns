@@ -568,11 +568,11 @@ nfs-tools-project    1H  IN A        10.64.37.18
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.
 ; See T305358 for details
-datahub-frontend 1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
-datahub-gms      1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
-miscweb          1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
-image-suggestion 1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
-developer-portal 1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+datahub-frontend   1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+datahub-gms        1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+miscweb            1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+image-suggestion   1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+machinetranslation 1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 
 ; K8S EQIAD STAGING SERVICES
 
@@ -700,11 +700,12 @@ mw-api-int      1H  IN A    10.2.1.81
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.
 ; See T305358 for details
-datahub-frontend 1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
-datahub-gms      1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
-miscweb          1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
-image-suggestion 1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
-developer-portal 1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+datahub-frontend   1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+datahub-gms        1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+miscweb            1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+image-suggestion   1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+developer-portal   1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+machinetranslation 1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 
 ; K8S CODFW STAGING SERVICES
 
@@ -805,11 +806,12 @@ pki                     300 IN DYNA geoip!disc-pki
 ; active/active services should CNAME to k8s-ingress-wikikube-ro
 ; active/passive services should CNAME to k8s-ingress-wikikube-rw
 ; See T305358 for details
-datahub-frontend 300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
-datahub-gms      300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
-miscweb          300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
-image-suggestion 300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
-developer-portal 300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
+datahub-frontend   300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
+datahub-gms        300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
+miscweb            300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
+image-suggestion   300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
+developer-portal   300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
+machinetranslation 300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 
 ; misc web services with multiple backends but without geoip
 
