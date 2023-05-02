@@ -17,3 +17,15 @@ eqiad1      1D  IN NS   ns1.openstack.eqiad1.wikimediacloud.org.
 ;
 codfw1dev  1D  IN NS   ns0.openstack.codfw1dev.wikimediacloud.org.
 codfw1dev  1D  IN NS   ns1.openstack.codfw1dev.wikimediacloud.org.
+
+;
+; *.{datacenter}.hw.wikimedia.cloud
+; see https://wikitech.wikimedia.org/wiki/Portal:Cloud_VPS/Admin/DNS
+;
+
+$ORIGIN codfw.hw.wikimedia.cloud.
+
+cloudsw             5M  IN A    172.20.5.1
+cloudlb2001-dev     5M  IN A    172.20.5.2
+cloudlb2002-dev     5M  IN A    172.20.5.3
+cloudlb2003-dev     5M  IN A    172.20.5.4
