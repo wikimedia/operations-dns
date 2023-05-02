@@ -69,5 +69,3 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
-# codfw row C switch upgrade: T334049
-geoip/generic-map/codfw => DOWN
