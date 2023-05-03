@@ -82,6 +82,7 @@ $ORIGIN 1.2.@Z
 80  1H  IN PTR  device-analytics.svc.codfw.wmnet.
 81  1H  IN PTR  mw-api-int.svc.codfw.wmnet.
 82  1H  IN PTR  rest-gateway.svc.codfw.wmnet.
+83  1H  IN PTR  k8s-ingress-ml-staging.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
