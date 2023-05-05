@@ -26,7 +26,7 @@ $INCLUDE netbox/64-26.154.80.208.in-addr.arpa
 $INCLUDE netbox/128-26.154.80.208.in-addr.arpa
 
 ; Manual records
-137 1H  IN PTR  gerrit.wikimedia.org.
+137 300  IN PTR  gerrit.wikimedia.org.
 143 1H  IN PTR  ns-recursor0.openstack.eqiad1.wikimediacloud.org.
 145 300  IN PTR gitlab.wikimedia.org.  ; service IP for gitlab
 151 300  IN PTR  gerrit-new.wikimedia.org. ; gerrit on bullseye, temp
