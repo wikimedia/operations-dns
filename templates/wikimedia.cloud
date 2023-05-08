@@ -19,11 +19,11 @@ codfw1dev  1D  IN NS   ns0.openstack.codfw1dev.wikimediacloud.org.
 codfw1dev  1D  IN NS   ns1.openstack.codfw1dev.wikimediacloud.org.
 
 ;
-; *.{datacenter}.hw.wikimedia.cloud
+; *.{vlan-shortname}.{datacenter}.wikimedia.cloud
 ; see https://wikitech.wikimedia.org/wiki/Portal:Cloud_VPS/Admin/DNS
 ;
 
-$ORIGIN codfw.hw.wikimedia.cloud.
+$ORIGIN private.codfw.wikimedia.cloud.
 
 cloudsw             5M  IN A    172.20.5.1
 cloudlb2001-dev     5M  IN A    172.20.5.2
