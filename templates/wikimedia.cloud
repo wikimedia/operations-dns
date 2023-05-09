@@ -25,7 +25,8 @@ codfw1dev  1D  IN NS   ns1.openstack.codfw1dev.wikimediacloud.org.
 
 $ORIGIN private.codfw.wikimedia.cloud.
 
-cloudsw             5M  IN A    172.20.5.1
-cloudlb2001-dev     5M  IN A    172.20.5.2
-cloudlb2002-dev     5M  IN A    172.20.5.3
-cloudlb2003-dev     5M  IN A    172.20.5.4
+cloudsw                 5M  IN A    172.20.5.1
+cloudlb2001-dev         5M  IN A    172.20.5.2
+cloudlb2002-dev         5M  IN A    172.20.5.3
+cloudlb2003-dev         5M  IN A    172.20.5.4
+cloudcontrol2001-dev    5M  IN A    172.20.5.5
