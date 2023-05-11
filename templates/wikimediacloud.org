@@ -22,7 +22,7 @@ $ORIGIN codfw1dev.wikimediacloud.org.
 ; Primary openstack endpoint API used by openstack clients and endpoint catalog
 openstack  5M  IN CNAME  cloudcontrol2005-dev.wikimedia.org.
 ; Rabbitmq nodes
-rabbitmq01 5M  IN CNAME  cloudcontrol2001-dev.wikimedia.org.
+rabbitmq01 5M  IN CNAME  cloudcontrol2001-dev.codfw.wmnet.
 rabbitmq02 5M  IN CNAME  cloudcontrol2004-dev.wikimedia.org.
 rabbitmq03 5M  IN CNAME  cloudcontrol2005-dev.wikimedia.org.
 
