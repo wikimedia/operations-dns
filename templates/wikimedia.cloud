@@ -12,6 +12,11 @@
 eqiad1      1D  IN NS   ns0.openstack.eqiad1.wikimediacloud.org.
 eqiad1      1D  IN NS   ns1.openstack.eqiad1.wikimediacloud.org.
 
+; TODO: is this deletation right? (in the sense of elegant)
+; there is nothing here that is eqiad1 specific
+svc         1D  IN NS   ns0.openstack.eqiad1.wikimediacloud.org.
+svc         1D  IN NS   ns1.openstack.eqiad1.wikimediacloud.org.
+
 ;
 ; delegation to designate in openstack codfw1dev region
 ;
