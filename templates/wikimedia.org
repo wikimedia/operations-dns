@@ -377,8 +377,6 @@ config-master   1D IN CNAME dyna.wikimedia.org.
 
 contint         5M IN CNAME contint2001.wikimedia.org.
 
-dash.frdev      1H  IN CNAME    frdev-eqiad
-
 datahub         1D IN CNAME dyna.wikimedia.org.
 
 design          1D IN CNAME dyna.wikimedia.org.
@@ -395,6 +393,8 @@ docker-registry 1D IN CNAME dyna.wikimedia.org.
 docs            1D IN CNAME dyna.wikimedia.org.
 
 dispatch        5M  IN CNAME    alert1001
+
+donorpreferences    1H  IN CNAME    frdata-eqiad
 
 helm-charts     1D IN CNAME dyna.wikimedia.org.
 
