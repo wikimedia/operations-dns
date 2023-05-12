@@ -35,3 +35,7 @@ cloudlb2001-dev         5M  IN A    172.20.5.2
 cloudlb2002-dev         5M  IN A    172.20.5.3
 cloudlb2003-dev         5M  IN A    172.20.5.4
 cloudcontrol2001-dev    5M  IN A    172.20.5.5
+
+
+cloudservices2004-dev    5M  IN A    172.20.5.8
+cloudservices2005-dev    5M  IN A    172.20.5.9
