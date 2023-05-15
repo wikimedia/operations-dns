@@ -797,6 +797,7 @@ inference       300/10 IN DYNA geoip!disc-inference
 k8s-ingress-staging  300/10 IN DYNA metafo!disc-k8s-ingress-staging
 k8s-ingress-wikikube-ro 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube-ro
 k8s-ingress-wikikube-rw 300/10 IN DYNA metafo!disc-k8s-ingress-wikikube-rw
+k8s-ingress-ml-staging  300/10 IN DYNA metafo!disc-k8s-ingress-ml-staging
 netbox                  300/10 IN DYNA metafo!disc-netbox
 ; We don't need a separate discovery address for netbox-extra
 ; however a new cname is useful to configure an internal vhost
@@ -863,6 +864,7 @@ prometheus-pushgateway 300 IN CNAME prometheus1005.eqiad.wmnet.
 ; This prevents SREs from having to add DNS records for every service in
 ; staging manually (Bug: T300740).
 *.k8s-staging          300 IN CNAME k8s-ingress-staging.discovery.wmnet.
+*.k8s-ml-staging       300 IN CNAME k8s-ingress-ml-staging.discovery.wmnet.
 
 ; Internal Anycast addresses (10.3.0.0/24)
 
