@@ -194,7 +194,7 @@ ntp.eqiad           1H  IN CNAME dns1002
 ntp.ulsfo           1H  IN CNAME dns4003
 
 ;;; codfw
-ntp.codfw           1H  IN CNAME dns2003
+ntp.codfw           1H  IN CNAME dns2004
 
 ;;; esams
 ntp.esams           1H  IN CNAME dns3001
