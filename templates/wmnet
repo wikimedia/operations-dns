@@ -800,7 +800,6 @@ k8s-ingress-staging  300/10 IN DYNA metafo!disc-k8s-ingress-staging
 k8s-ingress-wikikube-ro 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube-ro
 k8s-ingress-wikikube-rw 300/10 IN DYNA metafo!disc-k8s-ingress-wikikube-rw
 k8s-ingress-ml-staging  300/10 IN DYNA metafo!disc-k8s-ingress-ml-staging
-k8s-ingress-ml-serve    300/10 IN DYNA metafo!disc-k8s-ingress-ml-serve
 netbox                  300/10 IN DYNA metafo!disc-netbox
 ; We don't need a separate discovery address for netbox-extra
 ; however a new cname is useful to configure an internal vhost

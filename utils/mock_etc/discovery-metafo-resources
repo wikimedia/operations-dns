@@ -34,5 +34,4 @@ disc-toolhub             => { datacenters => mock, dcmap => { mock => 192.0.2.1 
 disc-k8s-ingress-staging => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-k8s-ingress-wikikube-rw => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-k8s-ingress-ml-staging => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
-disc-k8s-ingress-ml-serve => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-netbox              => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
