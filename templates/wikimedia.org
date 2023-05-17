@@ -169,10 +169,8 @@ frack-default-nat-codfw     1H  IN A    208.80.152.230
 frack-default-nat-eqiad     1H  IN A    208.80.155.6
 frack-payments-nat-codfw    1H  IN A    208.80.152.229
 frack-payments-nat-eqiad    1H  IN A    208.80.155.7
-frbast-eqiad    1H  IN A    208.80.155.8
-frbast-new-eqiad    1H  IN A    208.80.155.18
-frbast-codfw    1H  IN A    208.80.152.231
-frbast-new-codfw    1H  IN A    208.80.152.234
+frbast-eqiad    1H  IN A    208.80.155.18
+frbast-codfw    1H  IN A    208.80.152.234
 frdata-eqiad    1H  IN A    208.80.155.16
 frdata-codfw    1H  IN A    208.80.152.237
 frdev-eqiad     1H  IN A    208.80.155.13
@@ -403,7 +401,7 @@ ldap-labs.codfw 1H  IN CNAME    serpens
 ldap-rw.eqiad   1H  IN CNAME    seaborgium
 ldap-rw.codfw   1H  IN CNAME    serpens
 
-frbast          1H  IN CNAME    frbast-new-eqiad
+frbast          1H  IN CNAME    frbast-eqiad
 frdata          1H  IN CNAME    frdata-eqiad
 frmon           1H  IN CNAME    frmon-eqiad
 frmon.frdev     1H  IN CNAME    frmon-eqiad
