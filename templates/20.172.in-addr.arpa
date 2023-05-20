@@ -1,0 +1,13 @@
+; {{ serial_comment }}
+@ 1H IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. {{ serial_num }} 12H 2H 2W 1H
+
+; Name servers
+
+@   1D  IN NS   ns0.wikimedia.org.
+@   1D  IN NS   ns1.wikimedia.org.
+@   1D  IN NS   ns2.wikimedia.org.
+
+; 172.20.5.0/24 - cloud-private-b1-codfw  (vlan 2151)
+$ORIGIN 5.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/5.20.172.in-addr.arpa

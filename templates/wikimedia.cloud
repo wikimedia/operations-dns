@@ -28,14 +28,5 @@ codfw1dev  1D  IN NS   ns1.openstack.codfw1dev.wikimediacloud.org.
 ; see https://wikitech.wikimedia.org/wiki/Portal:Cloud_VPS/Admin/DNS
 ;
 
-$ORIGIN private.codfw.wikimedia.cloud.
-
-cloudsw                 5M  IN A    172.20.5.1
-cloudlb2001-dev         5M  IN A    172.20.5.2
-cloudlb2002-dev         5M  IN A    172.20.5.3
-cloudlb2003-dev         5M  IN A    172.20.5.4
-cloudcontrol2001-dev    5M  IN A    172.20.5.5
-
-
-cloudservices2004-dev    5M  IN A    172.20.5.8
-cloudservices2005-dev    5M  IN A    172.20.5.9
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/wikimedia.cloud-codfw
