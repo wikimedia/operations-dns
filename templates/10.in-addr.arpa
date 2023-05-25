@@ -84,6 +84,7 @@ $ORIGIN 1.2.@Z
 82  1H  IN PTR  rest-gateway.svc.codfw.wmnet.
 83  1H  IN PTR  k8s-ingress-ml-staging.svc.codfw.wmnet.
 84  1H  IN PTR  k8s-ingress-ml-serve.svc.codfw.wmnet.
+85  1H  IN PTR  pybal-low-traffic.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 

@@ -703,6 +703,7 @@ logs-api        1H  IN A    10.2.1.79
 mw-api-int      1H  IN A    10.2.1.81
 k8s-ingress-ml-staging  1H  IN A    10.2.1.83
 k8s-ingress-ml-serve 1H  IN A    10.2.1.84
+pybal-low-traffic 1H  IN A    10.2.1.85
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.
