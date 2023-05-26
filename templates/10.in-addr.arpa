@@ -162,6 +162,7 @@ $ORIGIN 2.2.@Z
 82  1H  IN PTR  rest-gateway.svc.eqiad.wmnet.
 
 84  1H  IN PTR  k8s-ingress-ml-serve.svc.eqiad.wmnet.
+85  1H  IN PTR  pybal-low-traffic.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
