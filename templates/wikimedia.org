@@ -392,7 +392,7 @@ docs            1D IN CNAME dyna.wikimedia.org.
 
 dispatch        5M  IN CNAME    alert1001
 
-donorpreferences    1H  IN CNAME    frdata-eqiad
+donorpreferences    1H  IN CNAME    frdata-codfw
 
 helm-charts     1D IN CNAME dyna.wikimedia.org.
 
@@ -402,7 +402,7 @@ ldap-rw.eqiad   1H  IN CNAME    seaborgium
 ldap-rw.codfw   1H  IN CNAME    serpens
 
 frbast          1H  IN CNAME    frbast-eqiad
-frdata          1H  IN CNAME    frdata-eqiad
+frdata          1H  IN CNAME    frdata-codfw
 frmon           1H  IN CNAME    frmon-eqiad
 frmon.frdev     1H  IN CNAME    frmon-eqiad
 
@@ -680,8 +680,8 @@ datasets         1D IN CNAME dyna.wikimedia.org.
 diff             1H IN CNAME blog-wikimedia-org.go-vip.net.
 download         1D IN CNAME dyna.wikimedia.org.
 etherpad         1D IN CNAME dyna.wikimedia.org.
-fundraising      1H  IN CNAME    frdata-eqiad
-fundraising.frdev   1H  IN CNAME    frdata-eqiad
+fundraising      1H  IN CNAME    frdata-codfw
+fundraising.frdev   1H  IN CNAME    frdata-codfw
 hue              1D IN CNAME dyna.wikimedia.org.
 iegreview        1D IN CNAME dyna.wikimedia.org.
 jobs             1D IN CNAME dyna.wikimedia.org.
