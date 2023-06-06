@@ -36,6 +36,8 @@ tulpi7swkxlvoep2v4xdmenctf7zojbw._domainkey 5M  IN CNAME    tulpi7swkxlvoep2v4xd
 dev         1H  IN A    52.44.207.59
 studio.dev  1H  IN A    52.44.207.59
 preview.dev 1H  IN A    52.44.207.59
+app.dev     1H  IN A    52.44.207.59
+
 ; https://phabricator.wikimedia.org/T292537
 forum.dev   1H  IN A    52.44.207.59
 
