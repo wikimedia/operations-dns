@@ -109,6 +109,8 @@ reply.email     1H  IN TXT  "v=spf1 a ip4:74.121.51.111 -all"
 spop1024._domainkey.email   1H IN TXT "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDkkVXsWmUfiM+mhp33gqUfjpRoe92/jR/DxHOH/5UEXu1/zfy1Niu23GOsOMiAclXdyG8CDR7cuikdYHZiAYry7crqkKkTWCPrt0YvTTVgS4aIPsfcR59FsTzy3tEpmETPOs31XgRRfXKzI591XsWCxLo6cSTjeHxo0tQGJWejMQIDAQAB"
 _c02d3189682d060e348d305b652c2ece.email 1M IN CNAME _d727f5c7066e58d1a23773f6b6ce9dc2.fmfdpfvvyn.acm-validations.aws.
 
+; DNS Records related to lp.email.wikimedia.org - T336000
+lp.email    1H  IN CNAME pages04.net.
 
 ; "dyna.wikimedia.org." is the focal point of CNAMEs across all our zones for
 ; most cases that ultimately map to text-addrs.  By using longer-TTL CNAMEs
