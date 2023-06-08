@@ -227,11 +227,6 @@ $ORIGIN f.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/f.0.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; cloud-xlink11-eqiad (2620:0:861:fe10::/64)
-$ORIGIN 0.1.e.f.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/0.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
-
 ; cloud-xlink12-eqiad (2620:0:861:fe11::/64)
 $ORIGIN 1.1.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
