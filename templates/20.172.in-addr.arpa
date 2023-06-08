@@ -11,3 +11,7 @@
 $ORIGIN 5.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/5.20.172.in-addr.arpa
+; 172.20.254.0/24 - cloud-private anycast VIPS codfw
+$ORIGIN 254.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/254.20.172.in-addr.arpa
