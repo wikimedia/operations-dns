@@ -575,6 +575,7 @@ datahub-gms        1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 miscweb            1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 image-suggestion   1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 machinetranslation 1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+ipoid              1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-ml-serve.
@@ -715,6 +716,7 @@ miscweb            1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 image-suggestion   1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 developer-portal   1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 machinetranslation 1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+ipoid              1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-ml-serve.
@@ -828,6 +830,7 @@ miscweb            300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 image-suggestion   300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 developer-portal   300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 machinetranslation 300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
+ipoid              300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-ml-serve.
