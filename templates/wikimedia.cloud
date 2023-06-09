@@ -20,8 +20,7 @@ svc         1D  IN NS   ns1.openstack.eqiad1.wikimediacloud.org.
 ;
 ; delegation to designate in openstack codfw1dev region
 ;
-codfw1dev  1D  IN NS   ns0.openstack.codfw1dev.wikimediacloud.org.
-codfw1dev  1D  IN NS   ns1.openstack.codfw1dev.wikimediacloud.org.
+codfw1dev  1D  IN NS   ns.openstack.codfw1dev.wikimediacloud.org.
 
 ;
 ; *.{vlan-shortname}.{datacenter}.wikimedia.cloud
