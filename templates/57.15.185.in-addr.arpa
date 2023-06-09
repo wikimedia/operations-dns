@@ -8,9 +8,11 @@
 @   1D  IN NS   ns2.wikimedia.org.
 
 ; sub-delegation of 185.15.57.0/29 to cloud -- codfw1dev
-0-29    NS      ns.openstack.codfw1dev.wikimediacloud.org.
+0-29    NS      ns0.openstack.codfw1dev.wikimediacloud.org.
+0-29    NS      ns1.openstack.codfw1dev.wikimediacloud.org.
 ; sub-delegation of 185.15.57.16/29 to cloud -- codfw1dev
-16-29   NS      ns.openstack.codfw1dev.wikimediacloud.org.
+16-29   NS      ns0.openstack.codfw1dev.wikimediacloud.org.
+16-29   NS      ns1.openstack.codfw1dev.wikimediacloud.org.
 
 0       CNAME   0.0-29.57.15.185.in-addr.arpa.
 1       CNAME   1.0-29.57.15.185.in-addr.arpa.
@@ -34,4 +36,3 @@
 23      CNAME   23.16-29.57.15.185.in-addr.arpa.
 
 24  1H  IN PTR openstack.codfw1dev.wikimediacloud.org.
-25  1H  IN PTR ns.openstack.codfw1dev.wikimediacloud.org.
