@@ -2,6 +2,10 @@ generic-map => {
     geoip2_db => GeoIP2-City.mmdb
     datacenters => [eqiad, codfw, ulsfo, esams, eqsin, drmrs, bh, ref]
     map => {
+        # top-level default, is what gets used for anything not made
+        # more-specific in the various stanzas below:
+        default => [eqiad, codfw, ulsfo, esams, drmrs, eqsin],
+
         # use ISO 3166-2 official names
         AF => {
             # A number of countries in Africa do not have probes from RIPE
@@ -282,7 +286,6 @@ generic-map => {
             WF => [ulsfo, eqsin, codfw, eqiad, esams, drmrs], # Wallis and Futuna
             WS => [ulsfo, eqsin, codfw, eqiad, esams, drmrs], # Samoa
         },
-        default => [eqiad, codfw, ulsfo, esams, drmrs, eqsin],
     },
     nets = {
         # Wikimedia address space
