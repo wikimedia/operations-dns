@@ -868,7 +868,7 @@ webserver-misc-codfw 300 IN CNAME miscweb2003.codfw.wmnet.
 etherpad              300 IN CNAME etherpad1003.eqiad.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
 analytics-web         300 IN CNAME an-web1001.eqiad.wmnet.
-ticket                300 IN CNAME otrs1001.eqiad.wmnet.
+ticket                300 IN CNAME vrts1001.eqiad.wmnet.
 grafana-cloud         300 IN CNAME cloudmetrics1003.eqiad.wmnet.
 grafana-labs          300 IN CNAME cloudmetrics1003.eqiad.wmnet.
 graphite-labs         300 IN CNAME cloudmetrics1003.eqiad.wmnet.
