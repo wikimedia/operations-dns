@@ -8,15 +8,6 @@ generic-map => {
 
         # use ISO 3166-2 official names
         AF => {
-            # A number of countries in Africa do not have probes from RIPE
-            # Atlas. Sometimes the probes that do exist are low-quality data.
-            # The best we can do for now is use a lot of inference from
-            # neighboring countries.
-            #
-            # codfw and ulsfo were not measured and are there merely as
-            # placeholders on the wildest of assumptions: If Africa is
-            # connecting to the USA, then something has gone horribly wrong
-            # anyway.
             default => [esams, drmrs, eqiad, codfw, ulsfo, eqsin],
             AO => [esams, drmrs, eqiad, eqsin, codfw, ulsfo], # Angola
             BF => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Burkina Faso
@@ -41,7 +32,7 @@ generic-map => {
             GN => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Guinea (Inferred from Ghana)
             GQ => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Equatorial Guinea (Inferred from Gabon)
             GW => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Guinea-Bissau (Inferred from Senegal)
-            KE => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Kenya
+            KE => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Kenya (Probenet Data)
             LR => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Liberia (Inferred from Ghana)
             LS => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Lesotho (Inferred from South Africa)
             LY => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Libya (Inferred from Egypt)
@@ -54,7 +45,7 @@ generic-map => {
             MZ => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Mozambique
             NA => [esams, drmrs, eqiad, eqsin, codfw, ulsfo], # Namibia
             NE => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Niger (Inferred from Burkina Faso)
-            NG => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Nigeria (Inferred from Cameroon)
+            NG => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Nigeria (Probenet Data)
             RE => [eqsin, drmrs, esams, eqiad, codfw, ulsfo], # Réunion
             RW => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Rwanda
             SC => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Seychelles
@@ -66,7 +57,7 @@ generic-map => {
             SZ => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Eswatini (Inferred from South Africa)
             TD => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Chad (Inferred from Cameroon for closer probe)
             TG => [esams, drmrs, eqiad, eqsin, codfw, ulsfo], # Togo
-            TN => [esams, drmrs, eqiad, eqsin, codfw, ulsfo], # Tunisia
+            TN => [drmrs, esams, eqiad, codfw, ulsfo, eqsin], # Tunisia (Probenet Data)
             TZ => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # Tanzania
             UG => [esams, drmrs, eqsin, eqiad, codfw, ulsfo], # Uganda
             ZA => [drmrs, esams, eqsin, eqiad, codfw, ulsfo], # South Africa
@@ -102,7 +93,7 @@ generic-map => {
             KP => [ulsfo, codfw, eqiad, esams, drmrs, eqsin], # Korea, Democratic People's Republic of
             KR => [eqsin, ulsfo, codfw, eqiad, drmrs, esams], # Korea, Republic of
             KW => [drmrs, esams, eqiad, codfw, ulsfo, eqsin], # Kuwait
-            KZ => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Kazakhstan
+            KZ => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Kazakhstan (Probenet Data)
             LA => [eqsin, ulsfo, codfw, eqiad, drmrs, esams], # Lao People's Democratic Republic
             LB => [drmrs, esams, eqiad, codfw, ulsfo, eqsin], # Lebanon
             LK => [eqsin, drmrs, esams, eqiad, codfw, ulsfo], # Sri Lanka
@@ -117,7 +108,7 @@ generic-map => {
             PK => [eqsin, drmrs, esams, eqiad, codfw, ulsfo], # Pakistan
             PS => [drmrs, esams, eqiad, codfw, ulsfo, eqsin], # Palestine, State of
             QA => [eqsin, drmrs, esams, eqiad, codfw, ulsfo], # Qatar
-            SA => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Saudi Arabia
+            SA => [drmrs, esams, eqiad, eqsin, codfw, ulsfo], # Saudi Arabia (Probenet Data)
             SG => [eqsin, ulsfo, codfw, eqiad, drmrs, esams], # Singapore
             SY => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Syrian Arab Republic
             TH => [eqsin, ulsfo, codfw, eqiad, drmrs, esams], # Thailand
@@ -139,10 +130,10 @@ generic-map => {
             BA => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Bosnia and Herzegowina
             BE => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Belgium
             BG => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Bulgaria
-            BY => [drmrs, esams, eqiad, codfw, ulsfo, eqsin], # Belarus
+            BY => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Belarus (Probenet Data)
             CH => [drmrs, esams, eqiad, codfw, ulsfo, eqsin], # Switzerland
             CY => [drmrs, esams, eqiad, codfw, ulsfo, eqsin], # Cyprus
-            CZ => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Czech Republic
+            CZ => [drmrs, esams, eqiad, codfw, ulsfo, eqsin], # Czech Republic (Probenet Data)
             DE => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Germany
             DK => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Denmark
             EE => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Estonia
@@ -181,7 +172,7 @@ generic-map => {
             SE => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Sweden
             SI => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Slovenia
             SJ => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Svalbard and Jan Mayen Islands
-            SK => [drmrs, esams, eqiad, codfw, ulsfo, eqsin], # Slovakia
+            SK => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Slovakia (Probenet Data)
             SM => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # San Marino
             UA => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Ukraine
             VA => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # Holy See (Vatican City State)
