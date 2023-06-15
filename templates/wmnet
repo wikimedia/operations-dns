@@ -808,6 +808,8 @@ tegola-vector-tiles  300/10 IN DYNA geoip!disc-tegola-vector-tiles
 puppetboard           300/10 IN DYNA geoip!disc-puppetboard
 puppetboard-next      300/10 IN DYNA geoip!disc-puppetboard-next
 inference       300/10 IN DYNA geoip!disc-inference
+rest-gateway          300/10 IN DYNA geoip!disc-rest-gateway
+device-analytics      300/10 IN DYNA geoip!disc-device-analytics
 k8s-ingress-staging  300/10 IN DYNA metafo!disc-k8s-ingress-staging
 k8s-ingress-wikikube-ro 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube-ro
 k8s-ingress-wikikube-rw 300/10 IN DYNA metafo!disc-k8s-ingress-wikikube-rw
