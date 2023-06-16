@@ -34,4 +34,4 @@
 23      CNAME   23.16-29.57.15.185.in-addr.arpa.
 
 24  1H  IN PTR openstack.codfw1dev.wikimediacloud.org.
-25  1H  IN PTR ns.openstack.codfw1dev.wikimediacloud.org.
+25  1H  IN PTR ns0.openstack.codfw1dev.wikimediacloud.org.
