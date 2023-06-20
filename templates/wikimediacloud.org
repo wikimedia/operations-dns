@@ -37,11 +37,10 @@ $ORIGIN openstack.codfw1dev.wikimediacloud.org.
 ; neutron virtual router cloudinstances2b-gw
 cloudinstances2b-gw 5M  IN A      185.15.57.10
 
-; TODO: this 'ns' should eventually go away when we are kind of sure that
-; nobody is caching the NS entries pointing to it
-ns                  5M  IN A      185.15.57.25  ; wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,TOO_MANY_NAMES
+; primary servers. These are BGP addresses announced by a single host
 ns0                 5M  IN A      185.15.57.25
 ns1                 5M  IN A      208.80.153.44
+
 ; DNS servers by openstack designate. These addresses are BGP anycast VIPs
 ns-recursor         5M  IN A      172.20.254.1
 
