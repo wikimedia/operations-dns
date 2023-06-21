@@ -665,12 +665,12 @@ careers          1D IN CNAME dyna.wikimedia.org.
 gh-mail          1H  IN MX       10 mxa.mailgun.org.
 gh-mail          1H  IN MX       10 mxb.mailgun.org.
 gh-mail          1H  IN TXT  "v=spf1 include:mg-spf.greenhouse.io ~all"
-civicrm          1H  IN A        208.80.155.11
+civicrm          1H  IN A        208.80.155.17
 civicrm          1H  IN MX       10 mx1001
 civicrm          1H  IN MX       10 mx2001
 civicrm.frdev    1H  IN CNAME    frdev-eqiad
 civicrm-codfw    1H  IN A        208.80.152.232
-civicrm-staging  1H  IN A        208.80.155.17
+civicrm-old      1H  IN A        208.80.155.11
 coffee           1D IN CNAME dyna.wikimedia.org.
 cs               1D IN CNAME dyna.wikimedia.org.
 cz               1D IN CNAME dyna.wikimedia.org.
