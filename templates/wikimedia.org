@@ -478,8 +478,8 @@ payments-eqiad  1H  IN A        208.80.155.5 ; wmf-zone-validator-ignore=MISSING
 payments-codfw  1H  IN A        208.80.152.228
 payments-staging 1H  IN A        208.80.155.10
 
-payments-listener-eqiad 1H  IN A    208.80.155.12
-payments-listener-new-eqiad 1H  IN A    208.80.155.19
+payments-listener-old-eqiad 1H  IN A    208.80.155.12
+payments-listener-eqiad 1H  IN A    208.80.155.19
 payments-listener-codfw 1H  IN A    208.80.152.233
 payments-listener       5M  IN CNAME        payments-listener-eqiad
 

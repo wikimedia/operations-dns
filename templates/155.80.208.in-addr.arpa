@@ -19,14 +19,14 @@
 9   1H IN PTR   frmon-eqiad.wikimedia.org.
 10  1H IN PTR   payments-staging.wikimedia.org.
 11  1H IN PTR   civicrm.wikimedia.org.
-12  1H IN PTR   payments-listener-eqiad.wikimedia.org.
+12  1H IN PTR   payments-listener-old-eqiad.wikimedia.org.
 13  1H IN PTR   frdev-eqiad.wikimedia.org.
 14  1H IN PTR   frdev-new-eqiad.wikimedia.org.
 15  1H IN PTR   frmx1001.wikimedia.org.
 16  1H IN PTR   frdata-eqiad.wikimedia.org.
 17  1H IN PTR   civicrm-staging.wikimedia.org.
 18  1H IN PTR   frbast-eqiad.wikimedia.org.
-19  1H IN PTR   payments-listener-new-eqiad.wikimedia.org.
+19  1H IN PTR   payments-listener-eqiad.wikimedia.org.
 
 ; 208.80.155.32/27 Unused
 
