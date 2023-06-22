@@ -175,8 +175,8 @@ frbast-eqiad    1H  IN A    208.80.155.18
 frbast-codfw    1H  IN A    208.80.152.234
 frdata-eqiad    1H  IN A    208.80.155.16
 frdata-codfw    1H  IN A    208.80.152.237
-frdev-eqiad     1H  IN A    208.80.155.13
-frdev-new-eqiad     1H  IN A    208.80.155.14
+frdev-old-eqiad 1H  IN A    208.80.155.13
+frdev-eqiad     1H  IN A    208.80.155.14
 frmon-eqiad     1H  IN A    208.80.155.9
 frmon-codfw     1H  IN A    208.80.152.235
 frmx1001        1H  IN A    208.80.155.15
