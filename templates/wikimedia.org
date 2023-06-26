@@ -376,7 +376,7 @@ commons-query   1D IN CNAME dyna.wikimedia.org.
 
 config-master   1D IN CNAME dyna.wikimedia.org.
 
-contint         5M IN CNAME contint2001.wikimedia.org.
+contint         5M IN CNAME contint2002.wikimedia.org.
 
 datahub         1D IN CNAME dyna.wikimedia.org.
 
