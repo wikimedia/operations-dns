@@ -564,6 +564,8 @@ logs-api        1H  IN A    10.2.2.79
 mw-api-int      1H  IN A    10.2.2.81
 k8s-ingress-ml-serve 1H  IN A    10.2.2.84
 pybal-low-traffic 1H  IN A    10.2.2.85
+kubestagemaster 1H  IN A    10.2.2.86
+
 
 ganeti01    1H  IN A        10.64.32.173
 
@@ -583,7 +585,6 @@ ores-legacy        1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
 
 ; K8S EQIAD STAGING SERVICES
 
-kubestagemaster 1H  IN CNAME    kubestagemaster1001.eqiad.wmnet.
 staging         1H  IN CNAME    kubestage1003.eqiad.wmnet.
 
 $ORIGIN staging.svc.eqiad.wmnet.
@@ -706,6 +707,7 @@ mw-api-int      1H  IN A    10.2.1.81
 k8s-ingress-ml-staging  1H  IN A    10.2.1.83
 k8s-ingress-ml-serve 1H  IN A    10.2.1.84
 pybal-low-traffic 1H  IN A    10.2.1.85
+kubestagemaster 1H  IN A    10.2.1.86
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.
@@ -724,7 +726,6 @@ ores-legacy        1H  IN CNAME    k8s-ingress-ml-serve.svc.codfw.wmnet.
 
 ; K8S CODFW STAGING SERVICES
 
-kubestagemaster 1H  IN CNAME    kubestagemaster2001.codfw.wmnet.
 staging         1H  IN CNAME    kubestage2001.codfw.wmnet.
 
 $ORIGIN staging.svc.codfw.wmnet.
