@@ -16,6 +16,9 @@ fundraisingdb-read  5M  IN CNAME    frdb1005.frack.eqiad.wmnet.
 ;
 
 $ORIGIN eqiad.wmnet.
+; puppet SRV records
+_x-puppet._tcp     5M  IN SRV  0  5 8140 puppetserver1001.eqiad.wmnet.
+_x-puppet-ca._tcp  5M  IN SRV  0  5 8140 puppetserver1001.eqiad.wmnet.
 ; Service aliases
 ; Used by syslog over UDP (eg network devices, PDUs)
 syslog          1H  IN CNAME    syslog.anycast.wmnet.
@@ -210,7 +213,10 @@ $INCLUDE netbox/mgmt.frack.eqiad.wmnet
 ;
 
 $ORIGIN codfw.wmnet.
-
+; puppet SRV records
+_x-puppet._tcp     5M  IN SRV  0  5 8140 puppetserver2001.codfw.wmnet.
+; We only ever have one CA server it is not site specific
+_x-puppet-ca._tcp  5M  IN SRV  0  5 8140 puppetserver1001.eqiad.wmnet.
 ; Service aliases
 config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 people          5M  IN CNAME    people2003.codfw.wmnet.
