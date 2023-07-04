@@ -7,11 +7,32 @@
 @   1D  IN NS   ns1.wikimedia.org.
 @   1D  IN NS   ns2.wikimedia.org.
 
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+
+; 172.20.1.0/24 - cloud-private-c8-eqiad  (vlan 1151)
+$ORIGIN 1.@Z
+$INCLUDE netbox/1.20.172.in-addr.arpa
+
+; 172.20.2.0/24 - cloud-private-d5-eqiad  (vlan 1152)
+$ORIGIN 2.@Z
+$INCLUDE netbox/2.20.172.in-addr.arpa
+
+; 172.20.3.0/24 - cloud-private-e4-eqiad  (vlan 1153)
+$ORIGIN 3.@Z
+$INCLUDE netbox/3.20.172.in-addr.arpa
+
+; 172.20.4.0/24 - cloud-private-f4-eqiad  (vlan 1154)
+$ORIGIN 4.@Z
+$INCLUDE netbox/4.20.172.in-addr.arpa
+
 ; 172.20.5.0/24 - cloud-private-b1-codfw  (vlan 2151)
 $ORIGIN 5.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/5.20.172.in-addr.arpa
-; 172.20.254.0/24 - cloud-private anycast VIPS codfw
+
+; 172.20.254.0/24 - cloud-private anycast VIPs codfw
 $ORIGIN 254.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/254.20.172.in-addr.arpa
+
+; 172.20.255.0/24 - cloud-private anycast VIPs eqiad
+$ORIGIN 255.@Z
+$INCLUDE netbox/255.20.172.in-addr.arpa
