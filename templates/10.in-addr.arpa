@@ -429,7 +429,6 @@ $ORIGIN 40.64.@Z
 161 1H IN PTR   reth0-1137.pfw3-eqiad.frack.eqiad.wmnet.
 162 1H IN PTR   frmx1001.frack.eqiad.wmnet.
 163 1H IN PTR   frdata1002.frack.eqiad.wmnet.
-164 1H IN PTR   frpig1001.frack.eqiad.wmnet.
 165 1H IN PTR   frpig1002.frack.eqiad.wmnet.
 
 ; 10.64.40.192/26 - frack-management1-c-eqiad
