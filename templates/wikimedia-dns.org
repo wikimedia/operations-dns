@@ -32,7 +32,7 @@
 @           600 IN A    185.71.138.138
 @           600 IN AAAA 2001:67c:930::1
 
-; Wikidough check (durum). Anycast.
+; Wikidough check service (durum). Anycast.
 ;
 ; landing page
 check       600 IN A    185.71.138.139
