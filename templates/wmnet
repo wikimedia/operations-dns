@@ -62,7 +62,7 @@ pc3-master      5M  IN CNAME    pc1013.eqiad.wmnet.
 zarcillo-master 5M  IN CNAME    db1215.eqiad.wmnet.
 
 analytics-test-hive   5M  IN CNAME    an-test-coord1001.eqiad.wmnet.
-analytics-hive        5M  IN CNAME    an-coord1002.eqiad.wmnet.
+analytics-hive        5M  IN CNAME    an-coord1001.eqiad.wmnet.
 analytics-test-presto 5M  IN CNAME    an-test-coord1001.eqiad.wmnet.
 analytics-presto      5M  IN CNAME    an-coord1001.eqiad.wmnet.
 s1-analytics-replica  5M  IN CNAME    dbstore1003.eqiad.wmnet.
