@@ -110,6 +110,11 @@ $ORIGIN b.0.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/b.0.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; private1-e8-eqiad (2620:0:861:126::/64)
+$ORIGIN 6.2.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/6.2.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; private1-f1-eqiad (2620:0:861:10d::/64)
 $ORIGIN d.0.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -139,6 +144,11 @@ $INCLUDE netbox/1.1.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 2.1.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/2.1.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; analytics-e8-eqiad (2620:0:861:127::/64)
+$ORIGIN 7.2.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/7.2.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; analytics1-f1-eqiad (2620:0:861:114::/64)
 $ORIGIN 4.1.1.0.@Z
@@ -229,6 +239,16 @@ $INCLUDE netbox/f.0.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 1.1.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/1.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; ssw1-e1-eqiad<->lsw1-e8-eqiad (2620:0:861:fe12::/64)
+$ORIGIN 2.1.e.f.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; ssw1-f1-eqiad<->lsw1-e8-eqiad (2620:0:861:fe13::/64)
+$ORIGIN 3.1.e.f.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/3.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; eqiad sandbox subnets (2620:0:861:200::/56)
 
