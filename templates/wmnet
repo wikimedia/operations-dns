@@ -797,6 +797,7 @@ api-gateway    300/10 IN DYNA geoip!disc-api-gateway
 similar-users  300/10 IN DYNA geoip!disc-similar-users
 linkrecommendation  300/10 IN DYNA geoip!disc-linkrecommendation
 puppetdb-api   300/10 IN DYNA geoip!disc-puppetdb-api
+puppetdb-api-next   300/10 IN DYNA geoip!disc-puppetdb-api-next
 shellbox       300/10 IN DYNA geoip!disc-shellbox
 shellbox-constraints  300/10 IN DYNA geoip!disc-shellbox-constraints
 mwdebug        300/10 IN DYNA geoip!disc-mwdebug
