@@ -16,9 +16,9 @@
 ; MX records - Amazon SES (https://phabricator.wikimedia.org/T290974)
 @           1H  IN MX   10 inbound-smtp.us-east-1.amazonaws.com.
 
-; apex A record (https://phabricator.wikimedia.org/T291090)
-@           1H  IN A    13.248.190.88
-@           1H  IN A    76.223.57.52
+; apex A record (https://phabricator.wikimedia.org/T342509)
+@           1H  IN A    15.197.134.113
+@           1H  IN A    3.33.143.48
 
 
 ; TXT records
@@ -48,14 +48,18 @@ stage           1H  IN CNAME    wkm-maple-stage-alb-202853407.us-east-1.elb.amaz
 studio.stage    1H  IN CNAME    wkm-maple-stage-alb-202853407.us-east-1.elb.amazonaws.com.
 preview.stage   1H  IN CNAME    wkm-maple-stage-alb-202853407.us-east-1.elb.amazonaws.com.
 ; https://phabricator.wikimedia.org/T290974
-studio          1H  IN CNAME    wkm-prod-alb-30644061.us-east-1.elb.amazonaws.com.
-preview         1H  IN CNAME    wkm-prod-alb-30644061.us-east-1.elb.amazonaws.com.
+; Updates in https://phabricator.wikimedia.org/T342509
+studio          1H  IN CNAME    wkm-maple-prod-alb-1914255829.us-east-1.elb.amazonaws.com.
+preview         1H  IN CNAME    wkm-maple-prod-alb-1914255829.us-east-1.elb.amazonaws.com.
 ; https://phabricator.wikimedia.org/T292537
-forum           1H  IN CNAME    wkm-prod-alb-30644061.us-east-1.elb.amazonaws.com.
+; Updates in https://phabricator.wikimedia.org/T342509
+forum           1H  IN CNAME    wkm-maple-prod-alb-1914255829.us-east-1.elb.amazonaws.com.
 forum.stage     1H  IN CNAME    wkm-maple-stage-alb-202853407.us-east-1.elb.amazonaws.com.
 
 ; https://phabricator.wikimedia.org/T339942
 app.stage       1H  IN CNAME    wkm-maple-stage-alb-202853407.us-east-1.elb.amazonaws.com.
+; https://phabricator.wikimedia.org/T342509
+app             1H  IN CNAME    wkm-maple-prod-alb-1914255829.us-east-1.elb.amazonaws.com.
 
 
 ; CA validation
