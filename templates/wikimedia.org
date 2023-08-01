@@ -197,7 +197,7 @@ ntp.ulsfo           1H  IN CNAME dns4003
 ntp.codfw           1H  IN CNAME dns2004
 
 ;;; esams
-ntp.esams           1H  IN CNAME dns3001
+ntp.esams           1H  IN CNAME dns3002
 
 ;;; eqsin
 ntp.eqsin           1H  IN CNAME dns5003
