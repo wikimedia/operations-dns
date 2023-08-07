@@ -468,7 +468,6 @@ $ORIGIN 40.64.@Z
 ; 10.64.40.32/27 - frack-bastion1-c-eqiad
 33  1H IN PTR   reth0-1133.pfw3-eqiad.frack.eqiad.wmnet.
 
-35  1H IN PTR   frbast1001.frack.eqiad.wmnet.
 36  1H IN PTR   frbast1002.frack.eqiad.wmnet.
 
 ; 10.64.40.64/27 - frack-administration1-c-eqiad
@@ -478,7 +477,6 @@ $ORIGIN 40.64.@Z
 69  1H IN PTR   frauth1002.frack.eqiad.wmnet.
 71  1H IN PTR   frpm1002.frack.eqiad.wmnet.
 72  1H IN PTR   frlog1001.frack.eqiad.wmnet.
-73  1H IN PTR   frmon1001.frack.eqiad.wmnet.
 75  1H IN PTR   frlog1002.frack.eqiad.wmnet.
 76  1H IN PTR   frav1003.frack.eqiad.wmnet.
 
@@ -489,7 +487,6 @@ $ORIGIN 40.64.@Z
 100 1H IN PTR   frdb1005.frack.eqiad.wmnet.
 101 1H IN PTR   frdb1006.frack.eqiad.wmnet.
 
-109 1H IN PTR   civi1001.frack.eqiad.wmnet.
 110 1H IN PTR   fran1001.frack.eqiad.wmnet.
 111 1H IN PTR   frdb1004.frack.eqiad.wmnet.
 112 1H IN PTR   frban1001.frack.eqiad.wmnet.
@@ -497,7 +494,6 @@ $ORIGIN 40.64.@Z
 114 1H IN PTR   frqueue1004.frack.eqiad.wmnet.
 115 1H IN PTR   civi1002.frack.eqiad.wmnet.
 116 1H IN PTR   frdev1002.frack.eqiad.wmnet.
-117 1H IN PTR   frdev1001.frack.eqiad.wmnet.
 118 1H IN PTR   frdb1003.frack.eqiad.wmnet.
 119 1H IN PTR   frdm1001.frack.eqiad.wmnet.
 
@@ -765,7 +761,6 @@ $ORIGIN 0.195.@Z
 
 ; 10.195.0.64/28 - frack-administration-codfw
 65 1H IN PTR  reth0-2134.pfw3-codfw.frack.codfw.wmnet.
-66 1H IN PTR  frmon2001.frack.codfw.wmnet.
 67 1H IN PTR  frmon2002.frack.codfw.wmnet.
 
 73 1H IN PTR  frpm2001.frack.codfw.wmnet.
@@ -786,7 +781,6 @@ $INCLUDE netbox/96-27.0.195.10.in-addr.arpa
 
 ; 10.195.0.128/29 - frack-bastion-codfw
 129 1H IN PTR  reth0-2133.pfw3-codfw.frack.codfw.wmnet.
-130 1H IN PTR  frbast2001.frack.codfw.wmnet.
 131 1H IN PTR  frbast2002.frack.codfw.wmnet.
 
 
