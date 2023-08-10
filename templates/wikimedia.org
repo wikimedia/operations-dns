@@ -9,7 +9,7 @@
 @           1D  IN NS   ns2
 ns0         1D  IN A    208.80.154.238
 ns1         1D  IN A    208.80.153.231
-ns2         1D  IN A    91.198.174.239
+ns2         1D  IN A    198.35.27.27 ; temporary, knams migration (T343942)
 nsa         1H  IN A    198.35.27.27 ; anycast authdns is awesome
 
 ; Mail exchangers

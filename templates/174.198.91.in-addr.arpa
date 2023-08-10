@@ -33,7 +33,7 @@ $INCLUDE netbox/192-27.174.198.91.in-addr.arpa
 ; - 91.198.174.228/31 - cr3-esams <--> cr3-knams (via asw)
 ; - 91.198.174.230/31 (230-231) UNUSED
 ; - 91.198.174.232/29 (232-239) out-of-subnet LVS service IPs
-239 1D IN PTR   ns2.wikimedia.org.
+; 239 1D IN PTR   ns2.wikimedia.org. ; temporarily removed for T343942
 
 ; - 91.198.174.240/31 - cr3-esams <--> mr1-esams
 ; - 91.198.174.242/31 - cr2-esams <--> mr1-esams
