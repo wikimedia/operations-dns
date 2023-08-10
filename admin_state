@@ -69,3 +69,5 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+# esams -> knams migration - depool until new POP ready T329219
+geoip/generic-map/esams => DOWN
