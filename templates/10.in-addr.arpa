@@ -599,6 +599,30 @@ $ORIGIN 0.66.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0.66.10.in-addr.arpa
 
+; 10.80.0.0/16 - esams (new ranges post 2023 migration)
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+; https://netbox.wikimedia.org/ipam/prefixes/724/prefixes/
+
+; 10.80.0.0/24 - private1-bw27-esams
+$ORIGIN 0.80.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/0.80.10.in-addr.arpa
+
+; 10.80.1.0/24 - private1-by27-esams
+$ORIGIN 1.80.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.80.10.in-addr.arpa
+
+; 10.80.127.0/24 - Esams private loopbacks & interconnects
+$ORIGIN 127.80.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/127.80.10.in-addr.arpa
+
+; 10.80.128.0/24 - esams mgmt first /24
+$ORIGIN 128.80.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/128.80.10.in-addr.arpa
+
 ; 10.128.0.0/16 - ulsfo
 
 ; 10.128.128.0/17 - ulsfo mgmt

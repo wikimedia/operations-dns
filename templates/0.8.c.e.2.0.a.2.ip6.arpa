@@ -16,6 +16,70 @@ $ORIGIN 1.0.0.0.0.0.5.0.@Z
 $INCLUDE netbox/1.0.0.0.0.0.5.0.0.8.c.e.2.0.a.2.ip6.arpa
 
 ;
+; ESAMS - 2a02:ec80:300::/48
+;
+
+; public1-bw27-esams (2a02:ec80:300:1::/64)
+$ORIGIN 1.0.0.0.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.0.0.0.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; public1-by27-esams (2a02:ec80:300:2::/64)
+$ORIGIN 2.0.0.0.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.0.0.0.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; private1-bw27-esams (2a02:ec80:300:101::/64)
+$ORIGIN 1.0.1.0.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.0.1.0.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; private1-by27-esams (2a02:ec80:300:102::/64)
+$ORIGIN 2.0.1.0.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.0.1.0.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; mr1-esams <-> asw1-bw27-esams (2a02:ec80:300:fe02::/64)
+$ORIGIN 2.0.e.f.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; mr1-esams <-> asw1-by27-esams (2a02:ec80:300:fe03::/64)
+$ORIGIN 3.0.e.f.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/3.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; asw1-b27-esams <-> cr2-esams (2a02:ec80:300:fe04::/64)
+$ORIGIN 4.0.e.f.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/4.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr1-esams <-> asw1-by27-esams (2a02:ec80:300:fe05::/64)
+$ORIGIN 5.0.e.f.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/5.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr2-esams <-> asw1-bw27-esams (2a02:ec80:300:fe06::/64)
+$ORIGIN 6.0.e.f.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/6.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr1-esams <-> cr2-esams (2a02:ec80:300:fe07::/64)
+$ORIGIN 7.0.e.f.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/7.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr2-esams <-> asw1-by27-esams (2a02:ec80:300:fe08::/64)
+$ORIGIN 8.0.e.f.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/8.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; esams_new_loopback6 (2a02:ec80:300:ffff::/64)
+$ORIGIN f.f.f.f.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/f.f.f.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+;
 ; DRMRS - 2a02:ec80:600::/48
 ;
 
