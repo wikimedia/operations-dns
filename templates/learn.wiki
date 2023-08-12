@@ -33,13 +33,14 @@ tulpi7swkxlvoep2v4xdmenctf7zojbw._domainkey 5M  IN CNAME    tulpi7swkxlvoep2v4xd
 
 ; dev instance in AWS
 ; https://phabricator.wikimedia.org/T289618
-dev         1H  IN A    52.44.207.59
-studio.dev  1H  IN A    52.44.207.59
-preview.dev 1H  IN A    52.44.207.59
-app.dev     1H  IN A    52.44.207.59
+; Aug 2023: https://phabricator.wikimedia.org/T344073
+dev         1H  IN A    18.232.249.41
+studio.dev  1H  IN A    18.232.249.41
+preview.dev 1H  IN A    18.232.249.41
+app.dev     1H  IN A    18.232.249.41
 
 ; https://phabricator.wikimedia.org/T292537
-forum.dev   1H  IN A    52.44.207.59
+forum.dev   1H  IN A    18.232.249.41
 
 ; LB DNS entries
 ; https://phabricator.wikimedia.org/T290025
