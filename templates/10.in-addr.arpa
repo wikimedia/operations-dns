@@ -197,12 +197,6 @@ $ORIGIN 0.20.@Z
 $INCLUDE netbox/0.20.10.in-addr.arpa
 
 
-; tunnels (10.20.4.0/24)
-
-$ORIGIN 4.20.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/4.20.10.in-addr.arpa
-
 ; Management
 
 $ORIGIN 0.21.@Z
