@@ -80,3 +80,4 @@ disc-inference           => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-wcqs                => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-k8s-ingress-wikikube-ro => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-k8s-ingress-ml-serve => { map => mock, dcmap => { mock => 192.0.2.1 } }
+disc-config-master        => { map => mock, dcmap => { mock => 192.0.2.1 } }
