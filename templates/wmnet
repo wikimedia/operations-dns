@@ -624,7 +624,7 @@ $ORIGIN svc.esams.wmnet.
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/svc.esams.wmnet
 ; Used for consistency with eqiad/codfw
-prometheus  5M  IN CNAME    prometheus3002.esams.wmnet.
+prometheus  5M  IN CNAME    prometheus3003.esams.wmnet.
 
 ; ULSFO SERVICES
 
