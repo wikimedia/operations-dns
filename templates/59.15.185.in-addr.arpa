@@ -14,3 +14,4 @@
 $INCLUDE netbox/0-27.59.15.185.in-addr.arpa
 $INCLUDE netbox/32-27.59.15.185.in-addr.arpa
 $INCLUDE netbox/128-27.59.15.185.in-addr.arpa
+$INCLUDE netbox/224-27.59.15.185.in-addr.arpa
