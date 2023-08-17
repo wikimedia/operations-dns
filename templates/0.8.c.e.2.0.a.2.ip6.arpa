@@ -8,13 +8,6 @@
 @                       1D      IN NS   ns1.wikimedia.org.
 @                       1D      IN NS   ns2.wikimedia.org.
 
-;  OOB Tilaa transit subnet (2a02:ec80:500:1::/64)
-
-$ORIGIN 1.0.0.0.0.0.5.0.@Z
-
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/1.0.0.0.0.0.5.0.0.8.c.e.2.0.a.2.ip6.arpa
-
 ;
 ; ESAMS - 2a02:ec80:300::/48
 ;
