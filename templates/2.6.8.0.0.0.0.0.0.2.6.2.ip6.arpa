@@ -21,9 +21,10 @@ $INCLUDE netbox/1.0.0.0.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 ; esams private subnets (2620:0:862:100::/56)
 
 ; private1-esams subnet 2620:0:862:102::/64
-$ORIGIN 2.0.1.0.@Z
+; knams migration, records purged
+; $ORIGIN 2.0.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/2.0.1.0.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+; $INCLUDE netbox/2.0.1.0.2.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; 2620:0:862:ed1a::/64 - LVS Public Service IPs (allocated)
 

@@ -192,9 +192,9 @@ $INCLUDE netbox/0.3.10.in-addr.arpa
 
 ; private1-esams (10.20.0.0/24)
 
-$ORIGIN 0.20.@Z
+; $ORIGIN 0.20.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/0.20.10.in-addr.arpa
+; $INCLUDE netbox/0.20.10.in-addr.arpa
 
 
 ; Management
