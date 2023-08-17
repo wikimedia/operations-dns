@@ -15,7 +15,7 @@
 
 ; SPF txt and rr records
 ; T241132 (needed for OTRS queue wmtr@wikimedia.community)
-@               600 IN TXT  "v=spf1 ip4:91.198.174.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
+@               600 IN TXT  "v=spf1 ip4:185.15.59.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
 
 ; CAA records
 @           600 IN CAA 0 issue "letsencrypt.org"
