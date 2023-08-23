@@ -351,7 +351,7 @@ alertmanager-eqiad  5M  IN CNAME    alert1001
 alertmanager-codfw  5M  IN CNAME    alert2001
 
 ; alerts dashboard/UI
-alerts          5M  IN CNAME    alert1001
+alerts          5M  IN CNAME    alert2001
 
 annual          1D IN CNAME dyna.wikimedia.org.
 
@@ -392,7 +392,7 @@ doc             1D IN CNAME dyna.wikimedia.org.
 docker-registry 1D IN CNAME dyna.wikimedia.org.
 docs            1D IN CNAME dyna.wikimedia.org.
 
-dispatch        5M  IN CNAME    alert1001
+dispatch        5M  IN CNAME    alert2001
 
 donorpreferences    1H  IN CNAME    frdata-eqiad
 
@@ -438,9 +438,9 @@ performance     1D IN CNAME dyna.wikimedia.org.
 horizon         1D IN CNAME dyna.wikimedia.org.
 wikitech        1D IN CNAME dyna.wikimedia.org.
 
-icinga          5M  IN CNAME    alert1001
-ldap-icinga     5M  IN CNAME    alert1001
-icinga-extmon   5M  IN CNAME    alert1001
+icinga          5M  IN CNAME    alert2001
+ldap-icinga     5M  IN CNAME    alert2001
+icinga-extmon   5M  IN CNAME    alert2001
 
 idm             5M  IN CNAME idm1001.wikimedia.org.
 idm-test        5M  IN CNAME idm-test1001.wikimedia.org.
@@ -454,7 +454,7 @@ intake-analytics 1D  IN CNAME dyna.wikimedia.org.
 integration     1D IN CNAME dyna.wikimedia.org.
 irc             5M  IN CNAME    irc2001
 
-klaxon          5M  IN CNAME    alert1001
+klaxon          5M  IN CNAME    alert2001
 
 ldap-eqiad      1H  IN CNAME    seaborgium
 ldap-codfw      1H  IN CNAME    serpens
