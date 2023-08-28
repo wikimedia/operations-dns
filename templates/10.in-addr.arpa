@@ -470,7 +470,6 @@ $ORIGIN 40.64.@Z
 68  1H IN PTR   frmon1002.frack.eqiad.wmnet.
 69  1H IN PTR   frauth1002.frack.eqiad.wmnet.
 71  1H IN PTR   frpm1002.frack.eqiad.wmnet.
-72  1H IN PTR   frlog1001.frack.eqiad.wmnet.
 75  1H IN PTR   frlog1002.frack.eqiad.wmnet.
 76  1H IN PTR   frav1003.frack.eqiad.wmnet.
 
@@ -489,7 +488,6 @@ $ORIGIN 40.64.@Z
 115 1H IN PTR   civi1002.frack.eqiad.wmnet.
 116 1H IN PTR   frdev1002.frack.eqiad.wmnet.
 118 1H IN PTR   frdb1003.frack.eqiad.wmnet.
-119 1H IN PTR   frdm1001.frack.eqiad.wmnet.
 
 ; 10.64.40.128/27 - frack-dmz1-c-eqiad
 129  1H IN PTR   reth0-1136.pfw3-eqiad.frack.eqiad.wmnet.
