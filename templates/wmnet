@@ -603,6 +603,8 @@ machinetranslation 1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 ipoid              1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 wikifunctions      1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 mw-misc            1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+geo-analytics      1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+media-analytics    1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-ml-serve.
@@ -746,6 +748,8 @@ machinetranslation 1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 ipoid              1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 wikifunctions      1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 mw-misc            1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+geo-analytics      1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+media-analytics    1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-ml-serve.
@@ -866,6 +870,8 @@ machinetranslation 300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 ipoid              300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 wikifunctions      300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 mw-misc            300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
+geo-analytics      300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
+media-analytics    300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-ml-serve.
