@@ -592,9 +592,10 @@ kubestagemaster 1H  IN A    10.2.2.86
 
 ganeti01    1H  IN A        10.64.32.173
 
-; services that run under Kubernetes Ingress are just CNAME
-; records to k8s-ingress-wikikube.
+; Ingress services: CNAMEs to their respective cluster ingress record.
 ; See T305358 for details
+
+; Wikikube
 datahub-frontend   1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 datahub-gms        1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 miscweb            1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
@@ -606,9 +607,14 @@ mw-misc            1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 geo-analytics      1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 media-analytics    1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 
-; services that run under Kubernetes Ingress are just CNAME
-; records to k8s-ingress-ml-serve.
+; ML
 ores-legacy        1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
+
+; aux
+jaeger-collector-http 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
+jaeger-collector-grpc 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
+jaeger-query          1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
+
 
 ; K8S EQIAD STAGING SERVICES
 
