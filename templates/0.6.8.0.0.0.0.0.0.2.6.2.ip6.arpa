@@ -56,6 +56,81 @@ $ORIGIN 4.0.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/4.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; private1-a1-codfw (2620:0:860:105::/64)
+$ORIGIN 5.0.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/5.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-a3-codfw (2620:0:860:106::/64)
+$ORIGIN 6.0.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/6.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-a4-codfw (2620:0:860:107::/64)
+$ORIGIN 7.0.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/7.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-a5-codfw (2620:0:860:108::/64)
+$ORIGIN 8.0.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/8.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-a6-codfw (2620:0:860:109::/64)
+$ORIGIN 9.0.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/9.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-a7-codfw (2620:0:860:10a::/64)
+$ORIGIN a.0.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/a.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-a8-codfw (2620:0:860:10b::/64)
+$ORIGIN b.0.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/b.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-b2-codfw (2620:0:860:10c::/64)
+$ORIGIN c.0.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/c.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-b3-codfw (2620:0:860:10d::/64)
+$ORIGIN d.0.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/d.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-b4-codfw (2620:0:860:10e::/64)
+$ORIGIN e.0.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/e.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-b5-codfw (2620:0:860:10f::/64)
+$ORIGIN f.0.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/f.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-b6-codfw (2620:0:860:110::/64)
+$ORIGIN 0.1.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/0.1.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-b7-codfw (2620:0:860:111::/64)
+$ORIGIN 1.1.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/1.1.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-b8-codfw (2620:0:860:112::/64)
+$ORIGIN 2.1.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.1.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; private1-a2-codfw (2620:0:860:113::/64)
+$ORIGIN 3.1.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/3.1.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; cloud-hosts1-b-codfw (2620:0:860:118::/64)
 $ORIGIN 8.1.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
