@@ -794,6 +794,16 @@ $ORIGIN 75.192.@Z
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
 $ORIGIN 76.192.@Z
 
+; 10.192.252.0/24 - EVPN Underlay Loopbacks codfw
+$ORIGIN 252.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/252.192.10.in-addr.arpa
+
+; 10.192.253.0/24 - EVPN Underlay Link Addressing codfw
+$ORIGIN 253.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/253.192.10.in-addr.arpa
+
 ; 10.192.254.0/24 - Private Network Link Addressing Codfw
 $ORIGIN 254.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
