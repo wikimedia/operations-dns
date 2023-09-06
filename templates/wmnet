@@ -590,7 +590,8 @@ pybal-low-traffic 1H  IN A    10.2.2.85
 kubestagemaster 1H  IN A    10.2.2.86
 
 
-ganeti01    1H  IN A        10.64.32.173
+ganeti01      1H  IN A        10.64.32.173
+ganeti-test01 1H  IN A        10.64.16.57
 
 ; Ingress services: CNAMEs to their respective cluster ingress record.
 ; See T305358 for details
