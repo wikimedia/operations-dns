@@ -215,7 +215,7 @@ donate-lb.eqiad     1H IN MX 50 mx2001
 cxserver            1D IN CNAME dyna.wikimedia.org.
 
 ; ORES
-ores                1D IN CNAME dyna.wikimedia.org.
+ores                5M IN CNAME dyna.wikimedia.org.
 ores-legacy         1D IN CNAME dyna.wikimedia.org.
 
 ; blubberoid
