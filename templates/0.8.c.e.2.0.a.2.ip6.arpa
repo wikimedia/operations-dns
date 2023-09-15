@@ -22,6 +22,11 @@ $ORIGIN 2.0.0.0.0.0.3.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/2.0.0.0.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
 
+; sandbox1-by27-esams (2a02:ec80:300:202::/64)
+$ORIGIN 2.0.2.0.0.0.3.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.0.2.0.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
 ; private1-bw27-esams (2a02:ec80:300:101::/64)
 $ORIGIN 1.0.1.0.0.0.3.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox

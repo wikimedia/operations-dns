@@ -11,7 +11,18 @@
 ; ESAMS Public /24
 
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+
+; public1-bw27-esams (311)
 $INCLUDE netbox/0-27.59.15.185.in-addr.arpa
+
+; public1-by27-esams (312)
 $INCLUDE netbox/32-27.59.15.185.in-addr.arpa
+
+; sandbox1-by27-esams (332)
+$INCLUDE netbox/72-29.59.15.185.in-addr.arpa
+
+; Loopbacks & interconnects
 $INCLUDE netbox/128-27.59.15.185.in-addr.arpa
+
+; LVS service IPs
 $INCLUDE netbox/224-27.59.15.185.in-addr.arpa
