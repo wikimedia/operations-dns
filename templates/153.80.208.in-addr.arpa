@@ -55,7 +55,7 @@ $INCLUDE netbox/192-29.153.80.208.in-addr.arpa
 ; 208.80.153.210/31 (cr1-codfw <--> cr2-eqdfw)
 ; 208.80.153.212/31 (cr2-codfw <--> cr2-eqdfw)
 ; 208.80.153.214/31 (cr1-eqiad <--> cr2-eqdfw)
-; 208.80.153.216/31 (cr3-knams <--> cr2-eqdfw)
+; 208.80.153.216/31 (cr2-esams <--> cr2-eqdfw)
 ; 208.80.153.218/31 (cr1-codfw <--> cr2-codfw)
 ; 208.80.153.220/31 (cr1-eqiad <--> cr1-codfw)
 ; 208.80.153.222/31 (cr2-eqord <--> cr2-codfw)

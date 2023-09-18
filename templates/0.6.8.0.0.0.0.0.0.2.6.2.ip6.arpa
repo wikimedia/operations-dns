@@ -246,7 +246,7 @@ $ORIGIN 8.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/8.0.e.f.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; cr3-knams <--> cr2-eqdfw (2620:0:860:fe09::/64)
+; cr2-esams <--> cr2-eqdfw (2620:0:860:fe09::/64)
 
 $ORIGIN 9.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
