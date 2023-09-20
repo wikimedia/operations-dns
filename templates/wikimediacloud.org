@@ -38,9 +38,6 @@ $ORIGIN openstack.codfw1dev.wikimediacloud.org.
 
 $ORIGIN eqiad1.wikimediacloud.org.
 
-; Service aliases
-; Primary openstack endpoint API used by openstack clients and endpoint catalog
-openstack  5M  IN CNAME  cloudcontrol1007.wikimedia.org.
 ; Rabbitmq nodes
 rabbitmq01 5M  IN CNAME  cloudrabbit1001.wikimedia.org.
 rabbitmq02 5M  IN CNAME  cloudrabbit1002.wikimedia.org.
