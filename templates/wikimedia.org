@@ -400,7 +400,9 @@ helm-charts     1D IN CNAME dyna.wikimedia.org.
 ldap-labs.eqiad 1H  IN CNAME    seaborgium
 ldap-labs.codfw 1H  IN CNAME    serpens
 ldap-rw.eqiad   1H  IN CNAME    seaborgium
+ldap-rw-next.eqiad   1H  IN CNAME    ldap-rw1001
 ldap-rw.codfw   1H  IN CNAME    serpens
+ldap-rw-next.codfw   1H  IN CNAME    ldap-rw2001
 
 frbast          1H  IN CNAME    frbast-eqiad
 frdata          1H  IN CNAME    frdata-eqiad
