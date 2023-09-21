@@ -898,8 +898,8 @@ graphite              300 IN CNAME graphite1005.eqiad.wmnet.
 ;graphite              300 IN CNAME graphite2004.codfw.wmnet.
 ;mwmaint               300 IN CNAME mwmaint1002.eqiad.wmnet.
 mwmaint               300 IN CNAME mwmaint2002.codfw.wmnet.
-peopleweb             300 IN CNAME people1004.eqiad.wmnet.
-;peopleweb             300 IN CNAME people2003.codfw.wmnet.
+;peopleweb             300 IN CNAME people1004.eqiad.wmnet.
+peopleweb             300 IN CNAME people2003.codfw.wmnet.
 performance           300 IN CNAME webperf1003.eqiad.wmnet.
 ;performance           300 IN CNAME webperf2003.codfw.wmnet.
 phabricator           300 IN CNAME phab1004.eqiad.wmnet.
