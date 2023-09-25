@@ -15,7 +15,7 @@ $ORIGIN 1.0.0.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/1.0.0.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 ; manual records in this block
-8.0.0.0.3.5.1.0.0.8.0.0.8.0.2.0 300 IN PTR   gitlab-replica.wikimedia.org.
+8.0.0.0.3.5.1.0.0.8.0.0.8.0.2.0 300 IN PTR   gitlab-replica-old.wikimedia.org.
 
 ; public1-b-codfw (2620:0:860:2::/64)
 $ORIGIN 2.0.0.0.@Z
