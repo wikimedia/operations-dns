@@ -848,7 +848,6 @@ shellbox-syntaxhighlight  300/10 IN DYNA geoip!disc-shellbox-syntaxhighlight
 shellbox-timeline  300/10 IN DYNA geoip!disc-shellbox-timeline
 tegola-vector-tiles  300/10 IN DYNA geoip!disc-tegola-vector-tiles
 puppetboard           300/10 IN DYNA geoip!disc-puppetboard
-puppetboard-next      300/10 IN DYNA geoip!disc-puppetboard-next
 inference       300/10 IN DYNA geoip!disc-inference
 rest-gateway          300/10 IN DYNA geoip!disc-rest-gateway
 device-analytics      300/10 IN DYNA geoip!disc-device-analytics
