@@ -19,6 +19,7 @@ $ORIGIN eqiad.wmnet.
 ; puppet SRV records
 _x-puppet._tcp     5M  IN SRV  0  5 8140 puppetserver1001.eqiad.wmnet.
 _x-puppet._tcp     5M  IN SRV  0  5 8140 puppetserver1002.eqiad.wmnet.
+_x-puppet._tcp     5M  IN SRV  0  5 8140 puppetserver1003.eqiad.wmnet.
 _x-puppet-ca._tcp  5M  IN SRV  0  5 8140 puppetserver1001.eqiad.wmnet.
 ; Service aliases
 ; Used by syslog over UDP (eg network devices, PDUs)
@@ -223,6 +224,7 @@ $INCLUDE netbox/mgmt.frack.eqiad.wmnet
 $ORIGIN codfw.wmnet.
 ; puppet SRV records
 _x-puppet._tcp     5M  IN SRV  0  5 8140 puppetserver2001.codfw.wmnet.
+_x-puppet._tcp     5M  IN SRV  0  5 8140 puppetserver2002.codfw.wmnet.
 ; We only ever have one CA server it is not site specific
 _x-puppet-ca._tcp  5M  IN SRV  0  5 8140 puppetserver1001.eqiad.wmnet.
 ; Service aliases
