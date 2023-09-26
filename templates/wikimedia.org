@@ -501,6 +501,10 @@ puppetboard      1D IN CNAME dyna.wikimedia.org.
 puppetboard-idptest 1D IN CNAME dyna.wikimedia.org.
 puppetboard-samltest 1D IN CNAME dyna.wikimedia.org.
 
+pyrra            1H IN CNAME dyna.wikimedia.org.
+slo              1H IN CNAME dyna.wikimedia.org.
+slos             1H IN CNAME dyna.wikimedia.org.
+
 releases         1D IN CNAME dyna.wikimedia.org.
 releases-jenkins 1D IN CNAME dyna.wikimedia.org.
 
