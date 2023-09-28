@@ -36,7 +36,6 @@ disc-device-analytics    => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-kartotherian        => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-mathoid             => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-mobileapps          => { map => mock, dcmap => { mock => 192.0.2.1 } }
-disc-ores                => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-proton              => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-push-notifications  => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-recommendation-api  => { map => mock, dcmap => { mock => 192.0.2.1 } }

@@ -806,7 +806,6 @@ eventstreams-internal   300/10 IN DYNA geoip!disc-eventstreams-internal
 kartotherian   300/10 IN DYNA geoip!disc-kartotherian
 mathoid        300/10 IN DYNA geoip!disc-mathoid
 mobileapps     300/10 IN DYNA geoip!disc-mobileapps
-ores           300/10 IN DYNA geoip!disc-ores
 proton         300/10 IN DYNA geoip!disc-proton
 push-notifications 300/10 IN DYNA geoip!disc-push-notifications
 recommendation-api 300/10 IN DYNA geoip!disc-recommendation-api
