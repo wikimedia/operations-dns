@@ -14,7 +14,6 @@ $ORIGIN 1.2.@Z
 1   1H  IN PTR  appservers.svc.codfw.wmnet.
 5   1H  IN PTR  videoscaler.svc.codfw.wmnet.
 8   1H  IN PTR  kubemaster.svc.codfw.wmnet.
-10  1H  IN PTR  ores.svc.codfw.wmnet.
 11  1H  IN PTR  apertium.svc.codfw.wmnet.
 12  1H  IN PTR  aqs.svc.codfw.wmnet.
 13  1H  IN PTR  kartotherian.svc.codfw.wmnet.
@@ -93,7 +92,6 @@ $ORIGIN 2.2.@Z
 1   1H  IN PTR  appservers.svc.eqiad.wmnet.
 5   1H  IN PTR  videoscaler.svc.eqiad.wmnet.
 8   1H  IN PTR  kubemaster.svc.eqiad.wmnet.
-10  1H  IN PTR  ores.svc.eqiad.wmnet.
 11  1H  IN PTR  apertium.svc.eqiad.wmnet.
 12  1H  IN PTR  aqs.svc.eqiad.wmnet.
 13  1H  IN PTR  kartotherian.svc.eqiad.wmnet.
