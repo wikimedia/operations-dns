@@ -23,8 +23,8 @@
 6       CNAME   6.0-29.57.15.185.in-addr.arpa.
 7       CNAME   7.0-29.57.15.185.in-addr.arpa.
 
-9   1H  IN PTR virt.cloudgw.codfw1dev.wikimediacloud.org.
-10  1H  IN PTR cloudinstances2b-gw.openstack.codfw1dev.wikimediacloud.org.
+; 185.15.57.8/29
+$INCLUDE netbox/8-29.57.15.185.in-addr.arpa
 
 16      CNAME   16.16-29.57.15.185.in-addr.arpa.
 17      CNAME   17.16-29.57.15.185.in-addr.arpa.

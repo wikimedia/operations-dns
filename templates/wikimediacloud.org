@@ -28,7 +28,6 @@ rabbitmq02 5M  IN CNAME  cloudcontrol2004-dev.private.codfw.wikimedia.cloud.
 rabbitmq03 5M  IN CNAME  cloudcontrol2005-dev.private.codfw.wikimedia.cloud.
 
 nat.cloudgw         5M  IN A      185.15.57.1
-virt.cloudgw        5M  IN A      185.15.57.9
 
 $ORIGIN openstack.codfw1dev.wikimediacloud.org.
 ;
