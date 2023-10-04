@@ -22,6 +22,9 @@ $INCLUDE netbox/wikimediacloud.org-codfw
 
 $ORIGIN codfw1dev.wikimediacloud.org.
 
+; CNAMEs to the main OpenStack VIP managed via Netbox
+object 5M IN CNAME openstack ; object storage (Swift/S3)
+
 ; Rabbitmq nodes
 rabbitmq01 5M  IN CNAME  cloudcontrol2001-dev.private.codfw.wikimedia.cloud.
 rabbitmq02 5M  IN CNAME  cloudcontrol2004-dev.private.codfw.wikimedia.cloud.
@@ -36,6 +39,9 @@ $ORIGIN openstack.codfw1dev.wikimediacloud.org.
 ;
 
 $ORIGIN eqiad1.wikimediacloud.org.
+
+; CNAMEs to the main OpenStack VIP managed via Netbox
+object 5M IN CNAME openstack ; object storage (Swift/S3)
 
 ; Rabbitmq nodes
 rabbitmq01 5M  IN CNAME  cloudrabbit1001.wikimedia.org.
