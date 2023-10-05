@@ -188,22 +188,22 @@ pay-lvs1002     1H  IN A    208.80.155.3
 ; Service aliases
 
 ;;; eqiad
-ntp.eqiad           1H  IN CNAME dns1004
+ntp.eqiad           1H  IN CNAME ntp.anycast.wmnet.
 
 ;;; ulsfo
-ntp.ulsfo           1H  IN CNAME dns4003
+ntp.ulsfo           1H  IN CNAME ntp.anycast.wmnet.
 
 ;;; codfw
-ntp.codfw           1H  IN CNAME dns2004
+ntp.codfw           1H  IN CNAME ntp.anycast.wmnet.
 
 ;;; esams
-ntp.esams           1H  IN CNAME dns3003
+ntp.esams           1H  IN CNAME ntp.anycast.wmnet.
 
 ;;; eqsin
-ntp.eqsin           1H  IN CNAME dns5003
+ntp.eqsin           1H  IN CNAME ntp.anycast.wmnet.
 
 ;;; drmrs
-ntp.drmrs           1H  IN CNAME dns6001
+ntp.drmrs           1H  IN CNAME ntp.anycast.wmnet.
 
 ; Round Robin LVS Service records
 
