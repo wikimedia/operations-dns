@@ -27,6 +27,7 @@ disc-videoscaler         => { datacenters => mock, dcmap => { mock => 192.0.2.1 
 disc-mw-web              => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-mw-api-ext          => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-mw-api-int          => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
+disc-mw-wikifunctions    => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-swift-rw            => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-docker-registry     => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-parsoid-php         => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
