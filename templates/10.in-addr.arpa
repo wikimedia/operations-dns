@@ -73,6 +73,7 @@ $ORIGIN 1.2.@Z
 ; 71 reserved for datahubsearch.svc.codfw.wmnet.
 72  1H  IN PTR  ml-staging-ctrl.svc.codfw.wmnet.
 ; 73 reserved for dse-k8s-ctrl.svc.codfw.wmnet.
+; 74 reserved for aux-k8s-ctrl.svc.codfw.wmnet.
 75  1H  IN PTR  mw-web.svc.codfw.wmnet.
 76  1H  IN PTR  mw-api-ext.svc.codfw.wmnet.
 77  1H  IN PTR  thanos-web.svc.codfw.wmnet.
@@ -151,6 +152,7 @@ $ORIGIN 2.2.@Z
 71  1H  IN PTR  datahubsearch.svc.eqiad.wmnet.
 ; 72 reserved for ml-staging-ctrl.svc.eqiad.wmnet.
 73  1H  IN PTR  dse-k8s-ctrl.svc.eqiad.wmnet.
+74  1H  IN PTR  aux-k8s-ctrl.svc.eqiad.wmnet.
 75  1H  IN PTR  mw-web.svc.eqiad.wmnet.
 76  1H  IN PTR  mw-api-ext.svc.eqiad.wmnet.
 77  1H  IN PTR  thanos-web.svc.eqiad.wmnet.
