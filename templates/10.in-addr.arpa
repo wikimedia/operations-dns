@@ -86,6 +86,9 @@ $ORIGIN 1.2.@Z
 84  1H  IN PTR  k8s-ingress-ml-serve.svc.codfw.wmnet.
 85  1H  IN PTR  pybal-low-traffic.svc.codfw.wmnet.
 86  1H  IN PTR  kubestagemaster.svc.codfw.wmnet.
+; 87
+88  1H  IN PTR  mw-wikifunctions.svc.codfw.wmnet.
+
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -161,10 +164,12 @@ $ORIGIN 2.2.@Z
 80  1H  IN PTR  device-analytics.svc.eqiad.wmnet.
 81  1H  IN PTR  mw-api-int.svc.eqiad.wmnet.
 82  1H  IN PTR  rest-gateway.svc.eqiad.wmnet.
-
+; 83
 84  1H  IN PTR  k8s-ingress-ml-serve.svc.eqiad.wmnet.
 85  1H  IN PTR  pybal-low-traffic.svc.eqiad.wmnet.
 86  1H  IN PTR  kubestagemaster.svc.eqiad.wmnet.
+; 87
+88  1H  IN PTR  mw-wikifunctions.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 

@@ -591,7 +591,7 @@ mw-api-int      1H  IN A    10.2.2.81
 k8s-ingress-ml-serve 1H  IN A    10.2.2.84
 pybal-low-traffic 1H  IN A    10.2.2.85
 kubestagemaster 1H  IN A    10.2.2.86
-
+mw-wikifunctions 1H  IN A    10.2.2.88
 
 ganeti01      1H  IN A        10.64.32.173
 ganeti-test01 1H  IN A        10.64.16.57
@@ -749,6 +749,7 @@ k8s-ingress-ml-staging  1H  IN A    10.2.1.83
 k8s-ingress-ml-serve 1H  IN A    10.2.1.84
 pybal-low-traffic 1H  IN A    10.2.1.85
 kubestagemaster 1H  IN A    10.2.1.86
+mw-wikifunctions 1H  IN A    10.2.1.88
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.
