@@ -12,6 +12,8 @@
 
 ; SPF txt and rr records (no email)
 @           600 IN TXT  "v=spf1 -all"
+; TXT record for verification: T339267
+@           600 IN TXT "ykvplzy7pqdz8n8gyvrvhlvys22pg55h"
 
 ; Canonical names
 @           600 IN DYNA geoip!text-addrs
