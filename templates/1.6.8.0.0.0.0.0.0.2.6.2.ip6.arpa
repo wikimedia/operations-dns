@@ -320,6 +320,16 @@ $ORIGIN 3.1.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/3.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; ssw1-e1-eqiad<->lsw1-f8-eqiad (2620:0:861:fe14::/64)
+$ORIGIN 4.1.e.f.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/4.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; ssw1-f1-eqiad<->lsw1-f8-eqiad (2620:0:861:fe15::/64)
+$ORIGIN 5.1.e.f.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/5.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; eqiad sandbox subnets (2620:0:861:200::/56)
 
 ; sandbox1-a-eqiad (2620:0:861:201::/64)
