@@ -158,8 +158,7 @@ _etcd-client-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2379 aux-k8s-etcd1003.eqi
 ;
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/eqiad.wmnet
-puppet            5M      IN CNAME    puppetmaster1001.eqiad.wmnet.
-prometheus-labmon 1H      IN CNAME    cloudmetrics1003
+puppet 5M      IN CNAME    puppetmaster1001.eqiad.wmnet.
 
 ; Kubernetes pod records for eqiad
 {% for z in range(64,72) -%}
@@ -933,9 +932,6 @@ rt                    300 IN CNAME moscovium.eqiad.wmnet.
 analytics-web         300 IN CNAME an-web1001.eqiad.wmnet.
 ticket                300 IN CNAME vrts1001.eqiad.wmnet.
 ticket-test           300 IN CNAME vrts1002.eqiad.wmnet.
-grafana-cloud         300 IN CNAME cloudmetrics1003.eqiad.wmnet.
-grafana-labs          300 IN CNAME cloudmetrics1003.eqiad.wmnet.
-graphite-labs         300 IN CNAME cloudmetrics1003.eqiad.wmnet.
 netbox-next           300 IN CNAME netbox-dev2002.codfw.wmnet.
 testreduce            300 IN CNAME testreduce1001.eqiad.wmnet.
 
