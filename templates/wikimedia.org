@@ -21,6 +21,8 @@ ns2         1D  IN A    198.35.27.27 ; anycasted authdns
 
 ; Google Webmaster Tools verification record for search management
 @           600 IN TXT  "google-site-verification=APNaeC69s87mS4z-sfYqFYONgimBx4Bw22eCIaYEd_g"
+; Jamf site verification, requested in T349665
+@           600 IN TXT  "jamf-site-verification=NxGVeSleTFBLZiknd4D94A"
 
 ; SPF txt and rr records
 @               600 IN TXT  "v=spf1 ip4:185.15.59.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
