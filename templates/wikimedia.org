@@ -20,7 +20,7 @@ ns2         1D  IN A    198.35.27.27 ; anycasted authdns
 @           600 IN DYNA geoip!text-addrs
 
 ; Google Webmaster Tools verification record for search management
-@           600 IN TXT  "google-site-verification=APNaeC69s87mS4z-sfYqFYONgimBx4Bw22eCIaYEd_g"
+@           600 IN TXT  "google-site-verification=uzfgD0YiIqSQgRdSQXlkA7NByyyOZDp-n0SZ3nozpDM"
 ; Jamf site verification, requested in T349665
 @           600 IN TXT  "jamf-site-verification=NxGVeSleTFBLZiknd4D94A"
 
