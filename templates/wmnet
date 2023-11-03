@@ -927,6 +927,7 @@ webserver-misc-eqiad 300 IN CNAME miscweb1003.eqiad.wmnet.
 webserver-misc-codfw 300 IN CNAME miscweb2003.codfw.wmnet.
 
 ; misc services without multiple backends
+apt-staging           300 IN CNAME apt-staging2001.codfw.wmnet.
 etherpad              300 IN CNAME etherpad1003.eqiad.wmnet.
 rt                    300 IN CNAME moscovium.eqiad.wmnet.
 analytics-web         300 IN CNAME an-web1001.eqiad.wmnet.
