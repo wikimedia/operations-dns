@@ -933,7 +933,7 @@ analytics-web         300 IN CNAME an-web1001.eqiad.wmnet.
 ticket                300 IN CNAME vrts1001.eqiad.wmnet.
 ticket-test           300 IN CNAME vrts1002.eqiad.wmnet.
 netbox-next           300 IN CNAME netbox-dev2002.codfw.wmnet.
-testreduce            300 IN CNAME testreduce1001.eqiad.wmnet.
+testreduce            300 IN CNAME testreduce1002.eqiad.wmnet.
 
 ; Use a discovery record for prometheus-pushgateway singleton.
 ; No LVS/conftool involved in this case
