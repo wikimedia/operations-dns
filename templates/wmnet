@@ -587,6 +587,7 @@ mw-api-ext      1H  IN A    10.2.2.76
 k8s-ingress-aux 1H  IN A    10.2.2.78
 logs-api        1H  IN A    10.2.2.79
 mw-api-int      1H  IN A    10.2.2.81
+mw-jobrunnner   1H  IN A    10.2.2.90
 k8s-ingress-ml-serve 1H  IN A    10.2.2.84
 pybal-low-traffic 1H  IN A    10.2.2.85
 kubestagemaster 1H  IN A    10.2.2.86
@@ -744,6 +745,7 @@ mw-api-ext      1H  IN A    10.2.1.76
 ; 78 reserved for k8s-ingress-aux
 logs-api        1H  IN A    10.2.1.79
 mw-api-int      1H  IN A    10.2.1.81
+mw-jobrunner    1H  IN A    10.2.1.90
 k8s-ingress-ml-staging  1H  IN A    10.2.1.83
 k8s-ingress-ml-serve 1H  IN A    10.2.1.84
 pybal-low-traffic 1H  IN A    10.2.1.85

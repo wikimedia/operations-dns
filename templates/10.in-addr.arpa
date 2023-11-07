@@ -99,6 +99,7 @@ $ORIGIN 1.2.@Z
 86  1H  IN PTR  kubestagemaster.svc.codfw.wmnet.
 88  1H  IN PTR  mw-wikifunctions.svc.codfw.wmnet.
 ; 89 reserved for katran-test.svc.codfw.wmnet.
+90  1H  IN PTR  mw-jobrunner.svc.codfw.wmnet.
 
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
@@ -191,6 +192,7 @@ $ORIGIN 2.2.@Z
 85  1H  IN PTR  pybal-low-traffic.svc.eqiad.wmnet.
 86  1H  IN PTR  kubestagemaster.svc.eqiad.wmnet.
 88  1H  IN PTR  mw-wikifunctions.svc.eqiad.wmnet.
+90  1H  IN PTR  mw-jobrunner.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
