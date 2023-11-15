@@ -80,11 +80,6 @@ $ORIGIN 8.0.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/8.0.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; cloud-support1-a-eqiad (2620:0:861:117::/64)
-$ORIGIN 7.1.1.0.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/7.1.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
-
 ; cloud-hosts1-b-eqiad (2620:0:861:118::/64)
 $ORIGIN 8.1.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox

@@ -244,11 +244,6 @@ $ORIGIN 1.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/1.64.10.in-addr.arpa
 
-; 10.64.4.0/24 - cloud-support1-a-eqiad
-$ORIGIN 4.64.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/4.64.10.in-addr.arpa
-
 ; 10.64.5.0/24 - analytics1-a-eqiad
 $ORIGIN 5.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
