@@ -851,6 +851,7 @@ mw-api-ext     300/10 IN DYNA metafo!disc-mw-api-ext
 mw-api-ext-ro  300/10 IN DYNA geoip!disc-mw-api-ext-ro
 mw-api-int     300/10 IN DYNA metafo!disc-mw-api-int
 mw-api-int-ro  300/10 IN DYNA geoip!disc-mw-api-int-ro
+mw-jobrunner   300/10 IN DYNA metafo!disc-mw-jobrunner
 mw-wikifunctions    300/10 IN DYNA metafo!disc-mw-wikifunctions
 mw-wikifunctions-ro 300/10 IN DYNA geoip!disc-mw-wikifunctions-ro
 toolhub        300/10 IN DYNA metafo!disc-toolhub
