@@ -27,5 +27,12 @@ codfw1dev  1D  IN NS   ns1.openstack.codfw1dev.wikimediacloud.org.
 ; *.{vlan-shortname}.{datacenter}.wikimedia.cloud
 ; see https://wikitech.wikimedia.org/wiki/Portal:Cloud_VPS/Admin/DNS
 ; see also https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/wikimedia.cloud-eqiad
+;
+
+; codfw
 $INCLUDE netbox/wikimedia.cloud-codfw
+
+; eqiad
+$INCLUDE netbox/wikimedia.cloud-eqiad
+$ORIGIN eqiad.wikimedia.cloud.
+$INCLUDE netbox/eqiad.wikimedia.cloud-eqiad
