@@ -81,7 +81,6 @@ labsdb-analytics    5M  IN CNAME    dbproxy1018.eqiad.wmnet.
 labsdb-web          5M  IN CNAME    dbproxy1019.eqiad.wmnet.
 wikireplica-analytics    5M  IN CNAME    dbproxy1018.eqiad.wmnet.
 wikireplica-web          5M  IN CNAME    dbproxy1019.eqiad.wmnet.
-wdqs-ldf                 5M  IN CNAME    wdqs1015.eqiad.wmnet.
 
 ; analytics dbstore records
 _s1-analytics._tcp       5M  IN SRV      0 1 3311 dbstore1003.eqiad.wmnet.
@@ -925,6 +924,7 @@ phabricator           300 IN CNAME phab1004.eqiad.wmnet.
 planet                300 IN CNAME planet2002.codfw.wmnet.
 releases              300 IN CNAME releases1003.eqiad.wmnet.
 ;releases              300 IN CNAME releases2003.codfw.wmnet.
+wdqs-ldf               300  IN CNAME wdqs1015.eqiad.wmnet.
 ;webserver-misc-sites  300 IN CNAME miscweb1003.eqiad.wmnet.
 webserver-misc-sites 300 IN CNAME miscweb1003.eqiad.wmnet.
 webserver-misc-eqiad 300 IN CNAME miscweb1003.eqiad.wmnet.
