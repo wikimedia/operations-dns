@@ -624,6 +624,10 @@ jaeger-collector-http 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-collector-grpc 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-query          1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 
+; dse
+spark-history         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+spark-history-test    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+
 
 ; K8S EQIAD STAGING SERVICES
 
