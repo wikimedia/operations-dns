@@ -926,8 +926,8 @@ performance           300 IN CNAME webperf1003.eqiad.wmnet.
 ;performance           300 IN CNAME webperf2003.codfw.wmnet.
 phabricator           300 IN CNAME phab1004.eqiad.wmnet.
 ;phabricator           300 IN CNAME phab2002.codfw.wmnet.
-;planet                300 IN CNAME planet1003.eqiad.wmnet.
-planet                300 IN CNAME planet2003.codfw.wmnet.
+planet                300 IN CNAME planet1003.eqiad.wmnet.
+;planet                300 IN CNAME planet2003.codfw.wmnet.
 releases              300 IN CNAME releases1003.eqiad.wmnet.
 ;releases              300 IN CNAME releases2003.codfw.wmnet.
 wdqs-ldf               300  IN CNAME wdqs1015.eqiad.wmnet.
