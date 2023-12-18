@@ -914,6 +914,8 @@ recommendation-api-ng 300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
 
 aphlict               300 IN CNAME aphlict1002.eqiad.wmnet.
 ;aphlict               300 IN CNAME aphlict2001.codfw.wmnet.
+;community-crm         300 IN CNAME crm1001.eqiad.wmnet.
+community-crm         300 IN CNAME crm2001.codfw.wmnet.
 debmonitor            300 IN CNAME debmonitor1003.eqiad.wmnet.
 doc                   300 IN CNAME doc1003.eqiad.wmnet.
 ;doc                   300 IN CNAME doc2002.codfw.wmnet.
