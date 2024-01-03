@@ -71,7 +71,7 @@ s1-analytics-replica  5M  IN CNAME    dbstore1003.eqiad.wmnet.
 s2-analytics-replica  5M  IN CNAME    dbstore1007.eqiad.wmnet.
 s3-analytics-replica  5M  IN CNAME    dbstore1007.eqiad.wmnet.
 s4-analytics-replica  5M  IN CNAME    dbstore1007.eqiad.wmnet.
-s5-analytics-replica  5M  IN CNAME    dbstore1003.eqiad.wmnet.
+s5-analytics-replica  5M  IN CNAME    dbstore1008.eqiad.wmnet.
 s6-analytics-replica  5M  IN CNAME    dbstore1005.eqiad.wmnet.
 s7-analytics-replica  5M  IN CNAME    dbstore1008.eqiad.wmnet.
 s8-analytics-replica  5M  IN CNAME    dbstore1005.eqiad.wmnet.
@@ -83,7 +83,7 @@ _s1-analytics._tcp       5M  IN SRV      0 1 3311 dbstore1003.eqiad.wmnet.
 _s2-analytics._tcp       5M  IN SRV      0 1 3312 dbstore1007.eqiad.wmnet.
 _s3-analytics._tcp       5M  IN SRV      0 1 3313 dbstore1007.eqiad.wmnet.
 _s4-analytics._tcp       5M  IN SRV      0 1 3314 dbstore1007.eqiad.wmnet.
-_s5-analytics._tcp       5M  IN SRV      0 1 3315 dbstore1003.eqiad.wmnet.
+_s5-analytics._tcp       5M  IN SRV      0 1 3315 dbstore1008.eqiad.wmnet.
 _s6-analytics._tcp       5M  IN SRV      0 1 3316 dbstore1005.eqiad.wmnet.
 _s7-analytics._tcp       5M  IN SRV      0 1 3317 dbstore1008.eqiad.wmnet.
 _s8-analytics._tcp       5M  IN SRV      0 1 3318 dbstore1005.eqiad.wmnet.
