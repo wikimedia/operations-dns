@@ -67,7 +67,7 @@ analytics-test-hive   5M  IN CNAME    an-test-coord1001.eqiad.wmnet.
 analytics-hive        5M  IN CNAME    an-coord1003.eqiad.wmnet.
 analytics-test-presto 5M  IN CNAME    an-test-coord1001.eqiad.wmnet.
 analytics-presto      5M  IN CNAME    an-coord1001.eqiad.wmnet.
-s1-analytics-replica  5M  IN CNAME    dbstore1003.eqiad.wmnet.
+s1-analytics-replica  5M  IN CNAME    dbstore1008.eqiad.wmnet.
 s2-analytics-replica  5M  IN CNAME    dbstore1007.eqiad.wmnet.
 s3-analytics-replica  5M  IN CNAME    dbstore1007.eqiad.wmnet.
 s4-analytics-replica  5M  IN CNAME    dbstore1007.eqiad.wmnet.
@@ -79,7 +79,7 @@ x1-analytics-replica  5M  IN CNAME    dbstore1005.eqiad.wmnet.
 staging-db-analytics  5M  IN CNAME    dbstore1005.eqiad.wmnet.
 
 ; analytics dbstore records
-_s1-analytics._tcp       5M  IN SRV      0 1 3311 dbstore1003.eqiad.wmnet.
+_s1-analytics._tcp       5M  IN SRV      0 1 3311 dbstore1008.eqiad.wmnet.
 _s2-analytics._tcp       5M  IN SRV      0 1 3312 dbstore1007.eqiad.wmnet.
 _s3-analytics._tcp       5M  IN SRV      0 1 3313 dbstore1007.eqiad.wmnet.
 _s4-analytics._tcp       5M  IN SRV      0 1 3314 dbstore1007.eqiad.wmnet.
