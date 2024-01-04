@@ -69,3 +69,5 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+# Depool drmrs for cr2 maintenance - T354340
+geoip/generic-map/drmrs => DOWN
