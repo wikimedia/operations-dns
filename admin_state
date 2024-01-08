@@ -69,3 +69,5 @@
 #     geoip/text-*/ulsfo => UP # ... this overrides the line above completely
 #
 ##############################################################################
+# Depool eqsin for switch upgrade - T332395
+geoip/generic-map/eqsin => DOWN
