@@ -46,7 +46,7 @@ object 5M IN CNAME openstack ; object storage (Swift/S3)
 ; Rabbitmq nodes
 rabbitmq01 5M  IN CNAME  cloudrabbit1001.wikimedia.org.
 rabbitmq02 5M  IN CNAME  cloudrabbit1002.wikimedia.org.
-rabbitmq03 5M  IN CNAME  cloudrabbit1003.wikimedia.org.
+rabbitmq03 5M  IN CNAME  cloudrabbit1002.wikimedia.org.
 
 nat.cloudgw         5M  IN A      185.15.56.1
 
