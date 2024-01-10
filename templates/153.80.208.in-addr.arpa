@@ -46,19 +46,7 @@ $INCLUDE netbox/184-29.153.80.208.in-addr.arpa
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/192-29.153.80.208.in-addr.arpa
 
-; neighbor blocks
-; 208.80.153.200/31 (cr1-codfw <--> pfw3-codfw)
-; 208.80.153.202/31 (cr2-codfw <--> pfw3-codfw)
-; 208.80.153.204/31 (cr2-codfw <--> cr2-eqiad)
-; 208.80.153.206/31 (cr1-codfw <--> mr1-codfw)
-; 208.80.153.208/31 (cr2-codfw <--> mr1-codfw)
-; 208.80.153.210/31 (cr1-codfw <--> cr2-eqdfw)
-; 208.80.153.212/31 (cr2-codfw <--> cr2-eqdfw)
-; 208.80.153.214/31 (cr1-eqiad <--> cr2-eqdfw)
-; 208.80.153.216/31 (cr2-esams <--> cr2-eqdfw)
-; 208.80.153.218/31 (cr1-codfw <--> cr2-codfw)
-; 208.80.153.220/31 (cr1-eqiad <--> cr1-codfw)
-; 208.80.153.222/31 (cr2-eqord <--> cr2-codfw)
+; loopbacks & interconnects codfw
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/192-27.153.80.208.in-addr.arpa
 
