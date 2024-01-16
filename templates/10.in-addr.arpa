@@ -464,11 +464,6 @@ $ORIGIN 167.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/167.64.10.in-addr.arpa
 
-; 10.64.37.0/24 - cloud-support1-c-eqiad
-$ORIGIN 37.64.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/37.64.10.in-addr.arpa
-
 ; 10.64.40.0/23 - frack.eqiad subnets
 $ORIGIN 40.64.@Z
 
