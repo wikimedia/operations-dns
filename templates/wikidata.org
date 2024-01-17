@@ -31,7 +31,10 @@
 ; Servers (alphabetic order)
 
 ; Service aliases
-query         1D IN CNAME dyna.wikimedia.org.
+query                        1D IN CNAME dyna.wikimedia.org.
+query-full-experimental      1D IN CNAME dyna.wikimedia.org.
+query-main-experimental      1D IN CNAME dyna.wikimedia.org.
+query-scholarly-experimental 1D IN CNAME dyna.wikimedia.org.
 
 ; Wikis (alphabetic order)
 
