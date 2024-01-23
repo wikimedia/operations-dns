@@ -36,7 +36,7 @@ deployment      5M  IN CNAME    deploy2002.codfw.wmnet.
 maintenance     5M  IN CNAME    mwmaint2002.codfw.wmnet.
 people          5M  IN CNAME    people1004.eqiad.wmnet.
 s1-master       5M  IN CNAME    db2103.codfw.wmnet.
-s2-master       5M  IN CNAME    db2107.codfw.wmnet.
+s2-master       5M  IN CNAME    db2104.codfw.wmnet.
 s3-master       5M  IN CNAME    db2105.codfw.wmnet.
 s4-master       5M  IN CNAME    db2140.codfw.wmnet.
 s5-master       5M  IN CNAME    db2113.codfw.wmnet.
