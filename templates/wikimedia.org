@@ -52,10 +52,10 @@ spop2048._domainkey     1H IN TXT  "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMII
 ; Fundraise Up - payment provider for fundraising (T345354)
 fun-avlmpsru._domainkey 1H IN TXT  "v=DKIM1; k=rsa; h=sha256; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChcMpa+Pz2WtZgaGlHDde7FddPDU+AKXwsRXraoMRzPqDqTczwyrr3Qqck7j2xvhmV0vOPrtSsZRcduvnLM9aB8VEeHkoAqPaGMEQPs2X3Zk1ERNgIBhoVxkB7cMlbcAohTVnTAS0/GMa9c2LqXN1LXcfd3Z44sCZZWxl/0wpSzQIDAQAB"
 ; Shopify, requested in T355835
-n1j._domainkey   1H IN TXT "dkim1.327bdf87d37c.p413.email.myshopify.com"
-n1j2._domainkey  1H IN TXT "dkim2.327bdf87d37c.p413.email.myshopify.com"
-n1j3._domainkey  1H IN TXT "dkim3.327bdf87d37c.p413.email.myshopify.com"
-n1j4._domainkey  1H IN TXT "327bdf87d37c.p413.email.myshopify.com"
+n1j._domainkey      1H IN CNAME dkim1.327bdf87d37c.p413.email.myshopify.com.
+n1j2._domainkey     1H IN CNAME dkim2.327bdf87d37c.p413.email.myshopify.com.
+n1j3._domainkey     1H IN CNAME dkim3.327bdf87d37c.p413.email.myshopify.com.
+mailern1j           1H IN CNAME 327bdf87d37c.p413.email.myshopify.com.
 
 ; DMARC records http://dmarc.org/ -- policy none (monitor), for now
 _dmarc          1H  IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
