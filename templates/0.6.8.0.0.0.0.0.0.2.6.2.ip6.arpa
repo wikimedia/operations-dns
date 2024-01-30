@@ -161,6 +161,11 @@ $ORIGIN 4.3.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/4.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; private1-virtual-codfw 2620:0:860:140::/64
+$ORIGIN 0.4.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/0.4.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; Codfw private network loopbacks 2620:0:860:13f::/64
 $ORIGIN f.3.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox

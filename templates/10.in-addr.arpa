@@ -780,6 +780,11 @@ $ORIGIN 23.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/23.192.10.in-addr.arpa
 
+; 10.192.24.0/24 - private1-virtual-codfw
+$ORIGIN 24.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/24.192.10.in-addr.arpa
+
 ; 10.192.32.0/22 - private1-c-codfw
 $ORIGIN 32.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
