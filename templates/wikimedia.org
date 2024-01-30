@@ -481,6 +481,8 @@ phabricator     300 IN DYNA     geoip!text-addrs
 phabricator     1H  IN MX       10 mx1001
 phabricator     1H  IN MX       10 mx2001
 phabricator     1H  IN TXT      "v=spf1 mx ip6:2620:0:861:102:10:64:16:101 ip6:2620:0:860:103:10:192:32:54 -all"
+; Google site verification for https://postmaster.google.com
+phabricator     1H  IN TXT      "google-site-verification=3HEEpR1KW0brOBi5FUW8c9z0zIshraxZv0wkm2pfqtc"
 
 login           1D IN CNAME dyna.wikimedia.org.
 
