@@ -18,8 +18,14 @@
 
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 
+; 185.15.56.160/28
+$INCLUDE netbox/160-28.56.15.185.in-addr.arpa
+
 ; 185.15.56.224/27
 $INCLUDE netbox/224-27.56.15.185.in-addr.arpa
+
+; 185.15.56.232/29
+$INCLUDE netbox/232-29.56.15.185.in-addr.arpa
 
 ; 185.15.56.240/29
 $INCLUDE netbox/240-29.56.15.185.in-addr.arpa
