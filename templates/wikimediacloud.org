@@ -52,4 +52,3 @@ nat.cloudgw         5M  IN A      185.15.56.1
 
 $ORIGIN openstack.eqiad1.wikimediacloud.org.
 
-ns-recursor0        5M  IN A      208.80.154.143
