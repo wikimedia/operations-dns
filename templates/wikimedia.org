@@ -138,7 +138,7 @@ lp.email    1H  IN CNAME pages04.net.
 ; interactions with selective CN censorhsip at the DNS level)
 dyna            600 IN DYNA geoip!text-addrs
 
-dumps           1H  IN CNAME clouddumps1001
+dumps           1H  IN CNAME clouddumps1002
 
 lists           5M  IN A    208.80.154.21
 lists           5M  IN AAAA 2620:0:861:1:208:80:154:21
