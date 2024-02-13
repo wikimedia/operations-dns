@@ -38,8 +38,10 @@ mailer2i3           1H IN CNAME edd08f1c196d.p234.email.myshopify.com.
 @               5M  IN CAA 0 issue "letsencrypt.org"
 @               5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 ; CAA records for *.email.wikimedia.org - all types for LE and Amazon
+; digicert added in T346394
 email           5M  IN CAA 0 issue "amazon.com"
 email           5M  IN CAA 0 issue "letsencrypt.org"
+email           5M  IN CAA 0 issue "digicert.com"
 email           5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 ; DKIM policy records & ADSP (also see DMARC below); policy is "some mails /may/ be signed"
