@@ -372,7 +372,7 @@ alertmanager-eqiad  5M  IN CNAME    alert1001
 alertmanager-codfw  5M  IN CNAME    alert2001
 
 ; alerts dashboard/UI
-alerts          5M  IN CNAME    alert1001
+alerts          5M  IN CNAME    alert2001
 
 annual          1D IN CNAME dyna.wikimedia.org.
 
