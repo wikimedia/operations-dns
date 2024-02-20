@@ -468,7 +468,7 @@ idm             5M  IN CNAME idm1001.wikimedia.org.
 idm-test        5M  IN CNAME idm-test1001.wikimedia.org.
 
 idp             5M  IN CNAME idp1002.wikimedia.org.
-idp-test        5M  IN CNAME idp-test1002.wikimedia.org.
+idp-test        5M  IN CNAME idp-test2002.wikimedia.org.
 
 intake-logging   300 IN DYNA  geoip!text-next
 intake-analytics 1D  IN CNAME dyna.wikimedia.org.
