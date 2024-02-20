@@ -773,6 +773,7 @@ yarn             1D IN CNAME dyna.wikimedia.org.
 turnilo          1D IN CNAME dyna.wikimedia.org.
 schema           1D IN CNAME dyna.wikimedia.org.
 thanos           1D IN CNAME dyna.wikimedia.org.
+trace            1D IN CNAME dyna.wikimedia.org.
 os-reports       1D IN CNAME dyna.wikimedia.org.
 enterprise       1D IN CNAME dyna.wikimedia.org.
 unseen           1D IN CNAME dyna.wikimedia.org.
