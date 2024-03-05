@@ -461,8 +461,8 @@ performance     1D IN CNAME dyna.wikimedia.org.
 horizon         1D IN CNAME dyna.wikimedia.org.
 wikitech        1D IN CNAME dyna.wikimedia.org.
 
-icinga          5M  IN CNAME    alert2001
-icinga-extmon   5M  IN CNAME    alert2001
+icinga          5M  IN CNAME    alert1001
+icinga-extmon   5M  IN CNAME    alert1001
 
 idm             5M  IN CNAME idm1001.wikimedia.org.
 idm-test        5M  IN CNAME idm-test1001.wikimedia.org.
@@ -476,7 +476,7 @@ intake-analytics 1D  IN CNAME dyna.wikimedia.org.
 integration     1D IN CNAME dyna.wikimedia.org.
 irc             5M  IN CNAME    irc1001
 
-klaxon          5M  IN CNAME    alert2001
+klaxon          5M  IN CNAME    alert1001
 
 ldap-eqiad      1H  IN CNAME    seaborgium
 ldap-codfw      1H  IN CNAME    serpens
