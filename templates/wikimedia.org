@@ -555,7 +555,7 @@ toolhub         1D IN CNAME dyna.wikimedia.org.
 toolsadmin      1D IN CNAME dyna.wikimedia.org.
 
 url-downloader.eqiad  5M  IN CNAME urldownloader1003
-url-downloader.codfw  5M  IN CNAME urldownloader2004
+url-downloader.codfw  5M  IN CNAME urldownloader2003
 url-downloader        5M  IN CNAME url-downloader.eqiad
 
 ; Wikis (alphabetic order)
