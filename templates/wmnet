@@ -33,7 +33,7 @@ statsd          5M  IN CNAME    graphite1005.eqiad.wmnet.
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 eventlogging    1H  IN CNAME    eventlog1003.eqiad.wmnet.
 udplog          1H  IN CNAME    mwlog1002.eqiad.wmnet.
-deployment      5M  IN CNAME    deploy2002.codfw.wmnet.
+deployment      5M  IN CNAME    deploy1002.eqiad.wmnet.
 maintenance     5M  IN CNAME    mwmaint1002.eqiad.wmnet.
 people          5M  IN CNAME    people1004.eqiad.wmnet.
 s1-master       5M  IN CNAME    db1184.eqiad.wmnet.
