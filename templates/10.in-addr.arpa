@@ -22,7 +22,6 @@ $ORIGIN 1.2.@Z
 ; 9 reserved for MediaWiki
 ; 10
 11  1H  IN PTR  apertium.svc.codfw.wmnet.
-12  1H  IN PTR  aqs.svc.codfw.wmnet.
 13  1H  IN PTR  kartotherian.svc.codfw.wmnet.
 14  1H  IN PTR  mobileapps.svc.codfw.wmnet.
 ; 15
@@ -118,7 +117,6 @@ $ORIGIN 2.2.@Z
 ; 9 reserved for MediaWiki
 ; 10
 11  1H  IN PTR  apertium.svc.eqiad.wmnet.
-12  1H  IN PTR  aqs.svc.eqiad.wmnet.
 13  1H  IN PTR  kartotherian.svc.eqiad.wmnet.
 14  1H  IN PTR  mobileapps.svc.eqiad.wmnet.
 ; 15

@@ -513,7 +513,6 @@ videoscaler 1H  IN A        10.2.2.5
 kubemaster  1H  IN A        10.2.2.8
 ores        1H  IN A        10.2.2.10
 apertium    1H  IN A        10.2.2.11
-aqs         1H  IN A        10.2.2.12
 kartotherian 1H IN A        10.2.2.13
 mobileapps  1H  IN A        10.2.2.14
 
@@ -681,7 +680,6 @@ kubemaster      1H  IN A        10.2.1.8
 
 ores            1H  IN A        10.2.1.10
 apertium        1H  IN A        10.2.1.11
-aqs             1H  IN A        10.2.1.12
 kartotherian    1H  IN A        10.2.1.13
 mobileapps      1H  IN A        10.2.1.14
 
@@ -873,7 +871,6 @@ puppetboard           300/10 IN DYNA geoip!disc-puppetboard
 inference       300/10 IN DYNA geoip!disc-inference
 rest-gateway          300/10 IN DYNA geoip!disc-rest-gateway
 device-analytics      300/10 IN DYNA geoip!disc-device-analytics
-aqs                   300/10 IN DYNA geoip!disc-aqs
 k8s-ingress-staging  300/10 IN DYNA metafo!disc-k8s-ingress-staging
 k8s-ingress-wikikube-ro 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube-ro
 k8s-ingress-wikikube-rw 300/10 IN DYNA metafo!disc-k8s-ingress-wikikube-rw
