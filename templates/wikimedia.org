@@ -710,7 +710,6 @@ download         1D IN CNAME dyna.wikimedia.org.
 etherpad         1D IN CNAME dyna.wikimedia.org.
 fundraising      1H  IN CNAME    frdata-eqiad
 fundraising.frdev   1H  IN CNAME    frdata-eqiad
-hue              1D IN CNAME dyna.wikimedia.org.
 iegreview        1D IN CNAME dyna.wikimedia.org.
 jobs             1D IN CNAME dyna.wikimedia.org.
 labs             1D IN CNAME dyna.wikimedia.org.
