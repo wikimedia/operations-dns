@@ -65,7 +65,6 @@ $ORIGIN 1.2.@Z
 54  1H  IN PTR  thanos-swift.svc.codfw.wmnet.
 55  1H  IN PTR  api-gateway.svc.codfw.wmnet.
 56  1H  IN PTR  push-notifications.svc.codfw.wmnet.
-57  1H  IN PTR  similar-users.svc.codfw.wmnet.
 58  1H  IN PTR  inference-staging.svc.codfw.wmnet.
 59  1H  IN PTR  mwdebug.svc.codfw.wmnet.
 60  1H  IN PTR  tegola-vector-tiles.svc.codfw.wmnet.
@@ -159,7 +158,6 @@ $ORIGIN 2.2.@Z
 54  1H  IN PTR  thanos-swift.svc.eqiad.wmnet.
 55  1H  IN PTR  api-gateway.svc.eqiad.wmnet.
 56  1H  IN PTR  push-notifications.svc.eqiad.wmnet.
-57  1H  IN PTR  similar-users.svc.eqiad.wmnet.
 58  1H  IN PTR  inference-staging.svc.eqiad.wmnet.
 59  1H  IN PTR  mwdebug.svc.eqiad.wmnet.
 60  1H  IN PTR  tegola-vector-tiles.svc.eqiad.wmnet.

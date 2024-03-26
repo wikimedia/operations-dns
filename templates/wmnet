@@ -599,7 +599,6 @@ thanos-web      1H  IN A    10.2.2.77
 api-gateway     1H  IN A    10.2.2.55
 push-notifications  1H  IN A    10.2.2.56
 linkrecommendation  1H  IN A    10.2.2.23
-similar-users   1H  IN A    10.2.2.57
 shellbox        1H  IN A    10.2.2.51
 device-analytics    1H  IN A    10.2.2.80
 rest-gateway    1H  IN A    10.2.2.82
@@ -778,7 +777,6 @@ thanos-web      1H  IN A    10.2.1.77
 api-gateway     1H  IN A    10.2.1.55
 push-notifications  1H  IN A    10.2.1.56
 linkrecommendation  1H  IN A    10.2.1.23
-similar-users   1H  IN A    10.2.1.57
 shellbox        1H  IN A    10.2.1.51
 device-analytics    1H  IN A    10.2.1.80
 rest-gateway    1H  IN A    10.2.1.82
@@ -896,7 +894,6 @@ thanos-swift   300/10 IN DYNA geoip!disc-thanos-swift
 thanos-web     300/10 IN DYNA geoip!disc-thanos-web
 helm-charts    300/10 IN DYNA geoip!disc-helm-charts
 api-gateway    300/10 IN DYNA geoip!disc-api-gateway
-similar-users  300/10 IN DYNA geoip!disc-similar-users
 linkrecommendation  300/10 IN DYNA geoip!disc-linkrecommendation
 puppetdb-api   300/10 IN DYNA geoip!disc-puppetdb-api
 shellbox       300/10 IN DYNA geoip!disc-shellbox
