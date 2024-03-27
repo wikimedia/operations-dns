@@ -71,5 +71,3 @@
 ##############################################################################
 # T357547: DC switchover codfw -> eqiad 
 geoip/generic-map/codfw => DOWN
-# T360430: esams text cluster drive upgrade
-geoip/generic-map/esams => DOWN
