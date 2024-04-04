@@ -625,7 +625,7 @@ jaeger-query          1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 ; dse
 echoserver-dse-k8s-eqiad 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 mpic                     1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
-mpic-test                1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+mpic-next                1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 spark-history            1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 spark-history-test       1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 superset                 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
