@@ -718,6 +718,8 @@ labsconsole      1D IN CNAME dyna.wikimedia.org.
 logstash         1D IN CNAME dyna.wikimedia.org.
 cas-logstash     1D IN CNAME dyna.wikimedia.org.
 moon             1D IN CNAME dyna.wikimedia.org.
+mpic             1D IN CNAME dyna.wikimedia.org.
+mpic-next        1D IN CNAME dyna.wikimedia.org.
 netbox-next      1D IN CNAME dyna.wikimedia.org.
 noc              1D IN CNAME dyna.wikimedia.org.
 old-bugzilla     1D IN CNAME dyna.wikimedia.org.
