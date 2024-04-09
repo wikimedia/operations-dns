@@ -444,10 +444,10 @@ gitlab 300 IN TXT "v=spf1 include:wikimedia.org ~all"
 gitlab 300 IN A 208.80.153.8
 gitlab 300 IN AAAA 2620:0:860:1:208:80:153:8
 gitlab 300 IN TXT "google-site-verification=LKETzxPAjLXm4Bq4G-y-kohjataeTuV3I2-qZny5doU" ; to check spam rates in https://postmaster.google.com
-gitlab-replica 300 IN A 208.80.154.15
-gitlab-replica 300 IN AAAA 2620:0:861:1:208:80:154:15
-gitlab-replica-old 300 IN A 208.80.154.145
-gitlab-replica-old 300 IN AAAA 2620:0:861:2:208:80:154:145
+gitlab-replica-old 300 IN A 208.80.154.15
+gitlab-replica-old 300 IN AAAA 2620:0:861:1:208:80:154:15
+gitlab-replica 300 IN A 208.80.154.145
+gitlab-replica 300 IN AAAA 2620:0:861:2:208:80:154:145
 
 graphite        1D IN CNAME dyna.wikimedia.org.
 graphite-labs   1D IN CNAME dyna.wikimedia.org.
