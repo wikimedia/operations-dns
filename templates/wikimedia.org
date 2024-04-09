@@ -450,10 +450,7 @@ gitlab-replica 300 IN A 208.80.154.145
 gitlab-replica 300 IN AAAA 2620:0:861:2:208:80:154:145
 
 graphite        1D IN CNAME dyna.wikimedia.org.
-graphite-labs   1D IN CNAME dyna.wikimedia.org.
 grafana         1D IN CNAME dyna.wikimedia.org.
-grafana-cloud        1D IN CNAME dyna.wikimedia.org.
-grafana-labs         1D IN CNAME dyna.wikimedia.org.
 grafana-next         1D IN CNAME dyna.wikimedia.org.    ; to replace grafana-beta which has a confusing name
 grafana-rw           1D IN CNAME dyna.wikimedia.org.
 grafana-next-rw      1D IN CNAME dyna.wikimedia.org.    ; for sso on grafana-next
