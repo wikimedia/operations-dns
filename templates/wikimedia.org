@@ -551,7 +551,8 @@ tendril         1D IN CNAME dyna.wikimedia.org.
 
 toolhub         1D IN CNAME dyna.wikimedia.org.
 
-toolsadmin      1D IN CNAME dyna.wikimedia.org.
+toolsadmin           1D IN CNAME dyna.wikimedia.org.
+toolsadmin-toolsbeta 1D IN CNAME dyna.wikimedia.org.
 
 url-downloader.eqiad  5M  IN CNAME urldownloader1004
 url-downloader.codfw  5M  IN CNAME urldownloader2003
