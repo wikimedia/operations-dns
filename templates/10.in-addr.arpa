@@ -57,7 +57,7 @@ $ORIGIN 1.2.@Z
 45  1H  IN PTR  eventgate-main.svc.codfw.wmnet.
 46  1H  IN PTR  termbox.svc.codfw.wmnet.
 47  1H  IN PTR  wikifeeds.svc.codfw.wmnet.
-48  1H  IN PTR  kibana-next.svc.codfw.wmnet.
+; 48
 49  1H  IN PTR  echostore.svc.codfw.wmnet.
 50  1H  IN PTR  eventgate-logging-external.svc.codfw.wmnet.
 51  1H  IN PTR  shellbox.svc.codfw.wmnet.
@@ -152,7 +152,7 @@ $ORIGIN 2.2.@Z
 45  1H  IN PTR  eventgate-main.svc.eqiad.wmnet.
 46  1H  IN PTR  termbox.svc.eqiad.wmnet.
 47  1H  IN PTR  wikifeeds.svc.eqiad.wmnet.
-48  1H  IN PTR  kibana-next.svc.eqiad.wmnet.
+;48
 49  1H  IN PTR  echostore.svc.eqiad.wmnet.
 50  1H  IN PTR  eventgate-logging-external.svc.eqiad.wmnet.
 51  1H  IN PTR  shellbox.svc.eqiad.wmnet.
