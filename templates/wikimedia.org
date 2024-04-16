@@ -568,6 +568,7 @@ url-downloader        5M  IN CNAME url-downloader.eqiad
 
 advisors         1D IN CNAME dyna.wikimedia.org.
 advisory         1D IN CNAME dyna.wikimedia.org.
+ae               1H IN CNAME dyna.wikimedia.org.
 affcom           1D IN CNAME dyna.wikimedia.org.
 am               1D IN CNAME dyna.wikimedia.org.
 amical           1D IN CNAME dyna.wikimedia.org.
