@@ -366,6 +366,29 @@ config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install3003.wikimedia.org.
 
+;
+; MAGRU MGMT
+;
+
+$ORIGIN mgmt.magru.wmnet.
+$INCLUDE netbox/mgmt.magru.wmnet
+
+;
+; MAGRU
+;
+
+$ORIGIN magru.wmnet.
+$INCLUDE netbox/magru.wmnet
+
+;
+; SERVICES @ magru
+;
+
+config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
+; TODO - change below to install7001 when ready
+webproxy        5M  IN CNAME    install1004.wikimedia.org.
+
 ; etcd client discovery (RO)
 ; ⚠️ IF YOU EDIT THIS, YOU MUST CLEAR THE DNS CACHE AND GLOBALLY RESTART CONFD !!! T314489
 ; sudo cookbook sre.dns.wipe-cache _etcd._tcp.esams.wmnet

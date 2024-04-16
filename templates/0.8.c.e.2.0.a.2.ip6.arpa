@@ -161,3 +161,56 @@ $INCLUDE netbox/9.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 ; loopbacks - 2a02:ec80:600:ffff::/64
 $ORIGIN f.f.f.f.0.0.6.0.@Z
 $INCLUDE netbox/f.f.f.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+;
+; MAGRU - 2a02:ec80:700::/48
+;
+
+; public1-b3-magru (711) - 2a02:ec80:700:1::/64
+$ORIGIN 1.0.0.0.0.0.7.0.@Z
+$INCLUDE netbox/1.0.0.0.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; public1-b4-magru (712) - 2a02:ec80:700:2::/64
+$ORIGIN 2.0.0.0.0.0.7.0.@Z
+$INCLUDE netbox/2.0.0.0.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; private1-b3-magru (721) - 2a02:ec80:700:101::/64
+$ORIGIN 1.0.1.0.0.0.7.0.@Z
+$INCLUDE netbox/1.0.1.0.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; private1-b4-magru (722) - 2a02:ec80:700:102::/64
+$ORIGIN 2.0.1.0.0.0.7.0.@Z
+$INCLUDE netbox/2.0.1.0.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; magru lvs vips (2a02:ec80:700:ed1a::/64)
+$ORIGIN a.1.d.e.0.0.7.0.@Z
+$INCLUDE netbox/a.1.d.e.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; mr1-magru <-> asw1-b3-magru (2a02:ec80:700:fe02::/64)
+$ORIGIN 2.0.e.f.0.0.7.0.@Z
+$INCLUDE netbox/2.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; mr1-magru <-> asw1-b4-magru (2a02:ec80:700:fe03::/64)
+$ORIGIN 3.0.e.f.0.0.7.0.@Z
+$INCLUDE netbox/3.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr1-magru <-> asw1-b3-magru (2a02:ec80:700:fe06::/64)
+$ORIGIN 6.0.e.f.0.0.7.0.@Z
+$INCLUDE netbox/6.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr1-magru <-> asw1-b4-magru (2a02:ec80:700:fe07::/64)
+$ORIGIN 7.0.e.f.0.0.7.0.@Z
+$INCLUDE netbox/7.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr2-magru <-> asw1-b3-magru (2a02:ec80:700:fe08::/64)
+$ORIGIN 8.0.e.f.0.0.7.0.@Z
+$INCLUDE netbox/8.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr2-magru <-> asw1-b4-magru (2a02:ec80:700:fe09::/64)
+$ORIGIN 9.0.e.f.0.0.7.0.@Z
+$INCLUDE netbox/9.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; Magru network loopbacks (2a02:ec80:700:ffff::/64)
+$ORIGIN f.f.f.f.0.0.7.0.@Z
+$INCLUDE netbox/f.f.f.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+

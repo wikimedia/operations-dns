@@ -1,0 +1,27 @@
+; vim: set expandtab:smarttab
+; {{ serial_comment }}
+@ 1H IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. {{ serial_num }} 12H 2H 2W 1H
+
+; Name servers
+
+@       1D IN NS   ns0.wikimedia.org.
+@       1D IN NS   ns1.wikimedia.org.
+@       1D IN NS   ns2.wikimedia.org.
+
+; MAGRU Public /24
+
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+
+; public1-b3-magru (711)
+$INCLUDE netbox/0-27.68.200.195.in-addr.arpa
+
+; public1-b4-magru (712)
+$INCLUDE netbox/32-27.68.200.195.in-addr.arpa
+
+; Loopbacks & interconnects
+; TODO - Work out why it's making separate file for first /29 here and not for drmrs
+$INCLUDE netbox/128-29.68.200.195.in-addr.arpa
+$INCLUDE netbox/128-27.68.200.195.in-addr.arpa
+
+; LVS service IPs
+$INCLUDE netbox/224-27.68.200.195.in-addr.arpa

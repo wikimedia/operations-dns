@@ -208,6 +208,14 @@ $ORIGIN 4.2.@Z
 
 $ORIGIN 5.2.@Z
 
+; 10.2.6.0/24 - drmrs LVS low-traffic (internal) services
+
+$ORIGIN 6.2.@Z
+
+; 10.2.7.0/24 - magru LVS low-traffic (internal) services
+
+$ORIGIN 7.2.@Z
+
 ; 10.3.0.0/24 - Internal anycast services
 
 $ORIGIN 0.3.@Z
@@ -216,22 +224,6 @@ $ORIGIN 0.3.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0.3.10.in-addr.arpa
 
-;
-; ESAMS
-;
-
-; private1-esams (10.20.0.0/24)
-
-; $ORIGIN 0.20.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-; $INCLUDE netbox/0.20.10.in-addr.arpa
-
-
-; Management
-
-; $ORIGIN 0.21.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-; $INCLUDE netbox/0.21.10.in-addr.arpa
 
 ;
 ; EQIAD (10.64.0.0/12)
@@ -685,6 +677,27 @@ $INCLUDE netbox/127.136.10.in-addr.arpa
 ; 10.136.128.0/17 - drmrs mgmt
 $ORIGIN 128.136.@Z
 $INCLUDE netbox/128.136.10.in-addr.arpa
+
+
+; MAGRU (10.140.0.0/16)
+; https://netbox.wikimedia.org/ipam/prefixes/932/prefixes/
+
+; 10.140.0.0/24 - private1-b3-magru (721)
+$ORIGIN 0.140.@Z
+$INCLUDE netbox/0.140.10.in-addr.arpa
+
+; 10.140.1.0/24 - private1-b4-magru (722)
+$ORIGIN 1.140.@Z
+$INCLUDE netbox/1.140.10.in-addr.arpa
+
+; 10.140.127.0/24 - magru loopbacks & interconnects
+$ORIGIN 127.140.@Z
+$INCLUDE netbox/127.140.10.in-addr.arpa
+
+; 10.140.128.0/24 - magru mgmt first /24
+$ORIGIN 128.140.@Z
+$INCLUDE netbox/128.140.10.in-addr.arpa
+
 
 ;
 ; CODFW (10.192.0.0/12)
