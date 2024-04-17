@@ -227,6 +227,9 @@ ntp.eqsin           1H  IN CNAME ntp.anycast.wmnet.
 ;;; drmrs
 ntp.drmrs           1H  IN CNAME ntp.anycast.wmnet.
 
+;;; magru
+ntp.magru           1H  IN CNAME ntp.anycast.wmnet.
+
 ; Round Robin LVS Service records
 
 ;;; eqiad (only records not auto-generated from Netbox)
@@ -274,6 +277,7 @@ measure-esams       1D IN CNAME upload-lb.esams.wikimedia.org.
 measure-ulsfo       1D IN CNAME upload-lb.ulsfo.wikimedia.org.
 measure-eqsin       1D IN CNAME upload-lb.eqsin.wikimedia.org.
 measure-drmrs       1D IN CNAME upload-lb.drmrs.wikimedia.org.
+measure-magru       1D IN CNAME upload-lb.magru.wikimedia.org.
 
 
 ; Mobile
@@ -520,6 +524,7 @@ prometheus-esams 1H  IN CNAME dyna.wikimedia.org.
 prometheus-ulsfo 1H  IN CNAME dyna.wikimedia.org.
 prometheus-eqsin 1H  IN CNAME dyna.wikimedia.org.
 prometheus-drmrs 1H  IN CNAME dyna.wikimedia.org.
+prometheus-magru 1H  IN CNAME dyna.wikimedia.org.
 
 puppetboard      1D IN CNAME dyna.wikimedia.org.
 puppetboard-idptest 1D IN CNAME dyna.wikimedia.org.
