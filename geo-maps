@@ -302,6 +302,7 @@ generic-map => {
         10.2.3.0/24        => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # esams LVS
         10.2.4.0/24        => [ulsfo, codfw, eqiad, esams, drmrs, eqsin], # ulsfo LVS
         10.2.5.0/24        => [eqsin, codfw, eqiad, ulsfo, esams, drmrs], # eqsin LVS
+        10.2.6.0/24        => [drmrs, esams, eqiad, codfw, ulsfo, eqsin], # drmrs LVS
         10.64.0.0/12       => [eqiad, codfw, ulsfo, esams, drmrs, eqsin], # eqiad private/mgmt
         10.80.0.0/16       => [esams, drmrs, eqiad, codfw, ulsfo, eqsin], # esams private/mgmt
         10.128.0.0/16      => [ulsfo, codfw, eqiad, esams, drmrs, eqsin], # ulsfo private/mgmt
