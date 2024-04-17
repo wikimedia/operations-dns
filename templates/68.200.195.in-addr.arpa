@@ -19,7 +19,6 @@ $INCLUDE netbox/0-27.68.200.195.in-addr.arpa
 $INCLUDE netbox/32-27.68.200.195.in-addr.arpa
 
 ; Loopbacks & interconnects
-; TODO - Work out why it's making separate file for first /29 here and not for drmrs
 $INCLUDE netbox/128-29.68.200.195.in-addr.arpa
 $INCLUDE netbox/128-27.68.200.195.in-addr.arpa
 
