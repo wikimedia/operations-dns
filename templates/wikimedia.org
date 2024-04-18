@@ -713,6 +713,8 @@ coffee           1D IN CNAME dyna.wikimedia.org.
 cs               1D IN CNAME dyna.wikimedia.org.
 cz               1D IN CNAME dyna.wikimedia.org.
 datasets         1D IN CNAME dyna.wikimedia.org.
+datasets-config  1D IN CNAME dyna.wikimedia.org.
+datasets-config-next 1D IN CNAME dyna.wikimedia.org.
 diff             1H IN CNAME blog-wikimedia-org.go-vip.net.
 download         1D IN CNAME dyna.wikimedia.org.
 etherpad         1D IN CNAME dyna.wikimedia.org.
