@@ -65,6 +65,9 @@ n1j3._domainkey     1H IN CNAME dkim3.327bdf87d37c.p413.email.myshopify.com.
 2i3._domainkey      1H IN CNAME dkim1.edd08f1c196d.p234.email.myshopify.com.
 2i32._domainkey     1H IN CNAME dkim2.edd08f1c196d.p234.email.myshopify.com.
 2i33._domainkey     1H IN CNAME dkim3.edd08f1c196d.p234.email.myshopify.com.
+; Mailchimp; see T362921
+k2._domainkey       1H IN CNAME dkim2.mcsv.net.
+k3._domainkey       1H IN CNAME dkim3.mcsv.net.
 
 ; DMARC records http://dmarc.org/ -- policy none (monitor), for now
 _dmarc          1H  IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
