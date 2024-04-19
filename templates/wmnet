@@ -970,7 +970,7 @@ testreduce            300 IN CNAME testreduce1002.eqiad.wmnet.
 
 ; Use a discovery record for prometheus-pushgateway singleton.
 ; No LVS/conftool involved in this case
-prometheus-pushgateway 300 IN CNAME prometheus1005.eqiad.wmnet.
+prometheus-pushgateway 300 IN CNAME prometheus1006.eqiad.wmnet.
 
 ; A wildcard pointing to the ingress LVS of the currently active staging
 ; cluster (which is active/passive) to make accessing services, validating
