@@ -363,10 +363,28 @@ $INCLUDE netbox/esams.wmnet
 ;
 ; SERVICES @ esams
 ;
+
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install3003.wikimedia.org.
 
+; etcd client discovery (RO)
+; ⚠️ IF YOU EDIT THIS, YOU MUST CLEAR THE DNS CACHE AND GLOBALLY RESTART CONFD !!! T314489
+; sudo cookbook sre.dns.wipe-cache _etcd._tcp.esams.wmnet
+; sudo cumin 'C:confd' 'systemctl restart confd'
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+; v3 and newer clients.
+_etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+; ⚠️ IF YOU EDIT THIS, YOU MUST CLEAR THE DNS CACHE AND GLOBALLY RESTART CONFD !!! T314489
+
+; Conftool (RW)
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 ;
 ; MAGRU MGMT
 ;
@@ -392,7 +410,7 @@ webproxy        5M  IN CNAME    install1004.wikimedia.org.
 
 ; etcd client discovery (RO)
 ; ⚠️ IF YOU EDIT THIS, YOU MUST CLEAR THE DNS CACHE AND GLOBALLY RESTART CONFD !!! T314489
-; sudo cookbook sre.dns.wipe-cache _etcd._tcp.esams.wmnet
+; sudo cookbook sre.dns.wipe-cache _etcd._tcp.magru.wmnet
 ; sudo cumin 'C:confd' 'systemctl restart confd'
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
 _etcd._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
