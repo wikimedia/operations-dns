@@ -56,11 +56,6 @@ $ORIGIN 4.0.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/4.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; private1-a1-codfw (2620:0:860:105::/64)
-$ORIGIN 5.0.1.0.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/5.0.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
-
 ; private1-a3-codfw (2620:0:860:106::/64)
 $ORIGIN 6.0.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox

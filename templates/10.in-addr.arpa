@@ -708,11 +708,6 @@ $ORIGIN 0.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0.192.10.in-addr.arpa
 
-; 10.192.4.0/24 - private1-a1-codfw
-$ORIGIN 4.192.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/4.192.10.in-addr.arpa
-
 ; 10.192.5.0/24 - private1-a3-codfw
 $ORIGIN 5.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
