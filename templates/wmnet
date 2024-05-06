@@ -719,8 +719,7 @@ prometheus  1H  IN CNAME    prometheus6002.drmrs.wmnet.
 
 $ORIGIN svc.magru.wmnet.
 $INCLUDE netbox/svc.magru.wmnet
-; TODO - uncomment below when VM ready
-;prometheus  1H  IN CNAME    prometheus7001.magru.wmnet.
+prometheus  1H  IN CNAME    prometheus7001.magru.wmnet.
 
 ; CODFW SERVICES
 
