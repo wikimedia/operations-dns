@@ -26,7 +26,7 @@ $ORIGIN codfw1dev.wikimediacloud.org.
 object 5M IN CNAME openstack ; object storage (Swift/S3)
 
 ; Rabbitmq nodes
-rabbitmq01 5M  IN CNAME  cloudcontrol2001-dev.private.codfw.wikimedia.cloud.
+rabbitmq01 5M  IN CNAME  cloudcontrol2006-dev.private.codfw.wikimedia.cloud.
 rabbitmq02 5M  IN CNAME  cloudcontrol2004-dev.private.codfw.wikimedia.cloud.
 rabbitmq03 5M  IN CNAME  cloudcontrol2005-dev.private.codfw.wikimedia.cloud.
 
