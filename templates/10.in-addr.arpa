@@ -703,10 +703,15 @@ $INCLUDE netbox/128.140.10.in-addr.arpa
 ; CODFW (10.192.0.0/12)
 ;
 
-; 10.192.0.0/22 - private1-a-codfw
+; 10.192.0.0/24 - private1-a-codfw first /24
 $ORIGIN 0.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0.192.10.in-addr.arpa
+
+; 10.192.4.0/24 - private1-c1-codfw
+$ORIGIN 4.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/4.192.10.in-addr.arpa
 
 ; 10.192.5.0/24 - private1-a3-codfw
 $ORIGIN 5.192.@Z
@@ -763,7 +768,7 @@ $ORIGIN 15.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/15.192.10.in-addr.arpa
 
-; 10.192.16.0/22 - private1-b-codfw
+; 10.192.16.0/24 - private1-b-codfw first /24
 $ORIGIN 16.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/16.192.10.in-addr.arpa
@@ -793,12 +798,77 @@ $ORIGIN 24.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/24.192.10.in-addr.arpa
 
-; 10.192.32.0/22 - private1-c-codfw
+; 10.192.26.0/24 - private1-c2-codfw
+$ORIGIN 26.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/26.192.10.in-addr.arpa
+
+; 10.192.27.0/24 - private1-c3-codfw
+$ORIGIN 27.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/27.192.10.in-addr.arpa
+
+; 10.192.28.0/24 - private1-c4-codfw
+$ORIGIN 28.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/28.192.10.in-addr.arpa
+
+; 10.192.29.0/24 - private1-c5-codfw
+$ORIGIN 29.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/29.192.10.in-addr.arpa
+
+; 10.192.30.0/24 - private1-c6-codfw
+$ORIGIN 30.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/30.192.10.in-addr.arpa
+
+; 10.192.31.0/24 - private1-c7-codfw
+$ORIGIN 31.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/31.192.10.in-addr.arpa
+
+; 10.192.32.0/24 - private1-c-codfw first /24
 $ORIGIN 32.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/32.192.10.in-addr.arpa
 
-; 10.192.48.0/22 - private1-d-codfw
+; 10.192.36.0/24 - private1-d1-codfw
+$ORIGIN 36.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/36.192.10.in-addr.arpa
+
+; 10.192.37.0/24 - private1-d2-codfw
+$ORIGIN 37.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/37.192.10.in-addr.arpa
+
+; 10.192.38.0/24 - private1-d3-codfw
+$ORIGIN 38.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/38.192.10.in-addr.arpa
+
+; 10.192.39.0/24 - private1-d4-codfw
+$ORIGIN 39.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/39.192.10.in-addr.arpa
+
+; 10.192.40.0/24 - private1-d5-codfw
+$ORIGIN 40.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/40.192.10.in-addr.arpa
+
+; 10.192.41.0/24 - private1-d6-codfw
+$ORIGIN 41.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/41.192.10.in-addr.arpa
+
+; 10.192.42.0/24 - private1-d7-codfw
+$ORIGIN 42.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/42.192.10.in-addr.arpa
+
+; 10.192.48.0/24 - private1-d-codfw first /24
 $ORIGIN 48.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/48.192.10.in-addr.arpa
