@@ -277,9 +277,11 @@ _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd2001.cod
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd2002.codfw.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd2003.codfw.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster2003.codfw.wmnet.
+_etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster2004.codfw.wmnet.
 _etcd-client-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2379 kubestagetcd2001.codfw.wmnet.
 _etcd-client-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2379 kubestagetcd2002.codfw.wmnet.
 _etcd-client-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2379 kubestagetcd2003.codfw.wmnet.
+_etcd-client-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2379 kubestagemaster2003.codfw.wmnet.
 
 ; CODFW ML-Team etcd cluster
 _etcd-server-ssl._tcp.ml-etcd 5M  IN SRV      0 1 2380 ml-etcd2001.codfw.wmnet.
