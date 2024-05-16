@@ -669,6 +669,8 @@ spark-history            1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 spark-history-test       1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 superset                 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 superset-next            1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+datahub-frontend-next    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+datahub-gms-next         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 
 ; K8S EQIAD STAGING SERVICES
 
