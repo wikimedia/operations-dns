@@ -121,15 +121,9 @@ _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1006.eqiad.wmnet.
 _etcd-client-ssl._tcp.k8s3 5M  IN SRV      0 1 2379 kubetcd1004.eqiad.wmnet.
 _etcd-client-ssl._tcp.k8s3 5M  IN SRV      0 1 2379 kubetcd1005.eqiad.wmnet.
 _etcd-client-ssl._tcp.k8s3 5M  IN SRV      0 1 2379 kubetcd1006.eqiad.wmnet.
-_etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd1004.eqiad.wmnet.
-_etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd1005.eqiad.wmnet.
-_etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagetcd1006.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster1003.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster1004.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster1005.eqiad.wmnet.
-_etcd-client-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2379 kubestagetcd1004.eqiad.wmnet.
-_etcd-client-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2379 kubestagetcd1005.eqiad.wmnet.
-_etcd-client-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2379 kubestagetcd1006.eqiad.wmnet.
 
 ; EQIAD ML-Team etcd cluster
 _etcd-server-ssl._tcp.ml-etcd 5M  IN SRV      0 1 2380 ml-etcd1001.eqiad.wmnet.
