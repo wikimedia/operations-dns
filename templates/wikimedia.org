@@ -415,6 +415,7 @@ config-master   1D IN CNAME dyna.wikimedia.org.
 contint         5M IN CNAME contint1002.wikimedia.org.
 
 datahub         1D IN CNAME dyna.wikimedia.org.
+datahub-next    1D IN CNAME dyna.wikimedia.org.
 
 design          1D IN CNAME dyna.wikimedia.org.
 
