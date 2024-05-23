@@ -248,9 +248,6 @@ cxserver            1D IN CNAME dyna.wikimedia.org.
 ores                1D IN CNAME dyna.wikimedia.org.
 ores-legacy         1D IN CNAME dyna.wikimedia.org.
 
-; blubberoid
-blubberoid          1D IN CNAME dyna.wikimedia.org.
-
 ;;; ulsfo (only records not auto-generated from Netbox)
 donate-lb.ulsfo     1H IN A 198.35.26.96 ; same IP of text-lb
 donate-lb.ulsfo     1H IN AAAA 2620:0:863:ed1a::1 ; same IP of text-lb

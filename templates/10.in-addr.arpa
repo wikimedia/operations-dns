@@ -40,7 +40,6 @@ $ORIGIN 1.2.@Z
 28  1H  IN PTR  parsoid.svc.codfw.wmnet.
 29  1H  IN PTR  sessionstore.svc.codfw.wmnet.
 30  1H  IN PTR  search.svc.codfw.wmnet.
-31  1H  IN PTR  blubberoid.svc.eqiad.wmnet.
 32  1H  IN PTR  wdqs.svc.codfw.wmnet.
 ; 33
 34  1H  IN PTR  eventstreams.svc.codfw.wmnet.
@@ -135,7 +134,6 @@ $ORIGIN 2.2.@Z
 28  1H  IN PTR  parsoid.svc.eqiad.wmnet.
 29  1H  IN PTR  sessionstore.svc.eqiad.wmnet.
 30  1H  IN PTR  search.svc.eqiad.wmnet.
-31  1H  IN PTR  blubberoid.svc.eqiad.wmnet.
 32  1H  IN PTR  wdqs.svc.eqiad.wmnet.
 ; 33
 34  1H  IN PTR  eventstreams.svc.eqiad.wmnet.
