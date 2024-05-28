@@ -117,6 +117,7 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 ; kubernetes-related records (etcdv3)
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl1001.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl1002.eqiad.wmnet.
+_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl1003.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1004.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1005.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1006.eqiad.wmnet.
