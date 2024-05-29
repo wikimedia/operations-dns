@@ -28,6 +28,7 @@
 _dmarc                  600     IN TXT "v=DMARC1; p=quarantine; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
 
 ; SPF records
+; VRTS uses the wikipedia.org domain as a From address
 @                       600     IN TXT  "v=spf1 include:_cidrs.wikimedia.org ~all"
 
 ; CAA records
