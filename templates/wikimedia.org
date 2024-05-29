@@ -13,6 +13,7 @@ ns2         1D  IN A    198.35.27.27 ; anycasted authdns
 
 ; Mail exchangers
 
+@           300 IN MX   10  mx-in1001
 @           300 IN MX   10  mx1001
 @           300 IN MX   10  mx2001
 
@@ -86,6 +87,7 @@ w.wiki._report._dmarc             1H  IN TXT "v=DMARC1;"
 wikipedia.org._report._dmarc      1H  IN TXT "v=DMARC1;"
 
 ; Mail records for pr.wikimedia.org
+pr   300 IN MX 10 mx-in1001
 pr   300 IN MX 10 mx1001
 pr   300 IN MX 10 mx2001
 pr   1H  IN TXT "amazonses:QeZasSSTVw5sDiCQmdzG4z4UuLgkRtceplXtv2SI2BY="
@@ -179,6 +181,7 @@ upload      300 IN DYNA geoip!upload-addrs
 maps        600 IN CNAME upload.wikimedia.org.
 m           1D IN CNAME dyna.wikimedia.org.
 donate      300 IN DYNA geoip!text-addrs
+donate          300 IN MX       10 mx-in1001
 donate          300 IN MX       10 mx1001
 donate          300 IN MX       50 mx2001
 donate          5M  IN TXT  "v=spf1 ip4:185.15.59.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
@@ -400,6 +403,7 @@ apt-staging     1D IN CNAME dyna.wikimedia.org.
 archiva         1H  IN CNAME    archiva1002
 
 benefactors     300 IN DYNA     geoip!text-addrs
+benefactors     300 IN MX       10 mx-in1001
 benefactors     300 IN MX       10 mx1001
 benefactors     300 IN MX       50 mx2001
 benefactors     1H  IN TXT      "v=spf1 include:wikimedia.org include:spf.mandrillapp.com -all"
@@ -502,6 +506,7 @@ ldap-eqiad      1H  IN CNAME    seaborgium
 ldap-codfw      1H  IN CNAME    serpens
 
 phabricator     300 IN DYNA     geoip!text-addrs
+phabricator     300 IN MX       10 mx-in1001
 phabricator     300 IN MX       10 mx1001
 phabricator     300 IN MX       10 mx2001
 phabricator     1H  IN TXT      "v=spf1 include:_cidrs.wikimedia.org ~all"
@@ -718,6 +723,7 @@ gh-mail          1H  IN TXT  "v=spf1 include:mg-spf.greenhouse.io ~all"
 email.gh-mail    1H  IN CNAME    mailgun.org.
 mailo._domainkey 1H  IN TXT      "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDsCM/wv9cgbIAwNt2mDHSxgeEmwvvJW99zCdy9J2yuFykNA2r7ZEXjl33CsoEqODCorPFEsgn3zg8ixSetXcujgUR0YuNRYSbhnaK+lW1nDyjYsW2G6Snev7Wz20tpGMGIQbVQPMOJNSl5yoBnvZBPB5Uajvu0pZTcKJMSnlGd7wIDAQAB"
 civicrm          1H  IN A        208.80.155.17
+civicrm          300 IN MX       10 mx-in1001
 civicrm          300 IN MX       10 mx1001
 civicrm          300 IN MX       10 mx2001
 civicrm.frdev    1H  IN CNAME    frdev-eqiad
