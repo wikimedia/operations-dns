@@ -550,6 +550,7 @@ $ORIGIN svc.eqiad.wmnet.
 appservers  1H  IN A        10.2.2.1
 videoscaler 1H  IN A        10.2.2.5
 kubemaster  1H  IN A        10.2.2.8
+apus        1H  IN A        10.2.2.10
 apertium    1H  IN A        10.2.2.11
 kartotherian 1H IN A        10.2.2.13
 mobileapps  1H  IN A        10.2.2.14
@@ -727,7 +728,7 @@ $ORIGIN svc.codfw.wmnet.
 appservers      1H  IN A        10.2.1.1
 videoscaler     1H  IN A        10.2.1.5
 kubemaster      1H  IN A        10.2.1.8
-
+apus            1H  IN A        10.2.1.10
 apertium        1H  IN A        10.2.1.11
 kartotherian    1H  IN A        10.2.1.13
 mobileapps      1H  IN A        10.2.1.14
