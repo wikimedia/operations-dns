@@ -8,8 +8,8 @@
 @               1D  IN NS   ns2.wikimedia.org.
 
 ; Mail exchangers
-@               1H  IN MX   10  mx1001.wikimedia.org.
-@               1H  IN MX   10  mx2001.wikimedia.org.
+@               300 IN MX   10  mx1001.wikimedia.org.
+@               300 IN MX   10  mx2001.wikimedia.org.
 
 ; Canonical names
 @               300 IN DYNA geoip!text-addrs
