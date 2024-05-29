@@ -28,7 +28,7 @@
 _dmarc                  600     IN TXT "v=DMARC1; p=quarantine; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
 
 ; SPF records
-@                       600     IN TXT  "v=spf1 -all"
+@                       600     IN TXT  "v=spf1 include:_cidrs.wikimedia.org ~all"
 
 ; CAA records
 @                       600     IN CAA 0 issue "digicert.com"
