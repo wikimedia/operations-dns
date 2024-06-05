@@ -31,6 +31,10 @@ wpt                     1H      IN A    54.69.228.169
 ; https://phabricator.wikimedia.org/T231870
 wpt-graphite            1H      IN A    3.221.230.90
 
+; Graphite instance on Hetzner for performance testing
+; https://phabricator.wikimedia.org/T366669
+performance-testing-graphite            1H      IN A    138.201.202.179
+
 ; WebPageReplay on AWS
 ; https://wikitech.wikimedia.org/wiki/Performance/WebPageReplay
 wpr-mobile              1H      IN A    54.147.150.71
