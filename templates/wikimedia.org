@@ -351,6 +351,7 @@ steward.m           1D IN CNAME dyna.wikimedia.org.
 strategy.m          1D IN CNAME dyna.wikimedia.org.
 test-commons.m      1D IN CNAME dyna.wikimedia.org.
 tr.m                1D IN CNAME dyna.wikimedia.org.
+u4c.m               1D IN CNAME dyna.wikimedia.org.
 ua.m                1D IN CNAME dyna.wikimedia.org.
 usability.m         1D IN CNAME dyna.wikimedia.org.
 uz.m                1D IN CNAME dyna.wikimedia.org.
@@ -671,6 +672,7 @@ techconduct      1D IN CNAME dyna.wikimedia.org.
 test-commons     1D IN CNAME dyna.wikimedia.org.
 tr               1D IN CNAME dyna.wikimedia.org.
 transitionteam   1D IN CNAME dyna.wikimedia.org.
+u4c              1D IN CNAME dyna.wikimedia.org.
 ua               1D IN CNAME dyna.wikimedia.org.
 uk               1D IN CNAME dyna.wikimedia.org.
 usability        1D IN CNAME dyna.wikimedia.org.
