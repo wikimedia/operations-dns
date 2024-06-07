@@ -565,7 +565,7 @@ citoid      1H  IN A        10.2.2.19
 mathoid     1H  IN A        10.2.2.20
 proton      1H  IN A        10.2.2.21
 api         1H  IN A        10.2.2.22
-; 23 was eventbus
+linkrecommendation  1H  IN A 10.2.2.23
 thumbor     1H  IN A        10.2.2.24
 prometheus  1H  IN A        10.2.2.25
 jobrunner   1H  IN A        10.2.2.26
@@ -597,7 +597,6 @@ thanos-swift    1H  IN A    10.2.2.54
 thanos-web      1H  IN A    10.2.2.77
 api-gateway     1H  IN A    10.2.2.55
 push-notifications  1H  IN A    10.2.2.56
-linkrecommendation  1H  IN A    10.2.2.23
 shellbox        1H  IN A    10.2.2.51
 device-analytics    1H  IN A    10.2.2.80
 rest-gateway    1H  IN A    10.2.2.82
@@ -742,7 +741,7 @@ citoid          1H  IN A        10.2.1.19
 mathoid         1H  IN A        10.2.1.20
 proton          1H  IN A        10.2.1.21
 api             1H  IN A        10.2.1.22
-; 23 was eventbus
+linkrecommendation  1H  IN A    10.2.1.23
 thumbor         1H  IN A        10.2.1.24
 prometheus      1H  IN A        10.2.1.25
 jobrunner       1H  IN A        10.2.1.26
@@ -775,7 +774,6 @@ thanos-swift    1H  IN A    10.2.1.54
 thanos-web      1H  IN A    10.2.1.77
 api-gateway     1H  IN A    10.2.1.55
 push-notifications  1H  IN A    10.2.1.56
-linkrecommendation  1H  IN A    10.2.1.23
 shellbox        1H  IN A    10.2.1.51
 device-analytics    1H  IN A    10.2.1.80
 rest-gateway    1H  IN A    10.2.1.82
