@@ -23,6 +23,7 @@ disc-apt                 => { datacenters => mock, dcmap => { mock => 192.0.2.1 
 disc-appservers-rw       => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-api-rw              => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-jobrunner           => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
+disc-logstash            => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-videoscaler         => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-mw-web              => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-mw-api-ext          => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
