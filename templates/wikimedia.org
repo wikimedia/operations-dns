@@ -654,7 +654,6 @@ outreach         1D IN CNAME dyna.wikimedia.org.
 pa-us            1D IN CNAME dyna.wikimedia.org.
 pt               1D IN CNAME dyna.wikimedia.org.
 punjabi          1D IN CNAME dyna.wikimedia.org.
-pk               1D IN CNAME dyna.wikimedia.org.
 pl               1D IN CNAME dyna.wikimedia.org.
 projectcom       1D IN CNAME dyna.wikimedia.org.
 quality          1D IN CNAME dyna.wikimedia.org.
