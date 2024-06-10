@@ -633,7 +633,6 @@ initiatives      1D IN CNAME dyna.wikimedia.org.
 internal         1D IN CNAME dyna.wikimedia.org.
 it               1D IN CNAME dyna.wikimedia.org.
 kr               1D IN CNAME dyna.wikimedia.org.
-langcom          1D IN CNAME dyna.wikimedia.org.
 legalteam        1D IN CNAME dyna.wikimedia.org.
 mai              1D IN CNAME dyna.wikimedia.org.
 meta             1D IN CNAME dyna.wikimedia.org.
