@@ -277,6 +277,15 @@ generic-map => {
             WF => [ulsfo, eqsin, codfw, eqiad, esams, drmrs, magru], # Wallis and Futuna
             WS => [ulsfo, eqsin, codfw, eqiad, esams, drmrs, magru], # Samoa
         },
+        SA => {
+            # magru mappings for progressive rollout of new DC: T359054
+            # keep the default below since we may need a SA-specific one that
+            # overrides the global default.
+            default => [eqiad, codfw, magru, esams, drmrs, ulsfo, eqsin],
+            # we start by sending BO and PY to magru.
+            BO => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Bolivia
+            PY => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Paraguay
+        },
     },
     nets = {
         # Wikimedia address space
