@@ -25,8 +25,8 @@ $INCLUDE netbox/64-26.154.80.208.in-addr.arpa
 $INCLUDE netbox/128-26.154.80.208.in-addr.arpa
 
 ; Manual records
-145 300  IN PTR gitlab-replica.wikimedia.org.  ; service IP for gitlab
-151 300  IN PTR  gerrit.wikimedia.org. ; service IP for gerrit (>=bullseye)
+145 300  IN PTR gitlab-replica-a.wikimedia.org.  ; service IP for gitlab
+151 300  IN PTR gerrit.wikimedia.org. ; service IP for gerrit (>=bullseye)
 
 ; Neighbor blocks (208.80.154.192/27)
 
