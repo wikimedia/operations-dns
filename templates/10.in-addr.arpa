@@ -75,7 +75,7 @@ $ORIGIN 1.2.@Z
 65  1H  IN PTR  shellbox-syntaxhighlight.svc.codfw.wmnet.
 66  1H  IN PTR  shellbox-timeline.svc.codfw.wmnet.
 67  1H  IN PTR  wcqs.svc.codfw.wmnet.
-; 68
+68  1H  IN PTR  shellbox-video.svc.codfw.wmnet.
 69  1H  IN PTR  k8s-ingress-staging.svc.codfw.wmnet.
 70  1H  IN PTR  k8s-ingress-wikikube.svc.codfw.wmnet.
 ; 71 reserved for datahubsearch.svc.codfw.wmnet.
@@ -168,7 +168,7 @@ $ORIGIN 2.2.@Z
 65  1H  IN PTR  shellbox-syntaxhighlight.svc.eqiad.wmnet.
 66  1H  IN PTR  shellbox-timeline.svc.eqiad.wmnet.
 67  1H  IN PTR  wcqs.svc.eqiad.wmnet.
-; 68
+68  1H  IN PTR  shellbox-video.svc.eqiad.wmnet.
 69  1H  IN PTR  k8s-ingress-staging.svc.eqiad.wmnet.
 70  1H  IN PTR  k8s-ingress-wikikube.svc.eqiad.wmnet.
 71  1H  IN PTR  datahubsearch.svc.eqiad.wmnet.
