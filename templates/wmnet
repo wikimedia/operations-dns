@@ -271,7 +271,6 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2004.codfw.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2005.codfw.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2006.codfw.wmnet.
-_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl2002.codfw.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl2003.codfw.wmnet.
 _etcd-client-ssl._tcp.k8s3 5M  IN SRV      0 1 2379 kubetcd2004.codfw.wmnet.
 _etcd-client-ssl._tcp.k8s3 5M  IN SRV      0 1 2379 kubetcd2005.codfw.wmnet.
