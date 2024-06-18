@@ -17,7 +17,6 @@ $INCLUDE netbox/1.0.0.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; Manual records
 5.1.0.0.4.5.1.0.0.8.0.0.8.0.2.0 300 IN PTR  gitlab-replica-b.wikimedia.org. ; service IP for gitlab
-1.2.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   lists.wikimedia.org. ; service IP for lists
 
 ; public1-b-eqiad (2620:0:861:2::/64)
 $ORIGIN 2.0.0.0.@Z
@@ -32,6 +31,9 @@ $INCLUDE netbox/2.0.0.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 3.0.0.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/3.0.0.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Manual records
+1.8.0.0.4.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   lists.wikimedia.org. ; service IP for lists
 
 ; public1-d-eqiad (2620:0:861:4::/64)
 $ORIGIN 4.0.0.0.@Z
