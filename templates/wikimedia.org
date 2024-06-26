@@ -418,8 +418,6 @@ mandrill._domainkey.benefactors 1H IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQE
 ; Mexico Awareness Campaign (T207816)
 bienvenida      1D IN CNAME dyna.wikimedia.org.
 
-cache           1D IN CNAME dyna.wikimedia.org.
-
 cloudtestidm    1D IN CNAME dyna.wikimedia.org.
 
 commons-query   1D IN CNAME dyna.wikimedia.org.
