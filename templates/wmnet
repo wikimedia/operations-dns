@@ -544,7 +544,6 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 ; EQIAD SERVICES
 
 $ORIGIN svc.eqiad.wmnet.
-appservers  1H  IN A        10.2.2.1
 videoscaler 1H  IN A        10.2.2.5
 kubemaster  1H  IN A        10.2.2.8
 apus        1H  IN A        10.2.2.10
@@ -559,7 +558,6 @@ cxserver    1H  IN A        10.2.2.18
 citoid      1H  IN A        10.2.2.19
 mathoid     1H  IN A        10.2.2.20
 proton      1H  IN A        10.2.2.21
-api         1H  IN A        10.2.2.22
 linkrecommendation  1H  IN A 10.2.2.23
 thumbor     1H  IN A        10.2.2.24
 prometheus  1H  IN A        10.2.2.25
@@ -723,7 +721,6 @@ prometheus  1H  IN CNAME    prometheus7001.magru.wmnet.
 
 $ORIGIN svc.codfw.wmnet.
 
-appservers      1H  IN A        10.2.1.1
 videoscaler     1H  IN A        10.2.1.5
 kubemaster      1H  IN A        10.2.1.8
 apus            1H  IN A        10.2.1.10
@@ -738,7 +735,6 @@ cxserver        1H  IN A        10.2.1.18
 citoid          1H  IN A        10.2.1.19
 mathoid         1H  IN A        10.2.1.20
 proton          1H  IN A        10.2.1.21
-api             1H  IN A        10.2.1.22
 linkrecommendation  1H  IN A    10.2.1.23
 thumbor         1H  IN A        10.2.1.24
 prometheus      1H  IN A        10.2.1.25
@@ -843,12 +839,6 @@ termbox-test    1H  IN CNAME    staging.svc.codfw.wmnet.
 
 $ORIGIN discovery.wmnet.
 ; MediaWiki related
-; directed to disc-failoid to support soft turndown - T367949
-appservers-ro  300/10 IN DYNA geoip!disc-failoid
-appservers-rw  300/10 IN DYNA metafo!disc-appservers-rw
-; directed to disc-failoid to support soft turndown - T367949
-api-ro         300/10 IN DYNA geoip!disc-failoid
-api-rw         300/10 IN DYNA metafo!disc-api-rw
 jobrunner      300/10 IN DYNA metafo!disc-jobrunner
 logstash       300/10 IN DYNA metafo!disc-logstash
 videoscaler    300/10 IN DYNA metafo!disc-videoscaler
