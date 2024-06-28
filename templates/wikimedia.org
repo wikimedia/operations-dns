@@ -307,6 +307,7 @@ cn.m                1D IN CNAME dyna.wikimedia.org.
 co.m                1D IN CNAME dyna.wikimedia.org.
 commons.m           1D IN CNAME dyna.wikimedia.org.
 dk.m                1D IN CNAME dyna.wikimedia.org.
+donate.m            1D IN CNAME dyna.wikimedia.org.
 ec.m                1D IN CNAME dyna.wikimedia.org.
 ee.m                1D IN CNAME dyna.wikimedia.org.
 electcom.m          1D IN CNAME dyna.wikimedia.org.
