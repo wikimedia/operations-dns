@@ -10,6 +10,8 @@
 
 ; Mail exchangers
 
+@           300 IN MX   10      mx-in1001.wikimedia.org.
+@           300 IN MX   10      mx-in2001.wikimedia.org.
 @           300 IN MX   10      mx1001.wikimedia.org.
 @           300 IN MX   10      mx2001.wikimedia.org.
 
