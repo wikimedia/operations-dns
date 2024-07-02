@@ -15,8 +15,6 @@ ns2         1D  IN A    198.35.27.27 ; anycasted authdns
 
 @           300 IN MX   10  mx-in1001
 @           300 IN MX   10  mx-in2001
-@           300 IN MX   10  mx1001
-@           300 IN MX   10  mx2001
 
 ; Canonical names
 @           300 IN DYNA geoip!text-addrs
@@ -93,8 +91,6 @@ wikipedia.org._report._dmarc      1H  IN TXT "v=DMARC1;"
 ; Mail records for pr.wikimedia.org
 pr   300 IN MX 10 mx-in1001
 pr   300 IN MX 10 mx-in2001
-pr   300 IN MX 10 mx1001
-pr   300 IN MX 10 mx2001
 pr   1H  IN TXT "amazonses:QeZasSSTVw5sDiCQmdzG4z4UuLgkRtceplXtv2SI2BY="
 lecokkzzn6akfzusmban7ufr6xw2g5ye._domainkey.pr  1H IN CNAME lecokkzzn6akfzusmban7ufr6xw2g5ye.dkim.amazonses.com.
 kilujm6hbzryz5wrq5l3dkb5la5rrxgc._domainkey.pr  1H IN CNAME kilujm6hbzryz5wrq5l3dkb5la5rrxgc.dkim.amazonses.com.
@@ -188,8 +184,6 @@ m           1D IN CNAME dyna.wikimedia.org.
 donate      300 IN DYNA geoip!text-addrs
 donate          300 IN MX       10 mx-in1001
 donate          300 IN MX       10 mx-in2001
-donate          300 IN MX       10 mx1001
-donate          300 IN MX       50 mx2001
 donate          5M  IN TXT  "v=spf1 ip4:185.15.59.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
 ; Google site verification for https://postmaster.google.com
 donate          300 IN TXT  "google-site-verification=JjhlduqLloGdWYGuMopl6ZyeNHh5Exph9dISsMGSo90"
@@ -412,8 +406,6 @@ archiva         1H  IN CNAME    archiva1002
 benefactors     300 IN DYNA     geoip!text-addrs
 benefactors     300 IN MX       10 mx-in1001
 benefactors     300 IN MX       10 mx-in2001
-benefactors     300 IN MX       10 mx1001
-benefactors     300 IN MX       50 mx2001
 benefactors     1H  IN TXT      "v=spf1 include:wikimedia.org include:spf.mandrillapp.com -all"
 mandrill._domainkey.benefactors 1H IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrLHiExVd55zd/IQ/J/mRwSRMAocV/hMB3jXwaHH36d9NaVynQFYV8NaWi69c1veUtRzGt7yAioXqLj7Z4TeEUoOLgrKsn8YnckGs9i3B3tVFB+Ch/4mPhXWiNfNdynHWBcPcbJ8kjEQ2U8y78dHZj1YeRXXVvWob2OaKynO8/lQIDAQAB;"
 
@@ -511,8 +503,6 @@ ldap-codfw      1H  IN CNAME    serpens
 phabricator     300 IN DYNA     geoip!text-addrs
 phabricator     300 IN MX       10 mx-in1001
 phabricator     300 IN MX       10 mx-in2001
-phabricator     300 IN MX       10 mx1001
-phabricator     300 IN MX       10 mx2001
 phabricator     1H  IN TXT      "v=spf1 include:_cidrs.wikimedia.org ~all"
 ; Google site verification for https://postmaster.google.com
 phabricator     1H  IN TXT      "google-site-verification=3HEEpR1KW0brOBi5FUW8c9z0zIshraxZv0wkm2pfqtc"
@@ -729,8 +719,6 @@ mailo._domainkey 1H  IN TXT      "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBg
 civicrm          1H  IN A        208.80.155.17
 civicrm          300 IN MX       10 mx-in1001
 civicrm          300 IN MX       10 mx-in2001
-civicrm          300 IN MX       10 mx1001
-civicrm          300 IN MX       10 mx2001
 civicrm.frdev    1H  IN CNAME    frdev-eqiad
 civicrm-codfw    1H  IN A        208.80.152.232
 coffee           1D IN CNAME dyna.wikimedia.org.
