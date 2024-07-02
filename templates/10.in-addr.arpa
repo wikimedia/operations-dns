@@ -41,10 +41,10 @@ $ORIGIN 1.2.@Z
 29  1H  IN PTR  sessionstore.svc.codfw.wmnet.
 30  1H  IN PTR  search.svc.codfw.wmnet.
 32  1H  IN PTR  wdqs.svc.codfw.wmnet.
-; 33
+33  1H  IN PTR  wdqs-main.svc.codfw.wmnet.
 34  1H  IN PTR  eventstreams.svc.codfw.wmnet.
 35  1H  IN PTR  eventstreams-internal.svc.codfw.wmnet.
-; 36
+36  1H  IN PTR  wdqs-scholarly.svc.codfw.wmnet.
 37  1H  IN PTR  recommendation-api.svc.codfw.wmnet.
 ; 38 reserved for druid-public-broker.svc.codfw.wmnet.
 39  1H  IN PTR  ml-ctrl.svc.codfw.wmnet.
@@ -134,10 +134,10 @@ $ORIGIN 2.2.@Z
 29  1H  IN PTR  sessionstore.svc.eqiad.wmnet.
 30  1H  IN PTR  search.svc.eqiad.wmnet.
 32  1H  IN PTR  wdqs.svc.eqiad.wmnet.
-; 33
+33  1H  IN PTR  wdqs-main.svc.eqiad.wmnet.
 34  1H  IN PTR  eventstreams.svc.eqiad.wmnet.
 35  1H  IN PTR  eventstreams-internal.svc.eqiad.wmnet.
-; 36
+36  1H  IN PTR  wdqs-scholarly.svc.eqiad.wmnet.
 37  1H  IN PTR  recommendation-api.svc.eqiad.wmnet.
 38  1H  IN PTR  druid-public-broker.svc.eqiad.wmnet.
 39  1H  IN PTR  ml-ctrl.svc.eqiad.wmnet.
