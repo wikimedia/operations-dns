@@ -120,12 +120,6 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl1001.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl1002.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl1003.eqiad.wmnet.
-_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1004.eqiad.wmnet.
-_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1005.eqiad.wmnet.
-_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd1006.eqiad.wmnet.
-_etcd-client-ssl._tcp.k8s3 5M  IN SRV      0 1 2379 kubetcd1004.eqiad.wmnet.
-_etcd-client-ssl._tcp.k8s3 5M  IN SRV      0 1 2379 kubetcd1005.eqiad.wmnet.
-_etcd-client-ssl._tcp.k8s3 5M  IN SRV      0 1 2379 kubetcd1006.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster1003.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster1004.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster1005.eqiad.wmnet.
@@ -269,15 +263,9 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
 _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ; kubernetes-related records (etcdv3)
-_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2004.codfw.wmnet.
-_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2005.codfw.wmnet.
-_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 kubetcd2006.codfw.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl2001.codfw.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl2002.codfw.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl2003.codfw.wmnet.
-_etcd-client-ssl._tcp.k8s3 5M  IN SRV      0 1 2379 kubetcd2004.codfw.wmnet.
-_etcd-client-ssl._tcp.k8s3 5M  IN SRV      0 1 2379 kubetcd2005.codfw.wmnet.
-_etcd-client-ssl._tcp.k8s3 5M  IN SRV      0 1 2379 kubetcd2006.codfw.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster2003.codfw.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster2004.codfw.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster2005.codfw.wmnet.
