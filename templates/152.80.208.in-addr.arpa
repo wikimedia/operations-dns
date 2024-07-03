@@ -8,6 +8,10 @@
 @                       1D      IN NS   ns1.wikimedia.org.
 @                       1D      IN NS   ns2.wikimedia.org.
 
+; 208.80.152.128/27 public1-virtual-codfw (208.80.152.128 - 208.80.152.159)
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/128-27.152.80.208.in-addr.arpa
+
 ; 208.80.152.224/28 frack-codfw (208.80.152.224 - 208.80.152.239)
 228 1H IN PTR   payments-codfw.wikimedia.org.
 229 1H IN PTR   frack-payments-nat-codfw.wikimedia.org.

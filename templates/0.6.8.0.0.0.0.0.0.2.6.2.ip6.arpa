@@ -30,6 +30,10 @@ $INCLUDE netbox/4.0.0.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 ;; manual records in this block
 4.0.1.0.3.5.1.0.0.8.0.0.8.0.2.0 1H IN PTR   gerrit-replica.wikimedia.org.
 
+; public1-virtual-codfw (2620:0:860:5::/64)
+$ORIGIN 5.0.0.0.@Z
+$INCLUDE netbox/5.0.0.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; codfw private subnets (2620:0:860:100::/56)
 
 ; private1-c1-codfw (2620:0:860:100::/64)
