@@ -283,7 +283,9 @@ generic-map => {
             # overrides the global default.
             default => [eqiad, codfw, magru, esams, drmrs, ulsfo, eqsin],
             # we start by sending BO and PY to magru.
+            # July 11 2024: BR added to the list.
             BO => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Bolivia
+            BR => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Brazil
             PY => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Paraguay
         },
     },
