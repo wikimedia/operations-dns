@@ -957,6 +957,8 @@ $ORIGIN 0.195.@Z
 40 1H IN PTR  frban2001.frack.codfw.wmnet.
 41 1H IN PTR  frdb2002.frack.codfw.wmnet.
 42 1H IN PTR  frqueue2002.frack.codfw.wmnet.
+43 1H IN PTR  frand2001.frack.codfw.wmnet.
+44 1H IN PTR  frand2002.frack.codfw.wmnet.
 
 ; 10.195.0.64/28 - frack-administration-codfw
 65 1H IN PTR  reth0-2134.pfw3-codfw.frack.codfw.wmnet.
