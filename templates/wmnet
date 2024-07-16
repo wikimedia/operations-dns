@@ -42,7 +42,7 @@ s3-master       5M  IN CNAME    db1223.eqiad.wmnet.
 s4-master       5M  IN CNAME    db1238.eqiad.wmnet.
 s5-master       5M  IN CNAME    db1230.eqiad.wmnet.
 s6-master       5M  IN CNAME    db1173.eqiad.wmnet.
-s7-master       5M  IN CNAME    db1181.eqiad.wmnet.
+s7-master       5M  IN CNAME    db1236.eqiad.wmnet.
 s8-master       5M  IN CNAME    db1209.eqiad.wmnet.
 m1-master       5M  IN CNAME    dbproxy1022.eqiad.wmnet.
 m1-slave        5M  IN CNAME    db1217.eqiad.wmnet.
