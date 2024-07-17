@@ -837,7 +837,8 @@ termbox-test    1H  IN CNAME    staging.svc.codfw.wmnet.
 
 $ORIGIN discovery.wmnet.
 ; MediaWiki related
-appservers-ro  300/10 IN DYNA geoip!disc-appservers-ro
+; directed to disc-failoid to support soft turndown - T367949
+appservers-ro  300/10 IN DYNA geoip!disc-failoid
 appservers-rw  300/10 IN DYNA metafo!disc-appservers-rw
 api-ro         300/10 IN DYNA geoip!disc-api-ro
 api-rw         300/10 IN DYNA metafo!disc-api-rw

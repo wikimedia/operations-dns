@@ -78,3 +78,8 @@ disc-wcqs                => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-k8s-ingress-wikikube-ro => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-k8s-ingress-ml-serve => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-config-master        => { map => mock, dcmap => { mock => 192.0.2.1 } }
+# disc-failoid is a geoip resource statically configured by puppet, used as
+# fallback by metafo resources for active-passive discovery services.
+# Included here to allow dropping traffic to an active-active service via
+# failoid, by specifying geoip!disc-failoid in the DYNA record.
+disc-failoid => { map => mock, dcmap => { mock => 192.0.2.1 } }
