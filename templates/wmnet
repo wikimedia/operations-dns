@@ -840,7 +840,8 @@ $ORIGIN discovery.wmnet.
 ; directed to disc-failoid to support soft turndown - T367949
 appservers-ro  300/10 IN DYNA geoip!disc-failoid
 appservers-rw  300/10 IN DYNA metafo!disc-appservers-rw
-api-ro         300/10 IN DYNA geoip!disc-api-ro
+; directed to disc-failoid to support soft turndown - T367949
+api-ro         300/10 IN DYNA geoip!disc-failoid
 api-rw         300/10 IN DYNA metafo!disc-api-rw
 jobrunner      300/10 IN DYNA metafo!disc-jobrunner
 logstash       300/10 IN DYNA metafo!disc-logstash
