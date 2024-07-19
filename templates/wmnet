@@ -306,6 +306,9 @@ pay-lvs2002         1H  IN A    10.195.0.21
 fran2001            1H  IN A    10.195.0.36
 frand2001           1H  IN A    10.195.0.43
 frand2002           1H  IN A    10.195.0.44
+franio2001          1H  IN A    10.195.0.46
+franio2002          1H  IN A    10.195.0.47
+franio2003          1H  IN A    10.195.0.48
 frauth2002          1H  IN A    10.195.0.77
 frauth2001          1H  IN A    10.195.0.78
 frban2001           1H  IN A    10.195.0.40
