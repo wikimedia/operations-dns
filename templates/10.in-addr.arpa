@@ -995,6 +995,12 @@ $INCLUDE netbox/96-27.0.195.10.in-addr.arpa
 248 1H  IN PTR  st0.pfw3-codfw.frack.codfw.wmnet.
 249 1H  IN PTR  st0.pfw3-codfw.frack.codfw.wmnet.
 
+; 10.195.1.0/24 - frack.codfw second /24
+$ORIGIN 1.195.@Z
+
+; 10.195.1.0/25 - frack-management-codfw #2 (will replace 10.195.0.96/27)
+$INCLUDE netbox/0-25.1.195.10.in-addr.arpa
+
 ; LEGACY
 
 $ORIGIN 1.230.@Z
