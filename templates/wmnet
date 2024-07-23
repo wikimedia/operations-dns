@@ -671,6 +671,7 @@ datahub-gms              1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 datahub-frontend-next    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 datahub-gms-next         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 growthbook               1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+growthbook-backend       1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 
 ; K8S EQIAD STAGING SERVICES
 
@@ -974,6 +975,7 @@ spark-history-next      300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 superset                300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 superset-next           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 growthbook              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+growthbook-backend      300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 
 
 ; misc web services with multiple backends but without geoip
