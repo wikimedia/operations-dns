@@ -68,6 +68,9 @@ google._domainkey       1H  IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4
 spop2048._domainkey     1H IN TXT  "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4Z2VWoyhd44UxaCnnaohFF3rFTYgad2onWyv9k4Jot/wNLR6GRSOV2MeZ84ypFP0xtMrzxVCTYSARdgMggoNSBP1TT4orhaOmJc9vbPsKUzJmYV6LHIxWP4QYcQJ26MLgQz6Cmj0l/E5wrxiIJIbPSHejQtZasDSsg+tsHjPL8jvUll29KF5rBdMKAd0nZvq1K1dp+FeoBh3J6eNoJiV4OdSTmMf3hXIrk6AwVE57eYz155SKpaDRYSO0d1CJnl0qoh38yG3saV6Hl0y+5HprsQ1rSTK4PNbWe3v1wCz1Aa8m5s1cbo1iK06v2F49jOIn0/HKAUZMaP9LXeapab2yQIDAQAB"
 ; Fundraise Up - payment provider for fundraising (T345354)
 fun-avlmpsru._domainkey 1H IN TXT  "v=DKIM1; k=rsa; h=sha256; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChcMpa+Pz2WtZgaGlHDde7FddPDU+AKXwsRXraoMRzPqDqTczwyrr3Qqck7j2xvhmV0vOPrtSsZRcduvnLM9aB8VEeHkoAqPaGMEQPs2X3Zk1ERNgIBhoVxkB7cMlbcAohTVnTAS0/GMa9c2LqXN1LXcfd3Z44sCZZWxl/0wpSzQIDAQAB"
+; Dayforce; see T370961
+; Yes, Dayforce uses the generic "corporate"...
+corporate._domainkey    1H IN TXT "v=DKIM1; t=s; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxhNk90jZ8t6E2RXCscHdHIGLIiCYw++ycEjjX0Whh/alwareCCVan0Pg6hL/tdPdqgYcHWROeRpXvRWmvO1HnLHU2KWvIXmcGly7X6Fv4E7CwMhJDlFUbsq4AE+dlOV6HMFo8co9tbiqZxx/1QlJf/eIOyHVoxXiCOk602dBrIC30AJJsPWEF1LCgXHgXEMHO8Di2/HviH5YFvdga0jLh06N1p80jJS0P65rBjsBiHpYn0LD/6VBhpm7py6HaVx703rPfMJRUnyZfyJoG5I60TPsIYg+BVR/UPMfFvy1EVXjLq2FOiBLJwH2q2DrUOar2IxqYKon//jWaNjhRFMm0QIDAQAB"
 ; Shopify, store.wikimedia.org, requested in T355835
 n1j._domainkey      1H IN CNAME dkim1.327bdf87d37c.p413.email.myshopify.com.
 n1j2._domainkey     1H IN CNAME dkim2.327bdf87d37c.p413.email.myshopify.com.
