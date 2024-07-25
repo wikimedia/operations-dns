@@ -944,8 +944,11 @@ $ORIGIN 0.195.@Z
 5  1H IN PTR  payments2001.frack.codfw.wmnet.
 6  1H IN PTR  payments2002.frack.codfw.wmnet.
 7  1H IN PTR  payments2003.frack.codfw.wmnet.
+8  1H IN PTR  pay-lb2001.frack.codfw.wmnet.
+9  1H IN PTR  pay-lb2002.frack.codfw.wmnet.
 20 1H IN PTR  pay-lvs2001.frack.codfw.wmnet.
 21 1H IN PTR  pay-lvs2002.frack.codfw.wmnet.
+
 
 ; 10.195.0.32/27 - frack-fundraising-codfw
 33 1H IN PTR  reth0-2135.pfw3-codfw.frack.codfw.wmnet.
@@ -963,6 +966,10 @@ $ORIGIN 0.195.@Z
 46 1H IN PTR  franio2001.frack.codfw.wmnet.
 47 1H IN PTR  franio2002.frack.codfw.wmnet.
 48 1H IN PTR  franio2003.frack.codfw.wmnet.
+49 1H IN PTR  frqueue2003.frack.codfw.wmnet.
+50 1H IN PTR  fransw2001.frack.codfw.wmnet.
+51 1H IN PTR  fransw2002.frack.codfw.wmnet.
+52 1H IN PTR  fransw2003.frack.codfw.wmnet.
 
 ; 10.195.0.64/28 - frack-administration-codfw
 65 1H IN PTR  reth0-2134.pfw3-codfw.frack.codfw.wmnet.

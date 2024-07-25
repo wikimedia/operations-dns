@@ -319,6 +319,9 @@ frdb2003            1H  IN A    10.195.0.35
 frlog2001           1H  IN A    10.195.0.76
 frmon2002           1H  IN A    10.195.0.67
 fransc2001          1H  IN A    10.195.0.45
+fransw2001          1H  IN A    10.195.0.50
+fransw2002          1H  IN A    10.195.0.51
+fransw2003          1H  IN A    10.195.0.52
 civi2001            1H  IN A    10.195.0.37
 frdata2001          1H  IN A    10.195.0.85
 frpm2001            1H  IN A    10.195.0.73
@@ -327,6 +330,9 @@ frmx2001            1H  IN A    10.195.0.84
 frbackup2002        1H  IN A    10.195.0.75
 frqueue2001         1H  IN A    10.195.0.39
 frqueue2002         1H  IN A    10.195.0.42
+frqueue2003         1H  IN A    10.195.0.49
+pay-lb2001          1H  IN A    10.195.0.8
+pay-lb2002          1H  IN A    10.195.0.9
 
 ; CODFW fundraising/payments management
 $ORIGIN mgmt.frack.codfw.wmnet.
