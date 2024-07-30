@@ -852,7 +852,6 @@ videoscaler    300/10 IN DYNA metafo!disc-videoscaler
 swift          300/10 IN DYNA geoip!disc-swift
 swift-ro       300/10 IN DYNA geoip!disc-swift-ro
 swift-rw       300/10 IN DYNA metafo!disc-swift-rw
-parsoid-php    300/10 IN DYNA metafo!disc-parsoid-php
 ; Main services
 restbase       300/10 IN DYNA geoip!disc-restbase
 restbase-async 300/10 IN DYNA geoip!disc-restbase-async
