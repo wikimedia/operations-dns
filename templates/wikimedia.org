@@ -36,6 +36,8 @@ ns2         1D  IN A    198.35.27.27 ; anycasted authdns
 ; ip6:2620:0:860::/56 - codfw
 ; ip6:2620:0:861::/56 - eqiad
 _cidrs          1H  IN TXT  "v=spf1 ip4:208.80.152.0/22 ip6:2620:0:860::/56 ip6:2620:0:861::/56 ~all"
+; SPF records for dayforce: T371304
+dayforce        1H  IN TXT  "v=spf1 ip4:67.231.158.158 ip4:67.231.151.29 ip4:67.231.152.177 ip4:208.84.65.220 ~all"
 
 ; Shopify, store.wikimedia.org, requested in T355835
 mailern1j           1H IN CNAME 327bdf87d37c.p413.email.myshopify.com.
@@ -66,9 +68,8 @@ google._domainkey       1H  IN TXT "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4
 spop2048._domainkey     1H IN TXT  "k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4Z2VWoyhd44UxaCnnaohFF3rFTYgad2onWyv9k4Jot/wNLR6GRSOV2MeZ84ypFP0xtMrzxVCTYSARdgMggoNSBP1TT4orhaOmJc9vbPsKUzJmYV6LHIxWP4QYcQJ26MLgQz6Cmj0l/E5wrxiIJIbPSHejQtZasDSsg+tsHjPL8jvUll29KF5rBdMKAd0nZvq1K1dp+FeoBh3J6eNoJiV4OdSTmMf3hXIrk6AwVE57eYz155SKpaDRYSO0d1CJnl0qoh38yG3saV6Hl0y+5HprsQ1rSTK4PNbWe3v1wCz1Aa8m5s1cbo1iK06v2F49jOIn0/HKAUZMaP9LXeapab2yQIDAQAB"
 ; Fundraise Up - payment provider for fundraising (T345354)
 fun-avlmpsru._domainkey 1H IN TXT  "v=DKIM1; k=rsa; h=sha256; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQChcMpa+Pz2WtZgaGlHDde7FddPDU+AKXwsRXraoMRzPqDqTczwyrr3Qqck7j2xvhmV0vOPrtSsZRcduvnLM9aB8VEeHkoAqPaGMEQPs2X3Zk1ERNgIBhoVxkB7cMlbcAohTVnTAS0/GMa9c2LqXN1LXcfd3Z44sCZZWxl/0wpSzQIDAQAB"
-; Dayforce; see T370961
-; Yes, Dayforce uses the generic "corporate"...
-corporate._domainkey    1H IN TXT "v=DKIM1; t=s; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxhNk90jZ8t6E2RXCscHdHIGLIiCYw++ycEjjX0Whh/alwareCCVan0Pg6hL/tdPdqgYcHWROeRpXvRWmvO1HnLHU2KWvIXmcGly7X6Fv4E7CwMhJDlFUbsq4AE+dlOV6HMFo8co9tbiqZxx/1QlJf/eIOyHVoxXiCOk602dBrIC30AJJsPWEF1LCgXHgXEMHO8Di2/HviH5YFvdga0jLh06N1p80jJS0P65rBjsBiHpYn0LD/6VBhpm7py6HaVx703rPfMJRUnyZfyJoG5I60TPsIYg+BVR/UPMfFvy1EVXjLq2FOiBLJwH2q2DrUOar2IxqYKon//jWaNjhRFMm0QIDAQAB"
+; Dayforce; see T370961 and later T371304.
+corporate._domainkey.dayforce 1H IN TXT "v=DKIM1; t=s; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1H3BNOCDnkie+TlLF+Uxf0w/QiaJI4OsKk2hcO3dFwr4M0UmETt7yAT21VLP6POkkLxHbMJEgT0mkJtotCnt5N5ZGGEwW+w+9aR6tspDz8R7LKfJZVp1sMZ6aj9elWaFqXQeksmTzADK9b3lT321EDMX1oeT1JRnv7aB1/FpX+V9LFdHyI1v9Ffpld+/b+hz0tCQNtcb0QWTN8BEFTN/N5G2zSVusvNXPDsIdl55HYo0cqIzZZU/Mw5PNF+xdXwo6tD1vcRLm7O9Jrq5ZcRioRLhZpt0q76Kzkmn5Uh8Pg8ErL1W0BDAywpTwh95+b7E2xm+8tRp6PaMyMUtingCbQIDAQAB"
 ; Shopify, store.wikimedia.org, requested in T355835
 n1j._domainkey      1H IN CNAME dkim1.327bdf87d37c.p413.email.myshopify.com.
 n1j2._domainkey     1H IN CNAME dkim2.327bdf87d37c.p413.email.myshopify.com.
