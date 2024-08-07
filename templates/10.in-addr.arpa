@@ -946,6 +946,8 @@ $ORIGIN 0.195.@Z
 7  1H IN PTR  payments2003.frack.codfw.wmnet.
 8  1H IN PTR  pay-lb2001.frack.codfw.wmnet.
 9  1H IN PTR  pay-lb2002.frack.codfw.wmnet.
+10 1H IN PTR  payments2004.frack.codfw.wmnet.
+11 1H IN PTR  payments2005.frack.codfw.wmnet.
 20 1H IN PTR  pay-lvs2001.frack.codfw.wmnet.
 21 1H IN PTR  pay-lvs2002.frack.codfw.wmnet.
 

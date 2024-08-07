@@ -301,6 +301,8 @@ $ORIGIN frack.codfw.wmnet.
 payments2001        1H  IN A    10.195.0.5
 payments2002        1H  IN A    10.195.0.6
 payments2003        1H  IN A    10.195.0.7
+payments2004        1H  IN A    10.195.0.10
+payments2005        1H  IN A    10.195.0.11
 pay-lvs2001         1H  IN A    10.195.0.20
 pay-lvs2002         1H  IN A    10.195.0.21
 fran2001            1H  IN A    10.195.0.36
