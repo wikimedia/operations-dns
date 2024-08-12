@@ -941,8 +941,6 @@ $ORIGIN 0.195.@Z
 
 ; 10.195.0.0/27 - frack-payments-codfw
 1  1H IN PTR  reth0-2132.pfw3-codfw.frack.codfw.wmnet.
-5  1H IN PTR  payments2001.frack.codfw.wmnet.
-6  1H IN PTR  payments2002.frack.codfw.wmnet.
 7  1H IN PTR  payments2003.frack.codfw.wmnet.
 8  1H IN PTR  pay-lb2001.frack.codfw.wmnet.
 9  1H IN PTR  pay-lb2002.frack.codfw.wmnet.
