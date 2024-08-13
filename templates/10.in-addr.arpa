@@ -972,10 +972,15 @@ $ORIGIN 0.195.@Z
 50 1H IN PTR  fransw2001.frack.codfw.wmnet.
 51 1H IN PTR  fransw2002.frack.codfw.wmnet.
 52 1H IN PTR  fransw2003.frack.codfw.wmnet.
+53 1H IN PTR  frdb2004.frack.codfw.wmnet.
+54 1H IN PTR  frdb2005.frack.codfw.wmnet.
+55 1H IN PTR  civi2002.frack.codfw.wmnet.
 
 ; 10.195.0.64/28 - frack-administration-codfw
 65 1H IN PTR  reth0-2134.pfw3-codfw.frack.codfw.wmnet.
 67 1H IN PTR  frmon2002.frack.codfw.wmnet.
+68 1H IN PTR  frlog2002.frack.codfw.wmnet.
+69 1H IN PTR  frpm2002.frack.codfw.wmnet.
 
 73 1H IN PTR  frpm2001.frack.codfw.wmnet.
 75 1H IN PTR  frbackup2002.frack.codfw.wmnet.
@@ -988,6 +993,7 @@ $ORIGIN 0.195.@Z
 82 1H IN PTR  frpig2001.frack.codfw.wmnet.
 84 1H IN PTR  frmx2001.frack.codfw.wmnet.
 85 1H IN PTR  frdata2001.frack.codfw.wmnet.
+86 1H IN PTR  frpig2002.frack.codfw.wmnet.
 
 ; 10.195.0.96/27 - frack-management-codfw
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
