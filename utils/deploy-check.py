@@ -128,17 +128,6 @@ def deploy_cfg(srcdir, dstdir):
     return need_replace
 
 
-def deploy_state(tdir_state):
-    """Deploy statefiles which need no reloads"""
-    statedir = Path('/', 'var', 'lib', 'gdnsd')
-    statedir.mkdir(mode=0o755, parents=True, exist_ok=True)
-    src = tdir_state / 'admin_state'
-    dst = statedir / 'admin_state'
-    if not dst.exists() or dst.read_text() != src.read_text():
-        print(" -- State file changed: admin_state")
-        shutil.copy(str(src), str(dst))
-
-
 def setup_gen_repo(gen_dns_git):
     """Make a checkout of the generated DNS git repository in a temporary place."""
     path = TemporaryDirectory(prefix='dns-check-generated.')
@@ -147,14 +136,13 @@ def setup_gen_repo(gen_dns_git):
     return path
 
 
-def setup_tdir(deploy, tdir, tdir_zones, tdir_state, gdir):
+def setup_tdir(deploy, tdir, tdir_zones, gdir):
     """Setup all contents of the test directory, return srcdir"""
 
     # Create subdirs in tdir:
     tdir_geoip = tdir / 'geoip'
     tdir_zones.mkdir()
     tdir_geoip.mkdir()
-    tdir_state.mkdir()
 
     print(' -- Generating zonefiles from zone templates', flush=True)
     subprocess.run(['utils/gen-zones.py', str(tdir_zones)], check=True)
@@ -162,10 +150,9 @@ def setup_tdir(deploy, tdir, tdir_zones, tdir_state, gdir):
         raise Exception('Less than 10 zones generated, something is wrong')
     print(' -- Copying automatically generated zone files under target tree')
     shutil.copytree(str(gdir), os.path.join(str(tdir), 'zones', 'netbox'), ignore=lambda x, y: ['.git'])
-    print(' -- Copying repo-driven real config files and admin_state')
+    print(' -- Copying repo-driven real config files')
     for realcf in DNS_CFG:
         shutil.copy(str(realcf), str(tdir))
-    shutil.copy('admin_state', str(tdir_state))
 
     # Choose source path based on deploy vs mock-test
     if deploy:
@@ -181,11 +168,6 @@ def setup_tdir(deploy, tdir, tdir_zones, tdir_state, gdir):
         shutil.copy(str(srcdir / pcfg), str(tdir))
     shutil.copy(str(srcdir_geoip / GEOIP_DB),
                 str(tdir_geoip), follow_symlinks=False)
-    # State dir hacked in both cases to test ops/dns-supplied admin_state
-    options_test = Path(tdir, 'config-options')
-    options_test.write_text(
-        options_test.read_text() + 'state_dir = "%s"\n' % tdir_state
-    )
 
     return srcdir
 
@@ -195,8 +177,7 @@ def deploy_check(deploy, skip_reload, no_gdnsd, tdir, gdir):
 
     print('Assembling and testing data in %s' % tdir)
     tdir_zones = tdir / 'zones'
-    tdir_state = tdir / 'state'
-    srcdir = setup_tdir(deploy, tdir, tdir_zones, tdir_state, gdir)
+    srcdir = setup_tdir(deploy, tdir, tdir_zones, gdir)
 
     # Check for tabs, which we disallow
     print(' -- Checking for illegal tabs in zonefiles')
@@ -233,7 +214,6 @@ def deploy_check(deploy, skip_reload, no_gdnsd, tdir, gdir):
     print('Deploying from %s to system dirs' % tdir)
     need_reload = deploy_zones(tdir_zones, srcdir / 'zones')
     need_replace = deploy_cfg(tdir, srcdir)
-    deploy_state(tdir_state)
 
     # Maybe take action!
     if not need_replace and not need_reload:
