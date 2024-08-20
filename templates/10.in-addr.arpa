@@ -829,6 +829,10 @@ $ORIGIN 32.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/32.192.10.in-addr.arpa
 
+; 10.192.33.0/24 - private1-c-codfw second /24
+$ORIGIN 33.192.@Z
+$INCLUDE netbox/33.192.10.in-addr.arpa
+
 ; 10.192.36.0/24 - private1-d1-codfw
 $ORIGIN 36.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -868,6 +872,10 @@ $INCLUDE netbox/42.192.10.in-addr.arpa
 $ORIGIN 48.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/48.192.10.in-addr.arpa
+
+; 10.192.49.0/24 - private1-d-codfw second /24
+$ORIGIN 49.192.@Z
+$INCLUDE netbox/49.192.10.in-addr.arpa
 
 ; 10.192.64.0/21 - kubernetes codfw pod IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
