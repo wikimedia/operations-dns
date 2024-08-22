@@ -300,7 +300,6 @@ kubernetes-pod-10-192-{{ z }}-{{ i }} 1H IN A 10.192.{{ z }}.{{ i }}
 $ORIGIN frack.codfw.wmnet.
 civi2001            1H  IN A    10.195.0.37
 civi2002            1H  IN A    10.195.0.55
-payments2003        1H  IN A    10.195.0.7
 payments2004        1H  IN A    10.195.0.10
 payments2005        1H  IN A    10.195.0.11
 pay-lvs2001         1H  IN A    10.195.0.20
@@ -315,8 +314,6 @@ frauth2002          1H  IN A    10.195.0.77
 frauth2001          1H  IN A    10.195.0.78
 frban2001           1H  IN A    10.195.0.40
 frbast2002          1H  IN A    10.195.0.131
-frdb2001            1H  IN A    10.195.0.34
-frdb2002            1H  IN A    10.195.0.41
 frdb2003            1H  IN A    10.195.0.35
 frdb2004            1H  IN A    10.195.0.53
 frdb2005            1H  IN A    10.195.0.54
@@ -334,7 +331,6 @@ frpm2002            1H  IN A    10.195.0.69
 frpig2001           1H  IN A    10.195.0.82
 frmx2001            1H  IN A    10.195.0.84
 frbackup2002        1H  IN A    10.195.0.75
-frqueue2001         1H  IN A    10.195.0.39
 frqueue2002         1H  IN A    10.195.0.42
 frqueue2003         1H  IN A    10.195.0.49
 pay-lb2001          1H  IN A    10.195.0.8
