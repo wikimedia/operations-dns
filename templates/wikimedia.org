@@ -393,10 +393,10 @@ za.m                1D IN CNAME dyna.wikimedia.org.
 ; alertmanager API only, no UI.
 ; Should be used only when client's config doesn't come from puppet
 alertmanager-eqiad  5M  IN CNAME    alert1001
-alertmanager-codfw  5M  IN CNAME    alert2002
+alertmanager-codfw  5M  IN CNAME    alert2001
 
 ; alerts dashboard/UI
-alerts          5M  IN CNAME    alert2002
+alerts          5M  IN CNAME    alert1001
 
 annual          1D IN CNAME dyna.wikimedia.org.
 
@@ -482,8 +482,8 @@ performance     1D IN CNAME dyna.wikimedia.org.
 horizon         1D IN CNAME dyna.wikimedia.org.
 wikitech        1D IN CNAME dyna.wikimedia.org.
 
-icinga          5M  IN CNAME    alert2002
-icinga-extmon   5M  IN CNAME    alert2002
+icinga          5M  IN CNAME    alert1001
+icinga-extmon   5M  IN CNAME    alert1001
 
 idm             5M  IN CNAME idm1001.wikimedia.org.
 idm-test        5M  IN CNAME idm-test1001.wikimedia.org.
@@ -498,7 +498,7 @@ intake-analytics 1D  IN CNAME dyna.wikimedia.org.
 integration     1D IN CNAME dyna.wikimedia.org.
 irc             5M  IN CNAME    irc1002
 
-klaxon          5M  IN CNAME    alert2002
+klaxon          5M  IN CNAME    alert1001
 
 ldap-eqiad      1H  IN CNAME    seaborgium
 ldap-codfw      1H  IN CNAME    serpens
