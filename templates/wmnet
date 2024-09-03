@@ -302,6 +302,7 @@ civi2001            1H  IN A    10.195.0.37
 civi2002            1H  IN A    10.195.0.55
 payments2004        1H  IN A    10.195.0.10
 payments2005        1H  IN A    10.195.0.11
+payments2006        1H  IN A    10.195.0.12
 pay-lvs2001         1H  IN A    10.195.0.20
 pay-lvs2002         1H  IN A    10.195.0.21
 fran2001            1H  IN A    10.195.0.36
