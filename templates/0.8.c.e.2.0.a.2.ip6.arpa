@@ -226,3 +226,7 @@ $INCLUDE netbox/b.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
 $ORIGIN f.f.f.f.0.0.7.0.@Z
 $INCLUDE netbox/f.f.f.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
 
+;
+; Internal Anycast Range - 2a02:ec80:ff00:101::/64
+$ORIGIN 1.0.1.0.0.0.f.f.@Z
+$INCLUDE netbox/1.0.1.0.0.0.f.f.0.8.c.e.2.0.a.2.ip6.arpa
