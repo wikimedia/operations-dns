@@ -19,7 +19,7 @@ $ORIGIN 1.2.@Z
 ; 6 reserved for MediaWiki
 ; 7 reserved for MediaWiki
 8   1H  IN PTR  kubemaster.svc.codfw.wmnet.
-; 9 reserved for MediaWiki
+9   1H  IN PTR  mwdebug-next.svc.codfw.wmnet.
 10  1H  IN PTR  apus.svc.codfw.wmnet.
 11  1H  IN PTR  apertium.svc.codfw.wmnet.
 13  1H  IN PTR  kartotherian.svc.codfw.wmnet.
@@ -112,7 +112,7 @@ $ORIGIN 2.2.@Z
 ; 6 reserved for MediaWiki
 ; 7 reserved for MediaWiki
 8   1H  IN PTR  kubemaster.svc.eqiad.wmnet.
-; 9 reserved for MediaWiki
+9   1H  IN PTR  mwdebug-next.svc.eqiad.wmnet.
 10  1H  IN PTR  apus.svc.eqiad.wmnet.
 11  1H  IN PTR  apertium.svc.eqiad.wmnet.
 13  1H  IN PTR  kartotherian.svc.eqiad.wmnet.
