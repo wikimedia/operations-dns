@@ -912,6 +912,7 @@ puppetdb-api   300/10 IN DYNA geoip!disc-puppetdb-api
 shellbox       300/10 IN DYNA geoip!disc-shellbox
 shellbox-constraints  300/10 IN DYNA geoip!disc-shellbox-constraints
 mwdebug        300/10 IN DYNA geoip!disc-mwdebug
+mwdebug-next   300/10 IN DYNA geoip!disc-mwdebug-next
 mw-web         300/10 IN DYNA metafo!disc-mw-web
 mw-web-ro      300/10 IN DYNA geoip!disc-mw-web-ro
 mw-api-ext     300/10 IN DYNA metafo!disc-mw-api-ext
