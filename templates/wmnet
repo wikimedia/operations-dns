@@ -319,7 +319,6 @@ frbast2002          1H  IN A    10.195.0.131
 frdb2003            1H  IN A    10.195.0.35
 frdb2004            1H  IN A    10.195.0.53
 frdb2005            1H  IN A    10.195.0.54
-frlog2001           1H  IN A    10.195.0.76
 frlog2002           1H  IN A    10.195.0.68
 frmon2002           1H  IN A    10.195.0.67
 fransc2001          1H  IN A    10.195.0.45
@@ -328,7 +327,6 @@ fransw2002          1H  IN A    10.195.0.51
 fransw2003          1H  IN A    10.195.0.52
 frdata2001          1H  IN A    10.195.0.85
 frpig2002           1H  IN A    10.195.0.86
-frpm2001            1H  IN A    10.195.0.73
 frpm2002            1H  IN A    10.195.0.69
 frpig2001           1H  IN A    10.195.0.82
 frmx2001            1H  IN A    10.195.0.84
