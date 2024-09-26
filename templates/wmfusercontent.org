@@ -9,6 +9,8 @@
 @           1D  IN NS   ns2.wikimedia.org.
 
 ; Mail exchangers
+@           300 IN MX   10  mx-in1001.wikimedia.org.
+@           300 IN MX   10  mx-in2001.wikimedia.org.
 
 ; SPF txt and rr records (no email)
 @           600 IN TXT  "v=spf1 -all"
