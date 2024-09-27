@@ -706,8 +706,14 @@ za               1D IN CNAME dyna.wikimedia.org.
 
 ; Other websites (NO wikis!)
 2030             1D IN CNAME dyna.wikimedia.org.
+airflow-analytics 1D IN CNAME dyna.wikimedia.org.
+airflow-analytics-product 1D IN CNAME dyna.wikimedia.org.
 airflow-analytics-test 1D IN CNAME dyna.wikimedia.org.
+airflow-platform-eng 1D IN CNAME dyna.wikimedia.org.
+airflow-research 1D IN CNAME dyna.wikimedia.org.
+airflow-search 1D IN CNAME dyna.wikimedia.org.
 airflow-test-k8s 1D IN CNAME dyna.wikimedia.org.
+airflow-wmde 1D IN CNAME dyna.wikimedia.org.
 analytics        1D IN CNAME dyna.wikimedia.org.
 analytics.frdev  1D IN A     208.80.155.4
 analytics-codfw.frdev  1D IN A     208.80.152.238

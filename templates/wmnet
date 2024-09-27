@@ -681,8 +681,14 @@ datahub-frontend-next    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 datahub-gms-next         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 growthbook               1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 growthbook-backend       1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+airflow-analytics        1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+airflow-analytics-product 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-analytics-test   1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+airflow-platform-eng     1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+airflow-research         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+airflow-search           1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-test-k8s         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+airflow-wmde             1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 
 ; K8S EQIAD STAGING SERVICES
 
@@ -983,9 +989,14 @@ superset                300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 superset-next           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 growthbook              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 growthbook-backend      300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-analytics       300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-analytics-product 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-analytics-test  300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-platform-eng    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-research        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-search          300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-test-k8s        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-
+airflow-wmde            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 
 ; misc web services with multiple backends but without geoip
 
