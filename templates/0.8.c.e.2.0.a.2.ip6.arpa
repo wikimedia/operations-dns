@@ -8,6 +8,15 @@
 @                       1D      IN NS   ns1.wikimedia.org.
 @                       1D      IN NS   ns2.wikimedia.org.
 
+; WMCS openstack sub-delegations
+
+; codfw openstack public 2a02:ec80:a100::/56
+0.0.0.0.0.0.1.a         1D      IN NS   ns0.openstack.codfw1dev.wikimediacloud.org.
+0.0.0.0.0.0.1.a         1D      IN NS   ns1.openstack.codfw1dev.wikimediacloud.org.
+; codfw openstack private 2a02:ec80:a100:100::/56
+0.0.1.0.0.0.1.a         1D      IN NS   ns0.openstack.codfw1dev.wikimediacloud.org.
+0.0.1.0.0.0.1.a         1D      IN NS   ns1.openstack.codfw1dev.wikimediacloud.org.
+
 ;
 ; ESAMS - 2a02:ec80:300::/48
 ;
