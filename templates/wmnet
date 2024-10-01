@@ -19,7 +19,6 @@ fundraisingdb-read  5M  IN CNAME    frdb1005.frack.eqiad.wmnet.
 $ORIGIN eqiad.wmnet.
 ; puppet SRV records
 _x-puppet._tcp     5M  IN SRV  0  5 8140 puppetserver1001.eqiad.wmnet.
-_x-puppet._tcp     5M  IN SRV  0  5 8140 puppetserver1002.eqiad.wmnet.
 _x-puppet._tcp     5M  IN SRV  0  5 8140 puppetserver1003.eqiad.wmnet.
 _x-puppet-ca._tcp  5M  IN SRV  0  5 8140 puppetserver1001.eqiad.wmnet.
 ; Service aliases
