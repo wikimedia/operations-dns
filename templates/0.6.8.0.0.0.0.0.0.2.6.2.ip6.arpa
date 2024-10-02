@@ -273,3 +273,21 @@ $INCLUDE netbox/a.0.e.f.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 ; Loopback IPs
 $ORIGIN f.f.f.f.@Z
 $INCLUDE netbox/f.f.f.f.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Kubernetes POD IP reverse range delegations to control-plane nodes
+; To be replaced by automated entries when T376291 is complete
+$ORIGIN @Z
+; ml-serve-codfw 2620:0:860:300::/64
+0.0.3.0         IN    NS    ml-serve-ctrl2001.codfw.wmnet.
+0.0.3.0         IN    NS    ml-serve-ctrl2002.codfw.wmnet.
+; ml-staging-codfw 2620:0:860:302::/64
+2.0.3.0         IN    NS    ml-staging-ctrl2001.codfw.wmnet.
+2.0.3.0         IN    NS    ml-staging-ctrl2002.codfw.wmnet.
+; staging-codfw 2620:0:860:babe::/64
+e.b.a.b         IN    NS    kubestagemaster2003.codfw.wmnet.
+e.b.a.b         IN    NS    kubestagemaster2004.codfw.wmnet.
+e.b.a.b         IN    NS    kubestagemaster2005.codfw.wmnet.
+; codfw 2620:0:860:cabe::/64
+e.b.a.c         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+e.b.a.c         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+e.b.a.c         IN    NS    wikikube-ctrl2003.codfw.wmnet.
