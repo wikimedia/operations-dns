@@ -147,8 +147,6 @@ _etcd-server-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2380 aux-k8s-etcd1002.eqi
 _etcd-server-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2380 aux-k8s-etcd1003.eqiad.wmnet.
 _etcd-server-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2380 aux-k8s-etcd1004.eqiad.wmnet.
 _etcd-server-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2380 aux-k8s-etcd1005.eqiad.wmnet.
-_etcd-client-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2379 aux-k8s-etcd1001.eqiad.wmnet.
-_etcd-client-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2379 aux-k8s-etcd1002.eqiad.wmnet.
 _etcd-client-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2379 aux-k8s-etcd1003.eqiad.wmnet.
 _etcd-client-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2379 aux-k8s-etcd1004.eqiad.wmnet.
 _etcd-client-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2379 aux-k8s-etcd1005.eqiad.wmnet.
