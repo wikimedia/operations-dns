@@ -501,6 +501,7 @@ ircstream       5M  IN CNAME    irc1003
 ircstream-sse   5M  IN CNAME    irc1004
 
 klaxon          5M  IN CNAME    alert1002
+requestctl      5M  IN CNAME    alert1002
 
 ldap-eqiad      1H  IN CNAME    seaborgium
 ldap-codfw      1H  IN CNAME    serpens
