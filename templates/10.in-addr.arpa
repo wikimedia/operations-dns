@@ -31,7 +31,7 @@ $ORIGIN 1.2.@Z
 19  1H  IN PTR  citoid.svc.codfw.wmnet.
 20  1H  IN PTR  mathoid.svc.codfw.wmnet.
 21  1H  IN PTR  proton.svc.codfw.wmnet.
-22  1H  IN PTR  api.svc.codfw.wmnet.
+; 22
 23  1H  IN PTR  linkrecommendation.svc.codfw.wmnet.
 24  1H  IN PTR  thumbor.svc.codfw.wmnet.
 25  1H  IN PTR  prometheus.svc.codfw.wmnet.
@@ -123,7 +123,7 @@ $ORIGIN 2.2.@Z
 19  1H  IN PTR  citoid.svc.eqiad.wmnet.
 20  1H  IN PTR  mathoid.svc.eqiad.wmnet.
 21  1H  IN PTR  proton.svc.eqiad.wmnet.
-22  1H  IN PTR  api.svc.eqiad.wmnet.
+; 22
 23  1H  IN PTR  linkrecommendation.svc.eqiad.wmnet.
 24  1H  IN PTR  thumbor.svc.eqiad.wmnet.
 25  1H  IN PTR  prometheus.svc.eqiad.wmnet.
