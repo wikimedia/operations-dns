@@ -573,7 +573,6 @@ prometheus  1H  IN A        10.2.2.25
 jobrunner   1H  IN A        10.2.2.26
 ms-fe       1H  IN A        10.2.2.27
 swift       1H  IN CNAME    ms-fe.svc.eqiad.wmnet.
-parsoid     1H  IN A        10.2.2.28
 sessionstore 1H IN A        10.2.2.29
 search      1H  IN A        10.2.2.30
 wdqs        1H  IN A        10.2.2.32
@@ -761,7 +760,6 @@ prometheus      1H  IN A        10.2.1.25
 jobrunner       1H  IN A        10.2.1.26
 ms-fe           1H  IN A        10.2.1.27
 swift           1H  IN CNAME    ms-fe.svc.codfw.wmnet.
-parsoid         1H  IN A        10.2.1.28
 sessionstore    1H  IN A        10.2.1.29
 search          1H  IN A        10.2.1.30
 wdqs            1H  IN A        10.2.1.32
