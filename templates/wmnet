@@ -553,6 +553,8 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 $ORIGIN svc.eqiad.wmnet.
 videoscaler 1H  IN A        10.2.2.5
+mw-web-next 1H  IN A        10.2.2.6
+mw-api-ext-next 1H  IN A    10.2.2.7
 kubemaster  1H  IN A        10.2.2.8
 mwdebug-next 1H IN A        10.2.2.9
 apus        1H  IN A        10.2.2.10
@@ -740,6 +742,8 @@ prometheus  1H  IN CNAME    prometheus7001.magru.wmnet.
 $ORIGIN svc.codfw.wmnet.
 
 videoscaler     1H  IN A        10.2.1.5
+mw-web-next     1H  IN A        10.2.1.6
+mw-api-ext-next 1H  IN A        10.2.1.7
 kubemaster      1H  IN A        10.2.1.8
 mwdebug-next    1H  IN A        10.2.1.9
 apus            1H  IN A        10.2.1.10

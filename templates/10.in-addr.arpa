@@ -16,8 +16,8 @@ $ORIGIN 1.2.@Z
 ; 3 reserved for MediaWiki
 ; 4 reserved for MediaWiki
 5   1H  IN PTR  videoscaler.svc.codfw.wmnet.
-; 6 reserved for MediaWiki
-; 7 reserved for MediaWiki
+6   1H  IN PTR  mw-web-next.svc.codfw.wmnet.
+7   1H  IN PTR  mw-api-ext-next.svc.codfw.wmnet.
 8   1H  IN PTR  kubemaster.svc.codfw.wmnet.
 9   1H  IN PTR  mwdebug-next.svc.codfw.wmnet.
 10  1H  IN PTR  apus.svc.codfw.wmnet.
@@ -108,8 +108,8 @@ $ORIGIN 2.2.@Z
 ; 3 reserved for MediaWiki
 ; 4 reserved for MediaWiki
 5   1H  IN PTR  videoscaler.svc.eqiad.wmnet.
-; 6 reserved for MediaWiki
-; 7 reserved for MediaWiki
+6   1H  IN PTR  mw-web-next.svc.eqiad.wmnet.
+7   1H  IN PTR  mw-api-ext-next.svc.eqiad.wmnet.
 8   1H  IN PTR  kubemaster.svc.eqiad.wmnet.
 9   1H  IN PTR  mwdebug-next.svc.eqiad.wmnet.
 10  1H  IN PTR  apus.svc.eqiad.wmnet.
