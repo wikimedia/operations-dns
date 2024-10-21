@@ -917,8 +917,12 @@ mwdebug        300/10 IN DYNA geoip!disc-mwdebug
 mwdebug-next   300/10 IN DYNA geoip!disc-mwdebug-next
 mw-web         300/10 IN DYNA metafo!disc-mw-web
 mw-web-ro      300/10 IN DYNA geoip!disc-mw-web-ro
+mw-web-next    300/10 IN DYNA metafo!disc-mw-web-next
+mw-web-next-ro 300/10 IN DYNA geoip!disc-mw-web-next-ro
 mw-api-ext     300/10 IN DYNA metafo!disc-mw-api-ext
 mw-api-ext-ro  300/10 IN DYNA geoip!disc-mw-api-ext-ro
+mw-api-ext-next    300/10 IN DYNA metafo!disc-mw-api-ext-next
+mw-api-ext-next-ro 300/10 IN DYNA geoip!disc-mw-api-ext-next-ro
 mw-api-int     300/10 IN DYNA metafo!disc-mw-api-int
 mw-api-int-ro  300/10 IN DYNA geoip!disc-mw-api-int-ro
 mw-jobrunner   300/10 IN DYNA metafo!disc-mw-jobrunner
