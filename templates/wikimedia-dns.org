@@ -28,7 +28,7 @@
 
 ; Wikis (alphabetic order)
 
-; Wikidough resolver. Anycasted.
+; Wikidough resolver. Anycast.
 @           600 IN A    185.71.138.138
 @           600 IN AAAA 2001:67c:930::1
 
