@@ -932,7 +932,7 @@ $INCLUDE netbox/3.193.10.in-addr.arpa
 $ORIGIN 0.195.@Z
 
 ; 10.195.0.0/27 - frack-payments-codfw
-1  1H IN PTR  reth0-2132.pfw3-codfw.frack.codfw.wmnet.
+1  1H IN PTR  reth0-2132.pfw1-codfw.frack.codfw.wmnet.
 8  1H IN PTR  pay-lb2001.frack.codfw.wmnet.
 9  1H IN PTR  pay-lb2002.frack.codfw.wmnet.
 10 1H IN PTR  payments2004.frack.codfw.wmnet.
@@ -943,7 +943,7 @@ $ORIGIN 0.195.@Z
 
 
 ; 10.195.0.32/27 - frack-fundraising-codfw
-33 1H IN PTR  reth0-2135.pfw3-codfw.frack.codfw.wmnet.
+33 1H IN PTR  reth0-2135.pfw1-codfw.frack.codfw.wmnet.
 35 1H IN PTR  frdb2003.frack.codfw.wmnet.
 36 1H IN PTR  fran2001.frack.codfw.wmnet.
 37 1H IN PTR  civi2001.frack.codfw.wmnet.
@@ -964,7 +964,7 @@ $ORIGIN 0.195.@Z
 56 1H IN PTR  frban2002.frack.codfw.wmnet.
 
 ; 10.195.0.64/28 - frack-administration-codfw
-65 1H IN PTR  reth0-2134.pfw3-codfw.frack.codfw.wmnet.
+65 1H IN PTR  reth0-2134.pfw1-codfw.frack.codfw.wmnet.
 67 1H IN PTR  frmon2002.frack.codfw.wmnet.
 68 1H IN PTR  frlog2002.frack.codfw.wmnet.
 69 1H IN PTR  frpm2002.frack.codfw.wmnet.
@@ -974,7 +974,7 @@ $ORIGIN 0.195.@Z
 78 1H IN PTR  frauth2001.frack.codfw.wmnet.
 
 ; 10.195.0.80/29 - frack-listenerdmz-codfw
-81 1H IN PTR  reth0-2137.pfw3-codfw.frack.codfw.wmnet.
+81 1H IN PTR  reth0-2137.pfw1-codfw.frack.codfw.wmnet.
 82 1H IN PTR  frpig2001.frack.codfw.wmnet.
 84 1H IN PTR  frmx2001.frack.codfw.wmnet.
 85 1H IN PTR  frdata2001.frack.codfw.wmnet.
@@ -985,15 +985,15 @@ $ORIGIN 0.195.@Z
 $INCLUDE netbox/96-27.0.195.10.in-addr.arpa
 
 ; 10.195.0.128/29 - frack-bastion-codfw
-129 1H IN PTR  reth0-2133.pfw3-codfw.frack.codfw.wmnet.
+129 1H IN PTR  reth0-2133.pfw1-codfw.frack.codfw.wmnet.
 131 1H IN PTR  frbast2002.frack.codfw.wmnet.
 
 
 ; 10.195.0.248/29 - reserved for frack infra
 
-; 10.195.0.248/31 (pfw3-eqiad:st0 <--> pfw3-codfw:st0)
-248 1H  IN PTR  st0.pfw3-codfw.frack.codfw.wmnet.
-249 1H  IN PTR  st0.pfw3-codfw.frack.codfw.wmnet.
+; 10.195.0.248/31 (pfw3-eqiad:st0 <--> pfw1-codfw:st0)
+248 1H  IN PTR  st0.pfw3-eqiad.frack.codfw.wmnet.
+249 1H  IN PTR  st0.pfw1-codfw.frack.codfw.wmnet.
 
 ; 10.195.1.0/24 - frack.codfw second /24
 $ORIGIN 1.195.@Z
