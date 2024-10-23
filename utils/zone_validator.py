@@ -533,7 +533,7 @@ class DNSRecord:
 
     def __eq__(self, other):
         """Equality comparison operator, required to use instances as dictionary keys."""
-        if type(other) != DNSRecord:
+        if not isinstance(other, DNSRecord):
             return False
 
         return self.key == other.key and self.type == other.type and self.value == other.value
