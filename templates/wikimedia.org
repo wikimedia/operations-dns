@@ -296,6 +296,7 @@ measure-magru       1D IN CNAME upload-lb.magru.wikimedia.org.
 ; Mobile
 
 advisory.m          1D IN CNAME dyna.wikimedia.org.
+ae.m                1D IN CNAME dyna.wikimedia.org.
 am.m                1D IN CNAME dyna.wikimedia.org.
 amical.m            1D IN CNAME dyna.wikimedia.org.
 api.m               1D IN CNAME dyna.wikimedia.org.
