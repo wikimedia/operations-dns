@@ -174,39 +174,10 @@ $INCLUDE netbox/mgmt.eqiad.wmnet
 
 ; EQIAD fundraising/payments
 $ORIGIN frack.eqiad.wmnet.
-civi1002        1H      IN A    10.64.40.115
-fran1001        1H      IN A    10.64.40.110
-frauth1002      1H      IN A    10.64.40.69
-frav1003        1H      IN A    10.64.40.76
-frban1001       1H      IN A    10.64.40.112
-frbast1002      1H      IN A    10.64.40.36
-frdata1002      1H      IN A    10.64.40.163
-frdb1002        1H      IN A    10.64.40.99
-frdb1003        1H      IN A    10.64.40.118
-frdb1004        1H      IN A    10.64.40.111
-frdb1005        1H      IN A    10.64.40.100
-frdb1006        1H      IN A    10.64.40.101
-frdev1002       1H      IN A    10.64.40.116
-frlog1002       1H      IN A    10.64.40.75
-frmon1002       1H      IN A    10.64.40.68
-frmx1001        1H      IN A    10.64.40.162
-frnetmon1001    1H      IN A    10.64.40.67
-frpig1002       1H      IN A    10.64.40.165
-frpm1002        1H      IN A    10.64.40.71
-frqueue1003     1H      IN A    10.64.40.113
-frqueue1004     1H      IN A    10.64.40.114
-pay-lvs1001     1H      IN A    10.64.40.20
-pay-lvs1002     1H      IN A    10.64.40.21
-pay-lvs1003     1H      IN A    10.64.40.18
-pay-lvs1004     1H      IN A    10.64.40.19
-payments1005    1H      IN A    10.64.40.9
-payments1006    1H      IN A    10.64.40.10
-payments1007    1H      IN A    10.64.40.11
-payments1008    1H      IN A    10.64.40.12
+$INCLUDE netbox/frack.eqiad.wmnet
 
 ; EQIAD fundraising/payments management
 $ORIGIN mgmt.frack.eqiad.wmnet.
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/mgmt.frack.eqiad.wmnet
 
 ; EQIAD analytics cluster
@@ -299,46 +270,10 @@ kubernetes-pod-10-192-{{ z }}-{{ i }} 1H IN A 10.192.{{ z }}.{{ i }}
 
 ; CODFW fundraising/payments
 $ORIGIN frack.codfw.wmnet.
-civi2001            1H  IN A    10.195.0.37
-civi2002            1H  IN A    10.195.0.55
-payments2004        1H  IN A    10.195.0.10
-payments2005        1H  IN A    10.195.0.11
-payments2006        1H  IN A    10.195.0.12
-pay-lvs2001         1H  IN A    10.195.0.20
-pay-lvs2002         1H  IN A    10.195.0.21
-fran2001            1H  IN A    10.195.0.36
-frand2001           1H  IN A    10.195.0.43
-frand2002           1H  IN A    10.195.0.44
-franio2001          1H  IN A    10.195.0.46
-franio2002          1H  IN A    10.195.0.47
-franio2003          1H  IN A    10.195.0.48
-frauth2002          1H  IN A    10.195.0.77
-frauth2001          1H  IN A    10.195.0.78
-frban2002           1H  IN A    10.195.0.56
-frbast2002          1H  IN A    10.195.0.131
-frdb2003            1H  IN A    10.195.0.35
-frdb2004            1H  IN A    10.195.0.53
-frdb2005            1H  IN A    10.195.0.54
-frlog2002           1H  IN A    10.195.0.68
-frmon2002           1H  IN A    10.195.0.67
-fransc2001          1H  IN A    10.195.0.45
-fransw2001          1H  IN A    10.195.0.50
-fransw2002          1H  IN A    10.195.0.51
-fransw2003          1H  IN A    10.195.0.52
-frdata2001          1H  IN A    10.195.0.85
-frpig2002           1H  IN A    10.195.0.86
-frpm2002            1H  IN A    10.195.0.69
-frpig2001           1H  IN A    10.195.0.82
-frmx2001            1H  IN A    10.195.0.84
-frbackup2002        1H  IN A    10.195.0.75
-frqueue2002         1H  IN A    10.195.0.42
-frqueue2003         1H  IN A    10.195.0.49
-pay-lb2001          1H  IN A    10.195.0.8
-pay-lb2002          1H  IN A    10.195.0.9
+$INCLUDE netbox/frack.codfw.wmnet
 
 ; CODFW fundraising/payments management
 $ORIGIN mgmt.frack.codfw.wmnet.
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/mgmt.frack.codfw.wmnet
 
 ; CODFW management
