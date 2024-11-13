@@ -711,8 +711,8 @@ airflow-search 1D IN CNAME dyna.wikimedia.org.
 airflow-test-k8s 1D IN CNAME dyna.wikimedia.org.
 airflow-wmde 1D IN CNAME dyna.wikimedia.org.
 analytics        1D IN CNAME dyna.wikimedia.org.
-analytics.frdev  1D IN A     208.80.155.4
-analytics-codfw.frdev  1D IN A     208.80.152.238
+analytics-eqiad.frdev  1D IN A     208.80.155.4
+analytics.frdev  1D IN A     208.80.152.238
 blog             1H IN CNAME blog-wikimedia-org.go-vip.net.
 bugs             1D IN CNAME dyna.wikimedia.org.
 bugzilla         1D IN CNAME dyna.wikimedia.org.
