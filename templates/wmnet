@@ -926,6 +926,7 @@ datahub-gms-next        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datasets-config         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datasets-config-next    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 echoserver              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+hdfs-synchronizer       300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 mpic                    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 mpic-next               300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 spark-history           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
