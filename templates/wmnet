@@ -919,6 +919,7 @@ recommendation-api-ng 300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-dse.
 ; The DSE ingress endpoint does not have any distinction between rw and ro.
+blunderbuss             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datahub-frontend        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datahub-frontend-next   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datahub-gms             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
@@ -926,7 +927,6 @@ datahub-gms-next        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datasets-config         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datasets-config-next    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 echoserver              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-hdfs-synchronizer       300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 mpic                    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 mpic-next               300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 spark-history           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
