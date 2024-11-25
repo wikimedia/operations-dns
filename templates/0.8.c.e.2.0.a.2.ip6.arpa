@@ -236,6 +236,14 @@ $ORIGIN f.f.f.f.0.0.7.0.@Z
 $INCLUDE netbox/f.f.f.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
 
 ;
+; WMCS Eqiad - 2a02:ec80:a000::/48
+;
+
+; Vlan 1107 - cloud-gw-transport-eqiad (1107)
+$ORIGIN 4.0.e.f.0.0.0.a.@Z
+$INCLUDE netbox/4.0.e.f.0.0.0.a.0.8.c.e.2.0.a.2.ip6.arpa
+
+;
 ; WMCS Codfw - 2a02:ec80:a100::/48
 ;
 ; cloudsw <-> cr1-codfw uplink (2a02:ec80:a100:fe01::/64)
