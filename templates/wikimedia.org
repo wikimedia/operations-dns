@@ -712,7 +712,8 @@ airflow-test-k8s 1D IN CNAME dyna.wikimedia.org.
 airflow-wmde 1D IN CNAME dyna.wikimedia.org.
 analytics        1D IN CNAME dyna.wikimedia.org.
 analytics-eqiad.frdev  1D IN A     208.80.155.4
-analytics.frdev  1H IN A     208.80.152.238
+analytics-codfw.frdev  1D IN A     208.80.152.238
+analytics.frdev  1H IN CNAME analytics-codfw.frdev
 blog             1H IN CNAME blog-wikimedia-org.go-vip.net.
 bugs             1D IN CNAME dyna.wikimedia.org.
 bugzilla         1D IN CNAME dyna.wikimedia.org.
@@ -745,6 +746,7 @@ labs             1D IN CNAME dyna.wikimedia.org.
 ; deprecated but kept for compatibility, see RT #6769
 labsconsole      1D IN CNAME dyna.wikimedia.org.
 logstash         1D IN CNAME dyna.wikimedia.org.
+metabase.frdev   1H IN CNAME analytics-codfw.frdev
 moon             1D IN CNAME dyna.wikimedia.org.
 mpic             1D IN CNAME dyna.wikimedia.org.
 mpic-next        1D IN CNAME dyna.wikimedia.org.
@@ -793,6 +795,7 @@ static-codereview  1D IN CNAME dyna.wikimedia.org.
 stats            1D IN CNAME dyna.wikimedia.org.
 status           5M  IN A        192.237.162.200 ; wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
 status           5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5 ; wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
+superset.frdev   1H IN CNAME analytics-codfw.frdev
 techblog         5M IN CNAME techblog-wikimedia-org.go-vip.net.
 ticket           1D IN CNAME dyna.wikimedia.org.
 mirrors          5M IN CNAME mirror1001
