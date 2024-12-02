@@ -541,9 +541,11 @@ $ORIGIN 7.65.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/7.65.10.in-addr.arpa
 
-$ORIGIN 8.65.@Z
+; No active IP addresses to be included here: Dec 2 2024.
+; This happened after mc-gp100[1-3] were decommissioned.
+; $ORIGIN 8.65.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/8.65.10.in-addr.arpa
+; $INCLUDE netbox/8.65.10.in-addr.arpa
 
 ; Small assignments
 
