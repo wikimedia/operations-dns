@@ -287,6 +287,10 @@ generic-map => {
             BO => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Bolivia
             BR => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Brazil
             PY => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Paraguay
+            # Cohort 3 from Dec 11 2024
+            AR => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Argentina
+            CL => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Chile
+            UY => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Uruguay
         },
     },
     nets = {
