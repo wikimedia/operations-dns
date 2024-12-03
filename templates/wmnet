@@ -570,6 +570,8 @@ pybal-low-traffic 1H  IN A    10.2.2.85
 kubestagemaster 1H  IN A    10.2.2.86
 mw-wikifunctions 1H  IN A    10.2.2.88
 k8s-ingress-dse 1H  IN  A   10.2.2.91
+wdqs-internal-main      1H  IN A 10.2.2.93
+wdqs-internal-scholarly 1H  IN A 10.2.2.94
 
 ganeti01      1H  IN A        10.64.32.173
 ganeti-test01 1H  IN A        10.64.16.57
@@ -759,6 +761,8 @@ k8s-ingress-ml-serve 1H  IN A    10.2.1.84
 pybal-low-traffic 1H  IN A    10.2.1.85
 kubestagemaster 1H  IN A    10.2.1.86
 mw-wikifunctions 1H  IN A    10.2.1.88
+wdqs-internal-main 1H  IN A      10.2.1.93
+wdqs-internal-scholarly 1H  IN A 10.2.1.94
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.

@@ -98,6 +98,8 @@ $ORIGIN 1.2.@Z
 90  1H  IN PTR  mw-jobrunner.svc.codfw.wmnet.
 ; 91 reserved for k8s-ingress-dse.svc.codfw.wmnet.
 92  1H  IN PTR  mw-parsoid.svc.codfw.wmnet.
+93  1H  IN PTR  wdqs-internal-main.svc.codfw.wmnet.
+94  1H  IN PTR  wdqs-internal-scholarly.svc.codfw.wmnet.
 
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
@@ -189,6 +191,8 @@ $ORIGIN 2.2.@Z
 90  1H  IN PTR  mw-jobrunner.svc.eqiad.wmnet.
 91  1H  IN PTR  k8s-ingress-dse.svc.eqiad.wmnet.
 92  1H  IN PTR  mw-parsoid.svc.eqiad.wmnet.
+93  1H  IN PTR  wdqs-internal-main.svc.eqiad.wmnet.
+94  1H  IN PTR  wdqs-internal-scholarly.svc.eqiad.wmnet.
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 
