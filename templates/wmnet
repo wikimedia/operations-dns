@@ -203,7 +203,7 @@ m1-master       5M  IN CNAME    dbproxy2005.codfw.wmnet.
 m1-slave        5M  IN CNAME    db2160.codfw.wmnet.
 m2-master       5M  IN CNAME    dbproxy2006.codfw.wmnet.
 m2-slave        5M  IN CNAME    db2160.codfw.wmnet.
-m3-master       5M  IN CNAME    dbproxy2003.codfw.wmnet.
+m3-master       5M  IN CNAME    dbproxy2007.codfw.wmnet.
 m3-slave        5M  IN CNAME    db2160.codfw.wmnet.
 m5-master       5M  IN CNAME    dbproxy2004.codfw.wmnet.
 m5-slave        5M  IN CNAME    db2160.codfw.wmnet.
