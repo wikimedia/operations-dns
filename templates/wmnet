@@ -199,7 +199,7 @@ people          5M  IN CNAME    people2003.codfw.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install2004.wikimedia.org.
 deployment      5M  IN CNAME    deploy2002.codfw.wmnet.
-m1-master       5M  IN CNAME    dbproxy2001.codfw.wmnet.
+m1-master       5M  IN CNAME    dbproxy2005.codfw.wmnet.
 m1-slave        5M  IN CNAME    db2160.codfw.wmnet.
 m2-master       5M  IN CNAME    dbproxy2002.codfw.wmnet.
 m2-slave        5M  IN CNAME    db2160.codfw.wmnet.
