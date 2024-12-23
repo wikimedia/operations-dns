@@ -121,6 +121,7 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl1001.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl1002.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl1003.eqiad.wmnet.
+_etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl1004.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster1003.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster1004.eqiad.wmnet.
 _etcd-server-ssl._tcp.k8s3-staging 5M  IN SRV      0 1 2380 kubestagemaster1005.eqiad.wmnet.
