@@ -58,7 +58,7 @@ es1-master      5M  IN CNAME    es2030.codfw.wmnet.
 es2-master      5M  IN CNAME    es2026.codfw.wmnet.
 es3-master      5M  IN CNAME    es2027.codfw.wmnet.
 es4-master      5M  IN CNAME    es2043.codfw.wmnet.
-es5-master      5M  IN CNAME    es2025.codfw.wmnet.
+es5-master      5M  IN CNAME    es2046.codfw.wmnet.
 es6-master      5M  IN CNAME    es2035.codfw.wmnet.
 es7-master      5M  IN CNAME    es2038.codfw.wmnet.
 pc1-master      5M  IN CNAME    pc2011.codfw.wmnet.
