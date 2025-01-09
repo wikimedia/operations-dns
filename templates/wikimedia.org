@@ -698,6 +698,9 @@ wikipedia-it-arbcom 1D IN CNAME dyna.wikimedia.org.
 wikipedia-zh-arbcom 1D IN CNAME dyna.wikimedia.org.
 www              1D IN CNAME dyna.wikimedia.org.
 
+; Common domain for auth cookie sharing between wikis
+auth             1D IN CNAME dyna.wikimedia.org.
+
 ; Other websites (NO wikis!)
 2030             1D IN CNAME dyna.wikimedia.org.
 airflow-analytics 1D IN CNAME dyna.wikimedia.org.
