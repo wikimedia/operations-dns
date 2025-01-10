@@ -381,7 +381,6 @@ wikimaniateam.m     1D IN CNAME dyna.wikimedia.org.
 wikipedia-pl-sysop.m 1D IN CNAME dyna.wikimedia.org.
 wikipedia-it-arbcom.m 1D IN CNAME dyna.wikimedia.org.
 wikipedia-zh-arbcom.m 1D IN CNAME dyna.wikimedia.org.
-za.m                1D IN CNAME dyna.wikimedia.org.
 
 ; Cams
 
@@ -698,7 +697,6 @@ wikipedia-pl-sysop 1D IN CNAME dyna.wikimedia.org.
 wikipedia-it-arbcom 1D IN CNAME dyna.wikimedia.org.
 wikipedia-zh-arbcom 1D IN CNAME dyna.wikimedia.org.
 www              1D IN CNAME dyna.wikimedia.org.
-za               1D IN CNAME dyna.wikimedia.org.
 
 ; Other websites (NO wikis!)
 2030             1D IN CNAME dyna.wikimedia.org.
