@@ -357,7 +357,6 @@ tr.m                1D IN CNAME dyna.wikimedia.org.
 u4c.m               1D IN CNAME dyna.wikimedia.org.
 ua.m                1D IN CNAME dyna.wikimedia.org.
 usability.m         1D IN CNAME dyna.wikimedia.org.
-uz.m                1D IN CNAME dyna.wikimedia.org.
 ve.m                1D IN CNAME dyna.wikimedia.org.
 vote.m              1D IN CNAME dyna.wikimedia.org.
 vrt-wiki.m          1D IN CNAME dyna.wikimedia.org.
@@ -674,7 +673,6 @@ u4c              1D IN CNAME dyna.wikimedia.org.
 ua               1D IN CNAME dyna.wikimedia.org.
 uk               1D IN CNAME dyna.wikimedia.org.
 usability        1D IN CNAME dyna.wikimedia.org.
-uz               1D IN CNAME dyna.wikimedia.org.
 ve               1D IN CNAME dyna.wikimedia.org.
 vote             1D IN CNAME dyna.wikimedia.org.
 vrt-wiki         1D IN CNAME dyna.wikimedia.org.
