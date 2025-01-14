@@ -827,6 +827,11 @@ $ORIGIN 42.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/42.192.10.in-addr.arpa
 
+; 10.192.43.0/24 - private1-d8-codfw
+$ORIGIN 43.192.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/43.192.10.in-addr.arpa
+
 ; 10.192.48.0/24 - private1-d-codfw first /24
 $ORIGIN 48.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
