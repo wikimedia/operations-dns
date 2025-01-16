@@ -64,7 +64,7 @@ pc1-master      5M  IN CNAME    pc2011.codfw.wmnet.
 pc2-master      5M  IN CNAME    pc2012.codfw.wmnet.
 pc3-master      5M  IN CNAME    pc2013.codfw.wmnet.
 pc4-master      5M  IN CNAME    pc2014.codfw.wmnet.
-pc5-master      5M  IN CNAME    pc2017.codfw.wmnet.
+pc5-master      5M  IN CNAME    pc2015.codfw.wmnet.
 zarcillo-master 5M  IN CNAME    db1215.eqiad.wmnet.
 
 analytics-test-hive   5M  IN CNAME    an-test-coord1001.eqiad.wmnet.
