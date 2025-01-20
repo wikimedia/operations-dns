@@ -45,9 +45,10 @@ mailern1j           1H IN CNAME 327bdf87d37c.p413.email.myshopify.com.
 ; Shopify, wikimediafoundation.myshopify.com, requested in T355833
 mailer2i3           1H IN CNAME edd08f1c196d.p234.email.myshopify.com.
 
-; CAA records for wikimedia.org - all types for Digicert and LE
+; CAA records for wikimedia.org - all types for Digicert, LE and pki.goog
 @               5M  IN CAA 0 issue "digicert.com"
 @               5M  IN CAA 0 issue "letsencrypt.org"
+@               5M  IN CAA 0 issue "pki.goog"
 @               5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 ; CAA records for *.email.wikimedia.org - all types for LE and Amazon
 ; digicert added in T346394

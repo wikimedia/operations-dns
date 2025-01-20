@@ -32,6 +32,7 @@ _dmarc                  600     IN TXT "v=DMARC1; p=quarantine; rua=mailto:dmarc
 ; CAA records
 @                       600     IN CAA 0 issue "digicert.com"
 @                       600     IN CAA 0 issue "letsencrypt.org"
+@                       600     IN CAA 0 issue "pki.goog"
 @                       600     IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 ; Wikis (alphabetic order), which are not covered by langlist.tmpl
