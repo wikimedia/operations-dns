@@ -22,6 +22,8 @@
 57d67d15e4e75c82ea6260c959068739    600 IN CNAME verify.bing.com.
 ; Yandex Webmaster verification record. This record proves our ownership of this domain to Yandex.
 @                                   600 IN TXT   "yandex-verification: 35c08d23099dc863"
+; Bluesky account verification. This record proves our ownership of the @wikipedia.org account to Blusky/AT Protocol
+_atproto                            600 IN TXT   "did=did:plc:plla3i7zproko3ekdnkoykhe"
 
 _dmarc                  600     IN TXT "v=DMARC1; p=quarantine; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
 
