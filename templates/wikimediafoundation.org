@@ -22,6 +22,9 @@
 ; Facebook verification record (T258284)
 @           600 IN TXT  "facebook-domain-verification=orjhfudqyeumf4uber3bpwan5pisu0"
 
+; Account verification for Bluesky; see T384350
+_atproto    600 IN TXT  "did=did:plc:vwdzejaw4wkxh2wvkjlcubal"
+
 ; DKIM domain policy record
 _domainkey  1H  IN TXT  "o=~; r=hostmaster@wikimediafoundation.org;"
 
