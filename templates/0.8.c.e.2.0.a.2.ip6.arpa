@@ -10,6 +10,12 @@
 
 ; WMCS openstack sub-delegations
 
+; eqiad openstack public 2a02:ec80:a000::/56
+0.0.0.0.0.a         1D      IN NS   ns0.openstack.eqiad1.wikimediacloud.org.
+0.0.0.0.0.a         1D      IN NS   ns1.openstack.eqiad1.wikimediacloud.org.
+; eqiad openstack private  2a02:ec80:a000:100::/56
+1.0.0.0.0.a         1D      IN NS   ns0.openstack.eqiad1.wikimediacloud.org.
+1.0.0.0.0.a         1D      IN NS   ns1.openstack.eqiad1.wikimediacloud.org.
 ; codfw openstack public 2a02:ec80:a100::/56
 0.0.0.0.1.a         1D      IN NS   ns0.openstack.codfw1dev.wikimediacloud.org.
 0.0.0.0.1.a         1D      IN NS   ns1.openstack.codfw1dev.wikimediacloud.org.
