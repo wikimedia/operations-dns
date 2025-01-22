@@ -85,16 +85,16 @@ x1-analytics-replica  5M  IN CNAME    dbstore1009.eqiad.wmnet.
 staging-db-analytics  5M  IN CNAME    dbstore1009.eqiad.wmnet.
 
 ; analytics dbstore records
-_s1-analytics._tcp       5M  IN SRV      0 1 3311 dbstore1008.eqiad.wmnet.
-_s2-analytics._tcp       5M  IN SRV      0 1 3312 dbstore1007.eqiad.wmnet.
-_s3-analytics._tcp       5M  IN SRV      0 1 3313 dbstore1007.eqiad.wmnet.
-_s4-analytics._tcp       5M  IN SRV      0 1 3314 dbstore1007.eqiad.wmnet.
-_s5-analytics._tcp       5M  IN SRV      0 1 3315 dbstore1008.eqiad.wmnet.
-_s6-analytics._tcp       5M  IN SRV      0 1 3316 dbstore1009.eqiad.wmnet.
-_s7-analytics._tcp       5M  IN SRV      0 1 3317 dbstore1008.eqiad.wmnet.
-_s8-analytics._tcp       5M  IN SRV      0 1 3318 dbstore1009.eqiad.wmnet.
-_x1-analytics._tcp       5M  IN SRV      0 1 3320 dbstore1009.eqiad.wmnet.
-_staging-analytics._tcp  5M  IN SRV      0 1 3350 dbstore1009.eqiad.wmnet.
+_s1-analytics._tcp       5M  IN SRV      0 100 3311 dbstore1008.eqiad.wmnet.
+_s2-analytics._tcp       5M  IN SRV      0 100 3312 dbstore1007.eqiad.wmnet.
+_s3-analytics._tcp       5M  IN SRV      0 100 3313 dbstore1007.eqiad.wmnet.
+_s4-analytics._tcp       5M  IN SRV      0 100 3314 dbstore1007.eqiad.wmnet.
+_s5-analytics._tcp       5M  IN SRV      0 100 3315 dbstore1008.eqiad.wmnet.
+_s6-analytics._tcp       5M  IN SRV      0 100 3316 dbstore1009.eqiad.wmnet.
+_s7-analytics._tcp       5M  IN SRV      0 100 3317 dbstore1008.eqiad.wmnet.
+_s8-analytics._tcp       5M  IN SRV      0 100 3318 dbstore1009.eqiad.wmnet.
+_x1-analytics._tcp       5M  IN SRV      0 100 3320 dbstore1009.eqiad.wmnet.
+_staging-analytics._tcp  5M  IN SRV      0 100 3350 dbstore1009.eqiad.wmnet.
 
 ; etcd records
 ; etcd new cluster (v3) servers
