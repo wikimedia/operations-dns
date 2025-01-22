@@ -792,6 +792,7 @@ transparency-archive 1D IN CNAME dyna.wikimedia.org.
 search           1D IN CNAME dyna.wikimedia.org.
 shop             1D IN CNAME dyna.wikimedia.org.
 soundlogo        1H IN CNAME wikimediasoundlogo.go-vip.net.
+spiderpig        1D IN CNAME dyna.wikimedia.org.
 store            1H  IN CNAME    c.ssl.shopify.com.
 static-bugzilla  1D IN CNAME dyna.wikimedia.org.
 static-codereview  1D IN CNAME dyna.wikimedia.org.
