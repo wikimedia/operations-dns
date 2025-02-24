@@ -707,6 +707,7 @@ auth             1D IN CNAME dyna.wikimedia.org.
 
 ; Other websites (NO wikis!)
 2030             1D IN CNAME dyna.wikimedia.org.
+airflow           1D IN CNAME dyna.wikimedia.org.
 airflow-analytics 1D IN CNAME dyna.wikimedia.org.
 airflow-analytics-product 1D IN CNAME dyna.wikimedia.org.
 airflow-analytics-test 1D IN CNAME dyna.wikimedia.org.
