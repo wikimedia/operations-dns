@@ -172,6 +172,25 @@ $INCLUDE netbox/1.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 2.2.1.0.@Z
 $INCLUDE netbox/2.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+;
+; Test networks Nokia lab rack A8 Feb 2025
+;
+; Vlan 2051 - private2-a8-codfw - 2620:0:860:123::/64
+$ORIGIN 3.2.1.0.@Z
+$INCLUDE netbox/3.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 2052 - private3-a8-codfw - 2620:0:860:124::/64
+$ORIGIN 4.2.1.0.@Z
+$INCLUDE netbox/4.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 2053 - private4-a8-codfw - 2620:0:860:125::/64
+$ORIGIN 5.2.1.0.@Z
+$INCLUDE netbox/5.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 2054 - private5-a8-codfw - 2620:0:860:126::/64
+$ORIGIN 6.2.1.0.@Z
+$INCLUDE netbox/6.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; cr1-codfw <-> cloudsw1-b1-codfw 2620:0:860:130::/64
 $ORIGIN 0.3.1.0.@Z
 $INCLUDE netbox/0.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa

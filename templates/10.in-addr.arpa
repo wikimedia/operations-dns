@@ -832,6 +832,22 @@ $ORIGIN 43.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/43.192.10.in-addr.arpa
 
+; 10.192.44.0 - private2-a8-codfw (temp Nokia testing)
+$ORIGIN 44.192.@Z
+$INCLUDE netbox/44.192.10.in-addr.arpa
+
+; 10.192.45.0 - private3-a8-codfw (temp Nokia testing)
+$ORIGIN 45.192.@Z
+$INCLUDE netbox/45.192.10.in-addr.arpa
+
+; 10.192.46.0 - private4-a8-codfw (temp Nokia testing)
+$ORIGIN 46.192.@Z
+$INCLUDE netbox/46.192.10.in-addr.arpa
+
+; 10.192.47.0 - private5-a8-codfw (temp Nokia testing)
+$ORIGIN 47.192.@Z
+$INCLUDE netbox/47.192.10.in-addr.arpa
+
 ; 10.192.48.0/24 - private1-d-codfw first /24
 $ORIGIN 48.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
