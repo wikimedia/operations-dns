@@ -35,8 +35,9 @@
 ; Wikidough check service (durum). Anycast.
 ;
 ; landing page
-check       600 IN A    185.71.138.139
-check       600 IN AAAA 2001:67c:930::2
+check       600 IN A        185.71.138.139
+check       600 IN AAAA     2001:67c:930::2
+check       10  IN TYPE65   \# 8 6563683d74657374
 
 ; yes.check (DoH)
 yesdoh.check    600 IN A    185.71.138.140
