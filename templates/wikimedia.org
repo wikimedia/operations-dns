@@ -560,7 +560,7 @@ research         1D IN CNAME dyna.wikimedia.org.
 
 reports.frdev   1H  IN CNAME    frdev-eqiad
 
-rt              300 IN DYNA     geoip!text-addrs
+rt              1H IN CNAME dyna.wikimedia.org.
 
 secure          1D IN CNAME dyna.wikimedia.org.
 
