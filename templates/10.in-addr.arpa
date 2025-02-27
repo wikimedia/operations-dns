@@ -857,6 +857,22 @@ $INCLUDE netbox/48.192.10.in-addr.arpa
 $ORIGIN 49.192.@Z
 $INCLUDE netbox/49.192.10.in-addr.arpa
 
+; 10.192.52.0 - private1-l-codfw (temp Nokia testing)
+$ORIGIN 52.192.@Z
+$INCLUDE netbox/52.192.10.in-addr.arpa
+
+; 10.192.53.0 - public1-l-codfw (temp Nokia testing)
+$ORIGIN 53.192.@Z
+$INCLUDE netbox/53.192.10.in-addr.arpa
+
+; 10.192.54.0 - private2-l-codfw (temp Nokia testing)
+$ORIGIN 54.192.@Z
+$INCLUDE netbox/54.192.10.in-addr.arpa
+
+; 10.192.55.0 - public2-l-codfw (temp Nokia testing)
+$ORIGIN 55.192.@Z
+$INCLUDE netbox/55.192.10.in-addr.arpa
+
 ; 10.192.64.0/21 - kubernetes codfw pod IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
 {% for z in range(64,72) %}

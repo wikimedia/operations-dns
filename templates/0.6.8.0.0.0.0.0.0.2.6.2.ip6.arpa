@@ -191,6 +191,22 @@ $INCLUDE netbox/5.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 6.2.1.0.@Z
 $INCLUDE netbox/6.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; Vlan 2055 - private1-l-codfw - 2620:0:860:127::/64
+$ORIGIN 7.2.1.0.@Z
+$INCLUDE netbox/7.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 2056 - public1-l-codfw - 2620:0:860:128::/64
+$ORIGIN 8.2.1.0.@Z
+$INCLUDE netbox/8.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 2057 - private2-l-codfw - 2620:0:860:129::/64
+$ORIGIN 9.2.1.0.@Z
+$INCLUDE netbox/9.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 2058 - public2-l-codfw - 2620:0:860:12a::/64
+$ORIGIN a.2.1.0.@Z
+$INCLUDE netbox/a.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; cr1-codfw <-> cloudsw1-b1-codfw 2620:0:860:130::/64
 $ORIGIN 0.3.1.0.@Z
 $INCLUDE netbox/0.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
