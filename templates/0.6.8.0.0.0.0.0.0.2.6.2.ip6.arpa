@@ -235,6 +235,14 @@ $INCLUDE netbox/5.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 6.3.1.0.@Z
 $INCLUDE netbox/6.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; cr1-codfw <-> ssw2-a8-codfw (nokia test) - 2620:0:860:137::/64
+$ORIGIN 7.3.1.0.@Z
+$INCLUDE netbox/7.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; cr2-codfw <-> ssw3-a8-codfw (nokia test) - 2620:0:860:138::/64
+$ORIGIN 8.3.1.0.@Z
+$INCLUDE netbox/8.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; private1-virtual-codfw 2620:0:860:140::/64
 $ORIGIN 0.4.1.0.@Z
 $INCLUDE netbox/0.4.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
