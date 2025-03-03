@@ -278,19 +278,14 @@ generic-map => {
             WS => [ulsfo, eqsin, codfw, eqiad, esams, drmrs, magru], # Samoa
         },
         SA => {
-            # magru mappings for progressive rollout of new DC: T359054
-            # keep the default below since we may need a SA-specific one that
-            # overrides the global default.
             default => [eqiad, codfw, magru, esams, drmrs, ulsfo, eqsin],
-            # we start by sending BO and PY to magru.
-            # July 11 2024: BR added to the list.
-            BO => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Bolivia
-            BR => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Brazil
-            PY => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Paraguay
-            # Cohort 3 from Dec 11 2024
-            AR => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Argentina
-            CL => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Chile
-            UY => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # Uruguay
+            # March 2025 update, part 1/2
+            BO => [magru, eqiad, codfw, ulsfo, esams, drmrs, eqsin], # Bolivia
+            BR => [magru, eqiad, codfw, ulsfo, esams, drmrs, eqsin], # Brazil
+            PY => [magru, eqiad, codfw, ulsfo, esams, drmrs, eqsin], # Paraguay
+            AR => [magru, eqiad, codfw, ulsfo, esams, drmrs, eqsin], # Argentina
+            CL => [magru, eqiad, codfw, ulsfo, drmrs, esams, eqsin], # Chile
+            UY => [magru, eqiad, codfw, esams, ulsfo, drmrs, eqsin], # Uruguay
         },
     },
     nets = {
