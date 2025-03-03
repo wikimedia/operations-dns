@@ -35,6 +35,7 @@
 query                        1D IN CNAME dyna.wikimedia.org.
 query-main                   1D IN CNAME dyna.wikimedia.org.
 query-scholarly              1D IN CNAME dyna.wikimedia.org.
+query-legacy-full            1D IN CNAME dyna.wikimedia.org.
 
 ; Wikis (alphabetic order)
 
