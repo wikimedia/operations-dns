@@ -490,15 +490,6 @@ $ORIGIN 53.64.@Z
 $INCLUDE netbox/53.64.10.in-addr.arpa
 
 
-; 10.64.64.0/21 - kubernetes eqiad pod IPs reservation
-; Need to revisit whether we want reverse DNS for this and how we would populate it
-{% for z in range(64,72) -%}
-$ORIGIN {{ z }}.64.@Z
-{% for i in range(256) -%}
-{{ i }} 1H IN PTR       kubernetes-pod-10-64-{{ z }}-{{ i }}.eqiad.wmnet.
-{% endfor %}
-{% endfor %}
-
 ; 10.64.72.0/24 - kubernetes eqiad service IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
 $ORIGIN 72.64.@Z
@@ -873,15 +864,6 @@ $INCLUDE netbox/54.192.10.in-addr.arpa
 $ORIGIN 55.192.@Z
 $INCLUDE netbox/55.192.10.in-addr.arpa
 
-; 10.192.64.0/21 - kubernetes codfw pod IPs reservation
-; Need to revisit whether we want reverse DNS for this and how we would populate it
-{% for z in range(64,72) %}
-$ORIGIN {{ z }}.192.@Z
-{% for i in range(256) -%}
-{{ i }} 1H IN PTR       kubernetes-pod-10-192-{{ z }}-{{ i }}.codfw.wmnet.
-{% endfor %}
-{% endfor %}
-
 ; 10.192.72.0/24 - kubernetes codfw service IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
 $ORIGIN 72.192.@Z
@@ -969,6 +951,38 @@ $ORIGIN 1.252.@Z
 ; Kubernetes POD IP reverse range delegations to control-plane nodes
 ; To be replaced by automated entries when T376291 is complete
 $ORIGIN @Z
+; Kubernetes POD IP delegation - staging eqiad 10.64.64.0/24
+64.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
+64.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
+64.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
+; Kubernetes POD IP delegation - staging eqiad 10.64.65.0/24
+65.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
+65.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
+65.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
+; Kubernetes POD IP delegation - staging eqiad 10.64.66.0/24
+66.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
+66.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
+66.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
+; Kubernetes POD IP delegation - staging eqiad 10.64.67.0/24
+67.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
+67.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
+67.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
+; Kubernetes POD IP delegation - staging eqiad 10.64.68.0/24
+68.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
+68.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
+68.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
+; Kubernetes POD IP delegation - staging eqiad 10.64.69.0/24
+69.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
+69.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
+69.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
+; Kubernetes POD IP delegation - staging eqiad 10.64.70.0/24
+70.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
+70.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
+70.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
+; Kubernetes POD IP delegation - staging eqiad 10.64.71.0/24
+71.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
+71.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
+71.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
 ; Kubernetes POD IP delegation - staging-eqiad 10.64.75.0/24
 75.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
 75.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
@@ -1301,6 +1315,39 @@ $ORIGIN @Z
 191.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 191.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 191.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+
+; Kubernetes POD IP delegation - staging codfw 10.192.64.0/24
+64.192          IN    NS    kubestagemaster2003.codfw.wmnet.
+64.192          IN    NS    kubestagemaster2004.codfw.wmnet.
+64.192          IN    NS    kubestagemaster2005.codfw.wmnet.
+; Kubernetes POD IP delegation - staging codfw 10.192.65.0/24
+65.192          IN    NS    kubestagemaster2003.codfw.wmnet.
+65.192          IN    NS    kubestagemaster2004.codfw.wmnet.
+65.192          IN    NS    kubestagemaster2005.codfw.wmnet.
+; Kubernetes POD IP delegation - staging codfw 10.192.66.0/24
+66.192          IN    NS    kubestagemaster2003.codfw.wmnet.
+66.192          IN    NS    kubestagemaster2004.codfw.wmnet.
+66.192          IN    NS    kubestagemaster2005.codfw.wmnet.
+; Kubernetes POD IP delegation - staging codfw 10.192.67.0/24
+67.192          IN    NS    kubestagemaster2003.codfw.wmnet.
+67.192          IN    NS    kubestagemaster2004.codfw.wmnet.
+67.192          IN    NS    kubestagemaster2005.codfw.wmnet.
+; Kubernetes POD IP delegation - staging codfw 10.192.68.0/24
+68.192          IN    NS    kubestagemaster2003.codfw.wmnet.
+68.192          IN    NS    kubestagemaster2004.codfw.wmnet.
+68.192          IN    NS    kubestagemaster2005.codfw.wmnet.
+; Kubernetes POD IP delegation - staging codfw 10.192.69.0/24
+69.192          IN    NS    kubestagemaster2003.codfw.wmnet.
+69.192          IN    NS    kubestagemaster2004.codfw.wmnet.
+69.192          IN    NS    kubestagemaster2005.codfw.wmnet.
+; Kubernetes POD IP delegation - staging codfw 10.192.70.0/24
+70.192          IN    NS    kubestagemaster2003.codfw.wmnet.
+70.192          IN    NS    kubestagemaster2004.codfw.wmnet.
+70.192          IN    NS    kubestagemaster2005.codfw.wmnet.
+; Kubernetes POD IP delegation - staging codfw 10.192.71.0/24
+71.192          IN    NS    kubestagemaster2003.codfw.wmnet.
+71.192          IN    NS    kubestagemaster2004.codfw.wmnet.
+71.192          IN    NS    kubestagemaster2005.codfw.wmnet.
 ; Kubernetes POD IP delegation - staging-codfw 10.192.75.0/24
 75.192          IN    NS    kubestagemaster2003.codfw.wmnet.
 75.192          IN    NS    kubestagemaster2004.codfw.wmnet.
