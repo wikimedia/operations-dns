@@ -805,6 +805,9 @@ recommendation-api-ng 1H  IN CNAME    k8s-ingress-ml-serve.svc.codfw.wmnet.
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-aux.
 codesearch               1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
+jaeger-collector-http    1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
+jaeger-collector-grpc    1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
+jaeger-query             1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 
 ; K8S CODFW STAGING SERVICES
 
