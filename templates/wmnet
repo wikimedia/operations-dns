@@ -762,9 +762,10 @@ k8s-ingress-staging  1H  IN A    10.2.1.69
 k8s-ingress-wikikube 1H  IN A    10.2.1.70
 ml-staging-ctrl 1H  IN A    10.2.1.72
 
+aux-k8s-ctrl    1H  IN A    10.2.1.74
 mw-web          1H  IN A    10.2.1.75
 mw-api-ext      1H  IN A    10.2.1.76
-; 78 reserved for k8s-ingress-aux
+k8s-ingress-aux 1H  IN A    10.2.1.78
 logs-api        1H  IN A    10.2.1.79
 mw-api-int      1H  IN A    10.2.1.81
 mw-jobrunner    1H  IN A    10.2.1.90
