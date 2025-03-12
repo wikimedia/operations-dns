@@ -1352,6 +1352,30 @@ $ORIGIN @Z
 75.192          IN    NS    kubestagemaster2003.codfw.wmnet.
 75.192          IN    NS    kubestagemaster2004.codfw.wmnet.
 75.192          IN    NS    kubestagemaster2005.codfw.wmnet.
+; aux-k8s-codfw 10.194.80.0/24
+80.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+80.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; aux-k8s-codfw 10.194.81.0/24
+81.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+81.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; aux-k8s-codfw 10.194.82.0/24
+82.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+82.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; aux-k8s-codfw 10.194.83.0/24
+83.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+83.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; aux-k8s-codfw 10.194.84.0/24
+84.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+84.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; aux-k8s-codfw 10.194.85.0/24
+85.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+85.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; aux-k8s-codfw 10.194.86.0/24
+86.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+86.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; aux-k8s-codfw 10.194.87.0/24
+87.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+87.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
 ; Kubernetes POD IP delegation - ml-serve-codfw 10.194.16.0/24
 16.194          IN    NS    ml-serve-ctrl2001.codfw.wmnet.
 16.194          IN    NS    ml-serve-ctrl2002.codfw.wmnet.

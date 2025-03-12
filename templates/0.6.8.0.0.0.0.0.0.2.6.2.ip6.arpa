@@ -266,10 +266,6 @@ $ORIGIN 3.0.2.0.@Z
 ; sandbox1-d-codfw (2620:0:860:204::/64)
 $ORIGIN 4.0.2.0.@Z
 
-; kubernetes codfw pod IPs reservation (2620:0:860:cabe::/64)
-; Need to revisit whether we want reverse DNS for this and how we would populate it
-$ORIGIN e.b.a.c.@Z
-
 ; kubernetes codfw service IPs reservation (2620:0:860:cabf::/64)
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
 $ORIGIN f.b.a.c.@Z
@@ -330,6 +326,9 @@ $ORIGIN @Z
 ; ml-staging-codfw 2620:0:860:302::/64
 2.0.3.0         IN    NS    ml-staging-ctrl2001.codfw.wmnet.
 2.0.3.0         IN    NS    ml-staging-ctrl2002.codfw.wmnet.
+; aux-k8s-codfw 2620:0:860:305::/64
+5.0.3.0         IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+5.0.3.0         IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
 ; staging-codfw 2620:0:860:babe::/64
 e.b.a.b         IN    NS    kubestagemaster2003.codfw.wmnet.
 e.b.a.b         IN    NS    kubestagemaster2004.codfw.wmnet.
