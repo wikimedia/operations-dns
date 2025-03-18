@@ -632,7 +632,6 @@ datahub-gms-next         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 growthbook               1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 growthbook-backend       1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow                  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
-airflow-analytics        1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-analytics-product 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-analytics-test   1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-ml               1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
@@ -956,7 +955,6 @@ superset-next           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 growthbook              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 growthbook-backend      300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-analytics       300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-analytics-product 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-analytics-test  300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-ml              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
