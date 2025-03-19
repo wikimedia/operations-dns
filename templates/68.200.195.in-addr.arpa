@@ -18,6 +18,9 @@ $INCLUDE netbox/0-27.68.200.195.in-addr.arpa
 ; public1-b4-magru (712)
 $INCLUDE netbox/32-27.68.200.195.in-addr.arpa
 
+; sandbox1-b3-magru (731)
+$INCLUDE netbox/64-29.68.200.195.in-addr.arpa
+
 ; Loopbacks & interconnects
 $INCLUDE netbox/128-29.68.200.195.in-addr.arpa
 $INCLUDE netbox/128-27.68.200.195.in-addr.arpa

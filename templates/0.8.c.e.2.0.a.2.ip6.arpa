@@ -191,6 +191,10 @@ $INCLUDE netbox/1.0.1.0.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
 $ORIGIN 2.0.1.0.0.0.7.0.@Z
 $INCLUDE netbox/2.0.1.0.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
 
+; sandbox1-b3-magru (731) - 2a02:ec80:700:201::/64
+$ORIGIN 1.0.2.0.0.0.7.0.@Z
+$INCLUDE netbox/1.0.2.0.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
 ; magru lvs vips (2a02:ec80:700:ed1a::/64)
 $ORIGIN a.1.d.e.0.0.7.0.@Z
 $INCLUDE netbox/a.1.d.e.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
