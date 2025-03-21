@@ -1,0 +1,13 @@
+; vim: set expandtab:smarttab
+; {{ serial_comment }}
+@ 1H IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. {{ serial_num }} 12H 2H 2W 1H
+
+
+; Nameservers
+@           1D  IN NS       ns0.wikimedia.org.
+@           1D  IN NS       ns1.wikimedia.org.
+@           1D  IN NS       ns2.wikimedia.org.
+
+$ORIGIN 255.@Z
+$INCLUDE netbox/255.31.172.in-addr.arpa
+
