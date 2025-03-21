@@ -295,6 +295,10 @@ $INCLUDE netbox/8.0.e.f.0.0.0.a.0.8.c.e.2.0.a.2.ip6.arpa
 $ORIGIN 9.0.e.f.0.0.0.a.@Z
 $INCLUDE netbox/9.0.e.f.0.0.0.a.0.8.c.e.2.0.a.2.ip6.arpa
 
+; WMCS Eqiad CloudSW Loopbacks - 2a02:ec80:a000:ffff::/64
+$ORIGIN f.f.f.f.0.0.0.a.@Z
+$INCLUDE netbox/f.f.f.f.0.0.0.a.0.8.c.e.2.0.a.2.ip6.arpa
+
 ;
 ; WMCS Codfw - 2a02:ec80:a100::/48
 ;
