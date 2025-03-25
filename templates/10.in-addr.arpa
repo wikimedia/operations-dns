@@ -927,9 +927,6 @@ $INCLUDE netbox/64-28.0.195.10.in-addr.arpa
 ; 10.195.0.80/29 - frack-listenerdmz-codfw
 $INCLUDE netbox/80-29.0.195.10.in-addr.arpa
 
-; 10.195.0.96/27 - frack-management-codfw
-$INCLUDE netbox/96-27.0.195.10.in-addr.arpa
-
 ; 10.195.0.128/29 - frack-bastion-codfw
 $INCLUDE netbox/128-29.0.195.10.in-addr.arpa
 
