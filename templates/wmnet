@@ -909,7 +909,10 @@ k8s-ingress-wikikube-rw 300/10 IN DYNA metafo!disc-k8s-ingress-wikikube-rw
 k8s-ingress-ml-staging  300/10 IN DYNA metafo!disc-k8s-ingress-ml-staging
 k8s-ingress-ml-serve    300/10 IN DYNA geoip!disc-k8s-ingress-ml-serve
 k8s-ingress-dse         300/10 IN DYNA metafo!disc-k8s-ingress-dse
+k8s-ingress-aux-ro      300/10 IN DYNA geoip!disc-k8s-ingress-aux-ro
+k8s-ingress-aux-rw      300/10 IN DYNA metafo!disc-k8s-ingress-aux-rw
 netbox                  300/10 IN DYNA metafo!disc-netbox
+
 ; We don't need a separate discovery address for netbox-extra
 ; however a new cname is useful to configure an internal vhost
 netbox-exports          300 IN CNAME netbox
