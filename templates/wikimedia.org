@@ -295,7 +295,7 @@ measure-drmrs       1D IN CNAME upload-lb.drmrs.wikimedia.org.
 measure-magru       1D IN CNAME upload-lb.magru.wikimedia.org.
 
 ; HIBP confirm records
-gerrit 1H IN TXT "have-i-been-pwned-verification=dweb_zepxxczjh9br6qkxitpnmd9r"
+phabricator 1H IN TXT "have-i-been-pwned-verification=dweb_moale78bwvnct7smq6avjala"
 
 ; Mobile
 
