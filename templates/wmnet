@@ -941,7 +941,7 @@ page-analytics           300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 commons-impact-analytics 300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 data-gateway             300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 chart-renderer           300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
-mw-wikifunctions-ingress 300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
+mw-wikifunctions-ingress 300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
 
 
 ; Services that run under Kubernetes Ingress are just CNAME
