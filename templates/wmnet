@@ -498,7 +498,6 @@ _etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 ; EQIAD SERVICES
 
 $ORIGIN svc.eqiad.wmnet.
-videoscaler 1H  IN A        10.2.2.5
 mw-web-next 1H  IN A        10.2.2.6
 mw-api-ext-next 1H  IN A    10.2.2.7
 kubemaster  1H  IN A        10.2.2.8
@@ -518,7 +517,6 @@ proton      1H  IN A        10.2.2.21
 linkrecommendation  1H  IN A 10.2.2.23
 thumbor     1H  IN A        10.2.2.24
 prometheus  1H  IN A        10.2.2.25
-jobrunner   1H  IN A        10.2.2.26
 ms-fe       1H  IN A        10.2.2.27
 swift       1H  IN CNAME    ms-fe.svc.eqiad.wmnet.
 sessionstore 1H IN A        10.2.2.29
@@ -692,7 +690,6 @@ prometheus  1H  IN CNAME    prometheus7001.magru.wmnet.
 
 $ORIGIN svc.codfw.wmnet.
 
-videoscaler     1H  IN A        10.2.1.5
 mw-web-next     1H  IN A        10.2.1.6
 mw-api-ext-next 1H  IN A        10.2.1.7
 kubemaster      1H  IN A        10.2.1.8
@@ -712,7 +709,6 @@ proton          1H  IN A        10.2.1.21
 linkrecommendation  1H  IN A    10.2.1.23
 thumbor         1H  IN A        10.2.1.24
 prometheus      1H  IN A        10.2.1.25
-jobrunner       1H  IN A        10.2.1.26
 ms-fe           1H  IN A        10.2.1.27
 swift           1H  IN CNAME    ms-fe.svc.codfw.wmnet.
 sessionstore    1H  IN A        10.2.1.29
@@ -825,9 +821,7 @@ termbox-test    1H  IN CNAME    staging.svc.codfw.wmnet.
 
 $ORIGIN discovery.wmnet.
 ; MediaWiki related
-jobrunner      300/10 IN DYNA metafo!disc-jobrunner
 logstash       300/10 IN DYNA metafo!disc-logstash
-videoscaler    300/10 IN DYNA metafo!disc-videoscaler
 swift          300/10 IN DYNA geoip!disc-swift
 swift-ro       300/10 IN DYNA geoip!disc-swift-ro
 swift-rw       300/10 IN DYNA metafo!disc-swift-rw
