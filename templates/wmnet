@@ -579,7 +579,6 @@ mw-parsoid      1H  IN A    10.2.2.92
 k8s-ingress-ml-serve 1H  IN A    10.2.2.84
 pybal-low-traffic 1H  IN A    10.2.2.85
 kubestagemaster 1H  IN A    10.2.2.86
-mw-wikifunctions 1H  IN A    10.2.2.88
 k8s-ingress-dse 1H  IN  A   10.2.2.91
 wdqs-internal-main      1H  IN A 10.2.2.93
 wdqs-internal-scholarly 1H  IN A 10.2.2.94
@@ -605,6 +604,7 @@ page-analytics           1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 commons-impact-analytics 1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 data-gateway             1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 chart-renderer           1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+mw-wikifunctions         1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 mw-wikifunctions-ingress 1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 
 ; ML
@@ -775,7 +775,6 @@ k8s-ingress-ml-staging  1H  IN A    10.2.1.83
 k8s-ingress-ml-serve 1H  IN A    10.2.1.84
 pybal-low-traffic 1H  IN A    10.2.1.85
 kubestagemaster 1H  IN A    10.2.1.86
-mw-wikifunctions 1H  IN A    10.2.1.88
 wdqs-internal-main 1H  IN A      10.2.1.93
 wdqs-internal-scholarly 1H  IN A 10.2.1.94
 
@@ -797,6 +796,7 @@ page-analytics           1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 commons-impact-analytics 1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 data-gateway             1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 chart-renderer           1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+mw-wikifunctions         1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 mw-wikifunctions-ingress 1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 
 ; services that run under Kubernetes Ingress are just CNAME
@@ -893,8 +893,6 @@ mw-api-int     300/10 IN DYNA metafo!disc-mw-api-int
 mw-api-int-ro  300/10 IN DYNA geoip!disc-mw-api-int-ro
 mw-jobrunner   300/10 IN DYNA metafo!disc-mw-jobrunner
 mw-parsoid     300/10 IN DYNA metafo!disc-mw-parsoid
-mw-wikifunctions    300/10 IN DYNA metafo!disc-mw-wikifunctions
-mw-wikifunctions-ro 300/10 IN DYNA geoip!disc-mw-wikifunctions-ro
 toolhub        300/10 IN DYNA metafo!disc-toolhub
 shellbox-media 300/10 IN DYNA geoip!disc-shellbox-media
 shellbox-syntaxhighlight  300/10 IN DYNA geoip!disc-shellbox-syntaxhighlight
@@ -942,6 +940,8 @@ commons-impact-analytics 300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 data-gateway             300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 chart-renderer           300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 mw-wikifunctions-ingress 300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
+mw-wikifunctions         300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
+mw-wikifunctions-ro      300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 
 
 ; Services that run under Kubernetes Ingress are just CNAME
