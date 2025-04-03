@@ -385,6 +385,7 @@ wikimania2017.m     1D IN CNAME dyna.wikimedia.org.
 wikimania2018.m     1D IN CNAME dyna.wikimedia.org.
 wikimania2019.m     1D IN CNAME dyna.wikimedia.org.
 wikimaniateam.m     1D IN CNAME dyna.wikimedia.org.
+wikipedia-pl-arbcom.m 1D IN CNAME dyna.wikimedia.org.
 wikipedia-pl-sysop.m 1D IN CNAME dyna.wikimedia.org.
 wikipedia-it-arbcom.m 1D IN CNAME dyna.wikimedia.org.
 wikipedia-zh-arbcom.m 1D IN CNAME dyna.wikimedia.org.
@@ -700,6 +701,7 @@ wikimania2017    1D IN CNAME dyna.wikimedia.org.
 wikimania2018    1D IN CNAME dyna.wikimedia.org.
 wikimania2019    1D IN CNAME dyna.wikimedia.org.
 wikimaniateam    1D IN CNAME dyna.wikimedia.org.
+wikipedia-pl-arbcom 1D IN CNAME dyna.wikimedia.org.
 wikipedia-pl-sysop 1D IN CNAME dyna.wikimedia.org.
 wikipedia-it-arbcom 1D IN CNAME dyna.wikimedia.org.
 wikipedia-zh-arbcom 1D IN CNAME dyna.wikimedia.org.
