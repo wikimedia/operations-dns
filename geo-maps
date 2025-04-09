@@ -279,13 +279,15 @@ generic-map => {
         },
         SA => {
             default => [eqiad, codfw, magru, esams, drmrs, ulsfo, eqsin],
-            # March 2025 update, part 1/2
+            # March 2025 update
             BO => [magru, eqiad, codfw, ulsfo, esams, drmrs, eqsin], # Bolivia
             BR => [magru, eqiad, codfw, ulsfo, esams, drmrs, eqsin], # Brazil
             PY => [magru, eqiad, codfw, ulsfo, esams, drmrs, eqsin], # Paraguay
             AR => [magru, eqiad, codfw, ulsfo, esams, drmrs, eqsin], # Argentina
             CL => [magru, eqiad, codfw, ulsfo, drmrs, esams, eqsin], # Chile
             UY => [magru, eqiad, codfw, esams, ulsfo, drmrs, eqsin], # Uruguay
+            # April 2025 update
+            PE => [magru, eqiad, codfw, ulsfo, esams, drmrs, eqsin], # Peru
         },
     },
     nets = {
