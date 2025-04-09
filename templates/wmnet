@@ -614,6 +614,7 @@ codesearch            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-collector-http 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-collector-grpc 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-query          1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
+zarcillo              1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 
 ; dse
 echoserver-dse-k8s-eqiad 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
@@ -806,6 +807,7 @@ codesearch               1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 jaeger-collector-http    1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 jaeger-collector-grpc    1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 jaeger-query             1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
+zarcillo                 1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 
 ; K8S CODFW STAGING SERVICES
 
