@@ -75,6 +75,10 @@ $ORIGIN 7.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/7.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; cr3-ulsfo <--> cr4-ulsfo #2 - 2620:0:863:fe08::/64
+$ORIGIN 8.0.e.f.@Z
+$INCLUDE netbox/8.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; Loopback IPs
 $ORIGIN f.f.f.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
