@@ -18,7 +18,7 @@ Example Usage:
 
 $ ./utils/type65.py -p 1 -t . --params "ech=test"
 Arguments: {'priority': 1, 'target': '.', 'params': 'ech=test'}
-IN TYPE65    \# 11 0001000005000474657374
+IN TYPE65    \# 10 00010000050003b5eb2d
 
 $ ./utils/type65.py -p 0 -t wikimedia.org
 Arguments: {'priority': 0, 'target': 'wikimedia.org', 'params': None}
@@ -26,6 +26,8 @@ IN TYPE65    \# 16 00000977696b696d65646961036f7267
 """
 
 import argparse
+import base64
+import binascii
 import doctest
 import enum
 import sys
@@ -97,12 +99,16 @@ def domain_to_wire(domain: str) -> str:
 def process_svparams(params: str) -> typing.Optional[str]:
     """Processes SvcParams (ECH keys) and formats them in wire format.
 
-    >>> process_svparams("ech=test")
-    '0005000474657374'
+    >>> process_svparams("ech=AET+DQBA8gAgACBXWnEYjZqexZMROd9csCwJFMsU3/lT3UTOui4hc" \
+                         "WY1EwAEAAEAAQARd2lraW1lZGlhLWVjaC5vcmcAAA==")
+    '000500460044fe0d0040f200200020575a71188d9a9ec5931139df5cb02c0914cb14dff953dd4\
+4ceba2e2171663513000400010001001177696b696d656469612d6563682e6f72670000'
     """
     # It is fine to assume that a single record just has one (key,value) pair.
+    # Split just once once = to get what we need and to avoid issues with
+    # base64 padding.
     try:
-        key, value = params.split("=")
+        key, value = params.split("=", 1)
     except ValueError:
         sys.exit(f"Unable to split {params}. Was a key=value passed to --params?")
 
@@ -111,10 +117,13 @@ def process_svparams(params: str) -> typing.Optional[str]:
     except KeyError:
         sys.exit(f"Only ECH keys are supported! We found {key} instead.")
 
-    value_len = to_wire(len(value))
-    value_wire = to_wire(value)
+    try:
+        value_decoded = base64.b64decode(value).hex()
+    except binascii.Error:
+        sys.exit(f"Error decoding {value}. ECHConfigList should be bas64 encoded.")
+    value_len = to_wire(len(bytes.fromhex(value_decoded)))
 
-    format_response = f"{key_wire}{value_len}{value_wire}"
+    format_response = f"{key_wire}{value_len}{value_decoded}"
     return format_response
 
 
