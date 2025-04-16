@@ -120,7 +120,7 @@ def process_svparams(params: str) -> typing.Optional[str]:
     try:
         value_decoded = base64.b64decode(value).hex()
     except binascii.Error:
-        sys.exit(f"Error decoding {value}. ECHConfigList should be bas64 encoded.")
+        sys.exit(f"Error decoding {value}. ECHConfigList should be base64 encoded.")
     value_len = to_wire(len(bytes.fromhex(value_decoded)))
 
     format_response = f"{key_wire}{value_len}{value_decoded}"
