@@ -26,7 +26,7 @@ $INCLUDE netbox/64-27.153.80.208.in-addr.arpa
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/96-27.153.80.208.in-addr.arpa
 ;; manually maintained records
-104 300  IN PTR gerrit.wikimedia.org. ; service IP for gerrit (>=bullseye)
+104 300  IN PTR gerrit-replica.wikimedia.org. ; service IP for gerrit (>=bullseye)
 
 ; 208.80.153.128/27 labtest codfw public IPs (pool used by openstack)
 
