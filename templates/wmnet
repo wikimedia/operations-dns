@@ -977,8 +977,8 @@ airflow-wmde            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 
 ; misc web services with multiple backends but without geoip
 
-aphlict               300 IN CNAME aphlict1002.eqiad.wmnet.
-;aphlict               300 IN CNAME aphlict2001.codfw.wmnet.
+;aphlict               300 IN CNAME aphlict1002.eqiad.wmnet.
+aphlict               300 IN CNAME aphlict2001.codfw.wmnet.
 ;community-crm         300 IN CNAME crm1001.eqiad.wmnet.
 community-crm         300 IN CNAME crm2001.codfw.wmnet.
 debmonitor            300 IN CNAME debmonitor1003.eqiad.wmnet.
