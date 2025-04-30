@@ -1,1 +1,28 @@
-ncredir-parking
+; vim: set expandtab:smarttab
+; {{ serial_comment }}
+@ 1H IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. {{ serial_num }} 12H 2H 2W 1H
+
+; Name servers
+
+@           1D  IN NS   ns0.wikimedia.org.
+@           1D  IN NS   ns1.wikimedia.org.
+@           1D  IN NS   ns2.wikimedia.org.
+
+; Mail exchangers
+
+@           300 IN MX   10  mx-in1001.wikimedia.org.
+@           300 IN MX   10  mx-in2001.wikimedia.org.
+
+; SPF records
+@           600 IN TXT  "v=spf1 include:wikimedia.org ~all"
+
+; CAA records
+@           600 IN CAA 0 issue "letsencrypt.org"
+@           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
+
+; A and AAAA records. Currently, the only inner ECH is check.wikimedia-dns.org,
+; see T205378 and so we point to that. When we deploy more services behind this,
+; then a proper cover page should be put in place. But for now, this should
+; return a valid TLS cert and hence we point to the check service.
+@           600 IN A    185.71.138.139
+@           600 IN AAAA 2001:67c:930::2
