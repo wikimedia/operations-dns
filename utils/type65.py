@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: Apache-2.0
 
-r"""Generates HTTPS Resource Records (TYPE65) for ECH keys in DNS wire format.
+r"""Generates HTTPS Resource Records (TYPE65) in DNS wire format.
 
 This script generates HTTPS Resource Records as per RFC 9460 in DNS wire
-format, for gdnsd zone files. It currently only supports RDATA generation for
-ECH records, though we have plans to add support for other SvcParamKeys such as
-ALPN and ip{46}hints.
+format, for gdnsd zone files. It was primarily written to support RDATA
+generation for ECH records, but it now supports additional service parameters
+like ALPN, port, and v4 and v6 addresses.
 
 There is no (intentional) integration with gdnsd; the generated records are
 printed on stdout, after which they need to be copied to the relevant zone file
@@ -23,6 +23,10 @@ IN TYPE65    \# 10 00010000050003b5eb2d
 $ ./utils/type65.py -p 0 -t wikimedia.org
 Arguments: {'priority': 0, 'target': 'wikimedia.org', 'params': None}
 IN TYPE65    \# 16 00000977696b696d65646961036f7267
+
+$ ./utils/type65.py -p 16 -t foo.example.com. --params 'port=53'
+Arguments: {'priority': 16, 'target': 'foo.example.com.', 'params': 'port=53'}
+IN TYPE65    \# 25 001003666f6f076578616d706c6503636f6d00000300020035
 """
 
 import argparse
@@ -30,6 +34,7 @@ import base64
 import binascii
 import doctest
 import enum
+import ipaddress
 import sys
 import typing
 
@@ -37,15 +42,15 @@ import typing
 class SvcParamKeys(enum.IntEnum):
     """SvcParamKeys as defined in Section 14.3.2 of RFC 9460.
 
-    Support for the following will be added later as required:
+    Support for the following will be added later:
         MANDATORY = 0
-        ALPN = 1
         NO_DEFAULT_ALPN = 2
-        PORT = 3
-        IPV4HINT = 4
-        IPV6HINT = 6
     """
+    ALPN = 1
+    PORT = 3
+    IPV4HINT = 4
     ECH = 5
+    IPV6HINT = 6
 
 
 def parse_args() -> argparse.Namespace:
@@ -63,10 +68,12 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def to_wire(value: typing.Union[int, str]) -> str:
+def to_wire(value: typing.Union[int, str], octet: int = 2) -> str:
     """Returns hex representation of an int or string.
 
-    Section 2.2: 2-octet field for int (priority), in network byte order.
+    Default: Section 2.2: 2-octet field for int (priority), in network byte order.
+
+    ALPN and others use a single octet and that can be passed manually.
 
     >>> to_wire(16)
     '0010'
@@ -75,7 +82,7 @@ def to_wire(value: typing.Union[int, str]) -> str:
     """
     match value:
         case int():
-            return value.to_bytes(2, byteorder="big").hex()
+            return value.to_bytes(octet, byteorder="big").hex()
         case str():
             return value.encode().hex()
 
@@ -96,35 +103,104 @@ def domain_to_wire(domain: str) -> str:
     return wire
 
 
-def process_svparams(params: str) -> typing.Optional[str]:
-    """Processes SvcParams (ECH keys) and formats them in wire format.
+def process_svcparams(svc_params: str) -> typing.Optional[str]:
+    """Processes one or multiple SvcParams and formats them in wire format.
 
-    >>> process_svparams("ech=AET+DQBA8gAgACBXWnEYjZqexZMROd9csCwJFMsU3/lT3UTOui4hc" \
+    Some of these examples are directly from the RFC.
+
+    >>> process_svcparams("ech=AET+DQBA8gAgACBXWnEYjZqexZMROd9csCwJFMsU3/lT3UTOui4hc" \
                          "WY1EwAEAAEAAQARd2lraW1lZGlhLWVjaC5vcmcAAA==")
     '000500460044fe0d0040f200200020575a71188d9a9ec5931139df5cb02c0914cb14dff953dd4\
 4ceba2e2171663513000400010001001177696b696d656469612d6563682e6f72670000'
+    >>> process_svcparams("ipv6hint=2001:db8::1,2001:db8::53:1")
+    '0006002020010db800000000000000000000000120010db8000000000000000000530001'
+    >>> process_svcparams("port=53")
+    '000300020035'
+    >>> process_svcparams("alpn=h2,h3-19")
+    '000100090268320568332d3139'
+    >>> process_svcparams("alpn=h2 ipv4hint=192.0.2.1")
+    '0001000302683200040004c0000201'
+    >>> process_svcparams("alpn=h2,http/1.1")
+    '0001000c02683208687474702f312e31'
     """
-    # It is fine to assume that a single record just has one (key,value) pair.
-    # Split just once once = to get what we need and to avoid issues with
-    # base64 padding.
-    try:
-        key, value = params.split("=", 1)
-    except ValueError:
-        sys.exit(f"Unable to split {params}. Was a key=value passed to --params?")
+    params = svc_params.split(" ")
 
-    try:
+    # No custom key support, so if we don't support a SvcParam, just quit.
+    # It's not difficult to do this, it's just that we just don't care about this yet.
+    all_svc_params = [svc.name for svc in SvcParamKeys]
+    arg_svc_params = [param.split("=")[0].upper() for param in params]
+    if not set(arg_svc_params).issubset(all_svc_params):
+        sys.exit(f"Only {', '.join(all_svc_params)} keys are supported! We found {', '.join(arg_svc_params)} instead.")
+
+    # Check if there are multiple SvcParams. If yes, per Section 3, "sort by
+    # ascending SvcPriority", and process further.
+    if len(params) > 1:
+        params.sort(key=lambda svc: SvcParamKeys[svc.split("=")[0].upper()].value)
+
+    # This is where we save all SvcParams that we processed, to calculate the
+    # length for the wire format at the end.
+    processed_param = []
+    for param in params:
+        try:
+            key, value = param.split("=", 1)
+        except ValueError:
+            sys.exit(f"Unable to split {params}. Each param should have a key=value pair.")
+
         key_wire = to_wire(SvcParamKeys[key.upper()].value)
-    except KeyError:
-        sys.exit(f"Only ECH keys are supported! We found {key} instead.")
+        # This is common to all SvcParamKeys, so append at the start. Mapping
+        # defined in the RFC and enumerated in SvcParamKeys.
+        processed_param.append(key_wire)
 
-    try:
-        value_decoded = base64.b64decode(value).hex()
-    except binascii.Error:
-        sys.exit(f"Error decoding {value}. ECHConfigList should be base64 encoded.")
-    value_len = to_wire(len(bytes.fromhex(value_decoded)))
+        match key:
+            case 'alpn':
+                # ALPN values are comma-separated so multiple values will be
+                # present. Example: alpn=h2,h3.
+                # We don't check for the actual ALPN values and that's OK. We
+                # could restrict this to h2,http1.1 but we are leaving this
+                # unrestricted for now.
+                alpns_value = []
+                alpns_len = []
+                for proto in value.split(","):
+                    alpn_proto_value = to_wire(proto)
+                    # Single octect, per RFC.
+                    alpn_proto_len = to_wire(len(proto), 1)
+                    alpns_value .append(f"{alpn_proto_len}{alpn_proto_value}")
+                    # We need this to format ALPN in wire format.
+                    alpns_len.append(len(proto))
+                # For the length calculation, factor in the individual values
+                # and also their count.
+                # ProtocolName protocol_name_list<2..2^16-1>. RFC 7301.
+                alpn_len = to_wire(len(alpns_value) + sum(alpns_len))
+                alpns_formatted = "".join(alpns_value)
+                processed_param.append(f"{alpn_len}{alpns_formatted}")
 
-    format_response = f"{key_wire}{value_len}{value_decoded}"
-    return format_response
+            case 'port':
+                port_number = to_wire(int(value))
+                port_len = to_wire(len(value))
+                processed_param.append(f"{port_len}{port_number}")
+
+            case 'ipv4hint' | 'ipv6hint':
+                # There can be multiple IP addresses, separated by a comma.
+                ips = []
+                for ip in value.split(","):
+                    ip_value = format(int(ipaddress.ip_address(ip)), "x")
+                    ips.append(ip_value)
+                ips_len = to_wire(sum([len(ipaddress.ip_address(ip).packed) for ip in value.split(",")]))
+                processed_param.append(f"{ips_len}{''.join(ips)}")
+
+            case 'ech':
+                # Encodes to base64, per https://datatracker.ietf.org/doc/draft-ietf-tls-svcb-ech/07/
+                # Not part of RFC 9460 but as implemented by every
+                # implementation, especially the current one we have deployed
+                # in T205378.
+                try:
+                    ech_value = base64.b64decode(value).hex()
+                except binascii.Error:
+                    sys.exit(f"Error decoding {value}. ECHConfigList should be base64 encoded.")
+                ech_len = to_wire(len(bytes.fromhex(ech_value)))
+                processed_param.append(f"{ech_len}{ech_value}")
+
+    return "".join(processed_param)
 
 
 def wire_result(*strings: typing.Any) -> str:
@@ -158,7 +234,7 @@ def main() -> None:
         print(wire_result(priority, domain))
         sys.exit(0)
 
-    params = process_svparams(args.params)
+    params = process_svcparams(args.params)
     print(wire_result(priority, domain, params))
 
 
