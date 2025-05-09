@@ -521,6 +521,9 @@ ms-fe       1H  IN A        10.2.2.27
 swift       1H  IN CNAME    ms-fe.svc.eqiad.wmnet.
 sessionstore 1H IN A        10.2.2.29
 search      1H  IN A        10.2.2.30
+search-chi  1H  IN CNAME    search.svc.eqiad.wmnet.
+search-psi  1H  IN CNAME    search.svc.eqiad.wmnet.
+search-omega 1H  IN CNAME   search.svc.eqiad.wmnet.
 wdqs        1H  IN A        10.2.2.32
 wdqs-main   1H  IN A        10.2.2.33
 eventstreams 1H  IN A       10.2.2.34
@@ -714,6 +717,9 @@ ms-fe           1H  IN A        10.2.1.27
 swift           1H  IN CNAME    ms-fe.svc.codfw.wmnet.
 sessionstore    1H  IN A        10.2.1.29
 search          1H  IN A        10.2.1.30
+search-chi      1H  IN CNAME    search.svc.codfw.wmnet.
+search-psi      1H  IN CNAME    search.svc.codfw.wmnet.
+search-omega    1H  IN CNAME    search.svc.codfw.wmnet.
 wdqs            1H  IN A        10.2.1.32
 wdqs-main       1H  IN A        10.2.1.33
 eventstreams    1H  IN A        10.2.1.34
