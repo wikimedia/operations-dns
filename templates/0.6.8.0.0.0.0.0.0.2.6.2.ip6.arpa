@@ -207,6 +207,22 @@ $INCLUDE netbox/9.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN a.2.1.0.@Z
 $INCLUDE netbox/a.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; Vlan 2059 - private1-e1-codfw - 2620:0:860:12b::/64
+$ORIGIN b.2.1.0.@Z
+$INCLUDE netbox/b.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 2060 - private1-e3-codfw - 2620:0:860:12c::/64
+$ORIGIN c.2.1.0.@Z
+$INCLUDE netbox/c.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 2061 - private1-f1-codfw - 2620:0:860:12d::/64
+$ORIGIN d.2.1.0.@Z
+$INCLUDE netbox/d.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 2062 - private1-f3-codfw - 2620:0:860:12e::/64
+$ORIGIN e.2.1.0.@Z
+$INCLUDE netbox/e.2.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; cr1-codfw <-> cloudsw1-b1-codfw 2620:0:860:130::/64
 $ORIGIN 0.3.1.0.@Z
 $INCLUDE netbox/0.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
@@ -250,6 +266,38 @@ $INCLUDE netbox/0.4.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 ; Codfw private network loopbacks 2620:0:860:13f::/64
 $ORIGIN f.3.1.0.@Z
 $INCLUDE netbox/f.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; lsw1-e1-codfw <-> ssw1-e1-codfw - 2620:0:860:180::/64
+$ORIGIN 0.8.1.0.@Z
+$INCLUDE netbox/0.8.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; lsw1-e1-codfw <-> ssw1-f1-codfw - 2620:0:860:181::/64
+$ORIGIN 1.8.1.0.@Z
+$INCLUDE netbox/1.8.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; lsw1-e3-codfw <-> ssw1-e1-codfw - 2620:0:860:182::/64
+$ORIGIN 2.8.1.0.@Z
+$INCLUDE netbox/2.8.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; lsw1-e3-codfw <-> ssw1-f1-codfw - 2620:0:860:183::/64
+$ORIGIN 3.8.1.0.@Z
+$INCLUDE netbox/3.8.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; lsw1-f1-codfw <-> ssw1-e1-codfw - 2620:0:860:184::/64
+$ORIGIN 4.8.1.0.@Z
+$INCLUDE netbox/4.8.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; lsw1-f1-codfw <-> ssw1-f1-codfw - 2620:0:860:185::/64
+$ORIGIN 5.8.1.0.@Z
+$INCLUDE netbox/5.8.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; lsw1-f3-codfw <-> ssw1-e1-codfw - 2620:0:860:186::/64
+$ORIGIN 6.8.1.0.@Z
+$INCLUDE netbox/6.8.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; lsw1-f3-codfw <-> ssw1-f1-codfw - 2620:0:860:187::/64
+$ORIGIN 7.8.1.0.@Z
+$INCLUDE netbox/7.8.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; codfw sandbox subnets (2620:0:860:200::/56)
 

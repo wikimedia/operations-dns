@@ -860,6 +860,22 @@ $INCLUDE netbox/54.192.10.in-addr.arpa
 $ORIGIN 55.192.@Z
 $INCLUDE netbox/55.192.10.in-addr.arpa
 
+; 10.192.56.0 - private1-e1-codfw (Vlan2059)
+$ORIGIN 56.192.@Z
+$INCLUDE netbox/56.192.10.in-addr.arpa
+
+; 10.192.57.0 - private1-e3-codfw (Vlan2060)
+$ORIGIN 57.192.@Z
+$INCLUDE netbox/57.192.10.in-addr.arpa
+
+; 10.192.58.0 - private1-f1-codfw (Vlan2061)
+$ORIGIN 58.192.@Z
+$INCLUDE netbox/58.192.10.in-addr.arpa
+
+; 10.192.59.0 - private1-f3-codfw (Vlan2062)
+$ORIGIN 59.192.@Z
+$INCLUDE netbox/59.192.10.in-addr.arpa
+
 ; 10.192.72.0/24 - kubernetes codfw service IPs reservation
 ; Need to revisit whether we want reverse DNS for this and how we would populate it
 $ORIGIN 72.192.@Z
