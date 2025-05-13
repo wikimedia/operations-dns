@@ -614,6 +614,7 @@ codesearch            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-collector-http 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-collector-grpc 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-query          1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
+os-reports            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 zarcillo              1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 
 ; dse
