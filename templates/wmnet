@@ -836,6 +836,8 @@ swift-rw       300/10 IN DYNA metafo!disc-swift-rw
 restbase       300/10 IN DYNA geoip!disc-restbase
 restbase-async 300/10 IN DYNA geoip!disc-restbase-async
 search         300/10 IN DYNA geoip!disc-search
+search-psi     300/10 IN DYNA geoip!disc-search-psi-https
+search-omega   300/10 IN DYNA geoip!disc-search-omega-https
 ; Other services
 apt            300/10 IN DYNA metafo!disc-apt
 apertium       300/10 IN DYNA geoip!disc-apertium
