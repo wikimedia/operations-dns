@@ -22,7 +22,7 @@
 @           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 ; Domain root (can't use CNAME here)
-@           300 IN DYNA geoip!ncredir-addrs
+@           240 IN DYNA geoip!ncredir-addrs
 
 ; Wikis (alphabetic order), which are not covered by langlist.tmpl
 

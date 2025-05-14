@@ -17,7 +17,7 @@ ns2         1D  IN A    198.35.27.27 ; anycasted authdns
 @           300 IN MX   10  mx-in2001
 
 ; Canonical names
-@           300 IN DYNA geoip!text-addrs
+@           240 IN DYNA geoip!text-addrs
 
 ; Google Webmaster Tools verification record for search management
 @           600 IN TXT  "google-site-verification=uzfgD0YiIqSQgRdSQXlkA7NByyyOZDp-n0SZ3nozpDM"
@@ -163,7 +163,8 @@ _45077a66a799e60855d7546ffdab9847.lp.email 1M IN CNAME _6f10127d42f52c65ff9c62e5
 ; (www.wikipedia.org was a better/previous choice, but it was moved here due to
 ; interactions with selective CN censorhsip at the DNS level)
 ; February 2024: We reduced this to 300 seconds from the earlier 600 seconds: T140365#9509590
-dyna            300 IN DYNA geoip!text-addrs
+; May 2025: We reduced this further to 240 seconds from 300 seconds above: T394312
+dyna            240 IN DYNA geoip!text-addrs
 
 dumps           1H  IN CNAME clouddumps1002
 
@@ -184,12 +185,12 @@ reflect      10 IN DYNA reflect ; GeoDNS debugging - returns best of either abov
 
 ; Geodynamic records
 text-lb     1D IN CNAME dyna.wikimedia.org.
-ncredir-lb  300 IN DYNA geoip!ncredir-addrs
+ncredir-lb  240 IN DYNA geoip!ncredir-addrs
 ; February 2024: We reduced this to 300 seconds from the earlier 600 seconds: T140365#9509590
-upload      300 IN DYNA geoip!upload-addrs
+upload      240 IN DYNA geoip!upload-addrs
 maps        600 IN CNAME upload.wikimedia.org.
 m           1D IN CNAME dyna.wikimedia.org.
-donate      300 IN DYNA geoip!text-addrs
+donate      240 IN DYNA geoip!text-addrs
 donate          300 IN MX       10 mx-in1001
 donate          300 IN MX       10 mx-in2001
 donate          5M  IN TXT  "v=spf1 ip4:185.15.59.0/24 ip4:208.80.152.0/22 ip6:2620:0:860::/46 include:_spf.google.com ip4:74.121.51.111 ~all"
@@ -445,7 +446,7 @@ apt-staging     1D IN CNAME dyna.wikimedia.org.
 
 archiva         1H  IN CNAME    archiva1002
 
-benefactors     300 IN DYNA     geoip!text-addrs
+benefactors     240 IN DYNA     geoip!text-addrs
 benefactors     300 IN MX       10 mx-in1001
 benefactors     300 IN MX       10 mx-in2001
 benefactors     1H  IN TXT      "v=spf1 include:wikimedia.org include:spf.mandrillapp.com -all"
@@ -459,7 +460,7 @@ cloudtestidm    1D IN CNAME dyna.wikimedia.org.
 
 commons-query   1D IN CNAME dyna.wikimedia.org.
 
-community-crm   300 IN DYNA geoip!text-addrs
+community-crm   240 IN DYNA geoip!text-addrs
 community-crm   300 IN MX   10 mx-in1001
 community-crm   300 IN MX   10 mx-in2001
 
@@ -530,7 +531,7 @@ idp             5M  IN CNAME idp1004.wikimedia.org.
 idp-test        5M  IN CNAME idp-test1004.wikimedia.org.
 cloudidp-dev    5M  IN CNAME dyna.wikimedia.org.
 
-intake-logging   300 IN DYNA  geoip!text-next
+intake-logging   240 IN DYNA  geoip!text-next
 intake-analytics 1D  IN CNAME dyna.wikimedia.org.
 
 integration     1D IN CNAME dyna.wikimedia.org.
@@ -542,7 +543,7 @@ requestctl      5M  IN CNAME    alert1002
 ldap-eqiad      1H  IN CNAME    seaborgium
 ldap-codfw      1H  IN CNAME    serpens
 
-phabricator     300 IN DYNA     geoip!text-addrs
+phabricator     240 IN DYNA     geoip!text-addrs
 phabricator     300 IN MX       10 mx-in1001
 phabricator     300 IN MX       10 mx-in2001
 phabricator     1H  IN TXT      "v=spf1 include:_cidrs.wikimedia.org ~all"
