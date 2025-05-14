@@ -25,8 +25,6 @@ disc-swift-ro            => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-restbase            => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-restbase-async      => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-search              => { map => mock, dcmap => { mock => 192.0.2.1 } }
-disc-search-psi-https    => { map => mock, dcmap => { mock => 192.0.2.1 } }
-disc-search-omega-https  => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-apertium            => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-citoid              => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-cxserver            => { map => mock, dcmap => { mock => 192.0.2.1 } }
