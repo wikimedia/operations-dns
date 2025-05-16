@@ -463,6 +463,7 @@ commons-query   1D IN CNAME dyna.wikimedia.org.
 community-crm   240 IN DYNA geoip!text-addrs
 community-crm   300 IN MX   10 mx-in1001
 community-crm   300 IN MX   10 mx-in2001
+community-crm   1H  IN TXT  "v=spf1 include:_cidrs.wikimedia.org ~all"
 
 config-master   1D IN CNAME dyna.wikimedia.org.
 
