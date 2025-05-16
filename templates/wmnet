@@ -59,7 +59,7 @@ es1-master      5M  IN CNAME    es1032.eqiad.wmnet.
 es2-master      5M  IN CNAME    es1033.eqiad.wmnet.
 es3-master      5M  IN CNAME    es1031.eqiad.wmnet.
 es4-master      5M  IN CNAME    es1042.eqiad.wmnet.
-es5-master      5M  IN CNAME    es1044.eqiad.wmnet.
+es5-master      5M  IN CNAME    es1045.eqiad.wmnet.
 es6-master      5M  IN CNAME    es1037.codfw.wmnet.
 es7-master      5M  IN CNAME    es1035.codfw.wmnet.
 pc1-master      5M  IN CNAME    pc1011.eqiad.wmnet.
