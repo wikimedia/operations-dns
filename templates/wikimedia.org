@@ -332,7 +332,7 @@ measure-drmrs       1D IN CNAME upload-lb.drmrs.wikimedia.org.
 measure-magru       1D IN CNAME upload-lb.magru.wikimedia.org.
 
 ; HIBP confirm records
-dyna 240 IN TXT "hibp-verify=dweb_km8teaex6a93jwjdmf5dtt8y"
+dyna 240 IN TXT "hibp-verify=dweb_1b1ozz5a31628c0tzkaopkcv"
 
 ; Mobile
 
