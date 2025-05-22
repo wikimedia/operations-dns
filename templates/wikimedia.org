@@ -331,9 +331,6 @@ measure-eqsin       1D IN CNAME upload-lb.eqsin.wikimedia.org.
 measure-drmrs       1D IN CNAME upload-lb.drmrs.wikimedia.org.
 measure-magru       1D IN CNAME upload-lb.magru.wikimedia.org.
 
-; HIBP confirm records
-dyna 240 IN TXT "hibp-verify=dweb_9av62gdvws00nwdcu8dyidc8"
-
 ; Mobile
 
 advisory.m          1D IN CNAME dyna.wikimedia.org.
