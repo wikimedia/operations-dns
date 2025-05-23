@@ -69,6 +69,7 @@ pc4-master      5M  IN CNAME    pc1014.eqiad.wmnet.
 pc5-master      5M  IN CNAME    pc1015.eqiad.wmnet.
 pc6-master      5M  IN CNAME    pc1016.eqiad.wmnet.
 pc7-master      5M  IN CNAME    pc1017.eqiad.wmnet.
+pc8-master      5M  IN CNAME    pc1018.eqiad.wmnet.
 zarcillo-master 5M  IN CNAME    db1215.eqiad.wmnet.
 
 analytics-test-hive   5M  IN CNAME    an-test-coord1001.eqiad.wmnet.
