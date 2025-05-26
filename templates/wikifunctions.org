@@ -12,7 +12,7 @@
 @               300 IN MX   10  mx-in2001.wikimedia.org.
 
 ; Canonical names
-@               210 IN DYNA geoip!text-addrs
+@               180 IN DYNA geoip!text-addrs
 
 ; Google Webmaster Tools verification record for search management. Documented in T355308.
 @               600 IN TXT  "google-site-verification=b5yMq36eaNEQGWpBaatU5KV9s4mjf8m1SoSZ2UmcIII"
