@@ -12,5 +12,5 @@
 @           5M  IN CAA 0 issue "letsencrypt.org"
 @           5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
-@           240 IN DYNA geoip!text-addrs
-www         240 IN DYNA geoip!text-addrs
+@           210 IN DYNA geoip!text-addrs
+www         210 IN DYNA geoip!text-addrs
