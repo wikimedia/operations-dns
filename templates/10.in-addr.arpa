@@ -632,6 +632,10 @@ $INCLUDE netbox/0.140.10.in-addr.arpa
 $ORIGIN 1.140.@Z
 $INCLUDE netbox/1.140.10.in-addr.arpa
 
+; 10.140.2.0/24 - private1-virtual-magru
+$ORIGIN 2.140.@Z
+$INCLUDE netbox/2.140.10.in-addr.arpa
+
 ; 10.140.127.0/24 - magru loopbacks & interconnects
 $ORIGIN 127.140.@Z
 $INCLUDE netbox/127.140.10.in-addr.arpa
