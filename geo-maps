@@ -288,6 +288,10 @@ generic-map => {
             UY => [magru, eqiad, codfw, esams, ulsfo, drmrs, eqsin], # Uruguay
             # April 2025 update
             PE => [magru, eqiad, codfw, ulsfo, esams, drmrs, eqsin], # Peru
+            # June 2025 update
+            CO => [eqiad, codfw, ulsfo, magru, esams, drmrs, eqsin], # Colombia
+            EC => [eqiad, codfw, magru, ulsfo, drmrs, esams, eqsin], # Ecuador
+            VE => [eqiad, codfw, ulsfo, magru, drmrs, esams, eqsin], # Venezuela
         },
     },
     nets = {
