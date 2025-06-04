@@ -823,22 +823,6 @@ $ORIGIN 43.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/43.192.10.in-addr.arpa
 
-; 10.192.44.0 - private2-a8-codfw (temp Nokia testing)
-$ORIGIN 44.192.@Z
-$INCLUDE netbox/44.192.10.in-addr.arpa
-
-; 10.192.45.0 - private3-a8-codfw (temp Nokia testing)
-$ORIGIN 45.192.@Z
-$INCLUDE netbox/45.192.10.in-addr.arpa
-
-; 10.192.46.0 - private4-a8-codfw (temp Nokia testing)
-$ORIGIN 46.192.@Z
-$INCLUDE netbox/46.192.10.in-addr.arpa
-
-; 10.192.47.0 - private5-a8-codfw (temp Nokia testing)
-$ORIGIN 47.192.@Z
-$INCLUDE netbox/47.192.10.in-addr.arpa
-
 ; 10.192.48.0/24 - private1-d-codfw first /24
 $ORIGIN 48.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -847,22 +831,6 @@ $INCLUDE netbox/48.192.10.in-addr.arpa
 ; 10.192.49.0/24 - private1-d-codfw second /24
 $ORIGIN 49.192.@Z
 $INCLUDE netbox/49.192.10.in-addr.arpa
-
-; 10.192.52.0 - private1-l-codfw (temp Nokia testing)
-$ORIGIN 52.192.@Z
-$INCLUDE netbox/52.192.10.in-addr.arpa
-
-; 10.192.53.0 - public1-l-codfw (temp Nokia testing)
-$ORIGIN 53.192.@Z
-$INCLUDE netbox/53.192.10.in-addr.arpa
-
-; 10.192.54.0 - private2-l-codfw (temp Nokia testing)
-$ORIGIN 54.192.@Z
-$INCLUDE netbox/54.192.10.in-addr.arpa
-
-; 10.192.55.0 - public2-l-codfw (temp Nokia testing)
-$ORIGIN 55.192.@Z
-$INCLUDE netbox/55.192.10.in-addr.arpa
 
 ; 10.192.56.0 - private1-e1-codfw (Vlan2059)
 $ORIGIN 56.192.@Z
