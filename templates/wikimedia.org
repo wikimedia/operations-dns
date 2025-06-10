@@ -525,7 +525,7 @@ icinga-extmon   5M  IN CNAME    alert1002
 idm             5M  IN CNAME idm1001.wikimedia.org.
 idm-test        5M  IN CNAME idm-test1001.wikimedia.org.
 
-idp             5M  IN CNAME idp2004.wikimedia.org.
+idp             5M  IN CNAME idp1004.wikimedia.org.
 idp-test        5M  IN CNAME idp-test1004.wikimedia.org.
 cloudidp-dev    5M  IN CNAME dyna.wikimedia.org.
 
