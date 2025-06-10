@@ -21,7 +21,7 @@ ns2         1D  IN A    198.35.27.27 ; anycasted authdns
 
 ; Google Webmaster Tools verification record for search management
 @           600 IN TXT  "google-site-verification=uzfgD0YiIqSQgRdSQXlkA7NByyyOZDp-n0SZ3nozpDM"
-@           600 IN TXT  "google-site-verification=N3HafkhgvJClz9DYYpZ-oHS3NN5PfIcf4qrkORi0MhI"
+@           600 IN TXT  "google-site-verification=APNaeC69s87mS4z-sfYqFYONgimBx4Bw22eCIaYEd_g"
 ; Google postmaster tools verification
 @           600 IN TXT  "google-site-verification=kNuWHjx0DQyl3xCPh6uGCRASncmkKK2d578rjruEFs8"
 ; 1Password site verification, requested in T352579
