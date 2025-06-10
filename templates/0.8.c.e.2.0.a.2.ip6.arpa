@@ -273,6 +273,10 @@ $INCLUDE netbox/3.0.2.0.0.0.0.a.0.8.c.e.2.0.a.2.ip6.arpa
 $ORIGIN 4.0.2.0.0.0.0.a.@Z
 $INCLUDE netbox/4.0.2.0.0.0.0.a.0.8.c.e.2.0.a.2.ip6.arpa
 
+; WMCS public service VIPs eqiad - 2a02:ec80:a000:4000::/64
+$ORIGIN 0.0.0.4.0.0.0.a.@Z
+$INCLUDE netbox/0.0.0.4.0.0.0.a.0.8.c.e.2.0.a.2.ip6.arpa
+
 ; cloudsw1-c8 <-> cr1-eqiad uplink - 2a02:ec80:a000:fe01::/64
 $ORIGIN 1.0.e.f.0.0.0.a.@Z
 $INCLUDE netbox/1.0.e.f.0.0.0.a.0.8.c.e.2.0.a.2.ip6.arpa
