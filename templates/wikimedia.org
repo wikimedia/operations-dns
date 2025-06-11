@@ -246,6 +246,7 @@ payments-listener-eqiad     1H  IN A    208.80.155.19
 analytics-eqiad.frdev       1D  IN CNAME    analytics-eqiad
 analytics-codfw.frdev       1D  IN CNAME    analytics-codfw
 analytics.frdev             1H  IN CNAME    analytics-codfw.frdev
+civi                        1H  IN CNAME    civicrm
 civi.frdev                  1H  IN CNAME    frdev-eqiad
 civicrm.frdev               1H  IN CNAME    frdev-eqiad
 fundraising                 1H  IN CNAME    frdata-eqiad
