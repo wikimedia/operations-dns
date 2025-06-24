@@ -28,7 +28,6 @@ disc-mw-api-ext-next     => { datacenters => mock, dcmap => { mock => 192.0.2.1 
 disc-mw-api-int          => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-mw-jobrunner        => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-mw-parsoid          => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
-disc-swift-rw            => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-docker-registry     => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-toolhub             => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-k8s-ingress-staging => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }

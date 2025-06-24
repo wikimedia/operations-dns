@@ -836,9 +836,6 @@ $ORIGIN discovery.wmnet.
 ; MediaWiki related
 logstash       300/10 IN DYNA metafo!disc-logstash
 swift          300/10 IN DYNA geoip!disc-swift
-; T376237: direct swift-ro to disc-failoid to support soft turndown
-swift-ro       300/10 IN DYNA geoip!disc-failoid
-swift-rw       300/10 IN DYNA metafo!disc-swift-rw
 ; Main services
 restbase       300/10 IN DYNA geoip!disc-restbase
 restbase-async 300/10 IN DYNA geoip!disc-restbase-async
