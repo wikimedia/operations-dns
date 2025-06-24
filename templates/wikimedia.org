@@ -477,6 +477,7 @@ design          1D IN CNAME dyna.wikimedia.org.
 dbtree          1D IN CNAME dyna.wikimedia.org.
 
 debmonitor      1D IN CNAME dyna.wikimedia.org.
+debmonitor-next 1D IN CNAME dyna.wikimedia.org.
 
 dev             1D IN CNAME dyna.wikimedia.org.
 developer       1D IN CNAME dyna.wikimedia.org.
