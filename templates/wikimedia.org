@@ -235,6 +235,7 @@ frmx2001                    1H  IN A    208.80.152.236
 
 payments-a-codfw            1H  IN A    208.80.152.227
 payments-codfw              1H  IN A    208.80.152.228
+payments-a-eqiad            1H  IN A    208.80.155.20
 payments-eqiad              1H  IN A    208.80.155.5 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
 payments-staging            1H  IN A    208.80.155.10
 
