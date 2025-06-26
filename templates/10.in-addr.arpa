@@ -91,7 +91,7 @@ $ORIGIN 1.2.@Z
 84  1H  IN PTR  k8s-ingress-ml-serve.svc.codfw.wmnet.
 85  1H  IN PTR  pybal-low-traffic.svc.codfw.wmnet.
 86  1H  IN PTR  kubestagemaster.svc.codfw.wmnet.
-88  1H  IN PTR  mw-wikifunctions.svc.codfw.wmnet.
+; 88 used to be mw-wikifunctions
 ; 89 reserved for katran-test.svc.codfw.wmnet.
 90  1H  IN PTR  mw-jobrunner.svc.codfw.wmnet.
 ; 91 reserved for k8s-ingress-dse.svc.codfw.wmnet.
@@ -183,7 +183,7 @@ $ORIGIN 2.2.@Z
 84  1H  IN PTR  k8s-ingress-ml-serve.svc.eqiad.wmnet.
 85  1H  IN PTR  pybal-low-traffic.svc.eqiad.wmnet.
 86  1H  IN PTR  kubestagemaster.svc.eqiad.wmnet.
-88  1H  IN PTR  mw-wikifunctions.svc.eqiad.wmnet.
+; 88 used to be mw-wikifunctions
 90  1H  IN PTR  mw-jobrunner.svc.eqiad.wmnet.
 91  1H  IN PTR  k8s-ingress-dse.svc.eqiad.wmnet.
 92  1H  IN PTR  mw-parsoid.svc.eqiad.wmnet.
