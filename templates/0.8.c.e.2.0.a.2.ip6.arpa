@@ -329,6 +329,10 @@ $INCLUDE netbox/f.f.f.f.0.0.0.a.0.8.c.e.2.0.a.2.ip6.arpa
 $ORIGIN 5.0.2.0.0.0.1.a.@Z
 $INCLUDE netbox/5.0.2.0.0.0.1.a.0.8.c.e.2.0.a.2.ip6.arpa
 
+; WMCS private service VIPs codfw - 2a02:ec80:a100:2ff::/64
+$ORIGIN f.f.2.0.0.0.1.a.@Z
+$INCLUDE netbox/f.f.2.0.0.0.1.a.0.8.c.e.2.0.a.2.ip6.arpa
+
 ; WMCS public service VIPs codfw - 2a02:ec80:a100:4000::/64
 $ORIGIN 0.0.0.4.0.0.1.a.@Z
 $INCLUDE netbox/0.0.0.4.0.0.1.a.0.8.c.e.2.0.a.2.ip6.arpa
