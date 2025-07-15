@@ -548,6 +548,10 @@ irc             5M  IN CNAME    irc2003
 klaxon          5M  IN CNAME    alert1002
 requestctl      5M  IN CNAME    alert1002
 
+metamonitoring  5M  IN CNAME    alert1002
+metamonitoring-active  5M  IN CNAME    alert1002
+metamonitoring-passive 5M  IN CNAME    alert2002
+
 ldap-eqiad      1H  IN CNAME    seaborgium
 ldap-codfw      1H  IN CNAME    serpens
 
