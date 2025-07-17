@@ -265,6 +265,14 @@ _etcd-client-ssl._tcp.ml-staging-etcd 5M  IN SRV      0 1 2379 ml-staging-etcd20
 _etcd-client-ssl._tcp.ml-staging-etcd 5M  IN SRV      0 1 2379 ml-staging-etcd2002.codfw.wmnet.
 _etcd-client-ssl._tcp.ml-staging-etcd 5M  IN SRV      0 1 2379 ml-staging-etcd2003.codfw.wmnet.
 
+; CODFW dse-k8s etcd cluster
+_etcd-server-ssl._tcp.dse-k8s-etcd 5M  IN SRV      0 1 2380 dse-k8s-etcd2001.codfw.wmnet.
+_etcd-server-ssl._tcp.dse-k8s-etcd 5M  IN SRV      0 1 2380 dse-k8s-etcd2002.codfw.wmnet.
+_etcd-server-ssl._tcp.dse-k8s-etcd 5M  IN SRV      0 1 2380 dse-k8s-etcd2003.codfw.wmnet.
+_etcd-client-ssl._tcp.dse-k8s-etcd 5M  IN SRV      0 1 2379 dse-k8s-etcd2001.codfw.wmnet.
+_etcd-client-ssl._tcp.dse-k8s-etcd 5M  IN SRV      0 1 2379 dse-k8s-etcd2002.codfw.wmnet.
+_etcd-client-ssl._tcp.dse-k8s-etcd 5M  IN SRV      0 1 2379 dse-k8s-etcd2003.codfw.wmnet.
+
 ; CODFW aux-k8s etcd cluster
 _etcd-server-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2380 aux-k8s-etcd2003.codfw.wmnet.
 _etcd-server-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2380 aux-k8s-etcd2004.codfw.wmnet.
