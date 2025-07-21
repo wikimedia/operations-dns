@@ -25,6 +25,9 @@
 ; Account verification for Bluesky; see T384350
 _atproto    600 IN TXT  "did=did:plc:vwdzejaw4wkxh2wvkjlcubal"
 
+; VS Code extension verification (T400089)
+_visual-studio-marketplace-wikimediafoundation  600  IN TXT  "21b0213f-b0be-489d-bb08-52de942999f1"
+
 ; DKIM domain policy record
 _domainkey  1H  IN TXT  "o=~; r=hostmaster@wikimediafoundation.org;"
 
