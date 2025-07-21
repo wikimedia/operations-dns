@@ -412,20 +412,21 @@ $INCLUDE netbox/f.f.f.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 ; Kubernetes POD IP reverse range delegations to control-plane nodes
 ; To be replaced by automated entries when T376291 is complete
 $ORIGIN @Z
-; ml-serve-eqiad 2620:0:861:300::/64
+; Kubernetes POD IP delegation - ml-serve-eqiad 2620:0:861:300::/64
 0.0.3.0         IN    NS    ml-serve-ctrl1001.eqiad.wmnet.
 0.0.3.0         IN    NS    ml-serve-ctrl1002.eqiad.wmnet.
-; dse-k8s-eqiad 2620:0:861:302::/64
+; Kubernetes POD IP delegation - dse-k8s-eqiad 2620:0:861:302::/64
 2.0.3.0         IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
 2.0.3.0         IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
-; aux-k8s-eqiad 2620:0:861:305::/64
-5.0.3.0         IN    NS    aux-k8s-ctrl1001.eqiad.wmnet.
+; Kubernetes POD IP delegation - aux-k8s-eqiad 2620:0:861:305::/64
 5.0.3.0         IN    NS    aux-k8s-ctrl1002.eqiad.wmnet.
-; staging-eqiad 2620:0:861:babe::/64
+5.0.3.0         IN    NS    aux-k8s-ctrl1003.eqiad.wmnet.
+; Kubernetes POD IP delegation - staging-eqiad 2620:0:861:babe::/64
 e.b.a.b         IN    NS    kubestagemaster1003.eqiad.wmnet.
 e.b.a.b         IN    NS    kubestagemaster1004.eqiad.wmnet.
 e.b.a.b         IN    NS    kubestagemaster1005.eqiad.wmnet.
-; eqiad 2620:0:861:cabe::/64
+; Kubernetes POD IP delegation - eqiad 2620:0:861:cabe::/64
 e.b.a.c         IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 e.b.a.c         IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 e.b.a.c         IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+e.b.a.c         IN    NS    wikikube-ctrl1004.eqiad.wmnet.

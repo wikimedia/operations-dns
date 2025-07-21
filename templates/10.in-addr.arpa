@@ -932,42 +932,38 @@ $ORIGIN 1.252.@Z
 ; Kubernetes POD IP reverse range delegations to control-plane nodes
 ; To be replaced by automated entries when T376291 is complete
 $ORIGIN @Z
-; Kubernetes POD IP delegation - staging eqiad 10.64.64.0/24
+; Kubernetes POD IP delegation - staging-eqiad 10.64.64.0/24
 64.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
 64.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
 64.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
-; Kubernetes POD IP delegation - staging eqiad 10.64.65.0/24
+; Kubernetes POD IP delegation - staging-eqiad 10.64.65.0/24
 65.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
 65.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
 65.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
-; Kubernetes POD IP delegation - staging eqiad 10.64.66.0/24
+; Kubernetes POD IP delegation - staging-eqiad 10.64.66.0/24
 66.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
 66.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
 66.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
-; Kubernetes POD IP delegation - staging eqiad 10.64.67.0/24
+; Kubernetes POD IP delegation - staging-eqiad 10.64.67.0/24
 67.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
 67.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
 67.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
-; Kubernetes POD IP delegation - staging eqiad 10.64.68.0/24
+; Kubernetes POD IP delegation - staging-eqiad 10.64.68.0/24
 68.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
 68.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
 68.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
-; Kubernetes POD IP delegation - staging eqiad 10.64.69.0/24
+; Kubernetes POD IP delegation - staging-eqiad 10.64.69.0/24
 69.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
 69.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
 69.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
-; Kubernetes POD IP delegation - staging eqiad 10.64.70.0/24
+; Kubernetes POD IP delegation - staging-eqiad 10.64.70.0/24
 70.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
 70.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
 70.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
-; Kubernetes POD IP delegation - staging eqiad 10.64.71.0/24
+; Kubernetes POD IP delegation - staging-eqiad 10.64.71.0/24
 71.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
 71.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
 71.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
-; Kubernetes POD IP delegation - staging-eqiad 10.64.75.0/24
-75.64           IN    NS    kubestagemaster1003.eqiad.wmnet.
-75.64           IN    NS    kubestagemaster1004.eqiad.wmnet.
-75.64           IN    NS    kubestagemaster1005.eqiad.wmnet.
 ; Kubernetes POD IP delegation - ml-serve-eqiad 10.67.16.0/24
 16.67           IN    NS    ml-serve-ctrl1001.eqiad.wmnet.
 16.67           IN    NS    ml-serve-ctrl1002.eqiad.wmnet.
@@ -1017,346 +1013,382 @@ $ORIGIN @Z
 31.67           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
 31.67           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
 ; Kubernetes POD IP delegation - aux-k8s-eqiad 10.67.80.0/24
-80.67           IN    NS    aux-k8s-ctrl1001.eqiad.wmnet.
 80.67           IN    NS    aux-k8s-ctrl1002.eqiad.wmnet.
+80.67           IN    NS    aux-k8s-ctrl1003.eqiad.wmnet.
 ; Kubernetes POD IP delegation - aux-k8s-eqiad 10.67.81.0/24
-81.67           IN    NS    aux-k8s-ctrl1001.eqiad.wmnet.
 81.67           IN    NS    aux-k8s-ctrl1002.eqiad.wmnet.
+81.67           IN    NS    aux-k8s-ctrl1003.eqiad.wmnet.
 ; Kubernetes POD IP delegation - aux-k8s-eqiad 10.67.82.0/24
-82.67           IN    NS    aux-k8s-ctrl1001.eqiad.wmnet.
 82.67           IN    NS    aux-k8s-ctrl1002.eqiad.wmnet.
+82.67           IN    NS    aux-k8s-ctrl1003.eqiad.wmnet.
 ; Kubernetes POD IP delegation - aux-k8s-eqiad 10.67.83.0/24
-83.67           IN    NS    aux-k8s-ctrl1001.eqiad.wmnet.
 83.67           IN    NS    aux-k8s-ctrl1002.eqiad.wmnet.
+83.67           IN    NS    aux-k8s-ctrl1003.eqiad.wmnet.
 ; Kubernetes POD IP delegation - aux-k8s-eqiad 10.67.84.0/24
-84.67           IN    NS    aux-k8s-ctrl1001.eqiad.wmnet.
 84.67           IN    NS    aux-k8s-ctrl1002.eqiad.wmnet.
+84.67           IN    NS    aux-k8s-ctrl1003.eqiad.wmnet.
 ; Kubernetes POD IP delegation - aux-k8s-eqiad 10.67.85.0/24
-85.67           IN    NS    aux-k8s-ctrl1001.eqiad.wmnet.
 85.67           IN    NS    aux-k8s-ctrl1002.eqiad.wmnet.
+85.67           IN    NS    aux-k8s-ctrl1003.eqiad.wmnet.
 ; Kubernetes POD IP delegation - aux-k8s-eqiad 10.67.86.0/24
-86.67           IN    NS    aux-k8s-ctrl1001.eqiad.wmnet.
 86.67           IN    NS    aux-k8s-ctrl1002.eqiad.wmnet.
+86.67           IN    NS    aux-k8s-ctrl1003.eqiad.wmnet.
 ; Kubernetes POD IP delegation - aux-k8s-eqiad 10.67.87.0/24
-87.67           IN    NS    aux-k8s-ctrl1001.eqiad.wmnet.
 87.67           IN    NS    aux-k8s-ctrl1002.eqiad.wmnet.
+87.67           IN    NS    aux-k8s-ctrl1003.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.128.0/24
 128.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 128.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 128.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+128.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.129.0/24
 129.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 129.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 129.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+129.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.130.0/24
 130.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 130.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 130.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+130.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.131.0/24
 131.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 131.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 131.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+131.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.132.0/24
 132.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 132.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 132.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+132.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.133.0/24
 133.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 133.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 133.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+133.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.134.0/24
 134.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 134.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 134.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+134.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.135.0/24
 135.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 135.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 135.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+135.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.136.0/24
 136.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 136.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 136.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+136.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.137.0/24
 137.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 137.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 137.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+137.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.138.0/24
 138.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 138.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 138.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+138.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.139.0/24
 139.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 139.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 139.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+139.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.140.0/24
 140.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 140.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 140.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+140.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.141.0/24
 141.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 141.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 141.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+141.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.142.0/24
 142.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 142.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 142.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+142.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.143.0/24
 143.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 143.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 143.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+143.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.144.0/24
 144.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 144.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 144.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+144.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.145.0/24
 145.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 145.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 145.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+145.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.146.0/24
 146.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 146.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 146.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+146.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.147.0/24
 147.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 147.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 147.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+147.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.148.0/24
 148.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 148.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 148.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+148.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.149.0/24
 149.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 149.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 149.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+149.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.150.0/24
 150.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 150.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 150.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+150.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.151.0/24
 151.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 151.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 151.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+151.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.152.0/24
 152.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 152.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 152.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+152.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.153.0/24
 153.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 153.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 153.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+153.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.154.0/24
 154.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 154.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 154.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+154.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.155.0/24
 155.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 155.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 155.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+155.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.156.0/24
 156.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 156.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 156.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+156.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.157.0/24
 157.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 157.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 157.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+157.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.158.0/24
 158.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 158.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 158.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+158.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.159.0/24
 159.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 159.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 159.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+159.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.160.0/24
 160.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 160.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 160.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+160.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.161.0/24
 161.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 161.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 161.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+161.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.162.0/24
 162.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 162.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 162.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+162.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.163.0/24
 163.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 163.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 163.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+163.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.164.0/24
 164.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 164.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 164.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+164.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.165.0/24
 165.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 165.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 165.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+165.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.166.0/24
 166.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 166.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 166.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+166.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.167.0/24
 167.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 167.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 167.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+167.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.168.0/24
 168.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 168.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 168.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+168.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.169.0/24
 169.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 169.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 169.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+169.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.170.0/24
 170.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 170.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 170.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+170.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.171.0/24
 171.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 171.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 171.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+171.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.172.0/24
 172.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 172.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 172.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+172.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.173.0/24
 173.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 173.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 173.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+173.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.174.0/24
 174.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 174.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 174.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+174.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.175.0/24
 175.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 175.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 175.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+175.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.176.0/24
 176.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 176.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 176.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+176.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.177.0/24
 177.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 177.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 177.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+177.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.178.0/24
 178.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 178.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 178.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+178.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.179.0/24
 179.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 179.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 179.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+179.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.180.0/24
 180.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 180.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 180.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+180.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.181.0/24
 181.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 181.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 181.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+181.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.182.0/24
 182.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 182.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 182.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+182.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.183.0/24
 183.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 183.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 183.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+183.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.184.0/24
 184.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 184.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 184.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+184.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.185.0/24
 185.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 185.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 185.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+185.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.186.0/24
 186.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 186.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 186.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+186.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.187.0/24
 187.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 187.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 187.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+187.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.188.0/24
 188.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 188.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 188.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+188.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.189.0/24
 189.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 189.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 189.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+189.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.190.0/24
 190.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 190.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 190.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+190.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 ; Kubernetes POD IP delegation - eqiad 10.67.191.0/24
 191.67          IN    NS    wikikube-ctrl1001.eqiad.wmnet.
 191.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 191.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
+191.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
 
-; Kubernetes POD IP delegation - staging codfw 10.192.64.0/24
+; Kubernetes POD IP delegation - staging-codfw 10.192.64.0/24
 64.192          IN    NS    kubestagemaster2003.codfw.wmnet.
 64.192          IN    NS    kubestagemaster2004.codfw.wmnet.
 64.192          IN    NS    kubestagemaster2005.codfw.wmnet.
-; Kubernetes POD IP delegation - staging codfw 10.192.65.0/24
+; Kubernetes POD IP delegation - staging-codfw 10.192.65.0/24
 65.192          IN    NS    kubestagemaster2003.codfw.wmnet.
 65.192          IN    NS    kubestagemaster2004.codfw.wmnet.
 65.192          IN    NS    kubestagemaster2005.codfw.wmnet.
-; Kubernetes POD IP delegation - staging codfw 10.192.66.0/24
+; Kubernetes POD IP delegation - staging-codfw 10.192.66.0/24
 66.192          IN    NS    kubestagemaster2003.codfw.wmnet.
 66.192          IN    NS    kubestagemaster2004.codfw.wmnet.
 66.192          IN    NS    kubestagemaster2005.codfw.wmnet.
-; Kubernetes POD IP delegation - staging codfw 10.192.67.0/24
+; Kubernetes POD IP delegation - staging-codfw 10.192.67.0/24
 67.192          IN    NS    kubestagemaster2003.codfw.wmnet.
 67.192          IN    NS    kubestagemaster2004.codfw.wmnet.
 67.192          IN    NS    kubestagemaster2005.codfw.wmnet.
-; Kubernetes POD IP delegation - staging codfw 10.192.68.0/24
+; Kubernetes POD IP delegation - staging-codfw 10.192.68.0/24
 68.192          IN    NS    kubestagemaster2003.codfw.wmnet.
 68.192          IN    NS    kubestagemaster2004.codfw.wmnet.
 68.192          IN    NS    kubestagemaster2005.codfw.wmnet.
-; Kubernetes POD IP delegation - staging codfw 10.192.69.0/24
+; Kubernetes POD IP delegation - staging-codfw 10.192.69.0/24
 69.192          IN    NS    kubestagemaster2003.codfw.wmnet.
 69.192          IN    NS    kubestagemaster2004.codfw.wmnet.
 69.192          IN    NS    kubestagemaster2005.codfw.wmnet.
-; Kubernetes POD IP delegation - staging codfw 10.192.70.0/24
+; Kubernetes POD IP delegation - staging-codfw 10.192.70.0/24
 70.192          IN    NS    kubestagemaster2003.codfw.wmnet.
 70.192          IN    NS    kubestagemaster2004.codfw.wmnet.
 70.192          IN    NS    kubestagemaster2005.codfw.wmnet.
-; Kubernetes POD IP delegation - staging codfw 10.192.71.0/24
+; Kubernetes POD IP delegation - staging-codfw 10.192.71.0/24
 71.192          IN    NS    kubestagemaster2003.codfw.wmnet.
 71.192          IN    NS    kubestagemaster2004.codfw.wmnet.
 71.192          IN    NS    kubestagemaster2005.codfw.wmnet.
-; Kubernetes POD IP delegation - staging-codfw 10.192.75.0/24
-75.192          IN    NS    kubestagemaster2003.codfw.wmnet.
-75.192          IN    NS    kubestagemaster2004.codfw.wmnet.
-75.192          IN    NS    kubestagemaster2005.codfw.wmnet.
-; aux-k8s-codfw 10.194.80.0/24
-80.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
-80.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
-; aux-k8s-codfw 10.194.81.0/24
-81.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
-81.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
-; aux-k8s-codfw 10.194.82.0/24
-82.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
-82.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
-; aux-k8s-codfw 10.194.83.0/24
-83.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
-83.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
-; aux-k8s-codfw 10.194.84.0/24
-84.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
-84.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
-; aux-k8s-codfw 10.194.85.0/24
-85.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
-85.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
-; aux-k8s-codfw 10.194.86.0/24
-86.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
-86.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
-; aux-k8s-codfw 10.194.87.0/24
-87.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
-87.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
 ; Kubernetes POD IP delegation - ml-serve-codfw 10.194.16.0/24
 16.194          IN    NS    ml-serve-ctrl2001.codfw.wmnet.
 16.194          IN    NS    ml-serve-ctrl2002.codfw.wmnet.
@@ -1384,6 +1416,30 @@ $ORIGIN @Z
 ; Kubernetes POD IP delegation - ml-staging-codfw 10.194.61.0/24
 61.194          IN    NS    ml-staging-ctrl2001.codfw.wmnet.
 61.194          IN    NS    ml-staging-ctrl2002.codfw.wmnet.
+; Kubernetes POD IP delegation - aux-k8s-codfw 10.194.80.0/24
+80.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+80.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - aux-k8s-codfw 10.194.81.0/24
+81.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+81.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - aux-k8s-codfw 10.194.82.0/24
+82.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+82.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - aux-k8s-codfw 10.194.83.0/24
+83.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+83.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - aux-k8s-codfw 10.194.84.0/24
+84.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+84.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - aux-k8s-codfw 10.194.85.0/24
+85.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+85.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - aux-k8s-codfw 10.194.86.0/24
+86.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+86.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - aux-k8s-codfw 10.194.87.0/24
+87.194          IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
+87.194          IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
 ; Kubernetes POD IP delegation - codfw 10.194.128.0/24
 128.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
 128.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
@@ -1640,3 +1696,259 @@ $ORIGIN @Z
 191.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
 191.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
 191.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.192.0/24
+192.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+192.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+192.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.193.0/24
+193.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+193.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+193.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.194.0/24
+194.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+194.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+194.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.195.0/24
+195.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+195.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+195.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.196.0/24
+196.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+196.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+196.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.197.0/24
+197.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+197.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+197.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.198.0/24
+198.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+198.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+198.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.199.0/24
+199.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+199.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+199.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.200.0/24
+200.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+200.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+200.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.201.0/24
+201.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+201.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+201.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.202.0/24
+202.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+202.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+202.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.203.0/24
+203.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+203.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+203.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.204.0/24
+204.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+204.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+204.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.205.0/24
+205.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+205.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+205.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.206.0/24
+206.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+206.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+206.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.207.0/24
+207.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+207.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+207.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.208.0/24
+208.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+208.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+208.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.209.0/24
+209.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+209.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+209.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.210.0/24
+210.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+210.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+210.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.211.0/24
+211.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+211.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+211.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.212.0/24
+212.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+212.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+212.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.213.0/24
+213.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+213.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+213.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.214.0/24
+214.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+214.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+214.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.215.0/24
+215.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+215.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+215.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.216.0/24
+216.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+216.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+216.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.217.0/24
+217.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+217.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+217.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.218.0/24
+218.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+218.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+218.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.219.0/24
+219.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+219.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+219.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.220.0/24
+220.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+220.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+220.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.221.0/24
+221.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+221.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+221.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.222.0/24
+222.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+222.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+222.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.223.0/24
+223.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+223.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+223.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.224.0/24
+224.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+224.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+224.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.225.0/24
+225.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+225.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+225.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.226.0/24
+226.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+226.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+226.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.227.0/24
+227.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+227.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+227.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.228.0/24
+228.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+228.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+228.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.229.0/24
+229.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+229.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+229.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.230.0/24
+230.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+230.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+230.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.231.0/24
+231.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+231.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+231.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.232.0/24
+232.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+232.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+232.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.233.0/24
+233.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+233.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+233.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.234.0/24
+234.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+234.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+234.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.235.0/24
+235.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+235.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+235.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.236.0/24
+236.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+236.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+236.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.237.0/24
+237.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+237.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+237.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.238.0/24
+238.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+238.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+238.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.239.0/24
+239.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+239.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+239.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.240.0/24
+240.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+240.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+240.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.241.0/24
+241.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+241.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+241.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.242.0/24
+242.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+242.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+242.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.243.0/24
+243.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+243.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+243.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.244.0/24
+244.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+244.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+244.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.245.0/24
+245.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+245.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+245.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.246.0/24
+246.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+246.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+246.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.247.0/24
+247.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+247.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+247.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.248.0/24
+248.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+248.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+248.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.249.0/24
+249.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+249.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+249.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.250.0/24
+250.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+250.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+250.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.251.0/24
+251.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+251.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+251.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.252.0/24
+252.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+252.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+252.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.253.0/24
+253.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+253.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+253.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.254.0/24
+254.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+254.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+254.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - codfw 10.194.255.0/24
+255.194         IN    NS    wikikube-ctrl2001.codfw.wmnet.
+255.194         IN    NS    wikikube-ctrl2002.codfw.wmnet.
+255.194         IN    NS    wikikube-ctrl2003.codfw.wmnet.
