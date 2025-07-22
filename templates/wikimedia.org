@@ -256,7 +256,7 @@ frdata                      1H  IN CNAME    frdata-eqiad
 frmon                       1H  IN CNAME    frmon-eqiad
 frmon.frdev                 1H  IN CNAME    frmon-eqiad
 metabase.frdev              1H  IN CNAME    analytics-codfw.frdev
-payments                    5M  IN CNAME    payments-a-eqiad
+payments                    5M  IN CNAME    payments-eqiad
 payments-listener           5M  IN CNAME    payments-listener-eqiad
 payments-listener.frdev     1H  IN CNAME    frdev-eqiad
 reports.frdev               1H  IN CNAME    frdev-eqiad
