@@ -77,7 +77,7 @@ $ORIGIN 1.2.@Z
 70  1H  IN PTR  k8s-ingress-wikikube.svc.codfw.wmnet.
 ; 71 reserved for datahubsearch.svc.codfw.wmnet.
 72  1H  IN PTR  ml-staging-ctrl.svc.codfw.wmnet.
-; 73 reserved for dse-k8s-ctrl.svc.codfw.wmnet.
+73  1H  IN PTR  dse-k8s-ctrl.svc.codfw.wmnet.
 74  1H  IN PTR  aux-k8s-ctrl.svc.codfw.wmnet.
 75  1H  IN PTR  mw-web.svc.codfw.wmnet.
 76  1H  IN PTR  mw-api-ext.svc.codfw.wmnet.

@@ -773,7 +773,7 @@ shellbox-video  1H  IN A    10.2.1.68
 k8s-ingress-staging  1H  IN A    10.2.1.69
 k8s-ingress-wikikube 1H  IN A    10.2.1.70
 ml-staging-ctrl 1H  IN A    10.2.1.72
-
+dse-k8s-ctrl    1H  IN A    10.2.1.73
 aux-k8s-ctrl    1H  IN A    10.2.1.74
 mw-web          1H  IN A    10.2.1.75
 mw-api-ext      1H  IN A    10.2.1.76
