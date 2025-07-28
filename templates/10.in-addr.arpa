@@ -1389,6 +1389,30 @@ $ORIGIN @Z
 71.192          IN    NS    kubestagemaster2003.codfw.wmnet.
 71.192          IN    NS    kubestagemaster2004.codfw.wmnet.
 71.192          IN    NS    kubestagemaster2005.codfw.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-codfw 10.192.96.0/24
+96.192          IN    NS    dse-k8s-ctrl2001.codfw.wmnet.
+96.192          IN    NS    dse-k8s-ctrl2002.codfw.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-codfw 10.192.97.0/24
+97.192          IN    NS    dse-k8s-ctrl2001.codfw.wmnet.
+97.192          IN    NS    dse-k8s-ctrl2002.codfw.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-codfw 10.192.98.0/24
+98.192          IN    NS    dse-k8s-ctrl2001.codfw.wmnet.
+98.192          IN    NS    dse-k8s-ctrl2002.codfw.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-codfw 10.192.99.0/24
+99.192          IN    NS    dse-k8s-ctrl2001.codfw.wmnet.
+99.192          IN    NS    dse-k8s-ctrl2002.codfw.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-codfw 10.192.100.0/24
+100.192         IN    NS    dse-k8s-ctrl2001.codfw.wmnet.
+100.192         IN    NS    dse-k8s-ctrl2002.codfw.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-codfw 10.192.101.0/24
+101.192         IN    NS    dse-k8s-ctrl2001.codfw.wmnet.
+101.192         IN    NS    dse-k8s-ctrl2002.codfw.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-codfw 10.192.102.0/24
+102.192         IN    NS    dse-k8s-ctrl2001.codfw.wmnet.
+102.192         IN    NS    dse-k8s-ctrl2002.codfw.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-codfw 10.192.103.0/24
+103.192         IN    NS    dse-k8s-ctrl2001.codfw.wmnet.
+103.192         IN    NS    dse-k8s-ctrl2002.codfw.wmnet.
 ; Kubernetes POD IP delegation - ml-serve-codfw 10.194.16.0/24
 16.194          IN    NS    ml-serve-ctrl2001.codfw.wmnet.
 16.194          IN    NS    ml-serve-ctrl2002.codfw.wmnet.

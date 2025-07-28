@@ -306,6 +306,9 @@ $ORIGIN @Z
 ; aux-k8s-codfw 2620:0:860:305::/64
 5.0.3.0         IN    NS    aux-k8s-ctrl2002.codfw.wmnet.
 5.0.3.0         IN    NS    aux-k8s-ctrl2003.codfw.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-codfw 2620:0:860:308::/64
+8.0.3.0         IN    NS    dse-k8s-ctrl2001.codfw.wmnet.
+8.0.3.0         IN    NS    dse-k8s-ctrl2002.codfw.wmnet.
 ; staging-codfw 2620:0:860:babe::/64
 e.b.a.b         IN    NS    kubestagemaster2003.codfw.wmnet.
 e.b.a.b         IN    NS    kubestagemaster2004.codfw.wmnet.
