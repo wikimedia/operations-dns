@@ -497,11 +497,14 @@ ldap-rw-next.eqiad   1H  IN CNAME    ldap-rw1001
 ldap-rw.codfw   1H  IN CNAME    serpens
 ldap-rw-next.codfw   1H  IN CNAME    ldap-rw2001
 
+; Gerrit records
+gerrit                  300 IN TXT      "google-site-verification=ln5JczWUiGqT4sK3yohGgNDKCtUixySt94iBjJKrfak"
 gerrit                  300 IN A        208.80.154.151
 gerrit                  300 IN AAAA     2620:0:861:2:208:80:154:151
 gerrit-replica          300 IN A        208.80.153.104
 gerrit-replica          300 IN AAAA     2620:0:860:4:208:80:153:104
-gerrit          300 IN TXT      "google-site-verification=ln5JczWUiGqT4sK3yohGgNDKCtUixySt94iBjJKrfak"
+gerrit-spare            300 IN A        208.80.153.111
+gerrit-spare            300 IN AAAA     2620:0:860:4:208:80:153:111
 
 ; Gitlab records
 gitlab 300 IN TXT "v=spf1 include:_cidrs.wikimedia.org ~all"
