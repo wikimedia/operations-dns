@@ -520,10 +520,6 @@ $ORIGIN 4.65.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/4.65.10.in-addr.arpa
 
-$ORIGIN 5.65.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/5.65.10.in-addr.arpa
-
 $ORIGIN 6.65.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/6.65.10.in-addr.arpa
