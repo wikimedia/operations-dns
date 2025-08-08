@@ -37,7 +37,7 @@ _dmarc                  600     IN TXT "v=DMARC1; p=quarantine; rua=mailto:dmarc
 @                       600     IN CAA 0 issue "pki.goog"
 @                       600     IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
-; Wikis (alphabetic order), which are not covered by langlist.tmpl
+; Wikis with mobile site (alphabetic order), which are not covered by langlist.tmpl
 
 arbcom-cs               1D IN CNAME dyna.wikimedia.org.
 arbcom-cs.m             1D IN CNAME dyna.wikimedia.org.
@@ -52,44 +52,46 @@ arbcom-nl.m             1D IN CNAME dyna.wikimedia.org.
 arbcom-ru               1D IN CNAME dyna.wikimedia.org.
 arbcom-ru.m             1D IN CNAME dyna.wikimedia.org.
 sysop-it.m              1D IN CNAME dyna.wikimedia.org.
-commons                 1D IN CNAME dyna.wikimedia.org.
-meta                    1D IN CNAME dyna.wikimedia.org.
-nostalgia               1D IN CNAME dyna.wikimedia.org.
-quote                   1D IN CNAME dyna.wikimedia.org.
-quality                 1D IN CNAME dyna.wikimedia.org.
-quality.m               1D IN CNAME dyna.wikimedia.org.
-sep11                   1D IN CNAME dyna.wikimedia.org.
-sources                 1D IN CNAME dyna.wikimedia.org.
-species                 1D IN CNAME dyna.wikimedia.org.
 sysop-it                1D IN CNAME dyna.wikimedia.org.
 ten                     1D IN CNAME dyna.wikimedia.org.
 ten.m                   1D IN CNAME dyna.wikimedia.org.
 test                    1D IN CNAME dyna.wikimedia.org.
-test2                   1D IN CNAME dyna.wikimedia.org.
 test.m                  1D IN CNAME dyna.wikimedia.org.
+test2                   1D IN CNAME dyna.wikimedia.org.
 test2.m                 1D IN CNAME dyna.wikimedia.org.
-textbook                1D IN CNAME dyna.wikimedia.org.
+
+; T152882: Wikis without mobile site (alphabetic order), which are not covered by langlist.tmpl
+nostalgia               1D IN CNAME dyna.wikimedia.org.
+thankyou                1D IN CNAME dyna.wikimedia.org.
 wg-en                   1D IN CNAME dyna.wikimedia.org.
-www                     1D IN CNAME dyna.wikimedia.org.
-zh-tw                   1D IN CNAME dyna.wikimedia.org.
 
 ; All languages will automatically be included here.
 {% include "helpers/lang-wiki.tmpl" %}
 
-; Other websites
+; Other non-wiki websites, including redirects for wiki sites
 
 15              1D IN CNAME dyna.wikimedia.org.
 20              1D IN CNAME dyna.wikimedia.org.
 bugzilla        1D IN CNAME dyna.wikimedia.org.
 careers         1D IN CNAME dyna.wikimedia.org.
+commons         1D IN CNAME dyna.wikimedia.org.
 donate          1D IN CNAME dyna.wikimedia.org.
 download        1D IN CNAME dyna.wikimedia.org.
+enterprise      1D IN CNAME dyna.wikimedia.org.
 jobs            1D IN CNAME dyna.wikimedia.org.
 m               1D IN CNAME dyna.wikimedia.org.
 mail            1D IN CNAME dyna.wikimedia.org.
+meta            1D IN CNAME dyna.wikimedia.org.
+quality         1D IN CNAME dyna.wikimedia.org.
+quality.m       1D IN CNAME dyna.wikimedia.org.
+quote           1D IN CNAME dyna.wikimedia.org.
+sep11           1D IN CNAME dyna.wikimedia.org.
 shop            1D IN CNAME dyna.wikimedia.org.
+sources         1D IN CNAME dyna.wikimedia.org.
+species         1D IN CNAME dyna.wikimedia.org.
 stats           1D IN CNAME dyna.wikimedia.org.
 store           1D IN CNAME dyna.wikimedia.org.
-thankyou        1D IN CNAME dyna.wikimedia.org.
+textbook        1D IN CNAME dyna.wikimedia.org.
+www             1D IN CNAME dyna.wikimedia.org.
 zero            1D IN CNAME dyna.wikimedia.org.
-enterprise      1D IN CNAME dyna.wikimedia.org.
+zh-tw           1D IN CNAME dyna.wikimedia.org.
