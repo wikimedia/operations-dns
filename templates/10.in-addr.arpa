@@ -819,6 +819,22 @@ $ORIGIN 43.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/43.192.10.in-addr.arpa
 
+; 10.192.44.0/24 - private1-e2-codfw
+$ORIGIN 44.192.@Z
+$INCLUDE netbox/44.192.10.in-addr.arpa
+
+; 10.192.45.0/24 - private1-e4-codfw
+$ORIGIN 45.192.@Z
+$INCLUDE netbox/45.192.10.in-addr.arpa
+
+; 10.192.46.0/24 - private1-e5-codfw
+$ORIGIN 46.192.@Z
+$INCLUDE netbox/46.192.10.in-addr.arpa
+
+; 10.192.47.0/24 - private1-f2-codfw
+$ORIGIN 47.192.@Z
+$INCLUDE netbox/47.192.10.in-addr.arpa
+
 ; 10.192.48.0/24 - private1-d-codfw first /24
 $ORIGIN 48.192.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -827,6 +843,10 @@ $INCLUDE netbox/48.192.10.in-addr.arpa
 ; 10.192.49.0/24 - private1-d-codfw second /24
 $ORIGIN 49.192.@Z
 $INCLUDE netbox/49.192.10.in-addr.arpa
+
+; 10.192.52.0/24 - private1-f4-codfw
+$ORIGIN 52.192.@Z
+$INCLUDE netbox/52.192.10.in-addr.arpa
 
 ; 10.192.56.0 - private1-e1-codfw (Vlan2059)
 $ORIGIN 56.192.@Z
