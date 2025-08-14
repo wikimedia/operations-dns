@@ -1020,6 +1020,8 @@ planet                300 IN CNAME planet1003.eqiad.wmnet.
 ;planet                300 IN CNAME planet2003.codfw.wmnet.
 releases              300 IN CNAME releases1003.eqiad.wmnet.
 ;releases              300 IN CNAME releases2003.codfw.wmnet.
+zuul                  300 IN CNAME zuul1001.eqiad.wmnet.
+;zuul                  300 IN CNAME zuul2001.codfw.wmnet.
 
 ; misc services without multiple backends
 apt-staging           300 IN CNAME apt-staging2001.codfw.wmnet.
