@@ -788,6 +788,7 @@ pybal-low-traffic 1H  IN A    10.2.1.85
 kubestagemaster 1H  IN A    10.2.1.86
 wdqs-internal-main 1H  IN A      10.2.1.93
 wdqs-internal-scholarly 1H  IN A 10.2.1.94
+k8s-ingress-dse 1H  IN A    10.2.1.91
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-wikikube.

@@ -94,7 +94,7 @@ $ORIGIN 1.2.@Z
 ; 88 used to be mw-wikifunctions
 ; 89 reserved for katran-test.svc.codfw.wmnet.
 90  1H  IN PTR  mw-jobrunner.svc.codfw.wmnet.
-; 91 reserved for k8s-ingress-dse.svc.codfw.wmnet.
+91  1H  IN PTR  k8s-ingress-dse.svc.codfw.wmnet.
 92  1H  IN PTR  mw-parsoid.svc.codfw.wmnet.
 93  1H  IN PTR  wdqs-internal-main.svc.codfw.wmnet.
 94  1H  IN PTR  wdqs-internal-scholarly.svc.codfw.wmnet.
