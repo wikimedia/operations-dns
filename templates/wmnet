@@ -407,7 +407,7 @@ $INCLUDE netbox/ulsfo.wmnet
 ;
 config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
-webproxy        5M  IN CNAME    install4002.wikimedia.org.
+webproxy        5M  IN CNAME    install4003.wikimedia.org.
 
 ; etcd client discovery (RO)
 ; ⚠️ IF YOU EDIT THIS, YOU MUST CLEAR THE DNS CACHE AND GLOBALLY RESTART CONFD !!! T314489
