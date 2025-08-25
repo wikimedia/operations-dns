@@ -487,7 +487,7 @@ $INCLUDE netbox/drmrs.wmnet
 ;
 config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-webproxy        5M  IN CNAME    install6002.wikimedia.org.
+webproxy        5M  IN CNAME    install6003.wikimedia.org.
 
 ; etcd client discovery (RO)
 ; ⚠️ IF YOU EDIT THIS, YOU MUST CLEAR THE DNS CACHE AND GLOBALLY RESTART CONFD !!! T314489
