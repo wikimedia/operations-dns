@@ -19,6 +19,8 @@
 
 ; Google Webmaster Tools verification record for search management
 @           600     IN TXT  "google-site-verification=8Twc3OrOQ9oBq5C81ZCsPa3fRRJT1xdt5yDBvdnDtUQ"
+; Permissions for additional owners added on Aug 25. See noc email.
+@           600     IN TXT  "google-site-verification=nOKTUn6gWZ44XDh-0H0euRlNJtxCyTP5K8Mb66ty7Bs"
 
 ; SPF records
 @           600     IN TXT  "v=spf1 include:wikimedia.org ~all"
