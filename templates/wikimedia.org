@@ -532,6 +532,7 @@ hcaptcha        1D IN CNAME dyna.wikimedia.org.
 assets-hcaptcha 1D IN CNAME dyna.wikimedia.org.
 imgs-hcaptcha   1D IN CNAME dyna.wikimedia.org.
 report-hcaptcha 1D IN CNAME dyna.wikimedia.org.
+sentry-hcaptcha 1D IN CNAME dyna.wikimedia.org.
 
 icinga          5M  IN CNAME    alert1002
 icinga-extmon   5M  IN CNAME    alert1002
