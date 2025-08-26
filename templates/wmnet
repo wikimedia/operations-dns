@@ -202,7 +202,7 @@ _x-puppet-ca._tcp  5M  IN SRV  0  5 8140 puppetserver1001.eqiad.wmnet.
 config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 people          5M  IN CNAME    people2003.codfw.wmnet.
 puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
-webproxy        5M  IN CNAME    install2004.wikimedia.org.
+webproxy        5M  IN CNAME    install2005.wikimedia.org.
 deployment      5M  IN CNAME    deploy2002.codfw.wmnet.
 m1-master       5M  IN CNAME    dbproxy2005.codfw.wmnet.
 m1-slave        5M  IN CNAME    db2160.codfw.wmnet.
