@@ -912,7 +912,8 @@ shellbox-video     300/10 IN DYNA geoip!disc-shellbox-video
 tegola-vector-tiles  300/10 IN DYNA geoip!disc-tegola-vector-tiles
 puppetboard           300/10 IN DYNA geoip!disc-puppetboard
 inference       300/10 IN DYNA geoip!disc-inference
-rest-gateway          300/10 IN DYNA geoip!disc-rest-gateway
+rest-gateway          300/10 IN DYNA geoip!disc-rest-gateway-ro
+rest-gateway-ro       300/10 IN DYNA geoip!disc-rest-gateway-ro
 device-analytics      300/10 IN DYNA geoip!disc-device-analytics
 k8s-ingress-staging  300/10 IN DYNA metafo!disc-k8s-ingress-staging
 k8s-ingress-wikikube-ro 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube-ro

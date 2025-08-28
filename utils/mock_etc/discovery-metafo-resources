@@ -36,3 +36,4 @@ disc-k8s-ingress-ml-staging => { datacenters => mock, dcmap => { mock => 192.0.2
 disc-k8s-ingress-aux-rw  => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-netbox              => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
 disc-k8s-ingress-dse     => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }
+disc-rest-gateway        => { datacenters => mock, dcmap => { mock => 192.0.2.1 } }

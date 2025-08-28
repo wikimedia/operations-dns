@@ -38,7 +38,7 @@ disc-mobileapps          => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-proton              => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-push-notifications  => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-recommendation-api  => { map => mock, dcmap => { mock => 192.0.2.1 } }
-disc-rest-gateway        => { map => mock, dcmap => { mock => 192.0.2.1 } }
+disc-rest-gateway-ro     => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-wdqs                => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-wdqs-internal-main            => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-wdqs-internal-scholarly       => { map => mock, dcmap => { mock => 192.0.2.1 } }
