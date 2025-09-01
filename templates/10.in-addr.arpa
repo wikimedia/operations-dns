@@ -555,6 +555,10 @@ $ORIGIN 1.80.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/1.80.10.in-addr.arpa
 
+; 10.80.2.0/24 - private1-virtual-esams
+$ORIGIN 2.80.@Z
+$INCLUDE netbox/2.80.10.in-addr.arpa
+
 ; 10.80.127.0/24 - Esams private loopbacks & interconnects
 $ORIGIN 127.80.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox

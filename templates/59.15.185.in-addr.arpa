@@ -21,6 +21,9 @@ $INCLUDE netbox/32-27.59.15.185.in-addr.arpa
 ; sandbox1-by27-esams (332)
 $INCLUDE netbox/72-29.59.15.185.in-addr.arpa
 
+; public1-virtual-esams
+$INCLUDE netbox/96-27.59.15.185.in-addr.arpa
+
 ; Loopbacks & interconnects
 $INCLUDE netbox/128-27.59.15.185.in-addr.arpa
 

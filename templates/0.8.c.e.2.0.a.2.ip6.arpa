@@ -37,6 +37,10 @@ $ORIGIN 2.0.0.0.0.0.3.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/2.0.0.0.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
 
+; public1-virtual-esams - 2a02:ec80:300:3::/64
+$ORIGIN 3.0.0.0.0.0.3.0.@Z
+$INCLUDE netbox/3.0.0.0.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
 ; sandbox1-by27-esams (2a02:ec80:300:202::/64)
 $ORIGIN 2.0.2.0.0.0.3.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -51,6 +55,10 @@ $INCLUDE netbox/1.0.1.0.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
 $ORIGIN 2.0.1.0.0.0.3.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/2.0.1.0.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; private1-virtual-esams - 2a02:ec80:300:103::/64
+$ORIGIN 3.0.1.0.0.0.3.0.@Z
+$INCLUDE netbox/3.0.1.0.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
 
 ; esams lvs vips (2a02:ec80:300:ed1a::/64)
 $ORIGIN a.1.d.e.0.0.3.0.@Z
