@@ -14,6 +14,7 @@ $INCLUDE netbox/128-27.152.80.208.in-addr.arpa
 
 ; 208.80.152.224/28 frack-codfw (208.80.152.224 - 208.80.152.239)
 227 1H IN PTR   payments-codfw.wikimedia.org.
+228 1H IN PTR   frmx2002.wikimedia.org.
 229 1H IN PTR   frack-payments-nat-codfw.wikimedia.org.
 230 1H IN PTR   frack-default-nat-codfw.wikimedia.org.
 231 1H IN PTR   analytics-new-codfw.frdev.wikimedia.org.
