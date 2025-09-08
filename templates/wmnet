@@ -36,7 +36,7 @@ deployment      5M  IN CNAME    deploy1003.eqiad.wmnet.
 people          5M  IN CNAME    people1004.eqiad.wmnet.
 s1-master       5M  IN CNAME    db1184.eqiad.wmnet.
 s2-master       5M  IN CNAME    db1222.eqiad.wmnet.
-s3-master       5M  IN CNAME    db1223.eqiad.wmnet.
+s3-master       5M  IN CNAME    db1189.eqiad.wmnet.
 s4-master       5M  IN CNAME    db1160.eqiad.wmnet.
 s5-master       5M  IN CNAME    db1210.eqiad.wmnet.
 s6-master       5M  IN CNAME    db1201.eqiad.wmnet.
