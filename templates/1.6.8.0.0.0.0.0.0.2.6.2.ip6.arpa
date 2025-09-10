@@ -252,6 +252,10 @@ $ORIGIN f.2.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/f.2.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; Switch fabric private /127 link networks eqiad - 2620:0:861:146::/64
+$ORIGIN 6.4.1.0.@Z
+$INCLUDE netbox/6.4.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; cr1-eqiad_to_lsw1-e1-eqiad (2620:0:861:fe07::/64)
 $ORIGIN 7.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -318,6 +322,10 @@ $INCLUDE netbox/4.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 5.1.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/5.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; ssw1-d1-eqiad <-> cr1-eqiad - 2620:0:861:fe16::/64
+$ORIGIN 6.1.e.f.@Z
+$INCLUDE netbox/6.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; eqiad sandbox subnets (2620:0:861:200::/56)
 
