@@ -21,6 +21,7 @@ $ORIGIN 1.2.@Z
 9   1H  IN PTR  mwdebug-next.svc.codfw.wmnet.
 10  1H  IN PTR  apus.svc.codfw.wmnet.
 11  1H  IN PTR  apertium.svc.codfw.wmnet.
+12  1H  IN PTR  proxoid.svc.codfw.wmnet.
 13  1H  IN PTR  kartotherian.svc.codfw.wmnet.
 14  1H  IN PTR  mobileapps.svc.codfw.wmnet.
 ; 15
@@ -113,6 +114,7 @@ $ORIGIN 2.2.@Z
 9   1H  IN PTR  mwdebug-next.svc.eqiad.wmnet.
 10  1H  IN PTR  apus.svc.eqiad.wmnet.
 11  1H  IN PTR  apertium.svc.eqiad.wmnet.
+12  1H  IN PTR  proxoid.svc.eqiad.wmnet.
 13  1H  IN PTR  kartotherian.svc.eqiad.wmnet.
 14  1H  IN PTR  mobileapps.svc.eqiad.wmnet.
 ; 15

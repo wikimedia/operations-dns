@@ -515,6 +515,7 @@ kubemaster  1H  IN A        10.2.2.8
 mwdebug-next 1H IN A        10.2.2.9
 apus        1H  IN A        10.2.2.10
 apertium    1H  IN A        10.2.2.11
+proxoid     1H  IN A        10.2.2.12
 kartotherian 1H IN A        10.2.2.13
 mobileapps  1H  IN A        10.2.2.14
 
@@ -711,6 +712,7 @@ kubemaster      1H  IN A        10.2.1.8
 mwdebug-next    1H  IN A        10.2.1.9
 apus            1H  IN A        10.2.1.10
 apertium        1H  IN A        10.2.1.11
+proxoid         1H  IN A        10.2.1.12
 kartotherian    1H  IN A        10.2.1.13
 mobileapps      1H  IN A        10.2.1.14
 
