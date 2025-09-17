@@ -25,7 +25,7 @@ _x-puppet-ca._tcp  5M  IN SRV  0  5 8140 puppetserver1001.eqiad.wmnet.
 ; Service aliases
 ; Used by syslog over UDP (eg network devices, PDUs)
 syslog          1H  IN CNAME    syslog.anycast.wmnet.
-webproxy        5M  IN CNAME    install1004.wikimedia.org.
+webproxy        5M  IN CNAME    install1005.wikimedia.org.
 graphite        5M  IN CNAME    statsd.eqiad.wmnet.
 graphite-in     5M  IN CNAME    statsd.eqiad.wmnet.
 statsd          5M  IN CNAME    graphite1005.eqiad.wmnet.
