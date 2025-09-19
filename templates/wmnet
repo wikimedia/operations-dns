@@ -825,6 +825,10 @@ jaeger-query             1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 os-reports               1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 zarcillo                 1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 
+; services that run under Kubernetes Ingress are just CNAME
+; records to k8s-ingress-dse.
+echoserver-dse-k8s-codfw 1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+
 ; K8S CODFW STAGING SERVICES
 
 staging         1H  IN CNAME    kubestage2001.codfw.wmnet.
