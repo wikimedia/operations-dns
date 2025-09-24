@@ -994,6 +994,7 @@ airflow-research        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-search          300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-test-k8s        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-wmde            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-wikidata        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-aux.
