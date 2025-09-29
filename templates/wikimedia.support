@@ -1,1 +1,26 @@
-ncredir-parking
+; vim: set expandtab:smarttab
+; {{ serial_comment }}
+@ 1H IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. {{ serial_num }} 12H 2H 2W 1H
+
+; Name servers
+@           1D  IN NS    ns0.wikimedia.org.
+@           1D  IN NS    ns1.wikimedia.org.
+@           1D  IN NS    ns2.wikimedia.org.
+
+; CAA records
+@           600 IN CAA 0 issue "letsencrypt.org"
+@           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
+
+; Mail exchangers
+@           600 IN MX    10 mx-in1001.wikimedia.org.
+@           600 IN MX    10 mx-in2001.wikimedia.org.
+
+; SPF txt and rr records
+; NB Zendesk requires their domain to be in the first-layer lookup
+@           600 IN TXT   "v=spf1 include:mail.zendesk.com include:wikimedia.org -all"
+
+; CNAME
+trustandsafety      600 IN CNAME    wikimediats.zendesk.com.
+committee           600 IN CNAME    wikimediacst.zendesk.com.
+zendesk1._domainkey 600 IN CNAME    zendesk1._domainkey.zendesk.com.
+zendesk2._domainkey 600 IN CNAME    zendesk2._domainkey.zendesk.com.
