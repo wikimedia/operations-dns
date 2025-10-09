@@ -25,7 +25,7 @@ $INCLUDE netbox/2.0.0.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; Manual records
 5.4.1.0.4.5.1.0.0.8.0.0.8.0.2.0 300 IN PTR  gitlab.wikimedia.org. ; service IP for gitlab
-1.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0 300 IN PTR  gerrit.wikimedia.org.
+1.5.1.0.4.5.1.0.0.8.0.0.8.0.2.0 300 IN PTR  gerrit-spare.wikimedia.org.
 
 ; public1-c-eqiad (2620:0:861:3::/64)
 $ORIGIN 3.0.0.0.@Z
