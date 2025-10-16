@@ -452,6 +452,10 @@ $ORIGIN 167.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/167.64.10.in-addr.arpa
 
+; 10.64.168.0/24 - Overlay Loopbacks Nokia EVPN Eqiad
+$ORIGIN 168.64.@Z
+$INCLUDE netbox/168.64.10.in-addr.arpa
+
 $ORIGIN 40.64.@Z
 ; 10.64.40.0/27 - frack-payments1-c-eqiad
 $INCLUDE netbox/0-27.40.64.10.in-addr.arpa
