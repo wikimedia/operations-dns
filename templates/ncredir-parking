@@ -60,6 +60,7 @@ zh-tw                   1D IN CNAME ncredir-lb.wikimedia.org.
 15              1D IN CNAME ncredir-lb.wikimedia.org.
 bugzilla        1D IN CNAME ncredir-lb.wikimedia.org.
 careers         1D IN CNAME ncredir-lb.wikimedia.org.
+c               1D IN CNAME ncredir-lb.wikimedia.org.
 donate          1D IN CNAME ncredir-lb.wikimedia.org.
 download        1D IN CNAME ncredir-lb.wikimedia.org.
 jobs            1D IN CNAME ncredir-lb.wikimedia.org.
