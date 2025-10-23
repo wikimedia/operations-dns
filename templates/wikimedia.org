@@ -27,6 +27,9 @@ ns2         1D  IN A    198.35.27.27 ; anycasted authdns
 ; 1Password site verification, requested in T352579
 @           600 IN TXT  "1password-site-verification=ZAZP5U62WJFMDDZKWJG7TPKFI4"
 
+; Figma domain verification, requested in T408003
+@           600 IN TXT  "figma-domain-verification=afd2ee0a37aa0bcf8dfc357d0264a8a0664a703c006e7076a65b3b6fc50957ff-1761151942"
+
 ; SPF txt and rr records
 
 ; ip4:74.121.51.111 - acoustic mass emailer, @fr-tech
