@@ -297,6 +297,10 @@ $ORIGIN 132.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/132.64.10.in-addr.arpa
 
+; 10.64.133.0/24 - private1-c2-eqiad
+$ORIGIN 133.64.@Z
+$INCLUDE netbox/133.64.10.in-addr.arpa
+
 ; 10.64.134.0/24 - private1-f1-eqiad
 $ORIGIN 134.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -311,6 +315,10 @@ $INCLUDE netbox/135.64.10.in-addr.arpa
 $ORIGIN 136.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/136.64.10.in-addr.arpa
+
+; 10.64.137.0/24 - analytics1-c2-eqiad
+$ORIGIN 137.64.@Z
+$INCLUDE netbox/137.64.10.in-addr.arpa
 
 ; 10.64.138.0/24 - analytics1-e1-eqiad
 $ORIGIN 138.64.@Z
@@ -327,6 +335,10 @@ $ORIGIN 140.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/140.64.10.in-addr.arpa
 
+; 10.64.141.0/24 - private1-c3-eqiad
+$ORIGIN 141.64.@Z
+$INCLUDE netbox/141.64.10.in-addr.arpa
+
 ; 10.64.142.0/24 - analytics1-f1-eqiad
 $ORIGIN 142.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -341,6 +353,10 @@ $INCLUDE netbox/143.64.10.in-addr.arpa
 $ORIGIN 144.64.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/144.64.10.in-addr.arpa
+
+; 10.64.145.0/24 - analytics1-c3-eqiad
+$ORIGIN 145.64.@Z
+$INCLUDE netbox/145.64.10.in-addr.arpa
 
 ; 10.64.146.0/24 - evpn_overlay_loopbacks_eqiad
 $ORIGIN 146.64.@Z
@@ -455,6 +471,94 @@ $INCLUDE netbox/167.64.10.in-addr.arpa
 ; 10.64.168.0/24 - Overlay Loopbacks Nokia EVPN Eqiad
 $ORIGIN 168.64.@Z
 $INCLUDE netbox/168.64.10.in-addr.arpa
+
+; 10.64.169.0/24 - private1-c4-eqiad
+$ORIGIN 169.64.@Z
+$INCLUDE netbox/169.64.10.in-addr.arpa
+
+; 10.64.170.0/24 - analytics1-c4-eqiad
+$ORIGIN 170.64.@Z
+$INCLUDE netbox/170.64.10.in-addr.arpa
+
+; 10.64.171.0/24 - private1-c5-eqiad
+$ORIGIN 171.64.@Z
+$INCLUDE netbox/171.64.10.in-addr.arpa
+
+; 10.64.172.0/24 - analytics1-c5-eqiad
+$ORIGIN 172.64.@Z
+$INCLUDE netbox/172.64.10.in-addr.arpa
+
+; 10.64.173.0/24 - private1-c6-eqiad
+$ORIGIN 173.64.@Z
+$INCLUDE netbox/173.64.10.in-addr.arpa
+
+; 10.64.174.0/24 - analytics1-c6-eqiad
+$ORIGIN 174.64.@Z
+$INCLUDE netbox/174.64.10.in-addr.arpa
+
+; 10.64.175.0/24 - private1-c7-eqiad
+$ORIGIN 175.64.@Z
+$INCLUDE netbox/175.64.10.in-addr.arpa
+
+; 10.64.176.0/24 - analytics1-c7-eqiad
+$ORIGIN 176.64.@Z
+$INCLUDE netbox/176.64.10.in-addr.arpa
+
+; 10.64.177.0/24 - private1-d1-eqiad
+$ORIGIN 177.64.@Z
+$INCLUDE netbox/177.64.10.in-addr.arpa
+
+; 10.64.178.0/24 - analytics1-d1-eqiad
+$ORIGIN 178.64.@Z
+$INCLUDE netbox/178.64.10.in-addr.arpa
+
+; 10.64.179.0/24 - private1-d2-eqiad
+$ORIGIN 179.64.@Z
+$INCLUDE netbox/179.64.10.in-addr.arpa
+
+; 10.64.180.0/24 - analytics1-d2-eqiad
+$ORIGIN 180.64.@Z
+$INCLUDE netbox/180.64.10.in-addr.arpa
+
+; 10.64.181.0/24 - private1-d3-eqiad
+$ORIGIN 181.64.@Z
+$INCLUDE netbox/181.64.10.in-addr.arpa
+
+; 10.64.182.0/24 - analytics1-d3-eqiad
+$ORIGIN 182.64.@Z
+$INCLUDE netbox/182.64.10.in-addr.arpa
+
+; 10.64.183.0/24 - private1-d4-eqiad
+$ORIGIN 183.64.@Z
+$INCLUDE netbox/183.64.10.in-addr.arpa
+
+; 10.64.184.0/24 - analytics1-d4-eqiad
+$ORIGIN 184.64.@Z
+$INCLUDE netbox/184.64.10.in-addr.arpa
+
+; 10.64.185.0/24 - private1-d6-eqiad
+$ORIGIN 185.64.@Z
+$INCLUDE netbox/185.64.10.in-addr.arpa
+
+; 10.64.186.0/24 - analytics1-d6-eqiad
+$ORIGIN 186.64.@Z
+$INCLUDE netbox/186.64.10.in-addr.arpa
+
+; 10.64.187.0/24 - private1-d7-eqiad
+$ORIGIN 187.64.@Z
+$INCLUDE netbox/187.64.10.in-addr.arpa
+
+; 10.64.188.0/24 - analytics1-d7-eqiad
+$ORIGIN 188.64.@Z
+$INCLUDE netbox/188.64.10.in-addr.arpa
+
+; 10.64.189.0/24 - private1-d8-eqiad
+$ORIGIN 189.64.@Z
+$INCLUDE netbox/189.64.10.in-addr.arpa
+
+; 10.64.190.0/24 - analytics1-d8-eqiad
+$ORIGIN 190.64.@Z
+$INCLUDE netbox/190.64.10.in-addr.arpa
 
 $ORIGIN 40.64.@Z
 ; 10.64.40.0/27 - frack-payments1-c-eqiad
