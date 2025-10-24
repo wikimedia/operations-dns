@@ -517,7 +517,7 @@ apertium    1H  IN A        10.2.2.11
 proxoid     1H  IN A        10.2.2.12
 kartotherian 1H IN A        10.2.2.13
 mobileapps  1H  IN A        10.2.2.14
-
+druid-public-coordinator    1H  IN A     10.2.2.15
 zotero      1H  IN A        10.2.2.16
 restbase    1H  IN A        10.2.2.17
 restbase-async 1H  IN A     10.2.2.17
@@ -714,7 +714,7 @@ apertium        1H  IN A        10.2.1.11
 proxoid         1H  IN A        10.2.1.12
 kartotherian    1H  IN A        10.2.1.13
 mobileapps      1H  IN A        10.2.1.14
-
+; reserved for druid-public-coordinator  1H  IN A   10.2.1.15
 zotero          1H  IN A        10.2.1.16
 restbase        1H  IN A        10.2.1.17
 restbase-async  1H  IN A        10.2.1.17
@@ -737,6 +737,7 @@ eventstreams    1H  IN A        10.2.1.34
 eventstreams-internal 1H  IN A       10.2.1.35
 wdqs-scholarly  1H  IN A        10.2.1.36
 recommendation-api  1H  IN A        10.2.1.37
+; reserved for druid-public-broker  1H  IN A    10.2.1.38
 ml-ctrl 1H      IN A    10.2.1.39
 eventgate-analytics 1H  IN A    10.2.1.42
 schema          1H  IN A        10.2.1.43
