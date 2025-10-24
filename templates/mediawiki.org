@@ -23,6 +23,9 @@
 ; SPF records
 @               600 IN TXT  "v=spf1 include:wikimedia.org ~all"
 
+; DMARC record
+_dmarc      1H  IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
+
 ; CAA records
 @           600 IN CAA 0 issue "digicert.com"
 @           600 IN CAA 0 issue "letsencrypt.org"

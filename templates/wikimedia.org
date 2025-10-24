@@ -94,8 +94,21 @@ k3._domainkey       1H IN CNAME dkim3.mcsv.net.
 _dmarc          1H  IN TXT "v=DMARC1; p=none; sp=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
 
 ; DMARC external domain verification for other WMF domains delivering to @wikimedia.org
-w.wiki._report._dmarc             1H  IN TXT "v=DMARC1;"
-wikipedia.org._report._dmarc      1H  IN TXT "v=DMARC1;"
+mediawiki.org._report._dmarc            1H  IN TXT "v=DMARC1;"
+w.wiki._report._dmarc                   1H  IN TXT "v=DMARC1;"
+wikimedia.cloud._report._dmarc          1H  IN TXT "v=DMARC1;"
+wikimedia.community._report._dmarc      1H  IN TXT "v=DMARC1;"
+wikimedia.social._report._dmarc         1H  IN TXT "v=DMARC1;"
+wikimedia.support._report._dmarc        1H  IN TXT "v=DMARC1;"
+wikimediacloud.org._report._dmarc       1H  IN TXT "v=DMARC1;"
+wikimediafoundation.org._report._dmarc  1H  IN TXT "v=DMARC1;"
+wikinews.org._report._dmarc             1H  IN TXT "v=DMARC1;"
+wikipedia.org._report._dmarc            1H  IN TXT "v=DMARC1;"
+wikiquote.org._report._dmarc            1H  IN TXT "v=DMARC1;"
+wikisource.org._report._dmarc           1H  IN TXT "v=DMARC1;"
+wikiversity.org._report._dmarc          1H  IN TXT "v=DMARC1;"
+wikivoyage.org._report._dmarc           1H  IN TXT "v=DMARC1;"
+wiktionary.org._report._dmarc           1H  IN TXT "v=DMARC1;"
 
 ; Mail records for pr.wikimedia.org
 pr   300 IN MX 10 mx-in1001
