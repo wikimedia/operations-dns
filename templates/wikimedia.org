@@ -40,6 +40,12 @@ ns2         1H  IN A    198.35.27.27 ; anycasted authdns
 @               600 IN TXT  "yahoo-verification-key=tiU1x5OT7PmpcbQzS7N5PxKzC+BYkl+9tZYh38G5vDk=" ; T370963
 @               600 IN TXT  "jamf-site-verification=NxGVeSleTFBLZiknd4D94A"
 
+; SPF records for DSN, null sender: <>, emails from MXs
+mx-in1001       1H  IN TXT  "v=spf1 include:_cidrs.wikimedia.org ~all"
+mx-in2001       1H  IN TXT  "v=spf1 include:_cidrs.wikimedia.org ~all"
+mx-out1001      1H  IN TXT  "v=spf1 include:_cidrs.wikimedia.org ~all"
+mx-out2001      1H  IN TXT  "v=spf1 include:_cidrs.wikimedia.org ~all"
+
 ; SPF record for WMF netblocks which may send mail
 ; ip4:208.80.152.0/22 - eqiad + codfw
 ; ip6:2620:0:860::/56 - codfw
