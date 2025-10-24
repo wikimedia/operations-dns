@@ -25,6 +25,7 @@
 ; Bluesky account verification. This record proves our ownership of the @wikipedia.org account to Blusky/AT Protocol
 _atproto                            600 IN TXT   "did=did:plc:plla3i7zproko3ekdnkoykhe"
 
+; DMARC record
 _dmarc                  600     IN TXT "v=DMARC1; p=quarantine; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
 
 ; SPF records

@@ -15,6 +15,9 @@
 ; SPF txt and rr records (no email)
 @           600 IN TXT  "v=spf1 -all"
 
+; DMARC record
+_dmarc      600 IN TXT "v=DMARC1; p=quarantine; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
+
 ; Canonical names
 @           180 IN DYNA geoip!text-addrs
 
