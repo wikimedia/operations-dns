@@ -983,7 +983,7 @@ spark-history-next      300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 superset                300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 superset-next           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 growthbook              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-growthbook-backend      300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+growthbook-api          300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-analytics-product 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-analytics-test  300 IN CNAME k8s-ingress-dse.discovery.wmnet.
