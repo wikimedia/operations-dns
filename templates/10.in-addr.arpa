@@ -31,7 +31,7 @@ $ORIGIN 1.2.@Z
 19  1H  IN PTR  citoid.svc.codfw.wmnet.
 20  1H  IN PTR  mathoid.svc.codfw.wmnet.
 21  1H  IN PTR  proton.svc.codfw.wmnet.
-; 22
+22  1H  IN PTR  tcpproxy.svc.codfw.wmnet.
 23  1H  IN PTR  linkrecommendation.svc.codfw.wmnet.
 24  1H  IN PTR  thumbor.svc.codfw.wmnet.
 25  1H  IN PTR  prometheus.svc.codfw.wmnet.
