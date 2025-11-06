@@ -525,6 +525,7 @@ cxserver    1H  IN A        10.2.2.18
 citoid      1H  IN A        10.2.2.19
 mathoid     1H  IN A        10.2.2.20
 proton      1H  IN A        10.2.2.21
+tcpproxy    1H  IN A        10.2.2.22
 linkrecommendation  1H  IN A 10.2.2.23
 thumbor     1H  IN A        10.2.2.24
 prometheus  1H  IN A        10.2.2.25
