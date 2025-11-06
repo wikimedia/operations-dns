@@ -643,7 +643,7 @@ datahub-gms              1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 datahub-frontend-next    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 datahub-gms-next         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 growthbook               1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
-growthbook-backend       1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+growthbook-api           1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow                  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-analytics-product 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-analytics-test   1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
