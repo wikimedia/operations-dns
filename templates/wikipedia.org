@@ -73,6 +73,7 @@ wg-en                   1D IN CNAME dyna.wikimedia.org.
 15              1D IN CNAME dyna.wikimedia.org.
 20              1D IN CNAME dyna.wikimedia.org.
 25              1D IN CNAME dyna.wikimedia.org.
+art-tokipona    1D IN CNAME dyna.wikimedia.org.
 bugzilla        1D IN CNAME dyna.wikimedia.org.
 careers         1D IN CNAME dyna.wikimedia.org.
 commons         1D IN CNAME dyna.wikimedia.org.
@@ -93,6 +94,8 @@ species         1D IN CNAME dyna.wikimedia.org.
 stats           1D IN CNAME dyna.wikimedia.org.
 store           1D IN CNAME dyna.wikimedia.org.
 textbook        1D IN CNAME dyna.wikimedia.org.
+tokipona        1D IN CNAME dyna.wikimedia.org.
+tp              1D IN CNAME dyna.wikimedia.org.
 www             1D IN CNAME dyna.wikimedia.org.
 zero            1D IN CNAME dyna.wikimedia.org.
 zh-tw           1D IN CNAME dyna.wikimedia.org.
