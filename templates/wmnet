@@ -635,8 +635,8 @@ datasets-config          1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 datasets-config-next     1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 mpic                     1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 mpic-next                1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
-testkitchen              1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
-testkitchen-next         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+test-kitchen              1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+test-kitchen-next         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 spark-history            1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 spark-history-test       1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 superset                 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
@@ -985,8 +985,8 @@ datasets-config-next    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 echoserver              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 mpic                    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 mpic-next               300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-testkitchen             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-testkitchen-next        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+test-kitchen            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+test-kitchen-next       300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 spark-history           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 spark-history-next      300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 superset                300 IN CNAME k8s-ingress-dse.discovery.wmnet.

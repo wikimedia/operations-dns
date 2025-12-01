@@ -821,8 +821,8 @@ noc              1D IN CNAME dyna.wikimedia.org.
 old-bugzilla     1D IN CNAME dyna.wikimedia.org.
 one              1H IN CNAME messaging-wikimedia-org.go-vip.net.
 planet           1D IN CNAME dyna.wikimedia.org.
-testkitchen      1D IN CNAME dyna.wikimedia.org.
-testkitchen-next 1D IN CNAME dyna.wikimedia.org.
+test-kitchen     1D IN CNAME dyna.wikimedia.org.
+test-kitchen-next 1D IN CNAME dyna.wikimedia.org.
 ar.planet        1D IN CNAME dyna.wikimedia.org.
 bg.planet        1D IN CNAME dyna.wikimedia.org.
 cs.planet        1D IN CNAME dyna.wikimedia.org.
