@@ -1,1 +1,22 @@
-ncredir-parking
+; vim: set expandtab:smarttab
+; {{ serial_comment }}
+@ 1H IN SOA ns0.wikimedia.org. hostmaster.wikimedia.org. {{ serial_num }} 12H 2H 2W 1H
+
+; Name servers
+
+@           1D  IN NS   ns0.wikimedia.org.
+@           1D  IN NS   ns1.wikimedia.org.
+@           1D  IN NS   ns2.wikimedia.org.
+
+; T408592
+@           180 IN DYNA geoip!text-addrs
+www         180 IN DYNA geoip!text-addrs
+
+; T408168
+donate      1D IN CNAME ncredir-lb.wikimedia.org.
+
+
+; CAA records for wikipedia25.org - LE
+@           5M  IN CAA 0 issue "letsencrypt.org"
+@           5M  IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
+
