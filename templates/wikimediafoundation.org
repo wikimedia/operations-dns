@@ -21,6 +21,7 @@ _dmarc      1H  IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-rua@wikimedia.org; ru
 
 ; Canonical names
 @           600  IN A    192.0.66.2
+@           600  IN AAAA 2a04:fa87:fffd::c000:4280
 
 ; Facebook verification record (T258284)
 @           600 IN TXT  "facebook-domain-verification=orjhfudqyeumf4uber3bpwan5pisu0"
