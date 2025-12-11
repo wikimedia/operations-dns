@@ -56,4 +56,6 @@ fundraising._domainkey  1H  IN TXT  "v=DKIM1; h=sha256; k=rsa; p=MIGfMA0GCSqGSIb
 ; Wikis (alphabetic order)
 
 www         600  IN A     192.0.66.2
+www         600  IN AAAA  2a04:fa87:fffd::c000:4280
 m           600  IN A     192.0.66.2
+m           600  IN AAAA  2a04:fa87:fffd::c000:4280
