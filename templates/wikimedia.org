@@ -37,6 +37,7 @@ ns2         1D  IN A    198.35.27.27 ; anycasted authdns
 @               600 IN TXT  "FC0MOB7SKLHj0AsevTnJvE0W0YYQkPVYOX3UMrINOSk="
 @               600 IN TXT  "MS=ms70322281"
 @               600 IN TXT  "yahoo-verification-key=tiU1x5OT7PmpcbQzS7N5PxKzC+BYkl+9tZYh38G5vDk=" ; T370963
+@               600 IN TXT  "jamf-site-verification=NxGVeSleTFBLZiknd4D94A"
 
 ; SPF record for WMF netblocks which may send mail
 ; ip4:208.80.152.0/22 - eqiad + codfw
