@@ -253,8 +253,9 @@ frmx2001                    1H  IN A    208.80.152.236
 frmx2002                    1H  IN A    208.80.152.228
 
 payments-codfw              1H  IN A    208.80.152.227
+; to be deleted once 20260108 payments cname update propagates
 payments-a-eqiad            1H  IN A    208.80.155.20
-payments-eqiad              1H  IN A    208.80.155.5 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
+payments-eqiad              1H  IN A    208.80.155.20 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
 payments-staging            1H  IN A    208.80.155.10
 
 payments-listener-codfw     1H  IN A    208.80.152.233
@@ -275,7 +276,7 @@ frdata                      1H  IN CNAME    frdata-eqiad
 frmon                       1H  IN CNAME    frmon-eqiad
 frmon.frdev                 1H  IN CNAME    frmon-eqiad
 metabase.frdev              1H  IN CNAME    analytics-codfw.frdev
-payments                    5M  IN CNAME    payments-a-eqiad
+payments                    5M  IN CNAME    payments-eqiad
 payments-listener           5M  IN CNAME    payments-listener-eqiad
 payments-listener.frdev     1H  IN CNAME    frdev-eqiad
 reports.frdev               1H  IN CNAME    frdev-eqiad

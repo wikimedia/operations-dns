@@ -11,7 +11,6 @@
 ; 208.80.155.0/27 Frack Payments subnet
 
 4   1H IN PTR   analytics-eqiad.frdev.wikimedia.org.
-5   1H IN PTR   payments.wikimedia.org. ; wmf-zone-validator-ignore=MISSING_IP_FOR_NAME_AND_PTR
 6   1H IN PTR   frack-default-nat-eqiad.wikimedia.org.
 7   1H IN PTR   frack-payments-nat-eqiad.wikimedia.org.
 9   1H IN PTR   frmon-eqiad.wikimedia.org.
@@ -22,7 +21,7 @@
 17  1H IN PTR   civicrm.wikimedia.org.
 18  1H IN PTR   frbast-eqiad.wikimedia.org.
 19  1H IN PTR   payments-listener-eqiad.wikimedia.org.
-20  1H IN PTR   payments-a-eqiad.wikimedia.org.
+20  1H IN PTR   payments-eqiad.wikimedia.org.
 
 ; 208.80.155.32/27 Unused
 
