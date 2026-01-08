@@ -628,6 +628,7 @@ jaeger-collector-grpc 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-query          1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 os-reports            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 zarcillo              1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
+redioscope            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 
 ; dse
 echoserver-dse-k8s-eqiad 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
@@ -832,6 +833,7 @@ jaeger-collector-grpc    1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 jaeger-query             1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 os-reports               1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 zarcillo                 1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
+redioscope               1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-dse.
