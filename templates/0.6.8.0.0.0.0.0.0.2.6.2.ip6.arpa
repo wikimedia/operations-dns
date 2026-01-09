@@ -237,6 +237,10 @@ $INCLUDE netbox/5.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 6.3.1.0.@Z
 $INCLUDE netbox/6.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; lsw1-a3-codfw <-> mr1-codfw - 2620:0:860:137::/64
+$ORIGIN 7.3.1.0.@Z
+$INCLUDE netbox/7.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; Switch fabric private /127 link networks codfw - 2620:0:860:139::/64
 $ORIGIN 9.3.1.0.@Z
 $INCLUDE netbox/9.3.1.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
