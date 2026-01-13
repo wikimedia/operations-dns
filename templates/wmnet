@@ -73,7 +73,7 @@ zarcillo-master 5M  IN CNAME    db1215.eqiad.wmnet.
 mw-experimental 1H  IN CNAME    wikikube-worker-exp1001.eqiad.wmnet.
 
 analytics-test-hive   5M  IN CNAME    an-test-coord1001.eqiad.wmnet.
-analytics-hive        5M  IN CNAME    an-coord1004.eqiad.wmnet.
+analytics-hive        5M  IN CNAME    an-coord1003.eqiad.wmnet.
 analytics-test-presto 5M  IN CNAME    an-test-coord1001.eqiad.wmnet.
 analytics-presto      5M  IN CNAME    an-coord1003.eqiad.wmnet.
 s1-analytics-replica  5M  IN CNAME    dbstore1008.eqiad.wmnet.
