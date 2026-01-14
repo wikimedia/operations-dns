@@ -12,37 +12,19 @@
 ; West Coast Discrete network
 
 ; 198.35.26.0/28 (0-15) - public1-ulsfo
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0-28.26.35.198.in-addr.arpa
 
-; 198.35.26.16/28 (16-31) - unused
-; 198.35.26.32/27 (32-63) - unused
-; 198.35.26.64/27 (64-95) - unused
-
 ; 198.35.26.96/27 (96-127) - LVS Service IPs
-
-; - 198.35.26.96/28 (96-111) -- LVS high-traffic1 (Text)
-; - 198.35.26.112/28 (112-127) -- LVS high-traffic2 (Multimedia & Misc)
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/96-27.26.35.198.in-addr.arpa
 
-; 198.35.26.128/26 (128-191) - unused
+; 198.35.26.128/27 - Network loopbacks and interconnects /27
+$INCLUDE netbox/128-27.26.35.198.in-addr.arpa
 
-; 198.35.26.192/27 (192-223) - Infrastructure Space
-; - 198.35.26.192/30 (192-195) -- Routers
-; - 198.35.26.196/31 (196-197) -- cr3-ulsfo <--> cr4-ulsfo
-; - 198.35.26.198/31 (198-199) -- cr3-ulsfo <--> mr1-ulsfo
-; - 198.35.26.200/31 (200-201) -- cr4-ulsfo <--> mr1-ulsfo
-; - 198.35.26.202/31 (202-203) unused
-; - 198.35.26.204/31 (204-205) cr4-ulsfo <--> cr2-eqdfw
-; - 198.35.26.206/31 (206-207) unused
-; - 198.35.26.208/31 (208-209) -- cr3-ulsfo <--> cr2-eqord
-; - 198.35.26.210/31 (210-211) -- cr4-ulsfo <--> cr1-codfw
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+; 198.35.26.128/29 - Network loopbacks sub-network
+$INCLUDE netbox/128-29.26.35.198.in-addr.arpa
+
+; 198.35.26.192/27 - Legacy loopbacks - to be decom'd 2026 see T408892
 $INCLUDE netbox/192-27.26.35.198.in-addr.arpa
 
-; 198.35.26.224/28 (224-239) - unused
-
 ; 198.35.26.240/28 (240-255) - sandbox1-ulsfo
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/240-28.26.35.198.in-addr.arpa
