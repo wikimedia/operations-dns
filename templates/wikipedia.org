@@ -40,6 +40,7 @@ _dmarc                  600     IN TXT "v=DMARC1; p=quarantine; rua=mailto:dmarc
 
 ; Wikis with mobile site (alphabetic order), which are not covered by langlist.tmpl
 
+abstract                1D IN CNAME dyna.wikimedia.org.
 arbcom-cs               1D IN CNAME dyna.wikimedia.org.
 arbcom-cs.m             1D IN CNAME dyna.wikimedia.org.
 arbcom-de               1D IN CNAME dyna.wikimedia.org.
