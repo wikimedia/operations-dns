@@ -659,7 +659,7 @@ airflow-research         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-search           1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-test-k8s         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-wmde             1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
-airflow-sre             1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+airflow-sre              1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-ipoid         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-ipoid-test    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-test          1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
@@ -1012,7 +1012,7 @@ airflow-search          300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-test-k8s        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-wmde            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-wikidata        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-sre        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-sre             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-test         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-ipoid        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-ipoid-test   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
