@@ -34,7 +34,7 @@ config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 udplog          1H  IN CNAME    mwlog1002.eqiad.wmnet.
 deployment      5M  IN CNAME    deploy2002.codfw.wmnet.
 people          5M  IN CNAME    people1005.eqiad.wmnet.
-s1-master       5M  IN CNAME    db2212.codfw.wmnet.
+s1-master       5M  IN CNAME    db2203.codfw.wmnet.
 s2-master       5M  IN CNAME    db2204.codfw.wmnet.
 s3-master       5M  IN CNAME    db2205.codfw.wmnet.
 s4-master       5M  IN CNAME    db2240.codfw.wmnet.
