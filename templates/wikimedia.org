@@ -238,10 +238,11 @@ $INCLUDE netbox/wikimedia.org-magru
 ; Fundraising tech hosts (no automation)
 analytics-codfw             1H  IN A    208.80.152.238
 analytics-eqiad             1H  IN A    208.80.155.4
-analytics-new-codfw         1H  IN A    208.80.152.231
-civi1002                    1H  IN A    208.80.155.17 ; wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
-civicrm                     1H  IN A    208.80.155.17
 civicrm-codfw               1H  IN A    208.80.152.232
+civicrm-eqiad               1H  IN A    208.80.155.17
+civicrm                     1H  IN A    208.80.155.17
+; To be removed after 202602015 - dwisehaupt
+;civi1002                    1H  IN A    208.80.155.17 ; wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
 frack-default-nat-codfw     1H  IN A    208.80.152.230
 frack-default-nat-eqiad     1H  IN A    208.80.155.6
 frack-payments-nat-codfw    1H  IN A    208.80.152.229
@@ -254,13 +255,10 @@ frdev-eqiad                 1H  IN A    208.80.155.14
 frmon-eqiad                 1H  IN A    208.80.155.9
 frmon-codfw                 1H  IN A    208.80.152.235
 frmx1001                    1H  IN A    208.80.155.15
-frmx2001                    1H  IN A    208.80.152.236
 frmx2002                    1H  IN A    208.80.152.228
 
 payments-codfw              1H  IN A    208.80.152.227
-; to be deleted once 20260108 payments cname update propagates
-payments-a-eqiad            1H  IN A    208.80.155.20
-payments-eqiad              1H  IN A    208.80.155.20 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
+payments-eqiad              1H  IN A    208.80.155.20
 payments-staging            1H  IN A    208.80.155.10
 
 payments-listener-codfw     1H  IN A    208.80.152.233
@@ -268,12 +266,13 @@ payments-listener-eqiad     1H  IN A    208.80.155.19
 
 ; Fundraising tech service aliases
 
-analytics-eqiad.frdev       1D  IN CNAME    analytics-eqiad
 analytics-codfw.frdev       1D  IN CNAME    analytics-codfw
+analytics-eqiad.frdev       1D  IN CNAME    analytics-eqiad
 analytics.frdev             1H  IN CNAME    analytics-codfw.frdev
-civi                        1H  IN CNAME    civicrm
+civi                        1H  IN CNAME    civicrm-eqiad
 civi.frdev                  1H  IN CNAME    frdev-eqiad
 civicrm.frdev               1H  IN CNAME    frdev-eqiad
+donorpreferences            1H  IN CNAME    frdata-eqiad
 fundraising                 1H  IN CNAME    frdata-eqiad
 fundraising.frdev           1H  IN CNAME    frdata-eqiad
 frbast                      1H  IN CNAME    frbast-eqiad
@@ -511,8 +510,6 @@ developers      1D IN CNAME dyna.wikimedia.org.
 doc             1D IN CNAME dyna.wikimedia.org.
 docker-registry 1D IN CNAME dyna.wikimedia.org.
 docs            1D IN CNAME dyna.wikimedia.org.
-
-donorpreferences    1H  IN CNAME    frdata-eqiad
 
 helm-charts     1D IN CNAME dyna.wikimedia.org.
 
