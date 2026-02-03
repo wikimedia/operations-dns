@@ -38,7 +38,7 @@ s1-master       5M  IN CNAME    db2203.codfw.wmnet.
 s2-master       5M  IN CNAME    db2204.codfw.wmnet.
 s3-master       5M  IN CNAME    db2205.codfw.wmnet.
 s4-master       5M  IN CNAME    db2240.codfw.wmnet.
-s5-master       5M  IN CNAME    db2192.codfw.wmnet.
+s5-master       5M  IN CNAME    db2213.codfw.wmnet.
 s6-master       5M  IN CNAME    db2229.codfw.wmnet.
 s7-master       5M  IN CNAME    db2218.codfw.wmnet.
 s8-master       5M  IN CNAME    db2165.codfw.wmnet.
