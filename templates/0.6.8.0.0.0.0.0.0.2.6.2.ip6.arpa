@@ -10,6 +10,10 @@
 
 ; codfw public subnets (2620:0:860:0::/56)
 
+; ns1.wikimedia.org reverse entry (2620:0:860:53::1)
+$ORIGIN 3.5.0.0.@Z
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0 1H  IN PTR   ns1.wikimedia.org.
+
 ; public1-a-codfw (2620:0:860:1::/64)
 $ORIGIN 1.0.0.0.@Z
 $INCLUDE netbox/1.0.0.0.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
