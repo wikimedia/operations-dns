@@ -272,18 +272,18 @@ analytics.frdev             1H  IN CNAME    analytics-codfw.frdev
 civi                        1H  IN CNAME    civicrm-eqiad
 civi.frdev                  1H  IN CNAME    frdev-eqiad
 civicrm.frdev               1H  IN CNAME    frdev-eqiad
-donorpreferences            1H  IN CNAME    frdata-eqiad
-fundraising                 1H  IN CNAME    frdata-eqiad
-fundraising.frdev           1H  IN CNAME    frdata-eqiad
-frbast                      1H  IN CNAME    frbast-eqiad
-frdata                      1H  IN CNAME    frdata-eqiad
-frmon                       1H  IN CNAME    frmon-eqiad
-frmon.frdev                 1H  IN CNAME    frmon-eqiad
+donorpreferences            1H  IN CNAME    frdata-codfw
+fundraising                 1H  IN CNAME    frdata-codfw
+fundraising.frdev           1H  IN CNAME    frdata-codfw
+frbast                      1H  IN CNAME    frbast-codfw
+frdata                      1H  IN CNAME    frdata-codfw
+frmon                       1H  IN CNAME    frmon-codfw
+frmon.frdev                 1H  IN CNAME    frmon-codfw
 metabase.frdev              1H  IN CNAME    analytics-codfw.frdev
-payments                    5M  IN CNAME    payments-eqiad
-payments-listener           5M  IN CNAME    payments-listener-eqiad
+payments                    5M  IN CNAME    payments-codfw
+payments-listener           5M  IN CNAME    payments-listener-codfw
 payments-listener.frdev     1H  IN CNAME    frdev-eqiad
-reports.frdev               1H  IN CNAME    frdev-eqiad
+reports.frdev               1H  IN CNAME    frdev-codfw
 superset.frdev              1H  IN CNAME    analytics-codfw.frdev
 
 civicrm                     300 IN MX   10 mx-in1001
