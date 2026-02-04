@@ -663,6 +663,8 @@ airflow-sre              1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-ipoid         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-ipoid-test    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-test          1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+turnilo                  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+turnilo-next             1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 ; K8S EQIAD STAGING SERVICES
 
 staging         1H  IN CNAME    kubestage1003.eqiad.wmnet.
@@ -1016,6 +1018,8 @@ airflow-sre             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-test         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-ipoid        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-ipoid-test   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+turnilo                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+turnilo-next            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-aux.
