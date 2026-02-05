@@ -662,6 +662,8 @@ airflow-wmde             1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-sre              1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-ipoid         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-ipoid-test    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+opensearch-semantic-search    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+opensearch-semantic-search-test    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-test          1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 turnilo                  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 turnilo-next             1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
@@ -843,6 +845,8 @@ redioscope               1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 echoserver-dse-k8s-codfw 1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 opensearch-ipoid         1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 opensearch-ipoid-test    1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+opensearch-semantic-search    1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+opensearch-semantic-search-test    1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 opensearch-test          1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 ; K8S CODFW STAGING SERVICES
 
@@ -1017,6 +1021,8 @@ airflow-wikidata        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-sre             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-test         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-ipoid        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+opensearch-semantic-search   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+opensearch-semantic-search-test   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-ipoid-test   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 turnilo                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 turnilo-next            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
