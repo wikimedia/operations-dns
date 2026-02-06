@@ -206,9 +206,7 @@ _x-puppet._tcp     5M  IN SRV  0  5 8140 puppetserver2004.codfw.wmnet.
 ; We only ever have one CA server it is not site specific
 _x-puppet-ca._tcp  5M  IN SRV  0  5 8140 puppetserver1001.eqiad.wmnet.
 ; Service aliases
-config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 people          5M  IN CNAME    people2004.codfw.wmnet.
-puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install2005.wikimedia.org.
 deployment      5M  IN CNAME    deploy2002.codfw.wmnet.
 m1-master       5M  IN CNAME    dbproxy2005.codfw.wmnet.
@@ -416,8 +414,6 @@ $INCLUDE netbox/ulsfo.wmnet
 ;
 ; SERVICES @ ulsfo
 ;
-config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
-puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install4004.wikimedia.org.
 
 ; etcd client discovery (RO)
@@ -456,8 +452,6 @@ $INCLUDE netbox/eqsin.wmnet
 ;
 ; SERVICES @ eqsin
 ;
-config-master   5M  IN CNAME    puppetmaster2001.codfw.wmnet.
-puppet          5M  IN CNAME    puppetmaster2001.codfw.wmnet.
 webproxy        5M  IN CNAME    install5004.wikimedia.org.
 
 ; etcd client discovery (RO)
