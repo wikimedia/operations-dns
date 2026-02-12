@@ -276,7 +276,7 @@ civicrm.frdev               1H  IN CNAME    frdev-eqiad
 donorpreferences            1H  IN CNAME    frdata-eqiad
 fundraising                 1H  IN CNAME    frdata-eqiad
 fundraising.frdev           1H  IN CNAME    frdata-eqiad
-frbast                      1H  IN CNAME    frbast-eqiad
+frbast                      1H  IN CNAME    frbast-codfw
 frdata                      1H  IN CNAME    frdata-eqiad
 frmon                       1H  IN CNAME    frmon-eqiad
 frmon.frdev                 1H  IN CNAME    frmon-eqiad
