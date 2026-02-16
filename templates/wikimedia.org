@@ -596,7 +596,7 @@ librenms        1H  IN CNAME    netmon1003
 netbox          1D  IN CNAME    dyna.wikimedia.org.
 netbox-exports  1D  IN CNAME    dyna.wikimedia.org.
 
-orchestrator    5M  IN CNAME    dborch1001
+orchestrator    5M  IN CNAME    dborch1002
 
 people          1D IN CNAME dyna.wikimedia.org.
 
