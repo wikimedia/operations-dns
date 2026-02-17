@@ -296,6 +296,9 @@ superset.frdev              1H  IN CNAME    analytics-codfw.frdev
 civicrm                     300 IN MX   10 mx-in1001
 civicrm                     300 IN MX   10 mx-in2001
 
+; digicert validation - T411785
+_dnsauth.payments           1H  IN CNAME _4js5rqrk984hlcbg5a3al06j2cxjiol.dcv.digicert.com.
+
 ; Service aliases
 
 ;;; eqiad
