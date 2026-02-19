@@ -885,8 +885,7 @@ store            1H  IN CNAME    c.ssl.shopify.com.
 static-bugzilla  1D IN CNAME dyna.wikimedia.org.
 static-codereview  1D IN CNAME dyna.wikimedia.org.
 stats            1D IN CNAME dyna.wikimedia.org.
-status           5M  IN A        192.237.162.200 ; wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
-status           5M  IN AAAA     2001:4801:7821:77:be76:4eff:fe10:2ed5 ; wmf-zone-validator-ignore=TOO_MANY_PUBLIC_NAMES,MISSING_PTR_FOR_NAME_AND_IP
+status           1D IN CNAME dyna.wikimedia.org.
 techblog         5M IN CNAME techblog-wikimedia-org.go-vip.net.
 ticket           1D IN CNAME dyna.wikimedia.org.
 mirrors          5M IN CNAME mirror1001
