@@ -296,6 +296,11 @@ superset.frdev              1H  IN CNAME    analytics-codfw.frdev
 civicrm                     300 IN MX   10 mx-in1001
 civicrm                     300 IN MX   10 mx-in2001
 
+; SPF records for DSN, null sender: <>, emails from civicrm and frmxs
+civicrm                     1H  IN TXT  "v=spf1 include:_cidrs.wikimedia.org ~all"
+frmx1002                    1H  IN TXT  "v=spf1 include:_cidrs.wikimedia.org ~all"
+frmx2002                    1H  IN TXT  "v=spf1 include:_cidrs.wikimedia.org ~all"
+
 ; digicert validation - T411785
 _dnsauth.payments           1H  IN CNAME _4js5rqrk984hlcbg5a3al06j2cxjiol.dcv.digicert.com.
 
