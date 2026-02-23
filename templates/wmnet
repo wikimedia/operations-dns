@@ -1042,7 +1042,7 @@ debmonitor            300 IN CNAME debmonitor1003.eqiad.wmnet.
 doc                   300 IN CNAME doc2003.codfw.wmnet.
 dumps-http            300 IN CNAME clouddumps1002.wikimedia.org.
 gerrit                300 IN CNAME gerrit2003.wikimedia.org.
-gerrit-replica        300 IN CNAME gerrit2002.wikimedia.org.
+gerrit-spare        300 IN CNAME gerrit2002.wikimedia.org.
 grafana                300 IN CNAME grafana1002.eqiad.wmnet.
 ;grafana                300 IN CNAME grafana2001.codfw.wmnet.
 ;grafana-next           300 IN CNAME grafana1002.eqiad.wmnet.
