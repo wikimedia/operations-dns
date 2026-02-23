@@ -8,6 +8,9 @@
 @                       1D      IN NS   ns1.wikimedia.org.
 @                       1D      IN NS   ns2.wikimedia.org.
 
+; ns2.wikimedia.org (2a02:ec80:53::1)
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.5.0.0 1H IN PTR ns2.wikimedia.org.
+
 ; WMCS openstack sub-delegations
 
 ; eqiad openstack public 2a02:ec80:a000::/56

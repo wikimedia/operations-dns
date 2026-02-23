@@ -8,9 +8,11 @@
 @           1H  IN NS   ns1
 @           1H  IN NS   ns2
 ns0         1H  IN A    208.80.154.238
+ns0         1H  IN AAAA 2620:0:861:53::1
 ns1         1H  IN A    208.80.153.231
 ns1         1H  IN AAAA 2620:0:860:53::1
-ns2         1H  IN A    198.35.27.27 ; anycasted authdns
+ns2         1H  IN A    198.35.27.27
+ns2         1H  IN AAAA 2a02:ec80:53::1
 
 ; Mail exchangers
 
