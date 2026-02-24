@@ -30,7 +30,7 @@ codfw1dev  1D  IN NS   ns1.openstack.codfw1dev.wikimediacloud.org.
 ;
 
 ; DMARC record
-_dmarc      1H  IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
+_dmarc      1H  IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-rua@wikimedia.org;"
 
 ; codfw
 $INCLUDE netbox/wikimedia.cloud-codfw

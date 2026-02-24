@@ -26,7 +26,7 @@
 @           600     IN TXT  "v=spf1 include:wikimedia.org ~all"
 
 ; DMARC record
-_dmarc      600     IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
+_dmarc      600     IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc-rua@wikimedia.org;"
 
 ; CAA records
 @           600 IN CAA 0 issue "digicert.com"

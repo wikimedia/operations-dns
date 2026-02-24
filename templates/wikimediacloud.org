@@ -12,7 +12,7 @@
 @           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 ; DMARC record
-_dmarc      1H  IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-rua@wikimedia.org; ruf=mailto:dmarc-ruf@wikimedia.org;"
+_dmarc      1H  IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-rua@wikimedia.org;"
 
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/wikimediacloud.org-eqiad
