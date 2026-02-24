@@ -123,6 +123,10 @@ wikiversity.org._report._dmarc          1H  IN TXT "v=DMARC1;"
 wikivoyage.org._report._dmarc           1H  IN TXT "v=DMARC1;"
 wiktionary.org._report._dmarc           1H  IN TXT "v=DMARC1;"
 wmfusercontent.org._report._dmarc       1H  IN TXT "v=DMARC1;"
+wikimedia-dns.org._report._dmarc        1H  IN TXT "v=DMARC1;"
+wikimedia-ech.org._report._dmarc        1H  IN TXT "v=DMARC1;"
+wikiworkshop.org._report._dmarc         1H  IN TXT "v=DMARC1;"
+wmftest.org._report._dmarc              1H  IN TXT "v=DMARC1;"
 
 ; Mail records for pr.wikimedia.org
 pr   300 IN MX 10 mx-in1001

@@ -12,11 +12,9 @@
 @           300 IN MX   10  mx-in1001.wikimedia.org.
 @           300 IN MX   10  mx-in2001.wikimedia.org.
 
-; SPF txt and rr records (no email)
+; Email should not be sent from this domain
 @           600 IN TXT  "v=spf1 -all"
-
-; DMARC record
-_dmarc      600 IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc-rua@wikimedia.org;"
+_dmarc      600 IN TXT  "v=DMARC1; p=reject; rua=mailto:dmarc-rua@wikimedia.org;"
 
 ; Canonical names
 @           180 IN DYNA geoip!text-addrs
