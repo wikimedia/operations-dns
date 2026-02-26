@@ -957,6 +957,10 @@ netbox-exports          300 IN CNAME netbox
 pki                     300 IN DYNA geoip!disc-pki
 config-master           300 IN DYNA geoip!disc-config-master
 
+; T418145 temporary CNAME for api-gateway-ro, it doesn't need a separate
+; discovery address or service, but the DNS name needs to exist for multi-dc.lua
+api-gateway-ro          300 IN CNAME api-gateway
+
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-wikikube.
 ; active/active services should CNAME to k8s-ingress-wikikube-ro
