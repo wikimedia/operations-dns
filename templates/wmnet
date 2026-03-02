@@ -616,6 +616,7 @@ data-gateway             1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 chart-renderer           1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 mw-wikifunctions         1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 citoid-ingress           1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+linked-artifacts         1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 
 ; ML
 ores-legacy           1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
@@ -824,6 +825,7 @@ data-gateway             1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 chart-renderer           1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 mw-wikifunctions         1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 citoid-ingress           1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+linked-artifacts         1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-ml-serve.
@@ -977,6 +979,7 @@ chart-renderer           300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 mw-wikifunctions         300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
 mw-wikifunctions-ro      300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 citoid-ingress           300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
+linked-artifacts         300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 
 
 ; Services that run under Kubernetes Ingress are just CNAME
