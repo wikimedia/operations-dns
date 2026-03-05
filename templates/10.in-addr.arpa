@@ -46,7 +46,7 @@ $ORIGIN 1.2.@Z
 ; 38 reserved for druid-public-broker.svc.codfw.wmnet.
 39  1H  IN PTR  ml-ctrl.svc.codfw.wmnet.
 ; 40 reserved for labweb.svc.codfw.wmnet.
-41  1H  IN PTR  wdqs-internal.svc.codfw.wmnet.
+41  1H  IN PTR  sophroid.svc.codfw.wmnet.
 42  1H  IN PTR  eventgate-analytics.svc.codfw.wmnet.
 43  1H  IN PTR  schema.svc.codfw.wmnet.
 44  1H  IN PTR  docker-registry.svc.codfw.wmnet.
@@ -137,7 +137,7 @@ $ORIGIN 2.2.@Z
 38  1H  IN PTR  druid-public-broker.svc.eqiad.wmnet.
 39  1H  IN PTR  ml-ctrl.svc.eqiad.wmnet.
 40  1H  IN PTR  labweb.svc.eqiad.wmnet.
-41  1H  IN PTR  wdqs-internal.svc.eqiad.wmnet.
+41  1H  IN PTR  sophroid.svc.eqiad.wmnet.
 42  1H  IN PTR  eventgate-analytics.svc.eqiad.wmnet.
 43  1H  IN PTR  schema.svc.eqiad.wmnet.
 44  1H  IN PTR  docker-registry.svc.eqiad.wmnet.

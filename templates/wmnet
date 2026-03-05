@@ -545,6 +545,7 @@ recommendation-api 1H IN A      10.2.2.37
 druid-public-broker    1H  IN A     10.2.2.38
 ml-ctrl 1H      IN A    10.2.2.39
 labweb  1H  IN A     10.2.2.40
+sophroid 1H IN A     10.2.2.41
 eventgate-analytics 1H  IN A    10.2.2.42
 schema          1H  IN A    10.2.2.43
 docker-registry 1H  IN A        10.2.2.44
@@ -753,6 +754,7 @@ wdqs-scholarly  1H  IN A        10.2.1.36
 recommendation-api  1H  IN A        10.2.1.37
 ; reserved for druid-public-broker  1H  IN A    10.2.1.38
 ml-ctrl 1H      IN A    10.2.1.39
+sophroid 1H IN A     10.2.1.41
 eventgate-analytics 1H  IN A    10.2.1.42
 schema          1H  IN A        10.2.1.43
 docker-registry 1H  IN A        10.2.1.44
