@@ -943,7 +943,7 @@ k8s-ingress-wikikube-ro 300/10 IN DYNA geoip!disc-k8s-ingress-wikikube-ro
 k8s-ingress-wikikube-rw 300/10 IN DYNA metafo!disc-k8s-ingress-wikikube-rw
 k8s-ingress-ml-staging  300/10 IN DYNA metafo!disc-k8s-ingress-ml-staging
 k8s-ingress-ml-serve    300/10 IN DYNA geoip!disc-k8s-ingress-ml-serve
-k8s-ingress-dse         300/10 IN DYNA geoip!disc-k8s-ingress-dse
+k8s-ingress-dse         300/10 IN DYNA metafo!disc-k8s-ingress-dse
 k8s-ingress-aux-ro      300/10 IN DYNA geoip!disc-k8s-ingress-aux-ro
 k8s-ingress-aux-rw      300/10 IN DYNA metafo!disc-k8s-ingress-aux-rw
 netbox                  300/10 IN DYNA metafo!disc-netbox
@@ -989,10 +989,10 @@ recommendation-api-ng 300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
 ; records to the discovery record of k8s-ingress-dse.
 ; The DSE ingress endpoint does not have any distinction between rw and ro.
 blunderbuss             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-datahub-frontend         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
-datahub-frontend-next    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
-datahub-gms              1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
-datahub-gms-next         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+datahub-frontend        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+datahub-frontend-next   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+datahub-gms             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+datahub-gms-next        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datasets-config         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datasets-config-next    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 echoserver              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
