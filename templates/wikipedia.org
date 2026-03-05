@@ -32,6 +32,10 @@ _dmarc                  600     IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc-rua
 ; VRTS uses the wikipedia.org domain as a From address
 @                       600     IN TXT  "v=spf1 include:_cidrs.wikimedia.org ~all"
 
+; DKIM selector keys
+; VRTS uses the wikipedia.org domain as a From address
+vrts._domainkey         1H      IN TXT  "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwvPAVZVwjTHc/jMuPAMQpeHQnoighNZZxWIsgZEqmrQR8Wv2RWsHCC2W0YAiBwnREgqnbHeQ9/sOmjrlXCvaA8cOYYpCPhErwEeg99DVtEYU/Nbxf3KCGC2n9SiqLUQfw59TJQyLLaq5M5CYR+38kYRiMr2jqJ3oCJ8e69oICONQXTrpWeI//3P3C9QNqf3SWGuDU1MxDPoAp79uKkcvif8v9BkIvTIzky7y98DtKrnT/Rwfnin/ZhFmKnGazvLUQrxlLgmDD/YEMhBk29APblOm9kHSuIX94BBEeuSeImowYfBom/kFHD3NTaxkY9u2vpEW2Fbbo2k59QclLKo0lwIDAQAB"
+
 ; CAA records
 @                       600     IN CAA 0 issue "digicert.com"
 @                       600     IN CAA 0 issue "letsencrypt.org"
