@@ -654,6 +654,7 @@ growthbook-api-next      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow                  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-analytics-product 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-analytics-test   1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+airflow-fr-tech          1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-ml               1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-platform-eng     1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 airflow-research         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
@@ -1014,6 +1015,7 @@ growthbook-api-next     300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-analytics-product 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-analytics-test  300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-fr-tech         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-ml              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-platform-eng    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-research        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
