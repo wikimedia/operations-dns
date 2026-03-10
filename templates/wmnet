@@ -1027,14 +1027,14 @@ airflow-platform-eng    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-research        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-search          300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-sre             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+opensearch-test         300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 airflow-test-k8s        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-wikidata        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-wmde            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-opensearch-test         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-ipoid        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+opensearch-ipoid-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-semantic-search   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-opensearch-semantic-search-test   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-opensearch-ipoid-test   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+opensearch-semantic-search-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 turnilo                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 turnilo-next            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 
