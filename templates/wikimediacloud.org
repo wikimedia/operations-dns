@@ -33,6 +33,10 @@ rabbitmq01 5M  IN CNAME  cloudrabbit2001-dev.private.codfw.wikimedia.cloud.
 rabbitmq02 5M  IN CNAME  cloudrabbit2002-dev.private.codfw.wikimedia.cloud.
 rabbitmq03 5M  IN CNAME  cloudrabbit2003-dev.private.codfw.wikimedia.cloud.
 
+; codfw1dev ldap servers, currently running on cloudservices hosts
+ldap-private-a 5M IN CNAME cloudservices2004-dev.codfw.wmnet.
+ldap-private-b 5M IN CNAME cloudservices2005-dev.codfw.wmnet.
+
 nat.cloudgw         5M  IN A      185.15.57.1
 
 $ORIGIN openstack.codfw1dev.wikimediacloud.org.
