@@ -630,6 +630,7 @@ jaeger-query          1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 os-reports            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 zarcillo              1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 redioscope            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
+wmf-navigator         1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 
 ; dse
 echoserver-dse-k8s-eqiad 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
@@ -1041,6 +1042,7 @@ turnilo-next            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-aux.
 os-reports              300 IN CNAME k8s-ingress-aux-rw.discovery.wmnet.
+wmf-navigator           300 IN CNAME k8s-ingress-aux-rw.discovery.wmnet.
 
 ; misc web services with multiple backends but without geoip
 
