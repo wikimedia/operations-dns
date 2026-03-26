@@ -585,7 +585,6 @@ k8s-ingress-aux 1H  IN A    10.2.2.78
 logs-api        1H  IN A    10.2.2.79
 mw-api-int      1H  IN A    10.2.2.81
 mw-jobrunner    1H  IN A    10.2.2.90
-mw-parsoid      1H  IN A    10.2.2.92
 k8s-ingress-ml-serve 1H  IN A    10.2.2.84
 pybal-low-traffic 1H  IN A    10.2.2.85
 kubestagemaster 1H  IN A    10.2.2.86
@@ -798,7 +797,6 @@ k8s-ingress-aux 1H  IN A    10.2.1.78
 logs-api        1H  IN A    10.2.1.79
 mw-api-int      1H  IN A    10.2.1.81
 mw-jobrunner    1H  IN A    10.2.1.90
-mw-parsoid      1H  IN A    10.2.1.92
 k8s-ingress-ml-staging  1H  IN A    10.2.1.83
 k8s-ingress-ml-serve 1H  IN A    10.2.1.84
 pybal-low-traffic 1H  IN A    10.2.1.85
@@ -930,7 +928,6 @@ mw-api-ext-next-ro 300/10 IN DYNA geoip!disc-mw-api-ext-next-ro
 mw-api-int     300/10 IN DYNA metafo!disc-mw-api-int
 mw-api-int-ro  300/10 IN DYNA geoip!disc-mw-api-int-ro
 mw-jobrunner   300/10 IN DYNA metafo!disc-mw-jobrunner
-mw-parsoid     300/10 IN DYNA metafo!disc-mw-parsoid
 toolhub        300/10 IN DYNA metafo!disc-toolhub
 shellbox-media 300/10 IN DYNA geoip!disc-shellbox-media
 shellbox-syntaxhighlight  300/10 IN DYNA geoip!disc-shellbox-syntaxhighlight
