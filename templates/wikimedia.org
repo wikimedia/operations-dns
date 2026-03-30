@@ -267,6 +267,7 @@ frdev-eqiad                 1H  IN A    208.80.155.14
 frmon-eqiad                 1H  IN A    208.80.155.9
 frmon-codfw                 1H  IN A    208.80.152.235
 frmx1001                    1H  IN A    208.80.155.15
+frmx1002                    1H  IN A    208.80.155.11
 frmx2002                    1H  IN A    208.80.152.228
 
 payments-codfw              1H  IN A    208.80.152.227
