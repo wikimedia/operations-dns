@@ -626,6 +626,10 @@ $ORIGIN 4.65.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/4.65.10.in-addr.arpa
 
+$ORIGIN 5.65.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/5.65.10.in-addr.arpa
+
 $ORIGIN 6.65.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/6.65.10.in-addr.arpa
@@ -686,6 +690,11 @@ $INCLUDE netbox/128.128.10.in-addr.arpa
 $ORIGIN 0.128.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0.128.10.in-addr.arpa
+
+; 10.128.2.0/24 - private1-virtual-ulsfo
+$ORIGIN 2.128.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/2.128.10.in-addr.arpa
 
 ; EQSIN (10.132.0.0/16)
 ; 10.132.0.0/16 - eqsin
@@ -1023,6 +1032,11 @@ $ORIGIN 3.193.@Z
 ;10.193.3.0/24 - mgmt-codfw servers
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/3.193.10.in-addr.arpa
+
+$ORIGIN 4.193.@Z
+;10.193.4.0/24 - mgmt-codfw servers
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/4.193.10.in-addr.arpa
 
 $ORIGIN 0.195.@Z
 ; 10.195.0.0/27 - frack-payments-codfw

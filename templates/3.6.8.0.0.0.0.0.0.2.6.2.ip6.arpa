@@ -26,6 +26,10 @@ $ORIGIN 1.0.1.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/1.0.1.0.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; private1-virtual-ulsfo (2620:0:863:103::/64)
+$ORIGIN 3.0.1.0.@Z
+; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
+$INCLUDE netbox/3.0.1.0.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; ulsfo sandbox subnets (2620:0:863:200::/56)
 
