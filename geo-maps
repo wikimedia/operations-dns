@@ -60,6 +60,7 @@ generic-map => {
             TN => [drmrs, esams, eqiad, codfw, ulsfo, eqsin, magru], # Tunisia (Probenet Data)
             TZ => [drmrs, esams, eqsin, eqiad, codfw, ulsfo, magru], # Tanzania
             UG => [esams, drmrs, eqsin, eqiad, codfw, ulsfo, magru], # Uganda
+            YT => [drmrs, eqsin, esams, eqiad, codfw, ulsfo, magru], # Mayotte
             ZA => [drmrs, esams, eqsin, eqiad, codfw, ulsfo, magru], # South Africa
             ZM => [drmrs, esams, eqsin, eqiad, codfw, ulsfo, magru], # Zambia
             ZW => [drmrs, esams, eqsin, eqiad, codfw, ulsfo, magru], # Zimbabwe
