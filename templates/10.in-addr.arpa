@@ -704,6 +704,10 @@ $ORIGIN 0.132.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0.132.10.in-addr.arpa
 
+; 10.132.2.0/24 - private1-virtual-eqsin
+$ORIGIN 2.132.@Z
+$INCLUDE netbox/2.132.10.in-addr.arpa
+
 ; 10.132.4.0/24 - tunnels
 $ORIGIN 4.132.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox

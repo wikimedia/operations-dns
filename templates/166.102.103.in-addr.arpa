@@ -20,7 +20,11 @@ $INCLUDE netbox/0-28.166.102.103.in-addr.arpa
 $INCLUDE netbox/16-28.166.102.103.in-addr.arpa
 
 ; 103.102.166.32/27 (32-63) - unused
-; 103.102.166.64/26 (64-127) - unused
+; 103.102.166.64/29 (64-71) - unused
+; 103.102.166.72/29 (72-79) - sandbox1-virtual-eqsin
+$INCLUDE netbox/72-29.166.102.103.in-addr.arpa
+; 103.102.166.96/27 (96-127) - public1-virtual-eqsin
+$INCLUDE netbox/96-27.166.102.103.in-addr.arpa
 
 ; 103.102.166.128/27 (128-159) - Infrastructure Space
 ; 103.102.166.128/30 (128-131) - Router's loopbacks
