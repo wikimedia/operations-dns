@@ -202,7 +202,7 @@ _45077a66a799e60855d7546ffdab9847.lp.email 1M IN CNAME _6f10127d42f52c65ff9c62e5
 dyna            180 IN DYNA geoip!text-addrs
 
 dumps           1H  IN CNAME clouddumps1002
-dumps-rsync     1H  IN CNAME clouddumps1002
+dumps-rsync     1H  IN CNAME dumps-lb.eqiad
 
 lists           180 IN DYNA geoip!text-addrs
 lists           1H  IN MX   10 lists1004
