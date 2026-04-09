@@ -1034,7 +1034,7 @@ turnilo-next            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-aux.
-os-reports              300 IN CNAME k8s-ingress-aux-rw.discovery.wmnet.
+os-reports              300 IN CNAME k8s-ingress-aux-ro.discovery.wmnet.
 wmf-navigator           300 IN CNAME k8s-ingress-aux-rw.discovery.wmnet.
 
 ; misc web services with multiple backends but without geoip
