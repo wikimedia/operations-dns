@@ -204,7 +204,7 @@ _45077a66a799e60855d7546ffdab9847.lp.email 1M IN CNAME _6f10127d42f52c65ff9c62e5
 ; May 2025: We reduced this further to 180 seconds from 300 seconds above: T394312.
 dyna            180 IN DYNA geoip!text-addrs
 
-dumps           300 IN CNAME dumps-lb.eqiad
+dumps           1H  IN CNAME dumps-lb.eqiad
 dumps-rsync     1H  IN CNAME dumps-lb.eqiad
 
 lists           180 IN DYNA geoip!text-addrs
