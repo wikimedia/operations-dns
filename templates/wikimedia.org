@@ -33,6 +33,9 @@ ns2         2D  IN AAAA 2a02:ec80:53::1
 ; Figma domain verification, requested in T408003
 @           600 IN TXT  "figma-domain-verification=afd2ee0a37aa0bcf8dfc357d0264a8a0664a703c006e7076a65b3b6fc50957ff-1761151942"
 
+; Miro domain verification, requested in T423199
+@           600 IN TXT  "miro-verification=1a9ff05c8b96053eaea1f94784e1a314480c3a69"
+
 ; SPF txt and rr records
 
 ; ip4:74.121.51.111 - acoustic mass emailer, @fr-tech
