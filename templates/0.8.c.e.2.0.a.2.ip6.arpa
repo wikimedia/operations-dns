@@ -184,6 +184,10 @@ $INCLUDE netbox/8.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 $ORIGIN 9.0.e.f.0.0.6.0.@Z
 $INCLUDE netbox/9.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 
+; cr1-drmrs <-> cr2-eqiad GRE - 2a02:ec80:600:fe0a::/64
+$ORIGIN a.0.e.f.0.0.6.0.@Z
+$INCLUDE netbox/a.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
+
 ; loopbacks - 2a02:ec80:600:ffff::/64
 $ORIGIN f.f.f.f.0.0.6.0.@Z
 $INCLUDE netbox/f.f.f.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
