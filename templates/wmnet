@@ -933,6 +933,7 @@ shellbox-media 300/10 IN DYNA geoip!disc-shellbox-media
 shellbox-syntaxhighlight  300/10 IN DYNA geoip!disc-shellbox-syntaxhighlight
 shellbox-timeline  300/10 IN DYNA geoip!disc-shellbox-timeline
 shellbox-video     300/10 IN DYNA geoip!disc-shellbox-video
+sophroid           300/10 IN DYNA metafo!disc-sophroid
 tegola-vector-tiles  300/10 IN DYNA geoip!disc-tegola-vector-tiles
 puppetboard           300/10 IN DYNA geoip!disc-puppetboard
 inference       300/10 IN DYNA geoip!disc-inference
