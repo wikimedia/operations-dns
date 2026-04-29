@@ -36,6 +36,9 @@ ns2         2D  IN AAAA 2a02:ec80:53::1
 ; Miro domain verification, requested in T423199
 @           600 IN TXT  "miro-verification=1a9ff05c8b96053eaea1f94784e1a314480c3a69"
 
+; Claude domain verification, requested in T424785
+@           600 IN TXT "anthropic-domain-verification-z6vpt9=CE88h7BM9YIEWPANKyqcmzsYm"
+
 ; SPF txt and rr records
 
 ; ip4:74.121.51.111 - acoustic mass emailer, @fr-tech
