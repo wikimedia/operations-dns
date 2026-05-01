@@ -672,6 +672,12 @@ opensearch-ipoid-test    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-semantic-search    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-semantic-search-test    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-test          1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+opensearch-toolhub       1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+opensearch-toolhub-test  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+opensearch-apifeatureusage      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+opensearch-apifeatureusage-test 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+opensearch-ttmserver      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+opensearch-ttmserver-test 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 turnilo                  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 turnilo-next             1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 ; K8S EQIAD STAGING SERVICES
@@ -856,6 +862,13 @@ opensearch-ipoid-test    1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 opensearch-semantic-search    1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 opensearch-semantic-search-test    1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 opensearch-test          1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+opensearch-toolhub       1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+opensearch-toolhub-test  1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+opensearch-apifeatureusage      1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+opensearch-apifeatureusage-test 1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+opensearch-ttmserver      1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+opensearch-ttmserver-test 1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+
 ; K8S CODFW STAGING SERVICES
 
 staging         1H  IN CNAME    kubestage2001.codfw.wmnet.
@@ -1040,6 +1053,12 @@ opensearch-ipoid-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-semantic-search   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-semantic-search-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-test         300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
+opensearch-toolhub      300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
+opensearch-toolhub-test 300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
+opensearch-apifeatureusage      300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
+opensearch-apifeatureusage-test 300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
+opensearch-ttmserver    300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
+opensearch-ttmserver-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 turnilo                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 turnilo-next            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 
