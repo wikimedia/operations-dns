@@ -1089,8 +1089,6 @@ jenkins                300 IN CNAME contint1003.wikimedia.org.
 ;jenkins                300 IN CNAME contint2003.wikimedia.org.
 lists                  300 IN CNAME lists1004.wikimedia.org.
 ;lists                  300 IN CNAME lists2001.wikimedia.org.
-;mwmaint               300 IN CNAME mwmaint1002.eqiad.wmnet.
-mwmaint               300 IN CNAME mwmaint2002.codfw.wmnet.
 ;peopleweb             300 IN CNAME people1005.eqiad.wmnet.
 peopleweb             300 IN CNAME people2004.codfw.wmnet.
 performance           300 IN CNAME webperf1003.eqiad.wmnet.
