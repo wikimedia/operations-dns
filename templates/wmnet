@@ -1079,6 +1079,9 @@ doc                   300 IN CNAME doc2003.codfw.wmnet.
 gerrit                300 IN CNAME gerrit2003.wikimedia.org.
 gerrit-replica        300 IN CNAME gerrit1003.wikimedia.org.
 gerrit-spare          300 IN CNAME gerrit2002.wikimedia.org.
+gitlab                300 IN CNAME gitlab1004.wikimedia.org.
+gitlab-replica-a      300 IN CNAME gitlab1003.wikimedia.org.
+gitlab-replica-b      300 IN CNAME gitlab2002.wikimedia.org.
 grafana                300 IN CNAME grafana1002.eqiad.wmnet.
 ;grafana                300 IN CNAME grafana2001.codfw.wmnet.
 ;grafana-next           300 IN CNAME grafana1002.eqiad.wmnet.
