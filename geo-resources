@@ -77,3 +77,19 @@ gerrit-addrs => {
         ref   => %reflect!dns
     }
 }
+
+gitlab-addrs => {
+    map => generic-map
+    service_types => up
+    dcmap => {
+        eqiad => { addrs_v4 => 208.80.154.227,  addrs_v6 => 2620:0:861:ed1a::3 }
+        codfw => { addrs_v4 => 208.80.153.227,  addrs_v6 => 2620:0:860:ed1a::3 }
+        esams => { addrs_v4 => 185.15.59.228,   addrs_v6 => 2a02:ec80:300:ed1a::4 }
+        ulsfo => { addrs_v4 => 198.35.26.227,   addrs_v6 => 2620:0:863:ed1a::4 }
+        eqsin => { addrs_v4 => 103.102.166.228, addrs_v6 => 2001:df2:e500:ed1a::4 }
+        drmrs => { addrs_v4 => 185.15.58.228,   addrs_v6 => 2a02:ec80:600:ed1a::4 }
+        magru => { addrs_v4 => 195.200.68.228,  addrs_v6 => 2a02:ec80:700:ed1a::4 }
+        bh    => { addrs_v4 => 127.0.0.1,       addrs_v6 => ::1 }
+        ref   => %reflect!dns
+    }
+}
