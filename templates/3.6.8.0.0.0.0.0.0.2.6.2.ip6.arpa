@@ -10,10 +10,13 @@
 
 ; ulsfo public subnets (2620:0:863:0::/56)
 
-; public1-ulsfo (2620:0:863:1::/64)
+; public1-22-ulsfo (2620:0:863:1::/64)
 $ORIGIN 1.0.0.0.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/1.0.0.0.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; public1-23-ulsfo (2620:0:863:2::/64)
+$ORIGIN 2.0.0.0.@Z
+$INCLUDE netbox/2.0.0.0.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; public1-virtual-ulsfo (2620:0:863:3::/64)
 $ORIGIN 3.0.0.0.@Z
@@ -60,16 +63,12 @@ $ORIGIN 4.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/4.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; cr3-ulsfo <--> mr1-ulsfo (2620:0:863:fe05::/64)
-
+; asw1-22-ulsfo <--> mr1-ulsfo (2620:0:863:fe05::/64)
 $ORIGIN 5.0.e.f.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/5.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; cr4-ulsfo <--> mr1-ulsfo (2620:0:863:fe06::/64)
-
+; asw1-23-ulsfo <--> mr1-ulsfo (2620:0:863:fe06::/64)
 $ORIGIN 6.0.e.f.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/6.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; cr4-ulsfo <--> cr1-codfw (2620:0:863:fe07::/64)

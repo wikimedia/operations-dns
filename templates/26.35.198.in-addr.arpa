@@ -11,8 +11,11 @@
 ; 198.35.26.0/24 (198.35.26.0 - 198.35.26.255)
 ; West Coast Discrete network
 
-; 198.35.26.0/28 (0-15) - public1-ulsfo
-$INCLUDE netbox/0-28.26.35.198.in-addr.arpa
+; 198.35.26.0/27 - public1-22-ulsfo
+$INCLUDE netbox/0-27.26.35.198.in-addr.arpa
+
+; 198.35.26.32/27 - public1-23-ulsfo
+$INCLUDE netbox/32-27.26.35.198.in-addr.arpa
 
 ; 198.35.26.96/27 (96-127) - LVS Service IPs
 $INCLUDE netbox/96-27.26.35.198.in-addr.arpa
