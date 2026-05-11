@@ -621,6 +621,7 @@ chart-renderer           1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 mw-wikifunctions         1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 citoid-ingress           1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 linked-artifacts         1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+ratelimit-media          1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 
 ; ML
 ores-legacy           1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
@@ -838,6 +839,7 @@ chart-renderer           1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 mw-wikifunctions         1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 citoid-ingress           1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 linked-artifacts         1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+ratelimit-media          1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-ml-serve.
