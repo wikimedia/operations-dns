@@ -288,7 +288,7 @@ payments-listener-eqiad     1H  IN A    208.80.155.19
 
 analytics-codfw.frdev       1D  IN CNAME    analytics-codfw
 analytics-eqiad.frdev       1D  IN CNAME    analytics-eqiad
-analytics.frdev             1H  IN CNAME    analytics-codfw.frdev
+analytics.frdev             1H  IN CNAME    analytics-eqiad.frdev
 civi                        1H  IN CNAME    civicrm-eqiad
 civi.frdev                  1H  IN CNAME    frdev-eqiad
 civicrm.frdev               1H  IN CNAME    frdev-eqiad
@@ -299,12 +299,12 @@ frbast                      1H  IN CNAME    frbast-eqiad
 frdata                      1H  IN CNAME    frdata-eqiad
 frmon                       1H  IN CNAME    frmon-eqiad
 frmon.frdev                 1H  IN CNAME    frmon-eqiad
-metabase.frdev              1H  IN CNAME    analytics-codfw.frdev
+metabase.frdev              1H  IN CNAME    analytics-eqiad.frdev
 payments                    5M  IN CNAME    payments-eqiad
 payments-listener           5M  IN CNAME    payments-listener-eqiad
 payments-listener.frdev     1H  IN CNAME    frdev-eqiad
 reports.frdev               1H  IN CNAME    frdev-eqiad
-superset.frdev              1H  IN CNAME    analytics-codfw.frdev
+superset.frdev              1H  IN CNAME    analytics-eqiad.frdev
 
 civicrm                     300 IN MX   10 mx-in1001
 civicrm                     300 IN MX   10 mx-in2001
