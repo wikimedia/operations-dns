@@ -113,7 +113,13 @@ $ORIGIN 9.0.e.f.0.0.3.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/9.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
 
-; Next unused (2a02:ec80:300:fe0a::/64)
+; Vlan 341 - core1-bw27-esams - 2a02:ec80:300:ff01::/64
+$ORIGIN 1.0.f.f.0.0.3.0.@Z
+$INCLUDE netbox/1.0.f.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; Vlan 342 - core1-by27-esams - 2a02:ec80:300:ff02::/64
+$ORIGIN 2.0.f.f.0.0.3.0.@Z
+$INCLUDE netbox/2.0.f.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
 
 ; esams_new_loopback6 (2a02:ec80:300:ffff::/64)
 $ORIGIN f.f.f.f.0.0.3.0.@Z
@@ -187,6 +193,14 @@ $INCLUDE netbox/9.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 ; cr1-drmrs <-> cr2-eqiad GRE - 2a02:ec80:600:fe0a::/64
 $ORIGIN a.0.e.f.0.0.6.0.@Z
 $INCLUDE netbox/a.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; Vlan 641 - core1-b12-drmrs - 2a02:ec80:600:ff01::/64
+$ORIGIN 1.0.f.f.0.0.6.0.@Z
+$INCLUDE netbox/1.0.f.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; Vlan 642 - core1-b13-drmrs - 2a02:ec80:600:ff02::/64
+$ORIGIN 2.0.f.f.0.0.6.0.@Z
+$INCLUDE netbox/2.0.f.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 
 ; loopbacks - 2a02:ec80:600:ffff::/64
 $ORIGIN f.f.f.f.0.0.6.0.@Z
@@ -263,6 +277,14 @@ $INCLUDE netbox/a.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
 ; cr2-magru <-> cr2-eqdfw (2a02:ec80:700:fe0b::/64)
 $ORIGIN b.0.e.f.0.0.7.0.@Z
 $INCLUDE netbox/b.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; Vlan 741 - core1-b3-magru - 2a02:ec80:700:ff01::/64
+$ORIGIN 1.0.f.f.0.0.7.0.@Z
+$INCLUDE netbox/1.0.f.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; Vlan 742 - core1-b4-magru - 2a02:ec80:700:ff02::/64
+$ORIGIN 2.0.f.f.0.0.7.0.@Z
+$INCLUDE netbox/2.0.f.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
 
 ; Magru network loopbacks (2a02:ec80:700:ffff::/64)
 $ORIGIN f.f.f.f.0.0.7.0.@Z
