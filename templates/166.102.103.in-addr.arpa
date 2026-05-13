@@ -33,6 +33,7 @@ $INCLUDE netbox/96-27.166.102.103.in-addr.arpa
 ; 103.102.166.144/31  -- SingTel peering
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/128-27.166.102.103.in-addr.arpa
+$INCLUDE netbox/160-28.166.102.103.in-addr.arpa
 
 ; 103.102.166.160/27 (160-191) - unused
 ; 103.102.166.192/27 (192-223) - unused

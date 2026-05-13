@@ -26,6 +26,9 @@ $INCLUDE netbox/128-27.26.35.198.in-addr.arpa
 ; 198.35.26.128/29 - Network loopbacks sub-network
 $INCLUDE netbox/128-29.26.35.198.in-addr.arpa
 
+; 198.35.26.160/28 - Network loopbacks ibgp
+$INCLUDE netbox/160-28.26.35.198.in-addr.arpa
+
 ; 198.35.26.192/27 - Legacy loopbacks - to be decom'd 2026 see T408892
 $INCLUDE netbox/192-27.26.35.198.in-addr.arpa
 
