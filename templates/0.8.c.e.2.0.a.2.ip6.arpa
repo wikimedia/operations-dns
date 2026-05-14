@@ -98,11 +98,6 @@ $ORIGIN 6.0.e.f.0.0.3.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/6.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
 
-; cr1-esams <-> cr2-esams (2a02:ec80:300:fe07::/64)
-$ORIGIN 7.0.e.f.0.0.3.0.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/7.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
-
 ; cr2-esams <-> asw1-by27-esams (2a02:ec80:300:fe08::/64)
 $ORIGIN 8.0.e.f.0.0.3.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -169,10 +164,6 @@ $INCLUDE netbox/3.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 ; cr2-drmrs<->cr1-eqiad - 2a02:ec80:600:fe04::/64
 $ORIGIN 4.0.e.f.0.0.6.0.@Z
 $INCLUDE netbox/4.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
-
-; cr1-drmrs<->cr2-drmrs - 2a02:ec80:600:fe05::/64
-$ORIGIN 5.0.e.f.0.0.6.0.@Z
-$INCLUDE netbox/5.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 
 ; cr1-drmrs<->asw1-b12-drmrs - 2a02:ec80:600:fe06::/64
 $ORIGIN 6.0.e.f.0.0.6.0.@Z
@@ -241,10 +232,6 @@ $INCLUDE netbox/1.0.2.0.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
 ; magru lvs vips (2a02:ec80:700:ed1a::/64)
 $ORIGIN a.1.d.e.0.0.7.0.@Z
 $INCLUDE netbox/a.1.d.e.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
-
-; cr1-magru <-> cr2-magru (2a02:ec80:700:fe01::/64)
-$ORIGIN 1.0.e.f.0.0.7.0.@Z
-$INCLUDE netbox/1.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
 
 ; mr1-magru <-> asw1-b3-magru (2a02:ec80:700:fe02::/64)
 $ORIGIN 2.0.e.f.0.0.7.0.@Z
