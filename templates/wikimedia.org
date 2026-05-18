@@ -46,6 +46,8 @@ ns2         2D  IN AAAA 2a02:ec80:53::1
 @               600 IN TXT  "FC0MOB7SKLHj0AsevTnJvE0W0YYQkPVYOX3UMrINOSk="
 @               600 IN TXT  "MS=ms70322281"
 @               600 IN TXT  "yahoo-verification-key=tiU1x5OT7PmpcbQzS7N5PxKzC+BYkl+9tZYh38G5vDk=" ; T370963
+; SRE Yahoo sender hub account verification, T426105
+@               600 IN TXT  "yahoo-verification-key=T1DJYEhWmP/77/L8hoYga1/rQOIxWBSHYKLnVd7ZiVA="
 @               600 IN TXT  "jamf-site-verification=NxGVeSleTFBLZiknd4D94A"
 
 ; SPF records for DSN, null sender: <>, emails from MXs
