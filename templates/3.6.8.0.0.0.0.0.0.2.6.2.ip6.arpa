@@ -37,9 +37,7 @@ $INCLUDE netbox/3.0.1.0.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
 ; Infrastructure IPs
 
-; cr3-ulsfo <--> cr4-ulsfo - 2620:0:863:fe00::/64
-$ORIGIN 0.0.e.f.@Z
-$INCLUDE netbox/0.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+; unused - 2620:0:863:fe00::/64
 
 ; cr2-eqsin <-> cr4-ulsfo - 2620:0:863:fe01::/64
 $ORIGIN 1.0.e.f.@Z
@@ -69,9 +67,7 @@ $INCLUDE netbox/6.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 7.0.e.f.@Z
 $INCLUDE netbox/7.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; cr3-ulsfo <--> cr4-ulsfo #2 - 2620:0:863:fe08::/64
-$ORIGIN 8.0.e.f.@Z
-$INCLUDE netbox/8.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+; unused - 2620:0:863:fe08::/64
 
 ; cr3-ulsfo <-> asw1-23-ulsfo - 2620:0:863:fe09::/64
 $ORIGIN 9.0.e.f.@Z
