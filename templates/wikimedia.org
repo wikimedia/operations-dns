@@ -657,6 +657,8 @@ security        1D IN CNAME dyna.wikimedia.org.
 
 stream          1D IN CNAME dyna.wikimedia.org.
 
+stream-internal 1D IN CNAME dyna.wikimedia.org.
+
 svn             1D IN CNAME dyna.wikimedia.org.
 
 tendril         1D IN CNAME dyna.wikimedia.org.

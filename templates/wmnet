@@ -541,7 +541,6 @@ search-psi  1H  IN CNAME    search.svc.eqiad.wmnet.
 search-omega 1H  IN CNAME   search.svc.eqiad.wmnet.
 wdqs-main   1H  IN A        10.2.2.33
 eventstreams 1H  IN A       10.2.2.34
-eventstreams-internal 1H  IN A       10.2.2.35
 wdqs-scholarly 1H  IN A        10.2.2.36
 recommendation-api 1H IN A      10.2.2.37
 druid-public-broker    1H  IN A     10.2.2.38
@@ -682,6 +681,7 @@ opensearch-ttmserver      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-ttmserver-test 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 turnilo                  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 turnilo-next             1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+eventstreams-internal    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 ; K8S EQIAD STAGING SERVICES
 
 staging         1H  IN CNAME    kubestage1003.eqiad.wmnet.
@@ -760,7 +760,6 @@ search-psi      1H  IN CNAME    search.svc.codfw.wmnet.
 search-omega    1H  IN CNAME    search.svc.codfw.wmnet.
 wdqs-main       1H  IN A        10.2.1.33
 eventstreams    1H  IN A        10.2.1.34
-eventstreams-internal 1H  IN A       10.2.1.35
 wdqs-scholarly  1H  IN A        10.2.1.36
 recommendation-api  1H  IN A        10.2.1.37
 ; reserved for druid-public-broker  1H  IN A    10.2.1.38
@@ -903,7 +902,6 @@ apus           300/10 IN DYNA geoip!disc-apus
 citoid         300/10 IN DYNA geoip!disc-citoid
 cxserver       300/10 IN DYNA geoip!disc-cxserver
 eventstreams   300/10 IN DYNA geoip!disc-eventstreams
-eventstreams-internal   300/10 IN DYNA geoip!disc-eventstreams-internal
 
 kartotherian   300/10 IN DYNA geoip!disc-kartotherian
 mathoid        300/10 IN DYNA geoip!disc-mathoid
@@ -1064,6 +1062,7 @@ opensearch-ttmserver    300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-ttmserver-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 turnilo                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 turnilo-next            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+eventstreams-internal   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-aux.
