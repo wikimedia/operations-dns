@@ -385,7 +385,7 @@ generic-map => {
         # in codfw+eqiad.
         # TODO: in the future, automate this and maybe other important cases
         # START-META-AUTO
-        # The geofeed above was pulled on 2026-05-19 and has sha256sum:
+        # The geofeed above was pulled on 2026-06-02 and has sha256sum:
         # 259436c14a98f1f9496620f20c8d136044b70afaa799146567ee7f6eb457be3a
         31.13.64.0/24        => [ eqsin, drmrs, esams, eqiad, codfw, ulsfo, magru ], # Meta/FB IN-WB
         31.13.66.0/24        => [ eqiad, codfw, ulsfo, esams, drmrs, magru, eqsin ], # Meta/FB US-VA
@@ -465,6 +465,8 @@ generic-map => {
         57.144.86.0/23       => [ eqsin, drmrs, esams, eqiad, codfw, ulsfo, magru ], # Meta/FB IN-WB
         57.144.88.0/23       => [ magru, eqiad, codfw, ulsfo, esams, drmrs, eqsin ], # Meta/FB BR-SP
         57.144.90.0/23       => [ eqsin, drmrs, esams, eqiad, codfw, ulsfo, magru ], # Meta/FB IN-UP
+        57.144.92.0/23       => [ eqsin, ulsfo, codfw, eqiad, esams, drmrs, magru ], # Meta/FB TW
+        57.144.94.0/23       => [ eqiad, codfw, ulsfo, esams, drmrs, magru, eqsin ], # Meta/FB US-VA
         57.144.100.0/23      => [ eqsin, ulsfo, codfw, eqiad, drmrs, esams, magru ], # Meta/FB ID
         57.144.104.0/23      => [ codfw, ulsfo, eqiad, esams, drmrs, magru, eqsin ], # Meta/FB US-CO
         57.144.108.0/23      => [ codfw, eqiad, ulsfo, esams, drmrs, magru, eqsin ], # Meta/FB US-CA
@@ -977,6 +979,8 @@ generic-map => {
         2a03:2880:f322::/48  => [ eqsin, drmrs, esams, eqiad, codfw, ulsfo, magru ], # Meta/FB IN-WB
         2a03:2880:f323::/48  => [ magru, eqiad, codfw, ulsfo, esams, drmrs, eqsin ], # Meta/FB BR-SP
         2a03:2880:f324::/48  => [ eqsin, drmrs, esams, eqiad, codfw, ulsfo, magru ], # Meta/FB IN-UP
+        2a03:2880:f325::/48  => [ eqsin, ulsfo, codfw, eqiad, esams, drmrs, magru ], # Meta/FB TW
+        2a03:2880:f326::/48  => [ eqiad, codfw, ulsfo, esams, drmrs, magru, eqsin ], # Meta/FB US-VA
         2a03:2880:f329::/48  => [ eqsin, ulsfo, codfw, eqiad, drmrs, esams, magru ], # Meta/FB ID
         2a03:2880:f32b::/48  => [ codfw, ulsfo, eqiad, esams, drmrs, magru, eqsin ], # Meta/FB US-CO
         2a03:2880:f32d::/48  => [ codfw, eqiad, ulsfo, esams, drmrs, magru, eqsin ], # Meta/FB US-CA
