@@ -20,7 +20,6 @@ _dmarc      600 IN TXT  "v=DMARC1; p=reject; rua=mailto:dmarc-rua@wikimedia.org;
 @           180 IN DYNA geoip!text-addrs
 
 ; CAA records
-@           600 IN CAA 0 issue "digicert.com"
 @           600 IN CAA 0 issue "letsencrypt.org"
 @           600 IN CAA 0 issue "pki.goog"
 @           600 IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
