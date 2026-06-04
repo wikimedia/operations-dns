@@ -72,11 +72,6 @@ $ORIGIN 4.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/4.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
 
-; 2001:df2:e500:fe05::/64 -  cr3-eqsin <--> cr2-eqsin
-$ORIGIN 5.0.e.f.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/5.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
-
 ; 2001:df2:e500:fe06::/64 - SingTel peering
 $ORIGIN 6.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
