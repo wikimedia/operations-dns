@@ -624,8 +624,9 @@ linked-artifacts         1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 ratelimit-media          1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 
 ; ML
-ores-legacy           1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
-recommendation-api-ng 1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
+ores-legacy             1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
+recommendation-api-ng   1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
+liftwing-openapi-server 1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
 
 ; aux
 codesearch            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
@@ -845,8 +846,9 @@ ratelimit-media          1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-ml-serve.
-ores-legacy           1H  IN CNAME    k8s-ingress-ml-serve.svc.codfw.wmnet.
-recommendation-api-ng 1H  IN CNAME    k8s-ingress-ml-serve.svc.codfw.wmnet.
+ores-legacy             1H  IN CNAME    k8s-ingress-ml-serve.svc.codfw.wmnet.
+recommendation-api-ng   1H  IN CNAME    k8s-ingress-ml-serve.svc.codfw.wmnet.
+liftwing-openapi-server 1H  IN CNAME    k8s-ingress-ml-serve.svc.codfw.wmnet.
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-aux.
@@ -1014,8 +1016,9 @@ linked-artifacts         300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-ml-serve.
 ; The ML ingress endpoint does not have any distinction between rw and ro.
-ores-legacy           300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
-recommendation-api-ng 300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
+ores-legacy             300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
+recommendation-api-ng   300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
+liftwing-openapi-server 300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-dse.
