@@ -633,6 +633,7 @@ codesearch            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-collector-http 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-collector-grpc 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-query          1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
+kafka-ui              1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 os-reports            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 zarcillo              1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 redioscope            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
@@ -683,7 +684,6 @@ opensearch-ttmserver-test 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 turnilo                  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 turnilo-next             1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 eventstreams-internal    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
-kafka-ui                 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 
 ; K8S EQIAD STAGING SERVICES
 
@@ -856,6 +856,7 @@ codesearch               1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 jaeger-collector-http    1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 jaeger-collector-grpc    1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 jaeger-query             1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
+kafka-ui                 1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 os-reports               1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 zarcillo                 1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 redioscope               1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
@@ -874,7 +875,6 @@ opensearch-apifeatureusage      1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 opensearch-apifeatureusage-test 1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 opensearch-ttmserver      1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 opensearch-ttmserver-test 1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
-kafka-ui                 1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 
 ; K8S CODFW STAGING SERVICES
 
@@ -1069,10 +1069,10 @@ opensearch-ttmserver-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 turnilo                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 turnilo-next            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 eventstreams-internal   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-kafka-ui                300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-aux.
+kafka-ui                300 IN CNAME k8s-ingress-aux-ro.discovery.wmnet.
 os-reports              300 IN CNAME k8s-ingress-aux-ro.discovery.wmnet.
 wmf-navigator           300 IN CNAME k8s-ingress-aux-rw.discovery.wmnet.
 
