@@ -232,6 +232,7 @@ text-lb     1D IN CNAME dyna.wikimedia.org.
 ncredir-lb  180 IN DYNA geoip!ncredir-addrs
 ; February 2024: We reduced this to 300 seconds from the earlier 600 seconds: T140365#9509590
 upload      180 IN DYNA geoip!upload-addrs
+thumb       1D IN CNAME dyna.wikimedia.org.
 maps        600 IN CNAME upload.wikimedia.org.
 m           1D IN CNAME dyna.wikimedia.org.
 donate      180 IN DYNA geoip!text-addrs
