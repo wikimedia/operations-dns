@@ -684,6 +684,14 @@ opensearch-ttmserver-test 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 turnilo                  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 turnilo-next             1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 eventstreams-internal    1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+wdqs2-main-internal      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+wdqs2-scholarly-internal 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+wdqs2-main-external      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+wdqs2-scholarly-external 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+wdqs2-next-main-internal      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+wdqs2-next-scholarly-internal 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+wdqs2-next-main-external      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+wdqs2-next-scholarly-external 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 
 ; K8S EQIAD STAGING SERVICES
 
@@ -875,6 +883,14 @@ opensearch-apifeatureusage      1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 opensearch-apifeatureusage-test 1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 opensearch-ttmserver      1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 opensearch-ttmserver-test 1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+wdqs2-main-internal       1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+wdqs2-scholarly-internal  1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+wdqs2-main-external       1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+wdqs2-scholarly-external  1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+wdqs2-next-main-internal       1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+wdqs2-next-scholarly-internal  1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+wdqs2-next-main-external       1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
+wdqs2-next-scholarly-external  1H  IN CNAME    k8s-ingress-dse.svc.codfw.wmnet.
 
 ; K8S CODFW STAGING SERVICES
 
