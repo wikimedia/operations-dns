@@ -17,8 +17,8 @@
 @           1H  IN MX   10 inbound-smtp.us-east-1.amazonaws.com.
 
 ; apex A record (https://phabricator.wikimedia.org/T342509)
-@           1H  IN A    15.197.134.113
-@           1H  IN A    3.33.143.48
+@           1H  IN A    166.117.77.114
+@           1H  IN A    76.223.6.7
 
 
 ; TXT records
@@ -48,19 +48,13 @@ forum.dev   1H  IN A    18.232.249.41
 stage           1H  IN CNAME    wkm-maple-stage-alb-202853407.us-east-1.elb.amazonaws.com.
 studio.stage    1H  IN CNAME    wkm-maple-stage-alb-202853407.us-east-1.elb.amazonaws.com.
 preview.stage   1H  IN CNAME    wkm-maple-stage-alb-202853407.us-east-1.elb.amazonaws.com.
-; https://phabricator.wikimedia.org/T290974
-; Updates in https://phabricator.wikimedia.org/T342509
-studio          1H  IN CNAME    wkm-maple-prod-alb-1914255829.us-east-1.elb.amazonaws.com.
-preview         1H  IN CNAME    wkm-maple-prod-alb-1914255829.us-east-1.elb.amazonaws.com.
+
 ; https://phabricator.wikimedia.org/T292537
 ; Updates in https://phabricator.wikimedia.org/T342509
-forum           1H  IN CNAME    wkm-maple-prod-alb-1914255829.us-east-1.elb.amazonaws.com.
 forum.stage     1H  IN CNAME    wkm-maple-stage-alb-202853407.us-east-1.elb.amazonaws.com.
 
 ; https://phabricator.wikimedia.org/T339942
 app.stage       1H  IN CNAME    wkm-maple-stage-alb-202853407.us-east-1.elb.amazonaws.com.
-; https://phabricator.wikimedia.org/T342509
-app             1H  IN CNAME    wkm-maple-prod-alb-1914255829.us-east-1.elb.amazonaws.com.
 
 
 ; CA validation
