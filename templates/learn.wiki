@@ -57,7 +57,10 @@ forum.stage     1H  IN CNAME    wkm-maple-stage-alb-202853407.us-east-1.elb.amaz
 app.stage       1H  IN CNAME    wkm-maple-stage-alb-202853407.us-east-1.elb.amazonaws.com.
 
 ; https://phabricator.wikimedia.org/T429628
-*               1H  IN CNAME    a40059d1ee67a3468.awsglobalaccelerator.com.
+apps            1H  IN CNAME    a40059d1ee67a3468.awsglobalaccelerator.com.
+credentials     1H  IN CNAME    a40059d1ee67a3468.awsglobalaccelerator.com.
+discovery       1H  IN CNAME    a40059d1ee67a3468.awsglobalaccelerator.com.
+studio          1H  IN CNAME    a40059d1ee67a3468.awsglobalaccelerator.com.
 
 ; CA validation
 ; https://phabricator.wikimedia.org/T290025
