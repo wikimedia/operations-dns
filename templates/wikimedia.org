@@ -211,6 +211,7 @@ dyna            180 IN DYNA geoip!text-addrs
 
 dumps           1H  IN CNAME dumps-lb.eqiad
 dumps-rsync     1H  IN CNAME dumps-lb.eqiad
+dumps-nfs       1H  IN CNAME dumps-nfs-lb.eqiad
 
 lists           180 IN DYNA geoip!text-addrs
 lists           1H  IN MX   10 lists1004
