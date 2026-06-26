@@ -25,6 +25,7 @@ $INCLUDE netbox/72-29.59.15.185.in-addr.arpa
 $INCLUDE netbox/96-27.59.15.185.in-addr.arpa
 
 ; Loopbacks & interconnects
+$INCLUDE netbox/128-29.59.15.185.in-addr.arpa
 $INCLUDE netbox/128-27.59.15.185.in-addr.arpa
 ; Loopbacks & interconnects - CR ibgp
 $INCLUDE netbox/160-28.59.15.185.in-addr.arpa

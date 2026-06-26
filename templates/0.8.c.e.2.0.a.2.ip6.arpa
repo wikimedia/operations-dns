@@ -108,6 +108,22 @@ $ORIGIN 9.0.e.f.0.0.3.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/9.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
 
+; cr1-esams <-> cr1-eqiad (HE) - 2a02:ec80:300:fe0a::/64
+$ORIGIN a.0.e.f.0.0.3.0.@Z
+$INCLUDE netbox/a.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr1-esams <-> cr1-codfw (HE) - 2a02:ec80:300:fe0b::/64
+$ORIGIN b.0.e.f.0.0.3.0.@Z
+$INCLUDE netbox/b.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr2-esams <-> cr2-eqiad (Arelion) - 2a02:ec80:300:fe0c::/64
+$ORIGIN c.0.e.f.0.0.3.0.@Z
+$INCLUDE netbox/c.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr2-esams <-> cr2-codfw (Arelion) - 2a02:ec80:300:fe0d::/64
+$ORIGIN d.0.e.f.0.0.3.0.@Z
+$INCLUDE netbox/d.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
+
 ; Vlan 341 - core1-bw27-esams - 2a02:ec80:300:ff01::/64
 $ORIGIN 1.0.f.f.0.0.3.0.@Z
 $INCLUDE netbox/1.0.f.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
