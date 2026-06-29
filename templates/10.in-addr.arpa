@@ -556,6 +556,10 @@ $INCLUDE netbox/189.64.10.in-addr.arpa
 $ORIGIN 190.64.@Z
 $INCLUDE netbox/190.64.10.in-addr.arpa
 
+; 10.64.223.0/24 - private1-d8test-eqiad
+$ORIGIN 223.64.@Z
+$INCLUDE netbox/223.64.10.in-addr.arpa
+
 $ORIGIN 40.64.@Z
 ; 10.64.40.0/27 - frack-payments1-c-eqiad
 $INCLUDE netbox/0-27.40.64.10.in-addr.arpa
