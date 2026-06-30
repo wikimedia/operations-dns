@@ -201,6 +201,22 @@ $INCLUDE netbox/9.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 $ORIGIN a.0.e.f.0.0.6.0.@Z
 $INCLUDE netbox/a.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 
+; cr1-drmrs <-> cr1-eqiad (HE) - 2a02:ec80:600:fe0b::/64
+$ORIGIN b.0.e.f.0.0.6.0.@Z
+$INCLUDE netbox/b.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr1-drmrs <-> cr1-codfw (HE) - 2a02:ec80:600:fe0c::/64
+$ORIGIN c.0.e.f.0.0.6.0.@Z
+$INCLUDE netbox/c.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr2-drmrs <-> cr2-eqiad (Arelion) - 2a02:ec80:600:fe0d::/64
+$ORIGIN d.0.e.f.0.0.6.0.@Z
+$INCLUDE netbox/d.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr2-drmrs <-> cr2-codfw (Arelion) - 2a02:ec80:600:fe0e::/64
+$ORIGIN e.0.e.f.0.0.6.0.@Z
+$INCLUDE netbox/e.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
+
 ; Vlan 641 - core1-b12-drmrs - 2a02:ec80:600:ff01::/64
 $ORIGIN 1.0.f.f.0.0.6.0.@Z
 $INCLUDE netbox/1.0.f.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
