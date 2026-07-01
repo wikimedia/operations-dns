@@ -297,6 +297,14 @@ $INCLUDE netbox/a.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
 $ORIGIN b.0.e.f.0.0.7.0.@Z
 $INCLUDE netbox/b.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
 
+; cr1-magru <-> cr1-eqiad (HE) - 2a02:ec80:700:fe0c::/64
+$ORIGIN c.0.e.f.0.0.7.0.@Z
+$INCLUDE netbox/c.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
+; cr1-magru <-> cr1-codfw (HE) - 2a02:ec80:700:fe0d::/64
+$ORIGIN d.0.e.f.0.0.7.0.@Z
+$INCLUDE netbox/d.0.e.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
+
 ; Vlan 741 - core1-b3-magru - 2a02:ec80:700:ff01::/64
 $ORIGIN 1.0.f.f.0.0.7.0.@Z
 $INCLUDE netbox/1.0.f.f.0.0.7.0.0.8.c.e.2.0.a.2.ip6.arpa
