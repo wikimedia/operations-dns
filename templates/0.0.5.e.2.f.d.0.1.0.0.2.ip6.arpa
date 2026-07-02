@@ -77,6 +77,22 @@ $ORIGIN 6.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/6.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
 
+; cr2-eqsin <-> cr1-eqiad (HE) - 2001:df2:e500:fe07::/64
+$ORIGIN 7.0.e.f.@Z
+$INCLUDE netbox/7.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
+
+; cr2-eqsin <-> cr1-codfw (HE) - 2001:df2:e500:fe08::/64
+$ORIGIN 8.0.e.f.@Z
+$INCLUDE netbox/8.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
+
+; cr3-eqsin <-> cr2-eqiad (Arelion) - 2001:df2:e500:fe09::/64
+$ORIGIN 9.0.e.f.@Z
+$INCLUDE netbox/9.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
+
+; cr3-eqsin <-> cr2-codfw (Arelion) - 2001:df2:e500:fe0a::/64
+$ORIGIN a.0.e.f.@Z
+$INCLUDE netbox/a.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
+
 ; Vlan 541 - core1-603-eqsin - 2001:df2:e500:ff01::/64
 $ORIGIN 1.0.f.f.@Z
 $INCLUDE netbox/1.0.f.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
