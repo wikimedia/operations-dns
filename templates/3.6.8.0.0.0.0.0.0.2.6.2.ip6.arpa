@@ -81,6 +81,22 @@ $INCLUDE netbox/a.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN b.0.e.f.@Z
 $INCLUDE netbox/b.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; cr1-eqiad <-> cr3-ulsfo (HE) - 2620:0:863:fe0c::/64
+$ORIGIN c.0.e.f.@Z
+$INCLUDE netbox/c.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; cr1-codfw <-> cr3-ulsfo (HE) - 2620:0:863:fe0d::/64
+$ORIGIN d.0.e.f.@Z
+$INCLUDE netbox/d.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; cr2-eqiad <-> cr4-ulsfo (Arelion) - 2620:0:863:fe0e::/64
+$ORIGIN e.0.e.f.@Z
+$INCLUDE netbox/e.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; cr2-codfw <-> cr4-ulsfo (Arelion) - 2620:0:863:fe0f::/64
+$ORIGIN f.0.e.f.@Z
+$INCLUDE netbox/f.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; Vlan 441 - core1-22-ulsfo - 2620:0:863:ff01::/64
 $ORIGIN 1.0.f.f.@Z
 $INCLUDE netbox/1.0.f.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
