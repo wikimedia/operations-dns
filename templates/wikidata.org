@@ -37,8 +37,10 @@ _dmarc      600     IN TXT "v=DMARC1; p=reject; rua=mailto:dmarc-rua@wikimedia.o
 
 ; Service aliases
 query                        1D IN CNAME dyna.wikimedia.org.
+query-next                   1D IN CNAME dyna.wikimedia.org.
 query-main                   1D IN CNAME dyna.wikimedia.org.
 query-scholarly              1D IN CNAME dyna.wikimedia.org.
+query-scholarly-next         1D IN CNAME dyna.wikimedia.org.
 
 ; Wikis (alphabetic order)
 

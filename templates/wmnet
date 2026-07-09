@@ -1084,6 +1084,8 @@ opensearch-ttmserver-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 turnilo                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 turnilo-next            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 eventstreams-internal   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+wdqs2-main-external     300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
+wdqs2-scholarly-external 300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-aux.
