@@ -57,7 +57,6 @@ disc-thanos-query        => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-thanos-swift        => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-thanos-web          => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-helm-charts         => { map => mock, dcmap => { mock => 192.0.2.1 } }
-disc-api-gateway         => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-linkrecommendation  => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-pki                 => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-puppetdb-api        => { map => mock, dcmap => { mock => 192.0.2.1 } }

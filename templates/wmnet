@@ -562,7 +562,6 @@ eventgate-analytics-external 1H  IN A    10.2.2.52
 thanos-query    1H  IN A    10.2.2.53
 thanos-swift    1H  IN A    10.2.2.54
 thanos-web      1H  IN A    10.2.2.77
-api-gateway     1H  IN A    10.2.2.55
 push-notifications  1H  IN A    10.2.2.56
 shellbox        1H  IN A    10.2.2.51
 device-analytics    1H  IN A    10.2.2.80
@@ -794,7 +793,6 @@ eventgate-analytics-external 1H  IN A    10.2.1.52
 thanos-query    1H  IN A    10.2.1.53
 thanos-swift    1H  IN A    10.2.1.54
 thanos-web      1H  IN A    10.2.1.77
-api-gateway     1H  IN A    10.2.1.55
 push-notifications  1H  IN A    10.2.1.56
 shellbox        1H  IN A    10.2.1.51
 device-analytics    1H  IN A    10.2.1.80
@@ -952,7 +950,6 @@ thanos-query   300/10 IN DYNA geoip!disc-thanos-query
 thanos-swift   300/10 IN DYNA geoip!disc-thanos-swift
 thanos-web     300/10 IN DYNA geoip!disc-thanos-web
 helm-charts    300/10 IN DYNA geoip!disc-helm-charts
-api-gateway    300/10 IN DYNA geoip!disc-api-gateway
 linkrecommendation  300/10 IN DYNA geoip!disc-linkrecommendation
 puppetdb-api   300/10 IN DYNA geoip!disc-puppetdb-api
 shellbox       300/10 IN DYNA geoip!disc-shellbox
@@ -999,10 +996,6 @@ netbox                  300/10 IN DYNA metafo!disc-netbox
 netbox-exports          300 IN CNAME netbox
 pki                     300 IN DYNA geoip!disc-pki
 config-master           300 IN DYNA geoip!disc-config-master
-
-; T418145 temporary CNAME for api-gateway-ro, it doesn't need a separate
-; discovery address or service, but the DNS name needs to exist for multi-dc.lua
-api-gateway-ro          300 IN CNAME api-gateway
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-wikikube.
