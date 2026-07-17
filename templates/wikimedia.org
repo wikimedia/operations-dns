@@ -905,7 +905,6 @@ stats            1D IN CNAME dyna.wikimedia.org.
 status           1D IN CNAME dyna.wikimedia.org.
 techblog         5M IN CNAME techblog-wikimedia-org.go-vip.net.
 ticket           1D IN CNAME dyna.wikimedia.org.
-mirrors          5M IN CNAME mirror1001
 yarn             1D IN CNAME dyna.wikimedia.org.
 turnilo          1D IN CNAME dyna.wikimedia.org.
 turnilo-next     1D IN CNAME dyna.wikimedia.org.
