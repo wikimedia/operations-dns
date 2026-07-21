@@ -328,7 +328,10 @@ generic-map => {
         10.64.0.0/12        => [eqiad, codfw, ulsfo, esams, drmrs, eqsin, magru], # eqiad private/mgmt
         10.80.0.0/16        => [esams, drmrs, eqiad, codfw, ulsfo, eqsin, magru], # esams private/mgmt
         10.128.0.0/16       => [ulsfo, codfw, eqiad, esams, drmrs, eqsin, magru], # ulsfo private/mgmt
-        10.132.0.0/16       => [eqsin, codfw, eqiad, ulsfo, esams, drmrs, magru], # eqsin private/mgmt
+        # T411617 make eqsin backhaul active-active by sending each rack to different site
+        10.132.0.0/24       => [eqsin, eqiad, codfw, ulsfo, esams, drmrs, magru], # private1-603-eqsin
+        10.132.1.0/24       => [eqsin, codfw, eqiad, ulsfo, esams, drmrs, magru], # private1-604-eqsin
+        10.132.0.0/16       => [eqsin, codfw, eqiad, ulsfo, esams, drmrs, magru], # eqsin private/mgmt aggregate
         10.136.0.0/16       => [drmrs, esams, eqiad, codfw, ulsfo, eqsin, magru], # drmrs private/mgmt
         # T411617 make magru backhaul active-active by sending each rack to different site
         10.140.0.0/24       => [magru, eqiad, codfw, esams, drmrs, ulsfo, eqsin], # private1-b3-magru
