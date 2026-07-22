@@ -74,6 +74,7 @@ disc-shellbox-media      => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-shellbox-syntaxhighlight => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-shellbox-timeline   => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-shellbox-video      => { map => mock, dcmap => { mock => 192.0.2.1 } }
+disc-urldownloader       => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-tegola-vector-tiles => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-inference           => { map => mock, dcmap => { mock => 192.0.2.1 } }
 disc-wcqs                => { map => mock, dcmap => { mock => 192.0.2.1 } }
