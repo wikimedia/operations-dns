@@ -554,6 +554,126 @@ $INCLUDE netbox/189.64.10.in-addr.arpa
 $ORIGIN 190.64.@Z
 $INCLUDE netbox/190.64.10.in-addr.arpa
 
+; 10.64.191.0/24 - private1-a1-eqiad
+$ORIGIN 191.64.@Z
+$INCLUDE netbox/191.64.10.in-addr.arpa
+
+; 10.64.207.0/24 - analytics1-a1-eqiad
+$ORIGIN 207.64.@Z
+$INCLUDE netbox/207.64.10.in-addr.arpa
+
+; 10.64.192.0/24 - private1-a2-eqiad
+$ORIGIN 192.64.@Z
+$INCLUDE netbox/192.64.10.in-addr.arpa
+
+; 10.64.208.0/24 - analytics1-a2-eqiad
+$ORIGIN 208.64.@Z
+$INCLUDE netbox/208.64.10.in-addr.arpa
+
+; 10.64.193.0/24 - private1-a3-eqiad
+$ORIGIN 193.64.@Z
+$INCLUDE netbox/193.64.10.in-addr.arpa
+
+; 10.64.209.0/24 - analytics1-a3-eqiad
+$ORIGIN 209.64.@Z
+$INCLUDE netbox/209.64.10.in-addr.arpa
+
+; 10.64.194.0/24 - private1-a4-eqiad
+$ORIGIN 194.64.@Z
+$INCLUDE netbox/194.64.10.in-addr.arpa
+
+; 10.64.210.0/24 - analytics1-a4-eqiad
+$ORIGIN 210.64.@Z
+$INCLUDE netbox/210.64.10.in-addr.arpa
+
+; 10.64.195.0/24 - private1-a5-eqiad
+$ORIGIN 195.64.@Z
+$INCLUDE netbox/195.64.10.in-addr.arpa
+
+; 10.64.211.0/24 - analytics1-a5-eqiad
+$ORIGIN 211.64.@Z
+$INCLUDE netbox/211.64.10.in-addr.arpa
+
+; 10.64.196.0/24 - private1-a6-eqiad
+$ORIGIN 196.64.@Z
+$INCLUDE netbox/196.64.10.in-addr.arpa
+
+; 10.64.212.0/24 - analytics1-a6-eqiad
+$ORIGIN 212.64.@Z
+$INCLUDE netbox/212.64.10.in-addr.arpa
+
+; 10.64.197.0/24 - private1-a7-eqiad
+$ORIGIN 197.64.@Z
+$INCLUDE netbox/197.64.10.in-addr.arpa
+
+; 10.64.213.0/24 - analytics1-a7-eqiad
+$ORIGIN 213.64.@Z
+$INCLUDE netbox/213.64.10.in-addr.arpa
+
+; 10.64.198.0/24 - private1-a8-eqiad
+$ORIGIN 198.64.@Z
+$INCLUDE netbox/198.64.10.in-addr.arpa
+
+; 10.64.214.0/24 - analytics1-a8-eqiad
+$ORIGIN 214.64.@Z
+$INCLUDE netbox/214.64.10.in-addr.arpa
+
+; 10.64.199.0/24 - private1-b1-eqiad
+$ORIGIN 199.64.@Z
+$INCLUDE netbox/199.64.10.in-addr.arpa
+
+; 10.64.215.0/24 - analytics1-b1-eqiad
+$ORIGIN 215.64.@Z
+$INCLUDE netbox/215.64.10.in-addr.arpa
+
+; 10.64.200.0/24 - private1-b2-eqiad
+$ORIGIN 200.64.@Z
+$INCLUDE netbox/200.64.10.in-addr.arpa
+
+; 10.64.216.0/24 - analytics1-b2-eqiad
+$ORIGIN 216.64.@Z
+$INCLUDE netbox/216.64.10.in-addr.arpa
+
+; 10.64.201.0/24 - private1-b3-eqiad
+$ORIGIN 201.64.@Z
+$INCLUDE netbox/201.64.10.in-addr.arpa
+
+; 10.64.217.0/24 - analytics1-b3-eqiad
+$ORIGIN 217.64.@Z
+$INCLUDE netbox/217.64.10.in-addr.arpa
+
+; 10.64.202.0/24 - private1-b4-eqiad
+$ORIGIN 202.64.@Z
+$INCLUDE netbox/202.64.10.in-addr.arpa
+
+; 10.64.218.0/24 - analytics1-b4-eqiad
+$ORIGIN 218.64.@Z
+$INCLUDE netbox/218.64.10.in-addr.arpa
+
+; 10.64.204.0/24 - private1-b6-eqiad
+$ORIGIN 204.64.@Z
+$INCLUDE netbox/204.64.10.in-addr.arpa
+
+; 10.64.220.0/24 - analytics1-b6-eqiad
+$ORIGIN 220.64.@Z
+$INCLUDE netbox/220.64.10.in-addr.arpa
+
+; 10.64.205.0/24 - private1-b7-eqiad
+$ORIGIN 205.64.@Z
+$INCLUDE netbox/205.64.10.in-addr.arpa
+
+; 10.64.221.0/24 - analytics1-b7-eqiad
+$ORIGIN 221.64.@Z
+$INCLUDE netbox/221.64.10.in-addr.arpa
+
+; 10.64.206.0/24 - private1-b8-eqiad
+$ORIGIN 206.64.@Z
+$INCLUDE netbox/206.64.10.in-addr.arpa
+
+; 10.64.222.0/24 - analytics1-b8-eqiad
+$ORIGIN 222.64.@Z
+$INCLUDE netbox/222.64.10.in-addr.arpa
+
 ; 10.64.223.0/24 - private1-d8test-eqiad
 $ORIGIN 223.64.@Z
 $INCLUDE netbox/223.64.10.in-addr.arpa

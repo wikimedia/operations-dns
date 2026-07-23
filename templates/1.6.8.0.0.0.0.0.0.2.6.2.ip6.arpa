@@ -369,6 +369,126 @@ $INCLUDE netbox/7.6.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 6.4.1.0.@Z
 $INCLUDE netbox/6.4.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; Vlan 1089 - private1-a1-eqiad - 2620:0:861:147::/64
+$ORIGIN 7.4.1.0.@Z
+$INCLUDE netbox/7.4.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1090 - private1-a2-eqiad - 2620:0:861:148::/64
+$ORIGIN 8.4.1.0.@Z
+$INCLUDE netbox/8.4.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1091 - private1-a3-eqiad - 2620:0:861:149::/64
+$ORIGIN 9.4.1.0.@Z
+$INCLUDE netbox/9.4.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1092 - private1-a4-eqiad - 2620:0:861:14a::/64
+$ORIGIN a.4.1.0.@Z
+$INCLUDE netbox/a.4.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1093 - private1-a5-eqiad - 2620:0:861:14b::/64
+$ORIGIN b.4.1.0.@Z
+$INCLUDE netbox/b.4.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1094 - private1-a6-eqiad - 2620:0:861:14c::/64
+$ORIGIN c.4.1.0.@Z
+$INCLUDE netbox/c.4.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1095 - private1-a7-eqiad - 2620:0:861:14d::/64
+$ORIGIN d.4.1.0.@Z
+$INCLUDE netbox/d.4.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1096 - private1-a8-eqiad - 2620:0:861:14e::/64
+$ORIGIN e.4.1.0.@Z
+$INCLUDE netbox/e.4.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1097 - private1-b1-eqiad - 2620:0:861:14f::/64
+$ORIGIN f.4.1.0.@Z
+$INCLUDE netbox/f.4.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1098 - private1-b2-eqiad - 2620:0:861:150::/64
+$ORIGIN 0.5.1.0.@Z
+$INCLUDE netbox/0.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1099 - private1-b3-eqiad - 2620:0:861:151::/64
+$ORIGIN 1.5.1.0.@Z
+$INCLUDE netbox/1.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1100 - private1-b4-eqiad - 2620:0:861:152::/64
+$ORIGIN 2.5.1.0.@Z
+$INCLUDE netbox/2.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1102 - private1-b6-eqiad - 2620:0:861:154::/64
+$ORIGIN 4.5.1.0.@Z
+$INCLUDE netbox/4.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1103 - private1-b7-eqiad - 2620:0:861:155::/64
+$ORIGIN 5.5.1.0.@Z
+$INCLUDE netbox/5.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1117 - private1-b8-eqiad - 2620:0:861:156::/64
+$ORIGIN 6.5.1.0.@Z
+$INCLUDE netbox/6.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1119 - analytics1-a1-eqiad - 2620:0:861:157::/64
+$ORIGIN 7.5.1.0.@Z
+$INCLUDE netbox/7.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1125 - analytics1-a2-eqiad - 2620:0:861:158::/64
+$ORIGIN 8.5.1.0.@Z
+$INCLUDE netbox/8.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1126 - analytics1-a3-eqiad - 2620:0:861:159::/64
+$ORIGIN 9.5.1.0.@Z
+$INCLUDE netbox/9.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1129 - analytics1-a4-eqiad - 2620:0:861:15a::/64
+$ORIGIN a.5.1.0.@Z
+$INCLUDE netbox/a.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1130 - analytics1-a5-eqiad - 2620:0:861:15b::/64
+$ORIGIN b.5.1.0.@Z
+$INCLUDE netbox/b.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1131 - analytics1-a6-eqiad - 2620:0:861:15c::/64
+$ORIGIN c.5.1.0.@Z
+$INCLUDE netbox/c.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1136 - analytics1-a7-eqiad - 2620:0:861:15d::/64
+$ORIGIN d.5.1.0.@Z
+$INCLUDE netbox/d.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1138 - analytics1-a8-eqiad - 2620:0:861:15e::/64
+$ORIGIN e.5.1.0.@Z
+$INCLUDE netbox/e.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1139 - analytics1-b1-eqiad - 2620:0:861:15f::/64
+$ORIGIN f.5.1.0.@Z
+$INCLUDE netbox/f.5.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1141 - analytics1-b2-eqiad - 2620:0:861:160::/64
+$ORIGIN 0.6.1.0.@Z
+$INCLUDE netbox/0.6.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1142 - analytics1-b3-eqiad - 2620:0:861:161::/64
+$ORIGIN 1.6.1.0.@Z
+$INCLUDE netbox/1.6.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1143 - analytics1-b4-eqiad - 2620:0:861:162::/64
+$ORIGIN 2.6.1.0.@Z
+$INCLUDE netbox/2.6.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1145 - analytics1-b6-eqiad - 2620:0:861:164::/64
+$ORIGIN 4.6.1.0.@Z
+$INCLUDE netbox/4.6.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1146 - analytics1-b7-eqiad - 2620:0:861:165::/64
+$ORIGIN 5.6.1.0.@Z
+$INCLUDE netbox/5.6.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; Vlan 1147 - analytics1-b8-eqiad - 2620:0:861:166::/64
+$ORIGIN 6.6.1.0.@Z
+$INCLUDE netbox/6.6.1.0.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; cr1-eqiad_to_lsw1-e1-eqiad (2620:0:861:fe07::/64)
 $ORIGIN 7.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
