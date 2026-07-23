@@ -564,6 +564,14 @@ $INCLUDE netbox/6.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 7.1.e.f.@Z
 $INCLUDE netbox/7.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
+; ssw1-a1-eqiad <-> cr1-eqiad - 2620:0:861:fe18::/64
+$ORIGIN 8.1.e.f.@Z
+$INCLUDE netbox/8.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
+; ssw1-a8-eqiad <-> cr2-eqiad - 2620:0:861:fe19::/64
+$ORIGIN 9.1.e.f.@Z
+$INCLUDE netbox/9.1.e.f.1.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
+
 ; eqiad sandbox subnets (2620:0:861:200::/56)
 
 ; sandbox1-a-eqiad (2620:0:861:201::/64)
