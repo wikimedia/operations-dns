@@ -677,6 +677,7 @@ opensearch-toolhub              1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-toolhub-test         1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-ttmserver            1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-ttmserver-test       1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+postgresql-superset-metrics     1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 spark-history                   1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 spark-history-test              1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 superset                        1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
