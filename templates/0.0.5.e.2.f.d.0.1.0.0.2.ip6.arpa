@@ -23,10 +23,13 @@ $INCLUDE netbox/3.0.0.0.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
 
 
 ; 2001:df2:e500:100::/56 - eqsin private subnets
-; 2001:df2:e500:101::/64 - private1-eqsin
+; 2001:df2:e500:101::/64 - private1-603-eqsin
 $ORIGIN 1.0.1.0.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/1.0.1.0.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
+
+; 2001:df2:e500:102::/64 - private1-604-eqsin
+$ORIGIN 2.0.1.0.@Z
+$INCLUDE netbox/2.0.1.0.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
 
 ; 2001:df2:e500:103::/64 - private1-virtual-eqsin
 $ORIGIN 3.0.1.0.@Z
