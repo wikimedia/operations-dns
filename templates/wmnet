@@ -628,6 +628,7 @@ mw-pretrain              1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 ores-legacy             1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
 recommendation-api-ng   1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
 liftwing-openapi-server 1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
+tts-section-generator   1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
 
 ; aux
 codesearch            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
@@ -860,6 +861,7 @@ mw-pretrain              1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 ores-legacy             1H  IN CNAME    k8s-ingress-ml-serve.svc.codfw.wmnet.
 recommendation-api-ng   1H  IN CNAME    k8s-ingress-ml-serve.svc.codfw.wmnet.
 liftwing-openapi-server 1H  IN CNAME    k8s-ingress-ml-serve.svc.codfw.wmnet.
+tts-section-generator   1H  IN CNAME    k8s-ingress-ml-serve.svc.codfw.wmnet.
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-aux.
@@ -1035,6 +1037,7 @@ mw-pretrain-ro           300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 ores-legacy             300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
 recommendation-api-ng   300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
 liftwing-openapi-server 300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
+tts-section-generator   300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-dse.
