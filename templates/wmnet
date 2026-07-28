@@ -1036,26 +1036,7 @@ liftwing-openapi-server 300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-dse.
 ; The DSE ingress endpoint does not have any distinction between rw and ro.
-blunderbuss             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-datahub-frontend        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-datahub-frontend-next   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-datahub-gms             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-datahub-gms-next        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-datasets-config         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-datasets-config-next    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-echoserver              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-mpic                    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-mpic-next               300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-test-kitchen            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-test-kitchen-next       300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-spark-history           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-spark-history-next      300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-superset                300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-superset-next           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-growthbook              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-growthbook-next         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-growthbook-api          300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-growthbook-api-next     300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+; Please keep this list sorted in alphabetical order.
 airflow                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-analytics-product 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-analytics-test  300 IN CNAME k8s-ingress-dse.discovery.wmnet.
@@ -1069,6 +1050,23 @@ airflow-sre             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-test-k8s        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-wikidata        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 airflow-wmde            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+blunderbuss             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+datahub-frontend        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+datahub-frontend-next   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+datahub-gms             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+datahub-gms-next        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+datasets-config         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+datasets-config-next    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+echoserver              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+eventstreams-internal   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+growthbook              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+growthbook-api          300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+growthbook-api-next     300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+growthbook-next         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+mpic                    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+mpic-next               300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+opensearch-apifeatureusage      300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
+opensearch-apifeatureusage-test 300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-ipoid        300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-ipoid-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-semantic-search   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
@@ -1076,13 +1074,16 @@ opensearch-semantic-search-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmne
 opensearch-test         300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-toolhub      300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-toolhub-test 300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
-opensearch-apifeatureusage      300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
-opensearch-apifeatureusage-test 300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-ttmserver    300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-ttmserver-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
+spark-history           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+spark-history-next      300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+superset                300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+superset-next           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+test-kitchen            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+test-kitchen-next       300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 turnilo                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 turnilo-next            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-eventstreams-internal   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 wdqs2-main-external     300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 wdqs2-scholarly-external 300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 
