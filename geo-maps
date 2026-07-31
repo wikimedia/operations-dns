@@ -4,7 +4,7 @@ generic-map => {
     map => {
         # top-level default, is what gets used for anything not made
         # more-specific in the various stanzas below:
-        default => [eqiad, codfw, ulsfo, esams, drmrs, eqsin, magru],
+        default => [codfw, eqiad, ulsfo, esams, drmrs, eqsin, magru],
 
         # use ISO 3166-2 official names
         AF => {
