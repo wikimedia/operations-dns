@@ -58,7 +58,9 @@ $ORIGIN 0.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/0.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
 
-; 2001:df2:e500:fe01::/64 - Free
+; cr2-eqsin <-> asw1-604-eqsin - 2001:df2:e500:fe01::/64
+$ORIGIN 1.0.e.f.@Z
+$INCLUDE netbox/1.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
 
 ; 2001:df2:e500:fe02::/64 -  cr1-codfw <--> cr3-eqsin (Telia EVPN)
 $ORIGIN 2.0.e.f.@Z
@@ -95,6 +97,18 @@ $INCLUDE netbox/9.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
 ; cr3-eqsin <-> cr2-codfw (Arelion) - 2001:df2:e500:fe0a::/64
 $ORIGIN a.0.e.f.@Z
 $INCLUDE netbox/a.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
+
+; cr2-eqsin <-> asw1-603-eqsin - 2001:df2:e500:fe0b::/64
+$ORIGIN b.0.e.f.@Z
+$INCLUDE netbox/b.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
+
+; cr3-eqsin <-> asw1-603-eqsin - 2001:df2:e500:fe0c::/64
+$ORIGIN c.0.e.f.@Z
+$INCLUDE netbox/c.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
+
+; cr3-eqsin <-> asw1-604-eqsin - 2001:df2:e500:fe0d::/64
+$ORIGIN d.0.e.f.@Z
+$INCLUDE netbox/d.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
 
 ; Vlan 541 - core1-603-eqsin - 2001:df2:e500:ff01::/64
 $ORIGIN 1.0.f.f.@Z
