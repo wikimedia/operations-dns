@@ -12,15 +12,18 @@
 ; APNIC space, reserved for eqsin
 
 ; 2001:df2:e500:0::/56 - eqsin public subnets
-; 2001:df2:e500:1::/64 - public1-eqsin
+
+; Vlan 510 - public1-603-eqsin - 2001:df2:e500:1::/64
 $ORIGIN 1.0.0.0.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/1.0.0.0.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
+
+; Vlan 512 - public1-604-eqsin - 2001:df2:e500:2::/64
+$ORIGIN 2.0.0.0.@Z
+$INCLUDE netbox/2.0.0.0.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
 
 ; 2001:df2:e500:3::/64 - public1-virtual-eqsin
 $ORIGIN 3.0.0.0.@Z
 $INCLUDE netbox/3.0.0.0.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
-
 
 ; 2001:df2:e500:100::/56 - eqsin private subnets
 ; 2001:df2:e500:101::/64 - private1-603-eqsin

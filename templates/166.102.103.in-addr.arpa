@@ -11,32 +11,19 @@
 ; 103.102.166.0/24 (103.102.166.0 - 103.102.166.255)
 ; APNIC space, reserved for eqsin
 
-; 103.102.166.0/28 (0-15) - public1-eqsin
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/0-28.166.102.103.in-addr.arpa
+; 103.102.166.0/27 (0-31) - public1-603-eqsin
+$INCLUDE netbox/0-27.166.102.103.in-addr.arpa
 
-; 103.102.166.16/28 (16-31) - unused
-; 103.102.166.32/27 (32-63) - unused
-; 103.102.166.64/29 (64-71) - unused
+; 103.102.166.32/27 (32-63) - public1-604-eqsin
+$INCLUDE netbox/32-27.166.102.103.in-addr.arpa
+
 ; 103.102.166.72/29 (72-79) - sandbox1-virtual-eqsin
 $INCLUDE netbox/72-29.166.102.103.in-addr.arpa
 ; 103.102.166.96/27 (96-127) - public1-virtual-eqsin
 $INCLUDE netbox/96-27.166.102.103.in-addr.arpa
 
-; 103.102.166.128/27 (128-159) - Infrastructure Space
-; 103.102.166.128/30 (128-131) - Router's loopbacks
-; 103.102.166.132/31 -- cr3-eqsin <--> mr1-eqsin
-; 103.102.166.134/31  -- PCCW peering
-; 103.102.166.138/31  -- cr1-codfw <--> cr3-eqsin (Telia evpn)
-; 103.102.166.140/31 -- cr3-eqsin <--> cr2-eqsin
-; 103.102.166.142/31 -- cr2-eqsin <--> mr1-eqsin
-; 103.102.166.144/31  -- SingTel peering
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/128-27.166.102.103.in-addr.arpa
 $INCLUDE netbox/160-28.166.102.103.in-addr.arpa
-
-; 103.102.166.160/27 (160-191) - unused
-; 103.102.166.192/27 (192-223) - unused
 
 ; 103.102.166.224/27 (224-255) - LVS Service IPs
 ; - 103.102.166.224/28 (224-239) -- LVS high-traffic1 (Text)
