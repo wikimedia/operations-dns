@@ -120,9 +120,9 @@ _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
 _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 ; ⚠️ IF YOU EDIT THIS, YOU MUST CLEAR THE DNS CACHE AND GLOBALLY RESTART CONFD !!! T314489
 ; Conftool (RW)
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ; kubernetes-related records (etcdv3)
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl1002.eqiad.wmnet.
@@ -241,9 +241,9 @@ _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf2005.codfw.wmnet.
 _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf2006.codfw.wmnet.
 ; ⚠️ IF YOU EDIT THIS, YOU MUST CLEAR THE DNS CACHE AND GLOBALLY RESTART CONFD !!! T314489
 ; Conftool (RW)
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ; kubernetes-related records (etcdv3)
 _etcd-server-ssl._tcp.k8s3 5M  IN SRV      0 1 2380 wikikube-ctrl2001.codfw.wmnet.
@@ -349,9 +349,9 @@ _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 ; ⚠️ IF YOU EDIT THIS, YOU MUST CLEAR THE DNS CACHE AND GLOBALLY RESTART CONFD !!! T314489
 
 ; Conftool (RW)
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 ;
 ; MAGRU MGMT
 ;
@@ -388,9 +388,9 @@ _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 ; ⚠️ IF YOU EDIT THIS, YOU MUST CLEAR THE DNS CACHE AND GLOBALLY RESTART CONFD !!! T314489
 
 ; Conftool (RW)
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ;
 ; ULSFO MGMT
@@ -428,9 +428,9 @@ _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf2004.codfw.wmnet.
 _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf2005.codfw.wmnet.
 _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf2006.codfw.wmnet.
 ; Conftool (RW)
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ;
 ; EQSIN MGMT
@@ -468,9 +468,9 @@ _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf2004.codfw.wmnet.
 _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf2005.codfw.wmnet.
 _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf2006.codfw.wmnet.
 ; Conftool (RW)
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 ;
 ; DRMRS MGMT
@@ -508,9 +508,9 @@ _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
 _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
 _etcd-client-ssl._tcp      5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 ; Conftool (RW)
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
-_etcd._tcp.conftool 10  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1007.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1008.eqiad.wmnet.
+_etcd._tcp.conftool 5M  IN SRV      0 1 4001 conf1009.eqiad.wmnet.
 
 
 ; EQIAD SERVICES
