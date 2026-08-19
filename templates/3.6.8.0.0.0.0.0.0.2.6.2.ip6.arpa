@@ -46,10 +46,6 @@ $INCLUDE netbox/3.0.1.0.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 1.0.e.f.@Z
 $INCLUDE netbox/1.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; cr3-ulsfo <--> cr2-eqord - 2620:0:863:fe02::/64
-$ORIGIN 2.0.e.f.@Z
-$INCLUDE netbox/2.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
-
 ; cr3-ulsfo <-> asw1-22-ulsfo - 2620:0:863:fe03::/64
 $ORIGIN 3.0.e.f.@Z
 $INCLUDE netbox/3.0.e.f.3.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
