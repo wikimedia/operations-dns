@@ -68,11 +68,6 @@ $ORIGIN a.1.d.e.0.0.3.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/a.1.d.e.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
 
-; cr1-eqiad <-> cr2-esams GTT (2a02:ec80:300:fe01::/64)
-$ORIGIN 1.0.e.f.0.0.3.0.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/1.0.e.f.0.0.3.0.0.8.c.e.2.0.a.2.ip6.arpa
-
 ; mr1-esams <-> asw1-bw27-esams (2a02:ec80:300:fe02::/64)
 $ORIGIN 2.0.e.f.0.0.3.0.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -171,10 +166,6 @@ $INCLUDE netbox/2.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 ; mr1-drmrs<->asw1-b13-drmrs - 2a02:ec80:600:fe03::/64
 $ORIGIN 3.0.e.f.0.0.6.0.@Z
 $INCLUDE netbox/3.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
-
-; cr2-drmrs<->cr1-eqiad - 2a02:ec80:600:fe04::/64
-$ORIGIN 4.0.e.f.0.0.6.0.@Z
-$INCLUDE netbox/4.0.e.f.0.0.6.0.0.8.c.e.2.0.a.2.ip6.arpa
 
 ; cr1-drmrs<->asw1-b12-drmrs - 2a02:ec80:600:fe06::/64
 $ORIGIN 6.0.e.f.0.0.6.0.@Z
