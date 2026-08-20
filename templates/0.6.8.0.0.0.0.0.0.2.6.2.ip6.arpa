@@ -309,10 +309,6 @@ $INCLUDE netbox/4.0.e.f.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 $ORIGIN 8.0.e.f.@Z
 $INCLUDE netbox/8.0.e.f.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
 
-; cr2-eqdfw <--> asw1-b13-drmrs (2620:0:860:fe0a::/64)
-$ORIGIN a.0.e.f.@Z
-$INCLUDE netbox/a.0.e.f.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
-
 ; Loopback IPs
 $ORIGIN f.f.f.f.@Z
 $INCLUDE netbox/f.f.f.f.0.6.8.0.0.0.0.0.0.2.6.2.ip6.arpa
