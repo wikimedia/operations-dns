@@ -65,11 +65,6 @@ $INCLUDE netbox/0.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
 $ORIGIN 1.0.e.f.@Z
 $INCLUDE netbox/1.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
 
-; 2001:df2:e500:fe02::/64 -  cr1-codfw <--> cr3-eqsin (Telia EVPN)
-$ORIGIN 2.0.e.f.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
-$INCLUDE netbox/2.0.e.f.0.0.5.e.2.f.d.0.1.0.0.2.ip6.arpa
-
 ; 2001:df2:e500:fe03::/64 -  mr1-eqsin <--> cr3-eqsin
 $ORIGIN 3.0.e.f.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
