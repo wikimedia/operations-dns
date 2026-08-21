@@ -42,10 +42,6 @@ ns2         2D  IN AAAA 2a02:ec80:53::1
 ; verification for Mentimeter Enterprise requested in T434620
 @           600 IN TXT "mentimeter-21f7d05d-55a3-4d12-96cf-9d63aebdcaab"
 
-; TXT records for Brand Indicators for Message Identification (BIMI) T311685
-; This is a short TTL on purpose that we will bump later.
-default._bimi   300 IN TXT "v=BIMI1; l=https://wikimedia.org/static/bimi/the_wikimedia_foundation.svg; a=https://wikimedia.org/static/bimi/the_wikimedia_foundation.pem"
-
 ; SPF txt and rr records
 
 ; ip4:74.121.51.111 - acoustic mass emailer, @fr-tech
