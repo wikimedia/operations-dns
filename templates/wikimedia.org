@@ -845,7 +845,8 @@ datasets-config  1D IN CNAME dyna.wikimedia.org.
 datasets-config-next 1D IN CNAME dyna.wikimedia.org.
 diff             1H IN CNAME blog-wikimedia-org.go-vip.net.
 download         1D IN CNAME dyna.wikimedia.org.
-etherpad         1D IN CNAME dyna.wikimedia.org.
+etherpad         1H IN CNAME dyna.wikimedia.org.
+etherpad-next    1H IN CNAME dyna.wikimedia.org.
 growthbook       1D IN CNAME dyna.wikimedia.org.
 growthbook-next  1D IN CNAME dyna.wikimedia.org.
 growthbook-api   1D IN CNAME dyna.wikimedia.org.
