@@ -72,6 +72,8 @@ pc6-master      5M  IN CNAME    pc1016.eqiad.wmnet.
 pc7-master      5M  IN CNAME    pc1017.eqiad.wmnet.
 pc8-master      5M  IN CNAME    pc1018.eqiad.wmnet.
 zarcillo-master 5M  IN CNAME    db1215.eqiad.wmnet.
+backup1-eqiad 5M  IN CNAME    db1204.eqiad.wmnet.
+backup1-codfw 5M  IN CNAME    db2184.codfw.wmnet.
 mw-experimental 1H  IN CNAME    wikikube-worker-exp1001.eqiad.wmnet.
 mw-parsoid      1H  IN CNAME    wikikube-worker-exp1001.eqiad.wmnet.
 
