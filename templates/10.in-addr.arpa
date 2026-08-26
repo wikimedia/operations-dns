@@ -844,9 +844,12 @@ $ORIGIN 4.132.@Z
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/4.132.10.in-addr.arpa
 
-; 10.132.128.0/17 - eqsin mgmt
+; 10.132.127.0/24 - eqsin private loopbacks & interconnects
+$ORIGIN 127.132.@Z
+$INCLUDE netbox/127.132.10.in-addr.arpa
+
+; 10.132.128.0/24 - eqsin mgmt first /24
 $ORIGIN 128.132.@Z
-; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/128.132.10.in-addr.arpa
 
 ; DRMRS (10.136.0.0/16)
