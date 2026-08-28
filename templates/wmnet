@@ -638,6 +638,7 @@ tts-section-generator   1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
 
 ; aux
 codesearch            1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
+etherpad-next         1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-collector-http 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-collector-grpc 1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
 jaeger-query          1H  IN CNAME    k8s-ingress-aux.svc.eqiad.wmnet.
@@ -874,6 +875,7 @@ tts-section-generator   1H  IN CNAME    k8s-ingress-ml-serve.svc.codfw.wmnet.
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-aux.
 codesearch               1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
+etherpad-next            1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 jaeger-collector-http    1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 jaeger-collector-grpc    1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
 jaeger-query             1H  IN CNAME    k8s-ingress-aux.svc.codfw.wmnet.
@@ -1106,6 +1108,7 @@ wdqs2-scholarly-external 300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 
 ; Services that run under Kubernetes Ingress are just CNAME
 ; records to the discovery record of k8s-ingress-aux.
+etherpad-next           300 IN CNAME k8s-ingress-aux-rw.discovery.wmnet.
 kafka-ui                300 IN CNAME k8s-ingress-aux-ro.discovery.wmnet.
 os-reports              300 IN CNAME k8s-ingress-aux-ro.discovery.wmnet.
 wmf-navigator           300 IN CNAME k8s-ingress-aux-rw.discovery.wmnet.
