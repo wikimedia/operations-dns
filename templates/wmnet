@@ -27,10 +27,6 @@ _x-puppet-ca._tcp  5M  IN SRV  0  5 8140 puppetserver1001.eqiad.wmnet.
 ; Used by syslog over UDP (eg network devices, PDUs)
 syslog          1H  IN CNAME    syslog.anycast.wmnet.
 webproxy        5M  IN CNAME    install1005.wikimedia.org.
-graphite        5M  IN CNAME    statsd.eqiad.wmnet.
-graphite-in     5M  IN CNAME    statsd.eqiad.wmnet.
-statsd          5M  IN CNAME    graphite1005.eqiad.wmnet.
-; statsd          5M  IN CNAME    graphite2004.codfw.wmnet.
 udplog          1H  IN CNAME    mwlog1002.eqiad.wmnet.
 deployment      5M  IN CNAME    deploy1003.eqiad.wmnet.
 people          5M  IN CNAME    people1005.eqiad.wmnet.
@@ -216,7 +212,6 @@ m3-master       5M  IN CNAME    dbproxy2007.codfw.wmnet.
 m3-slave        5M  IN CNAME    db2160.codfw.wmnet.
 m5-master       5M  IN CNAME    dbproxy2008.codfw.wmnet.
 m5-slave        5M  IN CNAME    db2160.codfw.wmnet.
-statsd          5M  IN CNAME    statsd.eqiad.wmnet.
 ; Used by syslog over UDP (e.g. network devices, PDUs)
 syslog          1H  IN CNAME    syslog.anycast.wmnet.
 udplog          1H  IN CNAME    mwlog2002.codfw.wmnet.
@@ -1146,8 +1141,6 @@ grafana                300 IN CNAME grafana1002.eqiad.wmnet.
 ;grafana                300 IN CNAME grafana2001.codfw.wmnet.
 ;grafana-next           300 IN CNAME grafana1002.eqiad.wmnet.
 grafana-next           300 IN CNAME grafana2001.codfw.wmnet.
-graphite              300 IN CNAME graphite1005.eqiad.wmnet.
-;graphite              300 IN CNAME graphite2004.codfw.wmnet.
 jenkins                300 IN CNAME contint1003.wikimedia.org.
 ;jenkins                300 IN CNAME contint2003.wikimedia.org.
 lists                  300 IN CNAME lists1004.wikimedia.org.
