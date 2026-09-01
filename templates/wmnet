@@ -101,6 +101,7 @@ _s6-analytics._tcp       5M  IN SRV      0 100 3316 dbstore1009.eqiad.wmnet.
 _s7-analytics._tcp       5M  IN SRV      0 100 3317 dbstore1008.eqiad.wmnet.
 _s8-analytics._tcp       5M  IN SRV      0 100 3318 dbstore1009.eqiad.wmnet.
 _x1-analytics._tcp       5M  IN SRV      0 100 3320 dbstore1009.eqiad.wmnet.
+_x4-analytics._tcp       5M  IN SRV      0 100 3314 dbstore1007.eqiad.wmnet.
 _staging-analytics._tcp  5M  IN SRV      0 100 3350 dbstore1009.eqiad.wmnet.
 
 ; etcd records
