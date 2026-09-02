@@ -1052,19 +1052,20 @@ tts-section-generator   300 IN CNAME k8s-ingress-ml-serve.discovery.wmnet.
 ; records to the discovery record of k8s-ingress-dse.
 ; The DSE ingress endpoint does not have any distinction between rw and ro.
 ; Please keep this list sorted in alphabetical order.
-airflow                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-analytics-product 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-analytics-test  300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-dumps           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-fr-tech         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-ml              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-platform-eng    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-research        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-search          300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-sre             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-test-k8s        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-wikidata        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-airflow-wmde            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow                     300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-analytics-product   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-analytics-test      300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-dumps               300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-experiment-platform 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-fr-tech             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-ml                  300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-platform-eng        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-research            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-search              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-sre                 300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-test-k8s            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-wikidata            300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+airflow-wmde                300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 blunderbuss             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datahub-frontend        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datahub-frontend-next   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
