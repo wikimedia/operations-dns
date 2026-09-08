@@ -31,7 +31,6 @@ graphite        5M  IN CNAME    statsd.eqiad.wmnet.
 graphite-in     5M  IN CNAME    statsd.eqiad.wmnet.
 statsd          5M  IN CNAME    graphite1005.eqiad.wmnet.
 ; statsd          5M  IN CNAME    graphite2004.codfw.wmnet.
-config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 udplog          1H  IN CNAME    mwlog1002.eqiad.wmnet.
 deployment      5M  IN CNAME    deploy1003.eqiad.wmnet.
 people          5M  IN CNAME    people1005.eqiad.wmnet.
@@ -166,7 +165,6 @@ _etcd-client-ssl._tcp.aux-k8s-etcd 5M  IN SRV      0 1 2379 aux-k8s-etcd1005.eqi
 ;
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
 $INCLUDE netbox/eqiad.wmnet
-puppet 5M      IN CNAME    puppetmaster1001.eqiad.wmnet.
 
 ; Kubernetes pod records for eqiad
 {% for z in range(64,72) -%}
@@ -334,8 +332,6 @@ $INCLUDE netbox/esams.wmnet
 ; SERVICES @ esams
 ;
 
-config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install3004.wikimedia.org.
 
 ; etcd client discovery (RO)
@@ -373,8 +369,6 @@ $INCLUDE netbox/magru.wmnet
 ; SERVICES @ magru
 ;
 
-config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install7002.wikimedia.org.
 
 ; etcd client discovery (RO)
@@ -491,8 +485,6 @@ $INCLUDE netbox/drmrs.wmnet
 ;
 ; SERVICES @ drmrs
 ;
-config-master   5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
-puppet          5M  IN CNAME    puppetmaster1001.eqiad.wmnet.
 webproxy        5M  IN CNAME    install6003.wikimedia.org.
 
 ; etcd client discovery (RO)
