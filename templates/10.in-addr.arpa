@@ -97,7 +97,7 @@ $ORIGIN 1.2.@Z
 93  1H  IN PTR  wdqs-internal-main.svc.codfw.wmnet.
 94  1H  IN PTR  wdqs-internal-scholarly.svc.codfw.wmnet.
 95  1H  IN PTR  urldownloader.svc.codfw.wmnet.
-
+96  1H  IN PTR  pki.svc.codfw.wmnet.
 
 ; 10.2.2.0/24 - eqiad LVS low-traffic (internal) services
 
@@ -187,6 +187,7 @@ $ORIGIN 2.2.@Z
 93  1H  IN PTR  wdqs-internal-main.svc.eqiad.wmnet.
 94  1H  IN PTR  wdqs-internal-scholarly.svc.eqiad.wmnet.
 95  1H  IN PTR  urldownloader.svc.eqiad.wmnet.
+96  1H  IN PTR  pki.svc.eqiad.wmnet
 
 ; 10.2.3.0/24 - esams LVS low-traffic (internal) services
 

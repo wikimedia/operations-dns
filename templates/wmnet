@@ -588,6 +588,7 @@ k8s-ingress-dse 1H  IN  A   10.2.2.91
 wdqs-internal-main      1H  IN A 10.2.2.93
 wdqs-internal-scholarly 1H  IN A 10.2.2.94
 urldownloader   1H  IN A 10.2.2.95
+pki             1H  IN A 10.2.2.96
 
 ; We setup RR DNS for the druid hosts as they run in the analytics VLAN,
 ; which cannot be setup behind LVS
@@ -836,6 +837,7 @@ kubestagemaster 1H  IN A    10.2.1.86
 wdqs-internal-main 1H  IN A      10.2.1.93
 wdqs-internal-scholarly 1H  IN A 10.2.1.94
 urldownloader   1H  IN A 10.2.1.95
+pki             1H  IN A 10.2.1.96
 k8s-ingress-dse 1H  IN A    10.2.1.91
 
 ; services that run under Kubernetes Ingress are just CNAME
