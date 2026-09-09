@@ -597,6 +597,15 @@ wdqs-internal-main      1H  IN A 10.2.2.93
 wdqs-internal-scholarly 1H  IN A 10.2.2.94
 urldownloader   1H  IN A 10.2.2.95
 
+; We setup RR DNS for the druid hosts as they run in the analytics VLAN,
+; which cannot be setup behind LVS
+druid-analytics  1H  IN A 10.64.5.17  ; an-druid1003.eqiad.wmnet
+druid-analytics  1H  IN A 10.64.21.11 ; an-druid1004.eqiad.wmnet
+druid-analytics  1H  IN A 10.64.53.13 ; an-druid1005.eqiad.wmnet
+druid-analytics  1H  IN A 10.64.159.2 ; an-druid1006.eqiad.wmnet
+druid-analytics  1H  IN A 10.64.167.2 ; an-druid1007.eqiad.wmnet
+
+
 ganeti01      1H  IN A        10.64.32.173
 ganeti-test01 1H  IN A        10.64.16.57
 
