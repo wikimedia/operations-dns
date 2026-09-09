@@ -800,6 +800,7 @@ wikimania2017    1D IN CNAME dyna.wikimedia.org.
 wikimania2018    1D IN CNAME dyna.wikimedia.org.
 wikimania2019    1D IN CNAME dyna.wikimedia.org.
 wikimaniateam    1D IN CNAME dyna.wikimedia.org.
+wikipedia-ar-arbcom 1D IN CNAME dyna.wikimedia.org.
 wikipedia-pl-arbcom 1D IN CNAME dyna.wikimedia.org.
 wikipedia-pl-sysop 1D IN CNAME dyna.wikimedia.org.
 wikipedia-it-arbcom 1D IN CNAME dyna.wikimedia.org.
