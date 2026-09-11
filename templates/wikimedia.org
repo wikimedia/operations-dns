@@ -505,6 +505,9 @@ apt-staging     1D IN CNAME dyna.wikimedia.org.
 
 archiva         1H  IN CNAME    archiva1002
 
+; T437635
+attribution     1H  IN CNAME    dyna.wikimedia.org.
+
 benefactors     180 IN DYNA     geoip!text-addrs
 benefactors     300 IN MX       10 mx-in1001
 benefactors     300 IN MX       10 mx-in2001
