@@ -673,6 +673,7 @@ growthbook                      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 growthbook-api                  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 growthbook-api-next             1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 growthbook-next                 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+liftwing-studio                 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 mpic                            1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 mpic-next                       1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-apifeatureusage      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
@@ -1085,6 +1086,7 @@ growthbook              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 growthbook-api          300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 growthbook-api-next     300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 growthbook-next         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
+liftwing-studio         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 mpic                    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 mpic-next               300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-apifeatureusage      300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
