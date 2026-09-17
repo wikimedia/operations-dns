@@ -1123,6 +1123,8 @@ wmf-navigator           300 IN CNAME k8s-ingress-aux-rw.discovery.wmnet.
 
 aphlict               300 IN CNAME aphlict1002.eqiad.wmnet.
 ;aphlict               300 IN CNAME aphlict2001.codfw.wmnet.
+codesearch             300 IN CNAME codesearch1001.eqiad.wmnet.
+;codesearch            300 IN CNAME codesearch2001.codfw.wmnet.
 ;community-crm         300 IN CNAME crm1001.eqiad.wmnet.
 community-crm         300 IN CNAME crm2001.codfw.wmnet.
 debmonitor            300 IN CNAME debmonitor1003.eqiad.wmnet.
