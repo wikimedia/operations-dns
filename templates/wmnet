@@ -1091,14 +1091,14 @@ mpic                    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 mpic-next               300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-apifeatureusage      300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-apifeatureusage-test 300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
-opensearch-ipoid        300 IN CNAME k8s-ingress-dse.svc.eqiad.wmnet.
+opensearch-ipoid        300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-ipoid-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-semantic-search   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 opensearch-semantic-search-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-test         300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-toolhub      300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-toolhub-test 300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
-opensearch-ttmserver    300 IN CNAME k8s-ingress-dse.svc.eqiad.wmnet.
+opensearch-ttmserver    300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 opensearch-ttmserver-test   300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 postgresql-superset-metrics 300 IN CNAME k8s-ingress-dse-aa.discovery.wmnet.
 spark-history           300 IN CNAME k8s-ingress-dse.discovery.wmnet.
