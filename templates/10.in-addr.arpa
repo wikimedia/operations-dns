@@ -1827,6 +1827,390 @@ $ORIGIN @Z
 255.67          IN    NS    wikikube-ctrl1002.eqiad.wmnet.
 255.67          IN    NS    wikikube-ctrl1003.eqiad.wmnet.
 255.67          IN    NS    wikikube-ctrl1004.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.0.0/24
+0.68            IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+0.68            IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.1.0/24
+1.68            IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+1.68            IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.2.0/24
+2.68            IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+2.68            IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.3.0/24
+3.68            IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+3.68            IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.4.0/24
+4.68            IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+4.68            IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.5.0/24
+5.68            IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+5.68            IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.6.0/24
+6.68            IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+6.68            IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.7.0/24
+7.68            IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+7.68            IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.8.0/24
+8.68            IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+8.68            IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.9.0/24
+9.68            IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+9.68            IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.10.0/24
+10.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+10.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.11.0/24
+11.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+11.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.12.0/24
+12.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+12.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.13.0/24
+13.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+13.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.14.0/24
+14.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+14.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.15.0/24
+15.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+15.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.16.0/24
+16.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+16.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.17.0/24
+17.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+17.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.18.0/24
+18.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+18.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.19.0/24
+19.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+19.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.20.0/24
+20.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+20.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.21.0/24
+21.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+21.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.22.0/24
+22.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+22.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.23.0/24
+23.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+23.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.24.0/24
+24.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+24.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.25.0/24
+25.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+25.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.26.0/24
+26.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+26.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.27.0/24
+27.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+27.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.28.0/24
+28.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+28.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.29.0/24
+29.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+29.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.30.0/24
+30.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+30.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.31.0/24
+31.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+31.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.32.0/24
+32.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+32.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.33.0/24
+33.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+33.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.34.0/24
+34.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+34.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.35.0/24
+35.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+35.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.36.0/24
+36.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+36.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.37.0/24
+37.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+37.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.38.0/24
+38.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+38.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.39.0/24
+39.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+39.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.40.0/24
+40.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+40.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.41.0/24
+41.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+41.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.42.0/24
+42.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+42.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.43.0/24
+43.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+43.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.44.0/24
+44.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+44.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.45.0/24
+45.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+45.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.46.0/24
+46.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+46.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.47.0/24
+47.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+47.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.48.0/24
+48.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+48.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.49.0/24
+49.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+49.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.50.0/24
+50.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+50.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.51.0/24
+51.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+51.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.52.0/24
+52.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+52.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.53.0/24
+53.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+53.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.54.0/24
+54.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+54.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.55.0/24
+55.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+55.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.56.0/24
+56.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+56.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.57.0/24
+57.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+57.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.58.0/24
+58.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+58.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.59.0/24
+59.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+59.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.60.0/24
+60.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+60.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.61.0/24
+61.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+61.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.62.0/24
+62.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+62.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.63.0/24
+63.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+63.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.64.0/24
+64.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+64.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.65.0/24
+65.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+65.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.66.0/24
+66.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+66.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.67.0/24
+67.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+67.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.68.0/24
+68.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+68.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.69.0/24
+69.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+69.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.70.0/24
+70.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+70.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.71.0/24
+71.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+71.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.72.0/24
+72.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+72.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.73.0/24
+73.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+73.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.74.0/24
+74.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+74.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.75.0/24
+75.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+75.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.76.0/24
+76.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+76.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.77.0/24
+77.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+77.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.78.0/24
+78.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+78.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.79.0/24
+79.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+79.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.80.0/24
+80.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+80.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.81.0/24
+81.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+81.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.82.0/24
+82.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+82.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.83.0/24
+83.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+83.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.84.0/24
+84.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+84.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.85.0/24
+85.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+85.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.86.0/24
+86.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+86.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.87.0/24
+87.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+87.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.88.0/24
+88.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+88.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.89.0/24
+89.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+89.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.90.0/24
+90.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+90.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.91.0/24
+91.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+91.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.92.0/24
+92.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+92.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.93.0/24
+93.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+93.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.94.0/24
+94.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+94.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.95.0/24
+95.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+95.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.96.0/24
+96.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+96.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.97.0/24
+97.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+97.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.98.0/24
+98.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+98.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.99.0/24
+99.68           IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+99.68           IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.100.0/24
+100.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+100.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.101.0/24
+101.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+101.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.102.0/24
+102.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+102.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.103.0/24
+103.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+103.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.104.0/24
+104.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+104.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.105.0/24
+105.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+105.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.106.0/24
+106.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+106.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.107.0/24
+107.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+107.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.108.0/24
+108.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+108.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.109.0/24
+109.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+109.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.110.0/24
+110.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+110.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.111.0/24
+111.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+111.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.112.0/24
+112.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+112.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.113.0/24
+113.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+113.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.114.0/24
+114.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+114.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.115.0/24
+115.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+115.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.116.0/24
+116.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+116.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.117.0/24
+117.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+117.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.118.0/24
+118.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+118.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.119.0/24
+119.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+119.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.120.0/24
+120.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+120.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.121.0/24
+121.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+121.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.122.0/24
+122.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+122.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.123.0/24
+123.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+123.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.124.0/24
+124.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+124.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.125.0/24
+125.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+125.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.126.0/24
+126.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+126.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
+; Kubernetes POD IP delegation - dse-k8s-eqiad 10.68.127.0/24
+127.68          IN    NS    dse-k8s-ctrl1001.eqiad.wmnet.
+127.68          IN    NS    dse-k8s-ctrl1002.eqiad.wmnet.
 
 ; Kubernetes POD IP delegation - staging-codfw 10.192.64.0/24
 64.192          IN    NS    kubestagemaster2003.codfw.wmnet.
