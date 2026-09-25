@@ -681,6 +681,7 @@ opensearch-apifeatureusage-test 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-ipoid                1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-ipoid-test           1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-semantic-search      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+opensearch-semantic-search-ssd  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-semantic-search-test 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-test                 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-toolhub              1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
