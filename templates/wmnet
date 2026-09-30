@@ -674,6 +674,8 @@ growthbook-api                  1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 growthbook-api-next             1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 growthbook-next                 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 liftwing-studio                 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+matomo                          1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
+matomo-next                     1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 mpic                            1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 mpic-next                       1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 opensearch-apifeatureusage      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
