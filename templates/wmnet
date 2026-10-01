@@ -627,6 +627,7 @@ ratelimit-media          1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 mw-pretrain              1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 mw-pretrain-jobrunner    1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 editcheck-headless       1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
+revision-feature-counts  1H  IN CNAME    k8s-ingress-wikikube.svc.eqiad.wmnet.
 
 ; ML
 ores-legacy             1H  IN CNAME    k8s-ingress-ml-serve.svc.eqiad.wmnet.
@@ -869,6 +870,7 @@ ratelimit-media          1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 mw-pretrain              1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 mw-pretrain-jobrunner    1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 editcheck-headless       1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
+revision-feature-counts  1H  IN CNAME    k8s-ingress-wikikube.svc.codfw.wmnet.
 
 ; services that run under Kubernetes Ingress are just CNAME
 ; records to k8s-ingress-ml-serve.
