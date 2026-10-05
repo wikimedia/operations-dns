@@ -1016,6 +1016,7 @@ netbox                  300/10 IN DYNA metafo!disc-netbox
 ; We don't need a separate discovery address for netbox-extra
 ; however a new cname is useful to configure an internal vhost
 netbox-exports          300 IN CNAME netbox
+pki                     300 IN DYNA geoip!disc-pki
 config-master           300 IN DYNA geoip!disc-config-master
 
 ; Services that run under Kubernetes Ingress are just CNAME
