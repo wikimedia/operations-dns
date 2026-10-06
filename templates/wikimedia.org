@@ -927,3 +927,4 @@ wmf-navigator    1D IN CNAME dyna.wikimedia.org.
 zarcillo         1D IN CNAME dyna.wikimedia.org.
 wikitech-static  5M  IN A        3.126.27.158 ; wmf-zone-validator-ignore=MISSING_PTR_FOR_NAME_AND_IP
 labtesthorizon   1D IN CNAME dyna.wikimedia.org.
+matomo-next      1D IN CNAME dyna.wikimedia.org.
