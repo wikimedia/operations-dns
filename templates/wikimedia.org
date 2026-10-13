@@ -842,6 +842,7 @@ gh-mail          1H  IN TXT  "v=spf1 include:mg-spf.greenhouse.io ~all"
 email.gh-mail    1H  IN CNAME    mailgun.org.
 mailo._domainkey 1H  IN TXT      "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDsCM/wv9cgbIAwNt2mDHSxgeEmwvvJW99zCdy9J2yuFykNA2r7ZEXjl33CsoEqODCorPFEsgn3zg8ixSetXcujgUR0YuNRYSbhnaK+lW1nDyjYsW2G6Snev7Wz20tpGMGIQbVQPMOJNSl5yoBnvZBPB5Uajvu0pZTcKJMSnlGd7wIDAQAB"
 codesearch       1D IN CNAME dyna.wikimedia.org.
+codesearch-backend 1D IN CNAME dyna.wikimedia.org.
 coffee           1D IN CNAME dyna.wikimedia.org.
 cs               1D IN CNAME dyna.wikimedia.org.
 cz               1D IN CNAME dyna.wikimedia.org.
