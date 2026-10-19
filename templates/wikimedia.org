@@ -296,11 +296,11 @@ analytics-codfw.frdev       1D  IN CNAME    analytics-codfw
 analytics-eqiad.frdev       1D  IN CNAME    analytics-eqiad
 analytics.frdev             1H  IN CNAME    analytics-eqiad.frdev
 civicrm.frdev               1H  IN CNAME    frdev-eqiad
-donorpreferences            1H  IN CNAME    frdata-eqiad
-fundraising                 1H  IN CNAME    frdata-eqiad
-fundraising.frdev           1H  IN CNAME    frdata-eqiad
+donorpreferences            1H  IN CNAME    frdata-codfw
+fundraising                 1H  IN CNAME    frdata-codfw
+fundraising.frdev           1H  IN CNAME    frdata-codfw
 frbast                      1H  IN CNAME    frbast-eqiad
-frdata                      1H  IN CNAME    frdata-eqiad
+frdata                      1H  IN CNAME    frdata-codfw
 frmon                       1H  IN CNAME    frmon-eqiad
 frmon.frdev                 1H  IN CNAME    frmon-eqiad
 metabase.frdev              1H  IN CNAME    analytics-eqiad.frdev
