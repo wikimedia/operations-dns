@@ -13,7 +13,7 @@
 $INCLUDE netbox/0-26.154.80.208.in-addr.arpa
 
 ; Manual records
-15  300 IN PTR  gitlab-replica-a.wikimedia.org. ; service IP for gitlab
+15  300 IN PTR  gitlab-ssh-replica-a.wikimedia.org. ; service IP for gitlab
 
 ; 208.80.154.64/26 (public1-c-eqiad) (.64 - .127)
 ; See https://wikitech.wikimedia.org/wiki/DNS/Netbox
@@ -24,7 +24,7 @@ $INCLUDE netbox/64-26.154.80.208.in-addr.arpa
 $INCLUDE netbox/128-26.154.80.208.in-addr.arpa
 
 ; Manual records
-145 300  IN PTR gitlab.wikimedia.org.  ; service IP for gitlab
+145 300  IN PTR gitlab-ssh.wikimedia.org.  ; service IP for gitlab
 
 ; Neighbor blocks (208.80.154.192/27)
 
