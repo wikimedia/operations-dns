@@ -274,7 +274,6 @@ frack-payments-nat-codfw    1H  IN A    208.80.152.229
 frack-payments-nat-eqiad    1H  IN A    208.80.155.7
 frbast-eqiad                1H  IN A    208.80.155.18
 frbast-codfw                1H  IN A    208.80.152.234
-frdata-old-eqiad            1H  IN A    208.80.155.16
 frdata-eqiad                1H  IN A    208.80.155.12
 frdata-codfw                1H  IN A    208.80.152.237
 frdev-eqiad                 1H  IN A    208.80.155.14
@@ -296,11 +295,11 @@ analytics-codfw.frdev       1D  IN CNAME    analytics-codfw
 analytics-eqiad.frdev       1D  IN CNAME    analytics-eqiad
 analytics.frdev             1H  IN CNAME    analytics-eqiad.frdev
 civicrm.frdev               1H  IN CNAME    frdev-eqiad
-donorpreferences            1H  IN CNAME    frdata-codfw
-fundraising                 1H  IN CNAME    frdata-codfw
-fundraising.frdev           1H  IN CNAME    frdata-codfw
+donorpreferences            1H  IN CNAME    frdata-eqiad
+fundraising                 1H  IN CNAME    frdata-eqiad
+fundraising.frdev           1H  IN CNAME    frdata-eqiad
 frbast                      1H  IN CNAME    frbast-eqiad
-frdata                      1H  IN CNAME    frdata-codfw
+frdata                      1H  IN CNAME    frdata-eqiad
 frmon                       1H  IN CNAME    frmon-eqiad
 frmon.frdev                 1H  IN CNAME    frmon-eqiad
 metabase.frdev              1H  IN CNAME    analytics-eqiad.frdev
