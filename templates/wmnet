@@ -1049,6 +1049,7 @@ mw-pretrain              300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
 mw-pretrain-ro           300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 mw-pretrain-jobrunner    300 IN CNAME k8s-ingress-wikikube-rw.discovery.wmnet.
 editcheck-headless       300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
+revision-feature-counts  300 IN CNAME k8s-ingress-wikikube-ro.discovery.wmnet.
 
 
 ; Services that run under Kubernetes Ingress are just CNAME
