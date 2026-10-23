@@ -41,6 +41,9 @@ vrts._domainkey         1H      IN TXT  "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BA
 @                       600     IN CAA 0 issue "pki.goog"
 @                       600     IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
+; Digicert DNS validation (T440185)
+_dnsauth.donate         1H  IN CNAME _hujalya332dw9w2gep6arfqfayiwkfx.dcv.digicert.com.
+
 ; Wikis with mobile site (alphabetic order), which are not covered by langlist.tmpl
 
 abstract                1D IN CNAME dyna.wikimedia.org.
