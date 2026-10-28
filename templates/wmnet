@@ -666,8 +666,6 @@ datahub-frontend                1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 datahub-frontend-next           1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 datahub-gms                     1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 datahub-gms-next                1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
-datasets-config                 1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
-datasets-config-next            1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 echoserver-dse-k8s-eqiad        1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 eventstreams-internal           1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
 growthbook                      1H  IN CNAME    k8s-ingress-dse.svc.eqiad.wmnet.
@@ -1084,8 +1082,6 @@ datahub-frontend        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datahub-frontend-next   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datahub-gms             300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 datahub-gms-next        300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-datasets-config         300 IN CNAME k8s-ingress-dse.discovery.wmnet.
-datasets-config-next    300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 echoserver              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 eventstreams-internal   300 IN CNAME k8s-ingress-dse.discovery.wmnet.
 growthbook              300 IN CNAME k8s-ingress-dse.discovery.wmnet.
