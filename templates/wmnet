@@ -594,7 +594,7 @@ pki             1H  IN A 10.2.2.96
 ; which cannot be setup behind LVS
 druid-analytics  1H  IN A 10.64.5.17  ; an-druid1003.eqiad.wmnet
 druid-analytics  1H  IN A 10.64.21.11 ; an-druid1004.eqiad.wmnet
-druid-analytics  1H  IN A 10.64.53.13 ; an-druid1005.eqiad.wmnet
+druid-analytics  1H  IN A 10.64.182.2 ; an-druid1005.eqiad.wmnet
 druid-analytics  1H  IN A 10.64.159.2 ; an-druid1006.eqiad.wmnet
 druid-analytics  1H  IN A 10.64.167.2 ; an-druid1007.eqiad.wmnet
 
