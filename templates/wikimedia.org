@@ -707,7 +707,6 @@ checkuser        1D IN CNAME dyna.wikimedia.org.
 cn               1D IN CNAME dyna.wikimedia.org.
 co               1D IN CNAME dyna.wikimedia.org.
 collab           1D IN CNAME dyna.wikimedia.org.
-comcom           1D IN CNAME dyna.wikimedia.org.
 commons          1D IN CNAME dyna.wikimedia.org.
 conduct          1D IN CNAME dyna.wikimedia.org.
 dk               1D IN CNAME dyna.wikimedia.org.
