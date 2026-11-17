@@ -39,6 +39,7 @@ vrts._domainkey         1H      IN TXT  "v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BA
 ; CAA records
 @                       600     IN CAA 0 issue "letsencrypt.org"
 @                       600     IN CAA 0 issue "pki.goog"
+@                       600     IN CAA 0 issue "digicert.com"
 @                       600     IN CAA 0 iodef "mailto:dns-admin@wikimedia.org"
 
 ; Digicert DNS validation (T440185)
