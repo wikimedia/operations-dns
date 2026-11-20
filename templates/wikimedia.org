@@ -415,7 +415,6 @@ ee.m                1D IN CNAME dyna.wikimedia.org.
 electcom.m          1D IN CNAME dyna.wikimedia.org.
 et.m                1D IN CNAME dyna.wikimedia.org.
 id.m                1D IN CNAME dyna.wikimedia.org.
-initiatives.m       1D IN CNAME dyna.wikimedia.org.
 id-internal.m       1D IN CNAME dyna.wikimedia.org.
 incubator.m         1D IN CNAME dyna.wikimedia.org.
 fdc.m               1D IN CNAME dyna.wikimedia.org.
@@ -731,7 +730,6 @@ id-internal      1D IN CNAME dyna.wikimedia.org.
 iegcom           1D IN CNAME dyna.wikimedia.org.
 il               1D IN CNAME dyna.wikimedia.org.
 incubator        1D IN CNAME dyna.wikimedia.org.
-initiatives      1D IN CNAME dyna.wikimedia.org.
 internal         1D IN CNAME dyna.wikimedia.org.
 it               1D IN CNAME dyna.wikimedia.org.
 kr               1D IN CNAME dyna.wikimedia.org.
