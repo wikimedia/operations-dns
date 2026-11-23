@@ -44,3 +44,6 @@ www         1D IN CNAME dyna.wikimedia.org.
 
 ; Mobile
 m           1D IN CNAME dyna.wikimedia.org.
+
+; T318804 - Redirect status page with ncredir in case app services are down.
+status          1D IN CNAME ncredir-lb.wikimedia.org.
