@@ -77,6 +77,9 @@ wg-en                   1D IN CNAME dyna.wikimedia.org.
 ; All languages will automatically be included here.
 {% include "helpers/lang-wiki.tmpl" %}
 
+; Fundraising tech hosts (no automation)
+donate          5M IN CNAME payments-eqiad.wikimedia.org.
+
 ; Other non-wiki websites, including redirects for wiki sites
 
 15              1D IN CNAME dyna.wikimedia.org.
@@ -87,7 +90,6 @@ art-tokipona    1D IN CNAME dyna.wikimedia.org.
 bugzilla        1D IN CNAME dyna.wikimedia.org.
 careers         1D IN CNAME dyna.wikimedia.org.
 commons         1D IN CNAME dyna.wikimedia.org.
-donate          1D IN CNAME dyna.wikimedia.org.
 download        1D IN CNAME dyna.wikimedia.org.
 enterprise      1D IN CNAME dyna.wikimedia.org.
 jobs            1D IN CNAME dyna.wikimedia.org.
